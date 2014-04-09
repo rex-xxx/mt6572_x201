@@ -1,0 +1,72 @@
+-----BEGIN CERTIFICATE-----
+MIICyTCCAjKgAwIBAgIEOURomDANBgkqhkiG9w0BAQUFADAkMQswCQYDVQQGEwJD
+TjEVMBMGA1UEChMMQ0ZDQSBSb290IENBMB4XDTAwMDYxMjA0MDcwNloXDTIwMDYx
+MjA0MzcwNlowJDELMAkGA1UEBhMCQ04xFTATBgNVBAoTDENGQ0EgUm9vdCBDQTCB
+nzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAwQf0h96iyMw0c+3ksNQxDX4AfXEr
+8W79sLYSlJtvDB1Dzon3+C/kllyH5/Um5C0dy+XZo6j7ST4tSWR+FZK4t6E3BXtN
+ysy/rMrS2Hcm+tO6XYuInJSzzMjb5EU7TPQB619WSWtHBTbCVMdM9ze6QSgXyhtE
+tAnvJFa4eJtoI/MCAwEAAaOCAQYwggECMBEGCWCGSAGG+EIBAQQEAwIABzBGBgNV
+HR8EPzA9MDugOaA3pDUwMzELMAkGA1UEBhMCQ04xFTATBgNVBAoTDENGQ0EgUm9v
+dCBDQTENMAsGA1UEAxMEQ1JMMTArBgNVHRAEJDAigA8yMDAwMDYxMjA0MDcwNlqB
+DzIwMjAwNjEyMDQzNzA2WjALBgNVHQ8EBAMCAQYwHwYDVR0jBBgwFoAUfxqihn9J
+Cd+XoKYCmug8dPvtzsMwHQYDVR0OBBYEFH8aooZ/SQnfl6CmAproPHT77c7DMAwG
+A1UdEwQFMAMBAf8wHQYJKoZIhvZ9B0EABBAwDhsIVjUuMDo0LjADAgSQMA0GCSqG
+SIb3DQEBBQUAA4GBAAPC0WW3cQVjZKEiP3OSbKPzJn4gpetOZP+NeWvZ8LeeTgOy
+dg0LR0J9rGrIURj+JiMXmVGlDKEJADrOeaKbzJDR6zuAer6iRmPpzDpDjaM16sSb
+yim2fxaBnW7Ns+fT1aZ3i+8q5MERi3eJaiyCOSJB1qPUeEkjm6JP758lZe2C
+-----END CERTIFICATE-----
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 960784536 (0x39446898)
+        Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=CN, O=CFCA Root CA
+        Validity
+            Not Before: Jun 12 04:07:06 2000 GMT
+            Not After : Jun 12 04:37:06 2020 GMT
+        Subject: C=CN, O=CFCA Root CA
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:c1:07:f4:87:de:a2:c8:cc:34:73:ed:e4:b0:d4:
+                    31:0d:7e:00:7d:71:2b:f1:6e:fd:b0:b6:12:94:9b:
+                    6f:0c:1d:43:ce:89:f7:f8:2f:e4:96:5c:87:e7:f5:
+                    26:e4:2d:1d:cb:e5:d9:a3:a8:fb:49:3e:2d:49:64:
+                    7e:15:92:b8:b7:a1:37:05:7b:4d:ca:cc:bf:ac:ca:
+                    d2:d8:77:26:fa:d3:ba:5d:8b:88:9c:94:b3:cc:c8:
+                    db:e4:45:3b:4c:f4:01:eb:5f:56:49:6b:47:05:36:
+                    c2:54:c7:4c:f7:37:ba:41:28:17:ca:1b:44:b4:09:
+                    ef:24:56:b8:78:9b:68:23:f3
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            Netscape Cert Type: 
+                SSL CA, S/MIME CA, Object Signing CA
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  DirName: C = CN, O = CFCA Root CA, CN = CRL1
+
+            X509v3 Private Key Usage Period: 
+                Not Before: Jun 12 04:07:06 2000 GMT, Not After: Jun 12 04:37:06 2020 GMT
+            X509v3 Key Usage: 
+                Certificate Sign, CRL Sign
+            X509v3 Authority Key Identifier: 
+                keyid:7F:1A:A2:86:7F:49:09:DF:97:A0:A6:02:9A:E8:3C:74:FB:ED:CE:C3
+
+            X509v3 Subject Key Identifier: 
+                7F:1A:A2:86:7F:49:09:DF:97:A0:A6:02:9A:E8:3C:74:FB:ED:CE:C3
+            X509v3 Basic Constraints: 
+                CA:TRUE
+            1.2.840.113533.7.65.0: 
+                0...V5.0:4.0....
+    Signature Algorithm: sha1WithRSAEncryption
+        03:c2:d1:65:b7:71:05:63:64:a1:22:3f:73:92:6c:a3:f3:26:
+        7e:20:a5:eb:4e:64:ff:8d:79:6b:d9:f0:b7:9e:4e:03:b2:76:
+        0d:0b:47:42:7d:ac:6a:c8:51:18:fe:26:23:17:99:51:a5:0c:
+        a1:09:00:3a:ce:79:a2:9b:cc:90:d1:eb:3b:80:7a:be:a2:46:
+        63:e9:cc:3a:43:8d:a3:35:ea:c4:9b:ca:29:b6:7f:16:81:9d:
+        6e:cd:b3:e7:d3:d5:a6:77:8b:ef:2a:e4:c1:11:8b:77:89:6a:
+        2c:82:39:22:41:d6:a3:d4:78:49:23:9b:a2:4f:ef:9f:25:65:
+        ed:82
+SHA1 Fingerprint=31:BD:6A:EF:73:03:1C:5A:49:33:8E:7A:06:04:0D:D8:15:EF:75:12
