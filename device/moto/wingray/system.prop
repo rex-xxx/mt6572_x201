@@ -1,0 +1,12 @@
+# RIL and telephony related settings
+rild.libargs=-d /dev/chnlat10
+rild.libpath=/system/lib/libmoto_ril.so
+persist.ril.mux.ttydevice=/dev/usb/tty2-1:1.2
+persist.ril.mux.noofchannels=8
+persist.ril.modem.mode=1
+persist.ril.modem.ttydevice=/dev/usb/tty2-1:1.4
+ro.telephony.default_network=4
+
+# The OpenGL ES API level that is natively supported by this device.
+# This is a 16.16 fixed point number
+ro.opengles.version = 131072

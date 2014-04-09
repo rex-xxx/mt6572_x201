@@ -1,0 +1,30 @@
+/dev/knvmap	0660	system	system
+/dev/nvmap	0666	system	system
+/dev/ov5650	0660	media	camera
+/dev/dw9714l    0660    media   camera
+/dev/soc2030	0660	media	camera
+/dev/audio*	0660	system	audio
+/dev/spdif*	0660	system	audio
+/dev/tegra_camera	0660	media	camera
+/dev/ttyUSB0	0640	radio	radio
+/dev/ttyUSB1	0640	radio	radio
+/dev/ttyUSB2	0640	radio	radio
+/dev/ttyUSB3	0640	radio	radio
+/dev/ttyUSB4	0640	radio	radio
+/dev/ttyUSB5	0640	radio	radio
+/dev/ttyUSB6	0640	radio	radio
+/dev/cpcap	0600	radio	radio
+/dev/tegra_avp	0660	media	media
+/dev/tegra_rpc	0660	media	media
+/dev/tegra_sema	0660	media	media
+/dev/tegra-crypto	0660	system	system
+/dev/qcqmi0	0640	radio	radio
+/dev/qcqmi1	0640	radio	radio
+/dev/qcqmi2	0640	radio	radio
+/dev/qcqmi3	0640	radio	radio
+/dev/tegra_fuse	0660	system	system
+/dev/nvhdcp*    0660    system  system
+/dev/hidraw*    0600    radio   radio
+
+#sysfs properties
+/sys/devices/platform/tegra-ehci.2/usb2/* remove 0220 radio radio

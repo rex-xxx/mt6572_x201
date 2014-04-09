@@ -1,0 +1,49 @@
+# RIL and telephony related settings
+rild.libargs=-d /dev/chnlat10
+#Point to lte, CDMA, MM RILs
+lte_ril.libpath=/system/lib/libmoto_lte_ril.so
+cdma_ril.libpath=/system/lib/libmoto_cdma_ril.so
+rild.libpath=/system/lib/libmoto_mm_ril.so
+ril.rat=LTE
+persist.ril.mux.ttydevice=/dev/usb/tty2-1:1.2
+# Increase # channels to 10 to allow M2M communication
+persist.ril.mux.noofchannels=10
+persist.ril.modem.mode=1
+# Enable ALWAYS_READ_IMSI_FROM_SIM
+persist.ril.features=800
+ro.cdma.home.operator.numeric=310004
+ro.cdma.home.operator.alpha=Verizon
+ro.cdma.homesystem=64,65,76,77,78,79,80,81,82,83
+ro.cdma.data_retry_config=default_randomization=2000,0,0,120000,180000,540000,960000
+persist.ril.modem.ttydevice=/dev/usb/tty2-1:1.4
+persist.ril.tcmd.ttydevice=/dev/usb/tty2-1:1.3
+persist.ril.diag.ttydevice=/dev/usb/tty2-1:1.0
+ril.wrigley.modem.tty=/dev/usb/tty1-1:1.10
+#Leave default mode to 4 (CDMA) but need it to be Global (7) for LTE/CDMA
+ro.telephony.default_network=4
+
+# Disable ims by setting imsapp.mode to all_dependency_met
+#imsapp.mode=all_dependency_met
+
+# The value of the kernel command line product_type variable for lte on cdma devices
+telephony.lteOnCdmaProductType=clw
+
+# The OpenGL ES API level that is natively supported by this device.
+# This is a 16.16 fixed point number
+ro.opengles.version = 131072
+
+# Indicate carrier OTA SP number schema
+# refer to frameworks/base/telephony/java/com/android/
+# internal/telephony/cdma/CDMAPhone.java for the schema:
+ro.cdma.otaspnumschema=SELC,1,80,99
+
+# Give extra time for LTE bug dumps
+ril.dumpstate.timeout=75
+
+# Retry config when GSM DCT is used for EHRPD/LTE call
+ro.gsm.data_retry_config=max_retries=infinite,default_randomization=2000,0,0,80000,125000,485000,905000
+ro.gsm.2nd_data_retry_config=max_retries=infinite,default_randomization=2000,0,0,80000,125000,485000,905000
+
+ro.ril.panic.reporter=apr
+
+ro.ril.fccid=IHDP56LU2

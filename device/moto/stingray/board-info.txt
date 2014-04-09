@@ -1,0 +1,4 @@
+require product=stingray|xoom-cdma|xoom-cdma-lte
+require version-bootloader=1050
+require version-baseband=CDMA_N_03.1A.64PS
+require-for-product:xoom-cdma-lte version-baseband-2=LTEDC_U_07.1F.00

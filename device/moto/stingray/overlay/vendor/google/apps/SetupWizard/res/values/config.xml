@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Overlay the default hostname to look for a redirect to in order to detect
+         that this is a prepay device with a zero account balance. -->
+    <string name="prepaid_detection_redir_host_default" translatable="false">quickaccess.verizonwireless.com</string>
+
+    <!-- Overlay the default URL to launch the browser on to set up a prepay account. -->
+    <string name="prepaid_setup_url_default" translatable="false">http://quickaccess.verizonwireless.com/bbportal/oem/start.do?imsi=^1</string>
+
+</resources>
+
