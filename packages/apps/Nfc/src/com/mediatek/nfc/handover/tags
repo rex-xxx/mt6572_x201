@@ -1,0 +1,697 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AlternativeCarrier	HandoverMessage.java	/^    private static class AlternativeCarrier {$/;"	c	class:HandoverMessage
+BEAM_PLUS_SUPPORT	MtkHandoverManager.java	/^    public static final boolean BEAM_PLUS_SUPPORT = true;$/;"	f	class:MtkHandoverManager
+BTCarrierConfiguration	BTCarrierConfiguration.java	/^    private BTCarrierConfiguration() {$/;"	m	class:BTCarrierConfiguration	file:
+BTCarrierConfiguration	BTCarrierConfiguration.java	/^    public BTCarrierConfiguration(String strBtMacAddress) {$/;"	m	class:BTCarrierConfiguration
+BTCarrierConfiguration	BTCarrierConfiguration.java	/^    public BTCarrierConfiguration(byte[] btMacAddress) {$/;"	m	class:BTCarrierConfiguration
+BTCarrierConfiguration	BTCarrierConfiguration.java	/^public class BTCarrierConfiguration extends CarrierConfigurationRecord {$/;"	c
+BT_CARRIER_TYPE	BTCarrierConfiguration.java	/^	public static final String BT_CARRIER_TYPE = "application\/vnd.bluetooth.ep.oob";$/;"	f	class:BTCarrierConfiguration
+BeamPlusHandover	BeamPlusHandover.java	/^	public BeamPlusHandover(Context context, IWifiP2pProxy wifiP2pProxy) {$/;"	m	class:BeamPlusHandover
+BeamPlusHandover	BeamPlusHandover.java	/^public class BeamPlusHandover {$/;"	c
+BeamPlusUi	ui/BeamPlusUi.java	/^	public BeamPlusUi(Context context) {$/;"	m	class:BeamPlusUi
+BeamPlusUi	ui/BeamPlusUi.java	/^public abstract class BeamPlusUi {$/;"	c
+CARRIER_DATA_REF_LENGTH	MtkHandoverManager.java	/^        static final byte CARRIER_DATA_REF_LENGTH = 1;$/;"	f	class:MtkHandoverManager.HandoverMessageElement
+CARRIER_POWER_STATE_ACTIVATING	HandoverMessage.java	/^    public static final byte CARRIER_POWER_STATE_ACTIVATING = 2;$/;"	f	class:HandoverMessage
+CARRIER_POWER_STATE_ACTIVE	HandoverMessage.java	/^    public static final byte CARRIER_POWER_STATE_ACTIVE = 1;$/;"	f	class:HandoverMessage
+CARRIER_POWER_STATE_INACTIVE	HandoverMessage.java	/^    public static final byte CARRIER_POWER_STATE_INACTIVE = 0;$/;"	f	class:HandoverMessage
+CARRIER_POWER_STATE_UNKNOWN	HandoverMessage.java	/^    public static final byte CARRIER_POWER_STATE_UNKNOWN = 3;$/;"	f	class:HandoverMessage
+CLASS_TAG	FilePushClient.java	/^	private static final String CLASS_TAG = "FilePushClient";$/;"	f	class:FilePushClient	file:
+COLLISION_RESOLUTION_RECORD_TYPE	HandoverMessage.java	/^    public static final byte[] COLLISION_RESOLUTION_RECORD_TYPE = {$/;"	f	class:HandoverMessage
+CPS	HandoverMessage.java	/^	byte CPS;$/;"	f	class:HandoverMessage.AlternativeCarrier
+CarrierConfigurationRecord	CarrierData.java	/^    public static abstract class CarrierConfigurationRecord extends CarrierData {$/;"	c	class:CarrierData
+CarrierData	CarrierData.java	/^public abstract class CarrierData {$/;"	c
+ClientSession	FilePushClient.java	/^	private class ClientSession implements Runnable {$/;"	c	class:FilePushClient
+CreateHrMEntry	MtkHandoverManager.java	/^    public NdefMessage CreateHrMEntry(Uri[] uris,String handoverCase) throws Exception{$/;"	m	class:MtkHandoverManager
+Credential	WifiCarrierConfiguration.java	/^	public static class Credential {$/;"	c	class:WifiCarrierConfiguration
+DAFAULT_PASSWORD_ID_FIELD	WifiCarrierConfiguration.java	/^		private static final short DAFAULT_PASSWORD_ID_FIELD = 0x0010;$/;"	f	class:WifiCarrierConfiguration.PasswordToken	file:
+DATA_FIX_SIZE	WifiCarrierConfiguration.java	/^		private static final int DATA_FIX_SIZE = 5;$/;"	f	class:WifiCarrierConfiguration.Credential	file:
+DBG	MtkHandoverManager.java	/^    static final boolean DBG = true;$/;"	f	class:MtkHandoverManager
+DBG	WifiDisplayProxy.java	/^    static final boolean DBG = true;$/;"	f	class:WifiDisplayProxy
+DEFAULT_AUTHENTICATION_TYPE	WifiCarrierConfiguration.java	/^		private static final short DEFAULT_AUTHENTICATION_TYPE = 0x0020;$/;"	f	class:WifiCarrierConfiguration.Credential	file:
+DEFAULT_CARRIER_TYPE_FORMAT	CarrierData.java	/^	private static final byte DEFAULT_CARRIER_TYPE_FORMAT = 0x02;$/;"	f	class:CarrierData.HandoverCarrierRecord	file:
+DEFAULT_ENCRYPTION_TYPE	WifiCarrierConfiguration.java	/^		private static final short DEFAULT_ENCRYPTION_TYPE = 0x0008;$/;"	f	class:WifiCarrierConfiguration.Credential	file:
+DEFAULT_NETWORK_INDEX	WifiCarrierConfiguration.java	/^		private static final byte DEFAULT_NETWORK_INDEX = 0x01;$/;"	f	class:WifiCarrierConfiguration.Credential	file:
+DEFAULT_REPOSITORY_PATH	FilePushServer.java	/^	private static final String DEFAULT_REPOSITORY_PATH = "\/storage\/sdcard1\/mbeam\/";$/;"	f	class:FilePushServer	file:
+DEFAULT_WIFI_VERISON	WifiCarrierConfiguration.java	/^	private static final byte DEFAULT_WIFI_VERISON = 0x10;$/;"	f	class:WifiCarrierConfiguration	file:
+EMPTY_BYTES	HandoverMessage.java	/^    private static final byte[] EMPTY_BYTES = new byte[0];$/;"	f	class:HandoverMessage	file:
+EMPTY_BYTES	WifiCarrierConfiguration.java	/^	private static final byte[] EMPTY_BYTES = new byte[0];$/;"	f	class:WifiCarrierConfiguration	file:
+EMPTY_PASSWORD	WifiCarrierConfiguration.java	/^		private static final byte[] EMPTY_PASSWORD = { 0x30, 0x30, 0x30, 0x30,$/;"	f	class:WifiCarrierConfiguration.PasswordToken	file:
+ERROR_RECORD_REASON_CONNECTION_REJECCT	HandoverMessage.java	/^	public static final byte ERROR_RECORD_REASON_CONNECTION_REJECCT = 0x22;	$/;"	f	class:HandoverMessage
+ERROR_RECORD_REASON_INVALID	HandoverMessage.java	/^	public static final byte ERROR_RECORD_REASON_INVALID = 0x21;$/;"	f	class:HandoverMessage
+ERROR_RECORD_REASON_NOT_MATCH	HandoverMessage.java	/^    public static final byte ERROR_RECORD_REASON_NOT_MATCH = 0x20;$/;"	f	class:HandoverMessage
+ERROR_RECORD_REASON_OTHER	HandoverMessage.java	/^	public static final byte ERROR_RECORD_REASON_OTHER = 0x2F;\/\/47$/;"	f	class:HandoverMessage
+ERROR_RECORD_TYPE	HandoverMessage.java	/^    private static final byte[] ERROR_RECORD_TYPE = {$/;"	f	class:HandoverMessage	file:
+EXTRA_NFC_WFD_AUTH_TYPE	MtkHandoverManager.java	/^    public static final String EXTRA_NFC_WFD_AUTH_TYPE =$/;"	f	class:MtkHandoverManager
+EXTRA_NFC_WFD_ENC_TYPE	MtkHandoverManager.java	/^    public static final String EXTRA_NFC_WFD_ENC_TYPE =$/;"	f	class:MtkHandoverManager
+EXTRA_NFC_WFD_GC_IP	MtkHandoverManager.java	/^    public static final String EXTRA_NFC_WFD_GC_IP =$/;"	f	class:MtkHandoverManager
+EXTRA_NFC_WFD_GO_IP	MtkHandoverManager.java	/^    public static final String EXTRA_NFC_WFD_GO_IP =$/;"	f	class:MtkHandoverManager
+EXTRA_NFC_WFD_MAC_ADDR	MtkHandoverManager.java	/^    public static final String EXTRA_NFC_WFD_MAC_ADDR =$/;"	f	class:MtkHandoverManager
+EXTRA_NFC_WFD_MAX_HEIGHT	MtkHandoverManager.java	/^    public static final String EXTRA_NFC_WFD_MAX_HEIGHT =$/;"	f	class:MtkHandoverManager
+EXTRA_NFC_WFD_MAX_WIDTH	MtkHandoverManager.java	/^    public static final String EXTRA_NFC_WFD_MAX_WIDTH =$/;"	f	class:MtkHandoverManager
+EXTRA_NFC_WFD_NETWORK_ID	MtkHandoverManager.java	/^    public static final String EXTRA_NFC_WFD_NETWORK_ID =$/;"	f	class:MtkHandoverManager
+EXTRA_NFC_WFD_NETWORK_KEY	MtkHandoverManager.java	/^    public static final String EXTRA_NFC_WFD_NETWORK_KEY =$/;"	f	class:MtkHandoverManager
+EXTRA_NFC_WFD_SSID	MtkHandoverManager.java	/^    public static final String EXTRA_NFC_WFD_SSID =$/;"	f	class:MtkHandoverManager
+EXTRA_NFC_WFD_VENDOR_ID	MtkHandoverManager.java	/^    public static final String EXTRA_NFC_WFD_VENDOR_ID =$/;"	f	class:MtkHandoverManager
+FIX_FIELDS_LENGTH	WifiCarrierConfiguration.java	/^	private static final int FIX_FIELDS_LENGTH = 5;$/;"	f	class:WifiCarrierConfiguration	file:
+FIX_FIELD_LENGTH	WifiCarrierConfiguration.java	/^		private static final int FIX_FIELD_LENGTH = 22;$/;"	f	class:WifiCarrierConfiguration.PasswordToken	file:
+FilePushClient	FilePushClient.java	/^	public FilePushClient() {$/;"	m	class:FilePushClient
+FilePushClient	FilePushClient.java	/^public class FilePushClient implements IClient {$/;"	c
+FilePushServer	FilePushServer.java	/^	public FilePushServer() {$/;"	m	class:FilePushServer
+FilePushServer	FilePushServer.java	/^public class FilePushServer implements IServer {$/;"	c
+FileTransfer	FileTransfer.java	/^	private FileTransfer() {$/;"	m	class:FileTransfer	file:
+FileTransfer	FileTransfer.java	/^public class FileTransfer {$/;"	c
+GroupInfoObserver	WifiP2pProxy.java	/^		public GroupInfoObserver(boolean isOwner) {$/;"	m	class:WifiP2pProxy.GroupInfoObserver
+GroupInfoObserver	WifiP2pProxy.java	/^	private class GroupInfoObserver implements GroupInfoListener {$/;"	c	class:WifiP2pProxy
+HANDOVER_CARRIER_CONFIGURATION_RECORD	HandoverMessage.java	/^	public static final int HANDOVER_CARRIER_CONFIGURATION_RECORD = 2;$/;"	f	class:HandoverMessage.HandoverCarrier
+HANDOVER_CARRIER_RECORD	HandoverMessage.java	/^	public static final int HANDOVER_CARRIER_RECORD = 1;$/;"	f	class:HandoverMessage.HandoverCarrier
+HEADER_SIZE	WifiCarrierConfiguration.java	/^		private static final int HEADER_SIZE = 4;$/;"	f	class:WifiCarrierConfiguration.PasswordToken	file:
+HME_BDG	MtkHandoverManager.java	/^        static final boolean HME_BDG = true;$/;"	f	class:MtkHandoverManager.HandoverMessageElement
+HandoverBuilderParser	HandoverBuilderParser.java	/^public class HandoverBuilderParser {$/;"	c
+HandoverCarrier	HandoverMessage.java	/^	private HandoverCarrier(short cps, int format, String protocol, byte[] data) {$/;"	m	class:HandoverMessage.HandoverCarrier	file:
+HandoverCarrier	HandoverMessage.java	/^    public static class HandoverCarrier {$/;"	c	class:HandoverMessage
+HandoverCarrierRecord	CarrierData.java	/^	private HandoverCarrierRecord(byte[] carrierType) {$/;"	m	class:CarrierData.HandoverCarrierRecord	file:
+HandoverCarrierRecord	CarrierData.java	/^    public static class HandoverCarrierRecord extends CarrierData {$/;"	c	class:CarrierData
+HandoverMessage	HandoverMessage.java	/^public class HandoverMessage {$/;"	c
+HandoverMessageElement	MtkHandoverManager.java	/^	public static class HandoverMessageElement {$/;"	c	class:MtkHandoverManager
+HandoverMessageElement	MtkHandoverManager.java	/^        HandoverMessageElement(NdefMessage m){$/;"	m	class:MtkHandoverManager.HandoverMessageElement
+HandoverRequest	HandoverMessage.java	/^	private HandoverRequest(byte version, byte[] crn,$/;"	m	class:HandoverMessage.HandoverRequest	file:
+HandoverRequest	HandoverMessage.java	/^    public static class HandoverRequest {$/;"	c	class:HandoverMessage
+HandoverSelect	HandoverMessage.java	/^	private HandoverSelect(byte version, HandoverCarrier[] carriers,$/;"	m	class:HandoverMessage.HandoverSelect	file:
+HandoverSelect	HandoverMessage.java	/^    public static class HandoverSelect {$/;"	c	class:HandoverMessage
+IClient	FileTransfer.java	/^	public interface IClient {$/;"	i	class:FileTransfer
+IClientEventListener	FileTransfer.java	/^	public interface IClientEventListener {$/;"	i	class:FileTransfer
+IFastConnectInfo	IWifiP2pProxy.java	/^	public interface IFastConnectInfo {$/;"	i	interface:IWifiP2pProxy
+IReceiverUI	FileTransfer.java	/^	public interface IReceiverUI {$/;"	i	class:FileTransfer
+ISenderUI	FileTransfer.java	/^	public interface ISenderUI {$/;"	i	class:FileTransfer
+IServer	FileTransfer.java	/^	public interface IServer {$/;"	i	class:FileTransfer
+IServerEventListener	FileTransfer.java	/^	public interface IServerEventListener {$/;"	i	class:FileTransfer
+IWifiDisplayProxy	IWifiDisplayProxy.java	/^public interface IWifiDisplayProxy {$/;"	i
+IWifiP2pDevice	IWifiP2pProxy.java	/^	public interface IWifiP2pDevice {$/;"	i	interface:IWifiP2pProxy
+IWifiP2pProxy	IWifiP2pProxy.java	/^public interface IWifiP2pProxy {$/;"	i
+Job	FilePushClient.java	/^	private class Job {$/;"	c	class:FilePushClient
+JobCancelException	exceptions/JobCancelException.java	/^public class JobCancelException extends Exception {$/;"	c
+LISTENING_PORT	FilePushServer.java	/^	private static final int LISTENING_PORT = 3128;$/;"	f	class:FilePushServer	file:
+MAX_BUFFER_SIZE	FilePushServer.java	/^	private static final int MAX_BUFFER_SIZE = 2048;$/;"	f	class:FilePushServer	file:
+MAX_NOTIFICATION_ID	FilePushClient.java	/^	private static final int MAX_NOTIFICATION_ID = 200000;$/;"	f	class:FilePushClient	file:
+MAX_NOTIFICATION_ID	FilePushServer.java	/^	private static final int MAX_NOTIFICATION_ID = 200000;$/;"	f	class:FilePushServer	file:
+MAX_PASSWORD_LENGTH	WifiCarrierConfiguration.java	/^		private static final int MAX_PASSWORD_LENGTH = 32;$/;"	f	class:WifiCarrierConfiguration.PasswordToken	file:
+MAX_PEER_WAITING_TIME	FilePushServer.java	/^	private static final int MAX_PEER_WAITING_TIME = 1000;$/;"	f	class:FilePushServer	file:
+MAX_PROGRESS_VALUE	FileTransfer.java	/^	public static final int MAX_PROGRESS_VALUE = 100;$/;"	f	class:FileTransfer
+MAX_SEND_BUFFER	FilePushClient.java	/^	private static final int MAX_SEND_BUFFER = 4096;$/;"	f	class:FilePushClient	file:
+MAX_SERVER_WAITING_TIME	FilePushServer.java	/^	private static final int MAX_SERVER_WAITING_TIME = 1000;$/;"	f	class:FilePushServer	file:
+MAX_WAITING_CONNECT_TIME	FilePushClient.java	/^	private static final int MAX_WAITING_CONNECT_TIME = 1000;$/;"	f	class:FilePushClient	file:
+MESSAGE_CANCEL_BY_USER	FilePushClient.java	/^	private static final int MESSAGE_CANCEL_BY_USER = 0x04;$/;"	f	class:FilePushClient	file:
+MESSAGE_CANCEL_BY_USER	FilePushServer.java	/^	private static final int MESSAGE_CANCEL_BY_USER = 0x04;$/;"	f	class:FilePushServer	file:
+MESSAGE_CANCEL_TRANSMIT	FileTransfer.java	/^	public static final int MESSAGE_CANCEL_TRANSMIT = 0x1002;$/;"	f	class:FileTransfer
+MESSAGE_DISCONNECT	FilePushClient.java	/^	private static final int MESSAGE_DISCONNECT = 0x06;$/;"	f	class:FilePushClient	file:
+MESSAGE_EXCEPTION_OCCUR	FilePushClient.java	/^	private static final int MESSAGE_EXCEPTION_OCCUR = 0x05;$/;"	f	class:FilePushClient	file:
+MESSAGE_EXCEPTION_OCCUR	FilePushServer.java	/^	private static final int MESSAGE_EXCEPTION_OCCUR = 0x05;$/;"	f	class:FilePushServer	file:
+MESSAGE_OK	FileTransfer.java	/^	public static final int MESSAGE_OK = 0;$/;"	f	class:FileTransfer
+MESSAGE_PENDING	FileTransfer.java	/^	public static final int MESSAGE_PENDING = 0x2000;$/;"	f	class:FileTransfer
+MESSAGE_PREPARE_PROGRESS	FilePushClient.java	/^	private static final int MESSAGE_PREPARE_PROGRESS = 0x01;$/;"	f	class:FilePushClient	file:
+MESSAGE_PREPARE_PROGRESS	FilePushServer.java	/^	private static final int MESSAGE_PREPARE_PROGRESS = 0x01;$/;"	f	class:FilePushServer	file:
+MESSAGE_PROGRESS_FINISH	FilePushClient.java	/^	private static final int MESSAGE_PROGRESS_FINISH = 0x03;$/;"	f	class:FilePushClient	file:
+MESSAGE_PROGRESS_FINISH	FilePushServer.java	/^	private static final int MESSAGE_PROGRESS_FINISH = 0x03;$/;"	f	class:FilePushServer	file:
+MESSAGE_PROGRESS_UPDATE	FilePushClient.java	/^	private static final int MESSAGE_PROGRESS_UPDATE = 0x02;$/;"	f	class:FilePushClient	file:
+MESSAGE_PROGRESS_UPDATE	FilePushServer.java	/^	private static final int MESSAGE_PROGRESS_UPDATE = 0x02;$/;"	f	class:FilePushServer	file:
+MESSAGE_TRANSMIT_ERROR	FileTransfer.java	/^	public static final int MESSAGE_TRANSMIT_ERROR = 0x1001;$/;"	f	class:FileTransfer
+MIN_PASSWORD_LENGTH	WifiCarrierConfiguration.java	/^		private static final int MIN_PASSWORD_LENGTH = 16;$/;"	f	class:WifiCarrierConfiguration.PasswordToken	file:
+MIN_PROGRESS_VALUE	FileTransfer.java	/^	public static final int MIN_PROGRESS_VALUE = 0;$/;"	f	class:FileTransfer
+MtkHandoverManager	MtkHandoverManager.java	/^    public MtkHandoverManager(Context context,HandoverManager handoverManager) {$/;"	m	class:MtkHandoverManager
+MtkHandoverManager	MtkHandoverManager.java	/^public class MtkHandoverManager {\/\/implements BluetoothProfile.ServiceListener,\/\/	BluetoothHeadsetHandover.Callback {$/;"	c
+MtkWifiP2pHandover	MtkWifiP2pHandover.java	/^	public MtkWifiP2pHandover(Context context){$/;"	m	class:MtkWifiP2pHandover
+MtkWifiP2pHandover	MtkWifiP2pHandover.java	/^	public MtkWifiP2pHandover(Context context,Uri[] uris$/;"	m	class:MtkWifiP2pHandover
+MtkWifiP2pHandover	MtkWifiP2pHandover.java	/^public class MtkWifiP2pHandover{$/;"	c
+NDEF_TYPE_NAME	CarrierData.java	/^	private static final byte[] NDEF_TYPE_NAME = "Hc".getBytes();$/;"	f	class:CarrierData.HandoverCarrierRecord	file:
+NFC_HANDOVER_INTENT_ACTION_WFD_ACTIVE	MtkHandoverManager.java	/^    static final String NFC_HANDOVER_INTENT_ACTION_WFD_ACTIVE =$/;"	f	class:MtkHandoverManager
+OCTET_STREAM	HandoverMessage.java	/^    public static final byte[] OCTET_STREAM = "application\/octet-stream"$/;"	f	class:HandoverMessage
+PROTOCOL_ACCEPT	FilePushServer.java	/^	private static final byte[] PROTOCOL_ACCEPT = FileTransfer.PROTOCOL_MESSAGE_ACCEPT$/;"	f	class:FilePushServer	file:
+PROTOCOL_ERR	FilePushServer.java	/^	private static final byte[] PROTOCOL_ERR = FileTransfer.PROTOCOL_MESSAGE_ERR$/;"	f	class:FilePushServer	file:
+PROTOCOL_MESSAGE_ACCEPT	FileTransfer.java	/^	public static final String PROTOCOL_MESSAGE_ACCEPT = "Accept: Beam+";$/;"	f	class:FileTransfer
+PROTOCOL_MESSAGE_ERR	FileTransfer.java	/^	public static final String PROTOCOL_MESSAGE_ERR = "Deny: Error";$/;"	f	class:FileTransfer
+PROTOCOL_MESSAGE_OK	FileTransfer.java	/^	public static final String PROTOCOL_MESSAGE_OK = "Accept: Next";$/;"	f	class:FileTransfer
+PROTOCOL_OK	FilePushServer.java	/^	private static final byte[] PROTOCOL_OK = FileTransfer.PROTOCOL_MESSAGE_OK$/;"	f	class:FilePushServer	file:
+ParsedMessage	MtkHandoverManager.java	/^        static void ParsedMessage(NdefMessage m)throws FormatException {$/;"	m	class:MtkHandoverManager.HandoverMessageElement
+PasswordToken	WifiCarrierConfiguration.java	/^	public static class PasswordToken {$/;"	c	class:WifiCarrierConfiguration
+ReadEofException	exceptions/ReadEofException.java	/^public class ReadEofException extends Exception {$/;"	c
+ReceiverUI	ReceiverUI.java	/^	public ReceiverUI(Context context, IServer server) {$/;"	m	class:ReceiverUI
+ReceiverUI	ReceiverUI.java	/^public class ReceiverUI extends BeamPlusUi implements IReceiverUI {$/;"	c
+SCENARIO_BEAMPLUS_P2P	MtkHandoverManager.java	/^    public static final int SCENARIO_BEAMPLUS_P2P    =1;\/\/= "com.mediatek.nfc.handover.SCENARIO_BEAMPLUS_P2P";$/;"	f	class:MtkHandoverManager
+SCENARIO_JB_ORIGINAL	MtkHandoverManager.java	/^    public static final int SCENARIO_JB_ORIGINAL     =0;\/\/= "com.mediatek.nfc.handover.SCENARIO_JB_ORIGINAL";$/;"	f	class:MtkHandoverManager
+SCENARIO_WFD	MtkHandoverManager.java	/^    public static final int SCENARIO_WFD             =2;\/\/= "com.mediatek.nfc.handover.SCENARIO_WFD";$/;"	f	class:MtkHandoverManager
+SCENARIO_WIFI_LEGACY	MtkHandoverManager.java	/^    public static final int SCENARIO_WIFI_LEGACY     =3;\/\/= "com.mediatek.nfc.handover.SCENARIO_WIFI_LEGACY";$/;"	f	class:MtkHandoverManager
+STATE_CONNECTED	BeamPlusHandover.java	/^	private static final int STATE_CONNECTED = 4;$/;"	f	class:BeamPlusHandover	file:
+STATE_CONNECTING	BeamPlusHandover.java	/^	private static final int STATE_CONNECTING = 3;$/;"	f	class:BeamPlusHandover	file:
+STATE_DISABLED	BeamPlusHandover.java	/^	private static final int STATE_DISABLED = 0;$/;"	f	class:BeamPlusHandover	file:
+STATE_DISCONNECTING	BeamPlusHandover.java	/^	private static final int STATE_DISCONNECTING = 5;$/;"	f	class:BeamPlusHandover	file:
+STATE_ENABLED	BeamPlusHandover.java	/^	private static final int STATE_ENABLED = 2;$/;"	f	class:BeamPlusHandover	file:
+STATE_ENABLING	BeamPlusHandover.java	/^	private static final int STATE_ENABLING = 1;$/;"	f	class:BeamPlusHandover	file:
+SenderUI	SenderUI.java	/^	public SenderUI(Context context, IClient ISender) {$/;"	m	class:SenderUI
+SenderUI	SenderUI.java	/^public class SenderUI extends BeamPlusUi implements ISenderUI {$/;"	c
+ServerThread	FilePushServer.java	/^	private class ServerThread implements Runnable {$/;"	c	class:FilePushServer
+Session	FilePushServer.java	/^		public Session(SocketChannel channel) {$/;"	m	class:FilePushServer.Session
+Session	FilePushServer.java	/^	private class Session implements Runnable {$/;"	c	class:FilePushServer
+TAG	BeamPlusHandover.java	/^	private static final String TAG = "BeamPlusHandover";$/;"	f	class:BeamPlusHandover	file:
+TAG	FilePushClient.java	/^	private static final String TAG = "Beam+";$/;"	f	class:FilePushClient	file:
+TAG	FilePushServer.java	/^	private static final String TAG = "Beam+";$/;"	f	class:FilePushServer	file:
+TAG	HandoverBuilderParser.java	/^    static final String TAG = "HandoverBuilderParser";$/;"	f	class:HandoverBuilderParser
+TAG	MtkHandoverManager.java	/^        static final String TAG = "HandoverMessageElement";$/;"	f	class:MtkHandoverManager.HandoverMessageElement
+TAG	MtkHandoverManager.java	/^    static final String TAG = "MtkHandoverManager";$/;"	f	class:MtkHandoverManager
+TAG	ReceiverUI.java	/^	private static final String TAG = "Beam+";$/;"	f	class:ReceiverUI	file:
+TAG	SenderUI.java	/^	private static final String TAG = "Beam+";$/;"	f	class:SenderUI	file:
+TAG	WifiCarrierConfiguration.java	/^        static final String TAG = "Credential";$/;"	f	class:WifiCarrierConfiguration.Credential
+TAG	WifiCarrierConfiguration.java	/^    static final String TAG = "WifiCarrierConfiguration";$/;"	f	class:WifiCarrierConfiguration
+TAG	WifiDisplayProxy.java	/^    static final String TAG = "WifiDisplayProxy";$/;"	f	class:WifiDisplayProxy
+TAG	WifiP2pProxy.java	/^	private static final String TAG = "WifiP2pProxy";$/;"	f	class:WifiP2pProxy	file:
+TLV	WifiCarrierConfiguration.java	/^	public static class TLV {$/;"	c	class:WifiCarrierConfiguration
+TNF	CarrierData.java	/^	private static final short TNF = 0x1;$/;"	f	class:CarrierData.HandoverCarrierRecord	file:
+TYPE	WifiCarrierConfiguration.java	/^	public static final String TYPE = "application\/vnd.wfa.wsc";$/;"	f	class:WifiCarrierConfiguration
+TaskNoticiation	ui/BeamPlusUi.java	/^	private static class TaskNoticiation {$/;"	c	class:BeamPlusUi
+TheFastConnectInfo	WifiP2pProxy.java	/^		public TheFastConnectInfo(WifiP2pFastConnectInfo info) {$/;"	m	class:WifiP2pProxy.TheFastConnectInfo
+TheFastConnectInfo	WifiP2pProxy.java	/^	private class TheFastConnectInfo implements IWifiP2pProxy.IFastConnectInfo {$/;"	c	class:WifiP2pProxy
+TheWifiP2pDevice	WifiP2pProxy.java	/^		public TheWifiP2pDevice(WifiP2pDevice device) {$/;"	m	class:WifiP2pProxy.TheWifiP2pDevice
+TheWifiP2pDevice	WifiP2pProxy.java	/^	private class TheWifiP2pDevice implements IWifiP2pProxy.IWifiP2pDevice {$/;"	c	class:WifiP2pProxy
+UIHandler	FilePushClient.java	/^		public UIHandler(FilePushClient controller) {$/;"	m	class:FilePushClient.UIHandler
+UIHandler	FilePushClient.java	/^	private static class UIHandler extends Handler {$/;"	c	class:FilePushClient
+UIHandler	FilePushServer.java	/^		public UIHandler(FilePushServer server) {$/;"	m	class:FilePushServer.UIHandler
+UIHandler	FilePushServer.java	/^	private static class UIHandler extends Handler {$/;"	c	class:FilePushServer
+Util	Util.java	/^public class Util {$/;"	c
+WPS_ATTRIBUTE_TYPE_AP_CHANNEL	WifiCarrierConfiguration.java	/^	public static final short WPS_ATTRIBUTE_TYPE_AP_CHANNEL = 0x1001;$/;"	f	class:WifiCarrierConfiguration
+WPS_ATTRIBUTE_TYPE_AUTHENTICATION_TYPE	WifiCarrierConfiguration.java	/^	public static final short WPS_ATTRIBUTE_TYPE_AUTHENTICATION_TYPE = 0x1003;$/;"	f	class:WifiCarrierConfiguration
+WPS_ATTRIBUTE_TYPE_CLIENT_TABLE	HandoverBuilderParser.java	/^	public static final short WPS_ATTRIBUTE_TYPE_CLIENT_TABLE = 0x5006;$/;"	f	class:HandoverBuilderParser
+WPS_ATTRIBUTE_TYPE_CREDENTIAL	WifiCarrierConfiguration.java	/^	public static final short WPS_ATTRIBUTE_TYPE_CREDENTIAL = 0x100E;$/;"	f	class:WifiCarrierConfiguration
+WPS_ATTRIBUTE_TYPE_ENCRYPTION_TYPE	WifiCarrierConfiguration.java	/^	public static final short WPS_ATTRIBUTE_TYPE_ENCRYPTION_TYPE = 0x100F;$/;"	f	class:WifiCarrierConfiguration
+WPS_ATTRIBUTE_TYPE_GC_IP	HandoverBuilderParser.java	/^	public static final short WPS_ATTRIBUTE_TYPE_GC_IP        = 0x5003;$/;"	f	class:HandoverBuilderParser
+WPS_ATTRIBUTE_TYPE_GO_IP	HandoverBuilderParser.java	/^	public static final short WPS_ATTRIBUTE_TYPE_GO_IP        = 0x5002;$/;"	f	class:HandoverBuilderParser
+WPS_ATTRIBUTE_TYPE_MAC_ADDRESS	WifiCarrierConfiguration.java	/^	public static final short WPS_ATTRIBUTE_TYPE_MAC_ADDRESS = 0x1020;$/;"	f	class:WifiCarrierConfiguration
+WPS_ATTRIBUTE_TYPE_MAX_HEIGHT	HandoverBuilderParser.java	/^	public static final short WPS_ATTRIBUTE_TYPE_MAX_HEIGHT   = 0x5004;$/;"	f	class:HandoverBuilderParser
+WPS_ATTRIBUTE_TYPE_MAX_WIDTH	HandoverBuilderParser.java	/^	public static final short WPS_ATTRIBUTE_TYPE_MAX_WIDTH    = 0x5005;$/;"	f	class:HandoverBuilderParser
+WPS_ATTRIBUTE_TYPE_NETWORK_INDEX	WifiCarrierConfiguration.java	/^	public static final short WPS_ATTRIBUTE_TYPE_NETWORK_INDEX = 0x1026;$/;"	f	class:WifiCarrierConfiguration
+WPS_ATTRIBUTE_TYPE_NETWORK_KEY	WifiCarrierConfiguration.java	/^	public static final short WPS_ATTRIBUTE_TYPE_NETWORK_KEY = 0x1027;$/;"	f	class:WifiCarrierConfiguration
+WPS_ATTRIBUTE_TYPE_OUT_OF_BAND_DEVICE_PASSWORD	WifiCarrierConfiguration.java	/^	public static final short WPS_ATTRIBUTE_TYPE_OUT_OF_BAND_DEVICE_PASSWORD = 0x102C;$/;"	f	class:WifiCarrierConfiguration
+WPS_ATTRIBUTE_TYPE_SSID	WifiCarrierConfiguration.java	/^	public static final short WPS_ATTRIBUTE_TYPE_SSID = 0x1045;$/;"	f	class:WifiCarrierConfiguration
+WPS_ATTRIBUTE_TYPE_VENDER_EXTENSION	WifiCarrierConfiguration.java	/^	public static final short WPS_ATTRIBUTE_TYPE_VENDER_EXTENSION = 0x1049;$/;"	f	class:WifiCarrierConfiguration
+WPS_ATTRIBUTE_TYPE_VENDOR_ID	HandoverBuilderParser.java	/^	public static final short WPS_ATTRIBUTE_TYPE_VENDOR_ID    = 0x5001;$/;"	f	class:HandoverBuilderParser
+WPS_ATTRIBUTE_TYPE_VERSION	WifiCarrierConfiguration.java	/^	public static final short WPS_ATTRIBUTE_TYPE_VERSION = 0x104A;$/;"	f	class:WifiCarrierConfiguration
+WifiCarrierConfiguration	WifiCarrierConfiguration.java	/^	private WifiCarrierConfiguration() {$/;"	m	class:WifiCarrierConfiguration	file:
+WifiCarrierConfiguration	WifiCarrierConfiguration.java	/^	public WifiCarrierConfiguration(Credential credential) {$/;"	m	class:WifiCarrierConfiguration
+WifiCarrierConfiguration	WifiCarrierConfiguration.java	/^	public WifiCarrierConfiguration(PasswordToken passwordToken) {$/;"	m	class:WifiCarrierConfiguration
+WifiCarrierConfiguration	WifiCarrierConfiguration.java	/^public class WifiCarrierConfiguration extends CarrierConfigurationRecord {$/;"	c
+WifiDisplayProxy	WifiDisplayProxy.java	/^	public WifiDisplayProxy(Context context){$/;"	m	class:WifiDisplayProxy
+WifiDisplayProxy	WifiDisplayProxy.java	/^public class WifiDisplayProxy implements IWifiDisplayProxy{$/;"	c
+WifiP2pProxy	WifiP2pProxy.java	/^	public WifiP2pProxy(Context context) {$/;"	m	class:WifiP2pProxy
+WifiP2pProxy	WifiP2pProxy.java	/^public class WifiP2pProxy implements IWifiP2pProxy {$/;"	c
+WifiP2pProxyListener	IWifiP2pProxy.java	/^	public interface WifiP2pProxyListener {$/;"	i	interface:IWifiP2pProxy
+acceptBeam	MtkWifiP2pHandover.java	/^	public void acceptBeam(IFastConnectInfo fci){$/;"	m	class:MtkWifiP2pHandover
+acceptIncomingBeam	BeamPlusHandover.java	/^	public int acceptIncomingBeam(IWifiP2pProxy.IFastConnectInfo info) {$/;"	m	class:BeamPlusHandover
+addExtensionTLV	WifiCarrierConfiguration.java	/^		public void addExtensionTLV(short tag, byte[] value) {$/;"	m	class:WifiCarrierConfiguration.Credential
+addExtensionTLV	WifiCarrierConfiguration.java	/^		public void addExtensionTLV(short tag, byte[] value, int offset, int len) {$/;"	m	class:WifiCarrierConfiguration.Credential
+addExtensionTLV	WifiCarrierConfiguration.java	/^	public void addExtensionTLV(short tag, byte[] value) {$/;"	m	class:WifiCarrierConfiguration
+addExtensionTLV	WifiCarrierConfiguration.java	/^	public void addExtensionTLV(short tag, byte[] value, int offset, int len) {$/;"	m	class:WifiCarrierConfiguration
+addListener	IWifiP2pProxy.java	/^	void addListener(WifiP2pProxyListener listener);$/;"	m	interface:IWifiP2pProxy
+addListener	WifiP2pProxy.java	/^	public void addListener(WifiP2pProxyListener listener) {$/;"	m	class:WifiP2pProxy
+addListener	testWifiProxy.java	/^	public void addListener(WifiP2pProxyListener listener){}$/;"	m	class:testWifiProxy
+addPrefixShortString	MtkHandoverManager.java	/^    static String addPrefixShortString(Short value) $/;"	m	class:MtkHandoverManager
+addressToByteArray	MtkHandoverManager.java	/^    static byte[] addressToByteArray(String address) {$/;"	m	class:MtkHandoverManager
+addressToReverseBytes	BTCarrierConfiguration.java	/^    private static byte[] addressToReverseBytes(String address) {$/;"	m	class:BTCarrierConfiguration	file:
+addressToReverseBytes	MtkHandoverManager.java	/^    static byte[] addressToReverseBytes(String address) {$/;"	m	class:MtkHandoverManager
+appendAlternativeCarrier	HandoverMessage.java	/^    public void appendAlternativeCarrier(byte cps, CarrierData data) {$/;"	m	class:HandoverMessage
+appendAlternativeCarrier	HandoverMessage.java	/^    public void appendAlternativeCarrier(byte cps, CarrierData data,$/;"	m	class:HandoverMessage
+auxFromParseP2pHrM	HandoverBuilderParser.java	/^	public static byte[][] auxFromParseP2pHrM(NdefMessage p2pHrM) throws FormatException{$/;"	m	class:HandoverBuilderParser
+auxFromParseWfDisplayHrM	HandoverBuilderParser.java	/^	public static byte[][] auxFromParseWfDisplayHrM(NdefMessage wfDisplayHrM) throws FormatException{$/;"	m	class:HandoverBuilderParser
+auxFromParseWfDisplayHsM	HandoverBuilderParser.java	/^    public static TLV[] auxFromParseWfDisplayHsM(NdefMessage wfDisplayHsM) throws FormatException, UnsupportedEncodingException{$/;"	m	class:HandoverBuilderParser
+auxiliary	HandoverMessage.java	/^	byte[][] auxiliary;$/;"	f	class:HandoverMessage.AlternativeCarrier
+auxiliaryID	HandoverMessage.java	/^	byte[][] auxiliaryID;$/;"	f	class:HandoverMessage.AlternativeCarrier
+auxiliaryTotalBytes	HandoverMessage.java	/^	int auxiliaryTotalBytes;$/;"	f	class:HandoverMessage.AlternativeCarrier
+beaming	ui/BeamPlusUi.java	/^		Notification beaming;$/;"	f	class:BeamPlusUi.TaskNoticiation
+buildToBuffer	WifiCarrierConfiguration.java	/^		private void buildToBuffer(ByteBuffer buffer) {$/;"	m	class:WifiCarrierConfiguration.Credential	file:
+buildToBuffer	WifiCarrierConfiguration.java	/^		private void buildToBuffer(ByteBuffer buffer) {$/;"	m	class:WifiCarrierConfiguration.PasswordToken	file:
+byteArrayToint	MtkHandoverManager.java	/^    int byteArrayToint(byte[] btyeCount)$/;"	m	class:MtkHandoverManager
+byteToUnsignedInt	MtkHandoverManager.java	/^    public static int byteToUnsignedInt(byte b) {$/;"	m	class:MtkHandoverManager
+bytesToString	Util.java	/^    public static String bytesToString(byte[] bytes) {$/;"	m	class:Util
+cancel	FilePushClient.java	/^		public void cancel() {$/;"	m	class:FilePushClient.ClientSession
+com.mediatek.nfc.handover	BTCarrierConfiguration.java	/^package com.mediatek.nfc.handover;$/;"	p
+com.mediatek.nfc.handover	BeamPlusHandover.java	/^package com.mediatek.nfc.handover;$/;"	p
+com.mediatek.nfc.handover	CarrierData.java	/^package com.mediatek.nfc.handover;$/;"	p
+com.mediatek.nfc.handover	FilePushClient.java	/^package com.mediatek.nfc.handover;$/;"	p
+com.mediatek.nfc.handover	FilePushServer.java	/^package com.mediatek.nfc.handover;$/;"	p
+com.mediatek.nfc.handover	FileTransfer.java	/^package com.mediatek.nfc.handover;$/;"	p
+com.mediatek.nfc.handover	HandoverBuilderParser.java	/^package com.mediatek.nfc.handover;$/;"	p
+com.mediatek.nfc.handover	HandoverMessage.java	/^package com.mediatek.nfc.handover;$/;"	p
+com.mediatek.nfc.handover	IWifiDisplayProxy.java	/^package com.mediatek.nfc.handover;$/;"	p
+com.mediatek.nfc.handover	IWifiP2pProxy.java	/^package com.mediatek.nfc.handover;$/;"	p
+com.mediatek.nfc.handover	MtkHandoverManager.java	/^package com.mediatek.nfc.handover;$/;"	p
+com.mediatek.nfc.handover	MtkWifiP2pHandover.java	/^package com.mediatek.nfc.handover;$/;"	p
+com.mediatek.nfc.handover	ReceiverUI.java	/^package com.mediatek.nfc.handover;$/;"	p
+com.mediatek.nfc.handover	SenderUI.java	/^package com.mediatek.nfc.handover;$/;"	p
+com.mediatek.nfc.handover	Util.java	/^package com.mediatek.nfc.handover;$/;"	p
+com.mediatek.nfc.handover	WifiCarrierConfiguration.java	/^package com.mediatek.nfc.handover;$/;"	p
+com.mediatek.nfc.handover	WifiDisplayProxy.java	/^package com.mediatek.nfc.handover;$/;"	p
+com.mediatek.nfc.handover	WifiP2pProxy.java	/^package com.mediatek.nfc.handover;$/;"	p
+com.mediatek.nfc.handover	testWifiProxy.java	/^package com.mediatek.nfc.handover;$/;"	p
+com.mediatek.nfc.handover.exceptions	exceptions/JobCancelException.java	/^package com.mediatek.nfc.handover.exceptions;$/;"	p
+com.mediatek.nfc.handover.exceptions	exceptions/ReadEofException.java	/^package com.mediatek.nfc.handover.exceptions;$/;"	p
+com.mediatek.nfc.handover.ui	ui/BeamPlusUi.java	/^package com.mediatek.nfc.handover.ui;$/;"	p
+completeNotification	ui/BeamPlusUi.java	/^	protected void completeNotification(int id, CharSequence completeWord) {$/;"	m	class:BeamPlusUi
+connect	FilePushClient.java	/^	public void connect(String host) {$/;"	m	class:FilePushClient
+connect	FilePushClient.java	/^	public void connect(String host, int port) {$/;"	m	class:FilePushClient
+connect	FileTransfer.java	/^		void connect(String host);$/;"	m	interface:FileTransfer.IClient
+convertToMessage	FilePushClient.java	/^		private String convertToMessage(ByteBuffer buffer) {$/;"	m	class:FilePushClient.ClientSession	file:
+createAlternaiveCarrierRecord	HandoverMessage.java	/^    private NdefRecord createAlternaiveCarrierRecord(AlternativeCarrier ac) {$/;"	m	class:HandoverMessage	file:
+createAlternaiveCarrierRecords	HandoverMessage.java	/^    private NdefRecord[] createAlternaiveCarrierRecords() {$/;"	m	class:HandoverMessage	file:
+createAuxiliaryData	HandoverMessage.java	/^    private NdefRecord createAuxiliaryData(byte[] id, byte[] payload) {$/;"	m	class:HandoverMessage	file:
+createBeamNotification	ui/BeamPlusUi.java	/^	private Notification createBeamNotification(CharSequence title,$/;"	m	class:BeamPlusUi	file:
+createBeamPlusP2pHsM	MtkHandoverManager.java	/^	public NdefMessage createBeamPlusP2pHsM(IFastConnectInfo connInfoWithVidMAC){$/;"	m	class:MtkHandoverManager
+createBeamPlusRequestMessage	MtkHandoverManager.java	/^	public NdefMessage createBeamPlusRequestMessage(Uri[] uris){$/;"	m	class:MtkHandoverManager
+createCarrierDataRecord	HandoverMessage.java	/^    private NdefRecord createCarrierDataRecord(AlternativeCarrier ac) {$/;"	m	class:HandoverMessage	file:
+createCarrierDataRecords	HandoverMessage.java	/^    private NdefRecord[] createCarrierDataRecords() {$/;"	m	class:HandoverMessage	file:
+createCollisionResolutionRecord	HandoverMessage.java	/^    private NdefRecord createCollisionResolutionRecord() {$/;"	m	class:HandoverMessage	file:
+createDefaultFastConnectInfo	IWifiP2pProxy.java	/^	IFastConnectInfo createDefaultFastConnectInfo();$/;"	m	interface:IWifiP2pProxy
+createDefaultFastConnectInfo	WifiP2pProxy.java	/^	public IFastConnectInfo createDefaultFastConnectInfo() {$/;"	m	class:WifiP2pProxy
+createDefaultFastConnectInfo	testWifiProxy.java	/^	public IFastConnectInfo createDefaultFastConnectInfo(){$/;"	m	class:testWifiProxy
+createDefaultReceiver	FileTransfer.java	/^	public static IServer createDefaultReceiver(Context context) {$/;"	m	class:FileTransfer
+createDefaultSender	FileTransfer.java	/^	public static IClient createDefaultSender(Context context) {$/;"	m	class:FileTransfer
+createErrorHandoverSelectMessage	HandoverMessage.java	/^	public NdefMessage createErrorHandoverSelectMessage(byte reason,byte data) {$/;"	m	class:HandoverMessage
+createErrorHsM	HandoverBuilderParser.java	/^	public static NdefMessage createErrorHsM(byte reason,byte data){		$/;"	m	class:HandoverBuilderParser
+createErrorRecord	HandoverMessage.java	/^    private NdefRecord createErrorRecord(byte reason,byte data) {$/;"	m	class:HandoverMessage	file:
+createHandoverRequestMessage	HandoverMessage.java	/^    public NdefMessage createHandoverRequestMessage() {$/;"	m	class:HandoverMessage
+createHandoverSelectMessage	HandoverMessage.java	/^    public NdefMessage createHandoverSelectMessage() {$/;"	m	class:HandoverMessage
+createMessage	WifiCarrierConfiguration.java	/^	public NdefMessage createMessage() {$/;"	m	class:WifiCarrierConfiguration
+createP2PHrM	HandoverBuilderParser.java	/^	public static NdefMessage createP2PHrM(String bt_MacAddress, byte[][] wifi_Aux){$/;"	m	class:HandoverBuilderParser
+createP2PHsM	HandoverBuilderParser.java	/^	public static NdefMessage createP2PHsM(String bt_MacAddress,$/;"	m	class:HandoverBuilderParser
+createProressNotification	ui/BeamPlusUi.java	/^	private Notification createProressNotification(CharSequence title,$/;"	m	class:BeamPlusUi	file:
+createWfDisplayHrM	HandoverBuilderParser.java	/^	public static NdefMessage createWfDisplayHrM(byte[][] wifi_Aux){$/;"	m	class:HandoverBuilderParser
+createWfDisplayHsM	HandoverBuilderParser.java	/^	public static NdefMessage createWfDisplayHsM(String wifi_NetworkKey,$/;"	m	class:HandoverBuilderParser
+createWfLegacyHrM	HandoverBuilderParser.java	/^	public static NdefMessage createWfLegacyHrM(boolean wifiCPS){$/;"	m	class:HandoverBuilderParser
+createWfLegacyHsM	HandoverBuilderParser.java	/^	public static NdefMessage createWfLegacyHsM(String wifi_NetworkKey, $/;"	m	class:HandoverBuilderParser
+createWiFiDisplayRequestMessage	MtkHandoverManager.java	/^	NdefMessage createWiFiDisplayRequestMessage(Uri[] uris){$/;"	m	class:MtkHandoverManager
+createWiFiLegacyRequestMessage	MtkHandoverManager.java	/^	NdefMessage createWiFiLegacyRequestMessage(Uri[] uris){$/;"	m	class:MtkHandoverManager
+createWifiLegacyHsM	MtkHandoverManager.java	/^	public NdefMessage createWifiLegacyHsM(){\/\/(IFastConnectInfo connInfoWithCredential){$/;"	m	class:MtkHandoverManager
+credentialFromParseP2pHsM	HandoverBuilderParser.java	/^	public static Credential credentialFromParseP2pHsM(NdefMessage p2pHsM) throws FormatException, UnsupportedEncodingException{$/;"	m	class:HandoverBuilderParser
+credentialFromParseWfDisplayHsM	HandoverBuilderParser.java	/^	public static Credential credentialFromParseWfDisplayHsM(NdefMessage wfDisplayHsM) throws FormatException, UnsupportedEncodingException{$/;"	m	class:HandoverBuilderParser
+credentialFromParseWfLegacyHsM	HandoverBuilderParser.java	/^	public static Credential credentialFromParseWfLegacyHsM(NdefMessage wfLegacyHsM) throws FormatException, UnsupportedEncodingException{$/;"	m	class:HandoverBuilderParser
+currentID	ReceiverUI.java	/^	private int currentID;$/;"	f	class:ReceiverUI	file:
+cursor	FilePushClient.java	/^		int cursor;$/;"	f	class:FilePushClient.Job
+data	HandoverMessage.java	/^	CarrierData data;$/;"	f	class:HandoverMessage.AlternativeCarrier
+dealBeamPlusP2pHrM	MtkHandoverManager.java	/^	public NdefMessage dealBeamPlusP2pHrM(NdefMessage BPP2pHrM){$/;"	m	class:MtkHandoverManager
+dealBeamPlusP2pHsM	MtkHandoverManager.java	/^	private void dealBeamPlusP2pHsM(Uri[] uris,NdefMessage BPhandoverMessage){$/;"	m	class:MtkHandoverManager	file:
+dealWifiLegacyHrM	MtkHandoverManager.java	/^	public NdefMessage dealWifiLegacyHrM(NdefMessage WLHrM){$/;"	m	class:MtkHandoverManager
+describeInternalState	BeamPlusHandover.java	/^	private String describeInternalState() {$/;"	m	class:BeamPlusHandover	file:
+describeWifiP2pDevice	WifiP2pProxy.java	/^	private String describeWifiP2pDevice(WifiP2pDevice device) {$/;"	m	class:WifiP2pProxy	file:
+determineConnWay	MtkHandoverManager.java	/^    boolean determineConnWay(HandoverMessageElement HandoverMsgElement) {$/;"	m	class:MtkHandoverManager
+determineConnWay	MtkHandoverManager.java	/^    boolean determineConnWay(NdefMessage m) {$/;"	m	class:MtkHandoverManager
+disable	IWifiP2pProxy.java	/^	int disable();$/;"	m	interface:IWifiP2pProxy
+disable	WifiP2pProxy.java	/^	public int disable() {$/;"	m	class:WifiP2pProxy
+disable	testWifiProxy.java	/^	public int disable(){$/;"	m	class:testWifiProxy
+disconnect	FilePushClient.java	/^	public void disconnect() {$/;"	m	class:FilePushClient
+disconnect	FileTransfer.java	/^		void disconnect();$/;"	m	interface:FileTransfer.IClient
+disconnect	IWifiP2pProxy.java	/^	int disconnect(); $/;"	m	interface:IWifiP2pProxy
+disconnect	WifiP2pProxy.java	/^	public int disconnect() {$/;"	m	class:WifiP2pProxy
+disconnect	testWifiProxy.java	/^	public int disconnect(){$/;"	m	class:testWifiProxy
+doAccept	FilePushServer.java	/^		private void doAccept() {$/;"	m	class:FilePushServer.ServerThread	file:
+doBeamPlusHandover	MtkHandoverManager.java	/^	public void doBeamPlusHandover(Uri[] uris,NdefMessage BPhandoverMessage){\/\/throws Exception{$/;"	m	class:MtkHandoverManager
+doDisconnectSequence	BeamPlusHandover.java	/^	private void doDisconnectSequence() {$/;"	m	class:BeamPlusHandover	file:
+doDownload	FilePushServer.java	/^		private boolean doDownload(String rootPath) throws IOException,$/;"	m	class:FilePushServer.Session	file:
+doHsMHandoverEntry	MtkHandoverManager.java	/^    public void doHsMHandoverEntry(Uri[] uris,NdefMessage response,String handoverCase) throws Exception{$/;"	m	class:MtkHandoverManager
+doSend	FilePushClient.java	/^		private int doSend() {$/;"	m	class:FilePushClient.ClientSession	file:
+doTransceive	FilePushServer.java	/^		private void doTransceive() {$/;"	m	class:FilePushServer.Session	file:
+doWiFiDisplayHandover	MtkHandoverManager.java	/^	void doWiFiDisplayHandover(Uri[] uris,NdefMessage WFDhandoverMessage){$/;"	m	class:MtkHandoverManager
+doWiFiLegacyHandover	MtkHandoverManager.java	/^	void doWiFiLegacyHandover(Uri[] uris,NdefMessage WFDhandoverMessage){$/;"	m	class:MtkHandoverManager
+dump	MtkHandoverManager.java	/^        static void dump(){$/;"	m	class:MtkHandoverManager.HandoverMessageElement
+elementExistInTLVByteArray	MtkHandoverManager.java	/^    static boolean elementExistInTLVByteArray(byte[] tlvData,short tagName){$/;"	m	class:MtkHandoverManager
+enable	IWifiP2pProxy.java	/^	int enable();$/;"	m	interface:IWifiP2pProxy
+enable	WifiP2pProxy.java	/^	public int enable() {$/;"	m	class:WifiP2pProxy
+enable	testWifiProxy.java	/^	public int enable(){$/;"	m	class:testWifiProxy
+fastConnect	IWifiP2pProxy.java	/^	int fastConnect(IFastConnectInfo info);$/;"	m	interface:IWifiP2pProxy
+fastConnect	WifiP2pProxy.java	/^	public int fastConnect(IFastConnectInfo info) {$/;"	m	class:WifiP2pProxy
+fastConnect	testWifiProxy.java	/^	public int fastConnect(IFastConnectInfo info)$/;"	m	class:testWifiProxy
+fastConnectInfo	testWifiProxy.java	/^		public fastConnectInfo(){$/;"	m	class:testWifiProxy.fastConnectInfo
+fastConnectInfo	testWifiProxy.java	/^	public class fastConnectInfo implements IFastConnectInfo{$/;"	c	class:testWifiProxy
+genHandoverRequestAuxData	MtkHandoverManager.java	/^	public byte[][] genHandoverRequestAuxData(boolean WifiDisplayActive,boolean isBigFile){$/;"	m	class:MtkHandoverManager
+getAuthType	IWifiP2pProxy.java	/^		String getAuthType();$/;"	m	interface:IWifiP2pProxy.IFastConnectInfo
+getAuthType	WifiP2pProxy.java	/^		public String getAuthType() {$/;"	m	class:WifiP2pProxy.TheFastConnectInfo
+getAuthType	testWifiProxy.java	/^		public String getAuthType(){			return "Hello";		}$/;"	m	class:testWifiProxy.fastConnectInfo
+getAuthenticationType	WifiCarrierConfiguration.java	/^		public short getAuthenticationType() {$/;"	m	class:WifiCarrierConfiguration.Credential
+getAuxiliaryData	HandoverMessage.java	/^	public byte[][] getAuxiliaryData() {$/;"	m	class:HandoverMessage.HandoverRequest
+getAuxiliaryData	HandoverMessage.java	/^	public byte[][] getAuxiliaryData() {$/;"	m	class:HandoverMessage.HandoverSelect
+getCPS	HandoverMessage.java	/^	public short getCPS() {$/;"	m	class:HandoverMessage.HandoverCarrier
+getCarrierType	CarrierData.java	/^	public String getCarrierType() {$/;"	m	class:CarrierData.HandoverCarrierRecord
+getCarrierTypeFormat	CarrierData.java	/^	public short getCarrierTypeFormat() {$/;"	m	class:CarrierData.HandoverCarrierRecord
+getCarriers	HandoverMessage.java	/^	public HandoverCarrier[] getCarriers() {$/;"	m	class:HandoverMessage.HandoverRequest
+getCarriers	HandoverMessage.java	/^	public HandoverCarrier[] getCarriers() {$/;"	m	class:HandoverMessage.HandoverSelect
+getCollisionResolutionNumber	HandoverMessage.java	/^	public byte[] getCollisionResolutionNumber() {$/;"	m	class:HandoverMessage.HandoverRequest
+getCredential	WifiCarrierConfiguration.java	/^	public Credential getCredential() {$/;"	m	class:WifiCarrierConfiguration
+getData	HandoverMessage.java	/^	byte[] getData() {$/;"	m	class:HandoverMessage.HandoverCarrier
+getDeviceAddress	IWifiP2pProxy.java	/^		String getDeviceAddress();$/;"	m	interface:IWifiP2pProxy.IFastConnectInfo
+getDeviceAddress	IWifiP2pProxy.java	/^		String getDeviceAddress();$/;"	m	interface:IWifiP2pProxy.IWifiP2pDevice
+getDeviceAddress	WifiP2pProxy.java	/^		public String getDeviceAddress() {$/;"	m	class:WifiP2pProxy.TheFastConnectInfo
+getDeviceAddress	WifiP2pProxy.java	/^		public String getDeviceAddress() {$/;"	m	class:WifiP2pProxy.TheWifiP2pDevice
+getDeviceAddress	testWifiProxy.java	/^		public String getDeviceAddress(){			return "Hello";		}$/;"	m	class:testWifiProxy.fastConnectInfo
+getEncrType	IWifiP2pProxy.java	/^		String getEncrType();$/;"	m	interface:IWifiP2pProxy.IFastConnectInfo
+getEncrType	WifiP2pProxy.java	/^		public String getEncrType() {$/;"	m	class:WifiP2pProxy.TheFastConnectInfo
+getEncrType	testWifiProxy.java	/^		public String getEncrType(){			return "Hello";		}$/;"	m	class:testWifiProxy.fastConnectInfo
+getEncryptionType	WifiCarrierConfiguration.java	/^		public short getEncryptionType() {$/;"	m	class:WifiCarrierConfiguration.Credential
+getExtensions	WifiCarrierConfiguration.java	/^		public TLV[] getExtensions() {$/;"	m	class:WifiCarrierConfiguration.Credential
+getExtensions	WifiCarrierConfiguration.java	/^	public TLV[] getExtensions() {$/;"	m	class:WifiCarrierConfiguration
+getFastConnectInfo	IWifiP2pProxy.java	/^	IFastConnectInfo getFastConnectInfo(IFastConnectInfo info);$/;"	m	interface:IWifiP2pProxy
+getFastConnectInfo	WifiP2pProxy.java	/^	public IFastConnectInfo getFastConnectInfo(IFastConnectInfo info) {$/;"	m	class:WifiP2pProxy
+getFastConnectInfo	testWifiProxy.java	/^	public IFastConnectInfo getFastConnectInfo(IFastConnectInfo info){$/;"	m	class:testWifiProxy
+getFile	FilePushClient.java	/^	private File getFile(Uri uri) {$/;"	m	class:FilePushClient	file:
+getFormat	HandoverMessage.java	/^	public int getFormat() {$/;"	m	class:HandoverMessage.HandoverCarrier
+getGcIpAddress	IWifiP2pProxy.java	/^		String getGcIpAddress();$/;"	m	interface:IWifiP2pProxy.IFastConnectInfo
+getGcIpAddress	WifiP2pProxy.java	/^		public String getGcIpAddress() {$/;"	m	class:WifiP2pProxy.TheFastConnectInfo
+getGcIpAddress	testWifiProxy.java	/^		public String getGcIpAddress(){			return "Hello";		}$/;"	m	class:testWifiProxy.fastConnectInfo
+getGoIpAddress	IWifiP2pProxy.java	/^		String getGoIpAddress();$/;"	m	interface:IWifiP2pProxy.IFastConnectInfo
+getGoIpAddress	WifiP2pProxy.java	/^		public String getGoIpAddress() {$/;"	m	class:WifiP2pProxy.TheFastConnectInfo
+getGoIpAddress	testWifiProxy.java	/^		public String getGoIpAddress(){			return "Hello";		}$/;"	m	class:testWifiProxy.fastConnectInfo
+getInstance	testWifiProxy.java	/^	public IWifiP2pProxy getInstance(){$/;"	m	class:testWifiProxy
+getMacAddress	BTCarrierConfiguration.java	/^    public byte[] getMacAddress() {$/;"	m	class:BTCarrierConfiguration
+getMacAddress	WifiCarrierConfiguration.java	/^		public byte[] getMacAddress() {$/;"	m	class:WifiCarrierConfiguration.Credential
+getMid	Util.java	/^    public static byte[] getMid(byte[] array, int start, int length) {$/;"	m	class:Util
+getNetworkId	IWifiP2pProxy.java	/^		int getNetworkId();$/;"	m	interface:IWifiP2pProxy.IFastConnectInfo
+getNetworkId	WifiP2pProxy.java	/^		public int getNetworkId() {$/;"	m	class:WifiP2pProxy.TheFastConnectInfo
+getNetworkId	testWifiProxy.java	/^		public int getNetworkId(){			return 2;		}$/;"	m	class:testWifiProxy.fastConnectInfo
+getNetworkIndex	WifiCarrierConfiguration.java	/^		public byte getNetworkIndex() {$/;"	m	class:WifiCarrierConfiguration.Credential
+getNetworkKey	WifiCarrierConfiguration.java	/^		public String getNetworkKey() {$/;"	m	class:WifiCarrierConfiguration.Credential
+getPassword	WifiCarrierConfiguration.java	/^		public byte[] getPassword() {$/;"	m	class:WifiCarrierConfiguration.PasswordToken
+getPasswordID	WifiCarrierConfiguration.java	/^		public short getPasswordID() {$/;"	m	class:WifiCarrierConfiguration.PasswordToken
+getPasswordToken	WifiCarrierConfiguration.java	/^	public PasswordToken getPasswordToken() {$/;"	m	class:WifiCarrierConfiguration
+getPayload	BTCarrierConfiguration.java	/^    public byte[] getPayload() {$/;"	m	class:BTCarrierConfiguration
+getPayload	CarrierData.java	/^	public byte[] getPayload() {$/;"	m	class:CarrierData.HandoverCarrierRecord
+getPayload	CarrierData.java	/^    public abstract byte[] getPayload();$/;"	m	class:CarrierData
+getPayload	WifiCarrierConfiguration.java	/^	public byte[] getPayload() {$/;"	m	class:WifiCarrierConfiguration
+getProtocol	HandoverMessage.java	/^	public String getProtocol() {$/;"	m	class:HandoverMessage.HandoverCarrier
+getPsk	IWifiP2pProxy.java	/^		String getPsk();$/;"	m	interface:IWifiP2pProxy.IFastConnectInfo
+getPsk	WifiP2pProxy.java	/^		public String getPsk() {$/;"	m	class:WifiP2pProxy.TheFastConnectInfo
+getPsk	testWifiProxy.java	/^		public String getPsk(){			return "Hello";		}$/;"	m	class:testWifiProxy.fastConnectInfo
+getPublicKeyHash	WifiCarrierConfiguration.java	/^		public byte[] getPublicKeyHash() {$/;"	m	class:WifiCarrierConfiguration.PasswordToken
+getRtspPortNumber	IWifiDisplayProxy.java	/^	int getRtspPortNumber();$/;"	m	interface:IWifiDisplayProxy
+getRtspPortNumber	WifiDisplayProxy.java	/^	public int getRtspPortNumber(){$/;"	m	class:WifiDisplayProxy
+getSSID	WifiCarrierConfiguration.java	/^		public String getSSID() {$/;"	m	class:WifiCarrierConfiguration.Credential
+getSsid	IWifiP2pProxy.java	/^		String getSsid();$/;"	m	interface:IWifiP2pProxy.IFastConnectInfo
+getSsid	WifiP2pProxy.java	/^		public String getSsid() {$/;"	m	class:WifiP2pProxy.TheFastConnectInfo
+getSsid	testWifiProxy.java	/^		public String getSsid(){			return "Hello";		}$/;"	m	class:testWifiProxy.fastConnectInfo
+getTag	WifiCarrierConfiguration.java	/^		public short getTag() {$/;"	m	class:WifiCarrierConfiguration.TLV
+getTnf	BTCarrierConfiguration.java	/^    public short getTnf() {$/;"	m	class:BTCarrierConfiguration
+getTnf	CarrierData.java	/^	public short getTnf() {$/;"	m	class:CarrierData.HandoverCarrierRecord
+getTnf	CarrierData.java	/^    public short getTnf() {$/;"	m	class:CarrierData
+getType	BTCarrierConfiguration.java	/^    public byte[] getType() {$/;"	m	class:BTCarrierConfiguration
+getType	CarrierData.java	/^	public byte[] getType() {$/;"	m	class:CarrierData.HandoverCarrierRecord
+getType	CarrierData.java	/^    public abstract byte[] getType();$/;"	m	class:CarrierData
+getType	WifiCarrierConfiguration.java	/^	public byte[] getType() {$/;"	m	class:WifiCarrierConfiguration
+getValue	WifiCarrierConfiguration.java	/^		public byte[] getValue() {$/;"	m	class:WifiCarrierConfiguration.TLV
+getVenderId	IWifiP2pProxy.java	/^		int getVenderId();$/;"	m	interface:IWifiP2pProxy.IFastConnectInfo
+getVenderId	WifiP2pProxy.java	/^		public int getVenderId() {$/;"	m	class:WifiP2pProxy.TheFastConnectInfo
+getVenderId	testWifiProxy.java	/^		public int getVenderId(){			return 2;		}$/;"	m	class:testWifiProxy.fastConnectInfo
+getVersion	HandoverMessage.java	/^	public byte getVersion() {$/;"	m	class:HandoverMessage.HandoverRequest
+getVersion	HandoverMessage.java	/^	public byte getVersion() {$/;"	m	class:HandoverMessage.HandoverSelect
+getVersion	WifiCarrierConfiguration.java	/^	public byte getVersion() {$/;"	m	class:WifiCarrierConfiguration
+handleConnectionChange	WifiP2pProxy.java	/^	private void handleConnectionChange(Intent intent) {$/;"	m	class:WifiP2pProxy	file:
+handleDiscoveryChange	WifiP2pProxy.java	/^	private void handleDiscoveryChange(Intent intent) {$/;"	m	class:WifiP2pProxy	file:
+handleMessage	FilePushClient.java	/^		public void handleMessage(Message msg) {$/;"	m	class:FilePushClient.UIHandler
+handleMessage	FilePushServer.java	/^		public void handleMessage(Message msg) {$/;"	m	class:FilePushServer.UIHandler
+handlePeerChange	WifiP2pProxy.java	/^	private void handlePeerChange(Intent intent) {$/;"	m	class:WifiP2pProxy	file:
+handleSelector	FilePushClient.java	/^		private int handleSelector(SelectionKey skey, SocketChannel channel,$/;"	m	class:FilePushClient.ClientSession	file:
+handleStateChange	WifiP2pProxy.java	/^	private void handleStateChange(Intent intent) {$/;"	m	class:WifiP2pProxy	file:
+handleThisDeviceChange	WifiP2pProxy.java	/^	private void handleThisDeviceChange(Intent intent) {$/;"	m	class:WifiP2pProxy	file:
+id	FilePushClient.java	/^		int id;$/;"	f	class:FilePushClient.Job
+id	HandoverMessage.java	/^	byte[] id;$/;"	f	class:HandoverMessage.AlternativeCarrier
+intToByteCountArray	MtkHandoverManager.java	/^    byte[] intToByteCountArray(int i,byte btyeCount)$/;"	m	class:MtkHandoverManager
+intToByteCountArray	WifiCarrierConfiguration.java	/^    static byte[] intToByteCountArray(int i,byte btyeCount)$/;"	m	class:WifiCarrierConfiguration
+ipAddressToReverseBytes	MtkHandoverManager.java	/^    static byte[] ipAddressToReverseBytes(String ipAddress) {$/;"	m	class:MtkHandoverManager
+ipBytesArrayToReverseString	MtkHandoverManager.java	/^    static String ipBytesArrayToReverseString(byte[] ByteArray) $/;"	m	class:MtkHandoverManager
+isAuxExistOnWifiHrM	HandoverBuilderParser.java	/^	public static boolean isAuxExistOnWifiHrM(NdefMessage wifiHrM) throws FormatException{$/;"	m	class:HandoverBuilderParser
+isBeamWithTheSameDevice	BeamPlusHandover.java	/^	public boolean isBeamWithTheSameDevice(IWifiP2pProxy.IFastConnectInfo info) {$/;"	m	class:BeamPlusHandover
+isBigFile	MtkHandoverManager.java	/^	boolean isBigFile(Uri[] Uris){  $/;"	m	class:MtkHandoverManager
+isConnecting	BeamPlusHandover.java	/^    public boolean isConnecting() {$/;"	m	class:BeamPlusHandover
+isConnecting	MtkWifiP2pHandover.java	/^	public boolean isConnecting(){$/;"	m	class:MtkWifiP2pHandover
+isDeviceAlreadyConnected	BeamPlusHandover.java	/^	private boolean isDeviceAlreadyConnected(IWifiP2pProxy.IFastConnectInfo info) {$/;"	m	class:BeamPlusHandover	file:
+isEnabled	IWifiP2pProxy.java	/^	boolean isEnabled();$/;"	m	interface:IWifiP2pProxy
+isEnabled	WifiP2pProxy.java	/^	public boolean isEnabled() {$/;"	m	class:WifiP2pProxy
+isEnabled	testWifiProxy.java	/^	public boolean isEnabled(){$/;"	m	class:testWifiProxy
+isHandoverSupported	MtkHandoverManager.java	/^    public boolean isHandoverSupported() {$/;"	m	class:MtkHandoverManager
+isUpload	ui/BeamPlusUi.java	/^		boolean isUpload;$/;"	f	class:BeamPlusUi.TaskNoticiation
+isWiFiCarrierExist	MtkHandoverManager.java	/^    boolean isWiFiCarrierExist(NdefMessage m,byte[] recordDirection) {$/;"	m	class:MtkHandoverManager
+mAcCount	MtkHandoverManager.java	/^        static byte mAcCount;$/;"	f	class:MtkHandoverManager.HandoverMessageElement
+mAcCpsArray	MtkHandoverManager.java	/^        static byte[] mAcCpsArray;$/;"	f	class:MtkHandoverManager.HandoverMessageElement
+mAcItems	HandoverMessage.java	/^    private ArrayList<AlternativeCarrier> mAcItems = new ArrayList<HandoverMessage.AlternativeCarrier>();$/;"	f	class:HandoverMessage	file:
+mAcPayloadArray	MtkHandoverManager.java	/^        static byte[][] mAcPayloadArray;$/;"	f	class:MtkHandoverManager.HandoverMessageElement
+mAcPayloadArrayList	MtkHandoverManager.java	/^        static ArrayList<byte[]> mAcPayloadArrayList;$/;"	f	class:MtkHandoverManager.HandoverMessageElement
+mAuthenticationType	WifiCarrierConfiguration.java	/^		private short mAuthenticationType = DEFAULT_AUTHENTICATION_TYPE;$/;"	f	class:WifiCarrierConfiguration.Credential	file:
+mAuxDataCount	MtkHandoverManager.java	/^        static byte mAuxDataCount;$/;"	f	class:MtkHandoverManager.HandoverMessageElement
+mAuxiliaryData	HandoverMessage.java	/^	private byte[][] mAuxiliaryData;$/;"	f	class:HandoverMessage.HandoverRequest	file:
+mAuxiliaryData	HandoverMessage.java	/^	private byte[][] mAuxiliaryData;$/;"	f	class:HandoverMessage.HandoverSelect	file:
+mBluetoothAdapter	MtkHandoverManager.java	/^    final BluetoothAdapter mBluetoothAdapter;$/;"	f	class:MtkHandoverManager
+mBtCPS	MtkHandoverManager.java	/^        static byte mBtCPS;$/;"	f	class:MtkHandoverManager.HandoverMessageElement
+mBuffer	FilePushClient.java	/^	private ByteBuffer mBuffer = ByteBuffer.allocate(MAX_SEND_BUFFER);$/;"	f	class:FilePushClient	file:
+mBuffer	FilePushServer.java	/^		private ByteBuffer mBuffer = ByteBuffer.allocate(MAX_BUFFER_SIZE);$/;"	f	class:FilePushServer.Session	file:
+mByteSize	WifiCarrierConfiguration.java	/^		private int mByteSize = DATA_FIX_SIZE;$/;"	f	class:WifiCarrierConfiguration.Credential	file:
+mByteSize	WifiCarrierConfiguration.java	/^		private int mByteSize = FIX_FIELD_LENGTH;$/;"	f	class:WifiCarrierConfiguration.PasswordToken	file:
+mCPS	HandoverMessage.java	/^	private short mCPS;$/;"	f	class:HandoverMessage.HandoverCarrier	file:
+mCRArray	MtkHandoverManager.java	/^        static byte[] mCRArray;$/;"	f	class:MtkHandoverManager.HandoverMessageElement
+mCRN	HandoverMessage.java	/^	private byte[] mCRN;$/;"	f	class:HandoverMessage.HandoverRequest	file:
+mCarrierType	CarrierData.java	/^	private byte[] mCarrierType;$/;"	f	class:CarrierData.HandoverCarrierRecord	file:
+mCarrierType	CarrierData.java	/^	protected String mCarrierType;$/;"	f	class:CarrierData.CarrierConfigurationRecord
+mCarrierTypeFormat	CarrierData.java	/^	private short mCarrierTypeFormat;$/;"	f	class:CarrierData.HandoverCarrierRecord	file:
+mCarriers	HandoverMessage.java	/^	private HandoverCarrier[] mCarriers;$/;"	f	class:HandoverMessage.HandoverRequest	file:
+mCarriers	HandoverMessage.java	/^	private HandoverCarrier[] mCarriers;$/;"	f	class:HandoverMessage.HandoverSelect	file:
+mChannel	FilePushServer.java	/^		private SocketChannel mChannel;$/;"	f	class:FilePushServer.Session	file:
+mChannel	WifiP2pProxy.java	/^	private WifiP2pManager.Channel mChannel;$/;"	f	class:WifiP2pProxy	file:
+mConnectedDevice	BeamPlusHandover.java	/^	private IWifiP2pProxy.IWifiP2pDevice mConnectedDevice;$/;"	f	class:BeamPlusHandover	file:
+mContext	BeamPlusHandover.java	/^	private Context mContext;$/;"	f	class:BeamPlusHandover	file:
+mContext	MtkHandoverManager.java	/^    final Context mContext;$/;"	f	class:MtkHandoverManager
+mContext	WifiP2pProxy.java	/^	private Context mContext;$/;"	f	class:WifiP2pProxy	file:
+mContext	ui/BeamPlusUi.java	/^	protected Context mContext;$/;"	f	class:BeamPlusUi
+mController	FilePushClient.java	/^		private WeakReference<FilePushClient> mController;$/;"	f	class:FilePushClient.UIHandler	file:
+mController	FilePushServer.java	/^		private WeakReference<FilePushServer> mController;$/;"	f	class:FilePushServer.UIHandler	file:
+mCpsArrayList	MtkHandoverManager.java	/^        static ArrayList<Byte> mCpsArrayList;$/;"	f	class:MtkHandoverManager.HandoverMessageElement
+mCredential	WifiCarrierConfiguration.java	/^	private Credential mCredential;$/;"	f	class:WifiCarrierConfiguration	file:
+mCurrentProgress	FilePushClient.java	/^	private int mCurrentProgress;$/;"	f	class:FilePushClient	file:
+mCurrentRecordID	HandoverMessage.java	/^    private int mCurrentRecordID = 1;$/;"	f	class:HandoverMessage	file:
+mData	HandoverMessage.java	/^	private byte[] mData;$/;"	f	class:HandoverMessage.HandoverCarrier	file:
+mDevice	WifiP2pProxy.java	/^		private WifiP2pDevice mDevice;$/;"	f	class:WifiP2pProxy.TheWifiP2pDevice	file:
+mEncryptionType	WifiCarrierConfiguration.java	/^		private short mEncryptionType = DEFAULT_ENCRYPTION_TYPE;$/;"	f	class:WifiCarrierConfiguration.Credential	file:
+mExecutor	FilePushClient.java	/^	private ThreadPoolExecutor mExecutor;$/;"	f	class:FilePushClient	file:
+mExecutor	FilePushServer.java	/^	private ThreadPoolExecutor mExecutor;$/;"	f	class:FilePushServer	file:
+mExtension	WifiCarrierConfiguration.java	/^		private ArrayList<TLV> mExtension;$/;"	f	class:WifiCarrierConfiguration.Credential	file:
+mExtension	WifiCarrierConfiguration.java	/^	private ArrayList<TLV> mExtension;$/;"	f	class:WifiCarrierConfiguration	file:
+mExtensionBytesSize	WifiCarrierConfiguration.java	/^		private int mExtensionBytesSize;$/;"	f	class:WifiCarrierConfiguration.Credential	file:
+mExtensionBytesSize	WifiCarrierConfiguration.java	/^	private int mExtensionBytesSize;$/;"	f	class:WifiCarrierConfiguration	file:
+mFileTransferClient	BeamPlusHandover.java	/^	private FileTransfer.IClient mFileTransferClient;$/;"	f	class:BeamPlusHandover	file:
+mFileTransferClientEventListener	BeamPlusHandover.java	/^	private FileTransfer.IClientEventListener mFileTransferClientEventListener = new FileTransfer.IClientEventListener() {$/;"	f	class:BeamPlusHandover	file:
+mFileTransferServer	BeamPlusHandover.java	/^	private FileTransfer.IServer mFileTransferServer;$/;"	f	class:BeamPlusHandover	file:
+mFileTransferServerEventListener	BeamPlusHandover.java	/^	private FileTransfer.IServerEventListener mFileTransferServerEventListener = new FileTransfer.IServerEventListener() {$/;"	f	class:BeamPlusHandover	file:
+mFilter	WifiP2pProxy.java	/^	private IntentFilter mFilter = new IntentFilter();$/;"	f	class:WifiP2pProxy	file:
+mFormatType	HandoverMessage.java	/^	private int mFormatType;$/;"	f	class:HandoverMessage.HandoverCarrier	file:
+mHandler	FilePushClient.java	/^	private UIHandler mHandler = new UIHandler(this);$/;"	f	class:FilePushClient	file:
+mHandler	FilePushServer.java	/^	private Handler mHandler;$/;"	f	class:FilePushServer	file:
+mHandoverManager	MtkHandoverManager.java	/^	HandoverManager mHandoverManager;$/;"	f	class:MtkHandoverManager
+mHandoverType	MtkHandoverManager.java	/^        static byte[] mHandoverType;\/\/Hr or Hs$/;"	f	class:MtkHandoverManager.HandoverMessageElement
+mHasAuthenticationType	WifiCarrierConfiguration.java	/^		private boolean mHasAuthenticationType;$/;"	f	class:WifiCarrierConfiguration.Credential	file:
+mHasEncryptionType	WifiCarrierConfiguration.java	/^		private boolean mHasEncryptionType;$/;"	f	class:WifiCarrierConfiguration.Credential	file:
+mId	FilePushClient.java	/^		private int mId;$/;"	f	class:FilePushClient.UIHandler	file:
+mIncomingInfo	BeamPlusHandover.java	/^	private IWifiP2pProxy.IFastConnectInfo mIncomingInfo;$/;"	f	class:BeamPlusHandover	file:
+mInfo	WifiP2pProxy.java	/^		private WifiP2pFastConnectInfo mInfo;$/;"	f	class:WifiP2pProxy.TheFastConnectInfo	file:
+mIsBigFile	MtkHandoverManager.java	/^        static byte mIsBigFile;$/;"	f	class:MtkHandoverManager.HandoverMessageElement
+mIsConnect	FilePushClient.java	/^	private boolean mIsConnect;$/;"	f	class:FilePushClient	file:
+mIsEnabled	WifiP2pProxy.java	/^	private boolean mIsEnabled;$/;"	f	class:WifiP2pProxy	file:
+mIsOwner	WifiP2pProxy.java	/^		private boolean mIsOwner;$/;"	f	class:WifiP2pProxy.GroupInfoObserver	file:
+mIsRunning	FilePushClient.java	/^		private boolean mIsRunning;$/;"	f	class:FilePushClient.ClientSession	file:
+mIsServerRunning	FilePushServer.java	/^	private boolean mIsServerRunning;$/;"	f	class:FilePushServer	file:
+mJob	FilePushClient.java	/^	private Job mJob;$/;"	f	class:FilePushClient	file:
+mListener	FilePushClient.java	/^	private IClientEventListener mListener;$/;"	f	class:FilePushClient	file:
+mListener	FilePushServer.java	/^	private IServerEventListener mListener;$/;"	f	class:FilePushServer	file:
+mListeners	WifiP2pProxy.java	/^	private List<WifiP2pProxyListener> mListeners = new ArrayList<WifiP2pProxyListener>();$/;"	f	class:WifiP2pProxy	file:
+mMacAddress	BTCarrierConfiguration.java	/^    private byte[] mMacAddress;$/;"	f	class:BTCarrierConfiguration	file:
+mMacAddress	WifiCarrierConfiguration.java	/^		private byte[] mMacAddress;$/;"	f	class:WifiCarrierConfiguration.Credential	file:
+mManager	ui/BeamPlusUi.java	/^	private NotificationManager mManager;$/;"	f	class:BeamPlusUi	file:
+mMtkWifiP2pHandover	MtkHandoverManager.java	/^	final BeamPlusHandover mMtkWifiP2pHandover;$/;"	f	class:MtkHandoverManager
+mNetworkAddress	FilePushClient.java	/^	private InetSocketAddress mNetworkAddress;$/;"	f	class:FilePushClient	file:
+mNetworkIndex	WifiCarrierConfiguration.java	/^		private byte mNetworkIndex = DEFAULT_NETWORK_INDEX;$/;"	f	class:WifiCarrierConfiguration.Credential	file:
+mNetworkKey	WifiCarrierConfiguration.java	/^		private byte[] mNetworkKey;$/;"	f	class:WifiCarrierConfiguration.Credential	file:
+mNotification	ui/BeamPlusUi.java	/^	private TaskNoticiation mNotification;$/;"	f	class:BeamPlusUi	file:
+mNowNotification	FilePushClient.java	/^	private int mNowNotification = 1;$/;"	f	class:FilePushClient	file:
+mNowNotification	FilePushServer.java	/^		private int mNowNotification = 0;$/;"	f	class:FilePushServer.Session	file:
+mPassword	WifiCarrierConfiguration.java	/^		private byte[] mPassword = EMPTY_PASSWORD;$/;"	f	class:WifiCarrierConfiguration.PasswordToken	file:
+mPasswordID	WifiCarrierConfiguration.java	/^		private int mPasswordID = DAFAULT_PASSWORD_ID_FIELD;$/;"	f	class:WifiCarrierConfiguration.PasswordToken	file:
+mPasswordToken	WifiCarrierConfiguration.java	/^	private PasswordToken mPasswordToken;$/;"	f	class:WifiCarrierConfiguration	file:
+mProtocolType	HandoverMessage.java	/^	private String mProtocolType;$/;"	f	class:HandoverMessage.HandoverCarrier	file:
+mPublicKeyHash	WifiCarrierConfiguration.java	/^		private byte[] mPublicKeyHash;$/;"	f	class:WifiCarrierConfiguration.PasswordToken	file:
+mQueue	FilePushClient.java	/^	private LinkedList<Job> mQueue = new LinkedList<Job>();$/;"	f	class:FilePushClient	file:
+mReceiver	WifiP2pProxy.java	/^	private final BroadcastReceiver mReceiver = new BroadcastReceiver() {$/;"	f	class:WifiP2pProxy	file:
+mRecordCount	MtkHandoverManager.java	/^        static byte mRecordCount;$/;"	f	class:MtkHandoverManager.HandoverMessageElement
+mRepositoryPath	FilePushServer.java	/^	private String mRepositoryPath = Environment.getExternalStorageDirectory().getPath() + "\/mbeam";$/;"	f	class:FilePushServer	file:
+mSSID	WifiCarrierConfiguration.java	/^		private byte[] mSSID;$/;"	f	class:WifiCarrierConfiguration.Credential	file:
+mSessionCount	FilePushServer.java	/^		private int mSessionCount;$/;"	f	class:FilePushServer.Session	file:
+mSessionMutex	FilePushServer.java	/^		private Object mSessionMutex = new Object();$/;"	f	class:FilePushServer.Session	file:
+mState	BeamPlusHandover.java	/^	private int mState;$/;"	f	class:BeamPlusHandover	file:
+mTargetInfo	BeamPlusHandover.java	/^	private IWifiP2pProxy.IFastConnectInfo mTargetInfo;$/;"	f	class:BeamPlusHandover	file:
+mThisDeviceAddress	WifiP2pProxy.java	/^	private String mThisDeviceAddress;$/;"	f	class:WifiP2pProxy	file:
+mTotal	FilePushClient.java	/^		private int mTotal;$/;"	f	class:FilePushClient.UIHandler	file:
+mUI	FilePushClient.java	/^	private ISenderUI mUI;$/;"	f	class:FilePushClient	file:
+mUI	FilePushServer.java	/^	private IReceiverUI mUI;$/;"	f	class:FilePushServer	file:
+mUriList	BeamPlusHandover.java	/^	private LinkedList<Uri[]> mUriList = new LinkedList<Uri[]>();$/;"	f	class:BeamPlusHandover	file:
+mVersion	HandoverMessage.java	/^	private byte mVersion;$/;"	f	class:HandoverMessage.HandoverRequest	file:
+mVersion	HandoverMessage.java	/^	private byte mVersion;$/;"	f	class:HandoverMessage.HandoverSelect	file:
+mVersion	WifiCarrierConfiguration.java	/^	private byte mVersion = DEFAULT_WIFI_VERISON;$/;"	f	class:WifiCarrierConfiguration	file:
+mWifiCPS	MtkHandoverManager.java	/^        static byte mWifiCPS;$/;"	f	class:MtkHandoverManager.HandoverMessageElement
+mWifiDisplayProxy	MtkHandoverManager.java	/^	WifiDisplayProxy mWifiDisplayProxy;$/;"	f	class:MtkHandoverManager
+mWifiManager	WifiP2pProxy.java	/^	private WifiManager mWifiManager;$/;"	f	class:WifiP2pProxy	file:
+mWifiP2pManager	WifiP2pProxy.java	/^	private WifiP2pManager mWifiP2pManager;$/;"	f	class:WifiP2pProxy	file:
+mWifiP2pProxy	BeamPlusHandover.java	/^	private IWifiP2pProxy mWifiP2pProxy;$/;"	f	class:BeamPlusHandover	file:
+mWifiP2pProxy	MtkHandoverManager.java	/^	WifiP2pProxy mWifiP2pProxy;$/;"	f	class:MtkHandoverManager
+mWifiP2pProxyListener	BeamPlusHandover.java	/^	private IWifiP2pProxy.WifiP2pProxyListener mWifiP2pProxyListener = new IWifiP2pProxy.WifiP2pProxyListener() {$/;"	f	class:BeamPlusHandover	file:
+mWorkingSession	FilePushClient.java	/^	private ClientSession mWorkingSession;$/;"	f	class:FilePushClient	file:
+macBytesArrayToReverseString	MtkHandoverManager.java	/^    static String macBytesArrayToReverseString(byte[] ByteArray) $/;"	m	class:MtkHandoverManager
+measureSize	WifiCarrierConfiguration.java	/^		private int measureSize() {$/;"	m	class:WifiCarrierConfiguration.Credential	file:
+measureSize	WifiCarrierConfiguration.java	/^		private int measureSize() {$/;"	m	class:WifiCarrierConfiguration.PasswordToken	file:
+mergeBytes	Util.java	/^    public static byte[] mergeBytes(byte[] array1, byte[] array2) {$/;"	m	class:Util
+mscenario	MtkHandoverManager.java	/^        static int mscenario;$/;"	f	class:MtkHandoverManager.HandoverMessageElement
+newInstance	CarrierData.java	/^	public static HandoverCarrierRecord newInstance(String carrierType) {$/;"	m	class:CarrierData.HandoverCarrierRecord
+offset	WifiCarrierConfiguration.java	/^		int offset;$/;"	f	class:WifiCarrierConfiguration.TLV
+onCanceled	FileTransfer.java	/^		void onCanceled();$/;"	m	interface:FileTransfer.IReceiverUI
+onCanceled	ReceiverUI.java	/^	public void onCanceled() {$/;"	m	class:ReceiverUI
+onCaneceled	FileTransfer.java	/^		void onCaneceled(int id, int total, int success);$/;"	m	interface:FileTransfer.ISenderUI
+onCaneceled	SenderUI.java	/^	public void onCaneceled(int id, int total, int success) {$/;"	m	class:SenderUI
+onCompleted	FileTransfer.java	/^		void onCompleted();$/;"	m	interface:FileTransfer.IReceiverUI
+onCompleted	FileTransfer.java	/^		void onCompleted(int id, int total, int success);$/;"	m	interface:FileTransfer.ISenderUI
+onCompleted	ReceiverUI.java	/^	public void onCompleted() {$/;"	m	class:ReceiverUI
+onCompleted	SenderUI.java	/^	public void onCompleted(int id, int total, int success) {$/;"	m	class:SenderUI
+onConnected	IWifiP2pProxy.java	/^		public void onConnected(IWifiP2pDevice device);$/;"	m	interface:IWifiP2pProxy.WifiP2pProxyListener
+onDisabled	IWifiP2pProxy.java	/^		public void onDisabled();$/;"	m	interface:IWifiP2pProxy.WifiP2pProxyListener
+onDisconnected	FileTransfer.java	/^		void onDisconnected();$/;"	m	interface:FileTransfer.IServerEventListener
+onDisconnected	FileTransfer.java	/^		void onDisconnected(int message);$/;"	m	interface:FileTransfer.IClientEventListener
+onDisconnected	IWifiP2pProxy.java	/^		public void onDisconnected();$/;"	m	interface:IWifiP2pProxy.WifiP2pProxyListener
+onEnabled	IWifiP2pProxy.java	/^		public void onEnabled();$/;"	m	interface:IWifiP2pProxy.WifiP2pProxyListener
+onError	FileTransfer.java	/^		void onError();$/;"	m	interface:FileTransfer.IReceiverUI
+onError	FileTransfer.java	/^		void onError(int id, int total, int success);$/;"	m	interface:FileTransfer.ISenderUI
+onError	ReceiverUI.java	/^	public void onError() {$/;"	m	class:ReceiverUI
+onError	SenderUI.java	/^	public void onError(int id, int total, int success) {$/;"	m	class:SenderUI
+onGroupInfoAvailable	WifiP2pProxy.java	/^		public void onGroupInfoAvailable(WifiP2pGroup group) {$/;"	m	class:WifiP2pProxy.GroupInfoObserver
+onPrepared	FileTransfer.java	/^		void onPrepared();$/;"	m	interface:FileTransfer.IReceiverUI
+onPrepared	FileTransfer.java	/^		void onPrepared(int id, int total);$/;"	m	interface:FileTransfer.ISenderUI
+onPrepared	ReceiverUI.java	/^	public void onPrepared() {$/;"	m	class:ReceiverUI
+onPrepared	SenderUI.java	/^	public void onPrepared(int id, int total) {$/;"	m	class:SenderUI
+onProgressUpdate	FileTransfer.java	/^		void onProgressUpdate(int id, String filename, int progress);$/;"	m	interface:FileTransfer.IReceiverUI
+onProgressUpdate	FileTransfer.java	/^		void onProgressUpdate(int id, String filename, int progress, int total,$/;"	m	interface:FileTransfer.ISenderUI
+onProgressUpdate	ReceiverUI.java	/^	public void onProgressUpdate(int id, String filename, int progress) {$/;"	m	class:ReceiverUI
+onProgressUpdate	SenderUI.java	/^	public void onProgressUpdate(int id, String filename, int progress,$/;"	m	class:SenderUI
+onServerShutdown	FileTransfer.java	/^		void onServerShutdown();$/;"	m	interface:FileTransfer.IServerEventListener
+onServerStarted	FileTransfer.java	/^		void onServerStarted();$/;"	m	interface:FileTransfer.IServerEventListener
+packHandoverRequestMessage	MtkHandoverManager.java	/^	synchronized NdefMessage packHandoverRequestMessage(Uri[] uris,boolean WifiDisplayActive){$/;"	m	class:MtkHandoverManager
+parse	WifiCarrierConfiguration.java	/^		private void parse(byte[] buffer, int offset, int len) {$/;"	m	class:WifiCarrierConfiguration.Credential	file:
+parse	WifiCarrierConfiguration.java	/^		private void parse(byte[] buffer, int offset, int len) {$/;"	m	class:WifiCarrierConfiguration.PasswordToken	file:
+parseCredentialTLV	WifiCarrierConfiguration.java	/^		private void parseCredentialTLV(short tag, byte[] buffer, int offset,$/;"	m	class:WifiCarrierConfiguration.Credential	file:
+parseTLV	MtkHandoverManager.java	/^    private byte[] parseTLV(TLV[] tlvArray,short tagName){$/;"	m	class:MtkHandoverManager	file:
+parseTLV	WifiCarrierConfiguration.java	/^	private static void parseTLV(short tag, byte[] buffer, int offset, int len,$/;"	m	class:WifiCarrierConfiguration	file:
+parseWfLegacyHrM	HandoverBuilderParser.java	/^	public static boolean parseWfLegacyHrM(NdefMessage wfLegacyHrM) throws FormatException{$/;"	m	class:HandoverBuilderParser
+passCount	FilePushClient.java	/^		int passCount;$/;"	f	class:FilePushClient.Job
+popJob	FilePushClient.java	/^	private Job popJob() {$/;"	m	class:FilePushClient	file:
+powerUpBlueTooth	MtkHandoverManager.java	/^	public boolean powerUpBlueTooth(){$/;"	m	class:MtkHandoverManager
+powerUpWifi	MtkHandoverManager.java	/^	public boolean powerUpWifi(){$/;"	m	class:MtkHandoverManager
+prepareFile	FilePushServer.java	/^		private File prepareFile(File fileDir, String fileName) {$/;"	m	class:FilePushServer.Session	file:
+prepareNoficiations	ui/BeamPlusUi.java	/^	protected void prepareNoficiations(int id, CharSequence title,$/;"	m	class:BeamPlusUi
+progress	ui/BeamPlusUi.java	/^		Notification progress;$/;"	f	class:BeamPlusUi.TaskNoticiation
+putExtension	WifiCarrierConfiguration.java	/^		private void putExtension(ByteBuffer buffer) {$/;"	m	class:WifiCarrierConfiguration.Credential	file:
+putExtension	WifiCarrierConfiguration.java	/^	private void putExtension(ByteBuffer buffer) {$/;"	m	class:WifiCarrierConfiguration	file:
+run	FilePushClient.java	/^		public void run() {$/;"	m	class:FilePushClient.ClientSession
+run	FilePushServer.java	/^		public void run() {$/;"	m	class:FilePushServer.ServerThread
+run	FilePushServer.java	/^		public void run() {$/;"	m	class:FilePushServer.Session
+searchCPSofAC	MtkHandoverManager.java	/^    byte searchCPSofAC(NdefMessage m,String acType) {$/;"	m	class:MtkHandoverManager
+searchWifiACR	MtkHandoverManager.java	/^    boolean searchWifiACR(NdefMessage m) {$/;"	m	class:MtkHandoverManager
+sendCancel	FilePushServer.java	/^	private void sendCancel() {$/;"	m	class:FilePushServer	file:
+sendCancelOrError	FilePushClient.java	/^	private void sendCancelOrError(Job job, boolean isError) {$/;"	m	class:FilePushClient	file:
+sendDisconnect	FilePushClient.java	/^	private void sendDisconnect(int message) {$/;"	m	class:FilePushClient	file:
+sendError	FilePushServer.java	/^	private void sendError() {$/;"	m	class:FilePushServer	file:
+sendFile	FilePushClient.java	/^		private boolean sendFile(Uri uri, SocketChannel channel,$/;"	m	class:FilePushClient.ClientSession	file:
+sendJobCompleted	FilePushClient.java	/^	private void sendJobCompleted(Job job) {$/;"	m	class:FilePushClient	file:
+sendJobCompleted	FilePushServer.java	/^	private void sendJobCompleted() {$/;"	m	class:FilePushServer	file:
+sendWFDActiveBroadcast	MtkHandoverManager.java	/^	private void sendWFDActiveBroadcast(byte[] macAddr,String NetworkKey,String SSID,byte NetworkId ,short AuthType,short EncType,byte[] vendorId,byte[] gcIp,byte[] goIp,byte[] maxHeight,byte[] maxWidth){$/;"	m	class:MtkHandoverManager	file:
+serialVersionUID	exceptions/JobCancelException.java	/^    private static final long serialVersionUID = 1L;$/;"	f	class:JobCancelException	file:
+serialVersionUID	exceptions/ReadEofException.java	/^    private static final long serialVersionUID = -7397164236340061360L;$/;"	f	class:ReadEofException	file:
+setAuthType	IWifiP2pProxy.java	/^		int setAuthType(String authType);$/;"	m	interface:IWifiP2pProxy.IFastConnectInfo
+setAuthType	WifiP2pProxy.java	/^		public int setAuthType(String authType) {$/;"	m	class:WifiP2pProxy.TheFastConnectInfo
+setAuthType	testWifiProxy.java	/^		public int setAuthType(String authType){			return 2;		}$/;"	m	class:testWifiProxy.fastConnectInfo
+setAuthenticationType	WifiCarrierConfiguration.java	/^		public void setAuthenticationType(short authenticationType) {$/;"	m	class:WifiCarrierConfiguration.Credential
+setClientEventListener	FilePushClient.java	/^	public void setClientEventListener(IClientEventListener listener) {$/;"	m	class:FilePushClient
+setClientEventListener	FileTransfer.java	/^		void setClientEventListener(IClientEventListener listener);$/;"	m	interface:FileTransfer.IClient
+setDeviceAddress	IWifiP2pProxy.java	/^		int setDeviceAddress(String address);$/;"	m	interface:IWifiP2pProxy.IFastConnectInfo
+setDeviceAddress	WifiP2pProxy.java	/^		public int setDeviceAddress(String addr) {$/;"	m	class:WifiP2pProxy.TheFastConnectInfo
+setDeviceAddress	testWifiProxy.java	/^		public int setDeviceAddress(String address){			return 2;		}$/;"	m	class:testWifiProxy.fastConnectInfo
+setEncrType	IWifiP2pProxy.java	/^		int setEncrType(String encrType);$/;"	m	interface:IWifiP2pProxy.IFastConnectInfo
+setEncrType	WifiP2pProxy.java	/^		public int setEncrType(String encrType) {$/;"	m	class:WifiP2pProxy.TheFastConnectInfo
+setEncrType	testWifiProxy.java	/^		public int setEncrType(String encrType){			return 2;		}$/;"	m	class:testWifiProxy.fastConnectInfo
+setEncryptionType	WifiCarrierConfiguration.java	/^		public void setEncryptionType(short encryptionType) {$/;"	m	class:WifiCarrierConfiguration.Credential
+setGcIpAddress	IWifiP2pProxy.java	/^		int setGcIpAddress(String ip);$/;"	m	interface:IWifiP2pProxy.IFastConnectInfo
+setGcIpAddress	WifiP2pProxy.java	/^		public int setGcIpAddress(String ip) {$/;"	m	class:WifiP2pProxy.TheFastConnectInfo
+setGcIpAddress	testWifiProxy.java	/^		public int setGcIpAddress(String ip){			return 2;		}$/;"	m	class:testWifiProxy.fastConnectInfo
+setGoIpAddress	IWifiP2pProxy.java	/^		int setGoIpAddress(String ip);$/;"	m	interface:IWifiP2pProxy.IFastConnectInfo
+setGoIpAddress	WifiP2pProxy.java	/^		public int setGoIpAddress(String ip) {$/;"	m	class:WifiP2pProxy.TheFastConnectInfo
+setGoIpAddress	testWifiProxy.java	/^		public int setGoIpAddress(String ip){			return 2;		}$/;"	m	class:testWifiProxy.fastConnectInfo
+setMacAddress	BTCarrierConfiguration.java	/^    public void setMacAddress(String strMacAddress) {$/;"	m	class:BTCarrierConfiguration
+setMacAddress	BTCarrierConfiguration.java	/^    public void setMacAddress(byte[] macAddress) {$/;"	m	class:BTCarrierConfiguration
+setMacAddress	WifiCarrierConfiguration.java	/^		public void setMacAddress(byte[] macAddress) {$/;"	m	class:WifiCarrierConfiguration.Credential
+setNetworkId	IWifiP2pProxy.java	/^		int setNetworkId(int id);$/;"	m	interface:IWifiP2pProxy.IFastConnectInfo
+setNetworkId	WifiP2pProxy.java	/^		public int setNetworkId(int id) {$/;"	m	class:WifiP2pProxy.TheFastConnectInfo
+setNetworkId	testWifiProxy.java	/^		public int setNetworkId(int id){			return 2;		}$/;"	m	class:testWifiProxy.fastConnectInfo
+setNetworkKey	WifiCarrierConfiguration.java	/^		public void setNetworkKey(String networkKey) {$/;"	m	class:WifiCarrierConfiguration.Credential
+setPassword	WifiCarrierConfiguration.java	/^		public void setPassword(byte[] password) {$/;"	m	class:WifiCarrierConfiguration.PasswordToken
+setPasswordID	WifiCarrierConfiguration.java	/^		public void setPasswordID(short passwordID) {$/;"	m	class:WifiCarrierConfiguration.PasswordToken
+setPsk	IWifiP2pProxy.java	/^		int setPsk(String psk);$/;"	m	interface:IWifiP2pProxy.IFastConnectInfo
+setPsk	WifiP2pProxy.java	/^		public int setPsk(String psk) {$/;"	m	class:WifiP2pProxy.TheFastConnectInfo
+setPsk	testWifiProxy.java	/^		public int setPsk(String psk){			return 2;		}$/;"	m	class:testWifiProxy.fastConnectInfo
+setPublicKeyHash	WifiCarrierConfiguration.java	/^		public void setPublicKeyHash(byte[] publicKeyHash) {$/;"	m	class:WifiCarrierConfiguration.PasswordToken
+setSSID	WifiCarrierConfiguration.java	/^		public void setSSID(String ssid) {$/;"	m	class:WifiCarrierConfiguration.Credential
+setServerEventListener	FilePushServer.java	/^	public void setServerEventListener(IServerEventListener listener) {$/;"	m	class:FilePushServer
+setServerEventListener	FileTransfer.java	/^		void setServerEventListener(IServerEventListener listener);$/;"	m	interface:FileTransfer.IServer
+setSsid	IWifiP2pProxy.java	/^		int setSsid(String ssid);$/;"	m	interface:IWifiP2pProxy.IFastConnectInfo
+setSsid	WifiP2pProxy.java	/^		public int setSsid(String ssid) {$/;"	m	class:WifiP2pProxy.TheFastConnectInfo
+setSsid	testWifiProxy.java	/^		public int setSsid(String ssid){			return 2;		}$/;"	m	class:testWifiProxy.fastConnectInfo
+setUIHandler	FilePushClient.java	/^	public void setUIHandler(ISenderUI uiHandler) {$/;"	m	class:FilePushClient
+setUIHandler	FilePushServer.java	/^	public void setUIHandler(IReceiverUI uiHandler) {$/;"	m	class:FilePushServer
+setUIHandler	FileTransfer.java	/^		void setUIHandler(IReceiverUI uiHandler);$/;"	m	interface:FileTransfer.IServer
+setUIHandler	FileTransfer.java	/^		void setUIHandler(ISenderUI uiHandler);$/;"	m	interface:FileTransfer.IClient
+setVenderId	IWifiP2pProxy.java	/^		int setVenderId(int id);$/;"	m	interface:IWifiP2pProxy.IFastConnectInfo
+setVenderId	WifiP2pProxy.java	/^		public int setVenderId(int id) {$/;"	m	class:WifiP2pProxy.TheFastConnectInfo
+setVenderId	testWifiProxy.java	/^		public int setVenderId(int id){			return 2;		}$/;"	m	class:testWifiProxy.fastConnectInfo
+setVersion	WifiCarrierConfiguration.java	/^	public void setVersion(byte mVersion) {$/;"	m	class:WifiCarrierConfiguration
+size	WifiCarrierConfiguration.java	/^		int size;$/;"	f	class:WifiCarrierConfiguration.TLV
+splitPrefixString	MtkHandoverManager.java	/^    static String splitPrefixString(String targetString) {$/;"	m	class:MtkHandoverManager
+start	FilePushServer.java	/^	public void start() {$/;"	m	class:FilePushServer
+start	FileTransfer.java	/^		void start();$/;"	m	interface:FileTransfer.IServer
+start	MtkWifiP2pHandover.java	/^	public void start(){$/;"	m	class:MtkWifiP2pHandover
+startBeam	BeamPlusHandover.java	/^	public int startBeam(IWifiP2pProxy.IFastConnectInfo info, Uri[] uris) {$/;"	m	class:BeamPlusHandover
+startBeam	MtkWifiP2pHandover.java	/^	public void startBeam(IFastConnectInfo fci,Uri[] uris){$/;"	m	class:MtkWifiP2pHandover
+startBeamWhenConnected	BeamPlusHandover.java	/^	public int startBeamWhenConnected(IWifiP2pProxy.IFastConnectInfo info,$/;"	m	class:BeamPlusHandover
+startListen	MtkWifiP2pHandover.java	/^	public void startListen(){$/;"	m	class:MtkWifiP2pHandover
+stop	FilePushServer.java	/^	public void stop() {$/;"	m	class:FilePushServer
+stop	FileTransfer.java	/^		void stop();$/;"	m	interface:FileTransfer.IServer
+tag	WifiCarrierConfiguration.java	/^		short tag;$/;"	f	class:WifiCarrierConfiguration.TLV
+testWifiProxy	testWifiProxy.java	/^	public testWifiProxy(Context context){$/;"	m	class:testWifiProxy
+testWifiProxy	testWifiProxy.java	/^public class testWifiProxy implements IWifiP2pProxy{$/;"	c
+transferFiles	FilePushClient.java	/^	public void transferFiles(List<Uri> uris) {$/;"	m	class:FilePushClient
+transferFiles	FilePushClient.java	/^	public void transferFiles(Uri[] uris) {$/;"	m	class:FilePushClient
+transferFiles	FileTransfer.java	/^		void transferFiles(List<Uri> uris);$/;"	m	interface:FileTransfer.IClient
+transferFiles	FileTransfer.java	/^		void transferFiles(Uri[] uris);$/;"	m	interface:FileTransfer.IClient
+triggerDisconnectEvent	FilePushClient.java	/^	private void triggerDisconnectEvent(int message) {$/;"	m	class:FilePushClient	file:
+triggerDisconnectedEvent	FilePushServer.java	/^	private void triggerDisconnectedEvent() {$/;"	m	class:FilePushServer	file:
+triggerServerEvent	FilePushServer.java	/^	private void triggerServerEvent(boolean isStart) {$/;"	m	class:FilePushServer	file:
+tryConfigurationHandover	MtkHandoverManager.java	/^	boolean tryConfigurationHandover(NdefMessage tryConfigHandoverMessage){$/;"	m	class:MtkHandoverManager
+tryMtkHandoverRequest	MtkHandoverManager.java	/^	public NdefMessage tryMtkHandoverRequest(NdefMessage tryMessage){$/;"	m	class:MtkHandoverManager
+tryParse	BTCarrierConfiguration.java	/^    public static BTCarrierConfiguration tryParse(HandoverCarrier carrier) {$/;"	m	class:BTCarrierConfiguration
+tryParse	CarrierData.java	/^	public static HandoverCarrierRecord tryParse(HandoverCarrier carrier) {$/;"	m	class:CarrierData.HandoverCarrierRecord
+tryParse	WifiCarrierConfiguration.java	/^	public static WifiCarrierConfiguration tryParse(HandoverCarrier carrier) {$/;"	m	class:WifiCarrierConfiguration
+tryParse	WifiCarrierConfiguration.java	/^	public static WifiCarrierConfiguration tryParse(NdefMessage message) {$/;"	m	class:WifiCarrierConfiguration
+tryParseRequest	HandoverMessage.java	/^    public static HandoverRequest tryParseRequest(NdefMessage message)$/;"	m	class:HandoverMessage
+tryParseSelect	HandoverMessage.java	/^    public static HandoverSelect tryParseSelect(NdefMessage message)$/;"	m	class:HandoverMessage
+updateProgress	FilePushClient.java	/^	private void updateProgress(Job job, String filename, int progress) {$/;"	m	class:FilePushClient	file:
+updateProgress	FilePushServer.java	/^	private void updateProgress(int id, String filename, int progress) {$/;"	m	class:FilePushServer	file:
+updateProgressUI	ui/BeamPlusUi.java	/^	protected void updateProgressUI(int id, CharSequence title, int progress) {$/;"	m	class:BeamPlusUi
+uris	FilePushClient.java	/^		Uri[] uris;$/;"	f	class:FilePushClient.Job
+value	WifiCarrierConfiguration.java	/^		byte[] value;$/;"	f	class:WifiCarrierConfiguration.TLV
+whichScenario	MtkHandoverManager.java	/^    int whichScenario(NdefMessage m){$/;"	m	class:MtkHandoverManager

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label" msgid="3070921713463294774">ڈاؤن لوڈز</string>
+    <string name="download_title_sorted_by_date" msgid="5898014492155434221">تاریخ کی طرف سے ڈاؤن لوڈ ، اتارنا ترتیب</string>
+    <string name="download_title_sorted_by_size" msgid="1417193166677094813">سائز کی طرف سے ڈاؤن لوڈ ، اتارنا ترتیب</string>
+    <string name="no_downloads" msgid="1029667411186146836">کوئی ڈاؤن لوڈز نہیں۔</string>
+    <string name="missing_title" msgid="830115697868833773">&lt;غیرمعلوم&gt;</string>
+    <string name="button_sort_by_size" msgid="2276438658769422878">بطور سائز چھانٹنا</string>
+    <string name="button_sort_by_date" msgid="4300882048968609945">بطور وقت چھانٹنا</string>
+    <string name="download_queued" msgid="104973307780629904">قطار شدہ</string>
+    <string name="download_running" msgid="4656462962155580641">ترقی پذیر</string>
+    <string name="download_success" msgid="7006048006543495236">مکمل</string>
+    <string name="download_error" msgid="3107369653921738690">ناکام</string>
+    <string name="dialog_title_not_available" msgid="4479021195995400471">ڈاؤن لوڈ ناکام</string>
+    <string name="dialog_failed_body" msgid="587545111677064427">کیا آپ فائل ڈاؤن لوڈ کرنے کے لئے دوبارہ کوشش کرنا یا اسے قطار سے حذف کرنا چاہتے ہیں؟</string>
+    <string name="dialog_title_queued_body" msgid="3062862079904954824">فائل ابھی دستیاب نہیں ہے</string>
+    <string name="dialog_queued_body" msgid="2506935748423351902">مستقبل میں ڈاؤن لوڈ کرنے کے لئے یہ فائل قطار میں ہے۔</string>
+    <string name="dialog_file_missing_body" msgid="2783781332668129395">ڈاؤن لوڈ شدہ فائل نہیں حاصل کی جاسکتی۔</string>
+    <string name="dialog_insufficient_space_on_external" msgid="7534108515812329821">ڈاؤن لوڈ مکمل نہیں ہوسکتا۔ خارجی اسٹوریج میں کافی جگہ موجود نہیں ہے۔</string>
+    <string name="dialog_insufficient_space_on_cache" msgid="8387210487235302129">ڈاؤن لوڈ مکمل نہیں ہوسکتا۔ داخلی اسٹوریج میں کافی جگہ موجود نہیں ہے۔</string>
+    <string name="dialog_cannot_resume" msgid="7704082031608361756">ڈاؤن لوڈ میں خلل واقع ہوا۔ اسے دوبارہ جاری نہیں کیا جاسکتا ہے۔</string>
+    <string name="dialog_file_already_exists" msgid="2663737850617642888">ڈاؤن لوڈ نہیں کیا جاسکتا۔ فاصلاتی فائل پہلے سے موجود ہے۔</string>
+    <string name="dialog_media_not_found" msgid="5308602145105720991">ڈاؤن لوڈ نہیں کیا جاسکتا۔ خارجی میڈیا دستیاب نہیں ہے۔</string>
+    <string name="download_no_application_title" msgid="3501359021635168387">فائل نہیں کھول سکتا</string>
+    <string name="remove_download" msgid="6372920256257247857">خارج کرنا</string>
+    <string name="delete_download" msgid="76629022653866471">حذف کرنا</string>
+    <string name="keep_queued_download" msgid="5144882786014818569">باقی رکھنا</string>
+    <string name="cancel_running_download" msgid="5232704030969221112">منسوخ کرنا</string>
+    <string name="retry_download" msgid="7617100787922717912">دوبارہ کوشش کرنا</string>
+    <string name="deselect_all" msgid="5638030443515705047">انتخاب صاف کرنا</string>
+    <string name="select_all">سبھی کو منتخب کریں</string>  
+    <string name="selected_count">منتخب کردہ 
+        <xliff:g id="number" example="3">%1$d</xliff:g> میں سے 
+        <xliff:g id="total" example="15">%2$d</xliff:g> 
+    </string>  
+    <string name="download_share_dialog">اشتراک کریں بذریعہ</string>
+</resources>
+

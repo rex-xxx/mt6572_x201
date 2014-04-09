@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">پیکیج کا تنصیب کار</string>  
+    <string name="install">نصب کریں</string>  
+    <string name="done">ہوگيا</string>  
+    <string name="security_settings_desc">اس اطلاق کو اجازت دیں بنام:</string>  
+    <string name="cancel">منسوخ</string>  
+    <string name="unknown">نامعلوم</string>  
+    <string name="installing">نصب ہو رہا ہے\u2026</string>  
+    <string name="install_done">اطلاق نصب ہوگیا۔</string>  
+    <string name="install_confirm_question">کیا آپ یہ اطلاق نصب کرنا چاہتے ہیں؟ اس کی رسائی ذیل تک ہوگی:</string>  
+    <string name="install_confirm_question_no_perms">کیا آپ یہ اطلاق نصب کرنا چاہتے ہیں؟ اس کو کسی خاص رسائی کی ضرورت نہیں ہے۔</string>  
+    <string name="install_confirm_question_update">کیا آپ اس موجودہ اطلاق میں کوئی اپ ڈیٹ نصب کرنا چاہتے ہیں؟ آپ کا موجودہ ڈیٹا ضائع نہیں ہوگا۔ تجدید شدہ اطلاق کی رسائی ذیل تک ہوگی:</string>  
+    <string name="install_confirm_question_update_system">کیا آپ اس بنے بنائے اطلاق میں کوئی اپ ڈیٹ نصب کرنا چاہتے ہیں؟ آپ کا موجودہ ڈیٹا ضائع نہیں ہوگا۔ تجدید شدہ اطلاق کی رسائی ذیل تک ہوگی:</string>  
+    <string name="install_failed">اطلاق نصب نہیں ہوا۔</string>  
+    <string name="install_failed_invalid_apk">پیکیج خراب شدہ معلوم پڑتا ہے۔</string>  
+    <string name="install_failed_inconsistent_certificates">متضاد دستخط کے ساتھ اسی نام کا ایک موجودہ پیکیج پہلے سے نصب ہے۔</string>  
+    <string name="install_failed_older_sdk">پیکیج صرف Android کے جدید تر ورژنز پر کام کرتا ہے۔</string>  
+    <string name="install_failed_cpu_abi_incompatible" product="tablet">یہ اطلاق آپ کے ٹیبلیٹ کے ساتھ ہم آہنگ نہیں ہے۔</string>  
+    <string name="install_failed_cpu_abi_incompatible" product="default">یہ اطلاق آپ کے فون کے ساتھ ہم آہنگ نہیں ہے۔</string>  
+    <string name="install_failed_file_not_found">بیان کردہ پیکیج تنصیب مکمل ہونے سے پہلے ہی حذف کردیا گیا تھا۔</string>  
+    <string name="install_failed_verify_failed">پیکیج توثیق میں پاس نہیں ہوا اور نصب نہیں ہوسکتا ہے۔</string>  
+    <string name="install_failed_verify_timeout">اس پیکیج کی توثیق کرتے وقت ٹائم آؤٹ پیش آگیا۔ اسے بعد میں دوبارہ نصب کرنے کی کوشش کریں۔</string>  
+    <string name="install_failed_msg" product="tablet"> 
+        <xliff:g id="app_name">%1$s</xliff:g> آپ کے ٹیبلیٹ پر نصب نہیں ہوسکا۔
+    </string>  
+    <string name="install_failed_msg" product="default"> 
+        <xliff:g id="app_name">%1$s</xliff:g> آپ کے فون پر نصب نہیں ہوسکا۔
+    </string>  
+    <string name="launch">کھلا</string>  
+    <string name="unknown_apps_dlg_title">تنصیب مسدود ہوگئی</string>  
+    <string name="unknown_apps_dlg_text" product="tablet">سیکیورٹی کی مدنظر، آپ کا ٹیبلیٹ نامعلوم مآخذ سے حاصل شدہ اطلاقات کی تنصیب مسدود کرنے پر متعین ہے۔</string>  
+    <string name="unknown_apps_dlg_text" product="default">سیکیورٹی کی مدنظر، آپ کا فون نامعلوم مآخذ سے حاصل شدہ اطلاقات کی تنصیب مسدود کرنے پر متعین ہے۔</string>  
+    <string name="ok">ٹھیک ہے</string>  
+    <string name="settings">ترتیبات</string>  
+    <string name="allow_source_dlg_title">اطلاقات کیلئے نیا ماخذ</string>  
+    <string name="allow_source_dlg_text"> 
+        <xliff:g id="app_name">%1$s</xliff:g> دوسرے اطلاقات نصب کرنا چاہتا ہے۔\n\nاسے ابھی اور مستقبل میں اجازت دیں؟
+    </string>  
+    <string name="manage_applications">ایپس کا انتظام کرنا</string>  
+    <string name="dlg_app_replacement_title">اطلاق بدلیں؟</string>  
+    <string name="dlg_app_replacement_statement">آپ جو اطلاق نصب کر رہے ہیں وہ دوسرے اطلاق کو بدل دے گا۔\n\nآپ کے پچھلے صارف کا سبھی ڈیٹا محفوظ ہوجائے گا۔</string>  
+    <string name="dlg_sys_app_replacement_statement">یہ ایک سسٹم کا اطلاق ہے۔\n\nآپ کے پچھلے صارف کا سبھی ڈیٹا محفوظ ہوجائے گا۔</string>  
+    <string name="out_of_space_dlg_title">جگہ ختم ہے</string>  
+    <string name="out_of_space_dlg_text"> 
+        <xliff:g id="app_name">%1$s</xliff:g> نصب نہیں ہوسکا۔ کچھ جگہ خالی کریں اور دوبارہ آزمائیں۔
+    </string>  
+    <string name="dlg_ok">ٹھیک ہے</string>  
+    <string name="app_not_found_dlg_title">اطلاق نہیں ملا</string>  
+    <string name="app_not_found_dlg_text">اطلاق نصب شدہ اطلاقات کی فہرست میں نہیں ملا تھا۔</string>  
+    <string name="uninstall_application_title">اطلاق غیر نصب کریں</string>  
+    <string name="uninstall_update_title">اپ ڈیٹ غیر نصب کریں</string>  
+    <string name="uninstall_activity_text"> 
+        <xliff:g id="activity_name">%1$s</xliff:g> درج ذیل اطلاق کا حصہ ہے:
+    </string>  
+    <string name="uninstall_application_text">کیا آپ یہ اطلاق غیر نصب کرنا چاہتے ہیں؟</string>  
+    <string name="uninstall_update_text">کیا آپ اس اطلاق کو فیکٹری ورژن سے بدلنا چاہتے ہیں؟</string>  
+    <string name="uninstalling">غیر نصب کر رہا ہے\u2026</string>  
+    <string name="uninstall_done">عدم تنصیب پوری ہوگئی۔</string>  
+    <string name="uninstall_failed">عدم تنصیب ناکام رہی۔</string>  
+    <string name="uninstall_failed_device_policy_manager">غیر نصب نہیں کرسکتا ہے کیونکہ یہ پیکیج ایک فعال آلہ کا منتظم ہے۔</string>  
+    <string name="manage_device_administrators">آلہ کے منتظمین کا نظم کریں</string>  
+    <string name="uninstall_failed_msg"> 
+        <xliff:g id="app_name">%1$s</xliff:g> غیر نصب نہیں ہوسکا۔
+    </string>  
+    <string name="Parse_error_dlg_title">تصریف کی خامی</string>  
+    <string name="Parse_error_dlg_text">پیکیج کی تصریف کرنے میں ایک دشواری تھی۔</string>  
+    <string name="newPerms">نیا</string>  
+    <string name="privacyPerms">رازداری</string>  
+    <string name="devicePerms">آلہ تک رسائی</string>  
+    <string name="no_new_perms">اس اپ ڈیٹ کیلئے نئی اجازتوں کی ضرورت نہیں ہے۔</string> 
+</resources>

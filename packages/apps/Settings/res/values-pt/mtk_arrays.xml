@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="wifi_security"> 
+        <item>"Abrir"</item>  
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+        <item>WAPI PSK</item>
+        <item>Certificado WAPI</item>  
+    </string-array>  
+    <string-array name="wpa_security"> 
+        <item>"Abrir"</item>  
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>  
+    <string-array name="wpa_security_wfa"> 
+        <item>"Abrir"</item>  
+        <item>WEP</item>
+        <item>WPA PSK</item>
+        <item>WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>  
+    <string-array name="wapi_security"> 
+        <item>"Abrir"</item>  
+        <item>Certificado WAPI</item>  
+        <item/> 
+    </string-array>  
+    <string-array name="gemini_sim_info_number_display_format_entries"> 
+        <item>4 primeiros dígitos</item>  
+        <item>4 últimos dígitos</item>  
+        <item>Não exibir</item> 
+    </string-array>  
+    <string-array name="gemini_sim_roaming_reminder_entries"> 
+        <item>Uma vez</item>  
+        <item>Sempre</item>  
+        <item>Nunca</item> 
+    </string-array>  
+    <string-array name="gsm_umts_network_preferences_choices"> 
+        <item>GSM/WCDMA (modo auto)</item>  
+        <item>Apenas WCDMA</item>  
+        <item>GSM apenas</item> 
+    </string-array>  
+    <string-array name="network_use_entry"> 
+        <item>Apenas Residência</item>  
+        <item>Residência + Deslocamento</item> 
+    </string-array>  
+    <string-array name="auto_time_entries"> 
+        <item>Utilizar tempo de rede fornecido</item>  
+        <item>Usar tempo fornecido do GPS</item>  
+        <item>Desligar</item> 
+    </string-array>  
+    <string-array name="hdmi_video_resolution_entries"> 
+        <item>Automático</item>  
+        <item>720P</item>
+        <item>480P</item>
+    </string-array>  
+    <string-array name="wifi_WEP_security_type"> 
+        <item>Automático</item>  
+        <item>WEP ASCII</item>
+        <item>"WEP hexadecimal"</item>  
+    </string-array>  
+    <string-array name="wifi_hotspot_disable_policy_entries"> 
+        <item>Sempre</item>  
+        <item>Desligar quando ocioso por 5 min</item>  
+        <item>Desligar quando ocioso por 10 min</item> 
+    </string-array>  
+    <string-array name="wifi_ap_wps_mode_entries"> 
+        <item>Botões</item>  
+        <item>PIN do cliente</item> 
+    </string-array>  
+    <string-array name="wifi_ap_max_connection_entries"> 
+        <item>1 usuário</item>  
+        <item>2 usuários</item>
+        <item>3 usuários</item>
+        <item>4 usuários</item>
+        <item>5 usuários</item>
+        <item>6 usuários</item>
+        <item>7 usuários</item>
+        <item>8 usuários</item> 
+    </string-array> 
+	<string-array name="sim_slot">
+		<item>"(não especificado)"</item>
+		<item>Slot Sim 1</item>
+		<item>Slot Sim 2</item>
+	</string-array>
+</resources>

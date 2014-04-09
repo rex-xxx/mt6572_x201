@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources> 
+    <string-array name="reminder_methods_labels"> 
+        <item>အကြောင်းကြားချက်</item>  
+        <item>အီးမေး(လ်)</item>  
+        <item>SMS</item>  
+        <item>နှိုးစက်</item> 
+    </string-array>  
+    <integer-array name="reminder_methods_values" translatable="false"> 
+        <item>1</item>  
+        <!-- METHOD_ALERT -->  
+        <item>2</item>  
+        <!-- METHOD_EMAIL -->  
+        <item>3</item>  
+        <!-- METHOD_SMS -->  
+        <item>4</item>  
+        <!-- METHOD_ALARM --> 
+    </integer-array>  
+    <string-array name="reminder_minutes_labels"> 
+        <item>၀ မိနစ်</item>  
+        <item>၁ မိနစ်</item>  
+        <item>၅ မိနစ်</item>  
+        <item>၁၀ မိနစ်</item>  
+        <item>၁၅ မိနစ်</item>  
+        <item>၂၀ မိနစ်</item>  
+        <item>၂၅ မိနစ်</item>  
+        <item>၃၀ မိနစ်</item>  
+        <item>၄၅ မိနစ်</item>  
+        <item>၁ နာရီ</item>  
+        <item>၂ နာရီ</item>  
+        <item>၃ နာရီ</item>  
+        <item>၁၂ နာရီ</item>  
+        <item>၂၄ နာရီ</item>  
+        <item>၂ ရက်</item>  
+        <item>၁ ပတ်</item> 
+    </string-array>  
+    <integer-array name="reminder_minutes_values" translatable="false"> 
+        <item>0</item>  
+        <item>1</item>  
+        <item>5</item>  
+        <item>10</item>  
+        <item>15</item>  
+        <item>20</item>  
+        <item>25</item>  
+        <item>30</item>  
+        <item>45</item>  
+        <item>60</item>  
+        <item>120</item>  
+        <item>180</item>  
+        <item>720</item>  
+        <item>1440</item>  
+        <item>2880</item>  
+        <item>10080</item> 
+    </integer-array>  
+    <string-array name="preferences_default_reminder_labels"> 
+        <item>မရှိ</item>  
+        <item>၀ မိနစ်</item>  
+        <item>၁ မိနစ်</item>  
+        <item>၅ မိနစ်</item>  
+        <item>၁၀ မိနစ်</item>  
+        <item>၁၅ မိနစ်</item>  
+        <item>၂၀ မိနစ်</item>  
+        <item>၂၅ မိနစ်</item>  
+        <item>၃၀ မိနစ်</item>  
+        <item>၄၅ မိနစ်</item>  
+        <item>၁ နာရီ</item>  
+        <item>၂ နာရီ</item>  
+        <item>၃ နာရီ</item>  
+        <item>၁၂ နာရီ</item>  
+        <item>၂၄ နာရီ</item>  
+        <item>၂ ရက်</item>  
+        <item>၁ ပတ်</item> 
+    </string-array>  
+    <string-array name="preferences_default_reminder_values" translatable="false"> 
+        <item>"-1"</item>  
+        <item>"0"</item>  
+        <item>"1"</item>  
+        <item>"5"</item>  
+        <item>"10"</item>  
+        <item>"15"</item>  
+        <item>"20"</item>  
+        <item>"25"</item>  
+        <item>"30"</item>  
+        <item>"45"</item>  
+        <item>"60"</item>  
+        <item>"120"</item>  
+        <item>"180"</item>  
+        <item>"720"</item>  
+        <item>"1440"</item>  
+        <item>"2880"</item>  
+        <item>"10080"</item> 
+    </string-array>  
+    <string-array name="preferences_week_start_day_labels"> 
+        <item>ပင်ရင်းဒေသ မူလသတ်မှတ်ချက်</item>  
+        <item>စနေနေ့</item>  
+        <item>တနင်္ဂနွေနေ့</item>  
+        <item>တနင်္လာနေ့</item> 
+    </string-array>  
+    <string-array name="preferences_week_start_day_values" translatable="false"> 
+        <item>"-1"</item>  
+        <item>"7"</item>  
+        <item>"1"</item>  
+        <item>"2"</item> 
+    </string-array>  
+    <string-array name="timezone_labels"> 
+        <item>"မာရှယ် ကျွန်းများ"</item>  
+        <item>"မစ်(ဒ်)ဝေး ကျွန်း"</item>  
+        <item>"ဟာဝိုင်အီ"</item>  
+        <item>"အလာစကာ"</item>  
+        <item>"ပစိဖတ် အချိန်"</item>  
+        <item>"တီဟွမ်နာ"</item>  
+        <item>"အာရီဇိုးနား"</item>  
+        <item>"ချီဟွားဟွား"</item>  
+        <item>"တောင် အချိန်"</item>  
+        <item>"အမေရိက အလယ်ပိုင်း"</item>  
+        <item>"အလယ်ပိုင်း အချိန်"</item>  
+        <item>"မက္ကဆီကို စီးတီး"</item>  
+        <item>"စာစကတ်ချီဝမ်"</item>  
+        <item>"ဘိုဂိုတာ"</item>  
+        <item>"အရှေ့ပိုင်း အချိန်"</item>  
+        <item>"ဗင်နီဇွဲလား"</item>  
+        <item>"အတ္တလန်တိတ် အချိန် (ဘာဘေးဒိုး(စ်))"</item>  
+        <item>"အတ္တလန်တိတ် အချိန် (ကနေဒါ)"</item>  
+        <item>"မန်နောက်(စ်)"</item>  
+        <item>"ဆန်တီရေးဂိုး"</item>  
+        <item>"နယူးဖောင်းလန်း"</item>  
+        <item>"ဘရာစီးလီးယား"</item>  
+        <item>"ဘူနို(စ်)အေးရီး(စ်)"</item>  
+        <item>"ဂရင်းလန်း"</item>  
+        <item>"မွန်တီဗီဒီယို"</item>  
+        <item>"အလယ်-အတ္တလန်တိတ်"</item>  
+        <item>"အာဇိုးရပ်(စ်)"</item>  
+        <item>"ကိတ်(ပ်)ဗာတီ ကျွန်းများ"</item>  
+        <item>"ကာဆာဘလန်ကာ"</item>  
+        <item>"လန်ဒန်၊ ဒပ်ဘလင်"</item>  
+        <item>"အမ်စတာဒမ်၊ ဘာလင်"</item>  
+        <item>"ဘဲ(လ်)ဂရိတ်"</item>  
+        <item>"ဘရပ်ဆဲ(လ်)"</item>  
+        <item>"ဆာရာယေဗို"</item>  
+        <item>"ဝင်းဒေါ့(ခ်)"</item>  
+        <item>"အနောက် အာဖရိက အချိန်"</item>  
+        <item>"အာမန်း၊ ဂျော်ဒန်"</item>  
+        <item>"အေသင်(စ်)၊ အစ်စတန်ဘူ(လ်)"</item>  
+        <item>"ဘေရွတ်၊ လက်ဘနွန်"</item>  
+        <item>"ကိုင်ရို"</item>  
+        <item>"ဟယ်(လ်)ဆင်းကီ"</item>  
+        <item>"ယေရုရှလင်"</item>  
+        <item>"မင့်(စ်ခ်)"</item>  
+        <item>"ဟာရရီ"</item>  
+        <item>"ဘဂ္ဂဒက်"</item>  
+        <item>"မော့စကို"</item>  
+        <item>"ကူဝိတ်"</item>  
+        <item>"နာရိုဘီ"</item>  
+        <item>"တီဟီရန်"</item>  
+        <item>"ဘာကူး"</item>  
+        <item>"တီဘစ်လီစီ"</item>  
+        <item>"ရဲရဗန်"</item>  
+        <item>"ဒူဘိုင်း"</item>  
+        <item>"ကာဘူး(လ်)"</item>  
+        <item>"အစ္စလမ်မာဘက်၊ ကာရာချီ"</item>  
+        <item>"ယူရယ်(လ်စ်ခ်)"</item>  
+        <item>"ရဲကာတာရင်ဘက်"</item>  
+        <item>"ကို(လ်)ကာတာ"</item>  
+        <item>"သီရိလင်္ကာ"</item>  
+        <item>"ခတ္တမန္ဒု"</item>  
+        <item>"အာစတန်နာ"</item>  
+        <item>"ရန်ကုန်"</item>  
+        <item>"ကရပ်(စ်)နိုယာ့(စ်ခ်)"</item>  
+        <item>"ဘန်ကောက်"</item>  
+        <item>"ဘေဂျင်း"</item>  
+        <item>"ဟောင်ကောင်"</item>  
+        <item>"အီယာကွတ်(စ်ခ်)"</item>  
+        <item>"ကွာလာလမ်ပူ"</item>  
+        <item>"ပါ့(သ်)"</item>  
+        <item>"တိုင်ပေ"</item>  
+        <item>"ဆိုး(လ်)"</item>  
+        <item>"တိုကျို၊ အိုဆာကာ"</item>  
+        <item>"ယာကွတ်(စ်ခ်)"</item>  
+        <item>"အာဒလိတ်"</item>  
+        <item>"ဒါဝင်"</item>  
+        <item>"ဘရစ်(စ်)ဘိန်း"</item>  
+        <item>"ဟိုဘာ့(တ်)"</item>  
+        <item>"ဆစ်ဒနီ၊ ကန်ဘာရာ"</item>  
+        <item>"ဗလာဒီဗော့စတော့(ခ်)"</item>  
+        <item>"ဂွမ်(မ်)"</item>  
+        <item>"မာဂါဒန်"</item>  
+        <item>"အော့(ခ်)လန်"</item>  
+        <item>"ဖီဂျီ"</item>  
+        <item>"တွန်ဂါ"</item> 
+    </string-array>  
+    <string-array name="timezone_values" translatable="false"> 
+        <item>"Pacific/Majuro"</item>  
+        <item>"Pacific/Midway"</item>  
+        <item>"Pacific/Honolulu"</item>  
+        <item>"America/Anchorage"</item>  
+        <item>"America/Los_Angeles"</item>  
+        <item>"America/Tijuana"</item>  
+        <item>"America/Phoenix"</item>  
+        <item>"America/Chihuahua"</item>  
+        <item>"America/Denver"</item>  
+        <item>"America/Costa_Rica"</item>  
+        <item>"America/Chicago"</item>  
+        <item>"America/Mexico_City"</item>  
+        <item>"America/Regina"</item>  
+        <item>"America/Bogota"</item>  
+        <item>"America/New_York"</item>  
+        <item>"America/Caracas"</item>  
+        <item>"America/Barbados"</item>  
+        <item>"America/Halifax"</item>  
+        <item>"America/Manaus"</item>  
+        <item>"America/Santiago"</item>  
+        <item>"America/St_Johns"</item>  
+        <item>"America/Sao_Paulo"</item>  
+        <item>"America/Argentina/Buenos_Aires"</item>  
+        <item>"America/Godthab"</item>  
+        <item>"America/Montevideo"</item>  
+        <item>"Atlantic/South_Georgia"</item>  
+        <item>"Atlantic/Azores"</item>  
+        <item>"Atlantic/Cape_Verde"</item>  
+        <item>"Africa/Casablanca"</item>  
+        <item>"Europe/London"</item>  
+        <item>"Europe/Amsterdam"</item>  
+        <item>"Europe/Belgrade"</item>  
+        <item>"Europe/Brussels"</item>  
+        <item>"Europe/Sarajevo"</item>  
+        <item>"Africa/Windhoek"</item>  
+        <item>"Africa/Brazzaville"</item>  
+        <item>"Asia/Amman"</item>  
+        <item>"Europe/Athens"</item>  
+        <item>"Asia/Beirut"</item>  
+        <item>"Africa/Cairo"</item>  
+        <item>"Europe/Helsinki"</item>  
+        <item>"Asia/Jerusalem"</item>  
+        <item>"Europe/Minsk"</item>  
+        <item>"Africa/Harare"</item>  
+        <item>"Asia/Baghdad"</item>  
+        <item>"Europe/Moscow"</item>  
+        <item>"Asia/Kuwait"</item>  
+        <item>"Africa/Nairobi"</item>  
+        <item>"Asia/Tehran"</item>  
+        <item>"Asia/Baku"</item>  
+        <item>"Asia/Tbilisi"</item>  
+        <item>"Asia/Yerevan"</item>  
+        <item>"Asia/Dubai"</item>  
+        <item>"Asia/Kabul"</item>  
+        <item>"Asia/Karachi"</item>  
+        <item>"Asia/Oral"</item>  
+        <item>"Asia/Yekaterinburg"</item>  
+        <item>"Asia/Calcutta"</item>  
+        <item>"Asia/Colombo"</item>  
+        <item>"Asia/Katmandu"</item>  
+        <item>"Asia/Almaty"</item>  
+        <item>"Asia/Rangoon"</item>  
+        <item>"Asia/Krasnoyarsk"</item>  
+        <item>"Asia/Bangkok"</item>  
+        <item>"Asia/Shanghai"</item>  
+        <item>"Asia/Hong_Kong"</item>  
+        <item>"Asia/Irkutsk"</item>  
+        <item>"Asia/Kuala_Lumpur"</item>  
+        <item>"Australia/Perth"</item>  
+        <item>"Asia/Taipei"</item>  
+        <item>"Asia/Seoul"</item>  
+        <item>"Asia/Tokyo"</item>  
+        <item>"Asia/Yakutsk"</item>  
+        <item>"Australia/Adelaide"</item>  
+        <item>"Australia/Darwin"</item>  
+        <item>"Australia/Brisbane"</item>  
+        <item>"Australia/Hobart"</item>  
+        <item>"Australia/Sydney"</item>  
+        <item>"Asia/Vladivostok"</item>  
+        <item>"Pacific/Guam"</item>  
+        <item>"Asia/Magadan"</item>  
+        <item>"Pacific/Auckland"</item>  
+        <item>"Pacific/Fiji"</item>  
+        <item>"Pacific/Tongatapu"</item> 
+    </string-array>  
+    <string-array name="availability"> 
+        <item>အလုပ်များနေသည်</item>  
+        <item>အားလပ်သည်</item>  
+        <item>ယာယီ</item> 
+    </string-array>  
+    <integer-array name="availability_values" translatable="false"> 
+        <item>0</item>  
+        <!-- Busy -->  
+        <item>1</item>  
+        <!-- Available -->  
+        <item>2</item>  
+        <!-- Tentative --> 
+    </integer-array>  
+    <string-array name="visibility"> 
+        <item>အလိုအလျောက်</item>  
+        <item>ပုဂ္ဂလိက</item>  
+        <item>အများသုံး</item> 
+    </string-array>  
+    <string-array name="ordinal_labels"> 
+        <item>ပထမ</item>  
+        <item>ဒုတိယ</item>  
+        <item>တတိယ</item>  
+        <item>စတုတ္ထ</item>  
+        <item>နောက်ဆုံး</item> 
+    </string-array>  
+    <string-array name="response_labels1"> 
+        <item>မတုံ့ပြန်ပါ</item>  
+        <item>မှန်</item>  
+        <item>ဖြစ်ကောင်းဖြစ်မည်</item>  
+        <item>မှား</item> 
+    </string-array>  
+    <skip/>  
+    <string-array name="delete_repeating_labels"> 
+        <item>ဤဖြစ်ရပ်သာ</item>  
+        <item>ဤဖြစ်ရပ်နှင့် လာမည့်ဖြစ်ရပ်များ</item>  
+        <item>ဖြစ်ရပ်များအားလုံး</item> 
+    </string-array>  
+    <integer-array name="delete_repeating_values"> 
+        <item>0</item>  
+        <item>1</item>  
+        <item>2</item> 
+    </integer-array>  
+    <skip/>  
+    <string-array name="delete_repeating_labels_no_selected"> 
+        <item>ဤဖြစ်ရပ်နှင့် လာမည့်ဖြစ်ရပ်များ</item>  
+        <item>ဖြစ်ရပ်များအားလုံး</item> 
+    </string-array>  
+    <skip/>  
+    <string-array name="change_response_labels"> 
+        <item>ဤဖြစ်ရပ်သာ</item>  
+        <item>အတွဲလိုက်ထဲမှ ဖြစ်ရပ်များအားလုံး</item> 
+    </string-array>  
+    <string-array name="buttons_list"> 
+        <item>ရက်</item>  
+        <item>သီတင်းပတ်</item>  
+        <item>လ</item>  
+        <item>လုပ်ငန်းစဉ်</item> 
+    </string-array> 
+</resources>

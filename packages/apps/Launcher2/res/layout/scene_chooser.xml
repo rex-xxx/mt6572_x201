@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center_horizontal" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/background_holo_dark"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/scene_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:textSize="20dip" />
+
+        <BounceCoverFlow
+            android:id="@+id/bookmarkCoverflow"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_gravity="center"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="?android:attr/dividerHorizontal"
+            android:orientation="vertical"
+            android:showDividers="beginning" >
+
+            <Button
+                android:id="@+id/set_scene"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="switchSceneAndBack"
+                android:padding="4dip"
+                android:text="@string/scene_instructions" />
+        </LinearLayout>
+    </LinearLayout>
+
+</merge>

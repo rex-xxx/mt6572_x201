@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">    
+    <string name="deleteConfirmation_title" msgid="1418215926447642260">"Padam kenalan?"</string>
+    <string name="add_contact_dlg_title" msgid="2896685845822146494">"Tambah kenalan"</string>
+    <string name="no_sdcard_title" product="nosdcard" msgid="8543619259870877473">"Storan tidak tersedia"</string>
+    <string name="no_sdcard_title" product="default" msgid="5911758680339949273">"Tiada kad SD"</string>
+    <string name="searching_vcard_title" msgid="4970508055399376813">"Mencari vCard"</string>
+    <string name="scanning_sdcard_failed_title" product="nosdcard" msgid="4944932641334764942">"Tidak dapat mengimbas storan"</string>
+    <string name="scanning_sdcard_failed_title" product="default" msgid="6664940444476572612">"Tidak dapat mengimbas kad SD"</string>
+    <string name="cancel_import_confirmation_title" msgid="5578683596010294836">"Membatalkan mengimport vCard"</string>
+    <string name="cancel_export_confirmation_title" msgid="6516467140276768528">"Membatalkan mengeksport vCard"</string>
+    <string name="menu_all_contacts" msgid="5101735431586050711">"Semua kenalan"</string>
+    <string name="search_bar_hint" msgid="1012756309632856553">"Cari dalam kenalan"</string>
+    <string name="aggregation_suggestion_join_dialog_title" msgid="5276699501316246253">"Gabungkan kenalan"</string>
+    <string name="aggregation_suggestion_edit_dialog_title" msgid="1064042382692091314">"Edit kenalan pilihan"</string>
+    <string name="cancel_confirmation_dialog_title" msgid="3950463632415908534">"Buang perubahan"</string>
+  <string name="menu_print">"Cetak"</string>
+  <string name="printContact">"Cetak fail melalui"</string>
+  <string name="no_way_to_print">"Tiada aplikasi tersedia untuk cetak fail."</string>
+  
+    <!--The following lines are provided and maintained by Mediatek Inc.  -->
+    <!-- The title for multiple selection call log activity -->
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g> dipilih</string>
+    <!-- Menu item used to start call log multiple selection activity -->
+    <string name="recentCalls_delete">Padam</string>
+    <string name="menu_selectAll">"Pilih semua"</string>
+    <string name="menu_clearAll">"Nyahpilih semua"</string>
+        <!-- Text used to show the dual sim info -->
+    <string name="sim1">SIM1</string>
+    <string name="sim2">SIM2</string>
+    <string name="all_resources">Semua Sumber</string>
+    <string name="choose_resources_header">Pilih Sumber</string>
+    <string name="all_tab_label1">Semua</string>
+    <string name="call_log_item_count">(<xliff:g id="count">%1$d</xliff:g>)</string>
+
+    <!-- below strings are used by dialpad -->
+    <string name="call_indicator_3g">3G</string>
+    <string name="call_sipcall">Panggilan internet</string>
+    <string name="call_pin_dialog_title">Pilih kad SIM</string>
+    <string name="call_people">Orang</string>
+    <string name="call_ip_dial">Dial IP</string>
+    <string name="call_speed_dial">Dailan Pantas</string>
+    <string name="call_video_call">Panggilan Video</string>
+    <string name="add_speed_dial">Ketik untuk menambah dail cepat</string>
+    <string name="speed_dial_added"><xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>) ditambah pada dailan pantas <xliff:g id="key">%3$s</xliff:g></string>
+    <string name="remove_speed_dial">Keluarkan</string>
+    <string name="remove_sd_confirm_1">Adakah anda pasti anda hendak mengeluarkan <xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>) daripada dailan pantas <xliff:g id="key">%3$s</xliff:g>?</string>
+    <string name="emergencycall">Panggilan kecemasan</string>
+    <string name="imei_invalid">Tidak sah</string>
+    <!-- Speed Dial phase II -->
+    <string name="sd_add">Tambah</string>
+    <string name="reselect_number">Nombor telah diserahkan ke kekunci dailan pantas, sila pilih nombor yang lain.</string>
+    <!-- strings are used by dialpad end -->
+    <string name="calllog_today">Hari ini</string>
+    <string name="calllog_yesterday">Semalam</string>
+    
+    <!-- strings are used by contact detail -->
+    <string name="menu_association">Hubungkan kad SIM</string>
+    <string name="menu_remove_association">Keluarkan Gabungan SIM</string>
+    <string name="remove_association_message">Adakah anda pasti anda mahu keluarkan gabungan SIM ke nombor ini?</string>
+    <string name="remove_number_title">Keluarkan</string>  
+    <string name="warning_detail">Gabungan SIM akan mengimport kenalan ke dalam telefon. Adakah anda mahu teruskan gabungan SIM?</string>
+    <string name="associatiated_SIM">"SIM dihubungkan"</string>
+    <string name="unassociated">"Tidak dihubungkan"</string>
+    <string name="associate_SIM">"SIM dihubungkan"</string>
+    <string name="block_incoming_call">Sekat panggilan masuk secara terus</string>
+    <string name="block_video_incoming_call"></string>
+
+    <!-- Contacts multi-choice string -->
+    <string name="menu_actionbar_selected_items"><xliff:g id="name">%s</xliff:g> dipilih</string>
+
+       <!-- MTK for edit SIM/USIM contact -->
+    <string name="has_double_phone_number">Tidak boleh menyimpan nombor jenis sama sebanyak dua kali, sila semak.</string>
+    <string name="phone_book_busy">Buku telefon sibuk sekarang, sila cuba lagi nanti.</string>
+    <string name="sim_invalid">Tidak boleh menyimpan kenalan apabila kad SIM tidak sah.</string>
+    <string name="cannot_insert_null_number">Tidak boleh simpan kenalan yang nombornya kosong.</string>
+    <string name="AirPlane_mode_on">Tidak boleh menyimpan kenalan apabila mod Kapal Terbang dihidupkan.</string>
+    <string name="FDNEnabled">Tidak boleh menyimpan kenalan apabila FDN Didayakan.</string>
+    <string name="sim_invalid_number">Tidak boleh menyimpan nombor yang tidak sah.</string>
+    <string name="email_invalid">Tidak boleh menyimpan e-mel yang tidak sah</string>
+    <string name="email_2g_invalid">Tidak boleh menyimpan e-mel  ke 2G SIM, sila pilih 3G SIM untuk melihat.</string>
+    <string name="sim_invalid_fix_number">Tidak dapat menyimpan nombor tetap tidak sah.</string>
+    <string name="msg_loading_sim_contacts_toast">"Memuatkan kenalan SIM di latar belakang, sila tunggu sebentar."</string>
+    <string name="fix_number_too_long">"Nombor tetap terlalu panjang."</string>
+    <string name="name_too_long">"Nama terlalu panjang."</string>
+    <string name="storage_full">Simpanan penuh.</string>
+    <string name="number_too_long">"Nombor terlalu panjang."</string>
+    <string name="generic_failure">Kegagalan Generik.</string>
+
+    <string name="send_groupsms_no_number_more">"%1$s dan %2$s lebih banyak kenalan tidak mempunyai nombor telefon sah."</string>
+    <string name="send_groupsms_no_number_1">"%1$s tidak mempunyai nombor telefon sah."</string>
+    <string name="send_groupsms_no_number_2">"%1$s dan %2$s tidak mempunyai nombor telefon sah."</string>    
+
+    <!-- Feature Fix by Mediatek Begin -->
+
+    <!-- The local account type to be added, it used to manage SIM contacts. -->
+    <string name="account_type_sim" product="tablet">Akaun SIM</string>
+    <!-- The local account type to be added, it used to manage SIM contacts. -->
+    <string name="account_type_sim" product="default">Akaun SIM</string>
+
+    <!-- The local account type to be added, it used to manage USIM contacts. -->
+    <string name="account_type_usim" product="tablet">Akaun USIM</string>
+    <!-- The local account type to be added, it used to manage USIM contacts. -->
+    <string name="account_type_usim" product="default">Akaun USIM</string>
+
+    <!-- The local account type to be added, it used to manage Phone contacts. -->
+    <string name="account_type_local_phone" product="tablet">Akaun Tempatan Telefon</string>
+    <!-- The local account type to be added, it used to manage Phone contacts. -->
+    <string name="account_type_local_phone" product="default">Akaun Tempatan Telefon</string>
+
+
+    <!-- The local account to be added, it used to manage SIM/USIM/PHONE contacts. -->
+    <string name="local_account_type" product="tablet">Akaun Tempatan</string>
+    <!-- The local account to be added, it used to manage SIM/USIM/PHONE contacts. -->
+    <string name="local_account_type" product="default">Akaun Tempatan</string>
+
+    <!-- The local account to be added, it used to manage SIM/USIM/PHONE contacts settings. -->
+    <string name="local_account_label" product="tablet">Akaun Tempatan</string>
+    <!-- The local account to be added, it used to manage SIM/USIM/PHONE contacts settings -->
+    <string name="local_account_label" product="default">Akaun Tempatan</string>
+
+    <!-- Title for data source when creating or editing a contact that doesn't
+         belong to a specific account.  This contact will only exist on the SIM Card
+         and will not be synced. -->
+    <string name="account_type_sim_label" product="tablet">SIM sahaja, tidak disegerakkan</string>
+    <!-- Title for data source when creating or editing a contact that doesn't
+         belong to a specific account.  This contact will only exist on the SIM Card
+         and will not be synced. -->
+    <string name="account_type_sim_label" product="default">SIM sahaja, tidak disegerakkan</string>
+
+    <!-- Title for data source when creating or editing a contact that doesn't
+         belong to a specific account.  This contact will only exist on the USIM Card
+         and will not be synced. -->
+    <string name="account_type_usim_label" product="tablet">USIM sahaja, tidak disegerakkan</string>
+    <!-- Title for data source when creating or editing a contact that doesn't
+         belong to a specific account.  This contact will only exist on the USIM Card
+         and will not be synced. -->
+    <string name="account_type_usim_label" product="default">USIM sahaja, tidak disegerakkan</string>
+
+    <!-- below strings are used by contacts group -->
+    <string name="please_wait">"Sila tunggu..."</string>
+    <string name="move_contacts_to">Pindahkan kenalan ke</string>
+    <string name="menu_move_group">"Alihkan ahli kumpulan"</string> 
+    <string name="menu_message_group">"Hantar mesej kumpulan"</string>
+    <string name="menu_email_group">"Hantar E-mel kumpulan"</string>    
+    <string name="moving_group_members">"Mengalihkan ahli kumpulan\u2026"</string>
+    <string name="removing_group_members_sucess">"Berjaya mengeluarkan ahli kumpulan"</string>
+    <string name="moving_group_members_sucess">"Berjaya mengalihkan ahli kumpulan"</string>
+    <string name="moving_group_members_fail">"Gagal mengalihkan ahli kumpulan"</string>
+    <string name="no_valid_number_in_group">Kumpulan ini tidak mempunyai kenalan dengan nombor telefon sah.</string>
+    <string name="no_valid_email_in_group">Kumpulan ini tidak mempunyai kenalan dengan E-mel.</string>
+    <string name="email_error">Anda harus memasang aplikasi E-mel, atau menatarajah akaun anda!</string>
+	<string name="usim_group_name_exceed_limit">"Nama kumpulan terlalu panjang untuk USIM."</string>  
+    <string name="usim_group_count_exceed_limit">"Tiada lagi kumpulan baru yang boleh ditambahkan pada USIM."</string>  
+    <!-- below strings are used by contacts import/export -->
+    <string name="import_export_title">Import/Eksport</string>
+    <string name="next">Seterusnya</string>
+    <string name="imexport_bridge_sd_card">Kad SD</string>
+    <string name="tips_source">Pilih sumber dari tempat anda mahu salin kenalan</string>    
+    <string name="tips_target">Pilih sasaran dari tempat anda mahu salin kenalan</string>
+    <string name="back">Kembali</string>
+    <string name="imexport_title">Import/Eksport Kenalan</string>
+    <!-- Feature Fix by Mediatek End -->
+
+
+    <!-- Title when popup ContactEditorAccountsChangedActivity's dialog -->
+    <string name="store_contact_to">Simpan kenalan pada</string>
+
+    <!-- strings are used by people activity -->
+    <string name="menu_delete_contact">Padam kenalan</string>
+    
+    <!-- string for multiple choice -->
+
+    <string name="notifier_finish_delete_title">Berjaya memadam kenalan</string>  
+    <string name="notifier_finish_delete_content"> 
+        <xliff:g id="total">%d</xliff:g> kenalan dipadam
+    </string>  
+    <string name="notifier_finish_copy_title">Berjaya menyalin kenalan</string>  
+    <string name="notifier_finish_copy_content"> 
+        <xliff:g id="total">%d</xliff:g> kenalan disalin
+    </string>  
+    <string name="notifier_multichoice_process_report">Selesai: 
+        <xliff:g id="items">%d</xliff:g>\nTidak selesai: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>  
+    <string name="notifier_failure_by_sim_full">Kegagalan disebabkan oleh storan SIM yang penuh\nSelesai: 
+        <xliff:g id="items">%d</xliff:g>\nTidak selesai: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>  
+    <string name="notifier_failure_sim_notready">Kegagalan disebabkan oleh SIM yang belum bersedia\nSelesai: 
+        <xliff:g id="items">%d</xliff:g>\nTidak selesai: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>  
+    <string name="notifier_cancel_delete_title">Memadam kenalan dibatalkan</string>  
+    <string name="notifier_fail_delete_title">Gagal memadam kenalan</string>  
+    <string name="notifier_cancel_copy_title">Menyalin kenalan dibatalkan</string>  
+    <string name="notifier_fail_copy_title">Gagal menyalin kenalan</string>  
+    <string name="notifier_progress_delete_message">Memadam 
+        <xliff:g id="current_number">%s</xliff:g>/ 
+        <xliff:g id="total_number">%s</xliff:g>: 
+        <xliff:g id="name" example="JoeDue">%s</xliff:g> 
+    </string>  
+    <string name="notifier_progress_delete_description">Memadam 
+        <xliff:g id="name" example="JoeDue">%s</xliff:g> 
+    </string>  
+    <string name="notifier_progress_copy_message">Menyalin 
+        <xliff:g id="current_number">%s</xliff:g>/ 
+        <xliff:g id="total_number">%s</xliff:g>: 
+        <xliff:g id="name" example="JoeDue">%s</xliff:g> 
+    </string>  
+    <string name="notifier_progress_copy_description">Menyalin 
+        <xliff:g id="name" example="JoeDue">%s</xliff:g> 
+    </string>  
+    <string name="multichoice_confirmation_title_delete">Membatalkan pemadaman kenalan</string>  
+    <string name="multichoice_confirmation_message_delete">Batalkan memadam kenalan?</string>  
+    <string name="multichoice_confirmation_title_copy">Membatalkan menyalin kenalan</string>  
+    <string name="multichoice_confirmation_message_copy">Batalkan menyalin kenalan?</string>
+  <!-- The toast title when storage is full -->
+    <string name="phone_storage_full_create">Storan Telefon penuh, anda tidak boleh membuat kenalan baru.</string>
+    <string name="phone_storage_full_edit">Storan Telefon penuh, anda tidak boleh mengedit kenalan.</string>
+    <!-- Displayed at the top of the call log search, showing the total number of call logs found in call log search result page -->
+    <plurals name="searchFoundCalllogs">
+        <item quantity="one">1 log panggilan</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> log panggilan</item>
+    </plurals>
+        
+    <string name="search_results_for">Keputusan carian bagi: <xliff:g id="query">%s</xliff:g></string>
+    <string name="listFoundAllCalllogZero">Log panggilan tidak ditemui</string>
+    
+    <string name="calllogList">Sejarah Panggilan</string>
+    <string name="calllogHint">Cari log panggilan</string>
+    <string name="calllog_description">Panggilan masuk, keluar dan tidak dijawab</string>
+    <string name="noMatchingCalllogs">Tiada log panggilan sepadan yang ditemui.</string>
+
+    <string name="menu_videocallNumber">Panggilan Video <xliff:g id="NAME">%s</xliff:g></string>
+    <string name="menu_ipcallNumber">Panggilan IP 
+        <xliff:g id="name">%s</xliff:g> 
+    </string>
+    
+    <string name="deleting_call_log">Memadam Log Panggilan...</string>
+
+    <!-- The previous lines are provided and maintained by Mediatek Inc. -->
+    
+    <!-- missing voicemail number -->
+    <!-- Title of the "Missing voicemail number" dialog -->
+    <string name="no_vm_number">Hilang nombor mel suara</string>
+    <!-- Body text of the "Missing voicemail number" dialog -->
+    <string name="no_vm_number_msg">Tiada nombor mel suara disimpan di kad SIM.</string>
+    <!-- Button label on the "Missing voicemail number" dialog -->
+    <string name="add_vm_number_str">Tambah nombor</string>
+    
+    <string name="reminder">Peringatan</string>
+    <string name="enable_sip_dialog_message">Panggilan Internet dinyahdayakan, adakah anda mahu mendayakannya?</string>
+
+    <!-- The toast title for add SIP No. to SIM/USIM contact -->
+    <string name="add_SIP_to_sim">Tidak dapat menambah nombor SIP pada kenalan SIM/USIM.</string>
+    <!-- The toast title fot if there has SIP No. can't add new -->
+    <string name="already_has_SIP">Tidak dapat menambah dua nombor SIP pada kenalan, jika anda perlu meneruskan. Sila padamkan nombor SIP lama dahulu.</string>
+
+    <string name="multichoice_no_select_alert">"Tiada item dipilih."</string>
+    <string name="multichoice_delete_confirm_message">"Adakah anda pasti untuk memadam item kenalan yang dipilih ?"</string>
+    <string name="multichoice_delete_confirm_title">Memadam item kenalan?</string>
+
+    <string name="name_needed">Nama diperlukan</string>
+    <string name="save_group_fail">Gagal menyimpan kumpulan.</string>
+    <string name="group_name_exists">Nama kumpulan telah wujud.</string>
+    <string name="sum_search_networks">"Cari semua rangkaian tersedia"</string>    
+    <string name="notifier_progress__delete_will_start_message">Kenalan akan dipadamkan sebentar lagi.</string>  
+    <string name="notifier_progress__copy_will_start_message">Kenalan akan disalin sebentar lagi.</string>
+    
+    <string name="remove_sd_confirm_2">Adakah anda pasti mahu mengalih keluar 
+        <xliff:g id="contact_name">%1$s</xliff:g> daripada dail laju 
+        <xliff:g id="key">%2$s</xliff:g>?
+    </string>  
+    <string name="callFailed_simError">Tiada SIM atau ralat SIM</string>  
+    <string name="group_discard_member">Buang</string>  
+    <string name="group_discard_member_reason">Pengubahsuaian akan dibuang kerana nama kumpulan tidak sah.</string>  
+    <string name="share_contacts_limit">"Pilihan untuk berkongsi kenalan tidak boleh lebih daripada 3500"</string>  
+    <string name="contact_delete_all_tips">"Pemadaman kenalan sedang berjalan dalam latar belakang. Jika anda mahu memulakan pemadaman kenalan yang baru, sila batalkannya dahulu."</string>
+    
+    <string name="turn_on_3g_service_message">"Perkhidmatan 3G mati sekarang, adakah anda ingin menghidupkannya?"</string> 
+    <string name="associate_sim_missing_message">"SIM %1$s tidak tersedia. Adakah anda mahu membuat panggilan melalui %2$s"</string>
+    <string name="associate_sim_missing_other">Hubungi</string>
+    <string name="sim_manage_call_via">Panggilan melalui</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">Sila masukkan nombor awalan IP dahulu dalam tetapan panggilan Suara.</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">Fungsi dial IP tidak boleh digunakan untuk Mulakan pangilan</string>
+
+    <string name="deleteCallLogConfirmation_title">Padam log panggilan?</string>  
+    <string name="deleteCallLogConfirmation_message">Adakah anda pasti mahu memadamkan log panggilan yang dipilih?</string>
+
+    <string name="email_too_long">E-mel terlalu panjang</string> 
+    <!-- The previous lines are provided and maintained by Mediatek Inc. -->
+    <!--The following lines are provided and maintained by Mediatek Inc. 2012-5-16-->  
+    <string name="delete_group_failure">Gagal memadamkan kumpulan.</string>  
+    <!-- The previous lines are provided and maintained by Mediatek Inc. -->
+    
+      <string name="from_account_format"> 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="source" example="user@gmail.com">%1$s</xliff:g> 
+    </string>
+  <string name="speed_dial_added2"> 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="contact_name">%1$s</xliff:g> ditambah pada dail cepat 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="key">%2$s</xliff:g> 
+    </string>
+  <string name="call_log_filter_all_resources">"Semua Sumber"</string>
+  <string name="AirPlane_mode_on_edit">Tidak boleh mengedit kenalan apabila mod Pesawat dihidupkan.</string>
+  <string name="multichoice_contacts_limit">"Kenalan yang dipilih tidak boleh lebih daripada 3500"</string>
+  <string name="file_already_on_sd_card">Fail ini sudah berada dalam kad SD.</string>
+  <string name="send_file_sms_error">Tidak boleh berkongsi fail dengan SMS, sila gunakan MMS.</string>
+  <string name="error_save_usim_contact_email_lost">"Gagal untuk menyimpan alamat E-mel kerana storan USIM untuk E-mel penuh".</string>
+  <string name="error_import_usim_contact_email_lost">"Gagal mengimport beberapa alamat E-mel kenalan kerana storan USIM untuk E-mel penuh.\nSelesai: 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="items">%d</xliff:g>\nTidak selesai: 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="items">%d</xliff:g>"
+    </string>
+  <string name="user_profile_cannot_sd_card">Tidak boleh berkongsi kandungan dengan cara ini.</string>
+  <string name="call_sms">SMS</string>
+  <string name="fail_reason_failed_to_read_files">Satu atau lebih fail tidak dapat diimport (%s).</string> 
+  <string name="contact_group_list_title">"Pilih kumpulan sasaran"</string> 
+    <string name="import_no_vcard_dialog_text">Tiada fail vCard ditemui dalam 
+        <xliff:g id="storage_name">%s</xliff:g>
+    </string> 
+  <string name="send_groupemail_no_number_more">"%1$s dan %2$s lagi kenalan tiada e-mel yang sah."</string>
+  <string name="send_groupemail_no_number_1">"%1$s tiada e-mel yang sah."</string>
+  <string name="send_groupemail_no_number_2">"%1$s dan %2$s tiada e-mel yang sah."</string>
+  <string name="send_message">Hantar mesej</string>
+  <string name="type_ip_outgoing">Panggilan Keluar IP ( 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="name">%s</xliff:g>)
+    </string>
+  <string name="call_log_auto_rejected_label">Panggilan ditolak secara automatik</string>
+  <string name="look_simstorage">Lihat Kapasiti Kad SIM</string>
+  <string name="dlg_simstorage_content">Kapasiti Storan buku nombor telefon 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="items">%d</xliff:g>, telah digunakan 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="items">%d</xliff:g>.
+    </string>
+  <string name="delete_group_dialog_title" msgid="7368429698398624427">"Padam kumpulan"</string>
+  <string name="dialog_phone_call_prohibited_title" msgid="2111395432187079579">"Panggilan tidak dihantar"</string>
+  <string name="dialog_voicemail_not_ready_title" msgid="7258109862329777060">"Nombor mel suara tidak tersedia"</string>
+
+    <string name="nickname_too_long">"Nama samaran terlalu panjang."</string>
+    <string name="pick_new_photo_from_gallery">Pilih foto baru</string>  
+    <string name="copy_text_to_dialer">Salin pada pendail</string> 
+    <string name="account_phone_only" product="tablet">"Tablet"</string>  
+    <string name="account_phone_only" product="default">Telefon</string>  
+
+    <string name="international_dialing_title">Bantuan dailan antarabangsa</string>
+    <string name="international_dialing_select_country">Anda dikesan sedang membuat panggilan antarabangsa. Sila pilih destinasi anda.</string>
+    <string name="international_dialing_add_country_code">Anda dikesan sedang mendail nombor <xliff:g id="country_name">%s</xliff:g>. Adakah anda ingin menambahkan kod negara (+<xliff:g id="country_code">%s</xliff:g>)?</string>
+    <string name="international_dialing_add_country_code_and_area_code">Anda dikesan sedang mendail nombor di <xliff:g id="area_name">%1$s</xliff:g>, <xliff:g id="country_name">%2$s</xliff:g>. Adakah anda ingin menambahkan kod negara dan kod kawasan (+<xliff:g id="prefix">%3$s</xliff:g>)?</string> 
+    <string name="international_dialing_change_country_prefix">Anda dikesan sedang mendail dari <xliff:g id="country_name">%s</xliff:g>. Tukar awalan panggilan antarabangsa kepada \'+\'?</string>
+    <string name="international_dialing_add_country_code_input_area_code">Anda dikesan sedang mendail nombor di <xliff:g id="country_name">%s</xliff:g>. Jika ya, sila masukkan kod kawasan.</string>   
+    <string name="international_dialing_add_country_code_default_input_area_code">Anda dikesan sedang mendail nombor di <xliff:g id="country_name">%s</xliff:g>. Jika bandar destinasi anda bukan <xliff:g id="area_name">%s</xliff:g>, sila masukkan kod kawasan.</string>
+    <string name="international_dialing_need_area_code">Kod kawasan bandar destinasi anda diperlukan untuk panggilan tersebut.</string>
+    <string name="international_dialing_input_area_code">Masukkan kod kawasan di sini</string>
+    <string name="international_dialing_dialed_number">Mendail nombor:</string>
+    <string name="international_dialing_confirm_area_code">Jika bandar destinasi anda bukan <xliff:g id="area_name">%s</xliff:g>, sila masukkan kod kawasan bagi bandar destinasi anda di bawah.</string>
+    <string name="international_dialing_dial_with_country_code">Dail dengan kod negara</string>
+    <string name="international_dialing_click_below_button">Klik butang di bawah untuk menukar nombor kod negara.</string>
+    <string name="international_dialing_yes">Ya. Gunakan nombor di bawah:</string>
+    <string name="international_dialing_no">Tidak. Gunakan nombor asal:</string>
+    <string name="international_dialing_call_button">"Panggil"</string>
+    <string name="international_dialing_area_code">kod kawasan</string>
+    <string name="international_dialing_invalid_number">Nombor tidak sah. Adakah anda ingin terus mendail juga?</string>
+    <string name="international_dialing_add_country_code_and_area_code_without_prefix">Adakah anda ingin menambahkan kod negara dan kod kawasan?</string>
+    <string name="share_too_large">Jumlah data melebihi had atasan, sila nyahpilih beberapa item dan cuba lagi.</string>
+
+</resources>

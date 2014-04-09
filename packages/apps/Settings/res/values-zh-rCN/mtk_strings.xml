@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="accessibility_tutorial_title" msgid="5163147830174854622">"辅助功能教程"</string>
+    <string name="accessibility_tutorial_next" msgid="5079911515520801099">"下一步"</string>
+    <string name="accessibility_tutorial_back" msgid="2583933084111712540">"返回"</string>
+    <string name="accessibility_tutorial_finish" msgid="3964330895719289570">"完成"</string>
+    <string name="accessibility_tutorial_skip" msgid="3635250542851027317">"跳过教程"</string>
+    <string name="accessibility_tutorial_lesson_1_title" msgid="1358771359529627110">"第 1 课：浏览屏幕"</string>
+    <string name="accessibility_tutorial_lesson_1_text_1" msgid="477937585801538951">"打开“触摸浏览”功能后，您可以触摸屏幕以了解手指触摸处的组件。例如，当前屏幕中包含应用程序图标，您可以触摸屏幕，然后随意滑动手指，找出其中某个应用程序。"</string>
+    <string name="accessibility_tutorial_lesson_1_text_2_more" msgid="7849927882225521983">"做得不错！请继续在屏幕上随意滑动您的手指，至少再找到一个图标。"</string>
+    <string name="accessibility_tutorial_lesson_1_text_3" msgid="3973201880357468747">"要激活您正触摸的应用程序，只需点按一下即可。滑动您的手指，直到找到“<xliff:g id="APP_NAME">%s</xliff:g>”的图标，然后点按一下该图标即可将其激活。"</string>
+    <string name="accessibility_tutorial_lesson_1_text_4" msgid="1032496840167920946">"您的手指正在触摸“<xliff:g id="APP_NAME">%s</xliff:g>”图标。点按一下即可激活该图标。"</string>
+    <string name="accessibility_tutorial_lesson_1_text_4_exited" msgid="4950620030782545150">"您的手指移到了“<xliff:g id="APP_NAME">%s</xliff:g>”图标上，但是又移开了。请在屏幕四周缓缓滑动您的手指，直到再次找到“浏览器”图标为止。"</string>
+    <string name="accessibility_tutorial_lesson_1_text_5" msgid="9010294007210301008">"做得不错！要开始学习下一课，请找到并激活“<xliff:g id="NEXT">%s</xliff:g>”按钮，此按钮位于屏幕右下角附近。"</string>
+    <string name="accessibility_tutorial_lesson_2_title" msgid="5970537388562569614">"第 2 课：使用两根手指执行滚动操作"</string>
+    <string name="accessibility_tutorial_lesson_2_text_1" msgid="8764686624055084454">"要滚动浏览列表，您可以沿着屏幕滑动两根手指。例如，当前屏幕包含了一个应用程序名称列表，可供您上下滚动浏览。请先使用一根手指四处滑动，尝试找出列表中的几个项目。"</string>
+    <string name="accessibility_tutorial_lesson_2_text_2_more" msgid="2052918502757226679">"做得不错！请继续在屏幕上随意滑动您的手指，至少再找到一个列表项。"</string>
+    <string name="accessibility_tutorial_lesson_2_text_3" msgid="1326501593438442305">"现在请将两根手指放到某个列表项上，并向上滑动手指。如果到达屏幕顶端，请移开手指，并将手指放在列表中的下方位置，然后继续向上滑动。"</string>
+    <string name="accessibility_tutorial_lesson_2_text_3_more" msgid="2223814499106104083">"做得不错！请继续向上滑动您的手指，以滚动浏览更多内容。"</string>
+    <string name="accessibility_tutorial_lesson_2_text_4" msgid="3055831259260848004">"您已经学完了本教程。要退出，请找到“<xliff:g id="FINISH">%s</xliff:g>”按钮并触摸一下。"</string>
+
+    <!-- For HDMI begin -->
+    <string name="hdmi_toggler">HDMI</string>
+    <string name="hdmi_settings">HDMI 设定</string>
+    <string name="hdmi_settings_summary">点击设定 HDMI</string>
+    <string name="hdmi_audio_toggler">音频</string>
+    <string name="hdmi_video_toggler">视频</string>
+    <string name="hdmi_video_resolution">视频分辨率</string>
+    <string name="hdmi_notification_title">HDMI 线已接入</string>
+    <string name="hdmi_notification_content">点击设定 HDMI</string>
+    <!-- For HDMI end -->  
+  
+    <!-- for software update begin -->
+    <string name="software_update">软件更新服务</string>
+    <string name="mota_system_update_summary">"检测更新"</string>
+    <!-- for software update end --> 
+    
+    <!-- Strings for SIM management begin-->   
+    <string name="gemini_sim_management_title">"SIM 卡管理"</string>  
+    <string name="gemini_sim_info_title">"SIM 卡信息"</string>  
+    <string name="gemini_default_sim_title">"默认设置"</string>  
+    <string name="gemini_general_settings_title">"其他设置"</string>  
+    <string name="gemini_roaming_settings_title">"国际漫游"</string>    
+    <string name="gemini_data_roaming_title">"数据漫游"</string>  
+    <string name="gemini_data_roaming_summary">"漫游时连接到数据服务"</string>  
+    <string name="gemini_roaming_reminder_title">"显示漫游提醒"</string>  
+    <string name="gemini_contacts_sim_title">"联系人绑定"</string>      
+    <string name="gemini_contacts_sim_summary">"绑定联系人到特定的 SIM 卡"</string> 
+    <string name="gemini_voice_call">"语音电话"</string>        
+    <string name="gemini_video_call">"视频电话"</string>   
+    <string name="gemini_data_connection">"数据连接"</string>   
+    <string name="gemini_msg">"信息"</string>       
+    <string name="gemini_default_sim_always_ask">"总是询问"</string>    
+    <string name="gemini_intenet_call">"互联网电话"</string>    
+    <string name="gemini_default_sim_never">"关闭"</string>       
+    <string name="gemini_default_sim_3g_off">"关闭"</string>           
+    <string name="gemini_sim_info_editor_name">"编辑 SIM 卡名称"</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">"保存失败"</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">"SIM 卡命名重复"</string>  
+    <string name="gemini_sim_info_editor_number">"编辑 SIM 卡号码"</string>  
+    <string name="gemini_sim_info_editor_color">"设置背景颜色"</string> 
+    <string name="gemini_sim_info_editor_number_display_format">"号码显示"</string>    
+    <string name="gemini_no_sim_indicator">"没有插入 SIM 卡"</string>     
+    <string name="gemini_data_connection_progress_message">"请稍候…"</string>
+    <string name="gemini_3g_modem_switching_message">"切换操作大约需要 10s 才能完成，请稍候…"</string>
+    <string name="gemini_3g_modem_switch_confirm_message">"3G 服务将会切换至此 SIM 卡。 是否继续？ 请确认此 SIM 卡支持 3G 服务。"</string>
+    <string name="gemini_3g_service_settings">3G服务</string>
+    <!-- Strings for CU wap push begin-->    
+    <string name="gemini_wap_push_permission_head">"开启自动推送服务后，可以接收业务平台向终端推送的消息并触发本地程序运行和产生数据流量。常见的自动推送服务包括邮件通知、设备管理、服务指示、服务加载、配置推送等。"</string>      
+    <string name="gemini_wap_push_permission_tail">"是否接受该协议？"</string> 
+    <string name="gemini_wap_push_permission_title">"自动推送服务协议"</string>   
+    <string name="gemini_wap_push_permission">"自动推送服务"</string>        
+    <!-- Strings for CU wap push end-->   
+    
+    <!-- GSM/UMTS Options strings begin-->
+    <string name="gemini_gsm_umts_network_preferences_title">"网络模式"</string>
+    <string name="gemini_gsm_umts_network_preferneces_summary">"尚未实现！"</string>
+    <string name="gemini_gsm_umts_network_preferences_dialogtitle">"网络模式"</string>
+    <!-- GSM/UMTS Options strings begin-->
+
+    <!-- Strings for SIM management end-->
+   
+    <string name="gemini_sim_mode_progress_activating_message">正在启用…</string>
+    <string name="gemini_sim_mode_progress_deactivating_message">正在停用…</string>
+
+    <!-- add for gemini enhancement  SIM tether info part    begin -->
+    <string name="gemini_sim_tether_info_title">SIM卡与联系人</string>
+    <!-- Displayed full screen when the user has no tether info to display-->
+    <string name="gemini_sim_tether_norecord">"当前 SIM 卡尚未与任何联系人关联。\n\n若要将某联系人与当前卡关联,点击添加联系人按钮"</string>
+    <string name="gemini_sim_tether_nocontacts">"手机中没有﻿可用的联系人。请先添加或导入联系人。"</string>
+    <string name="gemini_sim_tether_no_assc_contacts">"所有联系人都已绑定成功。"</string>
+    <string name="gemini_sim_tether_disassociate">"解除"</string>
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g> 已选择</string>
+    <string name="gemini_sim_tether_unselect_all">"取消全选"</string>
+    
+    <string name="gemini_sim_tether_add_record">添加联系人</string>
+    <string name="gemini_sim_add_title">联系人</string>
+    <string name="gemini_sim_tether_nocontact_confirm">确定</string>
+    <string name="gemini_sim_tether_select_all">全选</string>
+    <string name="gemini_sim_tether_select_ok">保存</string>
+    <string name="gemini_sim_tether_select_cancel">取消</string>
+    <string name="gemini_sim_tether_revert_title">注意</string>
+    <string name="gemini_sim_tether_revert_message">您的配置信息已经改变，确定不进行保存就直接退出吗？</string>
+    <string name="gemini_tether_saving_progress_message">正在保存...</string>
+    <!-- add for gemini enhancement SIM tether info part end -->
+
+    <!-- schedule power on off start -->
+    <string name="schedule_power_on_off_settings_title">"定时开关机"</string>
+
+    <!-- for apk installer -->
+    <string name="akp_installer_settings_title">APK 安装器</string>
+    <string name="akp_installer_settings_summary">从手机存储和 SD 卡中安装 APK</string>
+    <string name="launch_error">不能启动应用程序</string>
+    <string name="launch_main_label">启动应用程序</string>
+    <string name="launch_main">启动应用程序的主要活动</string>
+    <string name="launch_activitie">启动</string>
+
+    <!-- IPO setting begin -->
+    <string name="ipo_title">快速开机</string>
+    <string name="ipo_summary_on">关闭快速开机</string>
+    <string name="ipo_summary_off">启动快速开机</string>
+    <!-- IPO setting end -->
+
+    <string name="scomo_settings_title">增强售后服务</string>
+
+    <!-- EPO settins begin-->
+    <string name="epo_entrance_title">EPO设置</string>
+    <string name="epo_entrance_summary">点击修改EPO配置信息</string>    
+    <string name="epo_enable_title">GPS辅助</string>
+    <string name="epo_enable_summary">使用GPS辅助资料(EPO)来加速GPS定位过程</string>
+    <string name="epo_enable_confirm_title">EPO开启确认</string>
+    <string name="epo_enable_confirm_message">您需要无线网络来获取GPS辅助资料(EPO)，这可能产生额外的网络费用。您确定要使用GPS辅助功能吗？</string>
+    <string name="epo_enable_confirm_allow">继续</string>
+    <string name="epo_enable_confirm_deny">取消</string>   
+    <string name="epo_download">下载</string>
+    <string name="epo_cancel_download">取消下载</string>
+    <string name="epo_status_starting">启动中...</string>
+    <string name="epo_status_stopping">停止中...</string>
+    <string name="epo_info_title">EPO信息</string>
+    <string name="epo_auto_download_title">自动下载</string>
+    <string name="epo_auto_download_summary">自动下载卫星位置数据</string>
+    <string name="epo_download_time_title">下载时间</string>
+    <string name="epo_download_time_summary">未知</string>
+    <string name="epo_start_time_title">起始时间</string>
+    <string name="epo_start_time_summary">未知</string>
+    <string name="epo_expire_time_title">失效时间</string>
+    <string name="epo_expire_time_summary">未知</string>   
+    <string name="epo_profile_category">服务器设置</string>
+    <string name="epo_update_settings">更新设置</string>
+    <string name="epo_profile_title">EPO服务器</string>
+    <string name="epo_profile_name">服务器名称</string>
+    <string name="epo_profile_address">服务器地址</string>
+    <string name="epo_profile_port">服务器端口号</string>
+    <string name="epo_profile_usrname">用户名</string>
+    <string name="epo_profile_password">密码</string>
+    <string name="epo_update_period_title">更新周期</string>
+    <string name="epo_update_period_summary">请选择更新周期</string>       
+    <string name="epo_warning_dialog_title">注意</string>
+    <string name="epo_warning_dialog_message">在漫游状态下下载EPO数据将可能产生额外的费用。确定要下载吗？</string>
+    <string name="epo_error_dialog_title">错误</string>
+    <string name="epo_ok_btn">确定</string>
+    <string name="epo_error_no_activite_network">下载EPO数据前请打开数据连接</string>
+    <string name="epo_about_title">关于EPO</string>
+    <string name="epo_about_message">\tEPO (Extended Prediction Orbit) 是联发科创新出的一项基于离线服务器的GPS辅助定位技术。\n\t它可支持最长达30天的GPS卫星轨道预测数据，这些数据可大幅缩短GPS卫星的首次定位时间（TTFF），从而显著地提升用户体验。</string>
+    <string name="epo_err_update_failed">更新文件失败</string>
+    <!-- EPO settins end -->
+
+    <!-- AGPS String Resource -->  
+    <string name="agps_settings_title">A-GPS 设置</string>
+    <string name="port_title">SLP 服务器端口</string>
+    <string name="tls_title">传输层安全性 (TLS)</string>
+    <string name="tls_summary_off">TLS 关闭</string>
+    <string name="tls_summary_on">TLS 开启</string>   
+    <string name="agps_str_error">错误</string>
+    <string name="agps_str_notify">消息通报</string>
+    <string name="agps_str_verify">消息确认</string>
+    <string name="agps_str_allow">同意</string>
+    <string name="agps_str_deny">拒绝</string>
+
+    <string name="Network_Initiate">网络定位请求</string>
+    <string name="Network_Initiate_Summary_on">允许网络获得位置</string>
+    <string name="Network_Initiate_Summary_off">拒绝网络获得位置</string>
+    <string name="Network_Used">使用网络</string>
+    <string name="Network_Only_Local_Summary">仅在本地网络使用 A-GPS</string>
+    <string name="Network_Local_and_Roaming_Summary">在本地网络和漫游网络都使用 A-GPS</string>
+    <string name="Network_Roaming_dialog_title">注意</string>
+    <string name="Network_Roaming_dialog_content">在漫游网络下使用 A-GPS 可能会产生额外的漫游费用</string>
+    <string name="AgpsHelp_Category">帮助信息</string>
+    <string name="about_agps_title">关于 A-GPS</string>
+    <string name="about_agps_message">\t  A-GPS (辅助GPS) 系统可以提高 GPS 性能， 缩短定位时间.
+    \n\t  A-GPS 需要通过网络连接访问位置服务器以获取辅助数据.
+    \n\t  注意在漫游情况下, 数据流量可能会产生一定的漫游费用, 详细信息请咨询网络运营商.</string>
+    <!--  Eng Mode-->
+    <string name="agps_OK">确认</string>
+    <string name="agps_settings_enable">A-GPS</string>
+    <string name="agps_settings_enable_on">GPS可以通过网络连接获取辅助数据加速定位过程</string>
+    <string name="agps_settings_enable_off">利用辅助数据可以加速GPS定位过程</string>  
+    <string name="agps_settings_eng_enable">A-GPS 设置</string>
+    <string name="agps_settings_eng_summary">修改 A-GPS 设置</string>      
+    <string name="agps_SIMAB">SI 模式</string>
+    <string name="agps_SIMAB_summary">SUPL 终端服务请求模式</string>
+    <string name="agps_SIMAB_listtitle">SI 设置</string>   
+    <string name="agps_eng_SIMAB_request">SI (MA/MB) 请求</string>
+    <string name="agps_eng_SIMAB_summary_request">发起 SI 请求</string>   
+    <string name="agps_profile_select">服务器</string>
+    <string name="agps_profile_select_Title">SUPL 服务器</string>
+    <string name="agps_profile_select_Summary">选择的 SUPL 服务器</string>   
+    <string name="agps_BEE_checkbox_title">BEE</string>
+    <string name="agps_BEE_checkbox_on_summary">BEE 开关</string>   
+    <string name="agps_screen_profile_reset_title">恢复默认值</string>
+    <string name="agps_screen_profile_reset_summary">恢复所有配置为默认值</string>
+    <string name="agps_screen_profile_advance_title">SUPL 高级</string>
+    <string name="agps_screen_profile_advance_summary" >高级设置</string>
+    <string name="agps_category_profile">SUPL 配置设置</string>
+    <string name="agps_category_timer">计时器（秒）</string>
+    <string name="agps_category_operation">操作</string>
+    <string name="agps_profile_SLP_address_editbox_title">SLP 服务器地址</string>
+    <string name="agps_advance_SET_ID_key">SUPL 终端识别码</string>
+    <string name="agps_advance_category_QOP_GAD">定位质量</string>  
+    <string name="agps_profile_screen_advacen_current_profile_summary">当前使用的配置</string>
+    <string name="agps_setting_eng_advance_screen_title">A-GPS 高级设置(工程模式)</string>
+    <string name="agps_advance_QOP_Horizontal_Accuracy_editbox_title">水平精确度</string>
+    <string name="agps_advance_QOP_Horizontal_Accuracy_editbox_summary">编辑水平精确度</string>
+    <string name="agps_advance_QOP_Vertical_Accuracy_editbox_title">垂直精确度</string>
+    <string name="agps_advance_QOP_Vertical_Accuracy_editbox_summary">编辑垂直精确度</string>
+    <string name="agps_advance_QOP_MiniLocAge_Accuracy_editbox_title">位置最短有效期限</string>
+    <string name="agps_advance_QOP_MiniLocAge_Accuracy_editbox_summary">编辑位置最短有效期限</string>
+    <string name="agps_advance_QOP_Delay_Accuracy_editbox_title">延时</string>
+    <string name="agps_advance_QOP_Delay_Accuracy_editbox_summary">编辑延时值</string>
+    <string name="CA_Enable_Title">证书验证</string>  
+    <string name="CA_enable_summary_on">目前使用TLS连线时, 会验证服务器证书</string>
+    <string name="CA_enable_summary_off">目前使用TLS连线时, 不验证服务器证书</string>  
+    <string name="eCID_Enable_Title">增强型蜂窝小区标识号</string>
+    <string name="eCID_enable_summary_on">目前允用增强型蜂窝小区标识号定位技术</string>
+    <string name="eCID_enable_summary_off">目前仅用蜂窝小区标识号定位技术</string>    
+
+    <!-- Port -->
+    <string name="agps_enable_confirm_title">A-GPS 开启确认</string>
+    <string name="agps_enable_confirm">使用 A-GPS 将产生数据流量, 您确定要打开 A-GPS 功能吗?</string>
+    <string name="agps_enable_confirm_allow">继续</string>
+    <string name="agps_enable_confirm_deny">取消</string>
+    
+    <!--  agps can not find mapping string default  -->
+    <string name="AGPS_DEFAULT_STRING">A-GPS 默认字串</string>
+    
+    <!--  agps error string  -->
+    <string name="AGPS_CAUSE_NETWORK_CREATE_FAIL">网络连接错误</string>
+    <string name="AGPS_CAUSE_BAD_PUSH_CONTENT">PUSH 内容不正确</string>
+    <string name="AGPS_CAUSE_NOT_SUPPORTED">不支持的操作</string>
+    <string name="AGPS_CAUSE_REQ_NOT_ACCEPTED">请求未被接受</string>
+    <string name="AGPS_CAUSE_NO_RESOURCE">没有资源处理新的请求</string>
+    <string name="AGPS_CAUSE_NETWORK_DISCONN">网络连接已断开</string>
+    <string name="AGPS_CAUSE_REMOTE_ABORT">远端连接被关闭</string>
+    <string name="AGPS_CAUSE_TIMER_EXPIRY">消息等待超时</string>
+    <string name="AGPS_CAUSE_REMOTE_MSG_ERROR">收到错误的消息中心</string>
+    <string name="AGPS_CAUSE_USER_AGREE">用户确认</string>
+    <string name="AGPS_CAUSE_USER_DENY">用户拒绝</string>
+    <string name="AGPS_CAUSE_NO_POSITION">仅仅用于 NO POSITION</string>
+    <string name="AGPS_CAUSE_TLS_AUTH_FAIL">TLS 认证失败</string>
+    
+    <!--  agps notify string  -->
+    <string name="AGPS_NOTIFY_ONLY">位置通知请求</string>
+    <string name="AGPS_NOTIFY_ALLOW_NO_ANSWER">位置请求(默认为同意)</string>
+    <string name="AGPS_NOTIFY_DENY_NO_ANSWER">位置请求(默认为拒绝)</string>
+    <string name="AGPS_NOTIFY_PRIVACY">位置请求(隐私)</string>
+    
+    <!--  agps em string  -->
+    <string name="AGPS_EM_RECV_SI_REQ">接收 SI 请求</string>
+    <string name="AGPS_EM_POS_FIXED">定位完成</string>
+    <string name="agps_disable_on_reboot">重开机后关闭</string>
+    <string name="agps_disable_on_reboot_summary">重开机后将关闭A-GPS功能</string>
+    <string name="agps_em_indication">工程模式提示</string>
+    <string name="agps_em_indication_summary_on">显示工程模式提示对话框</string>
+    <string name="agps_em_indication_summary_off">不显示工程模式提示对话框</string>
+
+    <!-- for log output  -->
+    <string name="agps_log_to_file">输出 A-GPS Log 到文件</string>
+    <string name="agps_log_to_file_enable">输出 A-GPS 调试信息到文件</string>
+    <string name="agps_log_to_UART">输出 A-GPS Log 到 UART</string>
+    <string name="agps_log_to_UART_enable">输出 A-GPS 调试信息到 UART</string>   
+    <string name="agps_log_SUPL_to_file">输出 SUPL Log 到文件</string>
+    <string name="agps_log_SUPL_to_file_enable">输出 SUPL 调试信息到文件</string>
+   <string name="Agps_Work_Mode_Setting">工作模式设定</string>
+    <string name="agps_ni_iot_enable">A-GPS NI IOT</string>
+    <string name="agps_ni_iot_enable_off">禁止 SUPL NI IOT 调试功能</string>
+    <string name="agps_ni_iot_enable_on">开启 SUPL NI IOT 调试功能</string>
+    <string name="EM_NotifyDialog_title">EM 消息通报</string>
+
+    <!-- for moble network data connetion indication  -->
+    <string name="MobileNetwork_Category">移动网络</string>
+    <string name="MobileNetwork_on_Summary">A-GPS需要通过数据连接访问移动网络</string>
+    <string name="MobileNetwork_SIM_Active">SIM卡数据连接已打开</string>
+    <string name="MobileNetwork_SIM1_Active">SIM1数据连接已打开</string>
+    <string name="MobileNetwork_SIM2_Active">SIM2数据连接已打开</string>
+    <string name="MobileNetwork_DataConn_off">当前数据连接已关闭</string>
+    <string name="MobileNetwork_off_Summary">使用A-GPS前请打开网络数据连接</string>
+
+    <!-- for SPL name mapping table -->
+    <string name="NI_Request_ID">请求者</string>
+    <string name="NI_Request_ClientName">定位应用名称</string>
+
+    <!-- for mobile network data connection indication -->
+    <string name="WiFiNetwork_on_title">WLAN 已连接</string>
+    <string name="MOLR_Settings">MOLR 模式</string>
+    <string name="Selected_MOLR_Position_Type">选择的 MOLR 定位模式</string>
+    <string name="MOLR_Position_Type">MOLR 定位模式</string>
+    <string name="Current_Selected_MOLR_PositionType">当前使用的 MOLR 定位模式</string>     
+    <string name="CP_EM_Settings">CP 工程模式设置</string>
+    <string name="CP_EM_Settings_Summary">CP 机测设置</string>
+    <string name="supl_capability_list_title">SUPL 支持的协议类型</string>
+    <string name="supl_capability_list_summary">使用的 SUPL 消息封包格式</string>
+    <string name="supl_capability_list_dialog_title">SUPL 协议类型</string>     
+    <string name="External_Address">外部地址</string> 
+    <string name="External_Address_Summary_on">使用外部地址</string>
+    <string name="External_Address_Summary_off">不使用外部地址</string>     
+    <string name="External_Address_Value">当前使用的外部地址</string>
+    <string name="External_Address_Value_editbox_title">编辑外部地址</string>
+    <string name="MLC_Number">移动定位中心号码</string> 
+    <string name="MLC_Number_Summary_on">允许使用移动定位中心 (MLC) 号码</string>
+    <string name="MLC_Number_Summary_off">禁止使用移动定位中心 (MLC) 号码</string>                 
+    <string name="MLC_Number_Value">当前使用的移动定位中心号码</string>
+    <string name="MLC_Number_Value_editbox_title">编辑移动定位中心号码</string>         
+
+    <!-- for AGPS CUSTOM POLICY-->   
+    <string name="CUSTOM_POLICY_Cat_Title">多重定位请求处理方式选取</string>
+    <string name="CUSTOM_POLICY_Title">多重定位请求处理方式</string>
+    <string name="CUSTOM_POLICY_Summary_on">使用多重定位请求处理方式</string>
+    <string name="CUSTOM_POLICY_Summary_off">不使用多重定位请求处理方式</string>
+    <string name="CUSTOM_POLICY_Type_Title">多重定位请求处理方式类型</string> 
+    <string name="CUSTOM_POLICY_Type_Summary">选取的多重定位请求处理方式</string>
+    <string name="SIM_SELECTION_TITLE">SIM 卡选取</string>
+    <string name="SIM_SELECTION_Summary">选取 A-GPS 控制面 (CP) 使用的SIM 卡</string>
+    <string name="USER_RESPONSE_TIMEOUT">等待验证超时</string>
+    <string name="drm_settings_title">"重置DRM"</string>
+    <string name="drm_settings_summary">"删除所有DRM许可"</string>
+    <string name="drm_reset_dialog_msg">"此操作会删除您手机上所有DRM许可，是否继续?"</string>
+    <string name="drm_reset_toast_msg">"已成功删除DRM许可。"</string>
+
+    <!-- Add for landscape launcher-->	
+    <string name ="landscape_launcher_title">横向启动程序</string>
+    <string name ="landscape_launcher_none">无</string>
+    <string name="tvout_settings">TV 输出</string>
+    <string name="tvout_settings_summary">TV 输出设置</string>
+    <string name="tv_system_title">TV 系统设置</string>
+    <string name="wifi_security_wapi_certificate">WAPI 证书</string>
+    <string name="wapi_user_certificate">"用户证书"</string>
+    <string name="wapi_as_certificate">"ASE 证书"</string>
+
+    <!-- modify default apns notices -->
+    <string name="apn_predefine_change_dialog_notice">确定要保存？修改默认的 APN 可能会影响数据连接！</string>    
+    <string name="dialog_apn_disabled">"APN 已停用！"</string>
+    <string name="dialog_apn_disabled_msg">"请关闭离线模式以启用 APN 设置 。"</string>
+    <string name="sim_status_summary">SIM 卡相关信息</string>
+    <string name="sim_status_title">SIM 卡状态</string>
+    <string name="status_imei_slot1">IMEI (插槽1)</string>
+    <string name="status_imei_slot2">IMEI (插槽2)</string>
+    <string name="status_imei_sv_slot1">IMEI SV (插槽1)</string>
+    <string name="status_imei_sv_slot2">IMEI SV (插槽2)</string>
+    <string name="status_meid_number_slot1">MEID (插槽1)</string>
+    <string name="status_meid_number_slot2">MEID (插槽2)</string>
+    <string name="status_min_number_slot1">MIN (插槽1)</string>
+    <string name="status_min_number_slot2">MIN (插槽2)</string>
+    <string name="status_prl_version_slot1">PRL 版本(插槽1)</string>
+    <string name="status_prl_version_slot2">PRL 版本(插槽2)</string>
+
+    <!-- About phone slot info -->
+    <string name="slot_status_title">"IMEI 信息"</string>
+    <string name="slot_status_summary">"IMEI 相关信息"</string> 
+    <string name="custom_build_version">"自定义版本"</string>
+    <!-- for Profile begin-->
+    <string name="sound_category_calls_title" msgid="3688531959256239012">"来电"</string>
+    <string name="general_settings_title">标准</string>
+    <string name="silent_settings_title">静音</string>
+    <string name="meeting_settings_title">会议</string>
+    <string name="outdoor_settings_title">户外</string>
+    <string name="Phone_vibrate_summary">"在来电话时发出振动"</string>
+    <string name="voice_call_title">"语音来电铃声"</string>
+    <string name="voice_call_summary">"设置默认的语音来电铃声"</string>
+    <string name="video_call_title">视频来电铃声</string>
+    <string name="video_call_summary">设置默认的视频来电铃声</string>
+    <string name="audio_profile_settings_title">"情景模式"</string>
+    <string name="audio_profile_category_predefine_title">预设模式</string>
+    <string name="audio_profile_category_custom_title">自定义模式</string>
+    <string name="audio_profile_reset">重设</string>
+    <string name="audio_profile_add">添加</string>
+    <string name="audio_profile_enable">"启用"</string>
+    <string name="audio_profile_rename">重命名</string>
+    <string name="audio_profile_delete">删除</string>
+    <string name="audio_profile_error">错误</string>
+    <string name="audio_profile_message_reset">恢复情景模式为默认设置</string>
+    <string name="audio_profile_message_rename">请输入情景模式名称</string>
+    <string name="audio_profile_message_name_error">该情景模式已存在</string>
+    <string name="audio_profile_message_name_length_wrong">名称中必须至少包含一个字符</string>
+    <string name="audio_profile_message_delete">情景模式 <xliff:g id="profile">%s</xliff:g> 将被删除</string>
+    <string name="audio_profile_message_overflow">只允许添加6个自定义情景模式</string>
+    <!-- for Profile end-->
+
+    <!-- CMCC WLAN customization begin-->
+    <string name="wifi_disconnect">断开</string>
+    <string name="wifi_menu_disconnect">断开网络</string>
+    <string name="wifi_connect_type_title">自动连接类型</string>
+    <string name="wifi_setting_connect_type_error">设置自动连接类型时出现错误。</string>
+    <string name="wifi_priority_type_title">手动设定接入点的优先级</string>
+    <string name="wifi_priority_type_summary">允许手动设定每个接入点的优先级</string>
+    <string name="wifi_priority_settings_title">接入点优先级设定</string>
+    <string name="wifi_priority_settings_summary">点击设定各接入点的优先级</string>
+    <string name="wifi_priority_label">优先级</string>
+    <string name="wifi_priority_settings_label">优先级设定</string>
+    <string name="wifi_configured_ap_list">已保存的接入点列表</string>
+    <string name="msg_wlan_signal_found">发现 WLAN 信号 %s, 您是否要使用该 WLAN 网络？ 使用该网络将部分中断当前的数据连接。</string>
+    <string name="wifi_security_cmcc">加密方式</string>
+    <string name="wifi_channel">优先频道</string>
+   <!-- CMCC WLAN customization end-->
+
+    <string name="bluetooth_advanced_settings">"蓝牙高级设置"</string>
+    <string name="bluetooth_profile_ftp">"文件传输"</string>
+    <string name="bluetooth_ftp_profile_summary_use_for">"用于文件传输"</string>
+    <string name="bluetooth_ftp_profile_summary_connected">"已连接到文件传输"</string>
+    <string name="day">"1 天"</string>
+    <string name="days">"<xliff:g id="DAYS">%s</xliff:g> 天"</string>
+    <string name="hour">"1 小时"</string>
+    <string name="hours">"<xliff:g id="HOURS">%s</xliff:g> 小时"</string>
+    <string name="minute">"1 分钟"</string>
+    <string name="minutes">"<xliff:g id="MINUTES">%s</xliff:g> 分钟"</string>
+    <string name="every_day">"每天"</string>
+    <string name="never">"从不"</string>
+    <string name="done">"完成"</string>
+    <string name="revert">"复原"</string>
+    <string name="wifi_priority_changed">原优先级=<xliff:g id="old_value">%s</xliff:g>,新设定=<xliff:g id="new_value">%s</xliff:g></string>
+    <string name="wifi_hex_password">"十六进制密码"</string>
+
+    <!-- Label for the network netmask of the network-->
+    <string name="wifi_network_netmask">网络掩码</string>
+    <!-- for wifi concurrent operation -->
+    <string name="confirm_title">确认</string>
+    <string name="proxy_exclusionlist_label_cmcc">代理排除列表</string>
+
+    <!-- for PCH Monitor -->
+    <string name="pch_toggle_title">"GPRS 数据优先模式"</string>
+    <string name="pch_data_prefer_summary_off">"数据优先"</string>
+    <string name="pch_call_prefer_summary_on">"电话优先"</string>
+    <string name="pch_warning_message">"数据传输速率将会降低。"</string>
+
+    <!--add for wifi ap auto connect for CMCC-->
+    <string name="gsm_to_wifi_connect_type_title">蜂窝网至 WLAN 重选</string>
+    <string name="wifi_connect_ap_summary">设置网络连接方式</string>
+    <string name="select_ssid_type_title">不同 SSID 间重选</string>
+    <string name="wifi_signal_found_msg">当前 WLAN 连接信号较弱,是否切换到其他 WLAN 网络?</string>
+
+    <!-- for Memory -->
+    <string name="select_memory">默认存储器</string>
+    <string name="wifi_no_cert_for_wapi">未能找到正在连接的接入点的证书</string>
+
+    <!-- for wifi gprs selector of cmcc -->
+    <string name="apn_list_category_title">APN列表</string>
+    <string name="data_conn_category_title">数据连接</string>
+    <string name="wifi_gprs_selector_title">选择网络</string>
+    <string name="data_enabler_title">数据连接</string>
+    <string name="data_enabler_summary">使用移动网络</string>
+    <string name="data_enabler_waiting_message">"请稍候\u2026"</string>
+     <!--
+    <string name="data_enabler_enable_timeout_message">"打开数据连接超时"</string>
+    <string name="data_enabler_disable_timeout_message">"关闭数据连接超时"</string>
+      -->
+    <!-- Label for the SIM Slot of EAP-SIM method support -->
+    <string name="sim_slot">SIM 卡槽</string>
+    <!-- Label for the SIM Slot 0 of EAP-SIM method support -->
+    <string name="eap_sim_slot_0">SIM 卡槽 1</string>
+    <!-- Label for the SIM Slot of EAP-SIM method support -->
+    <string name="eap_sim_slot_1">SIM 卡槽 2</string>
+    <!-- Label for the toast if user use eap-sim/aka in airplane mode -->
+    <string name="eap_sim_aka_airplanemode">请关闭飞行模式才能使用 EAP-SIM/AKA</string>
+    <!-- Label for the toast if user use eap-sim/aka when sim card is absent -->
+    <string name="eap_sim_aka_no_sim_error">您必须插入SIM卡才能使用 EAP-SIM/AKA </string>	
+    <!-- Label for the toast if user use eap-sim/aka when user don't select a sim slot -->
+    <string name="eap_sim_aka_no_sim_slot_selected">您必须选择SIM卡槽才能使用 EAP-SIM/AKA</string>	
+    <string name="move_app_to_where">"移至"<xliff:g id="location">%s</xliff:g></string>
+    <!--add for Wi-Fi hotspot auto-sleep policy-->
+    <string name="wifi_tether_auto_disable_title">保持WLAN热点开启</string>    
+    <string name="gemini_3g_disable_warning_case0">"这张SIM卡必须要先开通漫游，这将产生大量漫游费！确定要开通漫游并选择这张卡吗？"</string>
+    <string name="gemini_3g_disable_warning_case1">"这张SIM卡上的3G服务不可用，将会使上网变慢。可以在 设置 > 无线和网络 > 移动网络 下更改3G服务。确定要选择这张卡吗？"</string>
+    <string name="gemini_3g_disable_warning_case2">"这张SIM卡上的3G服务不可用，将会使上网变慢。可以在 设置 > SIM卡管理 下更改3G服务。确定要选择这张卡吗？"</string>
+    <string name="gemini_3g_disable_warning_case3">"这张SIM卡必须要先开通漫游，这将产生大量漫游费！而且这张SIM卡上的3G服务不可用，将会使上网变慢。可以在 设置 > 无线和网络 > 移动网络 下更改3G服务。确定要开通漫游并选择这张卡吗？"</string>
+    <string name="gemini_3g_disable_warning_case4">"这张SIM卡必须要先开通漫游，这将产生大量漫游费！而且这张SIM卡上的3G服务不可用，将会使上网变慢。可以在 设置 > SIM卡管理 下更改3G服务。确定要开通漫游并选择这张卡吗？"</string>
+
+    <string name="sd_mount_usbstorage" product="default">"装载 USB 存储设备"</string>
+    <string name="sd_insert_usb_summary" product="default">"插入要装载的 USB 存储设备"</string>
+    <string name="sd_eject_usbstorage" product="default">"卸载 USB 存储设备"</string>
+    <string name="sd_eject_usbstorage_summary" product="default">"需要先卸载 USB 存储设备，然后才能将其安全移除"</string>
+    <string name="error_connecting">"无法连接到网络"</string>
+	<!--add for full backupPassword -->
+    <string name="password_mismatch">新备份密码不匹配</string>
+    <string name="password_set_successfully">﻿新备份密码设置成功</string>
+    <string name="password_set_failure">备份密码设置失败</string>
+    <!-- About phone screen,  more software updates-->
+    <string name="software_updates_more_title">软件更新服务</string>
+    <string name="software_updates_more_summary">检测软件更新</string>
+    <string name="software_updates_scomo_summary">检测应用更新</string>
+    <string name="ring_summary">铃声</string>  
+    <string name="ring_vibrate_summary">铃声与震动</string>  
+    <string name="silent_summary">仅静音</string>  
+    <string name="meeting_summary">仅震动</string>  
+    <string name="outdoor_summary">最大铃声与震动</string>  
+    <string name="gps_time_sync_attention_gps_on">使用 GPS 提供时间，必须要等待 GPS 定位成功。GPS 定位最多需要一分钟。\n\n确定要使用 GPS 提供时间吗？</string>
+    <string name="gps_time_sync_attention_gps_off">使用 GPS 提供时间，必须要先启用 GPS，并等待 GPS 定位成功。GPS 定位最多需要一分钟。如果 GPS 信号弱，可能会定位失败。\n\n确定现在要启用 GPS 并使用 GPS 提供时间吗？</string>  
+
+    <!--Theme manager begin-->
+    <string name="mtk_thememanager_title">"主题"</string>
+    <string name="default_name">"默认"</string>
+    <string name="custom_theme_name">我的主题 [%1$s]</string>
+    <string name="loading">"正在载入..."</string>
+    <string name="usb_charge_title">只充电</string>  
+    <string name="usb_charge_summary">将停用其他一切USB功能，加速USB充电，并降低电量消耗</string>     
+    <string name="mtp_transfer_unmount_error_text">SD 卡正在传输文件，无法卸载</string>
+    <string name="mtp_transfer_erase_error_text">SD 卡正在传输文件，无法格式化</string>     
+    <string name="display_settings_scences_title">场景</string>
+    <string name="wifi_tether_auto_channel_text">自动</string>
+    <string name="trust_access_points">默认信任接入点</string>
+    <string name="configed_access_points">信任接入点</string>
+    <string name="new_access_points">未知接入点</string>
+    <string name="battery_percent">电量百分比</string> 
+    <string name="vibrate_on_ring_title">Vibrate and ring</string>
+    <!--Theme manager begin--> 
+
+    <!--Add Strings for MTK Security Settings -->  
+    <string name="sim_enter_pin_hints">"(﻿请输入4-8数字)"</string>  
+    <string name="sim_remain">(剩余次数:<xliff:g id="remains">%d</xliff:g>)</string>  
+    <!--End of String for MTK Security Settings--> 
+
+    <!--IPV6 Tethered-->
+    <string name="tethered_ipv6_title">网络共享与便携式热点设置</string>
+    <string name="tethered_ipv4v6">(IPv6 可用)</string>
+    <string name="tethered_ipv6">(仅 IPv6 可用)</string>
+    <string name="tethered_ipv4">(IPv6 不可用)</string>
+    <!-- Thethering apn settings menu -->
+    <string name="tethering_apn_settings_title">APN 设置</string>
+    <!-- Thethering apn settings menu -->
+    <string name="tethering_apn_settings_summary">设置网络共享 APN</string>
+ 
+    <string name="vibrate_title" msgid="6045820877942801599">"振动"</string>    
+    <string name="sound_category_feedback_title" msgid="6047518536574673606">"系统"</string>
+    <!-- Storage setting.  Title for UMS checkbox [CHAR LIMIT=30]-->
+    <string name="usb_ums_title">"USB 存储设备"</string>
+    <!-- Storage setting.  Summary for UMS checkbox [CHAR LIMIT=NONE]-->
+    <string name="usb_ums_summary">"XP系统推荐。将手机作为U盘进行文件复制。"</string>
+    <string name="usb_bicr_title">内置光盘</string>  
+    <string name="usb_bicr_summary"> 做为虚拟光盘，包含一些常用软件。</string>
+    <string name="dlg_error_unmount_usb_text" product="default">"无法卸载 USB 存储设备，请稍后重试。"</string>
+    <string name="unmount_usb_inform_text" product="default">"系统将会卸载 USB 存储设备。"</string>
+    <string name="dlg_confirm_unmount_usb_title" product="default">"要卸载 USB 存储设备吗？"</string>
+    <!-- Usb storage eject confirmation dialog  [CHAR LIMIT=NONE] -->
+    <string name="dlg_confirm_unmount_usb_text" product="default">"如果卸载该 USB 存储设备，您当前使用的某些应用程序会停止运行，并且在您重新装载该设备前可能都无法使用。"</string>
+	<string name="dlg_mount_external_sd_title" product="default">是否安装 SD 卡?</string>  
+    <string name="dlg_mount_external_sd_summary" product="default">若安装 SD 卡，您正在使用的部分应用程序将会被停止。</string> 
+	<string name="usb_connect_as_cdrom_category">"以CD-ROM连接"</string>
+
+
+    <string name="wifi_tether_setting_title">基本设置</string>  
+    <string name="wifi_tether_wps_connect_summary">选择 WPS 模式</string>  
+    <string name="wifi_tether_wps_pin_error">PIN码无效</string>  
+    <string name="wifi_tethering_title">WLAN 热点</string>  
+    <string name="wifi_ap_wps_mode_title">WPS 模式</string>  
+    <string name="wifi_ap_wps_pin_title">从对等设备输入 PIN 码</string>  
+    <string name="wifi_ap_reset_OOB_title">重置网络名称, 加密方式及密码 (WPS 参数恢复恢复出厂设置)</string>  
+    <string name="wifi_ap_reset_OOB">重置 OOB</string>  
+    <string name="wifi_ap_max_connection_title">最大连接数</string>  
+    <string name="wifi_ap_connected_title">已连接用户</string>  
+    <string name="wifi_ap_blocked_title">已封锁用户</string>
+    <string name="wifi_ap_client_block_title">"阻止"</string>  
+    <string name="wifi_ap_client_unblock_title">取消封锁</string>  
+    <string name="wifi_ap_client_mac_label">MAC 地址:</string>  
+    <string name="wifi_ap_client_ip_label">IP 地址:</string>  
+    <string name="usb_sharing_title">USB 互连网</string>  
+    <string name="usb_sharing_summary">通过 USB 线共享 Windows PC 网络</string>  
+    <string name="usb_sharing_info_title">网络</string>  
+    <string name="usb_sharing_info_step_1">"1. 打开 Windows PC 网络."</string>  
+    <string name="usb_sharing_info_step_2">"2. 在想要分享的网络上点击右键, 选择属性."</string>  
+    <string name="usb_sharing_info_step_3">"3. 点击高级选项, 选择 \"允许其他网络用户共享此计算机的 Internet 来连接\" (如果出现家庭网络选项, 请选择新增的USB网络连接)"."</string>  
+    <string name="wifi_ap_bandwidth_title">频宽使用</string>  
+    <string name="wifi_ap_bandwidth_enable">启用频宽限制</string>  
+    <string name="wifi_ap_bandwidth_chart_title">实时速度</string>  
+    <string name="wifi_ap_bandwidth_chart_summary">速度会因为手机或电脑的不同而有所差异.</string>  
+    <string name="wifi_ap_title">统计数据</string>  
+    <string name="wifi_ap_time_duration">使用时间: 
+        <xliff:g id="time">%1$s</xliff:g> 
+    </string>  
+    <string name="wifi_ap_total_data">已使用数据:
+        <xliff:g id="time">%1$s</xliff:g>
+    </string>
+	<string name="cpu_dtm_title">CPU省电模式</string>
+    <string name="cpu_dtm_summary">限制 CPU 最大性能以节省电量并降低温度。</string>
+    <string name="wifi_advanced_ipv4_address_title">IPv4 地址</string>  
+    <string name="wifi_advanced_ipv6_address_title">IPv6 地址</string>  
+    <string name="wifi_ipv4_address">IPv4 地址</string>  
+    <string name="wifi_ipv6_address">IPv6 地址</string> 
+    
+    <!-- MTK new datausage start -->
+    <string name="mtk_datausage_show_on_lockscreen">锁定屏幕上显示</string>  
+    <string name="mtk_datausage_update">流量使用更新</string>  
+    <string name="mtk_datausage_update_set">更新</string>  
+    <string name="mtk_datausage_amount_editor_title">使用总流量</string>  
+    <string name="mtk_datausage_usage_list">软件的流量使用</string>  
+    <string name="mtk_datausage_diff_byte">流量使用差异</string>  
+    <string name="mtk_datausage_overview_tab">概览</string>  
+    <string name="mtk_datausage_overview_wifi_today">今日</string>  
+    <string name="mtk_datausage_overview_wifi_total">共计</string>  
+    <string name="mtk_datausage_overview_mobile_title">移动网络</string>  
+    <string name="mtk_datausage_overview_mobile_usage"><xliff:g id="actual">%s</xliff:g>已使用,共<xliff:g id="limit">%s</xliff:g></string>
+    <string name="mtk_datausage_overview_mobile_usage_warning">超出流量上限<xliff:g>%s</xliff:g></string>
+    <!-- MTK new datausage end -->
+    <string name="display_personalize">个性化</string>  
+    <string name="display_default">"显示"</string> 
+    <!-- Sound Enhanecement -->
+    <string name="sound_enhancement_title">音效改善</string>
+    <string name="music_plus_summary">针对耳机的音效改善</string>
+    <string name="auto_backlight_title">省电背光</string>
+    <string name="auto_backlight_summary">自动调整背光以节省电力</string>
+
+    <string name="beam_mgmt_tab_download_title">接收</string>
+    <string name="beam_mgmt_tab_upload_title">"发送"</string>
+    <string name="beam_share_mgmt_notification_ticker">Beam分享历史</string>
+    <string name="beam_share_mgmt_notification_title">Beam分享历史</string>
+    <string name="beam_share_mgmt_notification_message">"选择可查看Beam分享历史"</string>
+    <string name="beam_share_mgmt_tab_menu_clear">"全部清除"</string>
+    <string name="beam_share_open_file_dialog_title">无法打开文件</string>
+    <string name="beam_share_open_file_unsupported_message">文件格式不支持</string>
+    <string name="beam_share_open_file_not_found_message">"找不到文件: <xliff:g id="file_name">%1$s</xliff:g></string>
+    <string name="beam_share_transfer_fail_dialog_title">"Beam 失败"</string>
+    <string name="beam_share_resend_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> 发送不成功。"</string>
+    <string name="beam_share_resend_dialog_ok_button">"重试"</string>
+    <string name="beam_share_show_received_files_menu">"显示接收到的文件"</string>
+    <string name="beam_share_history_title">Beam分享历史</string>
+    <string name="beam_share_clear_confirm_dialog_title">"全部清除"</string>
+    <string name="beam_share_clear_confirm_dialog_message">清除全部历史?</string>
+    <string name="beam_share_receive_fail_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> 接收不成功。"</string>
+    <string name="beam_share_clear_item_dailog_title">删除</string>
+    <string name="beam_share_clear_item_dailog_message">此项将会被删除。</string>
+    <string name="wifi_tether_wps_connect_title">WPS 连接</string>
+    <string name="wifi_ap_wps_dialog_title">WPS 连接</string>
+    <string name="wifi_ap_client_details_title">说明</string>
+    <string name="wifi_wps_fail_error">WPS 连接失败， 请稍候再试。</string>
+	<string name="nfc_p2p_mode">P2P 模式</string>
+    <string name="nfc_p2p_mode_summary"> 发送或接收 App 内容</string>
+    <string name="nfc_tag_mode_category">标签模式</string>
+    <string name="nfc_rw_tag_title">标签读取和写入</string>
+    <string name="nfc_rw_tag_summary">从标签读取或写入</string>
+
+    <string name="voice_ui_title">"语音控制"</string>
+    <string name="voice_ui_app_category">"应用程序设置"</string>
+    <string name="voice_ui_setting_category">"设置语言"</string>
+    <string name="voice_ui_language_title">"语音控制语言"</string>
+    <string name="incoming_call_app_name">"来电显示"</string>
+    <string name="alarm_app_name">"闹钟"</string>
+    <string name="camera_app_name">"照相机"</string>
+    <string name="music_app_name">"音乐"</string>
+    <string name="incomming_command_summary_format">你可以说 <xliff:g id="first">%1$s</xliff:g> 或者 <xliff:g id="second">%2$s</xliff:g> 接听或拒绝来电。</string>
+    <string name="alarm_command_summary_format">你可以说 <xliff:g id="first">%1$s</xliff:g> 或者 <xliff:g id="second">%2$s</xliff:g> 控制闹钟。</string>
+    <string name="camera_command_summary_format">你可以说 <xliff:g id="first">%1$s</xliff:g> 或者 <xliff:g id="second">%2$s</xliff:g> 拍照。</string>
+    <string name="music_command_summary_format">你可以说 <xliff:g id="first">%1$s</xliff:g> 和 <xliff:g id="second">%2$s</xliff:g> 控制音乐播放。</string>
+    <string name="lock_screen_notifications_title">锁定屏幕通知</string>
+    <string name="lock_screen_notifications_summary">在锁定屏幕上显示通知</string>
+    <string name="lock_screen_style_title">锁定屏幕风格</string>
+
+	<!-- Lock screen settings start -->
+	<string name="current_suffix">"(当前)"</string>
+	<string name="lockscreen_style_set">"设置"</string>
+	<string name="lockscreen_style_default_desc">"无需解锁进入应用"</string>
+	<!-- Lock screen settings end -->
+    <!--  voice unlock start-->
+    <string name="voice_unlock_backup_info_summary">当语音解锁识别不出您的声音时，你希望如何解锁？</string>
+    <string name="unlock_set_unlock_mode_voice_weak">语音解锁</string>
+    <!--  voice unlock end-->
+    <string name="usb_tether_type_title">USB 共享网络类型</string> 
+    <string name="security_not_set">您没有设置安全性</string>
+    <string name="lockdown_vpn_already_connected">始终开启的 VPN 已启动。</string> 
+    <string name="wifi_ap_no_connected">0 个已连接用户</string>  
+    <string name="wifi_ap_no_blocked">0 个已封锁用户</string>
+
+
+    <!-- AboutPhone IMEI Gemini+ support start -->
+    <string name="status_imei_slot3">IMEI (插槽3)</string>
+    <string name="status_imei_sv_slot3">IMEI SV (插槽3)</string>
+    <string name="status_min_number_slot3">MIN (插槽3)</string>
+    <string name="status_prl_version_slot3">PRL 版本(插槽3)</string>
+    <string name="status_meid_number_slot3">MEID (插槽3)</string>
+    <!-- AboutPhone IMEI Gemini+ support end -->
+
+    <string name="usb_tethering_select_version">选择电脑系统版本</string>
+</resources>

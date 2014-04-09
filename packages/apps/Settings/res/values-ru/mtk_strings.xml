@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="bluetooth_advanced_settings">Расширенные настройки Bluetooth</string>  
+    <!-- Bluetooth settings.  The user-visible string that is used whenever referring to the FTP profile. -->  
+    <string name="bluetooth_profile_ftp">Передача файлов</string>  
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the FTP checkbox preference that describes how checking it will set the FTP profile as preferred. -->  
+    <string name="bluetooth_ftp_profile_summary_use_for">Использовать для передачи файлов</string>  
+    <string name="bluetooth_ftp_profile_summary_connected">"Подключено для передачи файлов"</string>  
+    <string name="mtp_transfer_unmount_error_text">SD-карту нельзя извлекать в процессе передачи файла</string>  
+    <string name="mtp_transfer_erase_error_text">SD-карту нельзя стирать в процессе передачи файла</string>  
+    <string name="launch_error">"Невозможно запустить данное приложение!"</string>  
+    <string name="dlg_confirm_unmount_usb_title" product="default">Отключить USB-накопитель?</string>  
+    <string name="dlg_confirm_unmount_usb_text" product="default">В случае отключения USB-накопителя некоторые используемые приложения будут остановлены и могут оставаться недоступными до тех пор, пока данный USB-накопитель не будет подключен снова.</string>  
+    <string name="dlg_error_unmount_usb_title" product="default"/>  
+    <string name="dlg_error_unmount_usb_text" product="default">Нельзя извлекать USB-накопитель. Повторите попытку позже.</string>  
+    <string name="unmount_usb_inform_text" product="default">USB-накопитель будет отключен.</string>  
+    <string name="sd_eject_usbstorage" product="default">"Отключить USB-накопитель"</string>  
+    <string name="sd_eject_usbstorage_summary" product="default">"Отключить внутр. USB-накопитель"</string>  
+    <string name="sd_mount_usbstorage" product="default">"Подключить USB-накопитель"</string>  
+    <string name="sd_insert_usb_summary" product="default">"Вставить USB-накопитель"</string>  
+    <!-- Storage setting.  Title for UMS checkbox [CHAR LIMIT=30]-->  
+    <string name="usb_ums_title">USB-накопитель</string>  
+    <!-- Storage setting.  Summary for UMS checkbox [CHAR LIMIT=NONE]-->  
+    <string name="usb_ums_summary">"Рекомендуется ОС XP. Позволяет передавать файлы между компьютером и USB-накопителем Android."</string>  
+    <string name="usb_charge_title">Только зарядка</string>  
+    <string name="usb_charge_summary">Остановите выполнение всех функций устройства USD. Это позволить ускорить зарядку USB и снизить энергопотребление.</string>  
+    <!-- Agps Settings -->  
+    <string name="NI_Request_ID">ID клиента сервера</string>  
+    <string name="NI_Request_ClientName">Имя клиента</string>  
+    <string name="agps_str_verify">Проверка</string>  
+    <string name="agps_str_notify">Уведомление</string>  
+    <string name="EM_NotifyDialog_title">Уведомление EM</string>  
+    <string name="agps_OK">OK</string>  
+    <string name="agps_str_allow">"Разрешить"</string>  
+    <string name="agps_str_deny">"Отклонить"</string>  
+    <string name="agps_str_error">Ошибка</string>  
+    <string name="AGPS_DEFAULT_STRING">Строка A-GPS по умолчанию</string>  
+    <string name="AGPS_CAUSE_NETWORK_CREATE_FAIL">Сбой подключения к сети</string>  
+    <string name="AGPS_CAUSE_BAD_PUSH_CONTENT">Недопустимое PUSH-содержимое</string>  
+    <string name="AGPS_CAUSE_NOT_SUPPORTED">Неподдерживаемая операция</string>  
+    <string name="AGPS_CAUSE_REQ_NOT_ACCEPTED">Запрос не принят</string>  
+    <string name="AGPS_CAUSE_NO_RESOURCE">Недостаточно ресурсов для обработки нового процесса</string>  
+    <string name="AGPS_CAUSE_NETWORK_DISCONN">Соединение с сетью отключено</string>  
+    <string name="AGPS_CAUSE_REMOTE_ABORT">Удаленный узел прервал сеанс (получена команда SUPL END)</string>  
+    <string name="AGPS_CAUSE_TIMER_EXPIRY">Ожидаемое сообщение не получено за отведенное время</string>  
+    <string name="AGPS_CAUSE_REMOTE_MSG_ERROR">Получено недопустимое содержимое сообщения</string>  
+    <string name="AGPS_CAUSE_USER_AGREE">Пользователь принял подтверждение</string>  
+    <string name="AGPS_CAUSE_USER_DENY">Пользователь отклонил подтверждение</string>  
+    <string name="AGPS_CAUSE_NO_POSITION">Только БЕЗ позиционирования</string>  
+    <string name="AGPS_CAUSE_TLS_AUTH_FAIL">Сбой аутентификации TLS</string>  
+    <string name="USER_RESPONSE_TIMEOUT">Истекло время ожидания проверки</string>  
+    <string name="AGPS_EM_RECV_SI_REQ">Получен запрос SI</string>  
+    <string name="AGPS_EM_POS_FIXED">Местоположение определено</string>  
+    <string name="AGPS_NOTIFY_ONLY">Уведомление о запросе местоположения</string>  
+    <string name="AGPS_NOTIFY_ALLOW_NO_ANSWER">Запрос местоположения (разрешить, если нет ответа)</string>  
+    <string name="AGPS_NOTIFY_DENY_NO_ANSWER">Запрос местоположения (отклонить, если нет ответа)</string>  
+    <string name="AGPS_NOTIFY_PRIVACY">Запрос местоположения (конфиденциальность)</string>  
+    <string name="epo_entrance_title">Параметры EPO</string>  
+    <string name="epo_entrance_summary">Нажмите для изменения конфигурации EPO</string>  
+    <string name="agps_settings_title">Настройки AGPS</string>  
+    <string name="epo_enable_confirm_title">Подтверждение включения EPO</string>  
+    <string name="epo_enable_confirm_message">Для получения вспомогательных данных GPS (EPO) требуется беспроводное соединение для передачи данных, за что может взиматься дополнительная плата. Включить использование вспомогательных данных GPS?</string>  
+    <string name="epo_enable_confirm_allow">Продолжить</string>  
+    <string name="epo_enable_confirm_deny">Отменить</string>  
+    <string name="agps_enable_confirm_title">Подтверждение включения A-GPS</string>  
+    <string name="agps_enable_confirm">Функция A-GPS использует соединение передачи данных для получения вспомогательных данных. Включить A-GPS?</string>  
+    <string name="agps_enable_confirm_allow">Продолжить</string>  
+    <string name="agps_enable_confirm_deny">Отменить</string>  
+    <string name="epo_enable_title">Вспомогательные данные GPS EPO</string>  
+    <string name="epo_enable_summary">Использовать вспомогательные данные GPS (EPO) для ускорения GPS-позиционирования.</string>  
+    <string name="agps_settings_enable_on">Можно ускорить определение местоположения посредством GPS, получая вспомогательные данные при помощи беспроводного соединения.</string>  
+    <string name="agps_settings_enable_off">Использовать вспомогательные данные для ускорения определения местоположения посредством GPS</string>  
+    <string name="agps_settings_eng_enable">Настройки AGPS</string>  
+    <string name="agps_settings_eng_summary">Настроить AGPS</string>  
+    <string name="agps_disable_on_reboot">Отключить после перезагрузки</string>  
+    <string name="agps_disable_on_reboot_summary">Отключить функцию A-GPS после перезагрузки</string>  
+    <string name="Network_Initiate">Сетевой запрос</string>  
+    <string name="Network_Initiate_Summary_on">Разрешить сети запрашивать местоположение</string>  
+    <string name="Network_Initiate_Summary_off">Запретить сети запрашивать местоположение</string>  
+    <string name="Network_Used">Используемая сеть</string>  
+    <string name="agps_profile_select">Переключатель профиля</string>  
+    <string name="agps_profile_SLP_address_editbox_title">Адрес SLP</string>  
+    <string name="port_title">Порт SLP</string>  
+    <string name="tls_summary_off">TLS выключен</string>  
+    <string name="tls_summary_on">TLS включен</string>  
+    <string name="MobileNetwork_Category">Мобильная сеть</string>  
+    <string name="AgpsHelp_Category">Справка</string>  
+    <string name="about_agps_title">Что такое A-GPS</string>  
+    <string name="about_agps_message">\t A-GPS (Assisted-GPS) является системой, которая позволяет улучшить характеристики запуска и время первого определения местоположения (TTFF) GPS-спутников. \n\t Устройство с поддержкой A-GPS можно подключать к серверам местоположения для запроса вспомогательных данных с помощью мобильного подключения к сетевым данным. \n\t Обратите внимание, что может потребоваться дополнительная оплата трафика данных в режиме сетевого роуминга. За подробной информацией обращайтесь к операторам сети.</string>  
+    <string name="epo_auto_download_title">Автозагрузка</string>  
+    <string name="epo_auto_download_summary">Автоматически загружать данные о положении спутников</string>  
+    <string name="epo_info_title">Сведения о файлах EPO</string>  
+    <string name="epo_download_time_title">Время загрузки</string>  
+    <string name="epo_download_time_summary">Недоступно</string>  
+    <string name="epo_start_time_title">Время начала</string>  
+    <string name="epo_start_time_summary">Недоступно</string>  
+    <string name="epo_expire_time_title">Время окончания</string>  
+    <string name="epo_expire_time_summary">Недоступно</string>  
+    <string name="epo_about_title">Сведения о EPO</string>  
+    <string name="epo_about_message">\tСистема прогнозирования положения орбиты EPO (Extended Prediction Orbit) является собственностью компании MediaTek одной из инноваций использования сервера в автономном режиме на основе технологии A-GPS. \n\tСистема обеспечивает прогноз положения орбиты спутника на срок до 30 дней, что позволяет значительно повысить возможности пользователя во время первого определения местоположения (TTFF) GPS-спутников.</string>  
+    <string name="Network_Local_and_Roaming_Summary">Используйте A-GPS в локальной сети и в роуминге</string>  
+    <string name="Network_Only_Local_Summary">Используйте A-GPS только в локальной сети</string>  
+    <string name="MobileNetwork_DataConn_off">Соединение передачи данных выключено</string>  
+    <string name="MobileNetwork_off_Summary">Перед использованием A-GPS включите соединение передачи данных</string>  
+    <string name="WiFiNetwork_on_title">Wi-Fi активен</string>  
+    <string name="MobileNetwork_on_Summary">A-GPS требуется доступ к мобильной сети посредством соединения передачи данных</string>  
+    <string name="MobileNetwork_SIM_Active">SIM активна</string>  
+    <string name="Network_Roaming_dialog_title">Внимание</string>  
+    <string name="Network_Roaming_dialog_content">Если сеть используется в режиме роуминга, передача данных в A-GPS может потребовать дополнительных затрат на роуминг.</string>  
+    <string name="epo_download">Загрузить</string>  
+    <string name="epo_error_no_activite_network">Включите соединение для передачи данных перед загрузкой данных EPO.</string>  
+    <string name="epo_cancel_download">Отменить</string>  
+    <string name="epo_status_stopping">Остановка…</string>  
+    <string name="epo_status_starting">Запуск...</string>  
+    <string name="epo_err_update_failed">Сбой обновления файлов EPO</string>  
+    <string name="epo_error_dialog_title">Ошибка</string>  
+    <string name="epo_ok_btn">OK</string>  
+    <string name="epo_warning_dialog_title">Внимание</string>  
+    <string name="epo_warning_dialog_message">При загрузке данных EPO в роуминге может взиматься дополнительная плата. Продолжить?</string>  
+    <!-- AudioProfile Settings -->  
+    <string name="ring_summary">Звонок</string>  
+    <string name="ring_vibrate_summary">Звонок и вибрация</string>  
+    <string name="silent_summary">Тихий режим</string>  
+    <string name="meeting_summary">Только вибрация</string>  
+    <string name="outdoor_summary">Самый громкий звонок и вибрация</string>  
+    <string name="audio_profile_reset">Сброс</string>  
+    <string name="audio_profile_add">"Добавить"</string>  
+    <string name="audio_profile_enable">"Включить"</string>  
+    <string name="audio_profile_rename">"Переименовать"</string>  
+    <string name="audio_profile_delete">"Удалить"</string>  
+    <string name="audio_profile_message_reset">Будут восстановлены стандартные значения всех настроек аудиопрофиля</string>  
+    <string name="audio_profile_message_rename">Введите новое имя профиля</string>  
+    <string name="audio_profile_message_name_error">Введенное имя уже существует</string>  
+    <string name="audio_profile_message_name_length_wrong">Имя должно содержать хотя бы один символ</string>  
+    <string name="audio_profile_message_delete">Профиль « 
+        <xliff:g id="profile">%s</xliff:g>» будет удален
+    </string>  
+    <string name="audio_profile_message_overflow">Можно добавить не более 6 пользовательских профилей</string>  
+    <string name="ok">OK</string>  
+    <string name="audio_profile_category_custom_title">Пользовательские профили</string>  
+    <string name="audio_profile_category_predefine_title">Стандартные профили</string>  
+    <string name="general_settings_title">"Общие"</string>  
+    <string name="silent_settings_title">Без звука</string>  
+    <string name="meeting_settings_title">Совещание</string>  
+    <string name="outdoor_settings_title">Улица</string>  
+    <!-- modify default apns notices -->  
+    <string name="apn_predefine_change_dialog_notice">Действительно сохранить? Изменения имен точек доступа, заданных по умолчанию, может привести к проблемам с подключением!"</string>  
+    <!-- The title for AlertDialog when APN Settings is called while Airplane Mode is on -->  
+    <string name="dialog_apn_disabled">APN отключена!</string>  
+    <!-- Error message for dialog of apn disabled error  -->  
+    <string name="dialog_apn_disabled_msg">Выключите режим "В самолете", чтобы включить параметры APN.</string>  
+    <string name="sound_category_feedback_title">"Система"</string>  
+    <string name="sound_category_calls_title">"Входящие вызовы"</string>  
+    <string name="voice_call_title">"Мелодия звонка речевого вызова"</string>  
+    <string name="voice_call_summary">"Установите мелодию звонка для входящих речевых вызовов по умолчанию"</string>  
+    <string name="video_call_title">Мелодия звонка видеовызова</string>  
+    <string name="video_call_summary">Установите мелодию звонка для входящих видеовызовов по умолчанию</string>  
+    <string name="Phone_vibrate_summary">Вибрация при входящих вызовах</string>  
+    <string name="vibrate_title">Вибрация</string>  
+    <string name="audio_profile_settings_title">Профили звука</string>  
+    <!--Add Strings for MTK AboutPhone Settings -->  
+    <!-- Gemini AboutPhone status sim status title -->  
+    <string name="sim_status_title">Состояние SIM-карты</string>  
+    <!-- Gemini AboutPhone status sim status summary -->  
+    <string name="sim_status_summary">Информация о SIM-карте</string>  
+    <!-- Gemini AboutPhone status imei slot1 title -->  
+    <string name="status_imei_slot1">IMEI (слот 1)</string>  
+    <!-- Gemini AboutPhone status imei sv slot1 title -->  
+    <string name="status_imei_sv_slot1">IMEI SV (слот 1)</string>  
+    <!-- Gemini AboutPhone status imei slot2 title -->  
+    <string name="status_imei_slot2">IMEI (слот 2)</string>  
+    <!-- Gemini AboutPhone status imei sv slot2 title -->  
+    <string name="status_imei_sv_slot2">IMEI SV (слот 2)</string>  
+    <!-- Gemini CDMA AboutPhone status min number slot1 title -->  
+    <string name="status_min_number_slot1">MIN (слот 1)</string>  
+    <!-- Gemini CDMA AboutPhone status prl version slot1 title -->  
+    <string name="status_prl_version_slot1">Версия PRL (слот 1)</string>  
+    <!-- Gemini CDMA AboutPhone status meid number slot1 title -->  
+    <string name="status_meid_number_slot1">MEID (слот 1)</string>  
+    <!-- Gemini CDMA AboutPhone status min number slot2 title -->  
+    <string name="status_min_number_slot2">MIN (слот 2)</string>  
+    <!-- Gemini CDMA AboutPhone status prl version slot2 title -->  
+    <string name="status_prl_version_slot2">Версия PRL (слот 2)</string>  
+    <!-- Gemini CDMA AboutPhone status meid number slot2 title -->  
+    <string name="status_meid_number_slot2">MEID (слот 2)</string>  
+    <string name="slot_status_title">Сведения об IMEI</string>  
+    <string name="slot_status_summary">Сведения относительно IMEI</string>  
+    <!-- About phone screen,  setting option name-->  
+    <string name="custom_build_version">Версия по заказу пользователя</string>  
+    <!-- A menu item in "About phone" that allows the user to update the phone with settings
+    from their cell phone carrier. The use of the string is similar to the string
+    "system_update_settings_list_item_title" in this project. [CHAR LIMIT=25] -->  
+    <!-- for software update MOTA -->  
+    <string name="software_update">Служба обновления ПО</string>  
+    <string name="mota_system_update_summary">"Проверьте обновления системы на сервере"</string>  
+    <!-- About phone screen,  more software updates-->  
+    <string name="software_updates_more_title">Обновления программного обеспечения</string>  
+    <string name="software_updates_more_summary">Проверка новой версии ПО</string>  
+    <string name="software_updates_scomo_summary">Проверка новой версии приложения</string>  
+    <string name="scomo_settings_title">Служба обновления ПО</string>  
+    <!-- Battery_level_show -->  
+    <string name="battery_level" translatable="false">" 
+        <xliff:g id="battery">%s</xliff:g>%%"
+    </string>  
+    <!--End of String for Gemini AboutPhone Settings-->  
+    <!--Add Strings for MTK Display Settings -->  
+    <string name="screen_timeout_CU">Время ожидания экрана</string>  
+    <!-- Add for landscape launcher-->  
+    <string name="landscape_launcher_title">Раскладка значков меню</string>  
+    <string name="landscape_launcher_none">"Нет"</string>  
+    <!-- for TVOut -->  
+    <string name="tvout_settings">Выход телевизора</string>  
+    <string name="tvout_settings_summary">Настройка выхода телевизора</string>  
+    <string name="tv_system_title">Система телевизора</string>  
+    <!-- For HDMI begin -->  
+    <string name="hdmi_settings">Настройки HDMI</string>  
+    <string name="hdmi_settings_summary">Щелкните для настройки HDMI</string>  
+    <string name="hdmi_audio_toggler">"Звук"</string>  
+    <string name="hdmi_video_toggler">"Видео"</string>  
+    <string name="hdmi_video_resolution">Видеоразрешение</string>  
+    <string name="hdmi_notification_title">HDMI-кабель подключен</string>  
+    <string name="hdmi_notification_content">Щелкните для настройки HDMI</string>  
+    <!--Theme manager -->  
+    <string name="display_settings_scences_title">Сцены</string>  
+    <string name="mtk_thememanager_title">Тема</string>  
+    <string name="default_name">По умолчанию</string>  
+    <string name="custom_theme_name">Новая [%1$s]</string>  
+    <string name="loading">Загрузка...</string>  
+    <!--End of String for MTK Display Settings-->  
+    <!--Add Strings for MTK Security Settings -->  
+    <string name="sim_enter_pin_hints">(Введите 4-8 цифр)</string>  
+    <string name="sim_remain">(Осталось: 
+        <xliff:g id="remains">%d</xliff:g>)
+    </string>  
+    <!--End of String for MTK Security Settings-->  
+    <!--Add Strings for MTK DateTime Settings-->  
+    <!-- GPS time sync -->  
+    <string name="gps_time_sync_attention_gps_on">Для определения координат GPS потребуется не больше 1 минуты. Однако, на определение координат GPS может не хватить времени из-за слабого сигнала.\n\nВам достаточно времени, предоставленного GPS?</string>  
+    <string name="gps_time_sync_attention_gps_off">Для использования времени, предоставляемого GPS, сначала активируйте GPS. После этого для определения координат GPS потребуется не больше 1 минуты. Однако, на определение координат GPS может не хватить времени из-за слабого сигнала. \n\nВключить GPS сейчас и ждать время, предоставленное GPS?</string>  
+    <!--End of String for MTK DateTime Settings-->  
+    <!--Add Strings for MTK Backup & reset Settings-->  
+    <!-- Drm Settings -->  
+    <!-- Privacy Screen,setting option name under Privacy Personal data -->  
+    <string name="drm_settings_title">Сброс DRM</string>  
+    <!-- Privacy Screen,settings option summary text under Privacy personal data -->  
+    <string name="drm_settings_summary">Удаление всех DRM-лицензий</string>  
+    <!-- Drm settings Activity lable -->  
+    <!-- Dialog msg for confirmation to reset DRM -->  
+    <string name="drm_reset_dialog_msg">Это действие приведет к удалению всех лицензий на этом устройстве. Продолжить?</string>  
+    <!-- Toast msg for confirmation to reset DRM -->  
+    <string name="drm_reset_toast_msg">Лицензии успешно удалены.</string>  
+    <!--End of String for MTK DateTime Settings-->  
+    <!--Add Strings for MTK SIM management Settings-->  
+    <string name="gemini_sim_management_title">Управление SIM-картами</string>  
+    <string name="gemini_sim_info_title">Информация о SIM-карте</string>  
+    <string name="gemini_default_sim_title">SIM-карта по умолчанию</string>  
+    <string name="gemini_general_settings_title">Общие настройки</string>  
+    <string name="gemini_roaming_settings_title">Роуминг</string>  
+    <string name="gemini_data_roaming_title">Роуминг передачи данных</string>  
+    <string name="gemini_data_roaming_summary">Подключать услуги передачи данных в роуминге</string>  
+    <string name="gemini_roaming_reminder_title">Показывать напоминание о роуминге</string>  
+    <string name="gemini_roaming_reminder_summary">Предлагать SIM-карту в зависимости от использования SIM-карты</string>  
+    <string name="gemini_contacts_sim_title">"Привязка контактов"</string>
+    <string name="gemini_contacts_sim_summary">Привязать контакты к конкретной SIM-карте</string>
+    <string name="gemini_voice_call">Голосовой вызов</string>  
+    <string name="gemini_video_call">Видеовызов</string>  
+    <string name="gemini_data_connection">Соединение для передачи данных</string>  
+    <string name="gemini_msg">"SMS/MMS"</string>  
+    <string name="gemini_default_sim_always_ask">Всегда спрашивать</string>  
+    <string name="gemini_intenet_call">Интернет-вызов</string>  
+    <string name="gemini_default_sim_never">Выкл.</string>  
+    <string name="gemini_default_sim_3g_off">Выкл.</string>  
+    <!-- GSM/UMTS Options strings -->  
+    <string name="gemini_gsm_umts_network_preferences_title">"Режим сети"</string>  
+    <string name="gemini_gsm_umts_network_preferneces_summary">Пока не реализовано!</string>  
+    <string name="gemini_gsm_umts_network_preferences_dialogtitle">Режим сети</string>  
+    <string name="gemini_3g_service_settings">Служба 3G</string>  
+    <!-- Strings for Gemini begin-->  
+    <!-- Dual sim settings activate progress message string -->  
+    <string name="gemini_sim_mode_progress_activating_message">Активация\u2026</string>  
+    <!-- Dual sim settings deactivate progress message string -->  
+    <string name="gemini_sim_mode_progress_deactivating_message">Деактивация\u2026</string>  
+    <!-- Dual sim settings mode change failed message string -->  
+    <string name="gemini_sim_mode_change_failed_message">Ошибка сети.</string>  
+    <!-- Dual sim settings mode enter airplanemode confirm title string -->  
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_title">Режим полета</string>  
+    <!-- Dual sim settings mode enter airplanemode WiFi and Bt will both close confirm message string -->  
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_message">Телефон перейдет в режим "В самолете". Все средства радиосвязи будут отключены. Продолжить?</string>  
+    <string name="gemini_sim_info_editor_name">Изменить имя SIM-карты</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">Сбой сохранения</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">Такое имя SIM-карты уже существует</string>  
+    <string name="gemini_sim_info_editor_number">Введите номер телефона</string>  
+    <string name="gemini_sim_info_editor_color">Установить цвет фона</string>  
+    <string name="gemini_sim_info_editor_number_display_format">Отобразить номера</string>  
+    <string name="gemini_no_sim_indicator">Нет SIM-карты</string>  
+    <string name="gemini_sim_list_default_title">Список SIM-карт</string>  
+    <string name="gemini_data_connection_progress_message">"Подождите......"</string>  
+    <string name="gemini_3g_modem_switching_message">"Переключение SIM-карты займет около 10 секунд. Подождите…"</string>  
+    <string name="gemini_3g_modem_switch_confirm_message">"К этой SIM-карте будут также подключены услуги 3G. Продолжить? Убедитесь, что выбранная SIM-карта поддерживает услуги 3G."</string>  
+    <string name="gemini_3g_disable_warning">"В выбранной SIM-карте отсутствует поддержка услуги 3G. Это может привести к замедлению загрузки данных. Параметры услуги 3G можно изменить в меню "Параметры &gt; Беспроводные средства и сети &gt; Сети мобильной связи."</string>  
+    <string name="gemini_3g_disable_warning_cu">"В выбранной SIM-карте отсутствует поддержка услуги 3G. Это может привести к замедлению загрузки данных. Параметры услуги 3G можно изменить в меню "Параметры &gt; Беспроводные средства и сети &gt; Управление SIM-картами."</string>  
+    <!-- Strings for CU wap push begin-->  
+    <string name="gemini_wap_push_permission_head">После включения службы Auto-push пользователь может принимать рассылочные сообщения, подвергая опасности работающие приложения и создавая трафик данных. Обычно, служба Auto-push включает уведомления об эл. почте, управление устройствами, служебную индикацию, загрузку службы и обеспечение рассылки.</string>  
+    <string name="gemini_wap_push_permission_tail">Принять это соглашение?</string>  
+    <string name="gemini_wap_push_permission_title">Соглашение службы Auto-push</string>  
+    <string name="gemini_wap_push_permission">Служба Auto-push</string>  
+    <!-- Strings for CU wap push end-->  
+    <!-- add for gemini enhancement  SIM tether info part    begin -->  
+    <string name="gemini_3g_disable_warning_case0">"Для данной SIM-карты сначала следует включить роуминг данных, что может повлечь значительное повышение стоимости передачи данных! Включить режим роуминга и выбрать данную SIM-карту?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"Служба 3G недоступна с выбранной SIM-картой. Скорость загрузки данных может уменьшиться. Вы можете изменить настройки службы 3G через меню Настройки &gt; Беспроводная связь и сети &gt; Мобильные сети. Действительно выбрать эту SIM-карту?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"Служба 3G недоступна с выбранной SIM-картой. Скорость загрузки данных может уменьшиться. Вы можете изменить настройки службы 3G через меню Настройки &gt; SIM-карта. Действительно выбрать эту SIM-карту?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"Для использования данной SIM-картой вы должны сначала включить роуминг, но это приведет к существенным затратам на оплату роуминга! Кроме того, служба 3G недоступна с данной SIM-картой. Скорость загрузки данных может уменьшиться. Вы можете изменить настройки через меню Настройки &gt; Беспроводная связь и сети &gt; Мобильные сети. Действительно включить службу роуминга и выбрать эту SIM-карту?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"Для использования данной SIM-картой вы должны сначала включить роуминг, но это приведет к существенным затратам на оплату роуминга! Кроме того, служба 3G недоступна с данной SIM-картой. Скорость загрузки данных может уменьшиться. Настройки можно имзменить через меню Настройки &gt; SIM-карта. Действительно включить службу роуминга и выбрать эту SIM-карту?"</string>  
+    <string name="gemini_sim_tether_info_title">Контакты &amp; SIM</string>  
+    <string name="gemini_sim_tether_add_record">Добавить контакты</string>  
+    <string name="gemini_sim_add_title">Контакты</string>  
+    <!-- Displayed full screen when the user has no tether info to display-->  
+    <string name="gemini_sim_tether_norecord">"Нет номера контакта, связанного с текущей SIM-картой.\n\nНажмите кнопку «Добавить контакты» для выбора контактов, которые необходимо привязать к данной SIM-карте"</string>  
+    <string name="gemini_sim_tether_nocontacts">"Нет контактов, сохраненных в телефоне. Сначала добавьте новый контакт или импортируйте его."</string>  
+    <string name="gemini_sim_tether_no_assc_contacts">"Все контакты успешно связаны"</string>  
+    <string name="gemini_sim_tether_disassociate">Разъединить</string>  
+    <string name="selected_item_count">Выбрано 
+        <xliff:g id="count">%d</xliff:g> 
+    </string>  
+    <string name="gemini_sim_tether_unselect_all">Отменить выбор всего</string>
+    <string name="gemini_sim_tether_nocontact_confirm">OK</string>  
+    <string name="gemini_sim_tether_select_all">Выбрать все</string>  
+    <string name="gemini_sim_tether_select_ok">Сохранить</string>  
+    <string name="gemini_sim_tether_select_cancel">Отменить</string>  
+    <string name="gemini_sim_tether_revert_title">Внимание</string>  
+    <string name="gemini_sim_tether_revert_message">Конфигурация изменилась и не была сохранена. Выйти без сохранения?</string>  
+    <string name="gemini_tether_saving_progress_message">Сохранение...</string>  
+    <!-- add for gemini enhancement SIM tether info part end -->  
+    <!-- Strings for Gemini SimLock Settings -->  
+    <!-- Gemini SimLock TabActivity Sim1 tab tag -->  
+    <!-- Gemini SimLock error message -->  
+    <string name="gemini_sim_lock_simid_error">Отказ, недопустимый ID SIM-карты</string>  
+    <!-- Gemini SimLock sim1 not insert message -->  
+    <string name="gemini_sim_lock_no_insert_message_sim">SIM не вставлена.</string>  
+    <!-- Gemini SimLock sim1 radio off message -->  
+    <string name="gemini_sim_lock_radio_off_message_sim1">Радио 1 выключено.</string>  
+    <!-- Gemini SimLock sim2 radio off message -->  
+    <string name="gemini_sim_lock_radio_off_message_sim2">Радио 2 выключено.</string>  
+    <!--End of String for SIM Management Settings-->  
+    <!-- for CU application -->  
+    <string name="akp_installer_settings_title">Установщик APK</string>  
+    <string name="akp_installer_settings_summary">Установите APK-файл из памяти телефона и SD-карты</string>  
+    <string name="launch_main_label">Запуск приложения</string>  
+    <string name="launch_main">Запуск приложения по основному действию</string>  
+    <string name="launch_activitie">Запуск</string>  
+    <string name="move_app_to_where">Перейдите к 
+        <xliff:g id="location">%s</xliff:g> 
+    </string>  
+    <!--Wi-Fi settings strings start-->  
+    <string name="wifi_no_cert_for_wapi">Не удается найти сертификат для текущего подключения точки доступа</string>  
+    <!-- Label for the SIM Slot of EAP-SIM method support -->  
+    <string name="sim_slot">Гнездо SIM-карты</string>  
+    <!-- Label for the SIM Slot 0 of EAP-SIM method support -->  
+    <string name="eap_sim_slot_0">Гнездо SIM-карты 1</string>  
+    <!-- Label for the SIM Slot of EAP-SIM method support -->  
+    <string name="eap_sim_slot_1">Гнездо SIM-карты 2</string>  
+    <!-- Label for the toast if user use eap-sim/aka in airplane mode -->  
+    <string name="eap_sim_aka_airplanemode">Для использования EAP-SIM/AKA отключите режим полета</string>  
+    <!-- Label for the toast if user use eap-sim/aka when sim card is absent -->  
+    <string name="eap_sim_aka_no_sim_error">Для использования EAP-SIM/AKA следует установить SIM-карту</string>  
+    <!-- Label for the toast if user use eap-sim/aka when user don't select a sim slot -->  
+    <string name="eap_sim_aka_no_sim_slot_selected">Для использования EAP-SIM/AKA следует выбрать гнездо SIM-карты</string>  
+    <string name="wifi_security_wapi_certificate">Сертификат WAPI</string>  
+    <!-- Label for the WAPI user certificate of the network -->  
+    <string name="wapi_user_certificate">Сертификат пользователя</string>  
+    <!-- Label for the WAPI ASE certificate of the network -->  
+    <string name="wapi_as_certificate">Сертификат ASE</string>  
+    <!-- Label for the check box for hexadecimal password -->  
+    <string name="wifi_hex_password">Шестнадцатеричный пароль.</string>  
+    <!-- The label for WEP transmit Key -->  
+    <string name="wifi_WEP_transmit_key">"Ключ передачи"</string>  
+    <!-- The label for WEP Secury Key -->  
+    <string name="wifi_WEP_secury_key">"Ключ безопасности"</string>  
+    <!--add for Wi-Fi hotspot auto-sleep policy-->  
+    <string name="wifi_tether_auto_disable_title">Сохранять точку доступа Wi-Fi</string>  
+    <string name="wifi_tether_auto_channel_text">Авто</string>  
+    <string name="wifi_tether_auto_channel_width_text">Авто 20/40 МГц</string>  
+    <string name="wifi_channel">Предпочтительный канал</string>  
+    <string name="wifi_channel_width">Ширина пропускания канала</string>  
+    <string name="confirm_title">Подтвердить</string>  
+    <!--Wi-Fi settings strings end-->  
+    <!-- Wireless settings for PCH Monitor start -->  
+    <string name="pch_toggle_title">Предпочт.перед. GPRS</string>  
+    <!-- for PCH Monitor data prefer -->  
+    <string name="pch_data_prefer_summary_off">Предпочтител. данные</string>  
+    <!-- for PCH Monitor call prefer-->  
+    <string name="pch_call_prefer_summary_on">Предпочтельн.вызов</string>  
+    <!-- for PCH Monitor warning message -->  
+    <string name="pch_warning_message">Скорость передачи данных снизится.</string>  
+    <!-- Wireless settings for PCH Monitor end -->  
+    <!-- Schedule power on/off settings -->  
+    <!-- Main Settings screen setting option name to go into the power on/off settings-->  
+    <string name="schedule_power_on_off_settings_title">Расписание вкл./выкл. питания</string>  
+    <string name="usb_bicr_title">Встроенный CD-ROM</string>  
+    <string name="usb_bicr_summary">Показать виртуальный привод CD-ROM с полезным программным обеспечением.</string>  
+    <string name="select_memory">Диск для записи по умолчанию</string>  
+    <string name="ipo_title">Быстрая загрузка</string>  
+    <string name="ipo_summary_on">Отключить быструю загрузку</string>  
+    <string name="ipo_summary_off">Включить быструю загрузку</string>  
+    <string name="agps_profile_select_Title">Профиль AGPS</string>  
+    <string name="location_settings_label">Инженерный режим местоположения</string>  
+    <string name="audio_profile_error">Ошибка</string>  
+    <string name="battery_percent">Заряд батареи</string>  
+    <!-- RCS-e settings -->  
+    <string name="rcse_settings_title">Параметры RCS-e</string>
+    <string name="dlg_mount_external_sd_title" product="default">Подключить SD-карту?</string>  
+    <string name="dlg_mount_external_sd_summary" product="default">При подключении SD-карты некоторые используемые вами приложения могут прекратить свое выполнение.</string> 
+
+    <string name="tethered_ipv6_title">Настройка точки доступа и сопряжения</string>  
+    <string name="tethered_ipv4v6">(Протокол IPv6 доступен)</string>  
+    <string name="tethered_ipv6">(Доступен только протокол IPv6)</string>  
+    <string name="tethered_ipv4">(Протокол IPv6 недоступен)</string>
+	
+	<string name="usb_connect_as_cdrom_category">"Подключить как CD-ROM"</string>
+
+    <string name="wifi_ap_client_block_title">"Заблокировать"</string>  
+    <string name="wifi_ap_client_details_title">Описание</string>  
+    <string name="wifi_wps_fail_error">Не удалось выполнить защищенную настройку Wi-Fi, повторите попытку.</string>  
+    <string name="wifi_tether_setting_title">Основные настройки</string>  
+    <string name="wifi_tether_wps_connect_title">"Подключение WPS"</string>  
+    <string name="wifi_tether_wps_connect_summary">Продолжить выбранный защищенный режим настройки Wi-Fi</string>  
+    <string name="wifi_tether_wps_pin_error">Недопустимый PIN-код</string>  
+    <string name="wifi_tethering_title">Точка доступа Wi-Fi</string>  
+    <string name="wifi_ap_wps_dialog_title">"Подключение WPS"</string>  
+    <string name="wifi_ap_wps_mode_title">Режим WPS</string>  
+    <string name="wifi_ap_wps_pin_title">Введите PIN-код клиента</string>  
+    <string name="wifi_ap_reset_OOB_title">Восстановить настройки по умолчанию для сети SSID, защиты и пароля (заводская конфигурация WPS)</string>  
+    <string name="wifi_ap_reset_OOB">Сбросить OOB</string>  
+    <string name="wifi_ap_max_connection_title">Максимальное число подключений</string>  
+    <string name="wifi_ap_connected_title">Подключенные пользователи</string>  
+    <string name="wifi_ap_blocked_title">Заблокированные пользователи</string>  
+    <string name="wifi_ap_client_unblock_title">Деблокировать</string>  
+    <string name="wifi_ap_client_mac_label">MAC-адрес:</string>  
+    <string name="wifi_ap_client_ip_label">IP-адрес:</string>  
+    <string name="usb_sharing_title">USB Internet</string>  
+    <string name="usb_sharing_summary">Совместное использование Windows PC Internet через USB-кабель</string>  
+    <string name="usb_sharing_info_title">Сквозное подключение к Интернету</string>  
+    <string name="usb_sharing_info_step_1">"1. Откройте сетевые подключения на вашем Windows PC."</string>  
+    <string name="usb_sharing_info_step_2">"2. Щелкните правой кнопкой подключение, которое вы хотите использовать совместно, а затем щелкните кнопку Свойства"</string>  
+    <string name="usb_sharing_info_step_3">"3. Перейдите на вкладку совместного использования и выберите \'Разрешить другим пользователям сети подключаться с помощью Интернет--подключения данного компьютера\'(выберите недавно добавленную сеть, которая работает с помощью устройства USB, если отображается сообщение \'Подключение к домашней сети\')."</string>  
+    <string name="wifi_ap_bandwidth_title">Использование полосы пропускания</string>  
+    <string name="wifi_ap_bandwidth_enable">Включить режим регулирования ширины полосы пропускания</string>  
+    <string name="wifi_ap_bandwidth_chart_title">Скорость передачи данных в реальном времени</string>  
+    <string name="wifi_ap_bandwidth_chart_summary">Показания скорости передачи данных на вашем телефоне могут отличаться.</string>  
+    <string name="wifi_ap_title">Статистика</string>  
+    <string name="wifi_ap_time_duration">Длительность: 
+        <xliff:g id="time">%1$s</xliff:g> 
+    </string>  
+    <string name="wifi_ap_total_data">Всего использовано данных:
+        <xliff:g id="time">%1$s</xliff:g>
+    </string>
+    <string name="cpu_dtm_title">Режим энергосбережения ЦП</string>
+    <string name="cpu_dtm_summary">Установите ограничение на максимальную производительность ЦП для продления эксплуатационного срока батареи и снижения температуры устройства.</string>
+    <string name="wifi_advanced_ipv4_address_title">Адрес IPv4</string>  
+    <string name="wifi_advanced_ipv6_address_title">Адрес IPv6</string>  
+    <string name="wifi_ipv4_address">Адрес IPv4</string>  
+    <string name="wifi_ipv6_address">Адрес IPv6</string>
+    
+    <!-- MTK new datausage start -->
+    <string name="mtk_datausage_overview_wifi_today">Сегодня</string>  
+    <string name="mtk_datausage_show_on_lockscreen">Показывать при блокировке экрана</string>  
+    <string name="mtk_datausage_update">Обновить использование данных</string>  
+    <string name="mtk_datausage_update_set">"Обновить"</string>  
+    <string name="mtk_datausage_amount_editor_title">Объем использованных данных</string>  
+    <string name="mtk_datausage_usage_list">Использование данных приложением</string>  
+    <string name="mtk_datausage_diff_byte">Различие использования данных</string>  
+    <string name="mtk_datausage_overview_tab">Просмотр</string>  
+    <string name="mtk_datausage_overview_wifi_total">Всего</string>  
+    <string name="mtk_datausage_overview_mobile_title">МОБИЛЬНЫЙ</string>  
+    <string name="mtk_datausage_overview_mobile_usage">
+        <xliff:g id="actual">%s</xliff:g> из 
+        <xliff:g id="limit">%s</xliff:g>
+    </string>
+    <string name="mtk_datausage_overview_mobile_usage_warning">Недопуст.: <xliff:g>%s</xliff:g></string>
+    <!-- MTK new datausage end -->
+    <string name="display_personalize">Персонифицировать</string>  
+    <string name="display_default">"Экран"</string>
+    <!-- Sound Enhanecement -->
+    <string name="sound_enhancement_title">Улучшение звука</string>
+    <string name="music_plus_summary">Система улучшения звука для наушников</string>
+    <string name="auto_backlight_title">Экономичная подсветка</string>
+    <string name="auto_backlight_summary">Автоматическая настройка подсветки для энергосбережения</string>
+
+    <string name="beam_mgmt_tab_download_title">Принятые вызовы</string>
+    <string name="beam_mgmt_tab_upload_title">"3. Перейдите на вкладку совместного использования и выберите 'Разрешить другим пользователям сети подключаться с помощью Интернет--подключения данного компьютера'(выберите недавно добавленную сеть, которая работает с помощью устройства USB, если отображается сообщение 'Подключение к домашней сети')."</string>
+    <string name="beam_share_mgmt_notification_ticker">История Луч доля</string>
+    <string name="beam_share_mgmt_notification_title">История Луч доля</string>
+    <string name="beam_share_mgmt_notification_message">"Выберите, чтобы просмотреть историю Луч акцию."</string>
+    <string name="beam_share_mgmt_tab_menu_clear">"Удалить все настройки веб-сайтов?"</string>
+    <string name="beam_share_open_file_dialog_title">Невозможно открыть файл.</string>
+    <string name="beam_share_open_file_unsupported_message">Невозможно открыть файл.</string>
+    <string name="beam_share_open_file_not_found_message">"Файл не найден: <xliff:g id="file_name">%1$s</xliff:g></string>
+    <string name="beam_share_transfer_fail_dialog_title">"Луч не удалось"</string>
+    <string name="beam_share_resend_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> не отправлен."</string>
+    <string name="beam_share_resend_dialog_ok_button">"Повторите попытку"</string>
+    <string name="beam_share_show_received_files_menu">"Полученные файлы"</string>
+    <string name="beam_share_history_title">История Луч доля</string>
+    <string name="beam_share_clear_confirm_dialog_title">"Удалить все"</string>
+    <string name="beam_share_clear_confirm_dialog_message">Очистить историю?</string>
+    <string name="beam_share_receive_fail_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> не был получен успешно."</string>
+    <string name="beam_share_clear_item_dailog_title">"Клавиша удаления"</string>
+    <string name="beam_share_clear_item_dailog_message">Объект будет удален.</string>
+    <string name="nfc_rw_tag_summary">Чтение из ярлыка или запись в ярлык</string>
+    <string name="nfc_p2p_mode">Режим P2P</string>
+    <string name="nfc_p2p_mode_summary">Отправка или получение уонтента приложения</string>
+    <string name="nfc_tag_mode_category">Трежим тегов</string>
+    <string name="nfc_rw_tag_title">Чтение и запись тегов</string>
+    <string name="lock_screen_notifications_title">Уведомления блокировки экрана</string>
+    <string name="lock_screen_notifications_summary">Отображать уведомления при блокировке экрана</string>
+    <string name="lock_screen_style_title">Стиль блокировки экрана</string>
+
+
+      <string name="voice_ui_title">Голосовое управление</string>
+      <string name="voice_ui_app_category">Для настроек приложения</string>
+      <string name="voice_ui_setting_category">"Настройки"</string>
+      <string name="alarm_app_name">"Будильник"</string>
+      <string name="music_app_name">музыка</string>
+      <string name="voice_ui_language_title">"Язык для голосового управления"</string>
+      <string name="incoming_call_app_name">"Входящий звонок"</string>
+      <string name="camera_app_name">Камера</string>
+      <string name="incomming_command_summary_format">Вы можете сказать <xliff:g id="first">%1$s</xliff:g> или <xliff:g id="second">%2$s</xliff:g>, чтобы ответить на входящие звонки или отклонить их.</string>
+      <string name="alarm_command_summary_format">Можно сказать <xliff:g id="first">%1$s</xliff:g> или <xliff:g id="second">%2$s</xliff:g> для управления сигналом.</string>
+      <string name="camera_command_summary_format">Вы можете сказать <xliff:g id="first">%1$s</xliff:g> или <xliff:g id="second">%2$s</xliff:g>, чтобы произвести запись.</string>
+      <string name="music_command_summary_format">Вы можете сказать <xliff:g id="first">%1$s</xliff:g> и <xliff:g id="second">%2$s</xliff:g> для управления воспроизведением музыки.</string>
+
+	<!-- Lock screen settings start -->
+	<string name="current_suffix">"(Текущ.)"</string>
+	<string name="lockscreen_style_set">"Установить на страницу блокировки"</string>
+	<string name="lockscreen_style_default_desc">"Быстрый доступ к приложениям на заблокированном экране"</string>
+	<!-- Lock screen settings end -->
+    <!--  voice unlock start-->
+    <string name="voice_unlock_backup_info_summary">Что следует делать, если функция включения голоса не распознает ваш голос?</string>
+    <string name="unlock_set_unlock_mode_voice_weak">Голос включен</string>
+    <!--  voice unlock end-->
+    <string name="usb_tether_type_title">Тип USB tethering</string> 
+    <string name="security_not_set">Безопасность не установлена</string>
+    <string name="lockdown_vpn_already_connected">Режим Постоянно в сети уже включен для соединения.</string> 
+
+    <string name="wifi_ap_no_connected">0 подключенные пользователи</string>  
+    <string name="wifi_ap_no_blocked">0 заблокированные пользователи</string>  
+
+    <string name="status_imei_slot3">IMEI(Слот 3)</string>
+    <string name="status_imei_sv_slot3">IMEI SV(Слот 3)</string>
+    <string name="status_min_number_slot3">MIN(Слот 3)</string>
+    <string name="status_prl_version_slot3">Версия PRL(Слот 3)</string>
+    <string name="status_meid_number_slot3">MEID(Слот 3)</string>
+
+    <string name="usb_tethering_select_version">Выбрать версию системы ПК</string>
+</resources>

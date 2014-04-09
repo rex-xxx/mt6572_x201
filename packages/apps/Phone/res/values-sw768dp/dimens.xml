@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="vt_incall_screen_high_video_width">768dip</dimen>
+    <dimen name="vt_incall_screen_button_width">200dip</dimen>
+    <dimen name="vt_incall_screen_button_height">78dip</dimen>
+    <dimen name="vt_incall_screen_end_button_width">420dip</dimen>
+    <dimen name="vt_incall_screen_high_video_height">600dip</dimen>
+    <dimen name="vt_incall_screen_low_video_width">336dip</dimen>
+</resources>

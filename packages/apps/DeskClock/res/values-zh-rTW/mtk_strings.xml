@@ -1,0 +1,10 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="power_on">解除並開啟電源</string>
+    <string name="power_off">解除並關閉電源</string>
+    <string name="stop_watch">秒表</string>
+    <string name="voice_ui_title">"語音控制"</string>
+    <string name="voice_ui_content_text">"語音控制鬧鐘開啟""</string>
+    <string name="repeat_weekdays">工作日</string>
+    <string name="alarm_command_summary_format">你可以說 <xliff:g id="first">%1$s</xliff:g> 或者 <xliff:g id="second">%2$s</xliff:g>"\n" 稍後再響或停止鬧鐘。</string>
+    <string name="alarm_command_summary_format_land">你可以說 <xliff:g id="first">%1$s</xliff:g> 或者 <xliff:g id="second">%2$s</xliff:g> 稍後再響或停止鬧鐘。</string>
+</resources>

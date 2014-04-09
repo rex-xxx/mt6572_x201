@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wallpaper_vis1" msgid="1638523041121667391">صوت کار</string>
+    <string name="wallpaper_vis2" msgid="4565736588102466989">لہری شکل</string>
+    <string name="wallpaper_vis3" msgid="3007445671726137442">دائرہ کار</string>
+    <string name="wallpaper_vis4" msgid="6050134144984656120">VU میٹر</string>
+    <string name="wallpaper_vis5" msgid="6639280366165624426">بہت</string>
+</resources>
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="one_video_widget">Μόνο ένα \" 
+        <xliff:g id="name" example="videoplayer">%s</xliff:g>\" επιτρέπεται στην αρχική οθόνη.
+    </string>  
+    <string name="orientation">Δεν είναι δυνατός ο εντοπισμός του προσανατολισμού.</string>  
+    <string name="scene">Επιλογή σκηνής</string>  
+    <string name="scene_title_default">Προεπιλογή</string>
+	<string name="scene_title_work">εργασία</string> 
+    <string name="state">Τρέχουσα</string>
+    <string name="scene_instructions">Ορισμός σκηνής</string>
+
+    <string name="shortcut_array_installed">Έχουν δημιουργηθεί <xliff:g id="count" example="3">%1$d</xliff:g> συντομεύσεις.</string>
+    <string name="shortcut_install_failed">Δεν ήταν δυνατή η δημιουργία της συντόμευσης \"<xliff:g id="name" example="Xiaoming">%1$s</xliff:g>\".</string>
+    <string name="shortcut_array_install_failed">Δεν ήταν δυνατή η δημιουργία <xliff:g id="count" example="3">%1$d</xliff:g> συντομεύσεων.</string>
+    <string name="shortcut_array_duplicate"><xliff:g id="count" example="3">%1$d</xliff:g> συντομεύσεις υπάρχουν ήδη.</string>
+</resources>

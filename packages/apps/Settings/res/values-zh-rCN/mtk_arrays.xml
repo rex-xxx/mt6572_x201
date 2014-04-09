@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/*
+**
+** Copyright 2007 The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string-array name="wifi_network_setup">
+    <item msgid="3318069057130819160">"关闭"</item>
+    <item msgid="3564693183575724416">"按钮"</item>
+    <item msgid="7468724146672456026">"从接入点获取的 PIN"</item>
+    <item msgid="7364462169350112617">"从此设备生成的 PIN"</item>
+  </string-array>
+    
+    <!-- Add for HDMI begin -->
+    <string-array name="hdmi_video_resolution_entries">
+        <item>自动</item>
+        <item>720P</item>
+        <item>480P</item>
+    </string-array>
+    <!-- Add for HMDI end -->
+
+
+    <!-- SIM number display format -->
+    <string-array name="gemini_sim_info_number_display_format_entries">
+        <item>前 4 位</item>
+        <item>后 4 位</item>
+        <item>不显示</item>
+    </string-array>
+
+    <!-- Show roaming reminder  -->
+    <string-array name="gemini_sim_roaming_reminder_entries">
+        <item>一次</item>
+        <item>总是</item>
+        <item>从不</item>
+    </string-array>
+
+    <!-- GSM/UMTS Options strings -->
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA（自动模式）</item>
+        <item>仅 WCDMA</item>
+        <item>仅 GSM</item>
+    </string-array>
+
+    <string-array name="wpa_security">
+        <item>@string/wifi_security_none</item>
+        <item>"WEP"</item>
+        <item>"WPA/WPA2 PSK"</item>
+        <item>"802.1x EAP"</item>
+   </string-array>
+
+   <string-array name="wapi_security">
+        <item>@string/wifi_security_none</item>
+       <item>"WAPI PSK"</item>
+       <item>"WAPI 证书"</item>
+   </string-array>
+
+   <!-- Added for EPO begin -->    
+    <string-array name="epo_update_period_title">
+	<item>10分钟</item>
+	<item>1小时</item>
+	<item>6小时</item>
+	<item>1天</item>
+	<item>3天</item>
+	<item>7天</item>
+	<item>14天</item>
+	<item>30天</item>
+     </string-array>
+
+     <string-array name="epo_update_period_value">
+	<item>10</item>
+	<item>60</item>
+	<item>360</item>
+	<item>1440</item>
+	<item>4320</item>
+	<item>10080</item>
+	<item>20160</item>
+	<item>43200</item>
+     </string-array>
+
+    <string-array name="agps_eng_si_mode_entries">
+        <item>SI-MA</item>
+        <item>SI-MB</item>
+        <item>STANDALONE</item>
+    </string-array>
+
+    <string-array name="agps_eng_si_mode_entryvalues">
+        <item>MA</item>
+        <item>MB</item>
+        <item>STANDALONE</item>
+    </string-array>
+
+    <string-array name="agps_eng_set_id_list_entry">
+    	<item>IMSI</item>
+        <item>IPV4</item>     
+      <!--  <item>IPV6</item>
+        <item>CNT</item>
+        <item>MSISDN</item>
+        <item>MDN</item>
+        <item>MIN</item>
+        <item>NAI</item>  -->
+    </string-array>
+
+    <string-array name="agps_eng_set_id_list_entryvalues">
+        <item>IMSI</item>
+        <item>ipv4</item>        
+        <!-- <item>ipv6</item>
+        <item>cnt</item>
+        <item>msisdn</item>
+        <item>mdn</item>
+        <item>min</item>
+        <item>nai</item> -->
+    </string-array>
+
+    <string-array name="molr_position_type_entrys">
+    	<item>"仅UP"</item>
+    	<item>"仅CP"</item>
+    	<!--<item>CP+UP(UP Preferred)</item>
+    	<item>"CP+UP(偏好CP)"</item>-->
+    </string-array>
+
+    <string-array name="molr_position_type_entryvalues">
+    	<item>"仅UP"</item>
+    	<item>"仅CP"</item>
+    	<!--<item>CP+UP(UP Preferred)</item>
+    	<item>"CP+UP(偏好CP)"</item>-->
+    </string-array>
+
+   <string-array name="supl_capability_entry">
+    	<item>RRLP</item>
+    	<item>RRC</item>
+    	<item>RRLP+RRC</item>
+    </string-array>
+
+    <string-array name="supl_capability_entryvalues">
+    	<item>RRLP</item>
+    	<item>RRC</item>
+    	<item>RRLP+RRC</item>
+    </string-array>
+
+    <string-array name="tvout_system_list">
+	    <item>PAL</item>
+	    <item>NTSC</item>
+     </string-array>
+
+    <string-array name="wifi_connect_type_entries">
+        <!-- auto connect to wifi -->
+        <item>自动连接</item>
+        <!-- manual connect to wifi -->
+        <item>手动连接</item>
+        <!-- always notify user when wifi is available -->
+        <item>总是询问</item>
+    </string-array>
+
+   <string-array name="wifi_security">
+        <item>@string/wifi_security_none</item>
+        <item msgid="6318432659048829665">"WEP"</item>
+        <item msgid="2966395706508338179">"WPA/WPA2 PSK"</item>
+        <item msgid="9098390198768443435">"802.1x EAP"</item>
+        <item>"WAPI PSK"</item>
+        <item>"WAPI 证书"</item>
+   </string-array>
+
+    <!-- For auto time sync values -->
+    <string-array name="auto_time_entries">
+    	<item>使用网络提供时间</item>
+    	<item>使用GPS提供时间</item>
+    	<item>关闭</item>
+    </string-array>
+    <string-array name="wifi_security_wfa"> 
+        <item>@string/wifi_security_none</item>
+        <item>WEP</item>
+        <item>WPA PSK</item>  
+        <item>WPA2 PSK</item>  
+        <item>802.1x EAP</item>
+        <item>WAPI PSK</item>
+       <item>"WAPI 证书"</item>
+    </string-array>  
+    <string-array name="wpa_security_wfa"> 
+        <item>@string/wifi_security_none</item>
+        <item>WEP</item>  
+        <item>WPA PSK</item>  
+        <item>WPA2 PSK</item>  
+        <item>802.1x EAP</item> 
+    </string-array>  
+    <string-array name="agps_qop_acc_type_entries"> 
+        <item>K-value</item>  
+        <item>Meter</item> 
+    </string-array>  
+    <string-array name="molor_type"> 
+        <item>位置</item>  
+        <item>辅助数据</item> 
+    </string-array>  
+    <string-array name="sim_prefer"> 
+        <item>优先使用 SIM1</item>  
+        <item>优先使用 SIM2</item> 
+    </string-array>  
+    <string-array name="network_use_entry"> 
+        <item>仅本地网络</item>  
+        <item>本地网络和漫游网络</item> 
+    </string-array>  
+    <string-array name="networklocation_bindservice_entries"> 
+        <item>"Google"</item>  
+        <item>MediaTek</item> 
+    </string-array>  
+    <string-array name="networklocation_bindservice_entriesValues"> 
+        <item>com.google.android.location.NetworkLocationProvider</item>  
+        <item>com.mediatek.android.location.NetworkLocationProvider</item> 
+    </string-array>  
+    <string-array name="geocoder_bindservice_entries"> 
+        <item>"Google"</item>  
+        <item>MediaTek</item> 
+    </string-array>  
+    <string-array name="geocoder_bindservice_entriesValues"> 
+        <item>com.google.android.location.GeocodeProvider</item>  
+        <item>com.mediatek.android.location.PrivateInnerGeocodeProvider</item> 
+    </string-array>  
+    <string-array name="networklocation_reportfrequency_entries"> 
+        <item>10 seconds</item>  
+        <item>20 seconds</item>  
+        <item>30 seconds</item>  
+        <item>60 seconds</item> 
+    </string-array>  
+    <string-array name="notify_duration_list_entries"> 
+        <item>0 s</item>  
+        <item>1 s</item>  
+        <item>2 s</item>  
+        <item>3 s</item>  
+        <item>4 s</item>  
+        <item>5 s</item>  
+        <item>6 s</item>  
+        <item>7 s</item>  
+        <item>8 s</item> 
+    </string-array>  
+    <string-array name="verify_duration_list_entries"> 
+        <item>0 s</item>  
+        <item>1 s</item>  
+        <item>2 s</item>  
+        <item>3 s</item>  
+        <item>4 s</item>  
+        <item>5 s</item>  
+        <item>6 s</item>  
+        <item>7 s</item>  
+        <item>8 s</item> 
+    </string-array> 
+	<!-- Wi-Fi settings.  Use a sim slot to do EAP-SIM authentication. -->
+	<string-array name="sim_slot">
+		<!-- Do not translate. -->
+		<item>(未指定)</item>
+		<!-- Do not translate. -->
+		<item>SIM 卡槽 1</item>
+		<!-- Do not translate. -->
+		<item>SIM 卡槽 2</item>
+	</string-array>
+    <!-- keep Wi-Fi hotspot on. Presented as a list dialog to the user to choose the Wi-Fi hotspot disable policy. -->
+    <string-array name="wifi_hotspot_disable_policy_entries">
+        <!-- Always keep Wi-Fi on when screen turns off. -->
+        <item>始终</item>
+        <!-- Keep Wi-Fi on when screen turns off and plugged in.  When on battery, go to sleep when screen turns off. -->
+        <item>空闲5分钟后关闭</item>
+        <!-- Do not keep Wi-Fi on when screen turns off. -->
+        <item>空闲10分钟后关闭</item>
+    </string-array>
+    <string-array name="wifi_ap_security"> 
+        <item>@string/wifi_security_none</item>
+        <item>WPA PSK</item>  
+        <item>WPA2 PSK</item> 
+    </string-array> 
+
+    <string-array name="silent_mode_entries"> 
+        <item>"关闭"</item>  
+        <item>Vibrate</item>  
+        <item>"静音"</item> 
+    </string-array> 
+   <string-array name="wifi_WEP_security_type">
+        <item>自动</item>
+        <item>WEP ASCII</item>
+        <item>WEP 十六进制</item>
+    </string-array>
+    <string-array name="wifi_ap_wps_mode_entries">
+        <item>"按钮"</item>
+        <item>"从对等设备获取的 PIN"</item>
+    </string-array>
+    <string-array name="wifi_ap_max_connection_entries"> 
+        <item>1 位用户</item>  
+        <item>2 位用户</item> 
+        <item>3 位用户</item> 
+        <item>4 位用户</item> 
+        <item>5 位用户</item> 
+        <item>6 位用户</item> 
+        <item>7 位用户</item> 
+        <item>8 位用户</item> 
+    </string-array> 
+</resources>

@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_advanced_settings">"Tetapan lanjutan Bluetooth"</string>  
+    <!-- Bluetooth settings.  The user-visible string that is used whenever referring to the FTP profile. -->  
+    <string name="bluetooth_profile_ftp">Pemindahan fail</string>  
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the FTP checkbox preference that describes how checking it will set the FTP profile as preferred. -->  
+    <string name="bluetooth_ftp_profile_summary_use_for">Gunakan untuk pemindahan fail</string>  
+    <string name="bluetooth_ftp_profile_summary_connected">"Disambungkan kepada pemindahan fail"</string>  
+    <string name="mtp_transfer_unmount_error_text">Kad SD tidak boleh dinyahlekapkan semasa pemindahan fail</string>  
+    <string name="mtp_transfer_erase_error_text">Kad SD tidak boleh dipadamkan semasa pemindahan fail</string>  
+    <string name="launch_error">"Tidak dapat melancarkan aplikasi!"</string>  
+    <string name="dlg_confirm_unmount_usb_title" product="default">Nyahlekap storan USB?</string>  
+    <string name="dlg_confirm_unmount_usb_text" product="default">Jika anda menyahlekap storan USB, sesetengah aplikasi yang anda sedang gunakan akan berhenti dan menjadi tidak tersedia sehingga anda melekapkan semula storan USB.</string>  
+    <string name="dlg_error_unmount_usb_title" product="default"/>  
+    <string name="dlg_error_unmount_usb_text" product="default">Tidak boleh menyahlekap storan USB. Cuba sebentar lagi.</string>  
+    <string name="unmount_usb_inform_text" product="default">Storan USB akan dinyahlekap.</string>  
+    <string name="sd_eject_usbstorage" product="default">"Menyahlekap storan USB"</string>  
+    <string name="sd_eject_usbstorage_summary" product="default">"Nyahlekap storan USB dalaman"</string>  
+    <string name="sd_mount_usbstorage" product="default">"Lekap storan USB"</string>  
+    <string name="sd_insert_usb_summary" product="default">"Sisip strn USB utk dilekp"</string>  
+    <!-- Storage setting.  Title for UMS checkbox [CHAR LIMIT=30]-->  
+    <string name="usb_ums_title">"Storan USB"</string>  
+    <!-- Storage setting.  Summary for UMS checkbox [CHAR LIMIT=NONE]-->  
+    <string name="usb_ums_summary">"XP disyorkan. Membolehkan anda memindahkan fail di antara komputer anda dan storan USB Android anda."</string>  
+    <string name="usb_charge_title">Cas sahaja</string>  
+    <string name="usb_charge_summary">Hentikan semua fungsi USB. Membolehkan anda mempercepatkan pengecasan USB dan mengurangkan penggunaan kuasa.</string>  
+    <!-- Agps Settings -->  
+    <string name="NI_Request_ID">ID Peminta</string>  
+    <string name="NI_Request_ClientName">Nama Pelanggan</string>  
+    <string name="agps_str_verify">Pengesahan</string>  
+    <string name="agps_str_notify">Pemberitahuan</string>  
+    <string name="EM_NotifyDialog_title">Pemberitahuan EM</string>  
+    <string name="agps_OK">OK</string>  
+    <string name="agps_str_allow">Benarkan</string>  
+    <string name="agps_str_deny">Tolak</string>  
+    <string name="agps_str_error">Ralat</string>  
+    <string name="AGPS_DEFAULT_STRING">Rentetan Lalai A-GPS</string>  
+    <string name="AGPS_CAUSE_NETWORK_CREATE_FAIL">Gagal Mewujudkan Rangkaian</string>  
+    <string name="AGPS_CAUSE_BAD_PUSH_CONTENT">Kandungan TOLAK salah</string>  
+    <string name="AGPS_CAUSE_NOT_SUPPORTED">Operasi Tidak Disokong</string>  
+    <string name="AGPS_CAUSE_REQ_NOT_ACCEPTED">Requeset Tidak Diterima</string>  
+    <string name="AGPS_CAUSE_NO_RESOURCE">Tiada Sumber untuk Kendalikan proses baru</string>  
+    <string name="AGPS_CAUSE_NETWORK_DISCONN">Sambungan Rangkaian Tergendala</string>  
+    <string name="AGPS_CAUSE_REMOTE_ABORT">Pihak Jauh Hentikan Sesi (terima SUPL END)</string>  
+    <string name="AGPS_CAUSE_TIMER_EXPIRY">Mesej Dijangka tidak Kembali Semasa Selang Masa Khusus</string>  
+    <string name="AGPS_CAUSE_REMOTE_MSG_ERROR">Terima Kandungan Mesej Salah</string>  
+    <string name="AGPS_CAUSE_USER_AGREE">Pengguna bersetuju dengan pengesahan</string>  
+    <string name="AGPS_CAUSE_USER_DENY">Pengguna tolak pengesahan</string>  
+    <string name="AGPS_CAUSE_NO_POSITION">Hanya untuk TIADA Kedudukan</string>  
+    <string name="AGPS_CAUSE_TLS_AUTH_FAIL">Pengesahan TLS gagal</string>  
+    <string name="USER_RESPONSE_TIMEOUT">Menunggu pengesahan masa rehat</string>  
+    <string name="AGPS_EM_RECV_SI_REQ">Permintaan SI Diterima</string>  
+    <string name="AGPS_EM_POS_FIXED">Kedudukan Ditetapkan</string>  
+    <string name="AGPS_NOTIFY_ONLY">Pemberitahuan Permintaan Lokasi</string>  
+    <string name="AGPS_NOTIFY_ALLOW_NO_ANSWER">Permintaan Lokasi (Benarkan jika tiada Jawapan)</string>  
+    <string name="AGPS_NOTIFY_DENY_NO_ANSWER">Permintaan Lokasi (Tolak jika tiada Jawapan)</string>  
+    <string name="AGPS_NOTIFY_PRIVACY">Permintaan Lokasi (Privasi)</string>  
+    <string name="epo_entrance_title">Tetapan EPO</string>  
+    <string name="epo_entrance_summary">Klik untuk mengubah konfigurasi EPO</string>  
+    <string name="agps_settings_title">Tetapan AGPS</string>  
+    <string name="epo_enable_confirm_title">Sahkan Dayakan EPO</string>  
+    <string name="epo_enable_confirm_message">Ia memerlukan sambungan data wayarles untuk mendapatkan data bantuan GPS (EPO) yang mungkin mengenakan bayaran rangkaian tambahan. Adakah anda pasti untuk menghidupkan bantuan GPS?</string>  
+    <string name="epo_enable_confirm_allow">Teruskan</string>  
+    <string name="epo_enable_confirm_deny">Batal</string>  
+    <string name="agps_enable_confirm_title">Pengesahan Dayakan A-GPS</string>  
+    <string name="agps_enable_confirm">A-GPS memerlukan sambungan data untuk memperoleh data bantuan. Adakah anda pasti mahu menghidupkan A-GPS?</string>  
+    <string name="agps_enable_confirm_allow">Teruskan</string>  
+    <string name="agps_enable_confirm_deny">Batal</string>  
+    <string name="epo_enable_title">Bantuan GPS EPO</string>  
+    <string name="epo_enable_summary">Gunakan data bantuan GPS (EPO) untuk mempercepatkan kedudukan GPS.</string>  
+    <string name="agps_settings_enable_on">GPS boleh mempercepatkan masa pembaikian lokasi dengan data bantuan melalui sambungan data wayarles</string>  
+    <string name="agps_settings_enable_off">Gunakan data bantuan untuk mempercepatkan masa pembaikian lokasi dengan GPS</string>  
+    <string name="agps_settings_eng_enable">Tetapan AGPS</string>  
+    <string name="agps_settings_eng_summary">Sediakan tetapan AGPS</string>  
+    <string name="agps_disable_on_reboot">Nyahdaya selepas But semula</string>  
+    <string name="agps_disable_on_reboot_summary">Nyahdayakan keupayaan A-GPS selepas but semula</string>  
+    <string name="Network_Initiate">Permintaan Rangkaian</string>  
+    <string name="Network_Initiate_Summary_on">Benarkan rangkaian untuk meminta kedudukan</string>  
+    <string name="Network_Initiate_Summary_off">Tolak rangkaian untuk meminta kedudukan</string>  
+    <string name="Network_Used">Rangkaian Digunakan</string>  
+    <string name="agps_profile_select">Pemilih Profil</string>  
+    <string name="agps_profile_SLP_address_editbox_title">Alamat SLP</string>  
+    <string name="port_title">Port SLP</string>  
+    <string name="tls_summary_off">TLS dimatikan</string>  
+    <string name="tls_summary_on">TLS dihidupkan</string>  
+    <string name="MobileNetwork_Category">Rangkaian mudah alih</string>  
+    <string name="AgpsHelp_Category">Bantuan</string>  
+    <string name="about_agps_title">Mengenai A-GPS</string>  
+    <string name="about_agps_message">\t A-GPS (GPS Terbantu) adalah sistem yang boleh memperbaik prestasi pemula dan "time-to-first-fix" (TTFF) satelit GPS. \n\t Peranti upaya A-GPS boleh bersambung kepada pelayan lokasi untuk mendapatkan data bantuan melalui sambungan data rangkaian mudah alih. \n\t Sila ambil perhatian bahawa trafik data boleh menyebabkan bayaran tambahan dikenakan di bawah keadaan perayauan rangkaian. Sila hubungi pengendali anda untuk mendapatkan butiran.</string>  
+    <string name="epo_auto_download_title">Muat turun automatik</string>  
+    <string name="epo_auto_download_summary">Muat turun data kedudukan satelit secara automatik</string>  
+    <string name="epo_info_title">Maklumat fail EPO</string>  
+    <string name="epo_download_time_title">Masa Muat Turun</string>  
+    <string name="epo_download_time_summary">Tidak tersedia</string>  
+    <string name="epo_start_time_title">Masa Bermula</string>  
+    <string name="epo_start_time_summary">Tidak tersedia</string>  
+    <string name="epo_expire_time_title">Masa Tamat Tempoh</string>  
+    <string name="epo_expire_time_summary">Tidak tersedia</string>  
+    <string name="epo_about_title">Mengenai EPO</string>  
+    <string name="epo_about_message">\tEPO (Ramalan Orbit Lanjutan) adalah salah satu daripada proprietari inovatif MediaTek iaitu teknologi A-GPS berasaskan pelayan luar talian. \n\tIa menyokong hingga 30 hari ramalan orbit satelit, yang boleh digunakan untuk mempertingkatkan pengalaman pengguna dengan memperbaik "Time To First Fix" (TTFF) GPS.</string>  
+    <string name="Network_Local_and_Roaming_Summary">Gunakan A-GPS di bawah kedua-dua rangkaian rumah dan perayauan</string>  
+    <string name="Network_Only_Local_Summary">Gunakan A-GPS sahaja di bawah rangkaian tempatan</string>  
+    <string name="MobileNetwork_DataConn_off">Sambungan data Mati</string>  
+    <string name="MobileNetwork_off_Summary">Sila hidupkan sambungan data sebelum menggunakan A-GPS</string>  
+    <string name="WiFiNetwork_on_title">Wi-Fi aktif</string>  
+    <string name="MobileNetwork_on_Summary">A-GPS perlu mengakses rangkaian mudah alih melalui sambungan data</string>  
+    <string name="MobileNetwork_SIM_Active">SIM aktif</string>  
+    <string name="Network_Roaming_dialog_title">Perhatian</string>  
+    <string name="Network_Roaming_dialog_content">Jika rangkaian di bawah keadaan perayauan, trafik data A-GPS mungkin menyebabkan bayaran perayauan tambahan dikenakan.</string>  
+    <string name="epo_download">Muat turun</string>  
+    <string name="epo_error_no_activite_network">Sila hidupkan sambungan data sebelum memuat turun data EPO.</string>  
+    <string name="epo_cancel_download">Batal</string>  
+    <string name="epo_status_stopping">Menghentikan…</string>  
+    <string name="epo_status_starting">Bermula…</string>  
+    <string name="epo_err_update_failed">Gagal kemas kini fail EPO</string>  
+    <string name="epo_error_dialog_title">Ralat</string>  
+    <string name="epo_ok_btn">OK</string>  
+    <string name="epo_warning_dialog_title">Perhatian</string>  
+    <string name="epo_warning_dialog_message">Memuat turun data EPO dalam negeri perayauan mungkin dikenakan bayaran tambahan. Adakah anda pasti untuk teruskan?</string>  
+    <!-- AudioProfile Settings -->  
+    <string name="ring_summary">Berdering</string>  
+    <string name="ring_vibrate_summary">Berdering dan bergetar</string>  
+    <string name="silent_summary">Senyap sahaja</string>  
+    <string name="meeting_summary">Getar sahaja</string>  
+    <string name="outdoor_summary">Deringan paling kuat dan bergetar</string>  
+    <string name="audio_profile_reset">Set semula</string>  
+    <string name="audio_profile_add">Tambah</string>  
+    <string name="audio_profile_enable">Dayakan</string>  
+    <string name="audio_profile_rename">"Namakan Semula"</string>  
+    <string name="audio_profile_delete">"Padam"</string>  
+    <string name="audio_profile_message_reset">Semua tetapan profil audio akan diset semula ke lalai</string>  
+    <string name="audio_profile_message_rename">Sila input nama profil baru</string>  
+    <string name="audio_profile_message_name_error">Nama input telah wujud</string>  
+    <string name="audio_profile_message_name_length_wrong">Nama mesti mengandungi sekurang-kurangnya satu aksara</string>  
+    <string name="audio_profile_message_delete">Profil 
+        <xliff:g id="profile">%s</xliff:g> akan dipadam
+    </string>  
+    <string name="audio_profile_message_overflow">Anda hanya dibenarkan untuk tambah 6 profil tersuai</string>  
+    <string name="ok">OK</string>  
+    <string name="audio_profile_category_custom_title">Profil pratakrif pengguna</string>  
+    <string name="audio_profile_category_predefine_title">Profil pratakrif</string>  
+    <string name="general_settings_title">"Umum"</string>  
+    <string name="silent_settings_title">Senyap</string>  
+    <string name="meeting_settings_title">Mesyuarat</string>  
+    <string name="outdoor_settings_title">Di luar</string>  
+    <!-- modify default apns notices -->  
+    <string name="apn_predefine_change_dialog_notice">Adakah anda pasti mahu menyimpan? Pengubahsuaian kepada APN lalai boleh menyebabkan masalah sambungan!</string>  
+    <!-- The title for AlertDialog when APN Settings is called while Airplane Mode is on -->  
+    <string name="dialog_apn_disabled">APN dinyahdayakan!</string>  
+    <!-- Error message for dialog of apn disabled error  -->  
+    <string name="dialog_apn_disabled_msg">Sila matikan mod Pesawat untuk mendayakan Tetapan APN.</string>  
+    <string name="sound_category_feedback_title">"Sistem"</string>  
+    <string name="sound_category_calls_title">Panggilan masuk</string>  
+    <string name="voice_call_title">Nada dering panggilan suara</string>  
+    <string name="voice_call_summary">Tetapkan nada dering panggilan suara masuk lalai</string>  
+    <string name="video_call_title">Nada dering panggilan video</string>  
+    <string name="video_call_summary">Tetapkan nada dering panggilan video masuk lalai</string>  
+    <string name="Phone_vibrate_summary">Telefon bergetar untuk Panggilan masuk</string>  
+    <string name="vibrate_title">Getar</string>  
+    <string name="audio_profile_settings_title">Profil audio</string>  
+    <!--Add Strings for MTK AboutPhone Settings -->  
+    <!-- Gemini AboutPhone status sim status title -->  
+    <string name="sim_status_title">Status SIM</string>  
+    <!-- Gemini AboutPhone status sim status summary -->  
+    <string name="sim_status_summary">Maklumat berkaitan SIM</string>  
+    <!-- Gemini AboutPhone status imei slot1 title -->  
+    <string name="status_imei_slot1">IMEI(Slot1)</string>  
+    <!-- Gemini AboutPhone status imei sv slot1 title -->  
+    <string name="status_imei_sv_slot1">IMEI SV(Slot1)</string>  
+    <!-- Gemini AboutPhone status imei slot2 title -->  
+    <string name="status_imei_slot2">IMEI(Slot2)</string>  
+    <!-- Gemini AboutPhone status imei sv slot2 title -->  
+    <string name="status_imei_sv_slot2">IMEI SV(Slot2)</string>  
+    <!-- Gemini CDMA AboutPhone status min number slot1 title -->  
+    <string name="status_min_number_slot1">MIN(Slot1)</string>  
+    <!-- Gemini CDMA AboutPhone status prl version slot1 title -->  
+    <string name="status_prl_version_slot1">Versi PRL(Slot1)</string>  
+    <!-- Gemini CDMA AboutPhone status meid number slot1 title -->  
+    <string name="status_meid_number_slot1">MEID(Slot1)</string>  
+    <!-- Gemini CDMA AboutPhone status min number slot2 title -->  
+    <string name="status_min_number_slot2">MIN(Slot2)</string>  
+    <!-- Gemini CDMA AboutPhone status prl version slot2 title -->  
+    <string name="status_prl_version_slot2">Versi PRL(Slot2)</string>  
+    <!-- Gemini CDMA AboutPhone status meid number slot2 title -->  
+    <string name="status_meid_number_slot2">MEID(Slot2)</string>  
+    <string name="slot_status_title">Maklumat IMEI</string>  
+    <string name="slot_status_summary">Maklumat relatif IMEI</string>  
+    <!-- About phone screen,  setting option name-->  
+    <string name="custom_build_version">"Versi Binaan Tersuai"</string>  
+    <!-- A menu item in "About phone" that allows the user to update the phone with settings
+    from their cell phone carrier. The use of the string is similar to the string
+    "system_update_settings_list_item_title" in this project. [CHAR LIMIT=25] -->  
+    <!-- for software update MOTA -->  
+    <string name="software_update">Perkhidmatan kemas kini perisian</string>  
+    <string name="mota_system_update_summary">"Semak kemas kini sistem pada pelayan"</string>  
+    <!-- About phone screen,  more software updates-->  
+    <string name="software_updates_more_title">Kemas kini perisian</string>  
+    <string name="software_updates_more_summary">Semak perisian versi baru</string>  
+    <string name="software_updates_scomo_summary">Semak versi baru untuk aplikasi</string>  
+    <string name="scomo_settings_title">Perkhidmatan kemas kini perisian</string>  
+    <!-- Battery_level_show -->  
+    <string name="battery_level" translatable="false">" 
+        <xliff:g id="battery">%s</xliff:g>%%"
+    </string>  
+    <!--End of String for Gemini AboutPhone Settings-->  
+    <!--Add Strings for MTK Display Settings -->  
+    <string name="screen_timeout_CU">Tamat masa skrin</string>  
+    <!-- Add for landscape launcher-->  
+    <string name="landscape_launcher_title">Pelancar Landskap</string>  
+    <string name="landscape_launcher_none">"Tiada"</string>  
+    <!-- for TVOut -->  
+    <string name="tvout_settings">TV keluar</string>  
+    <string name="tvout_settings_summary">Tetapan TV keluar</string>  
+    <string name="tv_system_title">Sistem TV</string>  
+    <!-- For HDMI begin -->  
+    <string name="hdmi_settings">Tetapan HDMI</string>  
+    <string name="hdmi_settings_summary">Klik untuk mengkonfigurasi HDMI</string>  
+    <string name="hdmi_audio_toggler">"Audio"</string>  
+    <string name="hdmi_video_toggler">"Video"</string>  
+    <string name="hdmi_video_resolution">Resolusi video</string>  
+    <string name="hdmi_notification_title">Kabel HDMI disambungkan</string>  
+    <string name="hdmi_notification_content">Klik untuk mengkonfigurasi HDMI</string>  
+    <!--Theme manager -->  
+    <string name="display_settings_scences_title">Pemandangan</string>  
+    <string name="mtk_thememanager_title">Tema</string>  
+    <string name="default_name">Lalai</string>  
+    <string name="custom_theme_name">Baru [%1$s]</string>  
+    <string name="loading">Memuatkan...</string>  
+    <!--End of String for MTK Display Settings-->  
+    <!--Add Strings for MTK Security Settings -->  
+    <string name="sim_enter_pin_hints">(Masukkan 4-8 digital)</string>  
+    <string name="sim_remain">(Kekalkan: 
+        <xliff:g id="remains">%d</xliff:g>)
+    </string>  
+    <!--End of String for MTK Security Settings-->  
+    <!--Add Strings for MTK DateTime Settings-->  
+    <!-- GPS time sync -->  
+    <string name="gps_time_sync_attention_gps_on">Ia akan mengambil masa paling lama selama 1 minit untuk mendapatkan penetapan GPS. Selain itu, GPS mungkin gagal memberikan waktu disebabkan oleh isyarat persekitaran yang lemah.\n\nAdakah anda pasti mahu menggunakan waktu yang diberikan oleh GPS?</string>  
+    <string name="gps_time_sync_attention_gps_off">Untuk menggunakan waktu yang diberikan oleh GPS, anda mesti mendayakan GPS terlebih dahulu. Ia kemudiannya akan mengambil masa paling lama selama 1 minit untuk mendapatkan penetapan GPS. Selain itu, GPS mungkin gagal memberikan waktu disebabkan oleh isyarat persekitaran yang lemah. \n\nAdakah anda pasti mahu mendayakan GPS sekarang dan menunggu waktu yang diberikan oleh GPS?</string>  
+    <!--End of String for MTK DateTime Settings-->  
+    <!--Add Strings for MTK Backup & reset Settings-->  
+    <!-- Drm Settings -->  
+    <!-- Privacy Screen,setting option name under Privacy Personal data -->  
+    <string name="drm_settings_title">Penetapan semula DRM</string>  
+    <!-- Privacy Screen,settings option summary text under Privacy personal data -->  
+    <string name="drm_settings_summary">Memadamkan semua lesen DRM</string>  
+    <!-- Drm settings Activity lable -->  
+    <!-- Dialog msg for confirmation to reset DRM -->  
+    <string name="drm_reset_dialog_msg">Operasi ini akan memadamkan semua lesen pada peranti ini. Teruskan?</string>  
+    <!-- Toast msg for confirmation to reset DRM -->  
+    <string name="drm_reset_toast_msg">Lesen telah berjaya dipadamkan.</string>  
+    <!--End of String for MTK DateTime Settings-->  
+    <!--Add Strings for MTK SIM management Settings-->  
+    <string name="gemini_sim_management_title">Pengurusan SIM</string>  
+    <string name="gemini_sim_info_title">Maklumat SIM</string>  
+    <string name="gemini_default_sim_title">SIM lalai</string>  
+    <string name="gemini_general_settings_title">Tetapan umum</string>  
+    <string name="gemini_roaming_settings_title">Perayauan</string>  
+    <string name="gemini_data_roaming_title">Perayauan data</string>  
+    <string name="gemini_data_roaming_summary">Sambungkan ke perkhidmatan data semasa perayauan</string>  
+    <string name="gemini_roaming_reminder_title">Tunjukkan peringatan perayauan</string>  
+    <string name="gemini_roaming_reminder_summary">Tunjukkan cadangan SIM berdasarkan penggunaan SIM</string>  
+    <string name="gemini_contacts_sim_title">"Pengikatan kenalan"</string>
+    <string name="gemini_contacts_sim_summary">Mengikat kenalan pada kad SIM tertentu</string>
+    <string name="gemini_voice_call">Panggilan suara</string>  
+    <string name="gemini_video_call">Panggilan video</string>  
+    <string name="gemini_data_connection">Sambungan data</string>  
+    <string name="gemini_msg">Mesej</string>  
+    <string name="gemini_default_sim_always_ask">Sentiasa bertanya</string>  
+    <string name="gemini_intenet_call">Panggilan Internet</string>  
+    <string name="gemini_default_sim_never">Dimatikan</string>  
+    <string name="gemini_default_sim_3g_off">Dimatikan</string>  
+    <!-- GSM/UMTS Options strings -->  
+    <string name="gemini_gsm_umts_network_preferences_title">Mod Rangkaian</string>  
+    <string name="gemini_gsm_umts_network_preferneces_summary">Belum lagi dilaksanakan!</string>  
+    <string name="gemini_gsm_umts_network_preferences_dialogtitle">Mod Rangkaian</string>  
+    <string name="gemini_3g_service_settings">Perkhidmatan 3G</string>  
+    <!-- Strings for Gemini begin-->  
+    <!-- Dual sim settings activate progress message string -->  
+    <string name="gemini_sim_mode_progress_activating_message">Mengaktifkan\u2026</string>  
+    <!-- Dual sim settings deactivate progress message string -->  
+    <string name="gemini_sim_mode_progress_deactivating_message">Menyahaktifkan\u2026</string>  
+    <!-- Dual sim settings mode change failed message string -->  
+    <string name="gemini_sim_mode_change_failed_message">Gagal, ralat rangkaian.</string>  
+    <!-- Dual sim settings mode enter airplanemode confirm title string -->  
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_title">Mod pesawat</string>  
+    <!-- Dual sim settings mode enter airplanemode WiFi and Bt will both close confirm message string -->  
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_message">Telefon akan memasuki mod Pesawat. Semua sambungan wayarles akan dinyahdayakan. Teruskan?</string>  
+    <string name="gemini_sim_info_editor_name">Edit nama SIM</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">Gagal disimpan</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">Nama disalin untuk kad SIM</string>  
+    <string name="gemini_sim_info_editor_number">Masukkan nombor telefon</string>  
+    <string name="gemini_sim_info_editor_color">Tetapkan warna latar belakang</string>  
+    <string name="gemini_sim_info_editor_number_display_format">Paparkan nombor</string>  
+    <string name="gemini_no_sim_indicator">Tiada kad SIM</string>  
+    <string name="gemini_sim_list_default_title">Senarai kad SIM</string>  
+    <string name="gemini_data_connection_progress_message">"Sila tunggu..."</string>  
+    <string name="gemini_3g_modem_switching_message">"Penukaran SIM akan mengambil masa kira-kira 10 saat untuk dilengkapkan. Sila tunggu…"</string>  
+    <string name="gemini_3g_modem_switch_confirm_message">"Ini juga akan menukar perkhidmatan 3G kepada SIM ini. Teruskan? Sila pastikan juga SIM yang dipilih ini menyokong perkhidmatan 3G."</string>  
+    <string name="gemini_3g_disable_warning">"Perkhidmatan 3G tidak tersedia dengan SIM yang dipilih ini. Ini boleh memuatkan data dengan perlahan. Anda boleh menukar tetapan perkhidmatan 3G di bawah Tetapan &gt; Wayarles &amp; rangkaian &gt; Rangkaian mudah alih."</string>  
+    <string name="gemini_3g_disable_warning_cu">"Perkhidmatan 3G tidak tersedia dengan SIM yang dipilih ini. Ini boleh memuatkan data dengan perlahan. Anda boleh menukar tetapan perkhidmatan 3G di bawah Tetapan &gt; Pengurusan SIM."</string>  
+    <!-- Strings for CU wap push begin-->  
+    <string name="gemini_wap_push_permission_head">Selepas mendayakan perkhidmatan Auto tolak, anda boleh menerima mesej tolak, menyebabkan aplikasi setempat dijalankan dan menghasilkan trafik data. Perkhidmatan auto tolak biasa termasuk pemberitahuan e-mel, pengurusan peranti, petunjuk perkhidmatan, tolakan pemuatan dan peruntukan perkhidmatan.</string>  
+    <string name="gemini_wap_push_permission_tail">Terima perjanjian ini?</string>  
+    <string name="gemini_wap_push_permission_title">Perjanjian perkhidmatan auto tolak</string>  
+    <string name="gemini_wap_push_permission">Perkhidmatan auto tolak</string>  
+    <!-- Strings for CU wap push end-->  
+    <!-- add for gemini enhancement  SIM tether info part    begin -->  
+    <string name="gemini_3g_disable_warning_case0">"Anda mesti mendayakan perayauan data untuk SIM ini dahulu yang boleh dikenakan caj perayauan yang tinggi! Adakah anda pasti mahu mendayakan perayauan data dan memilih SIM ini?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"Perkhidmatan 3G tidak tersedia dengan SIM yang dipilih ini. Ini boleh memuatkan data dengan perlahan. Anda boleh menukar tetapan perkhidmatan 3G di bawah Tetapan &gt; Wayarles &amp; rangkaian &gt; Rangkaian mudah alih. Adakah anda pasti mahu memilih SIM ini?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"Perkhidmatan 3G tidak tersedia dengan SIM yang dipilih ini. Ini boleh memuatkan data dengan perlahan. Anda boleh menukar tetapan perkhidmatan 3G di bawah Tetapan &gt; Pengurusan SIM. Adakah anda pasti mahu memilih SIM ini?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"Anda mesti mendayakan perayauan data untuk SIM ini terlebih dahulu yang boleh dikenakan caj perayauan yang tinggi! Selain itu, perkhidmatan 3G tidak tersedia dengan SIM ini. Ini boleh memuatkan data dengan perlahan. Anda boleh menukarkannya di bawah Tetapan &gt; Wayarles &amp; rangkaian &gt; Rangkaian mudah alih. Adakah anda pasti mahu mendayakan perayauan data dan memilih SIM ini?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"Anda mesti mendayakan perayauan data untuk SIM ini terlebih dahulu yang boleh dikenakan caj perayauan yang tinggi! Selain itu, perkhidmatan 3G tidak tersedia dengan SIM ini. Ini boleh memuatkan data dengan perlahan. Anda boleh menukarkannya di bawah Tetapan &gt; Pengurusan SIM. Adakah anda pasti mahu mendayakan perayauan data dan memilih SIM ini?"</string>  
+    <string name="gemini_sim_tether_info_title">Kenalan &amp; SIM</string>  
+    <string name="gemini_sim_tether_add_record">Tambah Kenalan</string>  
+    <string name="gemini_sim_add_title">Kenalan</string>  
+    <!-- Displayed full screen when the user has no tether info to display-->  
+    <string name="gemini_sim_tether_norecord">"Anda tiada sebarang nombor kenalan yang dikaitkan dengan SIM semasa.\n\nSentuh butang Tambah kenalan untuk memilih kenalan yang anda ingin kaitkan dengan SIM ini"</string>  
+    <string name="gemini_sim_tether_nocontacts">"Tiada kenalan disimpan pada telefon anda. Sila tambah kenalan baru atau import kenalan terlebih dahulu"</string>  
+    <string name="gemini_sim_tether_no_assc_contacts">"Semua kenalan berjaya diikat"</string>  
+    <string name="gemini_sim_tether_disassociate">Pisahkan</string>  
+    <string name="selected_item_count"> 
+        <xliff:g id="count">%d</xliff:g> dipilih
+    </string>  
+    <string name="gemini_sim_tether_unselect_all">Nyahpilih Semua</string>
+    <string name="gemini_sim_tether_nocontact_confirm">OK</string>  
+    <string name="gemini_sim_tether_select_all">Pilih semua</string>  
+    <string name="gemini_sim_tether_select_ok">Simpan</string>  
+    <string name="gemini_sim_tether_select_cancel">Batal</string>  
+    <string name="gemini_sim_tether_revert_title">Perhatian</string>  
+    <string name="gemini_sim_tether_revert_message">Konfigurasi anda telah berubah dan masih belum disimpan. Adakah anda pasti untuk keluar tanpa menyimpan?</string>  
+    <string name="gemini_tether_saving_progress_message">Menyimpan…</string>  
+    <!-- add for gemini enhancement SIM tether info part end -->  
+    <!-- Strings for Gemini SimLock Settings -->  
+    <!-- Gemini SimLock TabActivity Sim1 tab tag -->  
+    <!-- Gemini SimLock error message -->  
+    <string name="gemini_sim_lock_simid_error">Gagal, id sim tidak sah.</string>  
+    <!-- Gemini SimLock sim1 not insert message -->  
+    <string name="gemini_sim_lock_no_insert_message_sim">SIM tidak dimasukkan.</string>  
+    <!-- Gemini SimLock sim1 radio off message -->  
+    <string name="gemini_sim_lock_radio_off_message_sim1">Radio1 dimatikan.</string>  
+    <!-- Gemini SimLock sim2 radio off message -->  
+    <string name="gemini_sim_lock_radio_off_message_sim2">Radio2 dimatikan.</string>  
+    <!--End of String for SIM Management Settings-->  
+    <!-- for CU application -->  
+    <string name="akp_installer_settings_title">Pemasang APK</string>  
+    <string name="akp_installer_settings_summary">Pasang APK anda dari storan Telefon dan kad SD</string>  
+    <string name="launch_main_label">Lancar aplikasi</string>  
+    <string name="launch_main">Lancar aplikasi menggunakan aktiviti utama</string>  
+    <string name="launch_activitie">Lancar</string>  
+    <string name="move_app_to_where">Alihkan ke 
+        <xliff:g id="location">%s</xliff:g> 
+    </string>  
+    <!--Wi-Fi settings strings start-->  
+    <string name="wifi_no_cert_for_wapi">Tidak dapat menemui pensijilan untuk AP yang sedang bersambung</string>  
+    <!-- Label for the SIM Slot of EAP-SIM method support -->  
+    <string name="sim_slot">Slot SIM</string>  
+    <!-- Label for the SIM Slot 0 of EAP-SIM method support -->  
+    <string name="eap_sim_slot_0">Slot Sim 1</string>  
+    <!-- Label for the SIM Slot of EAP-SIM method support -->  
+    <string name="eap_sim_slot_1">Slot Sim 2</string>  
+    <!-- Label for the toast if user use eap-sim/aka in airplane mode -->  
+    <string name="eap_sim_aka_airplanemode">Sila matikan mod Pesawat untuk menggunakan EAP-SIM/AKA</string>  
+    <!-- Label for the toast if user use eap-sim/aka when sim card is absent -->  
+    <string name="eap_sim_aka_no_sim_error">Anda mesti memasukkan kad sim untuk menggunakan EAP-SIM/AKA</string>  
+    <!-- Label for the toast if user use eap-sim/aka when user don't select a sim slot -->  
+    <string name="eap_sim_aka_no_sim_slot_selected">Anda mesti memilih slot sim untuk menggunakan EAP-SIM/AKA</string>  
+    <string name="wifi_security_wapi_certificate">Sijil WAPI</string>  
+    <!-- Label for the WAPI user certificate of the network -->  
+    <string name="wapi_user_certificate">Sijil pengguna</string>  
+    <!-- Label for the WAPI ASE certificate of the network -->  
+    <string name="wapi_as_certificate">Sijil ASE</string>  
+    <!-- Label for the check box for hexadecimal password -->  
+    <string name="wifi_hex_password">Kata laluan perenambelasan.</string>  
+    <!-- The label for WEP transmit Key -->  
+    <string name="wifi_WEP_transmit_key">"Kekunci Alir"</string>  
+    <!-- The label for WEP Secury Key -->  
+    <string name="wifi_WEP_secury_key">"Kekunci Selamat"</string>  
+    <!--add for Wi-Fi hotspot auto-sleep policy-->  
+    <string name="wifi_tether_auto_disable_title">Biarkan titik panas Wi-Fi hidup</string>  
+    <string name="wifi_tether_auto_channel_text">Auto</string>  
+    <string name="wifi_tether_auto_channel_width_text">Auto 20/40 MHz</string>  
+    <string name="wifi_channel">Saluran Pilihan</string>  
+    <string name="wifi_channel_width">Lebar Saluran</string>  
+    <string name="confirm_title">Sahkan</string>  
+    <!--Wi-Fi settings strings end-->  
+    <!-- Wireless settings for PCH Monitor start -->  
+    <string name="pch_toggle_title">Keutamaan pngilan</string>  
+    <!-- for PCH Monitor data prefer -->  
+    <string name="pch_data_prefer_summary_off">Keutamaan data</string>  
+    <!-- for PCH Monitor call prefer-->  
+    <string name="pch_call_prefer_summary_on">Keutamaan pngilan</string>  
+    <!-- for PCH Monitor warning message -->  
+    <string name="pch_warning_message">Kadar transmisi data akan menurun.</string>  
+    <!-- Wireless settings for PCH Monitor end -->  
+    <!-- Schedule power on/off settings -->  
+    <!-- Main Settings screen setting option name to go into the power on/off settings-->  
+    <string name="schedule_power_on_off_settings_title">Jadualkan kuasa hidup/mati</string>  
+    <string name="usb_bicr_title">CD-ROM terbina dalam</string>  
+    <string name="usb_bicr_summary">Tunjukkan CD-ROM maya yang mengandungi beberapa perisian berguna.</string>  
+    <string name="select_memory">Cakera tulis lalai</string>  
+    <string name="ipo_title">But cepat</string>  
+    <string name="ipo_summary_on">Nyahdayakan but cepat</string>  
+    <string name="ipo_summary_off">Dayakan but cepat</string>  
+    <string name="agps_profile_select_Title">Profil AGPS</string>  
+    <string name="location_settings_label">Mod Jurutera Lokasi</string>  
+    <string name="audio_profile_error">Ralat</string>  
+    <string name="battery_percent">Peratusan Bateri</string>  
+    <!-- RCS-e settings -->  
+    <string name="rcse_settings_title">Tetapan RCS-e</string>
+    <string name="dlg_mount_external_sd_title" product="default">Lekapkan kad SD?</string>  
+    <string name="dlg_mount_external_sd_summary" product="default">Jika anda melekapkan kad sd, sesetengah aplikasi yang anda gunakan akan dihentikan.</string> 	
+
+    <string name="tethered_ipv6_title">Tetapan penambatan &amp; titik panas</string>  
+    <string name="tethered_ipv4v6">(IPv6 tersedia)</string>  
+    <string name="tethered_ipv6">(Hanya IPv6 tersedia)</string>  
+    <string name="tethered_ipv4">(IPv6 tidak tersedia)</string>
+	
+	<string name="usb_connect_as_cdrom_category">"Sambung sebagai CD-ROM"</string>
+
+    <string name="wifi_ap_client_block_title">Halang</string>  
+    <string name="wifi_ap_client_details_title">Butiran</string>  
+    <string name="wifi_wps_fail_error">Persediaan Wi-Fi yang dilindungi gagal, cuba lagi.</string>  
+    <string name="wifi_tether_setting_title">Tetapan asas</string>  
+    <string name="wifi_tether_wps_connect_title">"Sambungan WPS"</string>  
+    <string name="wifi_tether_wps_connect_summary">Mod persediaan dilindungi Wi-Fi terpilih untuk meneruskan</string>  
+    <string name="wifi_tether_wps_pin_error">PIN tidak sah</string>  
+    <string name="wifi_tethering_title">Titik panas Wi-Fi</string>  
+    <string name="wifi_ap_wps_dialog_title">"Sambungan WPS"</string>  
+    <string name="wifi_ap_wps_mode_title">Mod WPS</string>  
+    <string name="wifi_ap_wps_pin_title">Taipkan PIN untuk klien</string>  
+    <string name="wifi_ap_reset_OOB_title">Tetapkan semula SSID rangkaian, keselamatan dan kata laluan kepada lalai (konfigurasi di luar kotak untuk WPS)</string>  
+    <string name="wifi_ap_reset_OOB">Tetapkan semula OOB</string>  
+    <string name="wifi_ap_max_connection_title">Sambungan maksimum</string>  
+    <string name="wifi_ap_connected_title">Pengguna yang disambungkan</string>  
+    <string name="wifi_ap_blocked_title">Pengguna disekat</string>  
+    <string name="wifi_ap_client_unblock_title">Nyahsekat</string>  
+    <string name="wifi_ap_client_mac_label">Alamat MAC:</string>  
+    <string name="wifi_ap_client_ip_label">Alamat IP:</string>  
+    <string name="usb_sharing_title">Internet USB</string>  
+    <string name="usb_sharing_summary">Berkongsi internet Windows PC melalui kabel USB</string>  
+    <string name="usb_sharing_info_title">Laluan Internet</string>  
+    <string name="usb_sharing_info_step_1">"1. Buka sambungan rangkaian pada Windows PC anda."</string>  
+    <string name="usb_sharing_info_step_2">"2. Klik kanan pada sambungan yang anda mahu kongsi dan kemudian klik sifat."</string>  
+    <string name="usb_sharing_info_step_3">"3. Klik tab perkongsian dan pilih \'Benarkan pengguna rangkaian lain untuk bersambung melalui sambungan internet komputer ini\'(pilih rangkaian yang baru ditambah yang mewakili internet USB jika \'Sambungan perangkaian rumah\' muncul)."</string>  
+    <string name="wifi_ap_bandwidth_title">Penggunaan lebar jalur</string>  
+    <string name="wifi_ap_bandwidth_enable">Dayakan pendikitan lebar jalur</string>  
+    <string name="wifi_ap_bandwidth_chart_title">Kelajuan data masa nyata</string>  
+    <string name="wifi_ap_bandwidth_chart_summary">Diukur oleh telefon anda, pengiraan kelajuan data pembawa anda mungkin berbeza.</string>  
+    <string name="wifi_ap_title">Statistik</string>  
+    <string name="wifi_ap_time_duration">Masa tempoh: 
+        <xliff:g id="time">%1$s</xliff:g> 
+    </string>  
+    <string name="wifi_ap_total_data">Jumlah data yang digunakan:
+        <xliff:g id="time">%1$s</xliff:g>
+    </string>
+    <string name="cpu_dtm_title">Mod penjimatan kuasa CPU</string>
+    <string name="cpu_dtm_summary">Hadkan prestasi maksimum CPU unuk menjimatkan hayat bateri dan mengurangkan suhu peranti.</string>
+    <string name="wifi_advanced_ipv4_address_title">Alamat IPv4</string>  
+    <string name="wifi_advanced_ipv6_address_title">Alamat IPv6</string>  
+    <string name="wifi_ipv4_address">Alamat IPv4</string>  
+    <string name="wifi_ipv6_address">Alamat IPv6</string> 
+    
+    <!-- MTK new datausage start -->
+    <string name="mtk_datausage_overview_wifi_today">Hari ini</string>  
+    <string name="mtk_datausage_show_on_lockscreen">Tunjukkan pada skrin kunci</string>  
+    <string name="mtk_datausage_update">Kemas kini penggunaan data</string>  
+    <string name="mtk_datausage_update_set">Kemas kini</string>  
+    <string name="mtk_datausage_amount_editor_title">Jumlah data yang digunakan</string>  
+    <string name="mtk_datausage_usage_list">Penggunaan data oleh aplikasi</string>  
+    <string name="mtk_datausage_diff_byte">Perbezaan Penggunaan Data</string>  
+    <string name="mtk_datausage_overview_tab">Gambaran keseluruhan</string>  
+    <string name="mtk_datausage_overview_wifi_total">Jumlah</string>  
+    <string name="mtk_datausage_overview_mobile_title">MUDAH ALIH</string>  
+    <string name="mtk_datausage_overview_mobile_usage">
+        <xliff:g id="actual">%s</xliff:g> daripada 
+        <xliff:g id="limit">%s</xliff:g>
+    </string>
+    <string name="mtk_datausage_overview_mobile_usage_warning">Di luar had <xliff:g>%s</xliff:g></string>
+    <!-- MTK new datausage end -->
+    <string name="display_personalize">Peribadikan</string>  
+    <string name="display_default">"Paparan"</string> 
+    <!-- Sound Enhanecement -->
+    <string name="sound_enhancement_title">Penambahan bunyi</string>
+    <string name="music_plus_summary">Penambah audio untuk fon telinga</string>
+    <string name="auto_backlight_title">Lampu latar yang menjimatkan</string>
+    <string name="auto_backlight_summary">Sesuaikan lampu latar secara automatik untuk menjimatkan tenaga</string>
+
+    <string name="beam_mgmt_tab_download_title">Panggilan diterima</string>
+    <string name="beam_mgmt_tab_upload_title">"3. Klik tab perkongsian dan pilih 'Benarkan pengguna rangkaian lain untuk bersambung melalui sambungan internet komputer ini'(pilih rangkaian yang baru ditambah yang mewakili internet USB jika 'Sambungan perangkaian rumah' muncul)."</string>
+    <string name="beam_share_mgmt_notification_ticker">Sejarah perkongsian Beam</string>
+    <string name="beam_share_mgmt_notification_title">Sejarah perkongsian Beam</string>
+    <string name="beam_share_mgmt_notification_message">"Pilih untuk melihat sejarah perkongsian Beam."</string>
+    <string name="beam_share_mgmt_tab_menu_clear">Buang semua tetapan laman web?</string>
+    <string name="beam_share_open_file_dialog_title">Tidak dapat membuka fail.</string>
+    <string name="beam_share_open_file_unsupported_message">Tidak dapat membuka fail.</string>
+    <string name="beam_share_open_file_not_found_message">"Fail tidak ditemui: <xliff:g id="file_name">%1$s</xliff:g></string>
+    <string name="beam_share_transfer_fail_dialog_title">"Beam gagal"</string>
+    <string name="beam_share_resend_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> tidak berjaya dihantar."</string>
+    <string name="beam_share_resend_dialog_ok_button">"Cuba lagi"</string>
+    <string name="beam_share_show_received_files_menu">"Tunjukkan fail yang diterima"</string>
+    <string name="beam_share_history_title">Sejarah perkongsian Beam</string>
+    <string name="beam_share_clear_confirm_dialog_title">Buang semua</string>
+    <string name="beam_share_clear_confirm_dialog_message">Kosongkan semua sejarah?</string>
+    <string name="beam_share_receive_fail_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> tidak berjaya diterima."</string>
+    <string name="beam_share_clear_item_dailog_title">"Padam"</string>
+    <string name="beam_share_clear_item_dailog_message">Item akan dipadamkan.</string>
+    <string name="nfc_rw_tag_summary">Baca dari atau tulis pada tag</string>
+    <string name="nfc_p2p_mode">Mod P2P</string>
+    <string name="nfc_p2p_mode_summary">Hantar atau terima kandungan App</string>
+    <string name="nfc_tag_mode_category">Mod tag</string>
+    <string name="nfc_rw_tag_title">Pembacaan &amp; penulisan tag</string>
+    <string name="lock_screen_notifications_title">Pemberitahuan skrin kunci</string>
+    <string name="lock_screen_notifications_summary">Tunjukkan pemberitahuan pada skrin kunci</string>
+    <string name="lock_screen_style_title">Gaya skrin kunci</string>
+
+
+      <string name="voice_ui_title">Kawalan suara</string>
+      <string name="voice_ui_app_category">Untuk Tetapan aplikasi</string>
+      <string name="voice_ui_setting_category">"Tetapan"</string>
+      <string name="alarm_app_name">"Penggera"</string>
+      <string name="music_app_name">Muzik</string>
+      <string name="voice_ui_language_title">"Bahasa untuk Kawalan Suara"</string>
+      <string name="incoming_call_app_name">"Panggilan masuk"</string>
+      <string name="camera_app_name">Kamera </string>
+      <string name="incomming_command_summary_format">Anda boleh menyebut <xliff:g id="first">%1$s</xliff:g> atau <xliff:g id="second">%2$s</xliff:g> untuk menjawab atau menolak panggilan masuk.</string>
+      <string name="alarm_command_summary_format">Anda boleh menyebut <xliff:g id="first">%1$s</xliff:g> atau <xliff:g id="second">%2$s</xliff:g> untuk mengawal penggera.</string>
+      <string name="camera_command_summary_format">Anda boleh menyebut <xliff:g id="first">%1$s</xliff:g> atau <xliff:g id="second">%2$s</xliff:g> untuk menangkap.</string>
+      <string name="music_command_summary_format">Anda boleh menyebut <xliff:g id="first">%1$s</xliff:g> dan <xliff:g id="second">%2$s</xliff:g> untuk mengawal muzik yang dimainkan.</string>
+
+	<!-- Lock screen settings start -->
+	<string name="current_suffix">"(Semasa)"</string>
+	<string name="lockscreen_style_set">"Tetapkan Skrin Kunci"</string>
+	<string name="lockscreen_style_default_desc">"Akses pantas ke aplikasi dalam skrin kunci"</string>
+	<!-- Lock screen settings end -->
+    <!--  voice unlock start-->
+    <string name="voice_unlock_backup_info_summary">Semasa Buka Kunci Suara tidak dapat mengenali suara anda, bagaimanakah anda hendak membuka kunci?</string>
+    <string name="unlock_set_unlock_mode_voice_weak">Buka Kunci Suara</string>
+    <!--  voice unlock end-->
+    <string name="usb_tether_type_title">Jenis penambatan USB</string> 
+    <string name="security_not_set">Keselamatan tidak ditetapkan</string>
+    <string name="lockdown_vpn_already_connected">VPN sentiasa hidup telah didayakan untuk sambungan.</string> 
+
+    <string name="wifi_ap_no_connected">0 pengguna yang disambungkan</string>  
+    <string name="wifi_ap_no_blocked">0 pengguna disekat</string> 
+
+    <string name="status_imei_slot3">IMEI(Slot3)</string>
+    <string name="status_imei_sv_slot3">IMEI SV(Slot3)</string>
+    <string name="status_min_number_slot3">MIN(Slot3)</string>
+    <string name="status_prl_version_slot3">Versi PRL(Slot3)</string>
+    <string name="status_meid_number_slot3">MEID(Slot3)</string> 
+
+    <string name="usb_tethering_select_version">Pilih versi sistem PC </string>
+</resources>

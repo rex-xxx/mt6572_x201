@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:latin="http://schemas.android.com/apk/res/com.android.inputmethod.latin">
+
+    <Key latin:keyLabel="&#x06C3;" />
+    <Key latin:keyLabel="ا" />
+    <Key latin:keyLabel="س" />
+    <Key latin:keyLabel="د" />
+    <Key latin:keyLabel="ف" />
+    <Key latin:keyLabel="گ" />
+    <Key latin:keyLabel="ھ" />
+    <Key latin:keyLabel="ج" />
+    <Key latin:keyLabel="ک" />
+    <Key latin:keyLabel="ل" />
+
+</merge>

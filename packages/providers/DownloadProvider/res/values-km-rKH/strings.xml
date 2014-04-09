@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_label">អ្នកចាត់ចែងការទាញយក</string>  
+    <string name="permlab_downloadManager">ចូលបើកមើលអ្នកចាត់ចែងការទាញយក ។</string>  
+    <string name="permdesc_downloadManager">អនុញ្ញាតឲ្យកម្មវិធីអាចបើកមើលអ្នកចាត់ចែងការទាញយក និងប្រើវាដើម្បីទាញយកឯកសារ ។ កម្មវិធីដែលមិនល្អ អាចប្រើសកម្មភាពនេះ ដើម្បីបង្ករការរំខានដល់ការទាញយក និងចូលបើលមើលព័ត៌មានឯកជន ។</string>  
+    <string name="permlab_downloadManagerAdvanced">មុខងារឈានមុខរបស់អ្នកចាត់ចែងការទាញយក ។</string>  
+    <string name="permdesc_downloadManagerAdvanced">អនុញ្ញាតឲ្យកម្មវិធីអាចបើកមើលមុខងារឈានមុខរបស់អ្នកចាត់ចែ\ងការទាញយក ។ កម្មវិធីដែលមិនល្អ អាចប្រើមុខងារនេះ ដើម្បីបង្ករការរំខានការទាញយក និងបើកមើលព័ត៌មានឯកជន ។</string>  
+    <string name="permlab_downloadCompletedIntent">ផ្ញើការប្រាប់ដំណឹងអំពីការទាញយក ។</string>  
+    <string name="permdesc_downloadCompletedIntent">អនុញ្ញាតឲ្យកម្មវិធីអាចផ្ញើការប្រាប់ដំណឹងអំពីការទាញយកដែលបានធ្វើរួចរាល់ហើយ ។ កម្មវិធីដែលមិនល្អ អាចប្រើមុខងារនេះ ដើម្បីធ្វើឲ្យកម្មវិធីដទៃដែលទាញយកឯកសារមានការភ័ន្តភាំង ។</string>  
+    <string name="permlab_seeAllExternal" product="nosdcard">មើលការទាញយកទាំងអស់នៅក្នុងឧបករណ៍ USB</string>  
+    <string name="permlab_seeAllExternal" product="default">មើលការទាញយកទាំងអស់នៅក្នុងកាត SD</string>  
+    <string name="permdesc_seeAllExternal">អនុញ្ញាតឲ្យកម្មវិធីអាចមើលការទាញយកទាំងអស់ក្នុងកាត SD មិនថាកម្មវិធីណាជាអ្នកទាញយកវាឡើយ ។</string>  
+    <string name="permlab_downloadCacheNonPurgeable">រក្សាកន្លែងទំនេរនៅក្នុងខេចនៃការទាញយក</string>  
+    <string name="permdesc_downloadCacheNonPurgeable">អនុញ្ញាតឲ្យកម្មវិធីអាចទាញយកឯកសារទៅក្នុងខេចនៃការទាញយក ដែលមិ\នអាចលុបចោលបានដោយស្វ័យប្រវត្តិ ពេលដែលអ្នកចាត់ចែងការទាញយកត្រូវការកន្លែងទំនេរបន្ថែម ។</string>  
+    <string name="permlab_downloadWithoutNotification">ទាញយកឯកសការដោយគ្មានការប្រាប់ដំណឹង</string>  
+    <string name="permdesc_downloadWithoutNotification">អនុញ្ញាតឲ្យកម្មវិធីអាចទាញយកឯកសារតាមរយៈអ្នកចាត់ចែងការទាញយក ដោយមិនមានការប្រាប់ដំណឹងណាមួយ ដែលបង្ហាញឲ្យអ្នកប្រើបានឃើញឡើយ ។</string>  
+    <string name="permlab_accessAllDownloads">ចូលបើកមើលគ្រប់ប្រព័ន្ធទាញយកទាំងអស់</string>  
+    <string name="permdesc_accessAllDownloads">អនុញ្ញាតឲ្យកម្មវិធីអាចមើល និងកែសម្រួលគ្រប់ការទាញយកទាំងអស់ដែលផ្តួចផ្តើមដោយកម្មវិធីនៅក្នុងប្រព័ន្ធ ។</string>  
+    <string name="download_unknown_title">&amp;lt;គ្មានចំណងជើង&amp;gt;</string>  
+    <string name="notification_filename_separator">", "</string>  
+    <string name="notification_filename_extras">" និង 
+        <xliff:g id="number" example="27">%d</xliff:g> ច្រើនថែមទៀត"
+    </string>  
+    <string name="notification_download_complete">ការទាញយកបានបញ្ចប់ ។</string>  
+    <string name="notification_download_failed">ការទាញយកមិនជោគជ័យឡើយ ។</string>  
+    <string name="notification_need_wifi_for_size">ទំហំនៃការទាញយកត្រូវការ Wi-Fi ។</string>  
+    <string name="notification_paused_in_background">ឈប់បន្តិចនៅខាងក្រោយ ។</string>  
+    <string name="wifi_required_title">ទាញយកធំពេក សម្រាប់អ្នកប្រតិបត្តិការបណ្តាញ</string>  
+    <string name="wifi_required_body">អ្នកត្រូវតែប្រើ Wi-Fi ដើម្បីបញ្ចប់ការ 
+        <xliff:g id="size" example="12.3KB">%s</xliff:g> ទាញយកនេះ ។ \n\nប៉ះ 
+        <xliff:g id="queue_text" example="Queue">%s</xliff:g> ដើម្បីចាប់ផ្តើមការទាញយកនេះ ពេលដែលលើកក្រោយអ្ន\កបានតភ្ជាប់ជាមួយនឹងបណ្តាញ Wi-Fi ។
+    </string>  
+    <string name="wifi_recommended_title">ដាក់ទៅក្នុងជួរ សម្រាប់ទាញយកនាពេលក្រោយមែនទេ?</string>  
+    <string name="wifi_recommended_body">ចាប់ផ្តើម 
+        <xliff:g id="size" example="12.3KB">%s</xliff:g> ទាញយកឥឡូវនេះ អាចធ្វើឲ្យថ្មរបស់អ្នក ឆាប់អស់ និង/ឬបណ្តាលឲ្យមានការប្រើច្រើនលើសលុបនៃការតភ្ជាប់បណ្តាញទិន្នន័យរបស់អ្នក ដែលអាចនាំទៅរកការទារប្រាក់បន្ថែមពីអ្នកប្រតិបត្តិការចល័តរបស់អ្នក អាស្រ័យលើផែនការប្រើប្រាស់របស់អ្នក ។\n\n ប៉ះ 
+        <xliff:g id="queue_text" example="Queue">%s</xliff:g> ដើម្បីចាប់ផ្តើមការទាញយកនេះ ពេលដែលលើកក្រោយអ្ន\កបានតភ្ជាប់ជាមួយនឹងបណ្តាញ Wi-Fi ។
+    </string>  
+    <string name="button_queue_for_wifi">តម្រង់ជួរ</string>  
+    <string name="button_cancel_download">លើកលែង</string>  
+    <string name="button_start_now">ចាប់ផ្តើមឥឡូវនេះ</string>  
+    <string name="download_percent">
+        <xliff:g id="number">%d</xliff:g>
+        <xliff:g id="percent">%%</xliff:g>
+    </string> 
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="valid_date_range">"有效日期為1970年1月至2036年12月"</string>  
+    <string name="shareEvent">分享活動</string>  
+    <string name="share_label">"分享"</string>  
+    <string name="loading_failed">載入失敗。</string>  
+    <string name="operation_failed">操作失敗。請檢查\"Calendar Storage\"是否已停止。</string>  
+
+	<!--M: add new string resource for clear events in the calendar @{ -->
+	<!-- clear the events in the calendar -->
+	<string name="clear_events">清除所有事件</string>
+	<!--     select the accounts of calendar to clear events. -->
+	<string name="select_clear_calendars_title">選擇帳號</string>
+	<string name="clear_all_selected_events_title">被選擇帳號的所有事件將被删除。</string>
+	<string name="delete_completed">刪除完成</string>
+	<string name="delete_certain">確定</string>
+    <string name="wait_deleting_tip">"正在刪除，請稍等……"</string>
+	<!-- @} -->
+    <string name="attendees_invalid_tip">"部分參與者無效。"</string>
+    <string name="unread_reminders">"%d 封未讀提醒"</string> 
+    <string name="click_to_view_all">"按一下檢視全部"</string> 
+    <string name="search_setting_description">"行事曆活動"</string> 
+
+        <!-- #Lunar# -->
+    <!-- M:add for lunar calendar,only be used in zh-rCN. @{ -->
+    <string name="lunar_radio_text" >"農曆"</string>
+    <string name="gregorian_radio_text">"公曆"</string>
+    
+    <string name="date_picker_dialog_title">農曆日期設定</string>
+    <!-- Name of the button in the date/time picker to accept the date/time change -->
+    <string name="date_time_done">設定</string>
+    <string name="cancel">取消</string>
+    <!-- @} -->
+
+    <string name="quick_response_error_already_exist">文本已經存在</string>
+    <string name="quick_response_error_null">輸入不能為空</string>
+    <string name="preferences_alerts_vibrateWhen_summary">振動手機來發出事件提醒</string>
+    <string name="go_to">前往</string>
+    <string name="search_hint">搜尋行事曆</string>
+</resources>

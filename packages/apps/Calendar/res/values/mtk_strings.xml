@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--M: add new string resource @{ -->
+    <string name="valid_date_range">"Valid date is January 1970 to December 2036"</string>
+    <string name="shareEvent">Share event</string>
+    <string name="share_label">Share</string>
+    <!-- When loading events from database is failed, give user a tip. -->
+    <string name="loading_failed">Loading failed.</string>
+    <!-- When access database is faile, give user a tip to check the "Calendar Storage" application. -->    
+    <string name="operation_failed">Operation failed. Please check if “Calendar Storage“ is stopped.</string>
+    <!-- @} -->
+
+    <!-- #ClearAllEvents# -->
+    <!--M: add new string resource for clear events in the calendar @{ -->
+    <!-- clear the events in the calendar -->
+    <string name="clear_events">Clear events</string>
+    <!-- select the accounts of calendar to clear events. -->
+    <string name="select_clear_calendars_title">Select account</string>
+    <string name="clear_all_selected_events_title">All the events in selected account will be deleted.</string>
+    <string name="delete_completed">Delete operation completed.</string>
+    <string name="delete_certain">OK</string>
+    <string name="wait_deleting_tip">"Please wait while deleting..."</string>
+    <!-- @} -->
+    <!-- M:check attendees' validation, if invalid, give a tip. -->
+    <string name="attendees_invalid_tip">"Some attendees are invalid."</string>
+    <string name="unread_reminders">"%d unread reminders"</string>
+    <string name="click_to_view_all">"Click to view all"</string>
+    <string name="search_setting_description">"Events in Calendar"</string>
+
+    <!-- #Lunar# -->
+    <!-- M:add for lunar calendar,only be used in zh-rCN. @{ -->
+    <string name="lunar_radio_text" tools:ignore="MissingTranslation">"农历"</string>
+    <string name="gregorian_radio_text" tools:ignore="MissingTranslation">"公历"</string>
+    
+    <string name="date_picker_dialog_title" tools:ignore="MissingTranslation">设置农历时间</string>
+    <!-- Name of the button in the date/time picker to accept the date/time change -->
+    <string name="date_time_done" tools:ignore="MissingTranslation">设置</string>
+    <string name="date_picker_decrement_year_button" tools:ignore="MissingTranslation">增加一年</string>
+    <string name="cancel" tools:ignore="MissingTranslation">取消</string>
+    <!-- DataPicker original has.Only simple preserved.  -->
+    <string name="date_picker_decrement_month_button" tools:ignore="MissingTranslation">Decrement month</string>
+    <string name="date_picker_increment_month_button" tools:ignore="MissingTranslation">Increment month</string>
+    <string name="date_picker_increment_year_button" tools:ignore="MissingTranslation">Increment year</string>
+    <string name="date_picker_increment_day_button" tools:ignore="MissingTranslation">Increment day</string>
+    <string name="date_picker_decrement_day_button" tools:ignore="MissingTranslation">Decrement day</string>
+    <!-- simple preserved -->
+    <string name="picker_change_date" tools:ignore="MissingTranslation">改变日期</string>
+    <!-- @} -->
+
+    <!-- #extension# strings -->
+    <string name="lunar_fest_chunjie" translatable="false">春节</string>
+    <string name="lunar_fest_duanwu" translatable="false">端午节</string>
+    <string name="lunar_fest_zhongqiu" translatable="false">中秋节</string>
+    <string name="lunar_fest_yuandan" translatable="false">元旦</string>
+    <string name="lunar_fest_laodong" translatable="false">劳动节</string>
+    <string name="lunar_fest_guoqing" translatable="false">国庆节</string>
+    <string name="lunar_fest_yuanxiao" translatable="false">元宵节</string>
+    <string name="lunar_fest_qixi" translatable="false">七夕</string>
+    <string name="lunar_fest_chongyang" translatable="false">重阳节</string>
+    <string name="lunar_fest_qingnian" translatable="false">青年节</string>
+    <string name="lunar_fest_qingren" translatable="false">情人节</string>
+    <string name="lunar_fest_funv" translatable="false">妇女节</string>
+    <string name="lunar_fest_zhishu" translatable="false">植树节</string>
+    <string name="lunar_fest_yuren" translatable="false">愚人节</string>
+    <string name="lunar_fest_ertong" translatable="false">儿童节</string>
+    <string name="lunar_fest_jiandang" translatable="false">建党节</string>
+    <string name="lunar_fest_jianjun" translatable="false">建军节</string>
+    <string name="lunar_fest_jiaoshi" translatable="false">教师节</string>
+    <string name="lunar_fest_shengdan" translatable="false">圣诞节</string>
+
+    <!-- #lunar -->
+    <string name="lunar_date_formatter">yyyy年MM月dd日</string>
+    <string name="lunar_leap" translatable="false">闰</string>
+    <string name="lunar_tenth_day" translatable="false">初十</string>
+    <string name="lunar_twentieth_day" tanslatable="false">二十</string>
+    <string name="lunar_thirtieth_day" translatable="false">三十</string>
+    <string name="lunar_year" translatable="false">年</string>
+    <string name="lunar_month" translatable="false">月</string>
+    <string name="lunar_day" translatable="false">日</string>
+     
+    <string name="quick_response_error_already_exist">Text already exist</string>
+    <string name="quick_response_error_null">Can not be empty</string>
+    <!-- On Settings screen, vibrate setting item summary text -->
+    <string name="preferences_alerts_vibrateWhen_summary">Vibrate for event reminder</string>
+    <!-- Jump to special -->
+    <string name="go_to">Go to</string>
+    <!-- Calendar search hint -->
+    <string name="search_hint">Search calendar</string>
+</resources>

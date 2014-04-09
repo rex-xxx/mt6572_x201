@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011 Google Inc.
+All Rights Reserved. -->
+<resources>
+    <integer name="emoticon_column_port_number">3</integer>
+    <integer name="emoticon_column_land_number">1</integer>
+
+</resources>

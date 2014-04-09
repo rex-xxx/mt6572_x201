@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+       <TextView
+            android:id="@+id/textView2_hue"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/number_zero" 
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="100dp"/>
+                 
+        <TextView
+            android:id="@+id/textView_hue"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="100dp"
+            android:text="@string/number_zero" 
+            android:layout_alignParentRight="true"/>
+        <TextView
+            android:id="@+id/textView_hue_progress"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/number_zero"
+            android:layout_marginBottom="70dp" />
+        <TextView
+            android:id="@+id/textView3_saturation"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/number_zero"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:id="@+id/textView_saturation"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/number_zero"
+           android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="50dp"
+             />
+        <TextView
+            android:id="@+id/textView_saturation_progress"
+            android:layout_centerInParent="true"
+            android:layout_below ="@+id/seekBar_saturation"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="@string/number_zero"
+            android:layout_marginBottom="20dp"/>
+</AbsoluteLayout>

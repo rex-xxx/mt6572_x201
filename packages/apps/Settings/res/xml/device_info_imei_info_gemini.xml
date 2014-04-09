@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/slot_status_title">
+
+        <!--start This menu item is only for CDMA phone for slot1 start-->
+        <Preference android:key="min_number_slot1"
+            style="?android:attr/preferenceInformationStyle"
+            android:title="@string/status_min_number_slot1"
+            android:summary="@string/device_info_not_available"
+            android:persistent="false" />
+        <Preference android:key="prl_version_slot1"
+            style="?android:attr/preferenceInformationStyle"
+            android:title="@string/status_prl_version_slot1"
+            android:summary="@string/device_info_not_available"
+            android:persistent="false" />
+        <Preference android:key="meid_number_slot1"
+            style="?android:attr/preferenceInformationStyle"
+            android:title="@string/status_meid_number_slot1"
+            android:summary="@string/device_info_not_available"
+            android:persistent="false" />
+        <!--end This menu item is only for CDMA phone for slot1 end-->
+
+        <!--start This menu item is only for CDMA phone for slot2 start-->
+        <Preference android:key="min_number_slot2"
+            style="?android:attr/preferenceInformationStyle"
+            android:title="@string/status_min_number_slot2"
+            android:summary="@string/device_info_not_available"
+            android:persistent="false" />
+        <Preference android:key="prl_version_slot2"
+            style="?android:attr/preferenceInformationStyle"
+            android:title="@string/status_prl_version_slot2"
+            android:summary="@string/device_info_not_available"
+            android:persistent="false" />
+        <Preference android:key="meid_number_slot2"
+            style="?android:attr/preferenceInformationStyle"
+            android:title="@string/status_meid_number_slot2"
+            android:summary="@string/device_info_not_available"
+            android:persistent="false" />
+        <!--end This menu item is only for CDMA phone for slot2 end-->
+
+        <!--start This menu item is only for CDMA phone for slot3 start-->
+        <Preference android:key="min_number_slot3"
+            style="?android:attr/preferenceInformationStyle"
+            android:title="@string/status_min_number_slot3"
+            android:summary="@string/device_info_not_available"
+            android:persistent="false" />
+        <Preference android:key="prl_version_slot3"
+            style="?android:attr/preferenceInformationStyle"
+            android:title="@string/status_prl_version_slot3"
+            android:summary="@string/device_info_not_available"
+            android:persistent="false" />
+        <Preference android:key="meid_number_slot3"
+            style="?android:attr/preferenceInformationStyle"
+            android:title="@string/status_meid_number_slot3"
+            android:summary="@string/device_info_not_available"
+            android:persistent="false" />
+        <!--end This menu item is only for CDMA phone for slot3 end-->
+
+
+        <!--start This menu item is GSM/UMTS phone for slot1 start-->
+        <Preference android:key="imei_slot1" 
+            style="?android:attr/preferenceInformationStyle" 
+            android:title="@string/status_imei_slot1"
+            android:summary="@string/device_info_not_available"
+            android:persistent="false" />
+        <Preference android:key="imei_sv_slot1" 
+            style="?android:attr/preferenceInformationStyle" 
+            android:title="@string/status_imei_sv_slot1"
+            android:summary="@string/device_info_not_available"
+            android:persistent="false" />
+        <!--end This menu item is GSM/UMTS phone for slot1 end-->
+
+        <!--start This menu item is GSM/UMTS phone for slot2 start--> 
+        <Preference android:key="imei_slot2" 
+            style="?android:attr/preferenceInformationStyle" 
+            android:title="@string/status_imei_slot2"
+            android:summary="@string/device_info_not_available"
+            android:persistent="false" />
+        <Preference android:key="imei_sv_slot2" 
+            style="?android:attr/preferenceInformationStyle" 
+            android:title="@string/status_imei_sv_slot2"
+            android:summary="@string/device_info_not_available"
+            android:persistent="false" />
+        <!--end This menu item is GSM/UMTS phone for slot2 end-->
+
+        <!--start This menu item is GSM/UMTS phone for slot3 start--> 
+        <Preference android:key="imei_slot3" 
+            style="?android:attr/preferenceInformationStyle" 
+            android:title="@string/status_imei_slot3"
+            android:summary="@string/device_info_not_available"
+            android:persistent="false" />
+        <Preference android:key="imei_sv_slot3" 
+            style="?android:attr/preferenceInformationStyle" 
+            android:title="@string/status_imei_sv_slot3"
+            android:summary="@string/device_info_not_available"
+            android:persistent="false" />
+        <!--end This menu item is GSM/UMTS phone for slot3 end-->
+</PreferenceScreen>

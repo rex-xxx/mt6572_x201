@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <!-- add for ICS porting -->  
+    <string-array name="proxy_error"> 
+        <item>Ana Makine alanı boş olamaz</item>  
+        <item>Bağlantı Noktası alanı boş olamaz</item>  
+        <item>Geçersiz ana makine</item>  
+        <item>Geçersiz bağlantı noktası</item> 
+    </string-array> 
+</resources>

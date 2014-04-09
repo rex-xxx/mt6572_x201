@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">گیلری</string>  
+    <!-- Title for picture frame gadget to show in list of all available gadgets -->  
+    <string name="gadget_title">تصویری فریم</string>  
+    <!-- Used to format short video duration in Details dialog. minutes:seconds e.g. 00:30 -->  
+    <string name="details_ms">%1$02d:%2$02d</string>  
+    <!-- Used to format video duration in Details dialog. hours:minutes:seconds e.g. 0:21:30 -->  
+    <string name="details_hms">%1$d:%2$02d:%3$02d</string>  
+    <!-- Activity label. This might show up in the activity-picker -->  
+    <string name="movie_view_label">ویڈیو پلئیر</string>  
+    <!-- shown in the video player view while the video is being loaded, before it starts playing -->  
+    <string name="loading_video">ویڈيو لوڈ کررہا ہے\u2026</string>  
+    <string name="loading_image">تصویر لوڈ کررہا ہے\u2026</string>  
+    <!-- Message shown on the progress dialog to indicate we're loading the
+            account info [CHAR LIMIT=30] -->  
+    <string name="loading_account">اکاؤنٹ لوڈ کررہا ہے\u2026</string>  
+    <!-- Movie View Resume Playing dialog title -->  
+    <string name="resume_playing_title">ویڈيو بحال کریں</string>  
+    <!-- Movie View Start Playing dialog title -->  
+    <string name="resume_playing_message">%s سے چلانا بحال کریں ؟</string>  
+    <!-- Movie View Start Playing button "Resume from bookmark" -->  
+    <string name="resume_playing_resume">چلنا بحال کریں</string>  
+    <!-- Displayed in the title of those albums that are being loaded -->  
+    <string name="loading">لوڈنگ\u2026</string>  
+    <!-- Displayed in the title of those pictures that fails to be loaded
+         [CHAR LIMIT=50]-->  
+    <string name="fail_to_load">لوڈ کرنے سے قاصر</string>  
+    <!-- Displayed in place of the picture when we fail to get the thumbnail of it.
+         [CHAR LIMIT=50]-->  
+    <string name="no_thumbnail">کوئی چھوٹی تصویر نہيں</string>  
+    <!-- Movie View Start Playing button "Beginning" -->  
+    <string name="resume_playing_restart">دوبارہ شروع کریں</string>  
+    <!-- Title of a menu item to indicate performing the image crop operation
+         [CHAR LIMIT=20] -->  
+    <string name="crop_save_text">کاٹیں</string>  
+    <!-- Button indicating that the cropped image should be reverted back to the original -->  
+    <!-- Hint that appears when cropping an image with more than one face -->  
+    <string name="multiface_crop_help">شروع کرنے کے لئے کوئی چہرہ چھوئيں۔</string>  
+    <!-- Toast/alert that the image is being saved to the SD card -->  
+    <string name="saving_image">تصویر محفوظ کررہا ہے\u2026</string>  
+    <!-- Eorror toast message that the image cannot be saved [CHAR LIMIT=40]-->  
+    <string name="save_error">کاٹی گئی تصویر محفوظ کرنے سے قاصر</string>  
+    <!-- menu pick: crop the currently selected image -->  
+    <string name="crop_label">تصویر کاٹیں</string>  
+    <!-- Toast/alert that the face detection is being run -->  
+    <!-- Title prompted for user to choose a photo item [CHAR LIMIT=20] -->  
+    <string name="select_image">تصویر منتخب کریں</string>  
+    <!-- Title prompted for user to choose a video item [CHAR LIMIT=20] -->  
+    <string name="select_video">"ویڈیو منتخب کرنا"</string>  
+    <!-- Title prompted for user to choose a media object [CHAR LIMIT=20] -->  
+    <string name="select_item">آئیٹم منتخب کریں</string>  
+    <!-- Title prompted for user to choose an album [CHAR LIMIT=20] -->  
+    <string name="select_album">البم منتخب کریں</string>  
+    <!-- Title prompted for user to choose a group [CHAR LIMIT=20] -->  
+    <string name="select_group">گروپ منتخب کریں</string>  
+    <!-- Displayed in the title of the dialog for things to do with a picture
+             that is to be "set as" (e.g. set as contact photo or set as wallpaper) -->  
+    <string name="set_image">تصویر کو مرتب کریں بطور</string>  
+    <!-- Toast/alert after saving wallpaper -->  
+    <string name="wallpaper">دیواری کاغذ سیٹ کررہا ہے\u2026</string>  
+    <string name="camera_setas_wallpaper">وال پیپر</string>  
+    <!-- Details dialog "OK" button. Dismisses dialog. -->  
+    <string name="delete">مٹائيں</string>  
+    <string name="confirm_delete">مٹائيں</string>  
+    <string name="cancel">منسوخ کریں</string>  
+    <string name="share">تقسیم کریں</string>  
+    <!-- String indicating more actions are available -->  
+    <string name="select_all">سب کو منتخب کريں</string>  
+    <string name="deselect_all">تمام غیرمنتخب کریں</string>  
+    <string name="slideshow">سلائڈ شو</string>  
+    <string name="details">تفصیلات</string>  
+    <string name="details_title">%2$d میں سے %1$d آئیٹم:</string>  
+    <string name="close">بند کریں</string>  
+    <!-- Title of a menu item to switch from Gallery to Camera app [CHAR LIMIT=30] -->  
+    <string name="switch_to_camera">کیمرے پر تبدیل کریں</string>  
+    <!-- String indicating how many media item(s) is(are) selected
+            eg. 1 selected [CHAR LIMIT=30] -->  
+    <plurals name="number_of_items_selected"> 
+        <item quantity="zero">%1$d منتخب</item>  
+        <item quantity="one">%1$d منتخب</item>  
+        <item quantity="other">%1$d منتخب</item> 
+    </plurals>  
+    <!-- String indicating how many media album(s) is(are) selected
+            eg. 1 selected [CHAR LIMIT=30] -->  
+    <plurals name="number_of_albums_selected"> 
+        <item quantity="zero">%1$d منتخب</item>  
+        <item quantity="one">%1$d منتخب</item>  
+        <item quantity="other">%1$d منتخب</item> 
+    </plurals>  
+    <!-- String indicating how many media group(s) is(are) selected
+            eg. 1 selected [CHAR LIMIT=30] -->  
+    <plurals name="number_of_groups_selected"> 
+        <item quantity="zero">%1$d منتخب</item>  
+        <item quantity="one">%1$d منتخب</item>  
+        <item quantity="other">%1$d منتخب</item> 
+    </plurals>  
+    <!-- String indicating timestamp of photo or video -->  
+    <string name="show_on_map">نقشے پر دکھائیں</string>  
+    <string name="rotate_left">بائيں گھمائيں</string>  
+    <string name="rotate_right">دائيں گھمائيں</string>  
+    <!-- Toast message prompted when the specified item is not found [CHAR LIMIT=40]-->  
+    <string name="no_such_item">آئیٹم تلاش کرنے سے قاصر</string>  
+    <!-- String used as a menu label. The suer can choose to edit the image
+         [CHAR_LIMIT=20]-->  
+    <string name="edit">ترمیم کريں</string>  
+    <!-- String used in a toast message indicating there is no application
+         available to handle a request [CHAR LIMIT=50] -->  
+    <string name="activity_not_found">عمل مکمل کرنے کے لئے کوئی ایپ دستیاب نہيں ہے.</string>  
+    <!-- String used as a title of a progress dialog. The user can
+         choose to cache some Picasa picture albums on device, so it can
+         be viewed offline. This string is shown when the request is being
+         processed. [CHAR LIMIT=50] -->  
+    <string name="process_caching_requests">کیش کرنے کی درخواستیں پراسیس کررہا ہے</string>  
+    <!-- String used as a small notification label above a Picasa album.
+         It means the pictures of the Picasa album is currently being
+         transferred to local storage, so the pictures can later be viewed
+         offline. [CHAR LIMIT=15] -->  
+    <string name="caching_label">کیش کررہا ہے\u2026</string>  
+    <string name="crop_action">کاٹیں</string>  
+    <string name="set_as">بطور مرتب کریں</string>  
+    <!-- String indicating an approximate location eg. Around Palo Alto, CA -->  
+    <string name="video_err">ویڈيو چلانے سے قاصر</string>  
+    <!-- Strings for grouping operations in the menu. The photos can be grouped
+         by their location, taken time, or tags. -->  
+    <!-- The title of the menu item to let user choose the grouping rule, when
+         pressed, a submenu will shown and user can choose one grouping rule
+         from the submenu. -->  
+    <!-- Title of a menu item to group photo by location [CHAR LIMIT=30] -->  
+    <string name="group_by_location">بمطابق مقام</string>  
+    <!-- Title of a menu tiem to group photo by taken date [CHAR LIMIT=30]-->  
+    <string name="group_by_time">بمطابق وقت</string>  
+    <!-- Title of a menu item to group photo by tags [CHAR LIMIT=30]-->  
+    <string name="group_by_tags">بمطابق ٹیگ</string>  
+    <!-- Title of a menu item to group photo by faces [CHAR LIMIT=30]-->  
+    <string name="group_by_faces">بمطابق افراد</string>  
+    <!-- Title of a menu item to group photo by albums [CHAR LIMIT=30]-->  
+    <string name="group_by_album">بمطابق البم</string>  
+    <!-- Title of a menu item to group photo by size [CHAR LIMIT=30]-->  
+    <string name="group_by_size">بمطابق سائز</string>  
+    <!-- When grouping photos by tags, the label used for photos without tags
+         [CHAR LIMIT=20]-->  
+    <string name="untagged">ٹیگ نہيں کیا گيا</string>  
+    <!-- When grouping photos by locations, the label used for photos that don't
+         have location information in them [CHAR LIMIT=20]-->  
+    <string name="no_location">کوئی مقام نہيں</string>  
+    <!-- This toast message is shown when network connection is lost while doing clustering -->  
+    <string name="no_connectivity">نیٹورک کے مسائل کی وجہ سے مقامات کی شناخت ممکن نہيں.</string>  
+    <!-- This toast message is shown when failed to load the album data. [CHAR LIMIT=NONE] -->  
+    <string name="sync_album_error">اس البم کی تصویریں ڈاؤن لوڈ کرنا ناکام، بعد میں کوشش کریں.</string>  
+    <!-- This toast message is shown when failed to load the album list data. [CHAR LIMIT=NONE] -->  
+    <string name="sync_album_set_error">البم کی فہرست ڈاؤن لوڈ کرنا ناکام۔ بعد میں کوشش کرین۔</string>  
+    <!-- The title of the menu item to let user choose the which portion of
+         the media items the user wants to see. When pressed, a submenu will
+         appear and user can choose one of "show images only",
+         "show videos only", or "show all" from the submenu. -->  
+    <!-- Title of a menu item to show images only [CHAR LIMIT=30]-->  
+    <string name="show_images_only">صرف تصویریں</string>  
+    <!-- Title of a menu item to show videos only [CHAR LIMIT=30]-->  
+    <string name="show_videos_only">صرف ویڈیو</string>  
+    <!-- Title of a menu item to show all (both images and videos) [CHAR LIMIT=30]-->  
+    <string name="show_all">تصویریں اور ویڈیو</string>  
+    <!-- Title of the StackView AppWidget -->  
+    <string name="appwidget_title">تصویری گیلری</string>  
+    <!-- Text for the empty state of the StackView AppWidget [CHAR LIMIT=30] -->  
+    <string name="appwidget_empty_text">کوئی تصویریں نہيں.</string>  
+    <!-- Toast message shown when the cropped image has been saved in the
+         download folder [CHAR LIMIT=50]-->  
+    <string name="crop_saved">کاٹی گئی تصویروں کو ڈاؤن لوڈ میں محفوظ کیا گیا.</string>  
+    <!-- Toast message shown when the cropped image is not saved
+         [CHAR LIMIT=50]-->  
+    <string name="crop_not_saved">کاٹی گئی تصویر کو محفوظ نہيں کیا گیا.</string>  
+    <!-- Toast message shown when there is no albums available [CHAR LIMIT=50]-->  
+    <string name="no_albums_alert">کوئی البم دستیاب نہيں.</string>  
+    <!-- Toast message shown when we close the AlbumPage because it is empty
+            [CHAR LIMIT=50] -->  
+    <string name="empty_album">O تصویریں/ویڈیو دستیاب.</string>  
+    <!-- Album label used to indicate the collection of PWA Buzz/Post photos -->  
+    <string name="picasa_posts">پوسٹ</string>  
+    <!-- A label describing that the current screen is for the user to pick
+         some albums to be viewable offline [CHAR LIMIT=30] -->  
+    <string name="make_available_offline">آف لائن دستیاب کروائيں</string>  
+    <!-- A label of a menu item for user to sync the content [CHAR LIMIT=30] -->  
+    <string name="sync_picasa_albums">ریفریش کرنا</string>  
+    <!-- A label on a button. The user clicks this button after he has
+         finished selection. [CHAR LIMIT=15] -->  
+    <string name="done">ہوگیا</string>  
+    <!-- String indicating the sequence of currently selected item in the
+            media set eg. 3 of 5 items [CHAR LIMIT=30] -->  
+    <string name="sequence_in_set">%2$d میں سے %1$d آئیٹم:</string>  
+    <!-- Text indicating the title of a media item in details window [CHAR LIMIT=14] -->  
+    <string name="title">عنوان</string>  
+    <!-- Text indicating the description of a media item in details window [CHAR LIMIT=14] -->  
+    <string name="description">وضاحت</string>  
+    <!-- Text indicating the creation time of a media item in details window [CHAR LIMIT=14] -->  
+    <string name="time">وقت</string>  
+    <!-- Text indicating the location of a media item in details window [CHAR LIMIT=14] -->  
+    <string name="location">مقام</string>  
+    <!-- Text indicating the path of a media item in details window [CHAR LIMIT=14] -->  
+    <string name="path">پاتھ</string>  
+    <!-- Text indicating the width of a media item in details window [CHAR LIMIT=14] -->  
+    <string name="width">چوڑائی</string>  
+    <!-- Text indicating the height of a media item in details window [CHAR LIMIT=14] -->  
+    <string name="height">اونچائی</string>  
+    <!-- Text indicating the orientation of a media item in details window [CHAR LIMIT=14] -->  
+    <string name="orientation">سمت</string>  
+    <!-- Text indicating the duration of a video item in details window [CHAR LIMIT=14] -->  
+    <string name="duration">دورانیہ</string>  
+    <!-- Text indicating the mime type of a media item in details window [CHAR LIMIT=14] -->  
+    <string name="mimetype">MIME کی قسم</string>  
+    <!-- Text indicating the file size of a media item in details window [CHAR LIMIT=14] -->  
+    <string name="file_size">فائل سائز</string>  
+    <!-- Text indicating the maker of a media item in details window [CHAR LIMIT=14] -->  
+    <string name="maker">بنانے والا</string>  
+    <!-- Text indicating the model of a media item in details window [CHAR LIMIT=14] -->  
+    <string name="model">ماڈل</string>  
+    <!-- Text indicating flash info of a media item in details window [CHAR LIMIT=14] -->  
+    <string name="flash">فلیش</string>  
+    <!-- Text indicating aperture of a media item in details window [CHAR LIMIT=14] -->  
+    <string name="aperture">سوراخ</string>  
+    <!-- Text indicating the focal length of a media item in details window [CHAR LIMIT=14] -->  
+    <string name="focal_length">فوکس کی لمبائ</string>  
+    <!-- Text indicating the white balance of a media item in details window [CHAR LIMIT=14] -->  
+    <string name="white_balance">سفید توازن</string>  
+    <!-- Text indicating the exposure time of a media item in details window [CHAR LIMIT=14] -->  
+    <string name="exposure_time">ایکسپوژر کا وقت</string>  
+    <!-- Text indicating the ISO speed rating of a media item in details window [CHAR LIMIT=14] -->  
+    <string name="iso">ISO</string>  
+    <!-- String indicating the time units in seconds. [CHAR LIMIT=8] -->  
+    <!-- String indicating the length units in milli-meters. [CHAR LIMIT=8] -->  
+    <string name="unit_mm">ملی میٹر</string>  
+    <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->  
+    <string name="manual">دستی</string>  
+    <!-- String indicating how camera shooting feature is used. [CHAR LIMIT=8] -->  
+    <string name="auto">خودکار</string>  
+    <!-- String indicating camera flash is fired. [CHAR LIMIT=14] -->  
+    <string name="flash_on">فلیش فائر کیا گیا</string>  
+    <!-- String indicating camera flash is not used. [CHAR LIMIT=14] -->  
+    <string name="flash_off">کوئی فلیش نہيں</string>  
+    <!-- Toast message shown after we make some album(s) available offline [CHAR LIMIT=50] -->  
+    <plurals name="make_albums_available_offline"> 
+        <item quantity="one">البم کو آف لائن دستیاب کررہا ہے.</item>  
+        <item quantity="other">البم کو آف لائن دستیاب کررہا ہے.</item> 
+    </plurals>  
+    <!-- Toast message shown after we try to make a local album available offline
+         [CHAR LIMIT=150] -->  
+    <string name="try_to_set_local_album_available_offline">یہ آئیٹم مقامی طور پر محفوظ ہے اور آف لائن دستیاب ہے.</string>  
+    <!-- A label shown on the action bar. It indicates that the user is
+         viewing all available albums [CHAR LIMIT=20] -->  
+    <string name="set_label_all_albums">تمام البم</string>  
+    <!-- A label shown on the action bar. It indicates that the user is
+         viewing albums stored locally on the device [CHAR LIMIT=20] -->  
+    <string name="set_label_local_albums">مقامی البم</string>  
+    <!-- A label shown on the action bar. It indicates that the user is
+         viewing MTP devices connected (like other digital cameras).
+         [CHAR LIMIT=20] -->  
+    <string name="set_label_mtp_devices">MTP آلات</string>  
+    <!-- A label shown on the action bar. It indicates that the user is
+         viewing Picasa albums [CHAR LIMIT=20] -->  
+    <string name="set_label_picasa_albums">Picasa البم</string>  
+    <!-- Label indicating the amount on free space on the device. The parameter
+         is a string representation of the amount of free space, eg. "20MB".
+         [CHAR LIMIT=20]
+    -->  
+    <string name="free_space_format"> 
+        <xliff:g id="bytes">%s</xliff:g> مفت
+    </string>  
+    <!-- Label of a group of pictures. The size of each picture in this group is
+         less than a certain amount. The parameter is a string representation
+         of that amount, eg. "10MB".
+         [CHAR LIMIT=20]
+    -->  
+    <string name="size_below"> 
+        <xliff:g id="size">%1$s</xliff:g> یا نیچے
+    </string>  
+    <!-- Label of a group of pictures. The size of each picture in this group is
+         more than a certain amount. The parameter is a string representation
+         of that amount, eg. "10MB".
+         [CHAR LIMIT=20]
+    -->  
+    <string name="size_above"> 
+        <xliff:g id="size">%1$s</xliff:g> یا اس سے زیادہ
+    </string>  
+    <!-- Label of a group of pictures. The size of each picture in this group is
+         between two amounts. The parameters are string representations of the two
+         amounts, eg. "10MB", "100MB".
+         [CHAR LIMIT=20]
+    -->  
+    <string name="size_between"> 
+        <xliff:g id="min_size">%1$s</xliff:g> تا 
+        <xliff:g id="max_size">%2$s</xliff:g> 
+    </string>  
+    <!-- A label shown on the action bar. It indicates that the operation
+         to import media item(s) [CHAR LIMIT=20] -->  
+    <string name="Import">درآمد</string>  
+    <!-- A label shown on the action bar. It indicates whether the import
+         operation succeeds or fails. [CHAR LIMIT=20] -->  
+    <string name="import_complete">درآمد کرنا مکمل</string>  
+    <string name="import_fail">درآمد کرنا ناکام</string>  
+    <!-- A toast indicating a camera is connected to the device [CHAR LIMIT=30]-->  
+    <string name="camera_connected">کیمرہ متصل.</string>  
+    <!-- A toast indicating a camera is disconnected [CHAR LIMIT=30] -->  
+    <string name="camera_disconnected">کیمرہ غیرمتصل.</string>  
+    <!-- A label shown on MTP albums thumbnail to instruct users to import
+        [CHAR LIMIT=40] -->  
+    <string name="click_import">درآمد کرنے کے لئے یہاں چھوئيں</string>  
+    <!-- The label on the radio button for the widget type that shows the images randomly. [CHAR LIMIT=30]-->  
+    <string name="widget_type_album">کوئی البم منتخب کریں</string>  
+    <!-- The label on the radio button for the widget type that shows the images in an album. [CHAR LIMIT=30]-->  
+    <string name="widget_type_shuffle">تمام تصویریں شفل کریں</string>  
+    <!-- The label on the radio button for the widget type that shows only one image. [CHAR LIMIT=30]-->  
+    <string name="widget_type_photo">تصویر منتخب کریں</string>  
+    <!-- The title of the dialog for choosing the type of widget. [CHAR LIMIT=20] -->  
+    <string name="widget_type">تصویریں منتخب کریں</string>  
+    <!-- Title of the Android Dreams slideshow screensaver. [CHAR LIMIT=20] -->  
+    <string name="slideshow_dream_name">سلائيڈ شو</string>  
+    <!-- Group by Albums tab on Action Bar. [CHAR LIMIT=12] -->  
+    <string name="albums">البم</string>  
+    <!-- Group by Times tab on Action Bar. [CHAR LIMIT=12] -->  
+    <string name="times">اوقات</string>  
+    <!-- Group by Locations tab on Action Bar. [CHAR LIMIT=12] -->  
+    <string name="locations">مقامات</string>  
+    <!-- Group by People tab on Action Bar. [CHAR LIMIT=12] -->  
+    <string name="people">افراد</string>  
+    <!-- Group by Tags tab on Action Bar. [CHAR LIMIT=12] -->  
+    <string name="tags">ٹیگ</string>  
+    <!-- Group by menu item. [CHAR LIMIT=20] -->  
+    <string name="group_by">بمطابق گروپ کریں</string>  
+    <!-- The title of the menu item which enable the settings [CHAR LIMIT=20] -->  
+    <string name="settings">ترتیبات</string>  
+    <!-- The title of menu item where user can add a new account -->  
+    <string name="add_account">اکاؤنٹ شامل کریں</string>  
+    <string name="fail_to_load_image">تصویر لوڈ نہیں ہوسکی</string>  
+    <string name="ok">کاٹیں</string>  
+    <string name="set_wallpaper">وال پیپر متعین کریں</string>  
+    <plurals name="delete_selection"> 
+        <item quantity="one">منتخب آئٹم حذف کریں؟</item>  
+        <item quantity="other">منتخب کردہ آئٹمز حذف کریں؟</item> 
+    </plurals>  
+    <string name="confirm">ٹھیک ہے</string>  
+    <string name="deleted">حذف کردہ</string>  
+    <string name="undo">رد کریں</string>  
+    <string name="folder_camera">کیمرا</string>  
+    <string name="folder_download">ڈاؤن لوڈ</string>  
+    <string name="folder_imported">درآمد کیا گیا</string>  
+    <string name="folder_screenshot">اسکرین شاٹ</string>  
+    <string name="help">مدد</string> 
+
+</resources>

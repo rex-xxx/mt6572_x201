@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+    <string name="app_name">ម៉ាស៊ីនគិតលេខ</string>
+    <string name="error">មានបញ្ហា</string>
+    <string name="digit0">0</string>
+    <string name="digit1">1</string>
+    <string name="digit2">2</string>
+    <string name="digit3">3</string>
+    <string name="digit4">4</string>
+    <string name="digit5">5</string>
+    <string name="digit6">6</string>
+    <string name="digit7">7</string>
+    <string name="digit8">8</string>
+    <string name="digit9">9</string>
+    <string name="del">លុបចោល</string>
+    <string name="clear">C</string>
+    <string name="sin">sin</string>
+    <string name="cos">cos</string>
+    <string name="tan">tan</string>
+    <string name="e">e</string>
+    <string name="ln">ln</string>
+    <string name="lg">log</string>
+    <string name="leftParen">(</string>
+    <string name="rightParen">)</string>
+    <string name="basic">បន្ទះមូលដ្ឋាន</string>
+    <string name="advanced">បន្ទះឈានមុខ</string>
+    <string name="clear_history">សំអាតប្រវត្តិ</string>
+    <string name="text_copied_toast">អត្ថបទដែលបានចម្លង ។</string>
+
+	<!--Content descriptions for accessibility. These strings will be read aloud to users who are using the calculator with
+    accessibility features enabled and should reflect the mathematical concept instead of a direct representation of what is shown
+    on the button-->
+    <string name="leftParenDesc">វង់ក្រចកបើក</string>
+    <string name="rightParenDesc">វង់ក្រចកបិទ</string>
+    <string name="factorialDesc">កត្តា</string>
+    <string name="lnDesc">ឡូការីតធម្មជាតិ</string>
+    <string name="lgDesc">ឡូការីត</string>
+    <string name="sqrtDesc">ឬសការេ</string>
+    <string name="divDesc">ចែក</string>
+    <string name="mulDesc">គុណ</string>
+    <string name="plusDesc">បូក</string>
+    <string name="minusDesc">ដក</string>
+    <string name="dotDesc">ចុច</string>
+    <string name="powerDesc">ស្វ័យគុណ</string>
+    <string name="delDesc">លុបចោល</string>
+    <string name="clearDesc">សំអាត</string>
+    <string name="tanDesc">តង់ហ្សង់</string>
+    <string name="sinDesc">ស៊ីននុស</string>
+    <string name="cosDesc">កូស៊ីនុស</string>
+    <string name="eDesc">"លេខ Euler's "</string>
+    <string name="piDesc">ផាយ</string>
+    <string name="equalDesc">ស្មើ</string>
+
+</resources>

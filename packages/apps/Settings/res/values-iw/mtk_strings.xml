@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_advanced_settings">הגדרות מתקדמות</string>  
+    <!-- Bluetooth settings.  The user-visible string that is used whenever referring to the FTP profile. -->  
+    <string name="bluetooth_profile_ftp">העברת קבצים</string>  
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the FTP checkbox preference that describes how checking it will set the FTP profile as preferred. -->  
+    <string name="bluetooth_ftp_profile_summary_use_for">השתמש להעברת קבצים</string>  
+    <string name="bluetooth_ftp_profile_summary_connected">"מחובר להעברת קבצים"</string>  
+    <string name="mtp_transfer_unmount_error_text">לא ניתן לבטל את טעינת כרטיס ה-SD בעת העברת קבצים</string>  
+    <string name="mtp_transfer_erase_error_text">לא ניתן למחוק כרטיס SD בעת העברת קבצים</string>  
+    <string name="launch_error">"לא ניתן להפעיל את היישום!"</string>  
+    <string name="dlg_confirm_unmount_usb_title" product="default">לבטל את טעינת התקן ה-USB?</string>  
+    <string name="dlg_confirm_unmount_usb_text" product="default">אם תבטל את טעינת התקן ה-USB, חלק מהיישומים שאתה משתמש בהם יופסקו ועשויים שלא להיות זמינים עד שתכניס בחזרה את התקן ה-USB.</string>  
+    <string name="dlg_error_unmount_usb_title" product="default"/>  
+    <string name="dlg_error_unmount_usb_text" product="default">לא ניתן לבטל את טעינת התקן ה-USB. נסה שוב מאוחר יותר.</string>  
+    <string name="unmount_usb_inform_text" product="default">טעינת התקן ה-USB תבוטל.</string>  
+    <string name="sd_eject_usbstorage" product="default">בטל את טעינת התקן ה-USB</string>  
+    <string name="sd_eject_usbstorage_summary" product="default">בטל את טעינת התקן ה-USB כדי שתוכל להוציאו בצורה בטיחותית</string>  
+    <string name="sd_mount_usbstorage" product="default">טען התקן USB</string>  
+    <string name="sd_insert_usb_summary" product="default">הכנס התקן USB לטעינה</string>  
+    <!-- Storage setting.  Title for UMS checkbox [CHAR LIMIT=30]-->  
+    <string name="usb_ums_title">התקן USB</string>  
+    <!-- Storage setting.  Summary for UMS checkbox [CHAR LIMIT=NONE]-->  
+    <string name="usb_ums_summary">"מומלץ ל-XP. מאפשר להעביר קבצים בין המחשב להתקן ה-USB ‏Android."</string>  
+    <string name="usb_charge_title">טעינה בלבד</string>  
+    <string name="usb_charge_summary">מפסיק את כל פונקציות ה-USB. מאפשר להאיץ את טעינת התקן ה-USB ולהקטין את צריכת החשמל.</string>  
+    <!-- Agps Settings -->  
+    <string name="NI_Request_ID">מזהה המבקש</string>  
+    <string name="NI_Request_ClientName">שם הלקוח</string>  
+    <string name="agps_str_verify">אימות</string>  
+    <string name="agps_str_notify">התראה</string>  
+    <string name="EM_NotifyDialog_title">EM דווח</string>
+    <string name="agps_OK">אישור</string>  
+    <string name="agps_str_allow">התר</string>  
+    <string name="agps_str_deny">דחה</string>  
+    <string name="agps_str_error">שגיאה</string>  
+    <string name="AGPS_DEFAULT_STRING">מחרוזת ברירת מחדל של A-GPS</string>  
+    <string name="AGPS_CAUSE_NETWORK_CREATE_FAIL">יצירת רשת נכשלה</string>  
+    <string name="AGPS_CAUSE_BAD_PUSH_CONTENT">תוכן PUSH שגוי</string>  
+    <string name="AGPS_CAUSE_NOT_SUPPORTED">הפעולה לא נתמכת</string>  
+    <string name="AGPS_CAUSE_REQ_NOT_ACCEPTED">הבקשה לא אושרה</string>  
+    <string name="AGPS_CAUSE_NO_RESOURCE">אין משאב לטיפול בתהליך חדש</string>  
+    <string name="AGPS_CAUSE_NETWORK_DISCONN">חיבור הרשת נפל</string>  
+    <string name="AGPS_CAUSE_REMOTE_ABORT">הצד המרוחק ביטל את ההפעלה (התקבל SUPL END)</string>  
+    <string name="AGPS_CAUSE_TIMER_EXPIRY">ההודעה המצופה לא חזרה בפרק זמן ספציפי</string>  
+    <string name="AGPS_CAUSE_REMOTE_MSG_ERROR">התקבל תוכן ההודעה שגוי</string>  
+    <string name="AGPS_CAUSE_USER_AGREE">המשתמש מסכים באישור</string>  
+    <string name="AGPS_CAUSE_USER_DENY">המשתמש לא מסכים באישור</string>  
+    <string name="AGPS_CAUSE_NO_POSITION">רק למיקום NO</string>  
+    <string name="AGPS_CAUSE_TLS_AUTH_FAIL">אימות TLC נכשל</string>  
+    <string name="USER_RESPONSE_TIMEOUT">ממתין לתום הזמן המוקצב לאימות</string>  
+    <string name="AGPS_EM_RECV_SI_REQ">התקבלה בקשת SI</string>
+    <string name="AGPS_EM_POS_FIXED">המיקום נקבע</string>
+    <string name="AGPS_NOTIFY_ONLY">התראה על בקשת מיקום</string>  
+    <string name="AGPS_NOTIFY_ALLOW_NO_ANSWER">בקשת מיקום (התר אם אין תשובה)</string>  
+    <string name="AGPS_NOTIFY_DENY_NO_ANSWER">בקשת מיקום (דחה אם אין תשובה)</string>  
+    <string name="AGPS_NOTIFY_PRIVACY">בקשת מיקום (פרטיות)</string>
+    <string name="epo_entrance_title">הגדרות EPO</string>  
+    <string name="epo_entrance_summary">לחץ כדי לשנות תצורות EPO</string>  
+    <string name="agps_settings_title">הגדרות A-GPS</string>  
+    <string name="epo_enable_confirm_title">אישור להפיכת EPO לזמין</string>  
+    <string name="epo_enable_confirm_message">דרוש חיבור נתונים אלחוטי כדי להשיג נתוני סיוע של GPS ‏(EPO) שעלולים להביא לחיוב נוסף בגין הרשת. האם אתה בטוח שברצונך להפעיל את הסיוע של ה-GPS?</string>  
+    <string name="epo_enable_confirm_allow">המשך</string>  
+    <string name="epo_enable_confirm_deny">ביטול</string>  
+    <string name="agps_enable_confirm_title">אישור להפיכת A-GPS לזמין</string>  
+    <string name="agps_enable_confirm">ל-A-GPS דרוש חיבור נתונים אלחוטי כדי להשיג נתוני סיוע, שעלולים להביא לחיוב נוסף בגין הרשת. האם אתה בטוח שברצונך להפעיל את A-GPS?</string>  
+    <string name="agps_enable_confirm_allow">המשך</string>  
+    <string name="agps_enable_confirm_deny">ביטול</string>  
+    <string name="epo_enable_title">סיוע של EPO של GPS</string>  
+    <string name="epo_enable_summary">השתמש בנתוני הסיוע של GPS ‏(EPO) כדי להאיץ את קביעת המיקום ב-GPS.</string>  
+    <string name="agps_settings_enable_on">ה-GPS יכול להאיץ את הזמן הקבוע של מיקום באמצעות נתוני סיוע דרך חיבור נתונים אלחוטי.</string>  
+    <string name="agps_settings_enable_off">השתמש בנתוני הסיוע כדי להאיץ את הזמן הקבוע למיקום באמצעות GPS.</string>  
+    <string name="agps_settings_eng_enable">הגדרות A-GPS</string>  
+    <string name="agps_settings_eng_summary">הגדר את הגדרות A-GPS</string>  
+    <string name="agps_disable_on_reboot">הפוך ללא זמינה לאחר אתחול</string>  
+    <string name="agps_disable_on_reboot_summary">הפוך את היכולת A-GPS ללא זמינה לאחר האתחול</string>  
+    <string name="Network_Initiate">בקשת רשת</string>  
+    <string name="Network_Initiate_Summary_on">התר לרשת לבקש מיקום</string>  
+    <string name="Network_Initiate_Summary_off">אל תתיר לרשת לבקש מיקום</string>  
+    <string name="Network_Used">רשת בשימוש</string>  
+    <string name="agps_profile_select">בורר פרופילים</string>  
+    <string name="agps_profile_SLP_address_editbox_title">כתובת SLP</string>  
+    <string name="port_title">יציאת SLP</string>  
+    <string name="tls_summary_off">TLS כבוי</string>  
+    <string name="tls_summary_on">TLS מופעל</string>  
+    <string name="MobileNetwork_Category">רשת סלולרית</string>  
+    <string name="AgpsHelp_Category">עזרה</string>  
+    <string name="about_agps_title">על A-GPS</string>  
+    <string name="about_agps_message">\t ‏A-GPS ‏(Assisted-GPS) היא מערכת שיכולה לשפר את ביצועי האתחול וזמן קביעת המיקום הראשון (TTFF) של לווייני GPS. \n\t התקן עם יכולת A-GPS יכול להתחבר לשרתי מיקום כדי להשיג את נתוני הסיוע באמצעות חיבור נתונים של רשת סלולרית. \n\t שים לב לכך שתעבורת הנתונים עלולה להביא לחיובים נוספים בכפוף לתנאי הנדידה של הרשת.. לקבלת פרטים בנושא, פנה למפעיל.</string>  
+    <string name="epo_auto_download_title">הורדה אוטומטית</string>  
+    <string name="epo_auto_download_summary">הורדה אוטומטית של נתוני המיקום מהלוויינים</string>  
+    <string name="epo_info_title">פרטי קובץ EPO</string>  
+    <string name="epo_download_time_title">זמן הורדה</string>  
+    <string name="epo_download_time_summary">לא זמין</string>  
+    <string name="epo_start_time_title">שעת התחלה</string>  
+    <string name="epo_start_time_summary">לא זמין</string>  
+    <string name="epo_expire_time_title">שעת פקיעת התוקף</string>  
+    <string name="epo_expire_time_summary">לא זמין</string>  
+    <string name="epo_about_title">על EPO</string>  
+    <string name="epo_about_message">\t‏EPO ‏(מסלול חיזוי מורחב) היא אחת מטכנולוגיות A-GPS הקנייניות החדשניות של MediaTek המבוססת על שרת לא מקוון. \n\tטכנולוגיה זו תומכת בחיזוי מסלולי לוויינים של 30 יום, דבר המשפר משמעותית את חוויית המשתמש על ידי שיפור הזמן לקביעת המיקום הראשון (TTFF).</string>  
+    <string name="Network_Local_and_Roaming_Summary">השתמש ב-A-GPS ברשת המקורית ובנדידה</string>  
+    <string name="Network_Only_Local_Summary">השתמש ב-A-GPS ברשת המקורית</string>  
+    <string name="MobileNetwork_DataConn_off">חיבור הנתונים כבוי</string>  
+    <string name="MobileNetwork_off_Summary">הפעל את חיבור הנתונים לפני שימוש ב-A-GPS</string>  
+    <string name="WiFiNetwork_on_title">Wi-Fi פעילה</string>  
+    <string name="MobileNetwork_on_Summary">A-GPS זקוק לגישה לרשת סלולרית באמצעות חיבור נתונים</string>  
+    <string name="MobileNetwork_SIM_Active">ה-SIM 
+        <xliff:g id="active_sim_id">%1$s</xliff:g> פעיל
+    </string>  
+    <string name="Network_Roaming_dialog_title">שים לב</string>  
+    <string name="Network_Roaming_dialog_content">אם הרשת כפופה לתנאי נדידה, תעבורת הנתונים של A-GPS עלולה להביא לחיובים נוספים בגין נדידה.</string>  
+    <string name="epo_download">הורד</string>  
+    <string name="epo_error_no_activite_network">הפעל את חיבור הנתונים לפני הורדת נתוני EPO.</string>  
+    <string name="epo_cancel_download">ביטול</string>  
+    <string name="epo_status_stopping">מפסיק...</string>  
+    <string name="epo_status_starting">מתחיל...</string>  
+    <string name="epo_err_update_failed">עדכון קובצי EPO נכשל</string>  
+    <string name="epo_error_dialog_title">שגיאה</string>  
+    <string name="epo_ok_btn">אישור</string>  
+    <string name="epo_warning_dialog_title">שים לב</string>  
+    <string name="epo_warning_dialog_message">הורדת נתוני EPO במצב נדידה עלולה להביא לחיובים נוספים. האם אתה בטוח שברצונך להמשיך?</string>  
+    <!-- AudioProfile Settings -->  
+    <string name="ring_summary">צלצול</string>  
+    <string name="ring_vibrate_summary">צלצול ורטט</string>  
+    <string name="silent_summary">שקט בלבד</string>  
+    <string name="meeting_summary">רטט בלבד</string>  
+    <string name="outdoor_summary">הצלצול החזק ביותר ורטט</string>  
+    <string name="audio_profile_reset">איפוס</string>  
+    <string name="audio_profile_add">הוסף</string>  
+    <string name="audio_profile_enable">הפוך לזמין</string>  
+    <string name="audio_profile_rename">שנה שם</string>  
+    <string name="audio_profile_delete">מחק</string>  
+    <string name="audio_profile_message_reset">כל הגדרות פרופילי השמע יאופסו לברירת המחדל</string>  
+    <string name="audio_profile_message_rename">הזן שם פרופיל חדש</string>  
+    <string name="audio_profile_message_name_error">השם שהוזן כבר קיים</string>  
+    <string name="audio_profile_message_name_length_wrong">על השם להכיל לפחות תו אחד</string>  
+    <string name="audio_profile_message_delete">הפרופיל 
+        <xliff:g id="profile">%s</xliff:g> יימחק
+    </string>  
+    <string name="audio_profile_message_overflow">באפשרותך להוסיף רק 6 פרופילים מותאמים אישית</string>  
+    <string name="ok">אישור</string>  
+    <string name="audio_profile_category_custom_title">פרופילים שהוגדרו על ידי המשתמש</string>  
+    <string name="audio_profile_category_predefine_title">פרופילים שהוגדרו מראש</string>  
+    <string name="general_settings_title">"כללי"</string>  
+    <string name="silent_settings_title">שקט</string>  
+    <string name="meeting_settings_title">פגישה</string>  
+    <string name="outdoor_settings_title">בחוץ</string>  
+    <!-- modify default apns notices -->  
+    <string name="apn_predefine_change_dialog_notice">האם אתה בטוח שברצונך לשמור? שינויים ב-APN של ברירת מחדל עלולים לגרום לבעיות בחיבור!"</string>  
+    <!-- The title for AlertDialog when APN Settings is called while Airplane Mode is on -->  
+    <string name="dialog_apn_disabled">APN לא זמין!</string>  
+    <!-- Error message for dialog of apn disabled error  -->  
+    <string name="dialog_apn_disabled_msg">כבה את מצב הטיסה כדי להפוך את הגדרות APN לזמינות.</string>  
+    <string name="sound_category_feedback_title">מערכת</string>  
+    <string name="sound_category_calls_title">שיחות נכנסות</string>  
+    <string name="voice_call_title">רינגטון של שיחה קולית</string>  
+    <string name="voice_call_summary">"הגדר את הרינגטון של ברירת המחדל לשיחות קוליות"</string>  
+    <string name="video_call_title">רינגטון של שיחת וידאו</string>  
+    <string name="video_call_summary">הגדר את הרינגטון של ברירת המחדל לשיחות וידאו</string>  
+    <string name="Phone_vibrate_summary">רטט בהתקנים עבור שיחות נכנסות</string>  
+    <string name="vibrate_title">רטט</string>  
+    <string name="audio_profile_settings_title">פרופילי שמע</string>  
+    <!--Add Strings for MTK AboutPhone Settings -->  
+    <!-- Gemini AboutPhone status sim status title -->  
+    <string name="sim_status_title">סטטוס SIM</string>  
+    <!-- Gemini AboutPhone status sim status summary -->  
+    <string name="sim_status_summary">מידע הקשור ל-SIM</string>  
+    <!-- Gemini AboutPhone status imei slot1 title -->  
+    <string name="status_imei_slot1">‎IMEI(חריץ1)‎</string>  
+    <!-- Gemini AboutPhone status imei sv slot1 title -->  
+    <string name="status_imei_sv_slot1">IMEI SV(חריץ1)‎</string>  
+    <!-- Gemini AboutPhone status imei slot2 title -->  
+    <string name="status_imei_slot2">IMEI(חריץ2)‎</string>  
+    <!-- Gemini AboutPhone status imei sv slot2 title -->  
+    <string name="status_imei_sv_slot2">IMEI SV(חריץ2)‎</string>  
+    <!-- Gemini CDMA AboutPhone status min number slot1 title -->  
+    <string name="status_min_number_slot1">MIN(חריץ1)‎</string>  
+    <!-- Gemini CDMA AboutPhone status prl version slot1 title -->  
+    <string name="status_prl_version_slot1">PRL Version(חריץ1)‎</string>  
+    <!-- Gemini CDMA AboutPhone status meid number slot1 title -->  
+    <string name="status_meid_number_slot1">MEID(חריץ1)‎</string>  
+    <!-- Gemini CDMA AboutPhone status min number slot2 title -->  
+    <string name="status_min_number_slot2">MIN(חריץ2)‎</string>  
+    <!-- Gemini CDMA AboutPhone status prl version slot2 title -->  
+    <string name="status_prl_version_slot2">PRL Version(חריץ2)‎</string>  
+    <!-- Gemini CDMA AboutPhone status meid number slot2 title -->  
+    <string name="status_meid_number_slot2">MEID(חריץ2)‎</string>  
+    <string name="slot_status_title">"פרטי IMEI"</string>  
+    <string name="slot_status_summary">"פרטים קשורים של IMEI"</string>  
+    <!-- About phone screen,  setting option name-->  
+    <string name="custom_build_version">גרסה שנבנתה בהתאמה אישית</string>  
+    <!-- A menu item in "About phone" that allows the user to update the phone with settings
+    from their cell phone carrier. The use of the string is similar to the string
+    "system_update_settings_list_item_title" in this project. [CHAR LIMIT=25] -->  
+    <!-- for software update MOTA -->  
+    <string name="software_update">שירות עדכון תוכנה</string>  
+    <string name="mota_system_update_summary">"בדוק עדכוני המערכת בשרת"</string>  
+    <!-- About phone screen,  more software updates-->  
+    <string name="software_updates_more_title">עדכוני תוכנה</string>  
+    <string name="software_updates_more_summary">חפש אחר תוכנה בגרסה חדשה</string>  
+    <string name="software_updates_scomo_summary">חפש אחר גרסה חדשה של היישום</string>  
+    <string name="scomo_settings_title">שירות עדכון תוכנה</string>  
+    <!-- Battery_level_show -->  
+    <string name="battery_level" translatable="false">" 
+        <xliff:g id="battery">%s</xliff:g>%%"
+    </string>  
+    <!--End of String for Gemini AboutPhone Settings-->  
+    <!--Add Strings for MTK Display Settings -->  
+    <string name="screen_timeout_CU">זמן מוקצב למסך</string>  
+    <!-- Add for landscape launcher-->  
+    <string name="landscape_launcher_title">מפעיל נוף</string>  
+    <string name="landscape_launcher_none">ללא</string>  
+    <!-- for TVOut -->  
+    <string name="tvout_settings">TV out</string>  
+    <string name="tvout_settings_summary">הגדרות TV out</string>  
+    <string name="tv_system_title">מערכת טלוויזיה</string>  
+    <!-- For HDMI begin -->  
+    <string name="hdmi_settings">הגדרות HDMI</string>  
+    <string name="hdmi_settings_summary">לחץ כדי לקבוע תצורת HDMI</string>  
+    <string name="hdmi_audio_toggler">שמע</string>  
+    <string name="hdmi_video_toggler">וידאו</string>  
+    <string name="hdmi_video_resolution">רזולוציית וידאו</string>  
+    <string name="hdmi_notification_title">כבל HDMI מחובר</string>  
+    <string name="hdmi_notification_content">לחץ כדי לקבוע תצורת HDMI</string>  
+    <!--Theme manager -->  
+    <string name="display_settings_scences_title">סצנות</string>  
+    <string name="mtk_thememanager_title">נושא</string>  
+    <string name="default_name">ברירת מחדל</string>  
+    <string name="custom_theme_name">[%1$s] חדש</string>  
+    <string name="loading">טוען...</string>  
+    <!--End of String for MTK Display Settings-->  
+    <!--Add Strings for MTK Security Settings -->  
+    <string name="sim_enter_pin_hints">(הזן 4-8 ספרות)</string>  
+    <string name="sim_remain">(נותר: 
+        <xliff:g id="remains">%d</xliff:g>)
+    </string>  
+    <!--End of String for MTK Security Settings-->  
+    <!--Add Strings for MTK DateTime Settings-->  
+    <!-- GPS time sync -->  
+    <string name="gps_time_sync_attention_gps_on">תידרש דקה אחת לכל היותר כדי להשיג מיקום GPS. בנוסף, ה-GPS עלול להיכשל במתן השעה בשל אות סביבתי חלש.\n\nהאם אתה בטוח שברצונך להשתמש ב-GPS כדי לספק את השעה?</string>  
+    <string name="gps_time_sync_attention_gps_off">כדי להשתמש בשעה שמספק ה-GPS, ראשית עליך להפוך אותו לזמין. לאחר מכן תידרש דקה אחת לכל היותר כדי להשיג מיקום GPS. בנוסף, ה-GPS עלול להיכשל במתן השעה בשל אות סביבתי חלש. \n\nהאם אתה בטוח שברצונך להפוך את ה-GPS לזמין ולהמתין לשעה שהוא מספק?</string>  
+    <!--End of String for MTK DateTime Settings-->  
+    <!--Add Strings for MTK Backup & reset Settings-->  
+    <!-- Drm Settings -->  
+    <!-- Privacy Screen,setting option name under Privacy Personal data -->  
+    <string name="drm_settings_title">איפוס DRM</string>  
+    <!-- Privacy Screen,settings option summary text under Privacy personal data -->  
+    <string name="drm_settings_summary">מחיקת כל רישיונות ה-DRM</string>  
+    <!-- Drm settings Activity lable -->  
+    <!-- Dialog msg for confirmation to reset DRM -->  
+    <string name="drm_reset_dialog_msg">פעולה זו תמחק את כל הרישיונות בהתקן זה. להמשיך?</string>  
+    <!-- Toast msg for confirmation to reset DRM -->  
+    <string name="drm_reset_toast_msg">הרישיונות נמחקו בהצלחה.</string>  
+    <!--End of String for MTK DateTime Settings-->  
+    <!--Add Strings for MTK SIM management Settings-->  
+    <string name="gemini_sim_management_title">ניהול SIM</string>  
+    <string name="gemini_sim_info_title">פרטי SIM</string>  
+    <string name="gemini_default_sim_title">SIM של ברירת מחדל</string>  
+    <string name="gemini_general_settings_title">הגדרות כלליות</string>  
+    <string name="gemini_roaming_settings_title">נדידה</string>  
+    <string name="gemini_data_roaming_title">נתוני נדידה</string>  
+    <string name="gemini_data_roaming_summary">התחבר לשירותי נתונים בעת נדידה</string>  
+    <string name="gemini_roaming_reminder_title">הצג תזכורת לנדידה</string>  
+    <string name="gemini_roaming_reminder_summary">הצג הצעות SIM לפי השימוש ב-SIM</string>  
+    <string name="gemini_contacts_sim_title">"הצמדת אנשי קשר"</string>
+    <string name="gemini_contacts_sim_summary">הצמדת אנשי הקשר לכרטיס SIM ספציפי</string>
+    <string name="gemini_voice_call">שיחה קולית</string>  
+    <string name="gemini_video_call">שיחת וידאו</string>  
+    <string name="gemini_data_connection">חיבור נתונים</string>  
+    <string name="gemini_msg">שליחת הודעות</string>  
+    <string name="gemini_default_sim_always_ask">שאל תמיד</string>  
+    <string name="gemini_intenet_call">שיחת אינטרנט</string>  
+    <string name="gemini_default_sim_never">כבוי</string>  
+    <string name="gemini_default_sim_3g_off">כבוי</string>  
+    <!-- GSM/UMTS Options strings -->  
+    <string name="gemini_gsm_umts_network_preferences_title">מצב רשת</string>  
+    <string name="gemini_gsm_umts_network_preferneces_summary">לא יושם עדיין!</string>  
+    <string name="gemini_gsm_umts_network_preferences_dialogtitle">מצב רשת</string>  
+    <string name="gemini_3g_service_settings">שירות 3G</string>  
+    <!-- Strings for Gemini begin-->  
+    <!-- Dual sim settings activate progress message string -->  
+    <string name="gemini_sim_mode_progress_activating_message">מפעיל\u2026</string>  
+    <!-- Dual sim settings deactivate progress message string -->  
+    <string name="gemini_sim_mode_progress_deactivating_message">משבית\u2026</string>  
+    <!-- Dual sim settings mode change failed message string -->  
+    <string name="gemini_sim_mode_change_failed_message">כשל, שגיאת רשת.</string>  
+    <!-- Dual sim settings mode enter airplanemode confirm title string -->  
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_title">מצב טיסה</string>  
+    <!-- Dual sim settings mode enter airplanemode WiFi and Bt will both close confirm message string -->  
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_message">הטלפון יעבור למצב טיסה. כל החיבורים האלחוטיים יושבתו. להמשיך?</string>  
+    <string name="gemini_sim_info_editor_name">ערוך שם SIM</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">השמירה נכשלה</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">שם כפול עבור כרטיס SIM</string>  
+    <string name="gemini_sim_info_editor_number">הזן מספר טלפון</string>  
+    <string name="gemini_sim_info_editor_color">הגדר צבע רקע</string>  
+    <string name="gemini_sim_info_editor_number_display_format">הצג מספרים</string>  
+    <string name="gemini_no_sim_indicator">אין כרטיס SIM</string>  
+    <string name="gemini_sim_list_default_title">רשימת כרטיסי SIM</string>  
+    <string name="gemini_data_connection_progress_message">"המתן..."</string>  
+    <string name="gemini_3g_modem_switching_message">"החלפת SIM תימשך בערך 10 שניות. המתן..."</string>  
+    <string name="gemini_3g_modem_switch_confirm_message">"פעולה זו תעביר גם שירות 3G ל-SIM זה. להמשיך? ודא גם שה-SIM שנבחר תומך בשירות 3G."</string>  
+    <string name="gemini_3g_disable_warning">"שירות 3G אינו זמין ב-SIM שנבחר. הדבר עלול להביא לטעינה אטית יותר של נתונים. תוכל לשנות את הגדרת שירות ה-3G בהגדרות &gt; אלחוט ורשתות &gt; רשתות סלולריות."</string>  
+    <string name="gemini_3g_disable_warning_cu">"שירות 3G אינו זמין ב-SIM שנבחר. הדבר עלול להביא לטעינה אטית יותר של נתונים. תוכל לשנות את הגדרת שירות ה-3G בהגדרות &gt; ניהול SIM."</string>  
+    <!-- Strings for CU wap push begin-->  
+    <string name="gemini_wap_push_permission_head">לאחר הפיכת הדחיפה האוטומטית לזמינה, תוכל לקבל הודעות בדחיפה, להפעיל יישומים מקומיים ולהפיק תעבורת נתונים. שירות הדחיפה האוטומטית הרגילים כוללים הודעות דוא"ל, ניהול התקנים, חיוויי שירותים, טעינת שירותים ודחיפת הקצאות.</string>  
+    <string name="gemini_wap_push_permission_tail">להסכים להסכם?</string>  
+    <string name="gemini_wap_push_permission_title">הסכם שירות לדחיפה אוטומטית</string>  
+    <string name="gemini_wap_push_permission">שירות דחיפה אוטומטית</string>  
+    <!-- Strings for CU wap push end-->  
+    <!-- add for gemini enhancement  SIM tether info part    begin -->  
+    <string name="gemini_3g_disable_warning_case0">"ראשית עליך להפוך את נדידת הנתונים לזמינה עבור SIM זה, והדבר עלול להביא לחיובים בגין נדידה! האם אתה בטוח שברצונך להפוך את נדידת הנתונים לזמינה ולבחור ב-SIM זה?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"שירות 3G אינו זמין ב-SIM שנבחר. הדבר עלול להביא לטעינה אטית יותר של נתונים. תוכל לשנות את הגדרת שירות ה-3G בהגדרות &gt; אלחוט ורשתות &gt; רשתות סלולריות. האם אתה בטוח שברצונך לבחור ב-SIM זה?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"שירות 3G אינו זמין ב-SIM שנבחר. הדבר עלול להביא לטעינה אטית יותר של נתונים. תוכל לשנות את הגדרת שירות ה-3G בהגדרות &gt; ניהול SIM. האם אתה בטוח שברצונך לבחור ב-SIM זה?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"ראשית עליך להפוך את נדידת הנתונים לזמינה עבור SIM זה, והדבר עלול להביא לחיובים בגין נדידה! בנוסף, שירות 3G אינו זמין ב-SIM זה. הדבר עלול להביא לטעינה אטית יותר של נתונים. תוכל לשנות זאת בהגדרות &gt; אלחוט ורשתות &gt; רשתות סלולריות. האם אתה בטוח שברצונך להפוך את נדידת הנתונים לזמינה ולבחור ב-SIM זה?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"ראשית עליך להפוך את נדידת הנתונים לזמינה עבור SIM זה, והדבר עלול להביא לחיובים בגין נדידה! בנוסף, שירות 3G אינו זמין ב-SIM זה. הדבר עלול להביא לטעינה אטית יותר של נתונים. תוכל לשנות זאת בהגדרות &gt; ניהול SIM. האם אתה בטוח שברצונך להפוך את נדידת הנתונים לזמינה ולבחור ב-SIM זה?"</string>  
+    <string name="gemini_sim_tether_info_title">אנשי קשר ו-SIM</string>  
+    <string name="gemini_sim_tether_add_record">הוסף אנשי קשר</string>  
+    <string name="gemini_sim_add_title">אנשי קשר</string>  
+    <!-- Displayed full screen when the user has no tether info to display-->  
+    <string name="gemini_sim_tether_norecord">"אין מספר איש קשר המשויך לכרטיס ה-SIM הנוכחי.\n\nגע בלחצן הוסף אנשי קשר כדי לבחור באנשי הקשר שברצונך לקשר לכרטיס SIM זה"</string>  
+    <string name="gemini_sim_tether_nocontacts">"אין אנשי קשר שמורים בטלפון. הוסף איש קשר חדש או ייבא תחילה מרשימת אנשי הקשר"</string>  
+    <string name="gemini_sim_tether_no_assc_contacts">"כל אנשי הקשר קושרו בהצלחה"</string>  
+    <string name="gemini_sim_tether_disassociate">בטל שיוך</string>  
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g>נבחרו</string>
+    <string name="gemini_sim_tether_unselect_all">בטל בחירה בהכל</string>
+    <string name="gemini_sim_tether_nocontact_confirm">אישור</string>  
+    <string name="gemini_sim_tether_select_all">בחר הכל</string>  
+    <string name="gemini_sim_tether_select_ok">שמור</string>  
+    <string name="gemini_sim_tether_select_cancel">ביטול</string>  
+    <string name="gemini_sim_tether_revert_title">שים לב</string>  
+    <string name="gemini_sim_tether_revert_message">התצורות שלך השתנו ולא נשמרו. האם אתה בטוח שברצונך לצאת בלי לשמור?</string>  
+    <string name="gemini_tether_saving_progress_message">שומר...</string>  
+    <!-- add for gemini enhancement SIM tether info part end -->  
+    <!-- Strings for Gemini SimLock Settings -->  
+    <!-- Gemini SimLock error message -->  
+    <string name="gemini_sim_lock_simid_error">כשל, מזהה SIM לא חוקי.</string>
+    <!-- Gemini SimLock sim1 not insert message -->  
+    <string name="gemini_sim_lock_no_insert_message_sim">ה-SIM לא הוכנס.</string>
+    <!-- Gemini SimLock sim1 radio off message -->  
+    <string name="gemini_sim_lock_radio_off_message_sim1">Radio1 כבוי.</string>
+    <!-- Gemini SimLock sim2 radio off message -->  
+    <string name="gemini_sim_lock_radio_off_message_sim2">Radio2 כבוי.</string>
+    <!--End of String for SIM Management Settings-->  
+    <!-- for CU application -->  
+    <string name="akp_installer_settings_title">מתקין APK</string>  
+    <string name="akp_installer_settings_summary">התקן את ה-APK מהזיכרון של הטלפון וכרטיס ה-SD</string>  
+    <string name="launch_main_label">הפעל יישום</string>  
+    <string name="launch_main">הפעל את היישום לפי הפעילות הראשית</string>  
+    <string name="launch_activitie">הפעל</string>  
+    <string name="move_app_to_where">העבר אל 
+        <xliff:g id="location">%s</xliff:g> 
+    </string>  
+    <!--Wi-Fi settings strings start-->  
+    <string name="wifi_no_cert_for_wapi">לא ניתן למצוא את האישור ל-AP המתחבר הנוכחי</string>  
+    <!-- Label for the SIM Slot of EAP-SIM method support -->  
+    <string name="sim_slot">חריץ SIM</string>  
+    <!-- Label for the SIM Slot 0 of EAP-SIM method support -->  
+    <string name="eap_sim_slot_0">חריץ SIM 1</string>  
+    <!-- Label for the SIM Slot of EAP-SIM method support -->  
+    <string name="eap_sim_slot_1">חריץ SIM 2</string>  
+    <!-- Label for the toast if user use eap-sim/aka in airplane mode -->  
+    <string name="eap_sim_aka_airplanemode">כבה את מצב הטיסה כדי להשתמש ב-EAP-SIM/AKA</string>  
+    <!-- Label for the toast if user use eap-sim/aka when sim card is absent -->  
+    <string name="eap_sim_aka_no_sim_error">עליך להכניס כרטיס SIM כדי להשתמש ב-EAP-SIM/AKA</string>  
+    <!-- Label for the toast if user use eap-sim/aka when user don't select a sim slot -->  
+    <string name="eap_sim_aka_no_sim_slot_selected">עליך לבחור חריץ SIM כדי להשתמש ב-EAP-SIM/AKA</string>  
+    <!--for wifi security title-->  
+    <!-- Concise terminology for wifi with WAPI PSK -->  
+    <string name="wifi_security_wapi_certificate">אישור WAPI</string>  
+    <!-- Label for the WAPI user certificate of the network -->  
+    <string name="wapi_user_certificate">אישור משתמש</string>  
+    <!-- Label for the WAPI ASE certificate of the network -->  
+    <string name="wapi_as_certificate">אישור ASE</string>  
+    <!-- Label for the check box for hexadecimal password -->  
+    <string name="wifi_hex_password">סיסמה הקסדצימלית.</string>  
+    <!-- The label for WEP transmit Key -->  
+    <string name="wifi_WEP_transmit_key">שדר מפתח</string>  
+    <!-- The label for WEP Secury Key -->  
+    <string name="wifi_WEP_secury_key">מפתח אבטחה</string>  
+    <!--add for Wi-Fi hotspot auto-sleep policy-->  
+    <string name="wifi_tether_auto_disable_title">השאר את הנקודה החמה של Wi-Fi פועלת</string>
+    <string name="wifi_tether_auto_channel_text">אוטומטי</string>  
+    <string name="wifi_tether_auto_channel_width_text">אוטומטי 20/40MHz</string>  
+    <string name="wifi_channel">תחנה מועדפת</string>  
+    <string name="wifi_channel_width">רוחב תחנה</string>  
+    <string name="confirm_title">אישור</string>  
+    <!--Wi-Fi settings strings end-->  
+    <!-- Wireless settings for PCH Monitor start -->  
+    <string name="pch_toggle_title">מצב העדפה של העברת GPRS</string>  
+    <!-- for PCH Monitor data prefer -->  
+    <string name="pch_data_prefer_summary_off">העדפת נתונים</string>  
+    <!-- for PCH Monitor call prefer-->  
+    <string name="pch_call_prefer_summary_on">העדפת שיחה</string>  
+    <!-- for PCH Monitor warning message -->  
+    <string name="pch_warning_message">קצב שידור הנתונים ירד.</string>  
+    <!-- Wireless settings for PCH Monitor end -->  
+    <!-- Schedule power on/off settings -->  
+    <!-- Main Settings screen setting option name to go into the power on/off settings-->  
+    <string name="schedule_power_on_off_settings_title">הפעלה/כיבוי מתוזמנים</string>  
+    <string name="usb_bicr_title">כונן תקליטורים מובנה</string>  
+    <string name="usb_bicr_summary">הצג כונן תקליטורים וירטואלי המכיל תוכנות שימושיות.</string>  
+    <string name="select_memory">כתיבה לתקליטור של ברירת מחדל</string>  
+    <string name="ipo_title">אתחול מהיר</string>  
+    <string name="ipo_summary_on">הפוך אתחול מהיר ללא זמין</string>  
+    <string name="ipo_summary_off">הפוך אתחול מהיר לזמין</string>  
+    <string name="agps_profile_select_Title">פרופיל SUPL</string>  
+    <string name="location_settings_label">מצב מהנדס מיקומים</string>  
+    <string name="audio_profile_error">שגיאה</string>  
+    <string name="battery_percent">אחוז טעינה של הסוללה</string>  
+    <!-- RCS-e settings -->  
+    <string name="rcse_settings_title">הגדרות RCS-e</string>
+    <string name="dlg_mount_external_sd_title" product="default">לטעון כרטיס SD?</string>  
+    <string name="dlg_mount_external_sd_summary" product="default">אם תטען את כרטיס ה-SD, חלק מהיישומים שאתה מפעיל יפסיקו לפעול.</string> 
+
+    <string name="tethered_ipv6_title">"קשירה ונקודה חמה ניידת"</string>
+    <string name="tethered_ipv4v6">(IPv6 זמין)</string> 
+    <string name="tethered_ipv6">(רק IPv6 זמין)</string>  
+    <string name="tethered_ipv4">(IPv6 לא זמין)</string>
+	
+	<string name="usb_connect_as_cdrom_category">"חבר בתור CD-ROM"</string>
+
+    <string name="wifi_ap_client_block_title">"חסום"</string>  
+    <string name="wifi_ap_client_details_title">פרטים</string>  
+    <string name="wifi_wps_fail_error">הגדרה מוגנת של Wi-Fi נכשלה, נסה שוב.</string>  
+    <string name="wifi_tether_setting_title">הגדרות בסיסיות</string>  
+    <string name="wifi_tether_wps_connect_title">חיבור WPS</string>  
+    <string name="wifi_tether_wps_connect_summary">מצב הגדרה מוגנת של Wi-Fi נבחר כדי להמשיך</string>  
+    <string name="wifi_tether_wps_pin_error">PIN לא חוקי</string>  
+    <string name="wifi_tethering_title">נקודה חמה של Wi-Fi</string>  
+    <string name="wifi_ap_wps_dialog_title">חיבור WPS</string>  
+    <string name="wifi_ap_wps_mode_title">מצב WPS</string>  
+    <string name="wifi_ap_wps_pin_title">הקלד PIN מלקוח</string>  
+    <string name="wifi_ap_reset_OOB_title">איפוס SSID, אבטחה וסיסמה של הרשת לברירת המחדל (תצורת WPS שהוגדרה על ידי היצרן)</string>  
+    <string name="wifi_ap_reset_OOB">איפוס OOB</string>  
+    <string name="wifi_ap_max_connection_title">מספר מרבי של חיבורים</string>  
+    <string name="wifi_ap_connected_title">משתמשים מחוברים</string>  
+    <string name="wifi_ap_blocked_title">משתמשים חסומים</string>  
+    <string name="wifi_ap_client_unblock_title">בטל חסימה</string>  
+    <string name="wifi_ap_client_mac_label">כתובת MAC:</string>  
+    <string name="wifi_ap_client_ip_label">כתובת IP:</string>  
+    <string name="usb_sharing_title">אינטרנט באמצעות USB</string>  
+    <string name="usb_sharing_summary">שיתוף אינטרנט של מחשב עם Windows דרך כבל USB</string>  
+    <string name="usb_sharing_info_title">מעבר אינטרנט</string>  
+    <string name="usb_sharing_info_step_1">"1. פתח את חיבורי הרשת במחשב Windows שלך."</string>  
+    <string name="usb_sharing_info_step_2">"2. לחץ לחיצה ימנית על החיבור שברצונך לשתף ולאחר מכן לחץ על מאפיינים."</string>  
+    <string name="usb_sharing_info_step_3">"3. לחץ על הכרטיסייה שיתוף, ובחר באפשרות \'אפשר למשתמשים אחרים ברשת להתחבר באמצעות החיבור לאינטרנט של מחשב זה\' (בחר ברשת החדשה שהוספת המייצגת את האינטרנט דרך USB אם ההודעה \'חיבור רשת ביתית\' מופיעה)."</string>  
+    <string name="wifi_ap_bandwidth_title">שימוש ברוחב פס</string>  
+    <string name="wifi_ap_bandwidth_enable">אפשר ויסות של רוחב פס</string>  
+    <string name="wifi_ap_bandwidth_chart_title">מהירות נתונים בזמן אמת</string>  
+    <string name="wifi_ap_bandwidth_chart_summary">נמדד על ידי הטלפון שלך - חישוב מהירות הנתונים של הספק שלך עשוי להיות שונה.</string>  
+    <string name="wifi_ap_title">סטטיסטיקה</string>  
+    <string name="wifi_ap_time_duration">משך זמן: 
+        <xliff:g id="time">%1$s</xliff:g> 
+    </string>  
+    <string name="wifi_ap_total_data">סה"כ שימוש בנתונים:
+        <xliff:g id="time">%1$s</xliff:g>
+    </string>
+    <string name="cpu_dtm_title">מצב חיסכון בחשמל של המעבד</string>
+    <string name="cpu_dtm_summary">הגבלת ביצועי המעבד לשם שמירה על חיי הסוללה והנמכת הטמפרטורה של המכשיר.</string>
+    <string name="wifi_advanced_ipv4_address_title">כתובת IPv4</string>  
+    <string name="wifi_advanced_ipv6_address_title">כתובת IPv6</string>  
+    <string name="wifi_ipv4_address">כתובת IPv4</string>  
+    <string name="wifi_ipv6_address">כתובת IPv6</string> 
+    
+    <!-- MTK new datausage start -->
+    <string name="mtk_datausage_overview_wifi_today">היום</string>  
+    <string name="mtk_datausage_show_on_lockscreen">הצג במסך הנעילה</string>  
+    <string name="mtk_datausage_update">עדכון צריכת נתונים</string>  
+    <string name="mtk_datausage_update_set">עדכן</string>  
+    <string name="mtk_datausage_amount_editor_title">כמות נתונים שנצרכו</string>  
+    <string name="mtk_datausage_usage_list">צריכת נתונים לפי יישומים</string>  
+    <string name="mtk_datausage_diff_byte">הפרש בצריכת הנתונים</string>  
+    <string name="mtk_datausage_overview_tab">סקירה כללית</string>  
+    <string name="mtk_datausage_overview_wifi_total">סה"כ</string>  
+    <string name="mtk_datausage_overview_mobile_title">נייד</string>  
+    <string name="mtk_datausage_overview_mobile_usage">
+        <xliff:g id="actual">%s</xliff:g> מתוך 
+        <xliff:g id="limit">%s</xliff:g>
+    </string>
+    <string name="mtk_datausage_overview_mobile_usage_warning">מעבר למגבלה <xliff:g>%s</xliff:g></string>
+    <!-- MTK new datausage end -->
+    <string name="display_personalize">התאמה אישית</string>  
+    <string name="display_default">"תצוגה"</string>
+    <!-- Sound Enhanecement -->
+    <string name="sound_enhancement_title">שיפור צליל</string>
+    <string name="music_plus_summary">משפר שמע לאוזניות</string>
+    <string name="auto_backlight_title">תאורה אחורית חסכונית</string>
+    <string name="auto_backlight_summary">התאם אוטומטית את התאורה האחורית כדי לחסוך בחשמל</string>
+
+    <string name="beam_mgmt_tab_download_title">שיחות שהתקבלו</string>
+    <string name="beam_mgmt_tab_upload_title">"3. לחץ על הכרטיסייה שיתוף, ובחר באפשרות 'אפשר למשתמשים אחרים ברשת להתחבר באמצעות החיבור לאינטרנט של מחשב זה' (בחר ברשת החדשה שהוספת המייצגת את האינטרנט דרך USB אם ההודעה 'חיבור רשת ביתית' מופיעה)."</string>
+    <string name="beam_share_mgmt_notification_ticker">היסטוריית שיתוף של שידור</string>
+    <string name="beam_share_mgmt_notification_title">היסטוריית שיתוף של שידור</string>
+    <string name="beam_share_mgmt_notification_message">"בחר כדי להציג היסטוריית שיתוף של שידור."</string>
+    <string name="beam_share_mgmt_tab_menu_clear">"לנקות את כל הגדרות האתר?"</string>
+    <string name="beam_share_open_file_dialog_title">לא ניתן לפתוח את הקובץ</string>
+    <string name="beam_share_open_file_unsupported_message">אין תמיכה בתבנית הקובץ.</string>
+    <string name="beam_share_open_file_not_found_message">"הקובץ לא נמצא: <xliff:g id="file_name">%1$s</xliff:g></string>
+    <string name="beam_share_transfer_fail_dialog_title">"השידור נכשל"</string>
+    <string name="beam_share_resend_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> לא נשלח בהצלחה."</string>
+    <string name="beam_share_resend_dialog_ok_button">"נסה שוב"</string>
+    <string name="beam_share_show_received_files_menu">"הצג קבצים שהתקבלו"</string>
+    <string name="beam_share_history_title">היסטוריית שיתוף של שידור</string>
+    <string name="beam_share_clear_confirm_dialog_title">"נקה הכל"</string>
+    <string name="beam_share_clear_confirm_dialog_message">לנקות את כל ההיסטוריה?</string>
+    <string name="beam_share_receive_fail_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> לא נשלח בהצלחה."</string>
+    <string name="beam_share_clear_item_dailog_title">"מחק"</string>
+    <string name="beam_share_clear_item_dailog_message">הפריט יימחק.</string>
+    <string name="nfc_rw_tag_summary">קרא או כתוב לתגית</string>
+    <string name="nfc_p2p_mode">מצב P2P</string>
+    <string name="nfc_p2p_mode_summary">שלח או קבל תוכן של יישומים</string>
+    <string name="nfc_tag_mode_category">מצב תיוג</string>
+    <string name="nfc_rw_tag_title">תייג קריאה וכתיבה</string>
+    <string name="lock_screen_notifications_title">נעילת מסך התראות</string>
+    <string name="lock_screen_notifications_summary">צג התראות במסך נעילה</string>
+    <string name="lock_screen_style_title">נעילת מסך בסגנון</string>
+
+
+      <string name="voice_ui_title">שליטה קולית</string>
+      <string name="voice_ui_app_category">עבור הגדרות יישומים</string>
+      <string name="voice_ui_setting_category">"הגדרות"</string>
+      <string name="alarm_app_name">"התראות"</string>
+      <string name="music_app_name">סרטונים</string>
+      <string name="voice_ui_language_title">"שפה לשליטה קולית"</string>
+      <string name="incoming_call_app_name">"שיחה נכנסת"</string>
+      <string name="camera_app_name">"מצלמה"</string>
+      <string name="incomming_command_summary_format">אמור <xliff:g id="first">%1$s</xliff:g> או <xliff:g id="second">%2$s</xliff:g> כדי לענות לשיחות נכנסות או כדי לדחות אותן.</string>
+      <string name="alarm_command_summary_format">תוכל לומר <xliff:g id="first">%1$s</xliff:g> או <xliff:g id="second">%2$s</xliff:g> כדי לשלוט בצלצול ההשכמה.</string>
+      <string name="camera_command_summary_format">אמור <xliff:g id="first">%1$s</xliff:g> או <xliff:g id="second">%2$s</xliff:g> כדי לצלם.</string>
+      <string name="music_command_summary_format">אמור <xliff:g id="first">%1$s</xliff:g> ו - <xliff:g id="second">%2$s</xliff:g> כדי לשלוט בהשמעת המוזיקה.</string>
+
+	<!-- Lock screen settings start -->
+	<string name="current_suffix">"(נוכחי")</string>
+	<string name="lockscreen_style_set">"הגדר מסך נעילה"</string>
+	<string name="lockscreen_style_default_desc">"גישה מהירה ליישומים במסך הנעילה"</string>
+	<!-- Lock screen settings end -->
+    <!--  voice unlock start-->
+    <string name="voice_unlock_backup_info_summary">אם ביטול הנעילה הקולי לא מזהה אותך, כיצד ברצונך לבטל את הנעילה?</string>
+    <string name="unlock_set_unlock_mode_voice_weak">ביטול נעילה קולי</string>
+    <!--  voice unlock end-->
+    <string name="usb_tether_type_title">סוג שיתוף אינטרנט ב-USB</string> 
+    <string name="security_not_set">לא הוגדרה אבטחה</string>
+    <string name="lockdown_vpn_already_connected">האפשרות תמיד ב-VPN כבר זמינה עבור חיבור זה.</string> 
+    <string name="wifi_ap_no_connected">0 משתמשים מחוברים</string>  
+    <string name="wifi_ap_no_blocked">0 משתמשים חסומים</string>  
+
+    <string name="status_imei_slot3">IMEI(חריץ 3)</string>
+    <string name="status_imei_sv_slot3">IMEI SV(חריץ 3)</string>
+    <string name="status_min_number_slot3">MIN(חריץ 3)</string>
+    <string name="status_prl_version_slot3">גרסת PRL(חריץ 3)</string>
+    <string name="status_meid_number_slot3">MEID(חריץ 3)</string>
+
+    <string name="usb_tethering_select_version">בחר את גרסת מערכת ההפעלה של המחשב</string>
+</resources>

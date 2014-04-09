@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="quick_response_error_already_exist">লেখা ইতিমধ্যেই আছে</string>  
+    <string name="quick_response_error_null">খালি থাকতে পারবে না</string>
+    <string name="preferences_alerts_vibrateWhen_summary">ইভেন্ট মনে করিয়ে দেবার জন্য ভাইব্রেট করুন</string>
+    <string name="go_to">যান</string>
+    <string name="search_hint">ক্যালেন্ডার অনুসন্ধান</string>
+</resources>

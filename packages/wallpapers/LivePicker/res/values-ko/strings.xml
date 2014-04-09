@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <!-- General -->  
+    <skip/>  
+    <!-- Application name -->  
+    <string name="application_name">라이브 월페이퍼 피커</string>  
+    <!-- Title for the screen that lets the user choose a live wallpaper to use
+         for the system. -->  
+    <string name="live_wallpaper_picker_title">라이브 배경화면 선택</string>  
+    <!-- Label for the live wallpaper picker [CHAR_LIMIT=40]-->  
+    <string name="live_wallpaper_picker_label">라이브 배경화면</string>  
+    <!-- Title for the screen that lets the user preview a live wallpaper. -->  
+    <string name="live_wallpaper_preview_title">라이브 배경화면 미리보기</string>  
+    <!-- List item for configuring the current wallpaper -->  
+    <string name="configure_wallpaper">설정…</string>  
+    <!-- Button label on Wallpaper Gallery screen; user selects this button to set a specific wallpaper -->  
+    <string name="wallpaper_instructions">배경화면 설정</string>  
+    <!-- Warning message, no live wallpapers available. -->  
+    <string name="live_wallpaper_empty">라이브 배경화면 없음.</string>  
+    <!-- Button label, action, sets the currently selected wallpaper. -->  
+    <string name="set_live_wallpaper">배경화면 설정</string>  
+    <!-- Label, title and author of the live wallpaper -->  
+    <string name="wallpaper_title_and_author"> 
+        <xliff:g id="title" example="Galaxy">%1$s</xliff:g>( 
+        <xliff:g id="author" example="Google">%2$s</xliff:g> 만듬)
+    </string>  
+    <!-- Message, tells the user the selected live wallpaper is loading. -->  
+    <string name="live_wallpaper_loading">라이브 배경화면을 로드하는 중...</string>  
+    <!-- Button label, action, cancels the wallpaper picker dialog [CHAR_LIMIT=40]-->  
+    <string name="wallpaper_cancel">"취소"</string> 
+    <string name="no_external_storage_title" msgid="2408933644249734569">"저장소 없음"</string>
+    <string name="no_external_storage" msgid="95726173164068417">"사용할 수 있는 외부 저장소 없음"</string>
+</resources>

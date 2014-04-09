@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+     <string-array name="wifi_security"> 
+        <item>"เปิด"</item>  
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+        <item>WAPI PSK</item>
+        <item>ใบรับรอง WAPI</item>  
+    </string-array>  
+    <string-array name="wpa_security"> 
+        <item>"เปิด"</item>  
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>  
+    <string-array name="wpa_security_wfa"> 
+        <item>"เปิด"</item>  
+        <item>WEP</item>
+        <item>WPA PSK</item>
+        <item>WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>  
+    <string-array name="wapi_security"> 
+        <item>"เปิด"</item>  
+        <item>WAPI PSK</item>
+        <item>ใบรับรอง WAPI</item>  
+    </string-array>  
+    <string-array name="gemini_sim_info_number_display_format_entries"> 
+        <item>4 หลักแรก</item>  
+        <item>4 หลักสุดท้าย</item>  
+        <item>ไม่แสดง</item> 
+    </string-array>  
+    <string-array name="gemini_sim_roaming_reminder_entries"> 
+        <item>ครั้งเดียว</item>  
+        <item>เสมอ</item>  
+        <item>ไม่เคย</item> 
+    </string-array>  
+    <string-array name="gsm_umts_network_preferences_choices"> 
+        <item>GSM/WCDMA (โหมดอัตโนมัติ)</item>  
+        <item>WCDMA เท่านั้น</item>  
+        <item>เฉพาะ GSM</item> 
+    </string-array>  
+    <string-array name="network_use_entry"> 
+        <item>เฉพาะ โฮม</item>  
+        <item>โฮม + โรมมิ่ง</item> 
+    </string-array>  
+    <string-array name="auto_time_entries"> 
+        <item>ใช้เวลาที่ให้โดยเครือข่าย</item>  
+        <item>ใช้เวลาที่ให้โดย GPS</item>  
+        <item>ปิด</item> 
+    </string-array>  
+    <string-array name="hdmi_video_resolution_entries"> 
+        <item>อัตโนมัติ</item>  
+        <item>720P</item>
+        <item>480P</item>
+    </string-array>  
+    <string-array name="wifi_WEP_security_type"> 
+        <item>อัตโนมัติ</item>  
+        <item>WEP ASCII</item>
+        <item>"WEP ฐานสิบหก"</item>  
+    </string-array>  
+    <string-array name="wifi_hotspot_disable_policy_entries"> 
+        <item>เสมอ</item>  
+        <item>ปิดเมื่อไม่มีกิจกรรมเป็นเวลา 5 นาที</item>  
+        <item>ปิดเมื่อไม่มีกิจกรรมเป็นเวลา 10 นาที</item> 
+    </string-array>  
+    <string-array name="wifi_ap_wps_mode_entries"> 
+        <item>ปุ่มกด</item>  
+        <item>PIN จากไคลเอนต์</item> 
+    </string-array>  
+    <string-array name="wifi_ap_max_connection_entries"> 
+        <item>ผู้ใช้ 1 คน</item>  
+        <item>ผู้ใช้ 2 คน</item> 
+        <item>ผู้ใช้ 3 คน</item> 
+        <item>ผู้ใช้ 4 คน</item> 
+        <item>ผู้ใช้ 5 คน</item> 
+        <item>ผู้ใช้ 6 คน</item> 
+        <item>ผู้ใช้ 7 คน</item> 
+        <item>ผู้ใช้ 8 คน</item> 
+    </string-array> 
+	<string-array name="sim_slot">
+		<item>"(ไม่ได้ระบุ)"</item>
+		<item>ช่องเสียบซิม 1</item>
+		<item>ช่องเสียบซิม 2</item>
+	</string-array>
+</resources>

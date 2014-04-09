@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="group_discard_member_reason">အုပ်စုအမည်မှာ အသုံးမရှိသဖြင့် အသစ်ပြုပြင်ချက်များကို ဖြတ်ချမည်ဖြစ်သည်။</string>      
+	<string name="deleteConfirmation_title">လိပ်စာဖျက်မလား?</string>
+    <string name="add_contact_dlg_title">လိပ်စာထည့်ပါ</string>
+
+    <string name="international_dialing_title">ပြည်ပဖုန်းခေါ်ဆိုမှုအထောက်အပံ့ပါရှိ</string>
+    <string name="international_dialing_select_country">သင်နိုင်ငံတကာ ဖုန်းခေါ်ဆိုနေကြောင်း စမ်းသပ်တွေ့ရှိသည်။ သင့်ဦးတည်ချက်ကို ရွေးချယ်ပါ။</string>
+    <string name="international_dialing_add_country_code">သင် <xliff:g id="country_name">%s</xliff:g> နံပါတ်သို့ ခေါ်ဆိုနေကြောင်း စမ်းသပ်တွေ့ရှိသည်။ သင်နိုင်ငံကုဒ် (+<xliff:g id="country_code">%s</xliff:g>)အား ထည့်လိုပါသလား?</string>
+    <string name="international_dialing_add_country_code_and_area_code">သင် <xliff:g id="area_name">%1$s</xliff:g>၊ <xliff:g id="country_name">%2$s</xliff:g>ဖြင့် နံပါတ်သို့ ခေါ်ဆိုနေကြောင်း စမ်းသပ်တွေ့ရှိသည်။ သင်နိုင်ငံကုဒ်နှင့် ဧရိယာကုဒ်(+<xliff:g id="prefix">%3$s</xliff:g>)အား ထည့်လိုပါသလား?</string> 
+    <string name="international_dialing_change_country_prefix">သင် <xliff:g id="country_name">%s</xliff:g> မှ ခေါ်ဆိုနေကြောင်း စမ်းသပ်တွေ့ရှိသည်။ နိုင်ငံတကာဖုန်းခေါ်ဆိုမှုအစဂဏန်းများကို \'+\' သို့ ပြောင်းမလား?</string>
+    <string name="international_dialing_add_country_code_input_area_code">သင်သည် <xliff:g id="country_name">%s</xliff:g> တွင် ဖုန်းခေါ်နေကြောင်း စမ်းသပ်တွေ့ရှိသည်။ မှန်ကန်ပါက ဧရိယာကုဒ်ကို ထည့်သွင်းပါ။</string>   
+    <string name="international_dialing_add_country_code_default_input_area_code">သင်သည် <xliff:g id="country_name">%s</xliff:g> တွင် ဖုန်းခေါ်နေကြောင်း စမ်းသပ်တွေ့ရှိသည်။ သင့်ဦးတည်ချက်မြို့သည် <xliff:g id="area_name">%s</xliff:g> မဟုတ်ပါ။ ဧရိယာကုဒ်ကို ထည့်သွင်းပါ။</string>
+    <string name="international_dialing_need_area_code">သင့်ဦးတည်ချက်မြို့၏ ဧရိယာကုဒ်အား ခေါ်ဆိုမှုအတွက် လိုအပ်သည်။ </string>
+    <string name="international_dialing_input_area_code">ဧရိယာကုဒ်ကို ဤနေရာတွင် ထည့်ပါ</string>
+    <string name="international_dialing_dialed_number">ခေါ်ဆိုသည့်နံပါတ်:</string>
+    <string name="international_dialing_confirm_area_code">သင့်ဦးတည်ချက်မြို့သည် <xliff:g id="area_name">%s</xliff:g> မဟုတ်ပါက အောက်ပါသင့်ဦးတည်ချက်မြို့၏ ဧရိယာကုဒ်ကို ထည့်သွင်းပါ။ </string>
+    <string name="international_dialing_dial_with_country_code">နိုင်ငံကုဒ်ဖြင့် ခေါ်ဆိုပါ</string>
+    <string name="international_dialing_click_below_button">နိုင်ငံကုဒ်နံပါတ်အား ပြောင်းရန် အောက်ရှိခလုတ်ကို ကလစ်နှိပ်ပါ။</string>
+    <string name="international_dialing_yes">ဟုတ်ပါသည်။ အောက်ရှိနံပါတ်ကို အသုံးပြုပါ:</string>
+    <string name="international_dialing_no">မဟုတ်ပါ။ မူလနံပါတ်ကို အသုံးပြုပါ:</string>
+    <string name="international_dialing_call_button">ခေါ်ဆိုပါ</string>
+    <string name="international_dialing_area_code">ဧရိယာကုဒ်</string>
+    <string name="international_dialing_invalid_number">နံပါတ်မှာ အသုံးမရှိပါ။ မည်သို့ပင်ဖြစ်စေ ခေါ်ဆိုမှုကို ဆက်လုပ်လိုပါသလား?</string>
+    <string name="international_dialing_add_country_code_and_area_code_without_prefix">နိုင်ငံကုဒ်နှင့် ဧရိယာကုဒ်အား ထည့်လိုပါသလား?</string>
+    <string name="share_too_large">ဒေတာစုစုပေါင်းမှာ အများဆုံးကန့်သတ်ချက်ထက် ကျော်လွန်နေသည်၊ အချို့အကြောင်းအရာများရွေးထားခြင်းကို ဖျက်ပြီး ပြန်ကြိုးစားကြည့်ပါ။</string>
+
+</resources>

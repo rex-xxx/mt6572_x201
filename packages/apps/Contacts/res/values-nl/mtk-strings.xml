@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">    
+    <string name="deleteConfirmation_title" msgid="1418215926447642260">"Contact verwijderen?"</string>
+    <string name="add_contact_dlg_title" msgid="2896685845822146494">"Contact toevoegen"</string>
+    <string name="no_sdcard_title" product="nosdcard" msgid="8543619259870877473">"Opslag niet beschikbaar"</string>
+    <string name="no_sdcard_title" product="default" msgid="5911758680339949273">"Geen SD-kaart"</string>
+    <string name="searching_vcard_title" msgid="4970508055399376813">"Zoeken naar vCard"</string>
+    <string name="scanning_sdcard_failed_title" product="nosdcard" msgid="4944932641334764942">"Kan opslag niet scannen"</string>
+    <string name="scanning_sdcard_failed_title" product="default" msgid="6664940444476572612">"Kan SD-kaart niet scannen"</string>
+    <string name="cancel_import_confirmation_title" msgid="5578683596010294836">"Importeren van vCard annuleren"</string>
+    <string name="cancel_export_confirmation_title" msgid="6516467140276768528">"Exporteren van vCard annuleren"</string>
+    <string name="menu_all_contacts" msgid="5101735431586050711">"Alle contacten"</string>
+    <string name="search_bar_hint" msgid="1012756309632856553">"Contacten zoeken"</string>
+    <string name="aggregation_suggestion_join_dialog_title" msgid="5276699501316246253">"Contacten samenvoegen"</string>
+    <string name="aggregation_suggestion_edit_dialog_title" msgid="1064042382692091314">"Geselecteerde contacten bewerken"</string>
+    <string name="cancel_confirmation_dialog_title" msgid="3950463632415908534">"Wijzigingen annuleren"</string>
+
+  <string name="menu_print">Afdrukken</string>
+  <string name="printContact">Contact afdrukken via</string>
+  <string name="no_way_to_print">Geen toepassing beschikbaar om contact af te drukken.</string>
+  
+    <!--The following lines are provided and maintained by Mediatek Inc.  -->
+    <!-- The title for multiple selection call log activity -->
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g> geselecteerd</string>
+    <!-- Menu item used to start call log multiple selection activity -->
+    <string name="recentCalls_delete">Verwijderen</string>
+    <string name="menu_selectAll">"Alles selecteren"</string>
+    <string name="menu_clearAll">"Niets selecteren"</string>
+        <!-- Text used to show the dual sim info -->
+    <string name="sim1">SIM1</string>
+    <string name="sim2">SIM2</string>
+    <string name="all_resources">Alle bronnen</string>
+    <string name="choose_resources_header">Bronnen selecteren</string>
+    <string name="all_tab_label1">Alles</string>
+    <string name="call_log_item_count">(<xliff:g id="count">%1$d</xliff:g>)</string>
+
+    <!-- below strings are used by dialpad -->
+    <string name="call_indicator_3g">3G</string>
+    <string name="call_sipcall">Internetoproep</string>
+    <string name="call_pin_dialog_title">SIM-kaart selecteren</string>
+    <string name="call_people">Contacten</string>
+    <string name="call_ip_dial">IP kiezen</string>
+    <string name="call_speed_dial">Snelkiezen</string>
+    <string name="call_video_call">Videogesprek</string>
+    <string name="add_speed_dial">Tikken om snelkiezen toe te voegen</string>
+    <string name="speed_dial_added"><xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>) toegevoegd aan snelkeuze <xliff:g id="key">%3$s</xliff:g></string>
+    <string name="remove_speed_dial">Verwijderen</string>
+    <string name="remove_sd_confirm_1">Weet u zeker dat u <xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>) uit snelkeuze <xliff:g id="key">%3$s</xliff:g> wilt verwijderen?</string>
+    <string name="emergencycall">Noodoproep</string>
+    <string name="imei_invalid">Ongeldig</string>
+    <!-- Speed Dial phase II -->
+    <string name="sd_add">Toevoegen</string>
+    <string name="reselect_number">Het nummer is al toegewezen aan een snelkeuzetoets. Selecteer een ander nummer.</string>
+    <!-- strings are used by dialpad end -->
+    <string name="calllog_today">Vandaag</string>
+    <string name="calllog_yesterday">Gisteren</string>
+    
+    <!-- strings are used by contact detail -->
+    <string name="menu_association">SIM-kaart koppelen</string>
+    <string name="menu_remove_association">SIM-koppeling verwijderen</string>
+    <string name="remove_association_message">Weet u zeker dat u de SIM-koppeling met dit nummer verwijderen?</string>
+    <string name="remove_number_title">Verwijderen</string>  
+    <string name="warning_detail">De SIM-koppeling zal de contactpersoon in de telefoon importeren. Wilt u doorgaan met de SIM-koppeling? </string>
+    <string name="associatiated_SIM">"Gekoppelde SIM"</string>
+    <string name="unassociated">"Niet-gekoppeld"</string>
+    <string name="associate_SIM">"Gekoppelde SIM"</string>
+    <string name="block_incoming_call">Binnenkomende oproepen direct blokkeren</string>
+    <string name="block_video_incoming_call"></string>
+
+    <!-- Contacts multi-choice string -->
+    <string name="menu_actionbar_selected_items"><xliff:g id="name">%s</xliff:g> geselecteerd</string>
+
+       <!-- MTK for edit SIM/USIM contact -->
+    <string name="has_double_phone_number">Kan hetzelfde typenummer niet tweemaal opslaan, controleer dit.</string>
+    <string name="phone_book_busy">Het telefoonboek is bezet. Probeer het later.</string>
+    <string name="sim_invalid">Kan contactpersoon niet opslaan wanneer SIM-kaart ongeldig is.</string>
+    <string name="cannot_insert_null_number">Kan contactpersoon met leeg nummer niet opslaan.</string>
+    <string name="AirPlane_mode_on">Kan contactpersoon niet opslaan wanneer Vliegtuigmodus aan is.</string>
+    <string name="FDNEnabled">Kan contactpersoon niet opslaan wanneer FDN is ingeschakeld.</string>
+    <string name="sim_invalid_number">Kan ongeldig nummer niet opslaan.</string>
+    <string name="email_invalid">Kan ongeldige e-mail niet opslaan.</string>
+    <string name="email_2g_invalid"></string>
+    <string name="sim_invalid_fix_number">Kan ongeldig vast nummer niet opslaan.</string>
+    <string name="AirPlane_mode_on_edit">Kan contactpersoon niet bewerken wanneer Vliegtuigmodus aan is.</string>
+    <string name="msg_loading_sim_contacts_toast">"SIM-contacten worden op de achtergrond geladen, een ogenblik geduld."</string>
+    <string name="fix_number_too_long">"Vast nummer te lang."</string>
+    <string name="name_too_long">"Naam te lang."</string>
+    <string name="storage_full">Opslag is vol.</string>
+    <string name="number_too_long">"Nummer te lang."</string>
+    <string name="generic_failure">Algemene fout.</string>
+
+    <string name="send_groupsms_no_number_more">"%1$s en %2$s andere contactpersonen hebben geen geldig telefoonnummer."</string>
+    <string name="send_groupsms_no_number_1">"%1$s heeft geen geldig telefoonnummer."</string>
+    <string name="send_groupsms_no_number_2">"%1$s en %2$s hebben geen geldig telefoonnummer."</string>    
+
+    <!-- Feature Fix by Mediatek Begin -->
+
+    <!-- The local account type to be added, it used to manage SIM contacts. -->
+    <string name="account_type_sim" product="tablet">SIM-account</string>
+    <!-- The local account type to be added, it used to manage SIM contacts. -->
+    <string name="account_type_sim" product="default">SIM-account</string>
+
+    <!-- The local account type to be added, it used to manage USIM contacts. -->
+    <string name="account_type_usim" product="tablet">USIM-account</string>
+    <!-- The local account type to be added, it used to manage USIM contacts. -->
+    <string name="account_type_usim" product="default">USIM-account</string>
+
+    <!-- The local account type to be added, it used to manage Phone contacts. -->
+    <string name="account_type_local_phone" product="tablet">Lokaal telefoonaccount</string>
+    <!-- The local account type to be added, it used to manage Phone contacts. -->
+    <string name="account_type_local_phone" product="default">Lokaal telefoonaccount</string>
+
+
+    <!-- The local account to be added, it used to manage SIM/USIM/PHONE contacts. -->
+    <string name="local_account_type" product="tablet">Lokaal account</string>
+    <!-- The local account to be added, it used to manage SIM/USIM/PHONE contacts. -->
+    <string name="local_account_type" product="default">Lokaal account</string>
+
+    <!-- The local account to be added, it used to manage SIM/USIM/PHONE contacts settings. -->
+    <string name="local_account_label" product="tablet">Lokaal account</string>
+    <!-- The local account to be added, it used to manage SIM/USIM/PHONE contacts settings -->
+    <string name="local_account_label" product="default">Lokaal account</string>
+
+    <!-- Title for data source when creating or editing a contact that doesn't
+         belong to a specific account.  This contact will only exist on the SIM Card
+         and will not be synced. -->
+    <string name="account_type_sim_label" product="tablet">Alleen SIM, niet gesynchroniseerd</string>
+    <!-- Title for data source when creating or editing a contact that doesn't
+         belong to a specific account.  This contact will only exist on the SIM Card
+         and will not be synced. -->
+    <string name="account_type_sim_label" product="default">Alleen SIM, niet gesynchroniseerd</string>
+
+    <!-- Title for data source when creating or editing a contact that doesn't
+         belong to a specific account.  This contact will only exist on the USIM Card
+         and will not be synced. -->
+    <string name="account_type_usim_label" product="tablet">Alleen USIM, niet gesynchroniseerd</string>
+    <!-- Title for data source when creating or editing a contact that doesn't
+         belong to a specific account.  This contact will only exist on the USIM Card
+         and will not be synced. -->
+    <string name="account_type_usim_label" product="default">Alleen USIM, niet gesynchroniseerd</string>
+
+    <!-- below strings are used by contacts group -->
+    <string name="please_wait">"Een ogenblik geduld..."</string>
+    <string name="move_contacts_to">Contactpersonen verplaatsen naar</string>
+    <string name="menu_move_group">"Groepsleden verplaatsen"</string> 
+    <string name="menu_message_group">"Groep bericht sturen"</string>
+    <string name="menu_email_group">"Groeps-e-mail verzenden"</string>    
+    <string name="moving_group_members">"Groepsleden verplaatsen\u2026"</string>
+    <string name="removing_group_members_sucess">"Het verwijderen van groepsleden is gelukt"</string>
+    <string name="moving_group_members_sucess">"Het verplaatsen van groepsleden is gelukt"</string>
+    <string name="moving_group_members_fail">"Het verplaatsen van groepsleden is mislukt"</string>
+    <string name="no_valid_number_in_group">Deze groep heeft geen contactpersoon met geldig telefoonnummer.</string>
+    <string name="no_valid_email_in_group">Deze groep heeft geen contactpersoon met e-mail.</string>
+    <string name="email_error">U moet de e-mailtoepassing installeren of uw account configureren.</string>
+	<string name="usim_group_name_exceed_limit">"Groepsnaam te lang voor de USIM."</string>  
+    <string name="usim_group_count_exceed_limit">"U kunt geen nieuwe groepen meer toevoegen aan de USIM."</string>  
+    <!-- below strings are used by contacts import/export -->
+    <string name="import_export_title">Importeren/exporteren</string>
+    <string name="next">Volgende</string>
+    <string name="imexport_bridge_sd_card">SD-kaart</string>
+    <string name="tips_source">Contactpersonen kopiëren van</string>    
+    <string name="tips_target">Contactpersonen kopiëren naar</string>
+    <string name="back">Vorige</string>
+    <string name="imexport_title">Contactpersonen importeren/exporteren</string>
+    <!-- Feature Fix by Mediatek End -->
+
+
+    <!-- Title when popup ContactEditorAccountsChangedActivity's dialog -->
+    <string name="store_contact_to">Contact opslaan op</string>
+
+    <!-- strings are used by people activity -->
+    <string name="menu_delete_contact">Contact verwijderen</string>
+    
+    <!-- string for multiple choice -->
+
+    <string name="notifier_finish_delete_title">Contacten verwijderd</string>  
+    <string name="notifier_finish_delete_content"> 
+        <xliff:g id="total">%d</xliff:g> contact(en) verwijderd
+    </string>  
+    <string name="notifier_finish_copy_title">Contacten gekopieerd</string>  
+    <string name="notifier_finish_copy_content"> 
+        <xliff:g id="total">%d</xliff:g> contact(en) gekopieerd
+    </string>  
+    <string name="notifier_multichoice_process_report">Voltooid : 
+        <xliff:g id="items">%d</xliff:g>\nNiet voltooid: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>  
+    <string name="notifier_failure_by_sim_full">Oorzaak fout SIM-opslag vol\nVoltooid: 
+        <xliff:g id="items">%d</xliff:g>\nNiet voltooid: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>  
+    <string name="notifier_failure_sim_notready">Oorzaak fout SIM niet gered\nVoltooid: 
+        <xliff:g id="items">%d</xliff:g>\nNiet voltooid: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>  
+    <string name="notifier_cancel_delete_title">Verwijderen contact(en) geannuleerd</string>  
+    <string name="notifier_fail_delete_title">Verwijderen contact(en) mislukt</string>  
+    <string name="notifier_cancel_copy_title">Kopiëren contact(en) geannuleerd</string>  
+    <string name="notifier_fail_copy_title">Kopiëren contact(en) mislukt</string>  
+    <string name="notifier_progress_delete_message">Bezig met verwijderen 
+        <xliff:g id="current_number">%s</xliff:g>/ 
+        <xliff:g id="total_number">%s</xliff:g>: 
+        <xliff:g id="name" example="JoeDue">%s</xliff:g> 
+    </string>  
+    <string name="notifier_progress_delete_description">Bezig met verwijderen 
+        <xliff:g id="name" example="JoeDue">%s</xliff:g> 
+    </string>  
+    <string name="notifier_progress_copy_message">Bezig met kopiëren 
+        <xliff:g id="current_number">%s</xliff:g>/ 
+        <xliff:g id="total_number">%s</xliff:g>: 
+        <xliff:g id="name" example="JoeDue">%s</xliff:g> 
+    </string>  
+    <string name="notifier_progress_copy_description">Bezig met kopiëren 
+        <xliff:g id="name" example="JoeDue">%s</xliff:g> 
+    </string>  
+    <string name="multichoice_confirmation_title_delete">Verwijderen contact(en) geannuleerd</string>  
+    <string name="multichoice_confirmation_message_delete">Verwijderen contact(en) annuleren?</string>  
+    <string name="multichoice_confirmation_title_copy">Kopiëren contact(en) wordt geannuleerd</string>  
+    <string name="multichoice_confirmation_message_copy">Kopiëren contact(en) annuleren?</string>
+  <!-- The toast title when storage is full -->
+    <string name="phone_storage_full_create">De telefoonopslag is vol, u kunt geen nieuw contact maken.</string>
+    <string name="phone_storage_full_edit">De telefoonopslag is vol, u kunt geen contact bewerken.</string>
+    <!-- Displayed at the top of the call log search, showing the total number of call logs found in call log search result page -->
+    <plurals name="searchFoundCalllogs">
+        <item quantity="one">1 gesprekkenlogboek</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> gesprekkenlogboeken</item>
+    </plurals>
+        
+    <string name="search_results_for">"Zoekresultaten voor: <xliff:g id="QUERY">%s</xliff:g>"</string>
+    <string name="listFoundAllCalllogZero">Gesprekkenlogboek niet gevonden</string>
+    <string name="calllogList">Oproepgeschiedenis</string>
+    <string name="calllogHint">Gesprekkenlogboeken zoeken</string>
+    <string name="calllog_description">Binnenkomende, uitgaande en gemiste oproepen</string>
+    <string name="noMatchingCalllogs">Geen overeenkomend gesprekkenlogboek gevonden.</string>
+
+    <string name="menu_videocallNumber">Videogesprek <xliff:g id="name">%s</xliff:g></string>
+    <string name="menu_ipcallNumber">IP-oproep <xliff:g id="name">%s</xliff:g></string>
+    
+    <string name="deleting_call_log">Oproeplog wordt verwijderd…</string>
+
+    <!-- The previous lines are provided and maintained by Mediatek Inc. -->
+    
+    <!-- missing voicemail number -->
+    <!-- Title of the "Missing voicemail number" dialog -->
+    <string name="no_vm_number">Ontbrekend voicemailnummer</string>
+    <!-- Body text of the "Missing voicemail number" dialog -->
+    <string name="no_vm_number_msg">Geen voicemailnummer opgeslagen op de SIM-kaart.</string>
+    <!-- Button label on the "Missing voicemail number" dialog -->
+    <string name="add_vm_number_str">Nummer toevoegen</string>
+    
+    <string name="reminder">Herinnering</string>
+    <string name="enable_sip_dialog_message">Internetgesprek is uitgeschakeld. Wilt u het inschakelen?</string>
+
+    <!-- The toast title for add SIP No. to SIM/USIM contact -->
+    <string name="add_SIP_to_sim">Kan SIP-nummer niet toevoegen aan SIM/USIM-contact.</string>
+    <!-- The toast title fot if there has SIP No. can't add new -->
+    <string name="already_has_SIP">Kan niet twee SIP-nummers toevoegen aan contact, als u moet doorgaan, moet u oude SIP wissen.</string>
+
+    <string name="multichoice_no_select_alert">"Geen item geselecteerd."</string>
+    <string name="multichoice_delete_confirm_message">"Weet u zeker dat u de geselecteerde contactpersonen wilt verwijderen?"</string>
+    <string name="multichoice_delete_confirm_title">Contactperso(o)n(en) verwijderen?</string>
+
+    <string name="name_needed">Naam vereist</string>
+    <string name="save_group_fail">Opslaan van groep is mislukt.</string>
+    <string name="group_name_exists">De groepsnaam bestaat al.</string>
+    <string name="sum_search_networks">"Alle beschikbare netwerken zoeken"</string>    
+    <string name="notifier_progress__delete_will_start_message">Contacten worden over enige ogenblikken verwijderd.</string>  
+    <string name="notifier_progress__copy_will_start_message">Contacten worden over enige ogenblikken gekopieerd.</string>
+    
+    <string name="remove_sd_confirm_2">Weet u zeker dat u 
+        <xliff:g id="contact_name">%1$s</xliff:g> wilt verwijderen van snelkiezen 
+        <xliff:g id="key">%2$s</xliff:g>?
+    </string>  
+    <string name="callFailed_simError">Geen SIM-kaart of fout met SIM-kaart</string>  
+    <string name="group_discard_member">Wissen</string>  
+    <string name="group_discard_member_reason">De bewerkingen worden ongedaan gemaakt omdat de groepsnaam ongeldig is.</string>  
+    <string name="share_contacts_limit">“Niet meer dan 3500 contacten kunnen geselecteerd worden om te delen”</string>  
+    <string name="contact_delete_all_tips">“Op de achtergrond worden reeds contacten gewist. Als u meer contacten wilt verwijderen, moet u dit eerst annuleren.”</string>
+    
+    <string name="turn_on_3g_service_message">"3G-service is nu uitgeschakeld. Wilt u de service inschakelen?"</string>
+    <string name="associate_sim_missing_message">"De SIM %1$s is niet beschikbaar. Wilt u het nummer bellen via %2$s"</string>
+    <string name="associate_sim_missing_other">Bellen</string>
+    <string name="sim_manage_call_via">Bellen via</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">Geef eerst het IP- voorvoegsel op in de instellingen voor Spraakoproep.</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">De functie IP kiezen is niet van toepassing op bedoelde oproep.</string>
+
+    <string name="deleteCallLogConfirmation_title">Gesprekslog(gen) wissen?</string>  
+    <string name="deleteCallLogConfirmation_message">Weet u zeker dat u de geselecteerde gesprekslogboeken wilt wissen?</string>
+ 
+    <string name="email_too_long">E-mail is te lang</string> 
+    <!-- The previous lines are provided and maintained by Mediatek Inc. -->
+    <!--The following lines are provided and maintained by Mediatek Inc. 2012-5-16-->  
+    <string name="delete_group_failure">Verwijderen groep mislukt.</string>  
+    <!-- The previous lines are provided and maintained by Mediatek Inc. -->
+    
+      <string name="from_account_format"> 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="source" example="user@gmail.com">%1$s</xliff:g> 
+    </string>
+  <string name="speed_dial_added2"> 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="contact_name">%1$s</xliff:g> toegevoegd aan snelkiezen 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="key">%2$s</xliff:g> 
+    </string>
+  <string name="call_log_filter_all_resources">Alle bronnen</string>
+  <string name="multichoice_contacts_limit">"Niet meer dan 3500 contacten kunnen geselecteerd worden"</string>
+  <string name="file_already_on_sd_card">Het bestand staat reeds op de SD-kaart.</string>
+  <string name="send_file_sms_error">Kan het bestand niet delen met SMS, gebruik MMS.</string>
+  <string name="error_save_usim_contact_email_lost">“Opslaan e-mailadres mislukt omdat de USIM-opslag voor e-mail vol is.”</string>
+  <string name="error_import_usim_contact_email_lost">“Het importeren van e-mailadressen van een aantal contacten is mislukt omdat de USIM-opslag voor e-mail vol is.\nVoltooid: 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="items">%d</xliff:g>\nNiet voltooid: 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="items">%d</xliff:g>"
+    </string>
+  <string name="user_profile_cannot_sd_card">Kan de inhoud niet delen met deze methode.</string>
+  <string name="call_sms">Sms</string> 
+  <string name="contact_group_list_title">"Kies doelgroep"</string> 
+    <string name="import_no_vcard_dialog_text">Geen vCard-bestand gevonden in 
+        <xliff:g id="storage_name">%s</xliff:g>
+    </string> 
+
+  <string name="send_groupemail_no_number_more">"%1$s en nog eens %2$s contacten hebben geen geldig e-mailadres."</string>
+  <string name="send_groupemail_no_number_1">"%1$s heeft geen geldig e-mailadres."</string>
+  <string name="send_groupemail_no_number_2">"%1$s en %2$s hebben geen geldig e-mailadres."</string>
+  <string name="send_message">Bericht verzenden</string>
+  <string name="type_ip_outgoing">IP uitgaand gesprek ( 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="name">%s</xliff:g>)
+    </string>
+  <string name="call_log_auto_rejected_label">Automatisch geweigerde oproepen</string>
+  
+    <string name="look_simstorage">Capaciteit SIM-kaart weergeven</string>  
+    <string name="dlg_simstorage_content">Opslagcapaciteit telefoonboek 
+        <xliff:g id="items">%d</xliff:g>, in gebruik 
+        <xliff:g id="items">%d</xliff:g>.
+    </string>
+
+    <string name="nickname_too_long">"Bijnaam is te lang."</string>
+    <string name="pick_new_photo_from_gallery">Nieuwe foto kiezen</string>  
+    <string name="copy_text_to_dialer">Naar kiezer kopiëren</string> 
+    <string name="account_phone_only" product="tablet">"Tablet"</string>  
+    <string name="account_phone_only" product="default">Telefoon</string>  
+
+    <string name="international_dialing_title">Totaal gebruikte gegevens:<xliff:g id="time">%1$s</xliff:g></string>
+    <string name="international_dialing_select_country">U wilt internationaal bellen. Kies uw bestemming.</string>
+    <string name="international_dialing_add_country_code">U belt een <xliff:g id="country_name">%s</xliff:g> nummer. Wilt u de landcode (+<xliff:g id="country_code">%s</xliff:g>) toevoegen?</string>
+    <string name="international_dialing_add_country_code_and_area_code">U belt een  nummer in <xliff:g id="area_name">%1$s</xliff:g>, <xliff:g id="country_name">%2$s</xliff:g>. Wilt u de landcode en het kengetal (+<xliff:g id="prefix">%3$s</xliff:g>) toevoegen?</string> 
+    <string name="international_dialing_change_country_prefix">U belt uit <xliff:g id="country_name">%s</xliff:g>. Wilt u het internationale voorloopnummer veranderen in \'+\'?</string>
+    <string name="international_dialing_add_country_code_input_area_code">U belt een nummer in <xliff:g id="country_name">%s</xliff:g>. Voer als dat zo is het kengetal in.</string>   
+    <string name="international_dialing_add_country_code_default_input_area_code">U belt een nummer in <xliff:g id="country_name">%s</xliff:g>. Als de doelplaats niet <xliff:g id="area_name">%s</xliff:g> is, moet u het kengetal invoeren.</string>
+    <string name="international_dialing_need_area_code">Het kengetal voor de plaats van bestemming is nodig om te kunnen bellen.</string>
+    <string name="international_dialing_input_area_code">Voer hier het kengetal in</string>
+    <string name="international_dialing_dialed_number">Belt nummer:</string>
+    <string name="international_dialing_confirm_area_code">Als de doelplaats niet <xliff:g id="area_name">%s</xliff:g> is, moet u het kengetal van de doelplaats hieronder invoeren.</string>
+    <string name="international_dialing_dial_with_country_code">Bellen met landcode</string>
+    <string name="international_dialing_click_below_button">Klik op de knop hieronder om de landcode te veranderen.</string>
+    <string name="international_dialing_yes">Ja. Gebruik onderstaand nummer:</string>
+    <string name="international_dialing_no">Nee. Gebruik origineel nummer:</string>
+    <string name="international_dialing_call_button">"Bellen"</string>
+    <string name="international_dialing_area_code">netnummer</string>
+    <string name="international_dialing_invalid_number">Het nummer is ongeldig. Wilt u toch doorgaan met kiezen?</string>
+    <string name="international_dialing_add_country_code_and_area_code_without_prefix">Wilt u de landcode en het kengetal toevoegen?</string>
+    <string name="share_too_large">Totale hoeveelheid gegevens te groot, deselecteer een aantal items en probeer het nogmaals.</string>
+
+</resources>

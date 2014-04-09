@@ -1,0 +1,1007 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <!-- Permissions label for reading attachments -->  
+    <string name="permission_read_attachment_label">ای میل منسلکات پڑھیں</string>  
+    <!-- Permissions description for reading attachments -->  
+    <string name="permission_read_attachment_desc">اس اضافی پروگرام کو آپ کے ای میل منسلکات پڑھنے کی اجازت دیتا ہے۔</string>  
+    <!-- Permissions label for accessing the main provider -->  
+    <string name="permission_access_provider_label">ای میل فراہم کنندہ کے ڈیٹا تک رسائی کریں</string>  
+    <!-- Permissions description for accessing the main provider -->  
+    <string name="permission_access_provider_desc">اس اضافی پروگرام کو آپ کے ای میل ڈیٹابیس تک رسائی کی اجازت دیتا ہے، جس میں موصولہ پیغامات، بھیجے گئے پیغامات، صارف کے نام اور الفاظ شناخت شامل ہيں۔</string>  
+    <!-- Name of application on Home screen -->  
+    <string name="app_name">ای میل</string>  
+    <!-- Title of compose screen -->  
+    <string name="compose_title">لکھیں</string>  
+    <!-- Title of debug screen -->  
+    <string name="debug_title">غلطیاں ٹھیک کریں</string>  
+    <!-- Actions will be used as buttons and in menu items -->  
+    <skip/>  
+    <!-- Button name used as part of a multi-step process -->  
+    <string name="next_action">اگلا</string>  
+    <!-- Button name used to confirm acceptance of dialog boxes, warnings, errors, etc. -->  
+    <string name="okay_action">ٹھیک ہے</string>  
+    <!-- Button name used to cancel out of dialog boxes -->  
+    <string name="cancel_action">منسوخ</string>  
+    <!-- Button name used to move to previous step during setup sequence [CHAR_LIMIT=16] -->  
+    <string name="previous_action">سابقہ</string>  
+    <!-- Menu item/button name -->  
+    <string name="send_action">بھیجیں</string>  
+    <!-- Menu item/button name -->  
+    <string name="reply_action">جواب دیں</string>  
+    <!-- Menu item/button name -->  
+    <string name="reply_all_action">سب کو جواب دیں</string>  
+    <!-- Menu item/button name -->  
+    <string name="delete_action">مٹائيں</string>  
+    <!-- Menu item/button name -->  
+    <string name="forward_action">آگے بھیجیں</string>  
+    <!-- Menu/Button item name and label for marking a message as a favorite
+         (usually called starred) [CHAR LIMIT=40] -->  
+    <string name="favorite_action">ستارہ</string>  
+    <!--  Button name used to complete a multi-step process -->  
+    <string name="done_action">ہوگیا</string>  
+    <!--  Button name used to create a new quick response [CHAR_LIMIT=16] -->  
+    <string name="create_action">نیا بنائيں</string>  
+    <!-- Message informing user when a list that would contain quick responses
+            is empty [CHAR_LIMIT=80] -->  
+    <string name="quick_responses_empty_view">کوئی فوری جواب نہيں</string>  
+    <!-- Menu item/button name -->  
+    <string name="discard_action">رد کریں</string>  
+    <!-- Menu item/button name [CHAR_LIMIT=16] -->  
+    <string name="save_draft_action">مسودہ محفوظ کریں</string>  
+    <!-- Menu item/button name. Pressing will insert previously saved text
+            into message body. [CHAR_LIMIT=24] -->  
+    <string name="show_quick_text_list_dialog_action">فوری جواب ڈالیں</string>  
+    <!-- Menu item/button name -->  
+    <string name="read_action">بطور پڑھاگیا نشان زد کریں</string>  
+    <!-- Menu item/button name -->  
+    <string name="unread_action">بطور غیرخواندہ نشان زد کريں</string>  
+    <!-- Menu item/button name -->  
+    <string name="set_star_action">ستارہ لگائيں</string>  
+    <!-- Menu item/button name -->  
+    <string name="remove_star_action">ستارہ ہٹائيں</string>  
+    <!-- Menu item -->  
+    <string name="refresh_action">دوبارہ تازہ کریں</string>  
+    <!-- Menu item -->  
+    <string name="add_account_action">اکاؤنٹ شامل کریں</string>  
+    <!-- Menu item -->  
+    <string name="compose_action">کمپوز کریں</string>  
+    <!-- Menu item/button name -->  
+    <string name="search_action">تلاش</string>  
+    <!-- Menu item -->  
+    <string name="account_settings_action">اکاؤنٹ کی ترتیب</string>  
+    <!-- Menu item for settings [CHAR LIMIT=40]-->  
+    <string name="settings_action">ترتیبات</string>  
+    <!-- Menu item [CHAR LIMIT=32] -->  
+    <string name="mailbox_settings_action">سنک کے اختیارات</string>  
+    <!-- Menu item -->  
+    <string name="mark_as_unread_action">بطور غیرخواندہ نشان زد کريں</string>  
+    <!-- Menu item for moving messages to folders [CHAR LIMIT=10] -->  
+    <string name="move_action">ہٹائيں</string>  
+    <!-- Button label for adding CC/BCC fields on message compose. [CHAR LIMIT=16] -->  
+    <string name="plus_cc_label">+ Cc/Bcc</string>  
+    <!-- Menu item label for adding CC/BCC fields on message compose. [CHAR LIMIT=20] -->  
+    <string name="add_cc_bcc_menu">سی سی/بی سی سی شامل کریں</string>  
+    <!-- Menu item label for adding an attachment on message compose. [CHAR LIMIT=20] -->  
+    <string name="add_file_attachment">فائل منسلک کریں</string>  
+    <!-- Command shown on Outbox to send all pending messages [CHAR LIMIT=20] -->  
+    <string name="message_list_send_pending_messages_action">تمام پیغامات بھیجیں</string>  
+    <!-- Appears in choose attachment dialog title -->  
+    <string name="choose_attachment_dialog_title">منسلکہ منتخب کریں</string>  
+    <!-- Dialog title to select a mailbox to which the user moves messages [CHAR LIMIT=20] -->  
+    <string name="move_to_folder_dialog_title">یہاں لے جائيں</string>  
+    <!-- Appears in message list view while messages are being loaded [CHAR LIMIT=260dip] -->  
+    <string name="status_loading_messages">پیغامات لوڈ کریں\u2026</string>  
+    <!-- Appears in message list view when there's a network error. -->  
+    <!-- Also appears in a toast, in the message viewer, when there's a network error. -->  
+    <string name="status_network_error">کنکشن میں مسئلہ۔</string>  
+    <!-- Dialog text when we are unable to load the message for display -->  
+    <string name="error_loading_message_body">پیغام کا ٹیکسٹ لوڈ کرنے سے قاصر۔ ممکن ہے کہ پیغام پڑھنے کے لئے بہت بڑا ہو۔</string>  
+    <!-- Text shown with dragged messages to indicate how many are being dragged [CHAR LIMIT=40]-->  
+    <plurals name="move_messages"> 
+        <item quantity="one">پیغام ہٹائيں</item>  
+        <item quantity="other">پیغامات ہٹائيں</item> 
+    </plurals>  
+    <!-- Toast shown when a message(s) can't be moved because it's not supported by the POP3
+        protocol. [CHAR LIMIT=none]-->  
+    <string name="cannot_move_protocol_not_supported_toast">POP3 اکاؤنٹ میں ہٹانے کی حمایت نہين۔</string>  
+    <!-- Toast shown when messages can't be moved because the selection contains multiple accounts'
+        messages. [CHAR LIMIT=none]-->  
+    <string name="cannot_move_multiple_accounts_toast">انتخاب میں متعدد اکاؤنٹ ہونے کی وجہ سے ہٹانے سے قاصر۔</string>  
+    <!-- Toast shown when messages can't be moved because they're in a special mailbox.  "Drafts",
+        "Outbox" and "Sent". [CHAR LIMIT=none]-->  
+    <string name="cannot_move_special_mailboxes_toast">مسودات، آؤٹ باکس اور بھیجے گئے میں موجود پیغامات کو ہٹایا نہيں جاسکتا ہے۔</string>  
+    <!-- Notification for multiple messages [CHAR LIMIT=60] -->  
+    <string name="notification_multiple_new_messages_fmt"> 
+        <xliff:g example="2">%1$d</xliff:g> نئے پیغامات
+    </string>  
+    <!-- The number of accounts configured. [CHAR LIMIT=16] -->  
+    <plurals name="number_of_accounts"> 
+        <item quantity="one"> 
+            <xliff:g id="num_accounts" example="1">%1$d</xliff:g> اکاؤنٹ
+        </item>  
+        <item quantity="other"> 
+            <xliff:g id="num_accounts" example="2">%1$d</xliff:g> اکاؤنٹس
+        </item> 
+    </plurals>  
+    <!-- In the UI, the inbox will be displayed with this name -->  
+    <string name="mailbox_name_display_inbox">ان باکس</string>  
+    <!-- In the UI, the outbox will be displayed with this name -->  
+    <string name="mailbox_name_display_outbox">آؤٹ باکس</string>  
+    <!-- In the UI, the drafts will be displayed with this name -->  
+    <string name="mailbox_name_display_drafts">مسودات</string>  
+    <!-- In the UI, the trash will be displayed with this name -->  
+    <string name="mailbox_name_display_trash">کچرا</string>  
+    <!-- In the UI, the sent will be displayed with this name -->  
+    <string name="mailbox_name_display_sent">بھیجا گیا</string>  
+    <!-- In the UI, the junk will be displayed with this name -->  
+    <string name="mailbox_name_display_junk">کچرا</string>  
+    <!-- In the shortcut/widget configuration UI, the label for selecting only the unread messages in an account's inbox [CHAR LIMIT=30] -->  
+    <string name="picker_mailbox_name_all_unread">ان باکس (غیرخواندہ)</string>  
+    <!-- In the shortcut/widget configuration UI, the label for selecting all messages in an account's inbox [CHAR LIMIT=30] -->  
+    <string name="picker_mailbox_name_all_inbox">ان باکس (تمام)</string>  
+    <!-- In the shortcut/widget configuration UI, use this for the "all accounts" account list item [CHAR LIMIT=30] -->  
+    <string name="picker_combined_view_fmt">مشترکہ ویو ( 
+        <xliff:g id="count">%s</xliff:g>)
+    </string>  
+    <!-- Count of accounts; used in picker_combined_view_fmt -->  
+    <plurals name="picker_combined_view_account_count"> 
+        <item quantity="one"> 
+            <xliff:g id="account_count" example="1">%d</xliff:g> اکاؤنٹ
+        </item>  
+        <item quantity="other"> 
+            <xliff:g id="account_count" example="9">%d</xliff:g> اکاؤنٹس
+        </item> 
+    </plurals>  
+    <!-- Version number, shown only on debug screen -->  
+    <string name="debug_version_fmt">ورژن: 
+        <xliff:g id="version">%s</xliff:g> 
+    </string>  
+    <!-- The summary section entry in the AccountFolder list to display all inboxes -->  
+    <string name="account_folder_list_summary_inbox">ان باکس</string>  
+    <!-- The summary section entry in the AccountFolder list to display all starred
+        [CHAR LIMIT=200dip] -->  
+    <string name="account_folder_list_summary_starred">ستارے سے نشان زد</string>  
+    <!-- The summary section entry in the AccountFolder list to display all drafts
+        [CHAR LIMIT=200dip] -->  
+    <string name="account_folder_list_summary_drafts">مسودات</string>  
+    <!-- The summary section entry in the AccountFolder list to display all outboxes
+        [CHAR LIMIT=200dip] -->  
+    <string name="account_folder_list_summary_outbox">آؤٹ باکس</string>  
+    <!-- Label shown in the account selector to select "Combined view", which contains
+         Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->  
+    <string name="mailbox_list_account_selector_combined_view">مشترکہ ویو</string>  
+    <!-- Label shown in the account/mailbox selector to switch to the show all the top-level mailboxes. [CHAR LIMIT=30] -->  
+    <string name="mailbox_list_account_selector_show_all_folders">تمام فولڈر دکھائيں</string>  
+    <!-- Recent mailbox header in the account/mailbox selector. [CHAR LIMIT=30] -->  
+    <string name="mailbox_list_account_selector_mailbox_header_fmt">حالیہ فولڈر ( 
+        <xliff:g id="email_address">%s</xliff:g>)
+    </string>  
+    <!-- Mailbox list header for user folders [CHAR LIMIT=30] -->  
+    <string name="mailbox_list_user_mailboxes">تمام فولڈر</string>  
+    <!-- Mailbox list header for recent folders [CHAR LIMIT=30] -->  
+    <string name="mailbox_list_recent_mailboxes">حالیہ فولڈر</string>  
+    <!-- Announces the subject field for a message for users with accessibility requirements -->  
+    <string name="message_subject_description">موضوع</string>  
+    <!-- Announces that a message has no sender or subject
+            to users with accessibility requirements -->  
+    <string name="message_is_empty_description">کوئی موضوع نہيں</string>  
+    <!-- Appears at the bottom of list of messages; user selects to load more messages from that folder. -->  
+    <string name="message_list_load_more_messages_action">مزید پیغامات لوڈ کریں</string>  
+    <!--  The number of messages that are currently selected for various operations such as
+          "delete message(s)" [CHAR LIMIT=32] -->  
+    <plurals name="message_view_selected_message_count"> 
+        <item quantity="one"> 
+            <xliff:g id="message_count" example="1">%d</xliff:g> منتخب کردہ
+        </item>  
+        <item quantity="other"> 
+            <xliff:g id="message_count" example="9">%d</xliff:g> منتخب کردہ
+        </item> 
+    </plurals>  
+    <!-- Message to show when there are no messages (emails) in the selected mailbox.
+         [CHAR LIMIT=26] -->  
+    <string name="message_list_no_messages">کوئی پیغامات نہيں</string>  
+    <!-- Hint text in To field -->  
+    <string name="message_compose_to_hint">بطرف</string>  
+    <!-- Hint text in Subject field -->  
+    <string name="message_compose_subject_hint">موضوع</string>  
+    <!-- Label for To field [CHAR LIMIT=12] -->  
+    <string name="to">بطرف</string>  
+    <!-- Label for Cc field [CHAR LIMIT=12] -->  
+    <string name="cc">سی سی</string>  
+    <!-- Label for Bcc field [CHAR LIMIT=12] -->  
+    <string name="bcc">بی سی سی</string>  
+    <!-- Label for Subject field [CHAR LIMIT=12] -->  
+    <string name="subject_hint">موضوع</string>  
+    <!-- Hint text in Message composer body field -->  
+    <string name="body_hint">ای میل لکھیں</string>  
+    <!-- Header for forwarded original messages -->  
+    <string name="message_compose_fwd_header_fmt">\n\n-------- اصلی پیغام --------\nموضوع: 
+        <xliff:g id="subject">%1$s</xliff:g>\nمنجانب: 
+        <xliff:g id="sender">%2$s</xliff:g>\nبطرف: 
+        <xliff:g id="to">%3$s</xliff:g>\nسی سی: 
+        <xliff:g id="cc">%4$s</xliff:g>\n\n
+    </string>  
+    <!-- Header for replied-to messages -->  
+    <string name="message_compose_reply_header_fmt">\n\n 
+        <xliff:g id="sender">%s</xliff:g> نے لکھا:\n\n
+    </string>  
+    <!-- Heading that appears before forwarded text -->  
+    <string name="message_compose_quoted_text_label">کہا گيا ٹیکسٹ شامل کریں</string>  
+    <!-- Toast that appears if you try to send with no recipients. -->  
+    <string name="message_compose_error_no_recipients">آپ کو کم از کم ایک وصول کنندہ شامل کرنا ضروری ہے۔</string>  
+    <!-- An address field contains invalid email addresses. -->  
+    <string name="message_compose_error_invalid_email">کچھ ای میل کے پتے غلط ہيں۔</string>  
+    <!-- Toast that appears when an attachment is too big to send. -->  
+    <string name="message_compose_attachment_size">فائل منسلک کرنے کے لئے بہت بڑی ہے۔</string>  
+    <!-- Title for dialog containing list of quick responses that user may insert
+            into message body. [CHAR_LIMIT=30] -->  
+    <string name="message_compose_insert_quick_response_list_title">فوری جواب ڈالیں</string>  
+    <!-- Display name for composed message, indicating the destination of the message.
+      e.g. "John and 2 others" -->  
+    <string name="message_compose_display_name"> 
+        <xliff:g id="name" example="John">%1$s</xliff:g> اور 
+        <xliff:g id="number" example="27">%2$d</xliff:g> دوسرے
+    </string>  
+    <!-- Label for To field in read message view -->  
+    <string name="message_view_to_label">بطرف:</string>  
+    <!-- Label for CC field in read message view -->  
+    <string name="message_view_cc_label">سی سی:</string>  
+    <string name="message_view_bcc_label">بی سی سی:</string>  
+    <!-- Label for the date field. [CHAR LIMIT=20]-->  
+    <string name="message_view_date_label">تاریخ:</string>  
+    <!-- Button name to view an attachment [CHAR LIMIT=10]-->  
+    <string name="message_view_attachment_view_action">ویو</string>  
+    <!-- Button name to install an .apk attachment [CHAR LIMIT=10]-->  
+    <string name="message_view_attachment_install_action">نصب کریں</string>  
+    <!-- Button name to play a media (i.e. audio/video) attachment [CHAR LIMIT=10]-->  
+    <string name="message_view_attachment_play_action">چلائيں</string>  
+    <!-- Button name, to load an attachment from the mail server [CHAR LIMIT=10]-->  
+    <string name="message_view_attachment_load_action">لوڈ کریں</string>  
+    <!-- Button name, to show info about an attachment from the mail server [CHAR LIMIT=10]-->  
+    <string name="message_view_attachment_info_action">معلومات</string>  
+    <!-- Button name, to save the attachment to SD card [CHAR LIMIT=10]-->  
+    <string name="message_view_attachment_save_action">محفوظ کریں</string>  
+    <!-- Disabled button text to indicate an attachment has been saved [CHAR LIMIT=10] -->  
+    <string name="message_view_attachment_saved">محفوظ کیا گیا</string>  
+    <!-- Button name, to cancel a queued attachment download [CHAR LIMIT=10]-->  
+    <string name="message_view_attachment_cancel_action">روکیں</string>  
+    <!-- Toast after saving attachment [CHAR LIMIT=30] -->  
+    <string name="message_view_status_attachment_saved">منسلکہ بطور 
+        <xliff:g id="filename">%s</xliff:g> محفوظ۔۔
+    </string>  
+    <!-- Toast after attachment could not be saved [CHAR LIMIT=30] -->  
+    <string name="message_view_status_attachment_not_saved">منسلکہ محفوظ کرنے سے قاصر۔</string>  
+    <!-- Toast upon using "send" when one or more attachments will need to be background loaded
+      [CHAR LIMIT=none]-->  
+    <string name="message_view_attachment_background_load">نوٹ: آپ کے آگے بڑھائے گئے پیغام میں سے ایک یا اس سے زيادہ منسلکات کو بھیجنے سے پہلے ڈاؤن لوڈ کیا جائے گا۔</string>  
+    <!--Button on the message view screen to show the message content [CHAR LIMIT=16] -->  
+    <string name="message_view_show_message_action">پیغام</string>  
+    <!--Button on the message view screen to show the calendar invite [CHAR LIMIT=16] -->  
+    <string name="message_view_show_invite_action">دعوت دیں</string>  
+    <!--Button on the message view screen to show the attachments [CHAR LIMIT=16] -->  
+    <plurals name="message_view_show_attachments_action"> 
+        <item quantity="one">منسلکہ 
+            <xliff:g id="num_attachment" example="1">%1$d</xliff:g> 
+        </item>  
+        <item quantity="other">منسلکات 
+            <xliff:g id="num_attachment" example="3">%1$d</xliff:g> 
+        </item> 
+    </plurals>  
+    <!-- Button on the message view screen to show the embedded pictures [CHAR LIMIT=16] -->  
+    <string name="message_view_show_pictures_action">تصویریں دکھائيں</string>  
+    <!-- Prompt on the message view screen whether or not to always show pictures from the
+         given sender [CHAR LIMIT=80] -->  
+    <string name="message_view_always_show_pictures_prompt">ہمیشہ اس بھیجنے والے سے تصویریں دکھائيں</string>  
+    <!-- Confirmation toast to indicate that the user has chosen to always show
+         pictures from the given sender [CHAR LIMIT=160] -->  
+    <string name="message_view_always_show_pictures_confirmation">اس بھیجنے والے کی تصویروں کو خودکار طور پر دکھایا جائے گا۔</string>  
+    <!-- Calendar invitation, label of the button to open in calendar [CHAR LIMIT=24] -->  
+    <string name="message_view_invite_view">کیلنڈر میں دیکھیں</string>  
+    <!-- String shown with a calendar invitation. -->  
+    <string name="message_view_invite_title">کیلنڈر کی دعوت</string>  
+    <!-- String shown with a calendar invitation. -->  
+    <string name="message_view_invite_text">جارہے ہيں؟</string>  
+    <!-- Button text: Calendar invitation: Accept. The leading space is used for spacing -->  
+    <string name="message_view_invite_accept">"ہاں"</string>  
+    <!-- Button text: Calendar invitation: Maybe. The leading space is used for spacing -->  
+    <string name="message_view_invite_maybe">"شاید"</string>  
+    <!-- Button text: Calendar invitation: Decline. The leading space is used for spacing -->  
+    <string name="message_view_invite_decline">"نہیں"</string>  
+    <!-- Toast shown following a meeting invite reply, accepted -->  
+    <string name="message_view_invite_toast_yes">آپ نے یہ دعوت قبول کی ہے۔</string>  
+    <!-- Toast shown following a meeting invite reply, maybe -->  
+    <string name="message_view_invite_toast_maybe">آپ نے اس دعوت کا جواب "\شاید"\ میں دیا ہے۔</string>  
+    <!-- Toast shown following a meeting invite reply, declined -->  
+    <string name="message_view_invite_toast_no">آپ نے اس دعوت سے انکارکیا ہے۔</string>  
+    <!--Confirmation dialog title shown when user tries to delete messages.  [CHAR LIMIT=16] -->  
+    <!-- Title for most attachment info dialogs [CHAR LIMIT=32] -->  
+    <string name="attachment_info_dialog_default_title">منسلکہ کی معلومات</string>  
+    <!-- Title when Wi-Fi settings prevent attachments from downloading [CHAR LIMIT=32] -->  
+    <string name="attachment_info_dialog_wifi_title">Wi-Fi کنکشن درکار ہے</string>  
+    <!-- Text of button to launch the Wi-Fi settings activity [CHAR LIMIT=24] -->  
+    <string name="attachment_info_wifi_settings">Wi-Fi ترتیبات</string>  
+    <!-- Text of button to launch the application settings activity [CHAR LIMIT=24] -->  
+    <string name="attachment_info_application_settings">اضافی پروگرام کی ترتیبات</string>  
+    <!-- Message body when we don't know exactly why an attachment can't be shown -->  
+    <string name="attachment_info_unknown">منسلکہ کھولنے سے قاصر۔</string>  
+    <!-- Message body when the attachment is suspected of being malware -->  
+    <string name="attachment_info_malware">آپ اس قسم کی فائل محفوظ یا کھول نہيں سکتے ہيں کیونکہ ممکن ہے کہ اس منسلکہ کی قسم میں نقصان دہ سافٹ وئیر ہو۔</string>  
+    <!-- Message body when the attachment can't be loaded due to security policy restrictions -->  
+    <string name="attachment_info_policy">اس اکاؤنٹ کی حفاظتی پالیسیوں کی وجہ سے اس منسلکہ کو کھولا یا محفوظ نہیں کیا جاسکتا ہے۔</string>  
+    <!-- Message body when the attachment can only be downloaded over Wi-Fi -->  
+    <string name="attachment_info_wifi_only">یہ منسلکہ موبائل نیٹورک کے اوپر ڈاؤن لوڈ کرنے کے لئے بہت بڑا ہے۔ اگلی بار Wi-Fi نیٹورک سے جڑنے پر آپ اسے ڈاؤن لوڈ کرسکتے ہيں۔</string>  
+    <!-- Message body when no activities can open the attachment -->  
+    <string name="attachment_info_no_intent">ایسا کوئی اضافی پروگرام نصب نہيں کیا گيا ہے جو یہ منسلکہ کھول سکے۔ Android Market سے مناسب اضافی پروگرام ڈاؤن لوڈ کرنے کی کوشش کریں۔</string>  
+    <!-- Message body when the attachment is an application, but, side loading is disabled -->  
+    <string name="attachment_info_sideload_disabled">یہ منسلکہ ایک اضافی پروگرام ہے۔ آپ کو اسے نصب کرنے سے پہلے ترتیبات &gt; اضافی پروگرام میں نامعلوم ذرائع میں چیک کرنے کی ضرورت ہے۔</string>  
+    <!-- Message body when the attachment is an application, and side loading is enabled -->  
+    <string name="attachment_info_apk_install_disabled">اضافی پروگراموں کو ای میل سے براہ راست نصب نہيں کیا جاسکتا ہے۔ پہلے سے اضافی پروگرام کو محفوظ کريں اور پھر اسے ڈاؤن لوڈ کے اضافی پروگرام کے ذریعے نصب کریں۔</string>  
+    <!-- Error banner when an attachment could not be downloaded due to a problem at the server
+            [CHAR LIMIT=100] -->  
+    <string name="attachment_not_found">منسلکہ ڈاؤن لوڈ کرنے سے قاصر۔</string>  
+    <!-- String used in place of a message that could not be properly decoded (e.g. bad base64
+         data was received.) [CHAR LIMIT=none] -->  
+    <string name="message_decode_error">پیغام غیرخفیہ کرنے کے دوران غلطی۔</string>  
+    <!-- Title of the EML viewer activity. [CHAR LIMIT=32] -->  
+    <string name="eml_view_title"> 
+        <xliff:g id="filename" example="test.eml">%s</xliff:g> دیکھ رہا ہے
+    </string>  
+    <!-- Toast shown briefly while deleting a message -->  
+    <plurals name="message_deleted_toast"> 
+        <item quantity="one">پیغام مٹایا گيا۔</item>  
+        <item quantity="other">پیغامات مٹائے گئے۔</item> 
+    </plurals>  
+    <!-- Toast shown briefly while deleting an unsent (draft) message -->  
+    <string name="message_discarded_toast">پیغام رد کیا گيا۔</string>  
+    <!-- Toast shown briefly while saving a draft -->  
+    <string name="message_saved_toast">پیغام کو بطور مسودہ محفوظ کیا گيا۔</string>  
+    <!-- String that is displayed when the attachment could not be displayed. -->  
+    <string name="message_view_display_attachment_toast">منسلکہ دکھانے سے قاصر۔</string>  
+    <!-- String that is displayed when the attachment could not be loaded.[CHAR LIMIT=none] -->  
+    <string name="message_view_load_attachment_failed_toast">منسلکہ لوڈ کرنے سے قاصر \" 
+        <xliff:g id="filename">%s</xliff:g>\".
+    </string>  
+    <!-- String that is displayed when a long message is being parsed. [CHAR LIMIT=none] -->  
+    <string name="message_view_parse_message_toast">پیغام کھول رہا ہے\u2026</string>  
+    <!-- Toast shown after moving a message to a different mailbox. [CHAR LIMIT=none]-->  
+    <plurals name="message_moved_toast"> 
+        <item quantity="one"> 
+            <xliff:g id="num_message" example="1">%1$d</xliff:g>پیغام کو 
+            <xliff:g id="mailbox_name" example="Inbox">%2$s</xliff:g> میں منتقل کیا گیا
+        </item>  
+        <item quantity="other"> 
+            <xliff:g id="num_message" example="5">%1$d</xliff:g> پیغامات کو 
+            <xliff:g id="mailbox_name" example="Inbox">%2$s</xliff:g> میں منتقل کیا گيا
+        </item> 
+    </plurals>  
+    <!-- Notification ticker when a forwarded attachment couldn't be sent [CHAR LIMIT=none] -->  
+    <string name="forward_download_failed_ticker">ایک یا ایک سے زيادہ منسلکات کو آگے نہيں بڑھایا جاسکا۔</string>  
+    <!-- Notification title when a forwarded attachment couldn't be sent [CHAR LIMIT=30]-->  
+    <string name="forward_download_failed_title">منسلکہ کو آگے نہیں بڑھایا گیا</string>  
+    <!-- Notification ticker when email account authentication fails [CHAR LIMIT=none] -->  
+    <string name="login_failed_ticker"> 
+        <xliff:g id="account_name">%s</xliff:g> سائن ان کرنا ناکام۔
+    </string>  
+    <!-- Notification title when email account authentication fails [CHAR LIMIT=30]-->  
+    <string name="login_failed_title">سائن ان کرنے سے قاصر</string>  
+    <!-- Size unit for bytes for attachments [CHAR LIMIT=10] -->  
+    <plurals name="message_view_attachment_bytes"> 
+        <item quantity="one"> 
+            <xliff:g id="size_in_bytes" example="1">%d</xliff:g>B
+        </item>  
+        <item quantity="other"> 
+            <xliff:g id="size_in_bytes" example="279">%d</xliff:g>B
+        </item> 
+    </plurals>  
+    <!-- Size unit for kilo bytes for attachments [CHAR LIMIT=10] -->  
+    <plurals name="message_view_attachment_kilobytes"> 
+        <item quantity="one"> 
+            <xliff:g id="size_in_kilobytes" example="1">%d</xliff:g>KB
+        </item>  
+        <item quantity="other"> 
+            <xliff:g id="size_in_kilobytes" example="279">%d</xliff:g>KB
+        </item> 
+    </plurals>  
+    <!-- Size unit for mega bytes for attachments [CHAR LIMIT=10] -->  
+    <plurals name="message_view_attachment_megabytes"> 
+        <item quantity="one"> 
+            <xliff:g id="size_in_megabytes" example="1">%d</xliff:g>MB
+        </item>  
+        <item quantity="other"> 
+            <xliff:g id="size_in_megabytes" example="279">%d</xliff:g>MB
+        </item> 
+    </plurals>  
+    <!-- Size unit for giga bytes for attachments [CHAR LIMIT=10] -->  
+    <plurals name="message_view_attachment_gigabytes"> 
+        <item quantity="one"> 
+            <xliff:g id="size_in_gigabytes" example="1">%d</xliff:g>GB
+        </item>  
+        <item quantity="other"> 
+            <xliff:g id="size_in_gigabytes" example="279">%d</xliff:g>GB
+        </item> 
+    </plurals>  
+    <!-- The label of the next button on the message view screen. -->  
+    <string name="message_view_move_to_newer">نئے</string>  
+    <!-- The label of the previous button on the message view screen. -->  
+    <string name="message_view_move_to_older">پرانے</string>  
+    <!-- A simple divider between subject and message snippet in the message list view
+        [CHAR LIMIT=4]-->  
+    <!-- DO NOT TRANSLATE -->  
+    <string name="message_list_subject_snippet_divider">\u0020\u2014\u0020</string>  
+    <!-- Title of screen when setting up new email account [CHAR LIMIT=45] -->  
+    <string name="account_setup_basics_title">اکاؤنٹ سیٹ اپ</string>  
+    <!-- Title of the screen when adding exchange account [CHAR LIMIT=45] -->  
+    <string name="account_setup_basics_exchange_title">Exchange اکاؤنٹ شامل کریں</string>  
+    <!-- Title of the screen when adding exchange account [CHAR LIMIT=45] -->  
+    <string name="account_setup_basics_exchange_title_alternate">Exchange ActiveSync اکاؤنٹ شامل کریں</string>  
+    <!-- Headline of screen when setting up new email account (large text over divider)
+        [CHAR LIMIT=none] -->  
+    <string name="account_setup_basics_headline">ای میل اکاؤنٹ</string>  
+    <!-- On "Set up email" screen, enthusiastic welcome message. -->  
+    <string name="accounts_welcome">آپ بس کچھ ہی مراحل کے بعد زیادہ تر اکاؤنٹ کے لئے ای میل سیٹ اپ کرسکتے ہيں۔</string>  
+    <!-- On "Set up email" screen, enthusiastic welcome message (in EAS mode). -->  
+    <string name="accounts_welcome_exchange">آپ بس کچھ ہی مراحل میں Exchange اکاؤنٹ سیٹ اپ کرسکتے ہيں۔</string>  
+    <!-- On "Set up email" screen, enthusiastic welcome message (in EAS mode). -->  
+    <string name="accounts_welcome_exchange_alternate">آپ بس کچھ ہی مراحل میں Exchange ActiveSync اکاؤنٹ سیٹ اپ کرسکتے ہيں۔</string>  
+    <!-- On "Set up email" screen, hint for account email address text field -->  
+    <string name="account_setup_basics_email_label">ای میل پتہ</string>  
+    <!-- On "Set up email" screen, hint for account email password text field -->  
+    <string name="account_setup_basics_password_label">پاس ورڈ</string>  
+    <!-- On "Set up email" screen, checkbox label for making the new account the default account -->  
+    <string name="account_setup_basics_default_label">ڈیفالٹ طور پر اس اکاؤنٹ سے ای میل بھیجیں۔</string>  
+    <!-- Button name on "Set up email" screen -->  
+    <string name="account_setup_basics_manual_setup_action">دستی سیٹ اپ</string>  
+    <!-- Toast when we can't build a URI from the given email & password -->  
+    <!-- Note, the error message in the toast is purposefully vague, because I *don't* know
+        exactly what's wrong. -->  
+    <string name="account_setup_username_password_toast">جائز ای میل اور پاس ورڈ ٹائپ کریں۔</string>  
+    <!-- Title of dialog shown when a duplicate account is created -->  
+    <string name="account_duplicate_dlg_title">دہرا اکاؤنٹ</string>  
+    <!-- Message of dialog shown when a duplicate account is created.  The display name of
+         the duplicate account is displayed. -->  
+    <string name="account_duplicate_dlg_message_fmt">آپ پہلے ہی \" 
+        <xliff:g id="duplicate">%s</xliff:g>\" اکاؤنٹ کے لئے یہ صارف کا نام استعمال کررہے ہيں۔
+    </string>  
+    <!-- String that is displayed as error text for passwords with leading or trailing
+         spaces.  [CHAR LIMIT=none] -->  
+    <string name="account_password_spaces_error">اس پاس ورڈ کے شروع یا آخر میں ایک خالی جگہ ہے۔ زیادہ تر سروروں میں خالی جگہوں پر مشتمل پاس ورڈ کی سہولت نہيں ہے۔</string>  
+    <!-- On check-settings screen, this is the initially-displayed message. -->  
+    <string name="account_setup_check_settings_retr_info_msg">اکاؤنٹ کی معلومات بازیافت کررہا ہے\u2026</string>  
+    <!-- Appears on screen while system is checking incoming server settings -->  
+    <string name="account_setup_check_settings_check_incoming_msg">آنے والے سرور کی ترتیبات چیک کررہا ہے\u2026</string>  
+    <!-- Appears on screen while system is checking outgoing server settings -->  
+    <string name="account_setup_check_settings_check_outgoing_msg">باہر جانے والے سرور کی ترتیبات چیک کررہا ہے\u2026</string>  
+    <!-- Title of "Set up email" screen after success [CHAR LIMIT=45] -->  
+    <string name="account_setup_names_title">اکاؤنٹ سیٹ اپ</string>  
+    <!-- Text that appears on "Set up email" screen after successfully setting up an account
+        [CHAR LIMIT=none] -->  
+    <string name="account_setup_names_headline">آپ کا اکاؤنٹ سیٹ اپ کیا گيا ہے، اور ای میل بس آتی ہی ہوگی!</string>  
+    <!-- On "Set up email" screen, label of text field -->  
+    <string name="account_setup_names_account_name_label">اس اکاؤنٹ کو نام دیں (اختیاری)</string>  
+    <!-- On "Set up email" screen, label of text field -->  
+    <string name="account_setup_names_user_name_label">آپ کا نام (جو تمام جانے والے پیغامات پر دکھایا جائے گا)</string>  
+    <!-- On "Set up email" screen, error pop-up when user_name field is empty [CHAR LIMIT=none] -->  
+    <string name="account_setup_names_user_name_empty_error">یہ خانہ خالی نہيں ہوسکتا ہے۔</string>  
+    <!-- Activity Title for the account type selector (IMAP or POP3 or EAS) [CHAR LIMIT=45] -->  
+    <string name="account_setup_account_type_title">اکاؤنٹ سیٹ اپ</string>  
+    <!-- Headline for the the account type selector (IMAP or POP3 or EAS) [CHAR LIMIT=none] -->  
+    <string name="account_setup_account_type_headline">اکاؤنٹ کی قسم</string>  
+    <!-- "Add new email account" screen, text that appears on screen -->  
+    <string name="account_setup_account_type_instructions">یہ کس قسم کا اکاؤنٹ ہے؟</string>  
+    <string name="account_setup_incoming_title">اکاؤنٹ سیٹ اپ</string>  
+    <!-- "Incoming server settings" screen, headline (text over divider) [CHAR LIMIT=none] -->  
+    <string name="account_setup_incoming_headline">آنے والے سرور کی ترتیبات</string>  
+    <!-- "Incoming server settings" screen, label for text field -->  
+    <string name="account_setup_incoming_username_label">صارف کا نام</string>  
+    <!-- "Incoming server settings" screen, label for text field -->  
+    <string name="account_setup_incoming_password_label">پاس ورڈ</string>  
+    <!-- "Incoming server settings" screen, label for text field -->  
+    <string name="account_setup_incoming_pop_server_label">POP3 سرور</string>  
+    <!-- "Incoming server settings" screen, label for text field -->  
+    <string name="account_setup_incoming_imap_server_label">IMAP سرور</string>  
+    <!-- "Incoming server settings" screen, label for text field -->  
+    <string name="account_setup_incoming_port_label">پورٹ</string>  
+    <!-- "Incoming server settings" screen, label for pop-up menu -->  
+    <string name="account_setup_incoming_security_label">حفاظت کی قسم</string>  
+    <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
+        the desire for an unencrypted session -->  
+    <string name="account_setup_incoming_security_none_label">کوئی نہيں</string>  
+    <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
+        the desire for an encrypted session on the selected port, accepting all SSL certificates -->  
+    <string name="account_setup_incoming_security_ssl_trust_certificates_label">SSL/TLS (تمام اسناد قبول کریں)</string>  
+    <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
+        the desire for an encrypted session on the selected port, including SSL certificate
+        checks -->  
+    <!-- DO NOT TRANSLATE -->  
+    <string name="account_setup_incoming_security_ssl_label">SSL/TLS</string>  
+    <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
+        the desire for an encrypted session overlaid on a plain text session using the selected
+        port, accepting all SSL certificates -->  
+    <string name="account_setup_incoming_security_tls_trust_certificates_label">STARTTLS (تمام اسناد قبول کریں)</string>  
+    <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
+        the desire for an encrypted session overlaid on a plain text session on the selected
+        port, including SSL certificate checks -->  
+    <!-- DO NOT TRANSLATE -->  
+    <string name="account_setup_incoming_security_tls_label">STARTTLS</string>  
+    <!-- "Incoming server settings" screen, label for pop-up menu -->  
+    <string name="account_setup_incoming_delete_policy_label">سرور سے ای میل مٹائيں</string>  
+    <!-- "Incoming server settings" screen, options in pop-up menu for Delete email from server: -->  
+    <!-- "Incoming server settings" screen, options in pop-up menu for Delete email from server: -->  
+    <string name="account_setup_incoming_delete_policy_never_label">کبھی نہيں</string>  
+    <!-- "Incoming server settings" screen, options in pop-up menu for Delete email from server: -->  
+    <string name="account_setup_incoming_delete_policy_delete_label">جب میں ان باکس سے مٹاؤں</string>  
+    <!-- "Incoming server settings" screen, label for setting IMAP path prefix: -->  
+    <string name="account_setup_incoming_imap_path_prefix_label">IMAP پاتھ کا سابقہ</string>  
+    <!-- "Incoming server settings" screen, hint for setting IMAP path prefix: -->  
+    <string name="account_setup_incoming_imap_path_prefix_hint">اختیاری</string>  
+    <!-- "Outgoing server settings" screen, title [CHAR LIMIT=45] -->  
+    <string name="account_setup_outgoing_title">اکاؤنٹ سیٹ اپ</string>  
+    <!-- "Outgoing server settings" screen, headline (text over divider) [CHAR LIMIT=none] -->  
+    <string name="account_setup_outgoing_headline">جانے والے سرور کی ترتیبات</string>  
+    <!-- On "Outgoing server settings" screen, label for text field -->  
+    <string name="account_setup_outgoing_smtp_server_label">SMTP سرور</string>  
+    <!-- On "Outgoing server settings" screen, label for text field -->  
+    <string name="account_setup_outgoing_port_label">پورٹ</string>  
+    <!-- On "Outgoing server settings" screen, label for pop-up menu -->  
+    <string name="account_setup_outgoing_security_label">حفاظت کی قسم</string>  
+    <!-- On "Outgoing server settings" screen, label for check box -->  
+    <string name="account_setup_outgoing_require_login_label">سائن ان درکار ہے۔</string>  
+    <!-- On "Outgoing server settings" screen, label for text field -->  
+    <string name="account_setup_outgoing_username_label">صارف کا نام</string>  
+    <!-- On "Outgoing server settings" screen, label for text field -->  
+    <string name="account_setup_outgoing_password_label">پاس ورڈ</string>  
+    <!-- Title of "Exchange server settings" screen [CHAR LIMIT=45] -->  
+    <string name="account_setup_exchange_title">اکاؤنٹ سیٹ اپ</string>  
+    <!-- Headline of "Exchange server settings" screen (text over divider) [CHAR LIMIT=none] -->  
+    <string name="account_setup_exchange_headline">سرور کی ترتیبات</string>  
+    <!-- On "Exchange" setup screen, the name of the server -->  
+    <string name="account_setup_exchange_server_label">سرور</string>  
+    <!-- On "Exchange" setup screen, the domain\\username -->  
+    <string name="account_setup_exchange_username_label">ڈومین//صارف کا نام</string>  
+    <!-- On "Exchange" setup screen, the use-SSL checkbox label -->  
+    <string name="account_setup_exchange_ssl_label">محفوظ کنکشن (SSL) استعمال کریں</string>  
+    <!-- On "Exchange" setup screen, the trust ssl certificates checkbox label -->  
+    <string name="account_setup_exchange_trust_certificates_label">تمام SSL اسناد قبول کریں</string>  
+    <!-- On "Exchange" setup screen, a heading title for the current client certificate [CHAR LIMIT=50] -->  
+    <string name="account_setup_exchange_certificate_title">کلائنٹ سند</string>  
+    <!-- On "Exchange" setup screen, a button label to include a client certificate [CHAR LIMIT=35] -->  
+    <string name="account_setup_exchange_select_certificate">منتخب کریں</string>  
+    <!-- On "Exchange" setup screen, a button label to include a client certificate [CHAR LIMIT=35] -->  
+    <string name="account_setup_exchange_use_certificate">کلائنٹ سند استعمال کریں</string>  
+    <!-- On "Exchange" setup screen, a button label to remove the currently used client certificate [CHAR LIMIT=35] -->  
+    <string name="account_setup_exchange_remove_certificate">ہٹائيں</string>  
+    <!-- On "Exchange" setup screen, placeholder text to indicate no client
+         certificate is used [CHAR LIMIT=50] -->  
+    <string name="account_setup_exchange_no_certificate">کوئی نہيں</string>  
+    <!-- On "Exchange" setup screen, the exchange device-id label [CHAR LIMIT=30] -->  
+    <string name="account_setup_exchange_device_id_label">موبائل آلے کی ID</string>  
+    <!-- In Account setup options screen, Activity title [CHAR LIMIT=45] -->  
+    <string name="account_setup_options_title">اکاؤنٹ ترتیبات</string>  
+    <!-- In Account setup options screen, Activity headline [CHAR LIMIT=none] -->  
+    <string name="account_setup_options_headline">اکاؤنٹ کے اختیارات</string>  
+    <!-- In Account setup options screen, label for email check frequency selector -->  
+    <string name="account_setup_options_mail_check_frequency_label">ان باکس چیک کرنے کا تعدد</string>  
+    <!-- In Account setup options & Account Settings screens, label for email check frequency option -->  
+    <string name="account_setup_options_mail_check_frequency_never">کبھی نہيں</string>  
+    <!-- In Account setup options & Account Settings screens, label for email check frequency option -->  
+    <string name="account_setup_options_mail_check_frequency_push">خودکار (پش)</string>  
+    <!-- In Account setup options & Account Settings screens, email check frequency option -->  
+    <string name="account_setup_options_mail_check_frequency_5min">ہر 5 منٹ بعد</string>  
+    <!-- In Account setup options & Account Settings screens, email check frequency option -->  
+    <string name="account_setup_options_mail_check_frequency_10min">ہر 10 منٹ بعد</string>  
+    <!-- In Account setup options & Account Settings screens, email check frequency option -->  
+    <string name="account_setup_options_mail_check_frequency_15min">ہر 15 منٹ بعد</string>  
+    <!-- In Account setup options & Account Settings screens, email check frequency option -->  
+    <string name="account_setup_options_mail_check_frequency_30min">ہر 30 منٹ بعد</string>  
+    <!-- In Account setup options & Account Settings screens, email check frequency option -->  
+    <string name="account_setup_options_mail_check_frequency_1hour">ہر گھنٹے بعد</string>  
+    <!-- Check box label on "Set up email" screen to make this the default account -->  
+    <!-- Note, this should usually match the default account summary preference string -->  
+    <string name="account_setup_options_default_label">ڈیفالٹ طور پر اس اکاؤنٹ سے ای میل بھیجیں۔</string>  
+    <!-- In Account setup options & Account Settings screens, check box for new-mail notification -->  
+    <string name="account_setup_options_notify_label">ای میل آنے پر مجھے مطلع کریں۔</string>  
+    <!-- In Account setup options screen, optional check box to also sync contacts -->  
+    <string name="account_setup_options_sync_contacts_label">اس اکاؤنٹ سے روابط سنک کریں۔</string>  
+    <!-- In Account setup options screen, optional check box to also sync contacts -->  
+    <string name="account_setup_options_sync_calendar_label">اس اکاؤنٹ سے کیلنڈر سنک کریں۔</string>  
+    <!-- In Account setup options screen, check box to sync email -->  
+    <string name="account_setup_options_sync_email_label">اس اکاؤنٹ سے ای میل سنک کریں۔</string>  
+    <!-- In Account setup options screen, check box to auto-download attachments  [CHAR LIMIT=none]
+        -->  
+    <string name="account_setup_options_background_attachments_label">جب Wi-Fi سے متصل ہوں تو خودکار طور پر منسلکات ڈاؤن لوڈ کریں</string>  
+    <!-- Dialog title when "setup" could not finish -->  
+    <string name="account_setup_failed_dlg_title">مکمل نہيں کرسکا</string>  
+    <!-- In Account setup options screen, label for email lookback selector -->  
+    <string name="account_setup_options_mail_window_label">سنک کرنے کے لئے دن</string>  
+    <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->  
+    <string name="account_setup_options_mail_window_1day">ایک دن</string>  
+    <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->  
+    <string name="account_setup_options_mail_window_3days">تین دن</string>  
+    <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->  
+    <string name="account_setup_options_mail_window_1week">ایک ہفتہ</string>  
+    <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->  
+    <string name="account_setup_options_mail_window_2weeks">دو ہفتے</string>  
+    <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->  
+    <string name="account_setup_options_mail_window_1month">ایک مہینہ</string>  
+    <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->  
+    <string name="account_setup_options_mail_window_all">تمام</string>  
+    <!-- Per-mailbox sync window setting.  This means "use the account's sync window setting" [CHAR LIMIT=25] -->  
+    <string name="account_setup_options_mail_window_default">اکاؤنٹ کا ڈیفالٹ استعمال کریں</string>  
+    <!-- "Setup could not finish" dialog text; e.g., Username or password incorrect -->  
+    <string name="account_setup_failed_dlg_auth_message">صارف کا نام یا پاس ورڈ غلط ہے۔</string>  
+    <!-- "Setup could not finish" dialog text; e.g., Username or password incorrect\n(ERR01 Account does not exist) -->  
+    <string name="account_setup_failed_dlg_auth_message_fmt">صارف کا نام یا پاس ورڈ غلط ہے۔\n( 
+        <xliff:g id="error">%s</xliff:g>)
+    </string>  
+    <!-- An error message presented to the user when the server's identity
+         cannot be established or trusted [CHAR LIMIT=NONE] -->  
+    <string name="account_setup_failed_dlg_certificate_message">سرور سے بحفاظت متصل کرنے سے قاصر۔</string>  
+    <!-- An error message presented to the user when the server's identity
+         cannot be established or trusted [CHAR LIMIT=NONE] -->  
+    <string name="account_setup_failed_dlg_certificate_message_fmt">سرور سے بحفاظت متصل کرنے سے قاصر۔\n( 
+        <xliff:g id="error">%s</xliff:g>)
+    </string>  
+    <!-- An error message presented to the user when the server requires a
+         client certificate to connect [CHAR LIMIT=NONE] -->  
+    <string name="account_setup_failed_certificate_required">کلائنٹ کی سند درکار ہے۔ کلائنٹ کی سند کے ساتھ سرور سے متصل ہوں؟</string>  
+    <!-- An error message presented to the user when the certificate they
+         specified for connecting to a server is inaccessible [CHAR LIMIT=NONE] -->  
+    <string name="account_setup_failed_certificate_inaccessible">سند ناجائز یا ناقابل رسائی ہے۔</string>  
+    <!-- Dialog text for ambiguous setup failure; server error/bad credentials [CHAR LIMIT=none] -->  
+    <string name="account_setup_failed_check_credentials_message">سرور نے غلطی کے ساتھ جواب دیا ہے۔ اپنا صارف کا نام اور پاس ورڈ کے ساتھ چیک کرکے دوبارہ کوشش کریں۔</string>  
+    <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server -->  
+    <string name="account_setup_failed_dlg_server_message">سرور سے متصل کرنے سے قاصر۔</string>  
+    <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server\n(Connection timed out) -->  
+    <string name="account_setup_failed_dlg_server_message_fmt">سرور سے متصل کرنے سے قاصر۔\n( 
+        <xliff:g id="error">%s</xliff:g>)
+    </string>  
+    <!-- Additional diagnostic text when TLS was required but the server doesn't support it -->  
+    <string name="account_setup_failed_tls_required">TLS ضروری نہیں ہے لیکن سرور میں اس کی سہولت ہے۔</string>  
+    <!-- Additional diagnostic text when server does not support any of our authentication methods -->  
+    <string name="account_setup_failed_auth_required">تصدیقی طریقوں کے لئے سرور میں سہولت نہيں ہے۔</string>  
+    <!-- Additional diagnostic text when server connection failed due to security error -->  
+    <string name="account_setup_failed_security">حفاظتی غلطی کی وجہ سے سرور تک کنکشن کھولنے سے قاصر۔</string>  
+    <!-- Additional diagnostic text when server connection failed due to io error (connection) -->  
+    <string name="account_setup_failed_ioerror">سرور تک کنکشن کھولنے سے قاصر۔</string>  
+    <!-- Additional diagnostic text when server connection failed due to our inability to support a
+         required EAS protocol version [CHAR LIMIT=none] -->  
+    <string name="account_setup_failed_protocol_unsupported">آپ نے غلط سرور کا پتہ ٹائپ کیا ہے، یا سرور کے لئے ایک ایسا پروٹوکول ورژن درکار ہے جس کی ای میل سہولت نہيں رکھتا ہے۔</string>  
+    <!-- Additional diagnostic text when server access was denied; the user should contact the
+         administrator of the server for more information [CHAR LIMIT=none] -->  
+    <string name="account_setup_failed_access_denied">آپ کے پاس اس سرور کے ساتھ سنک کرنے کی اجازت نہيں ہے۔ مزید معلومات کے لئے اپنے سرور کے منتظم سے رابطہ کریں۔</string>  
+    <!-- Dialog title when validation requires security provisioning (e.g. support
+         for device lock PIN, or remote wipe.) and we ask the user permission before continuing -->  
+    <string name="account_setup_security_required_title">ریموٹ سلامتی کا انتظام</string>  
+    <!-- Additional diagnostic text when validation requires security provisioning (e.g. support
+         for device lock PIN, or remote wipe.) and we ask the user permission before continuing.
+         [CHAR LIMIT=none] -->  
+    <string name="account_setup_security_policies_required_fmt">سرور 
+        <xliff:g id="server">%s</xliff:g> کے لئے ضروری ہے کہ آپ اسے اپنے Android آلے کی کچھ حفاظتی خصوصیات کو بعید طور پر کنٹرول کرنے کی اجازت دیں۔ کیا آپ اس اکاؤنٹ کو سیٹ اپ کرنا مکمل کرنا چاہتے ہيں؟
+    </string>  
+    <!-- Additional diagnostic text when validation failed due to required provisioning not
+         being supported [CHAR LIMIT=none] -->  
+    <string name="account_setup_failed_security_policies_unsupported">اس سرور میں ایسے کچھ سلامتی کی خصوصیات ہیں جن کی آپ کے Android کے آلے میں سہولت نہيں، جیسے کہ 
+        <xliff:g id="error">%s</xliff:g> 
+    </string>  
+    <!-- The user name can only be changed during initial account setup. [CHAR LIMIT=none] -->  
+    <string name="account_setup_username_uneditable_error">آپ کسی اکاؤنٹ کا صارف کا نام تبدیل نہيں کرسکتے ہيں۔ کسی مختلف صارف کا نام رکھنے والا اکاؤنٹ شامل کرنے کے لئے اکاؤنٹ شامل کریں چھوئيں۔</string>  
+    <!-- Warning given to users when they request disabling device administration (i.e. that their
+         administered accounts will be deleted) [CHAR LIMIT=none] -->  
+    <string name="disable_admin_warning">تنبیہہ: ای میل کے اضافی پروگرام کی آلے کا انتظام کرنے کی اجازت غیرفعال کرنے سے اسے ضروری بنانے والے تمام ای میل اکاؤنٹ مٹادئیے جائيں گے، جن کے ساتھ ان کے ای میل، روابط، کیلنڈر کے واقعات اور دوسرا ڈیٹا شامل ہیں۔</string>  
+    <!-- Dialog shown when the account requires some amount of device security provisioning,
+         just before jumping into system settings such as Device Policy grant, PIN/password,
+         or encryption setup.  [CHAR_LIMIT=40] -->  
+    <string name="account_security_dialog_title">حفاظتی تجدید</string>  
+    <!-- Additional diagnostic text when the account requires some amount of device security
+         provisioning, just before jumping into system settings such as Device Policy grant,
+         PIN/password, or encryption setup.  [CHAR LIMIT=none] -->  
+    <string name="account_security_dialog_content_fmt"> 
+        <xliff:g id="account">%s</xliff:g> کے لئے ضروری ہے کہ آپ اپنے حفاظتی ترتیبات کی تجدید کریں۔
+    </string>  
+    <!-- Notification ticker when device security required (note: unused in Holo XL) -->  
+    <string name="security_notification_ticker_fmt">اکاؤنٹ \" 
+        <xliff:g id="account">%s</xliff:g>\" کے لئے حفاظتی ترتیبات کی تجدید کی ضرورت ہے۔
+    </string>  
+    <!-- Notification content title when device security required [CHAR_LIMIT=30] -->  
+    <string name="security_notification_content_title">حفاظتی تجدید درکار ہے</string>  
+    <!-- Title of the activity that dispatches changes to device security.  Not normally seen. -->  
+    <string name="account_security_title">آلے کی حفاظت</string>  
+    <!-- Additional diagnostic text when the email app asserts control of the phone.
+        [CHAR LIMIT=none] -->  
+    <string name="account_security_policy_explanation_fmt">سرور 
+        <xliff:g id="server">%s</xliff:g> کے لئے ضروری ہے کہ آپ اسے اپنے Android آلے کی کچھ حفاظتی خصوصیات کو بعید طور پر کنٹرول کرنے کی اجازت دیں۔
+    </string>  
+    <!-- "Setup could not finish" dialog action button -->  
+    <string name="account_setup_failed_dlg_edit_details_action">تفصیلات ترمیم کریں</string>  
+    <!-- Notification ticker when device password is getting ready to expire [CHAR_LIMIT=80] -->  
+    <string name="password_expire_warning_ticker_fmt">\" 
+        <xliff:g id="account">%s</xliff:g>\" کے لئے ضروری ہے کہ آپ اپنی لاک اسکرین کا PIN یا پاس ورڈ تبدیل کریں۔
+    </string>  
+    <!-- Notification content title when device password is getting ready to expire
+            [CHAR_LIMIT=30] -->  
+    <string name="password_expire_warning_content_title">لاک اسکرین کا پاس ورڈ ختم ہورہا ہے</string>  
+    <!-- Notification ticker when device password has expired [CHAR_LIMIT=80] -->  
+    <string name="password_expired_ticker">آپ کی لاک اسکرین کا PIN یا پاس ورڈ ختم ہوگیا ہے۔</string>  
+    <!-- Notification content title when device password has expired [CHAR_LIMIT=28] -->  
+    <string name="password_expired_content_title">لاک اسکرین کا پاس ورڈ ختم ہوگیا ہے</string>  
+    <!-- Dialog title if device pin/password is going to expire soon. [CHAR_LIMIT=40] -->  
+    <string name="password_expire_warning_dialog_title">لاک اسکرین کا پاس ورڈ ختم ہورہا ہے</string>  
+    <!-- Dialog content device pin/password is going to expire soon. [CHAR_LIMIT=none] -->  
+    <string name="password_expire_warning_dialog_content_fmt">آپ کو جلد ہی اپنے لاک اسکرین کا PIN یا پاس ورڈ تبدیل کرنا ہوگا، ورنہ 
+        <xliff:g id="account">%s</xliff:g> کے ڈیٹا کو مٹادیا جائے گا۔ اسے ابھی تبدیل کریں؟
+    </string>  
+    <!-- Dialog title if device pin/password has already expired. [CHAR_LIMIT=40] -->  
+    <string name="password_expired_dialog_title">لاک اسکرین کا پاس ورڈ ختم ہوگیا ہے</string>  
+    <!-- Dialog content device pin/password has already expired. [CHAR_LIMIT=none] -->  
+    <string name="password_expired_dialog_content_fmt">آپ کے آلے سے 
+        <xliff:g id="account">%s</xliff:g> کے ڈیٹا کو مٹایا جارہا ہے۔ آپ اسے بحال کرنے کے لئے اپنی لاک اسکرین کاPIN یا پاس ورڈ تبدیل کرسکتے ہيں۔ اسے ابھی تبدیل کریں؟
+    </string>  
+    <!-- On AccountSettingsXL, dialog text if you try to exit in/out/eas fragment (server settings)
+         without checking/saving [CHAR LIMIT=none]-->  
+    <string name="account_settings_exit_server_settings">غیرمحفوظ تبدیلیاں رد کریں؟</string>  
+    <!-- On AccountSettingsXL, dialog title if you were brought here due to a login failure.
+        [CHAR_LIMIT=40] -->  
+    <string name="account_settings_login_dialog_title">سائن ان کرنے سے قاصر</string>  
+    <!-- On AccountSettingsXL, dialog content if you were brought here due to a login failure.
+        [CHAR_LIMIT=none] -->  
+    <string name="account_settings_login_dialog_content_fmt"> 
+        <xliff:g id="account">%s</xliff:g> کا صارف کا نام یا پاس ورڈ غلط ہیں۔ ان کی ابھی تجدید کریں؟
+    </string>  
+    <!-- On Settings screen, setting option name -->  
+    <string name="account_settings_default_label">ڈیفالٹ اکاؤنٹ</string>  
+    <!-- Check box "summary" label on "Account options" screen to make this the default account -->  
+    <!-- Note, this should usually match the default account account setup checkbox string -->  
+    <string name="account_settings_default_summary">ڈیفالٹ طور پر اس اکاؤنٹ سے ای میل بھیجیں</string>  
+    <!-- On Settings screen, setting option name -->  
+    <!-- Title of account preference for downloading attachments in background [CHAR LIMIT=32] -->  
+    <string name="account_settings_background_attachments_label">منسلکات ڈاؤن لوڈ کریں</string>  
+    <!-- Summary of account preference for downloading attachments in background [CHAR LIMIT=64] -->  
+    <string name="account_settings_background_attachments_summary">Wi-Fi کے ذریعے حالیہ پیغامات میں خودکار طور پر منسلکات ڈاؤن لوڈ کریں</string>  
+    <string name="account_settings_notify_label">ای میل اطلاعات</string>  
+    <!-- On Settings screen, summary line when called via AccountManager for Exchange accounts
+        [CHAR LIMIT=50] -->  
+    <string name="account_settings_summary">سنک کا تعدد، اطلاعات، وغیرہ</string>  
+    <!-- On Settings screen, setting summary text -->  
+    <string name="account_settings_notify_summary">ای میل آنے پر سسٹم بار میں مطلع کریں</string>  
+    <!-- On Settings screen, setting option name and title of dialog box that opens -->  
+    <string name="account_settings_mail_check_frequency_label">ان باکس چیک کرنے کا تعدد</string>  
+    <!-- On Settings screen, setting option name -->  
+    <string name="account_settings_incoming_label">آنے والی ترتیبات</string>  
+    <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->  
+    <string name="account_settings_incoming_summary">صارف کا نام، پاس ورڈ اور دوسری آنے والے سرور کی ترتیبات</string>  
+    <!-- On Settings screen, setting option name -->  
+    <string name="account_settings_outgoing_label">باہر جانے والی ترتیبات</string>  
+    <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->  
+    <string name="account_settings_outgoing_summary">صارف کا نام، پاس ورڈ اور دوسری جانے والے سرور کی ترتیبات</string>  
+    <!-- On Settings screen, setting option name -->  
+    <string name="account_settings_description_label">اکاؤنٹ کا نام</string>  
+    <!-- On Settings screen, setting option name -->  
+    <string name="account_settings_name_label">آپ کا نام</string>  
+    <!-- On Settings screen, setting option name -->  
+    <string name="account_settings_signature_label">دستخط</string>  
+    <!-- On Settings screen, setting option name. Allows user to modify saved quick responses
+        for insertion in message body. [CHAR_LIMIT=24]-->  
+    <string name="account_settings_edit_quick_responses_label">فوری جوابات</string>  
+    <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->  
+    <string name="account_settings_edit_quick_responses_summary">پیغام لکھتے وقت اکثر ڈالے جانے والے ٹیکسٹ کو ترمیم کریں</string>  
+    <!-- On Settings screen, setting option name -->  
+    <string name="account_settings_signature_hint">اپنے بھیجے جانے والے پیغامات میں ٹیکسٹ شامل کریں</string>  
+    <!-- On Settings screen, section heading -->  
+    <string name="account_settings_notifications">اطلاعی ترتیبات</string>  
+    <!-- On Settings screen, section heading for data usage [CHAR LIMIT=70] -->  
+    <string name="account_settings_data_usage">ڈیٹا کا استعمال</string>  
+    <!-- On settings screen, dialog heading informing user to edit a quick response -->  
+    <string name="edit_quick_response_dialog">فوری جواب ترمیم کریں</string>  
+    <!-- On settings screen, edit quick response dialog's "save" button -->  
+    <string name="save_action">محفوظ کریں</string>  
+    <!-- On settings screen, sync contacts check box label [CHAR LIMIT=20]-->  
+    <string name="account_settings_sync_contacts_enable">روابط سن کریں</string>  
+    <!-- On settings screen, sync contacts summary text [CHAR LIMIT=35] -->  
+    <string name="account_settings_sync_contacts_summary">اس اکاؤنٹ کے لئے روابط سدک کریں</string>  
+    <!-- On settings screen, sync calendar check box label [CHAR LIMIT=20]-->  
+    <string name="account_settings_sync_calendar_enable">کیلنڈر سنک کریں</string>  
+    <!-- On settings screen, sync calendar summary text [CHAR LIMIT=35] -->  
+    <string name="account_settings_sync_calendar_summary">اس اکاؤنٹ کے لئے کیلنڈر سنک کریں</string>  
+    <!-- On settings screen, sync email check box label [CHAR LIMIT=20]-->  
+    <string name="account_settings_sync_email_enable">ای میل سنک کریں</string>  
+    <!-- On settings screen, sync email summary text [CHAR LIMIT=35] -->  
+    <string name="account_settings_sync_email_summary">ای اکاؤنٹ کے لئے ای میل سنک کریں</string>  
+    <!-- On Settings screen, vibrate pop-up menu label -->  
+    <string name="account_settings_vibrate_when_label">وائبریٹ</string>  
+    <!-- On Settings screen, vibrate pop-up menu summary text -->  
+    <string name="account_settings_vibrate_when_summary">ای میل پہنچنے پر بھی تھرتھرائيں</string>  
+    <!-- On Settings screen, setting option name -->  
+    <string name="account_settings_ringtone">رنگ ٹون منتخب کریں</string>  
+    <!-- On Settings screen, section heading -->  
+    <string name="account_settings_servers">سرور کی ترتیبات</string>  
+    <!-- Title of Remove account confirmation dialog box -->  
+    <string name="account_delete_dlg_title">اکاؤنٹ ہٹائيں</string>  
+    <!-- Message of Remove account confirmation dialog box -->  
+    <string name="account_delete_dlg_instructions_fmt">اکاؤنٹ \" 
+        <xliff:g id="account">%s</xliff:g>\" کو ای میل سے ہٹایا گیا۔
+    </string>  
+    <!-- On Settings screen, section heading for delete account [CHAR LIMIT=none] -->  
+    <string name="account_settings_category_delete_account">اکاؤنٹ ہٹائيں</string>  
+    <!-- On Settings screen, settings option for delete account [CHAR LIMIT=none] -->  
+    <string name="account_settings_delete_account_label">اکاؤنٹ ہٹائيں</string>  
+    <!-- Mailbox settings activity title [CHAR LIMIT=none] -->  
+    <string name="mailbox_settings_activity_title">سنک کے اختیارات</string>  
+    <!-- Mailbox settings activity title, with the target folder name [CHAR LIMIT=none] -->  
+    <string name="mailbox_settings_activity_title_with_mailbox">سنک کے اختیارات ( 
+        <xliff:g id="mailboxx_name" example="Family">%s</xliff:g>)
+    </string>  
+    <!-- On mailbox settings screen: Mailbox check frequency setting label [CHAR LIMIT=none] -->  
+    <string name="mailbox_settings_mailbox_check_frequency_label">فریکوینسی چیک کریں</string>  
+    <!-- On mailbox settings screen: Mailbox sync window (the number of days to synchronize email for) setting label [CHAR LIMIT=none] -->  
+    <string name="mailbox_settings_mailbox_sync_window_label">سنک کرنے کے لئے دن</string>  
+    <!-- Strings used for account shortcut picker -->  
+    <!-- String displayed in launcher [CHAR_LIMIT=10] -->  
+    <string name="account_shortcut_picker_name">ای میل اکاؤنٹ</string>  
+    <!-- Title of the account list for the shortcut picker [CHAR_LIMIT=20] -->  
+    <string name="account_shortcut_picker_title">اکاؤنٹ منتخب کریں</string>  
+    <!-- Title of mailbox list for the shortcut picker [CHAR_LIMIT=20] -->  
+    <string name="mailbox_shortcut_picker_title">فولڈر منتخب کریں</string>  
+    <!-- Toast shown when the selected account no longer exists.  This is used when, for example,
+         a shotcut or a widget is stale and points at a deleted account.
+         [CHAR_LIMIT=none]-->  
+    <string name="toast_account_not_found">اکاؤنٹ نہيں ملا۔ ممکن ہے کہ اسے ہٹایا گيا ہو۔</string>  
+    <!-- Toast shown when the selected folder no longer exists.  This is used when, for example,
+         a shotcut or a widget is stale and points at a deleted folder.
+         [CHAR_LIMIT=none]-->  
+    <string name="toast_mailbox_not_found">فولڈر نہيں ملا۔ ممکن ہے کہ اسے ہٹایا گيا ہو۔</string>  
+    <!-- Message that appears when adding a Windows Live Hotmail Plus account -->  
+    <string name="provider_note_live">صرف کچھ "\پلس"\ اکاؤنٹس میں ہی POP کی رسائی ہے جس کے ذریعے یہ پروگرام متصل ہوسکتا ہے۔ اگر آپ درست ای میل ایڈریس اور پاس ورڈ کے ساتھ سائن ان کرنے سے قاصر ہوں، تو ممکن ہے کہ آپ کے پاس فیس پر مشتمل "\پلس"\ اکاؤنٹ نہ ہو۔ ان ای میل اکاؤنٹ تک رسائح حاصل کرنے کے لئے ویب براؤزر کھولیں۔</string>  
+    <!-- Message that appears when adding a T-Online account -->  
+    <string name="provider_note_t_online">یہ ای میل اکاؤنٹ سیٹ اپ کرنے سے پہلے، T-Online کی ویب سائٹ پر تشریف لے جائيں اور POP3 ای میل رسائی کے لئے پاس ورڈ بنائيں</string>  
+    <!-- Name of Microsoft Exchange account type; used by AccountManager -->  
+    <string name="exchange_name">کارپوریٹ</string>  
+    <!-- Name of Microsoft Exchange account type; used by AccountManager -->  
+    <string name="exchange_name_alternate">Microsoft Exchange ActiveSync</string>  
+    <!-- Message that appears if the AccountManager cannot create the system Account -->  
+    <string name="system_account_create_failed">اکاؤنٹ بنانے سے قاصر، بعد میں کوشش کریں۔</string>  
+    <!-- Strings that support the DeviceAdmin / DevicePolicyManager API -->  
+    <!-- Name of the DeviceAdmin (seen in settings & in user confirmation screen) -->  
+    <string name="device_admin_label">ای میل</string>  
+    <!-- Long-form description of the DeviceAdmin (2nd line in settings & in user conf. screen) -->  
+    <string name="device_admin_description">سرور کی واضح کردہ حفاظتی پالیساں فعال کرتا ہے</string>  
+    <!-- Strings used for GAL access -->  
+    <!-- Displayed in small separator in to/cc/bcc dropdowns, when searching GAL begins.
+         Example:  "Searching bigcompany.com..." -->  
+    <string name="gal_searching_fmt">تلاش کررہ ہے 
+        <xliff:g id="domain">%s</xliff:g>\u2026
+    </string>  
+    <!-- Settings activity title [CHAR LIMIT=40]-->  
+    <string name="settings_activity_title">ترتیبات</string>  
+    <!-- General Preferences Screen -->  
+    <!-- Label in preferences header to describe general preferences [CHAR LIMIT=32] -->  
+    <string name="header_label_general_preferences">عام</string>  
+    <!-- First category in general preferences [CHAR LIMIT=64] -->  
+    <string name="category_general_preferences">اضافی پروگرام</string>  
+    <!-- General preference: Label of the setting for the direction to move to
+         when deleting the current message.
+         Options contain "newer message","older message", etc. [CHAR LIMIT=32] -->  
+    <string name="general_preference_auto_advance_label">خودکار طور پر آگے بڑھنا</string>  
+    <!-- General preference: Description of the setting for the direction to move to
+         when deleting the current message.
+         Options contain "newer message","older message", etc. [CHAR LIMIT=64] -->  
+    <string name="general_preference_auto_advance_summary">منتخب کریں کہ پیغام مٹانے کے بعد کونسی اسکرین دکھائی دے</string>  
+    <!-- General preference: Title of the dialog box containing options for setting for
+         the direction to move to when deleting the current message.
+         Options contain "newer message","older message", etc. [CHAR LIMIT=32] -->  
+    <string name="general_preference_auto_advance_dialog_title">یہاں جائيں</string>  
+    <!-- General preference: Option for the setting for
+         the direction to move to when deleting the current message.
+         This option is for "move to the newer message" [CHAR LIMIT=32] -->  
+    <string name="general_preference_auto_advance_newer">نیا پیغام</string>  
+    <!-- General preference: Option for the setting for
+         the direction to move to when deleting the current message.
+         This option is for "move to the older message" [CHAR LIMIT=32] -->  
+    <string name="general_preference_auto_advance_older">پرانا پیغام</string>  
+    <!-- General preference: Option for the setting for
+         the direction to move to when deleting the current message.
+         This option is for "move back to the message list" [CHAR LIMIT=32] -->  
+    <string name="general_preference_auto_advance_message_list">پیغام کی فہرست</string>  
+    <!-- General preference: Label of the setting for the text zoom.  [CHAR LIMIT=32] -->  
+    <string name="general_preference_text_zoom_label">پیغام کے ٹیکسٹ کا سائز</string>  
+    <!-- General preference: Description of each setting for text zoom.  The entries here must
+         correspond to the strings general_preference_text_zoom_tiny,
+         general_preference_text_zoom_small, general_preference_text_zoom_normal, etc.
+         [CHAR LIMIT=64] -->  
+    <string-array name="general_preference_text_zoom_summary_array"> 
+        <item>چھوٹا ٹیکسٹ</item>  
+        <item>چھوٹا ٹیکسٹ</item>  
+        <item>عام سائز کا ٹیکسٹ</item>  
+        <item>بڑا ٹیکسٹ</item>  
+        <item>بہت بڑا ٹیکسٹ</item> 
+    </string-array>  
+    <!-- The message text size values -->  
+    <string-array translatable="false" name="general_preference_text_zoom_size"> 
+        <item>0.8</item>  
+        <item>0.9</item>  
+        <item>1.0</item>  
+        <item>1.2</item>  
+        <item>1.5</item> 
+    </string-array>  
+    <!-- General preference: Title of the dialog box with options for text zoom. [CHAR LIMIT=32] -->  
+    <string name="general_preference_text_zoom_dialog_title">پیغام کے ٹیکسٹ کا سائز</string>  
+    <!-- General preference:  Text zoom.  Value is "tiny" (-2) [CHAR LIMIT=32] -->  
+    <string name="general_preference_text_zoom_tiny">چھوٹا</string>  
+    <!-- General preference:  Text zoom.  Value is "small" (-1) [CHAR LIMIT=32] -->  
+    <string name="general_preference_text_zoom_small">چھوٹا</string>  
+    <!-- General preference:  Text zoom.  Value is "normal" (0) [CHAR LIMIT=32] -->  
+    <string name="general_preference_text_zoom_normal">عام</string>  
+    <!-- General preference:  Text zoom.  Value is "large" (+1) [CHAR LIMIT=32] -->  
+    <string name="general_preference_text_zoom_large">بڑا</string>  
+    <!-- General preference:  Text zoom.  Value is "huge" (+2) [CHAR LIMIT=32] -->  
+    <string name="general_preference_text_zoom_huge">بہت بڑا</string>  
+    <!--  Settings screen, Reply to all default setting title  [CHAR LIMIT=30] -->  
+    <string msgid="6469564953937885304" name="general_preference_reply_all_label">تمام کو جواب دیں</string>  
+    <!--  Settings screen, Reply to all default setting summary [CHAR LIMIT=70] -->  
+    <string msgid="3356918650886350497" name="general_preference_reply_all_summary">پیغام کے جوابات کے لئے "\سب کو جواب دیں"\ کو ڈیفالٹ بنائيں</string>  
+    <!-- Settings screen, title used to clear the setting for the list of
+         senders to automatically show pictures for [CHAR LIMIT=80] -->  
+    <string name="general_preferences_clear_trusted_senders_title">تصویریں دکھانے کا کہیں</string>  
+    <!-- Settings screen, summary for clearing the settings for the list of
+         senders to automatically show pictures for [CHAR LIMIT=160] -->  
+    <string name="general_preferences_clear_trusted_senders_summary">پیغامات میں موجود تصویریں کو خودکار طور پر نہيں دکھایا جائے گا۔</string>  
+    <!-- Message shown in toast when the user taps to clear the lsit of senders
+         to automatically show pictures for [CHAR LIMIT=80] -->  
+    <string name="trusted_senders_cleared">\"تصویریں دکھائيں"\ کو صاف کیا گيا۔</string>  
+    <!-- Generic string for "current position" / "total number" [CHAR LIMIT=12] -->  
+    <string name="position_of_count"> 
+        <xliff:g example="1">%1$d</xliff:g> میں سے 
+        <xliff:g example="12">%2$s</xliff:g> 
+    </string>  
+    <!-- Message shown during the first sync after an account is set up.  [CHAR LIMIT=NONE] -->  
+    <string name="waitinf_for_sync_message_1">سنک کا منتظر</string>  
+    <!-- Message shown during the first sync after an account is set up.  [CHAR LIMIT=NONE] -->  
+    <string name="waitinf_for_sync_message_2">آپ کی ای میل جلد ہی ظاہر ہو جائے گی۔</string>  
+    <!-- Widget -->  
+    <!-- Shown when waiting for mail data to be loaded into the widget list view [CHAR LIMIT=20] -->  
+    <string name="widget_loading">لوڈ کررہا ہے\u2026</string>  
+    <!-- Shown when no accounts are configured and the widget supports changing
+         on the fly [CHAR LIMIT=35] -->  
+    <string name="widget_touch_to_configure">سیٹ اپ کرنے کے لئے چھوئيں۔</string>  
+    <!-- Shown in a toast when no accounts are configured and the Email widget
+         cannot be created in the first place [CHAR LIMIT=none] -->  
+    <string name="widget_no_accounts">آپ نے اب تک ای میل اکاؤنٹ سیٹ اپ نہيں کیا۔</string>  
+    <!-- Generic string shown instead of regular numbers, when a number is larger than 999.
+         This should not be altered if the original string ("999+") makes sense in the
+         target language. Typical alternatives include "+999" and ">999".  [CHAR_LIMIT=4] -->  
+    <string name="more_than_999">999+</string>  
+    <!-- The hint used in the search box when searching all mailboxes [CHAR LIMIT=35] -->  
+    <string name="search_hint">ای میل تلاش کریں</string>  
+    <!-- The hint used in the search box when searching a single mailbox [CHAR LIMIT=35] -->  
+    <string name="search_mailbox_hint">تلاش کریں 
+        <xliff:g example="Inbox">%1$s</xliff:g> 
+    </string>  
+    <!-- The title above the messages list when showing search results. [CHAR LIMIT=50] -->  
+    <string name="search_header_text_fmt">\" 
+        <xliff:g example="search query">%1$s</xliff:g>\" کے لئے تلاش کے نتائج
+    </string>  
+    <!-- A warning title to show to the user when search results are taking a long
+         time. [CHAR LIMIT=NONE] -->  
+    <string name="search_slow_warning_title">تنائج کا منتظر</string>  
+    <!-- A warning message to show to the user when search results are taking a long
+         time. [CHAR LIMIT=NONE] -->  
+    <string name="search_slow_warning_message">کچھ سرور میں بہت وقت لگ سکتا ہے۔</string>  
+    <!-- Title shown on the action bar on the mailbox list screen. [CHAR LIMIT=16] -->  
+    <string name="action_bar_mailbox_list_title">فولڈر</string>  
+    <!-- This is the message warning the user that they must sync manually when roaming. [CHAR LIMIT=none]-->  
+    <string name="require_manual_sync_message">گشت کے دوران اس اکاؤنٹ کے لئے پس منظر کا سنک غیرفعال ہے۔</string> 
+</resources>

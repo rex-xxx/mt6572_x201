@@ -1,0 +1,72 @@
+###################################################
+##### Add testcases which no need cover here. #####
+###################################################
+
+#Static named constructor.  It should be overrode by extending class.
+-com.android.email.mail.Store.newInstance (Account, Context): Store
+-com.android.email.mail.Sender.newInstance (Context, Account): Sender
+
+#These methods are not in use.
+-com.android.email.activity.setup.AccountSetupBasics.getOwnerName (): String
+-com.android.email.activity.MessageViewFragmentBase.addAttachment (EmailContent$Attachment, boolean): void
+-com.android.email.activity.setup.MailboxSettings.setupLookbackPreferenceOptions (Context, ListPreference, Account): void
+-com.android.email.activity.setup.AccountSetupNames.prefillNameFromProfile (): void
+#for Debug only, and This method is not in use at present.
+-com.android.email.activity.setup.AccountCheckSettingsFragment$AccountCheckTask.fakeChecker (): MessagingException
+-com.android.email.activity.UIControllerBase.generateHabitData (): void
+-com.android.email.activity.UIControllerBase.onSearchSubmit (String, String): void
+-com.android.email.service.AttachmentDownloadService.dump (FileDescriptor, PrintWriter, String []): void
+#These methods run in tablet.
+-com.android.email.activity.MailboxListFragment.onDrag (View, DragEvent): boolean
+-com.android.email.activity.MailboxListFragment.onDragEnded (): void
+-com.android.email.activity.MailboxListFragment.onDragExited (): void
+-com.android.email.activity.MailboxListFragment.onDragLocation (DragEvent): void
+-com.android.email.activity.MailboxListFragment.onDragStarted (DragEvent): boolean
+-com.android.email.activity.MailboxListFragment.onDrop (DragEvent): boolean
+-com.android.email.activity.MailboxListFragment.setHighlightedMailbox (long): void
+-com.android.email.activity.MailboxListFragment.updateHighlightedMailbox (boolean): boolean
+-com.android.email.activity.MailboxListFragment.canNavigateUp (): boolean
+-com.android.email.activity.MailboxListFragment.updateChildViews (): void
+-com.android.email.activity.MessageListFragment.onHidden (boolean): void
+-com.android.email.activity.MessageListFragment.setLayout (ThreePaneLayout): void
+-com.android.email.activity.MessageListFragment.onItemLongClick (AdapterView, View, int, long): boolean
+-com.android.email.activity.MessageListFragment.onDrag (View, DragEvent): boolean
+-com.android.email.activity.setup.AccountSettings.forceSwitchHeader (int): void
+-com.android.email.activity.UIControllerBase.doAutoAdvance (): void
+-com.android.email.activity.UIControllerBase.moveToNewer (): boolean
+-com.android.email.activity.UIControllerBase.moveToOlder (): boolean
+-com.android.email.activity.MessageListFragment.onHidden (boolean): void
+-com.android.email.activity.MessageListFragment.setLayout (ThreePaneLayout): void
+#get error string ,according to exception type . Due to its simple and miscellaneous , exclude it from test.
+-com.android.email.activity.setup.AccountCheckSettingsFragment.getErrorString (Context, MessagingException): String
+#These methods need open a socket network connect,which is unavailable when we are test, so filter it
+-com.android.email.mail.transport.SmtpSender.open (): void
+-com.android.email.mail.transport.SmtpSender.sendMailStream (String, String, String, String, InputStream, EmailExternalCalls, long): boolean
+-com.android.email.mail.transport.MailTransport.open (): void
+-com.android.email.mail.transport.MailTransport.reopenTls (): void
+-com.android.email.mail.transport.MailTransport.verifyHostname(Socket, String):void
+-com.android.email.mail.store.ImapConnection.sendComplexCommand (List, boolean): String
+-com.android.email.mail.store.ImapConnection.doGetNamespace (boolean): void
+#These methods are dependent on other APP.
+-com.android.email.activity.MessageCompose.addAttachment (int): void
+-com.android.email.activity.MessageCompose.onActivityResult (int, int, Intent): void
+-com.android.email.activity.setup.AccountSecurity.tryAdvanceSecurity (Account): void
+-com.android.emailcommon.internet.MimeMessage.getSentDate (): Date
+-com.android.emailcommon.internet.Rfc822Output.writeTextWithHeaders (Writer, OutputStream, String []): void
+-com.android.emailcommon.internet.MimeMultipart.writeTo (OutputStream): void
+-com.android.emailcommon.provider.EmailContent$Attachment.createUniqueFile (String): File
+-com.android.emailcommon.utility.AttachmentUtilities.copyOneAttachment (EmailContent$Attachment): EmailContent$Attachment
+-com.android.emailcommon.utility.AttachmentUtilities.saveAttachment (Context, InputStream, EmailContent$Attachment): void
+-com.android.emailcommon.utility.AttachmentUtilities.selectAudio (Context, int): void
+-com.android.emailcommon.utility.AttachmentUtilities.selectCalendar (Context, int): void
+-com.android.emailcommon.utility.AttachmentUtilities.selectCalendar (Context, int): void
+-com.android.emailcommon.utility.AttachmentUtilities.selectFile (Context, int): void
+-com.android.emailcommon.utility.AttachmentUtilities.selectMediaByType (Context, int, String): void
+-com.android.emailcommon.utility.Utility.fastUrlDecode (String): String
+-com.android.emailcommon.utility.Utility.getAttachSize (Context, Uri): long
+-com.android.emailcommon.utility.Utility.hasUnloadedAttachments (Context, long): boolean
+-com.android.emailcommon.utility.Utility.isMaybeAttchmentInline (String, EmailContent$Attachment): boolean
+-com.android.email.provider.AttachmentProvider.draw3DImageTypeOverlay (Context, Bitmap): Bitmap
+-com.android.email.provider.AttachmentProvider.create3DImageThumbnail (InputStream, int, int, int, int): Bitmap
+-com.android.email.service.EmailExternalOmacpService.buildCapabilityResultToOmacp (Context): void
+

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/*
+ * Copyright (C) 2007-2008 Esmertec AG.
+ * Copyright (C) 2007-2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+<!-- MTK Resources -->
+    <!-- wap push string begin -->
+    <!-- The type of wap push message, used in message details -->
+    <string name="wp_msg_type">Service message</string>
+    <string name="wp_msg_created_label">Created:\u0020</string>
+    <string name="wp_msg_created_unknown">Nieznany</string>
+    <string name="wp_msg_priority_label">Priority:\u0020</string>
+    <!-- Wappush message priority -->
+    <string name="wp_msg_priority_low">Low</string>
+    <string name="wp_msg_priority_medium">Medium</string>
+    <string name="wp_msg_priority_high">High</string>
+    <!-- Context menu item -->
+    <string name="menu_goto_browser">Open browser</string>
+    <string name="menu_add_to_bookmark">Add to bookmark</string>
+    <!-- Wappush message content label -->
+    <string name="wp_msg_expiration_label">Expired: <xliff:g id="DATE">%s</xliff:g></string>
+    
+    <string name="error_unsupported_scheme">"Ta czynność nie jest aktualnie obsługiwana."</string>
+    <!-- wap push string end -->
+    <string name="create_new_message" msgid="8735943333953093860">"Utwórz nową wiadomość"</string>
+    <string name="menu_undelivered_messages" msgid="3896857623211780616">"Niedostarczone wiadomości"</string>
+    <string name="broadcast_from_to" msgid="2050376286109362539">"<xliff:g id="SENDER">%1$s</xliff:g> do: <xliff:g id="RECIPIENT">%2$s</xliff:g>"</string>
+    <string name="anonymous_recipient" msgid="2501437626187039034">"Anonim"</string>
+    <string name="view_picture" msgid="4356315935277709195">"Pokaż zdjęcie"</string>
+    <string name="sent_on" msgid="5868288548564632354">"Wysłano: <xliff:g id="DATE">%s</xliff:g>"</string>
+    <string name="received_on" msgid="5868288548564632354">"Odebrano: <xliff:g id="DATE">%s</xliff:g>"</string>
+    <string name="name_colon" msgid="7069560650889479120"><b>"<xliff:g id="NAME">%s</xliff:g>"</b>": "</string>
+    <string name="compose_title" msgid="558578836596816068">"Utwórz"</string>
+    <string name="image_too_large" msgid="261880224164478061">"Zdjęcie jest za duże"</string>
+    <string name="ask_for_automatically_resize" msgid="7657603662407738758">"Zmienić automatycznie rozmiar zdjęcia przed wysłaniem?"</string>
+    <string name="cannot_load_message" msgid="2577010607550849892">"Nie można załadować wiadomości."</string>
+    <string name="locked_message_cannot_be_deleted" msgid="6369452071783350219">"Nie można usunąć zablokowanej wiadomości."</string>
+    <string name="multiple_recipients" msgid="8747754491343248141">"Liczba odbiorców: <xliff:g id="RECIPIENTCOUNT">%1$s</xliff:g>"</string>
+    <string name="resize" msgid="4308912589984220360">"Zmień rozmiar"</string>
+    <string name="to_label" msgid="2355268818058389047">"Do "</string>
+    <string name="confirm_delete_all_messages" msgid="5836389073199814660">"Cały wątek zostanie usunięty."</string>
+    <string name="mms_priority_label">"Priorytet"</string>
+    <string name="menu_retry_sending" msgid="3146582005568302643">"Spróbuj wysłać ponownie"</string>
+    <string name="menu_retry_sending_all" msgid="1870529976966340616">"Spróbuj wysłać wszystkie ponownie"</string>
+    <string name="retrying_dialog_body" msgid="4738260459043003431">"Wiadomość <xliff:g id="MESSAGE">%s</xliff:g> nie została wysłana z powodu problemu z połączeniem."\n"Próba wysłania ponownie..."</string>
+    <string name="dl_expired_notification" msgid="950390029992535809">"Ta wiadomość wygasła i zostanie usunięta."</string>
+    <string name="add_contacts">"Kontakty"</string>
+    <string name="add_attachment_activity" msgid="5324811371129695320">"Dodaj załącznik:"</string>
+    <string name="select_layout_activity" msgid="5041916695464513848">"Wybierz układ"</string>
+    <string name="edit_text_activity" msgid="5915226413346879213">"Edytuj tekst"</string>
+    <string name="pick_numbers_activity" msgid="2083330191224178637">"Wybierz numery"</string>
+    <string name="send_using_mms_activity" msgid="3703434556280345726">"Wyślij jako wiadomość multimedialną..."</string>
+    <string name="select_contact_method_activity" msgid="1743384358979323991">"Wybierz metodę kontaktu"</string>
+    <string name="me" msgid="341726346007839961">"Ja"</string>
+    <string name="invalid_contact_message" msgid="8215051456181842274">"Kontakt nie istnieje."</string>
+    <string name="finish">"Gotowe"</string>
+</resources>

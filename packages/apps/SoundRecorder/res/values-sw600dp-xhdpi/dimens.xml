@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="timerView_TextSize_Big">50dip</dimen>
+    <dimen name="timerView_TextSize_Small">30dip</dimen>
+</resources>

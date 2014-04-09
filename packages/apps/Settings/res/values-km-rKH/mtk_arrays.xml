@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Wi-Fi security choices used when manually added a Wi-Fi network -->  
+    <string-array name="wifi_security"> 
+        <!-- The Wi-Fi network does not have any security. -->  
+        <item>@string/wifi_security_none</item>  
+        <!-- Do not translate. -->  
+        <item>WEP</item> 
+        <item>@string/wifi_security_psk_generic</item>  
+        <item>@string/wifi_security_eap</item>  
+        <item>WAPI PSK</item>  
+        <item>វិញ្ញាបនប័ត្រ WAPI</item> 
+    </string-array>  
+    <!-- Do not translate.-->  
+    <string-array name="wifi_security_wfa"> 
+        <item>@string/wifi_security_none</item>
+        <item>WEP</item>  
+        <item>WPA PSK</item>  
+        <item>WPA2 PSK</item>  
+        <item>802.1x EAP</item>  
+        <item>WAPI PSK</item>  
+        <item>វិញ្ញាបនប័ត្រ WAPI</item> 
+    </string-array>  
+    <string-array name="wifi_ap_channel_width" translatable="false"> 
+        <item>20 MHz</item>  
+        <item>20/40 MHz ស្វ័យប្រវត្តិ</item> 
+    </string-array>  
+    <!-- Wi-Fi settings.  The type of security a Wi-Fi network has. -->  
+    <string-array name="wpa_security"> 
+        <!-- The Wi-Fi network does not have any security. -->  
+        <item>បើក</item>  
+        <!-- Do not translate. -->  
+        <item>WEP</item>  
+        <!-- Do not translate. -->  
+        <item>WPA/WPA2 PSK</item>  
+        <!-- Do not translate. -->  
+        <item>802.1x EAP</item> 
+    </string-array>  
+    <string-array name="wpa_security_wfa"> 
+        <item>បើក</item>  
+        <!-- Do not translate. -->  
+        <item>WEP</item>  
+        <!-- Do not translate. -->  
+        <item>WPA PSK</item>  
+        <!-- Do not translate. -->  
+        <item>WPA2 PSK</item>  
+        <!-- Do not translate. -->  
+        <item>802.1x EAP</item> 
+    </string-array>  
+    <!-- Wi-Fi settings.  The type of security a Wi-Fi network has. -->  
+    <string-array name="wapi_security"> 
+        <!-- The Wi-Fi network does not have any security. -->  
+        <item>បើក</item>  
+        <!-- Do not translate. --> 
+        <item>WAPI PSK</item> 
+        <item>វិញ្ញាបនប័ត្រ​ WAPI</item>
+    </string-array>  
+    <!-- Match this with the constants in AccessPoint. -->  
+    <skip/>  
+    <!-- Wi-Fi security types for New User Dialog. EAP is not configurable. -->  
+    <string-array name="wifi_security_no_eap"> 
+        <!-- The Wi-Fi network does not have any security. -->  
+        <item>@string/wifi_security_none</item>  
+        <!-- Do not translate. -->  
+        <item>@string/wifi_security_wep</item>  
+        <!-- Do not translate. -->  
+        <item>@string/wifi_security_psk_generic</item> 
+    </string-array>  
+
+    <skip/>  
+
+    <!-- Wi-Fi WPS setup for p2p connections.  -->  
+    <!-- Note that adding/removing/moving the items will need wifi settings code change. -->  
+    <string-array name="wifi_p2p_wps_setup"> 
+        <!-- Push button based configuration involves pushing a button on two connecting devices [CHAR LIMIT=30]-->  
+        <item>ចុចប៊ូតុង</item>  
+        <!-- This involves entering a pin obtained from a peer device [CHAR LIMIT=30] -->  
+        <item>PIN ពីឧបករណ៍ជាមិត្ត</item>  
+        <!-- This involves generating a pin from this device [CHAR LIMIT=20] -->  
+        <item>PIN ពីឧបករណ៍នេះ</item> 
+    </string-array>  
+    <!-- Match this with the order of WifiP2pDevice.Status -->  
+    <!-- Wi-Fi p2p settings device status message -->  
+    <string-array name="wifi_p2p_status"> 
+        <item>បានតភ្ជាប់</item>  
+        <item>បានអញ្ជើញ</item>  
+        <item>មិនបានជោគជ័យ</item>  
+        <item>មាន</item>  
+        <item>នៅក្រៅការចាប់បាន</item> 
+    </string-array>  
+    <!-- Bluetooth Settings -->  
+    <!-- Discoverable mode timeout options -->  
+    <string-array name="bluetooth_visibility_timeout_entries"> 
+        <item>2 នាទី</item>  
+        <item>5 នាទី</item>  
+        <item>1 ម៉ោង</item>  
+        <item>មិនដែលអស់ម៉ោង</item> 
+    </string-array>  
+    <!-- Match this with drawable.wifi_signal. -->  
+    <skip/>  
+    <!-- Wi-Fi settings. The signal strength a Wi-Fi network has. -->  
+    <string-array name="wifi_signal"> 
+        <item>មិនល្អ</item>  
+        <item>អាចប្រើការបាន</item>  
+        <item>ល្អ</item>  
+        <item>ល្អណាស់</item> 
+    </string-array>  
+    <!-- Wi-Fi settings. Presented as a list dialog to the user to choose the Wi-Fi sleep policy. -->  
+    <string-array name="wifi_sleep_policy_entries"> 
+        <!-- Always keep Wi-Fi on when screen turns off. -->  
+        <item>ជានិច្ចកាល</item>  
+        <!-- Keep Wi-Fi on when screen turns off and plugged in.  When on battery, go to sleep when screen turns off. -->  
+        <item>តែពេលញាត់ចូល</item>  
+        <!-- Do not keep Wi-Fi on when screen turns off. -->  
+        <item>មិនដែល (បង្កើនទិន្នន័យការប្រើប្រាស់)</item> 
+    </string-array>  
+    <!-- Wi-Fi settings. Presented as a list dialog to the user to choose the Wi-Fi sleep policy. Used when
+         the device is Wi-Fi-only. [CHAR LIMIT=30] -->  
+    <string-array name="wifi_sleep_policy_entries_wifi_only"> 
+        <!-- Always keep Wi-Fi on when screen turns off. -->  
+        <item>ជានិច្ចកាល</item>  
+        <!-- Keep Wi-Fi on when screen turns off and plugged in.  When on battery, go to sleep when screen turns off. -->  
+        <item>តែពេលញាត់ចូល</item>  
+        <!-- Do not keep Wi-Fi on when screen turns off, for Wi-Fi-only devices, no other data connection -->  
+        <item>មិនដែល</item> 
+    </string-array>  
+    <!-- Wi-Fi settings. Presented as a list dialog to the user to choose the Wi-Fi frequency band. -->  
+    <string-array name="wifi_frequency_band_entries"> 
+        <!-- Operation on both 2.4 GHz and 5 GHz [CHAR LIMIT=25]-->  
+        <item>ស្វ័យប្រវត្តិ</item>  
+        <!-- Operation on 5 GHz alone [CHAR LIMIT=25]-->  
+        <item>តែ 5 GHz ទេ</item>  
+        <!-- Operation on 2.4 GHz alone [CHAR LIMIT=25]-->  
+        <item>តេ 2.4 GHz ទេ</item> 
+    </string-array>  
+    <!-- Match with wifi_frequency_band_entries and the values of the settings in WifiManager. -->  
+    <!-- Display options for UsageStats class -->  
+    <string-array name="usage_stats_display_order_types"> 
+        <item>ពេលការប្រើប្រាស់</item>  
+        <item>រាប់ការបញ្ចេញ</item>  
+        <item>ឈ្មោះកម្មវិធី</item> 
+    </string-array>  
+    <!-- EAP method -->  
+
+    <!-- Phase 2 options -->  
+    <string-array name="wifi_phase2_entries"> 
+        <item>គ្មាន</item>  
+        <!-- Do not translate.-->  
+        <item>PAP</item>  
+        <!-- Do not translate.-->  
+        <item>MSCHAP</item>  
+        <!-- Do not translate.-->  
+        <item>MSCHAPV2</item>  
+        <!-- Do not translate.-->  
+        <item>GTC</item> 
+    </string-array>  
+    <!-- Wi-Fi IP settings. -->  
+    <!-- Note that adding/removing/moving the items will need wifi settings code change. -->  
+    <string-array name="wifi_ip_settings"> 
+        <!-- Use DHCP (Dynamic Host Configuration Protocol) for obtaining IP settings [CHAR LIMIT=25] -->  
+        <item>DHCP</item>
+        <!-- Use statically defined IP settings [CHAR LIMIT=25]-->
+        <item>ស្តាទិក</item> 
+    </string-array>  
+    <!-- Wi-Fi proxy settings. -->  
+    <!-- Note that adding/removing/moving the items will need wifi settings code change. -->  
+    <string-array name="wifi_proxy_settings"> 
+        <!-- No HTTP proxy is used for the current wifi network [CHAR LIMIT=25] -->  
+        <item>គ្មាន</item>  
+        <!-- Manual HTTP proxy settings are used for the current wifi network [CHAR LIMIT=25] -->  
+        <item>ដោយដៃ</item> 
+    </string-array>  
+    <!-- Sound settings for emergency tone. -->  
+    <string-array name="emergency_tone_entries"> 
+        <item>បិទ</item>  
+        <item>ដាស់អារម្មណ៍</item>  
+        <item>ញ័រ</item> 
+    </string-array>  
+    <!-- Authentication Types used in APN editor -->  
+    <string-array name="apn_auth_entries"> 
+        <item>គ្មាន</item>  
+        <!-- Do not translate. -->  
+        <item>PAP ឬ CHAP</item>  
+        <!-- Do not translate. -->  
+        <item>CHAP</item>  
+        <item>PAP or CHAP</item> 
+    </string-array>
+    <!-- Authentication Types used in APN editor -->  
+    <string-array name="apn_protocol_entries"> 
+        <item>IPv4</item>  
+        <item>IPv6</item>  
+        <item>IPv4/IPv6</item> 
+    </string-array>  
+    <!-- Bearer Info used in APN editor -->  
+    <string-array name="bearer_entries"> 
+        <!-- Do not translate.-->  
+        <item>មិនបានបញ្ជាក់</item>  
+        <!-- Do not translate.-->  
+        <item>eHRPD</item>  
+        <item>មិនបានបញ្ជាក់</item> 
+    </string-array>  
+    <!-- Apps on SD instalaltion location options in ApplicationSettings -->  
+    <string-array name="app_install_location_entries"> 
+        <item>ឧបករណ៍សម្រាប់ផ្ទុកខាងក្នុង</item>  
+        <item>កាត SD ដែលអាចដកចេញបាន</item>  
+        <item>ទុកឲ្យប្រព័ន្ធជាអ្នកសម្រេច</item> 
+    </string-array>  
+    <!-- Titles for the list of long press timeout options. -->  
+    <string-array name="long_press_timeout_selector_titles"> 
+        <!-- A title for the option for short long-press timeout [CHAR LIMIT=25] -->  
+        <item>ខ្លី</item>  
+        <!-- A title for the option for medium long-press timeout [CHAR LIMIT=25] -->  
+        <item>មធ្យម</item>  
+        <!-- A title for the option for long long-press timeout [CHAR LIMIT=25] -->  
+        <item>វែង</item> 
+    </string-array>  
+    <!-- Titles for HDCP checking preference. [CHAR LIMIT=35] -->  
+    <string-array name="hdcp_checking_titles"> 
+        <item>មិនដែលឆែកមើល</item>  
+        <item>ឆែកមើលតែមាតិការ DRM តែប៉ុណ្ណោះ</item>  
+        <item>ជានិច្ចកាលត្រូវឆែកមើល</item> 
+    </string-array>  
+    <!-- Summaries for HDCP checking preference. [CHAR LIMIT=100]-->  
+    <string-array name="hdcp_checking_summaries"> 
+        <item>មិនដែលប្រើការឆែកមើល HDCP ឡើយ</item>  
+        <item>ប្រើការឆែក HDCP សម្រាប់តែឆែកមើលមាតិការ DRM</item>  
+        <item>ជានិច្ចកាលប្រើការឆែក HDCP</item> 
+    </string-array>  
+    <!-- Titles for window animation scale preference. [CHAR LIMIT=35] -->  
+    <string-array name="window_animation_scale_entries"> 
+        <item>បិទការធ្វើចលនា</item>  
+        <item>កម្រិតការធ្វើចលនា .5x</item>  
+        <item>កម្រិតការធ្វើចលនា 1x</item>  
+        <item>កម្រិតការធ្វើចលនា 1.5x</item>  
+        <item>កម្រិតការធ្វើចលនា​ 2x</item>  
+        <item>កម្រិតការធ្វើចលនា 5x</item>  
+        <item>កម្រិតការធ្វើចលនា 10x</item> 
+    </string-array>  
+    <!-- Titles for transition animation scale preference. [CHAR LIMIT=35] -->  
+    <string-array name="transition_animation_scale_entries"> 
+        <item>បិទការធ្វើចលនា</item>  
+        <item>កម្រិតការធ្វើចលនា .5x</item>  
+        <item>កម្រិតការធ្វើចលនា 1x</item>  
+        <item>កម្រិតការធ្វើចលនា 1.5x</item>  
+        <item>កម្រិតការធ្វើចលនា 2x</item>  
+        <item>កម្រិតការធ្វើចលនា 5x</item>  
+        <item>កម្រិតការធ្វើចលនា 10x</item> 
+    </string-array>  
+    <!-- Titles for animator duration scale preference. [CHAR LIMIT=35] -->  
+    <string-array name="animator_duration_scale_entries"> 
+        <item>បិទការធ្វើចលនា</item>  
+        <item>កម្រិតការធ្វើចលនា .5x</item>  
+        <item>កម្រិតការធ្វើចលនា 1x</item>  
+        <item>កម្រិតការធ្វើចលនា 1.5x</item>  
+        <item>កម្រិតការធ្វើចលនា 2x</item>  
+        <item>កម្រិតការធ្វើចលនា 5x</item>  
+        <item>កម្រិតការធ្វើចលនា 10x</item> 
+    </string-array>  
+    <!-- Titles for app process limit preference. [CHAR LIMIT=35] -->  
+    <string-array name="app_process_limit_entries"> 
+        <item>ព្រំដែនជាបទដ្ឋាន</item>  
+        <item>គ្មានការដំណើរការពីខាងក្រោយ</item>  
+        <item>យ៉ាងច្រើន 1 ដំណើរការ</item>  
+        <item>យ៉ាងច្រើន 2 ដមណើរការ</item>  
+        <item>យ៉ាងច្រើន 3 ដំណើតការ</item>  
+        <item>យ៉ាងច្រើន 4 ដំណើរការ</item> 
+    </string-array>  
+    <!-- Match this with the constants in VpnProfile. -->  
+    <skip/>  
+    <!-- Match this with the constants in VpnProfile. -->  
+    <skip/>  
+    <!-- Longer descriptions for each VPN type. [CHAR LIMIT=100] -->  
+    <string-array name="vpn_types_long"> 
+        <item>PPTP VPN</item>
+        <item>L2TP/IPSec VPN ជាមួយនឹងប៊ូតុងចែករំលែកគ្នាជាមុន</item>  
+        <item>L2TP/IPSec VPN ជាមួយនឹងវិញ្ញាបនប័ត្រ</item>  
+        <item>IPSec VPN ជាមួយនឹងប៊ូតុងចែករំលែកគ្នាជាមុន និងការបញ្ជាក់ការពិត Xauth</item>  
+        <item>IPSec VPN ជាមួយនឹងវិញ្ជាបនប័ត្រ និងការបញ្ជាក់ការពិត Xauth</item>  
+        <item>IPSec VPN ជាមួយនឹងវិញ្ញាបនប័ត្រ និងការបញ្ជាក់ការពិតកូនកាត់</item>  
+    </string-array>  
+    <!-- Match this with the constants in LegacyVpnInfo. -->  
+    <skip/>  
+    <!-- Status for a VPN network. [CHAR LIMIT=100] -->  
+    <string-array name="vpn_states"> 
+        <!-- Status message when VPN is disconnected. -->  
+        <item>ត្រូវបានផ្តាច់ការតភ្ជាប់</item>  
+        <!-- Status message when VPN is initializing. -->  
+        <item>កំពុងចាប់ផ្តើម\u2026</item>  
+        <!-- Status message when VPN is connecting. -->  
+        <item>ការតភ្ជាប់\u2026</item>  
+        <!-- Status message when VPN is connected. -->  
+        <item>បានតភ្ជាប់</item>  
+        <!-- Status message when VPN is timeout. -->  
+        <item>អស់ម៉ោង</item>  
+        <!-- Status message when VPN is failed. -->  
+        <item>មិនបានជោគជ័យ</item> 
+    </string-array>  
+    <!-- Add by MTK SIM Management Settings-->  
+    <!-- SIM number display format -->  
+    <string-array name="gemini_sim_info_number_display_format_entries"> 
+        <item>4 ខ្ទង់ដំបូង</item>  
+        <item>4 ខ្ទង់ចុងក្រោយ</item>  
+        <item>មិនត្រូវបង្ហាញទេ</item> 
+    </string-array>  
+    <!-- Show roaming reminder  -->  
+    <string-array name="gemini_sim_roaming_reminder_entries"> 
+        <item>ម្តង</item>  
+        <item>ជានិច្ចកាល</item>  
+        <item>មិនដែល</item> 
+    </string-array>  
+    <!-- GSM/UMTS Options strings -->  
+    <string-array name="gsm_umts_network_preferences_choices"> 
+        <item>GSM/WCDMA (ម៉ូដស្វ័យប្រវត្តិ)</item>  
+        <item>តែ WCDMA</item>  
+        <item>តែ GSM</item> 
+    </string-array>  
+    <!-- End of Sim Management Settings-->  
+    <string-array name="network_use_entry"> 
+        <item>សម្រាប់តែនៅផ្ទះ</item>  
+        <item>នៅផ្ទះ + រ៉ូមិង</item> 
+    </string-array>  
+    <!--Add for MTK DateTime Settings-->  
+    <!-- For auto time sync values -->  
+    <string-array name="auto_time_entries"> 
+        <item>ប្រើបណ្តាញដែលមានប្រាប់ម៉ោង</item>  
+        <item>ប្រើ GPS ដែលមានប្រាប់ម៉ោង</item>  
+        <item>បិទ</item> 
+    </string-array>  
+    <!--End of MTK DateTime Settings-->  
+    <!--Add for MTK Display Settings-->  
+    <string-array name="hdmi_video_resolution_entries"> 
+        <item>ស្វ័យប្រវត្តិ</item>  
+        <!-- Do not translate. -->  
+        <item>720P</item>  
+        <!-- Do not translate. -->  
+        <item>480P</item> 
+    </string-array>  
+    <!--End of MTK Display Settings -->  
+    <!-- Wi-Fi settings.  Use a sim slot to do EAP-SIM authentication. -->  
+	<string-array name="sim_slot">
+		<item>(មិនបញ្ជាក់)</item>
+		<item>Sim ប្រឡោះ 1</item>
+		<item>Sim ប្រឡោះ 2</item>
+	</string-array> 
+    <!-- WEP password type -->  
+    <string-array name="wifi_WEP_security_type"> 
+        <item>ស្វ័យប្រវត្តិ</item>  
+        <!-- Do not translate. -->  
+        <item>WEP ASCII</item>  
+        <item>WEP ទសភាពប្រាំមួយខ្ទង់</item> 
+    </string-array>  
+    <!-- keep Wi-Fi hotspot on. Presented as a list dialog to the user to choose the Wi-Fi hotspot disable policy. -->  
+    <string-array name="wifi_hotspot_disable_policy_entries"> 
+        <!-- Always keep Wi-Fi on when screen turns off. -->  
+        <item>ជានិច្ចកាល</item>  
+        <!-- Keep Wi-Fi on when screen turns off and plugged in.  When on battery, go to sleep when screen turns off. -->  
+        <item>ត្រូវបិទ ពេលទុកចោលចំនួន 5 នាទី</item>  
+        <!-- Do not keep Wi-Fi on when screen turns off. -->  
+        <item>ត្រូវបិទ ពេលទុកចោលចំនួន 10 នាទី</item> 
+    </string-array> 
+    <string-array name="wifi_ap_wps_mode_entries"> 
+        <item>ចុចប៊ូតុង</item>  
+        <item>PIN ពីអតិថិជន</item> 
+    </string-array>  
+    <string-array name="wifi_ap_max_connection_entries"> 
+        <item>អ្នកប្រើ 1 នាក់</item>  
+        <item>អ្នកប្រើ 2 នាក់</item> 
+        <item>អ្នកប្រើ 3 នាក់</item> 
+        <item>អ្នកប្រើ 4 នាក់</item> 
+        <item>អ្នកប្រើ 5 នាក់</item> 
+        <item>អ្នកប្រើ 6 នាក់</item> 
+        <item>អ្នកប្រើ 7 នាក់</item> 
+        <item>អ្នកប្រើ 8 នាក់</item> 
+    </string-array> 
+</resources>

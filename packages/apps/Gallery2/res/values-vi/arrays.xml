@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <!-- add for ICS porting -->  
+    <string-array name="proxy_error"> 
+        <item>Mục máy chủ không thể trống</item>  
+        <item>Mục cổng nối không thể trống</item>  
+        <item>Máy chủ k.hợp lệ</item>  
+        <item>Cổng nối k.hợp lệ</item> 
+    </string-array> 
+</resources>

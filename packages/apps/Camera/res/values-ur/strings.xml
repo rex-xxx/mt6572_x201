@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="camera_error_title">کیمرے کا نقص</string>  
+    <string name="cannot_connect_camera">کیمرے سے مربوط نہیں ہوسکتا۔</string>  
+    <string name="camera_disabled">حفاظتی پالیسیوں کے سبب کیمرا غیرفعال ہوگیا۔</string>  
+    <string name="camera_label">کیمرا</string>  
+    <string name="video_camera_label">کیم کارڈر</string>  
+    <string name="gallery_camera_bucket_name">کیمرے کی تصاویر</string>  
+    <string name="gallery_camera_videos_bucket_name">کیمرے کے ویڈیوز</string>  
+    <string name="wait">براہ کرم انتظار کریں \u2026</string>  
+    <string name="no_storage" product="nosdcard">کیمرا استعمال کرنے سے پہلے USB اسٹوریج لگائیں۔</string>  
+    <string name="no_storage" product="default">کیمرا استعمال کرنے سے پہلے ایک SD کارڈ داخل کریں۔</string>  
+    <string name="not_enough_space" product="nosdcard">آپ کا USB اسٹوریج بھرگیا ہے۔</string>  
+    <string name="not_enough_space" product="default">آپ کا SD کارڈ بھر گيا ہے۔</string>  
+    <string name="preparing_sd" product="nosdcard">USB اسٹوریج تیار کیا جارہا ہے \u2026</string>  
+    <string name="preparing_sd" product="default">SD کارڈ تیار کررہا ہے\u2026</string>  
+    <string name="access_sd_fail" product="nosdcard">USB اسٹوریج تک رسائی نہیں ہوسکتی۔</string>  
+    <string name="access_sd_fail" product="default">کارڈ تک رسائی کرنے سے قاصرSD۔</string>  
+    <string name="confirm_restore_message">کیا آپ کیمرے کی ڈیفالٹ ترتیبات بحال کرنا چاہتے ہیں؟</string>  
+    <string name="review_play">چلائيں</string>  
+    <string name="review_cancel">منسوخ کریں</string>  
+    <string name="review_ok">ہوگیا</string>  
+    <string name="review_retake">دوبارہ لیں</string>  
+    <string name="camera_gallery_photos_text">گیلری</string>  
+    <string name="time_lapse_title">وقت کے لیپس کی ریکارڈنگ</string>  
+    <string name="pref_camera_id_title">کیمرا چنیں</string>  
+    <string name="pref_camera_id_default" translatable="false">0</string>  
+    <string name="pref_camera_id_entry_back">واپس</string>  
+    <string name="pref_camera_id_entry_front">اگلا</string>  
+    <string name="pref_camera_recordlocation_title">ذخیرہ کا مقام</string>  
+    <string name="pref_camera_recordlocation_default" translatable="false">none</string>  
+    <string name="pref_camera_recordlocation_entry_off">بند</string>  
+    <string name="pref_camera_recordlocation_entry_on">چالو</string>  
+    <string name="pref_video_quality_title">ویڈيو کا معیار</string>  
+    <string name="pref_video_quality_default" translatable="false">10</string>  
+    <string name="pref_video_quality_entry_1080p" translatable="false">HD</string>  
+    <string name="pref_video_quality_entry_720p" translatable="false">Fine</string>  
+    <string name="pref_video_quality_entry_480p" translatable="false">SD</string>  
+    <string name="pref_video_time_lapse_frame_interval_title">وقت گزرنے کا دورانیہ</string>  
+    <string name="pref_video_time_lapse_frame_interval_default" translatable="false">0</string>  
+    <string name="pref_camera_settings_category">کیمرے کی ترتیبات</string>  
+    <string name="pref_camcorder_settings_category">کیم کارڈر کی ترتیبات</string>  
+    <string name="pref_camera_picturesize_title">تصویر کا سائز</string>  
+    <string name="pref_camera_picturesize_entry_2592x1936">5M پکسلز</string>  
+    <string name="pref_camera_picturesize_entry_2048x1536">3M پکسلز</string>  
+    <string name="pref_camera_picturesize_entry_1600x1200">2M پکسلز</string>  
+    <string name="pref_camera_picturesize_entry_1280x960">1.3M پکسلز</string>  
+    <string name="pref_camera_picturesize_entry_1024x768">1M پکسل</string>  
+    <string name="pref_camera_picturesize_entry_640x480">VGA</string>  
+    <string name="pref_camera_picturesize_entry_320x240">QVGA</string>  
+    <string name="pref_camera_focusmode_title">فوکس کی وضع</string>  
+    <string name="pref_camera_focusmode_entry_auto">خودکار</string>  
+    <string name="pref_camera_focusmode_entry_infinity">لامحدود</string>  
+    <string name="pref_camera_focusmode_entry_macro">میکرو</string>  
+    <string name="pref_camera_flashmode_default" translatable="false">auto</string>  
+    <string name="pref_camera_flashmode_no_flash" translatable="false">no_flash</string>  
+    <string name="pref_camera_flashmode_title">فلیش کی وضع</string>  
+    <string name="pref_camera_flashmode_entry_auto">خودکار</string>  
+    <string name="pref_camera_flashmode_entry_on">چالو</string>  
+    <string name="pref_camera_flashmode_entry_off">بند</string>  
+    <string name="pref_camera_video_flashmode_default" translatable="false">off</string>  
+    <string name="pref_camera_whitebalance_default" translatable="false">auto</string>  
+    <string name="pref_camera_whitebalance_title">سفید کا توازن</string>  
+    <string name="pref_camera_whitebalance_entry_auto">خودکار</string>  
+    <string name="pref_camera_whitebalance_entry_incandescent">چمکدار</string>  
+    <string name="pref_camera_whitebalance_entry_daylight">دن کی روشنی</string>  
+    <string name="pref_camera_whitebalance_entry_fluorescent">فلوریسنٹ</string>  
+    <string name="pref_camera_whitebalance_entry_cloudy">ابرآلود</string>  
+    <string name="pref_camera_scenemode_default" translatable="false">auto</string>  
+    <string name="pref_camera_scenemode_title">سین وضع</string>  
+    <string name="pref_camera_scenemode_entry_auto">خودکار</string>  
+    <string name="pref_camera_scenemode_entry_action">کارروائی</string>  
+    <string name="pref_camera_scenemode_entry_night">رات</string>  
+    <string name="pref_camera_scenemode_entry_sunset">مغرب</string>  
+    <string name="pref_camera_scenemode_entry_party">پارٹی</string>  
+    <string name="not_selectable_in_scene_mode">سین وضع میں قابل انتخاب نہيں۔</string>  
+    <string name="pref_restore_title">کیمرے کی ترتیبات</string>  
+    <string name="pref_restore_detail">ڈیفالٹس بحال کریں</string>  
+    <string name="pref_exposure_title">ایکسپوژر</string>  
+    <string name="pref_exposure_default" translatable="false">0</string>  
+    <string name="dialog_ok">ٹھیک ہے</string>  
+    <string name="spaceIsLow_content" product="nosdcard">آپ کے ‏USB‏ اسٹوریج میں ‏جگہ نہیں ہے۔‎ ‎معیار کی ترتیب ‏تبدیل کریں یا کچھ تصاویر یا ‏دیگر فائلیں حذف کریں۔</string>  
+    <string name="spaceIsLow_content" product="default">آپ کے ‏SD‏ کارڈ میں جگہ ‏نہیں ہے۔‎ ‎معیار کی ترتیب ‏تبدیل کریں یا کچھ تصاویر یا ‏دیگر فائلیں حذف کریں۔</string>  
+    <string name="image_file_name_format" translatable="false">"'IMG'_yyyyMMdd_HHmmss"</string>  
+    <string name="video_file_name_format" translatable="false">"'VID'_yyyyMMdd_HHmmss"</string>  
+    <string name="pano_file_name_format" translatable="false">"'PANO'_yyyyMMdd_HHmmssSSS"</string>  
+    <string name="video_reach_size_limit">سائز کی حد تجاوز۔</string>  
+    <string name="setting_increment" translatable="false">&gt;</string>  
+    <string name="setting_decrement" translatable="false">&lt;</string>  
+    <string name="share_picture_via">تصویر تقسیم بذریعہ</string>  
+    <string name="share_video_via">ویڈيو تقسیم بذریعہ</string>  
+    <string name="no_picture_to_share">تقسیم کرنے کے لئے کوئی تصویر نہيں۔</string>  
+    <string name="no_video_to_share">تقسیم کرنے کے لئے کوئی ویڈیو نہيں۔</string>  
+    <string name="pano_too_fast_prompt">بہت تیز</string>  
+    <string name="pano_dialog_prepare_preview">پینوراما تیار کررہا ہے</string>  
+    <string name="pano_dialog_panorama_failed">پینوراما محفوظ کرنے سے قاصر۔</string>  
+    <string name="pano_dialog_title">پینوراما</string>  
+    <string name="pano_capture_indication">پینوراما کھینچ رہا ہے</string>  
+    <string name="pano_dialog_waiting_previous">پچھلے منظر کا انتظار ہے</string>  
+    <string name="saving">محفوظ کررہا ہے/u2026</string>  
+    <string name="tap_to_focus">فوکس کرنے کے لئے چھوئيں</string>  
+    <string name="pref_video_effect_default" translatable="false">none</string>  
+    <string name="pref_video_effect_title">اثرات</string>  
+    <string name="effect_none">کوئی نہيں</string>  
+    <string name="effect_goofy_face_squeeze">گھسائيں</string>  
+    <string name="effect_goofy_face_big_eyes">بڑی آنکھیں</string>  
+    <string name="effect_goofy_face_big_mouth">بڑا منہ</string>  
+    <string name="effect_goofy_face_small_mouth">چھوٹا منہ</string>  
+    <string name="effect_goofy_face_big_nose">بڑی ناک</string>  
+    <string name="effect_goofy_face_small_eyes">چھوٹی آنکھیں</string>  
+    <string name="effect_backdropper_space">خلا میں</string>  
+    <string name="effect_backdropper_sunset">مغرب</string>  
+    <string name="effect_backdropper_gallery">آپ کا ویڈیو</string>  
+    <string name="not_selectable_in_effect">تاثر چالوہونے پر ناقابل انتخاب۔</string>  
+    <string name="video_snapshot_hint">ریکارڈنگ کے دوران تصویر لینے کیلئے دبائیں۔</string>  
+    <string name="disable_video_snapshot_hint">خصوصی اثرات آن ہونے پر ویڈیو اسنیپ شاٹ کو غیرفعال کیا جاتا ہے۔</string>  
+    <string name="clear_effects">اثرات صاف کریں</string>  
+    <string name="effect_silly_faces">عجیب شکلیں</string>  
+    <string name="effect_background">پس منظر</string>  
+    <string name="accessibility_shutter_button">شٹر کا بٹن</string>  
+    <string name="accessibility_review_thumbnail">حالیہ ترین تصویر</string>  
+    <string name="accessibility_camera_picker">اگلا اور پچھلا کیمرہ کا سوئچ</string>  
+    <string name="accessibility_mode_picker">کیمرہ، ویڈیو یا پینوراما منتخب کنندہ</string>  
+    <string name="accessibility_second_level_indicators">مزید ترتیب کے کنٹرول</string>  
+    <string name="accessibility_back_to_first_level">ترتیب کے کنٹرول بند کریں</string>  
+    <string name="accessibility_zoom_control">زوم کنٹرول</string>  
+    <string name="accessibility_decrement">کم کریں %1$s</string>  
+    <string name="accessibility_increment">پڑھائيں %1$s</string>  
+    <string name="accessibility_switch">%1$s سوئچ</string>  
+
+
+    <string name="empty" translatable="false">" "</string>  
+
+      <string name="pano_review_saving_indication_str">محفوظ کررہا ہے/u2026</string>
+</resources>

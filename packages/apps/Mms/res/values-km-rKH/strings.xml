@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+/*
+ * Copyright (C) 2007-2008 Esmertec AG.
+ * Copyright (C) 2007-2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_label">ការផ្ញើសារ</string>  
+    <string name="new_message">សារថ្មី</string>  
+    <string name="menu_call_back">ហៅ 
+        <xliff:g id="name">%s</xliff:g> 
+    </string>  
+    <string name="menu_send_email">ផ្ញើអ៊ីម៉េលទៅកាន់ 
+        <xliff:g id="name">%s</xliff:g> 
+    </string>  
+    <string name="menu_compose_new">សរសេរ</string>  
+    <string name="menu_preferences">ការសិត</string>  
+    <string name="menu_add_address_to_contacts">បន្ថែម 
+        <xliff:g id="contactEmailOrNumber">%s</xliff:g> ទៅក្នុងលេខទំនាក់ទំនង
+    </string>  
+    <string name="menu_call">ហៅ</string>  
+    <string name="menu_search">រាវរក</string>  
+    <string name="menu_delete_all">លុបសារក្នុងខ្សែទាំងមូលចោល</string>  
+    <string name="menu_delete">លុបសារក្នុងខ្សែ</string>  
+    <string name="menu_view">មើលសារក្នុងខ្សែ</string>  
+    <string name="menu_debug_dump">DEBUG DUMP</string>  
+    <string name="refreshing">ធ្វើឲ្យស្រស់បស់ឡើងវិញ\u2026</string>  
+    <string name="menu_cell_broadcasts">ផ្ញើសារទៅអ្នកទទួលច្រើន</string>  
+    <string name="has_draft">ពង្រាង</string>  
+    <string name="no_subject_view">(មិនមានប្រធានបទ)</string>  
+    <string name="messagelist_sender_self">ខ្ញុំ</string>  
+    <string name="view_slideshow">មើលការបង្ហាញស្លាយ</string>  
+    <string name="view_message_details">មើលព័ត៌មានលំអិត</string>  
+    <string name="view_delivery_report">មើលរបាយការណ៍</string>  
+    <string name="delete_message">លុបចោល</string>  
+    <string name="expire_on">"ផុតកំណត់ ៖ 
+        <xliff:g id="date">%s</xliff:g>"
+    </string>  
+    <string name="kilobyte">KB</string>  
+    <string name="undelivered_msg_dialog_title">សារដែលមិនបានបញ្ជូន</string>  
+    <string name="undelivered_msg_dialog_body">មិនអាចផ្ញើសារនេះចេញបានទេ ។\nបានធ្វើការប៉ុនប៉ង ៖ 
+        <xliff:g id="message">%s</xliff:g> ។
+    </string>  
+    <string name="undelivered_sms_dialog_body">មិនអាចផ្ញើសារនេះចេញបានទេ ។</string>  
+    <string name="delete_thread">លុបសារក្នុងខ្សែ</string>  
+    <string name="menu_forward">បញ្ជូន</string>  
+    <string name="download">ទាញយក</string>  
+    <string name="downloading">កំពុងទាញយក</string>  
+    <string name="inline_subject">"&lt;ប្រធានបទ: <xliff:g id="subject">%s</xliff:g>&gt;"</string>
+    <string name="drm_protected_text">"* អត្ថបទដែលការពារដោយ DRM *"</string>  
+    <string name="insufficient_drm_rights">បានរកឃើញសិទ្ធិ DRM មិនគ្រប់គ្រាន់ ។</string>  
+    <string name="copy_message_text">ចម្លងអត្ថបទ</string>  
+    <string name="message_options">ជម្រើសសារ</string>  
+    <string name="done">បានធ្វើរួច</string>  
+    <string name="move_up">រំកិលឡើងលើ</string>  
+    <string name="move_down">រំកិលចុះក្រោម</string>  
+    <string name="remove_slide">លុបស្លាយចោល</string>  
+    <string name="add_slide">បន្ថែមស្លាយ</string>  
+    <string name="add_slide_hint">ជ្រើសរើសដើម្បីបង្កើតស្លាយថ្មី ។</string>  
+    <string name="discard_slideshow">បោះចោលការបង្ហាញស្លាយ</string>  
+    <string name="slide_show_part">ផ្នែក 
+        <xliff:g id="part">%1$s</xliff:g>/ 
+        <xliff:g id="total">%2$s</xliff:g> 
+    </string>  
+    <string name="remove_text">លុបអត្ថបទចោល</string>  
+    <string name="add_picture">បន្ថែមរូបភាព</string>  
+    <string name="remove_picture">លុបរូបភាពចោល</string>  
+    <string name="add_music">បន្ថែមតន្ត្រី</string>  
+    <string name="remove_music">លុបតន្ត្រីចោល</string>  
+    <string name="add_video">បន្ថែមវីដេអូ</string>  
+    <string name="remove_video">លុបវីដេអូចោល</string>  
+    <string name="to_hint">ចំពោះ</string>  
+    <string name="subject_hint">ប្រធានបទ</string>  
+    <string name="add_attachment">ភ្ជាប់</string>  
+    <string name="add_subject">បន្ថែមប្រធានបទ</string>  
+    <string name="discard">បោះចោល</string>  
+    <string name="view">មើល</string>  
+    <string name="replace">ជំនួស</string>  
+    <string name="remove">លុបចោល</string>  
+    <string name="send">ផ្ញើចេញ</string>  
+    <string name="mms">MMS</string>  
+    <string name="all_threads">ខ្សែសារទាំងអស់</string>  
+    <string name="type_to_compose_text_enter_to_send">វាយសារ</string>  
+    <string name="open_keyboard_to_compose_message">បើកក្តារចុចដើម្បីវាយសារ</string>  
+    <string name="compressing">រូបភាពធំពេក ។ កំពុងបង្ហាប់ឲ្យតូច\u2026</string>  
+    <string name="unsupported_media_format">ទ្រង់ទ្រាយ 
+        <xliff:g id="name">%1$s</xliff:g> ដែលមិនអាចប្រើបាន
+    </string>  
+    <string name="select_different_media">សូមជ្រើសរើស 
+        <xliff:g id="name">%1$s</xliff:g> ផ្សេង ។
+    </string>  
+    <string name="exceed_message_size_limitation">បានឈានចូលដល់ដែនកំណត់ទំហំសារហើយ ។</string>  
+    <string name="message_too_big_for_video">សារធំពេក មិនអាចភ្ជាប់វីដេអូបានទេ ។</string>  
+    <string name="failed_to_add_media">សូមទោស អ្នកមិនអាចបន្ថែម 
+        <xliff:g id="name">%1$s</xliff:g> ទៅក្នុងសាររបស់អ្នកបានទេ ។
+    </string>  
+    <string name="failed_to_resize_image">មិនបានចាត់ទំហំរូបភាំពឡើងវិញទេ ។</string>  
+    <string name="resize_image_error_information">សូមទោស ទោះបីជារូបភាពនេះបានចាត់ទំហំឡើងវិញហើយក៏ដោយ ក៏រូបភាពនេះនៅតែធំមិនអាចផ្ញើចេញបានដែរ ។</string>  
+    <string name="forward_prefix">បញ្ជូន ៖\u0020</string>  
+    <string name="discard_message">បោះចោល</string>  
+    <string name="discard_message_reason">សាររបស់អ្នក នឹងត្រូវបោះចោល ដោយសារវាមិនមានអ្នកទទួលដែលមានសុពលភាពឡើយ ។</string>  
+    <string name="has_invalid_recipient">អ្នកទទួលដែលមិនមានសុពលភាព ៖</string>  
+    <string name="invalid_destination">អាសយដ្ឋានគោលដៅដែលមិនមានសុពលភាព ។</string>  
+    <string name="service_not_activated">សេវាកម្មមិនបានធ្វើឲ្យសកម្មនៅលើបណ្តាញឡើយ ។</string>  
+    <string name="service_message_not_found">សារផុតសុពលភាព ឬវាមិនមាន ។</string>  
+    <string name="service_network_problem">កំហុស បញ្ហាបណ្តាញ ។</string>  
+    <string name="invalid_recipient_message">សូមកែតម្រូវអ្នកទទួល បើមិនដូច្នេះទេ ពួកគេនឹងមិនអាចទទួលសារបានឡើយ ។</string>  
+    <string name="cannot_send_message">មិនអាចផ្ញើសារនេះបានទេ</string>  
+    <string name="cannot_send_message_reason">សាររបស់អ្នក មិនមានអ្នកទទួលដែលមានសុពលភាពទេ ។</string>  
+    <string name="cannot_forward_drm_obj">វត្ថុ DRM ដែលមានរួមបញ្ចូលក្នុងសារ មិនអាចបញ្ជូនបានទេ ។</string>  
+    <string name="converting_to_picture_message">កំពុងបង្វែទៅជាសារមូលទិមេឌា\u2026</string>  
+    <string name="converting_to_text_message">កំពុងបង្វែទៅជាសារអក្សរ\u2026</string>  
+    <string name="cannot_add_slide_anymore">មិនអាចបន្ថែមស្លាយបានច្រើនទៀតទេ ។</string>  
+    <string name="cannot_add_picture_and_video">មិនអាចបន្ថែមវីដេអូ និងរូបភាពទៅក្នុងស្លាយមួយបានទេ ។</string>  
+    <string name="cannot_save_message">មិនអាចរក្សាសារទុកបានទេ ។</string>  
+    <string name="message_saved_as_draft">សារត្រូវបានរក្សាទុកជាពង្រាង ។</string>  
+    <string name="too_many_recipients">សារមួយនេះ មានអ្នកទទួលច្រើនពេក ( 
+        <xliff:g id="currentCount">%1$s</xliff:g>) ។ មានដែនកំណត់ចំពោះ 
+        <xliff:g id="maxLimit">%2$s</xliff:g> អ្នកទទួល ។
+    </string>  
+    <string name="too_many_attachments">មានដែនកំណត់នៃ 
+        <xliff:g id="maxLimit">%1$s</xliff:g> ឯកសារភ្ជាប់ ។ មានតែ 
+        <xliff:g id="currentCount">%2$s</xliff:g> ដំបូងទេ នឹងត្រូវបន្ថែមបាន ។
+    </string>  
+    <string name="adding_attachments_title">កំពុងបន្ថែមឯកសារភ្ជាប់</string>  
+    <string name="adding_attachments">សូមរង់ចាំ ខណៈពេលដែលឯកសារនេះត្រូវបានបន្ថែមទៅក្នុងការបង្ហាញស្លាយ ។</string>  
+    <string name="building_slideshow_title">កំពុងកសាងការបង្ហាញស្លាយ</string>  
+    <string name="cannot_play_audio">មិនអាចលេងអូឌីអូបានទេ ។</string>  
+    <string name="preview">មើលត្រួសៗ</string>  
+    <string name="preview_slideshow">មើលត្រួសៗ</string>  
+    <string name="replace_image">ជំនួសរូបភាព</string>  
+    <string name="duration_sec">ថិរវេលា ( 
+        <xliff:g id="duration">%s</xliff:g> វិនាទី)
+    </string>  
+    <string name="duration_selector_title">"ថិរវេលាសម្រាប់ស្លាយ "</string>  
+    <string name="layout_selector_title">"គំនូសព្រាងការបង្ហាញសលាយ "</string>  
+    <string name="layout_top">គំនូសព្រាង (ខាងលើ)</string>  
+    <string name="layout_bottom">គំនូសព្រាង (ខាងក្រោម)</string>  
+    <string name="type_to_compose_text_or_leave_blank">វាយសារ ឬទុកវាឲ្យនៅទទេ</string>  
+    <string name="duration_not_a_number">ថិរវេលាត្រូវតែជាលេខ</string>  
+    <string name="duration_zero">ថិរវេលាត្រូវតែធំជាងសូន្យវិនាទី</string>  
+    <string name="secs">វិនាទី</string>  
+    <string-array name="select_dialog_items"> 
+        <item>1 វិនាទី</item>  
+        <item>2 វិនាទី</item>  
+        <item>3 វិនាទី</item>  
+        <item>4 វិនាទី</item>  
+        <item>5 វិនាទី</item>  
+        <item>6 វិនាទី</item>  
+        <item>7 វិនាទី</item>  
+        <item>8 វិនាទី</item>  
+        <item>9 វិនាទី</item>  
+        <item>10 វិនាទី</item>  
+        <item>ផ្សេងៗ\u2026</item> 
+    </string-array>  
+    <string name="menu_view_contact">មើលលេខទំនាក់ទំនង</string>  
+    <string name="menu_add_to_contacts">បន្ថែមទៅក្នុងលេខទំនាក់ទំនង</string>  
+    <string name="hidden_sender_address">អាសយដ្ឋានអ្នកផ្ញើដែលលាក់</string>  
+    <string name="yes">យល់ព្រម</string>  
+    <string name="no">លើកលែង</string>  
+    <string name="set">សិត</string>  
+    <string name="play">លេង</string>  
+    <string name="edit">កែសម្រួល</string>  
+    <string name="try_to_send">ព្យាយាមផ្ញើ</string>  
+    <string name="preferences_title">"ការសិត"</string>  
+    <string name="restore_default">"រក្សាលំនាំដើមតាមការសិតពីរោងចក្រ"</string>  
+    <string name="pref_notification_settings_title">ការសិតការប្រាប់ដំណឹង</string>  
+    <string name="pref_mms_settings_title">"ការសិតសារមូលទិមេឌា (MMS)"</string>  
+    <string name="pref_sms_settings_title">"ការសិតសារអក្សរ (SMS)"</string>  
+    <string name="pref_sms_storage_title">ការសិតកន្លែងផ្ទុកឯកសារ</string>  
+    <string name="pref_summary_manage_sim_messages">ចាត់ចែងសារដែលបានផ្ទុកក្នុង SIM កាតរបស់អ្នក</string>  
+    <string name="pref_summary_mms_delivery_reports">ស្នើសុំរបាយការណ៍បញ្ជូន សម្រាប់សារនីមួយៗដែលអ្នកផ្ញើចេញ</string>  
+    <string name="pref_summary_mms_read_reports">ស្នើសុំរបាយការណ៍អាន សម្រាប់សារនីមួយៗដែលអ្នកផ្ញើចេញ</string>  
+    <string name="pref_summary_sms_delivery_reports">ស្នើសុំរបាយការណ៍បញ្ជូន សម្រាប់សារនីមួយៗដែលអ្នកផ្ញើចេញ</string>  
+    <string name="pref_summary_auto_delete">លុបសារចាស់ៗចោល ដោយសារថាអ្នកបានឈានចូលដល់ដែនកំណត់ាករផ្ទុកហើយ</string>  
+    <string name="pref_summary_delete_limit"> 
+        <xliff:g id="count">%1$s</xliff:g> សារក្នុងមួយការសន្ទនា
+    </string>  
+    <string name="pref_title_manage_sim_messages">ចាត់ចែងសារ SIM កាត</string>  
+    <string name="pref_title_mms_delivery_reports">ស្នើសុំរបាយការណ៍បញ្ជូន</string>  
+    <string name="pref_title_mms_read_reports">ស្នើសុំរបាយការណ៍អាន</string>  
+    <string name="pref_title_sms_delivery_reports">ស្នើសុំរបាយការណ៍បញ្ជូន</string>  
+    <string name="pref_title_auto_delete">លុបសារចាស់ៗចោល</string>  
+    <string name="pref_title_sms_delete">ដែនកំណត់សារអក្សរ</string>  
+    <string name="pref_title_mms_delete">ដែនកំណត់សារមូលទិមេឌា</string>  
+    <string name="pref_title_notification_enabled">ការប្រាប់ដំណឹង</string>  
+    <string name="pref_summary_notification_enabled">បង្ហាញការប្រាប់ដំណឹងសារ ក្នុងខ្សែស្ថានភាព</string>  
+    <string name="pref_title_notification_vibrateWhen">ញ័រ</string>  
+    <string name="pref_summary_notification_vibrateWhen">ញ័រផងដែរពេលប្រាប់ដំណឹង</string>  
+    <string name="pref_title_notification_ringtone">ជ្រើសរើសសម្លេងរោទ៍</string>  
+    <string name="pref_messages_to_save">សិតចំនួនសារដើម្បីរក្សាទុក</string>  
+    <string-array name="prefEntries_vibrateWhen"> 
+        <item>ជានិច្ចជកាល</item>  
+        <item>តែពេលដែលស្ងាត់</item>  
+        <item>មិនដែល</item> 
+    </string-array>  
+    <string translatable="false" name="prefDefault_vibrateWhen">never</string>  
+    <string translatable="false" name="prefDefault_vibrate_true">always</string>  
+    <string translatable="false" name="prefDefault_vibrate_false">never</string>  
+    <string-array translatable="false" name="prefValues_vibrateWhen"> 
+        <item>always</item>  
+        <item>silent</item>  
+        <item>never</item> 
+    </string-array>  
+    <string name="prefDialogTitle_vibrateWhen">ញ័រ</string>  
+    <string name="pref_title_mms_auto_retrieval">ទាញយកដោយស្វ័យប្រវត្តិ</string>  
+    <string name="pref_summary_mms_auto_retrieval">ទាញយកសារដោយស្វ័យប្រវត្តិ</string>  
+    <string name="pref_title_mms_retrieval_during_roaming">ទាញយកដោយស្វ័យប្រវត្តិរ៉ូមិង</string>  
+    <string name="pref_summary_mms_retrieval_during_roaming">ទាញយកសារដោយស្វ័យប្រវត្តិ ខណៈពេលរ៉ូមិង</string>  
+    <string name="confirm_dialog_title">លុបចោល</string>  
+    <string name="confirm_dialog_locked_title">លុបសារដែលជាប់សោចោលមែនទេ?</string>  
+    <plurals name="confirm_delete_conversation"> 
+        <item quantity="one">ការសន្ទនាមួយនឹងត្រូវលុបចោល</item>  
+        <item quantity="other"> 
+            <xliff:g id="number" example="15">%1$s</xliff:g> ការសន្ទនានឹងត្រូវបានលុបចោល
+        </item> 
+    </plurals>  
+    <string name="confirm_delete_conversation">ខ្សែសារទាំងមូលនឹងត្រូវបានលុបចោល</string>  
+    <string name="confirm_delete_all_conversations">ខ្សែសារទាំងអស់នឹងត្រូវលុបចោល</string>  
+    <string name="confirm_delete_message">សារនឹងត្រូវលុបចោល ។</string>  
+    <string name="confirm_delete_locked_message">តើអ្នកប្រាកដទេថា អ្នកចង់លុបសារជាប់សោនេះចោល?</string>  
+    <string name="confirm_delete_all_SIM_messages">សារទាំងអស់នៅក្នុង SIM នឹងត្រូវលុបចោល ។</string>  
+    <string name="confirm_delete_SIM_message">សារនេះដែលនៅក្នុង SIM នឹងត្រូវលុបចោល ។</string>  
+    <string name="delete_unlocked">លុបសារជាប់សោចោល</string>  
+    <string name="delete">លុបចោល</string>  
+    <string name="select_conversations">ជ្រើសរើសការសន្ទនា</string>  
+    <string name="no_conversations">មិនមានការសន្ទនាទេ</string>  
+    <string name="loading_conversations">កំពុងឡូតការសន្ទនា</string>  
+    <string name="cannot_get_details">មិនអាចបានទទួលព័ត៌មានលំអិតទេ</string>  
+    <string name="message_details_title">ព័ត៌មានលំអិតរបស់សារ</string>  
+    <string name="message_type_label">វាយ ៖\u0020</string>  
+    <string name="text_message">សារអក្សរ</string>  
+    <string name="multimedia_message">សារមូលទិមេឌា</string>  
+    <string name="multimedia_notification">ការប្រាប់ដំណឹងសារមូលទិមេឌា</string>  
+    <string name="from_label">ពី ៖\u0020</string>  
+    <string name="to_address_label">ចំពោះ ៖\u0020</string>  
+    <string name="bcc_label">ចម្លងជូនមិនឲ្យគេឃើញ ៖\u0020</string>  
+    <string name="sent_label">បានផ្ញើ ៖\u0020</string>  
+    <string name="received_label">បានទទួល ៖\u0020</string>  
+    <string name="saved_label">បានរក្សាទុក ៖\u0020</string>  
+    <string name="subject_label">ប្រធានបទ ៖\u0020</string>  
+    <string name="message_size_label">ទំហំសារ ៖\u0020</string>  
+    <string name="priority_label">អាទិភាព ៖\u0020</string>  
+    <string name="priority_high">ខ្ពស់</string>  
+    <string name="priority_normal">ធម្មតា</string>  
+    <string name="priority_low">ទាប</string>  
+    <string name="message_class_label">ថ្នាក់សារ ៖\u0020</string>  
+    <string name="error_code_label">កំហុសកូដ ៖\u0020</string>  
+    <string name="menu_edit">កែសម្រួល</string>  
+    <string name="menu_delete_messages">លុបសារចោល</string>  
+    <string name="menu_lock">ចាក់សោ</string>  
+    <string name="menu_unlock">ដោះសោ</string>  
+    <string name="sim_copy_to_phone_memory" product="tablet">ចម្លងទៅក្នុងអង្គចងចាំរបស់កូនកុំព្យូទ័រ</string>  
+    <string name="sim_copy_to_phone_memory" product="default">ចម្លងទៅក្នុងអង្គចងចាំរបស់ទូរស័ព្ទ</string>  
+    <string name="sim_delete">លុបចោល</string>  
+    <string name="sim_manage_messages_title">សារអក្សរនៅក្នុង SIM កាត</string>  
+    <string name="sim_view">មើល</string>  
+    <string name="sim_empty">មិនមានសារនៅក្នុង SIM កាតទេ ។</string>  
+    <string name="delivery_header_title">របាយការណ៍</string>  
+    <string name="status_none">(គ្មាន)</string>  
+    <string name="status_pending">មិនទាន់សម្រេច</string>  
+    <string name="status_read">អាន</string>  
+    <string name="status_received">បានទទួល</string>  
+    <string name="status_failed">បរាជ័យ</string>  
+    <string name="status_unread">មិនបានអាន</string>  
+    <string name="status_rejected">បដិសេធចោល</string>  
+    <string name="recipient_label">អ្នកទទួល ៖\u0020</string>  
+    <string name="status_label">ស្ថានភាព ៖\u0020</string>  
+    <string name="delivered_label">បានបញ្ជូន ៖\u0020</string>  
+    <string name="attach_image">រូបភាព</string>  
+    <string name="attach_take_photo">ថតរូបភាព</string>  
+    <string name="attach_video">វីដេអូ</string>  
+    <string name="attach_record_video">ថតវេដេអូ</string>  
+    <string name="attach_sound">អូឌីអូ</string>  
+    <string name="attach_record_sound">ថតអូឌីអូ</string>  
+    <string name="attach_slideshow">បង្ហាញស្លាយ</string>  
+    <string name="select_bottom_text">អត្ថបទនៅខាងក្រោម</string>  
+    <string name="select_top_text">អត្ថបទនៅខាងលើ</string>  
+    <string name="delivery_toast_body">សារបានទទួលដោយ %s</string>  
+    <plurals name="notification_multiple"> 
+        <item quantity="one">%d សារដែលមិនបានអាន ។</item>  
+        <item quantity="other">%d សារដែលមិនបានអាន ។</item> 
+    </plurals>  
+    <string name="notification_multiple_title">សារថ្មី</string>  
+    <string name="notification_failed_multiple"> 
+        <xliff:g id="count">%s</xliff:g> សារមិនអាចផ្ញើចេញបានទេ ។
+    </string>  
+    <string name="notification_failed_multiple_title">សារមិនបានផ្ញើចេញទេ</string>  
+    <string name="sim_full_title">SIM កាតពេញហើយ</string>  
+    <string name="sim_full_body">លុបសារខ្លះចោល ដើម្បីឲ្យមានកន្លែងសម្រាប់ផ្ទុកសារបន្ថែម ។</string>  
+    <string name="sms_full_title">អង្គចងចាំសារអក្សរពេញហើយ</string>  
+    <string name="sms_full_body">សារចូលបានបដិសេធចោល ដោយសារអង្គចងចាំពេញ ។ សូមលុបសារចាស់ៗចោល ។</string>  
+    <string name="sms_rejected_title">សារអក្សរបានបដិសេធចោល</string>  
+    <string name="sms_rejected_body">សារចូលបានបដិសេធ ដោយមិនដឹងមូលហេតុ ។</string>  
+    <string name="type_audio">អូឌីអូ</string>  
+    <string name="type_picture">រូបភាព</string>  
+    <string name="type_video">វីដេអូ</string>  
+    <string name="confirm">បញ្ជាក់</string>  
+    <string name="message_send_read_report">របាយការណ៍អាននឹងត្រូវផ្ញើចេញ ។</string>  
+    <string name="message_queued">បច្ចុប្បន្ន មិនអាចផ្ញើសាររបស់អ្នកចេញបានទេ ។ វានឹងត្រូវផ្ញើចេញពេលមានសេវាកម្ម ។</string>  
+    <string name="fdn_check_failure">អ្នកអាចផ្ញើសារចេញទៅកាន់តែលេខលើតុរបស់អ្នកតែប៉ុណ្ណ៖ ។</string>  
+    <string name="no_subject">(មិនមានប្រធានបទ)</string>  
+    <string name="unknown_sender">អ្នកផ្ញើដែលមិនស្គាល់</string>  
+    <string name="dl_failure_notification">ទាញយកសារ 
+        <xliff:g id="subject">%1$s</xliff:g> from 
+        <xliff:g id="from">%2$s</xliff:g> មិនបានទទួលជោគជ័យទេ ។
+    </string>  
+    <string name="rate_limit_surpassed">បញ្ជាក់</string>  
+    <string name="confirm_rate_limit">សារមូលទិមេឌាមួយចំនួនធំកំពុងត្រូវបានផ្ញើចេញ។ តើអ្នកយល់ព្រមទេ?</string>  
+    <string name="message_download_failed_title">សារមិនត្រូវបានទាញយកទេ</string>  
+    <string name="message_send_failed_title">សារមិនត្រូវបានផ្ញើចេញទេ</string>  
+    <string name="message_failed_body">ជ្រើសរើសដើម្បីមើលសារ និងព្យាយាមម្តងទៀត ។</string>  
+    <string name="download_later">បច្ចុប្បន្នមិនអាចទាញយកបានទេ ។ សូមសាកល្បងម្តងទៀតនាពេលក្រោយ ។</string>  
+    <string name="select_audio">ជ្រើសរើសអូឌីអូ</string>  
+    <string name="copy_to_sdcard">រក្សាទុកឯកសារភ្ជាប់</string>  
+    <string name="copy_to_sdcard_success">ឯកសារភ្ជាប់បានរក្សាទុកហើយ</string>  
+    <string name="copy_to_sdcard_fail">មិនអាចរក្សាទុកឯកសារភ្ជាប់បានទេ</string>  
+    <string name="save_ringtone">រក្សាទុកជាសម្លេងរោទ៍</string>  
+    <string name="saved_ringtone">សម្លេងរោទ៍បានរក្សាទុកហើយ</string>  
+    <string name="saved_ringtone_fail">ការរក្សាទុកសម្លេងរោទ៍ត្រូវបរាជ័យ</string>  
+    <string name="menu_insert_smiley">បញ្ចូលរូបមុខញញឹម</string>  
+    <string name="select_link_title">ជ្រើសរើសសកម្មភាព</string>  
+    <string name="slide_number">អូស 
+        <xliff:g id="number" example="5">%s</xliff:g> 
+    </string>  
+    <plurals name="slide_duration"> 
+        <item quantity="one"> 
+            <xliff:g id="number" example="1">%s</xliff:g> វិនាទី
+        </item>  
+        <item quantity="few"> 
+            <xliff:g id="number" example="2">%s</xliff:g> វិនាទី
+        </item>  
+        <item quantity="other"> 
+            <xliff:g id="number" example="15">%s</xliff:g> វិនាទី
+        </item> 
+    </plurals>  
+    <string name="delivery_report_activity">បញ្ជូនរបាយការណ៍</string>  
+    <string name="storage_limits_activity">ដែនកំណត់ការផ្ទុកឯកសារ</string>  
+    <string name="change_duration_activity">ប្តូរថិរវេលា</string>  
+    <string name="edit_slideshow_activity">កែសម្រួលការបង្ហាញស្លាយ</string>  
+    <string name="edit_slide_activity">កែសម្រួលស្លាយ</string>  
+    <string name="slideshow_activity">បង្ហាញស្លាយ</string>  
+    <string name="class_0_message_activity">សារថ្នាក់ 0</string>  
+    <string name="search_label">ការផ្ញើសារ</string>  
+    <string name="search_hint">រាវរកការផ្ញើសារ</string>  
+    <string name="search">ការផ្ញើសារ</string>  
+    <string name="search_setting_description">អត្ថបទក្នុងសាររបស់អ្នក</string>  
+    <string name="search_empty">មិនមានអ្វីអាចផ្គូផ្គងបានឡើយ</string>  
+    <plurals name="search_results_title"> 
+        <item quantity="one"> 
+            <xliff:g id="number" example="1">%1$s</xliff:g> លទ្ធផលសម្រាប់ \" 
+            <xliff:g id="search" example="???">%2$s</xliff:g>\"
+        </item>  
+        <item quantity="other"> 
+            <xliff:g id="number" example="15">%1$s</xliff:g> លទ្ធផលសម្រាប់ \" 
+            <xliff:g id="search" example="???">%2$s</xliff:g>\"
+        </item> 
+    </plurals>  
+    <string name="search_history"> 
+        <xliff:g id="count">%1$s</xliff:g> លទ្ធផលសម្រាប់ \" 
+        <xliff:g id="search">%2$s</xliff:g>\"
+    </string>  
+    <string name="confirm_clear_search_title">សំអាត</string>  
+    <string name="confirm_clear_search_text">ប្រវត្តិការរាវរកនឹងត្រូវសំអាត ។</string>  
+    <string name="pref_mms_clear_search_history_title">សំអាតប្រវត្តិការរាវរក</string>  
+    <string name="pref_mms_clear_search_history_summary">សំអាតការរាវរកសារពីមុនពីការបង្ហាញមុខក្នុងប្រអប់រាវរក</string>  
+    <string name="save">រក្សាទុក</string>  
+    <string name="storage_limits_title">ដែនកំណត់សារ</string>  
+    <string name="storage_limits_message">តើអ្នកចង់ដាក់ដែនកំណត់ចំនួនសារ ដែលអ្នករក្សាទុកក្នុងមួយការសន្ទនាឬទេ?</string>  
+    <string name="storage_limits_setting">សិតដែនកំណត់</string>  
+    <string name="storage_limits_setting_dismiss">មិនមានដែនកំណត់</string>  
+    <string name="too_many_unsent_mms">មិ\នអាចផ្ញើសារឥឡូវនេះបានទេ ។ មានសារមូលទិមេឌាច្រើនពេកដែលមិនបានផ្ញើ ។</string>  
+    <string name="sending_message">កំពុងផ្ញើ\u2026</string>  
+    <string name="pick_too_many_recipients">អ្នកទទួលច្រើនពេក</string>  
+    <string name="adding_recipients">ការបន្ថែមអ្នកទទួល\u2026</string>  
+    <string name="draft_separator">,\u0020</string>  
+    <string name="message_count_format">\u00a0 
+        <xliff:g id="number" example="1">%1$s</xliff:g> 
+    </string>  
+    <string name="message_count_notification"> 
+        <xliff:g id="number" example="3">%1$s</xliff:g> សារថ្មី
+    </string>  
+    <plurals name="message_count_notification_overflow"> 
+        <item quantity="one">+ 
+            <xliff:g id="number" example="1">%1$s</xliff:g> other message"
+        </item>  
+        <item quantity="other">+ 
+            <xliff:g id="number" example="15">%1$s</xliff:g> other messages"
+        </item> 
+    </plurals>  
+    <string name="error_state">Inconsistent state</string>  
+    <string name="error_state_text">The state of threads and recipients is inconsistent. Please capture a bug report and report it via http://go/droidanizer</string>  
+    <plurals name="recipient_count"> 
+        <item quantity="other"> 
+            <xliff:g id="number" example="15">%1$s</xliff:g> មនុស្ស
+        </item> 
+    </plurals>  
+    <string name="view_more_conversations">មើលការសន្ទនាន្ថែម</string>  
+    <string name="attachment_audio">អូឌីអូ</string>  
+    <string name="attachment_slideshow">បង្ហាញស្លាយ</string>  
+    <string name="attachment_video">វីដេអូ</string>  
+    <string name="attachment_picture">រូបភាព</string>  
+    <string name="notification_separator">\u0020\u0020</string>  
+    <string name="enumeration_comma">,\u0020</string>  
+    <string name="cell_broadcast">ផ្ញើសារទៅអ្នកទទួលច្រើន</string>  
+    <string name="cell_broadcast_title">ការសិតការផ្ញើសារទៅអ្នកទទួលច្រើន</string>  
+    <string name="cell_broadcast_settings">ការសិត SIM កាតការផ្ញើសារទៅអ្នកទទួលច្រើន</string>  
+    <string name="menu_insert_quick_text">បញ្ចូលអត្ថបទលឿន</string>  
+    <string name="select_quick_text">ជ្រើសរើសអត្ថបទលឿន</string>  
+    <string name="add">បន្ថែម</string>  
+    <string name="quick_text_editor">កែសម្រួលអត្ថបទលឿន</string>  
+    <string name="modify_successful">កែសម្រួលប្រកបដោយជោគជ័យ ។</string>  
+    <string name="modify_unsuccessful">កែសម្រួលមិនបានទទួលជោគជ័យទេ!</string>  
+    <string name="delete_successful">លុបចោលប្រកបដោយជោគជ័យ ។</string>  
+    <string name="delete_unsuccessful">លុបចោលមិនបានទទួលជោគជ័យទេ!</string>  
+    <string name="add_quick_text_successful">បន្ថែមអត្ថបទលឿនប្រកបដោយជោគជ័យ ។</string>  
+    <string name="already_have_quick_text">អ្នកមានអត្ថបទលឿននេះរួចហើយ!</string>  
+    <string name="gemini_3g_indic" translatable="false">3G</string>  
+
+    <string name="save_attachment">រក្សាទុកឯកសារភ្ជាប់</string>
+      <string name="file_attachment_common_name">ពហុឯកសារ(<xliff:g id="text">%s</xliff:g>)</string>
+      <string name="file_attachment_contains">មាន</string>
+      <string name="file_attachment_files">ឯកសារ</string>
+      <string name="save_multi_attachment_notes">ពហុឯកសារមានឯកសារបីបួន ។ ឆែកមើល ហើយរក្សាវាទុកទេ?</string>
+      <string name="save_single_attachment_notes">វាជាឯកសារដែលមិនអាចប្រើបានក្នុង MMS ។ រក្សាវាទុកក្នុងអ្នកចាត់ចែងឯកសារទេ?</string>
+      <string name="multi_files">ពហុឯកសារ</string>
+      <string name="save_single_supportformat_attachment_notes">រក្សាវាទុកក្នុងអ្នកចាត់ចែងឯកសារទេ?</string>
+      <string name="slideshow_options">ជម្រើសការបង្ហាញស្លាយ</string>
+      <string name="send_mms">ផ្ញើ MMS</string>
+      <string name="pref_summary_mms_group_mms">ប្រើ MMS ដើម្បីផ្ញើសារមួយ ពេលមានអ្នកទទួលច្រើនគ្នា</string>
+      <string name="pref_title_mms_group_mms">ការផ្ញើសារជាក្រុម</string>
+      <string name="menu_group_participants">អ្នកចូលរួមជាក្រុម</string>
+      <string name="recipient_list_activity">អ្នកចូលរួមជាក្រុម</string>
+      <string name="message_timestamp_format"><xliff:g id="string" example="FredFlinstone">%1$s</xliff:g>\u0020-\u0020<xliff:g id="string" example="9:39AM">%2$s</xliff:g></string>
+</resources>

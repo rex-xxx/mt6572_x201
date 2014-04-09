@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_advanced_settings">إعدادات Bluetooth المتقدمة</string>  
+    <string name="bluetooth_profile_ftp">نقل الملفات</string>  
+    <string name="bluetooth_ftp_profile_summary_use_for">استخدام مع نقل الملفات</string>  
+    <string name="bluetooth_ftp_profile_summary_connected">"متصل بنقل الملفات"</string>  
+    <string name="mtp_transfer_unmount_error_text">لا يمكن إلغاء تثبيت بطاقة SD أثناء نقل الملفات</string>  
+    <string name="mtp_transfer_erase_error_text">لا يمكن محو بطاقة SD أثناء نقل الملفات</string>  
+    <string name="launch_error">"لا يمكن تشغيل التطبيق!"</string>  
+    <string name="dlg_confirm_unmount_usb_title" product="default">إلغاء تثبيت وحدة تخزين USB؟</string>  
+    <string name="dlg_confirm_unmount_usb_text" product="default">في حال إلغاء تثبيت وحدة تخزين USB، ستتوقف بعض التطبيقات التي تستخدمها وقد لا يمكنك استئناف استخدامها قبل إعادة تثبيت وحدة تخزين USB.</string>  
+    <string name="dlg_error_unmount_usb_title" product="default"/>  
+    <string name="dlg_error_unmount_usb_text" product="default">تعذر إلغاء تثبيت وحدة تخزين USB. أعد المحاولة لاحقًا.</string>  
+    <string name="unmount_usb_inform_text" product="default">سيتم إلغاء تثبيت وحدة USB.</string>  
+    <string name="sd_eject_usbstorage" product="default">"إلغاء تركيب وحدة تخزين USB"</string>  
+    <string name="sd_eject_usbstorage_summary" product="default">"إلغاء تركيب وحدة تخزين USB الداخلية"</string>  
+    <string name="sd_mount_usbstorage" product="default">"تركيب وحدة تخزين USB"</string>  
+    <string name="sd_insert_usb_summary" product="default">"إدراج وحدة تخزين USB للتركيب"</string>  
+    <string name="usb_ums_title">وحدة تخزين USB</string>  
+    <string name="usb_ums_summary">"يوصى بنظام التشغيل XP، إذ يتيح لك نقل الملفات بين الكمبيوتر ووحدة التخزين USB في أجهزة Android."</string>  
+    <string name="usb_charge_title">شحن فقط</string>  
+    <string name="usb_charge_summary">إيقاف كل وظائف USB، يتيح زيادة سرعة الشحن وتقليل استهلاك الطاقة.</string>  
+    <string name="NI_Request_ID">رقم تعريف الطالب</string>  
+    <string name="NI_Request_ClientName">اسم برنامج العميل</string>  
+    <string name="agps_str_verify">تأكد</string>  
+    <string name="agps_str_notify">إشعار</string>  
+    <string name="EM_NotifyDialog_title">إعلام EM</string>  
+    <string name="agps_OK">"موافق"</string>  
+    <string name="agps_str_allow">السماح</string>  
+    <string name="agps_str_deny">منع</string>  
+    <string name="agps_str_error">خطأ</string>  
+    <string name="AGPS_DEFAULT_STRING">سلسلة A-GPS افتراضية</string>  
+    <string name="AGPS_CAUSE_NETWORK_CREATE_FAIL">فشل إنشاء شبكة</string>  
+    <string name="AGPS_CAUSE_BAD_PUSH_CONTENT">محتوى PUSH غير صحيح</string>  
+    <string name="AGPS_CAUSE_NOT_SUPPORTED">عملية غير مدعومة</string>  
+    <string name="AGPS_CAUSE_REQ_NOT_ACCEPTED">لم يتم قبول الطلب</string>  
+    <string name="AGPS_CAUSE_NO_RESOURCE">لا توجد موارد لتداول معالجة جديدة</string>  
+    <string name="AGPS_CAUSE_NETWORK_DISCONN">لا يوجد اتصال بالشبكة</string>  
+    <string name="AGPS_CAUSE_REMOTE_ABORT">إيقاف الجلسة من الجانب البعيد (استقبال إنهاء SUPL)</string>  
+    <string name="AGPS_CAUSE_TIMER_EXPIRY">توقع عدم رجوع الرسالة خلال فترة زمنية معينة</string>  
+    <string name="AGPS_CAUSE_REMOTE_MSG_ERROR">استقبال محتوى رسائل غير صحيح</string>  
+    <string name="AGPS_CAUSE_USER_AGREE">موافقة المستخدم على التأكيد</string>  
+    <string name="AGPS_CAUSE_USER_DENY">رفض المستخدم عند التأكيد</string>  
+    <string name="AGPS_CAUSE_NO_POSITION">فقط للا موقع</string>  
+    <string name="AGPS_CAUSE_TLS_AUTH_FAIL">لم تنجح عملية المصادقة على TLS</string>  
+    <string name="USER_RESPONSE_TIMEOUT">مهلة انتظار التحقق</string>  
+    <string name="AGPS_EM_RECV_SI_REQ">تم استقبال طلب SI</string>  
+    <string name="AGPS_EM_POS_FIXED">تم تثبيت الموقع</string>  
+    <string name="AGPS_NOTIFY_ONLY">إعلام طلب الموقع</string>  
+    <string name="AGPS_NOTIFY_ALLOW_NO_ANSWER">طلب موقع (السماح إذا لم توجد إجابة)</string>  
+    <string name="AGPS_NOTIFY_DENY_NO_ANSWER">طلب موقع (الرفض إذا لم توجد إجابة)</string>  
+    <string name="AGPS_NOTIFY_PRIVACY">طلب الموقع (الخصوصية)</string>  
+    <string name="epo_entrance_title">إعدادات EPO</string>  
+    <string name="epo_entrance_summary">انقر لتعديل تهيئة EPO</string>  
+    <string name="agps_settings_title">إعدادات A-GPS</string>  
+    <string name="epo_enable_confirm_title">تأيد تمكين EPO</string>  
+    <string name="epo_enable_confirm_message">يحتاج EPO اتصال بيانات لاسلكي للحصول على البيانات المساعدة وقد يحتاج إلى رسوم إضافية. هل أنت متأكد أنك تريد تشغيل EPO؟</string>  
+    <string name="epo_enable_confirm_allow">"متابعة"</string>  
+    <string name="epo_enable_confirm_deny">"إلغاء"</string>  
+    <string name="agps_enable_confirm_title">تأكيد تشغيل A-GPS</string>  
+    <string name="agps_enable_confirm">يحتاج A-GPS إلى اتصال بيانات لا سلكي للحصول على البيانات المساعدة والذي يمكن أن يكلفك رسوماً إضافية. هلى تريد تشغيل A-GPS؟</string>  
+    <string name="agps_enable_confirm_allow">"متابعة"</string>  
+    <string name="agps_enable_confirm_deny">"إلغاء"</string>  
+    <string name="epo_enable_title">دعم EPO لنظام GPS</string>  
+    <string name="epo_enable_summary">استخدم بيانات EPO المساعدة لتسريع الوقت المحدد لتحديد الموقع مع GPS</string>  
+    <string name="agps_settings_enable">A-GPS</string>  
+    <string name="agps_settings_enable_on">يمكن أن يؤدي نظام تحديد المواقع العالمي إلى تسريع الوقت الثابت للموقع مع البيانات المساعدة عبر الاتصال اللاسلكي</string>  
+    <string name="agps_settings_enable_off">استخدم بيانات المساعدة لتسريع الزمن الثابت للموقع مع GPS</string>  
+    <string name="agps_settings_eng_enable">إعدادات A-GPS</string>  
+    <string name="agps_settings_eng_summary">تحديد إعدادات A-GPS</string>  
+    <string name="agps_disable_on_reboot">الإيقاف بعد إعادة التشغيل</string>  
+    <string name="agps_disable_on_reboot_summary">إيقاف إمكانية A-GPS بعد إعادة التشغيل</string>  
+    <string name="Network_Initiate">طلب الشبكة</string>  
+    <string name="Network_Initiate_Summary_on">السماح للشبكة بطلب موقعك</string>  
+    <string name="Network_Initiate_Summary_off">رفض طلب الشبكة لتحديد موقعك</string>  
+    <string name="Network_Used">الشبكة مستخدمة</string>  
+    <string name="agps_profile_select">محدد الملف</string>  
+    <string name="agps_profile_SLP_address_editbox_title">عنوان SLP</string>  
+    <string name="port_title">منفذ SLP</string>  
+    <string name="tls_summary_off">تم إيقاف TLS</string>  
+    <string name="tls_summary_on">تم تشغيل TLS</string>  
+    <string name="MobileNetwork_Category">شبكة محمول</string>  
+    <string name="AgpsHelp_Category">تعليمات</string>  
+    <string name="about_agps_title">التعريف بنظام A-GPS</string>  
+    <string name="about_agps_message">بنظامA-GPS (نظام GPS المعزز)هو نظام يعمل على تحسين بدء التشغيل ونظام الوقت المطلوب لتحديد موقعك الأولي (TTFF) المرتبط بنظام GPS. ‎‎\n\t ويعتبر جهاز A-GPS (‏GPS المعزز) قادر على الاتصال بخوادم الموقع للحصول على البيانات المعززة من خلال اتصال بيانات شبكة المحمول. ‎\n\t مع ملاحظة أن استخدام حركة مرور البيانات قد ينتج عنها رسوم إضافية بموجب شروط التجوال بالشبكة. لمزيد من التفاصيل، يُرجى الاتصال بالمشغلين.</string>  
+    <string name="epo_auto_download_title">تحميل تلقائي</string>  
+    <string name="epo_auto_download_summary">تحميل تلقائي لبيانات موقع القمر</string>  
+    <string name="epo_info_title">معلومات ملف EPO</string>  
+    <string name="epo_download_time_title">وقت التحميل</string>  
+    <string name="epo_download_time_summary">غير متاح</string>  
+    <string name="epo_start_time_title">زمن البدء</string>  
+    <string name="epo_start_time_summary">غير متاح</string>  
+    <string name="epo_expire_time_title">زمن الانتهاء</string>  
+    <string name="epo_expire_time_summary">غير متاح</string>  
+    <string name="epo_about_title">حول EPO</string>  
+    <string name="epo_about_message">﻿يعد EPO (مدار التنبؤ الممتد) من تقنيات A-GPS المعتمدة على خادم غير متصل وهو من الابتكارات المملوكة لشركة MediaTek. وتدعم هذه التقنية خاصية التنبؤ بمدار القمر الصناعي لمدة تصل إلى 30 يومًا، حيث يمكن استخدامه لتحسين أسلوب عمل المستخدم من خلال تقليل الفترة الزمنية التي يستغرقها مستقبل GPS لتلقي إشارات القمر الصناعي (TTFF).</string>  
+    <string name="Network_Local_and_Roaming_Summary">استخدام نظام A-GPS ‏(GPS المعزز) من خلال الشبكة المنزلية وشبكة التجوال</string>  
+    <string name="Network_Only_Local_Summary">استخدام نظام A-GPS فقط من خلال الشبكة الرئيسية</string>  
+    <string name="MobileNetwork_DataConn_off">تم إقفال بيانات الاتصال</string>  
+    <string name="MobileNetwork_off_Summary">يُرجى تشغيل اتصال البيانات قبل استخدام A-GPS</string>  
+    <string name="WiFiNetwork_on_title">Wi-Fi نشط</string>  
+    <string name="MobileNetwork_on_Summary">يحتاج A-GPS إلى الدخول على شبكة متنقلة عبر اتصال البيانات</string>  
+    <string name="MobileNetwork_SIM_Active">شريحة البطاقة فعالة</string>  
+    <string name="Network_Roaming_dialog_title">تنبيه</string>  
+    <string name="Network_Roaming_dialog_content">إذا كانت الشبكة تتبع حالة التجوال، قد يكلفك نقل بيانات نظام A-GPS رسوم تجوال إضافية.</string>  
+    <string name="epo_download">تحميل</string>  
+    <string name="epo_error_no_activite_network">يرجى تشغيل توصيل البيانات قبل تحميل بيانات EPO.</string>  
+    <string name="epo_cancel_download">"إلغاء"</string>  
+    <string name="epo_status_stopping">جار الإيقاف...</string>  
+    <string name="epo_status_starting">جار البدء...</string>  
+    <string name="epo_err_update_failed">فشل تحديث ملفات EPO</string>  
+    <string name="epo_error_dialog_title">خطأ</string>  
+    <string name="epo_ok_btn">"موافق"</string>  
+    <string name="epo_warning_dialog_title">تنبيه</string>  
+    <string name="epo_warning_dialog_message">تحميل بيانات EPO في وضع التجول قد يسبب رسوم إضافية. هل تريد المتابعة؟</string>  
+    <string name="ring_summary">رنين</string>  
+    <string name="ring_vibrate_summary">رنين واهتزاز</string>  
+    <string name="silent_summary">صامت فقط</string>  
+    <string name="meeting_summary">اهتزاز فقط</string>  
+    <string name="outdoor_summary">أعلى مستوى رنين واهتزاز</string>  
+    <string name="audio_profile_reset">إعادة ضبط</string>  
+    <string name="audio_profile_add">"إضافة"</string>  
+    <string name="audio_profile_enable">تشغيل</string>  
+    <string name="audio_profile_rename">تعديل الاسم</string>  
+    <string name="audio_profile_delete">مسح</string>  
+    <string name="audio_profile_message_reset">سيتم إعادة تعيين جميع ملفات تعريف الصوت إلى الضبط الافتراضي</string>  
+    <string name="audio_profile_message_rename">رجاءً أدخل اسم ملف التعريف الجديد</string>  
+    <string name="audio_profile_message_name_error">الاسم الذي تم إدخاله موجود بالفعل</string>  
+    <string name="audio_profile_message_name_length_wrong">يجب أن يحتوي الاسم على حرف واحد على الأقل</string>  
+    <string name="audio_profile_message_delete">سيتم حذف ملف التعريف 
+        <xliff:g id="profile">%s</xliff:g> 
+    </string>  
+    <string name="audio_profile_message_overflow">يسمح لك بإضافة 6 ملفات تخصيص فقط</string>  
+    <string name="ok">"موافق"</string>  
+    <string name="audio_profile_category_custom_title">ملفات تعريف المستخدم مسبقة التحديد</string>  
+    <string name="audio_profile_category_predefine_title">ملفات تعريف مسبقة التحديد</string>  
+    <string name="general_settings_title">"إعدادات عامة"</string>  
+    <string name="silent_settings_title">صامت</string>  
+    <string name="meeting_settings_title">إجتماع</string>  
+    <string name="outdoor_settings_title">في الخارج</string>  
+    <string name="apn_predefine_change_dialog_notice">هل تريد الحفظ فعلاً؟ قد يتسبب إجراء تعديلات في نقاط الاتصال الافتراضية في حدوث مشاكل في الاتصال!</string>  
+    <string name="dialog_apn_disabled">تم تعطيل APN!</string>  
+    <string name="dialog_apn_disabled_msg">يُرجى إيقاف تشغيل وضع الطيران لتمكين إعدادات APN.</string>  
+    <string name="sound_category_feedback_title">"النظام"</string>  
+    <string name="sound_category_calls_title">"المكالمات الواردة"</string>  
+    <string name="voice_call_title">النغمة الخاصة بالمكالمة الصوتية</string>  
+    <string name="voice_call_summary">"ضبط النغمات الأساسية للمكالمات الصوتية"</string>  
+    <string name="video_call_title">النغمة الخاصة باتصال الفيديو</string>  
+    <string name="video_call_summary">تحديد النغمة الأساسية لمكالمات الفيديو</string>  
+    <string name="Phone_vibrate_summary">شغل خاصية الاهتزاز في الهواتف للمكالمات الواردة</string>  
+    <string name="vibrate_title">الاهتزاز</string>  
+    <string name="audio_profile_settings_title">الملفات الصوتية</string>  
+    <string name="sim_status_title">حالة بطاقة SIM</string>  
+    <string name="sim_status_summary">المعلومات المتعلقة ببطاقة SIM</string>  
+    <string name="status_imei_slot1">IMEI(فتحة1)</string>  
+    <string name="status_imei_sv_slot1">IMEI SV(فتحة1)</string>  
+    <string name="status_imei_slot2">IMEI(فتحة2)</string>  
+    <string name="status_imei_sv_slot2">IMEI SV(فتحة2)</string>  
+    <string name="status_min_number_slot1">MIN(فتحة1)</string>  
+    <string name="status_prl_version_slot1">إصدار PRL(فتحة1)</string>  
+    <string name="status_meid_number_slot1">MEID(فتحة1)</string>  
+    <string name="status_min_number_slot2">MIN(فتحة2)</string>  
+    <string name="status_prl_version_slot2">إصدار PRL(فتحة2)</string>  
+    <string name="status_meid_number_slot2">MEID(فتحة2)</string>  
+    <string name="slot_status_title">"معلومات IMEI"</string>  
+    <string name="slot_status_summary">"معلومات IMEI ذات الصلة"</string>  
+    <string name="custom_build_version">"إصدار النسخة المخصصة"</string>  
+    <string name="software_update">خدمة تحديث البرنامج</string>  
+    <string name="mota_system_update_summary">"ابحث عن تحديث للنظام على الخادم"</string>  
+    <string name="software_updates_more_title">تحديثات البرامج</string>  
+    <string name="software_updates_more_summary">التحقق من وجود إصدار جديد للبرنامج</string>  
+    <string name="software_updates_scomo_summary">التحقق من وجود نسخة جديدة للتطبيق</string>  
+    <string name="scomo_settings_title">خدمة تحديث البرنامج</string>  
+    <string name="battery_level" translatable="false">" 
+        <xliff:g id="battery">%s</xliff:g>%%"
+    </string>  
+    <string name="screen_timeout_CU">مهلة الشاشة</string>  
+    <string name="landscape_launcher_title">المشغل في الوضع الأفقي</string>  
+    <string name="landscape_launcher_none">لا شئ</string>  
+    <string name="tvout_settings">مخرج تلفزيون</string>  
+    <string name="tvout_settings_summary">إعدادات التليفزيون</string>  
+    <string name="tv_system_title">نظام التليفزيون</string>  
+    <string name="hdmi_settings">إعدادات HDMI</string>  
+    <string name="hdmi_settings_summary">اضغط لتهيئة HDMI</string>  
+    <string name="hdmi_audio_toggler">صوت</string>  
+    <string name="hdmi_video_toggler">فيديو</string>  
+    <string name="hdmi_video_resolution">دقة الفيديو</string>  
+    <string name="hdmi_notification_title">كبل HDMI متصل</string>  
+    <string name="hdmi_notification_content">اضغط لتهيئة HDMI</string>  
+    <string name="display_settings_scences_title">المناظر</string>  
+    <string name="mtk_thememanager_title">الموضوع</string>  
+    <string name="default_name">افتراضي</string>  
+    <string name="custom_theme_name">[%1$s] جديد</string>  
+    <string name="loading">جارِ التحميل...</string>  
+    <string name="sim_enter_pin_hints">(أدخل الأرقام من 4 إلى 8)</string>  
+    <string name="sim_remain">(باقي: 
+        <xliff:g id="remains">%d</xliff:g>)
+    </string>  
+    <string name="gps_time_sync_attention_gps_on">سيستغرق ضبط GPS دقيقة واحدة على أقصى تقدير. علاوة على ذلك، ربما يفشل GPS في عرض الوقت الصحيح بسبب ضعف الإشارة البيئية.\n\nهل أنت متأكد من استخدام الوقت المقدم من GPS؟</string>  
+    <string name="gps_time_sync_attention_gps_off">لاستخدام الوقت المقدم من GPS، يجب تمكين GPS أولاً، سيستغرق ضبط GPS دقيقة واحدة على أقصى تقدير، علاوة على ذلك، ربما يفشل GPS في عرض الوقت الصحيح بسبب ضعف الإشارة البيئية. \n\nهل أنت متأكد من أنك تريد تمكين GPS الآن وانتظار الوقت المقدم من GPS؟</string>  
+    <string name="drm_settings_title">إعادة تعيين DRM</string>  
+    <string name="drm_settings_summary">حذف كافة تراخيص DRM</string>  
+    <string name="drm_reset_dialog_msg">تقوم هذه العملية بحذف جميع التراخيص بهذا الجهاز. متابعة؟</string>  
+    <string name="drm_reset_toast_msg">تم حذف الرخص بنجاح.</string>  
+    <string name="gemini_sim_management_title">إدارة بطاقة SIM</string>  
+    <string name="gemini_sim_info_title">معلومات بطاقة SIM</string>  
+    <string name="gemini_default_sim_title">بطاقة SIM الافتراضية</string>  
+    <string name="gemini_general_settings_title">الإعدادات العامة</string>  
+    <string name="gemini_roaming_settings_title">التجوال</string>  
+    <string name="gemini_data_roaming_title">تجوال البيانات</string>  
+    <string name="gemini_data_roaming_summary">الاتصال بخدمات البيانات عند التجوال</string>  
+    <string name="gemini_roaming_reminder_title">عرض رسالة تذكير التجوال</string>  
+    <string name="gemini_roaming_reminder_summary">عرض اقتراح SIM القائم على استخدام SIM</string>  
+    <string name="gemini_contacts_sim_title">"ربط جهة الاتصال"</string>
+    <string name="gemini_contacts_sim_summary">قم بربط جهات الاتصال ببطاقة SIM محددة</string>
+    <string name="gemini_voice_call">مكالمة صوتية</string>  
+    <string name="gemini_video_call">مكالمة فيديو</string>  
+    <string name="gemini_data_connection">اتصال البيانات</string>  
+    <string name="gemini_msg">"المراسلات"</string>  
+    <string name="gemini_default_sim_always_ask">السؤال دائمًا</string>  
+    <string name="gemini_intenet_call">مكالمة عبر الإنترنت</string>  
+    <string name="gemini_default_sim_never">إيقاف</string>  
+    <string name="gemini_default_sim_3g_off">إيقاف</string>  
+    <string name="gemini_gsm_umts_network_preferences_title">"وضع الشبكة"</string>  
+    <string name="gemini_gsm_umts_network_preferneces_summary">لم يتم التنفيذ بعد!</string>  
+    <string name="gemini_gsm_umts_network_preferences_dialogtitle">وضع الشبكة</string>  
+    <string name="gemini_3g_service_settings">خدمة 3G</string>  
+    <string name="gemini_sim_mode_progress_activating_message">جار تنشيط\u2026</string>  
+    <string name="gemini_sim_mode_progress_deactivating_message">جار إلغاء تنشيط\u2026</string>  
+    <string name="gemini_sim_mode_change_failed_message">إخفاق، خطأ في الشبكة.</string>  
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_title">"وضع الطائرة"</string>  
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_message">سيكون الهاتف في وضع الطائرة. سيتم تعطيل كل الاتصالات اللاسلكية. متابعة؟</string>  
+    <string name="gemini_sim_info_editor_name">تحرير اسم بطاقة SIM</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">تعذر الحفظ</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">تكرار الاسم في بطاقة SIM</string>  
+    <string name="gemini_sim_info_editor_number">أدخل رقم الهاتف</string>  
+    <string name="gemini_sim_info_editor_color">ضبط لون الخلفية</string>  
+    <string name="gemini_sim_info_editor_number_display_format">عرض الأرقام</string>  
+    <string name="gemini_no_sim_indicator">لا توجد بطاقة SIM</string>  
+    <string name="gemini_sim_list_default_title">قائمة بطاقات SIM</string>  
+    <string name="gemini_data_connection_progress_message">"يرجى الانتظار..."</string>  
+    <string name="gemini_3g_modem_switching_message">"ستستغرق عملية تبديل بطاقة SIM حوالي 10 ثوانٍ. يرجى الانتظار…"</string>  
+    <string name="gemini_3g_modem_switch_confirm_message">"يعمل هذا أيضًا على تبديل خدمة 3G إلى SIM. استمرار؟ يرجى التأكد من دعم SIM التي تم اختيارها لخدمة 3G."</string>  
+    <string name="gemini_3g_disable_warning">"خدمة 3G غير متاحة مع بطاقة SIM المحددة. قد يبطأ ذلك من سرعة تحميل البيانات. يمكن تغيير إعدادات خدمة 3G من الإعدادات &gt; الاتصالات اللاسلكية والشبكات &gt; شبكات الهاتف المحمول."</string>  
+    <string name="gemini_3g_disable_warning_cu">"خدمة 3G غير متاحة مع بطاقة SIM المحددة. قد يبطأ ذلك من سرعة تحميل البيانات. يمكنك تغيير إعدادات خدمة 3G من الإعدادات &gt; إدارة SIM."</string>  
+    <string name="gemini_wap_push_permission_head">يمكنك أن تتلقى الرسائل الدفعية بعد تمكين خدمة الرسائل الدفعية التلقائية كما يمكنك طلب تشغيل التطبيقات المحلية ونقل البيانات. تشتمل خدمات الرسائل الدفعية الشائعة على إعلام بريد إلكتروني وإدارة الأجهزة ومؤشر الخدمة والتعريف بالخدمة وتحميل الرسائل الدفعية وتوفيرها.</string>  
+    <string name="gemini_wap_push_permission_tail">قبول هذه الاتفاقية؟</string>  
+    <string name="gemini_wap_push_permission_title">اتفاقية خدمة الرسائل الدفعية</string>  
+    <string name="gemini_wap_push_permission">خدمة الرسائل الدفعية التلقائية</string>  
+    <string name="gemini_3g_disable_warning_case0">"يجب أولا تمكين تجوال البيانات لبطاقة SIM مما قد يكلفك مبلغا من المال! هل تريد بالتأكيد تمكين تجوال البيانات واختيار بطاقة SIM؟"</string>  
+    <string name="gemini_3g_disable_warning_case1">"خدمة ‎3G غير متاحة مع بطاقة SIM المحددة. قد يبطأ ذلك من سرعة تحميل البيانات. يمكن تغيير إعدادات خدمة ‎3G من الإعدادات &gt; الاتصالات اللاسلكية والشبكات &gt; شبكات الهاتف المحمول. هل أنت متأكد من رغبتك في تحديد بطاقة SIM الحالية؟"</string>  
+    <string name="gemini_3g_disable_warning_case2">"خدمة ‎3G غير متاحة مع بطاقة SIM المحددة. قد يبطأ ذلك من سرعة تحميل البيانات. يمكنك تغيير إعدادات خدمة ‎3G من الإعدادات &gt; إدارة SIM. هل أنت متأكد من رغبتك في تحديد بطاقة SIM الحالية؟"</string>  
+    <string name="gemini_3g_disable_warning_case3">"يجب أولاً تمكين تجوال البيانات لبطاقة SIM وقد تكلفك خاصية التجوال بعض الرسوم! كما أن خدمة ‎3G غير متاحة مع بطاقة SIM. قد يبطأ ذلك من سرعة تحميل البيانات. يمكن تغيير إعدادات خدمة ‎3G من الإعدادات &gt; الاتصالات اللاسلكية والشبكات &gt; شبكات الهاتف المحمول. هل أنت متأكد من رغبتك في تمكين تجوال البيانات وتحديد بطاقة SIM هذه؟"</string>  
+    <string name="gemini_3g_disable_warning_case4">"يجب أولاً تمكين تجوال البيانات لبطاقة SIM وقد تكلفك خاصية التجوال بعض الرسوم! كما أن خدمة ‎3G غير متاحة مع بطاقة SIM. قد يبطأ ذلك من سرعة تحميل البيانات. يمكنك تغيير إعدادات خدمة ‎3G من الإعدادات &gt; إدارة SIM. هل أنت متأكد من رغبتك في تمكين تجوال البيانات وتحديد بطاقة SIM هذه؟"</string>  
+    <string name="gemini_sim_tether_info_title">جهات الاتصال وبطاقة SIM</string>  
+    <string name="gemini_sim_tether_add_record">إضافة جهات اتصال</string>  
+    <string name="gemini_sim_add_title">الأسماء</string>  
+    <string name="gemini_sim_tether_norecord">"لا يوجد رقم اتصال مرتبط ببطاقة SIM الحالية.\n\nالمس زر "إضافة جهات اتصال" لتحديد جهات الاتصال التي ترغب في ربطها ببطاقة SIM هذه"</string>  
+    <string name="gemini_sim_tether_nocontacts">"لا توجد جهات اتصال مخزنة على الهاتف. يرجى إضافة جهة اتصال جديدة أو استيراد جهات اتصال أولا"</string>  
+    <string name="gemini_sim_tether_no_assc_contacts">"تم ربط جميع جهات الاتصال بنجاح"</string>  
+    <string name="gemini_sim_tether_disassociate">إلغاء الاقتران</string>  
+    <string name="selected_item_count">تم تحديد 
+        <xliff:g id="count">%d</xliff:g> 
+    </string>  
+    <string name="gemini_sim_tether_unselect_all">إلغاء تحديد الكل</string>
+    <string name="gemini_sim_tether_nocontact_confirm">"موافق"</string>  
+    <string name="gemini_sim_tether_select_all">تحديد الكل</string>  
+    <string name="gemini_sim_tether_select_ok">حفظ</string>  
+    <string name="gemini_sim_tether_select_cancel">"إلغاء"</string>  
+    <string name="gemini_sim_tether_revert_title">تنبيه</string>  
+    <string name="gemini_sim_tether_revert_message">تم تغيير عمليات التهيئة الخاصة بكولكن لم يتم حفظها. هل تريد بالفعل الخروج دون الحفظ؟</string>  
+    <string name="gemini_tether_saving_progress_message">جار الحفظ...</string>  
+    <string name="gemini_sim_lock_sim1_tab_tag">SIM1</string>  
+    <string name="gemini_sim_lock_sim1_tab_label">SIM1</string>  
+    <string name="gemini_sim_lock_sim2_tab_tag">SIM2</string>  
+    <string name="gemini_sim_lock_sim2_tab_label">SIM2</string>  
+    <string name="gemini_sim_lock_simid_error">تعذر تحديد هوية بطاقة sim، وهي غير صالحة.</string>  
+    <string name="gemini_sim_lock_no_insert_message_sim">شريحة البطاقة غير مثبتة.</string>  
+    <string name="gemini_sim_lock_radio_off_message_sim1">راديو 1 متوقف عن التشغيل.</string>  
+    <string name="gemini_sim_lock_radio_off_message_sim2">راديو 2 متوقف عن التشغيل.</string>  
+    <string name="akp_installer_settings_title">برنامج تثبيت APK</string>  
+    <string name="akp_installer_settings_summary">قم بتثبيت APK من وحدة تخزين الهاتف وبطاقة SD</string>  
+    <string name="launch_main_label">بدء التطبيق</string>  
+    <string name="launch_main">ابدء التطبيق بالنشاط الرئيسي</string>  
+    <string name="launch_activitie">بدء</string>  
+    <string name="move_app_to_where">انتقل إلى 
+        <xliff:g id="location">%s</xliff:g> 
+    </string>  
+    <string name="wifi_no_cert_for_wapi">لم يتم العثور على الشهادة الخاصة باتصال نقطة الوصول الحالية</string>  
+    <string name="sim_slot">فتحة SIM</string>  
+    <string name="eap_sim_slot_0">فتحة Sim 1</string>  
+    <string name="eap_sim_slot_1">فتحة Sim 2</string>  
+    <string name="eap_sim_aka_airplanemode">يُرجى إيقاف تشغيل وضع الطيران لاستخدام EAP-SIM/AKA</string>  
+    <string name="eap_sim_aka_no_sim_error">يجب إدخال بطاقة sim حتى تتمكن من استخدام EAP-SIM/AKA</string>  
+    <string name="eap_sim_aka_no_sim_slot_selected">يجب تحديد بطاقة sim حتى تتمكن من استخدام EAP-SIM/AKA</string>  
+    <string name="wifi_security_wapi_certificate">شهادة WAPI</string>  
+    <string name="wapi_user_certificate">شهادة المستخدم</string>  
+    <string name="wapi_as_certificate">شهادة ASE</string>  
+    <string name="wifi_hex_password">كلمة مرور مكونة ستة عشر حرف.</string>  
+    <string name="wifi_WEP_transmit_key">مفتاح البث</string>  
+    <string name="wifi_WEP_secury_key">مفتاح الأمان</string>  
+    <string name="wifi_tether_auto_disable_title">إبقاء نقطة وصول Wi-Fi في وضع التشغيل</string>  
+    <string name="wifi_tether_auto_channel_text">تلقائي</string>  
+    <string name="wifi_tether_auto_channel_width_text">آلي 20/40 ميجا هرتز</string>  
+    <string name="wifi_channel">القناة المفضلة</string>  
+    <string name="wifi_channel_width">عرض القناة</string>  
+    <string name="confirm_title">تأكيد</string>  
+    <string name="pch_toggle_title">أفضلية نقل النظام العالمي لتحديد المواقع.</string>  
+    <string name="pch_data_prefer_summary_off">تفضيل البيانات</string>  
+    <string name="pch_call_prefer_summary_on">تفضيل المكالمة</string>  
+    <string name="pch_warning_message">سينخفض معدل نقل البيانات.</string>  
+    <string name="schedule_power_on_off_settings_title">جدول تشغيل/إيقاف الطاقة</string>  
+    <string name="usb_bicr_title">قرص مدمج مضمن</string>  
+    <string name="usb_bicr_summary">إظهار قرص مدمج ظاهري يحتوي على بعض البرامج المفيدة.</string>  
+    <string name="select_memory">قرص الكتابة الافتراضي</string>  
+    <string name="ipo_title">التمهيد السريع</string>  
+    <string name="ipo_summary_on">تعطيل التمهيد السريع</string>  
+    <string name="ipo_summary_off">تمكين التمهيد السريع</string>  
+    <string name="agps_profile_select_Title">ملف A-GPS</string>  
+    <string name="location_settings_label">وضع موقع المهندس</string>  
+    <string name="audio_profile_error">خطأ</string>  
+    <string name="battery_percent">النسبة المئوية لطاقة البطارية</string>  
+    <string name="rcse_settings_title">إعدادات RCS-e</string>
+    <string name="dlg_mount_external_sd_title" product="default">تثبيت بطاقة SD؟</string>  
+    <string name="dlg_mount_external_sd_summary" product="default">في حال تثبيت بطاقة SD، ستتوقف بعض التطبيقات التي تستخدمها.</string> 
+
+    <string name="tethered_ipv6_title">إعدادات نقاط الاتصال والربط بالإنترنت</string>  
+    <string name="tethered_ipv4v6">(IPv6 متاح)</string>  
+    <string name="tethered_ipv6">(متاح IPv6 فقط)</string>  
+    <string name="tethered_ipv4">(IPv6 غير متاح)</string>
+	
+	<string name="usb_connect_as_cdrom_category">"اتصال كـ CD-ROM"</string>
+
+    <string name="wifi_ap_client_block_title">"حظر"</string>  
+    <string name="wifi_ap_client_details_title">التفاصيل</string>  
+    <string name="wifi_wps_fail_error">فشل إعداد شبكة Wi-Fi المحمية, أعد المحاولة.</string>  
+    <string name="wifi_tether_setting_title">الإعدادات الأساسية</string>  
+    <string name="wifi_tether_wps_connect_title">اتصال WPS</string>  
+    <string name="wifi_tether_wps_connect_summary">وضع الإعداد المحمي للشبكة اللاسلكية Wi-Fi المحدد قيد المتابعة</string>  
+    <string name="wifi_tether_wps_pin_error">رمز PIN غير صالح</string>  
+    <string name="wifi_tethering_title">نقطة وصول Wi-Fi</string>  
+    <string name="wifi_ap_wps_dialog_title">اتصال WPS</string>  
+    <string name="wifi_ap_wps_mode_title">وضع شبكة WPS</string>  
+    <string name="wifi_ap_wps_pin_title">اكتب رمز PIN من العميل</string>  
+    <string name="wifi_ap_reset_OOB_title">إعادة ضبط شبكة SSID والحماية وكلمة المرور إلى الوضع الافتراضي (عملية تكوين مبتكرة لشبكة WPS)</string>  
+    <string name="wifi_ap_reset_OOB">إعادة ضبط OOB</string>  
+    <string name="wifi_ap_max_connection_title">الحد الأقصى للاتصالات</string>  
+    <string name="wifi_ap_connected_title">المستخدمون المتصلون</string>  
+    <string name="wifi_ap_blocked_title">المستخدمون المحظورون</string>  
+    <string name="wifi_ap_client_unblock_title">إلغاء الحظر</string>  
+    <string name="wifi_ap_client_mac_label">عنوان MAC:</string>  
+    <string name="wifi_ap_client_ip_label">عنوان IP:</string>  
+    <string name="usb_sharing_title">إنترنت USB</string>  
+    <string name="usb_sharing_summary">مشاركة نوافذ الإنترنت على الكمبيوتر عبر كبل USB</string>  
+    <string name="usb_sharing_info_title">وضع تمرير الإنترنت</string>  
+    <string name="usb_sharing_info_step_1">"1 - افتح اتصالات الشبكة على نوافذ الكمبيوتر."</string>  
+    <string name="usb_sharing_info_step_2">"2 - انقر بزر الماوس الأيمن على الاتصال الذي ترغب مشاركته ثم انقر فوق خصائص."</string>  
+    <string name="usb_sharing_info_step_3">"3 - انقر فوق علامة التبويب مشاركة وحدد \'السماح لمستخدمي الشبكة الآخرين بالاتصال عبر \'اتصال الإنترنت\' الخاص بهذا الكمبيوتر ( اختر شبكة مضافة حديثًا تعمل من خلال إنترنت USB في حال ظهور \'اتصال الشبكة المنزلية \')."</string>  
+    <string name="wifi_ap_bandwidth_title">استخدام عرض النطاق</string>  
+    <string name="wifi_ap_bandwidth_enable">تمكين التحكم بالنطاق الترددي</string>  
+    <string name="wifi_ap_bandwidth_chart_title">سرعة البيانات الفعلية</string>  
+    <string name="wifi_ap_bandwidth_chart_summary">تم القياس باستخدام هاتفك، قد تختلف عملية حساب سرعة ناقل البيانات.</string>  
+    <string name="wifi_ap_title">الإحصائيات</string>  
+    <string name="wifi_ap_time_duration">المدة الزمنية: 
+        <xliff:g id="time">%1$s</xliff:g> 
+    </string>  
+    <string name="wifi_ap_total_data">إجمالي البيانات المستخدمة:
+        <xliff:g id="time">%1$s</xliff:g>
+    </string>
+    <string name="cpu_dtm_title">وضع توفير طاقة وحدة المعالجة المركزية</string>
+    <string name="cpu_dtm_summary">قم بتعيين الحد الأقصى لأداء وحدة المعالجة المركزية للحفاظ على العمر الافتراضي للبطارية وخفض درجة حرارة الجهاز.</string>
+    <string name="wifi_advanced_ipv4_address_title">عنوان IPv4</string>  
+    <string name="wifi_advanced_ipv6_address_title">عنوان IPv6</string>  
+    <string name="wifi_ipv4_address">عنوان IPv4</string>  
+    <string name="wifi_ipv6_address">عنوان IPv6</string>  
+
+	<!-- MTK new datausage start -->
+    <string name="mtk_datausage_overview_wifi_today">اليوم</string>  
+    <string name="mtk_datausage_show_on_lockscreen">عرض على شاشة القفل</string>  
+    <string name="mtk_datausage_update">تحديث استخدام البيانات</string>  
+    <string name="mtk_datausage_update_set">"تحديث"</string>  
+    <string name="mtk_datausage_amount_editor_title">حجم البيانات المستخدمة</string>  
+    <string name="mtk_datausage_usage_list">استخدام البيانات بواسطة التطبيق</string>  
+    <string name="mtk_datausage_diff_byte">مفاضل استخدام البيانات</string>  
+    <string name="mtk_datausage_overview_tab">نظرة عامة</string>  
+    <string name="mtk_datausage_overview_wifi_total">كلي</string>  
+    <string name="mtk_datausage_overview_mobile_title">محمول</string>  
+    <string name="mtk_datausage_overview_mobile_usage">
+        <xliff:g id="actual">%s</xliff:g> من 
+        <xliff:g id="limit">%s</xliff:g>
+    </string>
+   <string name="mtk_datausage_overview_mobile_usage_warning">يتجاوز حد <xliff:g>%s</xliff:g></string>
+
+	<!-- MTK new datausage end -->
+    <string name="display_personalize">تخصيص</string>  
+    <string name="display_default">"الشاشة"</string>
+    <!-- Sound Enhanecement -->
+    <string name="sound_enhancement_title">تحسين الصوت</string>
+    <string name="music_plus_summary">محسن الصوت بسماعات الأذن</string>
+    <string name="auto_backlight_title">الإضاءة الخلفية الموفرة</string>
+    <string name="auto_backlight_summary">يضبط الإضاءة الخلفية تلقائيًا لتوفير الطاقة</string>
+
+    <string name="beam_mgmt_tab_download_title">المكالمات المستلمة</string>
+    <string name="beam_mgmt_tab_upload_title">"3 - انقر فوق علامة التبويب مشاركة وحدد 'السماح لمستخدمي الشبكة الآخرين بالاتصال عبر 'اتصال الإنترنت' الخاص بهذا الكمبيوتر ( اختر شبكة مضافة حديثًا تعمل من خلال إنترنت USB في حال ظهور 'اتصال الشبكة المنزلية ')."</string>
+    <string name="beam_share_mgmt_notification_ticker">سجل مشاركة النقل</string>
+    <string name="beam_share_mgmt_notification_title">سجل مشاركة النقل</string>
+    <string name="beam_share_mgmt_notification_message">"حدد لعرض سجل مشاركة النقل."</string>
+    <string name="beam_share_mgmt_tab_menu_clear">"هل تريد محو جميع إعدادات موقع الويب؟"</string>
+    <string name="beam_share_open_file_dialog_title">تعذر فتح الملف.</string>
+    <string name="beam_share_open_file_unsupported_message">تعذر فتح الملف.</string>
+    <string name="beam_share_open_file_not_found_message">"لم يتم العثور على الملف: <xliff:g id="file_name">%1$s</xliff:g></string>
+    <string name="beam_share_transfer_fail_dialog_title">"فشل النقل"</string>
+    <string name="beam_share_resend_dialog_message">"لم يتم إرسال <xliff:g id="file_name">%1$s</xliff:g> بنجاح."</string>
+    <string name="beam_share_resend_dialog_ok_button">"حاول مرة أخرى"</string>
+    <string name="beam_share_show_received_files_menu">"إظهار الملفات المستلمة"</string>
+    <string name="beam_share_history_title">سجل مشاركة النقل</string>
+    <string name="beam_share_clear_confirm_dialog_title">"محو الكل"</string>
+    <string name="beam_share_clear_confirm_dialog_message">مسح جميع السجلات؟</string>
+    <string name="beam_share_receive_fail_dialog_message">"لم يتم استلام <xliff:g id="file_name">%1$s</xliff:g> بنجاح."</string>
+    <string name="beam_share_clear_item_dailog_title">"حذف"</string>
+    <string name="beam_share_clear_item_dailog_message">سيتم حذف العنصر.</string>
+    <string name="nfc_rw_tag_summary">قراءة من أو كتابة إلى العلامة</string>
+    <string name="nfc_p2p_mode">وضع P2P</string>
+    <string name="nfc_p2p_mode_summary">إرسال أو استلام محتوى التطبيق</string>
+    <string name="nfc_tag_mode_category">وضع العلامات</string>
+    <string name="nfc_rw_tag_title">قراءة وكتابة العلامات</string>
+
+      <string name="voice_ui_title">التحكم بالصوت</string>
+      <string name="voice_ui_app_category">لضبط إعدادات التطبيق</string>
+      <string name="voice_ui_setting_category">"الإعدادات"</string>
+      <string name="alarm_app_name">"التنبيهات"</string>
+      <string name="music_app_name">الموسيقى</string>
+      <string name="voice_ui_language_title">"لغة التحكم بالصوت"</string>
+      <string name="incoming_call_app_name">"المكالمات الواردة"</string>
+      <string name="camera_app_name">كاميرا</string>
+      <string name="incomming_command_summary_format">يمكنك قول <xliff:g id="first">%1$s</xliff:g> أو <xliff:g id="second">%2$s</xliff:g> للرد على المكالمات الواردة أو رفضها.</string>
+      <string name="alarm_command_summary_format">يمكنك قول <xliff:g id="first">%1$s</xliff:g> أو <xliff:g id="second">%2$s</xliff:g> للتحكم في التنبيه.</string>
+      <string name="camera_command_summary_format">يمكنك قول <xliff:g id="first">%1$s</xliff:g> أو <xliff:g id="second">%2$s</xliff:g> للالتقاط.</string>
+      <string name="music_command_summary_format">يمكنك قول <xliff:g id="first">%1$s</xliff:g> و <xliff:g id="second">%2$s</xliff:g> للتحكم في تشغيل الموسيقى.</string>
+
+    <string name="lock_screen_notifications_title">إخطارات قفل الشاشة</string>
+    <string name="lock_screen_notifications_summary">بعض الإخطارات الموجودة في قفل الشاشة</string>
+    <string name="lock_screen_style_title">طريقة قفل الشاشة</string>
+
+	<!-- Lock screen settings start -->
+	<string name="current_suffix">"(الحالي)"</string>
+	<string name="lockscreen_style_set">إعداد إقفال الشاشة</string>
+	<string name="lockscreen_style_default_desc">"الوصول السريع إلى التطبيقات في شاشة التأمين"</string>
+	<!-- Lock screen settings start end -->
+        <!--  voice unlock start-->
+    <string name="voice_unlock_backup_info_summary">إذا لم يعمل إلغاء القفل بالأوامر الصوتية، كيف تريد أن يتم إلغاء القفل؟</string>
+    <string name="unlock_set_unlock_mode_voice_weak">إلغاء القفل بالأوامر الصوتية</string>
+    <!--  voice unlock end-->
+    <string name="usb_tether_type_title">نوع الربط عبر USB</string> 
+    <string name="security_not_set">الأمان ليس مضبوطًا</string>
+    <string name="lockdown_vpn_already_connected">تم تمكين خاصية دائما على شبكة VPN للاتصال.</string> 
+
+    <string name="wifi_ap_no_connected">0 المستخدمون المتصلون</string>  
+    <string name="wifi_ap_no_blocked">0 المستخدمون المحظورون</string> 
+
+    <string name="status_imei_slot3">IMEI(فتحة3)</string>
+    <string name="status_imei_sv_slot3">IMEI SV(فتحة3)</string>
+    <string name="status_min_number_slot3">MIN(فتحة3)</string>
+    <string name="status_prl_version_slot3">إصدار PRL(فتحة3)</string>
+    <string name="status_meid_number_slot3">MEID(فتحة3)</string>
+    
+    <string name="usb_tethering_select_version">حدد إصدار نظام الحاسب الشخصي</string>
+
+</resources>

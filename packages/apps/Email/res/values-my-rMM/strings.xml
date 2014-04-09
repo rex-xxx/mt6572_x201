@@ -1,0 +1,1109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <!-- Permissions label for reading attachments -->  
+    <string name="permission_read_attachment_label">အီးမေး(လ်) ပါ ပူးတွဲများ ဖတ်သည်</string>  
+    <!-- Permissions description for reading attachments -->  
+    <string name="permission_read_attachment_desc">သင့် အီးမေး(လ်) ပူးတွဲပါများကို ဖတ်ရန် ဤ လုပ်ငန်းသုံး ပရိုဂရမ်ကို ခွင့်ပြုသည်။</string>  
+    <!-- Permissions label for accessing the main provider -->  
+    <string name="permission_access_provider_label">အချက်အလက် အထောက်အပံ့ပေးသူ အီးမေး(လ်) ဆက်သွယ်ရယူမှု</string>  
+    <!-- Permissions description for accessing the main provider -->  
+    <string name="permission_access_provider_desc">လက်ခံရရှိခဲ့သည့် မက်ဆေ့(ခ်ျ)များ၊ ပေးပို့ခဲ့သည့် မက်ဆေ့(ခ်ျ)များ၊ အသုံးပြုသူ အမည်များ နှင့် စကားဝှက်များ အပါအဝင် သင်၏ အီးမေး(လ်) ဒေတာဘေ့(စ်) ကို ဆက်သွယ်မှုရရန် ဤလုပ်ငန်းသုံး ပရိုဂရမ်ကို ခွင့်ပြုသည်။</string>  
+    <!-- Name of application on Home screen -->  
+    <string name="app_name">အီးမေး(လ်)</string>  
+    <!-- Title of compose screen -->  
+    <string name="compose_title">ရေးသားသည်</string>  
+    <!-- Title of debug screen -->  
+    <string name="debug_title">ကွန်ပျူတာ ပရိုဂရမ်တွင် အပြစ်ကို ရှာဖွေဖယ်ရှားသည်</string>  
+    <!-- Actions will be used as buttons and in menu items -->  
+    <skip/>  
+    <!-- Button name used as part of a multi-step process -->  
+    <string name="next_action">နောက်</string>  
+    <!-- Button name used to confirm acceptance of dialog boxes, warnings, errors, etc. -->  
+    <string name="okay_action">အဆင်ပြေပါသည်</string>  
+    <!-- Button name used to cancel out of dialog boxes -->  
+    <string name="cancel_action">ဖျက်သိမ်းသည်</string>  
+    <!-- Button name used to move to previous step during setup sequence [CHAR_LIMIT=16] -->  
+    <string name="previous_action">ပြီးခဲ့သော</string>  
+    <!-- Menu item/button name -->  
+    <string name="send_action">ပေးပို့သည်</string>  
+    <!-- Menu item/button name -->  
+    <string name="reply_action">အကြောင်းပြန်သည်</string>  
+    <!-- Menu item/button name -->  
+    <string name="reply_all_action">အားလုံးကို အကြောင်းပြန်သည်</string>  
+    <!-- Menu item/button name -->  
+    <string name="delete_action">ဖျက်ပစ်သည်</string>  
+    <!-- Menu item/button name -->  
+    <string name="forward_action">တဆင့်ပေးပို့သည်</string>  
+    <!-- Menu/Button item name and label for marking a message as a favorite
+         (usually called starred) [CHAR LIMIT=40] -->  
+    <string name="favorite_action">ကြယ်</string>  
+    <!--  Button name used to complete a multi-step process -->  
+    <string name="done_action">ပြုလုပ်ပြီးပြီ</string>  
+    <!--  Button name used to create a new quick response [CHAR_LIMIT=16] -->  
+    <string name="create_action">အသစ် ဖန်တီးသည်</string>  
+    <!--  Button name used to delete a quick response [CHAR_LIMIT=16] -->  
+    <string name="delete_quick_response_action">ဖျက်ပစ်သည်</string>  
+    <!-- Message informing user when a list that would contain quick responses
+            is empty [CHAR_LIMIT=80] -->  
+    <string name="quick_responses_empty_view">အမြန်တုံ့ပြန်ခြင်းများ မရှိပါ</string>  
+    <!-- Menu item/button name -->  
+    <string name="discard_action">ပယ်ဖျက်သည်</string>  
+    <!-- Menu item/button name [CHAR_LIMIT=16] -->  
+    <string name="save_draft_action">အကြမ်းကို သိမ်းသည်</string>  
+    <!-- Menu item/button name. Pressing will insert previously saved text
+            into message body. [CHAR_LIMIT=24] -->  
+    <string name="show_quick_text_list_dialog_action">အမြန် တုံ့ပြန်မှု ထည့်သွင်းသည်</string>  
+    <!-- Menu item/button name -->  
+    <string name="read_action">ဖတ်ပြီးသည်ကို မှတ်သားထားသည်</string>  
+    <!-- Menu item/button name -->  
+    <string name="unread_action">မဖတ်ရသေးသည်ကို မှတ်သားထားသည်</string>  
+    <!-- Menu item/button name -->  
+    <string name="set_star_action">ကြယ်ကို ပေါင်းထည့်သည်</string>  
+    <!-- Menu item/button name -->  
+    <string name="remove_star_action">ကြယ်ကို ဖယ်ရှားသည်</string>  
+    <!-- Menu item -->  
+    <string name="refresh_action">ပြန်လည်သန့်စင်သည်</string>  
+    <!-- Menu item -->  
+    <string name="add_account_action">အကောင့် ပေါင်းထည့်သည်</string>  
+    <!-- Menu item -->  
+    <string name="compose_action">ရေးသားသည်</string>  
+    <!-- Menu item/button name -->  
+    <string name="search_action">ရှာဖွေသည်</string>  
+    <!-- Menu item -->  
+    <string name="account_settings_action">အကောင့် အပြင်အဆင်များ</string>  
+    <!-- Menu item for settings [CHAR LIMIT=40]-->  
+    <string name="settings_action">အပြင်အဆင်များ</string>  
+    <!-- Menu item [CHAR LIMIT=32] -->  
+    <string name="mailbox_settings_action">တစ်မျိုးတည်းဖြစ်အောင်ပြုလုပ်ခြင်း ရွေးချယ်စရာများ</string>  
+    <!-- Menu item -->  
+    <string name="mark_as_unread_action">မဖတ်ရသေးသည် ကဲ့သို့ မှတ်သားထားသည်</string>  
+    <!-- Menu item for moving messages to folders [CHAR LIMIT=10] -->  
+    <string name="move_action">ရွှေ့သည်</string>  
+    <!-- Button label for adding CC/BCC fields on message compose. [CHAR LIMIT=16] -->  
+    <string name="plus_cc_label">+ တဆင့် ပို့ခြင်းသို့/ဖုန်းကွယ်တဆင့်ပို့ခြင်းသို့</string>  
+    <!-- Menu item label for adding CC/BCC fields on message compose. [CHAR LIMIT=20] -->  
+    <string name="add_cc_bcc_menu">တဆင့်ပို့ခြင်းသို့/ဖုန်းကွယ်တဆင့်ပို့ခြင်းသို့ ပေါင်းထည့်သည်</string>  
+    <!-- Menu item label for adding an attachment on message compose. [CHAR LIMIT=20] -->  
+    <string name="add_file_attachment">ဖိုင် ပူးတွဲသည်</string>  
+    <!-- Generic button [CHAR LIMIT=16] -->  
+    <string name="close_action">ပိတ်သည်</string>  
+    <!-- Command shown on Outbox to send all pending messages [CHAR LIMIT=20] -->  
+    <string name="message_list_send_pending_messages_action">မက်ဆေ့(ခ်ျ) အားလုံး ပေးပို့သည်</string>  
+    <!-- Appears in choose attachment dialog title -->  
+    <string name="choose_attachment_dialog_title">ပူးတွဲကို ရွေးချယ်သည်</string>  
+    <!-- Dialog title to select a mailbox to which the user moves messages [CHAR LIMIT=20] -->  
+    <string name="move_to_folder_dialog_title">သို့ ရွှေ့သည်</string>  
+    <!-- Appears in message list view while messages are being loaded [CHAR LIMIT=260dip] -->  
+    <string name="status_loading_messages">မက်ဆေ့(ခ်ျ)များ တင်နေသည် \u2026</string>  
+    <!-- Appears in message list view when there's a network error. -->  
+    <!-- Also appears in a toast, in the message viewer, when there's a network error. -->  
+    <string name="status_network_error">ချိတ်ဆက်ခြင်း ပြဿနာဖြစ်သည်။</string>  
+    <!-- Dialog text when we are unable to load the message for display -->  
+    <string name="error_loading_message_body">မက်ဆေ့(ခ်ျ) စာသား တင်ခြင်း မရနိုင်ပါ။ မက်ဆေ့(ခ်ျ)သည် ကြည့်ရန် အလွန်ကြီးသောကြောင့် ဖြစ်နိုင်သည်။</string>  
+    <!-- Text shown with dragged messages to indicate how many are being dragged [CHAR LIMIT=40]-->  
+    <plurals name="move_messages"> 
+        <item quantity="one">မက်ဆေ့(ခ်ျ) ရွှေ့သည်</item>  
+        <item quantity="other">မက်ဆေ့(ခ်ျ)များ ရွှေ့သည်</item> 
+    </plurals>  
+    <!-- Toast shown when a message(s) can't be moved because it's not supported by the POP3
+        protocol. [CHAR LIMIT=none]-->  
+    <string name="cannot_move_protocol_not_supported_toast">ရွှေ့ခြင်းသည် POP3 အကောင့်များတွင် အထောက်အပံ့ မပေးခဲ့ပါ။</string>  
+    <!-- Toast shown when messages can't be moved because the selection contains multiple accounts'
+        messages. [CHAR LIMIT=none]-->  
+    <string name="cannot_move_multiple_accounts_toast">ရွေးချယ်ခြင်းတွင် ဆတိုး အကောင့်များ ပါဝင်ခြင်းကြောင့် မရွှေ့နိုင်ပါ။</string>  
+    <!-- Toast shown when messages can't be moved because they're in a special mailbox.  "Drafts",
+        "Outbox" and "Sent". [CHAR LIMIT=none]-->  
+    <string name="cannot_move_special_mailboxes_toast">အကြမ်းများ၊ အထွက်စာပုံး နှင့် ပေးပို့ခြင်းတွင်ရှိသော မက်ဆေ့(ခ်ျ)များ မရွှေ့နိုင်ပါ။</string>  
+    <!-- Notification message in notifications window when one account has
+         one or more new messages; e.g, "279 unread (someone@google.com)". -->  
+    <plurals name="notification_new_one_account_fmt"> 
+        <!-- Case of one new message. -->  
+        <item quantity="one"> 
+            <xliff:g id="unread_message_count" example="1">%1$d</xliff:g> မဖတ်ရသေးသော ( 
+            <xliff:g id="account">%2$s</xliff:g>)
+        </item>  
+        <!-- Case of "few" (small number of) new messages. -->  
+        <item quantity="few"> 
+            <xliff:g id="unread_message_count" example="2">%1$d</xliff:g> မဖတ်ရသေးသော ( 
+            <xliff:g id="account">%2$s</xliff:g>)
+        </item>  
+        <!-- Case of a plural number of new messages. -->  
+        <item quantity="other"> 
+            <xliff:g id="unread_message_count" example="279">%1$d</xliff:g> မဖတ်ရသေးသော ( 
+            <xliff:g id="account">%2$s</xliff:g>)
+        </item> 
+    </plurals>  
+    <!-- Notification message in notifications window when 2+ accounts have new mail; e.g, "in 3 accounts". -->  
+    <plurals name="notification_new_multi_account_fmt"> 
+        <!-- Case of "few" (small number of) accounts with unread messages. -->  
+        <item quantity="few">တွင် 
+            <xliff:g id="number_accounts" example="2">%d</xliff:g> အကောင့်များ
+        </item>  
+        <!-- Case of plural number of accounts with unread messages. -->  
+        <item quantity="other">တွင် 
+            <xliff:g id="number_accounts" example="10">%d</xliff:g> အကောင့်များ
+        </item> 
+    </plurals>  
+    <!-- String to indicate which account received a new message. [CHAR LIMIT=none] -->  
+    <string name="notification_to_account">သို့ 
+        <xliff:g id="receiver_name" example="Main">%1$s</xliff:g> 
+    </string>  
+    <!-- Notification for multiple messages [CHAR LIMIT=60] -->  
+    <string name="notification_multiple_new_messages_fmt"> 
+        <xliff:g example="2">%1$d</xliff:g> မက်ဆေ့(ခ်ျ) အသစ်များ
+    </string>  
+    <!-- Name given to "all accounts" in the account picker for shortcuts and widget [CHAR LIMIT=20] -->  
+    <string name="account_name_display_all">အကောင့်များ အားလုံး</string>  
+    <!-- The number of accounts configured. [CHAR LIMIT=16] -->  
+    <plurals name="number_of_accounts"> 
+        <item quantity="one"> 
+            <xliff:g id="num_accounts" example="1">%1$d</xliff:g> အကောင့်
+        </item>  
+        <item quantity="other"> 
+            <xliff:g id="num_accounts" example="2">%1$d</xliff:g> အကောင့်
+        </item> 
+    </plurals>    
+    <!-- The next set of strings are used in local display and may be localized. -->  
+    <!-- In the UI, the inbox will be displayed with this name -->  
+    <string name="mailbox_name_display_inbox">အဝင် စာပုံး</string>  
+    <!-- In the UI, the outbox will be displayed with this name -->  
+    <string name="mailbox_name_display_outbox">အထွက် စာပုံး</string>  
+    <!-- In the UI, the drafts will be displayed with this name -->  
+    <string name="mailbox_name_display_drafts">အကြမ်း</string>  
+    <!-- In the UI, the trash will be displayed with this name -->  
+    <string name="mailbox_name_display_trash">အမှိုက်ပုံး</string>  
+    <!-- In the UI, the sent will be displayed with this name -->  
+    <string name="mailbox_name_display_sent">ပေးပို့သည်</string>  
+    <!-- In the UI, the junk will be displayed with this name -->  
+    <string name="mailbox_name_display_junk">ပေးပို့လာသော မလိုသည့် ကြော်ငြာများ</string>  
+    <!-- In the UI, the unread will be displayed with this name [CHAR LIMIT=15] -->  
+    <string name="mailbox_name_display_unread">မဖတ်ရသေးပါ</string>  
+    <!-- In the shortcut/widget configuration UI, the label for selecting only the unread messages in an account's inbox [CHAR LIMIT=30] -->  
+    <string name="picker_mailbox_name_all_unread">အဝင် စာပုံး (မဖတ်ရသေးပါ)</string>  
+    <!-- In the shortcut/widget configuration UI, the label for selecting all messages in an account's inbox [CHAR LIMIT=30] -->  
+    <string name="picker_mailbox_name_all_inbox">အဝင် စာပုံး (အားလုံး)</string>  
+    <!-- In the shortcut/widget configuration UI, use this for the "all accounts" account list item [CHAR LIMIT=30] -->  
+    <string name="picker_combined_view_fmt">တွဲပြီး ကြည့်သည် ( 
+        <xliff:g id="count">%s</xliff:g>)
+    </string>  
+    <!-- Count of accounts; used in picker_combined_view_fmt -->  
+    <plurals name="picker_combined_view_account_count"> 
+        <item quantity="one"/>  
+        <item quantity="other"/> 
+    </plurals>  
+    <!-- Version number, shown only on debug screen -->  
+    <string name="debug_version_fmt">မူကွဲ - 
+        <xliff:g id="version">%s</xliff:g> 
+    </string>   
+    <!-- The summary section entry in the AccountFolder list to display all inboxes -->  
+    <string name="account_folder_list_summary_inbox">အဝင် စာပုံး</string>  
+    <!-- The summary section entry in the AccountFolder list to display all starred
+        [CHAR LIMIT=200dip] -->  
+    <string name="account_folder_list_summary_starred">ကြယ်ပြုလုပ်သည်</string>  
+    <!-- The summary section entry in the AccountFolder list to display all drafts
+        [CHAR LIMIT=200dip] -->  
+    <string name="account_folder_list_summary_drafts">အကြမ်း</string>  
+    <!-- The summary section entry in the AccountFolder list to display all outboxes
+        [CHAR LIMIT=200dip] -->  
+    <string name="account_folder_list_summary_outbox">အထွက် စာပုံး</string>  
+    <!-- Label shown in the account selector to select "Combined view", which contains
+         Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->  
+    <string name="mailbox_list_account_selector_combined_view">တွဲပြီး ကြည့်သည်</string>  
+    <!-- Label shown in the account/mailbox selector to switch to the show all the top-level mailboxes. [CHAR LIMIT=30] -->  
+    <string name="mailbox_list_account_selector_show_all_folders">ဖို(လ်)ဒါများ အာလုံး ပြသည်</string>  
+    <!-- Account list header in the account/mailbox selector. [CHAR LIMIT=30] -->  
+    <string name="mailbox_list_account_selector_account_header">အကောင့်များ</string>  
+    <!-- Recent mailbox header in the account/mailbox selector. [CHAR LIMIT=30] -->  
+    <string name="mailbox_list_account_selector_mailbox_header_fmt">မကြာသေးမီက သွားခဲ့သော ဖို(လ်)ဒါများ ( 
+        <xliff:g id="email_address">%s</xliff:g>)
+    </string>  
+    <!-- Mailbox list header for user folders [CHAR LIMIT=30] -->  
+    <string name="mailbox_list_user_mailboxes">ဖို(လ်)ဒါများ အားလုံး</string>  
+    <!-- Mailbox list header for recent folders [CHAR LIMIT=30] -->  
+    <string name="mailbox_list_recent_mailboxes">မကြာသေးမီက သွားခဲ့သော ဖို(လ်)ဒါများ</string>  
+    <!-- Announces the subject field for a message for users with accessibility requirements -->  
+    <string name="message_subject_description">အကြောင်းအရာ</string>  
+    <!-- Announces that a message has no sender or subject
+            to users with accessibility requirements -->  
+    <string name="message_is_empty_description">အကြောင်းအရာ မရှိပါ</string>  
+    <!-- Appears at the bottom of list of messages; user selects to load more messages from that folder. -->  
+    <string name="message_list_load_more_messages_action">နောက်ထပ် မက်ဆေ့(ခ်ျ)များ တင်သည်</string>  
+    <!--  The number of messages that are currently selected for various operations such as
+          "delete message(s)" [CHAR LIMIT=32] -->  
+    <plurals name="message_view_selected_message_count"> 
+        <item quantity="one"> 
+            <xliff:g id="message_count" example="1">%d</xliff:g> ရွေးချယ်ခဲ့သည်
+        </item>  
+        <item quantity="other"> 
+            <xliff:g id="message_count" example="9">%d</xliff:g> ရွေးချယ်ခဲ့သည်
+        </item> 
+    </plurals>  
+    <!-- Message to show when there are no messages (emails) in the selected mailbox.
+         [CHAR LIMIT=26] -->  
+    <string name="message_list_no_messages">မက်ဆေ့(ခ်ျ)များ မရှိပါ</string>  
+    <!-- Hint text in To field -->  
+    <string name="message_compose_to_hint">သို့</string>  
+    <!-- Hint text in Cc field -->  
+    <string name="message_compose_cc_hint">တဆင့်ပို့ခြင်းသို့</string>  
+    <!-- Hint text in Bcc field -->  
+    <string name="message_compose_bcc_hint">ဖုန်းကွယ်တဆင့်ပို့ခြင်းသို့</string>  
+    <!-- Hint text in Subject field -->  
+    <string name="message_compose_subject_hint">အကြောင်းအရာ</string>  
+    <!-- Label for From field [CHAR LIMIT=12] -->  
+    <string name="message_compose_from_label">မှ -</string>  
+    <!-- Label for To field [CHAR LIMIT=12] -->  
+    <string name="to">သို့</string>  
+    <!-- Label for Cc field [CHAR LIMIT=12] -->  
+    <string name="cc">တဆင့်ပို့ခြင်းသို့</string>  
+    <!-- Label for Bcc field [CHAR LIMIT=12] -->  
+    <string name="bcc">ဖုန်းကွယ်တဆင့်ပို့ခြင်းသို့</string>  
+    <!-- Label for Subject field [CHAR LIMIT=12] -->  
+    <string name="subject_hint">အကြောင်းအရာ</string>  
+    <!-- Hint text in Message composer body field -->  
+    <string name="body_hint">အီးမေး(လ်) ရေးသားသည်</string>  
+    <!-- Header for forwarded original messages -->  
+    <string name="message_compose_fwd_header_fmt">\n\n-------- မူရင်း မက်ဆေ့(ခ်ျ)--------\nSubject- 
+        <xliff:g id="subject">%1$s</xliff:g>\nFrom: 
+        <xliff:g id="sender">%2$s</xliff:g>\nTo: 
+        <xliff:g id="to">%3$s</xliff:g>\nCC: 
+        <xliff:g id="cc">%4$s</xliff:g>\n\n
+    </string>  
+    <!-- Header for replied-to messages -->  
+    <string name="message_compose_reply_header_fmt">\n\n 
+        <xliff:g id="sender">%s</xliff:g>ရေးသားခဲ့သည် - \n\n
+    </string>  
+    <!-- Heading that appears before forwarded text -->  
+    <string name="message_compose_quoted_text_label">ကိုးကားခဲ့သည့် စာသား ပါဝင်သည်</string>  
+    <!-- Label of checkbox to include original message in a forwarded/replied message
+         [CHAR_LIMIT=32] -->  
+    <string name="message_compose_include_quoted_text_checkbox_label">စာသား ပါဝင်သည်</string>  
+    <!-- Toast that appears if you try to send with no recipients. -->  
+    <string name="message_compose_error_no_recipients">အနည်းဆုံး လက်ခံသူတစ်ယောက်ကို သင် ပေါင်းထည့်ရမည်။</string>  
+    <!-- An address field contains invalid email addresses. -->  
+    <string name="message_compose_error_invalid_email">အချို့ အီးမေး(လ်) လိပ်စာများသည် အကျုံးမဝင်ပါ။</string>  
+    <!-- Toast that appears when an attachment is too big to send. -->  
+    <string name="message_compose_attachment_size">ပူးတွဲရန် ဖိုင် အလွန်ကြီးသည်။</string>  
+    <!-- Title for dialog containing list of quick responses that user may insert
+            into message body. [CHAR_LIMIT=30] -->  
+    <string name="message_compose_insert_quick_response_list_title">အမြန် တုံ့ပြန်မှု ထည့်သွင်းသည်</string>  
+    <!-- Display name for composed message, indicating the destination of the message.
+      e.g. "John and 2 others" -->  
+    <string name="message_compose_display_name"> 
+        <xliff:g id="name" example="John">%1$s</xliff:g> and 
+        <xliff:g id="number" example="27">%2$d</xliff:g> အခြား
+    </string>  
+    <!-- Label for To field in read message view -->  
+    <string name="message_view_to_label">သို့ -</string>  
+    <!-- Label for CC field in read message view -->  
+    <string name="message_view_cc_label">တဆင့်ပို့ခြင်းသို့ -</string>  
+    <string name="message_view_bcc_label">ဖုန်းကွယ်တဆင့် ပို့ခြင်းသို့ -</string>  
+    <!-- Label for the date field. [CHAR LIMIT=20]-->  
+    <string name="message_view_date_label">ရက်စွဲ -</string>  
+    <!-- Label for the from field. [CHAR LIMIT=20]-->  
+    <string name="message_view_from_label">မှ -</string>  
+    <!-- Label for the subject field. [CHAR LIMIT=20]-->  
+    <string name="message_view_subject_label">အကြောင်းအရာ -</string>  
+    <!-- Button name to view an attachment [CHAR LIMIT=10]-->  
+    <string name="message_view_attachment_view_action">ကြည့်သည်</string>  
+    <!-- Button name to install an .apk attachment [CHAR LIMIT=10]-->  
+    <string name="message_view_attachment_install_action">တပ်ဆင်သည်</string>  
+    <!-- Button name to play a media (i.e. audio/video) attachment [CHAR LIMIT=10]-->  
+    <string name="message_view_attachment_play_action">ဖွင့်သည်</string>  
+    <!-- Button name, to load an attachment from the mail server [CHAR LIMIT=10]-->  
+    <string name="message_view_attachment_load_action">တင်သည်</string>  
+    <!-- Button name, to show info about an attachment from the mail server [CHAR LIMIT=10]-->  
+    <string name="message_view_attachment_info_action">သတင်းအချက်အလက်</string>  
+    <!-- Button name, to save the attachment to SD card [CHAR LIMIT=10]-->  
+    <string name="message_view_attachment_save_action">သိမ်းသည်</string>  
+    <!-- Disabled button text to indicate an attachment has been saved [CHAR LIMIT=10] -->  
+    <string name="message_view_attachment_saved">သိမ်းခဲ့သည်</string>  
+    <!-- Button name, to cancel a queued attachment download [CHAR LIMIT=10]-->  
+    <string name="message_view_attachment_cancel_action">ရပ်သည်</string>  
+    <!-- Toast after saving attachment [CHAR LIMIT=30] -->  
+    <string name="message_view_status_attachment_saved"> 
+        <xliff:g id="filename">%s</xliff:g>ကဲ့သို့ ပူးတွဲကို သိမ်းခဲ့သည်။
+    </string>  
+    <!-- Toast after attachment could not be saved [CHAR LIMIT=30] -->  
+    <string name="message_view_status_attachment_not_saved">ပူးတွဲကို မသိမ်းနိုင်ခဲ့ပါ။</string>  
+    <!-- Toast upon using "send" when one or more attachments will need to be background loaded
+      [CHAR LIMIT=none]-->  
+    <string name="message_view_attachment_background_load">မှတ်ချက် - သင်၏ တစ်ဆင့်ပေးပို့ခဲ့သည့် မက်ဆေ့(ခ်ျ)တွင်ပါသော တစ်ခု သို့မဟုတ် တစ်ခုထက်ပိုသော ပူးတွဲများကို မပေးပို့မီ ဒေါင်းလုပ်(ခ်) လုပ်ခံရလိမ့်မည်။</string>  
+    <!--Button on the message view screen to show the message content [CHAR LIMIT=16] -->  
+    <string name="message_view_show_message_action">မက်ဆေ့(ခ်ျ)</string>  
+    <!--Button on the message view screen to show the calendar invite [CHAR LIMIT=16] -->  
+    <string name="message_view_show_invite_action">ဖိတ်ကြားသည်</string>  
+    <!--Button on the message view screen to show the attachments [CHAR LIMIT=16] -->  
+    <plurals name="message_view_show_attachments_action"> 
+        <item quantity="one">ပူးတွဲ 
+            <xliff:g id="num_attachment" example="1">%1$d</xliff:g> 
+        </item>  
+        <item quantity="other">ပူးတွဲများ 
+            <xliff:g id="num_attachment" example="3">%1$d</xliff:g> 
+        </item> 
+    </plurals>  
+    <!-- Button on the message view screen to show the embedded pictures [CHAR LIMIT=16] -->  
+    <string name="message_view_show_pictures_action">ရုပ်ပုံများ ပြသည်</string>  
+    <!-- Button on the message view screen to always show pictures from the given
+         sender [CHAR LIMIT=32] -->  
+    <string name="message_view_always_show_pictures_button">အမြဲတမ်း ပြသည်</string>  
+    <!-- Prompt on the message view screen whether or not to always show pictures from the
+         given sender [CHAR LIMIT=80] -->  
+    <string name="message_view_always_show_pictures_prompt">ဤပေးပို့သူမှ ရုပ်ပုံများကို အမြဲတမ်း ပြသည်</string>  
+    <!-- Confirmation toast to indicate that the user has chosen to always show
+         pictures from the given sender [CHAR LIMIT=160] -->  
+    <string name="message_view_always_show_pictures_confirmation">ဤပေးပို့သူမှ ရုပ်ပုံများကို အလိုအလျောက် ပြလိမ့်မည်။</string>  
+    <!-- Calendar invitation, label of the button to open in calendar [CHAR LIMIT=24] -->  
+    <string name="message_view_invite_view">ပြက္ခဒိန် တွင် ကြည့်သည်</string>  
+    <!-- String shown with a calendar invitation. -->  
+    <string name="message_view_invite_title">ပြက္ခဒိန်ကို ထည့်သွင်းသည်</string>  
+    <!-- String shown with a calendar invitation. -->  
+    <string name="message_view_invite_text">သွားမည်လား။</string>  
+    <!-- Button text: Calendar invitation: Accept. The leading space is used for spacing -->  
+    <string name="message_view_invite_accept">"ဟုတ်ပါသည်"</string>  
+    <!-- Button text: Calendar invitation: Maybe. The leading space is used for spacing -->  
+    <string name="message_view_invite_maybe">"ဟုတ်ကောင်းဟုတ်လိမ့်မည်"</string>  
+    <!-- Button text: Calendar invitation: Decline. The leading space is used for spacing -->  
+    <string name="message_view_invite_decline">"မဟုတ်ပါ"</string>  
+    <!-- Toast shown following a meeting invite reply, accepted -->  
+    <string name="message_view_invite_toast_yes">ဤဖိတ်ကြားခြင်းကို သင် လက်ခံရရှိပြီးပြီ။</string>  
+    <!-- Toast shown following a meeting invite reply, maybe -->  
+    <string name="message_view_invite_toast_maybe">ဤဖိတ်ကြားခြင်းသို့ သင် \"တက်ရောက်ကောင်း တက်ရောက်လိမ့်မည်\" အကြောင်းပြန်ခဲ့ပြီးပြီ။</string>  
+    <!-- Toast shown following a meeting invite reply, declined -->  
+    <string name="message_view_invite_toast_no">ဤဖိတ်ကြားခြင်းကို သင် ငြင်းဆန်ခဲ့ပြီးပြီ။</string>  
+    <!--Confirmation dialog title shown when user tries to delete messages.  [CHAR LIMIT=16] -->  
+    <!-- Link label to show to/cc/bcc of the curent message [CHAR LIMIT=32] -->  
+    <string name="message_view_show_details">အသေးစိတ် ပြသည်</string>  
+    <!-- Title of the dialog box to show to/cc/bcc of the message.  [CHAR LIMIT=32] -->  
+    <string name="message_view_message_details_dialog_title">မက်ဆေ့(ခ်ျ) အသေးစိတ်</string>  
+    <!-- Title for most attachment info dialogs [CHAR LIMIT=32] -->  
+    <string name="attachment_info_dialog_default_title">ပူးတွဲ သတင်းအချက်အလက်</string>  
+    <!-- Title when Wi-Fi settings prevent attachments from downloading [CHAR LIMIT=32] -->  
+    <string name="attachment_info_dialog_wifi_title">ဝိုင်-ဖိုင် ချိတ်ဆက်ခြင်း လိုအပ်သည်</string>  
+    <!-- Text of button to launch the Wi-Fi settings activity [CHAR LIMIT=24] -->  
+    <string name="attachment_info_wifi_settings">ဝိုင်-ဖိုင် အပြင်အဆင်များ</string>  
+    <!-- Text of button to launch the application settings activity [CHAR LIMIT=24] -->  
+    <string name="attachment_info_application_settings">လုပ်ငန်းသုံး ပရိုဂရမ် အပြင်အဆင်များ</string>  
+    <!-- Message body when we don't know exactly why an attachment can't be shown -->  
+    <string name="attachment_info_unknown">ပူးတွဲကို ဖွင့်မရနိုင်ပါ။</string>  
+    <!-- Message body when the attachment is suspected of being malware -->  
+    <string name="attachment_info_malware">ဤပူးတွဲအမျိုးအစားတွင် အန္တရာယ်ဖြစ်စေသော ဆော့(ဖ်)ဝဲ(လ်) ပါဝင်နိုင်သောကြောင့် သင် ဤဖိုင်ကို သိမ်းသည် သို့မဟုတ် ဖွင့်သည် မပြုလုပ်နိုင်ပါ။</string>  
+    <!-- Message body when the attachment can't be loaded due to security policy restrictions -->  
+    <string name="attachment_info_policy">အကောင့်၏ လုံခြုံရေး မူဝါဒများကြောင့် ဤပူးတွဲသည် သိမ်းခဲ့သည် သို့မဟုတ် ဖွင့်ခဲ့သည် မပြုလုပ်နိုင်ပါ။</string>  
+    <!-- Message body when the attachment can only be downloaded over Wi-Fi -->  
+    <string name="attachment_info_wifi_only">ဤပူးတွဲသည် မိုဘိုင်းကွန်ရက်တစ်ခုတွင် ဒေါင်းလုပ်(ခ်) လုပ်ရန် အလွန်ကြီးနေသည်။ နောက်တစ်ကြိမ် ဝိုင်-ဖိုင် ကွန်ရက် ချိတ်ဆက်ရာတွင် သင် ထိုအရာကို ဒေါင်းလုပ်(ခ်) လုပ်နိုင်သည်။</string>  
+    <!-- Message body when no activities can open the attachment -->  
+    <string name="attachment_info_no_intent">ဤပူးတွဲကို ဖွင့်နိုင်သော လုပ်ငန်းသုံး ပရိုဂရမ် မတပ်ဆင်ခဲ့ပါ။ အန်းဒရိုက် စျေးကွက်မှ သင့်လျော်သော လုပ်ငန်းသုံး ပရိုဂရမ်ကို ကြိုးစားပြီး ဒေါင်းလုပ်(ခ်) လုပ်ပါ။</string>  
+    <!-- Message body when the attachment is an application, but, side loading is disabled -->  
+    <string name="attachment_info_sideload_disabled">ဤပူးတွဲသည် လုပ်ငန်းသုံး ပရိုဂရမ်တစ်ခု ဖြစ်သည်။ ၎င်းကို သင်မတပ်ဆင်မီ အပြင်အဆင်များ&gt; လုပ်ငန်းသုံး ပရိုဂရမ်တွင် မသိသော အရင်းအမြစ်များကို သင် စစ်ဆေးရမည်။</string>  
+    <!-- Message body when the attachment is an application, and side loading is enabled -->  
+    <string name="attachment_info_apk_install_disabled">လုပ်ငန်းသုံး ပရိုဂရမ်သည် အီးမေး(လ်) မှ တိုက်ရိုက် မတပ်ဆင်နိုင်ခဲ့ပါ။ ဤလုပ်ငန်းသုံး ပရိုဂရမ်ကို ပထမ သိမ်းပြီးနောက် ဒေါင်းလုပ်(ခ်) လုပ်ငန်းသုံး ပရိုဂရမ်ကို အသုံးပြုပြီး ထိုအရာကို တပ်ဆင်ပါ။</string>  
+    <!-- Error banner when an attachment could not be downloaded due to a problem at the server
+            [CHAR LIMIT=100] -->  
+    <string name="attachment_not_found">ပူးတွဲကို ဒေါင်းလုပ်(ခ်) မလုပ်နိုင်ခဲ့ပါ။</string>  
+    <!-- String used in place of a message that could not be properly decoded (e.g. bad base64
+         data was received.) [CHAR LIMIT=none] -->  
+    <string name="message_decode_error">မက်ဆေ့(ခ်ျ)ကို အနက်အဓိပ္ပာယ်ဖော် နေစဥ် အမှား ဖြစ်ပေါ်ခဲ့သည်။</string>  
+    <!-- Title of the EML viewer activity. [CHAR LIMIT=32] -->  
+    <string name="eml_view_title">ကြည့်နေသည် 
+        <xliff:g id="filename" example="test.eml">%s</xliff:g> 
+    </string>  
+    <string name="message_delete_dialog_title"/>  
+    <!--Confirmation dialog text shown when user tries to delete messages.  [CHAR LIMIT=32] -->  
+    <plurals name="message_delete_confirm"> 
+        <item quantity="one">ဤမက်ဆေ့(ခ်ျ) ကို ဖျက်ပစ်မည်လား။</item>  
+        <item quantity="other">ဤမက်ဆေ့(ခ်ျ)များ ကို ဖျက်ပစ်မည်လား။</item> 
+    </plurals>  
+    <!-- Toast shown briefly while deleting a message -->  
+    <plurals name="message_deleted_toast"> 
+        <item quantity="one">မက်ဆေ့(ခ်ျ) ကို ဖျက်ပစ်ခဲ့သည်။</item>  
+        <item quantity="other">မက်ဆေ့(ခ်ျ)များ ကို ဖျက်ပစ်ခဲ့သည်။</item> 
+    </plurals>  
+    <!-- Toast shown briefly while deleting an unsent (draft) message -->  
+    <string name="message_discarded_toast">မက်ဆေ့(ခ်ျ) ကို ပယ်ဖျက်ခဲ့သည်။</string>  
+    <!-- Toast shown briefly while saving a draft -->  
+    <string name="message_saved_toast">မက်ဆေ့(ခ်ျ) ကို အကြမ်းကဲ့သို့ သိမ်းခဲ့သည်။</string>  
+    <!-- String that is displayed when the attachment could not be displayed. -->  
+    <string name="message_view_display_attachment_toast">ပူးတွဲကို မဖော်ပြနိုင်ပါ။</string>  
+    <!-- String that is displayed when the attachment could not be loaded.[CHAR LIMIT=none] -->  
+    <string name="message_view_load_attachment_failed_toast">ပူးတွဲကို မတင်နိုင်ပါ \" 
+        <xliff:g id="filename">%s</xliff:g>\"။
+    </string>  
+    <!-- String that is displayed when a long message is being parsed. [CHAR LIMIT=none] -->  
+    <string name="message_view_parse_message_toast">မက်ဆေ့(ခ်ျ) ဖွင့်နေသည်\u2026</string>  
+    <!-- Toast shown after moving a message to a different mailbox. [CHAR LIMIT=none]-->  
+    <plurals name="message_moved_toast"> 
+        <item quantity="one"> 
+            <xliff:g id="num_message" example="1">%1$d</xliff:g> သို့ မက်ဆေ့(ခ်ျ) ရွှေ့သည် 
+            <xliff:g id="mailbox_name" example="Inbox">%2$s</xliff:g> 
+        </item>  
+        <item quantity="other"> 
+            <xliff:g id="num_message" example="5">%1$d</xliff:g>သို့ မက်ဆေ့(ခ်ျ) ရွှေ့သည် 
+            <xliff:g id="mailbox_name" example="Inbox">%2$s</xliff:g> 
+        </item> 
+    </plurals>  
+    <!-- Notification ticker when a forwarded attachment couldn't be sent [CHAR LIMIT=none] -->  
+    <string name="forward_download_failed_ticker">တစ်ခု သို့မဟုတ် တစ်ခုထက်ပိုသော ပူးတွဲများကို တဆင့်မပေးပို့နိုင်ခဲ့ပါ။</string>  
+    <!-- Notification title when a forwarded attachment couldn't be sent [CHAR LIMIT=30]-->  
+    <string name="forward_download_failed_title">ပူးတွဲကို တစ်ဆင့် မပေးပို့နိုင်ခဲ့ပါ</string>  
+    <!-- Notification ticker when email account authentication fails [CHAR LIMIT=none] -->  
+    <string name="login_failed_ticker"> 
+        <xliff:g id="account_name">%s</xliff:g> အကောင့်သို့ ဝင်ရန် မအောင်မြင်ခဲ့ပါ။
+    </string>  
+    <!-- Notification title when email account authentication fails [CHAR LIMIT=30]-->  
+    <string name="login_failed_title">အကောင့်သို့ မဝင်နိုင်ခဲ့ပါ</string>  
+    <!-- Size unit for bytes for attachments [CHAR LIMIT=10] -->  
+    <plurals name="message_view_attachment_bytes"> 
+        <item quantity="one"> 
+            <xliff:g id="size_in_bytes" example="1">%d</xliff:g>ဘီ
+        </item>  
+        <item quantity="other"> 
+            <xliff:g id="size_in_bytes" example="279">%d</xliff:g>ဘီ
+        </item> 
+    </plurals>  
+    <!-- Size unit for kilo bytes for attachments [CHAR LIMIT=10] -->  
+    <plurals name="message_view_attachment_kilobytes"> 
+        <item quantity="one"> 
+            <xliff:g id="size_in_kilobytes" example="1">%d</xliff:g>ကေဘီ
+        </item>  
+        <item quantity="other"> 
+            <xliff:g id="size_in_kilobytes" example="279">%d</xliff:g>ကေဘီ
+        </item> 
+    </plurals>  
+    <!-- Size unit for mega bytes for attachments [CHAR LIMIT=10] -->  
+    <plurals name="message_view_attachment_megabytes"> 
+        <item quantity="one"> 
+            <xliff:g id="size_in_megabytes" example="1">%d</xliff:g>အမ်ဘီ
+        </item>  
+        <item quantity="other"> 
+            <xliff:g id="size_in_megabytes" example="279">%d</xliff:g>အမ်ဘီ
+        </item> 
+    </plurals>  
+    <!-- Size unit for giga bytes for attachments [CHAR LIMIT=10] -->  
+    <plurals name="message_view_attachment_gigabytes"> 
+        <item quantity="one"> 
+            <xliff:g id="size_in_gigabytes" example="1">%d</xliff:g>ဂျီဘီ
+        </item>  
+        <item quantity="other"> 
+            <xliff:g id="size_in_gigabytes" example="279">%d</xliff:g>ဂျီဘီ
+        </item> 
+    </plurals>  
+    <!-- The label of the next button on the message view screen. -->  
+    <string name="message_view_move_to_newer">ပို၍သစ်သော</string>  
+    <!-- The label of the previous button on the message view screen. -->  
+    <string name="message_view_move_to_older">ပို၍ဟောင်းသော</string>  
+    <!-- A simple divider between subject and message snippet in the message list view
+        [CHAR LIMIT=4]-->  
+    <string name="message_list_subject_snippet_divider">\u0020\u2014\u0020</string>  
+    <!-- Title of screen when setting up new email account [CHAR LIMIT=45] -->  
+    <string name="account_setup_basics_title">အကောင့် ဖွဲ့စည်းပုံ</string>  
+    <!-- Title of the screen when adding exchange account [CHAR LIMIT=45] -->  
+    <string name="account_setup_basics_exchange_title">အကောင့် လဲလှယ်ခြင်း ပေါင်းထည့်သည်</string>  
+    <!-- Title of the screen when adding exchange account [CHAR LIMIT=45] -->  
+    <string name="account_setup_basics_exchange_title_alternate">သက်ဝင်လှုပ်ရှားမှုရှိသော တစ်မျိုးတည်းဖြစ်အောင်ပြုလုပ်ခြင်း အကောင့် လဲလှယ်ခြင်း ပေါင်းထည့်သည်</string>  
+    <!-- Headline of screen when setting up new email account (large text over divider)
+        [CHAR LIMIT=none] -->  
+    <string name="account_setup_basics_headline">အီးမေး(လ်) အကောင့်</string>  
+    <!-- On "Set up email" screen, enthusiastic welcome message. -->  
+    <string name="accounts_welcome">အကောင့်အများစုအတွက် အီးမေး(လ်)ကို အဆင့်အနည်းငယ်အတွင်းတွင် သင် တပ်ဆင်နိုင်ပါသည်။</string>  
+    <!-- On "Set up email" screen, enthusiastic welcome message (in EAS mode). -->  
+    <string name="accounts_welcome_exchange">လဲလှယ်ခြင်း အကောင့်ကို အဆင့်အနည်းငယ်အတွင်းတွင် သင် တပ်ဆင်နိုင်ပါသည်။</string>  
+    <!-- On "Set up email" screen, enthusiastic welcome message (in EAS mode). -->  
+    <string name="accounts_welcome_exchange_alternate">သက်ဝင်လှုပ်ရှားမှုရှိသော တစ်မျိုးတည်းဖြစ်အောင်ပြုလုပ်ထားသည့် လဲလှယ်ခြင်း အကောင့်ကို အဆင့်အနည်းငယ်အတွင်းတွင် သင် တပ်ဆင်နိုင်ပါသည်။</string>  
+    <!-- On "Set up email" screen, hint for account email address text field -->  
+    <string name="account_setup_basics_email_label">အီးမေး(လ်) လိပ်စာ</string>  
+    <!-- On "Set up email" screen, hint for account email password text field -->  
+    <string name="account_setup_basics_password_label">စကားဝှက်</string>  
+    <!-- On "Set up email" screen, checkbox label for making the new account the default account -->  
+    <string name="account_setup_basics_default_label">သတ်မှတ်ထားခြင်းဖြင့် ဤအကောင့်မှ အီးမေး(လ်) ပေးပို့သည်။</string>  
+    <!-- Button name on "Set up email" screen -->  
+    <string name="account_setup_basics_manual_setup_action">လက်ဖြင့် တပ်ဆင်သည်</string>  
+    <!-- Toast when we can't build a URI from the given email & password -->  
+    <!-- Note, the error message in the toast is purposefully vague, because I *don't* know
+        exactly what's wrong. -->  
+    <string name="account_setup_username_password_toast">အကျုံးဝင်သော အီးမေး(လ်)လိပ်စာ နှင့် စကားဝှက်ကို ရိုက်ထည့်သည်။</string>  
+    <!-- Title of dialog shown when a duplicate account is created -->  
+    <string name="account_duplicate_dlg_title">မူပွားထားခဲ့သော အကောင့်</string>  
+    <!-- Message of dialog shown when a duplicate account is created.  The display name of
+         the duplicate account is displayed. -->  
+    <string name="account_duplicate_dlg_message_fmt">\" 
+        <xliff:g id="duplicate">%s</xliff:g>\" အကောင့်အတွက် ဤအသုံးပြုသူအမည်ကို သင် အသုံးပြုနေပြီးသား ဖြစ်သည်။
+    </string>  
+    <!-- String that is displayed as error text for passwords with leading or trailing
+         spaces.  [CHAR LIMIT=none] -->  
+    <string name="account_password_spaces_error">ဤစကားဝှက်သည် နေရာလွတ် တစ်နေရာ သို့မဟုတ် ပိုများသော နေရာလွတ် စာလုံးများဖြင့် စတင်သည် သို့မဟုတ် အဆုံးသတ်သည်။ များစွာသော ဆာဗာများသည် နေရာလွတ်များပါသော စကားဝှက် များကို အထောက်အပံ့ မပေးပါ။</string>  
+    <!-- On check-settings screen, this is the initially-displayed message. -->  
+    <string name="account_setup_check_settings_retr_info_msg">အကောင့် သတင်းအချက်အလက်ကို ပြန်လည်ရရှိနေသည် \u2026</string>  
+    <!-- Appears on screen while system is checking incoming server settings -->  
+    <string name="account_setup_check_settings_check_incoming_msg">အဝင် ဆာဗာ အပြင်အဆင်များ စစ်ဆေးနေသည်\u2026</string>  
+    <!-- Appears on screen while system is checking outgoing server settings -->  
+    <string name="account_setup_check_settings_check_outgoing_msg">အထွက် ဆာဗာ အပြင်အဆင်များ စစ်ဆေးနေသည်\u2026</string>  
+    <!-- Title of "Set up email" screen after success [CHAR LIMIT=45] -->  
+    <string name="account_setup_names_title">အကောင့် ဖွဲ့စည်းပုံ</string>  
+    <!-- Text that appears on "Set up email" screen after successfully setting up an account
+        [CHAR LIMIT=none] -->  
+    <string name="account_setup_names_headline">သင့် အကောင့် တပ်ဆင်သည်နှင့် အီးမေး(လ်)သည် ထိုလမ်းကြောင်းပေါ်တွင် ရှိသည်!</string>  
+    <!-- On "Set up email" screen, label of text field -->  
+    <string name="account_setup_names_account_name_label">ဤအကောင့်ကို အမည်တစ်ခု ပေးသည် (ရွေးချယ်စရာ)</string>  
+    <!-- On "Set up email" screen, label of text field -->  
+    <string name="account_setup_names_user_name_label">သင့် အမည် (အထွက် မက်ဆေ့(ခ်ျ)များ တွင် ဖော်ပြခဲ့သည်)</string>  
+    <!-- On "Set up email" screen, error pop-up when user_name field is empty [CHAR LIMIT=none] -->  
+    <string name="account_setup_names_user_name_empty_error">ဤနယ်ပယ်သည် အလွတ် မဖြစ်နိုင်ပါ။</string>  
+    <!-- Activity Title for the account type selector (IMAP or POP3 or EAS) [CHAR LIMIT=45] -->  
+    <string name="account_setup_account_type_title">အကောင့် ဖွဲ့စည်းပုံ</string>  
+    <!-- Headline for the the account type selector (IMAP or POP3 or EAS) [CHAR LIMIT=none] -->  
+    <string name="account_setup_account_type_headline">အကောင့် အမျိုးအစား</string>  
+    <!-- "Add new email account" screen, text that appears on screen -->  
+    <string name="account_setup_account_type_instructions">ထိုအရာသည် မည်သည့်အကောင့်အမျိုးအစားနည်း။</string>    
+    <!-- "Incoming server settings" screen, title [CHAR LIMIT=45] -->  
+    <string name="account_setup_incoming_title">အကောင့် ဖွဲ့စည်းပုံ</string>  
+    <!-- "Incoming server settings" screen, headline (text over divider) [CHAR LIMIT=none] -->  
+    <string name="account_setup_incoming_headline">အဝင် ဆာဗာ အပြင်အဆင်များ</string>  
+    <!-- "Incoming server settings" screen, label for text field -->  
+    <string name="account_setup_incoming_username_label">အသုံးပြုသူအမည်</string>  
+    <!-- "Incoming server settings" screen, label for text field -->  
+    <string name="account_setup_incoming_password_label">စကားဝှက်</string>  
+    <!-- "Incoming server settings" screen, label for text field -->  
+    <string name="account_setup_incoming_pop_server_label">POP3 ဆာဗာ</string>  
+    <!-- "Incoming server settings" screen, label for text field -->  
+    <string name="account_setup_incoming_imap_server_label">IMAP ဆာဗာ</string>  
+    <!-- "Incoming server settings" screen, label for text field -->  
+    <string name="account_setup_incoming_port_label">ပို့(တ်)</string>  
+    <!-- "Incoming server settings" screen, label for pop-up menu -->  
+    <string name="account_setup_incoming_security_label">လုံခြုံရေး အမျိုးအစား</string>  
+    <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
+        the desire for an unencrypted session -->  
+    <string name="account_setup_incoming_security_none_label">ဘယ်ဟာမျှမဟုတ်ပါ</string>  
+    <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
+        the desire for an encrypted session on the selected port, accepting all SSL certificates -->  
+    <string name="account_setup_incoming_security_ssl_trust_certificates_label">SSL/TLS (သက်သေခံလက်မှတ်များအားလုံး လက်ခံသည်)</string>  
+    <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
+        the desire for an encrypted session on the selected port, including SSL certificate
+        checks -->  
+    <string name="account_setup_incoming_security_ssl_label">SSL/TLS</string>  
+    <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
+        the desire for an encrypted session overlaid on a plain text session using the selected
+        port, accepting all SSL certificates -->  
+    <string name="account_setup_incoming_security_tls_trust_certificates_label">STARTTLS (သက်သေခံလက်မှတ်များအားလုံး လက်ခံသည်)</string>  
+    <!-- "Incoming server settings" screen, option for "Security type" pop-up menu indicating
+        the desire for an encrypted session overlaid on a plain text session on the selected
+        port, including SSL certificate checks -->  
+    <string name="account_setup_incoming_security_tls_label">STARTTLS</string>  
+    <!-- "Incoming server settings" screen, label for pop-up menu -->  
+    <string name="account_setup_incoming_delete_policy_label">ဆာဗာ မှ အီးမေး(လ်)ကို ဖျက်ပစ်သည်</string>  
+    <!-- "Incoming server settings" screen, options in pop-up menu for Delete email from server: -->  
+    <!-- "Incoming server settings" screen, options in pop-up menu for Delete email from server: -->  
+    <string name="account_setup_incoming_delete_policy_never_label">ဘယ်သောအခါမှ</string>  
+    <!-- "Incoming server settings" screen, options in pop-up menu for Delete email from server: -->  
+    <string name="account_setup_incoming_delete_policy_delete_label">အဝင်စာပုံးမှ ကျွန်ုပ် ဖျက်ပစ်သောအခါ</string>  
+    <!-- "Incoming server settings" screen, label for setting IMAP path prefix: -->  
+    <string name="account_setup_incoming_imap_path_prefix_label">IMAP လမ်းကြောင်း ရှေ့ဆက်စာလုံး</string>  
+    <!-- "Incoming server settings" screen, hint for setting IMAP path prefix: -->  
+    <string name="account_setup_incoming_imap_path_prefix_hint">ရွေးချယ်စရာ</string>  
+    <!-- "Outgoing server settings" screen, title [CHAR LIMIT=45] -->  
+    <string name="account_setup_outgoing_title">အကောင့် ဖွဲ့စည်းပုံ</string>  
+    <!-- "Outgoing server settings" screen, headline (text over divider) [CHAR LIMIT=none] -->  
+    <string name="account_setup_outgoing_headline">အထွက် ဆာဗာ အပြင်အဆင်များ</string>  
+    <!-- On "Outgoing server settings" screen, label for text field -->  
+    <string name="account_setup_outgoing_smtp_server_label">SMTP ဆာဗာ</string>  
+    <!-- On "Outgoing server settings" screen, label for text field -->  
+    <string name="account_setup_outgoing_port_label">ပို့(တ်)</string>  
+    <!-- On "Outgoing server settings" screen, label for pop-up menu -->  
+    <string name="account_setup_outgoing_security_label">လုံခြုံရေး အမျိုးအစား</string>  
+    <!-- On "Outgoing server settings" screen, label for check box -->  
+    <string name="account_setup_outgoing_require_login_label">အကောင့်သို့ ဝင်ရန် လိုအပ်သည်။</string>  
+    <!-- On "Outgoing server settings" screen, label for text field -->  
+    <string name="account_setup_outgoing_username_label">အသုံးပြုသူအမည်</string>  
+    <!-- On "Outgoing server settings" screen, label for text field -->  
+    <string name="account_setup_outgoing_password_label">စကားဝှက်</string>  
+    <!-- Title of "Exchange server settings" screen [CHAR LIMIT=45] -->  
+    <string name="account_setup_exchange_title">အကောင့် ဖွဲ့စည်းပုံ</string>  
+    <!-- Headline of "Exchange server settings" screen (text over divider) [CHAR LIMIT=none] -->  
+    <string name="account_setup_exchange_headline">ဆာဗာ အပြင်အဆင်များ</string>  
+    <!-- On "Exchange" setup screen, the name of the server -->  
+    <string name="account_setup_exchange_server_label">ဆာဗာ</string>  
+    <!-- On "Exchange" setup screen, the domain\\username -->  
+    <string name="account_setup_exchange_username_label">ဒိုမိန်း\\အသုံးပြုသူအမည်</string>  
+    <!-- On "Exchange" setup screen, the use-SSL checkbox label -->  
+    <string name="account_setup_exchange_ssl_label">လုံခြုံစိတ်ချရသော ချိတ်ဆက်ခြင်း သုံးသည် (SSL)</string>  
+    <!-- On "Exchange" setup screen, the trust ssl certificates checkbox label -->  
+    <string name="account_setup_exchange_trust_certificates_label">SSL သက်သေခံလက်မှတ်များအားလုံး လက်ခံသည်</string>  
+    <!-- On "Exchange" setup screen, a heading title for the current client certificate [CHAR LIMIT=50] -->  
+    <string name="account_setup_exchange_certificate_title">သုံးစွဲသူ သက်သေခံလက်မှတ်</string>  
+    <!-- On "Exchange" setup screen, a button label to include a client certificate [CHAR LIMIT=35] -->  
+    <string name="account_setup_exchange_select_certificate">ရွေးချယ်သည်</string>  
+    <!-- On "Exchange" setup screen, a button label to include a client certificate [CHAR LIMIT=35] -->  
+    <string name="account_setup_exchange_use_certificate">သုံးစွဲသူ သက်သေခံလက်မှတ် သုံးသည်</string>  
+    <!-- On "Exchange" setup screen, a button label to remove the currently used client certificate [CHAR LIMIT=35] -->  
+    <string name="account_setup_exchange_remove_certificate">ဖယ်ရှားသည်</string>  
+    <!-- On "Exchange" setup screen, placeholder text to indicate no client
+         certificate is used [CHAR LIMIT=50] -->  
+    <string name="account_setup_exchange_no_certificate">ဘယ်ဟာမျှမဟုတ်ပါ</string>  
+    <!-- On "Exchange" setup screen, the exchange device-id label [CHAR LIMIT=30] -->  
+    <string name="account_setup_exchange_device_id_label">မိုဘိုင်း စက် ID</string>  
+    <!-- In Account setup options screen, Activity title [CHAR LIMIT=45] -->  
+    <string name="account_setup_options_title">အကောင့် အပြင်အဆင်များ</string>  
+    <!-- In Account setup options screen, Activity headline [CHAR LIMIT=none] -->  
+    <string name="account_setup_options_headline">အကောင့် ရွေးချယ်စရာများ</string>  
+    <!-- In Account setup options screen, label for email check frequency selector -->  
+    <string name="account_setup_options_mail_check_frequency_label">အဝင်စာပုံး ကြိမ်နှုန်း စစ်ဆေးသည်</string>  
+    <!-- In Account setup options & Account Settings screens, label for email check frequency option -->  
+    <string name="account_setup_options_mail_check_frequency_never">ဘယ်သောအခါမှ</string>  
+    <!-- In Account setup options & Account Settings screens, label for email check frequency option -->  
+    <string name="account_setup_options_mail_check_frequency_push">အလိုအလျောက် (တွန်းသည်)</string>  
+    <!-- In Account setup options & Account Settings screens, email check frequency option -->  
+    <string name="account_setup_options_mail_check_frequency_5min">၅ မိနစ်တိုင်း</string>  
+    <!-- In Account setup options & Account Settings screens, email check frequency option -->  
+    <string name="account_setup_options_mail_check_frequency_10min">၁၀ မိနစ်တိုင်း</string>  
+    <!-- In Account setup options & Account Settings screens, email check frequency option -->  
+    <string name="account_setup_options_mail_check_frequency_15min">၁၅ မိနစ်တိုင်း</string>  
+    <!-- In Account setup options & Account Settings screens, email check frequency option -->  
+    <string name="account_setup_options_mail_check_frequency_30min">၃၀ မိနစ်တိုင်း</string>  
+    <!-- In Account setup options & Account Settings screens, email check frequency option -->  
+    <string name="account_setup_options_mail_check_frequency_1hour">နာရီတိုင်း</string>  
+    <!-- Check box label on "Set up email" screen to make this the default account -->  
+    <!-- Note, this should usually match the default account summary preference string -->  
+    <string name="account_setup_options_default_label">သတ်မှတ်ထားခြင်းဖြင့် ဤအကောင့်မှ အီးမေး(လ်) ပေးပို့သည်။</string>  
+    <!-- In Account setup options & Account Settings screens, check box for new-mail notification -->  
+    <string name="account_setup_options_notify_label">အီးမေး(လ်) ရောက်ရှိသောအခါ ကျွန်ုပ်ကို အကြောင်းကြားသည်။</string>  
+    <!-- In Account setup options screen, optional check box to also sync contacts -->  
+    <string name="account_setup_options_sync_contacts_label">ဤအကောင့်မှ တစ်မျိုးတည်းဖြစ်အောင်ပြုလုပ်ခြင်း အဆက်အသွယ်များ။</string>  
+    <!-- In Account setup options screen, optional check box to also sync contacts -->  
+    <string name="account_setup_options_sync_calendar_label">ဤအကောင့်မှ တစ်မျိုးတည်းဖြစ်အောင်ပြုလုပ်ခြင်း ပြက္ခဒိန်။</string>  
+    <!-- In Account setup options screen, check box to sync email -->  
+    <string name="account_setup_options_sync_email_label">ဤအကောင့်မှ တစ်မျိုးတည်းဖြစ်အောင်ပြုလုပ်ခြင်း အီးမေး(လ်)။</string>  
+    <!-- In Account setup options screen, check box to auto-download attachments  [CHAR LIMIT=none]
+        -->  
+    <string name="account_setup_options_background_attachments_label">ဝိုင်-ဖိုင် သို့ ချိတ်ဆက်သောအခါ ပူးတွဲများကို အလိုအလျောက် ဒေါင်းလုပ်(ခ်) လုပ်သည်</string>  
+    <!-- Dialog title when "setup" could not finish -->  
+    <string name="account_setup_failed_dlg_title">မပြီးနိုင်သေးပါ</string>  
+    <!-- In Account setup options screen, label for email lookback selector -->  
+    <string name="account_setup_options_mail_window_label">ရက် တစ်မျိုးတည်းဖြစ်အောင်ပြုလုပ်ခြင်း</string>  
+    <!-- In account setup options & account settings screens (exchange), sync window length; this
+        implies loading a 'reasonable' number of messages [CHAR LIMIT=25] -->  
+    <string name="account_setup_options_mail_window_auto">အလိုအလျောက်</string>  
+    <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->  
+    <string name="account_setup_options_mail_window_1day">တစ်ရက်</string>  
+    <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->  
+    <string name="account_setup_options_mail_window_3days">သုံးရက်</string>  
+    <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->  
+    <string name="account_setup_options_mail_window_1week">တစ်ပတ်</string>  
+    <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->  
+    <string name="account_setup_options_mail_window_2weeks">နှစ်ပတ်</string>  
+    <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->  
+    <string name="account_setup_options_mail_window_1month">တစ်လ</string>  
+    <!-- A sync window length setting (i.e. load messages this far back) [CHAR LIMIT=25]  -->  
+    <string name="account_setup_options_mail_window_all">အားလုံး</string>  
+    <!-- Per-mailbox sync window setting.  This means "use the account's sync window setting" [CHAR LIMIT=25] -->  
+    <string name="account_setup_options_mail_window_default">သတ်မှတ်ထားသော အကောင့် သုံးသည်</string>  
+    <!-- "Setup could not finish" dialog text; e.g., Username or password incorrect -->  
+    <string name="account_setup_failed_dlg_auth_message">အသုံးပြုသူအမည် သို့မဟုတ် စကားဝှက် မမှန်ကန်ပါ။</string>  
+    <!-- "Setup could not finish" dialog text; e.g., Username or password incorrect\n(ERR01 Account does not exist) -->  
+    <string name="account_setup_failed_dlg_auth_message_fmt">အသုံးပြုသူအမည် သို့မဟုတ် စကားဝှက် မမှန်ကန်ပါ။ \n( 
+        <xliff:g id="error">%s</xliff:g>)
+    </string>  
+    <!-- An error message presented to the user when the server's identity
+         cannot be established or trusted [CHAR LIMIT=NONE] -->  
+    <string name="account_setup_failed_dlg_certificate_message">ဆာဗာသို့ လုံခြုံစွာ မချိတ်ဆက်နိုင်ပါ။</string>  
+    <!-- An error message presented to the user when the server's identity
+         cannot be established or trusted [CHAR LIMIT=NONE] -->  
+    <string name="account_setup_failed_dlg_certificate_message_fmt">ဆာဗာသို့ လုံခြုံစွာ မချိတ်ဆက်နိုင်ပါ။\n( 
+        <xliff:g id="error">%s</xliff:g>)
+    </string>  
+    <!-- An error message presented to the user when the server requires a
+         client certificate to connect [CHAR LIMIT=NONE] -->  
+    <string name="account_setup_failed_certificate_required">သုံးစွဲသူ သက်သေခံလက်မှတ် လိုအပ်သည်။ သုံးစွဲသူ သက်သေခံလက်မှတ်ဖြင့် ဆာဗာသို့ ချိတ်ဆက်မည်လား။</string>  
+    <!-- An error message presented to the user when the certificate they
+         specified for connecting to a server is inaccessible [CHAR LIMIT=NONE] -->  
+    <string name="account_setup_failed_certificate_inaccessible">အကျုံးမဝင်သော သို့မဟုတ် ဝင်ခွင့်မပြုသော သက်သေခံလက်မှတ် ဖြစ်သည်။</string>  
+    <!-- Dialog text for ambiguous setup failure; server error/bad credentials [CHAR LIMIT=none] -->  
+    <string name="account_setup_failed_check_credentials_message">ဆာဗာသည် အမှားဖြင့် တုံ့ပြန်သည်။ သင်၏ အသုံးပြုသူအမည် နှင့် စကားဝှက်ကို စစ်ဆေးပြီး နောက်တစ်ကြိမ် ကြိုးစားပါ။</string>  
+    <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server -->  
+    <string name="account_setup_failed_dlg_server_message">ဆာဗာသို့ မချိတ်ဆက်နိုင်ပါ။</string>  
+    <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server\n(Connection timed out) -->  
+    <string name="account_setup_failed_dlg_server_message_fmt">ဆာဗာသို့ မချိတ်ဆက်နိုင်ပါ။\n( 
+        <xliff:g id="error">%s</xliff:g>)
+    </string>  
+    <!-- Additional diagnostic text when TLS was required but the server doesn't support it -->  
+    <string name="account_setup_failed_tls_required">TLS လိုအပ်သော်လည်း ဆာဗာမှ အထောက်အပံ့ မပေးခဲ့ပါ။</string>  
+    <!-- Additional diagnostic text when server does not support any of our authentication methods -->  
+    <string name="account_setup_failed_auth_required">စစ်မှန်ကြောင်းသက်သေပြခြင်း နည်းလမ်းများသည် ဆာဗာမှ အထောက်အပံ့ မပေးခဲ့ပါ။</string>  
+    <!-- Additional diagnostic text when server connection failed due to security error -->  
+    <string name="account_setup_failed_security">လုံခြုံမှု အမှားကြောင့် ဆာဗာသို့ ချိတ်ဆက်ခြင်း မဖွင့်နိုင်ခဲ့ပါ။</string>  
+    <!-- Additional diagnostic text when server connection failed due to io error (connection) -->  
+    <string name="account_setup_failed_ioerror">ဆာဗာသို့ ချိတ်ဆက်ခြင်း မဖွင့်နိုင်ခဲ့ပါ။</string>  
+    <!-- Additional diagnostic text when server connection failed due to our inability to support a
+         required EAS protocol version [CHAR LIMIT=none] -->  
+    <string name="account_setup_failed_protocol_unsupported">သင် မမှန်သော ဆာဗာလိပ်စာကို ရိုက်ထည့်ခဲ့ခြင်း သို့မဟုတ် အီးမေး(လ်) အထောက်အပံ့ မပြုသော ပရိုတိုကောမူကွဲကို ဆာဗာမှ လိုအပ်ခြင်း ဖြစ်သည်။</string>  
+    <!-- Additional diagnostic text when server access was denied; the user should contact the
+         administrator of the server for more information [CHAR LIMIT=none] -->  
+    <string name="account_setup_failed_access_denied">ဤဆာဗာဖြင့် တစ်မျိုးတည်းဖြစ်အောင်ပြုလုပ်ရန် ခွင့်ပြုချက် သင် မရရှိပါ။ နောက်ထပ် သတင်းအချက်အလက်အတွက် သင့်ဆာဗာ၏ အုပ်ချုပ်ရေးမှုးကို ဆက်သွယ်ပါ။</string>  
+    <!-- Dialog title when validation requires security provisioning (e.g. support
+         for device lock PIN, or remote wipe.) and we ask the user permission before continuing -->  
+    <string name="account_setup_security_required_title">တသီးတခြားဖြစ်သော လုံခြုံရေး စီမံခန့်ခွဲခြင်း</string>  
+    <!-- Additional diagnostic text when validation requires security provisioning (e.g. support
+         for device lock PIN, or remote wipe.) and we ask the user permission before continuing.
+         [CHAR LIMIT=none] -->  
+    <string name="account_setup_security_policies_required_fmt">ဆာဗာ 
+        <xliff:g id="server">%s</xliff:g> မှ သင့် အန်းဒရိုက် စက်၏ လုံခြုံရေး အသွင်အပြင်အချို့ကို ၎င်းအား အဝေးမှထိန်းချုပ်ခြင်းကို သင် ခွင့်ပြုရန် တောင်းဆိုသည်။ ဤအကောင့်ကို တပ်ဆင်ခြင်းအား ပြီးဆုံးရန် သင် ဆန္ဒရှိပါသလား။
+    </string>  
+    <!-- Additional diagnostic text when validation failed due to required provisioning not
+         being supported [CHAR LIMIT=none] -->  
+    <string name="account_setup_failed_security_policies_unsupported"> 
+        <xliff:g id="error">%s</xliff:g>အပါအဝင်- သင့် အန်းဒရိုက်စက်မှ အထောက်အကူမပေးသော လုံခြုံရေး အစီအစဥ်များကို ဆာဗာမှ တောင်းဆိုသည်
+    </string>  
+    <!-- The user name can only be changed during initial account setup. [CHAR LIMIT=none] -->  
+    <string name="account_setup_username_uneditable_error">အကောင့်တစ်ခု၏ အသုံးပြုသူအမည်ကို သင် မပြောင်းလဲနိုင်ပါ။ ခြားနားသော အသုံးပြူသူအမည်ဖြင့် အကောင့်တစ်ခု ပေါင်းထည့်ရန် အကောင့်ပေါင်းထည့်ခြင်းကို ထိပါ။</string>  
+    <!-- Warning given to users when they request disabling device administration (i.e. that their
+         administered accounts will be deleted) [CHAR LIMIT=none] -->  
+    <string name="disable_admin_warning">သတိပေးချက် - သင့်စက်ကို အုပ်ချုပ်ရန် အီးမေး(လ်) လုပ်ငန်းသုံး ပရိုဂရမ်အခွင့်အား အသက်ဝင်အောင် မပြုလုပ်ခြင်းသည် ၎င်းတို့၏ အီးမေး(လ်)၊ အဆက်အသွယ်များ၊ ပြက္ခဒိန် ဖြစ်ရပ်များ နှင့် အခြားအချက်အလက်များနှင့်အတူ အီးမေး(လ်)အကောင့်များအားလုံးကို ဖျက်ပစ်လိမ့်မည်။</string>  
+    <!-- Dialog shown when the account requires some amount of device security provisioning,
+         just before jumping into system settings such as Device Policy grant, PIN/password,
+         or encryption setup.  [CHAR_LIMIT=40] -->  
+    <string name="account_security_dialog_title">လုံခြုံရေး အသစ်ပြင်ဆင်မှု</string>  
+    <!-- Additional diagnostic text when the account requires some amount of device security
+         provisioning, just before jumping into system settings such as Device Policy grant,
+         PIN/password, or encryption setup.  [CHAR LIMIT=none] -->  
+    <string name="account_security_dialog_content_fmt">သင်၏ လုံခြုံရေး အပြင်အဆင်များကို အသစ်ပြင်ဆင်မှုပြုလုပ်ရန် 
+        <xliff:g id="account">%s</xliff:g> မှ လိုအပ်သည်။
+    </string>  
+    <!-- Notification ticker when device security required (note: unused in Holo XL) -->  
+    <string name="security_notification_ticker_fmt">အကောင့် \" 
+        <xliff:g id="account">%s</xliff:g>\" မှ လုံခြုံရေး အပြင်အဆင်များကို အသစ်ပြင်ဆင်မှုပြုလုပ်ရန် လိုအပ်သည်။
+    </string>  
+    <!-- Notification content title when device security required [CHAR_LIMIT=30] -->  
+    <string name="security_notification_content_title">လုံခြုံရေး အသစ်ပြင်ဆင်မှု လိုအပ်ခဲ့သည်</string>  
+    <!-- Title of the activity that dispatches changes to device security.  Not normally seen. -->  
+    <string name="account_security_title">စက် လုံခြုံရေး</string>  
+    <!-- Additional diagnostic text when the email app asserts control of the phone.
+        [CHAR LIMIT=none] -->  
+    <string name="account_security_policy_explanation_fmt">ဆာဗာ 
+        <xliff:g id="server">%s</xliff:g> မှ သင့် အန်းဒရိုက် စက်၏ လုံခြုံရေး အသွင်အပြင်အချို့ကို ၎င်းအား အဝေးမှထိန်းချုပ်ခြင်းကို သင် ခွင့်ပြုရန် တောင်းဆိုသည်။
+    </string>  
+    <!-- "Setup could not finish" dialog action button -->  
+    <string name="account_setup_failed_dlg_edit_details_action">အသေးစိတ် ပြင်ဆင်သည်</string>  
+    <!-- Notification ticker when device password is getting ready to expire [CHAR_LIMIT=80] -->  
+    <string name="password_expire_warning_ticker_fmt">သင်၏ လော့(ခ်)ချထားသော ဖန်သားပြင် PIN သို့မဟုတ် စကားဝှက်ကို ပြောင်းလဲရန် \" 
+        <xliff:g id="account">%s</xliff:g>\" မှ တောင်းဆိုသည်။
+    </string>  
+    <!-- Notification content title when device password is getting ready to expire
+            [CHAR_LIMIT=30] -->  
+    <string name="password_expire_warning_content_title">လော့(ခ်)ချထားသော ဖန်သားပြင် စကားဝှက် သက်တမ်းကုန်နေသည်</string>  
+    <!-- Notification ticker when device password has expired [CHAR_LIMIT=80] -->  
+    <string name="password_expired_ticker">သင်၏ လော့(ခ်)ချထားသော ဖန်သားပြင် PIN သို့မဟုတ် စကားဝှက် သက်တမ်းကုန်ပြီ။</string>  
+    <!-- Notification content title when device password has expired [CHAR_LIMIT=28] -->  
+    <string name="password_expired_content_title">လော့(ခ်)ချထားသောဖန်သားပြင် စကားဝှက် သက်တမ်းကုန်ခဲ့သည်</string>  
+    <!-- Dialog title if device pin/password is going to expire soon. [CHAR_LIMIT=40] -->  
+    <string name="password_expire_warning_dialog_title">လော့(ခ်)ချထားသောဖန်သားပြင် စကားဝှက် သက်တမ်းကုန်နေသည်</string>  
+    <!-- Dialog content device pin/password is going to expire soon. [CHAR_LIMIT=none] -->  
+    <string name="password_expire_warning_dialog_content_fmt">သင်၏ လော့(ခ်)ချထားသောဖန်သားပြင် PIN သို့မဟုတ် စကားဝှက်ကို မကြာမီ သင် ပြောင်းရမည်၊ သို့မဟုတ် 
+        <xliff:g id="account">%s</xliff:g> အတွက် အချက်အလက်ကို ဖျက်ပစ်လိမ့်မည်။ ယခု ထိုအရာကို ပြောင်းမည်လား။
+    </string>  
+    <!-- Dialog title if device pin/password has already expired. [CHAR_LIMIT=40] -->  
+    <string name="password_expired_dialog_title">လော့(ခ်)ချထားသော ဖန်သားပြင် စကားဝှက် သက်တမ်းကုန်ခဲ့သည်</string>  
+    <!-- Dialog content device pin/password has already expired. [CHAR_LIMIT=none] -->  
+    <string name="password_expired_dialog_content_fmt"> 
+        <xliff:g id="account">%s</xliff:g> အတွက် အချက်အလက်သည် သင်၏ စက်မှ ဖျက်ပစ်ခြင်းခံရသည်။ သင်၏ လော့(ခ်)ချထားသော ဖန်သားပြင် PIN သို့မဟုတ် စကားဝှက်ကို ပြောင်းလဲခြင်းအားဖြင့် ထိုအရာကို သင် ပြန်လည်ထားရှိနိုင်သည်။ ယခု ထိုအရာကို ပြောင်းမည်လား။
+    </string>  
+    <!-- On AccountSettingsXL, dialog text if you try to exit in/out/eas fragment (server settings)
+         without checking/saving [CHAR LIMIT=none]-->  
+    <string name="account_settings_exit_server_settings">သိမ်းဆည်းမထားသော ပြောင်းလဲမှုများကို ပယ်ဖျက်မည်လား။</string>  
+    <!-- On AccountSettingsXL, dialog title if you were brought here due to a login failure.
+        [CHAR_LIMIT=40] -->  
+    <string name="account_settings_login_dialog_title">အကောင့်သို့ မဝင်နိုင်ခဲ့ပါ</string>  
+    <!-- On AccountSettingsXL, dialog content if you were brought here due to a login failure.
+        [CHAR_LIMIT=none] -->  
+    <string name="account_settings_login_dialog_content_fmt"> 
+        <xliff:g id="account">%s</xliff:g> အတွက် အသုံးပြုသူအမည် သို့မဟုတ် စကားဝှက် သည် မမှန်ကန်ပါ။ ယခု သူတို့အား အသစ်ပြင်ဆင်မှု လုပ်မည်လား။
+    </string>  
+    <!-- On Settings screen, setting option name -->  
+    <string name="account_settings_default_label">အကောင့် သတ်မှတ်ထားသည်</string>  
+    <!-- Check box "summary" label on "Account options" screen to make this the default account -->  
+    <!-- Note, this should usually match the default account account setup checkbox string -->  
+    <string name="account_settings_default_summary">သတ်မှတ်ထားခြင်းဖြင့် ဤအကောင့်မှ အီးမေး(လ်) ပေးပို့သည်</string>  
+    <!-- On Settings screen, setting option name -->  
+    <!-- Title of account preference for downloading attachments in background [CHAR LIMIT=32] -->  
+    <string name="account_settings_background_attachments_label">ပူးတွဲများ ဒေါင်းလုပ်(ခ်) လုပ်သည်</string>  
+    <!-- Summary of account preference for downloading attachments in background [CHAR LIMIT=64] -->  
+    <string name="account_settings_background_attachments_summary">ဝိုင်-ဖိုင် မှတစ်ဆင့် မကြာသေးမီက ပူးတွဲ မက်ဆေ့(ခ်ျ)များကို အလိုအလျောက် ဒေါင်းလုပ်(ခ်) လုပ်သည်</string>  
+    <string name="account_settings_notify_label">အီးမေး(လ်) အကြောင်းကြားချက်များ</string>  
+    <!-- On Settings screen, summary line when called via AccountManager for Exchange accounts
+        [CHAR LIMIT=50] -->  
+    <string name="account_settings_summary">ကြိမ်နှုန်း တစ်မျိုးတည်းဖြစ်အောင်ပြုလုပ်ခြင်း၊ အကြောင်းကြားချက်များ စသည်။</string>  
+    <!-- On Settings screen, setting summary text -->  
+    <string name="account_settings_notify_summary">အီးမေး(လ်) ရောက်ရှိသောအခါ စနစ် ဘားတွင် အကြောင်းကြားသည်</string>  
+    <!-- On Settings screen, setting option name and title of dialog box that opens -->  
+    <string name="account_settings_mail_check_frequency_label">အဝင်စာပုံး ကြိမ်နှုန်း စစ်ဆေးသည်</string>  
+    <!-- On Settings screen, setting option name -->  
+    <string name="account_settings_incoming_label">အဝင် အပြင်အဆင်များ</string>  
+    <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->  
+    <string name="account_settings_incoming_summary">အသုံးပြုသူ အမည်၊ စကားဝှက် နှင့် အခြား အဝင် ဆာဗာ အပြင်အဆင်များ</string>  
+    <!-- On Settings screen, setting option name -->  
+    <string name="account_settings_outgoing_label">အထွက် အပြင်အဆင်များ</string>  
+    <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->  
+    <string name="account_settings_outgoing_summary">အသုံးပြုသူ အမည်၊ စကားဝှက် နှင့် အခြား အထွက် ဆာဗာ အပြင်အဆင်များ</string>  
+    <!-- On Settings screen, setting option name -->  
+    <string name="account_settings_description_label">အကောင့် အမည်</string>  
+    <!-- On Settings screen, setting option name -->  
+    <string name="account_settings_name_label">သင်၏ အမည်</string>  
+    <!-- On Settings screen, setting option name -->  
+    <string name="account_settings_signature_label">လက်မှတ်</string>  
+    <!-- On Settings screen, setting option name. Allows user to modify saved quick responses
+        for insertion in message body. [CHAR_LIMIT=24]-->  
+    <string name="account_settings_edit_quick_responses_label">လျင်မြန်စွာ တုံ့ပြန်ခြင်းများ</string>  
+    <!-- On Settings screen, setting option summary [CHAR LIMIT=64] -->  
+    <string name="account_settings_edit_quick_responses_summary">အီးမေး(လ်)များ ရေးသားနေသောအခါ သင် မကြာခဏ ထည့်သွင်းသော စာသားကို ပြင်ဆင်သည်</string>  
+    <!-- On Settings screen, setting option name -->  
+    <string name="account_settings_signature_hint">သင် ပေးပို့သည့် မက်ဆေ့(ခ်ျ)များသို့ ဖြည့်စွက်ရေးသွင်းခြင်း စာသား</string>  
+    <!-- On Settings screen, section heading -->  
+    <string name="account_settings_notifications">အကြောင်းကြားချက် အပြင်အဆင်များ</string>  
+    <!-- On Settings screen, section heading for data usage [CHAR LIMIT=70] -->  
+    <string name="account_settings_data_usage">အချက်အလက် အသုံးပြုခြင်း</string>  
+    <!-- On settings screen, dialog heading informing user to edit a quick response -->  
+    <string name="edit_quick_response_dialog">လျင်မြန်စွာ တုံ့ပြန်ခြင်း ပြင်ဆင်သည်</string>  
+    <!-- On settings screen, edit quick response dialog's "save" button -->  
+    <string name="save_action">သိမ်းသည်</string>  
+    <!-- On settings screen, sync contacts check box label [CHAR LIMIT=20]-->  
+    <string name="account_settings_sync_contacts_enable">အဆက်အသွယ်များ တစ်မျိုးတည်းဖြစ်အောင်ပြုလုပ်သည်</string>  
+    <!-- On settings screen, sync contacts summary text [CHAR LIMIT=35] -->  
+    <string name="account_settings_sync_contacts_summary">ဤအကောင့်အတွက် အဆက်အသွယ်များ တစ်မျိုးတည်းဖြစ်အောင်ပြုလုပ်သည်</string>  
+    <!-- On settings screen, sync calendar check box label [CHAR LIMIT=20]-->  
+    <string name="account_settings_sync_calendar_enable">ပြက္ခဒိန် တစ်မျိုးတည်းဖြစ်အောင်ပြုလုပ်သည်</string>  
+    <!-- On settings screen, sync calendar summary text [CHAR LIMIT=35] -->  
+    <string name="account_settings_sync_calendar_summary">ဤအကောင့်အတွက် ပြက္ခဒိန် တစ်မျိုးတည်းဖြစ်အောင်ပြုလုပ်သည်</string>  
+    <!-- On settings screen, sync email check box label [CHAR LIMIT=20]-->  
+    <string name="account_settings_sync_email_enable">အီးမေး(လ်) တစ်မျိုးတည်းဖြစ်အောင်ပြုလုပ်သည်</string>  
+    <!-- On settings screen, sync email summary text [CHAR LIMIT=35] -->  
+    <string name="account_settings_sync_email_summary">ဤအကောင့်အတွက် အီးမေး(လ်) တစ်မျိုးတည်းဖြစ်အောင်ပြုလုပ်သည်</string>  
+    <!-- On Settings screen, vibrate pop-up menu label -->  
+    <string name="account_settings_vibrate_when_label">တုန်ခါသည်</string>  
+    <!-- On Settings screen, vibrate pop-up menu summary text -->  
+    <string name="account_settings_vibrate_when_summary">အီးမေး(လ်) ရောက်ရှိသောအခါလည်း တုန်ခါသည်</string>  
+    <!-- On Settings screen, vibrate pop-up menu option "always" text -->  
+    <string name="account_settings_vibrate_when_always">အမြဲတမ်း</string>  
+    <!-- On Settings screen, vibrate pop-up menu option "silent" text -->  
+    <string name="account_settings_vibrate_when_silent">အသံတိတ်သောအခါသာ</string>  
+    <!-- On Settings screen, vibrate pop-up menu option "never" text -->  
+    <string name="account_settings_vibrate_when_never">ဘယ်သောအခါမှ</string>  
+    <!-- Dialog title for the Vibrate dialog -->  
+    <string name="account_settings_vibrate_when_dlg_title">တုန်ခါသည်</string>  
+    <!-- On Settings screen, setting option name -->  
+    <string name="account_settings_ringtone">ဖုန်းမြည်သံ ရွေးချယ်သည်</string>  
+    <!-- On Settings screen, section heading -->  
+    <string name="account_settings_servers">ဆာဗာ အပြင်အဆင်များ</string>  
+    <!-- Title of Remove account confirmation dialog box -->  
+    <string name="account_delete_dlg_title">အကောင့်ကို ဖယ်ရှားသည်</string>  
+    <!-- Message of Remove account confirmation dialog box -->  
+    <string name="account_delete_dlg_instructions_fmt">အီးမေး(လ်) မှ အကောင့် \" 
+        <xliff:g id="account">%s</xliff:g>\" ကို ဖယ်ရှားခြင်းခံရလိမ့်မည်။
+    </string>  
+    <!-- On Settings screen, section heading for delete account [CHAR LIMIT=none] -->  
+    <string name="account_settings_category_delete_account">အကောင့်ကို ဖယ်ရှားသည်</string>  
+    <!-- On Settings screen, settings option for delete account [CHAR LIMIT=none] -->  
+    <string name="account_settings_delete_account_label">အကောင့်ကို ဖယ်ရှားသည်</string>  
+    <!-- Mailbox settings activity title [CHAR LIMIT=none] -->  
+    <string name="mailbox_settings_activity_title">တစ်မျိုးတည်းဖြစ်အောင်ပြုလုပ်ခြင်း ရွေးချယ်စရာများ</string>  
+    <!-- Mailbox settings activity title, with the target folder name [CHAR LIMIT=none] -->  
+    <string name="mailbox_settings_activity_title_with_mailbox">တစ်မျိုးတည်းဖြစ်အောင်ပြုလုပ်ခြင်း ရွေးချယ်စရာများ ( 
+        <xliff:g id="mailboxx_name" example="Family">%s</xliff:g>)
+    </string>  
+    <!-- Mailbox "sync settings" preference header [CHAR LIMIT=none] -->  
+    <string name="mailbox_preferences_header">တစ်မျိုးတည်းဖြစ်အောင်ပြုလုပ်ခြင်း အပြင်အဆင်များ</string>  
+    <!-- On mailbox settings screen: Mailbox check frequency setting label [CHAR LIMIT=none] -->  
+    <string name="mailbox_settings_mailbox_check_frequency_label">ကြိမ်နှုန်း စစ်ဆေးသည်</string>  
+    <!-- On mailbox settings screen: Mailbox sync window (the number of days to synchronize email for) setting label [CHAR LIMIT=none] -->  
+    <string name="mailbox_settings_mailbox_sync_window_label">တစ်မျိုးတည်းဖြစ်အောင်ပြုလုပ်ရန် ရက်များ</string>  
+    <!-- Strings used for account shortcut picker -->  
+    <!-- String displayed in launcher [CHAR_LIMIT=10] -->  
+    <string name="account_shortcut_picker_name">အီးမေး(လ်) အကောင့်</string>  
+    <!-- Title of the account list for the shortcut picker [CHAR_LIMIT=20] -->  
+    <string name="account_shortcut_picker_title">အကောင့်တစ်ခု ရွေးချယ်သည်</string>  
+    <!-- Title of mailbox list for the shortcut picker [CHAR_LIMIT=20] -->  
+    <string name="mailbox_shortcut_picker_title">ဖို(လ်)ဒါ တစ်ခု ရွေးချယ်သည်</string>  
+    <!-- Toast shown when the selected account no longer exists.  This is used when, for example,
+         a shotcut or a widget is stale and points at a deleted account.
+         [CHAR_LIMIT=none]-->  
+    <string name="toast_account_not_found">အကောင့်ကို ရှာမတွေ့ခဲ့ပါ။ ၎င်းကို ဖယ်ရှားခဲ့ပြီးပြီ ဖြစ်မည်။</string>  
+    <!-- Toast shown when the selected folder no longer exists.  This is used when, for example,
+         a shotcut or a widget is stale and points at a deleted folder.
+         [CHAR_LIMIT=none]-->  
+    <string name="toast_mailbox_not_found">ဖို(လ်)ဒါကို ရှာမတွေ့ခဲ့ပါ။ ၎င်းကို ဖယ်ရှားခဲ့ပြီးပြီ ဖြစ်မည်။</string>  
+    <!-- Message that appears when adding a Windows Live Hotmail Plus account -->  
+    <string name="provider_note_live">\"Plus\" အကောင့် အချို့သာ ဤအစီအစဥ်သို့ ချိတ်ဆက်ရန် POP ဝင်ရောက်မှု ခွင့်ပြုခြင်း ပါဝင်သည် ။အကယ်၍ သင်၏ အီးမေး(လ်) လိပ်စာနှင့် စကားဝှက် အမှန်ဖြင့် မဝင်ရောက်နိုင်ပါက ငွေပေးသွင်းပြီးဖြစ်သော \"Plus\" အကောင့်ကို သင် ရရှိမည် မဟုတ်ပါ။ ထိုအီးမေး(လ်) အကောင့်များသို့ ဝင်ရောက်မှု ရရှိရန် ဝက်(ဘ်) ဘရောက်ဆာကို စတင်သည်။</string>  
+    <!-- Message that appears when adding a T-Online account -->  
+    <string name="provider_note_t_online">ဤအီးမေး(လ်) အကောင့်ကို အပြင်အဆင်များ မပြုလုပ်မီ၊ T-အွန်လိုင်း ဝက်(ဘ်)ဆိုဒ် ကို သွားရောက်ပြီး POP3 အီးမေး(လ်) ဝင်ရောက်မှုအတွက် စကားဝှက် ဖန်တီးပါ။</string>  
+    <!-- Name of Microsoft Exchange account type; used by AccountManager -->  
+    <string name="exchange_name">ပေါင်းစည်းထားသော</string>  
+    <!-- Name of Microsoft Exchange account type; used by AccountManager -->  
+    <string name="exchange_name_alternate">မိုက်ခရိုဆော့(ဖ်)ကို သက်ဝင်လှုပ်ရှားမှုရှိသော တစ်မျိုးတည်းဖြစ်အောင်ပြုလုပ်ခြင်း လဲလှယ်သည်</string>  
+    <!-- Message that appears if the AccountManager cannot create the system Account -->  
+    <string name="system_account_create_failed">အကောင့်ကို ဖန်းတီးမရနိုင်ပါ။ နောက်တစ်ကြိမ် ကြိုးစားပါ။</string>  
+    <!-- Strings that support the DeviceAdmin / DevicePolicyManager API -->  
+    <!-- Name of the DeviceAdmin (seen in settings & in user confirmation screen) -->  
+    <string name="device_admin_label">အီးမေး(လ်)</string>  
+    <!-- Long-form description of the DeviceAdmin (2nd line in settings & in user conf. screen) -->  
+    <string name="device_admin_description">ဆာဗာ- တိကျသော လုံခြုံရေး မူဝါဒ စတင်လုပ်ဆောင်သည်</string>  
+    <!-- Strings used for GAL access -->  
+    <!-- Displayed in small separator in to/cc/bcc dropdowns, when searching GAL begins.
+         Example:  "Searching bigcompany.com..." -->  
+    <string name="gal_searching_fmt">ရှာဖွေနေသည် 
+        <xliff:g id="domain">%s</xliff:g>\u2026
+    </string>  
+    <!-- Displayed in small separator in to/cc/bcc dropdowns, when searching GAL completes,
+         and all of the server results are being displayed.  Example:
+         "5 results from bigcompany.com..."  -->  
+    <plurals name="gal_completed_fmt"> 
+        <!-- Case of one result from server. -->  
+        <item quantity="one"> 
+            <xliff:g id="domain">%2$s</xliff:g> မှ ရလဒ် 
+            <xliff:g id="results" example="1">%1$d</xliff:g> 
+        </item>  
+        <!-- Case of multiple results from server -->  
+        <item quantity="other"> 
+            <xliff:g id="domain">%2$s</xliff:g> မှ ရလဒ်များ 
+            <xliff:g id="results" example="20">%1$d</xliff:g> 
+        </item> 
+    </plurals>  
+    <!-- Settings activity title [CHAR LIMIT=40]-->  
+    <string name="settings_activity_title">အပြင်အဆင်များ</string>  
+    <!-- General Preferences Screen -->  
+    <!-- Label in preferences header to describe general preferences [CHAR LIMIT=32] -->  
+    <string name="header_label_general_preferences">ယေဘုယျ</string>  
+    <!-- First category in general preferences [CHAR LIMIT=64] -->  
+    <string name="category_general_preferences">လုပ်ငန်းသုံး ပရိုဂရမ်</string>  
+    <!-- General preference: Label of the setting for the direction to move to
+         when deleting the current message.
+         Options contain "newer message","older message", etc. [CHAR LIMIT=32] -->  
+    <string name="general_preference_auto_advance_label">အလိုအလျောက်-တိုးတက်မှု</string>  
+    <!-- General preference: Description of the setting for the direction to move to
+         when deleting the current message.
+         Options contain "newer message","older message", etc. [CHAR LIMIT=64] -->  
+    <string name="general_preference_auto_advance_summary">သင် မက်ဆေ့(ခ်ျ)တစ်ခုကို ဖျက်ပြီးနောက် မည်သည့်ဖန်သားပြင်ကို ပြရန် ရွေးချယ်သည်</string>  
+    <!-- General preference: Title of the dialog box containing options for setting for
+         the direction to move to when deleting the current message.
+         Options contain "newer message","older message", etc. [CHAR LIMIT=32] -->  
+    <string name="general_preference_auto_advance_dialog_title">တိုးတက်မှု သို့</string>  
+    <!-- General preference: Option for the setting for
+         the direction to move to when deleting the current message.
+         This option is for "move to the newer message" [CHAR LIMIT=32] -->  
+    <string name="general_preference_auto_advance_newer">မက်ဆေ့(ခ်ျ) အသစ်</string>  
+    <!-- General preference: Option for the setting for
+         the direction to move to when deleting the current message.
+         This option is for "move to the older message" [CHAR LIMIT=32] -->  
+    <string name="general_preference_auto_advance_older">မက်ဆေ့(ခ်ျ) အဟောင်း</string>  
+    <!-- General preference: Option for the setting for
+         the direction to move to when deleting the current message.
+         This option is for "move back to the message list" [CHAR LIMIT=32] -->  
+    <string name="general_preference_auto_advance_message_list">မက်ဆေ့(ခ်ျ) စာရင်း</string>  
+    <!-- General preference: Label of the setting for the text zoom.  [CHAR LIMIT=32] -->  
+    <string name="general_preference_text_zoom_label">မက်ဆေ့(ခ်ျ) စာသား အရွယ်အစား</string>  
+    <!-- General preference: Description of each setting for text zoom.  The entries here must
+         correspond to the strings general_preference_text_zoom_tiny,
+         general_preference_text_zoom_small, general_preference_text_zoom_normal, etc.
+         [CHAR LIMIT=64] -->  
+    <string-array name="general_preference_text_zoom_summary_array"> 
+        <item>အလွန်သေးကွေးသော စာသား</item>  
+        <item>သေးငယ်သော စာသား</item>  
+        <item>ပုံမှန်-အရွယ်အစား စာသား</item>  
+        <item>ကြီးသော စာသား</item>  
+        <item>ကြီးသော စာသား</item> 
+    </string-array>  
+    <!-- The message text size values -->  
+    <string-array translatable="false" name="general_preference_text_zoom_size"> 
+        <item>0.8</item>  
+        <item>0.9</item>  
+        <item>1.0</item>  
+        <item>1.2</item>  
+        <item>1.5</item> 
+    </string-array>  
+    <!-- General preference: Title of the dialog box with options for text zoom. [CHAR LIMIT=32] -->  
+    <string name="general_preference_text_zoom_dialog_title">မက်ဆေ့(ခ်ျ) စာသား အရွယ်အစား</string>  
+    <!-- General preference:  Text zoom.  Value is "tiny" (-2) [CHAR LIMIT=32] -->  
+    <string name="general_preference_text_zoom_tiny">အလွန်သေးကွေးသော</string>  
+    <!-- General preference:  Text zoom.  Value is "small" (-1) [CHAR LIMIT=32] -->  
+    <string name="general_preference_text_zoom_small">သေးငယ်သော</string>  
+    <!-- General preference:  Text zoom.  Value is "normal" (0) [CHAR LIMIT=32] -->  
+    <string name="general_preference_text_zoom_normal">ပုံမှန်</string>  
+    <!-- General preference:  Text zoom.  Value is "large" (+1) [CHAR LIMIT=32] -->  
+    <string name="general_preference_text_zoom_large">ကြီးသော</string>  
+    <!-- General preference:  Text zoom.  Value is "huge" (+2) [CHAR LIMIT=32] -->  
+    <string name="general_preference_text_zoom_huge">ကြီးသော</string>  
+    <!--  Settings screen, Reply to all default setting title  [CHAR LIMIT=30] -->  
+    <string msgid="6469564953937885304" name="general_preference_reply_all_label">အားလုံးကို စာပြန်သည်</string>  
+    <!--  Settings screen, Reply to all default setting summary [CHAR LIMIT=70] -->  
+    <string msgid="3356918650886350497" name="general_preference_reply_all_summary">မက်ဆေ့(ခ်ျ) စာပြန်ရန်အတွက် သတ်မှတ်ထားသော \"Reply all\" ကို ပြုလုပ်သည်</string>  
+    <!-- Settings screen, title used to clear the setting for the list of
+         senders to automatically show pictures for [CHAR LIMIT=80] -->  
+    <string name="general_preferences_clear_trusted_senders_title">ရုပ်ပုံများ ပြရန် မေးသည်</string>  
+    <!-- Settings screen, summary for clearing the settings for the list of
+         senders to automatically show pictures for [CHAR LIMIT=160] -->  
+    <string name="general_preferences_clear_trusted_senders_summary">မက်ဆေ့(ခ်ျ)များအတွင်းမှ ရုပ်ပုံများ အလိုအလျောက် ပြလိမ့်မည် မဟုတ်ပါ</string>  
+    <!-- Message shown in toast when the user taps to clear the lsit of senders
+         to automatically show pictures for [CHAR LIMIT=80] -->  
+    <string name="trusted_senders_cleared">\"Show pictures\" ရှင်းပစ်ခဲ့သည်။</string>  
+    <!-- Generic string for "current position" / "total number" [CHAR LIMIT=12] -->  
+    <string name="position_of_count"> 
+        <xliff:g example="12">%2$s</xliff:g> ၏ 
+        <xliff:g example="1">%1$d</xliff:g> 
+    </string>  
+    <!-- Message shown during the first sync after an account is set up.  [CHAR LIMIT=NONE] -->  
+    <string name="waitinf_for_sync_message_1">တစ်မျိုးတည်းဖြစ်အောင်ပြုလုပ်ခြင်း အတွက် စောင့်ဆိုင်းနေသည်</string>  
+    <!-- Message shown during the first sync after an account is set up.  [CHAR LIMIT=NONE] -->  
+    <string name="waitinf_for_sync_message_2">သင်၏ အီးမေး(လ်) မကြာမီ ပေါ်လာလိမ့်မည်။</string>  
+    <!-- Widget -->  
+    <!-- Instruction for how to move to different widget views [CHAR LIMIT=20] -->  
+    <string name="widget_other_views">ပြောင်းရန် သကေႅတကို ထိပါ။</string>  
+    <!-- Header for the "Combined Inbox" view (showing mail in all inboxes) [CHAR LIMIT=20] -->  
+    <string name="widget_all_mail">ပေါင်းထားသော အဝင်စာပုံး</string>  
+    <!-- Header for the "Unread" widget view (showing all unread mail) [CHAR LIMIT=20] -->  
+    <string name="widget_unread">မဖတ်ရသေးသော</string>  
+    <!-- Header for the "Starred" widget view (showing all starred mail) [CHAR LIMIT=20] -->  
+    <string name="widget_starred">ကြယ်ပြုလုပ်သည်</string>  
+    <!-- Shown when waiting for mail data to be loaded into the widget list view [CHAR LIMIT=20] -->  
+    <string name="widget_loading">တင်နေသည်\u2026</string>  
+    <!-- Shown when no accounts are configured and the widget supports changing
+         on the fly [CHAR LIMIT=35] -->  
+    <string name="widget_touch_to_configure">တပ်ဆင်ရန် ထိပါ။</string>  
+    <!-- Shown in a toast when no accounts are configured and the Email widget
+         cannot be created in the first place [CHAR LIMIT=none] -->  
+    <string name="widget_no_accounts">သင် အီးမေး(လ်)အကောင့်တစ်ခု ယခုထိ တပ်ဆင်နိုင်ခြင်း မရှိပါ။</string>  
+    <!-- Shown in a toast when no mailboxes have synced for the account and the Email widget
+         cannot be created in the first place [CHAR LIMIT=none] -->  
+    <string name="widget_no_mailboxes">ဤအကောင့်ကို တစ်မျိုးတည်းဖြစ်အောင်ပြုလုပ်ခြင်း မရပါ။ နောက်တစ်ကြိမ် နောက်မှ ကြိုးစားပါ။</string>  
+    <!-- Generic string shown instead of regular numbers, when a number is larger than 999.
+         This should not be altered if the original string ("999+") makes sense in the
+         target language. Typical alternatives include "+999" and ">999".  [CHAR_LIMIT=4] -->  
+    <string name="more_than_999">999+</string>  
+    <!-- The hint used in the search box when searching all mailboxes [CHAR LIMIT=35] -->  
+    <string name="search_hint">အီးမေး(လ်) ရှာဖွေသည်</string>  
+    <!-- The hint used in the search box when searching a single mailbox [CHAR LIMIT=35] -->  
+    <string name="search_mailbox_hint">ရှာဖွေသည် 
+        <xliff:g example="Inbox">%1$s</xliff:g> 
+    </string>  
+    <!-- The title above the messages list when showing search results. [CHAR LIMIT=50] -->  
+    <string name="search_header_text_fmt">ရလဒ်များ</string>  
+    <!-- A warning title to show to the user when search results are taking a long
+         time. [CHAR LIMIT=NONE] -->  
+    <string name="search_slow_warning_title">ရလဒ်များ အတွက် စောင့်နေသည်</string>  
+    <!-- A warning message to show to the user when search results are taking a long
+         time. [CHAR LIMIT=NONE] -->  
+    <string name="search_slow_warning_message">အချို့ ဆာဗာများသည် အချိန်အတော်ကြာယူလိမ့်မည်။</string>  
+    <!-- Title shown on the action bar on the mailbox list screen. [CHAR LIMIT=16] -->  
+    <string name="action_bar_mailbox_list_title">ဖို(လ်)ဒါများ</string>    
+    <!-- This is the message warning the user that they must sync manually when roaming. [CHAR LIMIT=none]-->  
+    <string name="require_manual_sync_message">ဤအကောင့်အတွက် နောက်ခံ တစ်မျိုးတည်းဖြစ်အောင်ပြုလုပ်ခြင်းသည် အခြားနိုင်ငံများ တွင်လည်း သုံးနိုင်သော ဖုန်းလိုင်းစနစ်လုပ်နေစဥ်တွင် စတင်မလုပ်ဆောင်နိုင်ပါ။</string> 
+</resources>

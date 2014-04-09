@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_advanced_settings">고급 설정</string>  
+    <!-- Bluetooth settings.  The user-visible string that is used whenever referring to the FTP profile. -->  
+    <string name="bluetooth_profile_ftp">파일 전송</string>  
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the FTP checkbox preference that describes how checking it will set the FTP profile as preferred. -->  
+    <string name="bluetooth_ftp_profile_summary_use_for">파일 전송에 사용</string>  
+    <string name="bluetooth_ftp_profile_summary_connected">"파일 전송에 연결됨"</string>  
+    <string name="mtp_transfer_unmount_error_text">파일 전송 중 SD 카드를 탑재 해제할 수 없음</string>  
+    <string name="mtp_transfer_erase_error_text">파일 전송 중 SD 카드를 지울 수 없음</string>  
+    <string name="launch_error">"애플리케이션을 시작할 수 없습니다!"</string>  
+    <string name="dlg_confirm_unmount_usb_title" product="default">USB 저장장치를 탑재 해제하시겠습니까?</string>  
+    <string name="dlg_confirm_unmount_usb_text" product="default">USB 저장장치를 탑재 해제할 경우 사용 중인 일부 앱이 정지하고 USB 저장장치를 다시 장착할 때까지 사용할 수 없습니다.</string>  
+    <string name="dlg_error_unmount_usb_title" product="default"/>  
+    <string name="dlg_error_unmount_usb_text" product="default">USB 저장장치를 탑재 해제할 수 없습니다. 나중에 다시 시도하십시오.</string>  
+    <string name="unmount_usb_inform_text" product="default">USB 저장장치를 탑재 해제합니다.</string>  
+    <string name="sd_eject_usbstorage" product="default">USB 저장장치 탑재 해제</string>  
+    <string name="sd_eject_usbstorage_summary" product="default">안전하게 제거할 수 있도록 USB 저장장치 탑재 해제</string>  
+    <string name="sd_mount_usbstorage" product="default">USB 저장장치 탑재</string>  
+    <string name="sd_insert_usb_summary" product="default">탑재를 위해 USB 저장장치 삽입</string>  
+    <!-- Storage setting.  Title for UMS checkbox [CHAR LIMIT=30]-->  
+    <string name="usb_ums_title">USB 저장장치</string>  
+    <!-- Storage setting.  Summary for UMS checkbox [CHAR LIMIT=NONE]-->  
+    <string name="usb_ums_summary">"XP 권장. 컴퓨터와 안드로이드 USB 저장장치 간에 파일을 전송하십시오."</string>  
+    <string name="usb_charge_title">충전만</string>  
+    <string name="usb_charge_summary">모든 USB 기능을 정지하십시오. USB 충전 속도를 높이고 전원 소비량을 줄이십시오.</string>  
+    <!-- Agps Settings -->  
+    <string name="NI_Request_ID">요청자 ID</string>  
+    <string name="NI_Request_ClientName">클라이언트 이름</string>  
+    <string name="agps_str_verify">유효성 검사</string>  
+    <string name="agps_str_notify">알림</string>  
+    <string name="EM_NotifyDialog_title">EM 알림</string>  
+    <string name="agps_OK">확인</string>  
+    <string name="agps_str_allow">허용</string>  
+    <string name="agps_str_deny">거부</string>  
+    <string name="agps_str_error">오류</string>  
+    <string name="AGPS_DEFAULT_STRING">A-GPS 기본 문자열</string>  
+    <string name="AGPS_CAUSE_NETWORK_CREATE_FAIL">네트워크 만들기 실패</string>  
+    <string name="AGPS_CAUSE_BAD_PUSH_CONTENT">잘못된 PUSH 내용</string>  
+    <string name="AGPS_CAUSE_NOT_SUPPORTED">지원되지 않은 작업</string>  
+    <string name="AGPS_CAUSE_REQ_NOT_ACCEPTED">요청이 수락되지 않음</string>  
+    <string name="AGPS_CAUSE_NO_RESOURCE">새 프로세스를 처리할 리소스가 없음</string>  
+    <string name="AGPS_CAUSE_NETWORK_DISCONN">네트워크 연결이 끊김</string>  
+    <string name="AGPS_CAUSE_REMOTE_ABORT">원격측에서 세션 중단(SUPL END 수신)</string>  
+    <string name="AGPS_CAUSE_TIMER_EXPIRY">특정 시간 간격 동안 메시지 회신 없음 예상</string>  
+    <string name="AGPS_CAUSE_REMOTE_MSG_ERROR">잘못된 메시지 내용 수신</string>  
+    <string name="AGPS_CAUSE_USER_AGREE">확인에 대한 사용자 동의</string>  
+    <string name="AGPS_CAUSE_USER_DENY">확인에 대한 사용자 거부</string>  
+    <string name="AGPS_CAUSE_NO_POSITION">NO 위치에만 해당</string>  
+    <string name="AGPS_CAUSE_TLS_AUTH_FAIL">TLS 인증 실패</string>  
+    <string name="USER_RESPONSE_TIMEOUT">유효성 검사 대기 시간종료</string>  
+    <string name="AGPS_EM_RECV_SI_REQ">SI 요청이 수신됨</string>  
+    <string name="AGPS_EM_POS_FIXED">위치가 고정됨</string>  
+    <string name="AGPS_NOTIFY_ONLY">위치 요청 알림</string>  
+    <string name="AGPS_NOTIFY_ALLOW_NO_ANSWER">위치 요청(응답이 없으면 허용)</string>  
+    <string name="AGPS_NOTIFY_DENY_NO_ANSWER">위치 요청(응답이 없으면 거부)</string>  
+    <string name="AGPS_NOTIFY_PRIVACY">위치 요청(개인정보보호)</string>  
+    <string name="epo_entrance_title">EPO 설정</string>  
+    <string name="epo_entrance_summary">클릭하여 EPO 구성 수정</string>  
+    <string name="agps_settings_title">A-GPS 설정</string>  
+    <string name="epo_enable_confirm_title">EPO 사용 확인</string>  
+    <string name="epo_enable_confirm_message">별도의 네트워크 요금을 청구할 수 있는 GPS 지원 데이터(EPO)를 획득하려면 무선 데이터 연결이 필요합니다. GPS 지원을 켜시겠습니까?</string>  
+    <string name="epo_enable_confirm_allow">계속</string>  
+    <string name="epo_enable_confirm_deny">취소</string>  
+    <string name="agps_enable_confirm_title">A-GPS 사용 확인</string>  
+    <string name="agps_enable_confirm">별도의 네트워크 요금을 청구할 수 있는 지원 데이터를 획득하려면 무선 데이터 연결이 필요합니다. A-GPS를 켜시겠습니까?</string>  
+    <string name="agps_enable_confirm_allow">계속</string>  
+    <string name="agps_enable_confirm_deny">취소</string>  
+    <string name="epo_enable_title">GPS EPO 지원</string>  
+    <string name="epo_enable_summary">GPS 지원 데이터(EPO)를 사용하여 GPS 포지셔닝 속도를 높입니다.</string>  
+    <string name="agps_settings_enable_on">GPS는 무선 데이터 연결을 통해 지원 데이터를 사용하여 위치의 고정 시간 속도를 높일 수 있음</string>  
+    <string name="agps_settings_enable_off">지원 데이터를 사용하여 GPS에서 위치의 고정 시간 속도를 높임</string>  
+    <string name="agps_settings_eng_enable">A-GPS 설정</string>  
+    <string name="agps_settings_eng_summary">A-GPS 설정 설정</string>  
+    <string name="agps_disable_on_reboot">재부팅 후 사용 안함</string>  
+    <string name="agps_disable_on_reboot_summary">재부팅 후 A-GPS 성능 사용 안함</string>  
+    <string name="Network_Initiate">네트워크 요청</string>  
+    <string name="Network_Initiate_Summary_on">네트워크의 위치 요청 허용</string>  
+    <string name="Network_Initiate_Summary_off">네트워크의 위치 요청 거부</string>  
+    <string name="Network_Used">사용 중인 네트워크</string>  
+    <string name="agps_profile_select">프로필 선택기</string>  
+    <string name="agps_profile_SLP_address_editbox_title">SLP 주소</string>  
+    <string name="port_title">SLP 포트</string>  
+    <string name="tls_summary_off">TLS가 꺼짐</string>  
+    <string name="tls_summary_on">TLS가 켜짐</string>  
+    <string name="MobileNetwork_Category">모바일 네트워크</string>  
+    <string name="AgpsHelp_Category">도움말</string>  
+    <string name="about_agps_title">A-GPS 정보</string>  
+    <string name="about_agps_message">\t A-GPS(지원-GPS)는 GPS 위성의 시작 성능과 초기위치결정시간(TTFF)을 향상시킬 수 있는 시스템입니다. \n\t A-GPS 사용 가능 장치는 모바일 네트워크 데이터 연결을 통해 위치 서버에 연결하여 지원 데이터를 획득할 수 있습니다. \n\t 데이터 트래픽은 네트워크 로밍 조건에서 별도의 요금을 청구할 수 있습니다. 자세한 내용은 운영업체에 문의하십시오.</string>  
+    <string name="epo_auto_download_title">자동 다운로드</string>  
+    <string name="epo_auto_download_summary">위성 위치 데이터를 자동으로 다운로드함</string>  
+    <string name="epo_info_title">EPO 파일 정보</string>  
+    <string name="epo_download_time_title">다운로드 시간</string>  
+    <string name="epo_download_time_summary">사용할 수 없음</string>  
+    <string name="epo_start_time_title">시작 시간</string>  
+    <string name="epo_start_time_summary">사용할 수 없음</string>  
+    <string name="epo_expire_time_title">만료 시간</string>  
+    <string name="epo_expire_time_summary">사용할 수 없음</string>  
+    <string name="epo_about_title">EPO 정보</string>  
+    <string name="epo_about_message">\tEPO(확장 예측 궤도)는 MediaTek의 혁신적인 오프라인 서버 기반 A-GPS 등록 기술 중 하나입니다. \n\t최대 30일간 위성 궤도 예측을 지원하는 이 기술은 GPS 초기위치결정시간(TTFF)을 향상시켜 사용자 경험을 대폭 개선하는 데 사용됩니다.</string>  
+    <string name="Network_Local_and_Roaming_Summary">가정 및 로밍 네트워크 모두에서 A-GPS 사용</string>  
+    <string name="Network_Only_Local_Summary">가정용 네트워크에서만 A-GPS 사용</string>  
+    <string name="MobileNetwork_DataConn_off">데이터 연결이 꺼짐</string>  
+    <string name="MobileNetwork_off_Summary">A-GPS를 사용하기 전에 데이터 연결을 켜십시오</string>  
+    <string name="WiFiNetwork_on_title">Wi-Fi가 작동 중</string>  
+    <string name="MobileNetwork_on_Summary">A-GPS가 데이터 연결을 통해 모바일 네트워크에 액세스해야 함</string>  
+    <string name="MobileNetwork_SIM_Active">SIM 
+        <xliff:g id="active_sim_id">%1$s</xliff:g>이(가) 작동 중
+    </string>  
+    <string name="Network_Roaming_dialog_title">주의</string>  
+    <string name="Network_Roaming_dialog_content">네트워크가 로밍 조건에 있는 경우 A-GPS 데이터 트래픽이 별도의 로밍 요금을 청구할 수 있습니다.</string>  
+    <string name="epo_download">다운로드</string>  
+    <string name="epo_error_no_activite_network">EPO 데이터를 다운로드하기 전에 데이터 연결을 켜십시오.</string>  
+    <string name="epo_cancel_download">취소</string>  
+    <string name="epo_status_stopping">정지하는 중...</string>  
+    <string name="epo_status_starting">시작하는 중...</string>  
+    <string name="epo_err_update_failed">EPO 파일 업데이트 실패</string>  
+    <string name="epo_error_dialog_title">오류</string>  
+    <string name="epo_ok_btn">확인</string>  
+    <string name="epo_warning_dialog_title">주의</string>  
+    <string name="epo_warning_dialog_message">로밍 상태에서 EPO 데이터를 다운로드하면 별도의 요금이 청구될 수 있습니다. 계속하시겠습니까?</string>  
+    <!-- AudioProfile Settings -->  
+    <string name="ring_summary">벨소리</string>  
+    <string name="ring_vibrate_summary">벨소리 및 진동</string>  
+    <string name="silent_summary">무음만</string>  
+    <string name="meeting_summary">진동만</string>  
+    <string name="outdoor_summary">최대 벨소리 및 진동</string>  
+    <string name="audio_profile_reset">재설정</string>  
+    <string name="audio_profile_add">추가</string>  
+    <string name="audio_profile_enable">사용</string>  
+    <string name="audio_profile_rename">이름 바꾸기</string>  
+    <string name="audio_profile_delete">삭제</string>  
+    <string name="audio_profile_message_reset">모든 오디오 프로필 설정이 기본값으로 재설정됨</string>  
+    <string name="audio_profile_message_rename">새 프로필 이름을 입력하십시오</string>  
+    <string name="audio_profile_message_name_error">입력한 이름이 이미 존재함</string>  
+    <string name="audio_profile_message_name_length_wrong">이름에 최소 1개의 문자가 포함되어야 함</string>  
+    <string name="audio_profile_message_delete">프로필 
+        <xliff:g id="profile">%s</xliff:g>이(가) 삭제됨
+    </string>  
+    <string name="audio_profile_message_overflow">6개의 사용자 지정 프로필만 추가할 수 있음</string>  
+    <string name="ok">확인</string>  
+    <string name="audio_profile_category_custom_title">사용자 정의 프로필</string>  
+    <string name="audio_profile_category_predefine_title">사전 정의된 프로필</string>  
+    <string name="general_settings_title">"일반"</string>  
+    <string name="silent_settings_title">무음</string>  
+    <string name="meeting_settings_title">회의</string>  
+    <string name="outdoor_settings_title">옥외</string>  
+    <!-- modify default apns notices -->  
+    <string name="apn_predefine_change_dialog_notice">저장하시겠습니까? 기본 APN을 수정하면 연결 문제가 발생할 수 있습니다!"</string>  
+    <!-- The title for AlertDialog when APN Settings is called while Airplane Mode is on -->  
+    <string name="dialog_apn_disabled">APN 사용 안함!</string>  
+    <!-- Error message for dialog of apn disabled error  -->  
+    <string name="dialog_apn_disabled_msg">APN 설정을 사용하려면 비행기 모드를 끄십시오.</string>  
+    <string name="sound_category_feedback_title">시스템</string>  
+    <string name="sound_category_calls_title">수신 통화</string>  
+    <string name="voice_call_title">음성 통화 벨소리</string>  
+    <string name="voice_call_summary">"기본 음성 통화 벨소리 설정"</string>  
+    <string name="video_call_title">음성 통화 벨소리</string>  
+    <string name="video_call_summary">기본 음성 통화 벨소리 설정</string>  
+    <string name="Phone_vibrate_summary">통화 수신 시 장치 진동</string>  
+    <string name="vibrate_title">진동</string>  
+    <string name="audio_profile_settings_title">오디오 프로필</string>  
+    <!--Add Strings for MTK AboutPhone Settings -->  
+    <!-- Gemini AboutPhone status sim status title -->  
+    <string name="sim_status_title">SIM 상태</string>  
+    <!-- Gemini AboutPhone status sim status summary -->  
+    <string name="sim_status_summary">SIM 관련 정보</string>  
+    <!-- Gemini AboutPhone status imei slot1 title -->  
+    <string name="status_imei_slot1">IMEI(슬롯 1)</string>  
+    <!-- Gemini AboutPhone status imei sv slot1 title -->  
+    <string name="status_imei_sv_slot1">IMEI SV(슬롯 1)</string>  
+    <!-- Gemini AboutPhone status imei slot2 title -->  
+    <string name="status_imei_slot2">IMEI(슬롯 2)</string>  
+    <!-- Gemini AboutPhone status imei sv slot2 title -->  
+    <string name="status_imei_sv_slot2">IMEI SV(슬롯 2)</string>  
+    <!-- Gemini CDMA AboutPhone status min number slot1 title -->  
+    <string name="status_min_number_slot1">MIN(슬롯 1)</string>  
+    <!-- Gemini CDMA AboutPhone status prl version slot1 title -->  
+    <string name="status_prl_version_slot1">PRL 버전(슬롯 1)</string>  
+    <!-- Gemini CDMA AboutPhone status meid number slot1 title -->  
+    <string name="status_meid_number_slot1">MEID(슬롯 1)</string>  
+    <!-- Gemini CDMA AboutPhone status min number slot2 title -->  
+    <string name="status_min_number_slot2">MIN(슬롯 2)</string>  
+    <!-- Gemini CDMA AboutPhone status prl version slot2 title -->  
+    <string name="status_prl_version_slot2">PRL 버전(슬롯 2)</string>  
+    <!-- Gemini CDMA AboutPhone status meid number slot2 title -->  
+    <string name="status_meid_number_slot2">MEID(슬롯 2)</string>  
+    <string name="slot_status_title">"IMEI 정보"</string>  
+    <string name="slot_status_summary">"IMEI 관련 정보"</string>  
+    <!-- About phone screen,  setting option name-->  
+    <string name="custom_build_version">사용자 지정 빌드 버전</string>  
+    <!-- A menu item in "About phone" that allows the user to update the phone with settings
+    from their cell phone carrier. The use of the string is similar to the string
+    "system_update_settings_list_item_title" in this project. [CHAR LIMIT=25] -->  
+    <!-- for software update MOTA -->  
+    <string name="software_update">소프트웨어 업데이트 서비스</string>  
+    <string name="mota_system_update_summary">"서버에서 시스템 업데이트 확인"</string>  
+    <!-- About phone screen,  more software updates-->  
+    <string name="software_updates_more_title">소프트웨어 업데이트</string>  
+    <string name="software_updates_more_summary">새 버전의 소프트웨어 확인</string>  
+    <string name="software_updates_scomo_summary">애플리케이션의 새 버전 확인</string>  
+    <string name="scomo_settings_title">소프트웨어 업데이트 서비스</string>  
+    <!-- Battery_level_show -->  
+    <string name="battery_level" translatable="false">" 
+        <xliff:g id="battery">%s</xliff:g>%%"
+    </string>  
+    <!--End of String for Gemini AboutPhone Settings-->  
+    <!--Add Strings for MTK Display Settings -->  
+    <string name="screen_timeout_CU">화면 시간종료</string>  
+    <!-- Add for landscape launcher-->  
+    <string name="landscape_launcher_title">풍경 시작 프로그램</string>  
+    <string name="landscape_launcher_none">없음</string>  
+    <!-- for TVOut -->  
+    <string name="tvout_settings">TV 출력</string>  
+    <string name="tvout_settings_summary">TV 출력 설정</string>  
+    <string name="tv_system_title">TV 시스템</string>  
+    <!-- For HDMI begin -->  
+    <string name="hdmi_settings">HDMI 설정</string>  
+    <string name="hdmi_settings_summary">클릭하여 HDMI 구성</string>  
+    <string name="hdmi_audio_toggler">오디오</string>  
+    <string name="hdmi_video_toggler">동영상</string>  
+    <string name="hdmi_video_resolution">동영상 해상도</string>  
+    <string name="hdmi_notification_title">HDMI 케이블이 연결됨</string>  
+    <string name="hdmi_notification_content">클릭하여 HDMI 구성</string>  
+    <!--Theme manager -->  
+    <string name="display_settings_scences_title">장면</string>  
+    <string name="mtk_thememanager_title">테마</string>  
+    <string name="default_name">기본값</string>  
+    <string name="custom_theme_name">새 [%1$s]</string>  
+    <string name="loading">로드하는 중...</string>  
+    <!--End of String for MTK Display Settings-->  
+    <!--Add Strings for MTK Security Settings -->  
+    <string name="sim_enter_pin_hints">(4-8 자릿수 입력)</string>  
+    <string name="sim_remain">(남은 양: 
+        <xliff:g id="remains">%d</xliff:g>)
+    </string>  
+    <!--End of String for MTK Security Settings-->  
+    <!--Add Strings for MTK DateTime Settings-->  
+    <!-- GPS time sync -->  
+    <string name="gps_time_sync_attention_gps_on">GPS 픽스를 획득하는 데 길어야 1분이 걸립니다. 이 밖에 환경 신호가 약해 GPS가 시간을 제공하지 못할 수 있습니다.\n\nGPS 제공 시간을 사용하시겠습니까?</string>  
+    <string name="gps_time_sync_attention_gps_off">GPS 제공 시간을 사용하려면 먼저 GPS를 사용으로 설정해야 합니다. 이 경우 GPS 픽스를 획득하는 데 길어야 1분이 걸립니다. 이 밖에 환경 신호가 약해 GPS가 시간을 제공하지 못할 수 있습니다. \n\n지금 GPS를 사용으로 설정하고 GPS 제공 시간을 기다리시겠습니까?</string>  
+    <!--End of String for MTK DateTime Settings-->  
+    <!--Add Strings for MTK Backup & reset Settings-->  
+    <!-- Drm Settings -->  
+    <!-- Privacy Screen,setting option name under Privacy Personal data -->  
+    <string name="drm_settings_title">DRM 재설정</string>  
+    <!-- Privacy Screen,settings option summary text under Privacy personal data -->  
+    <string name="drm_settings_summary">모든 DRM 라이센스 삭제</string>  
+    <!-- Drm settings Activity lable -->  
+    <!-- Dialog msg for confirmation to reset DRM -->  
+    <string name="drm_reset_dialog_msg">이 작업은 이 장치의 모든 라이센스를 삭제합니다. 계속하시겠습니까?</string>  
+    <!-- Toast msg for confirmation to reset DRM -->  
+    <string name="drm_reset_toast_msg">라이센스가 성공적으로 삭제되었습니다.</string>  
+    <!--End of String for MTK DateTime Settings-->  
+    <!--Add Strings for MTK SIM management Settings-->  
+    <string name="gemini_sim_management_title">SIM 관리</string>  
+    <string name="gemini_sim_info_title">SIM 정보</string>  
+    <string name="gemini_default_sim_title">기본 SIM</string>  
+    <string name="gemini_general_settings_title">일반 설정</string>  
+    <string name="gemini_roaming_settings_title">로밍</string>  
+    <string name="gemini_data_roaming_title">데이터 로밍</string>  
+    <string name="gemini_data_roaming_summary">로밍 시 데이터 서비스에 연결</string>  
+    <string name="gemini_roaming_reminder_title">로밍 알림 표시</string>  
+    <string name="gemini_roaming_reminder_summary">SIM 사용량에 따른 SIM 제안사항 표시</string>  
+    <string name="gemini_contacts_sim_title">"연락처 바인딩"</string>
+    <string name="gemini_contacts_sim_summary">연락처를 특정 SIM 카드에 바인딩합니다</string>
+    <string name="gemini_voice_call">음성 통화</string>  
+    <string name="gemini_video_call">화상 통화</string>  
+    <string name="gemini_data_connection">데이터 연결</string>  
+    <string name="gemini_msg">메시징</string>  
+    <string name="gemini_default_sim_always_ask">항상 묻기</string>  
+    <string name="gemini_intenet_call">인터넷 통화</string>  
+    <string name="gemini_default_sim_never">끄기</string>  
+    <string name="gemini_default_sim_3g_off">끄기</string>  
+    <!-- GSM/UMTS Options strings -->  
+    <string name="gemini_gsm_umts_network_preferences_title">네트워크 모드</string>  
+    <string name="gemini_gsm_umts_network_preferneces_summary">아직 구현되지 않음!</string>  
+    <string name="gemini_gsm_umts_network_preferences_dialogtitle">네트워크 모드</string>  
+    <string name="gemini_3g_service_settings">3G 서비스</string>  
+    <!-- Strings for Gemini begin-->  
+    <!-- Dual sim settings activate progress message string -->  
+    <string name="gemini_sim_mode_progress_activating_message">활성화하는 중\u2026</string>  
+    <!-- Dual sim settings deactivate progress message string -->  
+    <string name="gemini_sim_mode_progress_deactivating_message">비활성화하는 중\u2026</string>  
+    <!-- Dual sim settings mode change failed message string -->  
+    <string name="gemini_sim_mode_change_failed_message">실패, 네트워크 오류.</string>  
+    <!-- Dual sim settings mode enter airplanemode confirm title string -->  
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_title">비행기 모드</string>  
+    <!-- Dual sim settings mode enter airplanemode WiFi and Bt will both close confirm message string -->  
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_message">전화기가 비행기 모드로 전환합니다. 모든 무선 연결을 사용할 수 없습니다. 계속하시겠습니까?</string>  
+    <string name="gemini_sim_info_editor_name">SIM 이름 편집</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">저장 실패</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">SIM 카드의 중복 이름</string>  
+    <string name="gemini_sim_info_editor_number">전화번호 입력</string>  
+    <string name="gemini_sim_info_editor_color">배경색 설정</string>  
+    <string name="gemini_sim_info_editor_number_display_format">번호 표시</string>  
+    <string name="gemini_no_sim_indicator">SIM 카드 없음</string>  
+    <string name="gemini_sim_list_default_title">SIM 카드 목록</string>  
+    <string name="gemini_data_connection_progress_message">"기다리십시오..."</string>  
+    <string name="gemini_3g_modem_switching_message">"SIM 전환을 완료하는 데 약 10초가 걸립니다. 기다리십시오..."</string>  
+    <string name="gemini_3g_modem_switch_confirm_message">"이는 또한 3G 서비스를 이 SIM으로 전환합니다. 계속하시겠습니까? 선택한 이 SIM이 3G 서비스를 지원하는지도 확인하십시오."</string>  
+    <string name="gemini_3g_disable_warning">"선택한 이 SIM에서 3G 서비스를 사용할 수 없습니다. 이 때문에 데이터 로드가 느려질 수 있습니다. 설정 &gt; 무선 및 네트워크 &gt; 모바일 네트워크에서 3G 서비스 설정을 변경할 수 있습니다."</string>  
+    <string name="gemini_3g_disable_warning_cu">"선택한 이 SIM에서 3G 서비스를 사용할 수 없습니다. 이 때문에 데이터 로드가 느려질 수 있습니다. 설정 &gt; SIM 관리에서 3G 서비스를 변경할 수 있습니다."</string>  
+    <!-- Strings for CU wap push begin-->  
+    <string name="gemini_wap_push_permission_head">자동 푸시 서비스를 사용으로 설정한 다음, 푸시 메시지를 수신하고 로컬 애플리케이션을 실행시키고 데이터 트래픽을 만들 수 있습니다. 일상적인 자동 푸시 서비스에는 이메일 알림, 장치 관리, 서비스 표시, 서비스 로드 및 프로비저닝 푸시 등이 포함됩니다.</string>  
+    <string name="gemini_wap_push_permission_tail">이 계약을 수락하시겠습니까?</string>  
+    <string name="gemini_wap_push_permission_title">자동 푸시 서비스 계약</string>  
+    <string name="gemini_wap_push_permission">자동 푸시 서비스</string>  
+    <!-- Strings for CU wap push end-->  
+    <!-- add for gemini enhancement  SIM tether info part    begin -->  
+    <string name="gemini_3g_disable_warning_case0">"먼저 상당한 로밍 요금이 발생할 수 있는 이 SIM에 대한 데이터 로밍을 사용으로 설정해야 합니다! 데이터 로밍을 사용으로 설정하고 이 SIM을 선택하시겠습니까?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"선택한 이 SIM에서 3G 서비스를 사용할 수 없습니다. 이 때문에 데이터 로드가 느려질 수 있습니다. 설정 &gt; 무선 및 네트워크 &gt; 모바일 네트워크에서 3G 서비스 설정을 변경할 수 있습니다. 이 SIM을 선택하시겠습니까?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"선택한 이 SIM에서 3G 서비스를 사용할 수 없습니다. 이 때문에 데이터 로드가 느려질 수 있습니다. 설정 &gt; SIM 관리에서 3G 서비스를 변경할 수 있습니다. 이 SIM을 선택하시겠습니까?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"먼저 상당한 로밍 요금이 발생할 수 있는 이 SIM에 대한 데이터 로밍을 사용으로 설정해야 합니다! 이 밖에 이 SIM에서 3G 서비스를 사용할 수 없습니다. 이 때문에 데이터 로드가 느려질 수 있습니다. 설정 &gt; 무선 및 네트워크 &gt; 모바일 네트워크에서 이를 변경할 수 있습니다. 데이터 로밍을 사용으로 설정하고 이 SIM을 선택하시겠습니까?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"먼저 상당한 로밍 요금이 발생할 수 있는 이 SIM에 대한 데이터 로밍을 사용으로 설정해야 합니다! 이 밖에 이 SIM에서 3G 서비스를 사용할 수 없습니다. 이 때문에 데이터 로드가 느려질 수 있습니다. 설정 &gt; SIM 관리에서 이를 변경할 수 있습니다. 데이터 로밍을 사용으로 설정하고 이 SIM을 선택하시겠습니까?"</string>  
+    <string name="gemini_sim_tether_info_title">연락처 및 SIM</string>  
+    <string name="gemini_sim_tether_add_record">연락처 추가</string>  
+    <string name="gemini_sim_add_title">연락처</string>  
+    <!-- Displayed full screen when the user has no tether info to display-->  
+    <string name="gemini_sim_tether_norecord">"현재 SIM과 연결된 연락처 번호가 없습니다.\n\n연락처 추가 버튼을 터치하여 이 SIM에 바인드하려는 연락처를 선택하십시오"</string>  
+    <string name="gemini_sim_tether_nocontacts">"사용자의 전화기에 저장된 연락처가 없습니다. 먼저 새 연락처를 추가하거나 가져오십시오"</string>  
+    <string name="gemini_sim_tether_no_assc_contacts">"연락처가 모두 성공적으로 바인드되었습니다"</string>  
+    <string name="gemini_sim_tether_disassociate">연결 해제</string>  
+    <string name="selected_item_count"> 
+        <xliff:g id="count">%d</xliff:g>개가 선택됨
+    </string>  
+    <string name="gemini_sim_tether_unselect_all">모두 선택 해제</string>
+    <string name="gemini_sim_tether_nocontact_confirm">확인</string>  
+    <string name="gemini_sim_tether_select_all">모두 선택</string>  
+    <string name="gemini_sim_tether_select_ok">저장</string>  
+    <string name="gemini_sim_tether_select_cancel">취소</string>  
+    <string name="gemini_sim_tether_revert_title">주의</string>  
+    <string name="gemini_sim_tether_revert_message">구성이 변경되었지만 저장되지 않았습니다. 저장하지 않고 종료하시겠습니까?</string>  
+    <string name="gemini_tether_saving_progress_message">저장하는 중...</string>  
+    <!-- add for gemini enhancement SIM tether info part end -->  
+    <!-- Strings for Gemini SimLock Settings -->  
+    <!-- Gemini SimLock error message -->  
+    <string name="gemini_sim_lock_simid_error">실패, 잘못된 sim id.</string>  
+    <!-- Gemini SimLock sim1 not insert message -->  
+    <string name="gemini_sim_lock_no_insert_message_sim">SIM이 연결되지 않았습니다.</string>  
+    <!-- Gemini SimLock sim1 radio off message -->  
+    <string name="gemini_sim_lock_radio_off_message_sim1">라디오 1이 꺼졌습니다.</string>  
+    <!-- Gemini SimLock sim2 radio off message -->  
+    <string name="gemini_sim_lock_radio_off_message_sim2">라디오 2가 꺼졌습니다.</string>  
+    <!--End of String for SIM Management Settings-->  
+    <!-- for CU application -->  
+    <string name="akp_installer_settings_title">APK 설치 프로그램</string>  
+    <string name="akp_installer_settings_summary">전화기 저장장치와 SD 카드에서 APK 설치</string>  
+    <string name="launch_main_label">애플리케이션 시작</string>  
+    <string name="launch_main">주 활동으로 애플리케이션 시작</string>  
+    <string name="launch_activitie">시작</string>  
+    <string name="move_app_to_where"> 
+        <xliff:g id="location">%s</xliff:g>(으)로 이동
+    </string>  
+    <!--Wi-Fi settings strings start-->  
+    <string name="wifi_no_cert_for_wapi">현재 연결 AP에 대한 인증을 찾을 수 없음</string>  
+    <!-- Label for the SIM Slot of EAP-SIM method support -->  
+    <string name="sim_slot">SIM 슬롯</string>  
+    <!-- Label for the SIM Slot 0 of EAP-SIM method support -->  
+    <string name="eap_sim_slot_0">SIM 슬롯 1</string>  
+    <!-- Label for the SIM Slot of EAP-SIM method support -->  
+    <string name="eap_sim_slot_1">SIM 슬롯 2</string>  
+    <!-- Label for the toast if user use eap-sim/aka in airplane mode -->  
+    <string name="eap_sim_aka_airplanemode">EAP-SIM/AKA를 사용하려면 비행기 모드를 끄십시오</string>  
+    <!-- Label for the toast if user use eap-sim/aka when sim card is absent -->  
+    <string name="eap_sim_aka_no_sim_error">EAP-SIM/AKA를 사용하려면 sim 카드를 삽입해야 합니다</string>  
+    <!-- Label for the toast if user use eap-sim/aka when user don't select a sim slot -->  
+    <string name="eap_sim_aka_no_sim_slot_selected">EAP-SIM/AKA를 사용하려면 sim 슬롯을 선택해야 합니다</string>  
+    <!--for wifi security title-->  
+    <string name="wifi_security_wapi_certificate">WAPI 인증서</string>  
+    <!-- Label for the WAPI user certificate of the network -->  
+    <string name="wapi_user_certificate">사용자 인증서</string>  
+    <!-- Label for the WAPI ASE certificate of the network -->  
+    <string name="wapi_as_certificate">ASE 인증서</string>  
+    <!-- Label for the check box for hexadecimal password -->  
+    <string name="wifi_hex_password">16진수 비밀번호.</string>  
+    <!-- The label for WEP transmit Key -->  
+    <string name="wifi_WEP_transmit_key">송신 키</string>  
+    <!-- The label for WEP Secury Key -->  
+    <string name="wifi_WEP_secury_key">보안 키</string>  
+    <!--add for Wi-Fi hotspot auto-sleep policy-->  
+    <string name="wifi_tether_auto_disable_title">Wi-Fi 핫스팟 켠 상태로 유지</string>  
+    <string name="wifi_tether_auto_channel_text">자동</string>  
+    <string name="wifi_tether_auto_channel_width_text">자동 20/40 MHz</string>  
+    <string name="wifi_channel">기본 채널</string>  
+    <string name="wifi_channel_width">채널 폭</string>  
+    <string name="confirm_title">확인</string>  
+    <!--Wi-Fi settings strings end-->  
+    <!-- Wireless settings for PCH Monitor start -->  
+    <string name="pch_toggle_title">GPRS 전송 기본 모드</string>  
+    <!-- for PCH Monitor data prefer -->  
+    <string name="pch_data_prefer_summary_off">데이터 우선</string>  
+    <!-- for PCH Monitor call prefer-->  
+    <string name="pch_call_prefer_summary_on">통화 우선</string>  
+    <!-- for PCH Monitor warning message -->  
+    <string name="pch_warning_message">데이터 전송 속도가 떨어집니다.</string>  
+    <!-- Wireless settings for PCH Monitor end -->  
+    <!-- Schedule power on/off settings -->  
+    <!-- Main Settings screen setting option name to go into the power on/off settings-->  
+    <string name="schedule_power_on_off_settings_title">전원 켜기/끄기 예약</string>  
+    <string name="usb_bicr_title">내장 CD-ROM</string>  
+    <string name="usb_bicr_summary">몇 가지 유용한 소프트웨어가 들어 있는 가상 CD-ROM을 표시합니다.</string>  
+    <string name="select_memory">기본 쓰기 디스크</string>  
+    <string name="ipo_title">빠른 부팅</string>  
+    <string name="ipo_summary_on">빠른 부팅 사용 안함</string>  
+    <string name="ipo_summary_off">빠른 부팅 사용</string>  
+    <string name="agps_profile_select_Title">SUPL 프로필</string>  
+    <string name="location_settings_label">엔지니어 위치 모드</string>  
+    <string name="audio_profile_error">오류</string>  
+    <string name="battery_percent">배터리 잔여량</string>  
+    <!-- RCS-e settings -->  
+    <string name="rcse_settings_title">RCS-e 설정</string>  
+    <string name="dlg_mount_external_sd_title" product="default">SD 카드를 탑재하시겠습니까?</string>  
+    <string name="dlg_mount_external_sd_summary" product="default">sd 카드를 탑재할 경우, 사용 중인 일부 앱이 정지합니다.</string> 
+
+    <string name="tethered_ipv6_title">핫스팟 및 테더링 설정</string>  
+    <string name="tethered_ipv4v6">(IPv6 사용 가능)</string>  
+    <string name="tethered_ipv6">(IPv6만 사용 가능)</string>  
+    <string name="tethered_ipv4">(IPv6 사용 불가)</string>
+	
+	<string name="usb_connect_as_cdrom_category">"다음으로 연결 CD-ROM"</string>
+
+    <string name="wifi_ap_client_block_title">"차단"</string>  
+    <string name="wifi_ap_client_details_title">세부사항</string>  
+    <string name="wifi_wps_fail_error">Wi-Fi 보호 설정이 실패했습니다. 다시 시도하십시오.</string>  
+    <string name="wifi_tether_setting_title">기본 설정</string>  
+    <string name="wifi_tether_wps_connect_title">WPS 연결</string>  
+    <string name="wifi_tether_wps_connect_summary">계속하기 위해 선택한 Wi-Fi 보호 설정 모드</string>  
+    <string name="wifi_tether_wps_pin_error">잘못된 PIN</string>  
+    <string name="wifi_tethering_title">Wi-Fi 핫스팟</string>  
+    <string name="wifi_ap_wps_dialog_title">WPS 연결</string>  
+    <string name="wifi_ap_wps_mode_title">WPS 모드</string>  
+    <string name="wifi_ap_wps_pin_title">클라이언트의 PIN 입력</string>  
+    <string name="wifi_ap_reset_OOB_title">네트워크 SSID, 보안 및 암호를 기본값으로 재설정 (WPS용 Out-of-Box 구성)</string>  
+    <string name="wifi_ap_reset_OOB">OOB 재설정</string>  
+    <string name="wifi_ap_max_connection_title">최대 연결 수</string>  
+    <string name="wifi_ap_connected_title">연결된 사용자</string>  
+    <string name="wifi_ap_blocked_title">차단된 사용자</string>  
+    <string name="wifi_ap_client_unblock_title">차단 해제</string>  
+    <string name="wifi_ap_client_mac_label">MAC 주소:</string>  
+    <string name="wifi_ap_client_ip_label">IP 주소:</string>  
+    <string name="usb_sharing_title">USB 인터넷</string>  
+    <string name="usb_sharing_summary">USB를 통해 Windows PC 인터넷 공유</string>  
+    <string name="usb_sharing_info_title">인터넷 패스스루</string>  
+    <string name="usb_sharing_info_step_1">"1. Windows PC에서 네트워크 연결을 엽니다."</string>  
+    <string name="usb_sharing_info_step_2">"2. 공유하려는 연결을 오른쪽 클릭한 후 속성을 클릭합니다."</string>  
+    <string name="usb_sharing_info_step_3">"3. 공유 탭을 클릭하고, \'다른 네트워크 사용자가 이 컴퓨터의 인터넷 연결을 통해 연결하도록 허용\'(\'홈 네트워킹 연결이\' 표시된 경우 USB 인터넷을 나타내는 새로 추가된 네트워크 선택)을 선택합니다."</string>  
+    <string name="wifi_ap_bandwidth_title">대역폭 사용</string>  
+    <string name="wifi_ap_bandwidth_enable">대역폭 스로틀링 활성화</string>  
+    <string name="wifi_ap_bandwidth_chart_title">실시간 데이터 속도</string>  
+    <string name="wifi_ap_bandwidth_chart_summary">전화기로 측정한 통신사 데이터 속도 계산은 차이가 있을 수 있습니다.</string>  
+    <string name="wifi_ap_title">통계</string>  
+    <string name="wifi_ap_time_duration">지속 시간: 
+        <xliff:g id="time">%1$s</xliff:g> 
+    </string>  
+    <string name="wifi_ap_total_data">총 사용된 데이터:
+        <xliff:g id="time">%1$s</xliff:g>
+    </string>
+    <string name="cpu_dtm_title">CPU 절전 모드</string>
+    <string name="cpu_dtm_summary">배터리 수명을 보존하고 장치 온도를 낮추려면 최대 CPU 성능을 제한합니다.</string>
+    <string name="wifi_advanced_ipv4_address_title">IPv4 주소</string>  
+    <string name="wifi_advanced_ipv6_address_title">IPv6 주소</string>  
+    <string name="wifi_ipv4_address">IPv4 주소</string>  
+    <string name="wifi_ipv6_address">IPv6 주소</string>
+    
+    <!-- MTK new datausage start -->  
+    <string name="mtk_datausage_overview_wifi_today">오늘</string>  
+    <string name="mtk_datausage_show_on_lockscreen">잠금 화면에 표시</string>  
+    <string name="mtk_datausage_update">데이터 사용량 업데이트</string>  
+    <string name="mtk_datausage_update_set">업데이트</string>  
+    <string name="mtk_datausage_amount_editor_title">사용된 데이터의 양</string>  
+    <string name="mtk_datausage_usage_list">앱별 데이터 사용량</string>  
+    <string name="mtk_datausage_diff_byte">데이터 사용량 차이</string>  
+    <string name="mtk_datausage_overview_tab">개요</string>  
+    <string name="mtk_datausage_overview_wifi_total">합계</string>  
+    <string name="mtk_datausage_overview_mobile_title">모바일</string>  
+    <string name="mtk_datausage_overview_mobile_usage">
+        <xliff:g id="actual">%s</xliff:g> 나가는 
+        <xliff:g id="limit">%s</xliff:g>
+    </string>
+    <string name="mtk_datausage_overview_mobile_usage_warning">한계 <xliff:g>%s</xliff:g>을(를) 벗어남</string>
+    <!-- MTK new datausage end -->
+    <string name="display_personalize">개인 설정</string>  
+    <string name="display_default">"디스플레이"</string> 
+    <!-- Sound Enhanecement -->
+    <string name="sound_enhancement_title">사운드 개선</string>
+    <string name="music_plus_summary">이어폰용 오디오 인핸서</string>
+    <string name="auto_backlight_title">절전형 백라이트</string>
+    <string name="auto_backlight_summary">절전을 위해 백라이트를 자동으로 적응시킵니다</string>
+
+    <string name="beam_mgmt_tab_download_title">수신 통화</string>
+    <string name="beam_mgmt_tab_upload_title">"3. 공유 탭을 클릭하고,  '다른 네트워크 사용자가 이 컴퓨터의 인터넷 연결을 통해 연결하도록 허용'('홈 네트워킹 연결이' 표시된 경우 USB 인터넷을 나타내는 새로 추가된 네트워크 선택)을 선택합니다."</string>
+    <string name="beam_share_mgmt_notification_ticker">빔 공유 기록</string>
+    <string name="beam_share_mgmt_notification_title">빔 공유 기록</string>
+    <string name="beam_share_mgmt_notification_message">"빔 공유 기록을 보려면 선택합니다."</string>
+    <string name="beam_share_mgmt_tab_menu_clear">"웹사이트 설정을 모두 지우시겠습니까?"</string>
+    <string name="beam_share_open_file_dialog_title">파일을 열 수 없습니다</string>
+    <string name="beam_share_open_file_unsupported_message">파일 형식이 지원되지 않습니다.</string>
+    <string name="beam_share_open_file_not_found_message">"파일을 찾을 수 없습니다: <xliff:g id="file_name">%1$s</xliff:g></string>
+    <string name="beam_share_transfer_fail_dialog_title">"빔 실패"</string>
+    <string name="beam_share_resend_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> 이(가) 성공적으로 보내지지 않았습니다."</string>
+    <string name="beam_share_resend_dialog_ok_button">"다시 시도"</string>
+    <string name="beam_share_show_received_files_menu">"받은 파일 보기"</string>
+    <string name="beam_share_history_title">빔 공유 기록</string>
+    <string name="beam_share_clear_confirm_dialog_title">"모두 지우기"</string>
+    <string name="beam_share_clear_confirm_dialog_message">모든 기록을 지우시겠습니까?</string>
+    <string name="beam_share_receive_fail_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> 이(가) 성공적으로 수신되지 않았습니다."</string>
+    <string name="beam_share_clear_item_dailog_title">"삭제"</string>
+    <string name="beam_share_clear_item_dailog_message">항목이 삭제됩니다.</string>
+    <string name="nfc_rw_tag_summary">태그를 읽거나 씁니다.</string>
+    <string name="nfc_p2p_mode">P2P 모드</string>
+    <string name="nfc_p2p_mode_summary">앱 콘테트 보내기 또는 받기</string>
+    <string name="nfc_tag_mode_category">태그 모드</string>
+    <string name="nfc_rw_tag_title">태그 읽기 및 쓰기</string>
+    <string name="lock_screen_notifications_title">화면 잠금 알림</string>
+    <string name="lock_screen_notifications_summary">화면 잠금에 대한 알림 표시</string>
+    <string name="lock_screen_style_title">화면 잠금 스타일</string>
+
+
+      <string name="voice_ui_title">음성 제어</string>
+       <string name="voice_ui_app_category">앱 설정용</string>
+      <string name="voice_ui_setting_category">"설정"</string>
+      <string name="alarm_app_name">"알람"</string>
+      <string name="music_app_name">음악</string>
+      <string name="voice_ui_language_title">"음성 제어 언어"</string>
+      <string name="incoming_call_app_name">"수신 전화"</string>
+      <string name="camera_app_name">"카메라"</string>
+      <string name="incomming_command_summary_format"><xliff:g id="first">%1$s</xliff:g> 또는 <xliff:g id="second">%2$s</xliff:g> 을(를) 말해 응답하거나 수신 전화를 거절할 수 있습니다.</string>
+      <string name="alarm_command_summary_format"><xliff:g id="first">%1$s</xliff:g> 또는 <xliff:g id="second">%2$s</xliff:g> 을(를) 말해 알람을 제어할 수 있습니다.</string>
+      <string name="camera_command_summary_format"><xliff:g id="first">%1$s</xliff:g> 또는 <xliff:g id="second">%2$s</xliff:g> 을(를) 말해 캡처할 수 있습니다.</string>
+      <string name="music_command_summary_format"><xliff:g id="first">%1$s</xliff:g>과(와) <xliff:g id="second">%2$s</xliff:g> 을(를) 말해 음악 재생을 제어할 수 있습니다.</string>
+
+	<!-- Lock screen settings start -->
+	<string name="current_suffix">"(현재)"</string>
+	<string name="lockscreen_style_set">"잠금 화면 설정"</string>
+	<string name="lockscreen_style_default_desc">"잠금 화면에서 애플리케이션에 빠른 액세스"</string>
+	<!-- Lock screen settings end -->
+    <!--  voice unlock start-->
+    <string name="voice_unlock_backup_info_summary">음성 잠금해제가 귀하를 인식하지 못할 경우, 어떻게 잠금해제하시겠습니까?</string>
+    <string name="unlock_set_unlock_mode_voice_weak">음성 잠금해제</string>
+    <!--  voice unlock end-->
+    <string name="usb_tether_type_title">USB 테더링유형</string> 
+    <string name="security_not_set">보안이 설정되지 않았습니다</string>
+    <string name="lockdown_vpn_already_connected">연결을 위해 항상 VPN에이 이미 활성화되었습니다.</string> 
+
+    <string name="wifi_ap_no_connected">0 연결된 사용자</string>  
+    <string name="wifi_ap_no_blocked">0 차단된 사용자</string>  
+
+    <string name="status_imei_slot3">IMEI(슬롯 3)</string>
+    <string name="status_imei_sv_slot3">IMEI SV(슬롯 3)</string>
+    <string name="status_min_number_slot3">MIN(슬롯 3)</string>
+    <string name="status_prl_version_slot3">PRL 버전(슬롯 3)</string>
+    <string name="status_meid_number_slot3">MEID(슬롯 3)</string>
+
+    <string name="usb_tethering_select_version">PC 시스템 버전 선택</string>
+</resources>

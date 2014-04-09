@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wallpapers" msgid="7646602778647576267">میوزک تصورات دیواری کاغذ</string>
+    <string name="author" msgid="6199067265817633685">Google</string>
+    <string name="vis2_desc" msgid="192540837551311681">حالیہ چل رہے کسی بھی میوزک ٹریک کی آواز کی لہروں کو کھینچتا ہے۔</string>
+    <string name="vis3_desc" msgid="3878566533630652215">حالیہ چل رہے کسی بھی میوزک ٹریک کے تعددی دائرہ کار کو دکھاتا ہے۔</string>
+    <string name="vis4_desc" msgid="2752246332053894804">کسی انالاگ صوتی میٹر کی تقلید کرتا ہے۔</string>
+    <string name="vis5_desc" msgid="4777817231155032917">سارے میوزک تصورات ایک ساتھ، 3D میں آہستہ سے گھوم رہے ہیں۔</string>
+</resources>
+

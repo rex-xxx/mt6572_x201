@@ -1,0 +1,12 @@
+###################################################
+##### Add testcases which no need cover here. #####
+###################################################
+
+# no need cover this constructor, cause all of its method are static.
+-com.android.exchange.adapter.EmailSyncAdapter$EasEmailSyncParser.commit (): void
+-com.android.exchange.EasAccountService.sleep (long, boolean): void
+-com.android.exchange.EasOutboxService$SendMailEntity.writeTo (OutputStream, boolean): void
+-com.android.exchange.EasSyncService.sleep (long, boolean): void
+-com.android.exchange.EasSyncService.alarm (): boolean
+-com.android.exchange.ExchangeService$CalendarObserver$1.run (): void
+-com.android.exchange.provider.ExchangeDirectoryProvider.query (Uri, String [], String, String [], String): Cursor

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dimensions for CallCard elements (the normal in-call UI) -->
+    <dimen name="call_card_geo_description_max_width">110dp</dimen>
+
+    <dimen name="call_banner_height">60dp</dimen>
+    <dimen name="call_banner_top_bottom_padding">8dp</dimen>
+    <dimen name="call_banner_side_padding">10dp</dimen>
+    <dimen name="incoming_call_2_width">96dip</dimen>
+    <dimen name="secondary_hold_btn_with">18dip</dimen>
+     <!-- Height of the in-call "End" button. -->
+    <dimen name="in_call_end_button_height">74dp</dimen>
+
+    <!-- Add for VT -->
+    <dimen name="vt_incall_screen_high_video_width">292dip</dimen>
+    <dimen name="vt_incall_screen_high_video_height">239dip</dimen>
+    <dimen name="vt_incall_screen_high_video_image_button_margin_edge">18px</dimen>
+    <dimen name="vt_incall_screen_button_width">76px</dimen>
+    <dimen name="vt_incall_screen_end_button_width">153px</dimen>
+    <dimen name="vt_incall_screen_button_height">38px</dimen>
+    <dimen name="vt_incall_screen_button_interval">6px</dimen>
+    <dimen name="vt_incall_screen_low_video_height">123px</dimen>
+    <dimen name="vt_incall_screen_low_video_width">152px</dimen>
+    <dimen name="vt_incall_screen_low_video_margin_top">4px</dimen>
+    <dimen name="vt_incall_screen_low_video_margin_left">14px</dimen>
+    <dimen name="incall_record_icon_size">15px</dimen>
+    <dimen name="vt_incall_screen_button_margin_out">6px</dimen>
+
+</resources>

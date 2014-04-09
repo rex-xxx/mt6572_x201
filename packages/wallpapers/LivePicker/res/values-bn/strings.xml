@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="application_name" msgid="4119979710394894209">লাইভ ওয়ালপেপার পিকার</string>
+    <string name="live_wallpaper_picker_title" msgid="6161053357728149149">লাইভ ওয়ালপেপার</string>
+    <string name="live_wallpaper_picker_label">লাইভ ওয়ালপেপার</string>
+    <string name="live_wallpaper_preview_title" msgid="1130080613611954763">লাইভ ওয়ালপেপার প্রিভিউ</string>
+    <string name="configure_wallpaper" msgid="7396598925806288258">সেটিংস?</string>
+    <string name="wallpaper_instructions" msgid="4215640646180727542">ওয়ালপেপার সেট করুন</string>
+    <string name="live_wallpaper_empty" msgid="4278728108785853407">কোন লাইভ ওয়ালপেপার নেই।</string>
+    <string name="set_live_wallpaper" msgid="2381437614949033266">ওয়ালপেপার সেট করুন</string>
+    <string name="wallpaper_title_and_author" msgid="8891734217843935304"><xliff:g id="title" example="Galaxy">%1$s</xliff:g> by <xliff:g id="author" example="Google">%2$s</xliff:g></string>
+    <string name="live_wallpaper_loading" msgid="2488371303130330734">লাইভ ওয়ালপেপার লোড করছেন?</string>
+    <string name="wallpaper_cancel">বাতিল করা হয়েছে</string>
+</resources>
+

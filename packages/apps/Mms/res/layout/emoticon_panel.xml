@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.mms.ui.EmoticonPanel xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/emoticon_panel"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/share_panel_common_port_height"
+    android:background="@drawable/ipmsg_emoticons_background"
+    android:orientation="vertical" >
+
+    <com.android.mms.ui.LevelControlLayout
+        android:id="@+id/emoticon_panel_zone"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.0" />
+
+    <RadioGroup
+        android:id="@+id/rg_share_dot"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rb_dot_first"
+            android:layout_width="6dp"
+            android:layout_height="6dp"
+            android:button="@drawable/radio_selector"
+            android:enabled="false" />
+
+        <RadioButton
+            android:id="@+id/rb_dot_sec"
+            android:layout_width="6dp"
+            android:layout_height="6dp"
+            android:button="@drawable/radio_selector"
+            android:enabled="false" />
+
+        <RadioButton
+            android:id="@+id/rb_dot_third"
+            android:layout_width="6dp"
+            android:layout_height="6dp"
+            android:button="@drawable/radio_selector"
+            android:enabled="false" />
+
+        <RadioButton
+            android:id="@+id/rb_dot_forth"
+            android:layout_width="6dp"
+            android:layout_height="6dp"
+            android:button="@drawable/radio_selector"
+            android:enabled="false" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="34dip"
+        android:orientation="horizontal" >
+
+        <RadioGroup
+            android:id="@+id/smiley_panel_btn_group"
+            android:layout_width="0dp"
+            android:layout_height="34.0dip"
+            android:layout_weight="2.0"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/default_panel"
+                android:layout_width="wrap_content"
+                android:layout_height="34dip"
+                android:layout_weight="1.0"
+                android:addStatesFromChildren="true"
+                android:background="@drawable/smiley_tab_bg"
+                android:gravity="center" >
+
+                <RadioButton
+                    android:id="@+id/smiley_panel_default_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/default_selector"
+                    android:checked="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/gift_panel"
+                android:layout_width="wrap_content"
+                android:layout_height="34dip"
+                android:layout_weight="1.0"
+                android:addStatesFromChildren="true"
+                android:background="@drawable/smiley_tab_bg"
+                android:gravity="center" >
+
+                <RadioButton
+                    android:id="@+id/smiley_panel_gift_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/gift_selector"
+                    android:checked="false" />
+            </LinearLayout>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/smiley_panel_del_btn"
+            android:layout_width="0dp"
+            android:layout_height="34dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/delete_tab_selector" />
+    </LinearLayout>
+
+</com.android.mms.ui.EmoticonPanel>

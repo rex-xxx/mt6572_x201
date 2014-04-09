@@ -1,0 +1,3 @@
++com.android.dreams.phototable.*
+-com.android.dreams.phototable.R*
+-com.android.dreams.phototable.PicasaSource*

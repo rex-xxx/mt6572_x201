@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="widget_name" msgid="5948202656358353180">হোম স্ক্রিন টিপস</string>
+    <string name="pager_footer" msgid="8874468132852452517"><xliff:g id="curPage" example="1">%1$d</xliff:g>    <xliff:g id="numPages" example="2">%2$d</xliff:g></string>
+</resources>
+

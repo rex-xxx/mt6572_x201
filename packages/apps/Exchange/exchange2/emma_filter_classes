@@ -1,0 +1,12 @@
+#############################################################
+##### Add classes or packages which no need cover here. #####
+#############################################################
+
++com.android.exchange.*
+# no need cover the android R class.
+-com.android.exchange.R*
+-com.android.exchange.ExchangeService$2
+-com.android.exchange.utility.FileLogger
+# this class is used when the network is working
+# and returned response, can not covered in the normal test
+-com.android.exchange.EasResponse

@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"/>
+   <RelativeLayout
+        android:id="@+id/linearLayoutMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50px"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_toLeftOf="@+id/seekBar_sharpness"
+            android:layout_alignBottom="@+id/seekBar_sharpness"
+            android:text="@string/number_zero" />
+        <SeekBar
+            android:id="@+id/seekBar_sharpness"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/textView_sharpness_progress"
+            android:max="100"
+            android:progress="50"/>
+        <TextView
+            android:id="@+id/textView_sharpness"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@+id/seekBar_sharpness"
+            android:layout_alignBottom="@+id/seekBar_sharpness"
+            />
+
+        <TextView
+            android:id="@+id/textView_sharpness_progress"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_above="@+id/seekBar_color"
+            android:layout_centerHorizontal="true"
+            android:text="@string/Sharpness" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_toLeftOf="@+id/seekBar_color"
+            android:layout_alignBottom="@+id/seekBar_color"
+            android:text="@string/number_zero" />
+        <SeekBar
+            android:id="@+id/seekBar_color"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/textView_color_progress"
+            android:max="100"
+            android:progress="0"/>
+        <TextView
+            android:id="@+id/textView_color"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@+id/seekBar_color"
+            android:layout_alignBottom="@+id/seekBar_color"
+             />
+
+        <TextView
+            android:id="@+id/textView_color_progress"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/seekBar_skinTone"
+            android:text="@string/Color" />
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_toLeftOf="@+id/seekBar_skinTone"
+            android:layout_alignBottom="@+id/seekBar_skinTone"
+            android:text="@string/number_zero" />
+        <SeekBar
+            android:id="@+id/seekBar_skinTone"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/textView_skinTone_progress"
+            android:max="100"
+            android:progress="50"/>
+        <TextView
+            android:id="@+id/textView_skinTone"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@+id/seekBar_skinTone"
+            android:layout_alignBottom="@+id/seekBar_skinTone"
+             />
+
+        <TextView
+            android:id="@+id/textView_skinTone_progress"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/seekBar_skinSat"
+            android:text="@string/SkinTone" />
+
+        <TextView
+            android:id="@+id/textView1_skinSat"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_toLeftOf="@+id/seekBar_skinSat"
+            android:layout_alignBottom="@+id/seekBar_skinSat"
+            android:text="@string/number_zero" />
+        
+        
+
+        <SeekBar
+            android:id="@+id/seekBar_skinSat"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/textView_skinSat_progress"
+            android:max="100"
+            android:progress="50"/>
+        <TextView
+            android:id="@+id/textView_skinSat"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@+id/seekBar_skinSat"
+            android:layout_alignBottom="@+id/seekBar_skinSat"
+            android:text="@string/SGS_number"
+             />
+
+        <TextView
+            android:id="@+id/textView_skinSat_progress"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/Skin_tone_Sat" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_toLeftOf="@+id/seekBar_grassTone"
+            android:layout_alignBottom="@+id/seekBar_grassTone"
+            android:text="@string/number_zero" />
+        <SeekBar
+            android:id="@+id/seekBar_grassTone"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/textView_skinSat_progress"
+            android:max="100"
+            android:progress="50"/>
+        <TextView
+            android:id="@+id/textView_grassTone"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@+id/seekBar_grassTone"
+            android:layout_alignBottom="@+id/seekBar_grassTone"
+             />
+
+        <TextView
+            android:id="@+id/textView_grassTone_progress"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/seekBar_grassTone"
+            android:text="@string/GrassTone" />
+
+        <TextView
+            android:id="@+id/textView1_GrassSat"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_toLeftOf="@+id/seekBar_GrassSat"
+            android:layout_alignBottom="@+id/seekBar_GrassSat"
+            android:text="@string/number_zero" />
+        <SeekBar
+            android:id="@+id/seekBar_GrassSat"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/textView_grassTone_progress"
+            android:max="100"
+            android:progress="50"/>
+        <TextView
+            android:id="@+id/textView_GrassSat"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@+id/seekBar_GrassSat"
+            android:layout_alignBottom="@+id/seekBar_GrassSat"
+            android:text="@string/SGS_number"
+             />
+
+        <TextView
+            android:id="@+id/textView_GrassSat_progress"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/seekBar_GrassSat"
+            android:text="@string/Grass_tone_Sat" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_toLeftOf="@+id/seekBar_skyTone"
+            android:layout_alignBottom="@+id/seekBar_skyTone"
+            android:text="@string/number_zero" />
+        <SeekBar
+            android:id="@+id/seekBar_skyTone"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/textView_GrassSat_progress"
+            android:max="100"
+            android:progress="50"/>
+        <TextView
+            android:id="@+id/textView_skyTone"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@+id/seekBar_skyTone"
+            android:layout_alignBottom="@+id/seekBar_skyTone"
+             />
+        <TextView
+            android:id="@+id/textView_skyTone_progress"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/seekBar_skyTone"
+            android:text="@string/SkyTone" />
+
+        <TextView
+            android:id="@+id/textView1_skySat"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_toLeftOf="@+id/seekBar_skySat"
+            android:layout_alignBottom="@+id/seekBar_skySat"
+            android:text="@string/number_zero" />
+        <SeekBar
+            android:id="@+id/seekBar_skySat"
+            android:layout_height="wrap_content"
+            android:layout_width="280dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/textView_skyTone_progress"
+            android:max="100"
+            android:progress="50"/>
+        <TextView
+            android:id="@+id/textView_skySat"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@+id/seekBar_skySat"
+            android:layout_alignBottom="@+id/seekBar_skySat"
+            android:text="@string/SGS_number"
+             />
+
+        <TextView
+            android:id="@+id/textView_skySat_progress"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/seekBar_skySat"
+            android:text="@string/Sky_tone_Sat" />
+</RelativeLayout>
+</RelativeLayout>

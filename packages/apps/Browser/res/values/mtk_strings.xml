@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- M: Strings for Add "delete folder" item in option menu -->
+    <!-- Confirmation dialog message confirming that the user wishes to delete
+            the folder they selected for deletion -->
+    <string name="delete_folder_warning">Delete folder \"<xliff:g id="bookmark">%s</xliff:g>\"?</string>
+    <!-- Save link to bookmark -->
+    <string name="contextmenu_savelinkbookmark">Save link As bookmark</string>
+
+	<!-- M: add for enable OP01 browser in landscape mode -->
+    <!-- Settings label for enabling a mode where the browser is always set to landscape mode -->
+    <string name="pref_content_landscape_only">Landscape-only display</string>
+    <!-- Settings summary -->
+    <string name="pref_content_landscape_only_summary">Display pages only in the wider, landscape screen orientation</string>
+	<!-- M: add for enable OP01 browser in landscape mode -->
+
+    <string-array name="pref_op02_text_encoding_choices">
+        <item>Auto detector</item>
+        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Unicode (UTF-8)</item>
+        <item>Unicode (UTF-16)</item>
+        <item>Chinese (GB2312)</item>
+        <item>Chinese (GBK)</item>
+        <item>Chinese (Big5)</item>
+        <item>Japanese (ISO-2022-JP)</item>
+        <item>Japanese (SHIFT_JIS)</item>
+        <item>Japanese (EUC-JP)</item>
+        <!-- No need to translate a EUC-KR part, and there is no string length limits. -->
+        <item>Korean (EUC-KR)</item>
+        <!-- TODO: We should add a lot more encodings.  -->
+    </string-array>
+
+    
+
+    <string-array name="pref_op02_text_encoding_values" translatable="false">
+        <item>auto-detector</item>
+        <item>Latin-1</item>
+        <item>UTF-8</item>
+        <item>UTF-16</item>
+        <item>GB2312</item>
+        <item>GBK</item>
+        <item>Big5</item>
+        <item>ISO-2022-JP</item>
+        <item>SHIFT_JIS</item>
+        <item>EUC-JP</item>
+        <item>EUC-KR</item>
+    </string-array>
+    <string name="pref_default_text_encoding_default_choice" translatable="false">auto-detector</string>
+    <!-- Settings screen, setting option name -->
+    <string name="pref_default_font_family">Font</string>
+    <!-- Options in the Default font dialog box -->
+    <string-array name="pref_default_font_family_choices">
+        <item>Sans-serif</item>
+        <item>Serif</item>
+        <item>Monospace</item>
+    </string-array>
+    <!-- Dialog box title -->
+    <string name="pref_default_font_family_dialogtitle">Font</string>
+    <!-- Do not translate. Actual encoding values. Must be valid font family understandable from WebKit. -->
+    <string-array name="pref_default_font_family_values" translatable="false">
+        <item>Sans-serif</item>
+        <item>Serif</item>
+        <item>Monospace</item>
+    </string-array>
+    <string name="pref_default_font_family_default" translatable="false">Sans-serif</string>
+	<!-- Dialog title-->
+	<string name="download_path_unavailable_dlg_title">Download Directory Unavailable</string>
+	<!-- Dialog message -->
+	<string name="download_path_unavailable_dlg_msg">Please modify the Download Directory of Browser</string>
+    <!-- Do not translate.  Testing only -->
+    <string name="dump_counters" translatable="false">Dump V8 counters</string>
+
+    <!-- The default url for the instant_base_page. -->
+    <string name="instant_base" translatable="false">
+        http://www.google.com/webhp?client={CID}&amp;source=android-instant&amp;ion=1</string>
+    <!--  The default homepage for op02 -->
+    <string name="homepage_for_op02" translatable="false">
+        http://www.wo.com.cn</string>
+    <!-- Bookmarks -->
+    <string-array name="bookmarks_for_op02" translatable="false">
+        <item>3G</item>
+        <item translatable="false">http://www.wo.com.cn</item>
+    </string-array>
+    <!--  The build-in bookmark for op01 -->
+    <string-array name="bookmarks_for_op01" translatable="false">
+        <item>MM综合门户</item>
+        <item>http://mm.10086.cn/a/j/2743/</item>
+        <item>手机阅读</item>
+        <item>http://wap.cmread.com</item>
+        <item>手机游戏</item>
+        <item>http://g.10086.cn</item>
+        <item>手机视频</item>
+        <item>http://wap.cmvideo.cn</item>
+        <item>无线音乐</item>
+        <item>http://m.10086.cn</item>
+        <item>12580</item>
+        <item>http://12580wap.10086.cn/?pid=PCM002942000</item>
+        <item>飞信首页</item>
+        <item>http://f.10086.cn</item>
+        <item>139邮箱</item>
+        <item>http://mail.10086.cn</item>
+        <item>冲浪网址</item>
+        <item>http://go.10086.cn/?coc=6GG2GGRq</item>
+    </string-array>
+    <!--  The build-in bookmark for yahoo -->
+    <string-array name="bookmarks_for_yahoo" translatable="false">
+        <item>Yahoo! Mobile</item>
+        <item>http://m.yahoo.com/?.tsrc=mtk&amp;.sep=mtkbrowser</item>
+        <item>Yahoo! Mail</item>
+        <item>http://m.yahoo.com/mail?.tsrc=mtk&amp;.sep=mtkbrowser</item>
+        <item>Yahoo! Messenger</item>
+        <item>http://m.yahoo.com/w/bp-messenger?.tsrc=mtk&amp;.sep=mtkbrowser</item>
+        <item>Yahoo! News</item>
+        <item>http://m.yahoo.com/news?.tsrc=mtk&amp;.sep=mtkbrowser</item>
+    </string-array>
+    <!-- M: Strings for Add "Home" item in option menu -->
+    <string name="home">Home</string>
+    <!-- M: Strings for Add "Close" item in option menu -->
+    <string name="close">Close</string>
+    <!-- M: Strings for Add "Option" title for "Close" option menu -->
+    <string name="option">Option</string>
+    <!-- M: Strings for Add "Minimize" item in "Close" option menu -->
+    <string name="minimize">Minimize</string>
+    <!-- M: Strings for Add "Quit" item in "Close" option menu -->
+    <string name="quit">Quit</string>
+    
+    <!-- M: Strings for download path setting preference category title for OP01 integrated with File Manager -->
+    <string name="pref_download_title">Download settings</string>
+    <!-- M: Strings for download path setting preference item title for OP01 integrated with File Manager -->
+    <string name="pref_extras_set_download_directory_title">Set download directory</string>
+
+    <!-- M: site navigation start @{ -->   
+    <!-- The default homepage. If it starts with "http://www.google" and the
+            user signs up the device with a Google sites account, the site's
+            domain will be appended. -->
+    <string name="homepage_base_site_navigation" translatable="false">
+        content://com.android.browser.site_navigation/websites</string>
+    <string name="sitenavigation_add">Add website</string>
+    <!-- Name of tab containing the user's most visited websites, organized by number of visits -->
+    <string name="tab_site_navigation">Site navigation</string>
+    <string-array name="pref_homepage_choices_site_navigation">
+        <!-- Setting choice to set the homepage to the current page [CHAR LIMIT=40] -->
+        <item>Current page</item>
+        <!-- Setting choice to set the homepage to a blank page [CHAR LIMIT=40] -->
+        <item>Blank page</item>
+        <!-- Setting choice to set the homepage to the default page [CHAR LIMIT=40] -->
+        <item>Default page</item>
+        <!-- Setting choice to set the homepage to the "Most Visited" homepage feature, which is a list of most visited sites [CHAR LIMIT=40] -->
+        <item>Most visited sites</item>
+        <!-- Setting choice to set the homepage to the "Site Navigation" homepage feature, which is a list of site navigation sites [CHAR LIMIT=40] -->
+        <item>Site Navigation</item>
+        <!-- Setting choice to set the homepage to a user entered URL [CHAR LIMIT=40] -->
+        <item>Other</item>
+    </string-array>
+    <string-array name="pref_homepage_values_site_navigation" translatable="false">
+        <item>current</item>
+        <item>blank</item>
+        <item>default</item>
+        <item>most_visited</item>
+        <item>site_navigation</item>
+        <item>other</item>
+    </string-array>
+    
+    <!-- Content description for site navigation transition [CHAR LIMIT=NONE] -->
+	<!-- Predefined websites Site Navigation for default operator, six of them -->
+	<!-- DO NOT TRANSLATE -->
+    <string-array name="predefined_websites_default_optr">
+        <item>Hao123</item>
+        <item>http://www.hao123.com/</item>
+        <item>site_navigation_default_default1</item>
+
+        <item>Google</item>
+        <item>http://www.google.cn/</item>
+        <item>site_navigation_default_default2</item>
+
+        <item>Baidu</item>
+        <item>http://www.baidu.com/</item>
+        <item>site_navigation_default_default3</item>
+
+        <item>Sina</item>
+        <item>http://www.sina.com.cn/</item>
+        <item>site_navigation_default_default4</item>
+
+        <item>Sohu</item>
+        <item>http://www.sohu.com/</item>
+        <item>site_navigation_default_default5</item>
+
+        <item>Yahoo</item>
+        <item>http://www.yahoo.com/</item>
+        <item>site_navigation_default_default6</item>
+    </string-array>
+    <!-- Predefined websites Site Navigation for Operator#01, seven of them -->
+    <!-- DO NOT TRANSLATE -->
+    <string-array name="predefined_websites_op01">
+        <item>about:blank</item>
+        <item>about:blank1</item>
+        <item>sitenavigation_thumbnail_default</item>
+        
+        <item>about:blank</item>
+        <item>about:blank2</item>
+        <item>sitenavigation_thumbnail_default</item>
+        
+        <item>about:blank</item>
+        <item>about:blank3</item>
+        <item>sitenavigation_thumbnail_default</item>
+        
+        <item>about:blank</item>
+        <item>about:blank4</item>
+        <item>sitenavigation_thumbnail_default</item>
+
+        <item>about:blank</item>
+        <item>about:blank5</item>
+        <item>sitenavigation_thumbnail_default</item>
+
+        <item>about:blank</item>
+        <item>about:blank6</item>
+        <item>sitenavigation_thumbnail_default</item>
+
+        <item>about:blank</item>
+        <item>about:blank7</item>
+        <item>sitenavigation_thumbnail_default</item>
+        
+        <item>about:blank</item>
+        <item>about:blank8</item>
+        <item>sitenavigation_thumbnail_default</item>
+        
+        <item>about:blank</item>
+        <item>about:blank9</item>
+        <item>sitenavigation_thumbnail_default</item>
+    </string-array>
+    <!-- @} -->   
+    <!-- For DM read & write homepage permission -->
+    <string name="permlab_readHomepage">read homepage in browser</string>
+    <string name="permdesc_readHomepage">Allows the application to read homepage information in browser without your intervention.</string>
+    <string name="permlab_writeHomepage">modify homepage in browser</string>
+    <string name="permdesc_writeHomepage">Allows the application to modify homepage information in browser without your intervention.</string>
+    <!-- Alert dialog title for duplicate bookmark-->
+    <string name="duplicated_bookmark">Duplicated bookmark </string>
+    <!-- Alert dialog message telling the user the bookmark have same name or url already exists -->
+    <string name="duplicated_bookmark_warning">The bookmark has same name or location already exists, overwrite?</string>
+
+    <!-- M: Add string for add bookmark folder failed -->
+    <!-- Alert dialog message telling the user the folder have same name or url already exists -->
+    <string name="duplicated_folder_warning">The folder has same name already exists.</string>
+
+        <!-- Search Engine Settings label -->
+    <!-- Settings summary -->
+    <string name="pref_content_search_engine_consistency">Search engine consistency</string>
+    <string name="pref_search_engine_unify">Unify search engine</string>
+    <string name="pref_search_engine_unify_summary">Apply the change of search engine to QuickSearchBox</string>
+    
+    <!-- M: Support download or open content -->
+    <string name="download_or_open_content">Which operation do you select?</string>
+    <string name="save_content">Save</string>
+    <string name="open_content">Open</string>
+    
+    <!-- M: No voice search alert dialog -->
+    <string name="no_voice_search_alert_dialog_title">Voice Search</string>
+    <string name="no_voice_search_alert_dialog_msg">The voice search is not available, due to there is no voice search application. Please install it first.</string>
+
+    <string name="make_primary">Do not show this reminder again</string>
+    <string name="dialog_title">Change Data Connection</string>
+    <string name="wifi_failover_gprs_content">WiFi is unavailable, try to connect to mobile network?</string>
+    <!-- M: Site navigation menu and dialog -->
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="add">Add</string>
+    <string name="delete_site_navigation_msg">Delete this item?</string>
+    <string name="site_navigation_name">Name</string>
+    <string name="site_navigation_address">Address</string>
+    <string name="website_needs_title">"Website must have a name."</string>
+    <string name="website_needs_url">"Website must have a location."</string>
+    <string name="site_navigation_cannot_save_url">This URL cannot be website.</string>
+    <string name="add_site_navigation">Add Website</string>
+    <string name="edit_site_navigation">Edit Site Navigation</string>
+    <string name="site_navigation_edit_button">Edit</string>
+    <string name="save_webpage">Save</string>
+    <string name="duplicate_site_navigation_url">This URL has already existed.</string>
+    
+    <!-- M: OP01 url input length limitation -->
+    <string name="max_input_browser_search">Your input has reached the max limit.</string>
+    <string name="max_input_browser_search_title">Input limit</string>
+    <string name="max_input_browser_search_button">OK</string>
+    
+    <!-- M: Option menu change string: Bookmarks -> Bookmarks/History -->
+    <string name="bookmarks_history">Bookmarks/History</string>
+    <string name="save_bookmark">Save bookmark</string>
+    <string name="sms_received">From <xliff:g id="text">%s</xliff:g> message</string>
+    <!-- M: Bottom bar strings -> -->
+    <string name="tabs">Tab</string>
+    
+    <string name="download_pending_with_file_size">Starting download. File size: </string>
+</resources>

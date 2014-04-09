@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <!-- add for ICS porting -->  
+    <string-array name="proxy_error"> 
+        <item>A gépmező nem lehet üres</item>  
+        <item>A portmező nem lehet üres</item>  
+        <item>Érvénytelen gép</item>  
+        <item>Érvénytelen port</item> 
+    </string-array> 
+</resources>

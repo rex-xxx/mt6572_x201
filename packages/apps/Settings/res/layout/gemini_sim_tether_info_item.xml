@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android:layout_alignParentLeft="true"  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:orientation="horizontal" 
+	android:gravity="center"
+	android:minHeight="?android:attr/listPreferredItemHeight"
+	android:padding="?android:attr/scrollbarSize">
+	<CheckBox android:id="@+id/gemini_contact_check_btn" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent"
+		android:clickable="false"
+		android:focusable="false"
+		android:layout_centerVertical="true" 
+		android:layout_marginRight="15dip">
+	</CheckBox>
+	<LinearLayout 
+		android:layout_width="0dip" 
+		android:layout_height="wrap_content"  
+		android:layout_weight="1"
+		android:layout_centerVertical="true"
+		android:orientation="vertical">
+		<TextView android:id="@+id/gemini_contact_name" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:textAppearance="?android:attr/textAppearanceMedium" 
+			android:singleLine="true"  
+			android:gravity="center_vertical"/>
+		<LinearLayout 
+			android:layout_width="match_parent" 
+			android:layout_height="match_parent" 
+			android:orientation="horizontal">
+			<LinearLayout
+				android:layout_width="0dip" 
+				android:layout_height="match_parent" 
+				android:orientation="horizontal" 
+				android:layout_centerVertical="true" 
+				android:layout_weight="1">
+				<TextView android:id="@+id/gemini_contact_phone_num_type" 
+					android:layout_width="wrap_content" 
+					android:layout_height="match_parent"
+					android:layout_centerVertical="true" 
+					android:textAppearance="?android:attr/textAppearanceSmall" 
+					android:singleLine="true" 
+					android:gravity="center_vertical"/>
+				<TextView android:id="@+id/gemini_contact_phone_num" 
+					android:layout_width="wrap_content" 
+					android:layout_height="match_parent" 
+					android:layout_toRightOf="@id/gemini_contact_phone_num_type"  
+					android:layout_centerVertical="true" 
+					android:textAppearance="?android:attr/textAppearanceSmall" 
+					android:singleLine="true" 
+					android:gravity="center_vertical"/>
+			</LinearLayout>
+			<LinearLayout 
+				android:id="@+id/gemini_contact_sim_status_layout" 
+				android:layout_width="wrap_content" 
+				android:layout_height="match_parent" 
+				android:gravity="center">
+				<TextView android:id="@+id/gemini_contact_sim_status"
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content" 
+					android:singleLine="true"
+					android:textColor="#ffffffff"
+					android:textAppearance="?android:attr/textAppearanceSmall" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

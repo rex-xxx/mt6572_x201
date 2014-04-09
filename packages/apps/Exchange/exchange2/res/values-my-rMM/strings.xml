@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <!-- Deprecated strings - Move the identifiers to this section, mark as
+        DO NOT TRANSLATE, and remove the actual text. These will be removed in a
+        bulk operation. -->  
+    <!-- Name of Microsoft Exchange account type; used by AccountManager -->  
+    <!-- DO NOT TRANSLATE. -->  
+    <string name="exchange_name">Corporate</string>  
+    <!-- Name of Microsoft Exchange account type; used by AccountManager -->  
+    <string name="exchange_name_alternate">မိုက်ခရိုဆော့(ဖ်)ကို သက်ဝင်လှုပ်ရှားမှုရှိသော တစ်မျိုးတည်းဖြစ်အောင်ပြုလုပ်ခြင်း လဲလှယ်သည်</string>  
+    <!-- Message subject for meeting accepted response. This will be followed
+        by a colon and the title of the meeting (i.e. the title of the meeting becomes
+        part of the subject of the message that's sent) -->  
+    <string name="meeting_accepted">လက်ခံရရှိခဲ့သည် - 
+        <xliff:g id="subject">%s</xliff:g> 
+    </string>  
+    <!-- Message subject for meeting declined response. This is followed by
+        a colon and the title of the meeting (i.e. the title of the meeting becomes
+        part of the subject of the message that's sent) -->  
+    <string name="meeting_declined">ငြင်းဆန်ခဲ့သည် - 
+        <xliff:g id="subject">%s</xliff:g> 
+    </string>  
+    <!-- Message subject for meeting tentative response. This is followed by
+        a colon and the title of the meeting (i.e. the title of the meeting becomes
+        part of the subject of the message that's sent) -->  
+    <string name="meeting_tentative">အစမ်း - 
+        <xliff:g id="subject">%s</xliff:g> 
+    </string>  
+    <!-- Message subject for a canceled meeting email. This is followed by a
+        colon and the title of the meeting (i.e. the title of the meeting becomes
+        part of the subject of the message that's sent) -->  
+    <string name="meeting_canceled">ဖျက်သိမ်းခဲ့သည် - 
+        <xliff:g id="subject">%s</xliff:g> 
+    </string>  
+    <!-- Message subject for an updated meeting email. This is followed by a
+        colon and the title of the meeting (i.e. the title of the meeting becomes
+        part of the subject of the message that's sent) -->  
+    <string name="meeting_updated">အသစ်ပြင်ဆင်ခဲ့သည် - 
+        <xliff:g id="subject">%s</xliff:g> 
+    </string>  
+    <!-- Indicate when a meeting takes place. This is presented in in bullet
+        form, as in, "When: xxx" followed by "Where: xxx" -->  
+    <string name="meeting_when">မည်သည့်အချိန် - 
+        <xliff:g id="when">%s</xliff:g> 
+    </string>  
+    <!-- Indicate where a meeting takes place. This is presented in in bullet
+        form, as in, "When: xxx" followed by "Where: xxx" -->  
+    <string name="meeting_where">မည်သည့်နေရာ - 
+        <xliff:g id="where">%s</xliff:g> 
+    </string>  
+    <!-- Indicate that a meeting is recurring. This would normally be presented
+        after "When: xxx", e.g. "When: Tue, Mar 10, 2010 at 2:30pm (recurring)" -->  
+    <string name="meeting_recurring">မည်သည့်အချိန် - 
+        <xliff:g id="eventdate" example="Tue,Mar10,2010at2:30pm">%s</xliff:g> (ထပ်တလည်းလည်းပြန်ဖြစ်သည်)
+    </string>  
+    <!-- Indicate that a meeting lasts all day. This would normally be presented
+        after "When: xxx", e.g. "When: Tue, Mar 10, 2010 (all day)" -->  
+    <string name="meeting_allday">မည်သည့်အချိန် - 
+        <xliff:g id="eventdate" example="Tue,Mar10,2010">%s</xliff:g> (တစ်နေ့လုံး)
+    </string>  
+    <!-- Indicate that a meeting lasts all day and is recurring. This would normally be presented
+        after "When: xxx", e.g. "When: Tue, Mar 10, 2010 (all day, recurring)" -->  
+    <string name="meeting_allday_recurring">မည်သည့်အချိန် - 
+        <xliff:g id="eventdate" example="Tue,Mar10,2010">%s</xliff:g> (တစ်နေ့လုံး၊ထပ်တလည်းလည်းပြန်ဖြစ်သည်)
+    </string>  
+    <!-- Notification message in notifications window when calendar sync is
+        automatically enabled for pre-existing Exchange accounts on upgrade -->  
+    <string name="notification_exchange_calendar_added">လဲလှယ်ခြင်း ပြက္ခဒိန် ပေါင်းထည့်ခဲ့သည်</string>  
+    <!-- The name of this APK as shown in manage applications settings. [CHAR LIMIT=30] -->  
+    <string name="app_name">လဲလှယ်ခြင်း ဝန်ဆောင်မှုများ</string>  
+    <!-- Used as the body text of a message reporting to an attendee that a
+        specific instance of a recurring meeting has been canceled -->  
+    <string name="exception_cancel"> 
+        <xliff:g id="date">%s</xliff:g> အတွက် ဤဖြစ်ရပ် ဖျက်သိမ်းခဲ့ပြီးပြီ
+    </string>  
+    <!-- Used as the body text of a message reporting to an attendee that a
+        specific instance of a recurring meeting has been changed -->  
+    <string name="exception_updated"> 
+        <xliff:g id="date">%s</xliff:g> အတွက် ဤဖြစ်ရပ်၏ အသေးစိတ်များကို ပြောင်းခဲ့ပြီးပြီ
+    </string>  
+    <!-- The following are a list of policies that the user's server might require, but that can't
+        be enforced by our device.  We will list them separated by commas, as required -->  
+    <!-- A policy in which the device may not have a storage card [CHAR LIMIT=50] -->  
+    <string name="policy_dont_allow_storage_cards">သိုလှောင်ထားသည့် ကဒ်များကို ခွင့်မပြုပါနှင့်</string>  
+    <!-- A policy in which the device may not have unsigned applications installed
+        [CHAR LIMIT=50] -->  
+    <string name="policy_dont_allow_unsigned_apps">လက်မှတ်မထိုးရသေးသော လုပ်ငန်းသုံး ပရိုဂရမ်များကို ခွင့်မပြုပါနှင့်</string>  
+    <!-- A policy in which the device may not allow application installation via an unsigned
+        installer [CHAR LIMIT=50] -->  
+    <string name="policy_dont_allow_unsigned_installers">လက်မှတ်မထိုးရသေးသော လုပ်ငန်းသုံး ပရိုဂရမ် တပ်ဆင်ခြင်းသည့်အရာများကို ခွင့်မပြုပါနှင့်</string>  
+    <!-- A policy in which the device may not allow wifi communications [CHAR LIMIT=50] -->  
+    <string name="policy_dont_allow_wifi">ဝိုင်-ဖိုင် ကို ခွင့်မပြုပါနှင့်</string>  
+    <!-- A policy in which the device may not allow text messaging [CHAR LIMIT=50] -->  
+    <string name="policy_dont_allow_text_messaging">စာသား မက်ဆေ့(ခ်ျ)ပေးပို့ခြင်းကို ခွင့်မပြုပါနှင့်</string>  
+    <!-- A policy in which the device may not allow POP3 or IMAP email accounts [CHAR LIMIT=50] -->  
+    <string name="policy_dont_allow_pop_imap">POP3 သို့မဟုတ် IMAP အကောင့်များကို ခွင့်မပြုပါနှင့်</string>  
+    <!-- A policy in which the device may allow infrared communications [CHAR LIMIT=50] -->  
+    <string name="policy_dont_allow_irda">အနီအောက်ရောင်ခြည် ဆက်သွယ်ပြောဆိုခြင်းများကို ခွင့်မပြုပါနှင့်</string>  
+    <!-- A policy in which the device may allow HTML email to be received [CHAR LIMIT=50] -->  
+    <string name="policy_dont_allow_html">HTML အီးမေး(လ်) ကို ခွင့်မပြုပါနှင့်</string>  
+    <!-- A policy in which the device may not allow the user of web browsers [CHAR LIMIT=50] -->  
+    <string name="policy_dont_allow_browser">ဘရောက်ဆာများကို ခွင့်မပြုပါနှင့်</string>  
+    <!-- A policy in which the device may not allow the receipt of consumer email
+        [CHAR LIMIT=50] -->  
+    <string name="policy_dont_allow_consumer_email">သုံးစွဲသူ အီးမေး(လ်)ကို ခွင့်မပြုပါနှင့်</string>  
+    <!-- A policy in which the device may not allow internet connection sharing
+        [CHAR LIMIT=50] -->  
+    <string name="policy_dont_allow_internet_sharing">အင်တာနက် မျှဝေသုံးစွဲခြင်းကို ခွင့်မပြုပါနှင့်</string>  
+    <!-- A policy in which messages must be in SMIME format [CHAR LIMIT=50] -->  
+    <string name="policy_require_smime">SMIME မက်ဆေ့(ခ်ျ)များ လိုအပ်သည်</string>  
+    <!-- A policy in which the device's bluetooth capabilities are restricted [CHAR LIMIT=50] -->  
+    <string name="policy_bluetooth_restricted">ဘလူးတု(ရ်) အသုံးပြုခြင်းကို ကန့်သတ်ထားသည်</string>  
+    <!-- A policy in which the device blocks specified applications [CHAR LIMIT=50]-->  
+    <string name="policy_app_blacklist">တိကျသော လုပ်ငန်းသုံး ပရိုဂရမ်များ ခွင့်မပြုပါ</string>  
+    <!-- A policy in which the device allows only specified applications [CHAR LIMIT=50] -->  
+    <string name="policy_app_whitelist">တိကျသော လုပ်ငန်းသုံး ပရိုဂရမ်များသာ ခွင့်ပြုသည်</string>  
+    <!-- A policy in which the device limits the amount of text that can be displayed for a
+        given message [CHAR LIMIT=50] -->  
+    <string name="policy_text_truncation">စာသား အီးမေး(လ်) အရွယ်အစား ကန့်သတ်ထားသည်</string>  
+    <!-- A policy in which the device limits the amount of HTML text that can be displayed for a
+        given message [CHAR LIMIT=50] -->  
+    <string name="policy_html_truncation">HTML အီးမေး(လ်) အရွယ်အစား ကန့်သတ်ထားသည်</string>  
+    <!-- A policy in which the device requires device or sd card encryption [CHAR LIMIT=50] -->  
+    <string name="policy_require_sd_encryption">SD ကဒ် သတင်းအချက်အလက်ကို ကုဒ်အဖြစ်ဖော်ပြသည့်စနစ် လိုအပ်သည်</string>  
+    <!-- The following are a list of policies that the user's server requires and that are
+         in force.  We will list them separated by commas, as required -->  
+    <!-- A policy in which attachments aren't allowed to be downloaded [CHAR LIMIT=50] -->  
+    <string name="policy_dont_allow_attachments">ပူးတွဲများကို ခွင့်မပြုပါနှင့်</string>  
+    <!-- A policy in which the device restricts the size of attachments that can be downloaded
+        [CHAR LIMIT=50] -->  
+    <string name="policy_max_attachment_size">ပူးတွဲ အရွယ်အစား ကန့်သတ်ထားသည်</string>  
+    <!-- A policy in which the device may only sync manually while roaming [CHAR LIMIT=50] -->  
+    <string name="policy_require_manual_sync_roaming">အခြားနိုင်ငံများတွင်လည်း သုံးနိုင်သော ဖုန်းလိုင်းစနစ်လုပ်နေစဥ်တွင် လက်ဖြင့်/ပုံမှန် တစ်မျိုးတည်းဖြစ်အောင်ပြုလုပ်ခြင်းသာ ခွင့်ပြုသည်</string>  
+    <!-- The following is a policy that may or not be supported on a particular device -->  
+    <!-- A policy in which the device requires device or sd card encryption [CHAR LIMIT=50] -->  
+    <string name="policy_require_encryption">သတင်းအချက်အလက်ကို ကုဒ်ဖြင့်ဖော်ပြသည့်စနစ် စက် လိုအပ်သည်</string> 
+</resources>

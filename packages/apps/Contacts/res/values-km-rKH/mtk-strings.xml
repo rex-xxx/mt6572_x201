@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="group_discard_member_reason">ការសម្រួលនឹងត្រូវបោះចោលដោយសារឈ្មោះក្រុមមិនមានសុពលភាព ។</string>    
+	<string name="deleteConfirmation_title">លុបលេខទំនាក់ទំនងចោលទេ?</string>
+    <string name="add_contact_dlg_title">បន្ថែមលេខទំនាក់ទំនង</string>
+
+    <string name="international_dialing_title">ជំនួយការរវៃលេខហៅទៅក្រៅប្រទេស</string>
+    <string name="international_dialing_select_country">វាត្រូវរកឃើញថា អ្នកកំពុងហៅទៅក្រៅប្រទេស ។ សូមជ្រើសយកទីដៅរបស់អ្នក ។</string>
+    <string name="international_dialing_add_country_code">វាត្រូវបានរកឃើញថា អ្នកកំពុងរវៃលេខប្រទេស <xliff:g id="country_name">%s</xliff:g> ។ តើអ្នកចង់បន្ថែមលេខកូដប្រទេស (+<xliff:g id="country_code">%s</xliff:g>)ទេ?</string>
+    <string name="international_dialing_add_country_code_and_area_code">វាត្រូវបានរកឃើញថា អ្នកកំពុងតែរវៃលេខក្នុងប្រទេស <xliff:g id="area_name">%1$s</xliff:g>, <xliff:g id="country_name">%2$s</xliff:g> ។ តើអ្នកចង់បន្ថែមលេខកូដប្រទេស និងលេខកូដតំបន់ (+<xliff:g id="prefix">%3$s</xliff:g>)ទេ?</string> 
+    <string name="international_dialing_change_country_prefix">វាត្រូវបានរកឃើញថា អ្នកកំពុងរវៃលេខចេញពីប្រទេស <xliff:g id="country_name">%s</xliff:g>។ ចង់ប្តូរលេខហៅទៅក្រៅប្រទេសទៅជា \'+\'ទេ?</string>
+    <string name="international_dialing_add_country_code_input_area_code">វាត្រូវបានរកឃើញថា អ្នកកំពុងរវៃលេខក្នុងប្រទេស <xliff:g id="country_name">%s</xliff:g> ។ បើដូច្នេះមែន សូមបញ្ចូលលេខតំបន់ ។</string>   
+    <string name="international_dialing_add_country_code_default_input_area_code">វា\ត្រូវបានរកឃើញថា អ្ន\កកំពុងរវៃលេខក្នុងប្រទេស <xliff:g id="country_name">%s</xliff:g> ។ ប្រសិនបើទីក្រុងទិសដៅរបស់អ្នកមិនមែនជា <xliff:g id="area_name">%s</xliff:g> សូមបញ្ចូលលេខកូដតំបន់ ។</string>
+    <string name="international_dialing_need_area_code">ត្រូវការលេខកូដតំបន់នៃទីក្រុងទិសដៅរបស់អ្នក ទើបអាចហៅចេញបាន ។</string>
+    <string name="international_dialing_input_area_code">បញ្ចូលលេខកូដតំបន់ទីនេះ</string>
+    <string name="international_dialing_dialed_number">លេខកំពុងរវៃ ៖</string>
+    <string name="international_dialing_confirm_area_code">បើទីក្រុងទិសដៅរស់អ្នកមិនមែនជាទីក្រុង <xliff:g id="area_name">%s</xliff:g> សូមបញ្ចូលលេខកូដតំបន់ នៃទីក្រុងទិសដៅរបស់អ្នកខាងក្រោម ។</string>
+    <string name="international_dialing_dial_with_country_code">រវៃជាមួយលេខកូដប្រទែស</string>
+    <string name="international_dialing_click_below_button">ចុចប៊ូតុងខាងក្រោម ដើម្បីប្តូរលេខកូដប្រទេស ។</string>
+    <string name="international_dialing_yes">បាទ ។ សូមប្រើលេខខាងក្រោម ៖</string>
+    <string name="international_dialing_no">ទេ ។ សូមប្រើលេខដើម ៖</string>
+    <string name="international_dialing_call_button">ហៅ</string>
+    <string name="international_dialing_area_code">លេខកូដតំបន់</string>
+    <string name="international_dialing_invalid_number">លេខមិនមានសុពលភាព ។ តើអ្នកនៅតែបន្តរវៃមែនទេ?</string>
+    <string name="international_dialing_add_country_code_and_area_code_without_prefix">តើអ្នកចង់បន្ថែមលេខកូដប្រទេស និងលេខកូដតំបន់មែនទេ?</string>
+    <string name="share_too_large">ទិន្នន័យសរុបលើសដែនកំណត់អតិបរមា សូមបោះចោលការជ្រើសរើសវត្ថុខ្លះ ហើយព្យាយាមម្តងទៀត ។</string>
+
+</resources>

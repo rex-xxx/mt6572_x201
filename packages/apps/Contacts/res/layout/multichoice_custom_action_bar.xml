@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:divider="?android:attr/dividerVertical"
+        android:dividerPadding="12dip"
+        android:orientation="horizontal"
+        android:showDividers="middle" >
+
+        <ImageButton
+            android:id="@+id/contact_home"
+            style="?android:attr/actionButtonStyle"
+            android:layout_width="56dip"
+            android:layout_height="56dip"
+            android:clickable="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_launcher_contacts" />
+
+        <Button
+            android:id="@+id/select_items"
+            style="?android:attr/actionButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_toRightOf="@id/done_menu_item"
+            android:layout_toLeftOf="@id/ic_divider3"
+            android:background="@drawable/dropdown_normal_holo_dark"
+            android:divider="?android:attr/listDividerAlertDialog"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/action_bar_button_text_color" />
+
+        <ImageView
+            android:id="@+id/ic_divider"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="10dip"
+            android:layout_marginRight="0dip"
+            android:layout_marginTop="10dip"
+            android:alpha="0.2"
+            android:gravity="center"
+            android:scaleType="fitXY"
+            android:src="@drawable/divider_vertical_dark" />
+
+        <Button
+            android:id="@+id/menu_option"
+            style="?android:attr/actionButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="0dip"
+            android:padding="0dip"
+            android:text="@android:string/ok"
+            android:singleLine="true"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/action_bar_button_text_color" />
+
+        <ImageView
+            android:id="@+id/ic_divider2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="2dip"
+            android:layout_marginRight="2dip"
+            android:layout_marginTop="10dip"
+            android:layout_toLeftOf="@id/menu_option"
+            android:alpha="0.2"
+            android:gravity="center"
+            android:scaleType="fitXY"
+            android:src="@drawable/divider_vertical_dark" />
+
+        <Button
+            android:id="@+id/cancel"
+            style="?android:attr/actionButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="0dip"
+            android:layout_toLeftOf="@id/ic_divider2"
+            android:padding="0dip"
+            android:text="@android:string/cancel"
+            android:singleLine="true"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/action_bar_button_text_color" />
+
+        <ImageView
+            android:id="@+id/ic_divider3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="10dip"
+            android:layout_marginRight="2dip"
+            android:layout_marginTop="10dip"
+            android:layout_toLeftOf="@id/cancel"
+            android:alpha="0.2"
+            android:gravity="center"
+            android:scaleType="fitXY"
+            android:src="@drawable/divider_vertical_dark" />
+
+        <SearchView
+            android:id="@+id/search_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="left"
+            android:layout_marginLeft="0dip"
+            android:layout_toLeftOf="@id/ic_divider3"
+            android:iconifiedByDefault="false"
+            android:imeOptions="flagNoExtractUi|flagNoFullscreen"
+            android:inputType="textCapWords"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</FrameLayout>

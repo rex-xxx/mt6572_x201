@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!-- Layout parameters are set programmatically. xmlns:android="http://schemas.android.com/apk/res/android" -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ex="http://schemas.android.com/apk/res/com.android.contacts"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout  
+        android:id="@+id/tablet_land"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" > 
+
+        <!-- for call log filter -->
+
+        <LinearLayout
+            android:id="@+id/calllog_auto_rejected_cluster"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/call_log_auto_rejected_label"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/calllog_list_margin_left"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="@string/block_incoming_call"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="?android:attr/textColorSecondary" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/calllog_search_button_cluster"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_type_filter_all"
+                android:layout_width="120dip"
+                android:layout_height="50dip"
+                android:layout_marginLeft="@dimen/call_log_outer_margin"
+                android:background="@drawable/btn_calllog_all"
+                android:singleLine="true"
+                android:text="@string/all_tab_label1"
+                android:textColor="#ffffff"
+                android:textSize="8pt"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/first_divider"
+                android:layout_width="1px"
+                android:layout_height="24dip"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/action_bar_divider" />
+
+            <Button
+                android:id="@+id/btn_type_filter_incoming"
+                android:layout_width="120dip"
+                android:layout_height="50dip"
+                android:background="@drawable/btn_calllog_incoming" />
+
+            <View
+                android:id="@+id/third_divider"
+                android:layout_width="1px"
+                android:layout_height="24dip"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/action_bar_divider" />
+
+            <ImageView
+                android:id="@+id/btn_type_filter_incoming_icon"
+                android:layout_width="65dip"
+                android:layout_height="32dip"
+                android:layout_marginLeft="-85dip"
+                android:layout_marginTop="8dip"
+                android:src="@drawable/ic_btn_incoming" />
+
+            <Button
+                android:id="@+id/btn_type_filter_outgoing"
+                android:layout_width="120dip"
+                android:layout_height="50dip"
+                android:layout_marginLeft="20dip"
+                android:background="@drawable/btn_calllog_incoming" />
+
+            <View
+                android:id="@+id/secondary_divider"
+                android:layout_width="1px"
+                android:layout_height="24dip"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/action_bar_divider" />
+
+            <ImageView
+                android:id="@+id/btn_type_filter_outgoing_icon"
+                android:layout_width="65dip"
+                android:layout_height="32dip"
+                android:layout_marginLeft="-85dip"
+                android:layout_marginTop="8dip"
+                android:src="@drawable/ic_btn_outgoing" />
+
+            <Button
+                android:id="@+id/btn_type_filter_missed"
+                android:layout_width="120dip"
+                android:layout_height="50dip"
+                android:layout_marginLeft="20dip"
+                android:background="@drawable/btn_calllog_missed" />
+
+            <ImageView
+                android:id="@+id/btn_type_filter_missed_icon"
+                android:layout_width="65dip"
+                android:layout_height="32dip"
+                android:layout_marginLeft="-85dip"
+                android:layout_marginTop="8dip"
+                android:src="@drawable/ic_btn_missed" />
+        </LinearLayout>
+   
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1dip"
+             >
+
+            <!-- Show wait cursor when data is loading -->
+            <include layout="@layout/wait_cursor" />
+
+            <ListView
+                android:id="@android:id/list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@null"
+                android:fadingEdge="none"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:scrollbarStyle="outsideOverlay" />
+
+            <TextView
+                android:id="@android:id/empty"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/empty_message_top_margin"
+                android:gravity="center"
+                android:text="@string/recentCalls_empty"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="?android:attr/textColorSecondary" />
+        </FrameLayout>
+    </LinearLayout>
+
+
+  <!--  <View
+                android:id="@+id/certer_divider"
+                android:layout_width="10dip"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_call_log_list_details_background" />
+   -->              
+
+    <RelativeLayout
+        android:id="@+id/call_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/call_log_detail"   
+         >
+
+        <!-- 
+      The list view is under everything.
+      It contains a first header element which is hidden under the controls UI.
+      When scrolling, the controls move up until the name bar hits the top.
+        -->
+
+        <ListView
+            android:id="@+id/history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="213dip" />
+
+        <!-- All the controls which are part of the pinned header are in this layout. -->
+
+        <RelativeLayout
+            android:id="@+id/controls"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" >
+
+            <view
+                android:id="@+id/contact_background_sizer"
+                android:layout_width="213dip"
+                android:layout_height="213dip"
+                android:layout_alignParentLeft="true"
+                class="com.android.contacts.widget.ProportionalLayout"
+                ex:direction="widthToHeight"
+                android:paddingBottom="3dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="3dip"
+                android:paddingTop="10dip"
+                ex:ratio="1.5" >
+
+                <ImageView
+                    android:id="@+id/contact_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop" />
+            </view>
+
+            <LinearLayout
+                android:id="@+id/blue_separator"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:layout_below="@+id/controls"
+                android:layout_marginLeft="@dimen/call_log_inner_margin"
+                android:layout_marginRight="@dimen/call_log_inner_margin"
+                android:layout_marginTop="@dimen/call_log_list_item_height"
+                android:layout_toRightOf="@id/contact_background_sizer"
+                android:background="@android:color/holo_blue_light" />
+
+            <View
+                android:id="@+id/photo_text_bar"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/call_log_list_item_height"
+                android:layout_alignBottom="@id/blue_separator"
+                android:layout_alignLeft="@id/blue_separator" />
+
+            <ImageView
+                android:id="@+id/main_action"
+                android:layout_width="wrap_content"
+                android:layout_height="0dip"
+                android:layout_alignBottom="@id/photo_text_bar"
+                android:layout_alignRight="@id/photo_text_bar"
+                android:layout_alignTop="@id/photo_text_bar"
+                android:layout_marginRight="@dimen/call_log_outer_margin"
+                android:scaleType="center"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/header_text"
+                android:layout_width="wrap_content"
+                android:layout_height="0dip"
+                android:layout_alignBottom="@id/photo_text_bar"
+                android:layout_alignLeft="@id/blue_separator"
+                android:layout_alignTop="@id/photo_text_bar"
+                android:layout_marginLeft="@dimen/call_detail_contact_name_margin"
+                android:layout_marginRight="@dimen/call_log_inner_margin"
+                android:layout_toLeftOf="@id/main_action"
+                android:gravity="center_vertical"
+                android:maxWidth="70dip"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/sim_name"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/calllog_list_item_simname_height"
+                android:layout_alignBottom="@id/photo_text_bar"
+                android:layout_alignRight="@id/header_text"
+                android:layout_marginBottom="12dip"
+                android:ellipsize="middle"
+                android:maxWidth="@dimen/call_detail_without_voicemail_sim_name_max_width"
+                android:singleLine="true"
+                android:textColor="@color/calllog_list_item_simname_font_color"
+                android:textSize="@dimen/call_detail_simname_text_size" />
+
+            <ImageButton
+                android:id="@+id/main_action_push_layer"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/call_log_list_item_height"
+                android:layout_alignBottom="@id/photo_text_bar"
+                android:layout_alignLeft="@id/photo_text_bar"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@id/photo_text_bar"
+                android:background="?android:attr/selectableItemBackground" />
+
+            <FrameLayout
+                android:id="@+id/call_and_sms"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/call_log_list_item_height"
+                android:layout_alignLeft="@id/blue_separator"
+                android:layout_below="@id/blue_separator"
+                android:gravity="center_vertical" >
+
+                <!-- android:background="@drawable/dialpad_background" -->
+
+                <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/call_and_sms_main_action"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:focusable="true"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/call_and_sms_text_action"
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:focusable="true"
+                        android:gravity="center_vertical"
+                        android:nextFocusDown="@+id/video_call_action"
+                        android:nextFocusRight="@+id/call_and_sms_icon"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/call_and_sms_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:paddingRight="@dimen/call_log_icon_margin"
+                            android:singleLine="true"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#ffffff" />
+
+                        <LinearLayout
+                            android:id="@+id/labe_and_geocode_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:id="@+id/call_and_sms_label"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:ellipsize="end"
+                                android:paddingRight="@dimen/call_log_icon_margin"
+                                android:singleLine="true"
+                                android:textAllCaps="true"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:textColor="#ffffff" />
+
+                            <TextView
+                                android:id="@+id/call_number_geocode"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:ellipsize="end"
+                                android:singleLine="true"
+                                android:textAllCaps="true"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:textColor="#ffffff" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/call_and_sms_divider"
+                        android:layout_width="1px"
+                        android:layout_height="32dip"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/ic_divider_dashed_holo_dark" />
+
+                    <ImageView
+                        android:id="@+id/call_and_sms_icon"
+                        android:layout_width="@color/call_log_voicemail_highlight_color"
+                        android:layout_height="match_parent"
+                        android:focusable="true"
+                        android:gravity="center"
+                        android:nextFocusDown="@+id/video_call_action"
+                        android:nextFocusLeft="@+id/call_and_sms_text_action"
+                        android:paddingLeft="@dimen/call_log_inner_margin"
+                        android:paddingRight="@dimen/call_log_outer_margin"
+                        android:scaleType="centerInside" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <!-- The following lines are provided and maintained by Mediatek Inc. -->
+
+            <View
+                android:id="@+id/separator01"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_alignLeft="@id/blue_separator"
+                android:layout_below="@id/call_and_sms"
+                android:layout_marginLeft="@dimen/call_log_inner_margin"
+                android:layout_marginRight="@dimen/call_log_inner_margin"
+                android:background="#292829" />
+
+            <!-- android:background="@android:color/black" -->
+
+            <FrameLayout
+                android:id="@+id/video_call_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/blue_separator"
+                android:layout_below="@id/separator01" >
+
+                <!-- android:background="@drawable/dialpad_background" -->
+
+                <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/video_call"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/call_log_list_item_height"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/video_call_action"
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:focusable="true"
+                        android:gravity="center_vertical"
+                        android:nextFocusDown="@+id/ip_call_action"
+                        android:nextFocusUp="@+id/call_and_sms_text_action"
+                        android:orientation="vertical"
+                        android:paddingLeft="@dimen/call_log_indent_margin" >
+
+                        <TextView
+                            android:id="@+id/video_call_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:singleLine="true"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#ffffff" />
+
+                        <TextView
+                            android:id="@+id/video_call_label"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAllCaps="true"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#ffffff" />
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+
+            <View
+                android:id="@+id/separator02"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_alignLeft="@id/blue_separator"
+                android:layout_below="@id/video_call_container"
+                android:layout_marginLeft="@dimen/call_log_inner_margin"
+                android:layout_marginRight="@dimen/call_log_inner_margin"
+                android:background="#292829" />
+
+            <FrameLayout
+                android:id="@+id/ip_call_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/blue_separator"
+                android:layout_below="@id/separator02" >
+
+                <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/ip_call"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/call_log_list_item_height"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/ip_call_action"
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:focusable="true"
+                        android:gravity="center_vertical"
+                        android:nextFocusUp="@+id/video_call_action"
+                        android:orientation="vertical"
+                        android:paddingLeft="@dimen/call_log_indent_margin" >
+
+                        <TextView
+                            android:id="@+id/ip_call_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:singleLine="true"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#ffffff" />
+
+                        <TextView
+                            android:id="@+id/ip_call_label"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAllCaps="true"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#ffffff" />
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+
+            <View
+                android:id="@+id/separator03"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_alignLeft="@id/blue_separator"
+                android:layout_below="@id/ip_call_container"
+                android:layout_marginLeft="@dimen/call_log_inner_margin"
+                android:layout_marginRight="@dimen/call_log_inner_margin"
+                android:background="#292829"
+                android:visibility="gone" />
+
+            <FrameLayout
+                android:id="@+id/RCS_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/blue_separator"
+                android:layout_below="@id/separator03"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/RCS"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/call_log_list_item_height"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/RCS_action"
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:focusable="true"
+                        android:gravity="center_vertical"
+                        android:nextFocusUp="@+id/video_call_action"
+                        android:orientation="vertical"
+                        android:paddingLeft="@dimen/call_log_indent_margin" >
+
+                        <TextView
+                            android:id="@+id/RCS_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:singleLine="true"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#000000" />
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/RCS_divider"
+                        android:layout_width="1px"
+                        android:layout_height="32dip"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/ic_divider_dashed_holo_dark" />
+
+                    <ImageView
+                        android:id="@+id/RCS_icon"
+                        android:layout_width="@color/call_log_voicemail_highlight_color"
+                        android:layout_height="match_parent"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:focusable="true"
+                        android:gravity="center"
+                        android:nextFocusLeft="@+id/RCS_action"
+                        android:paddingLeft="@dimen/call_log_inner_margin"
+                        android:paddingRight="@dimen/call_log_outer_margin"
+                        android:scaleType="centerInside" />
+                </LinearLayout>
+            </FrameLayout>
+
+        </RelativeLayout>
+
+        <!--
+         Used to hide the UI when playing a voicemail and the proximity sensor
+         is detecting something near the screen.
+        -->
+
+        <View
+            android:id="@+id/blank"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@android:color/black"
+            android:clickable="true"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

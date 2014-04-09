@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_label">ဒေါင်းလုဒ်များ</string>  
+    <string name="download_title_sorted_by_date">ဒေါင်းလုဒ်များ-နေ့စွဲအလိုက် အမျိုးအစားခွဲထားသည်</string>  
+    <string name="download_title_sorted_by_size">ဒေါင်းလုဒ်များ-အရွယ်အစားအလိုက် အမျိုးအစားခွဲထားသည်</string>  
+    <string name="no_downloads">ဒေါင်းလုဒ်များ မရှိပါ။</string>  
+    <string name="delete_download">ဖျက်ပစ်သည်</string>  
+    <string name="missing_title">အမည်မသိ</string>
+    <!-- Button to display sort-by-size option [CHAR LIMIT=25] -->  
+    <string name="button_sort_by_size">အရွယ်အစားအလိုက် အမျိုးအစားခွဲထားသည်</string>  
+    <!-- Button to display sort-by-date option [CHAR LIMIT=25] -->  
+    <string name="button_sort_by_date">နေ့စွဲအလိုက် အမျိုးအစားခွဲထားသည်</string>  
+    <!-- Status messages -->  
+    <!-- Status indicating that the download has been queued to start in the future.  Appears for an
+         individual item in the download list.  [CHAR LIMIT=11] -->  
+    <string name="download_queued">တန်းစီထားသည်</string>  
+    <!-- Status indicating that the system is currently downloading the file.  Appears for an
+         individual item in the download list.  [CHAR LIMIT=11] -->  
+    <string name="download_running">လုပ်ဆောင်နေဆဲ</string>  
+    <!-- Status indicating that the download has completed successfully. Appears for an individual
+         item in the download list.  [CHAR LIMIT=11] -->  
+    <string name="download_success">ပြီးပြီ</string>  
+    <!-- Status indicating that the download has ended without completing successfully.  Appears for
+         an individual item in the download list.  [CHAR LIMIT=11] -->  
+    <string name="download_error">မအောင်မြင်သော</string>  
+    <!-- Dialog/toast messages -->  
+    <!-- Title of dialog that is shown when the user clicks a download for which no file is
+         available, either because the download hasn't started or because the download failed
+         [CHAR LIMIT=25] -->  
+    <string name="dialog_title_not_available">ဒေါင်းလုဒ်မချနိုင်ပါ</string>  
+    <!-- Text for dialog when user clicks on a download that failed [CHAR LIMIT=200] -->  
+    <string name="dialog_failed_body">ဖိုင်ကို ဒေါင်းလုဒ်ချဖို့ နောက်မှသင်ကြိုးပမ်းလိုပါသလား သို့မဟုတ် တန်းစီထားခြင်းကို ဖျက်လိုပါသလား။</string>  
+    <!-- Title for dialog when user clicks on a download that has not yet begun, but will be started
+         in the future. [CHAR LIMIT=25] -->  
+    <string name="dialog_title_queued_body">ဖိုင်ကိုတန်းစီထားသည်</string>  
+    <!-- Text for dialog when user clicks on a download that has not yet begun, but will be started
+         in the future. [CHAR LIMIT=200] -->  
+    <string name="dialog_queued_body">လောလောဆယ် မရရှိနိုင်သေးသောကြောင့် နောင်တွင်ဒေါင်းလုဒ်ချရန်အတွက် ဖိုင်ကိုတန်းစီထားသည်။</string>  
+    <!-- Text for dialog when user clicks on a completed download but the file is missing
+         [CHAR LIMIT=200] -->  
+    <string name="dialog_file_missing_body">ဒေါင်းလုဒ်ချပြီးသား ဖိုင်ကိုရှာမတွေ့ပါ။</string>  
+    <!-- Text for dialog when user clicks on a download that failed due to insufficient space on
+         external storage [CHAR LIMIT=200] -->  
+    <string name="dialog_insufficient_space_on_external">ဒေါင်းလုဒ်ချခြင်းကို အပြီးမသတ်နိုင်ပါ။ နေရာသို့မဟုတ် ပြင်ပသိမ်းဆည်းနေရာ အလုံအလောက်မရှိပါ။</string>  
+    <!-- Text for dialog when user clicks on a download that failed due to insufficient space on
+         the internal download cache [CHAR LIMIT=200] -->  
+    <string name="dialog_insufficient_space_on_cache">ဒေါင်းလုဒ်ချခြင်းကို အပြီးမသတ်နိုင်ပါ။ စက်တွင်းရှိ ဒေါင်းလုဒ်ချ သိမ်းဆည်းနေရာ အလုံအလောက်မရှိပါ။</string>  
+    <!-- Text for dialog when user clicks on a download that failed because it was interrupted and
+         the server doesn't support resuming downloads [CHAR LIMIT=200] -->  
+    <string name="dialog_cannot_resume">ဒေါင်းလုဒ်ချနေစဉ် နှောင့်ယှက်ခံရပြီး လုပ်ဆောင်ရန် ပြန်လည်စတင်ခြင်း မပြုနိုင်ပါ။</string>  
+    <!-- Text for dialog when user clicks on a download that failed because the requested
+         destination file already exists [CHAR LIMIT=200] -->  
+    <string name="dialog_file_already_exists">ဒေါင်းလုဒ်မချနိုင်ပါ။ ရည်ရွယ်ထားသောဖိုင်မှာ ရှိပြီးသားဖြစ်သည်။</string>  
+    <!-- Text for dialog when user clicks on a download that failed because it was requested to go
+         on the external media, which is not mounted [CHAR LIMIT=200] -->  
+    <string name="dialog_media_not_found">ဒေါင်းလုဒ်မချနိုင်ပါ။ ပြင်ပမီဒီယာ မရှိပါ။</string>  
+    <!-- Text for a toast appearing when a user clicks on a completed download, informing the user
+         that there is no application on the device that can open the file that was downloaded
+         [CHAR LIMIT=200] -->  
+    <string name="download_no_application_title">ဖိုင်ကိုမဖွင့်နိုင်ပါ</string>  
+    <!-- Buttons -->  
+    <!-- Text for button to remove the entry for a download that has not yet begun or that has
+         failed [CHAR LIMIT=25] -->  
+    <string name="remove_download">ဖယ်ရှားရန်</string>  
+    <!-- Text for button to delete a download that has completed, or to delete multiple download
+         entries [CHAR LIMIT=25] -->  
+   
+    <!-- Text for button to keep a download that has not yet begun [CHAR LIMIT=25] -->  
+    <string name="keep_queued_download">သိမ်းထားရန်</string>  
+    <!-- Text for button to cancel a download that is currently in progress [CHAR LIMIT=25] -->  
+    <string name="cancel_running_download">Cancel</string>  
+    <!-- Text for button appearing in a dialog to restart a download, either one that failed or one
+         for which the downloaded file is now missing [CHAR LIMIT=25] -->  
+    <string name="retry_download">ပြန်လည်ကြိုးစားရန်</string>  
+    <!-- Text for button appearing in the pop-up selection menu to deselect all currently selected
+    downloads in the download list [CHAR LIMIT=25] -->  
+    <string name="deselect_all">ရွေးချယ်ထားမှုအားလုံးကို ပယ်ဖျက်ရန်</string>  
+    <!-- Text for menu to select all downloads in the download list [CHAR LIMIT=25] -->  
+    <string name="select_all">အားလုံးကိုရွေးချယ်ရန်</string>  
+    <!-- number of downloads selected [CHAR LIMIT=50] -->  
+    <string name="selected_count"> 
+        <xliff:g id="total" example="15">%2$d</xliff:g> ထဲမှ 
+        <xliff:g id="number" example="3">%1$d</xliff:g> ကိုရွေးထားသည်
+    </string>  
+    <!-- title shown when displaying list of apps to choose from when share is clicked on
+        [CHAR LIMIT = 20] -->  
+    <string name="download_share_dialog">တဆင့်ဝေငှရန်</string> 
+</resources>

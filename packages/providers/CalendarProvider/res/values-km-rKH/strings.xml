@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="calendar_storage">ការរក្សាទុកប្រតិទិន</string>  
+    <string name="upgrade_msg">លើកកំពស់សំណុំទិន្នន័យប្រតិទិន ។</string>  
+    <string name="calendar_default_name">សិតពីរោងចក្រ</string>  
+    <string name="calendar_info">ព័ត៌មានប្រតិទិន</string>  
+    <string name="calendar_info_error">កំហុស</string>  
+    <string name="calendar_info_no_calendars">មិនមានប្រតិទិន</string>  
+    <string name="calendar_info_events">ហេតុការណ៍: 
+        <xliff:g id="events">%1$d</xliff:g> 
+    </string>  
+    <string name="calendar_info_events_dirty">ហេតុការណ៍: 
+        <xliff:g id="events">%1$d</xliff:g>, Unsaved: 
+        <xliff:g id="dirty events">%2$d</xliff:g> 
+    </string>  
+    <string name="provider_label">ប្រតិទិន</string>  
+    <string name="debug_tool_delete_button">លុបចោលឥឡូវនេះ</string>  
+    <string name="debug_tool_start_button">ចាប់ផ្តើម</string>  
+    <string name="debug_tool_message">អ្នកហៀបនឹង 1) ចម្លងសំណុំទិន្នន័យប្រតិទិនរបស់អ្នកទៅកាន់កាត SD/ឧបករណ៍ USB ដែលអាចអានបានដោយកម្មវិធីផ្សេងៗ និង 2) ផ្ញើសំណុំទិន្នន័យចេញតាមអ៊ីម៉េល ។ ចូរកុំភ្លេចលុបចោលនូវការចម្លង ពេលដែលអ្នកបានចម្លងវាដោយជោគជ័យចេញពីឧបករណ៍ ឬពេលដែលអ្នកបានទទួលអ៊ីម៉េលរួចហើយ ។</string>  
+    <string name="debug_tool_email_sender_picker">ជ្រើសរើសកម្មវិធីដើម្បីផ្ញើរឯកសាររបស់អ្នកចេញ</string>  
+    <string name="debug_tool_email_subject">ភ្ជាប់មកជាមួយនូសំណុំទិន្នន័យប្រតិទិន</string>  
+    <string name="debug_tool_email_body">ឯកសារភ្ជាប់គឺជាសំណុំទិន្នន័យប្រតិទិនរបស់ខ្ញុំ ដែលមានកត់ត្រាចូលនូវការណាត់របស់ខ្ញុំទាំងអស់ និងព័ត៌មានផ្ទាល់ខ្លួន ។ សូមមេត្តាចាត់ចែងដោយប្រុងប្រយ័ត្ន ។</string> 
+</resources>

@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+     <string-array name="wifi_security"> 
+        <item msgid="1435933968767043814">খুলুন</item>  
+        <item msgid="6318432659048829665">ডাব্লিউএপিআই সার্টিফিকেট</item>  
+        <item msgid="2966395706508338179">WPA/WPA2 PSK</item>  
+        <item msgid="9098390198768443435">802.1x EAP</item>  
+        <item>WAPI PSK</item>  
+        <item>WAPI সার্টিফিকেট</item> 
+    </string-array>  
+    <string-array name="wpa_security"> 
+        <item>খুলুন</item>  
+        <item>WEP</item>  
+        <item>WPA/WPA2 PSK</item>  
+        <item>802.1x EAP</item> 
+    </string-array>  
+    <string-array name="wapi_security"> 
+        <item>খুলুন</item>  
+        <item>ডাব্লিউএপিআই সার্টিফিকেট</item>  
+        <item>WAPI সার্টিফিকেট</item> 
+    </string-array>  
+    <string-array name="wifi_eap_method"> 
+        <item msgid="1160193392455075561">PEAP</item>  
+        <item msgid="7981731051382306293">TLS</item>  
+        <item msgid="2892994535305020162">TTLS</item> 
+    </string-array>  
+    <string-array name="wifi_signal"> 
+        <item msgid="2245412278046491293">খারাপ</item>  
+        <item msgid="5615082285463430971">মোটামুটি</item>  
+        <item msgid="3565079809875324621">ভালো</item>  
+        <item msgid="5702329417707689835">অসফল</item> 
+    </string-array>  
+    <string-array name="wifi_sleep_policy_entries"> 
+        <item msgid="3804733751095821976">সবসময়</item>  
+        <item msgid="1549288661423279207">কেবল প্লাগ লাগানো অবস্থায়</item>  
+        <item msgid="1986753720941888596">কখনো নয় (ডাটার ব্যবহার বাড়ায়)</item> 
+    </string-array>  
+    <string-array name="usage_stats_display_order_types"> 
+        <item msgid="9077371706468756228">ব্যবহার সময়</item>  
+        <item msgid="1908750532762193304">গণনা চালু করুন</item>  
+        <item msgid="1213951670006606353">এপ্লি. নাম</item> 
+    </string-array>  
+    <string-array name="wifi_phase2_entries"> 
+        <item msgid="1818786254010764570">কোনটি নয়</item>  
+        <item msgid="6189918678874123056">পিএপি</item>  
+        <item msgid="1524112260493662517">MSCHAP</item>  
+        <item msgid="5923246669412752932">এমএসসিএইচএপিভি২</item>  
+        <item msgid="8651992560135239389">GTC</item> 
+    </string-array>  
+    <string-array name="emergency_tone_entries"> 
+        <item msgid="5165439859689033665">বন্ধ করুন</item>  
+        <item msgid="3165868966179561687">সজাগ করুন</item>  
+        <item msgid="6038758039030476855">ভাইব্রেট করুন</item> 
+    </string-array>  
+    <string-array name="apn_auth_entries"> 
+        <item msgid="3856896061242872146">কোনটি নয়</item>  
+        <item msgid="5756844015743664882">পিএপি</item>  
+        <item msgid="535934025797984365">CHAP</item>  
+        <item msgid="8383098660619805783">পিএপি বা সিএইচএপি</item> 
+    </string-array>  
+    <string-array name="apn_protocol_entries"> 
+        <item>ipv4</item>  
+        <item>IPv6</item>  
+        <item>IPv4/IPv6</item> 
+    </string-array>  
+    <string-array name="app_install_location_entries"> 
+        <item msgid="8151497958991952759">অভ্যন্তরীণ ডিভাইস সংরক্ষণাগার</item>  
+        <item msgid="3738430123799803530">সরানোরযোগ্য এসডি কার্ড</item>  
+        <item msgid="4498124044785815005">সিস্টেমকে সিদ্ধান্ত নিতে দিন</item> 
+    </string-array>  
+    <string-array name="agps_eng_si_mode_entries"> 
+        <item>SI-MA</item>  
+        <item>SI-MB</item>  
+        <item>SI-STANDALONE</item> 
+    </string-array>  
+    <string-array name="agps_eng_si_mode_entryvalues"> 
+        <item>MA</item>  
+        <item>MB</item>  
+        <item>স্ট্যান্ডঅ্যালন</item> 
+    </string-array>  
+    <string-array name="agps_eng_set_id_list_entry"> 
+        <item>IMSI</item>  
+        <item>IPV4</item> 
+    </string-array>  
+    <string-array name="agps_eng_set_id_list_entryvalues"> 
+        <item>IMSI</item>  
+        <item>ipv4</item> 
+    </string-array>  
+    <string-array name="molr_position_type_entrys"> 
+        <item>কেবল UP</item>  
+        <item>কেবল CP</item> 
+    </string-array>  
+    <string-array name="molr_position_type_entryvalues"> 
+        <item>কেবল UP</item>  
+        <item>কেবল CP</item> 
+    </string-array>  
+    <string-array name="supl_capability_entry"> 
+        <item>RRLP</item>  
+        <item>RRC</item>  
+        <item>RRLP+RRC</item> 
+    </string-array>  
+    <string-array name="supl_capability_entryvalues"> 
+        <item>RRLP</item>  
+        <item>RRC</item>  
+        <item>RRLP+RRC</item> 
+    </string-array>  
+    <string-array name="tvout_system_list"> 
+        <item>PAL</item>  
+        <item>NTSC</item> 
+    </string-array>  
+    <string-array name="epo_update_period_title"> 
+        <item>১০ মিনিট</item>  
+        <item>১ ঘণ্টা</item>  
+        <item>৬ ঘণ্টা</item>  
+        <item>১ দিন</item>  
+        <item>৩ দিন</item>  
+        <item>৭ দিন</item>  
+        <item>১৪ দিন</item>  
+        <item>৩০ দিন</item> 
+    </string-array>  
+    <string-array name="epo_update_period_value"> 
+        <item>১০</item>  
+        <item>৬০</item>  
+        <item>৩৬০</item>  
+        <item>১৪৪০</item>  
+        <item>৪৩২০</item>  
+        <item>১০০৮০</item>  
+        <item>২০১৬০</item>  
+        <item>৪৩২০০</item> 
+    </string-array>  
+    <!-- Add for HDMI begin -->  
+    <string-array name="hdmi_video_resolution_entries"> 
+        <item>স্বয়ংক্রিয়</item>  
+        <item>720P</item>  
+        <item>480P</item> 
+    </string-array>  
+    <!-- Add for HMDI end -->  
+    <string-array name="lock_after_timeout_entries"> 
+        <item>তৎ ক্ষণাৎ</item>  
+        <item>৫ সেকেন্ড</item>  
+        <item>১৫ সেকেন্ড</item>  
+        <item>৩০ সেকেন্ড</item>  
+        <item>১ মিনিট</item>  
+        <item>২ মিনিট</item>  
+        <item>৫ মিনিট</item>  
+        <item>১০ মিনিট</item>  
+        <item>৩০ মিনিট</item> 
+    </string-array>  
+    <string-array name="entries_font_size"> 
+        <item>ছোট</item>  
+        <item>সাধারণ</item>  
+        <item>বড়</item>  
+        <item>বেশি বড়</item> 
+    </string-array>  
+    <string-array name="wifi_security_wfa"> 
+        <item>খুলুন</item>  
+        <item>WEP</item>  
+        <item>WPA PSK</item>  
+        <item>WPA2 PSK</item>  
+        <item>802.1x EAP</item>  
+        <item>WAPI PSK</item>  
+        <item>WAPI Certificate</item> 
+    </string-array>  
+    <string-array name="wpa_security_wfa"> 
+        <item>খুলুন</item>  
+        <item>ডাব্লিউইপি</item>  
+        <item>WPA PSK</item>  
+        <item>WPA2 PSK</item>  
+        <item>802.1x EAP</item> 
+    </string-array>  
+    <string-array name="wifi_p2p_wps_setup"> 
+        <item>পুশ বাটন</item>  
+        <item>সর্তীর্থ ডিভাইস থেকে পিন</item>  
+        <item>এই ডিভাইস থেকে পিন</item> 
+    </string-array>  
+    <string-array name="wifi_p2p_status"> 
+        <item>সংযুক্ত</item>  
+        <item>আমন্ত্রিত</item>  
+        <item>অসফল</item>  
+        <item>লভ্য</item>  
+        <item>রেঞ্জের বাইরে</item> 
+    </string-array>  
+    <string-array name="bluetooth_visibility_timeout_entries"> 
+        <item>২ মিনিট</item>  
+        <item>৫ মিনিট</item>  
+        <item>১ ঘণ্টা</item>  
+        <item>কখনো সময় শেষ হয় না</item> 
+    </string-array>  
+    <string-array name="wifi_sleep_policy_entries_wifi_only"> 
+        <item>সবসময়</item>  
+        <item>কেবল প্লাগ লাগানো অবস্থায়</item>  
+        <item>কখনো না</item> 
+    </string-array>  
+    <string-array name="wifi_frequency_band_entries"> 
+        <item>স্বয়ংক্রিয়</item>  
+        <item>কেবল ৫ GHz</item>  
+        <item>কেবল ২.৪ মেগাহাটজ</item> 
+    </string-array>  
+    <string-array name="wifi_network_setup"> 
+        <item>বন্ধ করুন</item>  
+        <item>পুশ বাটন</item>  
+        <item>প্রবেশ পয়েন্ট থেকে পিন</item>  
+        <item>এই ডিভাইস থেকে পিন</item> 
+    </string-array>  
+    <string-array name="wifi_ip_settings"> 
+        <item>ডিএইচসিপি</item>  
+        <item>স্থির</item> 
+    </string-array>  
+    <string-array name="wifi_proxy_settings"> 
+        <item>কোনটি নয়</item>  
+        <item>ম্যানুয়াল</item> 
+    </string-array>  
+    <string-array name="bearer_entries"> 
+        <item>এলটিই</item>  
+        <item>eHRPD</item>  
+        <item>অনির্দিষ্ট</item> 
+    </string-array>  
+    <string-array name="long_press_timeout_selector_titles"> 
+        <item>খাটো</item>  
+        <item>মধ্যম</item>  
+        <item>লম্বা</item> 
+    </string-array>  
+    <string-array name="hdcp_checking_titles"> 
+        <item>কখনো চেক করবেন না</item>  
+        <item>কেবল ডিআরএম বিষয়বস্তুর জন্য চেক করুন</item>  
+        <item>সবসময় চেক করুন</item> 
+    </string-array>  
+    <string-array name="hdcp_checking_summaries"> 
+        <item>কখনো এইচডিসিপি চেকিং ব্যবহার করবেন না</item>  
+        <item>কেবল ডিআরএম বিষয়বস্তুর জন্য চেক করতে এইচডিসিপি ব্যবহার করুন</item>  
+        <item>সব সময় এইচডিসিপি চেকিং ব্যবহার করুন</item> 
+    </string-array>  
+    <string-array name="window_animation_scale_entries"> 
+        <item>অ্যানিমেশন বন্ধ</item>  
+        <item>এনিমেশনের স্কেল ০.৫x</item>  
+        <item>অ্যানিমেশন স্কেল 1x</item>  
+        <item>এনিমেশনের স্কেল ১.৫x</item>  
+        <item>অ্যানিমেশন স্কেল 2x</item>  
+        <item>এনিমেশনের স্কেল ৫x</item>  
+        <item>অ্যানিমেশন স্কেল 10x</item> 
+    </string-array>  
+    <string-array name="transition_animation_scale_entries"> 
+        <item>অ্যানিমেশন বন্ধ</item>  
+        <item>এনিমেশনের স্কেল ০.৫x</item>  
+        <item>অ্যানিমেশন স্কেল 1x</item>  
+        <item>এনিমেশনের স্কেল ১.৫x</item>  
+        <item>অ্যানিমেশন স্কেল 2x</item>  
+        <item>এনিমেশনের স্কেল ৫x</item>  
+        <item>অ্যানিমেশন স্কেল 10x</item> 
+    </string-array>  
+    <string-array name="app_process_limit_entries"> 
+        <item>আদর্শ সীমা</item>  
+        <item>কোন ব্যাকগ্রাউন্ড প্রক্রিয়া নেই</item>  
+        <item>খুব বেশি হলে ১টি প্রক্রিয়া</item>  
+        <item>বেশি হলে ২টি প্রক্রিয়া</item>  
+        <item>খুব বেশি হলে ৩টি প্রক্রিয়া</item>  
+        <item>বেশি হলে ৪টি প্রক্রিয়া</item> 
+    </string-array>  
+    <string-array name="vpn_types_long"> 
+        <item>পিপিটিপি ভিপিএন</item>  
+        <item>পূর্ব থেকে শেয়ারকৃত কিসহ এলটুটিপি/আইপিসেক ভিপিএন</item>  
+        <item>সনদের সাথে এলটুটিপি/আইপি সেক. ভিপিএন</item>  
+        <item>পূর্ব থেকে শেয়ারকৃত কিসহ আইপিসেক ভিপিএন এবং এক্সঅথ সত্যপ্রতিপাদন</item>  
+        <item>সনদ ও সাথে এক্সঅথ অথেনটিকেশনের সাথে আইপি সেক. ভিপিএন</item>  
+        <item>সনদসহ আইপিসেক ভিপিএন এবং হাইব্রিড সত্যপ্রতিপাদন</item> 
+    </string-array>  
+    <string-array name="vpn_states"> 
+        <item>বিচ্ছিন্ন</item>  
+        <item>সূচনা হচ্ছে\u2026</item>  
+        <item>সংযুক্ত হচ্ছে \u2026</item>  
+        <item>সংযুক্ত</item>  
+        <item>সময় শেষ</item>  
+        <item>অসফল</item> 
+    </string-array>  
+    <string-array name="auto_time_entries"> 
+        <item>নেটওয়ার্ক প্রদত্ত সময় ব্যবহার করুন</item>  
+        <item>জিপিএস প্রদত্ত সময় ব্যবহার করুন</item>  
+        <item>বন্ধ করুন</item> 
+    </string-array>  
+    <string-array name="agps_qop_acc_type_entries"> 
+        <item>কে-ভ্যালু</item>  
+        <item>মিটার</item> 
+    </string-array>  
+    <string-array name="molor_type"> 
+        <item>অবস্থান অনুমান</item>  
+        <item>সহায়তা ডাটা</item> 
+    </string-array>  
+    <string-array name="sim_prefer"> 
+        <item>সিম১ অগ্রাধিকারযোগ্য</item>  
+        <item>সিম২ পছন্দ</item> 
+    </string-array>  
+    <string-array name="network_use_entry"> 
+        <item>কেবল স্থানীয়</item>  
+        <item>স্থানীয় + রোমিং</item> 
+    </string-array>  
+    <string-array name="networklocation_bindservice_entries"> 
+        <item>গুগল</item>  
+        <item>MediaTek</item> 
+    </string-array>  
+    <string-array name="networklocation_bindservice_entriesValues"> 
+        <item>com.google.android.location.NetworkLocationProvider</item>  
+        <item>com.mediatek.android.location.NetworkLocationProvider</item> 
+    </string-array>  
+    <string-array name="geocoder_bindservice_entries"> 
+        <item>গুগল</item>  
+        <item>MediaTek</item> 
+    </string-array>  
+    <string-array name="geocoder_bindservice_entriesValues"> 
+        <item>com.google.android.location.GeocodeProvider</item>  
+        <item>com.mediatek.android.location.NetworkLocationProvider</item> 
+    </string-array>  
+    <string-array name="networklocation_reportfrequency_entries"> 
+        <item>১০ সেকেন্ড</item>  
+        <item>২০ সেকেন্ড</item>  
+        <item>৩০ সেকেন্ড</item>  
+        <item>৬০ সেকেন্ড</item> 
+    </string-array>  
+    <string-array name="notify_duration_list_entries"> 
+        <item>০ সে.</item>  
+        <item>১ সে.</item>  
+        <item>২ সে.</item>  
+        <item>৩ সে.</item>  
+        <item>৪ সে.</item>  
+        <item>৫ সে.</item>  
+        <item>৬ সে.</item>  
+        <item>৭ সে.</item>  
+        <item>৮ সে.</item> 
+    </string-array>  
+    <string-array name="verify_duration_list_entries"> 
+        <item>০ সে.</item>  
+        <item>১ সে.</item>  
+        <item>২ সে.</item>  
+        <item>৩ সে.</item>  
+        <item>৪ সে.</item>  
+        <item>৫ সে.</item>  
+        <item>৬ সে.</item>  
+        <item>৭ সে.</item>  
+        <item>৮ সে.</item> 
+    </string-array>  
+    <string-array name="wifi_connect_type_entries"> 
+        <item>স্বয়ংক্রিয়ভাবে সংযুক্ত করুন</item>  
+        <item>ম্যানুয়ালি সংযুক্ত</item>  
+        <item>সবসময় জিজ্ঞাসা করুন</item> 
+    </string-array>  
+    <string-array name="wifi_hotspot_disable_policy_entries"> 
+        <item>সবসময়</item>  
+        <item>৫ মিনিট অলস থাকার সময় বন্ধ রাখুন</item>  
+        <item>১০ মিনিট অলস থাকার সময় বন্ধ রাখুন</item> 
+    </string-array>  
+    <string-array name="wifi_ap_security"> 
+        <item>চালু করুন</item>  
+        <item>ডাব্লিউপিএ পিএসকে</item>  
+        <item>ডাব্লিউপিএ২ পিএসকে</item> 
+    </string-array>  
+    <string-array name="silent_mode_entries"> 
+        <item>বন্ধ</item>  
+        <item>কম্পন</item>  
+        <item>নিঃশব্দ করুন</item> 
+    </string-array>  
+    <string-array name="timezone_filters"> 
+        <item>আমেরিকা</item>  
+        <item>ইউরোপ</item>  
+        <item>আফ্রিকা</item>  
+        <item>এশিয়া</item>  
+        <item>অস্ট্রেলিয়া</item>  
+        <item>প্রশান্ত</item>  
+        <item>সব</item> 
+    </string-array>  
+    <string-array name="dream_timeout_entries"> 
+        <item>কখনও নয়</item>  
+        <item>১৫ সেকেন্ড</item>  
+        <item>৩০ সেকেন্ড</item>  
+        <item>১ মিনিট</item>  
+        <item>২ মিনিট</item>  
+        <item>৫ মিনিট</item>  
+        <item>১০ মিনিট</item>  
+        <item>৩০ মিনিট</item> 
+    </string-array>  
+    <string-array name="tts_pitch_entries"> 
+        <item>খুবই নিম্ন</item>  
+        <item>নিম্ন</item>  
+        <item>সাধারণ</item>  
+        <item>উচ্চ</item>  
+        <item>অতি উচ্চ</item> 
+    </string-array>  
+    <string-array name="animator_duration_scale_entries"> 
+        <item>অ্যানিমেশন বন্ধ করা হয়েছে</item>  
+        <item>অ্যানিমেশন স্কেল .5x</item>  
+        <item>অ্যানিমেশন স্কেল 1x</item>  
+        <item>অ্যানিমেশন স্কেল 1.5x</item>  
+        <item>অ্যানিমেশন স্কেল 2x</item>  
+        <item>অ্যানিমেশন স্কেল 5x</item>  
+        <item>অ্যানিমেশন স্কেল 10x</item> 
+    </string-array>  
+    <string-array name="wifi_WEP_security_type"> 
+        <item>স্বয়ংক্রিয়</item>  
+        <item>WEP ASCII</item>
+        <item>WEP hexadecimal</item>  
+    </string-array> 
+
+    <string-array name="wifi_ap_wps_mode_entries"> 
+        <item>পুশ বাটন</item>  
+        <item>ক্লায়েন্টের কাছ থেকে পিন</item> 
+    </string-array>  
+    <string-array name="wifi_ap_max_connection_entries"> 
+        <item>1 ব্যবহারকারী</item>  
+        <item>2 ব্যবহারকারী</item> 
+        <item>3 ব্যবহারকারী</item> 
+        <item>4 ব্যবহারকারী</item> 
+        <item>5 ব্যবহারকারী</item> 
+        <item>6 ব্যবহারকারী</item> 
+        <item>7 ব্যবহারকারী</item>
+        <item>8 ব্যবহারকারী</item> 
+    </string-array> 
+
+	<string-array name="sim_slot">
+		<item>(অনির্দিষ্ট)</item>
+		<item>সিম স্লট ০</item>
+		<item>সিম স্লট ১</item>
+	</string-array>
+</resources>

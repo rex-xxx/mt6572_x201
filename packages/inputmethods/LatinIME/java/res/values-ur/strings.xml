@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="english_ime_name" msgid="7252517407088836577">"Android کی بورڈ"</string>
+    <string name="aosp_android_keyboard_ime_name" msgid="7877134937939182296">"Android کی بورڈ(AOSP)"</string>
+    <string name="english_ime_settings" msgid="6661589557206947774">"Android کی بورڈ ترتیبات"</string>
+    <string name="english_ime_input_options" msgid="3909945612939668554">"انپٹ اختیارات"</string>
+    <string name="spell_checker_service_name" msgid="7338064335159755926">"Android کی غلطی"</string>
+    <string name="aosp_spell_checker_service_name" msgid="6985142605330377819">"Android کی غلطی (AOSP)"</string>
+    <string name="android_spell_checker_settings" msgid="5822324635435443689">"اسپیل چیکننگ کی ترتیبات"</string>
+    <string name="use_contacts_for_spellchecking_option_title" msgid="5374120998125353898">"رابطہ کے نام تلاش کریں"</string>
+    <string name="use_contacts_for_spellchecking_option_summary" msgid="8754413382543307713">"املاء کا جانچ کنندہ آپ کے رابطہ کی فہرست کے مندرجات کا استعمال کرتا ہے"</string>
+    <string name="vibrate_on_keypress" msgid="5258079494276955460">"بٹن دبانے پر ارتعاش"</string>
+    <string name="sound_on_keypress" msgid="6093592297198243644">"بٹن دبانے پر آواز"</string>
+    <string name="popup_on_keypress" msgid="123894815723512944">"بٹن دبانے پر پاپ اپ"</string>
+    <string name="general_category" msgid="1859088467017573195">"عمومی"</string>
+    <string name="correction_category" msgid="2236750915056607613">"ٹیکسٹ میں تصحیح"</string>
+    <string name="misc_category" msgid="6894192814868233453">"دوسرے اختیارات"</string>
+    <string name="advanced_settings" msgid="362895144495591463">"برتر ترتیبات"</string>
+    <string name="advanced_settings_summary" msgid="4487980456152830271">"ماہر صارفین کے لئے اختیارات"</string>
+    <string name="include_other_imes_in_language_switch_list" msgid="4533689960308565519">"اندراج کے دوسرے طریقوں میں سوئچ کریں"</string>
+    <string name="include_other_imes_in_language_switch_list_summary" msgid="840637129103317635">"زبان سوئچ کرنے کی کلید اندراج کے دیگر طریقوں پر بھی محیط ہے"</string>
+    <string name="suppress_language_switch_key" msgid="8003788410354806368">"زبان سوئج کرنے کی کلید دبائیں"</string>
+    <string name="key_preview_popup_dismiss_delay" msgid="6213164897443068248">"کی پاپ اپ مسترد میں تاخیر"</string>
+    <string name="key_preview_popup_dismiss_no_delay" msgid="2096123151571458064">"کوئی تاخیر نہيں"</string>
+    <string name="key_preview_popup_dismiss_default_delay" msgid="2166964333903906734">"ڈیفالٹ"</string>
+    <string name="use_contacts_dict" msgid="4435317977804180815">"روابط کے نام تجویز کریں"</string>
+    <string name="use_contacts_dict_summary" msgid="6599983334507879959">"تجاویز اور اصلاح کے لئے روابط سے نام استعمال کریں"</string>
+    <string name="enable_span_insert" msgid="7204653105667167620">"دوبارہ تصحیح فعال کریں"</string>
+    <string name="enable_span_insert_summary" msgid="2947317657871394467">"دوبارہ تصحیح کے لئے تجاویز سیٹ کریں"</string>
+    <string name="auto_cap" msgid="1719746674854628252">"خودکار طور پر بڑے حروف کاری"</string>
+    <string name="configure_dictionaries_title" msgid="4238652338556902049">"اضافی لغتیں"</string>
+    <string name="main_dictionary" msgid="4798763781818361168">"مرکزی لغت"</string>
+    <string name="prefs_show_suggestions" msgid="8026799663445531637">"تصحیح کی تجاویز دکھائيں"</string>
+    <string name="prefs_show_suggestions_summary" msgid="1583132279498502825">"ٹائپنگ کے دوران تجویز کردہ الفاظ دکھائيں"</string>
+    <string name="prefs_suggestion_visibility_show_name" msgid="3219916594067551303">"ہمیشہ دکھائيں"</string>
+    <string name="prefs_suggestion_visibility_show_only_portrait_name" msgid="3551821800439659812">"پورٹریٹ وضع پر دکھائيں"</string>
+    <string name="prefs_suggestion_visibility_hide_name" msgid="6309143926422234673">"ہمیشہ چھپائيں"</string>
+    <string name="auto_correction" msgid="4979925752001319458">"خودکار تصحیح"</string>
+    <string name="auto_correction_summary" msgid="5625751551134658006">"اسپیس بار اور علامات اوقاف خودکار طور پر غلط ٹائپ کردہ الفاظ درست کرتا ہے"</string>
+    <string name="auto_correction_threshold_mode_off" msgid="8470882665417944026">"بند"</string>
+    <string name="auto_correction_threshold_mode_modest" msgid="8788366690620799097">"ماڈسٹ"</string>
+    <string name="auto_correction_threshold_mode_aggeressive" msgid="3524029103734923819">"ايگریسیو"</string>
+    <string name="auto_correction_threshold_mode_very_aggeressive" msgid="3386782235540547678">"بہت ايگریسیو"</string>
+    <string name="bigram_suggestion" msgid="8169311444438922902">"بائیگرام تجویزات"</string>
+    <string name="bigram_suggestion_summary" msgid="6635527607242625713">"تجویز کو بڑھانے کے لئے سابقہ لفظ استعمال کریں"</string>
+    <string name="bigram_prediction" msgid="3216364899483135294">"اگلے لفط کا قیاس"</string>
+    <string name="bigram_prediction_summary" msgid="1747261921174300098">"قیاس کیلئے پچھلا لفظ بھی استعمال کریں"</string>
+    <string name="added_word" msgid="8993883354622484372">"<xliff:g id="WORD">%s</xliff:g> : محفوظ"</string>
+    <string name="label_go_key" msgid="1635148082137219148">"جانا"</string>
+    <string name="label_next_key" msgid="362972844525672568">"اگلا"</string>
+    <string name="label_previous_key" msgid="1211868118071386787">"پچھلا"</string>
+    <string name="label_done_key" msgid="2441578748772529288">"ہوگیا"</string>
+    <string name="label_send_key" msgid="2815056534433717444">"بھیجنا"</string>
+    <string name="label_to_alpha_key" msgid="4793983863798817523">"ABC"</string>
+    <string name="label_to_symbol_key" msgid="8516904117128967293">"?123"</string>
+    <string name="label_to_symbol_with_microphone_key" msgid="9035925553010061906">"123"</string>
+    <string name="label_pause_key" msgid="181098308428035340">"وقفہ"</string>
+    <string name="label_wait_key" msgid="6402152600878093134">"انتظار کریں"</string>
+    <string name="spoken_use_headphones" msgid="896961781287283493">"پاس ورڈ کیز کو سننے کے لئے ہیڈسیٹ لگائيں"</string>
+    <string name="spoken_current_text_is" msgid="2485723011272583845">"حالیہ ٹیکسٹ ہے %s "</string>
+    <string name="spoken_no_text_entered" msgid="7479685225597344496">"کوئی ٹیکسٹ درج نہيں"</string>
+    <string name="spoken_description_unknown" msgid="3197434010402179157">"کی کوڈ %d"</string>
+    <string name="spoken_description_shift" msgid="244197883292549308">"شفٹ"</string>
+    <string name="spoken_description_shift_shifted" msgid="1681877323344195035">"شفٹ فعال"</string>
+    <string name="spoken_description_caps_lock" msgid="3276478269526304432">"کیپس لاک فعال"</string>
+    <string name="spoken_description_delete" msgid="8740376944276199801">"مٹائيں"</string>
+    <string name="spoken_description_to_symbol" msgid="5486340107500448969">"علامات"</string>
+    <string name="spoken_description_to_alpha" msgid="23129338819771807">"حرف"</string>
+    <string name="spoken_description_to_numeric" msgid="591752092685161732">"اعداد"</string>
+    <string name="spoken_description_settings" msgid="4627462689603838099">"ترتیبات"</string>
+    <string name="spoken_description_tab" msgid="2667716002663482248">"ٹیب"</string>
+    <string name="spoken_description_space" msgid="2582521050049860859">"اسپیس"</string>
+    <string name="spoken_description_mic" msgid="615536748882611950">"صوتی مداخلہ"</string>
+    <string name="spoken_description_smiley" msgid="2256309826200113918">"جذباتی چہرل"</string>
+    <string name="spoken_description_return" msgid="8178083177238315647">"واپس"</string>
+    <string name="spoken_description_search" msgid="1247236163755920808">"تلاش کریں"</string>
+    <string name="spoken_description_dot" msgid="40711082435231673">"نقطہ"</string>
+    <string name="spoken_description_shiftmode_on" msgid="5700440798609574589">"شفٹ فعال ہے"</string>
+    <string name="spoken_description_shiftmode_locked" msgid="593175803181701830">"کیپس لاک فعال ہے"</string>
+    <string name="spoken_description_shiftmode_off" msgid="657219998449174808">"شفٹ غیر فعال ہے"</string>
+    <string name="spoken_description_mode_symbol" msgid="7183343879909747642">"علامات کی وضع"</string>
+    <string name="spoken_description_mode_alpha" msgid="3528307674390156956">"حروف کی وضع"</string>
+    <string name="spoken_description_mode_phone" msgid="6520207943132026264">"فون کی وضع"</string>
+    <string name="spoken_description_mode_phone_shift" msgid="5499629753962641227">"فون کی علات کی وضع"</string>
+    <string name="voice_input" msgid="3583258583521397548">"صوتی اندراج کی کلید"</string>
+    <string name="voice_input_modes_main_keyboard" msgid="3360660341121083174">"مرکزی کی بورڈ پر"</string>
+    <string name="voice_input_modes_symbols_keyboard" msgid="7203213240786084067">"علامات کی بورڈ پر"</string>
+    <string name="voice_input_modes_off" msgid="3745699748218082014">"بند"</string>
+    <string name="voice_input_modes_summary_main_keyboard" msgid="6586544292900314339">"مرکزی کی بورڈ پر مائيک"</string>
+    <string name="voice_input_modes_summary_symbols_keyboard" msgid="5233725927281932391">"علامات کے کی بورڈ پر مائيک"</string>
+    <string name="voice_input_modes_summary_off" msgid="63875609591897607">"آواز کا مداخلہ غیرفعال"</string>
+    <string name="configure_input_method" msgid="373356270290742459">"مداخلے کے طریقہ کار کی تشکیل کریں"</string>
+    <string name="language_selection_title" msgid="1651299598555326750">"زبانیں انپٹ کریں"</string>
+    <string name="select_language" msgid="3693815588777926848">"مداخلے کی زبانیں"</string>
+    <string name="hint_add_to_dictionary" msgid="573678656946085380">"محفوظ کرنے کیلئے دوبارہ چھوئیں"</string>
+    <string name="has_dictionary" msgid="6071847973466625007">"لغت دستیاب ہے"</string>
+    <string name="prefs_enable_log" msgid="6620424505072963557">"صارف کے تاثرات فعال کریں"</string>
+    <string name="prefs_description_log" msgid="5827825607258246003">"استعمال کے اعداد و شمار اور تباہی کی رپورٹیں Google کو خودکار طور پر بھیج کر اندراج کے طریقے کے اس ایڈیٹر کو بہتر بنانے میں مدد کرتا ہے"</string>
+    <string name="keyboard_layout" msgid="8451164783510487501">"کی بورڈ کا تھیم"</string>
+    <string name="subtype_en_GB" msgid="88170601942311355">"انگريزی (UK)"</string>
+    <string name="subtype_en_US" msgid="6160452336634534239">"انگریزی (US)"</string>
+    <string name="subtype_with_layout_en_GB" msgid="2179097748724725906">"انگریزی (UK) (
+        <xliff:g id="LAYOUT">%s</xliff:g>)"</string>
+    <string name="subtype_with_layout_en_US" msgid="1362581347576714579">"انگریزی (US) (
+        <xliff:g id="LAYOUT">%s</xliff:g>)"</string>
+    <string name="subtype_no_language" msgid="141420857808801746">"کوئی زبان نہیں"</string>
+    <string name="subtype_no_language_qwerty" msgid="2956121451616633133">"کوئی زبان نہیں (QWERTY)"</string>
+    <string name="subtype_no_language_qwertz" msgid="1177848172397202890">"کوئی زبان نہیں (QWERTZ)"</string>
+    <string name="subtype_no_language_azerty" msgid="8721460968141187394">"کوئی زبان نہیں (AZERTY)"</string>
+    <string name="subtype_no_language_dvorak" msgid="3122976737669823935">"کوئی زبان نہیں (Dvorak)"</string>
+    <string name="subtype_no_language_colemak" msgid="4205992994906097244">"کوئی زبان نہیں (Colemak)"</string>
+    <string name="subtype_no_language_pcqwerty" msgid="8840928374394180189">"کوئی زبان نہیں (PC)"</string>
+    <string name="custom_input_styles_title" msgid="8429952441821251512">"حسب ضرورت اندراج کی طرزیں"</string>
+    <string name="add_style" msgid="6163126614514489951">"طرزشامل کریں"</string>
+    <string name="add" msgid="8299699805688017798">"طرز"</string>
+    <string name="remove" msgid="4486081658752944606">"ہٹائيں"</string>
+    <string name="save" msgid="7646738597196767214">"محفوظ کریں"</string>
+    <string name="subtype_locale" msgid="8576443440738143764">"زبان"</string>
+    <string name="keyboard_layout_set" msgid="4309233698194565609">"لے آؤٹ"</string>
+    <string name="custom_input_style_note_message" msgid="8826731320846363423">"استعمال شروع کرنے سے قبل آپ کے حسب ضرورت اندارج والے طرز کو فعال کرنے کی ضرورت ہے۔ کیا آپ اسے ابھی فعال کرنا چاہتے ہیں؟"</string>
+    <string name="enable" msgid="5031294444630523247">"فعال کریں"</string>
+    <string name="not_now" msgid="6172462888202790482">"ابھی نہیں"</string>
+    <string name="custom_input_style_already_exists" msgid="8008728952215449707">"اندارج کا یہی انداز پہلے سے موجود ہے: 
+        <xliff:g id="INPUT_STYLE_NAME">%s</xliff:g>"</string>
+    <string name="prefs_usability_study_mode" msgid="1261130555134595254">"قابل استعمال ہونے کے متعلق مطالعے کی وضع"</string>
+    <string name="prefs_keypress_vibration_duration_settings" msgid="1829950405285211668">"بٹن دب تھرتھراہٹ دورانیہ ترتیبات"</string>
+    <string name="prefs_keypress_sound_volume_settings" msgid="5875933757082305040">"بٹن دب حجم آواز ترتیبات"</string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="photoeditor_name">ស្ទូឌីអូរូបថត</string>  
+    <string name="loading_failure">មិ\នអាចឡូតរូបថតបានទេ</string>  
+    <string name="saving_failure">មិ\នអាចរក្សារូបថតដែលបានកែប្រែទុកទេ</string>  
+    <string name="photo_saved">រូបថតដែលបានកែប្រែ បានរក្សាទុកក្នុង 
+        <xliff:g id="folder_name">%s</xliff:g> 
+    </string>  
+    <string name="discard_unsaved_photo">បោះចោលការប្តូរដែលមិនបានរក្សាទុកទេ?</string>  
+    <string name="yes">បាទ</string>  
+    <string name="save">រក្សាទុក</string>  
+    <string name="autofix">ជួសជុលដោយស្វ័យប្រវត្តិ</string>  
+    <string name="crop">កាត់តម្រឹម</string>  
+    <string name="crossprocess">ដំណើរការឆ្លងកាត់</string>  
+    <string name="documentary">ការធ្វើឯកសារ</string>  
+    <string name="doodle">គូរដោយគ្មានការព្រាងទុក</string>  
+    <string name="duotone">សម្លេងទ្វេ</string>  
+    <string name="facelift">មុខក្រហមទុំ</string>  
+    <string name="facetan">មុខដាំដែង</string>  
+    <string name="filllight">បំពេញពន្លឺ</string>  
+    <string name="fisheye">មុំធំទូលាយ</string>  
+    <string name="flip">ប្រែ</string>  
+    <string name="grain">ចំណុចល្អិតៗរបស់រូបភាព</string>  
+    <string name="grayscale">B&amp;W</string>  
+    <string name="highlight">គំនូសចំណាំ</string>  
+    <string name="lomoish">រូបចាំងពន្លឺកណ្តាល</string>  
+    <string name="negative">ហ្វ៊ីលរូបថត</string>  
+    <string name="posterize">ការបំផ្លែងពណ៌</string>  
+    <string name="redeye">ភ្នែកក្រហម</string>  
+    <string name="rotate">បង្វិល</string>  
+    <string name="saturation">ឆ្អែត</string>  
+    <string name="sepia">សេភា</string>  
+    <string name="shadow">ស្រមោល</string>  
+    <string name="sharpen">ស្រស់ថ្លា</string>  
+    <string name="straighten">ធ្វើឲ្យត្រង់</string>  
+    <string name="temperature">ពណ៌ក្តៅ</string>  
+    <string name="tint">ពណ៌ស្លេក</string>  
+    <string name="vignette">រូបភាពគ្មានបន្ទាត់គែម</string>  
+    <string name="crop_tooltip">ទាញគំនូសដើម្បីកាត់តម្រឹមរូបភាព</string>  
+    <string name="doodle_tooltip">គូរលើរូបថតឲ្យក្លាយជារូបឥតព្រាងទុក</string>  
+    <string name="flip_tooltip">ទាញដើម្បីផ្កាប់រូបថត</string>  
+    <string name="redeye_tooltip">ថេបពីលើភ្នែកក្រហមដើម្បីលុបវាចេញ</string>  
+    <string name="rotate_tooltip">ទាញដើម្បីបង្វិលរូបថត</string>  
+    <string name="straighten_tooltip">ទាញដើម្បីតម្រង់រូបថត</string> 
+</resources>

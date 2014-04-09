@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!-- Account setup - XL - portrait - see layout/ for small-screen version -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <View 
+        android:layout_height="0dip"
+        android:layout_width="match_parent"
+        android:layout_weight="1" />
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="9"
+        android:fillViewport="true" >
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/setup_fragment_padding_left"
+            android:paddingRight="@dimen/setup_fragment_padding_right" >
+            
+            <!-- Headline and hairline divider -->
+            <TextView
+                android:id="@+id/headline"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="16dip"
+                android:layout_marginLeft="16dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/account_setup_basics_headline"
+                android:textAppearance="@style/accountSetupHeadline" />
+            <View
+                android:id="@+id/top_divider"
+                android:layout_below="@+id/headline"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="16dip"
+                android:layout_marginBottom="16dip"
+                android:layout_width="480dip"
+                android:layout_height="1px"
+                android:background="@color/account_setup_divider_color" />
+            
+            <!-- Frame on the left containing the (common) setup info -->
+            <!-- TODO need phone-sized UX here -->
+
+            <FrameLayout
+                android:id="@+id/common"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/top_divider"
+                android:layout_weight="1" >
+
+                <include layout="@layout/account_setup_basics_common" />
+            </FrameLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dip"
+        android:paddingLeft="@dimen/setup_fragment_padding_left"
+        android:paddingRight="@dimen/setup_fragment_padding_right" >
+
+        <!-- Buttons below -->
+            <!--
+        In order to show these buttons above the IME keyboard, we need to special case the to
+        padding to a smaller height.
+            -->
+        <Button
+            android:id="@+id/manual_setup"
+            style="@style/accountSetupButton"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/account_setup_basics_manual_setup_action" />
+
+        <Button
+            android:id="@+id/next"
+            style="@style/accountSetupButton"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/next_action" />
+    </LinearLayout>
+
+</LinearLayout>

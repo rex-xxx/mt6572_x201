@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="wifi_security"> 
+        <item>"खोलें"</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+        <item>WAPI PSK</item>
+        <item>WAPI प्रमाणपत्र</item>  
+    </string-array>  
+    <string-array name="wpa_security"> 
+        <item>"खोलें"</item>  
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>  
+    <string-array name="wpa_security_wfa"> 
+        <item>"खोलें"</item>  
+        <item>WEP</item>
+        <item>WPA PSK</item>
+        <item>WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>  
+    <string-array name="wapi_security"> 
+        <item>"खोलें"</item>  
+        <item>WAPI PSK</item>
+        <item>WAPI प्रमाणपत्र</item>  
+    </string-array>  
+    <string-array name="gemini_sim_info_number_display_format_entries"> 
+        <item>पहले 4 अंक</item>  
+        <item>अंतिम 4 अंक</item>  
+        <item>प्रदर्शित न करें</item> 
+    </string-array>  
+    <string-array name="gemini_sim_roaming_reminder_entries"> 
+        <item>एक बार</item>  
+        <item>हमेशा</item>  
+        <item>कभी नहीं</item> 
+    </string-array>  
+    <string-array name="gsm_umts_network_preferences_choices"> 
+        <item>GSM/WCDMA (स्वतः मोड)</item>  
+        <item>केवल WCDMA</item>  
+        <item>केवल GSM</item> 
+    </string-array>  
+    <string-array name="network_use_entry"> 
+        <item>केवल होम</item>  
+        <item>होम + रोमिंग</item> 
+    </string-array>  
+    <string-array name="auto_time_entries"> 
+        <item>नेटवर्क द्वारा प्रदान समय का उपयोग करें</item>  
+        <item>GPS द्वारा प्रदान समय का उपयोग करें</item>  
+        <item>बंद करें</item> 
+    </string-array>  
+    <string-array name="hdmi_video_resolution_entries"> 
+        <item>स्वचालित</item>  
+        <item>720P</item>
+        <item>480P</item>
+    </string-array>  
+    <string-array name="wifi_WEP_security_type"> 
+        <item>स्वचालित</item>  
+        <item>WEP ASCII</item>
+        <item>डब्‍ल्‍यूईपी हेक्‍साडेसीमल</item>  
+    </string-array>  
+    <string-array name="wifi_hotspot_disable_policy_entries"> 
+        <item>हमेशा</item>  
+        <item>5 मिनट निष्क्रिय रहने पर बंद करें</item>  
+        <item>10 मिनट निष्क्रिय रहने पर बंद करें</item> 
+    </string-array>  
+    <string-array name="wifi_ap_wps_mode_entries"> 
+        <item>पुश बटन</item>  
+        <item>क्लाइंट का पिन</item> 
+    </string-array>  
+    <string-array name="wifi_ap_max_connection_entries"> 
+        <item>1 उपयोगकर्ता</item>  
+        <item>2 उपयोगकर्ता</item> 
+        <item>3 उपयोगकर्ता</item> 
+        <item>4 उपयोगकर्ता</item> 
+        <item>5 उपयोगकर्ता</item> 
+        <item>6 उपयोगकर्ता</item> 
+        <item>7 उपयोगकर्ता</item> 
+        <item>8 उपयोगकर्ता</item> 
+    </string-array> 
+	<string-array name="sim_slot">
+		<item>"(अनिर्दिष्ट)"</item>
+		<item>सिम स्लॉट 1</item>
+		<item>सिम स्लॉट 2</item>
+	</string-array>
+</resources>

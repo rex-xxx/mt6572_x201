@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <string name="app_name">ဓာတ်ပုံစကရင်ဆေဗာများ</string>
+    <string name="table_screensaver_name">ဓာတ်ပုံဇယား</string>
+    <string name="flipper_screensaver_name">ဓာတ်ပုံဘောင်</string>
+    <string name="posts_album_name">ပို့စ်တင်ထားချက်များမှ ဓာတ်ပုံများ</string>
+    <string name="uploads_album_name">အရန်သင့်အပ်လုဒ်များ</string>
+    <string name="unknown_album_name">အမည်မပေးထားသော အယ်လ်ဘမ်</string>
+    <string name="stock_photo_album_name">ဓာတ်ပုံများကို စုပါ</string>
+    <string name="local_source_name">ပစ္စည်းပေါ်ရှိ ဓာတ်ပုံများ</string>
+    <string name="need_to_configure">မည်သည့်ဓာတ်ပုံမှ ရွေးထားခြင်းမရှိပါ။</string>
+</resources>

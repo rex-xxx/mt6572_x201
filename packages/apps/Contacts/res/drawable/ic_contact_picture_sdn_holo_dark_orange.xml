@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap android:src="@drawable/ic_contact_picture_holo_dark"
+            android:gravity="center"/>
+    </item>
+        
+    <item >
+        <bitmap android:src="@drawable/ic_contact_account_sim_orange"
+            android:gravity="left|bottom"/>
+    </item>
+    
+    <item 
+        android:right="30sp"
+        android:top="30sp">
+        <bitmap android:src="@drawable/ic_contact_account_sim_lock"
+            android:gravity="center"/>
+    </item>
+</layer-list>

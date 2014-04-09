@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="camera_error_title">កំហុសកាមេរ៉ា</string>  
+    <string name="cannot_connect_camera">មិ\នអាចតភ្ជាប់ទៅកាមេរ៉ាបានទេ ។</string>  
+    <string name="camera_disabled">កាមេរ៉ាត្រូវបានធ្វើឲ្យអសកម្ម ដោយសារគោលនយោបាយសុវត្ថិភាព ។</string>  
+    <string name="camera_label">កាមេរ៉ា</string>  
+    <string name="video_camera_label">កាមេរ៉ាវីដេអូតូច</string>  
+    <string name="gallery_camera_bucket_name">កាមេរ៉ារូបភាព</string>  
+    <string name="gallery_camera_videos_bucket_name">កាមេរ៉ាវីដេអូ</string>  
+    <string name="wait">សូមរង់ចាំ\u2026</string>  
+    <string name="no_storage" product="nosdcard">បើកឧបករណ៍ USB នៅមុនពេលប្រើកាមេរ៉ា ។</string>  
+    <string name="no_storage" product="default">ស៊កបញ្ចូលកាត SD នៅមុនពេលប្រើកាមេរ៉ា ។</string>  
+    <string name="not_enough_space" product="nosdcard">ឧបករណ៍ USB របស់អ្នកពេញហើយ ។</string>  
+    <string name="not_enough_space" product="default">កាត SD របស់អ្នកពេញហើយ ។</string>  
+    <string name="preparing_sd" product="nosdcard">កំពុងរៀបចំឧបករណ៍ USB\u2026</string>  
+    <string name="preparing_sd" product="default">កំពុងរៀបចំឧបករណ៍ SD\u2026</string>  
+    <string name="access_sd_fail" product="nosdcard">មិ\នអាចបើកមើលឧបករណ៍ USB បានទេ ។</string>  
+    <string name="access_sd_fail" product="default">មិ\នអាចបើកមើលកាត SD បានទេ ។</string>  
+    <string name="confirm_restore_message">តើអ្នកចង់ធ្វើឲ្យកាមេរ៉ាមានសភាពដូចដើម ដូចការសិតពីរោងចក្រមែនទេ?</string>  
+    <string name="review_play">លេង</string>  
+    <string name="review_cancel">លើកលែង</string>  
+    <string name="review_ok">បានធ្វើរួច</string>  
+    <string name="review_retake">យកសារថ្មី</string>  
+    <string name="camera_gallery_photos_text">វិចិត្រសាល</string>  
+    <string name="time_lapse_title">កំណត់ត្រាពេលកន្លងទៅ</string>  
+    <string name="pref_camera_id_title">ជ្រើសរើសកាមេរ៉ា</string>  
+    <string name="pref_camera_id_default" translatable="false">0</string>  
+    <string name="pref_camera_id_entry_back">ក្រោយ</string>  
+    <string name="pref_camera_id_entry_front">មុខ</string>  
+    <string name="pref_camera_recordlocation_title">កន្លែងផ្ទុក</string>  
+    <string name="pref_camera_recordlocation_default" translatable="false">none</string>  
+    <string name="pref_camera_recordlocation_entry_off">បិទ</string>  
+    <string name="pref_camera_recordlocation_entry_on">បើក</string>  
+    <string name="pref_video_quality_title">គុណភាពវីដេអូ</string>  
+    <string name="pref_video_quality_default" translatable="false">10</string>  
+    <string name="pref_video_quality_entry_1080p" translatable="false">HD</string>  
+    <string name="pref_video_quality_entry_720p" translatable="false">Fine</string>  
+    <string name="pref_video_quality_entry_480p" translatable="false">SD</string>  
+    <string name="pref_video_time_lapse_frame_interval_title">កំណាត់ពេលកន្លងទៅ</string>  
+    <string name="pref_video_time_lapse_frame_interval_default" translatable="false">0</string>  
+    <string name="pref_camera_settings_category">ការសិតកាមេរ៉ា</string>  
+    <string name="pref_camcorder_settings_category">ការសិតកូនកាមេរ៉ាវីដេអូ</string>  
+    <string name="pref_camera_picturesize_title">ទំហំរូបភាព</string>  
+    <string name="pref_camera_picturesize_entry_2592x1936">5M ភិចសែល</string>  
+    <string name="pref_camera_picturesize_entry_2048x1536">3M ភិចសែល</string>  
+    <string name="pref_camera_picturesize_entry_1600x1200">2M ភិចសែល</string>  
+    <string name="pref_camera_picturesize_entry_1280x960">1.3M ភិចសែល</string>  
+    <string name="pref_camera_picturesize_entry_1024x768">1M ភិចសែល</string>  
+    <string name="pref_camera_picturesize_entry_640x480">VGA</string>  
+    <string name="pref_camera_picturesize_entry_320x240">QVGA</string>  
+    <string name="pref_camera_focusmode_title">ម៉ូដផ្ចង់</string>  
+    <string name="pref_camera_focusmode_entry_auto">ស្វ័យប្រវត្តិ</string>  
+    <string name="pref_camera_focusmode_entry_infinity">អនន្តភាព</string>  
+    <string name="pref_camera_focusmode_entry_macro">ម៉ាក្រូ</string>  
+    <string name="pref_camera_flashmode_default" translatable="false">auto</string>  
+    <string name="pref_camera_flashmode_no_flash" translatable="false">no_flash</string>  
+    <string name="pref_camera_flashmode_title">ម៉ូដលោតភ្លើងសញ្ញា</string>  
+    <string name="pref_camera_flashmode_entry_auto">ស្វ័យប្រវត្តិ</string>  
+    <string name="pref_camera_flashmode_entry_on">បើក</string>  
+    <string name="pref_camera_flashmode_entry_off">បិទ</string>  
+    <string name="pref_camera_video_flashmode_default" translatable="false">off</string>  
+    <string name="pref_camera_whitebalance_default" translatable="false">auto</string>  
+    <string name="pref_camera_whitebalance_title">សមតុល្យពណ៌ស</string>  
+    <string name="pref_camera_whitebalance_entry_auto">ស្វ័យប្រវត្តិ</string>  
+    <string name="pref_camera_whitebalance_entry_incandescent">ដែលក្តៅឡើងស</string>  
+    <string name="pref_camera_whitebalance_entry_daylight">ពន្លឺពេលថ្ងៃ</string>  
+    <string name="pref_camera_whitebalance_entry_fluorescent">ពន្លឺចាំង</string>  
+    <string name="pref_camera_whitebalance_entry_cloudy">ពពកច្រើន</string>  
+    <string name="pref_camera_scenemode_default" translatable="false">auto</string>  
+    <string name="pref_camera_scenemode_title">ម៉ូដទេសភាព</string>  
+    <string name="pref_camera_scenemode_entry_auto">ស្វ័យប្រវត្តិ</string>  
+    <string name="pref_camera_scenemode_entry_action">សកម្មភាព</string>  
+    <string name="pref_camera_scenemode_entry_night">យប់</string>  
+    <string name="pref_camera_scenemode_entry_sunset">ថ្ងៃលិច</string>  
+    <string name="pref_camera_scenemode_entry_party">ជប់លៀង</string>  
+    <string name="not_selectable_in_scene_mode">មិនអាចជ្រើសរើសបានទេ ក្នុងម៉ូដទេសភាព ។</string>  
+    <string name="pref_restore_title">ការសិតកាមេរ៉ា</string>  
+    <string name="pref_restore_detail">ធ្វើឲ្យដូចដើមតាមការសិតពីរោងចក្រ</string>  
+    <string name="pref_exposure_title">ការប៉ះពន្លឺ</string>  
+    <string name="pref_exposure_default" translatable="false">0</string>  
+    <string name="dialog_ok">យល់ព្រម</string>  
+    <string name="spaceIsLow_content" product="nosdcard">ឧបករណ៍ USB របស់អ្នក កំពុងតែអស់កន្លែងទំនេរហើយ ។ ប្តូរការសិតគុណភាព ឬលុបរូបភាព ឬឯកសារផ្សេងចោលខ្លះ ។</string>  
+    <string name="spaceIsLow_content" product="default">កាត SD របស់អ្នក កំពុងតែអស់កន្លែងទំនេរហើយ ។ ប្តូរការសិតគុណភាព ឬលុបរូបភាព ឬឯកសារផ្សេងចោលខ្លះ ។</string>  
+    <string name="image_file_name_format" translatable="false">"'IMG'_yyyyMMdd_HHmmss"</string>  
+    <string name="video_file_name_format" translatable="false">"'VID'_yyyyMMdd_HHmmss"</string>  
+    <string name="pano_file_name_format" translatable="false">"'PANO'_yyyyMMdd_HHmmssSSS"</string>  
+    <string name="video_reach_size_limit">បានឈានចូលដល់ដែនកំណត់ទំហំ ។</string>  
+    <string name="setting_increment" translatable="false">&gt;</string>  
+    <string name="setting_decrement" translatable="false">&lt;</string>  
+    <string name="share_picture_via">ចែករំលែករូបភាពតាមរយៈ</string>  
+    <string name="share_video_via">ចែករំលែកវីដេអូតាមរយៈ</string>  
+    <string name="no_picture_to_share">មិនមានរូបភាពដើម្បីចែករំលែកទេ ។</string>  
+    <string name="no_video_to_share">មិនមានវីដេអូដើម្បីចែករំលែកទេ ។</string>  
+    <string name="pano_too_fast_prompt">លឿនពេក</string>  
+    <string name="pano_dialog_prepare_preview">កំពុងរៀបចំការមើលសព្វទស្សន៍</string>  
+    <string name="pano_dialog_panorama_failed">មិ\នអាចរក្សាទុករូបភាពសព្វទស្សន៍បានទេ ។</string>  
+    <string name="pano_dialog_title">សព្វទស្សន៍</string>  
+    <string name="pano_capture_indication">កំពុងថតរូបសព្វទស្សន៍</string>  
+    <string name="pano_dialog_waiting_previous">កំពុងរង់ចាំរូបសព្វទស្សន៍ពីមុន</string>  
+    <string name="saving">កំពុងរក្សាទុក\u2026</string>  
+    <string name="tap_to_focus">យកម្រាមដៃប៉ះដើម្បីផ្ចង់ ។</string>  
+    <string name="pref_video_effect_default" translatable="false">none</string>  
+    <string name="pref_video_effect_title">អនុភាព</string>  
+    <string name="effect_none">គ្មានទេ</string>  
+    <string name="effect_goofy_face_squeeze">រឹត</string>  
+    <string name="effect_goofy_face_big_eyes">ភ្នែកធំ</string>  
+    <string name="effect_goofy_face_big_mouth">មាត់ធំ</string>  
+    <string name="effect_goofy_face_small_mouth">មាត់តូច</string>  
+    <string name="effect_goofy_face_big_nose">ច្រមុះធំ</string>  
+    <string name="effect_goofy_face_small_eyes">ភ្នែកតូច</string>  
+    <string name="effect_backdropper_space">ក្នុងលំហ</string>  
+    <string name="effect_backdropper_sunset">ថ្ងៃលិច</string>  
+    <string name="effect_backdropper_gallery">វីដេអូរបស់អ្នក</string>  
+    <string name="not_selectable_in_effect">មិនអាចជ្រើសរើសអ្វីបានទេ ពេលអនុភាពត្រូវបើក ។</string>  
+    <string name="video_snapshot_hint">យកម្រាមដៃប៉ះ ដើម្បីថតរូប ពេលអ្នកកំពុងថតវីដេអូ ។</string>  
+    <string name="disable_video_snapshot_hint">ការថតដោយមិនបានរៀបចំទុកមុន ត្រូវអសកម្ម ពេលអនុភាពពិសេសត្រូវបើក ។</string>  
+    <string name="clear_effects">សំអាតអនុភាព</string>  
+    <string name="effect_silly_faces">មុខផ្តេសផ្តាស</string>  
+    <string name="effect_background">ខាងក្រោយ</string>  
+    <string name="accessibility_shutter_button">ប៊ូតុងបិទ</string>  
+    <string name="accessibility_review_thumbnail">រូបថតថ្មីៗបំផុត</string>  
+    <string name="accessibility_camera_picker">កុងតាក់ខាងមុខ និងខាងក្រោយកាមេរ៉ា</string>  
+    <string name="accessibility_mode_picker">អ្នកជ្រើសរើសកាមេរ៉ា វីដេអូ ឬរូបភាពសព្វទស្សន៍</string>  
+    <string name="accessibility_second_level_indicators">មុខងារគ្រប់គ្រងការសិតបន្ថែម</string>  
+    <string name="accessibility_back_to_first_level">បិទមុខងារគ្រប់គ្រងការសិតបន្ថែម</string>  
+    <string name="accessibility_zoom_control">មុខងារគ្រប់គ្រងការពង្រីក</string>  
+    <string name="accessibility_decrement">បន្ថយ %1$s</string>  
+    <string name="accessibility_increment">តម្លើង %1$s</string>  
+    <string name="accessibility_switch">%1$s ប្តូរ</string>  
+
+
+    <string name="empty" translatable="false">" "</string>  
+    
+      <string name="pano_review_saving_indication_str">កំពុងរក្សាទុក\u2026</string>
+</resources>

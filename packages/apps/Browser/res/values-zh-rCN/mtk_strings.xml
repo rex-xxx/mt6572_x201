@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="sitenavigation_add">新增网页</string>  
+    <string name="tab_site_navigation">"页面导航"</string>  
+    <string-array name="pref_homepage_choices_site_navigation"> 
+        <item msgid="844041670142910837">"当前页"</item>  
+        <item msgid="4430498748295169195">"空白页"</item>  
+        <item msgid="5747608191946904074">"默认页"</item>  
+        <item msgid="6092441301001006473">"访问最多的网站"</item>  
+        <item>"页面导航"</item>  
+        <item msgid="6569304572171444894">"其他"</item> 
+    </string-array>  
+    <string name="home">主页面</string>  
+    <string name="close">关闭</string>  
+    <string name="option">选项</string>  
+    <string name="minimize">最小化</string>  
+    <string name="quit">退出</string>  
+    <string name="pref_download_title">下载设置</string>  
+    <string name="pref_extras_set_download_directory_title">设置下载路径</string>  
+    <string name="pref_content_search_engine_consistency">搜索引擎一致性设置</string>  
+    <string name="pref_search_engine_unify">同步搜索引擎</string>  
+    <string name="pref_search_engine_unify_summary">将搜索引擎变更应用到快速搜索框</string>  
+    <string name="permlab_readHomepage">读取浏览器主页信息</string>  
+    <string name="permdesc_readHomepage">允许应用程序在不经过您干预的情况下读取浏览器主页信息</string>  
+    <string name="permlab_writeHomepage">修改浏览器主页信息</string>  
+    <string name="permdesc_writeHomepage">允许应用程序在不经过您干预的情况下修改浏览器主页信息</string>  
+    <string name="duplicated_bookmark">重复书签</string>  
+    <string name="duplicated_bookmark_warning">具有相同名称或地址的书签已经存在，是否覆盖？</string>  
+    <string name="duplicated_folder_warning">相同文件夹已经存在。</string>  
+    <string name="download_or_open_content">请选择您需要的操作。</string>  
+    <string name="save_content">保存</string>  
+    <string name="open_content">"打开"</string>  
+    <string name="dialog_title">更改数据连接</string>  
+    <string name="wifi_failover_gprs_content">WLAN不可用，是否使用移动网？</string>  
+    <string name="make_primary">以后不再提示</string>  
+    <string name="pref_default_text_encoding_default">"自动检测"</string>  
+    <string name="pref_default_font_family">"字体"</string>  
+    <string name="pref_default_font_family_dialogtitle">"字体"</string>  
+    <string name="no_voice_search_alert_dialog_title">语音搜索</string>  
+    <string name="no_voice_search_alert_dialog_msg">无效语言搜索，因为没有语音搜索应用。请首先安装</string>  
+    <string name="add">添加</string>  
+    <string name="delete">删除</string>  
+    <string name="edit">编辑</string>  
+    <string name="bookmarks_history">书签/历史记录</string>  
+    <string name="max_input_browser_search">您的输入已经达到上限。</string>  
+    <string name="max_input_browser_search_title">输入超限</string>  
+    <string name="max_input_browser_search_button">确定</string>  
+    <string name="website_needs_title">"请输入名称"</string>  
+    <string name="website_needs_url">"请输入URL"</string>  
+    <string name="save_bookmark">保存书签</string>  
+    <string name="sms_received">来自
+        <xliff:g id="text">%s</xliff:g>的短信
+    </string>  
+    <string-array name="pref_default_font_family_choices"> 
+        <item>Sans-serif</item>  
+        <item>Serif</item>  
+        <item>Monospace</item> 
+    </string-array>  
+    <string name="delete_site_navigation_msg">删除此项吗？</string>  
+    <string name="site_navigation_name">名称</string>  
+    <string name="site_navigation_address">"网址"</string>  
+    <string name="site_navigation_cannot_save_url">This URL cannot be website.</string>  
+    <string name="add_site_navigation">新增网页</string>  
+    <string name="edit_site_navigation">Edit Site Navigation</string>  
+    <string name="site_navigation_edit_button">编辑</string>  
+    <string name="save_webpage">保存</string>  
+    <string name="duplicate_site_navigation_url">This URL has already existed.</string> 
+    <!-- M: Bottom bar strings -> -->
+    <string name="tabs">标签页</string>
+    
+    <string name="download_pending_with_file_size">"正在开始下载，文件大小："</string>
+</resources>

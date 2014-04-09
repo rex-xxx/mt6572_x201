@@ -1,0 +1,9 @@
+<media xmlns="http://www.openmobilealliance.org/xmlns/dd">
+<objectURI>files/mp3_2mb.mp3</objectURI>
+<size>2497482</size>
+<type>audio/mp3</type>
+<name>Audio 2mb_Mp3</name>
+<vendor>Mediatek</vendor>
+<DDversion>1.0</DDversion>
+<description>Descarga medianta OMA Download.</description>
+</media>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string-array name="proxy_error"> 
+        <item>호스트 필드는 반드시 입력해야 합니다</item>  
+        <item>포트 필드는 반드시 입력해야 합니다</item>  
+        <item>잘못된 호스트</item>  
+        <item>잘못된 포트</item> 
+    </string-array> 
+</resources>

@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_advanced_settings">Setări complexe</string>  
+    <!-- Bluetooth settings.  The user-visible string that is used whenever referring to the FTP profile. -->  
+    <string name="bluetooth_profile_ftp">Transfer fișiere</string>  
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the FTP checkbox preference that describes how checking it will set the FTP profile as preferred. -->  
+    <string name="bluetooth_ftp_profile_summary_use_for">Folosire pentru transfer fișiere</string>  
+    <string name="bluetooth_ftp_profile_summary_connected">"Conectat la transfer fișiere"</string>  
+    <string name="mtp_transfer_unmount_error_text">Cardul SD nu poate fi demontat în timpul transferului de fişiere</string>  
+    <string name="mtp_transfer_erase_error_text">Cardul SD nu poate fi şters în timpul transferului de fişiere</string>  
+    <string name="launch_error">"Aplicaţia nu a putut fi lansată!"</string>  
+    <string name="dlg_confirm_unmount_usb_title" product="default">Demontare spațiu stocare USB?</string>  
+    <string name="dlg_confirm_unmount_usb_text" product="default">Dacă demontezi spațiul de stocare USB, unele aplicații nu vor mai funcționa și vor fi indisponibilă până când remontați spațiul de stocare USB.</string>  
+    <string name="dlg_error_unmount_usb_title" product="default"/>  
+    <string name="dlg_error_unmount_usb_text" product="default">Stocarea USB nu a putut fi montată. Încercaţi din nou mai târziu.</string>  
+    <string name="unmount_usb_inform_text" product="default">Spațiul de stocare USB va fi demontat.</string>  
+    <string name="sd_eject_usbstorage" product="default">"Demontaţi stocarea USB"</string>  
+    <string name="sd_eject_usbstorage_summary" product="default">"Demontaţi stocarea USB internă"</string>  
+    <string name="sd_mount_usbstorage" product="default">"Montaţi stocarea USB"</string>  
+    <string name="sd_insert_usb_summary" product="default">"Inser. stoc. USB pt. montare"</string>  
+    <!-- Storage setting.  Title for UMS checkbox [CHAR LIMIT=30]-->  
+    <string name="usb_ums_title">Memorie de stocare USB</string>  
+    <!-- Storage setting.  Summary for UMS checkbox [CHAR LIMIT=NONE]-->  
+    <string name="usb_ums_summary">"Este recomandat sistemul de operare XP. Acesta vă permite să transferaţi fişiere între computer şi stocarea USB a sistemului Android."</string>  
+    <string name="usb_charge_title">Numai încărcare</string>  
+    <string name="usb_charge_summary">Opriţi toate funcţiile USB. Vă permite să acceleraţi încărcarea USB şi să scădeţi consumul de energie.</string>  
+    <!-- Agps Settings -->  
+    <string name="NI_Request_ID">ID al celui care cere</string>  
+    <string name="NI_Request_ClientName">Nume client</string>  
+    <string name="agps_str_verify">Verificare</string>  
+    <string name="agps_str_notify">Notificare</string>  
+    <string name="EM_NotifyDialog_title">Notificare EM</string>  
+    <string name="agps_OK">OK</string>  
+    <string name="agps_str_allow">PERMITERE</string>  
+    <string name="agps_str_deny">REFUZARE</string>  
+    <string name="agps_str_error">Eroare</string>  
+    <string name="AGPS_DEFAULT_STRING">Şir implicit A-GPS</string>  
+    <string name="AGPS_CAUSE_NETWORK_CREATE_FAIL">Eroare creare reţea</string>  
+    <string name="AGPS_CAUSE_BAD_PUSH_CONTENT">Conținut PUSH incorect</string>  
+    <string name="AGPS_CAUSE_NOT_SUPPORTED">Operație nesuportată</string>  
+    <string name="AGPS_CAUSE_REQ_NOT_ACCEPTED">Cerere neacceptată</string>  
+    <string name="AGPS_CAUSE_NO_RESOURCE">Nicio resursă pentru gestionare proces nou</string>  
+    <string name="AGPS_CAUSE_NETWORK_DISCONN">Conexiune rețea întreruptă</string>  
+    <string name="AGPS_CAUSE_REMOTE_ABORT">Celălalt partener a întrerupt sesiunea (s-a recepționat SUPL END)</string>  
+    <string name="AGPS_CAUSE_TIMER_EXPIRY">Mesajul așteptat nu a fost primit în timpul unui interval de timp specific</string>  
+    <string name="AGPS_CAUSE_REMOTE_MSG_ERROR">Conținut mesaj incorect recepționat</string>  
+    <string name="AGPS_CAUSE_USER_AGREE">Utilizatorul a acceptat confirmarea</string>  
+    <string name="AGPS_CAUSE_USER_DENY">Utilizatorul a refuzat confirmarea</string>  
+    <string name="AGPS_CAUSE_NO_POSITION">Doar pentru poziția NO</string>  
+    <string name="AGPS_CAUSE_TLS_AUTH_FAIL">Autentificare TLS eșuată</string>  
+    <string name="USER_RESPONSE_TIMEOUT">Așteptare temporizare verificare</string>  
+    <string name="AGPS_EM_RECV_SI_REQ">Cerere SI primită</string>  
+    <string name="AGPS_EM_POS_FIXED">Poziție fixată</string>  
+    <string name="AGPS_NOTIFY_ONLY">Notificare solicitare locaţie</string>  
+    <string name="AGPS_NOTIFY_ALLOW_NO_ANSWER">Cerere localizare (Permitere dacă niciun răspuns)</string>  
+    <string name="AGPS_NOTIFY_DENY_NO_ANSWER">Cerere localizare (Refuz dacă niciun răspuns)</string>  
+    <string name="AGPS_NOTIFY_PRIVACY">Cerere localizare (confidențialitate)</string>  
+    <string name="epo_entrance_title">Setări EPO</string>  
+    <string name="epo_entrance_summary">Apăsați pentru a schimba configurațiile EPO</string>  
+    <string name="agps_settings_title">Setări A-GPS</string>  
+    <string name="epo_enable_confirm_title">Confirmare activare EPO</string>  
+    <string name="epo_enable_confirm_message">Necesită o conexiune wireless pentru a achiziționa date de asistență GPS (EPO) ce pot duce la costuri suplimentare. Sigur doriți să porniți asistența GPS?</string>  
+    <string name="epo_enable_confirm_allow">Continuare</string>  
+    <string name="epo_enable_confirm_deny">Revocare</string>  
+    <string name="agps_enable_confirm_title">Confirmare activare A-GPS</string>  
+    <string name="agps_enable_confirm">A-GPS necesită o conexiune de date pentru a achiziționa date de asistență ce pot duce la costuri suplimentare. Sigur doriți să porniți A-GPS?</string>  
+    <string name="agps_enable_confirm_allow">Continuare</string>  
+    <string name="agps_enable_confirm_deny">Revocare</string>  
+    <string name="epo_enable_title">Asistenţă EPO GPS</string>  
+    <string name="epo_enable_summary">Utilizare date de asistență GPS (EPO) pentru a accelera poziționarea GPS.</string>  
+    <string name="agps_settings_enable_on">GPS poate accelera localizare prin utilizarea asistentului împreună cu conexiunea de date wireless</string>  
+    <string name="agps_settings_enable_off">Utilizare datelor de asistență pentru a accelera localizarea cu GPS</string>  
+    <string name="agps_settings_eng_enable">Setări A-GPS</string>  
+    <string name="agps_settings_eng_summary">Setare A-GPS</string>  
+    <string name="agps_disable_on_reboot">Dezactivare după repornire</string>  
+    <string name="agps_disable_on_reboot_summary">Dezactivare capabilitate A-GPS după reboot</string>  
+    <string name="Network_Initiate">Solicitare reţea</string>  
+    <string name="Network_Initiate_Summary_on">Permitere cerere poziție de către rețea</string>  
+    <string name="Network_Initiate_Summary_off">Refuz cerere poziție de către rețea</string>  
+    <string name="Network_Used">Reţea utilizată</string>  
+    <string name="agps_profile_select">Selecție profil</string>  
+    <string name="agps_profile_SLP_address_editbox_title">Adresă SLP</string>  
+    <string name="port_title">Port SLP</string>  
+    <string name="tls_summary_off">TLS este oprit</string>  
+    <string name="tls_summary_on">TLS este pornit</string>  
+    <string name="MobileNetwork_Category">Reţea mobilă</string>  
+    <string name="AgpsHelp_Category">Ajutor</string>  
+    <string name="about_agps_title">Despre A-GPS</string>  
+    <string name="about_agps_message">\t A-GPS (Assisted-GPS) este sistemul care poate îmbunătăţi performanţa de pornire şi durata TTFF (time to first fix) a sateliţilor GPS. \n\t Un dispozitiv compatibil A-GPS se poate conecta la serverele de localizare pentru a obţine datele de asistenţă prin conexiunea de date a reţelei de telefonie mobilă. \n\t Reţineţi că traficul de date poate determina costuri suplimentare la utilizarea în roaming. Contactaţi furnizorul de servicii de telefonie pentru detalii.</string>  
+    <string name="epo_auto_download_title">Descărcare automată</string>  
+    <string name="epo_auto_download_summary">Descărcare automată a datelor de poziționare satelit</string>  
+    <string name="epo_info_title">Informații fișier EPO</string>  
+    <string name="epo_download_time_title">Timp de descărcare</string>  
+    <string name="epo_download_time_summary">Indisponibil</string>  
+    <string name="epo_start_time_title">Timp de pornire</string>  
+    <string name="epo_start_time_summary">Indisponibil</string>  
+    <string name="epo_expire_time_title">Timp expirare</string>  
+    <string name="epo_expire_time_summary">Indisponibil</string>  
+    <string name="epo_about_title">Despre EPO</string>  
+    <string name="epo_about_message">\tEPO (Extended Prediction Orbit) este o tehnologie inovatoare A-GPS offline bazată pe server deţinută de MediaTek. \n\tAceasta suportă o estimare pe până la 30 de zile a orbitei sateliţilor, care poate fi utilizată pentru a spori semnificativ experienţa utilizatorilor, îmbunătăţind durata TTFF a sistemului GPS.</string>  
+    <string name="Network_Local_and_Roaming_Summary">Utilizare A-GPS în reţea de domiciliu şi de roaming</string>  
+    <string name="Network_Only_Local_Summary">Utilizare A-GPS numai în reţeaua de domiciliu</string>  
+    <string name="MobileNetwork_DataConn_off">Conexiunea de date este dezactivată</string>  
+    <string name="MobileNetwork_off_Summary">Vă rugăm să porniți conexiunea de date înainte de folosirea A-GPS</string>  
+    <string name="WiFiNetwork_on_title">Funcţia Wi-Fi este activă</string>  
+    <string name="MobileNetwork_on_Summary">A-GPS trebuie să acceseze rețeaua mobilă prin conexiunile de date</string>  
+    <string name="MobileNetwork_SIM_Active">SIM 
+        <xliff:g id="active_sim_id">%1$s</xliff:g> este activ
+    </string>  
+    <string name="Network_Roaming_dialog_title">Atenţie</string>  
+    <string name="Network_Roaming_dialog_content">Dacă reţeaua este în roaming, traficul de date A-GPS poate să determine tarife de roaming suplimentare.</string>  
+    <string name="epo_download">Descărcare</string>  
+    <string name="epo_error_no_activite_network">Porniți conexiunea de date înainte de descărcarea datelor EPO.</string>  
+    <string name="epo_cancel_download">Revocare</string>  
+    <string name="epo_status_stopping">Oprire…</string>  
+    <string name="epo_status_starting">Pornire…</string>  
+    <string name="epo_err_update_failed">Actualizarea fișierelor EPO a eșuat</string>  
+    <string name="epo_error_dialog_title">Eroare</string>  
+    <string name="epo_ok_btn">OK</string>  
+    <string name="epo_warning_dialog_title">Atenţie</string>  
+    <string name="epo_warning_dialog_message">Descărcarea datelor EPO în starea roaming poate genera costuri adiționale. Continuați?</string>  
+    <!-- AudioProfile Settings -->  
+    <string name="ring_summary">Apelare</string>  
+    <string name="ring_vibrate_summary">Apelare şi vibraţii</string>  
+    <string name="silent_summary">Numai silenţios</string>  
+    <string name="meeting_summary">Numai vibraţii</string>  
+    <string name="outdoor_summary">Cele mai puternice sonerie şi vibraţii</string>  
+    <string name="audio_profile_reset">Reinițializare</string>  
+    <string name="audio_profile_add">Adăugare</string>  
+    <string name="audio_profile_enable">Activare</string>  
+    <string name="audio_profile_rename">Redenumire</string>  
+    <string name="audio_profile_delete">Ştergere</string>  
+    <string name="audio_profile_message_reset">Toate setările profilului audio vor fi reinițializate</string>  
+    <string name="audio_profile_message_rename">Vă rugăm să introduceți numele profilului nou</string>  
+    <string name="audio_profile_message_name_error">Numele introdus există deja</string>  
+    <string name="audio_profile_message_name_length_wrong">Numele trebuie să conțină cel puțin un caracter</string>  
+    <string name="audio_profile_message_delete">Profilul 
+        <xliff:g id="profile">%s</xliff:g> se va şterge
+    </string>  
+    <string name="audio_profile_message_overflow">Puteți adăuga maximum 6 profiluri personalizate</string>  
+    <string name="ok">OK</string>  
+    <string name="audio_profile_category_custom_title">Profiluri predefinite utilizator</string>  
+    <string name="audio_profile_category_predefine_title">Profiluri predefinite</string>  
+    <string name="general_settings_title">"General"</string>  
+    <string name="silent_settings_title">Silenţios</string>  
+    <string name="meeting_settings_title">Întâlnire</string>  
+    <string name="outdoor_settings_title">Exterior</string>  
+    <!-- modify default apns notices -->  
+    <string name="apn_predefine_change_dialog_notice">Sigur salvaţi? Este posibil ca modificările aduse setărilor implicite APN să provoace probleme de conectivitate!</string>  
+    <!-- The title for AlertDialog when APN Settings is called while Airplane Mode is on -->  
+    <string name="dialog_apn_disabled">APN dezactivat!</string>  
+    <!-- Error message for dialog of apn disabled error  -->  
+    <string name="dialog_apn_disabled_msg">Vă rugăm să opriți modul Avion pentru a activa setările APN.</string>  
+    <string name="sound_category_feedback_title">"Sistem"</string>  
+    <string name="sound_category_calls_title">"Apeluri de intrare"</string>  
+    <string name="voice_call_title">Sonerie apel voce</string>  
+    <string name="voice_call_summary">"Configurați soneria apelurilor vocale implicită"</string>  
+    <string name="video_call_title">Sonerie apel video</string>  
+    <string name="video_call_summary">Configurați soneria apelurilor video implicită</string>  
+    <string name="Phone_vibrate_summary">Vibrare dispozitive pentru apeluri primite</string>  
+    <string name="vibrate_title">Vibraţii</string>  
+    <string name="audio_profile_settings_title">Profiuri audio</string>  
+    <!--Add Strings for MTK AboutPhone Settings -->  
+    <!-- Gemini AboutPhone status sim status title -->  
+    <string name="sim_status_title">Stare SIM</string>  
+    <!-- Gemini AboutPhone status sim status summary -->  
+    <string name="sim_status_summary">Informații referitoare la SIM</string>  
+    <!-- Gemini AboutPhone status imei slot1 title -->  
+    <string name="status_imei_slot1">IMEI(Slot1)</string>  
+    <!-- Gemini AboutPhone status imei sv slot1 title -->  
+    <string name="status_imei_sv_slot1">IMEI SV(Slot1)</string>  
+    <!-- Gemini AboutPhone status imei slot2 title -->  
+    <string name="status_imei_slot2">IMEI(Slot2)</string>  
+    <!-- Gemini AboutPhone status imei sv slot2 title -->  
+    <string name="status_imei_sv_slot2">IMEI SV(Slot2)</string>  
+    <!-- Gemini CDMA AboutPhone status min number slot1 title -->  
+    <string name="status_min_number_slot1">MIN(Slot1)</string>  
+    <!-- Gemini CDMA AboutPhone status prl version slot1 title -->  
+    <string name="status_prl_version_slot1">Versiune PRL (Slot1)</string>  
+    <!-- Gemini CDMA AboutPhone status meid number slot1 title -->  
+    <string name="status_meid_number_slot1">MEID(Slot1)</string>  
+    <!-- Gemini CDMA AboutPhone status min number slot2 title -->  
+    <string name="status_min_number_slot2">MIN(Slot2)</string>  
+    <!-- Gemini CDMA AboutPhone status prl version slot2 title -->  
+    <string name="status_prl_version_slot2">Versiune PRL (Slot2)</string>  
+    <!-- Gemini CDMA AboutPhone status meid number slot2 title -->  
+    <string name="status_meid_number_slot2">MEID(Slot2)</string>  
+    <string name="slot_status_title">"Informaţii IMEI"</string>  
+    <string name="slot_status_summary">"Informație despre IMEI"</string>  
+    <!-- About phone screen,  setting option name-->  
+    <string name="custom_build_version">Versiune compilată particularizată</string>  
+    <!-- A menu item in "About phone" that allows the user to update the phone with settings
+    from their cell phone carrier. The use of the string is similar to the string
+    "system_update_settings_list_item_title" in this project. [CHAR LIMIT=25] -->  
+    <!-- for software update MOTA -->  
+    <string name="software_update">Serviciul de actualizare software</string>  
+    <string name="mota_system_update_summary">"Verificare actualizare de sistem pe server"</string>  
+    <!-- About phone screen,  more software updates-->  
+    <string name="software_updates_more_title">Actualizări software</string>  
+    <string name="software_updates_more_summary">Căutare software de versiune nouă</string>  
+    <string name="software_updates_scomo_summary">Căutare versiune nouă pentru aplicaţie</string>  
+    <string name="scomo_settings_title">Serviciul de actualizare software</string>  
+    <!-- Battery_level_show -->  
+    <string name="battery_level" translatable="false">" 
+        <xliff:g id="battery">%s</xliff:g>%%"
+    </string>  
+    <!--End of String for Gemini AboutPhone Settings-->  
+    <!--Add Strings for MTK Display Settings -->  
+    <string name="screen_timeout_CU">Temporizare ecran</string>  
+    <!-- Add for landscape launcher-->  
+    <string name="landscape_launcher_title">Program de lansare vedere</string>  
+    <string name="landscape_launcher_none">Fără</string>  
+    <!-- for TVOut -->  
+    <string name="tvout_settings">Ieşire TV</string>  
+    <string name="tvout_settings_summary">Setări ieșire TV</string>  
+    <string name="tv_system_title">Sistem TV</string>  
+    <!-- For HDMI begin -->  
+    <string name="hdmi_settings">Setări HDMI</string>  
+    <string name="hdmi_settings_summary">Faceţi clic pentru a configura HDMI</string>  
+    <string name="hdmi_audio_toggler">audio</string>  
+    <string name="hdmi_video_toggler">videoclip</string>  
+    <string name="hdmi_video_resolution">Rezoluţie video</string>  
+    <string name="hdmi_notification_title">Cablu HDMI conectat</string>  
+    <string name="hdmi_notification_content">Faceţi clic pentru a configura HDMI</string>  
+    <!--Theme manager -->  
+    <string name="display_settings_scences_title">Scene</string>  
+    <string name="mtk_thememanager_title">Temă</string>  
+    <string name="default_name">Implicit</string>  
+    <string name="custom_theme_name">Nou [%1$s]</string>  
+    <string name="loading">Se încarcă...</string>  
+    <!--End of String for MTK Display Settings-->  
+    <!--Add Strings for MTK Security Settings -->  
+    <string name="sim_enter_pin_hints">(Introduceţi 4-8 cifre)</string>  
+    <string name="sim_remain">(Rămasă: 
+        <xliff:g id="remains">%d</xliff:g>)
+    </string>  
+    <!--End of String for MTK Security Settings-->  
+    <!--Add Strings for MTK DateTime Settings-->  
+    <!-- GPS time sync -->  
+    <string name="gps_time_sync_attention_gps_on">Obţinerea fixării GPS va dura maximum 1 minut. În plus, este posibil ca funcţia GPS să nu reuşească să furnizeze ora din cauza semnalului ambiental slab.\n\nSigur doriţi să utilizaţi ora furnizată de funcţia GPS?</string>  
+    <string name="gps_time_sync_attention_gps_off">Pentru a utiliza ora furnizată de funcţia GPS, trebuie să activaţi mai întâi funcţia. Apoi va dura maximum 1 minut pentru a obţine fixarea GPS. În plus, este posibil ca funcţia GPS să nu reuşească să furnizeze ora din cauza semnalului ambiental slab.\n\nSigur doriţi să activaţi acum funcţia GPS şi să aşteptaţi ora furnizată de aceasta?</string>  
+    <!--End of String for MTK DateTime Settings-->  
+    <!--Add Strings for MTK Backup & reset Settings-->  
+    <!-- Drm Settings -->  
+    <!-- Privacy Screen,setting option name under Privacy Personal data -->  
+    <string name="drm_settings_title">Reinițializare DRM</string>  
+    <!-- Privacy Screen,settings option summary text under Privacy personal data -->  
+    <string name="drm_settings_summary">ștergere toate licențele DRM</string>  
+    <!-- Drm settings Activity lable -->  
+    <!-- Dialog msg for confirmation to reset DRM -->  
+    <string name="drm_reset_dialog_msg">Această operație va șterge toate licențele din acest dispozitiv. Continuați?</string>  
+    <!-- Toast msg for confirmation to reset DRM -->  
+    <string name="drm_reset_toast_msg">Licențele au fost șterse cu succes.</string>  
+    <!--End of String for MTK DateTime Settings-->  
+    <!--Add Strings for MTK SIM management Settings-->  
+    <string name="gemini_sim_management_title">Gestiune SIM</string>  
+    <string name="gemini_sim_info_title">Informaţii SIM</string>  
+    <string name="gemini_default_sim_title">SIM implicită</string>  
+    <string name="gemini_general_settings_title">Setări generale</string>  
+    <string name="gemini_roaming_settings_title">Roaming</string>  
+    <string name="gemini_data_roaming_title">Roaming date</string>  
+    <string name="gemini_data_roaming_summary">Conectare la servicii de date în roaming</string>  
+    <string name="gemini_roaming_reminder_title">Afişare memento roaming</string>  
+    <string name="gemini_roaming_reminder_summary">Afişare sugestii SIM pe baza utilizării SIM</string>  
+    <string name="gemini_contacts_sim_title">"Asociere contacte"</string>
+    <string name="gemini_contacts_sim_summary">Asociaţi contacte cu o anumită cartelă SIM</string>
+    <string name="gemini_voice_call">Apel vocal</string>  
+    <string name="gemini_video_call">Apel video</string>  
+    <string name="gemini_data_connection">Conexiune date</string>  
+    <string name="gemini_msg">Mesagerie</string>  
+    <string name="gemini_default_sim_always_ask">Se întreabă întotdeauna</string>  
+    <string name="gemini_intenet_call">Apel Internet</string>  
+    <string name="gemini_default_sim_never">Oprit</string>  
+    <string name="gemini_default_sim_3g_off">Oprit</string>  
+    <!-- GSM/UMTS Options strings -->  
+    <string name="gemini_gsm_umts_network_preferences_title">"Mod reţea"</string>  
+    <string name="gemini_gsm_umts_network_preferneces_summary">Deocamdată nu este implementat!</string>  
+    <string name="gemini_gsm_umts_network_preferences_dialogtitle">Mod reţea</string>  
+    <string name="gemini_3g_service_settings">Serviciu 3G</string>  
+    <!-- Strings for Gemini begin-->  
+    <!-- Dual sim settings activate progress message string -->  
+    <string name="gemini_sim_mode_progress_activating_message">Activarea\u2026</string>  
+    <!-- Dual sim settings deactivate progress message string -->  
+    <string name="gemini_sim_mode_progress_deactivating_message">Dezactivarea\u2026</string>  
+    <!-- Dual sim settings mode change failed message string -->  
+    <string name="gemini_sim_mode_change_failed_message">Nereuşită. Eroare reţea.</string>  
+    <!-- Dual sim settings mode enter airplanemode confirm title string -->  
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_title">Mod avion</string>  
+    <!-- Dual sim settings mode enter airplanemode WiFi and Bt will both close confirm message string -->  
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_message">Telefonul va intra în modul Avion. Toate conexiunile fără fir vor fi dezactivate. Continuați?</string>  
+    <string name="gemini_sim_info_editor_name">Editare nume SIM</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">Salvare eșuată</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">Nume în duplicat pentru cartelă SIM</string>  
+    <string name="gemini_sim_info_editor_number">Introduceți număr de telefon</string>  
+    <string name="gemini_sim_info_editor_color">Setare culoare fundal</string>  
+    <string name="gemini_sim_info_editor_number_display_format">Afișare numere</string>  
+    <string name="gemini_no_sim_indicator">Nicio cartelă SIM</string>  
+    <string name="gemini_sim_list_default_title">Listă cartele SIM</string>  
+    <string name="gemini_data_connection_progress_message">"Vă rugăm așteptați…"</string>  
+    <string name="gemini_3g_modem_switching_message">"Comutarea SIM-ului se va finaliza în 10 secunde. Vă rugăm așteptați..."</string>  
+    <string name="gemini_3g_modem_switch_confirm_message">"Serviciul 3G în acest SIM va fi comutat. Continuați? Asigurați-vă că SIM-ul selectat suportă serviciul 3G."</string>  
+    <string name="gemini_3g_disable_warning">"Serviciul 3G nu este disponibil cu SIM-ul selectat. Datele se vor încărca mai greu. Puteți schimba setările serviciului 3G în Setări &gt; Wireless (fără fir) &amp; rețele &gt; Rețele mobile."</string>  
+    <string name="gemini_3g_disable_warning_cu">"Serviciul 3G nu este disponibil cu SIM-ul selectat. Datele se vor încărca mai greu. Puteți schimba serviciul 3G în Setări &gt; Gestionare SIM."</string>  
+    <!-- Strings for CU wap push begin-->  
+    <string name="gemini_wap_push_permission_head">După activarea serviciului Auto-push, puteți primi mesaje ce vor produce trafic de date. Serviciile auto-push uzuale include notificare e-amil, gestiune dispozitiv, indicatori servicii, încărcare servicii și oferirea push.</string>  
+    <string name="gemini_wap_push_permission_tail">Acceptați această înțelegere?</string>  
+    <string name="gemini_wap_push_permission_title">Acord serviciu auto-push</string>  
+    <string name="gemini_wap_push_permission">Serviciu auto-push</string>  
+    <!-- Strings for CU wap push end-->  
+    <!-- add for gemini enhancement  SIM tether info part    begin -->  
+    <string name="gemini_3g_disable_warning_case0">"Trebuie să activați roaming de date pentru acest SIM ce poate atrage costuri importante de roaming! Sunteți sigur că activați roaming de date și că selectați acest SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"Serviciul 3G nu este disponibil cu SIM-ul selectat. Acest lucru poate determina încărcarea mai lentă a datelor. Puteţi schimba setarea pentru serviciul 3G din Setări &gt; Wireless şi reţele &gt; Reţele mobile. Sigur doriţi să selectaţi acest SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"Serviciul 3G nu este disponibil cu SIM-ul selectat. Acest lucru poate determina încărcarea mai lentă a datelor. Puteţi schimba setarea pentru serviciul 3G din Setări &gt; Gestionare SIM. Sigur doriţi să selectaţi acest SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"Mai întâi trebuie să activaţi serviciul de roaming de date pentru acest SIM, ceea ce va determina costuri semnificative pentru transferul în roaming! În plus, serviciul 3G nu este disponibil cu SIM-ul selectat. Acest lucru poate determina încărcarea mai lentă a datelor. Îl puteţi schimba din Setări &gt; Wireless şi reţele &gt; Reţele mobile. Sigur doriţi să activaţi roamingul de date şi să selectaţi acest SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"Mai întâi trebuie să activaţi serviciul de roaming de date pentru acest SIM, ceea ce va determina costuri semnificative pentru transferul în roaming! În plus, serviciul 3G nu este disponibil cu SIM-ul selectat. Acest lucru poate determina încărcarea mai lentă a datelor. Îl puteţi schimba din Setări &gt; Gestionare SIM. Sigur doriţi să activaţi roamingul de date şi să selectaţi acest SIM?"</string>  
+    <string name="gemini_sim_tether_info_title">Contacte &amp; SIM</string>  
+    <string name="gemini_sim_tether_add_record">Adăugare contacte</string>  
+    <string name="gemini_sim_add_title">Contacte</string>  
+    <!-- Displayed full screen when the user has no tether info to display-->  
+    <string name="gemini_sim_tether_norecord">"Nu aveţi niciun număr de contact asociat cartelei SIM curente.\n\nAtingeţi butonul Adăugare contacte pentru a selecta contactele pe care doriţi să le asociaţi acestei cartele SIM"</string>  
+    <string name="gemini_sim_tether_nocontacts">"Nu există contacte stocate în telefon. Mai întâi adăugaţi contacte noi sau importaţi contacte"</string>  
+    <string name="gemini_sim_tether_no_assc_contacts">"Legarea tuturor persoanelor de contact a reuşit"</string>  
+    <string name="gemini_sim_tether_disassociate">Dezasociere</string>  
+    <string name="selected_item_count"> 
+        <xliff:g id="count">%d</xliff:g> selectat
+    </string>  
+    <string name="gemini_sim_tether_unselect_all">Deselecție toate</string>
+    <string name="gemini_sim_tether_nocontact_confirm">OK</string>  
+    <string name="gemini_sim_tether_select_all">Selectare totală</string>  
+    <string name="gemini_sim_tether_select_ok">Salvare</string>  
+    <string name="gemini_sim_tether_select_cancel">Revocare</string>  
+    <string name="gemini_sim_tether_revert_title">Atenţie</string>  
+    <string name="gemini_sim_tether_revert_message">Configurațiile dumneavoastră au fost schimbate și nu au fost salvate. Sigur nu vreți să le salvați?</string>  
+    <string name="gemini_tether_saving_progress_message">Salvare...</string>  
+    <!-- add for gemini enhancement SIM tether info part end -->  
+    <!-- Strings for Gemini SimLock Settings -->  
+    <!-- Gemini SimLock error message -->  
+    <string name="gemini_sim_lock_simid_error">Eșec, id sim invalid.</string>  
+    <!-- Gemini SimLock sim1 not insert message -->  
+    <string name="gemini_sim_lock_no_insert_message_sim">Cartela SIM nu este conectată.</string>  
+    <!-- Gemini SimLock sim1 radio off message -->  
+    <string name="gemini_sim_lock_radio_off_message_sim1">Radio1 este oprit.</string>  
+    <!-- Gemini SimLock sim2 radio off message -->  
+    <string name="gemini_sim_lock_radio_off_message_sim2">Radio2 este oprit.</string>  
+    <!--End of String for SIM Management Settings-->  
+    <!-- for CU application -->  
+    <string name="akp_installer_settings_title">Instalare APK</string>  
+    <string name="akp_installer_settings_summary">Instalarea APK din memoria de stocare a telefonului şi de pe cardul SD</string>  
+    <string name="launch_main_label">Lansare aplicație</string>  
+    <string name="launch_main">Lansare aplicație de către activitatea principală</string>  
+    <string name="launch_activitie">Lansare</string>  
+    <string name="move_app_to_where">Mutare la 
+        <xliff:g id="location">%s</xliff:g> 
+    </string>  
+    <!--Wi-Fi settings strings start-->  
+    <string name="wifi_no_cert_for_wapi">Imposibil de găsit certificare pentru AP-ul în curs de conectare</string>  
+    <!-- Label for the SIM Slot of EAP-SIM method support -->  
+    <string name="sim_slot">Slot SIM</string>  
+    <!-- Label for the SIM Slot 0 of EAP-SIM method support -->  
+    <string name="eap_sim_slot_0">Slot SIM 1</string>  
+    <!-- Label for the SIM Slot of EAP-SIM method support -->  
+    <string name="eap_sim_slot_1">Slot SIM 2</string>  
+    <!-- Label for the toast if user use eap-sim/aka in airplane mode -->  
+    <string name="eap_sim_aka_airplanemode">Dezactivaţi modul Avion pentru a putea utiliza EAP-SIM/AKA</string>  
+    <!-- Label for the toast if user use eap-sim/aka when sim card is absent -->  
+    <string name="eap_sim_aka_no_sim_error">Trebuie să introduceți o cartelă sim pentru a folosi EAP-SIM/AKA</string>  
+    <!-- Label for the toast if user use eap-sim/aka when user don't select a sim slot -->  
+    <string name="eap_sim_aka_no_sim_slot_selected">Trebuie să selectați un slot sim pentru a folosi EAP-SIM/AKA</string>  
+    <string name="wifi_security_wapi_certificate">Certificat WAPI</string>  
+    <!-- Label for the WAPI user certificate of the network -->  
+    <string name="wapi_user_certificate">Certificat utilizator</string>  
+    <!-- Label for the WAPI ASE certificate of the network -->  
+    <string name="wapi_as_certificate">Certificat ASE</string>  
+    <!-- Label for the check box for hexadecimal password -->  
+    <string name="wifi_hex_password">Parolă hexadecimală.</string>  
+    <!-- The label for WEP transmit Key -->  
+    <string name="wifi_WEP_transmit_key">Transmitere cheie</string>  
+    <!-- The label for WEP Secury Key -->  
+    <string name="wifi_WEP_secury_key">Cheie de securitate</string>  
+    <!--add for Wi-Fi hotspot auto-sleep policy-->  
+    <string name="wifi_tether_auto_disable_title">Menţinere hotspot Wi-Fi activat</string>  
+    <string name="wifi_tether_auto_channel_text">Automat</string>  
+    <string name="wifi_tether_auto_channel_width_text">20/40 MHz automat.</string>  
+    <string name="wifi_channel">Canal preferat</string>  
+    <string name="wifi_channel_width">Lăţime de bandă canal</string>  
+    <string name="confirm_title">Confirmare</string>  
+    <!--Wi-Fi settings strings end-->  
+    <!-- Wireless settings for PCH Monitor start -->  
+    <string name="pch_toggle_title">Mod preferinţă transfer GPRS</string>  
+    <!-- for PCH Monitor data prefer -->  
+    <string name="pch_data_prefer_summary_off">Preferinţă date</string>  
+    <!-- for PCH Monitor call prefer-->  
+    <string name="pch_call_prefer_summary_on">Preferinţă apel</string>  
+    <!-- for PCH Monitor warning message -->  
+    <string name="pch_warning_message">Rata de transmisie a datelor va scădea.</string>  
+    <!-- Wireless settings for PCH Monitor end -->  
+    <!-- Schedule power on/off settings -->  
+    <!-- Main Settings screen setting option name to go into the power on/off settings-->  
+    <string name="schedule_power_on_off_settings_title">Planificare pornire/oprire</string>  
+    <string name="usb_bicr_title">CD-ROM încorporat</string>  
+    <string name="usb_bicr_summary">Se afişează un CD-ROM virtual care conţine software util.</string>  
+    <string name="select_memory">Disc de scriere implicit</string>  
+    <string name="ipo_title">Repornire rapidă</string>  
+    <string name="ipo_summary_on">Dezactivare repornire rapidă</string>  
+    <string name="ipo_summary_off">Activare repornire rapidă</string>  
+    <string name="agps_profile_select_Title">Profil SUPL</string>  
+    <string name="location_settings_label">Mod Inginer localizare</string>  
+    <string name="audio_profile_error">Eroare</string>  
+    <string name="battery_percent">Procent Baterie</string>  
+    <!-- RCS-e settings -->  
+    <string name="rcse_settings_title">Setări RCS-e</string>
+    <string name="dlg_mount_external_sd_title" product="default">Montaţi cartela SD?</string>  
+    <string name="dlg_mount_external_sd_summary" product="default">Dacă montaţi cartela SD, este posibil ca unele aplicaţii pe care le utilizaţi să se oprească.</string> 	
+
+    <string name="tethered_ipv6_title">Setări hotspot şi tethering</string>  
+    <string name="tethered_ipv4v6">(IPv6 disponibil)</string>  
+    <string name="tethered_ipv6">(Numai IPv6 available)</string>  
+    <string name="tethered_ipv4">(IPv6 indisponibil)</string>
+	
+	<string name="usb_connect_as_cdrom_category">"Conectaţi-vă ca CD-ROM"</string>
+
+    <string name="wifi_ap_client_block_title">"Blocaţi"</string>  
+    <string name="wifi_ap_client_details_title">Detalii</string>  
+    <string name="wifi_wps_fail_error">Configurarea unei reţele Wi-Fi protejate a eşuat, reîncercaţi.</string>  
+    <string name="wifi_tether_setting_title">Setări de bază</string>  
+    <string name="wifi_tether_wps_connect_title">Conectare WPS</string>  
+    <string name="wifi_tether_wps_connect_summary">Mod de configurare protejată Wi-Fi selectat pentru continuare</string>  
+    <string name="wifi_tether_wps_pin_error">PIN nevalid</string>  
+    <string name="wifi_tethering_title">Hotspot Wi-Fi</string>  
+    <string name="wifi_ap_wps_dialog_title">Conectare WPS</string>  
+    <string name="wifi_ap_wps_mode_title">Mod WPS</string>  
+    <string name="wifi_ap_wps_pin_title">Tastaţi codul PIN de la client</string>  
+    <string name="wifi_ap_reset_OOB_title">Reiniţializaţi identificatorul SSID, securitatea şi parola de reţea la setările implicite (configurare din cutie pentru WPS )</string>  
+    <string name="wifi_ap_reset_OOB">Reiniţializare OOB</string>  
+    <string name="wifi_ap_max_connection_title">Număr maxim conexiuni</string>  
+    <string name="wifi_ap_connected_title">Utilizatori conectaţi</string>  
+    <string name="wifi_ap_blocked_title">Utilizatori blocaţi</string>  
+    <string name="wifi_ap_client_unblock_title">Deblocare</string>  
+    <string name="wifi_ap_client_mac_label">Adresă MAC:</string>  
+    <string name="wifi_ap_client_ip_label">Adresă IP:</string>  
+    <string name="usb_sharing_title">Internet prin USB</string>  
+    <string name="usb_sharing_summary">Partajare Internet la PC Windows prin cablu USB</string>  
+    <string name="usb_sharing_info_title">Internet direct</string>  
+    <string name="usb_sharing_info_step_1">"1. Deschideţi conexiunile de reţea de pe PC-ul Windows."</string>  
+    <string name="usb_sharing_info_step_2">"2. Faceţi clic dreapta pe conexiunea pe care doriţi să o partajaţi şi apoi faceţi clic pe proprietăţi."</string>  
+    <string name="usb_sharing_info_step_3">"3. Faceţi clic pe fila de partajare şi selectaţi opţiunea \'Se permite altor utilizatori ai reţelei să se conecteze prin intermediul conexiunii la internet a acestui computer\' (alegeţi reţeaua nou adăugată, care reprezintă reţeaua internet USB, dacă apare \'Conexiune reţea rezidenţială\')."</string>  
+    <string name="wifi_ap_bandwidth_title">Utilizare lăţime de bandă</string>  
+    <string name="wifi_ap_bandwidth_enable">Se permite limitarea lăţimii de bandă</string>  
+    <string name="wifi_ap_bandwidth_chart_title">Viteză de date în timp real</string>  
+    <string name="wifi_ap_bandwidth_chart_summary">Măsurată de telefon, contorizarea vitezei de date a operatorului dvs. poate să difere.</string>  
+    <string name="wifi_ap_title">Statistici</string>  
+    <string name="wifi_ap_time_duration">Durată: 
+        <xliff:g id="time">%1$s</xliff:g> 
+    </string>  
+    <string name="wifi_ap_total_data">Total date utilizate:
+        <xliff:g id="time">%1$s</xliff:g>
+    </string>
+    <string name="cpu_dtm_title">Mod de economisire al procesorului</string>
+    <string name="cpu_dtm_summary">Limitaţi performanţa maximă a procesorului pentru a conserva durata de funcţionare a acumulatorului şi pentru a reduce temperatura dispozitivului.</string>
+    <string name="wifi_advanced_ipv4_address_title">Adresă IPv4</string>  
+    <string name="wifi_advanced_ipv6_address_title">Adresă IPv6</string>  
+    <string name="wifi_ipv4_address">Adresă IPv4</string>  
+    <string name="wifi_ipv6_address">Adresă IPv6</string>
+    
+    <!-- MTK new datausage start -->
+    <string name="mtk_datausage_overview_wifi_today">Astăzi</string>  
+    <string name="mtk_datausage_show_on_lockscreen">Afişare în ecran blocat</string>  
+    <string name="mtk_datausage_update">Actualizare utilizare date</string>  
+    <string name="mtk_datausage_update_set">"Actualizaţi"</string>  
+    <string name="mtk_datausage_amount_editor_title">Cantitate de date utilizată</string>  
+    <string name="mtk_datausage_usage_list">Utilizare date după aplicaţie</string>  
+    <string name="mtk_datausage_diff_byte">Diferenţă utilizare date</string>  
+    <string name="mtk_datausage_overview_tab">Prezentare generală</string>  
+    <string name="mtk_datausage_overview_wifi_total">Total</string>  
+    <string name="mtk_datausage_overview_mobile_title">MOBIL</string>  
+    <string name="mtk_datausage_overview_mobile_usage">
+        <xliff:g id="actual">%s</xliff:g> din 
+        <xliff:g id="limit">%s</xliff:g>
+    </string>
+    <string name="mtk_datausage_overview_mobile_usage_warning">Limită depăşită <xliff:g>%s</xliff:g></string>
+    <!-- MTK new datausage end -->
+    <string name="display_personalize">Personalizare</string>  
+    <string name="display_default">"Afişare"</string>
+    <!-- Sound Enhanecement -->
+    <string name="sound_enhancement_title">Optimizare sunet</string>
+    <string name="music_plus_summary">Sistem de optimizare a sunetului pentru cască</string> 
+    <string name="auto_backlight_title">Retroiluminare economică</string>
+    <string name="auto_backlight_summary">Adaptare automată retroiluminare pentru a economisi energie</string>
+    <string name="beam_mgmt_tab_download_title">Apeluri primite</string>
+    <string name="beam_mgmt_tab_upload_title">"3. Faceţi clic pe fila de partajare şi selectaţi opţiunea 'Se permite altor utilizatori ai reţelei să se conecteze prin intermediul conexiunii la internet a acestui computer' (alegeţi reţeaua nou adăugată, care reprezintă reţeaua internet USB, dacă apare 'Conexiune reţea rezidenţială')."</string>
+    <string name="beam_share_mgmt_notification_ticker">Istoric partajare beam</string>
+    <string name="beam_share_mgmt_notification_title">Istoric partajare beam</string>
+    <string name="beam_share_mgmt_notification_message">"Selectaţi pentru a vizualiza istoricul de partajare beam."</string>
+    <string name="beam_share_mgmt_tab_menu_clear">"Ştergeţi toate setările site-ului web?"</string>
+    <string name="beam_share_open_file_dialog_title">Nu se poate deschide fişierul</string>
+    <string name="beam_share_open_file_unsupported_message">Formatul de fişier nu este acceptat.</string>
+    <string name="beam_share_open_file_not_found_message">"Fişierul nu a fost găsit: <xliff:g id="file_name">%1$s</xliff:g></string>
+    <string name="beam_share_transfer_fail_dialog_title">"Transmitere beam eşuată"</string>
+    <string name="beam_share_resend_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> nu a fost trimis cu succes."</string>
+    <string name="beam_share_resend_dialog_ok_button">"Încercaţi din nou"</string>
+    <string name="beam_share_show_received_files_menu">"Afişaţi fişierele primite"</string>
+    <string name="beam_share_history_title">Istoric partajare beam</string>
+    <string name="beam_share_clear_confirm_dialog_title">"Ştergeţi toate datele"</string>
+    <string name="beam_share_clear_confirm_dialog_message">Goliţi întregul istoric?</string>
+    <string name="beam_share_receive_fail_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> nu a fost primit cu succes."</string>
+    <string name="beam_share_clear_item_dailog_title">EXCLUIR</string>
+    <string name="beam_share_clear_item_dailog_message">Articolul va fi şters.</string>
+    <string name="nfc_rw_tag_summary">Citiţi de pe sau scrieţi pe o etichetă</string>
+    <string name="nfc_p2p_mode">Mod P2P</string>
+    <string name="nfc_p2p_mode_summary">Trimiteţi sau primiţi Aplicaţii</string>
+    <string name="nfc_tag_mode_category">Mod etichetă</string>
+    <string name="nfc_rw_tag_title">Citire sau scriere etichetă</string>
+    <string name="lock_screen_notifications_title">Notificări ecran de blocare</string>
+    <string name="lock_screen_notifications_summary">Afişare notificări pe ecranul de blocare</string>
+    <string name="lock_screen_style_title">Stil ecran de blocare</string>
+
+
+      <string name="voice_ui_title">Comandă vocală</string>
+      <string name="voice_ui_app_category">Setări aplicaţii</string>
+      <string name="voice_ui_setting_category">"Setări"</string>
+      <string name="alarm_app_name">"Alarme"</string>
+      <string name="music_app_name">Muzică</string>
+      <string name="voice_ui_language_title">"Limbă pentru control vocal"</string>
+      <string name="incoming_call_app_name">"Apel primit"</string>
+      <string name="camera_app_name">Camera</string>
+      <string name="incomming_command_summary_format">Puteţi spune <xliff:g id="first">%1$s</xliff:g> sau <xliff:g id="second">%2$s</xliff:g> pentru a răspunde sau a respinge apelurile primite.</string>
+      <string name="alarm_command_summary_format">Puteţi spune <xliff:g id="first">%1$s</xliff:g> sau <xliff:g id="second">%2$s</xliff:g> pentru a controla alarma.</string>
+      <string name="camera_command_summary_format">Puteţi spune <xliff:g id="first">%1$s</xliff:g> sau <xliff:g id="second">%2$s</xliff:g> pentru a captura.</string>
+      <string name="music_command_summary_format">Puteţi spune <xliff:g id="first">%1$s</xliff:g> şi <xliff:g id="second">%2$s</xliff:g> pentru a controla redarea muzicii.</string>
+
+	<!-- Lock screen settings start -->
+	<string name="current_suffix">„(Curent)”</string>
+	<string name="lockscreen_style_set">Setare ecran de blocare</string>
+	<string name="lockscreen_style_default_desc">„Acces rapid la aplicaţii, din ecranul de blocare”</string>
+	<!-- Lock screen settings end -->
+    <!--  voice unlock start-->
+    <string name="voice_unlock_backup_info_summary">Atunci când Deblocare vocală nu vă\ recunoaşte, cum doriţi să debloocaţi?</string>
+    <string name="unlock_set_unlock_mode_voice_weak">Deblocare vocală</string>
+    <!--  voice unlock end-->
+    <string name="usb_tether_type_title">Tip tethering USB</string> 
+    <string name="security_not_set">Caracteristicile de securitate nu sunt setate</string>
+    <string name="lockdown_vpn_already_connected">Întotdeauna prin VPN a fost activată pentru această conexiune.</string> 
+
+    <string name="wifi_ap_no_connected">0 utilizatori conectaţi</string>  
+    <string name="wifi_ap_no_blocked">0 utilizatori blocaţi</string> 
+
+    <string name="status_imei_slot3">IMEI(Slot 3)</string>
+    <string name="status_imei_sv_slot3">IMEI SV(Slot 3)</string>
+    <string name="status_min_number_slot3">MIN(Slot 3)</string>
+    <string name="status_prl_version_slot3">Versiune PRL(Slot 3)</string>
+    <string name="status_meid_number_slot3">MEID(Slot 3)</string>
+    
+    <string name="usb_tethering_select_version">Selectare versiune sistem PC</string>
+</resources>

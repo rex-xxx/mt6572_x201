@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" 
+        android:persistent = "false" 
+        android:orderingFromXml = "true">
+    <PreferenceCategory android:key = "custom"    
+                        android:title = "@string/audio_profile_category_custom_title"/>
+    <PreferenceCategory android:key = "predefine"    
+                        android:title = "@string/audio_profile_category_predefine_title"/>
+        <com.mediatek.audioprofile.AudioProfilePreference 
+            android:key = "mtk_audioprofile_general"
+            android:title = "@string/general_settings_title"
+            android:summary = "@string/ring_summary"/>
+        <com.mediatek.audioprofile.AudioProfilePreference 
+            android:key = "mtk_audioprofile_silent" 
+            android:title = "@string/silent_settings_title"
+            android:summary = "@string/silent_summary"/>
+        <com.mediatek.audioprofile.AudioProfilePreference 
+            android:key = "mtk_audioprofile_meeting" 
+            android:title = "@string/meeting_settings_title"
+            android:summary = "@string/meeting_summary"/>
+        <com.mediatek.audioprofile.AudioProfilePreference 
+            android:key = "mtk_audioprofile_outdoor" 
+            android:title = "@string/outdoor_settings_title"
+            android:summary = "@string/outdoor_summary"/> 
+            
+	<PreferenceCategory android:key="sound_enhance"
+		android:title="@string/sound_enhancement_title">
+		<CheckBoxPreference android:key="music_plus"
+			android:title="@string/music_plus_title"
+            android:summary="@string/music_plus_summary"
+			android:persistent="false" />
+	</PreferenceCategory>
+                
+</PreferenceScreen>

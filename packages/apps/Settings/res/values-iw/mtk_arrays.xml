@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+     <string-array name="wifi_security"> 
+        <item>פתח</item>  
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+        <item>WAPI PSK</item> 
+        <item>אישור WAPI</item>  
+    </string-array>  
+    <string-array name="wpa_security"> 
+        <item>פתח</item>  
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>  
+    <string-array name="wpa_security_wfa"> 
+        <item>פתח</item>  
+        <item>WEP</item>
+        <item>WPA PSK</item>
+        <item>WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>  
+    <string-array name="wapi_security"> 
+        <item>פתח</item>  
+        <item>WAPI PSK</item>
+        <item>אישור WAPI</item>  
+    </string-array>  
+    <string-array name="gemini_sim_info_number_display_format_entries"> 
+        <item>4 ספרות ראשונות</item>  
+        <item>4 ספרות אחרונות</item>  
+        <item>אל תציג</item> 
+    </string-array>  
+    <string-array name="gemini_sim_roaming_reminder_entries"> 
+        <item>פעם אחת</item>  
+        <item>תמיד</item>  
+        <item>אף פעם</item> 
+    </string-array>  
+    <string-array name="gsm_umts_network_preferences_choices"> 
+        <item>GSM/WCDMA (מצב אוטומטי)</item>  
+        <item>WCDMA בלבד</item>  
+        <item>GSM בלבד</item> 
+    </string-array>  
+    <string-array name="network_use_entry"> 
+        <item>בית בלבד</item>  
+        <item>בית + נדידה</item> 
+    </string-array>  
+    <string-array name="auto_time_entries"> 
+        <item>השתמש בזמן הרשת</item>  
+        <item>השתמש בזמן ה-GPS</item>  
+        <item>כבוי</item> 
+    </string-array>  
+    <string-array name="hdmi_video_resolution_entries"> 
+        <item>אוטומטי</item>  
+        <item>720P</item>
+        <item>480P</item>
+    </string-array>  
+    <string-array name="wifi_WEP_security_type"> 
+        <item>אוטומטי</item>  
+        <item>WEP ASCII</item>
+        <item>WEP הקסדצימלי</item>  
+    </string-array>  
+    <string-array name="wifi_hotspot_disable_policy_entries"> 
+        <item>תמיד</item>  
+        <item>כבה לאחר 5 דקות של חוסר פעילות</item>  
+        <item>כבה לאחר 10 דקות של חוסר פעילות</item> 
+    </string-array>  
+    <string-array name="wifi_ap_wps_mode_entries"> 
+        <item>לחץ על הלחצן</item>  
+        <item>PIN מלקוח</item> 
+    </string-array>  
+    <string-array name="wifi_ap_max_connection_entries"> 
+        <item>משתמש אחד</item>  
+        <item>2 משתמשים</item> 
+        <item>3 משתמשים</item>
+        <item>4 משתמשים</item>
+        <item>5 משתמשים</item>
+        <item>6 משתמשים</item>
+        <item>7 משתמשים</item>
+        <item>8 משתמשים</item>
+    </string-array> 
+	<string-array name="sim_slot">
+		<item>"(לא צוין)"</item>
+		<item>חריץ SIM 1</item>
+		<item>חריץ SIM 2</item>
+	</string-array>
+</resources>

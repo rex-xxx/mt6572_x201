@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColorHighlight">#FFFF9200</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+        <item name="android:textColorLink">#5C5CFF</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextAppearance.SearchResult">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:textColorHintInverse</item>
+    </style>
+
+    <style name="TextAppearance.SearchResult.Title">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextAppearance.SearchResult.Subtitle">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">?android:textColorSecondaryInverse</item>
+    </style>
+
+    <style name="MmsHoloTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+    </style>
+
+     <style name="WidgetTitle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#333333</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="NotificationPrimaryText">
+        <item name="android:textColor">#cccccc</item>
+    </style>
+
+    <style name="NotificationSecondaryText">
+        <item name="android:textColor">#666666</item>
+    </style>
+
+    <style name="NotificationSubjectText">
+        <item name="android:textColor">#999999</item>
+    </style>
+ 
+    <style name="MultiSelectionHoloTheme" parent="@android:style/Theme.Holo.Light">
+		<item name="android:actionBarStyle">@style/MultiSelectionActionBarStyle</item>
+	</style>
+	
+	<style name="MultiSelectionActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/cab_background_top_holo_dark</item>
+        <item name="android:backgroundStacked">@drawable/cab_background_top_holo_dark</item>
+        <item name="android:backgroundSplit">@drawable/cab_background_bottom_holo_dark</item>
+        <item name="android:itemPadding">8dip</item>
+    </style>
+  <!-- Dialog mode-->
+  <style name="Theme.SmsDlgScreen" parent="@android:style/Theme.Holo.Light.Dialog">
+      <item name="android:windowNoTitle">true</item>
+  </style>
+
+    <!-- IpMessage -->
+    <style name="out_going_time_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingRight">4dip</item>
+        <item name="android:textColor">#555555</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="out_going_type_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">3dip</item>
+        <item name="android:paddingRight">3dip</item>
+        <item name="android:layout_marginRight">4dip</item>
+        <item name="android:textColor">#555555</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:ellipsize">middle</item>
+        <item name="android:maxWidth">100dip</item>
+    </style>
+
+    <style name="separator_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dip</item>
+        <item name="android:background">@drawable/ipmsg_chat_split_line</item>
+    </style>
+
+    <style name="bubble_name_separator_style" parent="@style/separator_style">
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <style name="caption_separator_style" parent="@style/bubble_name_separator_style">
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+
+    <style name="group_member_name_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">#5a5a5a</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="MmsHoloThemeWhite" parent="@style/MmsHoloTheme">
+        <item name="android:actionBarWidgetTheme">@style/HoloLightSelectMode</item>
+    </style>
+    <style name="HoloLightSelectMode" parent="android:style/Widget.Holo.ListPopupWindow">
+        <item name="android:popupBackground">@null</item>
+    </style>
+
+    <!-- M: media controller style @{-->
+    <style name="MediaButton">
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">71dip</item>
+        <item name="android:layout_height">52dip</item>
+    </style>
+
+    <style name="MediaButton.Previous">
+        <item name="android:src">@drawable/ic_media_pre</item>
+    </style>
+
+    <style name="MediaButton.Next">
+        <item name="android:src">@drawable/ic_media_next</item>
+    </style>
+
+    <style name="MediaButton.Play">
+        <item name="android:src">@drawable/ic_media_play</item>
+    </style>
+
+    <style name="MediaButton.Ffwd">
+        <item name="android:src">@drawable/ic_media_ff</item>
+    </style>
+
+    <style name="MediaButton.Rew">
+        <item name="android:src">@drawable/ic_media_rew</item>
+    </style>
+
+    <style name="MediaButton.Pause">
+        <item name="android:src">@drawable/ic_media_pause</item>
+    </style>
+    <!-- @}-->
+</resources>

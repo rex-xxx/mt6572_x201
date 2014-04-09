@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">နာရီ</string>
+    <string name="alarm_list_title">နှိုးစက်အချိန်ပေးထားသည်များ</string>
+    <string name="add_alarm">နှိုးစက်အချိန်ပေးထားသည် ကိုပေါင်းထည့်သည်</string>
+    <string name="menu_desk_clock">စားပွဲတင် နာရီ</string>
+    <string name="menu_edit_alarm">နှိုးစက်ပေးထားသည့်အချိန် ကို ပြင်ဆင်သည်</string>
+    <string name="delete_alarm">နှိုးစက်ပေးထားသည့်အချိန် ကို ဖျက်သည်</string>
+    <string name="enable_alarm">နှိုးစက်ပေးထားသည့်အချိန် ကို ဖွင့်သည်</string>
+    <string name="disable_alarm">နှိုးစက်ပေးထားသည့်အချိန် ကို ပိတ်သည်</string>
+    <string name="delete_alarm_confirm">ဤနှိုးစက်ပေးထားသည့်အချိန်ကို ဖျက်မည်လား။</string>
+    <string name="show_clock">နာရီကို ပြထားသည်</string>
+    <string name="hide_clock">နာရီကို ဖျောက်ထားသည်</string>
+    <string name="label">အညွန်းအမှတ်အသား</string>
+    <string name="default_label">နှိုးစက်</string>
+    <string name="set_alarm">နှိုးစက်အချိန် ပေးထားသည်</string>
+    <string name="alarm_vibrate">တုန်ခါသည်</string>
+    <string name="alarm_repeat">နောက်တစ်ခါ ပြုလုပ်သည်</string>
+    <string name="alert">ဖုန်းမြည်သံ</string>
+    <string name="time">အချိန်</string>
+    <string name="alarm_alert_dismiss_text">ဖြုတ်သည်</string>
+    <string name="alarm_alert_alert_silenced">
+        <xliff:g id="minutes">%d</xliff:g>မိနစ် ပြီးနောက် နှိုးစက်ကို အသံ တိတ်ခဲ့သည်။
+    </string>
+    <string name="alarm_alert_snooze_text">တစ်မှေးအိပ်သည်</string>
+    <string name="alarm_alert_snooze_set">
+        <xliff:g id="minutes">%d</xliff:g>မိနစ် အတွက် တစ်မှေးထားသည်။
+    </string>
+    <skip/>
+    <string-array name="alarm_set">
+        <item>ယခုမှစ၍ ၁ မိနစ် လျော့ပြီး နှိုးစက် အချိန်ပေးထားသည်။</item>
+        <item>ယခုမှစ၍
+            <xliff:g id="DAYS" example="2days">%1$s</xliff:g>အတွက် နှိုးစက် အချိန်ပေးထားသည်။
+        </item>
+        <item>ယခု မှစ၍
+            <xliff:g id="HOURS" example="2hours">%2$s</xliff:g>အတွက် နှိုးစက်အချိန် ပေးထားသည်။
+        </item>
+        <item>ယခု မှစ၍
+            <xliff:g id="DAYS" example="2days">%1$s</xliff:g>and
+            <xliff:g id="HOURS" example="2hours">%2$s</xliff:g>အတွက် နှိုးစက်အချိန် ပေးထားသည်။
+        </item>
+        <item>ယခု မှစ၍
+            <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g>အတွက် နှိုးစက် အချိန် ပေးထားသည်။
+        </item>
+        <item>ယခု မှစ၍
+            <xliff:g id="DAYS" example="2days">%1$s</xliff:g>and
+            <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g>အတွက် နှိုးစက် အချိန် ပေးထားသည်။
+        </item>
+        <item>ယခု မှစ၍
+            <xliff:g id="HOURS" example="2hours">%2$s</xliff:g>and
+            <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g>အတွက် နှိုးစက် အချိန် ပေးထားသည်။
+        </item>
+        <item>ယခု မှစ၍
+            <xliff:g id="DAYS" example="2days">%1$s</xliff:g>,
+            <xliff:g id="HOURS" example="2hours">%2$s</xliff:g>,and
+            <xliff:g id="MINUTES" example="2minutes">%3$s</xliff:g>အတွက် နှိုးစက် အချိန် ပေးထားသည်။
+        </item>
+    </string-array>
+    <string name="day">"၁ ရက်"</string>
+    <string name="days">"
+        <xliff:g id="days">%s</xliff:g>ရက်များ"
+    </string>
+    <string name="hour">၁ နာရီ</string>
+    <string name="hours">
+        <xliff:g id="hours">%s</xliff:g>နာရီများ
+    </string>
+    <string name="minute">"၁ မိနစ်"</string>
+    <string name="minutes">"
+        <xliff:g id="minutes">%s</xliff:g>မိနစ်များ"
+    </string>
+    <string name="every_day">နေ့တိုင်း</string>
+    <string name="never">ဘယ်သောအခါမှ</string>
+    <string name="day_concat">", "</string>
+    <string name="clock_instructions">နာရီ ရွေးချယ်သည်</string>
+    <string name="analog_gadget">အင်နာလော့(ခ်) နာရီ</string>
+    <string name="settings">အပြင်အဆင်များ</string>
+    <string name="alarm_in_silent_mode_title">နှိုးစက်ပေးထားသည့်အချိန်သည် အသံတိတ် ပုံစံတွင် ရှိသည်</string>
+    <string name="alarm_in_silent_mode_summary">ဖုန်းသည် အသံတိတ် ပုံစံတွင် ရှိသောအခါ ပင်လျှင် နှိုးစက်ပေးထား သည့်အချိန်တွင် မြည်သည်</string>
+    <string name="snooze_duration_title">တမှေးအိပ်သည့် ကြာချိန်</string>
+    <string-array name="snooze_duration_entries">
+        <item>၅ မိနစ်</item>
+        <item>၁၀ မိနစ်</item>
+        <item>၁၅ မိနစ်</item>
+        <item>၂၀ မိနစ်</item>
+        <item>၂၅ မိနစ်</item>
+        <item>၃၀ မိနစ်</item>
+    </string-array>
+    <string-array name="snooze_duration_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string name="auto_silence_title">အလိုအလျောက် အသံတိတ်သည်</string>
+    <string name="auto_silence_summary">
+        <xliff:g id="minutes">%d</xliff:g>မိနစ် ပြီးနောက် နှိုးစက်ပေးထားသည့်အချိန်သည် အလိုအလျောက် အသံတိတ်လိမ့်မည်
+    </string>
+    <string name="auto_silence_never">ပိတ်သည်</string>
+    <string-array name="auto_silence_entries">
+        <item>ပိတ်သည်</item>
+        <item>၅ မိနစ်</item>
+        <item>၁၀ မိနစ်</item>
+        <item>၁၅ မိနစ်</item>
+        <item>၂၀ မိနစ်</item>
+        <item>၂၅ မိနစ်</item>
+        <item>၃၀ မိနစ်</item>
+    </string-array>
+    <string-array name="auto_silence_values" translatable="false">
+        <item>-1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string name="done">ပြုလုပ်ပြီးပြီ</string>
+    <string name="revert">မူရင်း အခြေအနေ ပြန်ရောက်သည်</string>
+    <string name="delete">ဖျက်သည်</string>
+    <string name="alarm_volume_title">နှိုးစက် ပေးထားသည့် အချိန် အသံ အတိုး၊ အကျယ်</string>
+    <string name="alarm_volume_summary">နှိုးစက်ပေးထားသည့်အချိန်များ၏ အသံ အတိုး၊ အကျယ်ကို ချိန်သည်</string>
+    <string name="silent_alarm_summary">အသံတိတ်သည်</string>
+    <string name="alarm_notify_text">နှိုးစက်အချိန်ပေးထား သည်ကို တစ်မှေး ထားသည် သို့မဟုတ် ဖြုတ်သည်။</string>
+    <string name="alarm_notify_snooze_label">
+        <xliff:g id="label">%s</xliff:g> (တမှေးထားခဲ့သည်)
+    </string>
+    <string name="alarm_notify_snooze_text">
+        <xliff:g id="time">%s</xliff:g>အတွက် နှိုးစက် အချိန်ပေးထားသည်။ ဖျက်ရန် ထိပါ။
+    </string>
+    <string name="volume_button_setting_title">အသံ အတိုး၊ အကျယ် ခလုတ်များ</string>
+    <string name="volume_button_dialog_title">ခလုတ် အထူးပြုလုပ်ချက်</string>
+    <string name="volume_button_setting_summary">နှိုးစက်အချိန်အတွင်း နှိပ်ခဲ့သောအခါ ဤခလုတ်များ ဘာ ပြုလုပ်မည်ကို သတ်မှတ်သည်</string>
+    <string-array name="volume_button_setting_entries">
+        <item>ဘယ်ဟာမျှမဟုတ်ပါ</item>
+        <item>တမှေးအိပ်သည်</item>
+        <item>ဖြုတ်သည်</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string name="default_ringtone_setting_title">သတ်မှတ်ထားသော ဖုန်းမြည်သံ တပ်ဆင်သည်</string>
+    <skip/>
+    <string name="alarm_button_description">နှိုးစက် ပေးထားသည့် အချိန်များ</string>
+    <string name="gallery_button_description">ဓာတ်ပုံပြခန်း</string>
+    <string name="music_button_description">ဂီတ</string>
+    <string name="nightmode_button_description">မှုန်ဝါးသော</string>
+    <string name="home_button_description">အစပျိုးခြင်း အရာ</string>
+    <string name="desk_clock_button_description">နာရီ ဖော်ပြခြင်း</string>
+    <string name="battery_charging_level">
+        <xliff:g id="number">%d</xliff:g>
+        <xliff:g id="percent">%%</xliff:g>
+    </string>
+    <string name="weather_fetch_failure">မိုးလေဝသအခြေအနေ သတင်းအချက်အလက် သည် ယခု မရနိုင်ပါ။</string>
+    <string name="menu_item_dock_settings" msgid="9161438664257429372">အပြင်အဆင်များ ပြုလုပ်သည်</string>
+    <string name="alarm_klaxon_service_desc">နာရီ တွင် တပ်ဆင်ထားသော နှိုးစက်များ အတွက် နောက်ခံအသံဖွင့်ခြင်း ဝန်ဆောင်မှုလုပ်သည်။</string>
+    <string name="loading_ringtone">ဖုန်းမြည်သံ တင်နေသည်\u2026</string>
+    <string name="control_set_alarm">နှိုးစက် အချိန် ပေးထားသည်</string>
+    <string name="control_set_alarm_with_existing">နှိုးစက် အချိန် ပေးထားသည်-
+        <xliff:g id="time">%s</xliff:g>
+    </string>
+    <string name="power_on">ဖြုတ်ပြီး ပါဝါဖွင့်ရန်</string>
+    <string name="power_off">ဖြုတ်ပြီး ပါဝါပိတ်ရန်</string>
+    <string name="repeat_weekdays">တနင်္လာမှသောကြာ</string>
+    <string name="stop_watch">စံချိန်ယူနာရီ</string>
+</resources>

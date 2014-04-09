@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="wifi_security"> 
+        <item>"Buka"</item>  
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+        <item>WAPI PSK</item>
+        <item>Sijil WAPI</item>  
+    </string-array>  
+    <string-array name="wpa_security"> 
+        <item>"Buka"</item>  
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>  
+    <string-array name="wpa_security_wfa"> 
+        <item>"Buka"</item>  
+        <item>WEP</item>
+        <item>WPA PSK</item>
+        <item>WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>  
+    <string-array name="wapi_security"> 
+        <item>"Buka"</item> 
+        <item>WAPI PSK</item> 
+        <item>Sijil WAPI</item>  
+    </string-array>  
+    <string-array name="gemini_sim_info_number_display_format_entries"> 
+        <item>4 digit pertama</item>  
+        <item>4 digit terakhir</item>  
+        <item>Jangan paparkan</item> 
+    </string-array>  
+    <string-array name="gemini_sim_roaming_reminder_entries"> 
+        <item>Sekali</item>  
+        <item>Sentiasa</item>  
+        <item>Tidak pernah</item> 
+    </string-array>  
+    <string-array name="gsm_umts_network_preferences_choices"> 
+        <item>GSM/WCDMA (mod auto)</item>  
+        <item>WCDMA shj</item>  
+        <item>GSM sahaja</item> 
+    </string-array>  
+    <string-array name="network_use_entry"> 
+        <item>Hanya Rumah</item>  
+        <item>Rmah + Pryauan</item> 
+    </string-array>  
+    <string-array name="auto_time_entries"> 
+        <item>Gunakan waktu yang diberikan oleh rangkaian</item>  
+        <item>Gunakan waktu yang diberikan oleh GPS</item>  
+        <item>Mati</item> 
+    </string-array>  
+    <string-array name="hdmi_video_resolution_entries"> 
+        <item>Auto</item>  
+        <item>720P</item>
+        <item>480P</item>
+    </string-array>  
+    <string-array name="wifi_WEP_security_type"> 
+        <item>Auto</item>  
+        <item>WEP ASCII</item>
+        <item>"WEP perenambelasan"</item>  
+    </string-array>  
+    <string-array name="wifi_hotspot_disable_policy_entries"> 
+        <item>Sentiasa</item>  
+        <item>Matikan apabila melahu selama 5 min</item>  
+        <item>Matikan apabila melahu selama 10 min</item> 
+    </string-array>  
+    <string-array name="wifi_ap_wps_mode_entries"> 
+        <item>Butang tekan</item>  
+        <item>PIN dari klien</item> 
+    </string-array>  
+    <string-array name="wifi_ap_max_connection_entries"> 
+        <item>1 pengguna</item>  
+        <item>2 pengguna</item> 
+        <item>3 pengguna</item>
+        <item>4 pengguna</item>
+        <item>5 pengguna</item>
+        <item>6 pengguna</item>
+        <item>7 pengguna</item>
+        <item>8 pengguna</item>
+    </string-array> 
+	<string-array name="sim_slot">
+		<item>"(tidak ditentukan)"</item>
+		<item>Slot Sim 1</item>
+		<item>Slot Sim 2</item>
+	</string-array>
+</resources>

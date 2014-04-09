@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <!-- application name and title of error dialogs-->  
+    <string name="app_name">Sound Recorder</string>  
+    <!-- Label shown during recording -->  
+    <string name="recording">Recording</string>  
+    <!-- Label shown when the recording is stopped for a reason other than the user stopping it (e.g. the sd card was removed) -->  
+    <string name="recording_stopped">Recording stopped</string>  
+    <!-- label shown when there is not enough space to record something -->  
+    <string name="storage_is_full">Storage is full</string>  
+    <!-- label shown when the recording has reached maximum allowed file size -->  
+    <string name="max_length_reached">Maximum length reached</string>  
+    <!-- label shown when there is no sd card available to record to [CHAR LIMIT=30] -->  
+    <string name="insert_sd_card" product="nosdcard">Mount USB storage</string>  
+    <!-- label shown when there is no sd card available to record to -->  
+    <string name="insert_sd_card" product="default">Insert an SD card</string>  
+    <!-- label shown when there is more than 1 minute but less than 9 minutes of space left to record -->  
+    <string name="min_available"> <xliff:g id="minutes">%d</xliff:g> mins available</string>  
+    <!-- label shown when there is less than 1 minute of space left to record -->  
+    <string name="sec_available"> <xliff:g id="seconds">%d</xliff:g>s available</string>  
+    <!-- button to accept the current recording and return it to the caller -->  
+    <string name="accept">Done</string>  
+    <!-- button to discard the current recording and return to the caller -->  
+    <string name="discard">Discard</string>  
+    <!-- acknowlegement button in a number of dialogs -->  
+    <string name="button_ok">OK</string>  
+    <!-- the name under which recordings will be visible in the media database is formatted like this -->  
+    <string name="audio_db_title_format"> <xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g> </string>  
+    <!-- all recordings will show up in the media database with this 'album' name -->  
+    <string name="audio_db_album_name">Audio recordings</string>  
+    <!-- all recordings will show up in the media database in a playlist with this name -->  
+    <string name="audio_db_playlist_name">My recordings</string>  
+    <!-- shown as the message in a dialog when an error occured because of an error accessing the sd card [CHAR LIMIT=NONE] -->  
+    <string name="error_sdcard_access" product="nosdcard">Can\'t access USB storage.</string>  
+    <!-- shown as the message in a dialog when an error occured because of an error accessing the sd card -->  
+    <string name="error_sdcard_access" product="default">Can\'t access SD card.</string>  
+    <!-- shown as the message in a dialog when the recording could not be added to the media database -->  
+    <string name="error_mediadb_new_record">Couldn\'t save recorded audio.</string>  
+    <!-- shown as the message in a dialog when the app encountered an recorder  conflict error -->  
+    <!-- shown as the title in a dialog when the app encountered an recorder  conflict error -->  
+    <string name="unknown_artist_name">Unknown artist</string>  
+    <string name="tell_save_record_success">Save succeeded</string>  
+    <string name="save_record">Save</string>  
+    <string name="cancel">Cancel</string>  
+    <string name="recording_format_high">High</string>  
+    <string name="recording_format_mid">Mid</string>  
+    <string name="recording_format_low">Low</string>  
+    <string name="three_mins_avail_total">"3 mins available total"</string>  
+    <string name="alert_delete_multiple">These items will be deleted</string>  
+    <string name="alert_delete_single">This item will be deleted</string>  
+    <string name="ok">OK</string>  
+    <string name="delete">Delete</string>  
+    <string name="deleting">Deleting</string>  
+    <string name="no_recording_file">(No recording file)</string>  
+    <string name="recording_file_list">Recording file list</string>  
+    <string name="recording_paused">Recording paused</string>  
+    <string name="voice_quality">Voice quality</string>  
+    <string name="recording_mode">Recording mode</string>  
+    <string name="select_voice_quality">Select voice quality</string>  
+    <string name="select_recording_mode">Select recording mode</string>  
+    <string name="recording_mode_nomal">Normal</string>  
+    <string name="time_available"> <xliff:g id="minutes">%d</xliff:g> mins <xliff:g id="seconds">%d</xliff:g>s available</string>  
+    <string name="recording_mode_meeting">Meeting</string>  
+    <string name="recording_mode_lecture">Lecture</string> 
+    <string name="recording_fail">Failed in recording</string>  
+    <string name="recorder_occupied">Recorder is occupied by other application.</string>  
+    <string name="sd_unmounted">SD card is unmounted.</string>  
+    <string name="storage_low">Your default storage is running out of space. Stop recording or delete items from SD Card.</string>  
+    <string name="storage_full">Default storage is full.</string>  
+    <string name="sd_no">Please insert an SD card.</string>  
+    <string name="playing_fail">Failed in playing</string>  
+    <string name="player_occupied">Player is occupied by other application.</string>  
+    <string name="recording_doc_deleted">Recording document has been deleted.</string>  
+    <string name="saving_fail">Failed in saving</string>  
+    <string name="deleting_fail">Failed in deleting</string>  
+    <string name="accessing_db_fail">Failed in accessing data base.</string>
+    <string name="recording_effect">Recording effects</string>  
+    <string name="select_recording_effect">Select recording effects</string>  
+    <string name="recording_effect_AGC">Auto gain control</string>  
+    <string name="recording_effect_AEC">Echo cancellation</string>  
+    <string name="recording_effect_NS">Noise suppression</string>
+    <string name="recording_format_standard">Standard</string>
+    <string name="not_available">Currently not available</string>
+</resources>

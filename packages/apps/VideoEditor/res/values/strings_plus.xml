@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="editor_gray_effect">Gray</string>
+    <!-- alert to the user that the USB storage is too full to complete the operation [CHAR LIMIT=NONE] -->
+    <string name="not_enough_space" product="nosdcard">Your USB storage is full.</string>
+    <!-- alert to the user that the SD card is too full to complete the operation -->
+    <string name="not_enough_space" product="default">Your SD card is full.</string>
+</resources>

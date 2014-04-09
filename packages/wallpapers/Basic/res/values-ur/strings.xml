@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wallpapers" msgid="7890805662847963863">Android Live Wallpapers</string>
+    <string name="wallpaper_walkaround" msgid="5548084303782181478">بذریعہ دیکھنا</string>
+    <string name="wallpaper_walkaround_author" msgid="7292960549371044078">Google</string>
+    <string name="wallpaper_walkaround_desc" msgid="1714824320382778730">بذریعہ اپنے دیکھیں اور حادثہ کے خطرے کے بغیر چلیں۔</string>
+    <string name="wallpaper_grass" msgid="4753389782988032116">گھاس</string>
+    <string name="wallpaper_grass_author" msgid="9197652780831360471">Google</string>
+    <string name="wallpaper_grass_desc" msgid="7808225799564607409">گھاس کی پتیاں دن یا رات کے سامنے آہستہ آہستہ لہراتی ہیں۔</string>
+    <string name="wallpaper_galaxy" msgid="4698294375306738428">کہکشاں</string>
+    <string name="wallpaper_galaxy_author" msgid="5455561260819111338">Google</string>
+    <string name="wallpaper_galaxy_desc" msgid="6816969378845338629">دھیمی رفتار سے چکر لگاتے ہوئے تاروں سے بنی کہکشاں۔</string>
+    <string name="wallpaper_fall" msgid="1500920940722360941">پانی</string>
+    <string name="wallpaper_fall_author" msgid="8860429843949521342">Google</string>
+    <string name="wallpaper_fall_desc" msgid="595888373487204297"> خزاں میں گرنے والے پتے&lt;br&gt; نیچے بہنے والی جھیل:&lt;br&gt; خزاں کے پتے جھڑتے ہیں.</string>
+    <string name="wallpaper_clock" msgid="6555051461698958610">قطبی گھڑی</string>
+    <string name="wallpaper_clock_author" msgid="8779094427834551330">Google</string>
+    <string name="wallpaper_clock_desc" msgid="6767980298898740026">بطور گھڑی وار قاطع تاریخ اور وقت حاضر کرتا ہے: مہینہ، دن، گھنٹہ، منٹ، اور سیکنڈ۔</string>
+    <string name="wallpaper_nexus" msgid="3789061608411260304">تعلق</string>
+    <string name="wallpaper_nexus_author" msgid="8492858637541249441">Google</string>
+    <string name="wallpaper_nexus_desc" msgid="5562598238151885905">نئے نیٹ ورک میں جھانکنا۔</string>
+    <string name="clock_settings" msgid="7837858747417927288">قطبی گھڑی ترتیبات</string>
+    <string name="show_seconds" msgid="8525899907567218168">سیکنڈ دکھانا</string>
+    <string name="variable_line_width" msgid="8487094734462263605">رنگ کے گھیرے کو وسیع کرنا</string>
+    <string name="palette" msgid="1636154448241520718">کلر پلیٹ</string>
+    <string name="palette_gray" msgid="4575370050214496017">لوہا</string>
+    <string name="palette_violet" msgid="6124851215872884048">آدھی رات</string>
+    <string name="palette_matrix" msgid="2755109999115087511">ہرا اسکرین</string>
+    <string name="palette_white_c" msgid="3846812107437715188">قطبی بھالو (حرکت)</string>
+    <string name="palette_black_c" msgid="1521258571661038231">کالا سراخ (حرکت)</string>
+    <string name="palette_halloween" msgid="1502590278217616811">کدو کا سموسہ</string>
+    <string name="palette_zenburn" msgid="5537306782860767365">الائن فروٹ سلاد</string>
+    <string name="palette_oceanic" msgid="7336134088073550028">نیلا لیزر</string>
+</resources>
+

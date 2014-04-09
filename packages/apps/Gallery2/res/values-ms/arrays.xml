@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <!-- add for ICS porting -->  
+    <string-array name="proxy_error"> 
+        <item>Medan hos tidak boleh dikosongkan</item>  
+        <item>Medan port tidak boleh dikosongkan</item>  
+        <item>Hos tidak sah</item>  
+        <item>Port tidak sah</item> 
+    </string-array> 
+</resources>

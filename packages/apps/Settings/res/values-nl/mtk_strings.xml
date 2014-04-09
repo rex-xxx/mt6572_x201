@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="bluetooth_advanced_settings">Geavanceerde Bluetooth-instellingen</string>  
+    <!-- Bluetooth settings.  The user-visible string that is used whenever referring to the FTP profile. -->  
+    <string name="bluetooth_profile_ftp">Bestandsoverdracht</string>  
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the FTP checkbox preference that describes how checking it will set the FTP profile as preferred. -->  
+    <string name="bluetooth_ftp_profile_summary_use_for">Gebruiken voor bestandsoverdracht</string>  
+    <string name="bluetooth_ftp_profile_summary_connected">"Verbonden met bestandsoverdracht"</string>  
+    <string name="mtp_transfer_unmount_error_text">Tijdens bestandsoverdracht kan de SD-kaart niet ontkoppeld worden</string>  
+    <string name="mtp_transfer_erase_error_text">Tijdens bestandsoverdracht kan de SD-kaart niet gewist worden</string>  
+    <string name="launch_error">"Kan de toepassing niet starten!"</string>  
+    <string name="dlg_confirm_unmount_usb_title" product="default">USB-opslag ontkoppelen?</string>  
+    <string name="dlg_confirm_unmount_usb_text" product="default">Als u de USB-opslag ontkoppelt, worden enkele geactiveerde applicaties gestopt en kunt u deze wellicht niet meer gebruiken totdat u de usb-opslag weer koppelt.</string>  
+    <string name="dlg_error_unmount_usb_title" product="default"/>  
+    <string name="dlg_error_unmount_usb_text" product="default">Kan de USB-opslag niet ontkoppelen. Probeer het later opnieuw.</string>  
+    <string name="unmount_usb_inform_text" product="default">Usb-opslag wordt ontkoppeld.</string>  
+    <string name="sd_eject_usbstorage" product="default">"USB-opslag ontkoppelen"</string>  
+    <string name="sd_eject_usbstorage_summary" product="default">"Interne USB-opslag ontkoppelen"</string>  
+    <string name="sd_mount_usbstorage" product="default">"USB-opslag koppelen"</string>  
+    <string name="sd_insert_usb_summary" product="default">"USB-opslag plaatsen voor koppelen"</string>  
+    <!-- Storage setting.  Title for UMS checkbox [CHAR LIMIT=30]-->  
+    <string name="usb_ums_title">USB-opslag</string>  
+    <!-- Storage setting.  Summary for UMS checkbox [CHAR LIMIT=NONE]-->  
+    <string name="usb_ums_summary">"XP aanbevolen. Laat u bestanden overzetten tussen uw computer en de USB-opslag van Android."</string>  
+    <string name="usb_charge_title">Alleen opladen</string>  
+    <string name="usb_charge_summary">Stop alle USB-functies. Hiermee versnelt het opladen via USB en het vermindert het energiegebruik.</string>  
+    <!-- Agps Settings -->  
+    <string name="NI_Request_ID">Aanvrager-ID</string>  
+    <string name="NI_Request_ClientName">Naam client</string>  
+    <string name="agps_str_verify">Controle</string>  
+    <string name="agps_str_notify">Melding</string>  
+    <string name="EM_NotifyDialog_title">EM-melding</string>  
+    <string name="agps_OK">OK</string>  
+    <string name="agps_str_allow">TOESTAAN</string>  
+    <string name="agps_str_deny">WEIGEREN</string>  
+    <string name="agps_str_error">Fout</string>  
+    <string name="AGPS_DEFAULT_STRING">Standaard tekenreeks A-GPS</string>  
+    <string name="AGPS_CAUSE_NETWORK_CREATE_FAIL">Netwerk maken mislukt</string>  
+    <string name="AGPS_CAUSE_BAD_PUSH_CONTENT">Onjuiste PUSH-inhoud</string>  
+    <string name="AGPS_CAUSE_NOT_SUPPORTED">Niet-ondersteunde bewerking</string>  
+    <string name="AGPS_CAUSE_REQ_NOT_ACCEPTED">Aanvraag niet geaccepteerd</string>  
+    <string name="AGPS_CAUSE_NO_RESOURCE">Geen bron voor het behandelen van nieuw proces</string>  
+    <string name="AGPS_CAUSE_NETWORK_DISCONN">De netwerkverbinding is verbroken</string>  
+    <string name="AGPS_CAUSE_REMOTE_ABORT">Sessie afbreken vanaf externe zijde (ontvangst SUPL EINDE)</string>  
+    <string name="AGPS_CAUSE_TIMER_EXPIRY">Geen bericht terug verwachten tijdens een specifiek tijdsinterval</string>  
+    <string name="AGPS_CAUSE_REMOTE_MSG_ERROR">Onjuiste berichtinhoud ontvangen</string>  
+    <string name="AGPS_CAUSE_USER_AGREE">Gebruiker akkoord bij bevestiging</string>  
+    <string name="AGPS_CAUSE_USER_DENY">Gebruiker niet akkoord bij bevestiging</string>  
+    <string name="AGPS_CAUSE_NO_POSITION">Alleen voor GEEN positie</string>  
+    <string name="AGPS_CAUSE_TLS_AUTH_FAIL">TLS-verificatie mislukt</string>  
+    <string name="USER_RESPONSE_TIMEOUT">Wachten op verificatie-time-out</string>  
+    <string name="AGPS_EM_RECV_SI_REQ">SI-aanvraag ontvangen</string>  
+    <string name="AGPS_EM_POS_FIXED">Positie vastgelegd</string>  
+    <string name="AGPS_NOTIFY_ONLY">Melding locatie-aanvraag</string>  
+    <string name="AGPS_NOTIFY_ALLOW_NO_ANSWER">Locatie-aanvraag (toestaan indien geen antwoord)</string>  
+    <string name="AGPS_NOTIFY_DENY_NO_ANSWER">Locatie-aanvraag (weigeren indien geen antwoord)</string>  
+    <string name="AGPS_NOTIFY_PRIVACY">Locatie-aanvraag (privacy)</string>  
+    <string name="epo_entrance_title">EPO-instellingen</string>  
+    <string name="epo_entrance_summary">Klik op de EPO-configuraties te wijzigen</string>  
+    <string name="agps_settings_title">A-GPS instellingen</string>  
+    <string name="epo_enable_confirm_title">EPO inschakelen bevestigen</string>  
+    <string name="epo_enable_confirm_message">U hebt een draadloze gegevensverbinding nodig om de GPS-hulpgegevens (EPO) te verkrijgen. Dit kan extra netwerkkosten veroorzaken. Weet u zeker dat u de GPS-hulp wilt inschakelen?</string>  
+    <string name="epo_enable_confirm_allow">Doorgaan</string>  
+    <string name="epo_enable_confirm_deny">Annuleren</string>  
+    <string name="agps_enable_confirm_title">A-GPS inschakelen bevestigen</string>  
+    <string name="agps_enable_confirm">A-GPS heeft een draadloze gegevensverbinding nodig om de hulpgegevens te verkrijgen. Dit kan extra kosten veroorzaken. Weet u zeker dat u de A-GPS wilt inschakelen?</string>  
+    <string name="agps_enable_confirm_allow">Doorgaan</string>  
+    <string name="agps_enable_confirm_deny">Annuleren</string>  
+    <string name="epo_enable_title">GPS EPO-hulp</string>
+    <string name="epo_enable_summary">Gebruik de GPS-hulpgegevens (EPO) om de GPS-positionering te versnellen.</string>   
+    <string name="agps_settings_enable_on">GPS kan de vaste locatietijd versnellen met hulpgegevens via een draadloze gegevensverbinding</string>  
+    <string name="agps_settings_enable_off">Hulpgegevens gebruiken om vaste locatietijd te versnellen met GPS</string>  
+    <string name="agps_settings_eng_enable">A-GPS instellingen</string>  
+    <string name="agps_settings_eng_summary">A-GPS-instellingen opgeven</string>  
+    <string name="agps_disable_on_reboot">Uitschakelen na opnieuw opstarten</string>  
+    <string name="agps_disable_on_reboot_summary">A-GPS-capaciteit uitschakelen na opnieuw opstarten</string>  
+    <string name="Network_Initiate">Netwerkaanvraag</string>  
+    <string name="Network_Initiate_Summary_on">Sta toe dat netwerk positie aanvraagt</string>  
+    <string name="Network_Initiate_Summary_off">Sta niet toe dat netwerk positie aanvraagt</string>  
+    <string name="Network_Used">Netwerk gebruikt</string>  
+    <string name="agps_profile_select">Profielkiezer</string>  
+    <string name="agps_profile_SLP_address_editbox_title">SLP-adres</string>  
+    <string name="port_title">SLP-poort</string>  
+    <string name="tls_summary_off">TLS is uitgeschakeld</string>  
+    <string name="tls_summary_on">TLS is ingeschakeld</string>  
+    <string name="MobileNetwork_Category">Mobiel netwerk</string>  
+    <string name="AgpsHelp_Category">Help</string>  
+    <string name="about_agps_title">Over A-GPS</string>  
+    <string name="about_agps_message">\t A-GPS (Assisted-GPS) is het systeem dat de startprestaties en de time-to-first-fix (TTFF) van GPS-satellieten kan verbeteren. \n\t Een apparaat dat A-GPS ondersteunt, kan verbinding maken met locatieservers om de hulpgegevens op te halen over een mobiele gegevensverbinding. \n\tHoud er rekening mee dat gegevensverkeer extra kosten kan veroorzaken bij roaming. Neem voor meer informatie contact op met uw operators.</string>  
+    <string name="epo_auto_download_title">Automatisch downloaden</string>  
+    <string name="epo_auto_download_summary">Gegevens satellietpositie automatisch downloaden</string>  
+    <string name="epo_info_title">EPO bestandsinfo</string>  
+    <string name="epo_download_time_title">Downloadtijd</string>  
+    <string name="epo_download_time_summary">Niet beschikbaar</string>  
+    <string name="epo_start_time_title">Starttijd</string>  
+    <string name="epo_start_time_summary">Niet beschikbaar</string>  
+    <string name="epo_expire_time_title">Verstreken tijd</string>  
+    <string name="epo_expire_time_summary">Niet beschikbaar</string>  
+    <string name="epo_about_title">Over EPO</string>  
+    <string name="epo_about_message">\tEPO (Extended Prediction Orbit) is een van MediaTeks innovatieve bedrijfseigen off-line servergebaseerde A-GPS technologieën. \n\tHet ondersteunt voorspellingen tot 30 dagen van satellietomwentelingen, die bruikbaar zijn om de gebruikerservaring aanzienlijk te verbeteren door de GPS Time To First Fix (TTFF) te verbeteren.</string>  
+    <string name="Network_Local_and_Roaming_Summary">A-GPS zowel binnen thuisnetwerk als roaming gebruiken</string>  
+    <string name="Network_Only_Local_Summary">A-GPS binnen thuisnetwerk gebruiken</string>  
+    <string name="MobileNetwork_DataConn_off">Gegevensverbinding is UIT</string>  
+    <string name="MobileNetwork_off_Summary">Schakel de gegevensverbinding in voordat u A-GPS gebruikt</string>  
+    <string name="WiFiNetwork_on_title">Wi-Fi is actief.</string>  
+    <string name="MobileNetwork_on_Summary">A-GPS vereist toegang tot het mobiele netwerk via gegevensverbindingen.</string>  
+    <string name="MobileNetwork_SIM_Active">SIM is actief</string>  
+    <string name="Network_Roaming_dialog_title">Let op</string>  
+    <string name="Network_Roaming_dialog_content">Als het netwerk roaming is, kan het gegevensverkeer van A-GPS extra roamingkosten veroorzaken.</string>  
+    <string name="epo_download">Downloaden</string>  
+    <string name="epo_error_no_activite_network">Schakel de gegevensverbinding in voordat u EPO-gegevens downloadt.</string>  
+    <string name="epo_cancel_download">Annuleren</string>  
+    <string name="epo_status_stopping">Bezig met stoppen...</string>  
+    <string name="epo_status_starting">Bezig met starten...</string>  
+    <string name="epo_err_update_failed">Bijwerken EPO-bestanden mislukt</string>  
+    <string name="epo_error_dialog_title">Fout</string>  
+    <string name="epo_ok_btn">OK</string>  
+    <string name="epo_warning_dialog_title">Let op</string>  
+    <string name="epo_warning_dialog_message">Het downloaden van EPO-gegevens in de roamingstatus kan extra kosten veroorzaken. Weet u zeker dat u wilt doorgaan?</string>  
+    <!-- AudioProfile Settings -->  
+    <string name="ring_summary">Bellen</string>  
+    <string name="ring_vibrate_summary">Bellen en trillen</string>  
+    <string name="silent_summary">Alleen stil</string>  
+    <string name="meeting_summary">Alleen trillen</string>  
+    <string name="outdoor_summary">Luidste beltoon en trillen</string>  
+    <string name="audio_profile_reset">Reset</string>  
+    <string name="audio_profile_add">Toevoegen</string>  
+    <string name="audio_profile_enable">Inschakelen</string>  
+    <string name="audio_profile_rename">Naam wijzigen</string>  
+    <string name="audio_profile_delete">Verwijderen</string>  
+    <string name="audio_profile_message_reset">Voor alle instellingen voor audioprofielen worden de standaardwaarden hersteld.</string>  
+    <string name="audio_profile_message_rename">Voer de nieuwe profielnaam in</string>  
+    <string name="audio_profile_message_name_error">De naam bestaat reeds</string>  
+    <string name="audio_profile_message_name_length_wrong">Naam moet minimaal een teken bevatten</string>  
+    <string name="audio_profile_message_delete">Het profiel 
+        <xliff:g id="profile">%s</xliff:g> wordt verwijderd
+    </string>  
+    <string name="audio_profile_message_overflow">U mag slechts 6 aangepaste profielen toevoegen</string>  
+    <string name="ok">OK</string>  
+    <string name="audio_profile_category_custom_title">Door gebruiker gedefinieerde profielen</string>  
+    <string name="audio_profile_category_predefine_title">Voorgedefinieerde profielen</string>  
+    <string name="general_settings_title">"Algemeen"</string>  
+    <string name="silent_settings_title">Stil</string>  
+    <string name="meeting_settings_title">Vergadering</string>  
+    <string name="outdoor_settings_title">Buitenshuis</string>  
+    <!-- modify default apns notices -->  
+    <string name="apn_predefine_change_dialog_notice">Weet u zeker dat u wilt opslaan? Wijzigingen aan standaard APNs kunnen verbindingsproblemen veroorzaken!</string>  
+    <!-- The title for AlertDialog when APN Settings is called while Airplane Mode is on -->  
+    <string name="dialog_apn_disabled">APN uitgeschakeld.</string>  
+    <!-- Error message for dialog of apn disabled error  -->  
+    <string name="dialog_apn_disabled_msg">Schakel de vliegtuigmodus uit om APN-instellingen in te schakelen.</string>  
+    <string name="sound_category_feedback_title">"Systeem"</string>  
+    <string name="sound_category_calls_title">"Inkomende oproepen"</string>  
+    <string name="voice_call_title">Beltoon gesprek</string>  
+    <string name="voice_call_summary">"Standaard beltoon bij inkomende gesprekken instellen."</string>  
+    <string name="video_call_title">Beltoon voor videogesprek</string>  
+    <string name="video_call_summary">Standaard beltoon bij inkomende videogesprekken instellen.</string>  
+    <string name="Phone_vibrate_summary">Trillende telefoon voor binnenkomende oproepen</string>  
+    <string name="vibrate_title">Trillen</string>  
+    <string name="audio_profile_settings_title">Audioprofielen</string>  
+    <!--Add Strings for MTK AboutPhone Settings -->  
+    <!-- Gemini AboutPhone status sim status title -->  
+    <string name="sim_status_title">SIM-status</string>  
+    <!-- Gemini AboutPhone status sim status summary -->  
+    <string name="sim_status_summary">Informatie betreffende SIM</string>  
+    <!-- Gemini AboutPhone status imei slot1 title -->  
+    <string name="status_imei_slot1">IMEI (Sleuf 1)</string>  
+    <!-- Gemini AboutPhone status imei sv slot1 title -->  
+    <string name="status_imei_sv_slot1">IMEI SV (Sleuf 1)</string>  
+    <!-- Gemini AboutPhone status imei slot2 title -->  
+    <string name="status_imei_slot2">IMEI (Sleuf 2)</string>  
+    <!-- Gemini AboutPhone status imei sv slot2 title -->  
+    <string name="status_imei_sv_slot2">IMEI SV (Sleuf 2)</string>  
+    <!-- Gemini CDMA AboutPhone status min number slot1 title -->  
+    <string name="status_min_number_slot1">MIN (Sleuf 1)</string>  
+    <!-- Gemini CDMA AboutPhone status prl version slot1 title -->  
+    <string name="status_prl_version_slot1">PRL-versie (sleuf 1)</string>  
+    <!-- Gemini CDMA AboutPhone status meid number slot1 title -->  
+    <string name="status_meid_number_slot1">MEID(sleuf 1)</string>  
+    <!-- Gemini CDMA AboutPhone status min number slot2 title -->  
+    <string name="status_min_number_slot2">MIN (Sleuf 2)</string>  
+    <!-- Gemini CDMA AboutPhone status prl version slot2 title -->  
+    <string name="status_prl_version_slot2">PRL-versie (sleuf 2)</string>  
+    <!-- Gemini CDMA AboutPhone status meid number slot2 title -->  
+    <string name="status_meid_number_slot2">MEID(sleuf 2)</string>  
+    <string name="slot_status_title">"IMEI-informatie"</string>  
+    <string name="slot_status_summary">"IMEI-relatieve informatie"</string>  
+    <!-- About phone screen,  setting option name-->  
+    <string name="custom_build_version">"Versie aangepast model"</string>  
+    <!-- A menu item in "About phone" that allows the user to update the phone with settings
+    from their cell phone carrier. The use of the string is similar to the string
+    "system_update_settings_list_item_title" in this project. [CHAR LIMIT=25] -->  
+    <!-- for software update MOTA -->  
+    <string name="software_update">Software update service</string>  
+    <string name="mota_system_update_summary">"Controleer systeemupdate op de server"</string>  
+    <!-- About phone screen,  more software updates-->  
+    <string name="software_updates_more_title">Software-updates</string>  
+    <string name="software_updates_more_summary">Controleer op nieuwe versie software</string>  
+    <string name="software_updates_scomo_summary">Controleer op nieuwe versie voor toepassing</string>  
+    <string name="scomo_settings_title">Software update service</string>  
+    <!-- Battery_level_show -->  
+    <string name="battery_level" translatable="false">" 
+        <xliff:g id="battery">%s</xliff:g>%%"
+    </string>  
+    <!--End of String for Gemini AboutPhone Settings-->  
+    <!--Add Strings for MTK Display Settings -->  
+    <string name="screen_timeout_CU">Time-out scherm</string>  
+    <!-- Add for landscape launcher-->  
+    <string name="landscape_launcher_title">Landschapstarter</string>  
+    <string name="landscape_launcher_none">Geen</string>  
+    <!-- for TVOut -->  
+    <string name="tvout_settings">TV-uit</string>  
+    <string name="tvout_settings_summary">Instellingen TV-uit</string>  
+    <string name="tv_system_title">Tv-systeem</string>  
+    <!-- For HDMI begin -->  
+    <string name="hdmi_settings">HDMI-instellingen</string>  
+    <string name="hdmi_settings_summary">Klik hier om HDMI in te stellen</string>  
+    <string name="hdmi_audio_toggler">Audio</string>  
+    <string name="hdmi_video_toggler">Video</string>  
+    <string name="hdmi_video_resolution">Videoresolutie</string>  
+    <string name="hdmi_notification_title">HDMI-kabel aangesloten</string>  
+    <string name="hdmi_notification_content">Klik hier om HDMI in te stellen</string>  
+    <!--Theme manager -->  
+    <string name="display_settings_scences_title">Scènes</string>  
+    <string name="mtk_thememanager_title">Thema</string>  
+    <string name="default_name">Standaard</string>  
+    <string name="custom_theme_name">Nieuw [%1$s]</string>  
+    <string name="loading">Bezig met laden…</string>  
+    <!--End of String for MTK Display Settings-->  
+    <!--Add Strings for MTK Security Settings -->  
+    <string name="sim_enter_pin_hints">(Invoer 4-8 cijfers)</string>  
+    <string name="sim_remain">(Resterend: 
+        <xliff:g id="remains">%d</xliff:g>)
+    </string>  
+    <!--End of String for MTK Security Settings-->  
+    <!--Add Strings for MTK DateTime Settings-->  
+    <!-- GPS time sync -->  
+    <string name="gps_time_sync_attention_gps_on">Het duurt ongeveer 1 minuut om de positie met GPS te bepalen. GPS levert mogelijk niet de juiste tijd als gevolg van een zwak omgevingssignaal.\n\Weet u zeker dat u de tijd van GPS wilt gebruiken?</string>  
+    <string name="gps_time_sync_attention_gps_off">Om de tijd van GPS te gebruiken, moet u GPS eerst inschakelen. Het duurt daarna hoogstens 1 minuut om de positie met GPS te bepalen. GPS levert mogelijk niet de juiste tijd als gevolg van een zwak omgevingssignaal. \n\Weet u zeker dat u de tijd van GPS wilt gebruiken?</string>  
+    <!--End of String for MTK DateTime Settings-->  
+    <!--Add Strings for MTK Backup & reset Settings-->  
+    <!-- Drm Settings -->  
+    <!-- Privacy Screen,setting option name under Privacy Personal data -->  
+    <string name="drm_settings_title">DRM reset</string>  
+    <!-- Privacy Screen,settings option summary text under Privacy personal data -->  
+    <string name="drm_settings_summary">Verwijdert alle DRM-licenties</string>  
+    <!-- Drm settings Activity lable -->  
+    <!-- Dialog msg for confirmation to reset DRM -->  
+    <string name="drm_reset_dialog_msg">Deze handeling verwijdert alle licenties van dit apparaat. Doorgaan?</string>  
+    <!-- Toast msg for confirmation to reset DRM -->  
+    <string name="drm_reset_toast_msg">Licenties zijn verwijderd.</string>  
+    <!--End of String for MTK DateTime Settings-->  
+    <!--Add Strings for MTK SIM management Settings-->  
+    <string name="gemini_sim_management_title">SIM-beheer</string>  
+    <string name="gemini_sim_info_title">SIM-gegevens</string>  
+    <string name="gemini_default_sim_title">Standaard SIM</string>  
+    <string name="gemini_general_settings_title">Algemene instellingen</string>  
+    <string name="gemini_roaming_settings_title">Roaming</string>  
+    <string name="gemini_data_roaming_title">Gegevensroaming</string>  
+    <string name="gemini_data_roaming_summary">Verbinden met gegevensservices tijdens roamen</string>  
+    <string name="gemini_roaming_reminder_title">Herinnering roaming weergeven</string>  
+    <string name="gemini_roaming_reminder_summary">SIM-suggestie weergeven op basis van SIM-gebruik</string>  
+    <string name="gemini_contacts_sim_title">"Contact verbinden"</string>
+    <string name="gemini_contacts_sim_summary">Verbindt contacten aan een specifieke SIM-kaart</string>
+    <string name="gemini_voice_call">Spraakoproep</string>  
+    <string name="gemini_video_call">Videogesprek</string>  
+    <string name="gemini_data_connection">Gegevensverbinding</string>  
+    <string name="gemini_msg">Berichten</string>  
+    <string name="gemini_default_sim_always_ask">Altijd vragen</string>  
+    <string name="gemini_intenet_call">Internetgesprek</string>  
+    <string name="gemini_default_sim_never">Uit</string>  
+    <string name="gemini_default_sim_3g_off">Uit</string>  
+    <!-- GSM/UMTS Options strings -->  
+    <string name="gemini_gsm_umts_network_preferences_title">"Netwerkmodus"</string>  
+    <string name="gemini_gsm_umts_network_preferneces_summary">Nog niet geïmplementeerd.</string>  
+    <string name="gemini_gsm_umts_network_preferences_dialogtitle">Netwerkmodus</string>  
+    <string name="gemini_3g_service_settings">3G-service</string>  
+    <!-- Strings for Gemini begin-->  
+    <!-- Dual sim settings activate progress message string -->  
+    <string name="gemini_sim_mode_progress_activating_message">Bezig met activeren\u2026</string>  
+    <!-- Dual sim settings deactivate progress message string -->  
+    <string name="gemini_sim_mode_progress_deactivating_message">Bezig met deactiveren\u2026</string>  
+    <!-- Dual sim settings mode change failed message string -->  
+    <string name="gemini_sim_mode_change_failed_message">Mislukt. Netwerkfout.</string>  
+    <!-- Dual sim settings mode enter airplanemode confirm title string -->  
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_title">Vliegtuigmodus</string>  
+    <!-- Dual sim settings mode enter airplanemode WiFi and Bt will both close confirm message string -->  
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_message">TElefoon gaat naar vliegtuigmodus. Alle draadloze verbindingen worden uitgeschakeld. Doorgaan?</string>  
+    <string name="gemini_sim_info_editor_name">SIM-naam bewerken</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">Opslaan mislukt</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">Dubbele naam voor SIM-kaart</string>  
+    <string name="gemini_sim_info_editor_number">Telefoonnummer</string>  
+    <string name="gemini_sim_info_editor_color">Achtergrondkleur instellen</string>  
+    <string name="gemini_sim_info_editor_number_display_format">Nummers weergeven</string>  
+    <string name="gemini_no_sim_indicator">Geen SIM-kaart</string>  
+    <string name="gemini_sim_list_default_title">Lijst met SIM-kaarten</string>  
+    <string name="gemini_data_connection_progress_message">"Een ogenblik geduld..."</string>  
+    <string name="gemini_3g_modem_switching_message">"Het schakelen naar een SIM duurt ongeveer 10 seconden. Een ogenblik geduld…"</string>  
+    <string name="gemini_3g_modem_switch_confirm_message">"Dit zal ook de 3G-service schakelen naar deze SIM. Doorgaan? Zorg dat deze geselecteerde SIM 3G-service ondersteunt."</string>  
+    <string name="gemini_3g_disable_warning">"3G-service niet beschikbaar voor deze SIM. Gegevens kunnen langzamer laden. U kunt de instelling voor 3G-service wijzigen onder Instellingen &gt; Draadloos en netwerken &gt; Mobiele netwerken."</string>  
+    <string name="gemini_3g_disable_warning_cu">"3G-service niet beschikbaar voor deze SIM. Gegevens kunnen langzamer laden. U kunt de instelling voor 3G-service wijzigen onder Instellingen &gt; SIM-beheer."</string>  
+    <!-- Strings for CU wap push begin-->  
+    <string name="gemini_wap_push_permission_head">Na het inschakelen van de Auto-push service kunt u push-berichten ontvangen, lokale toepassingen aanroepen en gegevensverkeer produceren. De gebruikelijke auto-push services omvatten e-mailmeldingen, apparaatbeheer, service-indicatie, service laden en leverings-push.</string>  
+    <string name="gemini_wap_push_permission_tail">Deze overeenkomst accepteren?</string>  
+    <string name="gemini_wap_push_permission_title">Overeenkomst voor Auto-push service</string>  
+    <string name="gemini_wap_push_permission">Auto-push service</string>  
+    <!-- Strings for CU wap push end-->  
+    <!-- add for gemini enhancement  SIM tether info part    begin -->  
+    <string name="gemini_3g_disable_warning_case0">"Voor deze SIM moet u eerst gegevens-roaming inschakelen, wat aanzienlijke roaming-kosten kan veroorzaken! Weet u zeker dat u gegevensroaming wilt inschakelen en deze SIM wilt selecteren?”</string>  
+    <string name="gemini_3g_disable_warning_case1">"3G-service niet beschikbaar voor deze SIM. Gegevens kunnen langzamer laden. U kunt de instelling voor 3G-service wijzigen onder Instellingen &gt; Draadloos en netwerken &gt; Mobiele netwerken. Weet u zeker dat u deze SIM wilt selecteren?”</string>  
+    <string name="gemini_3g_disable_warning_case2">"3G-service niet beschikbaar voor deze SIM. Gegevens kunnen langzamer laden. U kunt de instelling voor 3G-service wijzigen onder Instellingen &gt; SIM-beheer. Weet u zeker dat u deze SIM wilt selecteren?”</string>  
+    <string name="gemini_3g_disable_warning_case3">"Voor deze SIM moet u eerst gegevens-roaming inschakelen, wat aanzienlijke roaming-kosten kan veroorzaken! Overigens is de 3G-service niet beschikbaar voor deze SIM. Gegevens kunnen langzamer laden. U kunt dit wijzigen onder Instellingen &gt; Draadloos en netwerken &gt; Mobiele netwerken. Weet u zeker dat u gegevensroaming wilt inschakelen en deze SIM wilt selecteren?”</string>  
+    <string name="gemini_3g_disable_warning_case4">"Voor deze SIM moet u eerst gegevens-roaming inschakelen, wat aanzienlijke roaming-kosten kan veroorzaken! Overigens is de 3G-service niet beschikbaar voor deze SIM. Gegevens kunnen langzamer laden. U kunt dit wijzigen onder Instellingen &gt; SIM-beheer Weet u zeker dat u gegevensroaming wilt inschakelen en deze SIM wilt selecteren?”</string>  
+    <string name="gemini_sim_tether_info_title">Contacten en SIM</string>  
+    <string name="gemini_sim_tether_add_record">Contacten toevoegen</string>  
+    <string name="gemini_sim_add_title">"Contacten"</string>  
+    <!-- Displayed full screen when the user has no tether info to display-->  
+    <string name="gemini_sim_tether_norecord">"Er is geen contactnummer gekoppeld aan de huidige SIM-kaart.\n\nTik op de knop Contacten toevoegen om de contacten te selecteren die u aan deze SIM-kaart wilt koppelen"</string>  
+    <string name="gemini_sim_tether_nocontacts">"Er zijn geen contacten opgeslagen op de telefoon. Voeg een nieuwe contact toe of importeer eerst contacten"</string>  
+    <string name="gemini_sim_tether_no_assc_contacts">"Contacten zijn allemaal gekoppeld"</string>  
+    <string name="gemini_sim_tether_disassociate">Ontkoppelen</string>  
+    <string name="selected_item_count"> 
+        <xliff:g id="count">%d</xliff:g> geselecteerd
+    </string>  
+    <string name="gemini_sim_tether_unselect_all">Alle selecties opheffen</string>
+    <string name="gemini_sim_tether_nocontact_confirm">OK</string>  
+    <string name="gemini_sim_tether_select_all">Alles selecteren</string>  
+    <string name="gemini_sim_tether_select_ok">Opslaan</string>  
+    <string name="gemini_sim_tether_select_cancel">Annuleren</string>  
+    <string name="gemini_sim_tether_revert_title">Let op</string>  
+    <string name="gemini_sim_tether_revert_message">Uw configuraties zijn gewijzigd en niet opgeslagen. Weet u zeker dat u wilt afsluiten zonder op te slaan?</string>  
+    <string name="gemini_tether_saving_progress_message">Bezig met opslaan…</string>  
+    <!-- add for gemini enhancement SIM tether info part end -->  
+    <!-- Strings for Gemini SimLock Settings -->  
+    <!-- Gemini SimLock TabActivity Sim1 tab tag -->  
+    <!-- Gemini SimLock error message -->  
+    <string name="gemini_sim_lock_simid_error">Mislukt, ongeldig sim-id.</string>  
+    <!-- Gemini SimLock sim1 not insert message -->  
+    <string name="gemini_sim_lock_no_insert_message_sim">SIM niet geplaatst.</string>  
+    <!-- Gemini SimLock sim1 radio off message -->  
+    <string name="gemini_sim_lock_radio_off_message_sim1">Radio1 is uit.</string>  
+    <!-- Gemini SimLock sim2 radio off message -->  
+    <string name="gemini_sim_lock_radio_off_message_sim2">Radio2 is uit.</string>  
+    <!--End of String for SIM Management Settings-->  
+    <!-- for CU application -->  
+    <string name="akp_installer_settings_title">APK-installatieprogramma</string>  
+    <string name="akp_installer_settings_summary">Installeer uw APK vanuit de telefoonopslag en de SD-kaart</string>  
+    <string name="launch_main_label">Toepassing starten</string>  
+    <string name="launch_main">Start de toepassing via de hoofdactiviteit</string>  
+    <string name="launch_activitie">Starten</string>  
+    <string name="move_app_to_where">Verplaatsen naar 
+        <xliff:g id="location">%s</xliff:g> 
+    </string>  
+    <!--Wi-Fi settings strings start-->  
+    <string name="wifi_no_cert_for_wapi">Kan geen certificatie voor huidige verbonden AP vinden</string>  
+    <!-- Label for the SIM Slot of EAP-SIM method support -->  
+    <string name="sim_slot">SIM-sleuf</string>  
+    <!-- Label for the SIM Slot 0 of EAP-SIM method support -->  
+    <string name="eap_sim_slot_0">SIM-sleuf 1</string>  
+    <!-- Label for the SIM Slot of EAP-SIM method support -->  
+    <string name="eap_sim_slot_1">SIM-sleuf 2</string>  
+    <!-- Label for the toast if user use eap-sim/aka in airplane mode -->  
+    <string name="eap_sim_aka_airplanemode">Schakel de Vliegtuigmodus uit om EAP-SIM/AKA te gebruiken</string>  
+    <!-- Label for the toast if user use eap-sim/aka when sim card is absent -->  
+    <string name="eap_sim_aka_no_sim_error">U moet een SIM-kaart plaatsen om EAP-SIM/AKA te gebruiken</string>  
+    <!-- Label for the toast if user use eap-sim/aka when user don't select a sim slot -->  
+    <string name="eap_sim_aka_no_sim_slot_selected">U moet een SIM-sleuf selecteren om EAP-SIM/AKA te gebruiken</string>  
+    <string name="wifi_security_wapi_certificate">WAPI-certificaat</string>  
+    <!-- Label for the WAPI user certificate of the network -->  
+    <string name="wapi_user_certificate">Gebruikerscertificaat</string>  
+    <!-- Label for the WAPI ASE certificate of the network -->  
+    <string name="wapi_as_certificate">ASE-certificaat</string>  
+    <!-- Label for the check box for hexadecimal password -->  
+    <string name="wifi_hex_password">Hexadecimaal wachtwoord</string>  
+    <!-- The label for WEP transmit Key -->  
+    <string name="wifi_WEP_transmit_key">Verzendcode</string>  
+    <!-- The label for WEP Secury Key -->  
+    <string name="wifi_WEP_secury_key">Beveiligingscode</string>  
+    <!--add for Wi-Fi hotspot auto-sleep policy-->  
+    <string name="wifi_tether_auto_disable_title">Wi-Fi hotspot ingeschakeld houden</string>  
+    <string name="wifi_tether_auto_channel_text">Autom.</string>  
+    <string name="wifi_tether_auto_channel_width_text">Auto 20/40 MHz</string>  
+    <string name="wifi_channel">Voorkeurskanaal</string>  
+    <string name="wifi_channel_width">Kanaalbreedte</string>  
+    <string name="confirm_title">Bevestig</string>  
+    <!--Wi-Fi settings strings end-->  
+    <!-- Wireless settings for PCH Monitor start -->  
+    <string name="pch_toggle_title">Voorkeur GPRS-overdracht</string>  
+    <!-- for PCH Monitor data prefer -->  
+    <string name="pch_data_prefer_summary_off">Gegevensvoorkeur</string>  
+    <!-- for PCH Monitor call prefer-->  
+    <string name="pch_call_prefer_summary_on">Oproepvoorkeur</string>  
+    <!-- for PCH Monitor warning message -->  
+    <string name="pch_warning_message">Gegevensoverdrachtsnelheid zal afnemen.</string>  
+    <!-- Wireless settings for PCH Monitor end -->  
+    <!-- Schedule power on/off settings -->  
+    <!-- Main Settings screen setting option name to go into the power on/off settings-->  
+    <string name="schedule_power_on_off_settings_title">Schema aan/uit</string>  
+    <string name="usb_bicr_title">Ingebouwde cd-rom</string>  
+    <string name="usb_bicr_summary">Geef een virtuele CD-ROM weer met nuttige software.</string>  
+    <string name="select_memory">Standaard schrijfschijf</string>  
+    <string name="ipo_title">Snel opstarten</string>  
+    <string name="ipo_summary_on">Snel opstarten uitschakelen</string>  
+    <string name="ipo_summary_off">Snel opstarten inschakelen</string>  
+    <string name="agps_profile_select_Title">A-GPS-profiel</string>  
+    <string name="location_settings_label">Modus voor locatietechnicus</string>  
+    <string name="audio_profile_error">Fout</string>  
+    <string name="battery_percent">Batterijlading</string>  
+    <!-- RCS-e settings -->  
+    <string name="rcse_settings_title">RCS-e instellingen</string>
+    <string name="dlg_mount_external_sd_title" product="default">SD-kaart koppelen?</string>  
+    <string name="dlg_mount_external_sd_summary" product="default">Als u de SD-kaart koppelt, stoppen sommige apps die u gebruikt.</string> 
+
+    <string name="tethered_ipv6_title">Instellingen voor hotspot en tethering</string>  
+    <string name="tethered_ipv4v6">(IPv6 beschikbaar)</string>  
+    <string name="tethered_ipv6">(Alleen IPv6 beschikbaar)</string>  
+    <string name="tethered_ipv4">(IPv6 niet beschikbaar)</string>
+	
+	<string name="usb_connect_as_cdrom_category">"Verbinding maken als CD-ROM"</string>	
+
+    <string name="wifi_ap_client_block_title">"Blokkeren"</string>  
+    <string name="wifi_ap_client_details_title">Details</string>  
+    <string name="wifi_wps_fail_error">Instellen beveiligde Wi-Fi mislukt, probeer het nogmaals.</string>  
+    <string name="wifi_tether_setting_title">Basisinstellingen</string>  
+    <string name="wifi_tether_wps_connect_title">WPS verbinden</string>  
+    <string name="wifi_tether_wps_connect_summary">Wi-Fi beschermde instelmodus geselecteerd om door te gaan</string>  
+    <string name="wifi_tether_wps_pin_error">Ongeldige PIN-code</string>  
+    <string name="wifi_tethering_title">Wi-Fi hotspot</string>  
+    <string name="wifi_ap_wps_dialog_title">WPS verbinden</string>  
+    <string name="wifi_ap_wps_mode_title">WPS-modus</string>  
+    <string name="wifi_ap_wps_pin_title">PIN-code van client typen</string>  
+    <string name="wifi_ap_reset_OOB_title">Standaardwaarden terugztten voor netwerk-SSID, beveiliging en wachtwoord (configuratie uit de doos voor WPS)</string>  
+    <string name="wifi_ap_reset_OOB">OOB resetten</string>  
+    <string name="wifi_ap_max_connection_title">Maximaal aantal verbindingen</string>  
+    <string name="wifi_ap_connected_title">Verbonden gebruikers</string>  
+    <string name="wifi_ap_blocked_title">Geblokkeerde gebruikers</string>  
+    <string name="wifi_ap_client_unblock_title">Blokkering opheffen</string>  
+    <string name="wifi_ap_client_mac_label">MAC adres:</string>  
+    <string name="wifi_ap_client_ip_label">IP-adres:</string>  
+    <string name="usb_sharing_title">USB internet</string>  
+    <string name="usb_sharing_summary">Windows PC internet via USB-kabel delen</string>  
+    <string name="usb_sharing_info_title">Internet doorgeven</string>  
+    <string name="usb_sharing_info_step_1">"1. Open netwerkverbindingen op uw Windows-pc."</string>  
+    <string name="usb_sharing_info_step_2">"2. Klik met de rechtermuisknop op de verbinding die u wilt delen en klik vervolgens op eigenschappen."</string>  
+    <string name="usb_sharing_info_step_3">"3. Klik op de tab Delen en selecteer \’Andere gebruikers toestaan om verbinding te maken via de internetverbinding van deze computer\’(kies het nieuw toegevoegde netwerk dat het USB-internet weergeeft als \’Verbinding voor thuisnetwerk\’ verschijnt)”.</string>  
+    <string name="wifi_ap_bandwidth_title">Bandbreedtegebruik</string>  
+    <string name="wifi_ap_bandwidth_enable">Bandbreedtebeperking inschakelen</string>  
+    <string name="wifi_ap_bandwidth_chart_title">Real-time gegevenssnelheid</string>  
+    <string name="wifi_ap_bandwidth_chart_summary">Gemeten door uw telefoon - de berekening van de gegevenssnelheid door uw provider kan afwijken.</string>  
+    <string name="wifi_ap_title">Statistieken</string>  
+    <string name="wifi_ap_time_duration">Statistieken</string>  
+    <string name="wifi_ap_total_data">Tijdsduur:
+        <xliff:g id="time">%1$s</xliff:g>
+    </string>
+    <string name="cpu_dtm_title">Modus energiebesparing CPU</string>
+    <string name="cpu_dtm_summary">Beperk de maximale CPU-prestaties om de batterijduur te verlengen en de temperatuur van het apparaat lager te houden.</string>
+    <string name="wifi_advanced_ipv4_address_title">IPv4-adres</string>  
+    <string name="wifi_advanced_ipv6_address_title">IPv6-adres</string>  
+    <string name="wifi_ipv4_address">IPv4-adres</string>  
+    <string name="wifi_ipv6_address">IPv6-adres</string>
+    
+    <!-- MTK new datausage start -->
+    <string name="mtk_datausage_overview_wifi_today">Vandaag</string>  
+    <string name="mtk_datausage_show_on_lockscreen">Op vergrendelscherm weergeven</string>  
+    <string name="mtk_datausage_update">Gegevensgebruik bijwerken</string>  
+    <string name="mtk_datausage_update_set">"Bijwerken"</string>  
+    <string name="mtk_datausage_amount_editor_title">Hoeveelheid gebruikte gegevens</string>  
+    <string name="mtk_datausage_usage_list">Gegevensgebruik van app</string>  
+    <string name="mtk_datausage_diff_byte">Verschil gegevensgebruik</string>  
+    <string name="mtk_datausage_overview_tab">Overzicht</string>  
+    <string name="mtk_datausage_overview_wifi_total">Totaal</string>  
+    <string name="mtk_datausage_overview_mobile_title">MOBIEL</string>  
+    <string name="mtk_datausage_overview_mobile_usage">
+        <xliff:g id="actual">%s</xliff:g> van 
+        <xliff:g id="limit">%s</xliff:g>
+    </string>
+    <string name="mtk_datausage_overview_mobile_usage_warning">Voorbij de grenswaarde <xliff:g>%s</xliff:g></string>
+    <!-- MTK new datausage end -->
+    <string name="display_personalize">Personaliseren</string>  
+    <string name="display_default">"Weergave"</string>
+    <!-- Sound Enhanecement -->
+    <string name="sound_enhancement_title">Geluidsverbetering</string>
+    <string name="music_plus_summary">Geluidsverbetering voor oortelefoon</string>
+    <string name="auto_backlight_title">Economische verlichting</string>
+    <string name="auto_backlight_summary">Past verlichting automatisch aan om energie te sparen</string>
+
+    <string name="beam_mgmt_tab_download_title">Ontvangen oproepen</string>
+    <string name="beam_mgmt_tab_upload_title">"3. Klik op de tab Delen en selecteer \’Andere gebruikers toestaan om verbinding te maken via de internetverbinding van deze computer\’(kies het nieuw toegevoegde netwerk dat het USB-internet weergeeft als \’Verbinding voor thuisnetwerk\’ verschijnt)”.</string>
+    <string name="beam_share_mgmt_notification_ticker">Geschiedenis delen door beamen</string>
+    <string name="beam_share_mgmt_notification_title">Geschiedenis delen door beamen</string>
+    <string name="beam_share_mgmt_notification_message">"Selecteer Geschiedenis delen door beamen."</string>
+    <string name="beam_share_mgmt_tab_menu_clear">"Alle instellingen voor de website wissen?"</string>
+    <string name="beam_share_open_file_dialog_title">Kan het bestand niet openen.</string>
+    <string name="beam_share_open_file_unsupported_message">Kan het bestand niet openen.</string>
+    <string name="beam_share_open_file_not_found_message">"Bestand niet gevonden: <xliff:g id="file_name">%1$s</xliff:g></string>
+    <string name="beam_share_transfer_fail_dialog_title">"Beamen mislukt"</string>
+    <string name="beam_share_resend_dialog_message">"Verzenden <xliff:g id="file_name">%1$s</xliff:g> mislukt."</string>
+    <string name="beam_share_resend_dialog_ok_button">"Opnieuw proberen"</string>
+    <string name="beam_share_show_received_files_menu">"Ontvangen bestanden weergeven"</string>
+    <string name="beam_share_history_title">Geschiedenis delen door beamen</string>
+    <string name="beam_share_clear_confirm_dialog_title">"Alles wissen"</string>
+    <string name="beam_share_clear_confirm_dialog_message">Geschiedenis wissen?</string>
+    <string name="beam_share_receive_fail_dialog_message">"Ontvangst <xliff:g id="file_name">%1$s</xliff:g> is mislukt."</string>
+    <string name="beam_share_clear_item_dailog_title">"Delete"</string>
+    <string name="beam_share_clear_item_dailog_message">Het item wordt verwijderd.</string>
+    <string name="nfc_rw_tag_summary">Uit een tag lezen of er naar schrijven</string>
+    <string name="nfc_p2p_mode">P2P-modus</string>
+    <string name="nfc_p2p_mode_summary">App-inhoud verzenden of ontvangen</string>
+    <string name="nfc_tag_mode_category">Tag-modus</string>
+    <string name="nfc_rw_tag_title">Tag lezen en schrijven</string>
+    <string name="lock_screen_notifications_title">Meldingen vergrendelscherm</string>
+    <string name="lock_screen_notifications_summary">Meldingen weergeven op vergrendelscherm</string>
+    <string name="lock_screen_style_title">Stijl vergrendelscherm</string>
+
+      <string name="voice_ui_title">Spraakbesturing</string>
+      <string name="voice_ui_app_category">Instellingen voor app</string>
+      <string name="voice_ui_setting_category">"Instellingen"</string>
+      <string name="alarm_app_name">"Alarmen"</string>
+      <string name="music_app_name">Muziek</string>
+      <string name="voice_ui_language_title">"Taal voor spraakbesturing"</string>
+      <string name="incoming_call_app_name">"Binnenkomende oproep"</string>
+      <string name="camera_app_name">Camera</string>
+      <string name="incomming_command_summary_format">U kunt <xliff:g id="first">%1$s</xliff:g> of <xliff:g id="second">%2$s</xliff:g> zeggen om binnenkomende oproepen te beantwoorden of af te wijzen.</string>
+      <string name="alarm_command_summary_format">U kunt <xliff:g id="first">%1$s</xliff:g> of <xliff:g id="second">%2$s</xliff:g> zeggen om het alarm te bedienen.</string>
+      <string name="camera_command_summary_format">U kunt <xliff:g id="first">%1$s</xliff:g> of <xliff:g id="second">%2$s</xliff:g> zeggen om een opname te maken.</string>
+      <string name="music_command_summary_format">U kunt <xliff:g id="first">%1$s</xliff:g> en <xliff:g id="second">%2$s</xliff:g> zeggen om de muziekweergave te bedienen.</string>
+
+	<!-- Lock screen settings start -->
+	<string name="current_suffix">"(Huidig)"</string>
+	<string name="lockscreen_style_set">Scherm Vergrendeling instellen</string>
+	<string name="lockscreen_style_default_desc">"Snelle toegang tot toepassingen op het vergrendelscherm"</string>
+	<!-- Lock screen settings end -->
+    <!--  voice unlock start-->
+    <string name="voice_unlock_backup_info_summary">Als Stemontgrendeling u niet kan herkennen, hoe wilt u dan ontgrendelen?</string>
+    <string name="unlock_set_unlock_mode_voice_weak">Stemontgrendeling</string>
+    <!--  voice unlock end-->
+    <string name="usb_tether_type_title">Type USB-tethering</string> 
+    <string name="security_not_set">Beveiliging niet ingesteld</string>
+    <string name="lockdown_vpn_already_connected">VPN altijd-aan is reeds ingeschakeld voor verbinding.</string> 
+
+    <string name="wifi_ap_no_connected">0 verbonden gebruikers</string>  
+    <string name="wifi_ap_no_blocked">0 geblokkeerde gebruikers</string>  
+
+    <string name="status_imei_slot3">IMEI(houder 3)</string>
+    <string name="status_imei_sv_slot3">IMEI SV(houder 3)</string>
+    <string name="status_min_number_slot3">MIN(houder 3)</string>
+    <string name="status_prl_version_slot3">PRL-versie(houder 3)</string>
+    <string name="status_meid_number_slot3">MEID(houder 3)</string>
+
+    <string name="usb_tethering_select_version">Selecteer versie PC-systeem</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_grid_layout_button_width">116dip</dimen>
+    <dimen name="button_grid_layout_button_height">65dip</dimen>
+
+    <dimen name="dialpad_additional_button_width">120dip</dimen>
+    <dimen name="dialpad_additional_button_height">62dip</dimen>
+
+    <dimen name="dialer_search_list_view_min_height">173dip</dimen>
+    <dimen name="dialer_search_list_view_max_height">396dip</dimen>
+
+    <dimen name="dialpad_divider_height">24dip</dimen>
+    <dimen name="dialpad_divider_width">1dip</dimen>
+
+    <dimen name="dialpad_digits_width">303dip</dimen>
+
+        <!-- Add for call log -->
+    <dimen name="calllog_search_button_all_width">84dip</dimen>
+    <dimen name="calllog_search_button_incoming_width">85dip</dimen>
+    <dimen name="calllog_search_button_incoming_margin_left">20dip</dimen>
+    <dimen name="calllog_search_button_outgoing_width">85dip</dimen>
+    <dimen name="calllog_search_button_outgoing_margin_left">28dip</dimen>
+    <dimen name="calllog_search_button_missed_width">84dip</dimen>
+    <dimen name="calllog_search_button_missed_margin_left">28dip</dimen>
+    <dimen name="calllog_search_button_all_tab_text_margin_left">-70dip</dimen>
+    <dimen name="calllog_search_image_icon_margin_left">-60dip</dimen>
+</resources>

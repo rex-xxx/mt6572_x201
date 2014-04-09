@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <!-- add for ICS porting -->  
+    <string-array name="proxy_error"> 
+        <item>لا يمكن أن يكون حقل المضيف فارغاً</item>  
+        <item>لا يمكن ترك حقل المنفذ فارغاً</item>  
+        <item>مضيف غير صحيح</item>  
+        <item>منفذ غير صحيح</item> 
+    </string-array> 
+</resources>

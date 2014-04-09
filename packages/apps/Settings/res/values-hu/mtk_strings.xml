@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_advanced_settings">Bluetooth speciális beállítások</string>  
+    <!-- Bluetooth settings.  The user-visible string that is used whenever referring to the FTP profile. -->  
+    <string name="bluetooth_profile_ftp">Fájl átvitele</string>  
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the FTP checkbox preference that describes how checking it will set the FTP profile as preferred. -->  
+    <string name="bluetooth_ftp_profile_summary_use_for">Használat fájlátvitelhez</string>  
+    <string name="bluetooth_ftp_profile_summary_connected">"Csatlakoztatva fájlátvitelhez"</string>  
+    <string name="mtp_transfer_unmount_error_text">Az SD-kártya nem választható le fájlátvitel közben.</string>  
+    <string name="mtp_transfer_erase_error_text">Az SD-kártya nem törölhető fájlátvitel közben.</string>  
+    <string name="launch_error">"Az alkalmazás elindítása sikertelen!"</string>  
+    <string name="dlg_confirm_unmount_usb_title" product="default">Leválasztja az USB-tárolót?</string>  
+    <string name="dlg_confirm_unmount_usb_text" product="default">Ha leválasztja az USB-tárolót, elképzelhető, hogy bizonyos megnyitott alkalmazások leállnak, és nem lesznek elérhetők, amíg az USB-tárolót ismét csatlakoztatja.</string>  
+    <string name="dlg_error_unmount_usb_title" product="default"/>  
+    <string name="dlg_error_unmount_usb_text" product="default">Az USB-tároló nem választható le. Próbálja újra később.</string>  
+    <string name="unmount_usb_inform_text" product="default">Megtörténik az USB-tároló leválasztása.</string>  
+    <string name="sd_eject_usbstorage" product="default">"USB-tár leválasztása"</string>  
+    <string name="sd_eject_usbstorage_summary" product="default">"A belső USB-tár leválasztása"</string>  
+    <string name="sd_mount_usbstorage" product="default">"Az USB-tár csatolása"</string>  
+    <string name="sd_insert_usb_summary" product="default">"Helyezze be az USB-tárat"</string>  
+    <!-- Storage setting.  Title for UMS checkbox [CHAR LIMIT=30]-->  
+    <string name="usb_ums_title">USB-tároló</string>  
+    <!-- Storage setting.  Summary for UMS checkbox [CHAR LIMIT=NONE]-->  
+    <string name="usb_ums_summary">"XP ajánlott. Lehetővé teszi a fájlok átvitelét a számítógép és az Android USB-tárolója között."</string>  
+    <string name="usb_charge_title">Csak töltés</string>  
+    <string name="usb_charge_summary">Összes USB funkció leállítása. Ezzel a funkcióval gyorsíthatja az USB-töltést és csökkentheti az energiafogyasztást.</string>  
+    <!-- Agps Settings -->  
+    <string name="NI_Request_ID">Igénylő azonosítója</string>  
+    <string name="NI_Request_ClientName">Kliens neve</string>  
+    <string name="agps_str_verify">Ellenőrzés</string>  
+    <string name="agps_str_notify">Értesítés</string>  
+    <string name="EM_NotifyDialog_title">EM értesítés</string>  
+    <string name="agps_OK">OK</string>  
+    <string name="agps_str_allow">ENGEDÉLYEZ</string>  
+    <string name="agps_str_deny">MEGTAGAD</string>  
+    <string name="agps_str_error">Hiba</string>  
+    <string name="AGPS_DEFAULT_STRING">A-GPS alapértelmezett karaktersor</string>  
+    <string name="AGPS_CAUSE_NETWORK_CREATE_FAIL">A hálózati létrehozása sikertelen</string>  
+    <string name="AGPS_CAUSE_BAD_PUSH_CONTENT">Helytelen PUSH-tartalom</string>  
+    <string name="AGPS_CAUSE_NOT_SUPPORTED">Nem támogatott művelet</string>  
+    <string name="AGPS_CAUSE_REQ_NOT_ACCEPTED">A kérés nincs elfogadva</string>  
+    <string name="AGPS_CAUSE_NO_RESOURCE">Nincs erőforrás az új folyamat kezeléséhez</string>  
+    <string name="AGPS_CAUSE_NETWORK_DISCONN">A hálózati kapcsolat nem működik</string>  
+    <string name="AGPS_CAUSE_REMOTE_ABORT">A távoli oldal megszakította a munkamenetet (SUPL END érkezett)</string>  
+    <string name="AGPS_CAUSE_TIMER_EXPIRY">A várt üzenet nem lérkezett vissza a megadott intervallumon belül</string>  
+    <string name="AGPS_CAUSE_REMOTE_MSG_ERROR">Helytelen üzenettartalom érkezett</string>  
+    <string name="AGPS_CAUSE_USER_AGREE">A felhasználó egyetért a megerősítéssel</string>  
+    <string name="AGPS_CAUSE_USER_DENY">A felhasználó nem ért egyet a megerősítéssel</string>  
+    <string name="AGPS_CAUSE_NO_POSITION">Csak NO helyzet esetén</string>  
+    <string name="AGPS_CAUSE_TLS_AUTH_FAIL">Sikertelen TLS hitelesítés</string>  
+    <string name="USER_RESPONSE_TIMEOUT">Megerősítés időtúllépése</string>  
+    <string name="AGPS_EM_RECV_SI_REQ">SI kérés fogadva</string>  
+    <string name="AGPS_EM_POS_FIXED">Helyzet rögzítve</string>  
+    <string name="AGPS_NOTIFY_ONLY">Helyszínkérés értesítés</string>  
+    <string name="AGPS_NOTIFY_ALLOW_NO_ANSWER">Helyszínkérés (Engedélyez, ha nincs válasz)</string>  
+    <string name="AGPS_NOTIFY_DENY_NO_ANSWER">Helyszínkérés (Elutasít, ha nincs válasz)</string>  
+    <string name="AGPS_NOTIFY_PRIVACY">Helyszínkérés értesítés (Magán)</string>  
+    <string name="epo_entrance_title">EPO-beállítások</string>  
+    <string name="epo_entrance_summary">Kattintson rá az EPO konfigurációk módosításához</string>  
+    <string name="agps_settings_title">A-GPS beállítások</string>  
+    <string name="epo_enable_confirm_title">EPO engedélyezés megerősítése</string>  
+    <string name="epo_enable_confirm_message">Vezeték nélküli adatkapcsolatra van szükség a GPS segédadatok (EPO) lekéréséhez, ami díjköteles lehet. Biztos, hogy bekapcsolja a GPS segédadatokat?</string>  
+    <string name="epo_enable_confirm_allow">Tovább</string>  
+    <string name="epo_enable_confirm_deny">Mégse</string>  
+    <string name="agps_enable_confirm_title">A-GPS engedélyezés megerősítése</string>  
+    <string name="agps_enable_confirm">Az A-GPS-nek vezeték nélküli adatkapcsolatra van szüksége a segédadatok lekéréséhez, ami díjköteles lehet. Biztosan be akarja kapcsolni az A-GPS-t?</string>  
+    <string name="agps_enable_confirm_allow">Tovább</string>  
+    <string name="agps_enable_confirm_deny">Mégse</string>  
+    <string name="epo_enable_title">GPS EPO segítség</string>  
+    <string name="epo_enable_summary">GPS segédadatok (EPO) használata a GPS helymeghatározás gyorsításához.</string>  
+    <string name="agps_settings_enable_on">A GPS fel tudja gyorsítani a helyzet-meghatározást a vezeték nélküli adatkapcsolaton letöltött segédadatokkal</string>  
+    <string name="agps_settings_enable_off">Segédadatok használata a GPS helyzet-meghatározás gyorsításához</string>  
+    <string name="agps_settings_eng_enable">A-GPS beállítások</string>  
+    <string name="agps_settings_eng_summary">A-GPS beállítások végzése</string>  
+    <string name="agps_disable_on_reboot">Letiltás újraindítás után</string>  
+    <string name="agps_disable_on_reboot_summary">A-GPS képesség letiltása újraindítás után</string>  
+    <string name="Network_Initiate">Hálózati kérés</string>  
+    <string name="Network_Initiate_Summary_on">Engedély megadása a hálózatnak, hogy lekérje a helyzetet</string>  
+    <string name="Network_Initiate_Summary_off">Engedély megtagadása a hálózatnak, hogy lekérje a helyzetet</string>  
+    <string name="Network_Used">Használt hálózat</string>  
+    <string name="agps_profile_select">Profilválasztó</string>  
+    <string name="agps_profile_SLP_address_editbox_title">SLP cím</string>  
+    <string name="port_title">SLP Port</string>  
+    <string name="tls_summary_off">TLS kikapcsolva</string>  
+    <string name="tls_summary_on">TLS bekapcsolva</string>  
+    <string name="MobileNetwork_Category">Mobilhálózat</string>  
+    <string name="AgpsHelp_Category">Súgó</string>  
+    <string name="about_agps_title">Az A-GPS névjegye</string>  
+    <string name="about_agps_message">\t Az A-GPS (Assisted-GPS) egy rendszer, amely javítja a GPS műhold alapú helyzet-meghatározó rendszer indítási teljesítményét és rövidíti az első helyzet-meghatározásáig eltelt időt (TTFF). \n\t Egy A-GPS-képes eszköz csatlakozhat helyszínkiszolgálóhoz, hogy lekérje a segédadatokat a mobilhálózati kapcsolaton. \n\t Figyelembe kell venni azonban, hogy a hálózati adatforgalomért extra roamingdíjat számíthatnak fel. További információkért forduljon szolgáltatójához.</string>  
+    <string name="epo_auto_download_title">Auto. letöltés</string>  
+    <string name="epo_auto_download_summary">Műholdas helyzetadatok automatikus letöltése</string>  
+    <string name="epo_info_title">EPO fájlinfo.</string>  
+    <string name="epo_download_time_title">Letöltési idő</string>  
+    <string name="epo_download_time_summary">Nem érhető el</string>  
+    <string name="epo_start_time_title">Kezdés időpontja</string>  
+    <string name="epo_start_time_summary">Nem érhető el</string>  
+    <string name="epo_expire_time_title">Lejárat időpontja</string>  
+    <string name="epo_expire_time_summary">Nem érhető el</string>  
+    <string name="epo_about_title">Az EPO névjegye</string>  
+    <string name="epo_about_message">\tAz EPO (Extended Prediction Orbit) a MediaTek egyik saját off-line szerver alapú A-GPS technológiája. \n\tLegfeljebb 30 napig terjedő műholdkör-előrejelzést támogat, amely a GPS műhold alapú helyzet-meghatározó rendszer első helyzet-meghatározásáig eltelt idő (TTFF) rövidítésével javítja a felhasználói élményt.</string>  
+    <string name="Network_Local_and_Roaming_Summary">Az A-GPS használata helyi és barangoló hálózatban</string>  
+    <string name="Network_Only_Local_Summary">Az A-GPS használata csak otthoni hálózatban</string>  
+    <string name="MobileNetwork_DataConn_off">Az adatkapcsolat ki van kapcsolva</string>  
+    <string name="MobileNetwork_off_Summary">Az A-GPS használata előtt kapcsolja be az adatkapcsolatot</string>  
+    <string name="WiFiNetwork_on_title">A Wi-Fi aktív</string>  
+    <string name="MobileNetwork_on_Summary">Az A-GPS-nek a mobilhálózatot kell elérnie adatkapcsolaton keresztül</string>  
+    <string name="MobileNetwork_SIM_Active">A SIM aktív</string>  
+    <string name="Network_Roaming_dialog_title">Figyelem</string>  
+    <string name="Network_Roaming_dialog_content">Ha a hálózat barangolás állapotban van, az A-GPS adatforgalomért extra roamingdíjat számíthatnak fel.</string>  
+    <string name="epo_download">Letöltés</string>  
+    <string name="epo_error_no_activite_network">Az EPO-adatok letöltése előtt kapcsolja be az adatkapcsolatot.</string>  
+    <string name="epo_cancel_download">Mégse</string>  
+    <string name="epo_status_stopping">Leállítás...</string>  
+    <string name="epo_status_starting">Indítás...</string>  
+    <string name="epo_err_update_failed">EPO-fájlok sikertelen frissítése</string>  
+    <string name="epo_error_dialog_title">Hiba</string>  
+    <string name="epo_ok_btn">OK</string>  
+    <string name="epo_warning_dialog_title">Figyelem</string>  
+    <string name="epo_warning_dialog_message">Az EPO-adatok barangolás közben történő letöltéséért extra roamingdíjat számíthatnak fel. Biztosan folytatni akarja?</string>  
+    <!-- AudioProfile Settings -->  
+    <string name="ring_summary">Csengés</string>  
+    <string name="ring_vibrate_summary">Csengés és rezgés</string>  
+    <string name="silent_summary">Csak néma</string>  
+    <string name="meeting_summary">Csak rezgés</string>  
+    <string name="outdoor_summary">Leghangosabb csengés és rezgés</string>  
+    <string name="audio_profile_reset">Alaphelyzet</string>  
+    <string name="audio_profile_add">Hozzáadás</string>  
+    <string name="audio_profile_enable">Engedélyezés</string>  
+    <string name="audio_profile_rename">Átnevezés</string>  
+    <string name="audio_profile_delete">Törlés</string>  
+    <string name="audio_profile_message_reset">Megtörténik valamennyi audió profilbeállítás alapértékre állítása</string>  
+    <string name="audio_profile_message_rename">Adja meg az új profilnevet</string>  
+    <string name="audio_profile_message_name_error">Ez a név már létezik</string>  
+    <string name="audio_profile_message_name_length_wrong">A névnek legalább egy karaktert kell tartalmaznia</string>  
+    <string name="audio_profile_message_delete">Megtörténik a(z) 
+        <xliff:g id="profil">%s</xliff:g> törlése
+    </string>  
+    <string name="audio_profile_message_overflow">Legfeljebb 6 egyéni profilt adhat hozzá</string>  
+    <string name="ok">OK</string>  
+    <string name="audio_profile_category_custom_title">Egyedileg megadott profilok</string>  
+    <string name="audio_profile_category_predefine_title">Előre meghatározott profilok</string>  
+    <string name="general_settings_title">"Általános"</string>  
+    <string name="silent_settings_title">Néma</string>  
+    <string name="meeting_settings_title">Találkozó</string>  
+    <string name="outdoor_settings_title">Kültéri</string>  
+    <!-- modify default apns notices -->  
+    <string name="apn_predefine_change_dialog_notice">Biztosan menteni akarja? Az alapértelmezett APN-ek módosítása kapcsolódási problémákat okozhat!</string>  
+    <!-- The title for AlertDialog when APN Settings is called while Airplane Mode is on -->  
+    <string name="dialog_apn_disabled">APN letiltva!</string>  
+    <!-- Error message for dialog of apn disabled error  -->  
+    <string name="dialog_apn_disabled_msg">APN beállítások engedélyezéséhez kapcsolja ki a Repülőgép üzemmódot</string>  
+    <string name="sound_category_feedback_title">"Rendszer"</string>  
+    <string name="sound_category_calls_title">"Beérkező hívások"</string>  
+    <string name="voice_call_title">Beszédhívás csengőhang</string>  
+    <string name="voice_call_summary">"A beszédhívások alapértelmezett csengőhangjának beállítása"</string>  
+    <string name="video_call_title">Videohívás csengőhang</string>  
+    <string name="video_call_summary">A videohívások alapértelmezett csengőhangjának beállítása</string>  
+    <string name="Phone_vibrate_summary">Telefon rezgő hívásjelzőjének aktiválása bejövő hívás esetén</string>  
+    <string name="vibrate_title">Rezgés</string>  
+    <string name="audio_profile_settings_title">Audió profilok</string>  
+    <!--Add Strings for MTK AboutPhone Settings -->  
+    <!-- Gemini AboutPhone status sim status title -->  
+    <string name="sim_status_title">SIM állapot</string>  
+    <!-- Gemini AboutPhone status sim status summary -->  
+    <string name="sim_status_summary">SIM-hez kapcsolódó információ</string>  
+    <!-- Gemini AboutPhone status imei slot1 title -->  
+    <string name="status_imei_slot1">IMEI(1. nyílás)</string>  
+    <!-- Gemini AboutPhone status imei sv slot1 title -->  
+    <string name="status_imei_sv_slot1">IMEI SV(1. nyílás)</string>  
+    <!-- Gemini AboutPhone status imei slot2 title -->  
+    <string name="status_imei_slot2">IMEI(2. nyílás)</string>  
+    <!-- Gemini AboutPhone status imei sv slot2 title -->  
+    <string name="status_imei_sv_slot2">IMEI SV(2. nyílás)</string>  
+    <!-- Gemini CDMA AboutPhone status min number slot1 title -->  
+    <string name="status_min_number_slot1">MIN(1. nyílás)</string>  
+    <!-- Gemini CDMA AboutPhone status prl version slot1 title -->  
+    <string name="status_prl_version_slot1">PRL verzió(1. nyílás)</string>  
+    <!-- Gemini CDMA AboutPhone status meid number slot1 title -->  
+    <string name="status_meid_number_slot1">MEID(1. nyílás)</string>  
+    <!-- Gemini CDMA AboutPhone status min number slot2 title -->  
+    <string name="status_min_number_slot2">MIN(2. nyílás)</string>  
+    <!-- Gemini CDMA AboutPhone status prl version slot2 title -->  
+    <string name="status_prl_version_slot2">PRL verzió(2. nyílás)</string>  
+    <!-- Gemini CDMA AboutPhone status meid number slot2 title -->  
+    <string name="status_meid_number_slot2">MEID(2. nyílás)</string>  
+    <string name="slot_status_title">"IMEI információ"</string>  
+    <string name="slot_status_summary">"IMEI relatív információ"</string>  
+    <!-- About phone screen,  setting option name-->  
+    <string name="custom_build_version">Egyéni build verzió</string>  
+    <!-- A menu item in "About phone" that allows the user to update the phone with settings
+    from their cell phone carrier. The use of the string is similar to the string
+    "system_update_settings_list_item_title" in this project. [CHAR LIMIT=25] -->  
+    <!-- for software update MOTA -->  
+    <string name="software_update">Szoftverfrissítő szolgáltatás</string>  
+    <string name="mota_system_update_summary">"Rendszerfrissítés keresése a szerveren"</string>  
+    <!-- About phone screen,  more software updates-->  
+    <string name="software_updates_more_title">Szoftverfrissítések</string>  
+    <string name="software_updates_more_summary">Új szoftververzió keresése</string>  
+    <string name="software_updates_scomo_summary">Új alkalmazás-verzió keresése</string>  
+    <string name="scomo_settings_title">Szoftverfrissítő szolgáltatás</string>  
+    <!-- Battery_level_show -->  
+    <string name="battery_level" translatable="false">" 
+        <xliff:g id="battery">%s</xliff:g>%%"
+    </string>  
+    <!--End of String for Gemini AboutPhone Settings-->  
+    <!--Add Strings for MTK Display Settings -->  
+    <string name="screen_timeout_CU">Kijelző időtúllépés</string>  
+    <!-- Add for landscape launcher-->  
+    <string name="landscape_launcher_title">Landscape indító</string>  
+    <string name="landscape_launcher_none">Nincs</string>  
+    <!-- for TVOut -->  
+    <string name="tvout_settings">TV-kimenet</string>  
+    <string name="tvout_settings_summary">TV-kimenet beállítása</string>  
+    <string name="tv_system_title">TV-képrendszer</string>  
+    <!-- For HDMI begin -->  
+    <string name="hdmi_settings">HDMI-beállítások</string>  
+    <string name="hdmi_settings_summary">Kattintson rá a HDMI konfigurálásához</string>  
+    <string name="hdmi_audio_toggler">audió</string>  
+    <string name="hdmi_video_toggler">videó</string>  
+    <string name="hdmi_video_resolution">Videó felbontás</string>  
+    <string name="hdmi_notification_title">HDMI-kábel csatlakoztatva</string>  
+    <string name="hdmi_notification_content">Kattintson rá a HDMI konfigurálásához</string>  
+    <!--Theme manager -->  
+    <string name="display_settings_scences_title">Jelenetek</string>  
+    <string name="mtk_thememanager_title">Téma</string>  
+    <string name="default_name">Alapértelmezett</string>  
+    <string name="custom_theme_name">Új [%1$s]</string>  
+    <string name="loading">Betöltés...</string>  
+    <!--End of String for MTK Display Settings-->  
+    <!--Add Strings for MTK Security Settings -->  
+    <string name="sim_enter_pin_hints">(4-8 számjegyet adjon meg)</string>  
+    <string name="sim_remain">(Maradt: 
+        <xliff:g id="remains">%d</xliff:g>)
+    </string>  
+    <!--End of String for MTK Security Settings-->  
+    <!--Add Strings for MTK DateTime Settings-->  
+    <!-- GPS time sync -->  
+    <string name="gps_time_sync_attention_gps_on">A GPS-helymeghatározás legfeljebb 1 percet vesz igénybe. Ezenkívül előfordulhat, hogy a GPS nem ad időinformációt a gyenge jel miatt.\n\nBiztosan a GPS által biztosított időt akarja használni?</string>  
+    <string name="gps_time_sync_attention_gps_off">A GPS által biztosított idő használatához engedélyeznie kell a GPS-t. A GPS-helymeghatározás legfeljebb 1 percet vesz igénybe. Ezenkívül előfordulhat, hogy a GPS nem ad időinformációt a gyenge jel miatt. \n\nBiztosan engedélyezni akarja a GPS-t és várakozik a GPS által biztosított időadatokra?</string>  
+    <!--End of String for MTK DateTime Settings-->  
+    <!--Add Strings for MTK Backup & reset Settings-->  
+    <!-- Drm Settings -->  
+    <!-- Privacy Screen,setting option name under Privacy Personal data -->  
+    <string name="drm_settings_title">DRM alaphelyzet</string>  
+    <!-- Privacy Screen,settings option summary text under Privacy personal data -->  
+    <string name="drm_settings_summary">Törli az összes DRM-licenet</string>  
+    <!-- Drm settings Activity lable -->  
+    <!-- Dialog msg for confirmation to reset DRM -->  
+    <string name="drm_reset_dialog_msg">Ez a művelet törli az eszközön tárolt összes licencet. Folytatja?</string>  
+    <!-- Toast msg for confirmation to reset DRM -->  
+    <string name="drm_reset_toast_msg">A licencek törlése sikeresen megtörtént.</string>  
+    <!--End of String for MTK DateTime Settings-->  
+    <!--Add Strings for MTK SIM management Settings-->  
+    <string name="gemini_sim_management_title">SIM-kezelés</string>  
+    <string name="gemini_sim_info_title">SIM-információ</string>  
+    <string name="gemini_default_sim_title">Alapértelmezett SIM</string>  
+    <string name="gemini_general_settings_title">Általános beállítások</string>  
+    <string name="gemini_roaming_settings_title">Barangolás</string>  
+    <string name="gemini_data_roaming_title">Adat-barangolás</string>  
+    <string name="gemini_data_roaming_summary">Csatlakozás adatszolgáltatáshoz barangolás közben</string>  
+    <string name="gemini_roaming_reminder_title">Barangolási emlékeztető mutatása</string>  
+    <string name="gemini_roaming_reminder_summary">SIM-javaslat mutatása SIM-használat alapján</string>  
+    <string name="gemini_contacts_sim_title">"Partner társítása"</string>
+    <string name="gemini_contacts_sim_summary">Partner társítása adott SIM-kártyához</string>
+    <string name="gemini_voice_call">Beszédhívás</string>  
+    <string name="gemini_video_call">Videohívás</string>  
+    <string name="gemini_data_connection">Adatkapcsolat</string>  
+    <string name="gemini_msg">Üzenetkezelés</string>  
+    <string name="gemini_default_sim_always_ask">Rákérdezés mindig</string>  
+    <string name="gemini_intenet_call">Internethívás</string>  
+    <string name="gemini_default_sim_never">Ki</string>  
+    <string name="gemini_default_sim_3g_off">Ki</string>  
+    <!-- GSM/UMTS Options strings -->  
+    <string name="gemini_gsm_umts_network_preferences_title">"Hálózati mód"</string>  
+    <string name="gemini_gsm_umts_network_preferneces_summary">Még nincs megvalósítva!</string>  
+    <string name="gemini_gsm_umts_network_preferences_dialogtitle">Hálózat mód</string>  
+    <string name="gemini_3g_service_settings">3G szolgáltatás</string>  
+    <!-- Strings for Gemini begin-->  
+    <!-- Dual sim settings activate progress message string -->  
+    <string name="gemini_sim_mode_progress_activating_message">Aktiválás\u2026</string>  
+    <!-- Dual sim settings deactivate progress message string -->  
+    <string name="gemini_sim_mode_progress_deactivating_message">Aktiválás megszüntetése\u2026</string>  
+    <!-- Dual sim settings mode change failed message string -->  
+    <string name="gemini_sim_mode_change_failed_message">Sikertelen, hálózati hiba.</string>  
+    <!-- Dual sim settings mode enter airplanemode confirm title string -->  
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_title">Repülőgép mód</string>  
+    <!-- Dual sim settings mode enter airplanemode WiFi and Bt will both close confirm message string -->  
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_message">A telefon Repülőgép módba lép. Valamennyi vezeték nélküli kapcsolat letiltásra kerül. Folytatja?</string>  
+    <string name="gemini_sim_info_editor_name">SIM-név szerkesztése</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">Sikertelen mentés</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">Kettőzött név a SIM-kártyához</string>  
+    <string name="gemini_sim_info_editor_number">Telefonszám megadása</string>  
+    <string name="gemini_sim_info_editor_color">Háttérszín beállítása</string>  
+    <string name="gemini_sim_info_editor_number_display_format">Számok megjelenítése</string>  
+    <string name="gemini_no_sim_indicator">Nincs SIM-kártya</string>  
+    <string name="gemini_sim_list_default_title">SIM-kártya lista</string>  
+    <string name="gemini_data_connection_progress_message">"Kérjük, várjon..."</string>  
+    <string name="gemini_3g_modem_switching_message">"A SIM váltása kb. 10 másodpercet vesz igénybe. Kérjük, várjon..."</string>  
+    <string name="gemini_3g_modem_switch_confirm_message">"Ez a 3G szolgáltatást is erre a SIM-re váltja. Folytatja? Győződjön meg arról is, hogy a kiválasztott SIM támogatja a 3G szolgáltatást."</string>  
+    <string name="gemini_3g_disable_warning">"A 3G szolgáltatás nem elérhető a választott SIM-kártyával. Az adatok betöltése lassabb lehet. A 3G szolgáltatás beállítását a Settings (Beállítások) -&gt; Wireless &amp; networks (Vezeték nélküli és hálózatok)&gt; Mobile networks (Mobilhálózatok) elemben végezheti el."</string>  
+    <string name="gemini_3g_disable_warning_cu">"A 3G szolgáltatás nem elérhető a választott SIM-kártyával. Az adatok betöltése lassabb lehet. A 3G szolgáltatás beállítását a Settings (Beállítások) -&gt; SIM management (SIM kezelés) elemben végezheti el."</string>  
+    <!-- Strings for CU wap push begin-->  
+    <string name="gemini_wap_push_permission_head">Az Auto-push szolgáltatás engedélyezése után fogadhat push-üzeneteket, futtathat alkalmazást helyben és adatforgalmat bonyolíthat. Az auto-push szolgáltatások általában a következők: e-mail értesítés, eszközkezelés, szolgáltatás-kijelzés, szolgáltatás-betöltés és push ellátás.</string>  
+    <string name="gemini_wap_push_permission_tail">Elfogadja a megállapodás feltételeit?</string>  
+    <string name="gemini_wap_push_permission_title">Auto-push szolgáltatás megállapodása</string>  
+    <string name="gemini_wap_push_permission">Auto-push szolgáltatás</string>  
+    <!-- Strings for CU wap push end-->  
+    <!-- add for gemini enhancement  SIM tether info part    begin -->  
+    <string name="gemini_3g_disable_warning_case0">"Engedélyeznie kell az adatbarangolást a SIM-hez, amiért jelentős barangolási díjat számolhatnak fel! Biztosan engedélyezni akarja az adatbarangolást és ezt a SIM-et választja?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"A 3G szolgáltatás nem elérhető a választott SIM-kártyával. Az adatok betöltése lassabb lehet. A 3G szolgáltatás beállítását a Beállítások &gt; Vezeték nélküli és hálózatok&gt; Mobilhálózatok elemben végezheti el. Biztosan ezt a SIM-et választja?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"A 3G szolgáltatás nem elérhető a választott SIM-kártyával. Az adatok betöltése lassabb lehet. A 3G szolgáltatás beállítását a Beállítások &gt; SIM kezelés elemben végezheti el. Biztosan ezt a SIM-et választja?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"Engedélyeznie kell az adatbarangolást a SIM-hez, amiért jelentős barangolási díjat számolhatnak fel! Ezenkívül a 3G szolgáltatás nem elérhető ezzel a SIM-kártyával. Az adatok betöltése lassabb lehet. Beállítását a Beállítások &gt; Vezeték nélküli és hálózatok &gt; Mobilhálózatok elemben végezheti el. Biztosan engedélyezni akarja az adatbarangolást és ezt a SIM-et választja?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"Engedélyeznie kell az adatbarangolást a SIM-hez, amiért jelentős barangolási díjat számolhatnak fel! Ezenkívül a 3G szolgáltatás nem elérhető ezzel a SIM-kártyával. Az adatok betöltése lassabb lehet. Beállítását a Beállítások &gt; SIM kezelés elemben végezheti el. Biztosan engedélyezni akarja az adatbarangolást és ezt a SIM-et választja?"</string>  
+    <string name="gemini_sim_tether_info_title">Partnerek és SIM</string>  
+    <string name="gemini_sim_tether_add_record">Partnerek hozzáadása</string>  
+    <string name="gemini_sim_add_title">Partnerek</string>  
+    <string name="gemini_sim_tether_norecord">"Önnek nincsenek az aktuális SIM-kártyával társított partnerszámai.\n\nÉrintse meg az Add Contacts (Partnerek hozzáadása) gombot, hogy kiválassza az ezzel a SIM-mel társítandó partnereket"</string>  
+    <string name="gemini_sim_tether_nocontacts">"Nincs tárolt partner a telefonon. Kérjük, hogy előbb adjon hozzá új partnert vagy importáljon partnereket"</string>  
+    <string name="gemini_sim_tether_no_assc_contacts">"A kapcsolatok sikeresen összekötve"</string>  
+    <string name="gemini_sim_tether_disassociate">Leválasztás</string>  
+    <string name="selected_item_count"> 
+        <xliff:g id="count">%d</xliff:g> kiválasztva
+    </string>  
+    <string name="gemini_sim_tether_unselect_all">A kijelölések megszüntetése</string>
+    <string name="gemini_sim_tether_nocontact_confirm">OK</string>  
+    <string name="gemini_sim_tether_select_all">Összes kijelölése</string>  
+    <string name="gemini_sim_tether_select_ok">Mentés</string>  
+    <string name="gemini_sim_tether_select_cancel">Mégse</string>  
+    <string name="gemini_sim_tether_revert_title">Figyelem</string>  
+    <string name="gemini_sim_tether_revert_message">Az Ön beállításai módosultak, de nem mentette őket. Biztos, hogy kilép mentés nélkül?</string>  
+    <string name="gemini_tether_saving_progress_message">Mentés...</string>  
+    <!-- add for gemini enhancement SIM tether info part end -->  
+    <!-- Strings for Gemini SimLock Settings -->  
+    <!-- Gemini SimLock error message -->  
+    <string name="gemini_sim_lock_simid_error">Sikertelen, érvénytelen SIM-azon.</string>  
+    <!-- Gemini SimLock sim1 not insert message -->  
+    <string name="gemini_sim_lock_no_insert_message_sim">A SIM nincs csatlakoztatva.</string>  
+    <!-- Gemini SimLock sim1 radio off message -->  
+    <string name="gemini_sim_lock_radio_off_message_sim1">Az 1. rádió ki van kapcsolva.</string>  
+    <!-- Gemini SimLock sim2 radio off message -->  
+    <string name="gemini_sim_lock_radio_off_message_sim2">A 2. rádió ki van kapcsolva.</string>  
+    <!--End of String for SIM Management Settings-->  
+    <!-- for CU application -->  
+    <string name="akp_installer_settings_title">APK telepítő</string>  
+    <string name="akp_installer_settings_summary">Az APK telepítése a telefon tárolójáról és SD-kártyáról</string>  
+    <string name="launch_main_label">Alkalmazás indítása</string>  
+    <string name="launch_main">Alkalmazás indítása főtevékenység által</string>  
+    <string name="launch_activitie">Indítás</string>  
+    <string name="move_app_to_where">Áthelyezés ide: 
+        <xliff:g id="location">%s</xliff:g> 
+    </string>  
+    <!--Wi-Fi settings strings start-->  
+    <string name="wifi_no_cert_for_wapi">Nem található tanúsítvány a jelenleg kapcsolódó AP-hez</string>  
+    <!-- Label for the SIM Slot of EAP-SIM method support -->  
+    <string name="sim_slot">SIM-nyílás</string>  
+    <!-- Label for the SIM Slot 0 of EAP-SIM method support -->  
+    <string name="eap_sim_slot_0">1. SIM-nyílás</string>  
+    <!-- Label for the SIM Slot of EAP-SIM method support -->  
+    <string name="eap_sim_slot_1">2. SIM-nyílás</string>  
+    <!-- Label for the toast if user use eap-sim/aka in airplane mode -->  
+    <string name="eap_sim_aka_airplanemode">EAP-SIM/AKA használatához kapcsolja ki a Repülőgép üzemmódot</string>  
+    <!-- Label for the toast if user use eap-sim/aka when sim card is absent -->  
+    <string name="eap_sim_aka_no_sim_error">EAP-SIM/AKA használatához helyezzen be egy SIM-kártyát</string>  
+    <!-- Label for the toast if user use eap-sim/aka when user don't select a sim slot -->  
+    <string name="eap_sim_aka_no_sim_slot_selected">EAP-SIM/AKA használatához válasszon SIM-kártyanyílást</string>  
+    <string name="wifi_security_wapi_certificate">WAPI-tanúsítvány</string>  
+    <!-- Label for the WAPI user certificate of the network -->  
+    <string name="wapi_user_certificate">Felhasználói tanúsítvány</string>  
+    <!-- Label for the WAPI ASE certificate of the network -->  
+    <string name="wapi_as_certificate">ASE tanúsítvány</string>  
+    <!-- Label for the check box for hexadecimal password -->  
+    <string name="wifi_hex_password">Hexadecimális jelszó.</string>  
+    <!-- The label for WEP transmit Key -->  
+    <string name="wifi_WEP_transmit_key">Közvetítési kulcs</string>  
+    <!-- The label for WEP Secury Key -->  
+    <string name="wifi_WEP_secury_key">Biztonsági kulcs</string>  
+    <!--add for Wi-Fi hotspot auto-sleep policy-->  
+    <string name="wifi_tether_auto_disable_title">Wi-Fi hotspot bekapcsolva tartása</string>  
+    <string name="wifi_tether_auto_channel_text">Auto.</string>  
+    <string name="wifi_tether_auto_channel_width_text">Auto. 20/40 MHz</string>  
+    <string name="wifi_channel">Preferált csatorna</string>  
+    <string name="wifi_channel_width">Csatorna szélessége</string>  
+    <string name="confirm_title">Megerősítés</string>  
+    <!--Wi-Fi settings strings end-->  
+    <!-- Wireless settings for PCH Monitor start -->  
+    <string name="pch_toggle_title">GPRS átvitel előnyben mód</string>  
+    <!-- for PCH Monitor data prefer -->  
+    <string name="pch_data_prefer_summary_off">Adat előnyben</string>  
+    <!-- for PCH Monitor call prefer-->  
+    <string name="pch_call_prefer_summary_on">Hívás előnyben</string>  
+    <!-- for PCH Monitor warning message -->  
+    <string name="pch_warning_message">Az adatátvitel sebesség romlani fog.</string>  
+    <!-- Wireless settings for PCH Monitor end -->  
+    <!-- Schedule power on/off settings -->  
+    <!-- Main Settings screen setting option name to go into the power on/off settings-->  
+    <string name="schedule_power_on_off_settings_title">Be-/kikapcsolás ütemezése</string>  
+    <string name="usb_bicr_title">Beépített CD-ROM</string>  
+    <string name="usb_bicr_summary">Hasznos szoftvereket tartalmazó virtuális CD-ROM mutatása.</string>  
+    <string name="select_memory">Alapértelmezet írás-lemez</string>  
+    <string name="ipo_title">Gyorsindítás</string>  
+    <string name="ipo_summary_on">Gyorsindítás letiltása</string>  
+    <string name="ipo_summary_off">Gyorsindítás engedélyezése</string>  
+    <string name="agps_profile_select_Title">SUPL-profil</string>  
+    <string name="location_settings_label">Helyszín Mérnök mód</string>  
+    <string name="audio_profile_error">Hiba</string>  
+    <string name="battery_percent">Akkumulátor százalék</string>  
+    <!-- RCS-e settings -->  
+    <string name="rcse_settings_title">RCS-e beállítások</string>
+    <string name="dlg_mount_external_sd_title" product="default">Csatlakoztatja az SD-kártyát?</string>  
+    <string name="dlg_mount_external_sd_summary" product="default">Ha csatlakoztatja az SD-kártyát, elképzelhető, hogy bizonyos megnyitott alkalmazások leállnak.</string> 	
+
+    <string name="tethered_ipv6_title">Hotspot és kapcsolat-megosztás beállításai</string>  
+    <string name="tethered_ipv4v6">(IPv6 elérhető)</string>  
+    <string name="tethered_ipv6">(Csak IPv6 elérhető)</string>  
+    <string name="tethered_ipv4">(IPv6 nem elérhető)</string>
+	
+    <string name="usb_connect_as_cdrom_category">"Kapcsolódás a következőként: CD-ROM"</string>
+
+    <string name="wifi_ap_client_block_title">"Letiltás"</string>  
+    <string name="wifi_ap_client_details_title">Részletek</string>  
+    <string name="wifi_wps_fail_error">A Wi-Fi Protected Setup sikertelen. Próbálja újra.</string>  
+    <string name="wifi_tether_setting_title">Alapbeállítások</string>  
+    <string name="wifi_tether_wps_connect_title">WPS csatlakozás</string>  
+    <string name="wifi_tether_wps_connect_summary">Válassza a Wi-Fi védett beállítás módot a folytatáshoz</string>  
+    <string name="wifi_tether_wps_pin_error">Érvénytelen PIN</string>  
+    <string name="wifi_tethering_title">Wi-Fi hotspot</string>  
+    <string name="wifi_ap_wps_dialog_title">WPS csatlakozás</string>  
+    <string name="wifi_ap_wps_mode_title">WPS mód</string>  
+    <string name="wifi_ap_wps_pin_title">Gépelje meg az ügyfél által megadott PIN-t</string>  
+    <string name="wifi_ap_reset_OOB_title">A hálózati SSID, biztonság és jelszó alapértelmezettre állítása („dobozból kivéve” WPS-konfiguráció)</string>  
+    <string name="wifi_ap_reset_OOB">OOB alaphelyzet</string>  
+    <string name="wifi_ap_max_connection_title">Maximális kapcsolatszám</string>  
+    <string name="wifi_ap_connected_title">Csatlakoztatott felhasználók</string>  
+    <string name="wifi_ap_blocked_title">Tiltott felhasználók</string>  
+    <string name="wifi_ap_client_unblock_title">Tiltás feloldása</string>  
+    <string name="wifi_ap_client_mac_label">MAC-cím:</string>  
+    <string name="wifi_ap_client_ip_label">IP-cím:</string>  
+    <string name="usb_sharing_title">USB internet</string>  
+    <string name="usb_sharing_summary">Windows PC internet megosztása USB-kábelen</string>  
+    <string name="usb_sharing_info_title">Internet átmenő</string>  
+    <string name="usb_sharing_info_step_1">"1. Nyissa meg a hálózati kapcsolatokat a Windows PC-n.”</string>  
+    <string name="usb_sharing_info_step_2">"2. A jobb egérgombbal kattintson a megosztani kívánt kapcsolatra, majd a tulajdonságok elemre."</string>  
+    <string name="usb_sharing_info_step_3">"3. Kattintson a megosztás fülre, majd válassza az \'Engedély megadása a hálózat egyéb felhasználóinak, hogy e számítógép internetkapcsolatán kapcsolódjanak\'(válassza az újonnan hozzáadott hálózatot, amely az USB-internetet képviseli, ha megjelenik a \'Otthoni hálózati kapcsolat\' elem)."</string>  
+    <string name="wifi_ap_bandwidth_title">Sávszélesség-használat</string>  
+    <string name="wifi_ap_bandwidth_enable">Sávszélesség-szabályozás engedélyezése</string>  
+    <string name="wifi_ap_bandwidth_chart_title">Valós idejű adatsebesség</string>  
+    <string name="wifi_ap_bandwidth_chart_summary">A telefon által mért érték. A szolgáltató adatsebesség-elszámolása eltérhet.</string>  
+    <string name="wifi_ap_title">Statisztika</string>  
+    <string name="wifi_ap_time_duration">Időtartam: 
+        <xliff:g id="time">%1$s</xliff:g> 
+    </string>  
+    <string name="wifi_ap_total_data">Felhasznált adatok összesen:
+        <xliff:g id="time">%1$s</xliff:g>
+    </string>
+    <string name="cpu_dtm_title">CPU energiatakarékos mód </string>
+    <string name="cpu_dtm_summary">A CPU maximális teljesítményének korlátozása az akku kímélése és az eszköz hidegebb működése érdekében.</string>
+    <string name="wifi_advanced_ipv4_address_title">IPv4-cím</string>  
+    <string name="wifi_advanced_ipv6_address_title">IPv6-cím</string>  
+    <string name="wifi_ipv4_address">IPv4-cím</string>  
+    <string name="wifi_ipv6_address">IPv6-cím</string>
+    
+    <!-- MTK new datausage start -->
+    <string name="mtk_datausage_overview_wifi_today">Ma</string>  
+    <string name="mtk_datausage_show_on_lockscreen">Megjelenítés a zárolt képernyőn</string>  
+    <string name="mtk_datausage_update">Adathasználat frissítése</string>  
+    <string name="mtk_datausage_update_set">"Frissítés"</string>  
+    <string name="mtk_datausage_amount_editor_title">Adathasználat mennyisége</string>  
+    <string name="mtk_datausage_usage_list">Alkalmazás általi adathasználat</string>  
+    <string name="mtk_datausage_diff_byte">Adathasználat különb</string>  
+    <string name="mtk_datausage_overview_tab">Áttekintés</string>  
+    <string name="mtk_datausage_overview_wifi_total">Összesen</string>  
+    <string name="mtk_datausage_overview_mobile_title">MOBIL</string>  
+    <string name="mtk_datausage_overview_mobile_usage">
+        <xliff:g id="actual">%s</xliff:g> kívül 
+        <xliff:g id="limit">%s</xliff:g>
+    </string>
+    <string name="mtk_datausage_overview_mobile_usage_warning"><xliff:g>%s</xliff:g> tartományon kívül</string>
+    <!-- MTK new datausage end -->
+    <string name="display_personalize">Személyre szabás</string>  
+    <string name="display_default">"Megjelenítés"</string> 
+    <!-- Sound Enhanecement -->
+    <string name="sound_enhancement_title">Hangzásjavítás</string>
+    <string name="music_plus_summary">Hangzásjavítás fülhallgatóhoz</string>
+    <string name="auto_backlight_title">Gazdaságos háttérvilágítás</string>
+    <string name="auto_backlight_summary">A háttérvilágítás automatikus állítása energia-megtakarításhoz</string>
+
+    <string name="beam_mgmt_tab_download_title">Fogadott hívások</string>
+    <string name="beam_mgmt_tab_upload_title">"3. Kattintson a megosztás fülre, majd válassza az 'Engedély megadása a hálózat egyéb felhasználóinak, hogy e számítógép internetkapcsolatán kapcsolódjanak'(válassza az újonnan hozzáadott hálózatot, amely az USB-internetet képviseli, ha megjelenik a 'Otthoni hálózati kapcsolat' elem)."</string>
+    <string name="beam_share_mgmt_notification_ticker">Átsugárzás megosztási előzmények</string>
+    <string name="beam_share_mgmt_notification_title">Átsugárzás megosztási előzmények</string>
+    <string name="beam_share_mgmt_notification_message">"Jelölje ki az átsugárzás megosztási előzmények megtekintéséhez."</string>
+    <string name="beam_share_mgmt_tab_menu_clear">"Törli az összes webhely beállítását?"</string>
+    <string name="beam_share_open_file_dialog_title">A fájl nem nyitható meg</string>
+    <string name="beam_share_open_file_unsupported_message">Nem támogatott fájlformátum.</string>
+    <string name="beam_share_open_file_not_found_message">"A fájl nem található: <xliff:g id="file_name">%1$s</xliff:g></string>
+    <string name="beam_share_transfer_fail_dialog_title">"Sikertelen átsugárzás"</string>
+    <string name="beam_share_resend_dialog_message">"A(z)<xliff:g id="file_name">%1$s</xliff:g> fájl elküldése nem sikerült."</string>
+    <string name="beam_share_resend_dialog_ok_button">"Újrapróbálkozás"</string>
+    <string name="beam_share_show_received_files_menu">"Beérkező fájlok megjelenítése"</string>
+    <string name="beam_share_history_title">Átsugárzás megosztási előzmények</string>
+    <string name="beam_share_clear_confirm_dialog_title">"Az összes törlése"</string>
+    <string name="beam_share_clear_confirm_dialog_message">Törli az összes előzményt?</string>
+    <string name="beam_share_receive_fail_dialog_message">"A(z)<xliff:g id="file_name">%1$s</xliff:g> fájl fogadása nem sikerült."</string>
+    <string name="beam_share_clear_item_dailog_title">TÖRLÉS</string>
+    <string name="beam_share_clear_item_dailog_message">Az elem törlésre kerül.</string>
+    <string name="nfc_rw_tag_summary">Címkéről olvasás vagy címkére írás</string>
+    <string name="nfc_p2p_mode">P2P mód</string>
+    <string name="nfc_p2p_mode_summary">App tartalom küldése vagy fogadása</string>
+    <string name="nfc_tag_mode_category">Címke mód</string>
+    <string name="nfc_rw_tag_title">Címkeolvasás és -írás</string>
+    <string name="lock_screen_notifications_title">Zárolt képernyő értesítések</string>
+    <string name="lock_screen_notifications_summary">Értesítések mutatása a zárolt képernyőn</string>
+    <string name="lock_screen_style_title">Zárolt képernyő stílusa</string>
+
+
+      <string name="voice_ui_title">Hangvezérlés</string>
+      <string name="voice_ui_app_category">App-beállításokhoz</string>
+      <string name="voice_ui_setting_category">"Beállítások"</string>
+      <string name="alarm_app_name">"Ébresztés"</string>
+      <string name="music_app_name">Zene</string>
+      <string name="voice_ui_language_title">"Hangvezérlés nyelve"</string>
+      <string name="incoming_call_app_name">"Beérkező hívás"</string>
+      <string name="camera_app_name">Kamera</string>
+      <string name="incomming_command_summary_format">A beérkező hívások fogadásához vagy elutasításához a következőket mondhatja: <xliff:g id="first">%1$s</xliff:g> vagy <xliff:g id="second">%2$s</xliff:g>.</string>
+      <string name="alarm_command_summary_format">Kimondhatja a(z) <xliff:g id="first">%1$s</xliff:g> vagy <xliff:g id="second">%2$s</xliff:g> szót az ébresztő vezérléséhez.</string>
+      <string name="camera_command_summary_format">A rögzítéshez a következőket mondhatja: <xliff:g id="first">%1$s</xliff:g> vagy <xliff:g id="second">%2$s</xliff:g>.</string>
+      <string name="music_command_summary_format">A zenék lejátszásának szabályozásához a következőket mondhatja: <xliff:g id="first">%1$s</xliff:g> és <xliff:g id="second">%2$s</xliff:g>.</string>
+
+	<!-- Lock screen settings start -->
+	<string name="current_suffix">"(Aktuális)"</string>
+	<string name="lockscreen_style_set">Zárolt képernyő beállítása</string>
+	<string name="lockscreen_style_default_desc">"Alkalmazások gyors elérése a lezárt képernyőn"</string>
+	<!-- Lock screen settings end -->
+    <!--  voice unlock start-->
+    <string name="voice_unlock_backup_info_summary">Ha a Voice Unlock nem ismeri fel Önt, hogyan szeretné kioldani?</string>
+    <string name="unlock_set_unlock_mode_voice_weak">Hangkioldás</string>
+    <!--  voice unlock end-->
+    <string name="usb_tether_type_title">USB tethering típusa</string> 
+    <string name="security_not_set">A biztonság nincs beállítva</string>
+    <string name="lockdown_vpn_already_connected">A mindig bekapcsolt VPN már engedélyezett a kapcsolódáshoz.</string> 
+
+    <string name="wifi_ap_no_connected">0 csatlakoztatott felhasználók</string>  
+    <string name="wifi_ap_no_blocked">0 tiltott felhasználók</string>  
+
+    <string name="status_imei_slot3">IMEI(3. nyílás)</string>
+    <string name="status_imei_sv_slot3">IMEI SV(3. nyílás)</string>
+    <string name="status_min_number_slot3">MIN(3. nyílás)</string>
+    <string name="status_prl_version_slot3">PRL verzió(3. nyílás)</string>
+    <string name="status_meid_number_slot3">MEID(3. nyílás)</string>
+
+    <string name="usb_tethering_select_version">Válassza ki a számítógép verzióját</string>
+</resources>

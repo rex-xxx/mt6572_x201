@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">    
+    <string name="deleteConfirmation_title" msgid="1418215926447642260">"Удалить контакт?"</string>
+    <string name="add_contact_dlg_title" msgid="2896685845822146494">"Добавить контакт"</string>
+    <string name="no_sdcard_title" product="nosdcard" msgid="8543619259870877473">"Накопитель недоступен"</string>
+    <string name="no_sdcard_title" product="default" msgid="5911758680339949273">"Нет SD-карты"</string>
+    <string name="searching_vcard_title" msgid="4970508055399376813">"Поиск vCard"</string>
+    <string name="scanning_sdcard_failed_title" product="nosdcard" msgid="4944932641334764942">"Накопитель не просканирован"</string>
+    <string name="scanning_sdcard_failed_title" product="default" msgid="6664940444476572612">"SD-карта не просканирована"</string>
+    <string name="cancel_import_confirmation_title" msgid="5578683596010294836">"Отмена импорта vCard"</string>
+    <string name="cancel_export_confirmation_title" msgid="6516467140276768528">"Отмена экспорта vCard"</string>
+    <string name="menu_all_contacts" msgid="5101735431586050711">"Все контакты"</string>
+    <string name="search_bar_hint" msgid="1012756309632856553">"Поиск в контактах"</string>
+    <string name="aggregation_suggestion_join_dialog_title" msgid="5276699501316246253">"Объединить контакты"</string>
+    <string name="aggregation_suggestion_edit_dialog_title" msgid="1064042382692091314">"Редактировать выбранные контакты"</string>
+    <string name="cancel_confirmation_dialog_title" msgid="3950463632415908534">"Отмена изменений"</string>
+  <string name="menu_print">"Печать"</string>
+  <string name="printContact">"Печать файла посредством"</string>
+  <string name="no_way_to_print">"Нет приложения для печати файла (файлов)"</string>
+  
+  <!--The following lines are provided and maintained by Mediatek Inc.  -->
+    <!-- The title for multiple selection call log activity -->
+    <string name="selected_item_count">Выбрано <xliff:g id="count">%d</xliff:g></string>
+    <!-- Menu item used to start call log multiple selection activity -->
+    <string name="recentCalls_delete">Удалить</string>
+    <string name="menu_selectAll">"Выбрать все"</string>
+    <string name="menu_clearAll">"Отменить выбор всего"</string>
+        <!-- Text used to show the dual sim info -->
+    <string name="sim1">SIM1</string>
+    <string name="sim2">SIM2</string>
+    <string name="all_resources">Все ресурсы</string>
+    <string name="choose_resources_header">Выбор ресурсов</string>
+    <string name="all_tab_label1">Все</string>
+    <string name="call_log_item_count">(<xliff:g id="count">%1$d</xliff:g>)</string>
+
+    <!-- below strings are used by dialpad -->
+    <string name="call_indicator_3g">3G</string>
+    <string name="call_sipcall">Интернет-вызов</string>
+    <string name="call_pin_dialog_title">Выбрать SIM-карту</string>
+    <string name="call_people">Люди</string>
+    <string name="call_ip_dial">Набор IP-адреса</string>
+    <string name="call_speed_dial">Быстрый набор</string>
+    <string name="call_video_call">Видеозвонок</string>
+    <string name="add_speed_dial">Нажмите для добавления в быстрый набор</string>
+    <string name="speed_dial_added"><xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>) добавлен в быстрый набор <xliff:g id="key">%3$s</xliff:g></string>
+    <string name="remove_speed_dial">Удалить</string>
+    <string name="remove_sd_confirm_1">Удалить <xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>) из быстрого набора <xliff:g id="key">%3$s</xliff:g>?</string>
+    <string name="emergencycall">Экстренный вызов</string>
+    <string name="imei_invalid">Неверный</string>
+    <!-- Speed Dial phase II -->
+    <string name="sd_add">Добавить</string>
+    <string name="reselect_number">Этот номер уже назначен клавише быстрого набора, выберите другой номер.</string>
+    <!-- strings are used by dialpad end -->
+    <string name="calllog_today">Сегодня</string>
+    <string name="calllog_yesterday">Вчера</string>
+    
+    <!-- strings are used by contact detail -->
+    <string name="menu_association">Привязка SIM-карты</string>
+    <string name="menu_remove_association">Снять привязку SIM-карты</string>
+    <string name="remove_association_message">Снять привязку SIM-карты к этому номеру?</string>
+    <string name="remove_number_title">Удалить</string>  
+    <string name="warning_detail">Привязка SIM-карты приведет к импорту контакта в телефон. Выполнить привязку SIM-карты? </string>
+    <string name="associatiated_SIM">"Привязанная SIM-карта"</string>
+    <string name="unassociated">"Без привязки"</string>
+    <string name="associate_SIM">"Привязанная SIM-карта"</string>
+    <string name="block_incoming_call">Непосредственная блокировка входящего вызова</string>
+    <string name="block_video_incoming_call"></string>
+
+    <!-- Contacts multi-choice string -->
+    <string name="menu_actionbar_selected_items"><xliff:g id="name">%s</xliff:g> Выбрано</string>
+
+       <!-- MTK for edit SIM/USIM contact -->
+    <string name="has_double_phone_number">Невозможно сохранить номер одного типа, проверьте.</string>
+    <string name="phone_book_busy">Телефонная книга занята, повторите попытку позже.</string>
+    <string name="sim_invalid">Невозможно сохранить контакт при недопустимой SIM-карте.</string>
+    <string name="cannot_insert_null_number">Невозможно сохранить контакт, если не введен номер.</string>
+    <string name="AirPlane_mode_on">"Невозможно сохранить контакт, когда включен режим Airplane "В самолете"."</string>
+    <string name="FDNEnabled">Невозможно сохранить контакт при включенном FDN.</string>
+    <string name="sim_invalid_number">Невозможно сохранить недопустимый номер.</string>
+    <string name="email_invalid">Невозможно сохранить недопустимый адрес эл. почты</string>
+    <string name="email_2g_invalid">Невозможно сохранить сообщение электронной почты на SIM-карте объемом 2 ГБ, выберите для сохранения SIM-карту объемом 3 ГБ.</string>
+    <string name="sim_invalid_fix_number">Невозможно сохранить недопустимый номер фиксированного набора.</string>
+    <string name="msg_loading_sim_contacts_toast">"Загрузка SIM-контактов в фоновом режиме, немного подождите."</string>
+    <string name="fix_number_too_long">"Слишком длинный номер фиксированного набора."</string>
+    <string name="name_too_long">"Слишком длинное название."</string>
+    <string name="storage_full">Память заполнена.</string>
+    <string name="number_too_long">"Слишком длинный номер."</string>
+    <string name="generic_failure">Общий сбой.</string>
+
+    <string name="send_groupsms_no_number_more">"Для нескольких контактов %1$s и %2$s отсутствует допустимый номер телефона."</string>
+    <string name="send_groupsms_no_number_1">"Для %1$s отсутствует допустимый номер телефона."</string>
+    <string name="send_groupsms_no_number_2">"Для %1$s и %2$s отсутствует допустимый номер телефона."</string>    
+
+    <!-- Feature Fix by Mediatek Begin -->
+
+    <!-- The local account type to be added, it used to manage SIM contacts. -->
+    <string name="account_type_sim" product="tablet">Учетная запись SIM-карты</string>
+    <!-- The local account type to be added, it used to manage SIM contacts. -->
+    <string name="account_type_sim" product="default">Учетная запись SIM-карты</string>
+
+    <!-- The local account type to be added, it used to manage USIM contacts. -->
+    <string name="account_type_usim" product="tablet">Учетная запись USIM-карты</string>
+    <!-- The local account type to be added, it used to manage USIM contacts. -->
+    <string name="account_type_usim" product="default">Учетная запись USIM-карты</string>
+
+    <!-- The local account type to be added, it used to manage Phone contacts. -->
+    <string name="account_type_local_phone" product="tablet">Локальная учетная запись телефона</string>
+    <!-- The local account type to be added, it used to manage Phone contacts. -->
+    <string name="account_type_local_phone" product="default">Локальная учетная запись телефона</string>
+
+
+    <!-- The local account to be added, it used to manage SIM/USIM/PHONE contacts. -->
+    <string name="local_account_type" product="tablet">Локальная учетная запись</string>
+    <!-- The local account to be added, it used to manage SIM/USIM/PHONE contacts. -->
+    <string name="local_account_type" product="default">Локальная учетная запись</string>
+
+    <!-- The local account to be added, it used to manage SIM/USIM/PHONE contacts settings. -->
+    <string name="local_account_label" product="tablet">Локальная учетная запись</string>
+    <!-- The local account to be added, it used to manage SIM/USIM/PHONE contacts settings -->
+    <string name="local_account_label" product="default">Локальная учетная запись</string>
+
+    <!-- Title for data source when creating or editing a contact that doesn't
+         belong to a specific account.  This contact will only exist on the SIM Card
+         and will not be synced. -->
+    <string name="account_type_sim_label" product="tablet">Только SIM-карта, несинхронизированная</string>
+    <!-- Title for data source when creating or editing a contact that doesn't
+         belong to a specific account.  This contact will only exist on the SIM Card
+         and will not be synced. -->
+    <string name="account_type_sim_label" product="default">Только SIM-карта, несинхронизированная</string>
+
+    <!-- Title for data source when creating or editing a contact that doesn't
+         belong to a specific account.  This contact will only exist on the USIM Card
+         and will not be synced. -->
+    <string name="account_type_usim_label" product="tablet">Только USIM-карта, не синхронизированная</string>
+    <!-- Title for data source when creating or editing a contact that doesn't
+         belong to a specific account.  This contact will only exist on the USIM Card
+         and will not be synced. -->
+    <string name="account_type_usim_label" product="default">Только USIM-карта, не синхронизированная</string>
+
+    <!-- below strings are used by contacts group -->
+    <string name="please_wait">"Подождите..."</string>
+    <string name="move_contacts_to">Переместить контакты в</string>
+    <string name="menu_move_group">"Переместить членов группы"</string> 
+    <string name="menu_message_group">"Послать групповое сообщение"</string>
+    <string name="menu_email_group">"Отправить групповое эл. письмо"</string>    
+    <string name="moving_group_members">"Перемещение членов группы\u2026"</string>
+    <string name="removing_group_members_sucess">"Члены группы удалены"</string>
+    <string name="moving_group_members_sucess">"Члены группы перемещенпы"</string>
+    <string name="moving_group_members_fail">"Сбой удаления членов группы"</string>
+    <string name="no_valid_number_in_group">В этой группе нет контакта с допустимым номером телефона.</string>
+    <string name="no_valid_email_in_group">В этой группе нет контакта с допустимым адресом эл. почты.</string>
+    <string name="email_error">Необходимо установить программу электронной почты или настроить учетную запись!</string>
+	<string name="usim_group_name_exceed_limit">"Слишком длинное имя группы для USIM-карты."</string>  
+    <string name="usim_group_count_exceed_limit">"Невозможно добавить новые группы в данную USIM-карту."</string>  
+    <!-- below strings are used by contacts import/export -->
+    <string name="import_export_title">Импорт/Экспорт</string>
+    <string name="next">Далее</string>
+    <string name="imexport_bridge_sd_card">Карта SD</string>
+    <string name="tips_source">Выберите источник, откуда следует копировать контакты</string>    
+    <string name="tips_target">Выберите целевое хранилище, куда следует копировать контакты</string>
+    <string name="back">Назад</string>
+    <string name="imexport_title">Импорт (экспорт) контактов</string>
+    <!-- Feature Fix by Mediatek End -->
+
+
+    <!-- Title when popup ContactEditorAccountsChangedActivity's dialog -->
+    <string name="store_contact_to">Хранить контакт в</string>
+
+    <!-- strings are used by people activity -->
+    <string name="menu_delete_contact">Удалить контакт</string>
+    
+    <!-- string for multiple choice -->
+
+    <string name="notifier_finish_delete_title">Удаление контактов выполнено</string>  
+    <string name="notifier_finish_delete_content">Удалено 
+        <xliff:g id="total">%d</xliff:g> контактов
+    </string>  
+    <string name="notifier_finish_copy_title">Копирование контактов выполнено</string>  
+    <string name="notifier_finish_copy_content">Скопировано 
+        <xliff:g id="total">%d</xliff:g> контактов
+    </string>  
+    <string name="notifier_multichoice_process_report">Выполнено: 
+        <xliff:g id="items">%d</xliff:g>\nНе выполнено: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>  
+    <string name="notifier_failure_by_sim_full">Сбой из-за заполнения памяти SIM-карты\nВыполнено: 
+        <xliff:g id="items">%d</xliff:g>\nНе выполнено: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>  
+    <string name="notifier_failure_sim_notready">Сбой из-за неготовности SIM-карты\nВыполнено: 
+        <xliff:g id="items">%d</xliff:g>\nНе выполнено: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>  
+    <string name="notifier_cancel_delete_title">Удаление контактов отменено</string>  
+    <string name="notifier_fail_delete_title">Удаление контактов не удалось</string>  
+    <string name="notifier_cancel_copy_title">Копировапние контактов отменено</string>  
+    <string name="notifier_fail_copy_title">Копирование контактов не удалось</string>  
+    <string name="notifier_progress_delete_message">Удаление 
+        <xliff:g id="current_number">%s</xliff:g>/ 
+        <xliff:g id="total_number">%s</xliff:g>: 
+        <xliff:g id="name" пример="JoeDue">%s</xliff:g> 
+    </string>  
+    <string name="notifier_progress_delete_description">Удаление 
+        <xliff:g id="name" пример="JoeDue">%s</xliff:g> 
+    </string>  
+    <string name="notifier_progress_copy_message">Копирование 
+        <xliff:g id="current_number">%s</xliff:g>/ 
+        <xliff:g id="total_number">%s</xliff:g>: 
+        <xliff:g id="name" пример="JoeDue">%s</xliff:g> 
+    </string>  
+    <string name="notifier_progress_copy_description">Копирование 
+        <xliff:g id="name" пример="JoeDue">%s</xliff:g> 
+    </string>  
+    <string name="multichoice_confirmation_title_delete">Отмена удаления контактов</string>  
+    <string name="multichoice_confirmation_message_delete">Отменить удаление контактов?</string>  
+    <string name="multichoice_confirmation_title_copy">Отмена копирования контактов</string>  
+    <string name="multichoice_confirmation_message_copy">Отменить копирование контактов?</string>
+  <!-- The toast title when storage is full -->
+    <string name="phone_storage_full_create">Память телефона заполнена, создание нового контакта невозможно.</string>
+    <string name="phone_storage_full_edit">Память телефона заполнена, редактирование контакта невозможно.</string>
+    <!-- Displayed at the top of the call log search, showing the total number of call logs found in call log search result page -->
+    <plurals name="searchFoundCalllogs">
+        <item quantity="one">В журнале 1 вызов</item>
+        <item quantity="other">Вызовов в журнале: <xliff:g id="count">%d</xliff:g></item>
+    </plurals>
+        
+    <string name="search_results_for">Результаты поиска для: <xliff:g id="QUERY">%s</xliff:g></string>
+    <string name="listFoundAllCalllogZero">Вызов в журнале не найден</string>
+    
+    <string name="calllogList">Журнал вызовов</string>
+    <string name="calllogHint">Поиск вызовов в журнале</string>
+    <string name="calllog_description">Входящие, исходящие и пропущенные вызовы</string>
+    <string name="noMatchingCalllogs">Соответствующий вызов не найден в журнале.</string>
+
+    <string name="menu_videocallNumber">Видеозвонок: <xliff:g id="NAME">%s</xliff:g></string>
+    <string name="menu_ipcallNumber">IP-вызов 
+        <xliff:g id="name">%s</xliff:g> 
+    </string>
+    
+    <string name="deleting_call_log">Удаление журнала вызовов...</string>
+
+    <!-- The previous lines are provided and maintained by Mediatek Inc. -->
+    
+    <!-- missing voicemail number -->
+    <!-- Title of the "Missing voicemail number" dialog -->
+    <string name="no_vm_number">Не указан номер голосовой почты</string>
+    <!-- Body text of the "Missing voicemail number" dialog -->
+    <string name="no_vm_number_msg">На SIM-карте нет ни одного номера голосовой почты.</string>
+    <!-- Button label on the "Missing voicemail number" dialog -->
+    <string name="add_vm_number_str">Добавить номер</string>
+    
+    <string name="reminder">Напоминание</string>
+    <string name="enable_sip_dialog_message">Интернет-вызовы отключены, включить их?</string>
+
+    <!-- The toast title for add SIP No. to SIM/USIM contact -->
+    <string name="add_SIP_to_sim">Невозможно добавить номер SIP для контакта SIM/USIM.</string>
+    <!-- The toast title fot if there has SIP No. can't add new -->
+    <string name="already_has_SIP">Невозможно добавить два номера SIP контакту, если вам требуется продолжить. Сначала удалите прежний номер SIP.</string>
+
+    <string name="multichoice_no_select_alert">"Элемент не выбран."</string>
+    <string name="multichoice_delete_confirm_message">"Действительно удалить выбранные элементы контакта?"</string>
+    <string name="multichoice_delete_confirm_title">Удаление элементов контакта?</string>
+
+    <string name="name_needed">Необходимо указать имя</string>
+    <string name="save_group_fail">Сбой сохранения группы.</string>
+    <string name="group_name_exists">Такое имя группы уже существует.</string>
+    <string name="sum_search_networks">"Поиск всех доступных сетей"</string>    
+    <string name="notifier_progress__delete_will_start_message">Контакты будут удалены.</string>  
+    <string name="notifier_progress__copy_will_start_message">Контакты будут скопированы.</string>
+    
+    <string name="remove_sd_confirm_2">Действительно удалить 
+        <xliff:g id="contact_name">%1$s</xliff:g> из ускоренного набора 
+        <xliff:g id="key">%2$s</xliff:g>?
+    </string>  
+    <string name="callFailed_simError">Нет SIM-карты или ошибка SIM-карты</string>  
+    <string name="group_discard_member">Отменить</string>  
+    <string name="group_discard_member_reason">Изменения игнорируются, т.к. указано неверное имя группы.</string>  
+    <string name="share_contacts_limit">"Число контактов для совместного доступа не должно превышать 3500"</string>  
+    <string name="contact_delete_all_tips">"В фоновом режиме уже выполняется удаление контакта. Если вы хотите запустить удаление контакта снова, сначала отмените данную операцию."</string>
+    
+    <string name="turn_on_3g_service_message">"Служба 3G отключена, включить ее?"</string>
+    <string name="associate_sim_missing_message">"SIM-карта %1$s недоступна. Осуществить вызов через %2$s"</string>
+    <string name="associate_sim_missing_other">Позвонить</string>
+    <string name="sim_manage_call_via">Вызов посредством</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">Сначала введите префикс IP-адреса в настройках голосовых звонков.</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">Функция набора IP-адреса не применима к звонкам через Интернет.</string>
+    <string name="email_too_long">Слишком длинный адрес электронной почты</string> 
+    <string name="deleteCallLogConfirmation_title">Удалить журналы вызовов?</string>  
+    <string name="deleteCallLogConfirmation_message">Действительно удалить выбранные журналы вызовов?</string>
+    <!-- The previous lines are provided and maintained by Mediatek Inc. -->
+    <!--The following lines are provided and maintained by Mediatek Inc. 2012-5-16-->  
+    <string name="delete_group_failure">Не удалось удалить группу</string>  
+    <!-- The previous lines are provided and maintained by Mediatek Inc. -->
+    
+      <string name="from_account_format"> 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="source" example="user@gmail.com">%1$s</xliff:g> 
+    </string>
+  <string name="speed_dial_added2"> 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="contact_name">%1$s</xliff:g> добавлен в быстрый набор 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="key">%2$s</xliff:g> 
+    </string>
+  <string name="call_log_filter_all_resources">"Все ресурсы"</string>
+  <string name="AirPlane_mode_on_edit">Невозможно изменить контакт, когда включен режим В самолете.</string>
+  <string name="multichoice_contacts_limit">"Выбранные контакты не должны превышать 3500"</string>
+  <string name="file_already_on_sd_card">Данный файл уже имеется на SD-карте.</string>
+  <string name="send_file_sms_error">Невозможно передать данный файл с SMS, используйте MMS.</string>
+  <string name="error_save_usim_contact_email_lost">"Не удалось сохранить адрес электронной почты, т.к. память USIM для Email заполнена".</string>
+  <string name="error_import_usim_contact_email_lost">"Не удалось импортировать некоторые адреса эл.почты из контактов, так как память карты USIM для эл.почты полная.\nЗавершено: 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="items">%d</xliff:g>\nНе завершено: 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="items">%d</xliff:g>"
+    </string>
+  <string name="user_profile_cannot_sd_card">Данный метод не допускает совместное использование контента.</string>
+  <string name="call_sms">SMS</string> 
+  <string name="contact_group_list_title">"Выберите целевую группу"</string> 
+    <string name="import_no_vcard_dialog_text">Файл электронной визитки не найден в 
+        <xliff:g id="storage_name">%s</xliff:g>
+    </string> 
+  <string name="send_groupemail_no_number_more">"%1$s и %2$s контактов не имеют допустимой электронной почты."</string>
+  <string name="send_groupemail_no_number_1">"%1$s не имеет допустимой электронной почты."</string>
+  <string name="send_groupemail_no_number_2">"%1$s и %2$s не имеют допустимой электронной почты."</string>
+  <string name="send_message">Отправить сообщение</string>
+  <string name="type_ip_outgoing">Исходящий вызов IP ( 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="name">%s</xliff:g>)
+    </string>
+  <string name="call_log_auto_rejected_label">Автоматически отклоненные вызовы</string>
+  <string name="look_simstorage">Отобразить объем памяти SIM-карты</string>
+  <string name="dlg_simstorage_content">объем памяти телефонного справочника 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="items">%d</xliff:g>, занято 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="items">%d</xliff:g>.
+    </string>
+  <string name="delete_group_dialog_title" msgid="7368429698398624427">"Удаление группы"</string>
+  <string name="dialog_phone_call_prohibited_title" msgid="2111395432187079579">"Вызов не осуществляется"</string>
+  <string name="dialog_voicemail_not_ready_title" msgid="7258109862329777060">"Номер недоступен"</string>
+
+    <string name="nickname_too_long">"Псевдоним слишком длинный."</string>
+    <string name="pick_new_photo_from_gallery">Выберите новую фотографию</string>  
+    <string name="copy_text_to_dialer">Скопировать в номеронабиратель</string> 
+    <string name="account_phone_only" product="tablet">"Планшетный ПК"</string>  
+    <string name="account_phone_only" product="default">"Телефон"</string>  
+
+    <string name="international_dialing_title">Помощь для выполнения международного вызова</string>
+    <string name="international_dialing_select_country">Обнаружено, что вы осуществляете международный вызов. Выберите место назначения.</string>
+    <string name="international_dialing_add_country_code">Обнаружено, что вы набираете номер в: <xliff:g id="country_name">%s</xliff:g>. Добавить код страны: (+<xliff:g id="country_code">%s</xliff:g>)?</string>
+    <string name="international_dialing_add_country_code_and_area_code">Обнаружено, что вы набираете номер в: <xliff:g id="area_name">%1$s</xliff:g>, <xliff:g id="country_name">%2$s</xliff:g>. Добавить код страны и города: (+<xliff:g id="prefix">%3$s</xliff:g>)?</string> 
+    <string name="international_dialing_change_country_prefix">Обнаружено, что вы набираете номер из: <xliff:g id="country_name">%s</xliff:g>. Сменить префикс международного набора на: \'+\'?</string>
+    <string name="international_dialing_add_country_code_input_area_code">Обнаружено, что вы набираете номер в: <xliff:g id="country_name">%s</xliff:g>. Если это так, укажите код города.</string>   
+    <string name="international_dialing_add_country_code_default_input_area_code">Обнаружено, что вы набираете номер в: <xliff:g id="country_name">%s</xliff:g>. Если номер вызываемого абонента не находится в городе <xliff:g id="area_name">%s</xliff:g>, укажите код города.</string>
+    <string name="international_dialing_need_area_code">Для осуществления вызова необходимо указать код города вызываемого абонента.</string>
+    <string name="international_dialing_input_area_code">Введите сюда код города</string>
+    <string name="international_dialing_dialed_number">Набор номера:</string>
+    <string name="international_dialing_confirm_area_code">Если город вызываемого абонента не <xliff:g id="area_name">%s</xliff:g>, укажите код города вызываемого абонента в расположенном ниже поле.</string>
+    <string name="international_dialing_dial_with_country_code">Набор с кодом страны</string>
+    <string name="international_dialing_click_below_button">Нажмите расположенную ниже кнопку, чтобы изменить код страны.</string>
+    <string name="international_dialing_yes">Да, использовать следующий номер:</string>
+    <string name="international_dialing_no">Нет, использовать исходный номер:</string>
+    <string name="international_dialing_call_button">"Позвонить"</string>
+    <string name="international_dialing_area_code">код города</string>
+    <string name="international_dialing_invalid_number">Недопустимый номер. Все равно продолжить?</string>
+    <string name="international_dialing_add_country_code_and_area_code_without_prefix">Добавить код страны и код города?</string>
+    <string name="share_too_large">Общее число данных превышает максимальный предел; удалите некоторые позиции и попробуйте снова.</string>
+
+</resources>

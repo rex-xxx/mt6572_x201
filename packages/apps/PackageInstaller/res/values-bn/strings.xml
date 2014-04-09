@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">প্যাকেজ ইনস্টলার</string>  
+    <string name="install">ইনস্টল করুন</string>  
+    <string name="done">সম্পন্ন</string>  
+    <string name="security_settings_desc">এই অ্যাপকে অনুমতি দিন:</string>  
+    <string name="cancel">বাতিল করুন</string>  
+    <string name="unknown">অজ্ঞাত</string>  
+    <string name="installing">ইনস্টল হচ্ছে\u2026</string>  
+    <string name="install_done">অ্যাপ ইনস্টল হয়েছে।</string>  
+    <string name="install_confirm_question">আপনি কি এই অ্যাপ্লিকেশন ইনস্টল করতে চান? এটা প্রবেশাধিকার পাবে:</string>  
+    <string name="install_confirm_question_no_perms">আপনি কি এই অ্যাপ্লিকেশন ইনস্টল করতে চান? এটার বিশেষ কোনো প্রবেশাধিকারের প্রয়োজন নেই।</string>  
+    <string name="install_confirm_question_update">আপনি কি এই বিদ্যমান অ্যাপ্লিকেশনের আপডেট ইনস্টল করতে চান? আপনার বিদ্যমান ডাটা হারিয়ে যাবে না। আপডেট করা অ্যাপ্লিকেশন প্রবেশাধিকার পাবে:</string>  
+    <string name="install_confirm_question_update_system">আপনি কি এই বিল্ট-ইন অ্যাপ্লিকেশনের আপডেট ইনস্টল করতে চান? আপনার বিদ্যমান ডাটা হারিয়ে যাবে না। আপডেট করা অ্যাপ্লিকেশন প্রবেশাধিকার পাবে:</string>  
+    <string name="install_failed">অ্যাপ ইনস্টল হয়নি।</string>  
+    <string name="install_failed_invalid_apk">প্যাকেজ নষ্ট বলে মনে হচ্ছে।</string>  
+    <string name="install_failed_inconsistent_certificates">একই নামে ভিন্ন স্বাক্ষরসহ একটি বিদ্যমান প্যাকেজ ইতিমধ্যে ইনস্টল করা আছে।</string>  
+    <string name="install_failed_older_sdk">প্যাকেজ অ্যান্ড্রয়েডের নতুনতর সংস্করণে কেবল কাজ করে।</string>  
+    <string name="install_failed_cpu_abi_incompatible" product="tablet">এই অ্যাপ আপনার ট্যাবলেটের সাথে সঙ্গতিপূর্ণ নয়।</string>  
+    <string name="install_failed_cpu_abi_incompatible" product="default">এই অ্যাপ আপনার ফোনের সাথে সঙ্গতিপূর্ণ নয়।</string>  
+    <string name="install_failed_file_not_found">নির্দিষ্ট করা প্যাকেজটি ইনস্টলেশন সম্পন্ন হওয়ার আগেই মুছে গেছে।</string>  
+    <string name="install_failed_verify_failed">প্যাকেজ সত্যতা যাচাইয়ে উত্তীর্ণ হয়নি এবং এটি ইনস্টল করা যাবে না।</string>  
+    <string name="install_failed_verify_timeout">এই প্যাকেজের সত্যতা যাচাইয়ের চেষ্টা করার সময় একটি টাইমআউট ঘটেছে। পরবর্তীতে এটি আবার ইনস্টল করার চেষ্টা করুন।</string>  
+    <string name="install_failed_msg" product="tablet"> 
+        <xliff:g id="app_name">%1$s</xliff:g> আপনার ট্যাবলেটে ইনস্টল করা যায়নি।
+    </string>  
+    <string name="install_failed_msg" product="default"> 
+        <xliff:g id="app_name">%1$s</xliff:g> আপনার ফোনে ইনস্টল করা যায়নি।
+    </string>  
+    <string name="launch">খুলুন</string>  
+    <string name="unknown_apps_dlg_title">ইনস্টল ব্লক করা হয়েছে</string>  
+    <string name="unknown_apps_dlg_text" product="tablet">নিরাপত্তার কারণে আপনার ট্যাবলেটেকে অজানা উৎ স থেকে নেয়া অ্যাপ ইনস্টল ব্লক করার জন্য সেট করা হয়েছে।</string>  
+    <string name="unknown_apps_dlg_text" product="default">নিরাপত্তার কারণে আপনার ফোনকে অজানা উৎ স থেকে নেয়া অ্যাপ ইনস্টল ব্লক করার জন্য সেট করা হয়েছে।</string>  
+    <string name="ok">ঠিক আছে</string>  
+    <string name="settings">সেটিং</string>  
+    <string name="allow_source_dlg_title">অ্যাপের জন্য নতুন উৎ স</string>  
+    <string name="allow_source_dlg_text"> 
+        <xliff:g id="app_name">%1$s</xliff:g> অন্যান্য অ্যাপ ইনস্টল করতে চান। \n\nএখন বা ভবিষ্যতে এর অনুমতি দেবেন?
+    </string>  
+    <string name="manage_applications">অ্যাপ ব্যবস্থাপনা করুন</string>  
+    <string name="dlg_app_replacement_title">অ্যাপ প্রতিস্থাপন করতে চান?</string>  
+    <string name="dlg_app_replacement_statement">আপনি যে অ্যাপ ইনস্টল করছেন তা অন্য অ্যাপকে প্রতিস্থাপন করবে।\n\n আপনার সব পূর্ববর্তী ব্যবহারকারী ডাটা সংরক্ষণ করা হবে।</string>  
+    <string name="dlg_sys_app_replacement_statement">এটি একটি সিস্টেম অ্যাপ।\n\nআপনার সব পূর্ববর্তী ব্যবহারকারী ডাটা সংরক্ষণ করা হবে।</string>  
+    <string name="out_of_space_dlg_title">জায়গা নেই</string>  
+    <string name="out_of_space_dlg_text"> 
+        <xliff:g id="app_name">%1$s</xliff:g> ইনস্টল করা যায়নি। কিছু জায়গা খালি করুন এবং আবার চেষ্টা করুন।
+    </string>  
+    <string name="dlg_ok">ঠিক আছে</string>  
+    <string name="app_not_found_dlg_title">অ্যাপ পাওয়া যায়নি</string>  
+    <string name="app_not_found_dlg_text">ইনস্টলকৃত অ্যাপের তালিকায় অ্যাপ পাওয়া যায়নি।</string>  
+    <string name="uninstall_application_title">অ্যাপ আনইস্টল করুন</string>  
+    <string name="uninstall_update_title">আপডেট আনইস্টল করুন</string>  
+    <string name="uninstall_activity_text"> 
+        <xliff:g id="activity_name">%1$s</xliff:g>নিম্নলিখিত অ্যাপের অংশ:
+    </string>  
+    <string name="uninstall_application_text">আপনি কি এই অ্যাপ আনইনস্টল করতে চান?</string>  
+    <string name="uninstall_update_text">আপনি কি এই অ্যাপের স্থলে ফ্যাক্টরি সংস্করণ স্থাপণ করতে চান?</string>  
+    <string name="uninstalling">আনইনস্টল করা হচ্ছে\u2026</string>  
+    <string name="uninstall_done">আনইস্টল করা সম্পন্ন হয়েছে।</string>  
+    <string name="uninstall_failed">আনইস্টল করতে অসফল হয়েছে।</string>  
+    <string name="uninstall_failed_device_policy_manager">আনইনস্টল করতে পারে না কারণ এই প্যাকেজ একটি সক্রিয় ডিভাইস প্রশাসক।</string>  
+    <string name="manage_device_administrators">ডিভাইস অ্যাডমিনিস্ট্রেটগুলোর ব্যবস্থাপনা করুন</string>  
+    <string name="uninstall_failed_msg"> 
+        <xliff:g id="app_name">%1$s</xliff:g> আনইনস্টল করা যায়নি।
+    </string>  
+    <string name="Parse_error_dlg_title">পার্স ত্রুটি</string>  
+    <string name="Parse_error_dlg_text">প্যাকেজটি পার্স করার ক্ষেত্রে একটি সমস্যা ছিল।</string>  
+    <string name="newPerms">নতুন</string>  
+    <string name="privacyPerms">গোপনীয়তা</string>  
+    <string name="devicePerms">ডিভাইসে প্রবেশাধিকার</string>  
+    <string name="no_new_perms">এই আপডেটের জন্য নতুন কোন অনুমতির প্রয়োজন নেই।</string> 
+</resources>

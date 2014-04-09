@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+	<LinearLayout 
+    	android:orientation="vertical"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:paddingTop="9dip"
+    	android:paddingBottom="3dip"
+    	android:paddingLeft="3dip"
+    	android:paddingRight="1dip">
+
+		
+    	<TextView android:id="@+id/message_head"
+    	    style="?android:attr/textAppearanceMedium"
+        	android:text="@string/gemini_wap_push_permission_head"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:paddingLeft="19dip" 
+        	android:paddingTop="7dip" 
+        	android:paddingRight="15dip"/>
+    	<LinearLayout
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="19dip"
+        	android:layout_marginRight="10dip"
+        	android:layout_marginTop="3dip"
+        	android:orientation="horizontal">
+
+       		<TextView 
+            	android:id="@+id/sim_name_info"
+              	android:layout_width="wrap_content" 
+              	android:layout_height="wrap_content"
+             	android:singleLine="true"
+              	android:maxWidth="100dip"
+	            android:ellipsize="middle"
+    	    	style="?android:attr/textAppearanceMedium"
+            	android:gravity="center|center_vertical"
+       			android:layout_marginRight="10dip"
+       		/>
+
+       		<TextView 
+            	android:id="@+id/message_tail"
+            	style="?android:attr/textAppearanceMedium"
+            	android:text="@string/gemini_wap_push_permission_tail"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+       		/>
+   		</LinearLayout>
+    
+	</LinearLayout>
+</ScrollView>

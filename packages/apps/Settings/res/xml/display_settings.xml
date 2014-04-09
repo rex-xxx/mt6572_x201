@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/display_settings" >
+
+    <PreferenceCategory
+        android:key="display_personalize"
+        android:persistent="false"
+        android:title="@string/display_personalize" >
+        <PreferenceScreen
+            android:key="lock_screen_style"
+            android:title="@string/lock_screen_style_title" >
+            <intent
+                android:targetClass="com.mediatek.lockscreensettings.LockScreenStyleSettings"
+                android:targetPackage="com.android.settings" />
+        </PreferenceScreen>
+        <CheckBoxPreference android:key="lock_screen_notifications"
+                android:title="@string/lock_screen_notifications_title"
+                android:summary="@string/lock_screen_notifications_summary"/>
+        <PreferenceScreen
+            android:key="scenes"
+            android:title="@string/display_settings_scences_title" >
+            <intent
+                android:targetClass="com.android.launcher2.SceneChooser"
+                android:targetPackage="com.android.launcher" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:fragment="com.mediatek.thememanager.ThemeManager"
+            android:key="color"
+            android:title="@string/mtk_thememanager_title" />
+        <PreferenceScreen
+            android:fragment="com.android.settings.WallpaperTypeSettings"
+            android:key="wallpaper"
+            android:title="@string/wallpaper_settings_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="display_default"
+        android:persistent="false"
+        android:title="@string/display_default" >
+        <CheckBoxPreference
+            android:key="accelerometer"
+            android:title="@string/accelerometer_title" />
+
+        <com.android.settings.BrightnessPreference
+            android:dialogTitle="@string/brightness"
+            android:key="brightness"
+            android:title="@string/brightness" />
+
+        <PreferenceScreen
+            android:fragment="com.android.settings.DreamSettings"
+            android:key="screensaver"
+            android:title="@string/screensaver_settings_title" />
+
+        <com.android.settings.WarnedListPreference
+            android:dialogTitle="@string/dialog_title_font_size"
+            android:entries="@array/entries_font_size"
+            android:entryValues="@array/entryvalues_font_size"
+            android:key="font_size"
+            android:summary="@string/summary_font_size"
+            android:title="@string/title_font_size" />
+
+        <!-- Add for HDMI settings  begin -->
+        <PreferenceScreen
+            android:fragment="com.android.settings.HDMISettings"
+            android:key="hdmi_settings"
+            android:summary="@string/hdmi_settings_summary"
+            android:title="@string/hdmi_settings" />
+         <!-- Add for HDMI settings  end -->
+
+        <ListPreference
+            android:key="landscape_launcher"
+            android:persistent="false"
+            android:title="@string/landscape_launcher_title" />
+
+        <CheckBoxPreference
+            android:key="notification_pulse"
+            android:persistent="false"
+            android:title="@string/notification_pulse_title" />
+
+        <ListPreference
+            android:entries="@array/screen_timeout_entries"
+            android:entryValues="@array/screen_timeout_values"
+            android:key="screen_timeout"
+            android:persistent="false"
+            android:summary="@string/screen_timeout_summary"
+            android:title="@string/screen_timeout" />
+
+        <!-- Add for tvout settings -->
+        <PreferenceScreen
+            android:fragment="com.android.settings.TVOutSettings"
+            android:key="tvout_settings"
+            android:summary="@string/tvout_settings_summary"
+            android:title="@string/tvout_settings" />
+
+        <PreferenceScreen
+                android:key="wifi_display"
+                android:title="@string/wifi_display_settings_title"
+                android:fragment="com.android.settings.wfd.WifiDisplaySettings" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

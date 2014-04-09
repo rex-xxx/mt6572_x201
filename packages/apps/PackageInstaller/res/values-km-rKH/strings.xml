@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">អ្នកតម្លើងកញ្ចប់កម្មវិធី</string>  
+    <string name="install">តម្លើង</string>  
+    <string name="done">បានធ្វើរួច</string>  
+    <string name="security_settings_desc">អនុញ្ញាតកម្មវិធីនេះចំពោះ ៖</string>  
+    <string name="cancel">លើកលែង</string>  
+    <string name="unknown">មិនស្គាល់</string>  
+    <string name="installing">កំពុងតម្លើង\u2026</string>  
+    <string name="install_done">កម្មវិធីបានតម្លើងរួចហើយ ។</string>  
+    <string name="install_confirm_question">តើអ្នកចង់តម្លើងកម្មវិធីនេះទេ? វានឹងអាចបើកមើលបានចំពោះ ៖</string>  
+    <string name="install_confirm_question_no_perms">តើអ្នកចង់តម្លើងកម្មវិធីនេះទេ? វាមិនតម្រូវការនូវសិទ្ធិបើកមើលពិសេសណាមួយឡើយ ។</string>  
+    <string name="install_confirm_question_update">តើអ្នកចង់តម្លើងការធ្វើបច្ចុប្បន្នភាពទៅក្នុងកម្មវិធីដែលមានស្រាប់នេះទេ? ទិន្នន័យដែលមានស្រាប់របស់អ្នកនឹងមិនបាត់បង់ឡើយ ។ កម្មវិធីដែលបានធ្វើបច្ចុប្បន្នភាព នឹងអាចបើកមើលបានចំពោះ ៖</string>  
+    <string name="install_confirm_question_update_system">តើអ្នកចង់តម្លើងការធ្វើបច្ចុប្បន្នភាពចំពោះកម្មវិធីដែលមានជាប់មកជាមួយនេះទេ? ទិន្នន័យដែលមានស្រាប់របស់អ្នកនឹងមិនបាត់បង់ឡើយ ។ កម្មវិធីដែលបានធ្វើបច្ចុប្បន្នភាព នឹងអាចបើកមើលបានចំពោះ ៖</string>  
+    <string name="install_failed">កម្មវិធីមិនត្រូវបានតម្លើងឡើយ ។</string>  
+    <string name="install_failed_invalid_apk">កញ្ចប់កម្មវិធីនេះវាខូចហើយ ។</string>  
+    <string name="install_failed_inconsistent_certificates">កញ្ចប់កម្មវិធីដែលមានស្រាប់ ដែលមានឈ្មោះដូចគ្នាជាមួយនឹងហត្ថលេខាដែលមិនស្របគ្នា បានតម្លើងរួចហើយ ។</string>  
+    <string name="install_failed_older_sdk">កញ្ចប់កម្មវិធីនេះ ប្រើបានតែជាមួយនឹង Android កំណែថ្មីៗតែប៉ុណ្ណោះ ។</string>  
+    <string name="install_failed_cpu_abi_incompatible" product="tablet">កម្មវិធីនេះមិ\នអាចប្រើបានជាមួយនឹងកូនកុំព្យូទ័ររបស់អ្នកឡើយ ។</string>  
+    <string name="install_failed_cpu_abi_incompatible" product="default">កម្មវិធីនេះមិ\នអាចប្រើបានជាមួយនឹងទូរស័ព្ទរបស់អ្នកឡើយ ។</string>  
+    <string name="install_failed_file_not_found">កញ្ចប់កម្មវិធីនេះ ត្រូវបានលុបចោល នៅមុនពេលការតម្លើងបានបញ្ចប់ ។</string>  
+    <string name="install_failed_verify_failed">កញ្ចប់កម្មវិធីនេះមិនបានឆ្លងផុតការផ្ទៀងផ្ទាត់ ហើយមិនអាចតម្លើងបានឡើយ ។</string>  
+    <string name="install_failed_verify_timeout">អស់ម៉ោង ខណៈពេលព្យាយាមផ្ទៀងផ្ទាត់អំពីកញ្ចប់កម្មវិធីនេះ ។ សូមព្យាយាមតម្លើងវាម្តងទៀតនាពេលក្រោយ ។</string>  
+    <string name="install_failed_msg" product="tablet"> 
+        <xliff:g id="app_name">%1$s</xliff:g> មិ\នអាចតម្លើងក្នុងកូនកុំព្យូទ័ររបស់អ្នកបានឡើយ ។
+    </string>  
+    <string name="install_failed_msg" product="default"> 
+        <xliff:g id="app_name">%1$s</xliff:g> មិ\នអាចតម្លើងក្នុងទូរស័ព្ទរបស់អ្នកបានឡើយ ។
+    </string>  
+    <string name="launch">បើក</string>  
+    <string name="unknown_apps_dlg_title">ការតម្លើងត្រូវបានរារាំង</string>  
+    <string name="unknown_apps_dlg_text" product="tablet">សម្រាប់សុវត្ថិភាព កូនកុំព្យូទ័ររបស់អ្នក ត្រូវបានសិតឲ្យរារាំងការតម្លើងកម្មវិធី ដែលបានមកពីប្រភពដែលមិនស្គាល់ ។</string>  
+    <string name="unknown_apps_dlg_text" product="default">សម្រាប់សុវត្ថិភាព ទូរស័ព្ទរបស់អ្នក ត្រូវបានសិតឲ្យរារាំងការតម្លើងកម្មវិធី ដែលបានមកពីប្រភពដែលមិនស្គាល់ ។</string>  
+    <string name="ok">យល់ព្រម</string>  
+    <string name="settings">ការតម្លើង</string>  
+    <string name="allow_source_dlg_title">ប្រភពថ្មីនៃកម្មវិធី</string>  
+    <string name="allow_source_dlg_text"> 
+        <xliff:g id="app_name">%1$s</xliff:g> ត្រូវការតម្លើងកម្មវិធីផ្សេងទៀត ។\n\nអនុញ្ញាតវាឥឡូវនេះ និងពេលអនាគតឬទេ?
+    </string>  
+    <string name="manage_applications">ចាត់ចែងកម្មវិធី</string>  
+    <string name="dlg_app_replacement_title">ជំនួសកម្មវិធីទេ?</string>  
+    <string name="dlg_app_replacement_statement">កម្មវិធីដែលអ្ន\កកំពុងតម្លើង នឹងជំនួសកម្មវិធីផ្សេងទៀត ។\n\nគ្រប់ទិន្នន័យអ្នកប្រើពីមុនរបស់អ្នកនឹងត្រូវបានរក្សាទុក ។</string>  
+    <string name="dlg_sys_app_replacement_statement">នេះជាកម្មវិធីរបស់ប្រព័ន្ធ ។\n\nគ្រប់ទិន្នន័យអ្នកប្រើពីមុនរបស់អ្នកនឹងត្រូវបានរក្សាទុក ។</string>  
+    <string name="out_of_space_dlg_title">អស់កន្លែងផ្ទុក</string>  
+    <string name="out_of_space_dlg_text"> 
+        <xliff:g id="app_name">%1$s</xliff:g> មិនអាចតម្លើងបានឡើយ ។ លុបអ្វីៗចោលខ្លះ ហើយសាកល្បងម្តងទៀត ។
+    </string>  
+    <string name="dlg_ok">យល់ព្រម</string>  
+    <string name="app_not_found_dlg_title">រកកម្មវិធីមិនឃើញ</string>  
+    <string name="app_not_found_dlg_text">កម្មវិធីរកមិ\នឃើញនៅក្នុងបញ្ជីនៃកម្មវិធីដែលបានតម្លើង ។</string>  
+    <string name="uninstall_application_title">មិនតម្លើងកម្មវិធី</string>  
+    <string name="uninstall_update_title">មិនតម្លើងការធ្វើបច្ចុប្បន្នភាព</string>  
+    <string name="uninstall_activity_text"> 
+        <xliff:g id="activity_name">%1$s</xliff:g> គឺជាផ្នែកនៃកម្មវិធីដូចខាងក្រោម ៖
+    </string>  
+    <string name="uninstall_application_text">តើអ្នកមិនចង់តម្លើងកម្មវិធីនេះមែនទេ?</string>  
+    <string name="uninstall_update_text">តើអ្នកចង់ជំនួសកម្មវិធីនេះ ជាមួយនឹងកំណែពីរោងចក្រមែនទេ?</string>  
+    <string name="uninstalling">កំពុងមិនតម្លើងកម្មវិធី\u2026</string>  
+    <string name="uninstall_done">ការមិនតម្លើងបានបញ្ចប់ ។</string>  
+    <string name="uninstall_failed">ការមិនតម្លើងិនបានទទួលជោគជ័យទេ ។</string>  
+    <string name="uninstall_failed_device_policy_manager">មិ\នអាចមិនតម្លើងកម្មវិធី ដោយសារថាកញ្ចប់កម្មវិធីនេះគឺជាឧបករណ៍រដ្ឋបាលសកម្ម ។</string>  
+    <string name="manage_device_administrators">ចាត់ចែងឧបករណ៍រដ្ឋបាល</string>  
+    <string name="uninstall_failed_msg"> 
+        <xliff:g id="app_name">%1$s</xliff:g> មិ\នអាចមិនតម្លើងបានទេ ។
+    </string>  
+    <string name="Parse_error_dlg_title">កំហុសការបំបែក</string>  
+    <string name="Parse_error_dlg_text">វាមានបញ្ហាក្នុងការបំបែកកញ្ចប់កម្មវិធី ។</string>  
+    <string name="newPerms">ថ្មី</string>  
+    <string name="privacyPerms">ឯកជនភាព</string>  
+    <string name="devicePerms">ការចូលបើកមើលឧបករណ៍</string>  
+    <string name="no_new_perms">ការធ្វើបច្ចុប្បន្នភាពនេះ មិនតម្រូវការការអនុញ្ញាតថ្មីទេ ។</string> 
+</resources>

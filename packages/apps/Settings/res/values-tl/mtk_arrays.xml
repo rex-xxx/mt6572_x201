@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+     <string-array name="wifi_security"> 
+        <item>"Buksan"</item>  
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+        <item>WAPI PSK</item>
+        <item>WAPI Sertipiko</item>  
+    </string-array>  
+    <string-array name="wpa_security"> 
+        <item>"Buksan"</item>  
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>  
+    <string-array name="wpa_security_wfa"> 
+        <item>"Buksan"</item>  
+        <item>WEP</item>
+        <item>WPA PSK</item>
+        <item>WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>  
+    <string-array name="wapi_security"> 
+        <item>"Buksan"</item>  
+        <item>WAPI PSK</item>
+        <item>WAPI Sertipiko</item>  
+    </string-array>  
+    <string-array name="gemini_sim_info_number_display_format_entries"> 
+        <item>Unang 4 na digit</item>  
+        <item>Huling 4 na numero</item>  
+        <item>Huwag ipakita</item> 
+    </string-array>  
+    <string-array name="gemini_sim_roaming_reminder_entries"> 
+        <item>Minsan</item>  
+        <item>Lagi</item>  
+        <item>Hindi kailanman</item> 
+    </string-array>  
+    <string-array name="gsm_umts_network_preferences_choices"> 
+        <item>GSM/WCDMA (auto na mode)</item>  
+        <item>WCDMA lamang</item>  
+        <item>GSM lang</item> 
+    </string-array>  
+    <string-array name="network_use_entry"> 
+        <item>Home Lang</item>  
+        <item>Home + Roaming</item> 
+    </string-array>  
+    <string-array name="auto_time_entries"> 
+        <item>Gamitin ang oras na nilaan ng network</item>  
+        <item>Gamitin ng nilaan ng GPS na oras</item>  
+        <item>I-off</item> 
+    </string-array>  
+    <string-array name="hdmi_video_resolution_entries"> 
+        <item>Awto</item>  
+        <item>720P</item>
+        <item>480P</item>
+    </string-array>  
+    <string-array name="wifi_WEP_security_type"> 
+        <item>Awto</item>  
+        <item>WEP ASCII</item>
+        <item>WEP hexadecimal</item>  
+    </string-array>  
+    <string-array name="wifi_hotspot_disable_policy_entries"> 
+        <item>Lagi</item>  
+        <item>I-off kapag di ginagamit nang 5 min</item>  
+        <item>I-off kapag di ginagamit nang 10 min</item> 
+    </string-array>  
+    <string-array name="wifi_ap_wps_mode_entries"> 
+        <item>Pinduton ang button</item>  
+        <item>PIN mula sa client</item> 
+    </string-array>  
+    <string-array name="wifi_ap_max_connection_entries"> 
+        <item>1 gumagamit</item>  
+        <item>2 gumagamit</item> 
+        <item>3 gumagamit</item>
+        <item>4 gumagamit</item>
+        <item>5 gumagamit</item>
+        <item>6 gumagamit</item>
+        <item>7 gumagamit</item>
+        <item>8 gumagamit</item>
+    </string-array> 
+	<string-array name="sim_slot">
+		<item>"(di-tukoy)"</item>
+		<item>Sim Slot 1</item>
+		<item>Sim Slot 2</item>
+	</string-array>
+</resources>

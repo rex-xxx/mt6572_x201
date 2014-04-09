@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="wifi_security"> 
+        <item>Open</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+        <item>WAPI PSK</item>
+        <item>شهادة WAPI</item>
+    </string-array>  
+    <string-array name="wpa_security"> 
+        <item>"فتح"</item>  
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item> 
+    </string-array>  
+    <string-array name="wpa_security_wfa"> 
+        <item>"فتح"</item>  
+        <item>WEP</item>
+        <item>WPA PSK</item>
+        <item>WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>  
+    <string-array name="wapi_security"> 
+        <item>"فتح"</item>
+        <item>WAPI PSK</item>  
+        <item>شهادة WAPI</item>  
+    </string-array>  
+    <string-array name="gemini_sim_info_number_display_format_entries"> 
+        <item>أول 4 أرقام</item>  
+        <item>آخر 4 أرقام</item>  
+        <item>عدم العرض</item> 
+    </string-array>  
+    <string-array name="gemini_sim_roaming_reminder_entries"> 
+        <item>مرة واحدة</item>  
+        <item>دائمًا</item>  
+        <item>أبدًا</item> 
+    </string-array>  
+    <string-array name="gsm_umts_network_preferences_choices"> 
+        <item>GSM/WCDMA (الوضع التلقائي)</item>  
+        <item>WCDMA فقط</item>  
+        <item>GSM فقط</item> 
+    </string-array>  
+    <string-array name="network_use_entry"> 
+        <item>الرئيسية فقط</item>  
+        <item>الرئيسية + التجوال</item> 
+    </string-array>  
+    <string-array name="auto_time_entries"> 
+        <item>استخدام الوقت المعين بالشبكة</item>  
+        <item>استخدم الوقت المُعيّن بـ GPS</item>  
+        <item>إيقاف</item> 
+    </string-array>  
+    <string-array name="hdmi_video_resolution_entries"> 
+        <item>تلقائي</item>  
+        <item>720P</item>
+        <item>480P</item>
+    </string-array>  
+    <string-array name="wifi_WEP_security_type"> 
+        <item>تلقائي</item>  
+        <item>WEP ASCII</item>
+        <item>WEP hexadecimal</item>  
+    </string-array>  
+    <string-array name="wifi_hotspot_disable_policy_entries"> 
+        <item>دائمًا</item>  
+        <item>إيقاف عند الخمول لمدة 5 دقائق</item>  
+        <item>إيقاف عند الخمول لمدة 10 دقائق</item> 
+    </string-array>  
+    <string-array name="wifi_ap_wps_mode_entries"> 
+        <item>اضغط على الزر</item>  
+        <item>رمز PIN من العميل</item> 
+    </string-array>  
+    <string-array name="wifi_ap_max_connection_entries"> 
+        <item>1 مستخدم</item>  
+        <item>2 مستخدم</item> 
+        <item>3 مستخدم</item> 
+        <item>4 مستخدم</item> 
+        <item>5 مستخدم</item> 
+        <item>6 مستخدم</item> 
+        <item>7 مستخدم</item> 
+        <item>8 مستخدم</item> 
+    </string-array> 
+	<string-array name="sim_slot">
+		<item>"(غير محدد)"</item>
+		<item>فتحة Sim 1</item>
+		<item>فتحة Sim 2</item>
+	</string-array>
+</resources>

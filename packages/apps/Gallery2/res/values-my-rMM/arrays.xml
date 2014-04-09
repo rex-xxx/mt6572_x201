@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string-array name="proxy_error"> 
+        <item>လက်ခံသူနေရာတွင် ကွက်လပ်ဖြစ်၍မရ</item>  
+        <item>ဝင်ပေါက်နေရာတွင် ကွက်လပ်ဖြစ်၍မရ</item>  
+        <item>အသုံးမရှိသောလက်ခံသူ</item>  
+        <item>အသုံးမရှိသောဝင်ပေါက်</item> 
+    </string-array> 
+</resources>

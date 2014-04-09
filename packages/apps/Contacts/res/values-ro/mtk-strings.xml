@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">    
+    <string name="deleteConfirmation_title" msgid="1418215926447642260">"Doriţi să ştergeţi contactul?"</string>
+    <string name="add_contact_dlg_title" msgid="2896685845822146494">Adăugare contact</string>
+    <string name="no_sdcard_title" product="nosdcard" msgid="8543619259870877473">"Stocare indisponibilă"</string>
+    <string name="no_sdcard_title" product="default" msgid="5911758680339949273">"Niciun card SD"</string>
+    <string name="searching_vcard_title" msgid="4970508055399376813">"Se caută date în format vCard"</string>
+    <string name="scanning_sdcard_failed_title" product="nosdcard" msgid="4944932641334764942">"Nu s-a putut scana stocarea"</string>
+    <string name="scanning_sdcard_failed_title" product="default" msgid="6664940444476572612">"Nu s-a putut scana cardul SD"</string>
+    <string name="cancel_import_confirmation_title" msgid="5578683596010294836">"Se anulează importul vCard"</string>
+    <string name="cancel_export_confirmation_title" msgid="6516467140276768528">"Se anulează exportul vCard"</string>
+    <string name="menu_all_contacts" msgid="5101735431586050711">"Toată agenda"</string>
+    <string name="search_bar_hint" msgid="1012756309632856553">"Căutaţi în persoanele din agendă"</string>
+    <string name="aggregation_suggestion_join_dialog_title" msgid="5276699501316246253">"Asociaţi intrările din Agendă"</string>
+    <string name="aggregation_suggestion_edit_dialog_title" msgid="1064042382692091314">"Editaţi persoanele din agendă selectate"</string>
+    <string name="cancel_confirmation_dialog_title" msgid="3950463632415908534">"Renunţaţi la modificări"</string>
+
+    <string name="menu_ipcallNumber">Apelare IP 
+        <xliff:g id="name">%s</xliff:g> 
+    </string>  
+    <string name="deleting_call_log">Se şterge jurnalul de apeluri...</string>  
+    <string name="add_SIP_to_sim">Imposibil de adăugat numărul SIP la persoana de contact SIM/USIM.</string>  
+    <string name="already_has_SIP">Imposibil de adăugat două numere SIP la persoana de contact, dacă trebuie să continuaţi. Ştergeţi mai întâi numărul SIP vechi.</string>  
+    <string name="multichoice_no_select_alert">"Niciun element selectat."</string> 
+    <string name="sum_search_networks">"Căutaţi toate reţelele disponibile"</string>    
+    <string name="notifier_progress__delete_will_start_message">Persoanele de contact se vor şterge în scurt timp.</string>  
+    <string name="notifier_progress__copy_will_start_message">Persoanele de contact se vor copia în scurt timp.</string>
+    
+    <string name="remove_sd_confirm_2">Sigur doriţi să eliminaţi 
+        <xliff:g id="contact_name">%1$s</xliff:g> din apelarea rapidă 
+        <xliff:g id="key">%2$s</xliff:g>?
+    </string>  
+    <string name="callFailed_simError">Lipsă SIM sau eroare SIM</string>  
+    <string name="group_discard_member">Renunţare</string>  
+    <string name="group_discard_member_reason">Modificările vor fi anulate deoarece numele grupului este nevalid.</string>  
+    <string name="share_contacts_limit">"Persoanele de contact selectate pentru partajare nu pot fi mai multe de 3500"</string>  
+    <string name="contact_delete_all_tips">"Există deja o ştergere de persoane de contact în execuţie în fundal, dacă doriţi să porniţi o nouă ştergere de persoane de contact, revocaţi-o mai întâi pe aceasta."</string>
+
+    <string name="deleteCallLogConfirmation_title">Ştergeţi jurnalul(ele) de apeluri?</string>  
+    <string name="deleteCallLogConfirmation_message">Sigur ştergeţi jurnalul(ele) de apeluri selectate(e)?</string>
+    
+    <!--The following lines are provided and maintained by Mediatek Inc.  -->
+    <string name="selected_item_count"> 
+        <xliff:g id="count">%d</xliff:g> selectat
+    </string>
+    <string name="menu_actionbar_selected_items"><xliff:g id="name">%s</xliff:g> selectat</string>
+    <string name="recentCalls_delete">"Ştergeţi"</string>
+    <string name="menu_clearAll">"Deselectare totală"</string>
+    <string name="sim1">SIM1</string>
+    <string name="sim2">SIM2</string>
+    <string name="call_log_item_count">(<xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="count">%1$d</xliff:g>)</string>
+    <string name="call_indicator_3g">3G</string>
+    <string name="has_double_phone_number">Imposibil de salvat acelaşi număr de tipuri de două ori, verificaţi.</string>  
+    <string name="msg_loading_sim_contacts_toast">"Încărcare în curs contacte SIM în fundal, aşteptaţi un moment."</string> 
+    <string name="account_type_sim" product="tablet">Cont SIM</string>
+    <string name="account_type_sim" product="default">Cont SIM</string>
+    <string name="account_type_usim" product="tablet">Cont USIM</string>
+    <string name="account_type_usim" product="default">Cont USIM</string>
+    <string name="account_type_local_phone" product="tablet">Cont local telefon</string>
+    <string name="account_type_local_phone" product="default">Cont local telefon</string>
+    <string name="local_account_type" product="tablet">Cont local</string>
+    <string name="local_account_type" product="default">Cont local</string>
+    <string name="local_account_label" product="tablet">Cont local</string>
+    <string name="local_account_label" product="default">Cont local</string>
+    <string name="account_type_sim_label" product="tablet">Numai SIM, nesincronizat</string>
+    <string name="account_type_sim_label" product="default">Numai SIM, nesincronizat</string>
+    <string name="account_type_usim_label" product="tablet">Doar în mod USIM, nesincronizat</string>
+    <string name="account_type_usim_label" product="default">Doar în mod USIM, nesincronizat</string>
+   <string name="menu_move_group">"Mutare membri grup"</string>  
+    <string name="menu_message_group">"Trimitere mesaj de grup"</string>  
+    <string name="usim_group_name_exceed_limit">"Nume grup prea lung pentru contul USIM."</string>  
+    <string name="usim_group_count_exceed_limit">"Nu se mai pot adăuga grupuri noi la contul USIM."</string>  
+    <string name="store_contact_to">Stocare contact în</string>  
+    <string name="notifier_finish_delete_title">Ştergere persoane de contact reuşită</string>  
+    <string name="notifier_finish_delete_content"> 
+        <xliff:g id="total">%d</xliff:g> persoane de contact şterse
+    </string>  
+    <string name="notifier_finish_copy_title">Copiere persoane de contact reuşită</string>  
+    <string name="notifier_finish_copy_content"> 
+        <xliff:g id="total">%d</xliff:g> persoane de contact copiate
+    </string>  
+    <string name="notifier_multichoice_process_report">Terminate: 
+        <xliff:g id="items">%d</xliff:g>\nNeterminate: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>  
+    <string name="notifier_failure_by_sim_full">Eroare cauzată de spaţiul de stocare SIM plin\nTerminate: 
+        <xliff:g id="items">%d</xliff:g>\nNeterminate: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>  
+    <string name="notifier_failure_sim_notready">Eroare cauzată de SIM nepregătit\nTerminate: 
+        <xliff:g id="items">%d</xliff:g>\nNeterminate: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>  
+    <string name="notifier_cancel_delete_title">Ştergere persoane de contact revocată</string>  
+    <string name="notifier_fail_delete_title">Ştergere persoane de contact nereuşită</string>  
+    <string name="notifier_cancel_copy_title">Copiere persoane de contact revocată</string>  
+    <string name="notifier_fail_copy_title">Copiere persoane de contact nereuşită</string>  
+    <string name="notifier_progress_delete_message">Ştergere 
+        <xliff:g id="current_number">%s</xliff:g>/ 
+        <xliff:g id="total_number">%s</xliff:g>: 
+        <xliff:g id="name" example="JoeDue">%s</xliff:g> 
+    </string>  
+    <string name="notifier_progress_delete_description">Ştergere 
+        <xliff:g id="name" example="JoeDue">%s</xliff:g> 
+    </string>  
+    <string name="notifier_progress_copy_message">Copiere 
+        <xliff:g id="current_number">%s</xliff:g>/ 
+        <xliff:g id="total_number">%s</xliff:g>: 
+        <xliff:g id="name" example="JoeDue">%s</xliff:g> 
+    </string>  
+    <string name="notifier_progress_copy_description">Copiere 
+        <xliff:g id="name" example="JoeDue">%s</xliff:g> 
+    </string>  
+    <string name="multichoice_confirmation_title_delete">Se revocă ştergerea persoanelor de contact</string>  
+    <string name="multichoice_confirmation_message_delete">Revocaţi ştergerea persoanelor de contact?</string>  
+    <string name="multichoice_confirmation_title_copy">Revocare copiere persoane de contact</string>  
+    <string name="multichoice_confirmation_message_copy">Revocaţi copierea persoanelor de contact?</string>  
+
+<string name="menu_print">Tipărire</string>  
+    <string name="printContact">Tipărire contact via</string>  
+    <string name="no_way_to_print">Nicio aplicație disponibilă pentru a tipări contactul.</string>  
+    <string name="from_account_format"> 
+        <xliff:g id="source" example="user@gmail.com">%1$s</xliff:g> 
+    </string>  
+    <string name="menu_selectAll">"Selectare totală"</string>  
+    <string name="all_resources">Toate Resursele</string>  
+    <string name="choose_resources_header">Alegeți Resurse</string>  
+    <string name="all_tab_label1">TOATE</string>  
+    <string name="call_sipcall">Apel internet</string>  
+    <string name="call_pin_dialog_title">Selectați cartelă SIM</string>  
+    <string name="call_people">Ceilalți</string>  
+    <string name="call_ip_dial">Apelare IP</string>  
+    <string name="call_speed_dial">Apelare rapidă</string>  
+    <string name="call_video_call">Apel video</string>  
+    <string name="add_speed_dial">Ating pt a adăuga apel rapid</string>
+    <string name="speed_dial_added"> 
+        <xliff:g id="contact_name">%1$s</xliff:g> ( 
+        <xliff:g id="phone_label">%2$s</xliff:g>) adăugat la apelare rapidă 
+        <xliff:g id="key">%3$s</xliff:g> 
+    </string>  
+    <string name="speed_dial_added2"> 
+        <xliff:g id="contact_name">%1$s</xliff:g> adăugat la apelare rapidă 
+        <xliff:g id="key">%2$s</xliff:g> 
+    </string>  
+    <string name="remove_speed_dial">Eliminare</string>  
+    <string name="remove_sd_confirm_1">Doriți să eliminați 
+        <xliff:g id="contact_name">%1$s</xliff:g> ( 
+        <xliff:g id="phone_label">%2$s</xliff:g>) din apelarea rapidă 
+        <xliff:g id="key">%3$s</xliff:g>?
+    </string>  
+    <string name="emergencycall">Apel de urgență</string>  
+    <string name="imei_invalid">Invalid</string>  
+    <string name="call_log_filter_all_resources">Toate resursele</string>  
+    <string name="turn_on_3g_service_message">Serviciul 3G este dezactivat acum, vreți să-l activați?</string>  
+    <string name="associate_sim_missing_message">"Cartela SIM %1$s este indisponibilă. Doriţi să plasaţi apelul prin %2$s"</string>  
+    <string name="associate_sim_missing_other">altul</string>  
+    <string name="sim_manage_call_via">Apel via</string>  
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">Introduceţi mai întâi numărul de prefix IP în setările de apel vocal.</string>  
+    <string name="ip_dial_error_toast_for_sip_call_selected">Funcţia de apelare IP nu se aplică la apelul prin Internet.</string>  
+    <string name="sd_add">Adăugare</string>  
+    <string name="reselect_number">Numărul a fost deja atribuit unei taste de apelare rapidă, vă rugăm să selectați alt număr.</string>  
+    <string name="calllog_today">Astăzi</string>  
+    <string name="calllog_yesterday">Ieri</string>  
+    <string name="menu_association">Asociere cartelă SIM</string>  
+    <string name="menu_remove_association">Ștergere Asociere SIM</string>  
+    <string name="remove_association_message">Doriți să ștergeți asocierea SIM cu acest număr?</string>  
+    <string name="remove_number_title">Eliminare</string>  
+    <string name="associatiated_SIM">"SIM asociat"</string>  
+    <string name="unassociated">"Neasociat"</string>  
+    <string name="associate_SIM">"Asociere SIM"</string>  
+    <string name="block_incoming_call">Blocare directă apeluri sosite</string>  
+    <string name="block_video_incoming_call">Blocare directă apeluri video sosite</string>  
+    <string name="phone_book_busy">Agenda este ocupată acum, încercați mai târziu.</string>  
+    <string name="sim_invalid">Imposibil de salvat contact când cartel SIM este invalidă.</string>  
+    <string name="cannot_insert_null_number">Imposibil de salvat un contact a cărui număr este vid.</string>  
+    <string name="AirPlane_mode_on">Imposibil de salvat un contact când modul Avion este activat.</string>  
+    <string name="FDNEnabled">Imposibil de salvat un contact când FDN este activat.</string>  
+    <string name="sim_invalid_number">Imposibil de salva un număr invalid.</string>  
+    <string name="email_invalid">Imposibil de salva un email invalid.</string>  
+    <string name="email_2g_invalid">Imposibil de salvat în 2G SIM, vă rugăm selectați 3G SIM pentru a salva.</string>  
+    <string name="sim_invalid_fix_number">Imposibil de salva un număr fix invalid.</string>  
+    <string name="AirPlane_mode_on_edit">Imposibil de editat un contact când modul Avion este activat.</string>  
+    <string name="fix_number_too_long">"Numărul fix este prea lung."</string>  
+    <string name="name_too_long">"Numele este prea lung."</string>  
+    <string name="storage_full">Spațiul de stocare este plin.</string>  
+    <string name="number_too_long">"Numărul este prea lung."</string>  
+    <string name="generic_failure">Eroare generică.</string>  
+    <string name="send_groupsms_no_number_more">"%1$s și %2$s mai multe contacte nu au număr de telefon valid."</string>  
+    <string name="send_groupsms_no_number_1">"%1$s nu are număr de telefon valid."</string>  
+    <string name="send_groupsms_no_number_2">"%1$s și %2$s nu au număr de telefon valid."</string>  
+    <string name="please_wait">"vă rugăm să așteptați"</string>  
+    <string name="move_contacts_to">Mutare contacte la</string>  
+    <string name="menu_email_group">"Trimitere E-mail grup"</string>  
+    <string name="moving_group_members">"Mutare membri grup\u2026"</string>  
+    <string name="removing_group_members_sucess">"Ștergere cu succes a membrilor grupului"</string>  
+    <string name="moving_group_members_sucess">"Mutare cu succes a membrilor grupului"</string>  
+    <string name="moving_group_members_fail">"Mutare eșuată a membrilor grupului"</string>  
+    <string name="no_valid_number_in_group">Acest grup nu conține contacte cu număr de telefon valid.</string>  
+    <string name="no_valid_email_in_group">Acest grup nu are contacte cu E-mail.</string>  
+    <string name="email_error">Ar trebui să instalați o aplicație Email sau să configurați contul dumneavoastră!</string>  
+    <string name="name_needed">Numele este necesar</string>  
+    <string name="save_group_fail">Salvare grup eșuată.</string>  
+    <string name="group_name_exists">Acest nume de grup există deja.</string>  
+    <string name="import_export_title">Import/Export</string>  
+    <string name="next">"Înainte"</string>  
+    <string name="imexport_bridge_sd_card">Cartelă SD</string>  
+    <string name="tips_source">Copiere contacte de la</string>  
+    <string name="tips_target">Copiere contacte la</string>  
+    <string name="back">Înapoi</string>  
+    <string name="imexport_title">Import/Export Contacte</string>  
+    <string name="menu_delete_contact">"Ştergeţi persoana din agendă"</string>  
+    <string name="multichoice_delete_confirm_message">"Doriți să ștergeți contactele selectate?"</string>  
+    <string name="multichoice_delete_confirm_title">Ștergere contact(e)?</string>  
+    <string name="multichoice_contacts_limit">"Persoanele de contact selectate nu pot fi mai multe de 3500"</string>  
+    <plurals name="searchFoundCalllogs"> 
+        <item quantity="one">1 jurnal apeluri</item>  
+        <item quantity="other"> 
+            <xliff:g id="count">%d</xliff:g> jurnale apeluri
+        </item> 
+    </plurals>  
+    <string name="search_results_for">Rezultate căutare pentru: 
+        <xliff:g id="query">%s</xliff:g> 
+    </string>  
+    <string name="listFoundAllCalllogZero">Jurnalul de apeluri nu a fost găsit</string>  
+    <string name="calllogList">Istoric apeluri</string>  
+    <string name="calllogHint">Căutare jurnal apeluri</string>  
+    <string name="calllog_description">Apeluri sosite, expediate și ratate</string>  
+    <string name="noMatchingCalllogs">Niciun jurnal apel nu a fost găsit.</string>  
+    <string name="menu_videocallNumber">Apel Video 
+        <xliff:g id="name">%s</xliff:g> 
+    </string>  
+    <string name="no_vm_number">Număr poștă vocală lipsă</string>  
+    <string name="no_vm_number_msg">Niciun număr poștă vocală nu este stocat în cartela SIM.</string>  
+    <string name="add_vm_number_str">Adăugare număr</string>  
+    <string name="reminder">Memento</string>  
+    <string name="enable_sip_dialog_message">Apelul internet este dezactivat, doriți să-l activați?</string>  
+    <string name="file_already_on_sd_card">Fişierul se află deja în cartela SD.</string>  
+    <string name="send_file_sms_error">Imposibil de partajat fișierul cu MMS, vă rugăm să folosiți MMS.</string>  
+    <string name="error_save_usim_contact_email_lost">"Imposibil de salvat adresa Email pentru că spațiul de stocare USIM pentru Email este epuizat."</string>  
+    <string name="error_import_usim_contact_email_lost">"Eșec cauzat de spațiul de stocare epuizat USIM pentru Email.\nTerminat: 
+        <xliff:g id="items">%d</xliff:g>\nNeterminat: 
+        <xliff:g id="items">%d</xliff:g>"
+    </string>  
+    <string name="user_profile_cannot_sd_card">Imposibil de partajat conținutul cu această metodă.</string> 
+    
+    <string name="email_too_long">E-mailul este prea lung</string>     
+    <!-- The previous lines are provided and maintained by Mediatek Inc. -->
+      
+    <!--The following lines are provided and maintained by Mediatek Inc. 2012-5-16-->  
+    <string name="delete_group_failure">Eroare la ştergerea grupului.</string>  
+    <!-- The previous lines are provided and maintained by Mediatek Inc. -->
+    
+      <string name="call_sms">SMS</string> 
+    <string name="contact_group_list_title">"Selectaţi grupul ţintă"</string> 
+    <string name="import_no_vcard_dialog_text">Nu s-a găsit niciun fişier vCard în 
+        <xliff:g id="storage_name">%s</xliff:g>
+    </string> 
+  <string name="send_groupemail_no_number_more">"%1$s şi alte %2$s persoane de contact nu au adresă de e-mail corectă."</string>
+  <string name="send_groupemail_no_number_1">"%1$s nu are adresă de e-mail corectă."</string>
+  <string name="send_groupemail_no_number_2">"%1$s şi %2$s nu au adresă de e-mail corectă."</string>
+  <string name="send_message">Trimitere mesaj</string>
+  <string name="type_ip_outgoing">Apel efectuat IP ( 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="name">%s</xliff:g>)
+    </string>
+  <string name="call_log_auto_rejected_label">Apeluri respinse automat</string>
+  <string name="look_simstorage">Vizualizare capacitate cartelă SIM</string>
+  <string name="dlg_simstorage_content">Capacitatea de stocare a agendei telefonice 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="items">%d</xliff:g> a fost utilizată pentru 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="items">%d</xliff:g>.
+    </string>
+  <string name="delete_group_dialog_title" msgid="7368429698398624427">"Ştergeţi grupul"</string>
+  <string name="dialog_phone_call_prohibited_title" msgid="2111395432187079579">"Apelul nu a fost trimis"</string>
+  <string name="dialog_voicemail_not_ready_title" msgid="7258109862329777060">"Număr de mesagerie vocală indisponibil"</string>
+
+    <string name="nickname_too_long">"Pseudonimul este prea lung."</string>
+    <string name="pick_new_photo_from_gallery">Selectare fotografie nouă</string>  
+    <string name="copy_text_to_dialer">Copiere în cadran</string> 
+    <string name="account_phone_only" product="tablet">"Tabletă"</string>  
+    <string name="account_phone_only" product="default">Telefon</string>  
+
+    <string name="international_dialing_title">Asistenţă internaţională pentru apelare</string>
+    <string name="international_dialing_select_country">S-a detectat faptul că efectuaţi un apel internaţional. Alegeţi destinaţia.</string>
+    <string name="international_dialing_add_country_code">S-a detectat faptul că efectuaţi un apel către un număr din <xliff:g id="country_name">%s</xliff:g>. Doriţi să adăugaţi codul de ţară (+<xliff:g id="country_code">%s</xliff:g>)?</string>
+    <string name="international_dialing_add_country_code_and_area_code">S-a detectat faptul că efectuaţi un apel către un număr din <xliff:g id="area_name">%1$s</xliff:g>, <xliff:g id="country_name">%2$s</xliff:g>. Doriţi să adăugaţi codul de ţară şi codul de regiune (+<xliff:g id="prefix">%3$s</xliff:g>)?</string> 
+    <string name="international_dialing_change_country_prefix">S-a detectat faptul că efectuaţi acest apel din <xliff:g id="country_name">%s</xliff:g>. Schimbaţi prefixul internaţional la \'+\'?</string>
+    <string name="international_dialing_add_country_code_input_area_code">S-a detectat faptul că efectuaţi un apel către un număr din <xliff:g id="country_name">%s</xliff:g>. Dacă acesta este cazul, introduceţi codul de regiune.</string>   
+    <string name="international_dialing_add_country_code_default_input_area_code">S-a detectat faptul că efectuaţi un apel către un număr din <xliff:g id="country_name">%s</xliff:g>. Dacă oraşul de destinaţie nu este <xliff:g id="area_name">%s</xliff:g>, introduceţi codul de regiune.</string>
+    <string name="international_dialing_need_area_code">Codul de regiune al oraşului de destinaţie este necesar pentru efectuarea apelului.</string>
+    <string name="international_dialing_input_area_code">Introduceţi aici codul de regiune</string>
+    <string name="international_dialing_dialed_number">Număr de apelat:</string>
+    <string name="international_dialing_confirm_area_code">Dacă oraşul de destinaţie nu este <xliff:g id="area_name">%s</xliff:g>, introduceţi mai jos codul de regiune al oraşului de destinaţie.</string>
+    <string name="international_dialing_dial_with_country_code">Apelaţi împreună cu codul de ţară</string>
+    <string name="international_dialing_click_below_button">Faceţi clic pe butonul de mai jos pentru a schimba codul de ţară.</string>
+    <string name="international_dialing_yes">Da, se utilizează numărul de mai jos:</string>
+    <string name="international_dialing_no">Nu, se utilizează numărul iniţial:</string>
+    <string name="international_dialing_call_button">"Apelaţi"</string>
+    <string name="international_dialing_area_code">cod regiune</string>
+    <string name="international_dialing_invalid_number">Numărul este nevalid. Doriţi să continuaţi apelarea?</string>
+    <string name="international_dialing_add_country_code_and_area_code_without_prefix">Doriţi să adăugaţi codul de ţară şi codul de regiune?</string>
+    <string name="share_too_large">Datele totale depăşesc limita superioară, deselectaţi unele elemente şi încercaţi din nou.</string>
+
+</resources>

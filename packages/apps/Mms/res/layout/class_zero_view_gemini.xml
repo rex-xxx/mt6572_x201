@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.mms.ui.ClassZeroView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content"
+	android:paddingBottom="5dip" 
+	android:paddingLeft="20dip"
+	android:paddingRight="20dip"
+	android:orientation="vertical">
+	<ScrollView android:layout_width="match_parent"
+	android:layout_height="wrap_content" android:id="@+id/body_scroll">
+	<LinearLayout android:id="@+id/view_parent"
+		android:layout_width="match_parent" 
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+		<TextView android:id="@+id/body" 
+		    android:layout_width="match_parent"
+			android:layout_height="wrap_content" 
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:textColor="@android:color/black"
+			android:singleLine="false" 
+			android:layout_alignParentLeft="true"
+			android:layout_marginTop="5dip"
+			android:layout_alignWithParentIfMissing="true" />
+		<TextView android:id="@+id/wpms_timestamp"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:linksClickable="false" 
+			android:singleLine="true"
+			android:layout_alignBottom="@id/body" 
+			android:layout_alignParentLeft="true"
+			android:textAppearance="?android:attr/textAppearanceSmall" />
+	</LinearLayout>
+</ScrollView>
+	
+
+</com.android.mms.ui.ClassZeroView>

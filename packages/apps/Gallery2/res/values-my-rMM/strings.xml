@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">ပြခန်း</string>  
+    <string name="gadget_title">ရုပ်ပုံဘောင်</string>  
+    <string name="details_ms">%1$02d:%2$02d</string>  
+    <string name="details_hms">%1$d:%2$02d:%3$02d</string>  
+    <string name="movie_view_label">ဗီဒီယိုဖွင့်စက်</string>  
+    <string name="loading_video">ဗီဒီယိုဖွင့်နေဆဲ\u2026</string>  
+    <string name="loading_image">ရုပ်ပုံဖွင့်နေဆဲ\u2026</string>  
+    <string name="loading_account">အကောင့်ဖွင့်နေဆဲ\u2026</string>  
+    <string name="resume_playing_title">ဗီဒီယိုရောက်ရှိသည့်နေရာမှဖွင့်ပါ</string>  
+    <string name="resume_playing_message">%s မှ ပြန်ဖွင့်မလား။</string>  
+    <string name="resume_playing_resume">ပြန်ဖွင့်ခြင်း</string>  
+    <string name="loading">ဖွင့်နေဆဲ\u2026</string>  
+    <string name="fail_to_load">မဖွင့်နိုင်ပါ</string>  
+    <string name="fail_to_load_image">ရုပ်ပုံကိုမဖွင့်နိုင်ပါ</string>  
+    <string name="no_thumbnail">လက်သည်းခွံအရွယ်ရုပ်ပုံမရှိ</string>  
+    <string name="resume_playing_restart">အစမှပြန်စပါ</string>  
+    <string name="crop_save_text">လုပ်မည်</string>  
+    <string name="ok">လုပ်မည်</string>  
+    <string name="multiface_crop_help">စတင်ရန် မျက်နှာကို ထိပါ</string>  
+    <string name="saving_image">ရုပ်ပုံကို သိမ်းဆည်းနေဆဲ\u2026</string>  
+    <string name="save_error">ဖြတ်တောက်ထားသောရုပ်ပုံကို မသိမ်းဆည်းနိုင်ပါ။</string>  
+    <string name="crop_label">ရုပ်ပုံကို ဖြတ်တောက်ပါ</string>  
+    <string name="select_image">ဓာတ်ပုံရွေးချယ်ပါ</string>  
+    <string name="select_video">ဗီဒီယိုရွေးချယ်ပါ</string>  
+    <string name="select_item">အကြောင်းအရာရွေးချယ်ပါ</string>  
+    <string name="select_album">အယ်လ်ဘမ်ရွေးချယ်ပါ</string>  
+    <string name="select_group">အုပ်စုရွေးချယ်ပါ</string>  
+    <string name="set_image">အဖြစ် ရုပ်ပုံကိုထားရှိပါ</string>  
+    <string name="set_wallpaper">ဝေါလ်ပေပါအဖြစ်ထားရှိပါ</string>  
+    <string name="wallpaper">ဝေါလ်ပေပါအဖြစ်ထားရှိဆဲ\u2026</string>  
+    <string name="camera_setas_wallpaper">ဝေါလ်ပေပါ</string>  
+    <string name="delete">ဖျက်ပါ</string>  
+    <plurals name="delete_selection"> 
+        <item quantity="one">ရွေးချယ်ထားသောအကြောင်းအရာကိုဖျက်မလား။</item>  
+        <item quantity="other">ရွေးချယ်ထားသောအကြောင်းအရာများကိုဖျက်မလား။</item> 
+    </plurals>  
+    <string name="confirm">အတည်ပြုပါ</string>  
+    <string name="cancel">ပယ်ဖျက်</string>  
+    <string name="share">ဝေမျှပါ</string>  
+    <string name="deleted">ဖျက်ပြီး</string>  
+    <string name="undo">မလုပ်ပါ</string>  
+    <string name="select_all">အားလုံးကိုရွေးချယ်ပါ</string>  
+    <string name="deselect_all">အားလုံးရွေးချယ်ထားခြင်းကို ပယ်ဖျက်ပါ</string>  
+    <string name="slideshow">ဆလိုက်ရှိုး</string>  
+    <string name="details">အသေးစိတ်</string>  
+    <string name="details_title">အကြောင်းအရာ %2$d ခုရှိ %1$d:</string>  
+    <string name="close">ပိတ်ပါ</string>  
+    <string name="switch_to_camera">ကင်မရာသို့ပြောင်းပါ</string>  
+    <plurals name="number_of_items_selected"> 
+        <item quantity="zero">%1$d ရွေးချယ်ပြီး</item>  
+        <item quantity="one">%1$d ရွေးချယ်ပြီး</item>  
+        <item quantity="other">%1$d ရွေးချယ်ပြီး</item> 
+    </plurals>  
+    <plurals name="number_of_albums_selected"> 
+        <item quantity="zero">%1$d ရွေးချယ်ပြီး</item>  
+        <item quantity="one">%1$d ရွေးချယ်ပြီး</item>  
+        <item quantity="other">%1$d ရွေးချယ်ပြီး</item> 
+    </plurals>  
+    <plurals name="number_of_groups_selected"> 
+        <item quantity="zero">%1$d ရွေးချယ်ပြီး</item>  
+        <item quantity="one">%1$d ရွေးချယ်ပြီး</item>  
+        <item quantity="other">%1$d ရွေးချယ်ပြီး</item> 
+    </plurals>  
+    <string name="show_on_map">မြေပုံတွင်ပြပါ</string>  
+    <string name="rotate_left">ဘယ်ဘက်သို့လှည့်ပါ</string>  
+    <string name="rotate_right">ညာဘက်သို့လှည့်ပါ</string>  
+    <string name="no_such_item">အကြောင်းအရာရှာမတွေ့ပါ။</string>  
+    <string name="edit">တည်းဖြတ်ပါ</string>  
+    <string name="process_caching_requests">ကက်(ရှ်)သိမ်းဆည်းမှုတောင်းဆိုချက်များလုပ်ဆောင်နေဆဲ</string>  
+    <string name="caching_label">ကက်(ရှ်)သိမ်းဆည်းနေဆဲ\u2026</string>  
+    <string name="crop_action">ဖြတ်တောက်ပါ</string>  
+    <string name="set_as">အဖြစ်ထားရှိပါ</string>  
+    <string name="video_err">ဗီဒီယိုမဖွင့်နိုင်ပါ။</string>  
+    <string name="group_by_location">တည်နေရာအလိုက်</string>  
+    <string name="group_by_time">အချိန်အလိုက်</string>  
+    <string name="group_by_tags">ပူးတွဲချက်အမည်အလိုက်</string>  
+    <string name="group_by_faces">ပုဂ္ဂိုလ်အလိုက်</string>  
+    <string name="group_by_album">အယ်လ်ဘမ်အလိုက်</string>  
+    <string name="group_by_size">အရွယ်အစားအလိုက်</string>  
+    <string name="untagged">ပူးတွဲချက်အမည်မပါသော</string>  
+    <string name="no_location">တည်နေရာမရှိ</string>  
+    <string name="no_connectivity">အချို့တည်နေရာများကို ကွန်ယက်ပြဿနာများကြောင့် ခွဲခြားသတ်မှတ်၍မရပါ။</string>  
+    <string name="sync_album_error">ဤအယ်လ်ဘမ်တွင် ဓာတ်ပုံများ ဒေါင်းလုဒ်လုပ်၍မရပါ။ နောက်မှတစ်ဖန် ကြိုးစားကြည့်ပါ။</string>  
+    <string name="show_images_only">ရုပ်ပုံများသာ</string>  
+    <string name="show_videos_only">ဗီဒီယိုများသာ</string>  
+    <string name="show_all">ရုပ်ပုံနှင့်ဗီဒီယိုများ</string>  
+    <string name="appwidget_title">ဓာတ်ပုံပြခန်း</string>  
+    <string name="appwidget_empty_text">ဓာတ်ပုံမရှိပါ။</string>  
+    <string name="crop_saved">ဖြတ်တောက်ထားသောရုပ်ပုံအား 
+        <xliff:g id="folder_name">%s</xliff:g> သို့ သိမ်းဆည်းပြီးဖြစ်သည်။
+    </string>  
+    <string name="no_albums_alert">မည်သည့်အယ်လ်ဘမ်မှ မရရှိနိုင်ပါ။</string>  
+    <string name="empty_album">ရုပ်ပုံ/ဗီဒီယို 0 ခု ရရှိနိုင်သည်။</string>  
+    <string name="picasa_posts">တင်ပြချက်များ</string>  
+    <string name="make_available_offline">အော့ဖ်လိုင်းတွင်လည်း ရရှိနိုင်စေရန် ပြုလုပ်ပါ</string>  
+    <string name="sync_picasa_albums">ပြန်လည်ဆန်းသစ်ပါ</string>  
+    <string name="done">ပြီးပြီ</string>  
+    <string name="sequence_in_set">အကြောင်းအရာ %2$d ခုရှိ %1$d:</string>  
+    <string name="title">ခေါင်းစဉ်</string>  
+    <string name="description">ဖော်ပြချက်</string>  
+    <string name="time">အချိန်</string>  
+    <string name="location">တည်နေရာ</string>  
+    <string name="path">လမ်းကြောင်း</string>  
+    <string name="width">အကျယ်</string>  
+    <string name="height">အမြင့်</string>  
+    <string name="orientation">အနေအထား</string>  
+    <string name="duration">ကြာချိန်</string>  
+    <string name="mimetype">MIME အမျိုးအစား</string>  
+    <string name="file_size">ဖိုင်အရွယ်အစား</string>  
+    <string name="maker">ပြုလုပ်ချက်</string>  
+    <string name="model">မော်ဒယ်</string>  
+    <string name="flash">ဖလက်(ရှ်)မီး</string>  
+    <string name="aperture">အလင်းဝင်ပေါက်</string>  
+    <string name="focal_length">ဆုံချက်အလျား</string>  
+    <string name="white_balance">အရှိအတိုင်းအဖြူရောင်အဖြစ်ပေါ်စေခြင်း</string>  
+    <string name="exposure_time">အလင်းရောင်နှင့်ထိတွေ့ချိန်</string>  
+    <string name="iso">ISO</string>  
+    <string name="unit_mm">မီလီမီတာ</string>  
+    <string name="manual">ကိုယ်တိုင်ပြုပြင်ချက်</string>  
+    <string name="auto">အလိုအလျောက်</string>  
+    <string name="flash_on">ဖလက်(ရှ်)မီးဖွင့်ပြီး</string>  
+    <string name="flash_off">ဖလက်(ရှ်)မီးမဖွင့်ထား</string>  
+    <plurals name="make_albums_available_offline"> 
+        <item quantity="one">အော့ဖ်လိုင်းတွင်လည်း အယ်လ်ဘမ်ရရှိစေရန် ပြုလုပ်ခြင်း။</item>  
+        <item quantity="other">အော့ဖ်လိုင်းတွင်လည်း အယ်လ်ဘမ်ရရှိစေရန် ပြုလုပ်ခြင်း။</item> 
+    </plurals>  
+    <string name="try_to_set_local_album_available_offline">ဤအကြောင်းအရာအား ဖုန်းတွင်းသိမ်းဆည်းပြီးဖြစ်၍ အော့ဖ်လိုင်းရရှိနိုင်သည်။</string>  
+    <string name="set_label_all_albums">အယ်လ်ဘမ်အားလုံး</string>  
+    <string name="set_label_local_albums">ဖုန်းတွင်းအယ်လ်ဘမ်များ</string>  
+    <string name="set_label_mtp_devices">MTP ပစ္စည်းများ</string>  
+    <string name="set_label_picasa_albums">Picasa အယ်လ်ဘမ်များ</string>  
+    <string name="free_space_format"> 
+        <xliff:g id="bytes">%s</xliff:g> အလွတ်
+    </string>  
+    <string name="size_below"> 
+        <xliff:g id="size">%1$s</xliff:g> သို့မဟုတ် အောက်
+    </string>  
+    <string name="size_above"> 
+        <xliff:g id="size">%1$s</xliff:g> သို့မဟုတ် အထက်
+    </string>  
+    <string name="size_between"> 
+        <xliff:g id="min_size">%1$s</xliff:g> မှ 
+        <xliff:g id="max_size">%2$s</xliff:g> သို့
+    </string>  
+    <string name="Import">သွင်းပါ</string>  
+    <string name="import_complete">သွင်းခြင်းပြီးဆုံး</string>  
+    <string name="import_fail">သွင်းခြင်းမအောင်မြင်ပါ</string>  
+    <string name="camera_connected">ကင်မရာချိတ်ဆက်ပြီး။</string>  
+    <string name="camera_disconnected">ကင်မရာချိတ်ဆက်မှုဖြုတ်ပြီး။</string>  
+    <string name="click_import">သွင်းရန် ဤနေရာကို နှိပ်ပါ</string>  
+    <string name="widget_type_album">အယ်လ်ဘမ်ရွေးချယ်ပါ</string>  
+    <string name="widget_type_shuffle">ရုပ်ပုံအားလုံးကို ရော၍ဖွင့်ပါ</string>  
+    <string name="widget_type_photo">ရုပ်ပုံရွေးချယ်ပါ</string>  
+    <string name="widget_type">ရုပ်ပုံများရွေးချယ်ပါ</string>  
+    <string name="slideshow_dream_name">ဆလိုက်ရှိုး</string>  
+    <string name="albums">အယ်လ်ဘမ်အလိုက်</string>  
+    <string name="times">အချိန်အလိုက်</string>  
+    <string name="locations">တည်နေရာအလိုက်</string>  
+    <string name="people">ပုဂ္ဂိုလ်အလိုက်</string>  
+    <string name="tags">ပူးတွဲချက်အမည်အလိုက်</string>  
+    <string name="group_by">အုပ်စုဖွဲ့ပါ</string>  
+    <string name="settings">အဆင်အပြင်များ</string>  
+    <string name="add_account">အကောင့်ထည့်ပါ</string>  
+    <string name="folder_camera">ကင်မရာ</string>  
+    <string name="folder_download">ဒေါင်းလုဒ်လုပ်ပါ</string>  
+    <string name="folder_imported">သွင်းပြီး</string>  
+    <string name="folder_screenshot">စကရင်အား ဓာတ်ပုံရိုက်ကူးချက်</string>  
+    <string name="help">အကူအညီ</string>  
+    <string name="help_url_gallery_main" translatable="false"/> 
+</resources>

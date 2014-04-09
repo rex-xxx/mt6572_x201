@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	    <string name="bluetooth_advanced_settings">Erweiterte Bluetooth-Einstellungen</string>  
+    <!-- Bluetooth settings.  The user-visible string that is used whenever referring to the FTP profile. -->  
+    <string name="bluetooth_profile_ftp">Dateitransfer</string>  
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the FTP checkbox preference that describes how checking it will set the FTP profile as preferred. -->  
+    <string name="bluetooth_ftp_profile_summary_use_for">Für Dateitransfer verwenden</string>  
+    <string name="bluetooth_ftp_profile_summary_connected">"Verbunden mit Dateitransfer"</string>  
+    <string name="mtp_transfer_unmount_error_text">SD-Karte kann während Dateiübertragung nicht ausgeworfen werden</string>  
+    <string name="mtp_transfer_erase_error_text">SD-Karte kann während Dateiübertragung nicht gelöscht werden</string>  
+    <string name="launch_error">"Konnte Anwendung nicht starten!"</string>  
+    <string name="dlg_confirm_unmount_usb_title" product="default">USB-Speicher auswerfen?</string>  
+    <string name="dlg_confirm_unmount_usb_text" product="default">Wenn Sie den USB-Speicher auswerfen, werden einige von Ihnen verwendete Apps möglicherweise beendet und sind nicht mehr verfügbar, bis Sie den USB-Speicher wieder einbinden.</string>  
+    <string name="dlg_error_unmount_usb_title" product="default"/>  
+    <string name="dlg_error_unmount_usb_text" product="default">Konnte USB-Speicher nicht auswerfen. Später noch einmal versuchen.</string>  
+    <string name="unmount_usb_inform_text" product="default">USB-Speicher wird ausgeworfen.</string>  
+    <string name="sd_eject_usbstorage" product="default">"USB-Speicher trennen"</string>  
+    <string name="sd_eject_usbstorage_summary" product="default">"Internen USB-Speicher trennen"</string>  
+    <string name="sd_mount_usbstorage" product="default">"USB-Speicher bereitst."</string>  
+    <string name="sd_insert_usb_summary" product="default">"USB-Sp. für Bereitst. einlegen"</string>  
+    <!-- Storage setting.  Title for UMS checkbox [CHAR LIMIT=30]-->  
+    <string name="usb_ums_title">USB-Speicher</string>  
+    <!-- Storage setting.  Summary for UMS checkbox [CHAR LIMIT=NONE]-->  
+    <string name="usb_ums_summary">"XP empfohlen. Ermöglicht Dateiübertragung zwischen Ihrem Computer und dem USB-Speicher Ihres Android."</string>  
+    <string name="usb_charge_title">Nur laden</string>  
+    <string name="usb_charge_summary">Alle USB-Funktionen beenden. Ermöglicht die Beschleunigung des USB-Ladevorgangs und die Verringerung des Stromverbrauchs.</string>  
+    <!-- Agps Settings -->  
+    <string name="NI_Request_ID">Anforderer-ID</string>  
+    <string name="NI_Request_ClientName">Client-Name</string>  
+    <string name="agps_str_verify">Verifizierung</string>  
+    <string name="agps_str_notify">"Benachrichtigungen"</string>  
+    <string name="EM_NotifyDialog_title">EM-Benachrichtigung</string>  
+    <string name="agps_OK">OK</string>  
+    <string name="agps_str_allow">"Zulassen"</string>  
+    <string name="agps_str_deny">"Ablehnen"</string>  
+    <string name="agps_str_error">Fehler</string>  
+    <string name="AGPS_DEFAULT_STRING">A-GPS Standardzeichenfolge</string>  
+    <string name="AGPS_CAUSE_NETWORK_CREATE_FAIL">Netzwerkerstellungsfehle</string>  
+    <string name="AGPS_CAUSE_BAD_PUSH_CONTENT">Falscher PUSH-Inhalt</string>  
+    <string name="AGPS_CAUSE_NOT_SUPPORTED">Nicht unterstützter Vorgang</string>  
+    <string name="AGPS_CAUSE_REQ_NOT_ACCEPTED">Anfrage nicht akzeptiert</string>  
+    <string name="AGPS_CAUSE_NO_RESOURCE">Keine Ressource zur Bearbeitung des neuen Prozesses</string>  
+    <string name="AGPS_CAUSE_NETWORK_DISCONN">Keine Netzwerkverbindung</string>  
+    <string name="AGPS_CAUSE_REMOTE_ABORT">Sitzung am entfernten Ende abgebrochen (Empfang SUPL END)</string>  
+    <string name="AGPS_CAUSE_TIMER_EXPIRY">Nachricht trifft nicht innerhalb eines bestimmten Zeitraums ein</string>  
+    <string name="AGPS_CAUSE_REMOTE_MSG_ERROR">Falscher Nachrichteninhalt empfangen</string>  
+    <string name="AGPS_CAUSE_USER_AGREE">Bestätigung durch den Benutzer</string>  
+    <string name="AGPS_CAUSE_USER_DENY">Ablehnung durch den Benutzer</string>  
+    <string name="AGPS_CAUSE_NO_POSITION">Nur für NO-Position</string>  
+    <string name="AGPS_CAUSE_TLS_AUTH_FAIL">TLS-Authentifizierung fehlgeschlagen</string>  
+    <string name="USER_RESPONSE_TIMEOUT">Zeitüberschreitung bei Warten auf Verifizierung</string>  
+    <string name="AGPS_EM_RECV_SI_REQ">SI-Anfrage empfangen</string>  
+    <string name="AGPS_EM_POS_FIXED">Position festgelegt</string>  
+    <string name="AGPS_NOTIFY_ONLY">Ortsabfragebenachrichtigun</string>  
+    <string name="AGPS_NOTIFY_ALLOW_NO_ANSWER">Ortsabfrage (bei Nichtbeantwortung zulassen)</string>  
+    <string name="AGPS_NOTIFY_DENY_NO_ANSWER">Ortsabfrage (bei Nichtbeantwortung abweisen)</string>  
+    <string name="AGPS_NOTIFY_PRIVACY">Ortsabfrage (Anonym)</string>  
+    <string name="epo_entrance_title">EPO-Einstellungen</string>  
+    <string name="epo_entrance_summary">Zum Modifizieren der EPO-Konfiguration anklicken</string>  
+    <string name="agps_settings_title">AGPS-Einstellungen</string>  
+    <string name="epo_enable_confirm_title">EPO-Aktivierung bestätigen</string>  
+    <string name="epo_enable_confirm_message">azu ist eine Funkdatenverbindung zum Abruf von GPS-Assistenzdaten (EPO) erforderlich, die zusätzliche Übertragungskosten verursachen kann. Möchten Sie die GPS-Assistenz wirklich einschalten?</string>  
+    <string name="epo_enable_confirm_allow">Fortfahren</string>  
+    <string name="epo_enable_confirm_deny">Abbrechen</string>  
+    <string name="agps_enable_confirm_title">A-GPS-Aktivierungsbestätigung</string>  
+    <string name="agps_enable_confirm">A-GPS benötigt eine Datenverbindung, um die Hilfsdaten abzurufen. Möchten Sie wirklich A-GPS einschalten?</string>  
+    <string name="agps_enable_confirm_allow">Fortfahren</string>  
+    <string name="agps_enable_confirm_deny">Abbrechen</string>  
+    <string name="epo_enable_title">GPS EPO-Assistenz</string>  
+    <string name="epo_enable_summary">GPS-Assistenzdaten (EPO) zur Beschleunigung der GPS-Positionsbestimmung verwenden.</string>  
+    <string name="agps_settings_enable_on">Mit GPS kann über eine drahtlose Datenverbindung die Ortsbestimmung anhand von Hilfsdaten beschleunigt werden</string>  
+    <string name="agps_settings_enable_off">Hilfsdaten verwenden, um die Ortsbestimmung mit GPS zu beschleunigen</string>  
+    <string name="agps_settings_eng_enable">AGPS-Einstellungen</string>  
+    <string name="agps_settings_eng_summary">AGPS-Einstellungen einrichten</string>  
+    <string name="agps_disable_on_reboot">Nach Neustart deaktivieren</string>  
+    <string name="agps_disable_on_reboot_summary">Nach Neustart A-GPS deaktivieiren</string>  
+    <string name="Network_Initiate">Netzwerkanfrage</string>  
+    <string name="Network_Initiate_Summary_on">Netzwerk erlauben, Position anzufragen</string>  
+    <string name="Network_Initiate_Summary_off">Netzwerk verweigern, Position anzufragen</string>  
+    <string name="Network_Used">Netzwerk verwendet</string>  
+    <string name="agps_profile_select">Profilauswahl</string>  
+    <string name="agps_profile_SLP_address_editbox_title">SLP-Adresse</string>  
+    <string name="port_title">SLP-Port</string>  
+    <string name="tls_summary_off">TLS ist deaktiviert</string>  
+    <string name="tls_summary_on">TLS ist aktiviert</string>  
+    <string name="MobileNetwork_Category">Mobiles Netz</string>  
+    <string name="AgpsHelp_Category">Hilfe</string>  
+    <string name="about_agps_title">Über A-GPS</string>  
+    <string name="about_agps_message">\t A-GPS (Assisted-GPS) ist ein System, das die Startleistung verbessern und den Zeitaufwand zum Beziehen des ersten Fixpunktes (TTFF; Time-To-First-Fix) von GPS-Satelliten verringern kann. \n\t Ein A-GPS-fähiges Gerät kann eine Verbindung zu Standortservern herstellen und dadurch Hilfsdaten über eine mobile Netzwerkdatenverbindung beziehen. \n\t Beachten Sie, dass der Datenverkehr unter Netzwerk-Roaming-Bedingungen zusätzliche Gebühren verursachen kann. Einzelheiten erfragen Sie bitte bei Ihrem Netzbetreiber.</string>  
+    <string name="epo_auto_download_title">Auto-Download</string>  
+    <string name="epo_auto_download_summary">Satellitenpositionsdaten werden automatisch heruntergeladen</string>  
+    <string name="epo_info_title">EPO-Dateiinfo</string>  
+    <string name="epo_download_time_title">Download-Zeit</string>  
+    <string name="epo_download_time_summary">Nicht verfügbar</string>  
+    <string name="epo_start_time_title">Startzeit</string>  
+    <string name="epo_start_time_summary">Nicht verfügbar</string>  
+    <string name="epo_expire_time_title">Ablaufzeit</string>  
+    <string name="epo_expire_time_summary">Nicht verfügbar</string>  
+    <string name="epo_about_title">Über EPO</string>  
+    <string name="epo_about_message">\tEPO (Extended Prediction Orbit) ist eine innovative proprietäre Offline-Server-basierte A-GPS-Technologie von MediaTek. \n\tSie unterstützt bis zu eine 30-tägige Orbit-Satellitenvorhersage, wodurch sich die Benutzererfahrung dank der Verringerung des Zeitaufwand zum Beziehen des ersten Fixpunktes (TTFF; Time-To-First-Fix) deutlich steigern lässt.</string>  
+    <string name="Network_Local_and_Roaming_Summary">A-GPS sowohl im Heim- als auch im Roaming-Netzwerk verwenden</string>  
+    <string name="Network_Only_Local_Summary">A-GPS nur im lokalen Netzwerk nutzen</string>  
+    <string name="MobileNetwork_DataConn_off">Es besteht keine Datenverbindung</string>  
+    <string name="MobileNetwork_off_Summary">Bitte stellen Sie vor der Verwendung von A-GPS eine Datenverbindung her</string>  
+    <string name="WiFiNetwork_on_title">Wi-Fi ist aktiv</string>  
+    <string name="MobileNetwork_on_Summary">A-GPS muss über eine Datenverbindung auf das mobile Netz zugreifen</string>  
+    <string name="MobileNetwork_SIM_Active">SIM ist aktiv</string>  
+    <string name="Network_Roaming_dialog_title">Achtung</string>  
+    <string name="Network_Roaming_dialog_content">Wenn sich das Netzwerk im Roaming-Zustand befindet, kann A-GPS-Datenverkehr zusätzliche Roaming-Gebühren verursachen.</string>  
+    <string name="epo_download">Download</string>  
+    <string name="epo_error_no_activite_network">Bitte Datenverbindung vor dem Download von EPO-Daten aktivieren.</string>  
+    <string name="epo_cancel_download">Abbrechen</string>  
+    <string name="epo_status_stopping">Stoppen...</string>  
+    <string name="epo_status_starting">Starten...</string>  
+    <string name="epo_err_update_failed">Aktualisierung von EPO-Dateien fehlgeschlagen</string>  
+    <string name="epo_error_dialog_title">Fehler</string>  
+    <string name="epo_ok_btn">OK</string>  
+    <string name="epo_warning_dialog_title">Achtung</string>  
+    <string name="epo_warning_dialog_message">Der Download von EPO-Daten beim Roaming kann zusätzliche Gebühren verursachen. Wirklich fortsetzen?</string>  
+    <!-- AudioProfile Settings -->  
+    <string name="ring_summary">Klingeln</string>  
+    <string name="ring_vibrate_summary">Klingeln und vibrieren</string>  
+    <string name="silent_summary">Nur lautlos</string>  
+    <string name="meeting_summary">Nur vibrieren</string>  
+    <string name="outdoor_summary">Lautester Klingelton und Vibration</string>  
+    <string name="audio_profile_reset">Rücksetzen</string>  
+    <string name="audio_profile_add">"Hinzufügen"</string>  
+    <string name="audio_profile_enable">"Aktivieren"</string>  
+    <string name="audio_profile_rename">"Umbenennen"</string>  
+    <string name="audio_profile_delete">"Löschen"</string>  
+    <string name="audio_profile_message_reset">Alle Audioprofileinstellungen werden auf die Standardwerte zurückgesetzt</string>  
+    <string name="audio_profile_message_rename">Bitte neuen Profilnamen eingeben</string>  
+    <string name="audio_profile_message_name_error">Der eingegebene Name existiert bereits</string>  
+    <string name="audio_profile_message_name_length_wrong">Der Name muss mindestens ein Zeichen enthalten</string>  
+    <string name="audio_profile_message_delete">Das Profil 
+        <xliff:g id="profile">%s</xliff:g> wird gelöscht
+    </string>  
+    <string name="audio_profile_message_overflow">Sie dürfen nur 6 angepasste Profile hinzufügen</string>  
+    <string name="ok">OK</string>  
+    <string name="audio_profile_category_custom_title">Benutzerdefinierte Profile</string>  
+    <string name="audio_profile_category_predefine_title">Vordefinierte Profile</string>  
+    <string name="general_settings_title">"Allgemein"</string>  
+    <string name="silent_settings_title">Lautlos</string>  
+    <string name="meeting_settings_title">Treffen</string>  
+    <string name="outdoor_settings_title">Im Freien</string>  
+    <!-- modify default apns notices -->  
+    <string name="apn_predefine_change_dialog_notice">Wirklich speichern? Änderungen an den Standard-APNs können Verbindungsprobleme verursachen!</string>  
+    <!-- The title for AlertDialog when APN Settings is called while Airplane Mode is on -->  
+    <string name="dialog_apn_disabled">APN deaktiviert!</string>  
+    <!-- Error message for dialog of apn disabled error  -->  
+    <string name="dialog_apn_disabled_msg">Zum Aktivieren der APN-Einstellungen bitte Flugzeugmodus ausschalten.</string>  
+    <string name="sound_category_feedback_title">"System"</string>  
+    <string name="sound_category_calls_title">"Eingehende Anrufe"</string>  
+    <string name="voice_call_title">"Sprachanruf-Rufton"</string>  
+    <string name="voice_call_summary">Standardrufton bei eingehenden Sprachanrufen einstellen</string>  
+    <string name="video_call_title">Videoanruf-Rufton</string>  
+    <string name="video_call_summary">Standardrufton bei eingehenden Videoanrufen einstellen</string>  
+    <string name="Phone_vibrate_summary">Vibrationsalarm bei eingehenden Anrufen</string>  
+    <string name="vibrate_title">Vibrieren</string>  
+    <string name="audio_profile_settings_title">Audioprofile</string>  
+    <!--Add Strings for MTK AboutPhone Settings -->  
+    <!-- Gemini AboutPhone status sim status title -->  
+    <string name="sim_status_title">SIM-Status</string>  
+    <!-- Gemini AboutPhone status sim status summary -->  
+    <string name="sim_status_summary">SIM-Informationen</string>  
+    <!-- Gemini AboutPhone status imei slot1 title -->  
+    <string name="status_imei_slot1">IMEI (Steckplatz 1)</string>  
+    <!-- Gemini AboutPhone status imei sv slot1 title -->  
+    <string name="status_imei_sv_slot1">IMEI SV (Steckplatz 1)</string>  
+    <!-- Gemini AboutPhone status imei slot2 title -->  
+    <string name="status_imei_slot2">IMEI (Steckplatz 2)</string>  
+    <!-- Gemini AboutPhone status imei sv slot2 title -->  
+    <string name="status_imei_sv_slot2">IMEI SV (Steckplatz 2)</string>  
+    <!-- Gemini CDMA AboutPhone status min number slot1 title -->  
+    <string name="status_min_number_slot1">MIN (Steckplatz 1)</string>  
+    <!-- Gemini CDMA AboutPhone status prl version slot1 title -->  
+    <string name="status_prl_version_slot1">PRL-Version (Steckplatz 1)</string>  
+    <!-- Gemini CDMA AboutPhone status meid number slot1 title -->  
+    <string name="status_meid_number_slot1">MEID (Steckplatz 1)</string>  
+    <!-- Gemini CDMA AboutPhone status min number slot2 title -->  
+    <string name="status_min_number_slot2">MIN (Steckplatz 2)</string>  
+    <!-- Gemini CDMA AboutPhone status prl version slot2 title -->  
+    <string name="status_prl_version_slot2">PRL-Version (Steckplatz 2)</string>  
+    <!-- Gemini CDMA AboutPhone status meid number slot2 title -->  
+    <string name="status_meid_number_slot2">MEID (Steckplatz 2)</string>  
+    <string name="slot_status_title">IMEI-Info</string>  
+    <string name="slot_status_summary">IMEI-Zusatzangaben</string>  
+    <!-- About phone screen,  setting option name-->  
+    <string name="custom_build_version">"Erstellungsversion anpassen"</string>  
+    <!-- A menu item in "About phone" that allows the user to update the phone with settings
+    from their cell phone carrier. The use of the string is similar to the string
+    "system_update_settings_list_item_title" in this project. [CHAR LIMIT=25] -->  
+    <!-- for software update MOTA -->  
+    <string name="software_update">Softwareaktualisierungsdienst</string>  
+    <string name="mota_system_update_summary">"Systemaktualisierung auf Server prüfen"</string>  
+    <!-- About phone screen,  more software updates-->  
+    <string name="software_updates_more_title">Softwareaktualisierungen</string>  
+    <string name="software_updates_more_summary">Nach neuer Softwareversion suchen</string>  
+    <string name="software_updates_scomo_summary">Nach neuer Anwendungsversion suchen</string>  
+    <string name="scomo_settings_title">Softwareaktualisierungsdienst</string>  
+    <!-- Battery_level_show -->  
+    <string name="battery_level" translatable="false">" 
+        <xliff:g id="battery">%s</xliff:g>%%"
+    </string>  
+    <!--End of String for Gemini AboutPhone Settings-->  
+    <!--Add Strings for MTK Display Settings -->  
+    <string name="screen_timeout_CU">Bildschirmzeitüberschreitung</string>  
+    <!-- Add for landscape launcher-->  
+    <string name="landscape_launcher_title">Querformat-Starter</string>  
+    <string name="landscape_launcher_none">"/"</string>  
+    <!-- for TVOut -->  
+    <string name="tvout_settings">TV-Ausgang</string>  
+    <string name="tvout_settings_summary">TV-Ausgangseinstellungen</string>  
+    <string name="tv_system_title">TV-System</string>  
+    <!-- For HDMI begin -->  
+    <string name="hdmi_settings">HDMI-Einstellungen</string>  
+    <string name="hdmi_settings_summary">Zur HDMI-Konfiguration klicken</string>  
+    <string name="hdmi_audio_toggler">"Audio"</string>  
+    <string name="hdmi_video_toggler">"Video"</string>  
+    <string name="hdmi_video_resolution">Video-Auflösung</string>  
+    <string name="hdmi_notification_title">HDMI-Kabel angeschlossen</string>  
+    <string name="hdmi_notification_content">Zur HDMI-Konfiguration klicken</string>  
+    <!--Theme manager -->  
+    <string name="display_settings_scences_title">Szenen</string>  
+    <string name="mtk_thememanager_title">Thema</string>  
+    <string name="default_name">Standard</string>  
+    <string name="custom_theme_name">Neu [%1$s]</string>  
+    <string name="loading">Wird geladen…</string>  
+    <!--End of String for MTK Display Settings-->  
+    <!--Add Strings for MTK Security Settings -->  
+    <string name="sim_enter_pin_hints">(4 bis 8 Ziffern eingeben)</string>  
+    <string name="sim_remain">(Verbleibend: 
+        <xliff:g id="remains">%d</xliff:g>)
+    </string>  
+    <!--End of String for MTK Security Settings-->  
+    <!--Add Strings for MTK DateTime Settings-->  
+    <!-- GPS time sync -->  
+    <string name="gps_time_sync_attention_gps_on">Bis zur GPS-Ortung dauert es maximal 1 Minute. Außerdem kann es GPS aufgrund schwacher Umgebungssignale misslingen, die Zeitangabe bereitzustellen.\n\nWirklich die von GPS bereitgestellte Zeitangabe verwenden?</string>  
+    <string name="gps_time_sync_attention_gps_off">Zur Nutzung der per GPS bereitgestellten Zeitangabe müssen Sie GPS zuerst aktivieren. Bis zur GPS-Ortung dauert es maximal 1 Minute. Außerdem kann es GPS aufgrund schwacher Umgebungssignale misslingen, die Zeitangabe bereitzustellen. \n\nGPS jetzt wirklich aktivieren und auf die von GPS bereitgestellte Zeitangabe warten?</string>  
+    <!--End of String for MTK DateTime Settings-->  
+    <!--Add Strings for MTK Backup & reset Settings-->  
+    <!-- Drm Settings -->  
+    <!-- Privacy Screen,setting option name under Privacy Personal data -->  
+    <string name="drm_settings_title">DRM-Rücksetzung</string>  
+    <!-- Privacy Screen,settings option summary text under Privacy personal data -->  
+    <string name="drm_settings_summary">Löscht alle DRM-Lizenzen</string>  
+    <!-- Drm settings Activity lable -->  
+    <!-- Dialog msg for confirmation to reset DRM -->  
+    <string name="drm_reset_dialog_msg">Dieser Vorgang löscht alle Lizenzen auf diesem Gerät. Fortfahren?</string>  
+    <!-- Toast msg for confirmation to reset DRM -->  
+    <string name="drm_reset_toast_msg">Lizenzen wurden erfolgreich gelöscht.</string>  
+    <!--End of String for MTK DateTime Settings-->  
+    <!--Add Strings for MTK SIM management Settings-->  
+    <string name="gemini_sim_management_title">SIM-Verwaltung</string>  
+    <string name="gemini_sim_info_title">SIM-Info</string>  
+    <string name="gemini_default_sim_title">Standard-SIM</string>  
+    <string name="gemini_general_settings_title">Allgemeine Einstellungen</string>  
+    <string name="gemini_roaming_settings_title">Roaming</string>  
+    <string name="gemini_data_roaming_title">Daten-Roaming</string>  
+    <string name="gemini_data_roaming_summary">Beim Roaming mit Datendiensten verbinden</string>  
+    <string name="gemini_roaming_reminder_title">Roaming-Erinnerung anzeigen</string>  
+    <string name="gemini_roaming_reminder_summary">SIM-Vorschlag auf Grundlage der SIM-Nutzung anzeigen</string>  
+    <string name="gemini_contacts_sim_title">"Kontaktbindung"</string>
+    <string name="gemini_contacts_sim_summary">Kontakte an eine spezifische SIM-Karte binden</string>
+    <string name="gemini_voice_call">Sprachanruf</string>  
+    <string name="gemini_video_call">Videoanruf</string>  
+    <string name="gemini_data_connection">Datenverbindung</string>  
+    <string name="gemini_msg">"SMS/MMS"</string>  
+    <string name="gemini_default_sim_always_ask">Immer nachfragen</string>  
+    <string name="gemini_intenet_call">Internetanruf</string>  
+    <string name="gemini_default_sim_never">Aus</string>  
+    <string name="gemini_default_sim_3g_off">Aus</string>  
+    <!-- GSM/UMTS Options strings -->  
+    <string name="gemini_gsm_umts_network_preferences_title">"Netzwerkmodus"</string>  
+    <string name="gemini_gsm_umts_network_preferneces_summary">Noch nicht implementiert!</string>  
+    <string name="gemini_gsm_umts_network_preferences_dialogtitle">Netzwerkmodus</string>  
+    <string name="gemini_3g_service_settings">3G-Dienst</string>  
+    <!-- Strings for Gemini begin-->  
+    <!-- Dual sim settings activate progress message string -->  
+    <string name="gemini_sim_mode_progress_activating_message">Wird aktiviert\u2026</string>  
+    <!-- Dual sim settings deactivate progress message string -->  
+    <string name="gemini_sim_mode_progress_deactivating_message">Wird deaktiviert\u2026</string>  
+    <!-- Dual sim settings mode change failed message string -->  
+    <string name="gemini_sim_mode_change_failed_message">Fehlgeschlagen, Netzwerkfehler.</string>  
+    <!-- Dual sim settings mode enter airplanemode confirm title string -->  
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_title">Flugmodus</string>  
+    <!-- Dual sim settings mode enter airplanemode WiFi and Bt will both close confirm message string -->  
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_message">Telefon ruft Flugzeugmodus auf. Alle WLAN-Verbindungen werden deaktiviert. Fortfahren?</string>  
+    <string name="gemini_sim_info_editor_name">SIM-Namen bearbeiten</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">Speichern fehlgeschlagen</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">Name für SIM-Karte doppelt</string>  
+    <string name="gemini_sim_info_editor_number">Telefonnummer eingeben</string>  
+    <string name="gemini_sim_info_editor_color">Hintergrundfarbe festlegen</string>  
+    <string name="gemini_sim_info_editor_number_display_format">Nummern anzeigen</string>  
+    <string name="gemini_no_sim_indicator">Keine SIM-Karte</string>  
+    <string name="gemini_sim_list_default_title">SIM-Kartenliste</string>  
+    <string name="gemini_data_connection_progress_message">"Bitte warten\u2026"</string>  
+    <string name="gemini_3g_modem_switching_message">"Das Umschalten der SIM dauert etwa 10 Sekunden. Bitte warten…"</string>  
+    <string name="gemini_3g_modem_switch_confirm_message">"Dadurch wird auch der 3G-Dienst auf diese SIM umgeschaltet. Fortfahren? Bitte stellen Sie zudem sicher, dass die ausgewählte SIM den 3G-Dienst unterstützt."</string>  
+    <string name="gemini_3g_disable_warning">"Der 3G-Dienst ist bei der ausgewählten SIM nicht verfügbar. Dadurch werden Daten möglicherweise langsamer geladen. Sie können die 3G-Diensteinstellung unter Einstellungen &gt; Drahtlos &amp; Netzwerke &gt; Mobile Netzwerke ändern."</string>  
+    <string name="gemini_3g_disable_warning_cu">"Der 3G-Dienst ist bei der ausgewählten SIM nicht verfügbar. Dadurch werden Daten möglicherweise langsamer geladen. Sie können die 3G-Diensteinstellung unter Einstellungen &gt; SIM-Verwaltung ändern."</string>  
+    <!-- Strings for CU wap push begin-->  
+    <string name="gemini_wap_push_permission_head">Nach Aktivierung des automatischen Push-Service können Sie per Push versendete Mitteilungen empfangen; dadurch laufen lokale Anwendungen und es wird Datenverkehr produziert. Zu den üblichen automatischen Push-Services zählen eMail-Benachrichtigungen, Geräteverwaltung, Dienstanzeige, das Laden von Services und Push Provisioning.</string>  
+    <string name="gemini_wap_push_permission_tail">Dieser Vereinbarung zustimmen?</string>  
+    <string name="gemini_wap_push_permission_title">Auto. Push-Service-Vereinbarung</string>  
+    <string name="gemini_wap_push_permission">Auto. Push-Service</string>  
+    <!-- Strings for CU wap push end-->  
+    <!-- add for gemini enhancement  SIM tether info part    begin -->  
+    <string name="gemini_3g_disable_warning_case0">"Sie müssen zuerst Daten-Roaming für diese SIM aktivieren, was erhebliche Roaming-Gebühren verursachen kann! Daten-Roaming wirklich aktivieren und diese SIM wählen?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"3G-Service ist bei der ausgewählten SIM nicht verfügbar. Dadurch werden Daten möglicherweise langsamer geladen. Sie können die 3G-Serviceeinstellung unter Einstellungen &gt; Drahtlos &amp; Netzwerke &gt; Mobile Netzwerke ändern. Möchten Sie diese SIM wirklich wählen?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"3G-Service ist bei der ausgewählten SIM nicht verfügbar. Dadurch werden Daten möglicherweise langsamer geladen. Sie können die 3G-Serviceeinstellung unter Einstellungen &gt; SIM-Verwaltung ändern. Möchten Sie diese SIM wirklich wählen?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"Sie müssen zuerst Daten-Roaming für diese SIM aktivieren, was erhebliche Roaming-Gebühren verursachen kann! Außerdem ist der 3G-Service bei dieser SIM nicht verfügbar. Dadurch werden Daten möglicherweise langsamer geladen. Sie können dies unter Einstellungen &gt; Drahtlos &amp; Netzwerke &gt; Mobile Netzwerke ändern. Möchten Sie Daten-Roaming wirklich aktivieren und diese SIM wählen?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"Sie müssen zuerst Daten-Roaming für diese SIM aktivieren, was erhebliche Roaming-Gebühren verursachen kann! Außerdem ist der 3G-Service bei dieser SIM nicht verfügbar. Dadurch werden Daten möglicherweise langsamer geladen. Sie können dies unter Einstellungen &gt; SIM-Verwaltung ändern. Möchten Sie Daten-Roaming wirklich aktivieren und diese SIM wählen?"</string>  
+    <string name="gemini_sim_tether_info_title">Kontakte &amp; SIM</string>  
+    <string name="gemini_sim_tether_add_record">Kontakte hinzufügen</string>  
+    <string name="gemini_sim_add_title">"Kontakte"</string>  
+    <!-- Displayed full screen when the user has no tether info to display-->  
+    <string name="gemini_sim_tether_norecord">"Mit der aktuellen SIM sind keine Kontakte verknüpft.\n\nTippen Sie auf die Kontakte zufügen-Schaltfläche, wählen Sie dann die Kontakte aus, die Sie mit dieser SIM verknüpfen möchten"</string>  
+    <string name="gemini_sim_tether_nocontacts">"Im Telefon sind keine Kontakte gespeichert. Bitte fügen Sie einen neuen Kontakt hinzu oder importieren Sie zunächst Kontakte"</string>  
+    <string name="gemini_sim_tether_no_assc_contacts">"Alle Kontakte verbunden"</string>  
+    <string name="gemini_sim_tether_disassociate">Trennen</string>  
+    <string name="selected_item_count"> 
+        <xliff:g id="count">%d</xliff:g> ausgewählt
+    </string>  
+    <string name="gemini_sim_tether_unselect_all">Ges.Auswahl aufheben</string>
+    <string name="gemini_sim_tether_nocontact_confirm">OK</string>  
+    <string name="gemini_sim_tether_select_all">Tout sélectionner</string>  
+    <string name="gemini_sim_tether_select_ok">Speichern</string>  
+    <string name="gemini_sim_tether_select_cancel">Abbrechen</string>  
+    <string name="gemini_sim_tether_revert_title">Achtung</string>  
+    <string name="gemini_sim_tether_revert_message">Ihre Konfiguration wurde geändert, aber noch nicht gespeichert. Wirklich ohne Speichern fortfahren?</string>  
+    <string name="gemini_tether_saving_progress_message">Speichern...</string>  
+    <!-- add for gemini enhancement SIM tether info part end -->  
+    <!-- Strings for Gemini SimLock Settings -->  
+    <!-- Gemini SimLock TabActivity Sim1 tab tag -->  
+    <!-- Gemini SimLock error message -->  
+    <string name="gemini_sim_lock_simid_error">Fehlgeschlagen, ungültige SIM-Kennung.</string>  
+    <!-- Gemini SimLock sim1 not insert message -->  
+    <string name="gemini_sim_lock_no_insert_message_sim">SIM-Karte ist nicht im Gerät eingelegt</string>  
+    <!-- Gemini SimLock sim1 radio off message -->  
+    <string name="gemini_sim_lock_radio_off_message_sim1">Funk 1 ist aus.</string>  
+    <!-- Gemini SimLock sim2 radio off message -->  
+    <string name="gemini_sim_lock_radio_off_message_sim2">Funk 2 ist aus.</string>  
+    <!--End of String for SIM Management Settings-->  
+    <!-- for CU application -->  
+    <string name="akp_installer_settings_title">APK-Installationsprogramm</string>  
+    <string name="akp_installer_settings_summary">Ihre APK von Telefonspeicher und SD-Karte installieren</string>  
+    <string name="launch_main_label">Anwendung ausführen</string>  
+    <string name="launch_main">Anwendung durch Hauptaktivität ausführen</string>  
+    <string name="launch_activitie">Ausführen</string>  
+    <string name="move_app_to_where">Nach 
+        <xliff:g id="location">%s</xliff:g> verschieben
+    </string>  
+    <!--Wi-Fi settings strings start-->  
+    <string name="wifi_no_cert_for_wapi">Konnte Zertifizierung für aktuell verbundenen AP nicht finden</string>  
+    <!-- Label for the SIM Slot of EAP-SIM method support -->  
+    <string name="sim_slot">SIM-Steckplatz</string>  
+    <!-- Label for the SIM Slot 0 of EAP-SIM method support -->  
+    <string name="eap_sim_slot_0">SIM-Steckplatz 1</string>  
+    <!-- Label for the SIM Slot of EAP-SIM method support -->  
+    <string name="eap_sim_slot_1">SIM-Steckplatz 2</string>  
+    <!-- Label for the toast if user use eap-sim/aka in airplane mode -->  
+    <string name="eap_sim_aka_airplanemode">Flugzeugmodus zur Nutzung von EAP-SIM/AKA bitte ausschalten</string>  
+    <!-- Label for the toast if user use eap-sim/aka when sim card is absent -->  
+    <string name="eap_sim_aka_no_sim_error">Sie müssen zur Nutzung von EAP-SIM/AKA eine SIM-Karte einstecken</string>  
+    <!-- Label for the toast if user use eap-sim/aka when user don't select a sim slot -->  
+    <string name="eap_sim_aka_no_sim_slot_selected">Sie müssen zur Nutzung von EAP-SIM/AKA einen SIM-Steckplatz wählen</string>  
+    <string name="wifi_security_wapi_certificate">WAPI-Zertifikat</string>  
+    <!-- Label for the WAPI user certificate of the network -->  
+    <string name="wapi_user_certificate">Benutzerzertifikat</string>  
+    <!-- Label for the WAPI ASE certificate of the network -->  
+    <string name="wapi_as_certificate">ASE-Zertifikat</string>  
+    <!-- Label for the check box for hexadecimal password -->  
+    <string name="wifi_hex_password">Hexadezimal-Kennwort.</string>  
+    <!-- The label for WEP transmit Key -->  
+    <string name="wifi_WEP_transmit_key">Übertragungsschlüssel</string>  
+    <!-- The label for WEP Secury Key -->  
+    <string name="wifi_WEP_secury_key">"Sicherheitsschlüssel"</string>  
+    <!--add for Wi-Fi hotspot auto-sleep policy-->  
+    <string name="wifi_tether_auto_disable_title">Wi-Fi-Hotspot eingeschaltet lassen</string>  
+    <string name="wifi_tether_auto_channel_text">Auto</string>  
+    <string name="wifi_tether_auto_channel_width_text">Auto 20/40 MHz</string>  
+    <string name="wifi_channel">Bevorzugter Kanal</string>  
+    <string name="wifi_channel_width">Kanalbreite</string>  
+    <string name="confirm_title">Bestätigen</string>  
+    <!--Wi-Fi settings strings end-->  
+    <!-- Wireless settings for PCH Monitor start -->  
+    <string name="pch_toggle_title">GPRS-Transferpräf.</string>  
+    <!-- for PCH Monitor data prefer -->  
+    <string name="pch_data_prefer_summary_off">Daten bevorzugt</string>  
+    <!-- for PCH Monitor call prefer-->  
+    <string name="pch_call_prefer_summary_on">Anruf bevorzugt</string>  
+    <!-- for PCH Monitor warning message -->  
+    <string name="pch_warning_message">Datenübertragungsrate nimmt ab.</string>  
+    <!-- Wireless settings for PCH Monitor end -->  
+    <!-- Schedule power on/off settings -->  
+    <!-- Main Settings screen setting option name to go into the power on/off settings-->  
+    <string name="schedule_power_on_off_settings_title">Ein-/Abschaltung nach Zeitplan</string>  
+    <string name="usb_bicr_title">Integriertes CD-Laufwerk</string>  
+    <string name="usb_bicr_summary">Virtuelle CD-ROM anzeigen, die einige praktische Software enthält.</string>  
+    <string name="select_memory">Standardschreibdatenträger</string>  
+    <string name="ipo_title">Schnellstart</string>  
+    <string name="ipo_summary_on">Schnellstart deaktivieren</string>  
+    <string name="ipo_summary_off">Schnellstart aktivieren</string>  
+    <string name="agps_profile_select_Title">AGPS-Profil</string>  
+    <string name="location_settings_label">Standortentwicklermodus</string>  
+    <string name="audio_profile_error">Fehler</string>  
+    <string name="battery_percent">Akkuprozentsatz</string>  
+    <!-- RCS-e settings -->  
+    <string name="rcse_settings_title">RCS-e-Einstellungen</string>
+    <string name="dlg_mount_external_sd_title" product="default">SD-Karte einbinden?</string>  
+    <string name="dlg_mount_external_sd_summary" product="default">Wenn Sie die SD-Karte einbinden werden einige von Ihnen verwendete Apps beendet.</string>
+
+    <string name="tethered_ipv6_title">Hotspot- &amp; Tethering-Einstellungen</string>  
+    <string name="tethered_ipv4v6">(IPv6 verfügbar)</string>  
+    <string name="tethered_ipv6">(Nur IPv6 verfügbar)</string>  
+    <string name="tethered_ipv4">(IPv6 nicht verfügbar)</string>
+	
+	<string name="usb_connect_as_cdrom_category">"Verbinden als CD-ROM"</string>
+
+
+    <string name="wifi_ap_client_block_title">"Blockieren"</string>  
+    <string name="wifi_ap_client_details_title">Details</string>  
+    <string name="wifi_wps_fail_error">Wi-Fi-geschützte Einrichtung fehlgeschlagen, noch einmal versuchen.</string>  
+    <string name="wifi_tether_setting_title">Grundeinstellungen</string>  
+    <string name="wifi_tether_wps_connect_title">"WPS-Verbindung"</string>  
+    <string name="wifi_tether_wps_connect_summary">Ausgewählter Wi-Fi Protected Setup-Modus zum Fortfahren</string>  
+    <string name="wifi_tether_wps_pin_error">Ungültige PIN</string>  
+    <string name="wifi_tethering_title">WLAN-Hotspot</string>  
+    <string name="wifi_ap_wps_dialog_title">"WPS-Verbindung"</string>  
+    <string name="wifi_ap_wps_mode_title">WPS-Modus</string>  
+    <string name="wifi_ap_wps_pin_title">Client-PIN eingeben</string>  
+    <string name="wifi_ap_reset_OOB_title">Netzwerk-SSID, Verschlüsselung und Kennwort auf Standardwerte rücksetzen (WPS-Auslieferungszustand)</string>  
+    <string name="wifi_ap_reset_OOB">OOB rücksetzen</string>  
+    <string name="wifi_ap_max_connection_title">Verbindungen maximal</string>  
+    <string name="wifi_ap_connected_title">Verbundene Nutzer</string>  
+    <string name="wifi_ap_blocked_title">Blockierte Nutzer</string>  
+    <string name="wifi_ap_client_unblock_title">Freigeben</string>  
+    <string name="wifi_ap_client_mac_label">MAC-Adresse:</string>  
+    <string name="wifi_ap_client_ip_label">IP-Adresse:</string>  
+    <string name="usb_sharing_title">USB-Internet</string>  
+    <string name="usb_sharing_summary">Windows-PC-Internet per USB-Kabel freigegeben</string>  
+    <string name="usb_sharing_info_title">Internet-Durchleitung</string>  
+    <string name="usb_sharing_info_step_1">"1. Netzwerkverbindungen am Windows-PC öffnen."</string>  
+    <string name="usb_sharing_info_step_2">"2. Klicken Sie mit der rechten Maustaste auf die Verbindung zur Freigabe, klicken Sie dann auf Eigenschaften."</string>  
+    <string name="usb_sharing_info_step_3">"3. Klicken Sie auf das Freigabe-Register und wählen Sie \'Anderen Netzwerkbenutzern die Verbindung über die Internetverbindung dieses Computers erlauben\'(neu hinzugefügtes Netzwerk wählen, das USB-Internet repräsentiert, wenn \'Heimnetzwerkverbindung\' erscheint)."</string>  
+    <string name="wifi_ap_bandwidth_title">Bandbreitennutzung</string>  
+    <string name="wifi_ap_bandwidth_enable">Bandbreitendrosselung aktivieren</string>  
+    <string name="wifi_ap_bandwidth_chart_title">Echtzeit-Datengeschwindigkeit</string>  
+    <string name="wifi_ap_bandwidth_chart_summary">Die mit Ihrem Telefon gemessene Datengeschwindigkeit Ihres Anbieters kann variieren.</string>  
+    <string name="wifi_ap_title">Statistik</string>  
+    <string name="wifi_ap_time_duration">Dauer: 
+        <xliff:g id="time">%1$s</xliff:g> 
+    </string>  
+    <string name="wifi_ap_total_data">Gesamtheit genutzter Daten:
+        <xliff:g id="time">%1$s</xliff:g>
+    </string>
+    <string name="cpu_dtm_title">CPU-Energiesparmodus</string>
+    <string name="cpu_dtm_summary">Beschränken Sie die maximale CPU-Leistung zur Verlängerung der Akkulaufzeit und Verringerung der Gerätetemperatur.</string>
+    <string name="wifi_advanced_ipv4_address_title">IPv4-Adresse</string>  
+    <string name="wifi_advanced_ipv6_address_title">IPv6-Adresse</string>  
+    <string name="wifi_ipv4_address">IPv4-Adresse</string>  
+    <string name="wifi_ipv6_address">IPv6-Adresse</string>
+    
+    <!-- MTK new datausage start -->
+    <string name="mtk_datausage_overview_wifi_today">Heute</string>  
+    <string name="mtk_datausage_show_on_lockscreen">Auf Sperrbildschirm zeigen</string>  
+    <string name="mtk_datausage_update">Datennutzung aktualisieren</string>  
+    <string name="mtk_datausage_update_set">"Aktualisierung"</string>  
+    <string name="mtk_datausage_amount_editor_title">Menge der genutzten Daten</string>  
+    <string name="mtk_datausage_usage_list">Datennutzung durch App</string>  
+    <string name="mtk_datausage_diff_byte">Datennutzungsdiff.</string>  
+    <string name="mtk_datausage_overview_tab">Übersicht</string>  
+    <string name="mtk_datausage_overview_wifi_total">Gesamt</string>  
+    <string name="mtk_datausage_overview_mobile_title">Mobil</string>  
+    <string name="mtk_datausage_overview_mobile_usage">
+        <xliff:g id="actual">%s</xliff:g> von 
+        <xliff:g id="limit">%s</xliff:g>
+    </string>
+    <string name="mtk_datausage_overview_mobile_usage_warning">Außerhalb des Limits <xliff:g>%s</xliff:g></string>
+    <!-- MTK new datausage end -->
+    <string name="display_personalize">Personalisieren</string>  
+    <string name="display_default">"Display"</string>
+    <!-- Sound Enhanecement -->
+    <string name="sound_enhancement_title">Klangverstörung</string>
+    <string name="music_plus_summary">Klangverstärker für Kopfhörer</string>
+    <string name="auto_backlight_title">Sparsame Hintergrundbeleuchtung</string>
+    <string name="auto_backlight_summary">Automatische Helligkeitsanpassung zum Energiesparen</string>
+
+    <string name="beam_mgmt_tab_download_title">Empfangene Anrufe</string>
+    <string name="beam_mgmt_tab_upload_title">"3. Klicken Sie auf das Freigabe-Register und wählen Sie 'Anderen Netzwerkbenutzern die Verbindung über die Internetverbindung dieses Computers erlauben'(neu hinzugefügtes Netzwerk wählen, das USB-Internet repräsentiert, wenn 'Heimnetzwerkverbindung' erscheint)."</string>
+    <string name="beam_share_mgmt_notification_ticker">Übertragungsfreigabeverlauf</string>
+    <string name="beam_share_mgmt_notification_title">Übertragungsfreigabeverlauf</string>
+    <string name="beam_share_mgmt_notification_message">"Zur Anzeige des Übertragungsfreigabeverlaufs wählen."</string>
+    <string name="beam_share_mgmt_tab_menu_clear">"Sollen alle Website-Einstellungen gelöscht werden?"</string>
+    <string name="beam_share_open_file_dialog_title">Datei kann nicht geöffnet werden.</string>
+    <string name="beam_share_open_file_unsupported_message">Datei kann nicht geöffnet werden.</string>
+    <string name="beam_share_open_file_not_found_message">"Datei nicht gefunden: <xliff:g id="file_name">%1$s</xliff:g></string>
+    <string name="beam_share_transfer_fail_dialog_title">"Übertragung fehlgeschlagen"</string>
+    <string name="beam_share_resend_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> wurde nicht erfolgreich gesendet."</string>
+    <string name="beam_share_resend_dialog_ok_button">"Erneut versuchen"</string>
+    <string name="beam_share_show_received_files_menu">"Erhaltene Dateien anzeigen"</string>
+    <string name="beam_share_history_title">Übertragungsfreigabeverlauf</string>
+    <string name="beam_share_clear_confirm_dialog_title">"Alles löschen"</string>
+    <string name="beam_share_clear_confirm_dialog_message">Gesamten Verlauf löschen?</string>
+    <string name="beam_share_receive_fail_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> wurde nicht erfolgreich empfangen."</string>
+    <string name="beam_share_clear_item_dailog_title">"Löschen"</string>
+    <string name="beam_share_clear_item_dailog_message">Dieses Element wird gelöscht.</string>
+    <string name="nfc_rw_tag_summary">Von einem Tag lesen oder es beschreiben</string>
+    <string name="nfc_p2p_mode">P2P-Modus</string>
+    <string name="nfc_p2p_mode_summary">App-Inhalt senden oder empfangen</string>
+    <string name="nfc_tag_mode_category">Tag-Modus</string>
+    <string name="nfc_rw_tag_title">Tag-Lesen &amp; -Schreiben</string>
+
+      <string name="voice_ui_title">Sprachsteuerung</string>
+      <string name="voice_ui_app_category">Für App-Einstellungen</string>
+      <string name="voice_ui_setting_category">"Einstellungen"</string>
+      <string name="alarm_app_name">"Wecker"</string>
+      <string name="music_app_name">Musik</string>
+      <string name="voice_ui_language_title">"Sprache der Sprachsteuerung"</string>
+      <string name="incoming_call_app_name">"Eingehender Anruf"</string>
+      <string name="camera_app_name">Kamera</string>
+      <string name="incomming_command_summary_format">Sie können zum Annehmen oder Ablehnen eingehender Anrufe <xliff:g id="first">%1$s</xliff:g> oder <xliff:g id="second">%2$s</xliff:g> sagen.</string>
+      <string name="alarm_command_summary_format">Zur Steuerung des Alarms können Sie <xliff:g id="first">%1$s</xliff:g> oder <xliff:g id="second">%2$s</xliff:g> sagen.</string>
+      <string name="camera_command_summary_format">Sie können zur Aufnahme <xliff:g id="first">%1$s</xliff:g> oder <xliff:g id="second">%2$s</xliff:g> sagen.</string>
+      <string name="music_command_summary_format">Sie können zur Steuerung der Musikwiedergabe <xliff:g id="first">%1$s</xliff:g> und <xliff:g id="second">%2$s</xliff:g> sagen.</string>
+
+    <string name="lock_screen_notifications_title">Sperrbildschirmbenachrichtigungen</string>
+    <string name="lock_screen_notifications_summary">Benachrichtigungen an Sperrbildschirm anzeigen</string>
+    <string name="lock_screen_style_title">Sperrbildschirmstil</string>
+
+	<!-- Lock screen settings start -->
+	<string name="current_suffix">"(Aktuell)"</string>
+	<string name="lockscreen_style_set">"Sperrbildschirm einstellen"</string>
+	<string name="lockscreen_style_default_desc">"Schnellzugriff auf Applikationen im Sperrbildschirm"</string>
+	<!-- Lock screen settings end -->
+    <!--  voice unlock start-->
+    <string name="voice_unlock_backup_info_summary">Falls die Sprachfreigabe Sie nicht erkennt: Wie möchten soll die Freigabe erfolgen?</string>
+    <string name="unlock_set_unlock_mode_voice_weak">Sprachfreigabe</string>
+    <!--  voice unlock end-->
+    <string name="usb_tether_type_title">USB-Tethering-Typ</string> 
+    <string name="security_not_set">Sicherheit ist nicht eingestellt</string>
+    <string name="lockdown_vpn_already_connected">Immer an VPN wurde bereits zur Verbindung aktiviert.</string> 
+    <string name="wifi_ap_no_connected">0 verbundene Nutzer</string>  
+    <string name="wifi_ap_no_blocked">0 blockierte Nutzer</string>  
+
+    <string name="status_imei_slot3">IMEI(Slot 3)</string>
+    <string name="status_imei_sv_slot3">IMEI SV(Slot 3)</string>
+    <string name="status_min_number_slot3">MIN(Slot 3)</string>
+    <string name="status_prl_version_slot3">PRL Version(Slot 3)</string>
+    <string name="status_meid_number_slot3">MEID(Slot 3)</string>
+
+    <string name="usb_tethering_select_version">PC-Systemversion wählen</string>
+</resources>

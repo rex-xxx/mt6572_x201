@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">    
+    <string name="deleteConfirmation_title" msgid="1418215926447642260">"Διαγραφή επαφής;"</string>
+    <string name="add_contact_dlg_title" msgid="2896685845822146494">"Προσθήκη επαφής"</string>
+    <string name="no_sdcard_title" product="nosdcard" msgid="8543619259870877473">"Μη διαθέσιμος χώρος αποθ."</string>
+    <string name="no_sdcard_title" product="default" msgid="5911758680339949273">"Δεν υπάρχει κάρτα SD"</string>
+    <string name="searching_vcard_title" msgid="4970508055399376813">"Αναζήτηση κάρτας vCard"</string>
+    <string name="scanning_sdcard_failed_title" product="nosdcard" msgid="4944932641334764942">"Δεν ήταν δυνατή η σάρωση του χώρου αποθήκευσης"</string>
+    <string name="scanning_sdcard_failed_title" product="default" msgid="6664940444476572612">"Δεν ήταν δυνατή η σάρωση της κάρτας SD"</string>
+    <string name="cancel_import_confirmation_title" msgid="5578683596010294836">"Ακύρωση εισαγωγής της vCard"</string>
+    <string name="cancel_export_confirmation_title" msgid="6516467140276768528">"Ακύρωση εξαγωγής της vCard"</string>
+    <string name="menu_all_contacts" msgid="5101735431586050711">"Όλες οι επαφές"</string>
+    <string name="search_bar_hint" msgid="1012756309632856553">"Αναζήτηση επαφών"</string>
+    <string name="aggregation_suggestion_join_dialog_title" msgid="5276699501316246253">"Ένωση επαφών"</string>
+    <string name="aggregation_suggestion_edit_dialog_title" msgid="1064042382692091314">"Επεξεργασία επιλεγμένων επαφών"</string>
+    <string name="cancel_confirmation_dialog_title" msgid="3950463632415908534">"Απόρριψη αλλαγών"</string>
+
+    <string name="menu_ipcallNumber">Κλήση IP 
+        <xliff:g id="name">%s</xliff:g> 
+    </string>  
+    <string name="deleting_call_log">Γίνεται διαγραφή αρχείου καταγραφής κλήσεων…</string>  
+    <string name="add_SIP_to_sim">Δεν είναι δυνατή η προσθήκη αριθμού SIP σε επαφή SIM/USIM.</string>  
+    <string name="already_has_SIP">Δεν είναι δυνατή η προσθήκη δύο αριθμών SIP σε επαφή, εάν πρέπει να συνεχίσετε. Διαγράψτε πρώτα τον παλιό αριθμό SIP.</string>  
+    <string name="multichoice_no_select_alert">"Δεν υπάρχει επιλεγμένο στοιχείο."</string>
+    <string name="sum_search_networks">"Αναζήτηση διαθέσιμων δικτύων"</string>    
+    <string name="notifier_progress__delete_will_start_message">Οι επαφές θα διαγραφούν σύντομα.</string>  
+    <string name="notifier_progress__copy_will_start_message">Οι επαφές θα αντιγραφούν σύντομα.</string>
+    
+    <string name="remove_sd_confirm_2">Είστε βέβαιοι ότι θέλετε να καταργήσετε την επαφή 
+        <xliff:g id="contact_name">%1$s</xliff:g> από την ταχεία κλήση 
+        <xliff:g id="key">%2$s</xliff:g>;
+    </string>  
+    <string name="callFailed_simError">Δεν υπάρχει κάρτα SIM ή σφάλμα κάρτας SIM</string>  
+    <string name="group_discard_member">Απόρριψη</string>  
+    <string name="group_discard_member_reason">Οι τροποποιήσεις θα απορριφθούν, επειδή το όνομα ομάδας δεν είναι έγκυρο.</string>  
+    <string name="share_contacts_limit">"Οι επιλεγμένες επαφές για κοινή χρήση δεν μπορούν να είναι περισσότερες από 3500"</string>  
+    <string name="contact_delete_all_tips">"Εκτελείται ήδη μια διαγραφή επαφών στο παρασκήνιο. Εάν θέλετε να ξεκινήσετε μια νέα διαγραφή επαφών, πρώτα ακυρώστε αυτήν."</string> 
+    <string name="deleteCallLogConfirmation_title">Διαγραφή αρχείων καταγραφής;</string>  
+    <string name="deleteCallLogConfirmation_message">Είστε βέβαιοι ότι θέλετε να διαγράψετε τα επιλεγμένα αρχεία καταγραφής;</string>
+      
+    <!--The following lines are provided and maintained by Mediatek Inc. -->
+    <string name="selected_item_count">Επιλέχθηκαν <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="count">%d</xliff:g></string>
+    <string name="menu_actionbar_selected_items">Επιλέχθηκαν <xliff:g id="name">%s</xliff:g></string>
+    <string name="recentCalls_delete">"Διαγραφή"</string>
+    <string name="menu_clearAll">"Κατάργηση επιλογής όλων"</string>
+    <string name="sim1">SIM1</string>
+    <string name="sim2">SIM2</string>
+    <string name="call_log_item_count">(<xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="count">%1$d</xliff:g>)</string>
+    <string name="call_indicator_3g">3G</string>
+    <string name="has_double_phone_number">Δεν είναι δυνατή η αποθήκευση του ίδιου τύπου αριθμού δυο φορές, ελέγξτε τον.</string>
+    <string name="msg_loading_sim_contacts_toast">"Γίνεται φόρτωση επαφών SIM στο παρασκήνιο, περιμένετε μια στιγμή."</string>
+    <string name="account_type_sim" product="tablet">Λογαριασμός SIM</string>  
+    <string name="account_type_sim" product="default">Λογαριασμός SIM</string>
+    <string name="account_type_usim" product="tablet">Λογαριασμός USIM</string>
+    <string name="account_type_usim" product="default">Λογαριασμός USIM</string>  
+    <string name="account_type_local_phone" product="tablet">Τοπικός λογαριασμός τηλεφώνου</string>  
+    <string name="account_type_local_phone" product="default">Τοπικός λογαριασμός τηλεφώνου</string>
+    <string name="local_account_type" product="tablet">Τοπικός λογαριασμός</string>
+    <string name="local_account_type" product="default">Τοπικός λογαριασμός</string>
+    <string name="local_account_label" product="tablet">Τοπικός λογαριασμός</string>
+    <string name="local_account_label" product="default">Τοπικός λογαριασμός</string>
+    <string name="account_type_sim_label" product="tablet">Στη SIM, χωρίς συγχρονισμό</string>
+    <string name="account_type_sim_label" product="default">Στη SIM, χωρίς συγχρονισμό</string>
+    <string name="account_type_usim_label" product="tablet">Στη USIM, χωρίς συγχρονισμό</string>
+    <string name="account_type_usim_label" product="default">Στη USIM, χωρίς συγχρονισμό</string>
+    <string name="menu_move_group">"Μετακίνηση μελών ομάδας"</string>
+    <string name="menu_message_group">"Αποστολή ομαδικού μηνύματος"</string>
+    <string name="usim_group_name_exceed_limit">"Το όνομα της ομάδας είναι πολύ μεγάλο για τη USIM."</string>  
+    <string name="usim_group_count_exceed_limit">"Δεν είναι δυνατή η προσθήκη περισσότερων νέων ομάδων στη USIM."</string>  
+    <string name="store_contact_to">Αποθήκευση της επαφής σε</string>
+    <string name="notifier_finish_delete_title">Η διαγραφή επαφών ολοκληρώθηκε με επιτυχία</string>  
+    <string name="notifier_finish_delete_content">Έχουν διαγραφεί 
+        <xliff:g id="total">%d</xliff:g> επαφές
+    </string>  
+    <string name="notifier_finish_copy_title">Η αντιγραφή επαφών ολοκληρώθηκε με επιτυχία</string>  
+    <string name="notifier_finish_copy_content">Έχουν αντιγραφεί 
+        <xliff:g id="total">%d</xliff:g> επαφές
+    </string>  
+    <string name="notifier_multichoice_process_report">Έχουν ολοκληρωθεί: 
+        <xliff:g id="items">%d</xliff:g>\nΔεν έχουν ολοκληρωθεί: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>  
+    <string name="notifier_failure_by_sim_full">Αποτυχία επειδή ο χώρος αποθήκευσης της κάρτας SIM είναι πλήρης\nΈχουν ολοκληρωθεί: 
+        <xliff:g id="items">%d</xliff:g>\nΔεν έχουν ολοκληρωθεί: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>  
+    <string name="notifier_failure_sim_notready">Αποτυχία επειδή η κάρτα SIM δεν είναι έτοιμη\nΈχουν ολοκληρωθεί: 
+        <xliff:g id="items">%d</xliff:g>\nΔεν έχουν ολοκληρωθεί: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>  
+    <string name="notifier_cancel_delete_title">Η διαγραφή επαφών έχει ακυρωθεί</string>  
+    <string name="notifier_fail_delete_title">Αποτυχία διαγραφής επαφών</string>  
+    <string name="notifier_cancel_copy_title">Η αντιγραφή επαφών έχει ακυρωθεί</string>  
+    <string name="notifier_fail_copy_title">Αποτυχία αντιγραφής επαφών</string>  
+    <string name="notifier_progress_delete_message">Διαγραφή 
+        <xliff:g id="current_number">%s</xliff:g>/ 
+        <xliff:g id="total_number">%s</xliff:g>: 
+        <xliff:g id="name" example="JoeDue">%s</xliff:g> 
+    </string>  
+    <string name="notifier_progress_delete_description">Διαγραφή του στοιχείου 
+        <xliff:g id="name" example="JoeDue">%s</xliff:g> 
+    </string>  
+    <string name="notifier_progress_copy_message">Αντιγραφή 
+        <xliff:g id="current_number">%s</xliff:g>/ 
+        <xliff:g id="total_number">%s</xliff:g>: 
+        <xliff:g id="name" example="JoeDue">%s</xliff:g> 
+    </string>  
+    <string name="notifier_progress_copy_description">Αντιγραφή του στοιχείου 
+        <xliff:g id="name" example="JoeDue">%s</xliff:g> 
+    </string>  
+    <string name="multichoice_confirmation_title_delete">Ακύρωση διαγραφής επαφών</string>  
+    <string name="multichoice_confirmation_message_delete">Να ακυρωθεί η διαγραφή επαφών;</string>  
+    <string name="multichoice_confirmation_title_copy">Ακύρωση αντιγραφής επαφών</string>  
+    <string name="multichoice_confirmation_message_copy">Να ακυρωθεί η αντιγραφή επαφών;</string> 
+
+<string name="menu_print">Εκτύπωση</string>  
+    <string name="printContact">Εκτύπωση επαφής μέσω</string>  
+    <string name="no_way_to_print">Δεν υπάρχει διαθέσιμη εφαρμογή για την εκτύπωση της επαφής.</string>  
+    <string name="from_account_format"> 
+        <xliff:g id="source" example="user@gmail.com">%1$s</xliff:g> 
+    </string>  
+    <string name="menu_selectAll">"Επιλογή όλων"</string>  
+    <string name="all_resources">Όλοι οι πόροι</string>  
+    <string name="choose_resources_header">Επιλογή πόρων</string>  
+    <string name="all_tab_label1">ΟΛΑ</string>  
+    <string name="call_sipcall">Κλήση Internet</string>  
+    <string name="call_pin_dialog_title">Επιλογή κάρτας SIM</string>  
+    <string name="call_people">Άτομα</string>  
+    <string name="call_ip_dial">Κλήση IP</string>  
+    <string name="call_speed_dial">Ταχεία κλήση</string>  
+    <string name="call_video_call">Κλήση βίντεο</string>  
+    <string name="add_speed_dial">Προσθήκη ταχείας κλήσης</string>
+    <string name="speed_dial_added">Η επαφή 
+        <xliff:g id="contact_name">%1$s</xliff:g> ( 
+        <xliff:g id="phone_label">%2$s</xliff:g>) προστέθηκε στην ταχεία κλήση 
+        <xliff:g id="key">%3$s</xliff:g> 
+    </string>  
+    <string name="speed_dial_added2">Η επαφή 
+        <xliff:g id="contact_name">%1$s</xliff:g> προστέθηκε στην ταχεία κλήση 
+        <xliff:g id="key">%2$s</xliff:g> 
+    </string>  
+    <string name="remove_speed_dial">Κατάργηση</string>  
+    <string name="remove_sd_confirm_1">Είστε βέβαιοι ότι θέλετε να καταργήσετε την επαφή 
+        <xliff:g id="contact_name">%1$s</xliff:g> ( 
+        <xliff:g id="phone_label">%2$s</xliff:g>) από την ταχεία κλήση 
+        <xliff:g id="key">%3$s</xliff:g>;
+    </string>  
+    <string name="emergencycall">Κλήση έκτακτης ανάγκης</string>  
+    <string name="imei_invalid">Μη έγκυρο</string>  
+    <string name="call_log_filter_all_resources">Όλοι οι πόροι</string>  
+    <string name="turn_on_3g_service_message">Η υπηρεσία 3G είναι απενεργοποιημένη τώρα, θέλετε να την ενεργοποιήσετε;</string>  
+    <string name="associate_sim_missing_message">"Η κάρτα SIM %1$s δεν είναι διαθέσιμη. Θέλετε να πραγματοποιήσετε την κλήση μέσω %2$s;"</string>  
+    <string name="associate_sim_missing_other">άλλο</string>  
+    <string name="sim_manage_call_via">Κλήση μέσω</string>  
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">Πρώτα, εισαγάγετε τον αριθμό προθήματος IP στις ρυθμίσεις φωνητικής κλήσης.</string>  
+    <string name="ip_dial_error_toast_for_sip_call_selected">Η λειτουργία κλήσης IP δεν εφαρμόζεται σε κλήσεις Ιnternet.</string>  
+    <string name="sd_add">Προσθήκη</string>  
+    <string name="reselect_number">Ο αριθμός έχει ήδη εκχωρηθεί σε πλήκτρο ταχείας κλήσης. Επιλέξτε άλλον αριθμό.</string>  
+    <string name="calllog_today">Σήμερα</string>  
+    <string name="calllog_yesterday">Χθες</string>  
+    <string name="menu_association">Συσχέτιση κάρτας SIM</string>  
+    <string name="menu_remove_association">Κατάργηση συσχέτισης κάρτας SIM</string>  
+    <string name="remove_association_message">Είστε βέβαιοι ότι θέλετε την κατάργηση συσχέτισης της κάρτας SIM με αυτόν τον αριθμό;</string>  
+    <string name="remove_number_title">Κατάργηση</string>  
+    <string name="associatiated_SIM">"Συσχετισμένη κάρτα SIM"</string>  
+    <string name="unassociated">"Μη συσχετισμένη"</string>  
+    <string name="associate_SIM">"Συσχέτιση SIM"</string>  
+    <string name="block_incoming_call">Φραγή εισερχομένων κλήσεων απευθείας</string>  
+    <string name="block_video_incoming_call">Φραγή κλήσεων βίντεο απευθείας</string>  
+    <string name="phone_book_busy">Το ευρετήριο τηλεφώνων είναι απασχολημένο αυτήν τη στιγμή, προσπαθήστε αργότερα.</string>  
+    <string name="sim_invalid">Δεν είναι δυνατή η αποθήκευση επαφής όταν η κάρτα SIM δεν είναι έγκυρη.</string>  
+    <string name="cannot_insert_null_number">Δεν είναι δυνατή η αποθήκευση επαφής με κενό αριθμό.</string>  
+    <string name="AirPlane_mode_on">Δεν είναι δυνατή η αποθήκευση επαφής όταν είναι ενεργοποιημένη η λειτουργία πτήσης.</string>  
+    <string name="FDNEnabled">Δεν είναι δυνατή η αποθήκευση επαφής όταν είναι ενεργοποιημένη η λειτουργία FDN.</string>  
+    <string name="sim_invalid_number">Δεν είναι δυνατή η αποθήκευση μη έγκυρου αριθμού.</string>  
+    <string name="email_invalid">Δεν είναι δυνατή η αποθήκευση μη έγκυρου E-mail.</string>  
+    <string name="email_2g_invalid">Δεν είναι δυνατή η αποθήκευση E-mail σε SIM 2G. Επιλέξτε SIM 3G για αποθήκευση.</string>  
+    <string name="sim_invalid_fix_number">Δεν είναι δυνατή η αποθήκευση μη έγκυρου καθορισμένου αριθμού.</string>  
+    <string name="AirPlane_mode_on_edit">Δεν είναι δυνατή η επεξεργασία επαφής όταν είναι ενεργοποιημένη η λειτουργία πτήσης.</string>  
+    <string name="fix_number_too_long">"Ο καθορισμένος αριθμός είναι πολύ μεγάλος."</string>  
+    <string name="name_too_long">"Το όνομα είναι πολύ μεγάλο."</string>  
+    <string name="storage_full">Ο χώρος αποθήκευσης είναι πλήρης.</string>  
+    <string name="number_too_long">"Ο αριθμός είναι πολύ μεγάλος."</string>  
+    <string name="generic_failure">Γενικό σφάλμα.</string>  
+    <string name="send_groupsms_no_number_more">"Η επαφή %1$s και %2$s ακόμα επαφές δεν έχουν έγκυρο αριθμό τηλεφώνου."</string>  
+    <string name="send_groupsms_no_number_1">"Η επαφή %1$s δεν έχει έγκυρο αριθμό τηλεφώνου."</string>  
+    <string name="send_groupsms_no_number_2">"Οι επαφές %1$s και %2$s δεν έχουν έγκυρο αριθμό τηλεφώνου."</string>  
+    <string name="please_wait">"περιμένετε"</string>  
+    <string name="move_contacts_to">Μετακίνηση επαφών σε</string>  
+    <string name="menu_email_group">"Αποστολή ομαδικού E-mail"</string>  
+    <string name="moving_group_members">"Μετακίνηση μελών ομάδας\u2026"</string>  
+    <string name="removing_group_members_sucess">"Κατάργηση μελών ομάδας με επιτυχία"</string>  
+    <string name="moving_group_members_sucess">"Μετακίνηση μελών ομάδας με επιτυχία"</string>  
+    <string name="moving_group_members_fail">"Η μετακίνηση μελών ομάδας απέτυχε"</string>  
+    <string name="no_valid_number_in_group">Αυτή η ομάδα δεν έχει επαφή με έγκυρο αριθμό τηλεφώνου.</string>  
+    <string name="no_valid_email_in_group">Αυτή η ομάδα δεν έχει επαφή με διεύθυνση E-mail.</string>  
+    <string name="email_error">Πρέπει να εγκαταστήσετε την εφαρμογή E-mail ή να ρυθμίσετε τις παραμέτρους του λογαριασμού σας!</string>  
+    <string name="name_needed">Το όνομα είναι απαραίτητο</string>  
+    <string name="save_group_fail">Η αποθήκευση ομάδας απέτυχε.</string>  
+    <string name="group_name_exists">Το όνομα της ομάδας υπάρχει ήδη.</string>  
+    <string name="import_export_title">Εισαγωγή/Εξαγωγή</string>  
+    <string name="next">"Επόμενο"</string>  
+    <string name="imexport_bridge_sd_card">Κάρτα SD</string>  
+    <string name="tips_source">Αντιγραφή επαφών από</string>  
+    <string name="tips_target">Αντιγραφή επαφών σε</string>  
+    <string name="back">Πίσω</string>  
+    <string name="imexport_title">Εισαγωγή/Εξαγωγή επαφών</string>  
+    <string name="menu_delete_contact">"Διαγραφή επαφής"</string>  
+    <string name="multichoice_delete_confirm_message">"Είστε βέβαιοι ότι θέλετε να διαγράψετε τις επιλεγμένες επαφές;"</string>  
+    <string name="multichoice_delete_confirm_title">"Να διαγραφούν οι επαφές;"</string>  
+    <string name="multichoice_contacts_limit">"Οι επιλεγμένες επαφές δεν μπορούν να είναι περισσότερες από 3500"</string>  
+    <plurals name="searchFoundCalllogs"> 
+        <item quantity="one">1 αρχείο καταγραφής κλήσεων</item>  
+        <item quantity="other"> 
+            <xliff:g id="count">%d</xliff:g> αρχεία καταγραφής κλήσεων
+        </item> 
+    </plurals>  
+    <string name="search_results_for">Αποτελέσματα αναζήτησης για: 
+        <xliff:g id="query">%s</xliff:g> 
+    </string>  
+    <string name="listFoundAllCalllogZero">Δεν βρέθηκε αρχείο καταγραφής κλήσεων</string>  
+    <string name="calllogList">Ιστορικό κλήσεων</string>  
+    <string name="calllogHint">Αναζήτηση αρχείων καταγραφής κλήσεων</string>  
+    <string name="calllog_description">Εισερχόμενες, εξερχόμενες και αναπάντητες κλήσεις</string>  
+    <string name="noMatchingCalllogs">Δεν βρέθηκε αρχείο καταγραφής κλήσεων που να ταιριάζει.</string>  
+    <string name="menu_videocallNumber">Κλήση βίντεο 
+        <xliff:g id="name">%s</xliff:g> 
+    </string>  
+    <string name="no_vm_number">Ο αριθμός τηλεφωνητή λείπει</string>  
+    <string name="no_vm_number_msg">Δεν υπάρχει αριθμός τηλεφωνητή αποθηκευμένος στην κάρτα SIM.</string>  
+    <string name="add_vm_number_str">Προσθήκη αριθμού</string>  
+    <string name="reminder">Υπενθύμιση</string>  
+    <string name="enable_sip_dialog_message">Η κλήση Internet είναι απενεργοποιημένη. Θέλετε να την ενεργοποιήσετε;</string>  
+    <string name="file_already_on_sd_card">Το αρχείο βρίσκεται ήδη στην κάρτα SD.</string>  
+    <string name="send_file_sms_error">Δεν είναι δυνατή η κοινή χρήση του αρχείου μέσω SMS. Χρησιμοποιήστε MMS.</string>  
+    <string name="error_save_usim_contact_email_lost">"Η αποθήκευση της διεύθυνσης E-mail απέτυχε επειδή ο χώρος αποθήκευσης USIM για E-mail είναι πλήρης."</string>  
+    <string name="error_import_usim_contact_email_lost">"Προκλήθηκε αποτυχία επειδή ο χώρος αποθήκευσης USIM για E-mail είναι πλήρης.\nΈχουν ολοκληρωθεί: 
+        <xliff:g id="items">%d</xliff:g>\nΔεν έχουν ολοκληρωθεί: 
+        <xliff:g id="items">%d</xliff:g>"
+    </string>  
+    <string name="user_profile_cannot_sd_card">Δεν είναι δυνατή η κοινή χρήση του περιεχομένου με αυτήν τη μέθοδο.</string>
+    <string name="email_too_long">Το E-mail είναι πολύ μεγάλο.</string>     
+    <!-- The previous lines are provided and maintained by Mediatek Inc. -->
+    <!--The following lines are provided and maintained by Mediatek Inc. 2012-5-16-->  
+    <string name="delete_group_failure">Η διαγραφή της ομάδας απέτυχε.</string>  
+    <!-- The previous lines are provided and maintained by Mediatek Inc. -->
+      <string name="call_sms">SMS</string> 
+    <string name="contact_group_list_title">"Επιλογή ομάδας - στόχου"</string> 
+    <string name="import_no_vcard_dialog_text">Δεν βρέθηκε αρχείο vCard στο 
+        <xliff:g id="storage_name">%s</xliff:g>
+    </string> 
+  <string name="send_groupemail_no_number_more">"Η επαφή %1$s και %2$s ακόμα επαφές δεν έχουν έγκυρο E-mail."</string>
+  <string name="send_groupemail_no_number_1">"Η επαφή %1$s δεν έχει έγκυρο E-mail."</string>
+  <string name="send_groupemail_no_number_2">"Οι επαφές %1$s και %2$s δεν έχουν έγκυρο E-mail."</string>
+    <string name="send_message">Αποστολή μηνύματος</string>
+  <string name="type_ip_outgoing">Εξερχόμενη κλήση IP ( 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="name">%s</xliff:g>)
+    </string>
+  <string name="call_log_auto_rejected_label">Κλήσεις που απορρίφθηκαν αυτόματα</string>
+  <string name="look_simstorage">Προβολή χωρητικότητας κάρτας SIM</string>
+  <string name="dlg_simstorage_content">η χωρητικότητα του χώρου αποθήκευσης αριθμών τηλεφώνου 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="items">%d</xliff:g>, έχει χρησιμοποιηθεί 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="items">%d</xliff:g>.
+    </string>
+  <string name="delete_group_dialog_title" msgid="7368429698398624427">"Διαγραφή ομάδας"</string>
+  <string name="dialog_phone_call_prohibited_title" msgid="2111395432187079579">"Η κλήση δεν πραγματοποιήθηκε."</string>
+  <string name="dialog_voicemail_not_ready_title" msgid="7258109862329777060">"Μη διαθέσιμος αριθμός αυτόμ. τηλεφωνητή"</string>
+
+  <string name="nickname_too_long">"Το ψευδώνυμο είναι πολύ μεγάλο."</string>
+    <string name="pick_new_photo_from_gallery">Επιλογή νέας φωτογραφίας</string>  
+    <string name="copy_text_to_dialer">Αντιγραφή στο πληκτρολόγιο</string> 
+    <string name="account_phone_only" product="tablet">"Tablet"</string>  
+    <string name="account_phone_only" product="default">Τηλέφωνο</string>  
+
+    <string name="international_dialing_title">Βοήθεια διεθνούς κλήσης</string>
+    <string name="international_dialing_select_country">Έχει ανιχνευθεί ότι πραγματοποιείτε διεθνή κλήση. Επιλέξτε τον προορισμό σας.</string>
+    <string name="international_dialing_add_country_code">Έχει ανιχνευθεί ότι καλείτε έναν αριθμό στη χώρα <xliff:g id="country_name">%s</xliff:g>. Θέλετε να προσθέσετε τον κωδικό χώρας (+<xliff:g id="country_code">%s</xliff:g>);</string>
+    <string name="international_dialing_add_country_code_and_area_code">Έχει ανιχνευθεί ότι καλείτε έναν αριθμό στην περιοχή <xliff:g id="area_name">%1$s</xliff:g>, της χώρας <xliff:g id="country_name">%2$s</xliff:g>. Θέλετε να προσθέσετε τον κωδικό χώρας και τον κωδικό περιοχής (+<xliff:g id="prefix">%3$s</xliff:g>);</string> 
+    <string name="international_dialing_change_country_prefix">Έχει ανιχνευθεί ότι καλείτε από τη χώρα <xliff:g id="country_name">%s</xliff:g>. Να γίνει αλλαγή του προθήματος διεθνούς κλήσης σε \'+\';</string>
+    <string name="international_dialing_add_country_code_input_area_code">Έχει ανιχνευθεί ότι καλείτε έναν αριθμό στη χώρα <xliff:g id="country_name">%s</xliff:g>. Εάν αυτό ισχύει, εισαγάγετε τον κωδικό περιοχής.</string>   
+    <string name="international_dialing_add_country_code_default_input_area_code">Έχει ανιχνευθεί ότι καλείτε έναν αριθμό στη χώρα <xliff:g id="country_name">%s</xliff:g>. Εάν η πόλη προορισμού δεν είναι η περιοχή <xliff:g id="area_name">%s</xliff:g>, εισαγάγετε τον κωδικό περιοχής.</string>
+    <string name="international_dialing_need_area_code">Για την κλήση χρειάζεται ο κωδικός περιοχής της πόλης προορισμού.</string>
+    <string name="international_dialing_input_area_code">Εισαγάγετε τον κωδικό περιοχής εδώ</string>
+    <string name="international_dialing_dialed_number">Κλήση του αριθμού:</string>
+    <string name="international_dialing_confirm_area_code">Εάν η πόλη προορισμού δεν είναι η περιοχή <xliff:g id="area_name">%s</xliff:g>, εισαγάγετε τον κωδικό περιοχής της πόλης προορισμού στη συνέχεια.</string>
+    <string name="international_dialing_dial_with_country_code">Κλήση με κωδικό χώρας</string>
+    <string name="international_dialing_click_below_button">Κάντε κλικ στο κουμπί που ακολουθεί για να αλλάξετε τον αριθμό του κωδικού χώρας.</string>
+    <string name="international_dialing_yes">Ναι. Χρήση του αριθμού που ακολουθεί:</string>
+    <string name="international_dialing_no">Όχι. Χρήση του αρχικού αριθμού:</string>
+    <string name="international_dialing_call_button">"Κλήση"</string>
+    <string name="international_dialing_area_code">κωδικός περιοχής</string>
+    <string name="international_dialing_invalid_number">Ο αριθμός δεν είναι έγκυρος. Θέλετε να συνεχίσετε την κλήση έτσι κι αλλιώς;</string>
+    <string name="international_dialing_add_country_code_and_area_code_without_prefix">Θέλετε να προσθέσετε τον κωδικό χώρας και τον κωδικό περιοχής;</string>
+    <string name="share_too_large">Τα συνολικά δεδομένα υπερβαίνουν το ανώτατο όριο. Καταργήστε την επιλογή ορισμένων στοιχείων και προσπαθήστε ξανά.</string>
+
+</resources>

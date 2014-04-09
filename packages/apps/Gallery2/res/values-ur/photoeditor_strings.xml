@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <!-- Name for the photo editing activity to edit the selected photo. [CHAR LIMIT=NONE] -->  
+    <string name="photoeditor_name">فوٹو اسٹوڈیو</string>  
+    <!-- Toast shown when selected photo could not be loaded. [CHAR LIMIT=40] -->  
+    <string name="loading_failure">تصویر لوڈ کرنے سے قاصر</string>  
+    <!-- Toast shown when edited photo could not be saved. [CHAR LIMIT=40] -->  
+    <string name="saving_failure">تصویر محفوظ کرنے سے قاصر</string>  
+    <!-- Toast shown when edited photo is successfully saved under %s album [CHAR LIMIT=40] -->  
+    <string name="photo_saved">تصویر 
+        <xliff:g id="album_name">%s</xliff:g> البم میں محفوظ کی گئی
+    </string>  
+    <!-- Album name where edited photo will be saved in the storage. [CHAR LIMIT=12] -->  
+    <string name="edited_photo_bucket_name">ترمیم کیا گیا</string>  
+    <!-- Dialog message prompted when the user is abandoning unsaved changes. [CHAR LIMIT=40] -->  
+    <string name="save_photo">ترمیم کردہ تصویر محفوظ کریں</string>  
+    <!-- Dialog yes button for the user to accept text presented in a dialog. [CHAR LIMIT=12] -->  
+    <string name="yes">ہاں</string>  
+    <!-- Dialog no button for the user to decline text presented in a dialog. [CHAR LIMIT=12] -->  
+    <string name="no">نہیں</string>  
+    <!-- Text button in the action bar for the user to save edited photo. [CHAR LIMIT=8] -->  
+    <string name="save">محفوظ</string>  
+    <!-- Name for the photo effect that auto fixes exposure. [CHAR LIMIT=15] -->  
+    <string name="autofix">خودکار طور پر ٹھیک کریں</string>  
+    <!-- Name for the photo effect that crops photo. [CHAR LIMIT=15] -->  
+    <string name="crop">کاٹیں</string>  
+    <!-- Name for the photo effect that applies cross-process effect. [CHAR LIMIT=15] -->  
+    <string name="crossprocess">کراس پراسیس</string>  
+    <!-- Name for the photo effect that applies black/white documentary styles. [CHAR LIMIT=15] -->  
+    <string name="documentary">دستاویزی</string>  
+    <!-- Name for the photo effect that doodles on photo. [CHAR LIMIT=15] -->  
+    <string name="doodle">ڈوڈل</string>  
+    <!-- Name for the photo effect that makes photo only two color tones. [CHAR LIMIT=15] -->  
+    <string name="duotone">دہری ٹون</string>  
+    <!-- Name for the photo effect that smooths facial skins. [CHAR LIMIT=15] -->  
+    <string name="facelift">چہرے کا نکھار</string>  
+    <!-- Name for the photo effect that tans facial skins. [CHAR LIMIT=15] -->  
+    <string name="facetan">چہرے کے رنگ کا جلنا</string>  
+    <!-- Name for the photo effect that fills back-light. [CHAR LIMIT=15] -->  
+    <string name="filllight">روشنی بھرنا</string>  
+    <!-- Name for the photo effect that applies fisheye lens distortion. [CHAR LIMIT=15] -->  
+    <string name="fisheye">فش آئی</string>  
+    <!-- Name for the photo effect that flips photo vertically or horizontally. [CHAR LIMIT=15] -->  
+    <string name="flip">پلٹائيں</string>  
+    <!-- Name for the photo effect that adds grains and noises. [CHAR LIMIT=15] -->  
+    <string name="grain">فلم گرین</string>  
+    <!-- Name for the photo effect that converts colors to black-and-white, abbreviated B&W. [CHAR LIMIT=15] -->  
+    <string name="grayscale">B&amp;W</string>  
+    <!-- Name for the photo effect that adds highlights. [CHAR LIMIT=15] -->  
+    <string name="highlight">ہائی لائٹ</string>  
+    <!-- Name for the photo effect that applies lomo-camera styles. [CHAR LIMIT=15] -->  
+    <string name="lomoish">لومو</string>  
+    <!-- Name for the photo effect that inverts photo to negative images. [CHAR LIMIT=15] -->  
+    <string name="negative">منفی</string>  
+    <!-- Name for the photo effect that applies posterization. [CHAR LIMIT=15] -->  
+    <string name="posterize">پوسٹرائز</string>  
+    <!-- Name for the photo effect that remove red eyes. [CHAR LIMIT=15] -->  
+    <string name="redeye">سرخ آنکھ</string>  
+    <!-- Name for the photo effect that rotates photo. [CHAR LIMIT=15] -->  
+    <string name="rotate">گھمانا</string>  
+    <!-- Name for the photo effect that adjusts color saturation. [CHAR LIMIT=15] -->  
+    <string name="saturation">لبریزی</string>  
+    <!-- Name for the photo effect that applies sepia color toning. [CHAR LIMIT=15] -->  
+    <string name="sepia">سیپیا</string>  
+    <!-- Name for the photo effect that adds shadows. [CHAR LIMIT=15] -->  
+    <string name="shadow">سایہ</string>  
+    <!-- Name for the photo effect that sharpens blurred photo. [CHAR LIMIT=15] -->  
+    <string name="sharpen">تیز کرنا</string>  
+    <!-- Name for the photo effect that straightens crooked photo. [CHAR LIMIT=15] -->  
+    <string name="straighten">سیدھا کرنا</string>  
+    <!-- Name for the photo effect that adjusts warmth color-temperature. [CHAR LIMIT=15] -->  
+    <string name="temperature">گرمائش</string>  
+    <!-- Name for the photo effect that tints photo with various colors. [CHAR LIMIT=15] -->  
+    <string name="tint">ٹنٹ</string>  
+    <!-- Name for the photo effect that fades off photo edges. [CHAR LIMIT=15] -->  
+    <string name="vignette">وگنیت</string>  
+    <!-- Tool-tip toast shown when the user chooses to crop photo. [CHAR LIMIT=40] -->  
+    <string name="crop_tooltip">تصویر کراپ کرنے کے لئے مارکرگھسیٹیں</string>  
+    <!-- Tool-tip toast shown when the user chooses to doodle on photo. [CHAR LIMIT=40] -->  
+    <string name="doodle_tooltip">ڈوڈل کرنے کے لئے تصویر پر بنائيں</string>  
+    <!-- Tool-tip toast shown when the user chooses to flip photo. [CHAR LIMIT=40] -->  
+    <string name="flip_tooltip">تصویر گھمانے کے لئے اسے گھسیٹیں</string>  
+    <!-- Tool-tip toast shown when the user chooses to remove red eyes. [CHAR LIMIT=40] -->  
+    <string name="redeye_tooltip">سرخ آنکھ ہٹانے کے لئے ٹیپ کریں</string>  
+    <!-- Tool-tip toast shown when the user chooses to rotate photo. [CHAR LIMIT=40] -->  
+    <string name="rotate_tooltip">تصویر گھمانے کے لئے گھسیٹیں</string>  
+    <!-- Tool-tip toast shown when the user chooses to straighten photo. [CHAR LIMIT=40] -->  
+    <string name="straighten_tooltip">تصویر سیدھی کرنے کے لئے گھسیٹیں</string> 
+    <string name="discard_unsaved_photo">غیرمحفوظ کردہ تبدیلیاں رد کریں؟</string> 
+</resources>

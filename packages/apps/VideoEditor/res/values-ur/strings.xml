@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="short_app_name">مووی اسٹوڈیو</string>  
+    <string name="full_app_name">Android مووی اسٹوڈیو</string>  
+    <!-- Displayed in the center of the activity while a project is loading. -->  
+    <string name="editor_loading_project">پروجیکٹ لوڈ ہورہا ہے...</string>  
+    <!-- Displayed in the center of the activity if a project could not be loaded. -->  
+    <string name="editor_no_project">نیا پروجیکٹ ملا</string>  
+    <!-- Menu text displayed for adding new media item. -->  
+    <string name="editor_add">شامل کریں</string>  
+    <!-- Menu item used to launch the Gallery video clip picker. -->  
+    <string name="editor_import_video">ویڈیو کلپ درآمد کریں</string>  
+    <!-- Menu item used to launch the Gallery image picker. -->  
+    <string name="editor_import_image">تصویر درآمد کریں</string>  
+    <!-- Menu item used to launch the Music song picker. -->  
+    <string name="editor_import_audio">موسیقی درآمد کریں</string>  
+    <!-- Menu item used to share the movie (e.g. to YouTube). -->  
+    <string name="editor_share_movie">مووی کا اشتراک کریں</string>  
+    <!-- Menu item used to export the movie. -->  
+    <string name="editor_export_movie">مووی برآمد کریں</string>  
+    <!-- Menu item used to play the exported movie. -->  
+    <string name="editor_play_exported_movie">برآمد شدہ مووی چلائیں</string>  
+    <!-- Menu item used to change the aspect ratio of the movie. -->  
+    <string name="editor_change_aspect_ratio">تناسب نظر میں تبدیلی کریں</string>  
+    <!-- Menu item used to change the project name. -->  
+    <string name="editor_edit_project_name">پروجیکٹ کا نام تبدیل کریں</string>  
+    <!-- Menu item used to delete the project. -->  
+    <string name="editor_delete_project">پروجیکٹ حذف کریں</string>  
+    <!-- Menu item for capturing a new video clip. -->  
+    <string name="editor_capture_video">ایک ویڈیو ریکارڈ کریں</string>  
+    <!-- Menu item for capturing a new image. -->  
+    <string name="editor_capture_image">ایک تصویر لیں</string>  
+    <!-- Text displayed in the delete project confirmation dialog. -->  
+    <string name="editor_delete_project_question">کیا آپ اس پروجیکٹ کو حذف کرنا چاہتے ہیں؟</string>  
+    <!-- Text displayed in the playback widget to indicate the current playhead time position [CHAR_LIMIT=11] -->  
+    <string name="editor_zero_time_stamp">00:00:00.0</string>  
+    <!-- Text displayed in the remove audio track confirmation dialog. -->  
+    <string name="editor_remove_audio_track_question">کیا آپ اس آڈیو ٹریک کو ہٹانا چاہتے ہیں؟</string>  
+    <!-- Menu header of title overlay menu. -->  
+    <string name="editor_title_menu_header">عنوان</string>  
+    <!-- Menu item used to add a new title (overlay title). -->  
+    <string name="editor_add_overlay">عنوان شامل کریں</string>  
+    <!-- Menu item used to change the overlay title. -->  
+    <string name="editor_edit_overlay">عنوان کی تدوین کریں</string>  
+    <!-- Menu item used to remove a title (overlay title). -->  
+    <string name="editor_remove_overlay">عنوان ہٹائیں</string>  
+    <!-- Text displayed in the remove overlay confirmation dialog. -->  
+    <string name="editor_remove_overlay_question">کیا آپ اس چڑھے ہوئے کو ہٹانا چاہتے ہیں؟</string>  
+    <!-- Menu item used to change the rendering mode. Launches a single choice dialog. -->  
+    <string name="editor_change_rendering_mode">ترجمانی کے طرز کو تبدیل کریں</string>  
+    <!-- Text displayed in the remove transition confirmation dialog. -->  
+    <string name="editor_remove_transition_question">کیا آپ اس ترجمے کو حذف کرنا چاہتے ہیں؟</string>  
+    <!-- Text displayed in the remove effect confirmation dialog. -->  
+    <string name="editor_remove_effect_question">کیا آپ اس اثر کو ہٹانا چاہتے ہیں؟</string>  
+    <!-- Text displayed in the remove video clip confirmation dialog. -->  
+    <string name="editor_remove_video_question">کیا آپ اس ویڈیو کلپ کو ہٹانا چاہتے ہیں؟</string>  
+    <!-- Text displayed in the remove image confirmation dialog. -->  
+    <string name="editor_remove_image_question">کیا آپ اس تصویر کو ہٹانا چاہتے ہیں؟</string>  
+    <!-- Text displayed as the header of effect menu. -->  
+    <string name="editor_effect_menu_header">ایفیکٹ</string>  
+    <!-- Menu item used to add an effect. -->  
+    <string name="editor_add_effect">ایفیکٹ شامل کریں</string>  
+    <!-- Menu item used to change an effect type and/or duration. -->  
+    <string name="editor_change_effect">ایفیکٹ تبدیل کریں</string>  
+    <!-- Menu item used to remove an effect. -->  
+    <string name="editor_remove_effect">ایفیکٹ ہٹائیں</string>  
+    <!-- Menu item text for effect pan zoom. -->  
+    <string name="editor_pan_zoom_effect">پین زوم</string>  
+    <!-- Menu item text for effect gradient. -->  
+    <string name="editor_gradient_effect">ڈھال</string>  
+    <!-- Menu item text for effect sepia. -->  
+    <string name="editor_sepia_effect">گہرا بھورا</string>  
+    <!-- Menu item text for effect negative. -->  
+    <string name="editor_negative_effect">منفی</string>  
+    <!-- Menu item text for no effect. -->  
+    <string name="editor_no_effect">کوئی ایفیکٹ نہیں</string>  
+    <!-- Menu item used to add a transition at the beginning of the image or video clip. -->  
+    <string name="editor_add_begin_transition">کلپ میں منتقلی</string>  
+    <!-- Menu item used to add a transition at the end of the image or video clip. -->  
+    <string name="editor_add_end_transition">کلپ سے باہر منتقلی</string>  
+    <!-- Menu item used to change a transition type and/or duration. -->  
+    <string name="editor_change_transition">منتقلی کو تبدیل کریں</string>  
+    <!-- Toast message used when a video clip needs to be downloaded before it can be used -->  
+    <string name="editor_video_load">ویڈیو کلپ کا ڈاؤن لوڈ شروع ہوگیا تھا۔ اس کے مکمل ہونے کے بعد آپ کو اطلاع دی جائے گی۔</string>  
+    <!-- Toast message used when an image needs to be downloaded before it can be used -->  
+    <string name="editor_image_load">تصویر کا ڈاؤن لوڈ شروع ہوگیا تھا۔ اس کے مکمل ہونے کے بعد آپ کو اطلاع دی جائے گی۔</string>  
+    <!-- The title displayed in the contextual action bar when a transition is selected. -->  
+    <string name="editor_transition_title">منتقلی</string>  
+    <!-- Audio tracks -->  
+    <!-- Enable looping for the audio track. -->  
+    <string name="editor_enable_loop_audio_track">حلقہ</string>  
+    <!-- Disable looping for the audio track. -->  
+    <string name="editor_disable_loop_audio_track">حلقہ نہ بنائیں</string>  
+    <!-- Mute the audio track. -->  
+    <string name="editor_mute">خاموش کریں</string>  
+    <!-- Unmute the audio track. -->  
+    <string name="editor_unmute">آواز چالو کریں</string>  
+    <!-- Text displayed in menu for ducking (lower background music volume
+         if there is sound in foreground) [CHAR LIMIT = 20]-->  
+    <string name="audio_track_menu_duck">غوطہ لگانا</string>  
+    <!-- Project picker -->  
+    <!-- Text displayed in the project picker new project option [CHAR_LIMIT=18]-->  
+    <string name="projects_new_project">نیا پروجیکٹ بنائیں</string>  
+    <!-- Text displayed in the project name dialog title. -->  
+    <string name="projects_project_name">پروجیکٹ کا نام</string>  
+    <!-- Aspect ratio labels -->  
+    <!-- Menu item aspect ratios are displayed in a single item select dialog. -->  
+    <string name="aspect_ratio_11_9">11 x 9</string>  
+    <string name="aspect_ratio_16_9">16 x 9</string>  
+    <string name="aspect_ratio_3_2">3 x 2</string>  
+    <string name="aspect_ratio_4_3">4 x 3</string>  
+    <string name="aspect_ratio_5_3">5 x 3</string>  
+    <!-- Error messages -->  
+    <!-- Error message displayed in a toast if a project cannot be created because the storage is not accessible. -->  
+    <string name="editor_storage_not_available">یہ پروجیکٹ نہیں بنایا جاسکتا۔ اسٹوریج قابل رسائی نہیں ہے۔</string>  
+    <!-- Error message displayed in a toast if a project cannot be created. -->  
+    <string name="editor_create_error">ایک خرابی پیدا ہوگئی۔ پروجیکٹ نہیں بنایا جاسکتا۔</string>  
+    <!-- Error message displayed in a toast if a project cannot be loaded. -->  
+    <string name="editor_load_error">ایک خرابی پیدا ہوگئی۔ پروجیکٹ لوڈ نہیں جاسکتا۔ کیا آپ اس پروجیکٹ کو حذف کرنا چاہتے ہیں؟</string>  
+    <!-- Error message displayed in a toast if the aspect ratio cannot be changed. -->  
+    <string name="editor_aspect_ratio_error">نظری تناسب تبدیل نہیں کیا جاسکتا۔</string>  
+    <!-- Error message displayed in a toast if a theme cannot be applied. -->  
+    <string name="editor_apply_theme_error">تھیم کا اطلاق نہیں کیا جاسکتا۔</string>  
+    <!-- Error message displayed in a toast if a movie cannot be applied. -->  
+    <string name="editor_export_error">ایک خرابی پیدا ہوگئی۔ مووی کو برآمد نہیں کیا جاسکتا۔</string>  
+    <!-- Error message displayed in a toast if a project cannot be saved. -->  
+    <string name="editor_saved_error">پروجیکٹ کو محفوظ نہیں کیا جاسکتا۔</string>  
+    <!-- Error message displayed in a toast if an error had occurred while releasing the project. -->  
+    <string name="editor_release_error">پروجیکٹ جاری کرتے وقت ایک خرابی پیدا ہوگئی۔</string>  
+    <!-- Error message displayed in a toast if an error had occurred while releasing the project. -->  
+    <string name="editor_delete_error">پروجیکٹ کو حذف کرتے وقت ایک خرابی پیدا ہوگئی۔</string>  
+    <!-- Error message displayed in a toast if an error occurs if a video clip cannot be added to the project. -->  
+    <string name="editor_add_video_clip_error">آپ کے پروجیکٹ میں ویڈیو کلپ کو شامل نہیں کیا جاسکتا۔</string>  
+    <!-- Error message displayed in a toast if an error occurs if an image cannot be added to the project. -->  
+    <string name="editor_add_image_error">تصویر کو آپ کے پروجیکٹ میں شامل نہیں کیا جاسکتا۔</string>  
+    <!-- Error message displayed in a toast if video clip or an image cannot be moved in the timeline. -->  
+    <string name="editor_move_media_item_error">آئٹم کو منتقل نہیں کیا جاسکتا۔</string>  
+    <!-- Error message displayed in a toast if video clip or image cannot be removed from the timeline. -->  
+    <string name="editor_remove_media_item_error">آئٹم کو ہٹایا نہیں جاسکتا۔</string>  
+    <!-- Error message displayed in a toast if the rendering mode of an image/video clip cannot be changed. -->  
+    <string name="editor_set_rendering_mode_error">ترجمانی کا طرز متعین نہیں کیا جاسکتا۔</string>  
+    <!-- Error message displayed in a toast if the image duration cannot be changed. -->  
+    <string name="editor_set_media_item_duration_error">تصویر کا دورانیہ متعین نہیں کیا جاسکتا۔</string>  
+    <!-- Error message displayed in a toast if a video clip cannot be trimmed. -->  
+    <string name="editor_set_media_item_boundaries_error">ویڈیو کلپ کی حدود متعین نہیں کی جاسکتی۔</string>  
+    <!-- Error message displayed in a toast if a transition cannot be added. -->  
+    <string name="editor_add_transition_error">منتقلی کو شامل نہیں کیا جاسکتا۔</string>  
+    <!-- Error message displayed in a toast if a transition cannot be removed. -->  
+    <string name="editor_remove_transition_error">منتقلی کو ہٹایا نہیں جاسکتا۔</string>  
+    <!-- Error message displayed in a toast if a transition duration cannot be changed. -->  
+    <string name="editor_set_transition_duration_error">منتقلی کے دورانیے کو متعین نہیں کیا جاسکتا۔</string>  
+    <!-- Error message displayed in a toast if an overlay cannot be added. -->  
+    <string name="editor_add_overlay_error">چڑھے ہوئے کو شامل نہیں کیا جاسکتا۔</string>  
+    <!-- Error message displayed in a toast if an overlay cannot be removed. -->  
+    <string name="editor_remove_overlay_error">چڑھے ہوئے کو ہٹایا نہیں جاسکتا۔</string>  
+    <!-- Error message displayed in a toast if an overlay duration cannot be changed. -->  
+    <string name="editor_set_duration_overlay_error">چڑھے ہوئے کا دورانیہ متعین نہیں تھا۔</string>  
+    <!-- Error message displayed in a toast if an overlay start time cannot be changed. -->  
+    <string name="editor_set_start_time_overlay_error">چڑھے ہونے کے آغاز کا وقت متعین نہیں تھا۔</string>  
+    <!-- Error message displayed in a toast if an overlay text cannot be changed. -->  
+    <string name="editor_set_user_attributes_overlay_error">چڑھے ہوئے ہونے کی خصوصیات کا تعین نہیں کیا جاسکتا۔</string>  
+    <!-- Error message displayed in a toast if an effect cannot be added. -->  
+    <string name="editor_add_effect_error">ایفیکٹ شامل نہیں کیا جاسکتا۔</string>  
+    <!-- Error message displayed in a toast if an effect cannot be removed. -->  
+    <string name="editor_remove_effect_error">ایفیکٹ کو ہٹایا نہیں جاسکتا۔</string>  
+    <!-- Error message displayed in a toast if an audio track cannot be added. -->  
+    <string name="editor_add_audio_track_error">آڈیو ٹریک شامل نہیں کیا جاسکتا</string>  
+    <!-- Error message displayed in a toast if an audio track cannot be removed. -->  
+    <string name="editor_remove_audio_track_error">آڈیو ٹریک کو ہٹایا نہیں جاسکتا۔</string>  
+    <!-- Error message displayed in a toast if an audio track cannot be trimmed. -->  
+    <string name="editor_set_audio_track_boundaries_error">آڈیو ٹریک کو تراشا نہیں جاسکتا۔</string>  
+    <!-- Error message displayed in a toast if a transition cannot be added. -->  
+    <string name="editor_transition_too_short">منتقلی شامل نہیں کی جاسکتی۔ منتقلی کافی مختصر ہوگی۔</string>  
+    <!-- Error message displayed in a toast when a video clip or an image cannot be downloaded. -->  
+    <string name="editor_media_load_error">فائل ڈاؤن لوڈ نہیں کرسکتا۔</string>  
+    <!-- Error message displayed in a toast if a project cannot be previewed. -->  
+    <string name="editor_preview_error">ایک خرابی پیدا ہوگئی۔ پروجیکٹ کا پیش منظر نہیں دیکھا جاسکتا۔</string>  
+    <!-- Export options dialog-->  
+    <!-- The title of the export dialog. -->  
+    <string name="export_dialog_export">برآمد کریں</string>  
+    <!-- The label of the movie size spinner. -->  
+    <string name="export_dialog_movie_size">مووی کی جسامت</string>  
+    <!-- The label of the movie quality spinner. -->  
+    <string name="export_dialog_movie_quality">مووی کا معیار</string>  
+    <!-- The low quality option. -->  
+    <string name="export_dialog_movie_quality_low">کمتر</string>  
+    <!-- The medium quality option. -->  
+    <string name="export_dialog_movie_quality_medium">درمیانی</string>  
+    <!-- The high quality option. -->  
+    <string name="export_dialog_movie_quality_high">اعلی</string>  
+    <!-- Pan and zoom activity-->  
+    <!-- The title of the Pan & zoom activity. -->  
+    <string name="pan_zoom_title">پین اور زوم ایفیکٹ</string>  
+    <!-- The label for the start rectangle checkbox. -->  
+    <string name="pan_zoom_start">شروع کریں</string>  
+    <!-- The label for the end rectangle checkbox. -->  
+    <string name="pan_zoom_end">ختم کریں</string>  
+    <string name="pan_zoom_small_image_error">اس تصویر پر پین اور زوم ایفیکٹ کا اطلاق نہیں کیا جاسکتا۔ تصویر بہت چھوٹی ہے۔</string>  
+    <!-- Themes names and titles-->  
+    <!-- The label/name for Theme 1. -->  
+    <string name="theme_name_travel">سفر</string>  
+    <!-- The sample title for Theme 1. -->  
+    <string name="theme_travel_title">میرا کیلیفورنیا کا سفر</string>  
+    <!-- The sample subtitle for Theme 1. -->  
+    <string name="theme_travel_subtitle">سان فرانسسکو</string>  
+    <!-- The label/name for Theme 2. -->  
+    <string name="theme_name_surfing">سرفنگ</string>  
+    <!-- The sample title for Theme 2. -->  
+    <string name="theme_surfing_title">میراسرفنگ ایڈونچر</string>  
+    <!-- The sample subtitle for Theme 2. -->  
+    <string name="theme_surfing_subtitle">SF کھاڑی</string>  
+    <!-- The label/name for Theme 3. -->  
+    <string name="theme_name_film">فلم</string>  
+    <!-- The sample title for Theme 3. -->  
+    <string name="theme_film_title">میری مختصر مووی</string>  
+    <!-- The sample subtitle for Theme 3. -->  
+    <string name="theme_film_subtitle">کھاڑی میں لطف</string>  
+    <!-- The label/name for Theme 4. -->  
+    <string name="theme_name_rock_and_roll">راک اینڈ رول</string>  
+    <!-- The sample title for Theme 4. -->  
+    <string name="theme_rock_and_roll_title">کنسرٹ</string>  
+    <!-- The sample subtitle for Theme 4. -->  
+    <string name="theme_rock_and_roll_subtitle">ڈھائی بیرل</string>  
+    <!-- Overlay names-->  
+    <!-- The overlay type 1 name -->  
+    <string name="overlay_preview_center">مرکز میں عنوان</string>  
+    <!-- The overlay type 2 name -->  
+    <string name="overlay_preview_bottom">ذیلی عنوان</string>  
+    <!-- Overlay sample titles-->  
+    <!-- The label/name for overlay 1. -->  
+    <string name="overlay_title">عنوان</string>  
+    <!-- The sample title for overlay 1. -->  
+    <string name="overlay_title_sample">میرا تفریحی سفر</string>  
+    <!-- The sample subtitle for overlay 1. -->  
+    <string name="overlay_subtitle_sample">سان فرانسسکو</string>  
+    <!-- Overlay title activity EditText labels -->  
+    <!-- The dialog label for the overlay name. -->  
+    <string name="overlays_select_type">عنوان والی تمثیل چنیں</string>  
+    <!-- The dialog label for the overlay sample title. -->  
+    <string name="overlay_title_label">عنوان</string>  
+    <!-- The dialog label for the overlay sample subtitle. -->  
+    <string name="overlay_subtitle_label">ذیلی عنوان</string>  
+    <!-- The text displayed on the button used to change overlay title template. -->  
+    <string name="overlay_change_title_template_button_text">تمثیل تبدیل کریں</string>  
+    <!-- Effect names-->  
+    <!-- The effects selection dialog title. -->  
+    <string name="effects_select_effect">ایفیکٹس</string>  
+    <!-- Effect 1 name. -->  
+    <string name="effect_pan_zoom">پین اور زوم ایفیکٹ</string>  
+    <!-- Effect 2 name. -->  
+    <string name="effect_gradient">ڈھال کا ایفکیٹ</string>  
+    <!-- Effect 3 name. -->  
+    <string name="effect_sepia">گہرا بھورا ایفیکٹ</string>  
+    <!-- Effect 4 name. -->  
+    <string name="effect_negative">منفی ایفیکٹ</string>  
+    <!-- Effect 5 name. -->  
+    <string name="effect_fifties">نصف ایفیکٹ</string>  
+    <!-- Transition names-->  
+    <!-- The transition selection dialog title. -->  
+    <string name="transitions_select_transition">منتقلی منتخب کریں</string>  
+    <!-- The name of the transition using a contour alpha mask. -->  
+    <string name="transitions_alpha_countour">خاکہ نما الفا</string>  
+    <!-- The name of the transition using a diagonal alpha mask. -->  
+    <string name="transitions_alpha_diagonal">وتری الفا</string>  
+    <!-- The name of the crossfade transition. -->  
+    <string name="transitions_crossfade">کراس فیڈ</string>  
+    <!-- The name of the fade to and from black transition. -->  
+    <string name="transitions_fade_black">سیاہ سے سیاہ تک مدھم کریں</string>  
+    <!-- The name of the left to right transition. -->  
+    <string name="transitions_sliding_right_out_left_in">دائیں سے نکل کر بائیں داخل ہوتا ہوا ڈھلان</string>  
+    <!-- The name of the right to left transition. -->  
+    <string name="transitions_sliding_left_out_right_in">بائیں سے نکل کر دائیں داخل ہوتا ہوا ڈھلان</string>  
+    <!-- The name of the bottom to top transition. -->  
+    <string name="transitions_sliding_top_out_bottom_in">اوپر سے سے نکل کر دائیں داخل ہوتا ہوا ڈھلان</string>  
+    <!-- The name of the top to bottom transition. -->  
+    <string name="transitions_sliding_bottom_out_top_in">نیچے سے سے نکل کر اوپر داخل ہوتا ہوا ڈھلان</string>  
+    <!-- The text which displays the duration of a transition as a decimal number (e.g. "1.5 sec"). -->  
+    <string name="transitions_duration"> 
+        <xliff:g id="seconds">%(,.1f</xliff:g> سیکنڈ
+    </string>  
+    <!-- Rendering modes displayed in the single choice selection dialog-->  
+    <!-- The black borders rendering mode. -->  
+    <string name="rendering_mode_black_borders">سیاہ حاشیے</string>  
+    <!-- The stretch to fit rendering mode. -->  
+    <string name="rendering_mode_stretch">کھینچ کر موافق بنائیں</string>  
+    <!-- The cropping rendering mode. -->  
+    <string name="rendering_mode_crop">تراشیں</string>  
+    <!-- Generic strings-->  
+    <!-- Displayed in dialog buttons. -->  
+    <string name="yes">ہاں</string>  
+    <!-- Displayed in dialog buttons. -->  
+    <string name="no">نہيں</string>  
+    <!-- Displayed in dialog buttons. -->  
+    <string name="done">ہوگیا</string>  
+    <!-- Displayed in dialog buttons and menu items. -->  
+    <string name="edit">تدوین کریں</string>  
+    <!-- Displayed in dialog buttons and menu items. -->  
+    <string name="remove">ہٹائيں</string>  
+    <!-- Displayed in the carousel if the project does not have a name. -->  
+    <string name="untitled">بلا عنوان</string>  
+    <!-- Time related format strings displayed in the carousel below the project preview -->  
+    <string name="hours_and_minutes"> 
+        <xliff:g id="hours">%d</xliff:g> گھنٹے 
+        <xliff:g id="minutes">%d</xliff:g> منٹس
+    </string>  
+    <string name="hour_and_minutes">1 گھنٹہ 
+        <xliff:g id="minutes">%d</xliff:g> منٹ
+    </string>  
+    <string name="minutes"> 
+        <xliff:g id="minutes">%d</xliff:g> منٹس
+    </string>  
+    <string name="minute_and_seconds">1 منٹس 
+        <xliff:g id="seconds">%d</xliff:g> سیکنڈز
+    </string>  
+    <string name="seconds">
+        <xliff:g id="seconds">%d</xliff:g> سیکنڈز
+    </string> 
+</resources>

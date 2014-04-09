@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label" msgid="3070921713463294774">ডাউনলোড</string>
+    <string name="download_title_sorted_by_date" msgid="5898014492155434221">তারিখ অনুযায়ী সাজানো - ডাউনলো</string>
+    <string name="download_title_sorted_by_size" msgid="1417193166677094813">মাপ অনুসারে সাজানো - ডাউনলো</string>
+    <string name="no_downloads" msgid="1029667411186146836">কোন ডাউনলোড নেই</string>
+    <string name="missing_title" msgid="830115697868833773">&lt;অজ্ঞাত&gt;</string>
+    <string name="button_sort_by_size" msgid="2276438658769422878">আয়তন অনুসারে সাজান</string>
+    <string name="button_sort_by_date" msgid="4300882048968609945">সময় অনুসারে সাজান</string>
+    <string name="download_queued" msgid="104973307780629904">অপেক্ষমান</string>
+    <string name="download_running" msgid="4656462962155580641">চলছে</string>
+    <string name="download_success" msgid="7006048006543495236">সম্পন্ন</string>
+    <string name="download_error" msgid="3107369653921738690">ব্যর্থ হয়েছে</string>
+    <string name="dialog_title_not_available" msgid="4479021195995400471">ডাইনলোড করতে ব্যর্থ হযেছে</string>
+    <string name="dialog_failed_body" msgid="587545111677064427"> আপনি কি পরবর্তীতে আবার ফাইলটি ডাউনলোড করার জন্য চেষ্টা করতে চান না-কি অপেক্ষমান তালিকা থেকে তা মুছে ফেলতে চান?</string>
+    <string name="dialog_title_queued_body" msgid="3062862079904954824"> ফাইলটি এখনো পাওয়া যায়নি</string>
+    <string name="dialog_queued_body" msgid="2506935748423351902">এই ফাইলটি ভবিষ্যতে ডাইনলোডের জন্য অপেক্ষমান তালিকায় আছে।</string>
+    <string name="dialog_file_missing_body" msgid="2783781332668129395">ডাউনলোড করা ফাইলটি পাওয়া যাচ্ছে না।</string>
+    <string name="dialog_insufficient_space_on_external" msgid="7534108515812329821">ডাইনলোড সম্পন্ন করতে পারেনি। এক্সটারনাল স্টোরেজে যথেষ্ট স্পেস নেই।</string>
+    <string name="dialog_insufficient_space_on_cache" msgid="8387210487235302129">ডাইনলোড সম্পন্ন করতে পারেনি। ইন্টারনাল ডাউনলোড স্টোরেজে যথেষ্ট জায়গা নেই।</string>
+    <string name="dialog_cannot_resume" msgid="7704082031608361756">ডাইনলোড বাধাগ্রস্ত হয়েছে। এটি পুনরায় শুরু করা যাবে না।</string>
+    <string name="dialog_file_already_exists" msgid="2663737850617642888">ডাউনলোড করা যায়নি। গন্তব্য ফাইল ইতিমধ্যেই রয়েছে।</string>
+    <string name="dialog_media_not_found" msgid="5308602145105720991">ডাইনলোড করা যায়নি। এক্সটারনাল মিডিয়া পাওয়া যায়নি।</string>
+    <string name="download_no_application_title" msgid="3501359021635168387">ফাইল খুলতে পারছে না</string>
+    <string name="remove_download" msgid="6372920256257247857">সরিয়ে ফেলুন</string>
+    <string name="delete_download" msgid="76629022653866471">মুছে ফেলুন</string>
+    <string name="keep_queued_download" msgid="5144882786014818569">রাখুন</string>
+    <string name="cancel_running_download" msgid="5232704030969221112">বাতিল করুন</string>
+    <string name="retry_download" msgid="7617100787922717912">পুনরায় চেষ্টা করুন</string>
+    <string name="deselect_all" msgid="5638030443515705047">নির্বাচিত বিষয় মুছে ফেলুন</string>
+    <string name="select_all">সব নির্বাচন করুন</string>  
+    <string name="selected_count"> 
+        <xliff:g id="total" example="15">%2$d</xliff:g> এর মধ্য থেকে 
+        <xliff:g id="number" example="3">%1$d</xliff:g> নির্বাচিত
+    </string>  
+    <string name="download_share_dialog">মাধ্যমে শেয়ার করুন</string>    
+</resources>
+

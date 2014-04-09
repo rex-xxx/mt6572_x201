@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="editor_gray_effect">Gray</string>  
+    <string name="not_enough_space" product="nosdcard">Your USB storage is full.</string>  
+    <string name="not_enough_space" product="default">Your SD card is full.</string>
+</resources>

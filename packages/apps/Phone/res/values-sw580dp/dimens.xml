@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Padding at the left and right edges of the incall_touch_ui button
+         cluster.  This padding is necessary because we can't allow the
+         buttons to be very close to the edges of the screen, due to the
+         risk of false touches (from your finger wrapping around while
+         holding the phone, *before* moving it up to your face and having
+         the prox sensor kick in.) -->
+    <dimen name="button_cluster_side_padding">0dp</dimen>
+    <!-- width calculation -->
+    <!-- vt_incall_screen_high_video_width = vt_incall_screen_low_video_margin_left + vt_incall_screen_low_video_width -->
+    <!--                                                       + vt_incall_screen_button_margin_out + vt_incall_screen_button_width -->
+    <!--                                                       + vt_incall_screen_button_interval + vt_incall_screen_button_width -->
+    <!--                                                       + vt_incall_screen_button_margin_out -->
+    <!-- vt_incall_screen_end_button_width = 2*vt_incall_screen_button_width + vt_incall_screen_button_interval -->
+    <dimen name="vt_incall_screen_high_video_width">600dip</dimen>
+    <dimen name="vt_incall_screen_high_video_height">600dip</dimen>
+    <dimen name="vt_incall_screen_image_button_height">80dip</dimen>
+    <dimen name="vt_incall_screen_image_button_width">80dip</dimen>
+    <dimen name="vt_incall_screen_high_video_image_button_margin_edge">18px</dimen>
+    <dimen name="vt_incall_screen_button_width">112dip</dimen>
+    <dimen name="vt_incall_screen_end_button_width">234dip</dimen>
+    <dimen name="vt_incall_screen_button_height">80dip</dimen>
+    <dimen name="vt_incall_screen_button_margin_out">10dip</dimen>
+    <dimen name="vt_incall_screen_button_interval">10dip</dimen>
+    <dimen name="vt_incall_screen_low_video_height">336dip</dimen>
+    <dimen name="vt_incall_screen_low_video_width">336dip</dimen>
+    <dimen name="vt_incall_screen_low_video_margin_top">10dip</dimen>
+    <dimen name="vt_incall_screen_low_video_margin_left">10dip</dimen>
+    <dimen name="vt_incall_screen_low_video_image_button_margin_edge">10px</dimen>
+    <dimen name="incall_record_icon_size">15px</dimen>
+</resources>

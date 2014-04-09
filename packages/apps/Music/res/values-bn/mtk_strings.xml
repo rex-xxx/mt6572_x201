@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="onesong" msgid="8336826100414159413">১টি গান</string>
+    <plurals name="Nsongs">
+        <item quantity="other" msgid="5798230388116542981"><xliff:g id="count">%d</xliff:g> গান</item>
+    </plurals>
+    <plurals name="Nsongscomp">
+        <item quantity="other" msgid="7162294486622945550"><xliff:g id="count_for_artist">%2$d</xliff:g> of <xliff:g id="total_count">%1$d</xliff:g>গান</item>
+    </plurals>
+    <plurals name="Nalbums">
+        <item quantity="one" msgid="3798955510439465932">১টি অ্যালবাম</item>
+        <item quantity="other" msgid="3047615499770811984"><xliff:g id="count">%d</xliff:g>অ্যালবাম</item>
+    </plurals>
+    <string name="goto_start" msgid="8979658707407220934">লাইব্রেরি</string>
+    <string name="party_shuffle" msgid="8213359225506006168">পার্টি অদলবদল</string>
+    <string name="party_shuffle_off" msgid="1828744483354711679">পার্টি অদলবদল বন্ধ</string>
+    <string name="delete_item" msgid="3363330144534750601">মুছে ফেলুন</string>
+    <string name="shuffle_all" msgid="1388193611787878773">সব অদলবদল করুন</string>
+    <string name="play_all" msgid="6309622568869321842">সব বাজান</string>
+    <string name="delete_artist_desc" msgid="1843750591006508005"> <xliff:g id="artist">%s</xliff:g> এর সব গান মুছে ফেলা হবে।</string>  
+    <string name="delete_album_desc" msgid="535515999268177079">সমগ্র অ্যালবাম \"<xliff:g id="album">%s</xliff:g>\" মুছে ফেলা হবে।</string>  
+    <string name="delete_song_desc" msgid="1856800468541831408">\"<xliff:g id="song">%s</xliff:g>\" মুছে ফেলা হবে ।</string>  
+    <string name="delete_confirm_button_text" msgid="7008121194944357274">ঠিক আছে</string>
+    <plurals name="NNNtracksdeleted">
+        <item quantity="one" msgid="8560276109508404217">একটি গান মুছে ফেলা হয়েছিল।</item>
+        <item quantity="other" msgid="5156740163031225200"><xliff:g id="songs_to_delete">%d</xliff:g> গান মুছে ফেলা হয়েছিল।</item>
+    </plurals>
+    <string name="delete_progress_title">গানগুলো মুছে ফেলুন</string>
+    <string name="delete_progress_message">গান মুছে ফেলার সময় অপেক্ষা করুন...</string>
+    <string name="scanning" msgid="3529383847223198502">এসডি কার্ড স্ক্যান করা হচ্ছে\u2026</string>
+    <string name="scanning_nosdcard" msgid="8105284774487360148"> ইউএসবি স্টোরেজ স্ক্যান করা হচ্ছে\u2026</string>
+    <string name="nowplaying_title" msgid="8342523844307751761">এখন বাজানো হচ্ছে</string>
+    <string name="partyshuffle_title" msgid="6582413231529992125">পার্টি অদলবদল করা</string>
+    <string name="artists_title" msgid="8490372367259160067">শিল্পী</string>
+    <string name="albums_menu" msgid="5807982055590211900">অ্যালবাম</string>
+    <string name="albums_title" msgid="8773880394961378035">অ্যালবাম</string>
+    <string name="tracks_menu" msgid="6942246568246092330">গান</string>
+    <string name="tracks_title" msgid="3229389424532295124">গান</string>
+    <string name="playlists_menu" msgid="5382792649771928849">প্লেলিস্ট</string>
+    <string name="playlists_title" msgid="5094238486322957927">প্লেলিস্ট</string>
+    <string name="videos_title" msgid="2066741954354129115">ভিডিও</string>
+    <string name="all_title" msgid="6880186414437237653">সব মিডিয়া</string>
+    <string name="browse_menu" msgid="5248122473075843289">শিল্পী</string>
+    <string name="search_title" msgid="1016971653383739344">অনুসন্ধান করুন</string>
+    <string name="no_tracks_title" msgid="8805805388271238471">কোন গান নেই</string>
+    <string name="no_videos_title" msgid="6218814130364793104">কোন ভিডিও নেই</string>
+    <string name="no_playlists_title" msgid="4456351945617594418">কোন প্লেলিস্ট নেই</string>
+    <string name="delete_playlist_menu" msgid="8998637685583495247">মুছে ফেলুন</string>
+    <string name="edit_playlist_menu" msgid="571618502105370684">সম্পাদনা করুন</string>
+    <string name="rename_playlist_menu" msgid="3133463747389494668">পুনরায় নামকরণ করুন</string>
+    <string name="playlist_deleted_message" msgid="9008053828193961455">প্লেলিস্ট মুছে ফেলা হয়েছে।</string>
+    <string name="playlist_renamed_message" msgid="7187580192703005990">প্লেলিস্ট পুনরায় নামকরণ করা হয়েছে।</string>
+    <string name="recentlyadded" msgid="110978416756366953">সম্প্রতি যোগ করা হয়েছে</string>
+    <string name="recentlyadded_title" msgid="3153322287249901914">সম্প্রতি যোগ করা হয়েছে</string>
+    <string name="podcasts_listitem" msgid="8657809279717670634">পডকাস্ট</string>
+    <string name="podcasts_title" msgid="4928414142496858304">পডকাস্ট</string>
+    <string name="sdcard_missing_title" msgid="9008284946643270850">কোন এসডি কার্ড নেই</string>
+    <string name="sdcard_missing_message" msgid="1169260755336159747">আপনার ফোনে কোন এসডি কার্ড ঢুকানো নেই।</string>
+    <string name="sdcard_missing_message_nosdcard" msgid="4894107850080476295">আপনার ফোনে ইউএসবি স্টোরেজ নেই।</string>
+    <string name="sdcard_busy_title" msgid="1162763571147174655">এসডি কার্ড পাওয়া যাচ্ছে না</string>
+    <string name="sdcard_busy_message" msgid="8071868348072728830">আপনার মিডিয়া সংরক্ষণাগারটি ব্যস্ত।</string>
+    <string name="sdcard_error_title" msgid="165682155008600643">এসডি কার্ড ত্রুটি</string>
+    <string name="sdcard_error_message" msgid="4574563894036627855">আপনার এসডি কার্ডে একটি ত্রুটি ঘটেছে।</string>
+    <string name="unknown_artist_name" msgid="5567811106415855219">অপরিচিত শিল্পী</string>
+    <string name="unknown_album_name" msgid="8525145988941244727">অজানা অ্যালবাম</string>
+    <string name="shuffle_on_notif" msgid="5453708337808483943">অদলবদল চালু আছে।</string>
+    <string name="shuffle_off_notif" msgid="4251189610017886263">অদলবদল বন্ধ আছে।</string>
+    <string name="repeat_off_notif" msgid="1149406899083479716">পুনরাবৃত্তি বন্ধ আছে।</string>
+    <string name="repeat_current_notif" msgid="1227153936360904196">বর্তমান গানটি পুনরাবৃত্তি করা।</string>
+    <string name="repeat_all_notif" msgid="6443293055987316642">সবগুলো গান পুনরাবৃত্তি করা।</string>
+    <string name="ringtone_menu" msgid="2737472190159134599">ফোনের রিংটোন হিসেবে ব্যবহার করুন</string>
+    <string name="ringtone_menu_short" msgid="3367622038867238133">রিংটোন হিসেবে ব্যবহার করুন</string>
+    <string name="ringtone_set" msgid="5325818347613843130">\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" ফোনের রিংটোন হিসেবে সেট করুন।</string>
+    <string name="play_selection" msgid="2854921021814550018">বাজান</string>
+    <string name="add_to_playlist" msgid="7110273488645072783">প্লেলিস্টে যোগ করুন</string>
+    <string name="queue" msgid="2937629819482787704">বর্তমান প্লেলিস্ট</string>
+    <string name="new_playlist" msgid="7588112979692632867">নতুন</string>
+    <string name="new_playlist_name_template" msgid="905710296728900597">নতুন প্লেলিস্ট <xliff:g id="number">%d</xliff:g></string>
+    <plurals name="NNNtrackstoplaylist">
+        <item quantity="one" msgid="422388042993582235">১টি গান প্লেলিস্টে যোগ করা হয়েছে।</item>
+        <item quantity="other" msgid="7662771987109627255"><xliff:g id="number" example="27">%d</xliff:g> গানগুলো প্লেলিস্টে যোগ করা হয়েছে।</item>
+    </plurals>
+    <string name="emptyplaylist" msgid="6711555673997896344">নির্বাচিত প্লেলিস্ট খালি।</string>
+    <string name="create_playlist_create_text" msgid="8149755205483279143">সংরক্ষণ করুন</string>
+    <string name="create_playlist_overwrite_text" msgid="2007808383561024706">ওভাররাইট করুন</string>
+    <string name="service_start_error_title" msgid="8649916852210198813">প্লেব্যাকের সমস্যা</string>
+    <string name="service_start_error_msg" msgid="3880338547260838681">দুঃখিত, গানটি বাজানো যাচ্ছে না।</string>
+    <string name="service_start_error_button" msgid="480888406592240723">ঠিক আছে</string>
+    <string-array name="weeklist">
+        <item msgid="7005918873419323862">"১ সপ্তাহ"</item>
+        <item msgid="7487749116155425822">"২ সপ্তাহ"</item>
+        <item msgid="1565338360539555185">"৩ সপ্তাহ"</item>
+        <item msgid="2142986059836933072">"৪ সপ্তাহ"</item>
+        <item msgid="4332403875260507291">"৫ সপ্তাহ"</item>
+        <item msgid="3847281907869868565">"৬ সপ্তাহ"</item>
+        <item msgid="2942654998558867799">"৭ সপ্তাহ"</item>
+        <item msgid="2115529325850052227">"৮ সপ্তাহ"</item>
+        <item msgid="1396675336665198092">"৯ সপ্তাহ"</item>
+        <item msgid="3178819129208998649">"১০ সপ্তাহ"</item>
+        <item msgid="2727959579637914171">"১১ সপ্তাহ"</item>
+        <item msgid="8708754966127584739">"১২ সপ্তাহ"</item>
+    </string-array>
+    <string name="weekpicker_set" msgid="7636608790418067496">সম্পন্ন</string>
+    <string name="weekpicker_title" msgid="699535378922101701">সময় সেট করুন</string>
+    <string name="save_as_playlist">প্লেলিস্ট হিসেবে সংরক্ষণ করুন</string>
+    <string name="clear_playlist" msgid="4565515100924905315">প্লেলিস্ট মুছে ফেলুন</string>
+    <string name="musicbrowserlabel" msgid="3162022214114562892">মিউজিক</string>
+    <string name="musicshortcutlabel" msgid="2602980193508150226">মিউজিক প্লেলিস্ট</string>
+    <string name="mediaplaybacklabel" msgid="6733604841530940397">মিউজিক</string>
+    <string name="videobrowserlabel" msgid="8522326678447494657">ভিডিও</string>
+    <string name="mediapickerlabel" msgid="4549836003229914299">মিউজিক</string>
+    <string name="playback_failed" msgid="4477832192645009774">দুঃক্ষিত, ফাইল খুলতে ব্যর্থ হয়েছে।</string>  
+    <string name="cancel" msgid="886559484711947520">বাতিল করুন</string>
+    <string name="remove_from_playlist" msgid="2548577514849026354">প্লেলিস্ট থেকে সরিয়ে ফেলুন</string>
+    <string name="streamloadingtext" msgid="3367150884806639224"> <xliff:g id="host">%s</xliff:g> এর সাথে সংযোগ দেয়া </string>
+    <string name="mediasearch" msgid="959222971261132292"><xliff:g id="term" example="Beethoven">%s</xliff:g>ব্যবহারের জন্য অনুসন্ধান: </string>
+    <string name="working_artists" msgid="8678357432732156580">শিল্পী\u2026</string>
+    <string name="working_albums" msgid="8713273699401457426">অ্যালবাম\u2026</string>
+    <string name="working_songs" msgid="2201491972050410684">গান\u2026</string>
+    <string name="working_playlists" msgid="4424950806134653351">প্লেলিস্ট\u2026</string>
+    <string name="loading" msgid="3267924133697717662">লোড করা হচ্ছে</string>
+    <string name="sort_by_track" msgid="7662999005554152565">ট্র্যাক</string>
+    <string name="sort_by_album" msgid="2912837715658975248">অ্যালবাম</string>
+    <string name="sort_by_artist" msgid="4607024967813199992">শিল্পী</string>
+    <string name="music_picker_title" msgid="1561623486324013570">মিউজিক ট্র্যাক নির্বাচন করুন</string>
+    <string name="fail_to_start_stream" msgid="3605390187703912835">অনুরোধকৃত স্ট্রিম বাজাতে ব্যর্থ হয়েছে।</string>
+    <string name="search_settings_description" msgid="6520975349259883368">শিল্প,অ্যালবাম এবং ট্র্যাক</string>
+    <string name="search_hint" msgid="3766854898072633001">মিউজিক অনুসন্ধান করুন</string>
+    <string name="fast_scroll_alphabet" msgid="5548732936480723311">\u0020ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="widget_initial_text" msgid="6334545155963910952">মিউজিক নির্বাচন করার জন্য স্পর্শ করুন।</string>
+    <string name="effects_list_title" msgid="8804547581593509614">সাউন্ট ইফেক্ট</string>
+    <string name="music_fm_transmiter">এফএম ট্রান্সমিটার</string>
+    <string name="usb_in_using">ইউএসবি স্টোরেজ চালু থাকার সময় প্লেলিস্ট থাকে না।</string>
+    <string name="shuffle_menu_item_desc">অদল-বদল</string>  
+    <string name="repeat_menu_item_desc">পুনরাবৃত্তি করুন</string>
+    <string name="menu_search">অনুসন্ধান করুন</string>
+    <string name="delete_track_failed">মুছতে ব্যর্থ হয়েছে।</string>  
+    <string name="no_music_title">কোন গান নেই.</string>
+    <string name="search_empty">কোন মিল নেই।</string>
+    <string name="audiofocus_request_failed_message">কলের সময় সংগীত বাজানো যাবে না।</string>
+
+
+      <string name="voice_command_indicator_ticker">সঙ্গীত বাজানো নিয়ন্ত্রণ করতে আপনি বলতে পারেন <xliff:g id="first">%1$s</xliff:g> এবং <xliff:g id="second">%2$s</xliff:g> ।</string>
+      <string name="voice_command_indicator_content_title">শব্দ নিয়ন্ত্রণ</string>
+      <string name="voice_command_indicator_content_text">সংগীতের জন্য ভয়েস নিয়ন্ত্রণ সক্রিয় করা আছে</string>
+      <string name="fl_invalid">ফাইলটি চালানোর জন্য অনুমতি নেই। </string>
+</resources>

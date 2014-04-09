@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_label">ডাউনলোড ম্যানেজার</string>  
+    <string name="permlab_downloadManager">ডাউনলোড ম্যানেজারে প্রবেশ করুন</string>  
+    <string name="permdesc_downloadManager">ডাউনলোড ম্যানেজারে প্রবেশ করতে এবং ফাইল ডাউনলোড করতে এটিকে ব্যবহার করতে অ্যাপকে অনুমতি দেয়। ডাউনলোডকে বাধাগ্রস্থ করা এবং ব্যক্তিগত তথ্যে প্রবেশ করা জন্য ক্ষতিকর অ্যাপ এটিকে ব্যবহার করতে পারে ।</string>  
+    <string name="permlab_downloadManagerAdvanced">উচ্চতর ডাউনলোড ম্যানেজার ফাংশন ।</string>  
+    <string name="permdesc_downloadManagerAdvanced">ডাউনলোড ম্যানেজারের উচ্চতর ফাংশনে প্রবেশ করার জন্য অ্যাপকে অনুমতি দেয়। ডাউনলোডকে বাধাগ্রস্থ করা এবং ব্যক্তিগত তথ্যে প্রবেশ করার জন্য ক্ষতিকর অ্যাপ এটিকে ব্যবহার করতে পারে ।</string>  
+    <string name="permlab_downloadCompletedIntent">ডাউনলোড নোটিফিকেশন পাঠান ।</string>  
+    <string name="permdesc_downloadCompletedIntent">ডাউনলোড সম্পন্ন করা সম্পর্কে নোটিফিকেশন পাঠাবার জন্য অ্যাপকে অনুমতি দেয়। ডাউনলোডকৃত ফাইলের বিষয়ে অন্যান্য অ্যাপকে দ্বিধার মধ্যে ফেলে দেয়ার জন্য ক্ষতিকর অ্যাপ এটিকে ব্যবহার করতে পারে ।</string>  
+    <string name="permlab_seeAllExternal" product="nosdcard">ইউএসবি সংরক্ষানাগারে সব ডাউনলোড দেখুন ।</string>  
+    <string name="permlab_seeAllExternal" product="default">এসডি কার্ডে সব ডাউনলোড দেখুন</string>  
+    <string name="permdesc_seeAllExternal">কোন অ্যাপের মাধ্যমে এটিকে ডাউনলোড করা হয়েছে তা বিবেচনা না করে এসডি কার্ডে সব ডাউনলোড দেখার জন্য অ্যাপকে অনুমতি দেয় ।</string>  
+    <string name="permlab_downloadCacheNonPurgeable">ডাউনলোড ক্যাশে সংরক্ষিত জায়গা</string>  
+    <string name="permdesc_downloadCacheNonPurgeable">অ্যাপকে ডাউনলোড ক্যাশে ফাইল ডাউনলোড করার জন্য অনুমতি দেয়। ডাউনলোড ম্যানেজারের যখন আরও জায়গার প্রয়োজন হবে তখন স্বয়ংক্রিয়ভাবে এটিকে মুছে ফেলা যাবে না ।</string>  
+    <string name="permlab_downloadWithoutNotification">নোটিফিকেশন ব্যতীত ফাইল ডাউনলোড করুন</string>  
+    <string name="permdesc_downloadWithoutNotification">ব্যবহারকারীকে কোন নোটিফিকেশন না দেখিয়ে অ্যাপকে ডাউনলোড ম্যানেজারের মাধ্যমে ফাইল ডাউনলোড করার অনুমতি দেয়।</string>  
+    <string name="permlab_accessAllDownloads">ডাউনলোডের সব সিস্টেমে প্রবেশ করুন</string>  
+    <string name="permdesc_accessAllDownloads">সিস্টেমে যে কোন অ্যাপকে দিয়ে শুরু করা সকল ডাউনলোড দেখা এবং সম্পাদনা করার জন্য অ্যাপকে অনুমতি দিন ।</string>  
+    <string name="download_unknown_title">&amp;lt;শিরোনামহীন&amp;gt;</string>  
+    <string name="notification_filename_separator">", "</string>  
+    <string name="notification_filename_extras">"এবং 
+        <xliff:g id="number" example="27">%d</xliff:g> আরও"
+    </string>  
+    <string name="notification_download_complete">ডাউনলোড শেষ হয়েছে ।</string>  
+    <string name="notification_download_failed">ডাউনলোড অসফল।</string>  
+    <string name="notification_need_wifi_for_size">ডাউনলোডের আকারের জন্য ওয়াই-ফাই প্রয়োজন ।</string>  
+    <string name="notification_paused_in_background">ব্যাকগ্রাউন্ডে স্থগিত হয়েছে ।</string>  
+    <string name="wifi_required_title">অপারেটর নেটওয়ার্কের জন্য খুবই বড় ডাউনলোড</string>  
+    <string name="wifi_required_body">এই ডাউনলোড সম্পন্ন করার জন্য আপনাকে অবশ্যই ওয়াইফাই ব্যবহার করতে হবে 
+        <xliff:g id="size" example="12.3KB">%s</xliff:g> \n\nTouch 
+        <xliff:g id="queue_text" example="Queue">%s</xliff:g>আপনি পরবর্তী সময়ে যখন ওয়াই-ফাই নেটওয়ার্কের সাথে সংযুক্ত হবে তখন ডাউনলোড শুরু করার জন্য 
+        <xliff:g id="queue_textexample=Queue">%s</xliff:g>\n\n স্পর্শ করুন ।
+    </string>  
+    <string name="wifi_recommended_title">পরে ডাউনলোড করার জন্য লাইনে থাকবেন?</string>  
+    <string name="wifi_recommended_body">এই ডাউনলোডটি 
+        <xliff:g id="size" example="12.3KB">%s</xliff:g> এখন শুরু করা হলে আপনার ব্যাটারির স্থায়িত্বকালকে সংক্ষিপ্ত করতে পারে এবং/বা আপনার মোবাইল ডাটা সংযোগের অতিরিক্ত ব্যবহার করা হলে আপনার ডাটা পরিকল্পনার ওপর নির্ভর করে আপনার মোবাইল অপারেটর অতিরিক্ত মূল্য আরোপ করতে পারে । \n\n আপনি পরবর্তী সময়ে যখন ওয়াই-ফাই নেটওয়ার্কের সাথে সংযুক্ত হবে তখন ডাউনলোড শুরু করার জন্য 
+        <xliff:g id="queue_text" example="Queue">%s</xliff:g> স্পর্শ করুন ।
+    </string>  
+    <string name="button_queue_for_wifi">লাইন</string>  
+    <string name="button_cancel_download">বাতিল করুন</string>  
+    <string name="button_start_now">এখন শুরু করুন</string>  
+    <string name="download_percent">
+        <xliff:g id="number">%d</xliff:g>
+        <xliff:g id="percent">%%</xliff:g>
+    </string> 
+</resources>

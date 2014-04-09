@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="english_ime_name" msgid="7252517407088836577">"အဲန်းဒရိုက်ကီးဘုတ်"</string>
+    <string name="aosp_android_keyboard_ime_name" msgid="7877134937939182296">"အဲန်းဒရိုက်ကီးဘုတ် (AOSP)"</string>
+    <string name="english_ime_settings" msgid="6661589557206947774">"အဲန်းဒရိုက်ကီးဘုတ်ဆက်တင်များ"</string>
+    <string name="english_ime_input_options" msgid="3909945612939668554">"ဖြည့်သွင်းရန်ရွေးချယ်ချက်များ"</string>
+    <string name="spell_checker_service_name" msgid="7338064335159755926">"အဲန်းဒရိုက်စာလုံးပေါင်းအမှားစစ်ခြင်း"</string>
+    <string name="aosp_spell_checker_service_name" msgid="6985142605330377819">"အဲန်းဒရိုက်စာလုံးပေါင်းအမှားစစ်ခြင်း (AOSP)"</string>
+    <string name="android_spell_checker_settings" msgid="5822324635435443689">"စာလုံးပေါင်းအမှားစစ်ခြင်းဆက်တင်များ"</string>
+    <string name="use_contacts_for_spellchecking_option_title" msgid="5374120998125353898">"အဆက်အသွယ်အမည်များကိုကြည့်ရန်"</string>
+    <string name="use_contacts_for_spellchecking_option_summary" msgid="8754413382543307713">"စာလုံးပေါင်းအမှားစစ်ခြင်းသည် သင့်အဆက်အသွယ်စာရင်းတွင် ပါသောအရာများကို အသုံးပြုသည်။"</string>
+    <string name="vibrate_on_keypress" msgid="5258079494276955460">"ခလုတ်နှိပ်သောအခါတုန်ခါရန်"</string>
+    <string name="sound_on_keypress" msgid="6093592297198243644">"ခလုတ်နှိပ်သောအခါအသံမြည်ရန်"</string>
+    <string name="popup_on_keypress" msgid="123894815723512944">"ခလုတ်နှိပ်သောအခါထွက်ပေါ်လာရန်"</string>
+    <string name="general_category" msgid="1859088467017573195">"အထွေထွေ"</string>
+    <string name="correction_category" msgid="2236750915056607613">"စာသားအမှားပြင်ခြင်း"</string>
+    <string name="misc_category" msgid="6894192814868233453">"အခြားရွေးချက်ချက်များ"</string>
+    <string name="advanced_settings" msgid="362895144495591463">"အဆင့်မြင့်ဆက်တင်များ"</string>
+    <string name="advanced_settings_summary" msgid="4487980456152830271">"ကျွမ်းကျင်သူများအတွက်ရွေးချက်ချက်များ"</string>
+    <string name="include_other_imes_in_language_switch_list" msgid="4533689960308565519">"အခြားဖြည့်သွင်းခြင်းနည်းလမ်းများသို့ ပြောင်းရန်"</string>
+    <string name="include_other_imes_in_language_switch_list_summary" msgid="840637129103317635">"ဘာသာစကားပြောင်းခြင်းခလုတ်သည် အခြားဖြည့်သွင်းသည့်နည်းလမ်းများကိုလည်း ဖုံးကွယ်သည်။"</string>
+    <string name="suppress_language_switch_key" msgid="8003788410354806368">"ဘာသာစကားပြောင်းခြင်းခလုတ်ကို ချုပ်ထိန်းရန်"</string>
+    <string name="key_preview_popup_dismiss_delay" msgid="6213164897443068248">"ခလုတ်များပေါ်လာခြင်းကို ဖယ်ထုတ်ခြင်းနှောင့်နှေးသည်"</string>
+    <string name="key_preview_popup_dismiss_no_delay" msgid="2096123151571458064">"နှောင့်နှေးခြင်းမရှိ"</string>
+    <string name="key_preview_popup_dismiss_default_delay" msgid="2166964333903906734">"အလိုအလျောက်"</string>
+    <string name="use_contacts_dict" msgid="4435317977804180815">"အဆက်အသွယ်အမည်များအကြံပေးချက်"</string>
+    <string name="use_contacts_dict_summary" msgid="6599983334507879959">"အကြံပေးချက်များနှင့်အမှားပြင်ခြင်းများအတွက် အဆက်အသွယ်များမှအမည်များကို သုံးရန်။"</string>
+    <string name="enable_span_insert" msgid="7204653105667167620">"ပြန်လည်အမှားပြင်ခြင်းများကို လုပ်ကိုင်နိုင်စေရန်"</string>
+    <string name="enable_span_insert_summary" msgid="2947317657871394467">"ပြန်လည်အမှားပြင်ခြင်းများအတွက် အကြံပေးချက်များထည့်ရန်"</string>
+    <string name="auto_cap" msgid="1719746674854628252">"အလိုအလျောက်-စာလုံးအကြီးသို့ပြောင်းခြင်း"</string>
+    <string name="configure_dictionaries_title" msgid="4238652338556902049">"ထပ်ထည့်သည့်အဘိဓာန်များ"</string>
+    <string name="main_dictionary" msgid="4798763781818361168">"အဓိကအဘိဓာန်"</string>
+    <string name="prefs_show_suggestions" msgid="8026799663445531637">"အမှားပြင်ဆင်ခြင်းအကြံပေးချက်များကိုပြရန်"</string>
+    <string name="prefs_show_suggestions_summary" msgid="1583132279498502825">"စာရိုက်နေစဉ်အကြံပေးသောစာလုံးများကိုပြရန်"</string>
+    <string name="prefs_suggestion_visibility_show_name" msgid="3219916594067551303">"အမြဲတမ်းပြရန်"</string>
+    <string name="prefs_suggestion_visibility_show_only_portrait_name" msgid="3551821800439659812">"ပုံတူပုံစံတွင်ပြရန်"</string>
+    <string name="prefs_suggestion_visibility_hide_name" msgid="6309143926422234673">"အမြဲတမ်းဖုံးကွယ်ရန်"</string>
+    <string name="auto_correction" msgid="4979925752001319458">"အလိုအလျောက်အမှားပြင်ခြင်း"</string>
+    <string name="auto_correction_summary" msgid="5625751551134658006">"စပေ့(စ်)ဘားနှင့် ပုဒ်ဖြတ်တို့သည် မှားရိုက်သောစာလုံးများကို အလိုအလျောက်အမှားပြင်သည်။"</string>
+    <string name="auto_correction_threshold_mode_off" msgid="8470882665417944026">"ပိတ်ရန်"</string>
+    <string name="auto_correction_threshold_mode_modest" msgid="8788366690620799097">"သင့်ရုံ"</string>
+    <string name="auto_correction_threshold_mode_aggeressive" msgid="3524029103734923819">"မာန်ပါသော"</string>
+    <string name="auto_correction_threshold_mode_very_aggeressive" msgid="3386782235540547678">"အလွန်မာန်ပါသော"</string>
+    <string name="bigram_suggestion" msgid="8169311444438922902">"နောက်ထပ်စကားလုံးအကြံပြုချက်"</string>
+    <string name="bigram_suggestion_summary" msgid="6635527607242625713">"ပိုကောင်းလာရန် ယခင်စကားလုံးများကိုသုံးရန် အကြံပြုချက်"</string>
+    <string name="bigram_prediction" msgid="3216364899483135294">"နောက်ထပ်စကားလုံးကြိုတင်ခန့်မှန်းချက်"</string>
+    <string name="bigram_prediction_summary" msgid="1747261921174300098">"ကြိုတင်ခန့်မှန်းချက်အတွက် ယခင်စကားလုံးများကိုဘဲ သုံးရန်"</string>
+    <string name="added_word" msgid="8993883354622484372">"<xliff:g id="WORD">%s</xliff:g>- သိမ်းဆည်းပြီး"</string>
+    <string name="label_go_key" msgid="1635148082137219148">"သွားရန်"</string>
+    <string name="label_next_key" msgid="362972844525672568">"နောက်တစ်ခု"</string>
+    <string name="label_previous_key" msgid="1211868118071386787">"ယခင်သို့"</string>
+    <string name="label_done_key" msgid="2441578748772529288">"ပြီးပြီ"</string>
+    <string name="label_send_key" msgid="2815056534433717444">"ပို့ရန်"</string>
+    <string name="label_to_alpha_key" msgid="4793983863798817523">"ABC"</string>
+    <string name="label_to_symbol_key" msgid="8516904117128967293">"\?123"</string>
+    <string name="label_to_symbol_with_microphone_key" msgid="9035925553010061906">"123"</string>
+    <string name="label_pause_key" msgid="181098308428035340">"ရပ်ဆိုင်းရန်"</string>
+    <string name="label_wait_key" msgid="6402152600878093134">"စောင့်ရန်"</string>
+    <string name="spoken_use_headphones" msgid="896961781287283493">"စကားဝှက်စာလုံးများ အကျယ်ကြီးပြောခြင်းကိုနားထောင်ရန် နားကြပ်တပ်ပါ။"</string>
+    <string name="spoken_current_text_is" msgid="2485723011272583845">"လက်ရှိစာသားမှာ "%s" ဖြစ်ပါသည်"</string>
+    <string name="spoken_no_text_entered" msgid="7479685225597344496">"စာသားထည့်ထားခြင်းမရှိ"</string>
+    <string name="spoken_description_unknown" msgid="3197434010402179157">"ကီးကုတ်(ဒ်) %d"</string>
+    <string name="spoken_description_shift" msgid="244197883292549308">"ရွှေ့ပြောင်းရန်"</string>
+    <string name="spoken_description_shift_shifted" msgid="1681877323344195035">"ရွှေ့ပြောင်းခြင်းဖွင့်ရန် (ပိတ်ရန်အသာပုတ်ပါ)"</string>
+    <string name="spoken_description_caps_lock" msgid="3276478269526304432">"စာလုံးကြီးသော့ချထားခြင်းဖွင့်ရန် (ပိတ်ရန်အသာပုတ်ပါ)"</string>
+    <string name="spoken_description_delete" msgid="8740376944276199801">"ဖျက်ရန်"</string>
+    <string name="spoken_description_to_symbol" msgid="5486340107500448969">"သင်္ကေတများ"</string>
+    <string name="spoken_description_to_alpha" msgid="23129338819771807">"စာလုံးများ"</string>
+    <string name="spoken_description_to_numeric" msgid="591752092685161732">"နံပါတ်များ"</string>
+    <string name="spoken_description_settings" msgid="4627462689603838099">"ဆက်တင်များ"</string>
+    <string name="spoken_description_tab" msgid="2667716002663482248">"တက်(ဘ်)"</string>
+    <string name="spoken_description_space" msgid="2582521050049860859">"ကွက်လပ်"</string>
+    <string name="spoken_description_mic" msgid="615536748882611950">"အသံထည့်ရန်"</string>
+    <string name="spoken_description_smiley" msgid="2256309826200113918">"အပြုံးမျက်နှာ"</string>
+    <string name="spoken_description_return" msgid="8178083177238315647">"နောက်သို့ပြန်ရန်"</string>
+    <string name="spoken_description_search" msgid="1247236163755920808">"ရှာဖွေရန်"</string>
+    <string name="spoken_description_dot" msgid="40711082435231673">"ဒေါ့(တ်)"</string>
+    <string name="spoken_description_shiftmode_on" msgid="5700440798609574589">"ရွှေ့ပြောင်းခြင်းကိုဖွင့်ရန်"</string>
+    <string name="spoken_description_shiftmode_locked" msgid="593175803181701830">"စာလုံးကြီးသော့ချထားခြင်းဖွင့်ရန်"</string>
+    <string name="spoken_description_shiftmode_off" msgid="657219998449174808">"ရွှေ့ပြောင်းခြင်းကိုပိတ်ရန်"</string>
+    <string name="spoken_description_mode_symbol" msgid="7183343879909747642">"သင်္ကေတများပုံစံ"</string>
+    <string name="spoken_description_mode_alpha" msgid="3528307674390156956">"စာလုံးများပုံစံ"</string>
+    <string name="spoken_description_mode_phone" msgid="6520207943132026264">"ဖုန်းပုံစံ"</string>
+    <string name="spoken_description_mode_phone_shift" msgid="5499629753962641227">"ဖုန်းသင်္ကေတာများပုံစံ"</string>
+    <string name="voice_input" msgid="3583258583521397548">"အသံထည့်ရန်ခလုတ်"</string>
+    <string name="voice_input_modes_main_keyboard" msgid="3360660341121083174">"ပင်မကီးဘုတ်ပေါ်တွင်"</string>
+    <string name="voice_input_modes_symbols_keyboard" msgid="7203213240786084067">"သင်္ကေတကီးဘုတ်ပေါ်တွင်"</string>
+    <string name="voice_input_modes_off" msgid="3745699748218082014">"ပိတ်"</string>
+    <string name="voice_input_modes_summary_main_keyboard" msgid="6586544292900314339">"ပင်မကီးဘုတ်ပေါ်တွင် မိုက်ခရိုဖုန်းဖွင့်ရန်"</string>
+    <string name="voice_input_modes_summary_symbols_keyboard" msgid="5233725927281932391">"သင်္ကေတကီးဘုတ်ပေါ်တွင် မိုက်ခရိုဖုန်းဖွင့်ရန်"</string>
+    <string name="voice_input_modes_summary_off" msgid="63875609591897607">"အသံထည့်ခြင်းကိုပိတ်ထားသည်"</string>
+    <string name="configure_input_method" msgid="373356270290742459">"ထည့်ရန်နည်းလမ်းများကိုစီစဉ်ရန်"</string>
+    <string name="language_selection_title" msgid="1651299598555326750">"ဘာသာစကားများဖြည့်သွင်းရန်"</string>
+    <string name="select_language" msgid="3693815588777926848">"ဘာသာစကားများဖြည့်သွင်းရန်"</string>
+    <string name="hint_add_to_dictionary" msgid="573678656946085380">"သိမ်းဆည်းရန်နောက်တစ်ကြိမ်ထိပါ"</string>
+    <string name="has_dictionary" msgid="6071847973466625007">"အဘိဓာန်ရနိုင်သည်"</string>
+    <string name="prefs_enable_log" msgid="6620424505072963557">"အသုံးပြုသူတုံ့ပြန်ချက်ဖွင့်ရန်"</string>
+    <string name="prefs_description_log" msgid="5827825607258246003">"স্ဂူဂယ်(လ်)သို့ အသုံးပြုမှုစာရင်းဇယားများနှင့် ပျက်စီးမှုသတင်းပို့ချက်များကို အလိုအလျောက်ပို့ခြင်းဖြင့် ဤဖြည့်သွင်းရန် နည်းလမ်းတည်းဖြတ်မှုကို တိုးတက်အောင်ကူညီပါ။"</string>
+    <string name="keyboard_layout" msgid="8451164783510487501">"ကီးဘုတ်ပင်မအကြောင်းရင်း"</string>
+    <string name="subtype_en_GB" msgid="88170601942311355">"အင်္ဂလိပ်(UK)"</string>
+    <string name="subtype_en_US" msgid="6160452336634534239">"အင်္ဂလိပ်(US)"</string>
+    <string name="subtype_with_layout_en_GB" msgid="2179097748724725906">"အင်္ဂလိပ် (UK) (
+        <xliff:g id="LAYOUT">%s</xliff:g>)"</string>
+    <string name="subtype_with_layout_en_US" msgid="1362581347576714579">"အင်္ဂလိပ် (US) (
+        <xliff:g id="LAYOUT">%s</xliff:g>)"</string>
+    <string name="subtype_no_language" msgid="141420857808801746">"ဘာသာစကားမရှိ"</string>
+    <string name="subtype_no_language_qwerty" msgid="2956121451616633133">"ဘာသာစကားမရှိ (QWERTY)"</string>
+    <string name="subtype_no_language_qwertz" msgid="1177848172397202890">"ဘာသာစကားမရှိ (QWERTZ)"</string>
+    <string name="subtype_no_language_azerty" msgid="8721460968141187394">"ဘာသာစကားမရှိ (AZERTY)"</string>
+    <string name="subtype_no_language_dvorak" msgid="3122976737669823935">"ဘာသာစကားမရှိ (Dvorak)"</string>
+    <string name="subtype_no_language_colemak" msgid="4205992994906097244">"ဘာသာစကားမရှိ (Colemak)"</string>
+    <string name="subtype_no_language_pcqwerty" msgid="8840928374394180189">"ဘာသာစကားမရှိ (PC)"</string>
+    <string name="custom_input_styles_title" msgid="8429952441821251512">"စိတ်ကြိုက်ဖြည့်သွင်းရန်စတိုင်များ"</string>
+    <string name="add_style" msgid="6163126614514489951">"စတိုင်ထပ်ထည့်ရန်"</string>
+    <string name="add" msgid="8299699805688017798">"ထပ်ထည့်ရန်"</string>
+    <string name="remove" msgid="4486081658752944606">"ဖယ်ရှားရန်"</string>
+    <string name="save" msgid="7646738597196767214">"သိမ်းဆည်းရန်"</string>
+    <string name="subtype_locale" msgid="8576443440738143764">"ဘာသာစကား"</string>
+    <string name="keyboard_layout_set" msgid="4309233698194565609">"အပြင်အဆင်"</string>
+    <string name="custom_input_style_note_message" msgid="8826731320846363423">"သင့်စိတ်ကြိုက်ဖြည့်သွင်းသည့်စတိုင်ကို သင်စတင်အသုံးမပြုခင် အလုပ်လုပ်အောင် လုပ်ထားဖို့လိုအပ်သည်။ အခုသင်လုပ်လိုပါသလား။"</string>
+    <string name="enable" msgid="5031294444630523247">"လုပ်ဆောင်နိုင်သည်"</string>
+    <string name="not_now" msgid="6172462888202790482">"အခုမဟုတ်ပါ"</string>
+    <string name="custom_input_style_already_exists" msgid="8008728952215449707">"ဖြည့်သွင်းသည့်အလားတူပုံစံ ရှိနေပြီးဖြစ်သည် - 
+        <xliff:g id="input_style_name">%s</xliff:g>"</string>
+    <string name="prefs_usability_study_mode" msgid="1261130555134595254">"အသုံးပြုနိုင်မှုလေ့လာသည့်ပုံစံ"</string>
+    <string name="prefs_keypress_vibration_duration_settings" msgid="1829950405285211668">"ခလုတ်နှိပ်သည့်အခါ တုန်ခါမှုကြာချိန် အဆင်အပြင်များ"</string>
+    <string name="prefs_keypress_sound_volume_settings" msgid="5875933757082305040">"ခလုတ်နှိပ်သည့် အသံအတိုးအကျယ်အဆင်အပြင်များ"</string>
+</resources>

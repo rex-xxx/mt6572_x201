@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string-array name="gemini_sim_info_number_display_format_entries"> 
+        <item>پہلے 4 ہندسے</item>  
+        <item>آخری 4 ہندسے</item>  
+        <item>نہيں ظاہر کریں</item> 
+    </string-array>  
+    <string-array name="gemini_sim_info_number_display_format_values"> 
+        <item>1</item>  
+        <item>2</item>  
+        <item>0</item> 
+    </string-array>  
+    <string-array name="gemini_sim_roaming_reminder_entries"> 
+        <item>ایک دفعہ</item>  
+        <item>ہمیشہ</item>  
+        <item>کبھی نہيں</item> 
+    </string-array>  
+    <string-array name="gemini_sim_roaming_reminder_values"> 
+        <item>0</item>  
+        <item>1</item>  
+        <item>2</item> 
+    </string-array>  
+    <string-array name="gsm_umts_network_preferences_choices"> 
+        <item>GSM/WCDMA (آٹو وضع)</item>  
+        <item>صرف WCDMA</item>  
+        <item>GSM صرف</item> 
+    </string-array>  
+    <string-array name="gsm_umts_network_preferences_values"> 
+        <item>"0"</item>  
+        <item>"2"</item>  
+        <item>"1"</item> 
+    </string-array>  
+    <string-array name="screen_timeout_entries"> 
+        <item msgid="3342301044271143016">15 سیکنڈ</item>  
+        <item msgid="8881760709354815449">30 سیکنڈ</item>  
+        <item msgid="7589406073232279088">1 منٹ</item>  
+        <item msgid="7001195990902244174">2 منٹ</item>  
+        <item msgid="5721688686241190620">5 منٹ</item>  
+        <item msgid="7156442995039264948">10 منٹ</item>  
+        <item>30 منٹ</item> 
+    </string-array>  
+    <string-array name="tts_rate_entries"> 
+        <item msgid="6041212618892492920">بہت سست</item>  
+        <item msgid="2361722960903353554">سست</item>  
+        <item msgid="1145554631248513562">عام</item>  
+        <item msgid="7553665153391107454">تیز</item>  
+        <item msgid="2538100882620724753">بہت تیز</item> 
+    </string-array>  
+    <string-array name="wifi_status"> 
+        <item msgid="1922181315419294640"/>  
+        <item msgid="8934131797783724664">اسکین کر رہا ہے\u2026</item>  
+        <item msgid="8513729475867537913">مربوط کر رہا ہے\u2026</item>  
+        <item msgid="515055375277271756">تصدیق کر رہا ہے\u2026</item>  
+        <item msgid="1943354004029184381">IP پتہ حاصل کر رہا ہے\u2026</item>  
+        <item msgid="4221763391123233270">مربوط</item>  
+        <item msgid="624838831631122137">معطل</item>  
+        <item msgid="7979680559596111948">منقطع کر رہا ہے\u2026</item>  
+        <item msgid="1634960474403853625">منقطع ہوگیا</item>  
+        <item msgid="746097431216080650">ناکام</item>  
+        <item>مسدود</item>  
+        <item>عارضی طور پر کمزور کنکشن سے احتراز کر رہا ہے</item> 
+    </string-array>  
+    <string-array name="wifi_status_with_ssid"> 
+        <item msgid="7714855332363650812"/>  
+        <item msgid="8878186979715711006">اسکین کر رہا ہے\u2026</item>  
+        <item msgid="355508996603873860"> 
+            <xliff:g id="network_name">%1$s</xliff:g>\u2026 سے مربوط کر رہا ہے
+        </item>  
+        <item msgid="554971459996405634"> 
+            <xliff:g id="network_name">%1$s</xliff:g>\u2026 کے ساتھ تصدیق کر رہا ہے
+        </item>  
+        <item msgid="7928343808033020343"> 
+            <xliff:g id="network_name">%1$s</xliff:g>\u2026 سے IP پتہ حاصل کر رہا ہے
+        </item>  
+        <item msgid="8937994881315223448"> 
+            <xliff:g id="network_name">%1$s</xliff:g> سے مربوط ہوگیا
+        </item>  
+        <item msgid="1330262655415760617">معطل ہوگیا</item>  
+        <item msgid="7698638434317271902"> 
+            <xliff:g id="network_name">%1$s</xliff:g>\u2026 سے منقطع کر رہا ہے
+        </item>  
+        <item msgid="197508606402264311">منقطع ہوگیا</item>  
+        <item msgid="8578370891960825148">ناکام</item>  
+        <item>مسدود</item>  
+        <item>عارضی طور پر کمزور کنکشن سے احتراز کر رہا ہے</item> 
+    </string-array>
+  <string-array name="security_settings_premium_sms_values">
+        
+        <item>پوچھیں</item>
+        
+        <item>کبھی اجازت نہ دیں</item>
+        
+        <item>ہمیشہ اجازت دیں</item>
+    </string-array>
+
+    
+    <string-array name="overlay_display_devices_entries">
+        <item>کوئی نہیں</item>
+        <item>720x480 mdpi</item>
+        <item>1280x720 tvdpi</item>
+        <item>1920x1080 xhdpi</item>
+        <item>1280x720 tvdpi اور 1920x1080 xhdpi</item>
+    </string-array>
+
+    
+    <string-array name="overlay_display_devices_values" translatable="false">
+        <item/>
+        <item>720x480/160</item>
+        <item>1280x720/213</item>
+        <item>1920x1080/320</item>
+        <item>1280x720/213;1920x1080/320</item>
+    </string-array>
+
+    
+    <string-array name="enable_opengl_traces_entries">
+        <item>کوئی نہیں</item>
+        <item>Logcat</item>
+        <item>Systrace (گرافکس)</item>
+        <item>glغلطی ملتی ہے پر کال اسٹیک</item>
+    </string-array>
+
+    
+    <string-array name="enable_opengl_traces_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>systrace</item>
+        <item>error</item>
+    </string-array>
+</resources>

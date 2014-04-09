@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright Statement:
+
+    This software/firmware and related documentation ("MediaTek Software") are
+    protected under relevant copyright laws. The information contained herein
+    is confidential and proprietary to MediaTek Inc. and/or its licensors.
+    Without the prior written permission of MediaTek inc. and/or its licensors,
+    any reproduction, modification, use or disclosure of MediaTek Software,
+    and information contained herein, in whole or in part, shall be strictly prohibited.
+
+    MediaTek Inc. (C) 2010. All rights reserved.
+
+    BY OPENING THIS FILE, RECEIVER HEREBY UNEQUIVOCALLY ACKNOWLEDGES AND AGREES
+    THAT THE SOFTWARE/FIRMWARE AND ITS DOCUMENTATIONS ("MEDIATEK SOFTWARE")
+    RECEIVED FROM MEDIATEK AND/OR ITS REPRESENTATIVES ARE PROVIDED TO RECEIVER ON
+    AN "AS-IS" BASIS ONLY. MEDIATEK EXPRESSLY DISCLAIMS ANY AND ALL WARRANTIES,
+    EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF
+    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NONINFRINGEMENT.
+    NEITHER DOES MEDIATEK PROVIDE ANY WARRANTY WHATSOEVER WITH RESPECT TO THE
+    SOFTWARE OF ANY THIRD PARTY WHICH MAY BE USED BY, INCORPORATED IN, OR
+    SUPPLIED WITH THE MEDIATEK SOFTWARE, AND RECEIVER AGREES TO LOOK ONLY TO SUCH
+    THIRD PARTY FOR ANY WARRANTY CLAIM RELATING THERETO. RECEIVER EXPRESSLY ACKNOWLEDGES
+    THAT IT IS RECEIVER'S SOLE RESPONSIBILITY TO OBTAIN FROM ANY THIRD PARTY ALL PROPER LICENSES
+    CONTAINED IN MEDIATEK SOFTWARE. MEDIATEK SHALL ALSO NOT BE RESPONSIBLE FOR ANY MEDIATEK
+    SOFTWARE RELEASES MADE TO RECEIVER'S SPECIFICATION OR TO CONFORM TO A PARTICULAR
+    STANDARD OR OPEN FORUM. RECEIVER'S SOLE AND EXCLUSIVE REMEDY AND MEDIATEK'S ENTIRE AND
+    CUMULATIVE LIABILITY WITH RESPECT TO THE MEDIATEK SOFTWARE RELEASED HEREUNDER WILL BE,
+    AT MEDIATEK'S OPTION, TO REVISE OR REPLACE THE MEDIATEK SOFTWARE AT ISSUE,
+    OR REFUND ANY SOFTWARE LICENSE FEES OR SERVICE CHARGE PAID BY RECEIVER TO
+    MEDIATEK FOR SUCH MEDIATEK SOFTWARE AT ISSUE.
+
+    The following software/firmware and/or related documentation ("MediaTek Software")
+    have been modified by MediaTek Inc. All revisions are subject to any receiver's
+    applicable license agreements with MediaTek Inc.
+
+
+
+    Copyright (C) 2008 The Android Open Source Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<!-- small -->
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    >
+    <ProgressBar
+        android:id="@+id/loading_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        style="?android:attr/progressBarStyleLarge"
+        />
+    <com.android.email.view.NonLockingScrollView
+        android:id="@+id/main_panel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+                <TextView
+                    android:id="@+id/subject"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:layout_marginTop="8dip"
+                    android:layout_marginBottom="8dip"
+                    android:layout_marginLeft="8dip"
+                    android:layout_marginRight="8dip"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="?android:attr/textColorSecondary"
+                    android:textStyle="bold"
+                    />
+                <ImageView
+                    android:id="@+id/favorite_star"
+                    android:src="@drawable/btn_star_on_normal_email_holo_light"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:scaleType="center"
+                    android:layout_marginTop="1dip"
+                    android:layout_marginRight="2dip"
+                    android:visibility="gone"
+                    />
+            </LinearLayout>
+            <!-- Upper header area. -->
+            <include layout="@layout/message_view_header_upper" />
+
+            <!-- Addresses, timestamp, "show details" -->
+            <FrameLayout
+                android:id="@+id/message_view_subheader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dip"
+                android:layout_marginRight="6dip"
+                >
+                <include layout="@layout/message_view_subheader" />
+            </FrameLayout>
+
+            <!-- divider -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginLeft="6dip"
+                android:layout_marginRight="6dip"
+                style="@style/message_view_horizontal_divider"
+                />
+
+            <LinearLayout
+                android:id="@+id/message_tabs_section"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dip"
+                android:layout_marginRight="6dip"
+                android:orientation="vertical"
+                >
+                <Button
+                    android:id="@+id/show_pictures"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dip"
+                    android:drawableLeft="@drawable/ic_show_images_holo_light"
+                    android:drawablePadding="8dip"
+                    android:text="@string/message_view_show_pictures_action"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    />
+
+                <Button
+                    android:id="@+id/always_show_pictures_button"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dip"
+                    android:drawableLeft="@drawable/ic_show_images_holo_light"
+                    android:drawablePadding="8dip"
+                    android:text="@string/message_view_always_show_pictures_prompt"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <Button
+                        android:id="@+id/show_message"
+                        android:text="@string/message_view_show_message_action"
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="6dip"
+                        style="@style/message_view_tab"
+                        />
+                    <!--
+                        Even though the "invite" section is only for MessageViewFragment, it's managed
+                        by MessageViewFragmentBase for simplicity.
+                    -->
+                    <Button
+                        android:id="@+id/show_invite"
+                        android:text="@string/message_view_show_invite_action"
+                        android:layout_width="wrap_content"
+                        style="@style/message_view_tab"
+                        />
+                    <Button
+                        android:id="@+id/show_attachments"
+                        android:layout_width="wrap_content"
+                        android:layout_marginRight="6dip"
+                        style="@style/message_view_tab"
+                        />
+                    <View
+                        android:layout_width="0dip"
+                        android:layout_height="0dip"
+                        android:layout_weight="1"
+                        />
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    style="@style/message_view_horizontal_divider"
+                    />
+            </LinearLayout>
+            <!-- end of tab area -->
+            <!--
+                content area - only one of them is visible at a time.
+            -->
+            <com.android.email.view.RigidWebView
+                android:id="@+id/message_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:visibility="gone"
+                />
+            <!-- Message remain button -->
+            <LinearLayout 
+                android:id="@+id/msg_remain" 
+                android:layout_width="match_parent"
+                android:layout_height="60dip"
+                android:orientation="vertical">
+            </LinearLayout>
+
+            <!-- TODO: remove these useless scroll views. They are carry-over
+                 from an existing design and are no longer needed. -->
+            <!--
+                Even though the "invite" section is only for MessageViewFragment,
+                Its visibility is controlled by MessageViewFragmentBase for simplicity.
+            -->
+            <ScrollView
+                android:id="@+id/invite_scroll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dip"
+                android:layout_marginRight="6dip"
+                android:paddingTop="16dip"
+                android:paddingBottom="16dip"
+                android:visibility="gone"
+                >
+                <!--
+                    Invite section - the views in it are controlled only by MessageViewFragment.
+                    MessageViewFragment shouldn't know what's inside it.
+                -->
+                <include layout="@layout/message_view_invitation" />
+            </ScrollView>
+            <ScrollView
+                android:id="@+id/attachments_scroll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dip"
+                android:layout_marginRight="6dip"
+                android:visibility="gone"
+                >
+                <LinearLayout
+                    android:id="@+id/attachments"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="4dip"
+                    android:background="@android:color/white"
+                    />
+            </ScrollView>
+            <!-- end of content area -->
+        </LinearLayout>
+    </com.android.email.view.NonLockingScrollView>
+</FrameLayout>

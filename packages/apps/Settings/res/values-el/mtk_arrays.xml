@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="wifi_security">
+        <item>"Άνοιγμα"</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+        <item>WAPI PSK</item>
+        <item>Πιστοποιητικό WAPI</item>
+    </string-array>
+    <string-array name="wpa_security"> 
+        <item>"Άνοιγμα"</item>  
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>  
+    <string-array name="wpa_security_wfa"> 
+        <item>"Άνοιγμα"</item>  
+        <item>WEP</item>
+        <item>WPA PSK</item>
+        <item>WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>  
+    <string-array name="wapi_security"> 
+        <item>"Άνοιγμα"</item>  
+        <item>WAPI PSK</item>
+        <item>Πιστοποιητικό WAPI</item>
+    </string-array>  
+    <string-array name="gemini_sim_info_number_display_format_entries"> 
+        <item>Πρώτα 4 ψηφία</item>  
+        <item>Τελ. 4 ψηφ.</item>  
+        <item>Χωρίς εμφάνιση</item> 
+    </string-array>  
+    <string-array name="gemini_sim_roaming_reminder_entries"> 
+        <item>Μία φορά</item>  
+        <item>Πάντα</item>  
+        <item>Ποτέ</item> 
+    </string-array>  
+    <string-array name="gsm_umts_network_preferences_choices"> 
+        <item>GSM/WCDMA (αυτόματη λειτουργία)</item>  
+        <item>Μόνο WCDMA</item>  
+        <item>Μόνο GSM</item> 
+    </string-array>  
+    <string-array name="network_use_entry"> 
+        <item>Εσωτερικό μόνο</item>  
+        <item>Εσ. + Περιαγ.</item> 
+    </string-array>  
+    <string-array name="auto_time_entries"> 
+        <item>Χρήση ώρας που παρέχεται από το δίκτυο</item>  
+        <item>Χρήση ώρας από το GPS</item>  
+        <item>Απενεργοποίηση</item> 
+    </string-array>  
+    <string-array name="hdmi_video_resolution_entries"> 
+        <item>Αυτόματα</item>  
+        <item>720P</item>
+        <item>480P</item>
+    </string-array>  
+    <string-array name="wifi_WEP_security_type"> 
+        <item>Αυτόματα</item>  
+        <item>WEP ASCII</item>
+        <item>Δεκαεξαδικό WEP</item>  
+    </string-array>  
+    <string-array name="wifi_hotspot_disable_policy_entries"> 
+        <item>Πάντα</item>  
+        <item>Απενεργοποίηση όταν είναι σε αδράνεια για 5 λεπτά</item>  
+        <item>Απενεργοποίηση όταν είναι σε αδράνεια για 10 λεπτά</item> 
+    </string-array>  
+    <string-array name="wifi_ap_wps_mode_entries"> 
+        <item>Κουμπί πίεσης</item>  
+        <item>PIN από πελάτη</item> 
+    </string-array>  
+    <string-array name="wifi_ap_max_connection_entries"> 
+        <item>1 χρήστης</item>  
+        <item>2 χρήστες</item> 
+        <item>3 χρήστες</item>  
+        <item>4 χρήστες</item>
+        <item>5 χρήστες</item>  
+        <item>6 χρήστες</item>
+        <item>7 χρήστες</item>  
+        <item>8 χρήστες</item>
+    </string-array> 
+	<string-array name="sim_slot">
+		<item>"(δεν έχει καθοριστεί)"</item>
+		<item>Υποδοχή κάρτας SIM 1</item>
+		<item>Υποδοχή κάρτας SIM 2</item>
+	</string-array>
+</resources>

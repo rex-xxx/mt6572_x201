@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+     <string-array name="wifi_security"> 
+        <item>열기</item>  
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+        <item>WAPI PSK</item> 
+        <item>WAPI 인증서</item>  
+    </string-array>  
+    <string-array name="wpa_security"> 
+        <item>열기</item>  
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>  
+    <string-array name="wpa_security_wfa"> 
+        <item>열기</item>  
+        <item>WEP</item>
+        <item>WPA PSK</item>
+        <item>WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>  
+    <string-array name="wapi_security"> 
+        <item>열기</item>  
+        <item>WAPI PSK</item>
+        <item>WAPI 인증서</item>  
+    </string-array>  
+    <string-array name="gemini_sim_info_number_display_format_entries"> 
+        <item>앞 4자릿수</item>  
+        <item>마지막 4자릿수</item>  
+        <item>표시하지 않음</item> 
+    </string-array>  
+    <string-array name="gemini_sim_roaming_reminder_entries"> 
+        <item>한 번</item>  
+        <item>항상</item>  
+        <item>사용 안함</item> 
+    </string-array>  
+    <string-array name="gsm_umts_network_preferences_choices"> 
+        <item>GSM/WCDMA(자동 모드)</item>  
+        <item>WCDMA 전용</item>  
+        <item>GSM 전용</item> 
+    </string-array>  
+    <string-array name="network_use_entry"> 
+        <item>가정 전용</item>  
+        <item>가정 + 로밍</item> 
+    </string-array>  
+    <string-array name="auto_time_entries"> 
+        <item>네트워크 제공 시간 사용</item>  
+        <item>GPS 제공 시간 사용</item>  
+        <item>끄기</item> 
+    </string-array>  
+    <string-array name="hdmi_video_resolution_entries"> 
+        <item>자동</item>  
+        <item>720P</item>
+        <item>480P</item>
+    </string-array>  
+    <string-array name="wifi_WEP_security_type"> 
+        <item>자동</item>  
+        <item>WEP ASCII</item>
+        <item>WEP 16진수</item>  
+    </string-array>  
+    <string-array name="wifi_hotspot_disable_policy_entries"> 
+        <item>항상</item>  
+        <item>5분 유휴 시 끄기</item>  
+        <item>10 유휴 시 끄기</item> 
+    </string-array>  
+    <string-array name="wifi_ap_wps_mode_entries"> 
+        <item>푸시 버튼</item>  
+        <item>클라이언트의 PIN</item> 
+    </string-array>  
+    <string-array name="wifi_ap_max_connection_entries"> 
+        <item>1명의 사용자</item>  
+        <item>2명의 사용자</item> 
+        <item>3명의 사용자</item> 
+        <item>4명의 사용자</item> 
+        <item>5명의 사용자</item> 
+        <item>6명의 사용자</item> 
+        <item>7명의 사용자</item> 
+        <item>8명의 사용자</item> 
+    </string-array> 
+	<string-array name="sim_slot">
+		<item>"(지정되지 않음)"</item>
+		<item>Sim 슬롯 1</item>
+		<item>Sim 슬롯 2</item>
+	</string-array>
+</resources>

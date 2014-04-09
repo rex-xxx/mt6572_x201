@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="camera_error_title">ক্যামেরা ত্রুটি</string>  
+    <string name="cannot_connect_camera">ক্যামেরার সাথে সংযোগ দিতে পারছে না।</string>  
+    <string name="camera_disabled">নিরাপত্তা নীতির কারণে ক্যামেরা নিষ্ক্রিয় করা আছে।</string>  
+    <string name="camera_label">ক্যামেরা</string>  
+    <string name="video_camera_label">ক্যামকোর্ডার</string>  
+    <string name="gallery_camera_bucket_name">ক্যামেরার ছবি</string>  
+    <string name="gallery_camera_videos_bucket_name">ক্যামেরার ভিডিও</string>  
+    <string name="wait">অপেক্ষা করুন\u2026</string>  
+    <string name="no_storage" product="nosdcard">ক্যামেরা ব্যবহারের পূর্বে ইউএসবি স্টোরেজ মাউন্ট করুন।</string>  
+    <string name="no_storage" product="default">ক্যামেরা ব্যবহারের পূর্বে একটি এসডি কার্ড প্রবেশ করান।</string>  
+    <string name="not_enough_space" product="nosdcard">আপনার ইউএসবি স্টোরেজ পূর্ণ।</string>  
+    <string name="not_enough_space" product="default">আপনার এসডি কার্ড স্টোরেজ পূর্ণ।</string>  
+    <string name="preparing_sd" product="nosdcard">ইউএসবি স্টোরেজ প্রস্তুত করছে\u2026</string>  
+    <string name="preparing_sd" product="default">এসডি কার্ড প্রস্তুত করা হচ্ছে\u2026</string>  
+    <string name="access_sd_fail" product="nosdcard">ইউএসবি স্টোরেজে প্রবেশ করতে পারে নাই।</string>  
+    <string name="access_sd_fail" product="default">এসডি কার্ডে প্রবেশ করা যাচ্ছে না।</string>  
+    <string name="confirm_restore_message">আপনি কি ক্যামেরা ডিফল্ট সেটিং পুনঃপ্রতিষ্ঠা করতে চান?</string>  
+    <string name="review_play">বাজান</string>  
+    <string name="review_cancel">বাতিল করুন</string>  
+    <string name="review_ok">সম্পন্ন</string>  
+    <string name="review_retake">আবার তুলুন</string>  
+    <string name="camera_gallery_photos_text">গ্যালারি</string>  
+    <string name="time_lapse_title">টাইম ল্যাপস রেকর্ডিং</string>  
+    <string name="pref_camera_id_title">ক্যামেরা বাছাই করুন</string>  
+    <string name="pref_camera_id_default" translatable="false">0</string>  
+    <string name="pref_camera_id_entry_back">পেছনে</string>  
+    <string name="pref_camera_id_entry_front">সামনে</string>  
+    <string name="pref_camera_recordlocation_title">লোকেশন সংরক্ষণ করুন</string>  
+    <string name="pref_camera_recordlocation_default" translatable="false">none</string>  
+    <string name="pref_camera_recordlocation_entry_off">বন্ধ করুন</string>  
+    <string name="pref_camera_recordlocation_entry_on">চালু করুন</string>  
+    <string name="pref_video_quality_title">"ভিডিও'র গুণগতমান"</string>  
+    <string name="pref_video_quality_default" translatable="false">10</string>  
+    <string name="pref_video_quality_entry_1080p" translatable="false">HD</string>  
+    <string name="pref_video_quality_entry_720p" translatable="false">Fine</string>  
+    <string name="pref_video_quality_entry_480p" translatable="false">SD</string>  
+    <string name="pref_video_time_lapse_frame_interval_title">টাইম ল্যাপস বিরতি</string>  
+    <string name="pref_video_time_lapse_frame_interval_default" translatable="false">0</string>  
+    <string name="pref_camera_settings_category">ক্যামেরা সেটিং</string>  
+    <string name="pref_camcorder_settings_category">ক্যামকর্ডার সেটিং</string>  
+    <string name="pref_camera_picturesize_title">ছবির সাইজ</string>  
+    <string name="pref_camera_picturesize_entry_2592x1936">৫এম পিক্সেল</string>  
+    <string name="pref_camera_picturesize_entry_2048x1536">৩এম পিক্সল</string>  
+    <string name="pref_camera_picturesize_entry_1600x1200">২এম পিক্সল</string>  
+    <string name="pref_camera_picturesize_entry_1280x960">১.৩এম পিক্সল</string>  
+    <string name="pref_camera_picturesize_entry_1024x768">১এম পিক্সেল</string>  
+    <string name="pref_camera_picturesize_entry_640x480">ভিজিএ</string>  
+    <string name="pref_camera_picturesize_entry_320x240">কিউভিজিএ</string>  
+    <string name="pref_camera_focusmode_title">ফোকাস মোড</string>  
+    <string name="pref_camera_focusmode_entry_auto">স্বয়ংক্রিয়</string>  
+    <string name="pref_camera_focusmode_entry_infinity">ইনফিনিটি</string>  
+    <string name="pref_camera_focusmode_entry_macro">ম্যাক্রো</string>  
+    <string name="pref_camera_flashmode_default" translatable="false">auto</string>  
+    <string name="pref_camera_flashmode_no_flash" translatable="false">no_flash</string>  
+    <string name="pref_camera_flashmode_title">ফ্ল্যাশ মোড</string>  
+    <string name="pref_camera_flashmode_entry_auto">স্বয়ংক্রিয়</string>  
+    <string name="pref_camera_flashmode_entry_on">চালু করুন</string>  
+    <string name="pref_camera_flashmode_entry_off">বন্ধ করুন</string>  
+    <string name="pref_camera_video_flashmode_default" translatable="false">off</string>  
+    <string name="pref_camera_whitebalance_default" translatable="false">auto</string>  
+    <string name="pref_camera_whitebalance_title">হোয়াইট ব্যালেন্স</string>  
+    <string name="pref_camera_whitebalance_entry_auto">স্বয়ংক্রিয়</string>  
+    <string name="pref_camera_whitebalance_entry_incandescent">ইনক্যানডিসেন্ট</string>  
+    <string name="pref_camera_whitebalance_entry_daylight">দিনের আলো</string>  
+    <string name="pref_camera_whitebalance_entry_fluorescent">প্রতিপ্রভ</string>  
+    <string name="pref_camera_whitebalance_entry_cloudy">মেঘলা</string>  
+    <string name="pref_camera_scenemode_default" translatable="false">auto</string>  
+    <string name="pref_camera_scenemode_title">দৃশ্য মোড</string>  
+    <string name="pref_camera_scenemode_entry_auto">স্বয়ংক্রিয়</string>  
+    <string name="pref_camera_scenemode_entry_action">অ্যাকশন</string>  
+    <string name="pref_camera_scenemode_entry_night">রাত</string>  
+    <string name="pref_camera_scenemode_entry_sunset">সূর্যাস্ত</string>  
+    <string name="pref_camera_scenemode_entry_party">পার্টি</string>  
+    <string name="not_selectable_in_scene_mode">দৃশ্য মোডে নির্বাচনযোগ্য নয়।</string>  
+    <string name="pref_restore_title">ক্যামেরা সেটিং</string>  
+    <string name="pref_restore_detail">ডিফল্ট পুনঃপ্রতিষ্ঠা করুন</string>  
+    <string name="pref_exposure_title">এক্সপোজার</string>  
+    <string name="pref_exposure_default" translatable="false">0</string>  
+    <string name="dialog_ok">ঠিক আছে</string>  
+    <string name="spaceIsLow_content" product="nosdcard">আপনার ইউএসবি স্টোরেজে জায়গা নেই। মানের সেটিং পরিবর্তন করুন বা কিছু ছবি বা অন্যান্য ফাইল মুছে ফেলুন।</string>  
+    <string name="spaceIsLow_content" product="default">আপনার এসডি কার্ডে জায়গা নেই। মানের সেটিং পরিবর্তন করুন বা কিছু ছবি বা অন্যান্য ফাইল মুছে ফেলুন।</string>  
+    <string name="image_file_name_format" translatable="false">"'IMG'_yyyyMMdd_HHmmss"</string>  
+    <string name="video_file_name_format" translatable="false">"'VID'_yyyyMMdd_HHmmss"</string>  
+    <string name="pano_file_name_format" translatable="false">"'PANO'_yyyyMMdd_HHmmssSSS"</string>  
+    <string name="video_reach_size_limit">আয়তন সীমায় পৌঁছে গেছে।</string>  
+    <string name="setting_increment" translatable="false">&gt;</string>  
+    <string name="setting_decrement" translatable="false">&lt;</string>  
+    <string name="share_picture_via">ছবি শেয়ার করুন</string>  
+    <string name="share_video_via">ভিডিও শেয়ার করুন</string>  
+    <string name="no_picture_to_share">শেয়ার করার মত কোনো ছবি নেই।</string>  
+    <string name="no_video_to_share">শেয়ার করার মত কোনো ভিডিও নেই।</string>  
+    <string name="pano_too_fast_prompt">অতি দ্রুত</string>  
+    <string name="pano_dialog_prepare_preview">বিস্তৃত দৃশ্যপট তৈরি করছে</string>  
+    <string name="pano_dialog_panorama_failed">বিস্তৃত দৃশ্যপট সংরক্ষণ করা যাচ্ছে না।</string>  
+    <string name="pano_dialog_title">বিস্তৃত দৃশ্যপট</string>  
+    <string name="pano_capture_indication">বিস্তৃত দৃশপটের ছবি নিচ্ছে</string>  
+    <string name="pano_dialog_waiting_previous">পূর্ববর্তী প্যানরমার জন্য অপেক্ষা করছে</string>  
+    <string name="saving">সংরক্ষণ করছে\u2026</string>  
+    <string name="tap_to_focus">ফোকাস করতে স্পর্শ করুন।</string>  
+    <string name="pref_video_effect_default" translatable="false">none</string>  
+    <string name="pref_video_effect_title">প্রভাব</string>  
+    <string name="effect_none">কোনটি নয়</string>  
+    <string name="effect_goofy_face_squeeze">চেপে ধরুন</string>  
+    <string name="effect_goofy_face_big_eyes">বড় চোখ</string>  
+    <string name="effect_goofy_face_big_mouth">বড় মুখ</string>  
+    <string name="effect_goofy_face_small_mouth">ছোট মুখ</string>  
+    <string name="effect_goofy_face_big_nose">বড় নাক</string>  
+    <string name="effect_goofy_face_small_eyes">ছোট চোখ</string>  
+    <string name="effect_backdropper_space">ইন স্পেস</string>  
+    <string name="effect_backdropper_sunset">সূর্যাস্ত</string>  
+    <string name="effect_backdropper_gallery">আপনার ভিডিও</string>  
+    <string name="not_selectable_in_effect">ইফেক্ট চালু থাকা অবস্থায় নির্বাচন করা যাবে না।</string>  
+    <string name="video_snapshot_hint">রেকর্ডিংয়ের করার ছবি তুলতে স্পর্শ করুন।</string>  
+    <string name="disable_video_snapshot_hint">বিশেষ প্রভাব চালু অবস্থায় ভিডিও স্ন্যাপশট নিষ্ক্রিয় থাকে।</string>  
+    <string name="clear_effects">প্রভাব মুছে ফেলুন</string>  
+    <string name="effect_silly_faces">বোকাটে চেহারা</string>  
+    <string name="effect_background">পটভূমি</string>  
+    <string name="accessibility_shutter_button">শাটার বাটন</string>  
+    <string name="accessibility_review_thumbnail">সর্বসাম্প্রতিক ছবি</string>  
+    <string name="accessibility_camera_picker">সামনের ও পেছনের ক্যামেরার সুইচ</string>  
+    <string name="accessibility_mode_picker">ক্যামেরা, ভিডিও, বা বিস্তৃত দৃশ্যপট নির্বাচক</string>  
+    <string name="accessibility_second_level_indicators">আরো সেটিং নিয়ন্ত্রণ</string>  
+    <string name="accessibility_back_to_first_level">সেটিং নিয়ন্ত্রণ বন্ধ করুন</string>  
+    <string name="accessibility_zoom_control">জুম নিয়ন্ত্রণ</string>  
+    <string name="accessibility_decrement">কমান %1$s</string>  
+    <string name="accessibility_increment">বাড়ান %1$s</string>  
+    <string name="accessibility_switch">%1$s সুইচ</string>  
+
+
+    <string name="empty" translatable="false">" "</string>  
+
+      <string name="pano_review_saving_indication_str">সংরক্ষণ করছে\u2026</string>
+</resources>

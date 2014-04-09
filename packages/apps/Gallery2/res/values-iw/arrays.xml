@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string-array name="proxy_error"> 
+        <item>שדה המארח אינו יכול להיות ריק</item>  
+        <item>שדה היציאה אינו יכול להיות ריק</item>  
+        <item>מארח לא תקין</item>  
+        <item>מארח לא תקין</item> 
+    </string-array> 
+</resources>

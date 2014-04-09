@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+        <SeekBar
+            android:id="@+id/seekBar_hue"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="100dp"
+            android:max="100"
+            android:paddingLeft="46px"
+            android:paddingRight="25px"
+            android:layout_centerInParent="true"
+            android:progress="50" />
+
+     <TextView
+            android:id="@+id/textView2_hue_old"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/number_zero" 
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="100dp"/>
+        <TextView
+            android:id="@+id/textView_hue_old"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="100dp"
+            android:text="@string/number_zero" 
+            android:layout_alignParentRight="true"/>
+        <TextView
+            android:id="@+id/textView_hue_progress_old"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/number_zero" 
+            android:layout_marginBottom="70dp" />
+</RelativeLayout>

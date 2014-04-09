@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_label">ប្រតិទិន</string>  
+    <skip/>  
+    <string name="what_label">អ្វី</string>  
+    <string name="where_label">ទីណា</string>  
+    <string name="when_label">ពេលណា</string>  
+    <string name="timezone_label">ល្វែងម៉ោង</string>  
+    <string name="attendees_label">ភ្ញៀវ</string>  
+    <string name="today">ថ្ងៃនេះ</string>  
+    <string name="tomorrow">ថ្ងៃស្អែក</string>  
+    <string name="today_at_time_fmt">"ថ្ងៃនេះនៅម៉ោង 
+        <xliff:g id="time_interval">%s</xliff:g>"
+    </string>  
+    <string name="tomorrow_at_time_fmt">"ថ្ងៃស្អែកនៅម៉ោង 
+        <xliff:g id="time_interval">%s</xliff:g>"
+    </string>  
+    <string name="date_time_fmt">" 
+        <xliff:g id="date">%s</xliff:g>, 
+        <xliff:g id="time_interval">%s</xliff:g>"
+    </string>  
+    <string name="repeats_label">សាឡើងវិញ</string>  
+    <string name="no_title_label">(មិនមានចំណងជើង)</string>  
+    <plurals name="Nminutes"> 
+        <item quantity="one">1 នាទី</item>  
+        <item quantity="other"> 
+            <xliff:g id="count">%d</xliff:g> នាទី
+        </item> 
+    </plurals>  
+    <plurals name="Nmins"> 
+        <item quantity="one">1 នាទី</item>  
+        <item quantity="other"> 
+            <xliff:g id="count">%d</xliff:g> នាទី
+        </item> 
+    </plurals>  
+    <plurals name="Nhours"> 
+        <item quantity="one">1 ម៉ោង</item>  
+        <item quantity="other"> 
+            <xliff:g id="count">%d</xliff:g> ម៉ោង
+        </item> 
+    </plurals>  
+    <plurals name="Ndays"> 
+        <item quantity="one">1 ថ្ងៃ</item>  
+        <item quantity="other"> 
+            <xliff:g id="count">%d</xliff:g> ថ្ងៃ
+        </item> 
+    </plurals>  
+    <plurals name="weekN"> 
+        <item quantity="other">សប្តាហ៍ 
+            <xliff:g id="count">%d</xliff:g> 
+        </item> 
+    </plurals>  
+    <skip/>  
+    <string name="calendar_refresh">"ធ្វើឲ្យស្រស់ស្រាយ"</string>  
+    <string name="show_day_view">"បង្ហាញថ្ងៃ"</string>  
+    <string name="agenda_view">"របៀបវារៈ"</string>  
+    <string name="day_view">"ថ្ងៃ"</string>  
+    <string name="week_view">"សប្តាហ៍"</string>  
+    <string name="month_view">"ខែ"</string>  
+    <string name="event_view">"មើលហេតុការណ៍"</string>  
+    <string name="event_create">"ហេតុការណ៍ថ្មី"</string>  
+    <string name="event_edit">"កែសម្រួលហេតុការណ៍"</string>  
+    <string name="event_delete">"លុបហេតុការណ៍"</string>  
+    <string name="goto_today">"ថ្ងៃនេះ"</string>  
+    <string name="menu_preferences">"ការសិត"</string>  
+    <string name="menu_select_visible_calendars">"ប្រតិទិនដើម្បីបង្ហាញ"</string>  
+    <string name="search">"រាវរក"</string>  
+    <string name="hide_controls">"លាក់បន្ទះគ្រប់គ្រង"</string>  
+    <string name="show_controls">"បង្ហាញបន្ទះគ្រប់គ្រង"</string>  
+    <skip/>  
+    <skip/>  
+    <string name="select_visible_calendars_title">"ប្រតិទិនដើម្បីបង្ហាញ"</string>  
+    <string name="synced">បានធ្វើសមកាលកម្ម</string>  
+    <string name="not_synced">មិនបានធ្វើសមកាលកម្ម</string>  
+    <string name="acct_not_synced">គណនីនេះមិ\នមែនកំពុងធ្វើសមកាលកម្មឡើយ ដូច្នេះប្រតិទិនរបស់អ្នកអាចមិនមានបច្ចុប្បន្នភាពទេ ។</string>  
+    <string name="accounts">គណនី &amp; សមកាលកម្ម</string>  
+    <string name="select_synced_calendars_title">ប្រតិទិនដើម្បីធ្វើសមកាលកម្ម</string>  
+    <string name="select_synced_calendars_button">ប្រតិទិនដើម្បីធ្វើសមកាលកម្ម</string>  
+    <skip/>  
+    <string name="hint_what">"ឈ្មោះហេតុការណ៍"</string>  
+    <string name="hint_where">"ទីតាំង"</string>  
+    <string name="hint_description">"ការពណ៌នា"</string>  
+    <string name="hint_attendees">"ភ្ញៀវ"</string>  
+    <string name="creating_event">"ហេតុការណ៍បានបង្កើតហើយ"</string>  
+    <string name="saving_event">"ហេតុការណ៍បានរក្សាទុកហើយ"</string>  
+    <string name="empty_event">"ទទេ ហេតុការណ៍មិនទាន់បានបង្កើតឡើយ"</string>  
+    <string name="creating_event_with_guest">"ការអញ្ជើញនឹងត្រូវបានផ្ញើចេញ"</string>  
+    <string name="saving_event_with_guest">"បច្ចុប្បន្នភាពនឹងត្រូវបានផ្ញើចេញ"</string>  
+    <skip/>  
+    <string name="alert_title">ប្រាប់ដំណឹងពីប្រតិទិន</string>  
+    <skip/>  
+    <skip/>  
+    <string name="event_info_title">មើលហេតុការណ៍</string>  
+    <string name="event_info_title_invite">ការអញ្ជើញប្រជុំ</string>  
+    <skip/>  
+    <string name="edit_event_to_label">ចំពោះ</string>  
+    <string name="edit_event_from_label">ពី</string>  
+    <string name="edit_event_all_day_label">ពេញមួយថ្ងៃ</string>  
+    <string name="edit_event_calendar_label">ប្រតិទិន</string>  
+    <string name="edit_event_show_all">បង្ហាញទាំងអស់</string>  
+    <string name="description_label">ការពណ៌នា</string>  
+    <string name="presence_label">បង្ហាញខ្ញុំជា</string>  
+    <string name="privacy_label">ឯកជនភាព</string>  
+    <string name="reminders_label">បន្ថែមអ្នករំឭក</string>  
+    <string name="no_syncable_calendars">មិនមានប្រតិទិន</string>  
+    <string name="no_calendars_found">មុនពេលអ្នកអាចបន្ថែមហេតុការណ៍ យ៉ាងហោចណាស់អ្នកត្រូវបន្ថែមគណនីប្រតិទិនមួយ ទៅក្នុងឧបករណ៍របស់អ្នក ហើយធ្វើឲ្យប្រតិទិននោះអាចមើលឃើញ ។ ចុចលើពាក្យ បន្ថែមគណនី ដើម្បីបន្ថែមគណនីមួយ (បើអ្នកទើបតែបានបន្ថែមគណនីមួយរួចហើយ សូមរង់ចាំឲ្យសមកាលកម្មចប់សិន រួចហើយសាកល្បងម្តងទៀត) ។ ឬមួយចុចលើបាក្យ លើកលែង ហើយត្រូវប្រាកដថា យ៉ាងហោចណាស់ក៏មានប្រតិទិនមួយដែរដែលអាចមើលឃើញបាន ។</string>  
+    <string name="create_an_account_desc">"ប្រតិទិនដំណើរការបានល្អប្រសើរជាងជាមួយនឹងគណនី Google ។\n\n\u2022 បើកមើលវាពីប្រូស័រណាមួយ\n\u2022 រក្សាទុកហេតុការណ៍របស់អ្នកឲ្យមានសុវត្ថិភាព"</string>  
+    <string name="add_account">បន្ថែមគណនី</string>  
+    <skip/>  
+    <string name="view_event_calendar_label">ប្រតិទិន ៖</string>  
+    <string name="view_event_organizer_label">អ្នករៀបចំ ៖</string>  
+    <string name="view_event_response_label">ចូលរួមទេ?</string>  
+    <string name="response_yes">បាទ</string>  
+    <string name="response_maybe">ប្រហែលដែរ</string>  
+    <string name="response_no">ទេ</string>  
+    <string name="email_guests_label">អ៊ីម៉េលភ្ញៀវ</string>  
+    <string name="email_organizer_label">អ្នករៀបចំអ៊ីម៉េល</string>
+    <string name="email_picker_label">អ៊ីម៉េលជាមួយ</string>  
+    <string name="event_not_found">"រកព្រឹត្តិការណ៍មិនឃើញទេ ។"</string>
+    <string translatable="false" name="email_subject_prefix">Re:\u0020</string>  
+    <string name="quick_response_settings">ឆ្លើយតបលឿន</string>  
+    <string name="quick_response_settings_summary">កែសម្រួលការឆ្លើយតបបែសិតពីរៀងចក្រ ពេលផ្ញើអ៊ីម៉េលទៅភ្ញៀវ</string>  
+    <string name="quick_response_settings_title">កែសម្រួលការឆ្លើយតបលឿន</string>  
+    <string name="quick_response_settings_edit_title">ឆ្លើយតបលឿន</string>  
+    <string name="quick_response_dialog_title">ជ្រើសរើស ឆ្លើយតបលឿន</string>  
+    <string name="quick_response_email_failed">ខកខានរកកម្មវិធីអ៊ីម៉េល</string>  
+    <string-array name="quick_response_defaults"> 
+        <item>គ្រាន់តែយឺតចំនួនពីរបីនាទី ។</item>  
+        <item>នឹងទៅដល់ទីនោះប្រហែល 10 នាទីទៀត ។</item>  
+        <item>សូមបន្ត និងចាប់ផ្តើម ដោយមិនបាច់ចាំខ្ញុំឡើយ ។</item>  
+        <item>សូមទោស ខ្ញុំមកមិ\នអាចមកបាន ។ យើ\ងត្រូវរៀបកាលវិភាគសាថ្មី ។</item> 
+    </string-array>  
+    <string name="quick_response_custom_msg">សារតាមចំណង់\u2026</string>  
+    <string name="event_info_organizer">អ្នករៀបចំ ៖</string>  
+    <string name="event_info_reminders_label">អ្នករំឭក</string>  
+    <skip/>  
+    <string name="agenda_today">ថ្ងៃនេះ 
+        <xliff:g id="date">%1$s</xliff:g> 
+    </string>  
+    <string name="agenda_yesterday">ម្សិលមិញ 
+        <xliff:g id="date">%1$s</xliff:g> 
+    </string>  
+    <string name="agenda_tomorrow">ស្អែក 
+        <xliff:g id="date">%1$s</xliff:g> 
+    </string>  
+    <string name="loading">កំពុងឡូត\u2026</string>  
+    <string name="show_older_events">ចុចដើម្បីមើលហេតុការណ៍ពីមុន 
+        <xliff:g id="oldest_search_range">%1$s</xliff:g> 
+    </string>  
+    <string name="show_newer_events">ចុចដើម្បីមើលហេតុការណ៍ក្រោយ 
+        <xliff:g id="newest_search_range">%1$s</xliff:g> 
+    </string>  
+    <skip/>  
+    <string name="search_title">រាវរកប្រតិទិនរបស់ខ្ញុំ</string>  
+    <skip/>  
+    <string name="edit_event_label">"ព័ត៌មានលំអិត"</string>  
+    <string name="edit_label">"កែសម្រួល"</string>  
+    <string name="delete_label">"លុបចោល"</string>  
+    <string name="save_label">បានធ្វើរួច</string>  
+    <string name="discard_label">លើកលែង</string>  
+    <skip/>  
+    <string name="snooze_all_label">"ដេកបន្តិចទាំងអស់"</string>  
+    <string name="dismiss_all_label">"លុបចោលទាំងអស់"</string>  
+    <string name="snooze_label">"ដេកបន្តិច"</string>  
+    <skip/>  
+    <string name="does_not_repeat">ហេតុការតែមួយដង</string>  
+    <string name="daily">ប្រចាំថ្ងៃ</string>  
+    <string name="every_weekday">"រៀងរាល់ថ្ងៃធ្វើការEvery weekday (Mon\u2013Fri)"</string>  
+    <string name="weekly">"ប្រចាំសប្តាហ៍ (រៀងរាល់ 
+        <xliff:g id="days_of_week">%s</xliff:g>)"
+    </string>  
+    <string name="monthly_on_day_count">"ប្រចាំខែ (រៀងរាល់ 
+        <xliff:g id="ordinal_number">%1$s</xliff:g>  
+        <xliff:g id="day_of_week">%2$s</xliff:g>)"
+    </string>  
+    <string name="monthly">ប្រចាំខែ</string>  
+    <string name="yearly_plain">ប្រចាំឆ្នាំ</string>  
+    <string name="monthly_on_day">"ប្រចាំខែ (នៅថ្ងៃទី 
+        <xliff:g id="day_of_month">%s</xliff:g>)"
+    </string>  
+    <string name="yearly">"ប្រចាំឆ្នាំ (ក្នុងខែ 
+        <xliff:g id="dates">%s</xliff:g>)"
+    </string>  
+    <string name="custom" product="tablet">"តាមចំណូលចិត្ត (មិ\នអាចរៀបតាមចំណូលចិត្តនៅក្នុងកូនកុំព្យូទ័រ)"</string>  
+    <string name="custom" product="default">"តាមចំណូលចិត្ត (មិ\នអាចរៀបតាមចំណូលចិត្តនៅក្នុងទូរស័ព្ទ)"</string>  
+    <string name="modify_event">ប្តូរតែហេតុការណ៍នេះទេ</string>  
+    <string name="modify_all">ប្តូរហេតុការណ៍ទាំងអស់ដែលនៅក្នុងជួរ</string>  
+    <string name="modify_all_following">ប្តូរហេតុការណ៍នេះ និងអនាគតទាំងអស់</string>  
+    <string name="new_event_dialog_label">"ហេតុការណ៍ថ្មី"</string>  
+    <string name="new_event_dialog_option">"ហេតុការណ៍ថ្មី"</string>  
+    <skip/>  
+    <string name="delete_this_event_title">លុបហេតុការណ៍នេះចោលទេ?</string>  
+    <string name="delete_recurring_event_title">លុប 
+        <xliff:g id="eventtitle">%s</xliff:g>ចោលទេ?
+    </string>  
+    <string name="change_response_title">ប្តូរការឆ្លើយតប</string>  
+    <string name="menu_general_preferences">ការសិតទូទៅ</string>  
+    <string name="menu_about_preferences">អំពីប្រតិទិន</string>  
+    <string name="preferences_title">"ការសិត"</string>  
+    <string name="preferences_general_title">សិតការមើលប្រតិទិន</string>  
+    <string name="preferences_reminder_title">ការសិតអ្នករំឭក</string>  
+    <string name="preferences_hide_declined_title">លាក់ហេតុការណ៍មិនយក</string>
+    <string name="preferences_week_start_day_title">សប្តាហ៍ចាប់ផ្តើមនៅថ្ងៃ</string>  
+    <string name="preferences_week_start_day_dialog">សប្តាហ៍ចាប់ផ្តើមនៅថ្ងៃ</string>  
+    <string translatable="false" name="preferences_week_start_day_default">-1</string>  
+    <string name="preferences_clear_search_history_title">សំអាតប្រវត្តិរាវរក</string>  
+    <string name="preferences_clear_search_history_summary">លុបការរាវរកទាំងអស់ដែលអ្ន\ក បានធ្វើ</string>  
+    <string name="search_history_cleared">ប្រវត្តិរាវរកបានសំអាតរួចហើយ</string>  
+    <string name="preferences_alerts_title">ការប្រាប់ដំណឹង</string>  
+    <string name="preferences_alerts_vibrateWhen_title">ញ័រ</string>  
+    <string name="preferences_alerts_ringtone_title">ជ្រើសរើសសម្លេងរោទ៍</string>  
+    <string name="preferences_alerts_popup_title">រប្រាប់ដំណឹងចេញលើអេក្រង់</string>
+    <string name="preferences_default_reminder_title">ម៉ោងអ្នករំឭកសិតពីរោងចក្រ</string>  
+    <string name="preferences_default_reminder_dialog">ម៉ោងអ្នករំឭកសិតពីរោងចក្រ</string>  
+    <string name="preferences_default_reminder_default">10</string>  
+    <string name="preferences_use_home_tz_title">ប្រើល្វែងម៉ោងរបស់ប្រទេសខ្លួន</string>  
+    <string name="preferences_use_home_tz_descrip">បង្ហាញប្រតិទិន ពេលវេលារបស់ហេតុការណ៍ នៅក្នុងល្វែងម៉ោងរបស់ប្រទេសខ្លួនក្នុងពេលធ្វើដំណើរ</string>  
+    <string name="preferences_home_tz_title">ល្វែងម៉ោងរបស់ប្រទេសខ្លួន</string>  
+    <string translatable="false" name="preferences_home_tz_default">America/Los_Angeles</string>  
+    <string name="preferences_show_week_num_title">បង្ហាញលេខសប្តាហ៍</string>  
+    <string name="preferences_about_title">អំពី</string>  
+    <string name="preferences_build_version">កំណែបង្កើតឡើង</string>  
+    <string-array name="prefEntries_alerts_vibrateWhen"> 
+        <item>ជានិច្ចកាល</item>  
+        <item>តែពេលស្ងាត់</item>  
+        <item>មិនដែល</item> 
+    </string-array>  
+    <string translatable="false" name="prefDefault_alerts_vibrateWhen">never</string>  
+    <string translatable="false" name="prefDefault_alerts_vibrate_true">always</string>  
+    <string translatable="false" name="prefDefault_alerts_vibrate_false">never</string>  
+    <string-array translatable="false" name="prefValues_alerts_vibrateWhen"> 
+        <item>always</item>  
+        <item>silent</item>  
+        <item>never</item> 
+    </string-array>  
+    <string name="prefDialogTitle_vibrateWhen">ញ័រ</string>  
+    <skip/>  
+    <string name="gadget_title">ប្រតិទិន</string>  
+    <plurals name="month_more_events"> 
+        <item quantity="one">"+1"</item>  
+        <item quantity="other">+ 
+            <xliff:g id="number">%d</xliff:g> 
+        </item> 
+    </plurals>  
+    <string name="gadget_no_events">មិនមានហេតុការណ៍នឹងមកដល់ក្នុងពេលខាងមុខឡើយ</string>  
+    <string translatable="false" name="tardis">TARDIS</string>  
+    <string name="copy_db">ផ្ញើសំណុំទិន្នន័យ</string>  
+    <string name="directory_searching_fmt">កំពុងរាវរក 
+        <xliff:g id="domain">%s</xliff:g>\u2026
+    </string>  
+    <string name="accessibility_remove_attendee">លុបអ្នកចូលរួមចេញ</string>  
+    <string name="accessibility_pick_start_date">កាលបរិច្ឆេទចាប់ផ្តើម</string>  
+    <string name="accessibility_pick_start_time">ម៉ោងចាប់ផ្តើម</string>  
+    <string name="accessibility_pick_end_date">កាលបរិច្ឆេទបញ្ចប់</string>  
+    <string name="accessibility_pick_end_time">ម៉ោងបញ្ចប់</string>  
+    <string name="accessibility_pick_time_zone">ល្វែងម៉ោង</string>  
+    <string name="accessibility_add_reminder">បន្ថែមអ្នករំឭក</string>  
+    <string name="accessibility_remove_reminder">លុបអ្នករំឭកចេញ</string>  
+    <string name="accessibility_add_attendee">បន្ថែមអ្នកចូលរួម</string>  
+    <string name="accessibility_sync_cal">ធ្វើសមកាលកម្មប្រតិទិន</string>  
+    <string name="accessibility_all_day">ហេតុការណ៍ពេញមួយថ្ងៃ</string>  
+    <string name="accessibility_repeats">សាឡើងវិញ</string>  
+    <string name="accessibility_reminder_time">ម៉ោងអ្នករំឭក</string>  
+    <string name="accessibility_reminder_type">ប្រភេទអ្នករំឭក</string>  
+    <string name="accessibility_reminder_showmeas">បង្ហាញខ្ញុំជា</string>  
+    <string name="accessibility_reminder_privacy">ឯកជនភាព</string>  
+    <string name="acessibility_cal_notification">ការប្រាប់ដំណឹងប្រតិទិន</string>  
+    <string name="acessibility_snooze_notification">ការប្រាប់ដំណឹងការដេកបន្តិច</string>  
+    <string name="accessibility_email_notification">អ៊ីម៉េលភ្ញៀវ</string>
+    <string name="day_view_new_event_hint">+ហេតុការណ៍ថ្មី</string>  
+    <string name="template_announce_item_index">ហេតុការណ៍ 
+        <xliff:g id="item_index">%1$s</xliff:g> of 
+        <xliff:g id="item_count">%2$s</xliff:g> ។
+    </string>  
+    <plurals name="Nevents"> 
+        <item quantity="one">1 ហេតុការណ៍</item>  
+        <item quantity="other"> 
+            <xliff:g id="count">%d</xliff:g> ហេតុការណ៍
+        </item> 
+    </plurals>  
+    <plurals name="N_remaining_events"> 
+        <item quantity="one">+1 ហេតុការណ៍</item>  
+        <item quantity="other">+ 
+            <xliff:g id="count">%d</xliff:g> events
+        </item> 
+    </plurals>  
+    <string name="acessibility_selected_marker_description">ហេតុការណ៍បានជ្រើសរើស</string>  
+    <string name="do_not_check">កុំគូសយក -&gt;</string>  
+    <string name="valid_date_range">"កាលបរិច្ឆេទដែលមានសុពលភាពគឺ ខែមករា ឆ្នាំ1970 ដល់ ខែធ្នូ ឆ្នាំ 2036"</string>  
+    <string name="shareEvent">ចែករំលែកហេតុការណ៍</string>  
+    <string name="share_label">ចែករំលែក</string>  
+    <string name="loading_failed">ខកខានការឡូត ។</string>  
+    <string name="operation_failed">Operation failed. Please check if “Calendar Storage“ is stopped.</string>  
+    <string name="clear_events">សំអាតហេតុការណ៍</string>  
+    <string name="select_clear_calendars_title">ជ្រើសរើសគណនី</string>  
+    <string name="clear_all_selected_events_title">គ្រប់ហេតុការណ៍ទាំងអស់នៅក្នុងគណនីដែលបានជ្រើសរើស នឹងត្រូវលុបចោល ។</string>  
+    <string name="delete_completed">ប្រតិបត្តិការលុបចោលបានបញ្ចប់ ។</string>  
+    <string name="delete_certain">យល់ព្រម</string>  
+    <string name="wait_deleting_tip">"សូមរង់ចាំពេលកំពុងលុបចោល..."</string>  
+    <string name="attendees_invalid_tip">"អ្នកចូលរួមខ្លះមិនមានសុពលភាពទេ ។"</string>  
+    <string name="unread_reminders">"%d អ្នករំឭកដែលមិនបានអាន"</string>  
+    <string name="click_to_view_all">"ចុចដើម្បីមើលទាំងអស់"</string>  
+    <string name="search_setting_description">"ហេតុការណ៍ក្នុងប្រតិទិន"</string> 
+</resources>

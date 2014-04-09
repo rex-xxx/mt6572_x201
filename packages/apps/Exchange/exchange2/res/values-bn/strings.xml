@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <!-- Deprecated strings - Move the identifiers to this section, mark as
+        DO NOT TRANSLATE, and remove the actual text. These will be removed in a
+        bulk operation. -->  
+    <!-- Do Not Translate. Unused string. -->  
+    <!-- Do Not Translate.Name of Microsoft Exchange account type; used by AccountManager -->  
+    <string name="exchange_name">Corporate</string>  
+    <!-- Name of Microsoft Exchange account type; used by AccountManager -->  
+    <string name="exchange_name_alternate">মাইক্রোসফট এক্সচেঞ্জ একটিভসিঙ্ক</string>  
+    <!-- Message subject for meeting accepted response. This will be followed
+        by a colon and the title of the meeting (i.e. the title of the meeting becomes
+        part of the subject of the message that's sent) -->  
+    <string name="meeting_accepted">গ্রহণ করেছে: 
+        <xliff:g id="subject">%s</xliff:g> 
+    </string>  
+    <!-- Message subject for meeting declined response. This is followed by
+        a colon and the title of the meeting (i.e. the title of the meeting becomes
+        part of the subject of the message that's sent) -->  
+    <string name="meeting_declined">অপারগতা জানিয়েছে: 
+        <xliff:g id="subject">%s</xliff:g> 
+    </string>  
+    <!-- Message subject for meeting tentative response. This is followed by
+        a colon and the title of the meeting (i.e. the title of the meeting becomes
+        part of the subject of the message that's sent) -->  
+    <string name="meeting_tentative">সম্ভাব্য: 
+        <xliff:g id="subject">%s</xliff:g> 
+    </string>  
+    <!-- Message subject for a canceled meeting email. This is followed by a
+        colon and the title of the meeting (i.e. the title of the meeting becomes
+        part of the subject of the message that's sent) -->  
+    <string name="meeting_canceled">বাতিলকৃত: 
+        <xliff:g id="subject">%s</xliff:g> 
+    </string>  
+    <!-- Message subject for an updated meeting email. This is followed by a
+        colon and the title of the meeting (i.e. the title of the meeting becomes
+        part of the subject of the message that's sent) -->  
+    <string name="meeting_updated">আপডেটকৃত: 
+        <xliff:g id="subject">%s</xliff:g> 
+    </string>  
+    <!-- Indicate when a meeting takes place. This is presented in in bullet
+        form, as in, "When: xxx" followed by "Where: xxx" -->  
+    <string name="meeting_when">কখন: 
+        <xliff:g id="when">%s</xliff:g> 
+    </string>  
+    <!-- Indicate where a meeting takes place. This is presented in in bullet
+        form, as in, "When: xxx" followed by "Where: xxx" -->  
+    <string name="meeting_where">কোথায়: 
+        <xliff:g id="where">%s</xliff:g> 
+    </string>  
+    <!-- Indicate that a meeting is recurring. This would normally be presented
+        after "When: xxx", e.g. "When: Tue, Mar 10, 2010 at 2:30pm (recurring)" -->  
+    <string name="meeting_recurring">কখন: 
+        <xliff:g id="eventdate" example="Tue,Mar10,2010at2:30pm">%s</xliff:g> (বারবার)
+    </string>  
+    <!-- Indicate that a meeting lasts all day. This would normally be presented
+        after "When: xxx", e.g. "When: Tue, Mar 10, 2010 (all day)" -->  
+    <string name="meeting_allday">কখন: 
+        <xliff:g id="eventdate" example="Tue,Mar10,2010">%s</xliff:g> (সারাদিন)
+    </string>  
+    <!-- Indicate that a meeting lasts all day and is recurring. This would normally be presented
+        after "When: xxx", e.g. "When: Tue, Mar 10, 2010 (all day, recurring)" -->  
+    <string name="meeting_allday_recurring">কখন: 
+        <xliff:g id="eventdate" example="Tue,Mar10,2010">%s</xliff:g> (সারাদিন, বারবার)
+    </string>  
+    <!-- Notification message in notifications window when calendar sync is
+        automatically enabled for pre-existing Exchange accounts on upgrade -->  
+    <string name="notification_exchange_calendar_added">ক্যালেন্ডার একচেঞ্জ যোগ করা হয়েছে</string>  
+    <!-- The name of this APK as shown in manage applications settings. [CHAR LIMIT=30] -->  
+    <string name="app_name">একচেঞ্জ সার্ভিস</string>  
+    <!-- Used as the body text of a message reporting to an attendee that a
+        specific instance of a recurring meeting has been canceled -->  
+    <string name="exception_cancel">এই ইভেন্ট বাতিল করা হয়েছে: 
+        <xliff:g id="date">%s</xliff:g> 
+    </string>  
+    <!-- Used as the body text of a message reporting to an attendee that a
+        specific instance of a recurring meeting has been changed -->  
+    <string name="exception_updated">এই ইভেন্টের বিস্তারিত পরিবর্তন করা হয়েছে: 
+        <xliff:g id="date">%s</xliff:g> 
+    </string>  
+    <!-- The following are a list of policies that the user's server might require, but that can't
+        be enforced by our device.  We will list them separated by commas, as required -->  
+    <!-- A policy in which the device may not have a storage card [CHAR LIMIT=40] -->  
+    <string name="policy_dont_allow_storage_cards">স্টোরেজ কার্ড অনুমতি দেবেন না</string>  
+    <!-- A policy in which the device may not have unsigned applications installed
+        [CHAR LIMIT=40] -->  
+    <string name="policy_dont_allow_unsigned_apps">অস্বাক্ষরিত অ্যাপ্লিকেশন অনুমতি দেবেন না</string>  
+    <!-- A policy in which the device may not allow application installation via an unsigned
+        installer [CHAR LIMIT=40] -->  
+    <string name="policy_dont_allow_unsigned_installers">অস্বাক্ষরিত অ্যাপ্লিকেশন ইনস্টলার অনুমতি দেবেন না</string>  
+    <!-- A policy in which the device may not allow wifi communications [CHAR LIMIT=40] -->  
+    <string name="policy_dont_allow_wifi">ওয়াই-ফাই অনুমতি দেবেন না</string>  
+    <!-- A policy in which the device may not allow text messaging [CHAR LIMIT=40] -->  
+    <string name="policy_dont_allow_text_messaging">টেক্সট বার্তার অনুমতি দেবেন না</string>  
+    <!-- A policy in which the device may not allow POP3 or IMAP email accounts [CHAR LIMIT=40] -->  
+    <string name="policy_dont_allow_pop_imap">পপ৩ বা আইম্যাপ একাউন্টের অনুমতি দেবেন না</string>  
+    <!-- A policy in which the device may allow infrared communications [CHAR LIMIT=40] -->  
+    <string name="policy_dont_allow_irda">ইনফ্রারেড কম্যুনিকেশনের অনুমতি দেবেন না</string>  
+    <!-- A policy in which the device may allow HTML email to be received [CHAR LIMIT=40] -->  
+    <string name="policy_dont_allow_html">এইচটিএমএল ইমেইলের অনুমতি দেবেন না</string>  
+    <!-- A policy in which the device may not allow the user of web browsers [CHAR LIMIT=40] -->  
+    <string name="policy_dont_allow_browser">ব্রাউজারের অনুমতি দেবেন না</string>  
+    <!-- A policy in which the device may not allow the receipt of consumer email
+        [CHAR LIMIT=40] -->  
+    <string name="policy_dont_allow_consumer_email">কনজ্যুমার ইমেইলের অনুমতি দেবেন না</string>  
+    <!-- A policy in which the device may not allow internet connection sharing
+        [CHAR LIMIT=40] -->  
+    <string name="policy_dont_allow_internet_sharing">ইন্টারনেট শেয়ারিংয়ের অনুমতি দেবেন না</string>  
+    <!-- A policy in which messages must be in SMIME format [CHAR LIMIT=40] -->  
+    <string name="policy_require_smime">এসএমআইএমই বার্তা প্রয়োজন</string>  
+    <!-- A policy in which the device's bluetooth capabilities are restricted [CHAR LIMIT=40] -->  
+    <string name="policy_bluetooth_restricted">ব্লুটুথ ব্যবহার সীমিত করুন</string>  
+    <!-- A policy in which the device blocks specified applications [CHAR LIMIT=40]-->  
+    <string name="policy_app_blacklist">নির্দিষ্ট অ্যাপ্লিকেশনের অনুমতি দেবেন না</string>  
+    <!-- A policy in which the device allows only specified applications [CHAR LIMIT=40] -->  
+    <string name="policy_app_whitelist">কেবল নির্দিষ্ট অ্যাপ্লিকেশনের অনুমতি দিন</string>  
+    <!-- A policy in which the device limits the amount of text that can be displayed for a
+        given message [CHAR LIMIT=40] -->  
+    <string name="policy_text_truncation">টেক্সট ইমেইলের সাইজ সীমিত করুন</string>  
+    <!-- A policy in which the device limits the amount of HTML text that can be displayed for a
+        given message [CHAR LIMIT=40] -->  
+    <string name="policy_html_truncation">এইচটিএমএল ইমেইলের সাইজ সীমিত করুন</string>  
+    <!-- A policy in which the device requires device or sd card encryption [CHAR LIMIT=40] -->  
+    <string name="policy_require_encryption">ডিভাইস এনক্রিপশন প্রয়োজন</string>  
+    <!-- A policy in which the device requires device or sd card encryption [CHAR LIMIT=40] -->  
+    <string name="policy_require_sd_encryption">এসডি কার্ড এনক্রিপশন প্রয়োজন</string>  
+</resources>

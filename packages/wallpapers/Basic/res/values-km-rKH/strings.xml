@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <!-- General -->  
+    <skip/>  
+    <!-- Application name -->  
+    <string name="wallpapers">ផ្ទាំងរូបភាពមានចលនារបស់អេនទ្រយ</string>  
+    <!-- Wallpapers: -->  
+    <skip/>  
+    <!-- Wallpaper showing the camera preview -->  
+    <string name="wallpaper_walkaround">មើលឆ្លុះ</string>  
+    <string name="wallpaper_walkaround_author">ហ្គូហ្គល</string>  
+    <string name="wallpaper_walkaround_desc">មើលឆ្លុះទូរស័ព្ទលោកអ្នក និងដើរជុំវិញដោយគ្មានឧបទ្ទវហេតុប្រថុយប្រថាន ។</string>  
+    <!-- Wallpaper showing grass and the sky -->  
+    <string name="wallpaper_grass">ស្មៅ</string>  
+    <string name="wallpaper_grass_author">ហ្គូហ្គល</string>  
+    <string name="wallpaper_grass_desc">មុខស្មៅបក់ថ្នមៗនៅពីមុខមេឃពេលថ្ងៃ ឬពេលយប់ ។</string>  
+    <!-- Wallpaper showing a galaxy -->  
+    <string name="wallpaper_galaxy">កញ្ចុំផ្កាយ</string>  
+    <string name="wallpaper_galaxy_author">ហ្គូហ្គល</string>  
+    <string name="wallpaper_galaxy_desc">កញ្ចុំផ្កាយបង្កើតបានជាដួងផ្តាយវិលយឺតៗ ។</string>  
+    <!-- Wallpaper showing leaves floating on water -->  
+    <string name="wallpaper_fall">ទឹក</string>  
+    <string name="wallpaper_fall_author">ហ្គូហ្គល</string>  
+    <string name="wallpaper_fall_desc">ស្លឹកឈើរដូវស្លឹកឈើជ្រុះរបេះធ្លាក់</string>  
+    <!-- Wallpaper showing a clock -->  
+    <string name="wallpaper_clock">នាឡិកាបោល</string>  
+    <string name="wallpaper_clock_author">ហ្គូហ្គល</string>  
+    <string name="wallpaper_clock_desc">បង្ហាញកាលបរិច្ឆេទ និងពេលវេលាតាមទ្រនិចនាឡិការជារង្វង់ៈ ខែ ថ្ងៃ ម៉ោង នាទី និងវិនាទី ។</string>  
+    <!-- Wallpaper showing nexus -->  
+    <string name="wallpaper_nexus">និចសឹស</string>  
+    <string name="wallpaper_nexus_author">ហ្គូហ្គល</string>  
+    <string name="wallpaper_nexus_desc">មើលខាងក្នុងបណ្តាញអព្យាក្រិតមួយភ្លែត ។</string>  
+    <!-- Polar clock: title of settings activity -->  
+    <string name="clock_settings">ការកំណត់នាឡិកាបោល</string>  
+    <!-- Polar clock: label for "show seconds" pref -->  
+    <string name="show_seconds">បង្ហាញវិនាទី</string>  
+    <!-- Polar clock: label for "variable widths" pref -->  
+    <string name="variable_line_width">ធ្វើឱ្យក្រវិលទទឹងខុសគ្នា</string>  
+    <!-- Polar clock: label for "palette" pref -->  
+    <string name="palette">ក្តារពណ៌</string>  
+    <!-- Polar clock: palette name -->  
+    <string name="palette_gray">ដែក</string>  
+    <!-- Polar clock: palette name -->  
+    <string name="palette_violet">ពាក់កណ្តាលយប់</string>  
+    <!-- Polar clock: palette name -->  
+    <string name="palette_matrix">អេក្រង់ពណ៌បៃតង</string>  
+    <!-- Polar clock: palette name -->  
+    <string name="palette_white_c">ខ្លាឃ្មុំតំបន់ប៉ូល (សកម្ម)</string>  
+    <!-- Polar clock: palette name -->  
+    <string name="palette_black_c">ប្រហោងខ្មៅ (សកម្ម)</string>  
+    <!-- Polar clock: palette name -->  
+    <string name="palette_halloween">នំល្ពៅ</string>  
+    <!-- Polar clock: palette name -->  
+    <string name="palette_zenburn">សាឡាតផ្លែឈើបរទេស</string>  
+    <!-- Polar clock: palette name -->  
+    <string name="palette_oceanic">លេស្ស៊ពណ៌ខៀវ</string> 
+</resources>

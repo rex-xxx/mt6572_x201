@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">វិចិត្រសាល</string>  
+    <string name="gadget_title">ក្របរូបថត</string>  
+    <string name="details_ms">%1$02d:%2$02d</string>  
+    <string name="details_hms">%1$d:%2$02d:%3$02d</string>  
+    <string name="movie_view_label">អ្នកចាក់វីដេអូ</string>  
+    <string name="loading_video">កំពុងឡូតវីដេអូ\u2026</string>  
+    <string name="loading_image">កំពុងឡូតរូបភាព\u2026</string>  
+    <string name="loading_account">កំពុងឡូតគណនី\u2026</string>  
+    <string name="resume_playing_title">លេងវីដេអូបន្ត</string>  
+    <string name="resume_playing_message">លេងបន្តពី %s ឬទេ?</string>  
+    <string name="resume_playing_resume">លេងបន្ត</string>  
+    <string name="loading">កំពុងឡូត\u2026</string>  
+    <string name="fail_to_load">មិ\នអាចឡូតបានទេ</string>  
+    <string name="fail_to_load_image">មិ\នអាចឡូតរូបភាពបានទេ</string>  
+    <string name="no_thumbnail">រូបភាពទំហំតូច</string>  
+    <string name="resume_playing_restart">ចាប់ផ្តើមឡើងវិញ</string>  
+    <string name="crop_save_text">យល់ព្រម</string>  
+    <string name="ok">យល់ព្រម</string>  
+    <string name="multiface_crop_help">យកម្រាមដៃប៉ះមុខ ដើម្បីចាប់ផ្តើម</string>  
+    <string name="saving_image">កំពុងរក្សាទុករូបភាព\u2026</string>  
+    <string name="save_error">មិ\នអាចរក្សាទុករូបភាពដែលបានកាត់តម្រឹមឡើយ ។</string>  
+    <string name="crop_label">កាត់តម្រឹមរូបភាព</string>  
+    <string name="select_image">ជ្រើសរើសរូបថត</string>  
+    <string name="select_video">ជ្រើសរើសវីដេអូ</string>  
+    <string name="select_item">ជ្រើសរើសវត្ថុ</string>  
+    <string name="select_album">ជ្រើសរើសអាល់ប៊ុម</string>  
+    <string name="select_group">ជ្រើសរើសក្រុម</string>  
+    <string name="set_image">សិតរូបភាពជា</string>  
+    <string name="set_wallpaper">សិតផ្ទៃជញ្ជាំង</string>  
+    <string name="wallpaper">ការសិតផ្ទៃជញ្ជាំង\u2026</string>  
+    <string name="camera_setas_wallpaper">ផ្ទៃជញ្ជាំង</string>  
+    <string name="delete">លុបចោល</string>  
+    <plurals name="delete_selection"> 
+        <item quantity="one">លុបវត្ថុដែលបានជ្រើសរើសចោលទេ?</item>  
+        <item quantity="other">លុបវត្ថុដែលបានជ្រើសរើសចោលទេ?</item> 
+    </plurals>  
+    <string name="confirm">បញ្ជាក់</string>  
+    <string name="cancel">លើកលែង</string>  
+    <string name="share">ចែករំលែក</string>  
+    <string name="deleted">បានលុបចោល</string>  
+    <string name="undo">កុំធ្វើ</string>  
+    <string name="select_all">ជ្រើសរើសទាំងអស់</string>  
+    <string name="deselect_all">មិនជ្រើសរើសទាំងអស់</string>  
+    <string name="slideshow">បង្ហាញស្លាយ</string>  
+    <string name="details">ព័ត៌មានលំអិត</string>  
+    <string name="details_title">%1$d of %2$d វត្ថុ ៖</string>  
+    <string name="close">បិទ</string>  
+    <string name="switch_to_camera">ដូរទៅកាមេរ៉ា</string>  
+    <plurals name="number_of_items_selected"> 
+        <item quantity="zero">%1$d បានជ្រើសរើស</item>  
+        <item quantity="one">%1$d បានជ្រើសរើស</item>  
+        <item quantity="other">%1$d បានជ្រើសរើស</item> 
+    </plurals>  
+    <plurals name="number_of_albums_selected"> 
+        <item quantity="zero">%1$d selected</item>  
+        <item quantity="one">%1$d selected</item>  
+        <item quantity="other">%1$d selected</item> 
+    </plurals>  
+    <plurals name="number_of_groups_selected"> 
+        <item quantity="zero">%1$d បានជ្រើសរើស</item>  
+        <item quantity="one">%1$d បានជ្រើសរើស</item>  
+        <item quantity="other">%1$d បានជ្រើសរើស</item> 
+    </plurals>  
+    <string name="show_on_map">បង្ហាញលើផែនទី</string>  
+    <string name="rotate_left">បង្វិលទៅឆ្វេង</string>  
+    <string name="rotate_right">បង្វិលទៅស្តាំ</string>  
+    <string name="no_such_item">មិ\នអាចរកវត្ថុឃើញទេ ។</string>  
+    <string name="edit">កែសម្រួល</string>  
+    <string name="process_caching_requests">កំពុងដំណើរការស្នើសុំខេច</string>  
+    <string name="caching_label">កំពុងខេច\u2026</string>  
+    <string name="crop_action">កាត់តម្រឹម</string>  
+    <string name="set_as">សិតជា</string>  
+    <string name="video_err">មិ\នអាចលេងវីដេអូ ។</string>  
+    <string name="group_by_location">តាមទីតាំង</string>  
+    <string name="group_by_time">តាមម៉ោង</string>  
+    <string name="group_by_tags">តាមស្លាក</string>  
+    <string name="group_by_faces">តាមមនុស្ស</string>  
+    <string name="group_by_album">តាមអាល់ប៊ុម</string>  
+    <string name="group_by_size">តាមទំហំ</string>  
+    <string name="untagged">មិនបានដាក់ស្លាក</string>  
+    <string name="no_location">មិនមានទីតាំង</string>  
+    <string name="no_connectivity">ទីតាំងខ្លះមិ\នអាចកំណត់បានដោយសារបញ្ហាបណ្តាញ ។</string>  
+    <string name="sync_album_error">មិ\នអាចទាញយករូបថតនៅក្នុងអាល់ប៊ុមនេះបានទេ ។ សាកល្បងនាពេលក្រោយ ។</string>  
+    <string name="show_images_only">តែរូបភាពទេ</string>  
+    <string name="show_videos_only">តែវីដេអូទេ</string>  
+    <string name="show_all">រូបភាព &amp; វីដេអូ</string>  
+    <string name="appwidget_title">វិចិត្រសាលរូបថត</string>  
+    <string name="appwidget_empty_text">មិនមានរូបថតទេ ។</string>  
+    <string name="crop_saved">រូបភាពដែលបានកាត់តម្រឹមបានរក្សាទុកក្នុង 
+        <xliff:g id="folder_name">%s</xliff:g> ។
+    </string>  
+    <string name="no_albums_alert">មិនមានអាល់ប៊ុមទេ ។</string>  
+    <string name="empty_album">រូបភាព/វីដេអូ O</string>  
+    <string name="picasa_posts">បិទផ្សាយ</string>  
+    <string name="make_available_offline">ធ្វើឲ្យមានពេលអហ្វឡាញ</string>  
+    <string name="sync_picasa_albums">ធ្វើឲ្យស្រស់បស់ឡើងវិញ</string>  
+    <string name="done">បានធ្វើរួច</string>  
+    <string name="sequence_in_set">%1$d នៃ %2$d វត្ថុ ៖</string>  
+    <string name="title">ចំណងជើង</string>  
+    <string name="description">ការពណ៌នា</string>  
+    <string name="time">ម៉ោង</string>  
+    <string name="location">ទីតាំង</string>  
+    <string name="path">ផ្លូវ</string>  
+    <string name="width">ទទឹង</string>  
+    <string name="height">កំពស់</string>  
+    <string name="orientation">ការណែនាំ</string>  
+    <string name="duration">រយៈពេល</string>  
+    <string name="mimetype">ប្រភេទ MIME</string>  
+    <string name="file_size">ទំហំឯកសារ</string>  
+    <string name="maker">អ្នកធ្វើ</string>  
+    <string name="model">ម៉ូដែល</string>  
+    <string name="flash">ហ្វ្លាស់</string>  
+    <string name="aperture">ទីចំហ</string>  
+    <string name="focal_length">ប្រវែងនៃចំណុចរួមពន្លឺ</string>  
+    <string name="white_balance">សមតុល្សពណ៌ស</string>  
+    <string name="exposure_time">ពេលថត</string>  
+    <string name="iso">ISO</string>  
+    <string name="unit_mm">mm</string>  
+    <string name="manual">ដោយដៃ</string>  
+    <string name="auto">ស្វ័យប្រវត្តិ</string>  
+    <string name="flash_on">លោតភ្លើងភ្លាមៗ</string>  
+    <string name="flash_off">មិនមានហ្វ្លាស់ទេ</string>  
+    <plurals name="make_albums_available_offline"> 
+        <item quantity="one">ធ្វើឲ្យអាល់ប៊ុមមានពេលអហ្វឡាញ ។</item>  
+        <item quantity="other">ធ្វើឲ្យអាល់ប៊ុមមានពេលអហ្វឡាញ ។</item> 
+    </plurals>  
+    <string name="try_to_set_local_album_available_offline">របស់នេះបានផ្ទុកនៅក្នុងឧបករណ៍ ហើយអាចបើកមើលបានក្នុងសភាពអហ្វឡាញ ។</string>  
+    <string name="set_label_all_albums">អាល់ប៊ុមទាំងអស់</string>  
+    <string name="set_label_local_albums">អាល់ប៊ុមនៅក្នុងឧបករណ៍</string>  
+    <string name="set_label_mtp_devices">ឧបករណ៍ MTP</string>  
+    <string name="set_label_picasa_albums">អាល់ប៊ុម Picasa</string>  
+    <string name="free_space_format"> 
+        <xliff:g id="bytes">%s</xliff:g> ទំនេរ
+    </string>  
+    <string name="size_below"> 
+        <xliff:g id="size">%1$s</xliff:g> ឬខាងក្រោម
+    </string>  
+    <string name="size_above"> 
+        <xliff:g id="size">%1$s</xliff:g> ឬខាងលើ
+    </string>  
+    <string name="size_between"> 
+        <xliff:g id="min_size">%1$s</xliff:g> ទៅ 
+        <xliff:g id="max_size">%2$s</xliff:g> 
+    </string>  
+    <string name="Import">នាំចូល</string>  
+    <string name="import_complete">នាំចូលរួចរាល់</string>  
+    <string name="import_fail">នាំចូលមិនបានជោគជ័យ</string>  
+    <string name="camera_connected">បានតភ្ជាប់កាមេរ៉ា ។</string>  
+    <string name="camera_disconnected">បានផ្តាច់ការតភ្ជាប់កាមេរ៉ា ។</string>  
+    <string name="click_import">ប៉ះត្រង់នេះ ដើម្បីនាំចូល</string>  
+    <string name="widget_type_album">ជ្រើសរើសអាល់ប៊ុមមួយ</string>  
+    <string name="widget_type_shuffle">សាប់រូបភាពទាំងអស់</string>  
+    <string name="widget_type_photo">ជ្រើសរើសរូបភាពមួយ</string>  
+    <string name="widget_type">ជ្រើសរើសរូបភាព</string>  
+    <string name="slideshow_dream_name">បង្ហាញស្លាយ</string>  
+    <string name="albums">អាល់ប៊ុម</string>  
+    <string name="times">ម៉ោង</string>  
+    <string name="locations">ទីតាំង</string>  
+    <string name="people">មនុស្ស</string>  
+    <string name="tags">ស្លាក</string>  
+    <string name="group_by">រៀបជាក្រុមតាម</string>  
+    <string name="settings">ការសិត</string>  
+    <string name="add_account">បន្ថែមគណនី</string>  
+    <string name="folder_camera">កាមេរ៉ា</string>  
+    <string name="folder_download">ទាញយក</string>  
+    <string name="folder_imported">បាននាំចូល</string>  
+    <string name="folder_screenshot">ថតអេក្រង់</string>  
+    <string name="help">ជំនួយ</string>  
+    <string name="help_url_gallery_main" translatable="false"/> 
+</resources>

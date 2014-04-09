@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+
+    <!-- Orange customization begin -->
+    <string name="networksettings_tips_data_enabled">"Veri hizmeti açılsın mı? Veri trafiğinden dolayı ücret ödemeniz gerekebilir!"</string>
+    <string name="networksettings_tips_data_disabled">"Veri hizmeti kapatılsın mı? MMS veya E-posta gönderme ve alma gibi diğer hizmetler etikelenecektir."</string>
+    <!-- Orange customization end -->
+
+
+    <!-- video call settings part -->
+    <string name="voice_call">Sesli Arama</string>
+    <string name="video_call">Görüntülü Arama</string>
+    <string name="internet_call">Internet Araması</string>
+    <string name="others">Diğer ayarlar</string>
+    <string name="sum_voice_call">Sesli arama ile ilgili ayarlar</string>
+    <string name="sum_video_call">Görüntülü arama ile ilgili ayarlar</string>
+    <string name="sum_internet_call">Internet araması ile ilgili ayarlar</string>
+    <string name="voice_call_settings">Sesli arama ayarları</string>
+    <string name="voice_mail">Sesli posta</string>
+    <string name="sum_voice_mail">Sesli posta servisi ve numarası</string>
+
+    <!-- Minute Reminder strings -->
+    <string name="minutereminder_title">Dakika anımsatıcısı</string>
+    <string name="minutereminder_turnon">Dakika anımsatıcısını her dakikanın 50. saniyesinde aç</string>
+    <string name="minutereminder_turnoff">Dakika anımsatıcısını kapat</string>
+
+    <string name="dual_mic_title">Çift Mikrofon Gürültü Azaltma</string>
+    <string name="dual_mic_turnoff">Çift mikrofon kapalı</string>
+    <string name="dual_mic_turnon">Çift mikrofon açık</string>
+
+    <!-- IP Prefix setting -->
+    <string name="ip_prefix_setting">IP alan kodu numarası</string>
+    <string name="ip_prefix_setting_sum">IP alan kodu numarası ayarları</string>
+    <string name="enter_ip_prefix_number">Alan kodu numarasını girin</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">Lütfen ilk önce IP alan kodunu Sesli arama ayarlarına girin.</string>
+    <string name="ip_prefix_edit_default_sum">IP araması için alan kodunu girin</string>
+
+    <string name="lable_call_barring">Arama engelleme</string>
+    <string name="call_additional_sum">Telefon numarası ve arama bekletme ayarları</string>
+    <string name="call_barring_sum">Sesli arama engelleme ayarları</string>
+
+    <string name ="vt_cf_call_description">Görüntülü arama iletme ayarları</string>
+    <string name ="vt_cb_call_description">Görüntülü arama engelleme ayarları</string>
+    <string name="vt_local_video_rep">Yerel video yedeği</string>
+    <string name="vt_dis_peer_rep">Denk yedeği görüntüle</string>
+    <string name="vt_dis_peer_rep_des">Mevcut olmadığında denk video ile değiştirmek için resmi görüntüle</string>
+    <string name="vt_peer_video_rep">Denk video yedeği</string>
+    <string name="vt_peer_video_rep_des">Denk video mevcut olmadığında gösterilecek bir resim ayarlayın</string>
+    <string name="vt_pic_replace_local_description">Yerel kamera kapalıyken gösterilecek resmi ayala</string>
+    <string name="vt_enable_back_camera">Arka kamerayı etkinleştir</string>
+    <string name="vt_enable_back_camera_description">Kamera değiştirme açık</string>
+    <string name="vt_peer_video_bigger">Eş düzey görüntü yerelden büyük</string>
+    <string name="vt_peer_video_bigger_description">Eş düzey görüntüyü yerelden büyüğe ayarla</string>
+    <string name="vt_outgoing_call">Giden görüntülü arama</string>
+    <string name="vt_outgoing_call_description">Giden görüntülü arama sırasında yerel görüntüyü göster</string>
+    <string name="vt_incoming_call">Gelen görüntülü arama</string>
+    <string name="vt_incoming_call_description">Gelen görüntülü aramayı kabul ederken yerel görüntüyü göster</string>
+    <string name="vt_auto_dropback">Otomatik geri arama</string>
+    <string name="vt_auto_dropback_des">Sesli aramaya geri arama otomatik olarak bağlanılıyor</string>
+    <string name="vt_local_video_display">Yerel görüntü gösterim ayarı</string>
+    <string name="fdn_phone_book_busy">Telefon Defteri şu an meşgul, lütfen daha sonra deneyin.</string>
+    <string name="reset">Sıfırla</string>
+    <string-array name="umts_network_preferences_choices" product="default">
+        <item>"GSM/WCDMA (otomatik mod)"</item>
+        <item>"Yalnızca WCDMA"</item>
+    </string-array>
+    <string name="cell_broadcast">Hücre yayını</string>
+    <string name="cb_menu_edit">Düzenle</string>
+    <string name="cb_menu_delete">"Sil"</string>
+    <string name="cb_all_languages">Tüm diller</string>
+    <string name="auto_reject_title_voice">Sesli aramalar</string>
+    <string name="sim_toolkit">"SIM Araç Takımı"</string>
+    <string name="service_3g_off">"Kapalı"</string>
+    <string name="setting_for_3G_service">3G hizmeti</string>
+    <string name="dialog_network_priority_title">Öncelik</string>
+    <string name="vt_incoming_showme_always">Görüntüle</string>
+    <string name="vt_incoming_showme_disable">Görüntüleme</string>
+    <string name="vt_peer_video_quality_sharp">Yüksek</string>
+    <string name="vt_ask_show_local_yes">Görüntüle</string>
+    <string name="vt_ask_show_local_no">Görüntüleme</string>
+    <string name="pref_camera_coloreffect_entry_none">"Yok"</string>
+    <string name="pref_camera_coloreffect_entry_mono">"Mono"</string>
+    <string name="pref_camera_coloreffect_entry_sepia">"Sepya"</string>
+    <string name="pref_camera_coloreffect_entry_negative">"Negatif"</string>
+    <string name="pref_camera_coloreffect_entry_posterize">"Poster efekti ver"</string>
+    <string name="pref_camera_coloreffect_entry_pastel">"Pastel"</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">"Mozaik"</string>
+    <string name="pref_camera_coloreffect_entry_redtint">"Kırmızı Ton"</string>
+    <string name="pref_camera_coloreffect_entry_bluetint">"Mavi Ton"</string>
+    <string name="pref_camera_coloreffect_entry_greentint">"Yeşil Ton"</string>
+    <string name="cannot_answered_Video_Call">Mevcut durumda bir sesli arama etkin olduğundan, görüntülü arama cevaplanamıyor</string>
+    <string name="cannot_answered_Voice_Call">Mevcut durumda bir görüntülü arama etkin olduğundan, sesli arama cevaplanamıyor</string>
+     <string name="fdn_contact_name_number_invalid">Ad ve numara alanları aynı anda boş bırakılamaz.</string>
+    <string name="fdn_contact_number_invalid">Geçersiz numara.</string>
+    <string name="reset_alert">Veri kullanım miktarını silmek istediğinizden emin misiniz?</string>
+    <string name="reset_data_usage">Veri miktarını sıfırla</string>
+    <string name="sum_cell_broadcast_control_on">Hücre yayınını etkinleştir</string>
+    <string name="sum_cell_broadcast_control_off">Hücre yayınını devreden çıkar</string>
+    <string name="sum_cell_broadcast_setting">Hücre yayını için dil ve kanal ayarları</string>
+    <string name="umts_preferred_network_mode_dialogtitle">Ağ modu</string>
+    <string name="fdn_contact_max">Kişi listesi dolu</string>
+    <string name="simContacts_emptyLoading_ex">"%s'deki kişiler okunuyor\u2026"</string>
+    <string name="one_retry_left">1 deneme kaldı</string>
+    <string name="retries_left"><xliff:g id="number">%d</xliff:g> deneme kaldı</string>
+    <string name="pin2_unblocked">PIN2 kilidi başarıyla açıldı</string>
+    <string name="unblock_pin2">"PIN2'in blokesini kaldır"</string>
+    <string name="sim_permanently_locked">PUK2 kodu 10 defadan fazla yanlış girildiğinden SIM kartınız kalıcı olarak bloke oldu</string>
+    <string name="pin_length_indicate">"(4-8 haneli)"</string>
+    <string name="puk_length_indicate">"(8 haneli)"</string>
+    <string name="card_title_incoming_vt_call">Gelen görüntülü arama</string>
+    <string name="voice_mail_dialog_text">"Yeni sesli postanız var<xliff:g id="voicemail_sim_display_name">%s</xliff:g>; şimdi almak istiyor musunuz?"</string>
+    <string name="sip_call_options_title_single_sim">Internet üzerinden arama seçenekleri</string>
+    <string name="lable_all_outgoing">Tüm giden aramalar</string>
+    <string name="lable_all_outgoing_international">Uluslararası giden aramalar</string>
+    <string name="lable_all_out_except">Yerel PLMN hariç uluslararası giden aramalar</string>
+    <string name="lable_all_incoming">Tüm gelen aramalar</string>
+    <string name="lable_incoming_calls_except">Dolaşım sırasında tüm gelen aramalar</string>
+    <string name="deactivate_all">Tümünü iptal et</string>
+    <string name="change_password">Engelleme parolasını değiştir</string>
+    <string name="lable_disable">Devre dışı bırakıldı</string>
+    <string name="lable_enable">Etkinleştirildi</string>
+    <string name="old_password_label">Eski parola (4 haneli)</string>
+    <string name="new_password_label">Yeni parola (4 haneli)</string>
+    <string name="invalid_password">4 haneli bir parola girin.</string>
+    <string name="confirm_password_label">Yeni parolayı onaylayın</string>
+    <string name="mismatch_password">Girdiğiniz parolalar eşleşmiyor. Lütfen yeniden deneyin.</string>
+    <string name="password_changed">Parola başarıyla değiştirildi.</string>
+    <string name="enter_callbarring_password">Çağrı engelleme parolasını (4 haneli) girin</string>
+    <string name="wrong_password">Parola hatalı</string>
+    <string name="error_title">Hata</string>
+    <string name="cell_broadcast_settings">Hücre yayını bilgileri</string>
+    <string name="cb_menu_language">Dil</string>
+    <string name="cb_menu_add_channel">Kanal Ekle</string>
+    <string name="cb_menu_channel_list">Kanal Listesi</string>
+    <string name="cb_dialog_title_language_choice">Dili seç</string>
+    <string name="cb_channel_dialog_channel_name">Kanal adı (1-10 karakter)</string>
+    <string name="cb_channel_dialog_channel_number">Kanal numarası (0-65535)</string>
+    <string name="cb_channel_dialog_channel_state">Kanalı etkinleştir</string>
+    <string name="cb_channel_dialog_edit_channel">Kanalı düzenle</string>
+    <string name="cb_error_channel_num">Lütfen kanal numarasını (0-65535) girin.</string>
+    <string name="cb_error_channel_name">Kanal adının uzunluğu doğru değil (1-10 karakter).</string>
+    <string name="cb_error_language_select">Lütfen en az bir dil seçin.</string>
+    <string name="cb_error_channel_id_exist">Kanal kimliği zaten kullanılıyor.</string>
+    <string name="cb_default_new_channel_name">Yeni Kanal</string>
+    <string name="fdn_errorcode_unknown_info">Başarısız, bilinmeyen bir hata oluştu, lütfen daha sonra deneyin.</string>
+    <string name="fdn_errorcode_number_info">Başarısız, kişi numarası çok uzun.</string>
+    <string name="fdn_errorcode_name_info">Başarısız, kişinin adı çok uzun.</string>
+    <string name="fdn_errorcode_storage_info">Başarısız, bellek dolu.</string>
+    <string name="fdn_errorcode_phb_info">Başarısız, Telefon Defteri henüz hazır değil, lütfen daha sonra tekrar deneyin.</string>
+    <string name="fdn_errorcode_pin2_info">Başarısız, geçersiz PIN2.</string>
+    <string name="net_or_simcard_busy">Ağ ya da SIM kart meşgul, lütfen daha sonra tekrar deneyin.</string>
+    <string name="onscreenHangupAll">Tümünü kapat</string>
+    <string name="onscreenHangupHolding">Beklemede olanı kapat</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">Aktif olanı kapat, bekleyeni yanıtla</string>
+    <string name="onscreenECT">Aktar</string>
+    <string name="auto_reject_title">Gelen aramaları engelle</string>
+    <string name="auto_reject_sum">Farklı gelen aramaları doğrudan engelle</string>
+    <string name="auto_reject_title_video">Görüntülü arama</string>
+    <string name="auto_reject_title_sip">Internet Araması</string>
+    <string name="auto_reject_sum_voice">Gelen tüm sesli aramaları doğrudan engelle</string>
+    <string name="auto_reject_sum_video">Gelen tüm görüntülü aramaları doğrudan engelle</string>
+    <string name="auto_reject_sum_sip">Internet üzerinden gelen tüm aramaları doğrudan engelle</string>
+    <string name="dm_lock">DM Kilitli</string>
+    <string name="dm_unlock">DM Kilidi Açık</string>
+    <string name="mo_code_unconditional_cf_active">Koşulsuz arama yönlendirme\netkinleştirildi</string>
+    <string name="mo_code_some_cf_active">Koşullu arama yönlendirme\netkinleştirildi</string>
+    <string name="mo_code_call_forwarded">Arama yönlendirildi</string>
+    <string name="mo_code_call_is_waiting">Bekleyen çağrı</string>
+    <string name="mo_code_cug_call">Kapalı Kullanıcı Grubu</string>
+    <string name="mo_code_outgoing_calls_barred">Giden arama engellendi</string>
+    <string name="mo_code_incoming_calls_barred">Gelen arama diğer tarafta engellendi</string>
+    <string name="mo_code_clir_suppression_rejected">Arayanın kimlik hizmetini kontrol et</string>
+    <string name="mo_code_call_deflected">Aktarılan numarayı ara</string>
+    <string name="mt_code_forwarded_call">Bu yönlendirilmiş bir çağrıdır</string>
+    <string name="mt_code_cug_call">Kapalı Kullanıcı Grubu</string>
+    <string name="mt_code_call_on_hold">Tutulan arama</string>
+    <string name="mt_code_call_retrieved">Alınan arama</string>
+    <string name="mt_code_multi_party_call">Konferans görüşmesi</string>
+    <string name="mt_code_on_hold_call_released">Tutulan arama bırakıldı</string>
+    <string name="mt_code_forward_check_received">Yönlendirme kontrolü SS mesajı alındı</string>
+    <string name="mt_code_call_connecting_ect">Arama aktarılıyor</string>
+    <string name="mt_code_call_connected_ect">Arama aktarma aktif</string>
+    <string name="mt_code_deflected_call">Bu yönlendirilmiş bir çağrıdır</string>
+    <string name="mt_code_additional_call_forwarded">Yönlendirilen diğer gelen aramalar</string>
+    <string name="mt_code_forwarded_cf">Arama yönlendirildi</string>
+    <string name="mt_code_forwarded_cf_uncond">Koşulsuz bir şekilde yönlendirilen arama</string>
+    <string name="mt_code_forwarded_cf_cond">Koşullu bir şekilde yönlendirilen arama</string>
+    <string name="mt_code_forwarded_cf_busy">Meşgul olduğundan yönlendirilen arama</string>
+    <string name="mt_code_forwarded_cf_no_reply">Yanıtlanmadığından yönlendirilen arama</string>
+    <string name="mt_code_forwarded_cf_not_reachable">Ulaşılamadığında yönlendirilen arama</string>
+    <string name="start_record">Kaydetmeye başla</string>
+    <string name="stop_record">"Kaydı durdur"</string>
+    <string name="str_db_playlist_name">Kayıtlarım</string>
+    <string name="alert_device_error">Ses cihazında bir hata oluştu</string>
+    <string name="ext_media_badremoval_notification_title">SD kart beklenmedik bir şekilde çıkartıldı</string>
+    <string name="error_sdcard_access">"SD karta erişilemiyor"</string>
+    <string name="confirm_device_info_full">SD kartında alan kalmadı; kayıt kaydedildi.</string>
+    <string name="confirm_save_info_saved">Kayıt kaydedildi.</string>
+    <string name="confirm_3g_switch">"Bu SIM'de 3G hizmeti başlatmak istediğinizden emin misiniz? Bu işlem, Görüntülü aramalar açısından bu SIM'i otomatik olarak varsayılan olarak ayarlayacaktır."</string>
+    <string name="modem_switching">SIM\'in değiştirilmesi yaklaşık 10 saniye sürecektir. Lütfen bekleyin…</string>
+    <string name="confirm_3g_switch_to_off">3G servisini kapatmak istediğinizden emin misiniz? Bu aynı zamanda görüntülü arama servisini otomatik olarak kapatacaktır.</string>
+    <string name="enable_3G_service">"3G'yi etkinleştir"</string>
+    <string name="network_forbidden">Devre dışı bırak</string>
+    <string name="plmn_list_setting_title">Tercihler</string>
+    <string name="plmn_list_setting_add_plmn">Yeni PLMN ekle</string>
+    <string name="category_plmn_list">PLMN Listesi</string>
+    <string name="dialog_network_mode_title">Hizmet</string>
+    <string name="plmn_mcc_mnc_error">"MCC/MNC boş bırakılamaz!"</string>
+    <string name="update_plmn_setting">PLMN ayarı</string>
+    <string name="callFailed_dsac_vt_incompatible_destination" product="tablet">Görüntülü arama ayarlanamıyor. Aradığınız aygıtta görüntülü telefon desteklenmiyor; sesli arama yapılsın mı?</string>
+    <string name="callFailed_dsac_vt_incompatible_destination" product="default">Video araması kurulamıyor. Video telefonu aradığınız telefonda desteklenmiyor, sesli arama yapmak ister misiniz?</string>
+    <string name="callFailed_dsac_vt_resource_unavailable">Video araması kurulamıyor. Aradığınız telefon 3G hizmet alanının dışında, sesli arama yapmak ister misiniz?</string>
+    <string name="callFailed_dsac_vt_bearer_not_avail">Video araması kurulamıyor. Sesli arama yapmak ister misiniz?</string>
+    <string name="notification_voicemail">Sesli mesaj</string>
+    <string name="turn_on_3g_service_message">3G servisi kapatıldı, açmak ister misiniz?</string>
+    <string name="associate_sim_missing_message">"%1$s SIM kullanılamıyor. Aramayı %2$s üzerinden yapmak ister misiniz"</string>
+    <string name="associate_sim_missing_other">Diğer</string>
+    <string name="vt_settings">Görüntülü ayarları</string>
+    <string name="vt_local_video_zoom">Yerel görüntü yakınlaştırma</string>
+    <string name="vt_local_video_brightness">Yerel görüntü parlaklık</string>
+    <string name="vt_local_video_effect">Yerel görüntü efekt</string>
+    <string name="vt_local_video_nightmode">Yerel görüntü gece modu</string>
+    <string name="vt_peer_video_quality">Eş düzey görüntü kalitesi</string>
+    <string name="vt_incoming_showme_ask">Sor</string>
+    <string name="vt_call_settings">Görüntülü arama ayarları</string>
+    <string name="vt_pic_replace_local_default">Varsayılan resim</string>
+    <string name="vt_pic_replace_local_freezeme">Görüntümü dondur</string>
+    <string name="vt_pic_replace_local_mypic">Resmim</string>
+    <string name="vt_sd_null">SD kartı yok</string>
+    <string name="vt_sd_not_enough">SD kartında yer yok</string>
+    <string name="vt_peer_video_quality_normal">Norma</string>
+    <string name="vt_ask_show_local">Yerel video dikkate alınsın mı?</string>
+    <string name="vt_change_my_pic">Değiştir</string>
+    <string name="vt_pic_saved_to_sd">Anlık görüntü SD karta kaydedildi</string>
+    <string name="vt_pic_saved_to_sd_fail">Anlık görüntü kaydedilemedi</string>
+    <string name="vt_error_network">Ağa ulaşılamıyor. Görüntülü arama bağlantısı kesilecek.</string>
+    <string name="vt_error_media">Video düzgün görüntülenemiyor. Görüntülü arama bağlantısı kesilecek.</string>
+    <string name="vt_swap_video">Görüntü türünü değiştir</string>
+    <string name="vt_local_video_contrast">Yerel video kontrastı</string>
+    <string name="vt_menu_switch">Kamerayı değiştir</string>
+    <string name="vt_menu_hide_me">Yerel videoyu gizle</string>
+    <string name="vt_menu_show_me">Yerel videoyu göster</string>
+    <string name="vt_menu_snapshot">Denk enstantane</string>
+    <string name="vt_dis_exit">Çıkış</string>
+    <string name="vt_dis_callback">Geri ara</string>
+    <string name="vt_vocie_answer">Sesli yanıt</string>
+    <string name="vt_wait_voice">Sesli arama bağlantısı bekleniyor</string>
+    <string name="vt_voice_connecting">Sesli arama bağlanıyor</string>
+    <string name="vt_cannot_support_setting">Geçerli kamera bu ayarı desteklemiyor</string>
+    <string name="vt_network_unreachable">Şebekeye erişilemiyor</string>
+    <string name="vt_iot_error_01">Video araması kurulamıyor</string>
+    <string name="vt_iot_error_02">Telefon meşgul</string>
+    <string name="vt_iot_error_03">Yanıt yok</string>
+    <string name="vt_iot_error_04">Şebeke meşgul</string>
+    <string name="vt_start_time_from">Başlangıç</string>
+    <string name="pref_camera_coloreffect_entry_solarize">"Pozlama"</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard">"Beyaz Tahta"</string>
+    <string name="pref_camera_coloreffect_entry_blackboard">"Siyah Tahta"</string>
+    <string name="pref_camera_coloreffect_entry_aqua">"Su"</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">"Sepia Mavisi"</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">"Sepia Yeşili"</string>
+    <string name="vt_peer_camera_open">Uzak kamera açık</string>
+    <string name="vt_peer_camera_close">Uzak kamera kapalı</string>
+    <string name="vt_recorder_start">Kaydetmeye başla</string>
+    <string name="vt_recorder_voice_and_peer_video">Sesli ve görüntülü</string>
+    <string name="vt_recorder_only_voice">Sadece sesli</string>
+    <string name="vt_recorder_only_peer_video">Sadece görüntülü</string>
+    <string name="vt_recording_saved">Kaydınız kaydedildi.</string>
+    <string name="vt_recording_saved_sd_full">SD kartında alan kalmadı; kayıt kaydedildi.</string>
+    <string name="vt_recording_saved_fail">Kaydınız başarıyla kaydedilemedi.</string>
+    <string name="vt_recording_error">Kayıt hatası.</string>
+    <string name="start_record_vt">Kaydetmeye başla</string>
+    <string name="stop_record_vt">"Kaydı durdur"</string>
+    <string name="enable_sip_dialog_message">"Internet araması devre dışı; etkinleştirmek ister misiniz?"</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">IP çevirme işlevi internet araması için kullanılamaz.</string>
+    <string name="vt_addtional_call_description">Telefon numarası ve arama bekletme ayarları</string>
+    <string name="sim_manage_suggested">Önerilen</string>
+    <string name="sim_manage_sipcall">"Internet"</string>
+    <string name="sim_manage_call_via">Aracılığıyla ara</string>
+    <string name="simlock_enternewpin2code">"Yeni PIN2 gir"</string>
+    <string name="simlock_unlockmardedcard">"Kilit Aç"</string>
+    <string name="callDurationFormat"><xliff:g id="minutes" example="42">%1$s</xliff:g> dakika <xliff:g id="seconds" example="28">%2$s</xliff:g> saniye</string>
+    <string name="reminder">Anımsatıcı</string>
+    <string name="vt_media_occupied">Kamera kullanılamadığından, videolu arama bağlanamıyor. Lütfen kamerayı başka bir uygulamanın kullanıp kullanmadığını kontrol edin.</string>
+    <string name="vt_media_video_fail">Video düzgün gösterilemiyor. Videolu arama bağlantısı kesildi</string>
+    <string name="incall_toast_hold">Beklet</string>
+    <string name="incall_toast_unhold">Devam ettir</string>
+
+    <string name="callFailed_simError_slotNumber">SIM kart yok ya da <xliff:g id="slotNumber">%s</xliff:g>yuvada SIM hatası</string>
+    <string name="network_id">Ağ ID\'si</string>
+    <string name="pch_data_prefer_title">Mobil veri servisi tercihli</string>
+    <string name="pch_data_prefer_summary">Tam hızda mobil veri aktarımına izin verir</string>
+    <string name="pch_data_prefer_message">Mobil veri servisi tercihli daha düşük çağrı alma hızı ücreti ile veri aktarım verimliliğini arttırmak için kullanılır. Bunun yapılması önerilmemektedir.\n\nMobil veri servisi tercihliye izin vermek istediğinizden emin misiniz?</string>
+
+    <string name="manual_select_title">Manuel olarak seç</string>
+    <string name="manual_select_dialog_msg">Manuel seçim modunda cep telefonu sizin için başka operatörleri seçemez. Seçili operatörün servisini kaybettiğiniz zaman bazen manuel seçimi yeniden yapmanız veya tekrar otomatik seçim moduna değiştirmeniz gerekebilir. \"Otomatik olarak seç\"i kullanmanızı öneririz. Manuel olarak seçmek istediğinizden emin misiniz?</string>
+    <string name="no_service_msg_gemini">Şu anda \"
+        <xliff:g id="operator">%s</xliff:g>\" SIM kart için seçili operatör herhangi bir servis sunmuyor.\n\"Otomatik olarak seç\"i kullanmanızı öneririz veya bunun yerine manuel olarak başka bir operatörü seçebilirsiniz.
+    </string>
+    <string name="no_service_msg">Şu anda seçili operatör herhangi bir servis sunmuyor.\n\"Otomatik olarak seç\"i kullanmanızı öneririz veya bunun yerine manuel olarak başka bir operatörü seçebilirsiniz.</string>
+    <string name="show_always_title">Beni tekrar uyarma</string>
+    <string name="no_service_msg_title_gemini">\"
+        <xliff:g id="operator">%s</xliff:g>\" servis sunmuyor
+    </string>
+    <string name="no_service_msg_title">Servis yok</string>
+    <string name="fdn_only_error" msgid="7079583506377602000">"İşlemlere sadece sabit arama numaralarında izin verilir."</string>
+    <string name="activity_not_found">"Uygulama telefonunuza yüklenmemiş."</string>
+    <string name="callFailed_dsac_vt_out_of_3G_yourphone">Telefonunuz 3 servis alanı dışında, sesli arama yapılsın mı?</string>
+    <string name="which_call_to_activate">Hangi görüşme etkinleştirilsin?</string>
+
+    <string name="international_dialing_title">Uluslararası arama yardımı</string>
+    <string name="international_dialing_select_country">Uluslararası bir arama yaptığınız algılandı. Hedefinizi seçin.</string>
+    <string name="international_dialing_add_country_code">Bir <xliff:g id="country_name">%s</xliff:g> numarasını çevirdiğiniz algılandı. Ülke kodunu (+<xliff:g id="country_code">%s</xliff:g>) eklemek istiyor musunuz?</string>
+    <string name="international_dialing_add_country_code_and_area_code"><xliff:g id="area_name">%1$s</xliff:g>, <xliff:g id="country_name">%2$s</xliff:g> içindeki bir numarayı çevirdiğiniz algılandı. Ülke kodunu ve alan kodunu (+<xliff:g id="prefix">%3$s</xliff:g>) eklemek istiyor musunuz?</string> 
+    <string name="international_dialing_change_country_prefix"><xliff:g id="country_name">%s</xliff:g> içinden numara çevirdiğiniz algılandı. Uluslararası arama önekini \'+\' olarak değiştirmek istiyor musunuz?</string>
+    <string name="international_dialing_add_country_code_input_area_code"><xliff:g id="country_name">%s</xliff:g> içindeki bir numarayı çevirdiğiniz algılandı. Öyle ise, alan kodunu girin.</string>   
+    <string name="international_dialing_add_country_code_default_input_area_code"><xliff:g id="country_name">%s</xliff:g> içindeki bir numarayı çevirdiğiniz algılandı. Hedef şehir <xliff:g id="area_name">%s</xliff:g> değilse alan kodunu girin.</string>
+    <string name="international_dialing_need_area_code">Arama için hedef şehrin alan kodu gerekiyor.</string>
+    <string name="international_dialing_input_area_code">Alan kodunu buraya girin</string>
+    <string name="international_dialing_dialed_number">Çevrilen numara:</string>
+    <string name="international_dialing_confirm_area_code">Hedef şehir <xliff:g id="area_name">%s</xliff:g> değilse hedef şehrin alan kodunu aşağıya girin.</string>
+    <string name="international_dialing_click_below_button">Ülke kodunu değiştirmek için aşağıdaki düğmeyi tıklatın.</string>
+    <string name="international_dialing_yes">Evet. Aşağıdaki numarayı kullan:</string>
+    <string name="international_dialing_no">Hayır. Orijinal numarayı kullan:</string>
+    <string name="international_dialing_call_button">"Çağrı"</string>
+    <string name="international_dialing_area_code">alan kodu</string>
+    <string name="international_dialing_invalid_number">Numara geçersiz. Yine de çevirmeye devam etmek istiyor musunuz?</string>
+    <string name="international_dialing_add_country_code_and_area_code_without_prefix">Ülke kodunu ve alan kodunu eklemek istiyor musunuz?</string>
+
+    <string name="callFailed_dsac_vt_bear_not_authorized">Görüntülü arama ayarlanamıyor. Görüntülü telefon hizmeti bu SIM kartta etkinleştirilmemiş, sesli arama çevrilsin mi?</string>
+    <string name="cdma_not_support">CDMA bu özelliği desteklememektedir.</string>
+    <string name="gemini_3g_disable_warning_case0">"Önce, bu SIM kartı için, önemli dolaşım ücretlerine neden olabilecek veri dolaşımını etkinleştirmelisiniz! Veri dolaşımını etkinleştirmek ve bu SIM kartı seçmek istediğinizden emin misiniz?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"Bu seçilen SIM kartında 3G hizmeti kullanılamıyor. Bu verilerin yavaş yüklenmesine neden olabilir. Ayarlar &gt; Kablosuz &amp; ağlar &gt; Mobil şebekeler konumundan 3G hizmet ayarlarını değiştirebilirsiniz."</string>  
+    <string name="gemini_3g_disable_warning_case2">"Bu SIM kart için önce kayda değer dolaşım ücretlerine neden olabilen veri dolaşımını etkinleştirmelisiniz. Ayrıca, bu SIM ile 3G hizmeti kullanılamıyor. Veriler yavaş yüklenebilir. Ayarlar &gt; Kablosuz ve ağlar &gt; Mobil ağlar menüsünden bu ayarı değiştirebilirsiniz. Veri dolaşımını etkinleştirmek ve bu SIM'i seçmek istediğinize emin misiniz?"</string>
+    <string name="disable_data_connection_msg">Mevcut tüm ağların aranması, kullanımda olan veri bağlantısının kesilmesine neden olacaktır. Devam etmek istiyor musunuz?</string>
+    <string name="gemini_data_connection">Veri bağlantısı</string>  
+</resources>

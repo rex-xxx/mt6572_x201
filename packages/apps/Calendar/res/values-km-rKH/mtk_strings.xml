@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools">   
+    <string name="quick_response_error_already_exist">អត្ថបទនេះមានរួចហើយ</string>  
+    <string name="quick_response_error_null">មិនអាចទទេបានឡើយ</string> 
+    <string name="preferences_alerts_vibrateWhen_summary">ញ័រសម្រាប់ការរំឭកព្រឹត្តិការណ៍</string>
+    <string name="go_to">ទៅកាន់</string>
+    <string name="search_hint">រាវរកប្រតិទិន</string>
+</resources>

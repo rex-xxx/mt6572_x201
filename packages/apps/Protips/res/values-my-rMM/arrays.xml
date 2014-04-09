@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string-array name="tips">
+        <item>သင်၏ လုပ်ငန်းလုံး ပရိုဂရမ်များအားလုံးကို ကြည့်သည်။ \n Launcher icon. @drawable/all_apps ကို ထိပါ။</item>
+        <item>သင်၏ ပင်မ ဖန်သား ပြင်သို့ လုပ်ငန်းသုံး ပရိုဂရမ်ကို ဆွဲသည်။ \n ထိုအရာ တုန်ခါသည် အထိ လုပ်ငန်းတစ်ခု အစပျိုးခြင်းတွင် လုပ်ငန်းသုံးပရိုဂရမ်ကို ထိပြီး ကိုင်ထားပါ။</item>
+        <item>သင်၏ ပင်မ ဖန်သားပြင်ကို ပြန်လည်စီစဥ်သည်။ \n အရာဝတ္ထုတစ်ခု ကို ထိပြီးကိုင်ထားသော အခါ ထိုအရာသည် တုန်ခါနေပြီ;? သင် လိုချင်သည့်နေရာကို ဖြတ်ဆွဲပါ။</item>
+        <item>အရာဝတ္ထုများကို ဖယ်ရှားသည်။ \n အရာဝတ္ထုတစ်ခုကို ထိပြီး ကိုင်ထားကာ ထိုအရာသည် တုန်ခါ ပါက Trash icon. @drawable/trash သို့ ထိုအရာကို ဆွဲပို့ပါ။</item>
+        <item>ပင်မ ဖန်သားပြင်များ ပေါင်းစုံ။ \nပြောင်းရန် ဘယ် သို့မဟုတ် ညာ ကို လွှဲရိုက်သည်။ အခြား ဖန်သားပြင်များသို့ အရာဝတ္ထုများကို ဆွဲပို့သည်။</item>
+        <item>ဤဝဒ်ဂျက်(စ်) ဖြင့် ပြုလုပ်မည်လား။ \n ထိုအရာကို ထိပြီး ကိုင်ထားကာ ၎င်း တုန်ခါသောအခါ အမှိုက်ပုံး သကေႅတသို့ ထိုအရာကို ဆွဲပို့ပါ။</item>
+    </string-array>
+    <string-array name="tips2">
+        <item>Home is a garden \nTouch &amp; hold an empty spot \nTo grow new icons</item>
+        <item>Phone isn’t waterproof \nDo not immerse in water \nor other fluids</item>
+        <item>Want some more home screens? \nSwipe left and right to find them \n(No theft required)</item>
+        <item>Little Home screen dots \nWhat could they possibly do? \nTouch &amp; hold to learn.</item>
+        <item>Status bar icons \nTo discover their secrets \nPull the windowshade</item>
+        <item>There is a trick to \nDragging items twixt Home screens \nPause at the edges</item>
+        <item>Touch Market for apps \nLike a box of chocolates \nEach one a surprise</item>
+        <item>Oh, and by the way: \nCeci n’est pas une trombone \nI am an Android</item>
+    </string-array>
+</resources>

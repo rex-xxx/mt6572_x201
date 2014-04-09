@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="application_name" msgid="4119979710394894209">لائیو وال پیپر چنندہ</string>
+    <string name="live_wallpaper_picker_title" msgid="6161053357728149149">لائیو وال پیپر</string>
+    <string name="live_wallpaper_picker_label">لائیو وال پیپر</string>
+    <string name="live_wallpaper_preview_title" msgid="1130080613611954763">لائیو وال پیپر پیش نظارہ</string>
+    <string name="configure_wallpaper" msgid="7396598925806288258">ترتیبات؟</string>
+    <string name="wallpaper_instructions" msgid="4215640646180727542">دیواری کاغذ مرتب کرنا</string>
+    <string name="live_wallpaper_empty" msgid="4278728108785853407">کوئی دیواری کاغذ نہیں۔</string>
+    <string name="set_live_wallpaper" msgid="2381437614949033266">دیواری کاغذ مرتب کرنا</string>
+    <string name="wallpaper_title_and_author" msgid="8891734217843935304"><xliff:g id="عنوان" مثال="کہکشاں">%1$s</xliff:g> by <xliff:g id="مصنف" مثال="Google">%2$s</xliff:g></string>
+    <string name="live_wallpaper_loading" msgid="2488371303130330734">لائیو دیواری کاغذ لوڈ کررہا ہے؟</string>
+    <string name="wallpaper_cancel">منسوخ کر دیا گیا</string>
+</resources>
+

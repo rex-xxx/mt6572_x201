@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <!-- add for ICS porting -->  
+    <string-array name="proxy_error"> 
+        <item>होस्‍ट फील्‍ड खाली नहीं रह सकती</item>  
+        <item>पोर्ट फील्‍ड को खाली नहीं छोड़ा जा सकता</item>  
+        <item>अमान्‍य होस्‍ट</item>  
+        <item>अमान्‍य पोर्ट</item> 
+    </string-array> 
+</resources>

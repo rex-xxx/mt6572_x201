@@ -1,0 +1,200 @@
+/* Copyright Statement:
+ *
+ * This software/firmware and related documentation ("MediaTek Software") are
+ * protected under relevant copyright laws. The information contained herein
+ * is confidential and proprietary to MediaTek Inc. and/or its licensors.
+ * Without the prior written permission of MediaTek inc. and/or its licensors,
+ * any reproduction, modification, use or disclosure of MediaTek Software,
+ * and information contained herein, in whole or in part, shall be strictly prohibited.
+ */
+/* MediaTek Inc. (C) 2010. All rights reserved.
+ *
+ * BY OPENING THIS FILE, RECEIVER HEREBY UNEQUIVOCALLY ACKNOWLEDGES AND AGREES
+ * THAT THE SOFTWARE/FIRMWARE AND ITS DOCUMENTATIONS ("MEDIATEK SOFTWARE")
+ * RECEIVED FROM MEDIATEK AND/OR ITS REPRESENTATIVES ARE PROVIDED TO RECEIVER ON
+ * AN "AS-IS" BASIS ONLY. MEDIATEK EXPRESSLY DISCLAIMS ANY AND ALL WARRANTIES,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NONINFRINGEMENT.
+ * NEITHER DOES MEDIATEK PROVIDE ANY WARRANTY WHATSOEVER WITH RESPECT TO THE
+ * SOFTWARE OF ANY THIRD PARTY WHICH MAY BE USED BY, INCORPORATED IN, OR
+ * SUPPLIED WITH THE MEDIATEK SOFTWARE, AND RECEIVER AGREES TO LOOK ONLY TO SUCH
+ * THIRD PARTY FOR ANY WARRANTY CLAIM RELATING THERETO. RECEIVER EXPRESSLY ACKNOWLEDGES
+ * THAT IT IS RECEIVER'S SOLE RESPONSIBILITY TO OBTAIN FROM ANY THIRD PARTY ALL PROPER LICENSES
+ * CONTAINED IN MEDIATEK SOFTWARE. MEDIATEK SHALL ALSO NOT BE RESPONSIBLE FOR ANY MEDIATEK
+ * SOFTWARE RELEASES MADE TO RECEIVER'S SPECIFICATION OR TO CONFORM TO A PARTICULAR
+ * STANDARD OR OPEN FORUM. RECEIVER'S SOLE AND EXCLUSIVE REMEDY AND MEDIATEK'S ENTIRE AND
+ * CUMULATIVE LIABILITY WITH RESPECT TO THE MEDIATEK SOFTWARE RELEASED HEREUNDER WILL BE,
+ * AT MEDIATEK'S OPTION, TO REVISE OR REPLACE THE MEDIATEK SOFTWARE AT ISSUE,
+ * OR REFUND ANY SOFTWARE LICENSE FEES OR SERVICE CHARGE PAID BY RECEIVER TO
+ * MEDIATEK FOR SUCH MEDIATEK SOFTWARE AT ISSUE.
+ *
+ * The following software/firmware and/or related documentation ("MediaTek Software")
+ * have been modified by MediaTek Inc. All revisions are subject to any receiver's
+ * applicable license agreements with MediaTek Inc.
+ */
+
+/*
+ * Copyright (C) 2006 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.android.phone;
+
+import android.app.ActionBar;
+import android.app.Activity;
+import android.os.AsyncResult;
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.text.TextUtils;
+import android.text.method.DigitsKeyListener;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+
+import com.android.internal.telephony.CommandException;
+import com.android.internal.telephony.Phone;
+import com.mediatek.xlog.Xlog;
+
+/**
+ * UI to enable/disable the ICC PIN.
+ */
+public class EnableIccPinScreen extends Activity {
+    private static final String LOG_TAG = "Settings/" + PhoneGlobals.LOG_TAG;
+
+    private static final int ENABLE_ICC_PIN_COMPLETE = 100;
+    private static final boolean DBG = false;
+
+    private LinearLayout mPinFieldContainer;
+    private EditText mPinField;
+    private TextView mStatusField;
+    private boolean mEnable;
+    private Phone mPhone;
+
+    private Handler mHandler = new Handler() {
+        public void handleMessage(Message msg) {
+            switch (msg.what) {
+                case ENABLE_ICC_PIN_COMPLETE:
+                    AsyncResult ar = (AsyncResult) msg.obj;
+                    handleResult(ar);
+                    break;
+            }
+
+            return;
+        }
+    };
+
+    @Override
+    protected void onCreate(Bundle icicle) {
+        super.onCreate(icicle);
+
+        setContentView(R.layout.enable_sim_pin_screen);
+        setupView();
+
+        mPhone = PhoneGlobals.getPhone();
+        mEnable = !mPhone.getIccCard().getIccLockEnabled();
+
+        int id = mEnable ? R.string.enable_sim_pin : R.string.disable_sim_pin;
+        setTitle(getResources().getText(id));
+        ActionBar actionBar = getActionBar();
+        if (actionBar != null) {
+            // android.R.id.home will be triggered in onOptionsItemSelected()
+            actionBar.setDisplayHomeAsUpEnabled(true);
+        }
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        final int itemId = item.getItemId();
+        switch (itemId) {
+        case android.R.id.home:
+            finish();
+            return true;
+        default:
+            break;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    private void setupView() {
+        mPinField = (EditText) findViewById(R.id.pin);
+        mPinField.setKeyListener(DigitsKeyListener.getInstance());
+        mPinField.setMovementMethod(null);
+        mPinField.setOnClickListener(mClicked);
+
+        mPinFieldContainer = (LinearLayout) findViewById(R.id.pinc);
+        mStatusField = (TextView) findViewById(R.id.status);
+    }
+
+    private void showStatus(CharSequence statusMsg) {
+        if (statusMsg != null) {
+            mStatusField.setText(statusMsg);
+            mStatusField.setVisibility(View.VISIBLE);
+            mPinFieldContainer.setVisibility(View.GONE);
+        } else {
+            mPinFieldContainer.setVisibility(View.VISIBLE);
+            mStatusField.setVisibility(View.GONE);
+        }
+    }
+
+    private String getPin() {
+        return mPinField.getText().toString();
+    }
+
+    private void enableIccPin() {
+        Message callback = Message.obtain(mHandler, ENABLE_ICC_PIN_COMPLETE);
+        if (DBG) log("enableIccPin:");
+        mPhone.getIccCard().setIccLockEnabled(mEnable, getPin(), callback);
+        if (DBG) log("enableIccPin: please wait...");
+    }
+
+    private void handleResult(AsyncResult ar) {
+        if (ar.exception == null) {
+            if (DBG) log("handleResult: success!");
+            showStatus(getResources().getText(
+                    mEnable ? R.string.enable_pin_ok : R.string.disable_pin_ok));
+        } else if (ar.exception instanceof CommandException
+                /* && ((CommandException)ar.exception).getCommandError() ==
+                    CommandException.Error.GENERIC_FAILURE */ ) {
+            if (DBG) log("handleResult: failed!");
+            showStatus(getResources().getText(
+                    R.string.pin_failed));
+        }
+
+        mHandler.postDelayed(new Runnable() {
+            public void run() {
+                finish();
+            }
+        }, 3000);
+    }
+
+    private View.OnClickListener mClicked = new View.OnClickListener() {
+        public void onClick(View v) {
+            if (TextUtils.isEmpty(mPinField.getText())) {
+                return;
+            }
+
+            showStatus(getResources().getText(
+                    R.string.enable_in_progress));
+
+            enableIccPin();
+        }
+    };
+
+    private void log(String msg) {
+        Xlog.d(LOG_TAG, "[EnableIccPin] " + msg);
+    }
+}

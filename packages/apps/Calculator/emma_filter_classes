@@ -1,0 +1,7 @@
+#############################################################
+##### Add classes or packages which no need cover here. #####
+#############################################################
+
++com.android.calculator2.*
+-com.android.calculator2.R
+-com.android.calculator2.R$*

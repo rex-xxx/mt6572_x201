@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="wifi_security"> 
+        <item>Open</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+        <item>WAPI PSK</item> 
+        <item>Certifikát WAPI</item>  
+    </string-array>  
+    <string-array name="wpa_security"> 
+        <item>"Otevřít"</item>  
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>  
+    <string-array name="wpa_security_wfa"> 
+        <item>"Otevřít"</item>  
+        <item>WEP</item>
+        <item>WPA PSK</item>
+        <item>WPA2 PSK</item>
+        <item>802.1x EAP</item> 
+    </string-array>  
+    <string-array name="wapi_security"> 
+        <item>"Otevřít"</item> 
+        <item>WAPI PSK</item> 
+        <item>Certifikát WAPI</item>  
+    </string-array>  
+    <string-array name="gemini_sim_info_number_display_format_entries"> 
+        <item>První 4 číslice</item>  
+        <item>Poslední 4 číslice</item>  
+        <item>Nezobrazovat</item> 
+    </string-array>  
+    <string-array name="gemini_sim_roaming_reminder_entries"> 
+        <item>Jednou</item>  
+        <item>Vždy</item>  
+        <item>Nikdy</item> 
+    </string-array>  
+    <string-array name="gsm_umts_network_preferences_choices"> 
+        <item>GSM/WCDMA (automatický režim)</item>  
+        <item>Pouze WCDMA</item>  
+        <item>Pouze GSM</item> 
+    </string-array>  
+    <string-array name="network_use_entry"> 
+        <item>Pouze doma</item>  
+        <item>Doma + roaming</item> 
+    </string-array>  
+    <string-array name="auto_time_entries"> 
+        <item>Použít sítí poskytnutý čas</item>  
+        <item>Použít čas poskytnutý GPS</item>  
+        <item>Vypnout</item> 
+    </string-array>  
+    <string-array name="hdmi_video_resolution_entries"> 
+        <item>Automaticky</item>  
+        <item>720P</item>
+        <item>480P</item>
+    </string-array>  
+    <string-array name="wifi_WEP_security_type"> 
+        <item>Automaticky</item>  
+        <item>WEP ASCII</item>
+        <item>WEP hexadecimální</item>  
+    </string-array>  
+    <string-array name="wifi_hotspot_disable_policy_entries"> 
+        <item>Vždy</item>  
+        <item>Vypnout při nečinnosti 5 min.</item>  
+        <item>Vypnout při nečinnosti 10 min.</item> 
+    </string-array>  
+    <string-array name="wifi_ap_wps_mode_entries"> 
+        <item>Tlačítko</item>  
+        <item>PIN od klienta</item> 
+    </string-array>  
+    <string-array name="wifi_ap_max_connection_entries"> 
+        <item>1 uživatel</item>  
+        <item>2 uživatelé</item> 
+        <item>3 uživatelé</item>  
+        <item>4 uživatelé</item> 
+        <item>5 uživatelé</item> 
+        <item>6 uživatelé</item> 
+        <item>7 uživatelé</item> 
+        <item>8 uživatelé</item> 
+    </string-array> 
+	<string-array name="sim_slot">
+		<item>"(neurčeno)"</item>
+		<item>Slot Sim 1</item>
+		<item>Slot Sim 2</item>
+	</string-array>
+</resources>

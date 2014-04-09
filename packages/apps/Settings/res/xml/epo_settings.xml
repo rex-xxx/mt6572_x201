@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<CheckBoxPreference 
+		android:key="auto_download" 
+		android:title="@string/epo_auto_download_title" 
+		android:summary="@string/epo_auto_download_summary" 
+		android:persistent="false"/>
+			
+	<com.mediatek.lbs.EpoProgressCategory 
+		android:key="epo_info_cat" 
+		android:title="@string/epo_info_title" />
+		<Preference android:key="download_time" 
+			android:title="@string/epo_download_time_title" 
+			android:summary="@string/epo_download_time_summary" 
+			android:clickable="false"
+			android:focusable="false"
+			android:persistent="false"/>	
+		<Preference android:key="start_time" 
+			android:title="@string/epo_start_time_title" 
+			android:summary="@string/epo_start_time_summary" 
+			android:persistent="false"/>
+		<Preference android:key="expire_time" 
+			android:title="@string/epo_expire_time_title" 
+			android:summary="@string/epo_expire_time_summary" 
+			android:persistent="false"/>
+	
+	<PreferenceCategory  
+		android:title="@string/epo_about_title"/> 
+		<Preference android:key="epo_about" 
+			android:title="@string/epo_about_title"/>
+			
+</PreferenceScreen>

@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="bluetooth_advanced_settings">"Cài đặt nâng cao qua Bluetooth"</string>  
+    <!-- Bluetooth settings.  The user-visible string that is used whenever referring to the FTP profile. -->  
+    <string name="bluetooth_profile_ftp">Truyền file</string>  
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the FTP checkbox preference that describes how checking it will set the FTP profile as preferred. -->  
+    <string name="bluetooth_ftp_profile_summary_use_for">Dùng để truyền file</string>  
+    <string name="bluetooth_ftp_profile_summary_connected">"Đã kết nối với chuyển tập tin"</string>  
+    <string name="mtp_transfer_unmount_error_text">Không thể ngắt thẻ SD trong khi truyền file</string>  
+    <string name="mtp_transfer_erase_error_text">Không thể xóa dữ liệu trên thẻ SD trong khi truyền file</string>  
+    <string name="launch_error">"Không thể bật ứng dụng!"</string>  
+    <string name="dlg_confirm_unmount_usb_title" product="default">Ngắt bộ nhớ USB?</string>  
+    <string name="dlg_confirm_unmount_usb_text" product="default">Nếu ngắt bộ nhớ USB, một số ứng dụng đang dùng sẽ dừng và có thể không có sẵn cho đến khi bạn kết nối lại bộ nhớ USB.</string>  
+    <string name="dlg_error_unmount_usb_title" product="default"/>  
+    <string name="dlg_error_unmount_usb_text" product="default">Không thể ngắt thiết bị lưu trữ USB. Hãy thử lại sau.</string>  
+    <string name="unmount_usb_inform_text" product="default">Bộ nhớ USB sẽ bị ngắt.</string>  
+    <string name="sd_eject_usbstorage" product="default">"Ngắt kết nối bộ nhớ USB"</string>  
+    <string name="sd_eject_usbstorage_summary" product="default">"Ngắt kết nối bộ nhớ trong USB"</string>  
+    <string name="sd_mount_usbstorage" product="default">"Kết nối bộ nhớ USB"</string>  
+    <string name="sd_insert_usb_summary" product="default">"Lắp bộ nhớ USB để kết nối"</string>  
+    <!-- Storage setting.  Title for UMS checkbox [CHAR LIMIT=30]-->  
+    <string name="usb_ums_title">Bộ nhớ USB</string>  
+    <!-- Storage setting.  Summary for UMS checkbox [CHAR LIMIT=NONE]-->  
+    <string name="usb_ums_summary">"Khuyên dùng Windows XP. Hãy truyền các file giữa máy vi tính và thiết bị lưu trữ USB trên Android của bạn."</string>  
+    <string name="usb_charge_title">Chỉ sạc pin</string>  
+    <string name="usb_charge_summary">Dừng mọi chức năng USB. Hãy tăng tốc sạc pin qua USB và giảm mức tiêu thụ pin.</string>  
+    <!-- Agps Settings -->  
+    <string name="NI_Request_ID">ID người yêu cầu</string>  
+    <string name="NI_Request_ClientName">Tên khách hàng</string>  
+    <string name="agps_str_verify">Xác nhận</string>  
+    <string name="agps_str_notify">Thông báo</string>  
+    <string name="EM_NotifyDialog_title">Thông Báo EM</string>  
+    <string name="agps_OK">OK</string>  
+    <string name="agps_str_allow">CHO PHÉP</string>  
+    <string name="agps_str_deny">Từ chối</string>  
+    <string name="agps_str_error">"Lỗi"</string>  
+    <string name="AGPS_DEFAULT_STRING">Chuỗi Mặc Định A-GPS</string>  
+    <string name="AGPS_CAUSE_NETWORK_CREATE_FAIL">Không Thể Tạo Mạng</string>  
+    <string name="AGPS_CAUSE_BAD_PUSH_CONTENT">Nội dung PUSH không đúng</string>  
+    <string name="AGPS_CAUSE_NOT_SUPPORTED">Thao Tác Không Được Hỗ Trợ</string>  
+    <string name="AGPS_CAUSE_REQ_NOT_ACCEPTED">Yêu Cầu Không Được Chấp Nhận</string>  
+    <string name="AGPS_CAUSE_NO_RESOURCE">Không Có Nguồn Lực Mới Nào để Xử Lý quy trình mới</string>  
+    <string name="AGPS_CAUSE_NETWORK_DISCONN">Rớt Kết Nối Mạng</string>  
+    <string name="AGPS_CAUSE_REMOTE_ABORT">Hủy Ngang Phiên Phía Từ Xa (nhận SUPL END)</string>  
+    <string name="AGPS_CAUSE_TIMER_EXPIRY">Mong Muốn Tin Nhắn Không Trở Lại Trong Một Khoảng Thời Gian Cụ Thể</string>  
+    <string name="AGPS_CAUSE_REMOTE_MSG_ERROR">Nhận Nội Dung Tin Nhắn Sai</string>  
+    <string name="AGPS_CAUSE_USER_AGREE">Người dùng đồng ý xác nhận</string>  
+    <string name="AGPS_CAUSE_USER_DENY">Người dùng từ chối xác nhận</string>  
+    <string name="AGPS_CAUSE_NO_POSITION">Chỉ đối với Vị Trí KHÔNG</string>  
+    <string name="AGPS_CAUSE_TLS_AUTH_FAIL">Không thể xác thực TLS</string>  
+    <string name="USER_RESPONSE_TIMEOUT">Đang chờ xác nhận</string>  
+    <string name="AGPS_EM_RECV_SI_REQ">Đã Nhận Yêu Cầu SI</string>  
+    <string name="AGPS_EM_POS_FIXED">Đã Ấn Định Vị Trí</string>  
+    <string name="AGPS_NOTIFY_ONLY">Thông Báo Yêu Cầu Vị Trí</string>  
+    <string name="AGPS_NOTIFY_ALLOW_NO_ANSWER">Yêu Cầu Vị Trí (Cho Phép nếu không có Câu Trả Lời nào)</string>  
+    <string name="AGPS_NOTIFY_DENY_NO_ANSWER">Yêu Cầu Vị Trí (Từ Chối nếu không có Câu Trả Lời nào)</string>  
+    <string name="AGPS_NOTIFY_PRIVACY">Yêu Cầu Vị Trí (Bảo Mật)</string>  
+    <string name="epo_entrance_title">Cài đặt EPO</string>  
+    <string name="epo_entrance_summary">Click để sửa các cấu hình EPO</string>  
+    <string name="agps_settings_title">Cài đặt AGPS</string>  
+    <string name="epo_enable_confirm_title">Xác nhận bật EPO</string>  
+    <string name="epo_enable_confirm_message">Nó cần kết nối dữ liệu không dây để nhận dữ liệu hỗ trợ GPS (EPO) vốn có thể làm phát sinh thêm phí kết nối mạng. Bạn chắc chắn muốn bật hỗ trợ GPS?</string>  
+    <string name="epo_enable_confirm_allow">Tiếp tục</string>  
+    <string name="epo_enable_confirm_deny">Hủy</string>  
+    <string name="agps_enable_confirm_title">Xác Nhận Cho Phép A-GPS</string>  
+    <string name="agps_enable_confirm">A-GPS cần kết nối dữ liệu để có được dữ liệu hỗ trợ. Quý vị có chắc muốn bật A-GPS?</string>  
+    <string name="agps_enable_confirm_allow">Tiếp tục</string>  
+    <string name="agps_enable_confirm_deny">Hủy</string>  
+    <string name="epo_enable_title">Hỗ trợ GPS EPO</string>  
+    <string name="epo_enable_summary">Dùng dữ liệu hỗ trợ GPS (EPO) để tăng tốc khả năng định vị GPS.</string>  
+    <string name="agps_settings_enable_on">GPS có thể đẩy nhanh thời gian ấn định vị trí với dữ liệu hỗ trợ thông qua kết nối dữ liệu không dây</string>  
+    <string name="agps_settings_enable_off">Sử dụng dữ liệu hỗ trợ để đẩy nhanh thời gian ấn định vị trí với GPS</string>  
+    <string name="agps_settings_eng_enable">Cài đặt AGPS</string>  
+    <string name="agps_settings_eng_summary">Thực hiện cài đặt AGPS</string>  
+    <string name="agps_disable_on_reboot">Vô Hiệu sau khi Khởi Động Lại</string>  
+    <string name="agps_disable_on_reboot_summary">Vô hiệu khả năng A-GPS sau khi khởi động lại</string>  
+    <string name="Network_Initiate">Yêu cầu mạng</string>  
+    <string name="Network_Initiate_Summary_on">Cho phép mạng yêu cầu vị trí</string>  
+    <string name="Network_Initiate_Summary_off">Từ chối mạng yêu cầu vị trí</string>  
+    <string name="Network_Used">Mạng đã dùng</string>  
+    <string name="agps_profile_select">Bộ chọn cấu hình</string>  
+    <string name="agps_profile_SLP_address_editbox_title">Địa chỉ SLP</string>  
+    <string name="port_title">Cổng SLP</string>  
+    <string name="tls_summary_off">TLS đã tắt</string>  
+    <string name="tls_summary_on">TLS đã bật</string>  
+    <string name="MobileNetwork_Category">Mạng di động</string>  
+    <string name="AgpsHelp_Category">Trợ giúp</string>  
+    <string name="about_agps_title">Về A-GPS</string>  
+    <string name="about_agps_message">\t A-GPS (Hỗ trợ dịch vụ định vị toàn cầu) là hệ thống có thể giúp cải thiện hiệu suất khởi động và hiệu chỉnh thu tín hiệu lần đầu (TTFF) từ các vệ tinh GPS. \n\t Thiết bị tương thích với A-GPS có thể kết nối với các máy chủ định vị để nhận dữ liệu trợ giúp qua kết nối dữ liệu mạng di động. \n\t Lưu ý rằng lưu lượng dữ liệu có thể khiến bạn phải trả thêm phí trong trường hợp chuyển vùng mạng. Xin liên hệ với nhà khai thác mạng để biết thêm chi tiết.</string>  
+    <string name="epo_auto_download_title">Tải về tự động</string>  
+    <string name="epo_auto_download_summary">Tự động tải về dữ liệu định vị vệ tinh</string>  
+    <string name="epo_info_title">Thông tin file EPO</string>  
+    <string name="epo_download_time_title">Giờ tải về</string>  
+    <string name="epo_download_time_summary">Không có sẵn</string>  
+    <string name="epo_start_time_title">Giờ b.đầu</string>  
+    <string name="epo_start_time_summary">Không có sẵn</string>  
+    <string name="epo_expire_time_title">Giờ b.đầu</string>  
+    <string name="epo_expire_time_summary">Không có sẵn</string>  
+    <string name="epo_about_title">Về EPO</string>  
+    <string name="epo_about_message">\tEPO (Quỹ đạo dự báo mở rộng) là một trong các công nghệ A-GPS tiên tiến dựa trên máy chủ ngoại tuyến thuộc sở hữu của MediaTek. \n\tNó hỗ trợ dự báo quỹ đạo vệ tinh đến 30 ngày, vốn có thể sử dụng để nâng cao đáng kể trải nghiệm của người dùng bằng cách cải thiện Hiệu chỉnh thu tín hiệu lần đầu (TTFF) cho GPS.</string>  
+    <string name="Network_Local_and_Roaming_Summary">Dùng A-GPS thuộc cả mạng trong nước và chuyển vùng</string>  
+    <string name="Network_Only_Local_Summary">Chỉ dùng A-GPS thuộc mạng trong nước</string>  
+    <string name="MobileNetwork_DataConn_off">Kết nối dữ liệu Tắt</string>  
+    <string name="MobileNetwork_off_Summary">Vui lòng bật kết nối dữ liệu trước khi dùng A-GPS</string>  
+    <string name="WiFiNetwork_on_title">Wi-Fi đang bật</string>  
+    <string name="MobileNetwork_on_Summary">A-GPS cần truy cập vào mạng di động qua các kết nối dữ liệu</string>  
+    <string name="MobileNetwork_SIM_Active">SIM đã được kích hoạt</string>  
+    <string name="Network_Roaming_dialog_title">Lưu ý</string>  
+    <string name="Network_Roaming_dialog_content">Nếu mạng trong t.trạng ch.vùng, l.lượng d.liệu A-GPS có thể khiến bạn phải trả thêm phí ch.vùng.</string>  
+    <string name="epo_download">Tải về</string>  
+    <string name="epo_error_no_activite_network">Hãy bật kết nối dữ liệu trước khi tải về dữ liệu EPO.</string>  
+    <string name="epo_cancel_download">Hủy</string>  
+    <string name="epo_status_stopping">Đang dừng...</string>  
+    <string name="epo_status_starting">Đang bắt đầu...</string>  
+    <string name="epo_err_update_failed">K.thể c.nhật file EPO</string>  
+    <string name="epo_error_dialog_title">"Lỗi"</string>  
+    <string name="epo_ok_btn">OK</string>  
+    <string name="epo_warning_dialog_title">Lưu ý</string>  
+    <string name="epo_warning_dialog_message">Tải về dữ liệu EPO ở tình trạng chuyển vùng có thể làm phát sinh thêm phí. Bạn chắc chắn muốn tiếp tục?</string>  
+    <!-- AudioProfile Settings -->  
+    <string name="ring_summary">Chuông</string>  
+    <string name="ring_vibrate_summary">Chuông và rung</string>  
+    <string name="silent_summary">Chỉ im lặng</string>  
+    <string name="meeting_summary">Chỉ rung</string>  
+    <string name="outdoor_summary">Chuông to nhất và rung</string>  
+    <string name="audio_profile_reset">Cài lại</string>  
+    <string name="audio_profile_add">Thêm</string>  
+    <string name="audio_profile_enable">Bật</string>  
+    <string name="audio_profile_rename">"Đổi tên"</string>  
+    <string name="audio_profile_delete">"Xóa"</string>  
+    <string name="audio_profile_message_reset">Mọi cài đặt cấu hình âm thanh sẽ được cài về mặt định</string>  
+    <string name="audio_profile_message_rename">Hãy nhập tên cấu hình mới</string>  
+    <string name="audio_profile_message_name_error">Tên vừa nhập đã có</string>  
+    <string name="audio_profile_message_name_length_wrong">Tên phải chứa ít nhất một ký tự</string>  
+    <string name="audio_profile_message_delete">Cấu hình 
+        <xliff:g id="profile">%s</xliff:g> sẽ bị xóa
+    </string>  
+    <string name="audio_profile_message_overflow">Bạn chỉ được phép thêm 6 cấu hình tùy chỉnh</string>  
+    <string name="ok">OK</string>  
+    <string name="audio_profile_category_custom_title">Cấu hình tự chọn</string>  
+    <string name="audio_profile_category_predefine_title">Cấu hình cài sẵn</string>  
+    <string name="general_settings_title">"Chung"</string>  
+    <string name="silent_settings_title">Im lặng</string>  
+    <string name="meeting_settings_title">Hội nghị</string>  
+    <string name="outdoor_settings_title">Ngoài trời</string>  
+    <!-- modify default apns notices -->  
+    <string name="apn_predefine_change_dialog_notice">Bạn chắc chắn muốn lưu? Sửa đổi cho các APN mặc định có thể gây ra các sự cố kết nối!</string>  
+    <!-- The title for AlertDialog when APN Settings is called while Airplane Mode is on -->  
+    <string name="dialog_apn_disabled">Đã tắt APN!</string>  
+    <!-- Error message for dialog of apn disabled error  -->  
+    <string name="dialog_apn_disabled_msg">Hãy tắt chế độ máy bay để bật các cài đặt APN.</string>  
+    <string name="sound_category_feedback_title">"Hệ thống"</string>  
+    <string name="sound_category_calls_title">"Cuộc gọi đến"</string>  
+    <string name="voice_call_title">Nhạc chuông c.gọi thoại</string>  
+    <string name="voice_call_summary">Cài nhạc chuông c.gọi thoại đến mặc định</string>  
+    <string name="video_call_title">Nhạc chuông c.gọi video</string>  
+    <string name="video_call_summary">Cài nhạc chuông c.gọi video đến mặc định</string>  
+    <string name="Phone_vibrate_summary">ĐT báo rung khi có cuộc gọi đến</string>  
+    <string name="vibrate_title">Rung</string>  
+    <string name="audio_profile_settings_title">C.hình âm thanh</string>  
+    <!--Add Strings for MTK AboutPhone Settings -->  
+    <!-- Gemini AboutPhone status sim status title -->  
+    <string name="sim_status_title">T.trạng SIM</string>  
+    <!-- Gemini AboutPhone status sim status summary -->  
+    <string name="sim_status_summary">Th.tin liên quan đến SIM</string>  
+    <!-- Gemini AboutPhone status imei slot1 title -->  
+    <string name="status_imei_slot1">IMEI (Khe 1)</string>  
+    <!-- Gemini AboutPhone status imei sv slot1 title -->  
+    <string name="status_imei_sv_slot1">IMEI SV (Khe 1)</string>  
+    <!-- Gemini AboutPhone status imei slot2 title -->  
+    <string name="status_imei_slot2">IMEI (Khe 2)</string>  
+    <!-- Gemini AboutPhone status imei sv slot2 title -->  
+    <string name="status_imei_sv_slot2">IMEI SV (Khe 2)</string>  
+    <!-- Gemini CDMA AboutPhone status min number slot1 title -->  
+    <string name="status_min_number_slot1">MIN (Khe 1)</string>  
+    <!-- Gemini CDMA AboutPhone status prl version slot1 title -->  
+    <string name="status_prl_version_slot1">P.bản PRL (Khe 1)</string>  
+    <!-- Gemini CDMA AboutPhone status meid number slot1 title -->  
+    <string name="status_meid_number_slot1">MEID (Khe 1)</string>  
+    <!-- Gemini CDMA AboutPhone status min number slot2 title -->  
+    <string name="status_min_number_slot2">MIN (Khe 2)</string>  
+    <!-- Gemini CDMA AboutPhone status prl version slot2 title -->  
+    <string name="status_prl_version_slot2">P.bản PRL (Khe 2)</string>  
+    <!-- Gemini CDMA AboutPhone status meid number slot2 title -->  
+    <string name="status_meid_number_slot2">MEID (Khe 2)</string>  
+    <string name="slot_status_title">Thông tin IMEI</string>  
+    <string name="slot_status_summary">Th.tin liên quan đến IMEI</string>  
+    <!-- About phone screen,  setting option name-->  
+    <string name="custom_build_version">"Custom Build Version"</string>  
+    <!-- A menu item in "About phone" that allows the user to update the phone with settings
+    from their cell phone carrier. The use of the string is similar to the string
+    "system_update_settings_list_item_title" in this project. [CHAR LIMIT=25] -->  
+    <!-- for software update MOTA -->  
+    <string name="software_update">Dịch vụ cập nhật phần mềm</string>  
+    <string name="mota_system_update_summary">"Kiểm tra cập nhật hệ thống trên máy chủCheck system update on server"</string>  
+    <!-- About phone screen,  more software updates-->  
+    <string name="software_updates_more_title">Cập nhật phần mềm</string>  
+    <string name="software_updates_more_summary">Kiểm tra phiên bản mới của phần mềm</string>  
+    <string name="software_updates_scomo_summary">Kiểm tra phiên bản mới cho ứng dụng</string>  
+    <string name="scomo_settings_title">Dịch vụ cập nhật phần mềm</string>  
+    <!-- Battery_level_show -->  
+    <string name="battery_level" translatable="false">" 
+        <xliff:g id="battery">%s</xliff:g>%%"
+    </string>  
+    <!--End of String for Gemini AboutPhone Settings-->  
+    <!--Add Strings for MTK Display Settings -->  
+    <string name="screen_timeout_CU">T.gian chờ m.hình</string>  
+    <!-- Add for landscape launcher-->  
+    <string name="landscape_launcher_title">Trình bật phong cảnh</string>  
+    <string name="landscape_launcher_none">"Không có"</string>  
+    <!-- for TVOut -->  
+    <string name="tvout_settings">Đầu ra TV</string>  
+    <string name="tvout_settings_summary">C.đặt đầu ra TV</string>  
+    <string name="tv_system_title">H.thống TV</string>  
+    <!-- For HDMI begin -->  
+    <string name="hdmi_settings">Cài đặt HDMI</string>  
+    <string name="hdmi_settings_summary">Click để định cấu hình HDMI</string>  
+    <string name="hdmi_audio_toggler">"Âm thanh"</string>  
+    <string name="hdmi_video_toggler">"Video"</string>  
+    <string name="hdmi_video_resolution">Độ phân giải video</string>  
+    <string name="hdmi_notification_title">Đã cắm cáp HDMI</string>  
+    <string name="hdmi_notification_content">Click để định cấu hình HDMI</string>  
+    <!--Theme manager -->  
+    <string name="display_settings_scences_title">Phong cảnh</string>  
+    <string name="mtk_thememanager_title">Chủ đề</string>  
+    <string name="default_name">Mặc định</string>  
+    <string name="custom_theme_name">Mới [%1$s]</string>  
+    <string name="loading">Đang tải...</string>  
+    <!--End of String for MTK Display Settings-->  
+    <!--Add Strings for MTK Security Settings -->  
+    <string name="sim_enter_pin_hints">(Nhập 4-8 số)</string>  
+    <string name="sim_remain">(Còn lại: 
+        <xliff:g id="remains">%d</xliff:g>)
+    </string>  
+    <!--End of String for MTK Security Settings-->  
+    <!--Add Strings for MTK DateTime Settings-->  
+    <!-- GPS time sync -->  
+    <string name="gps_time_sync_attention_gps_on">Nó sẽ mất tối đa một phút để vào chức năng hiệu chỉnh GPS. Ngoài ra, GPS không thể cung cấp giờ do tín hiệu môi trường yếu.\n\nBạn chắc chắn sử dụng giờ được cấp bởi GPS?</string>  
+    <string name="gps_time_sync_attention_gps_off">Để sử dụng giờ được cấp bởi GPS, bạn phải bật GPS trước. Sau đó, nó sẽ mất tối đa một phút để vào chức năng hiệu chỉnh GPS. Ngoài ra, GPS có thể không cung cấp giờ do tín hiệu môi trường yếu. \n\nBạn chắc chắn muốn bật GPS ngay và đợi giờ được cấp bởi GPS?</string>  
+    <!--End of String for MTK DateTime Settings-->  
+    <!--Add Strings for MTK Backup & reset Settings-->  
+    <!-- Drm Settings -->  
+    <!-- Privacy Screen,setting option name under Privacy Personal data -->  
+    <string name="drm_settings_title">Cài lại DRM</string>  
+    <!-- Privacy Screen,settings option summary text under Privacy personal data -->  
+    <string name="drm_settings_summary">Xóa mọi giấy phép DRM</string>  
+    <!-- Drm settings Activity lable -->  
+    <!-- Dialog msg for confirmation to reset DRM -->  
+    <string name="drm_reset_dialog_msg">Thao tác này sẽ xóa mọi giấy phép trên thiết bị này. Tiếp tục?</string>  
+    <!-- Toast msg for confirmation to reset DRM -->  
+    <string name="drm_reset_toast_msg">Các giấy phép đã được xóa thành công.</string>  
+    <!--End of String for MTK DateTime Settings-->  
+    <!--Add Strings for MTK SIM management Settings-->  
+    <string name="gemini_sim_management_title">Quản lý SIM</string>  
+    <string name="gemini_sim_info_title">Thông tin SIM</string>  
+    <string name="gemini_default_sim_title">SIM mặc định</string>  
+    <string name="gemini_general_settings_title">Cài đặt chung</string>  
+    <string name="gemini_roaming_settings_title">Chuyển vùng</string>  
+    <string name="gemini_data_roaming_title">Ch.vùng dữ liệu</string>  
+    <string name="gemini_data_roaming_summary">K.nối với các d.vụ dữ liệu khi chuyển vùng</string>  
+    <string name="gemini_roaming_reminder_title">Hiển thị b.nhắc chuyển vùng</string>  
+    <string name="gemini_roaming_reminder_summary">Hiển thị đề nghị SIM dựa vào cách dùng SIM</string>  
+    <string name="gemini_contacts_sim_title">"Kết nối số liên lạc"</string>
+    <string name="gemini_contacts_sim_summary">Kết nối các số liên lạc với SIM riêng</string>
+    <string name="gemini_voice_call">Gọi thoại</string>  
+    <string name="gemini_video_call">Gọi video</string>  
+    <string name="gemini_data_connection">Kết nối dữ liệu</string>  
+    <string name="gemini_msg">Tin nhắn</string>  
+    <string name="gemini_default_sim_always_ask">Luôn hỏi</string>  
+    <string name="gemini_intenet_call">Gọi internet</string>  
+    <string name="gemini_default_sim_never">Tắt</string>  
+    <string name="gemini_default_sim_3g_off">Tắt</string>  
+    <!-- GSM/UMTS Options strings -->  
+    <string name="gemini_gsm_umts_network_preferences_title">Chế độ mạng</string>  
+    <string name="gemini_gsm_umts_network_preferneces_summary">Chưa thực hiện!</string>  
+    <string name="gemini_gsm_umts_network_preferences_dialogtitle">Chế độ mạng</string>  
+    <string name="gemini_3g_service_settings">Dịch vụ 3G</string>  
+    <!-- Strings for Gemini begin-->  
+    <!-- Dual sim settings activate progress message string -->  
+    <string name="gemini_sim_mode_progress_activating_message">Đang kích hoạt\u2026</string>  
+    <!-- Dual sim settings deactivate progress message string -->  
+    <string name="gemini_sim_mode_progress_deactivating_message">Đang ngưng kích hoạt\u2026</string>  
+    <!-- Dual sim settings mode change failed message string -->  
+    <string name="gemini_sim_mode_change_failed_message">Bị lỗi vì sự cố mạng.</string>  
+    <!-- Dual sim settings mode enter airplanemode confirm title string -->  
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_title">Chế độ máy bay</string>  
+    <!-- Dual sim settings mode enter airplanemode WiFi and Bt will both close confirm message string -->  
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_message">Điện thoại sẽ vào chế độ máy bay. Mọi kết nối không dây sẽ bị tắt. Tiếp tục?</string>  
+    <string name="gemini_sim_info_editor_name">Sửa tên SIM</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">Không thể lưu</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">Trùng tên cho thẻ SIM</string>  
+    <string name="gemini_sim_info_editor_number">Nhập số ĐT</string>  
+    <string name="gemini_sim_info_editor_color">Cài màu nền</string>  
+    <string name="gemini_sim_info_editor_number_display_format">Hiển thị các số</string>  
+    <string name="gemini_no_sim_indicator">Chưa lắp SIM</string>  
+    <string name="gemini_sim_list_default_title">D.sách SIM</string>  
+    <string name="gemini_data_connection_progress_message">"Hãy đợi......"</string>  
+    <string name="gemini_3g_modem_switching_message">"Chuyển đổi SIM sẽ mất khoảng 10 giây. Hãy đợi…"</string>  
+    <string name="gemini_3g_modem_switch_confirm_message">"Thao tác này cũng sẽ chuyển dịch vụ 3G sang SIM này. Tiếp tục? Cũng nên đảm bảo SIM vừa chọn này có hỗ trợ dịch vụ 3G."</string>  
+    <string name="gemini_3g_disable_warning">"Dịch vụ 3G không có sẵn với SIM vừa chọn này. Điều này có thể tải dữ liệu chậm hơn. Bạn có thể thay đổi cài đặt dịch vụ 3G trong Cài đặt &gt; Không dây &amp; mạng &gt; Mạng di động."</string>  
+    <string name="gemini_3g_disable_warning_cu">"Dịch vụ 3G không có sẵn với SIM vừa chọn này. Điều này có thể tải dữ liệu chậm hơn. Bạn có thể thay đổi cài đặt dịch vụ 3G trong Cài đặt &gt; Quản lý SIM."</string>  
+    <!-- Strings for CU wap push begin-->  
+    <string name="gemini_wap_push_permission_head">Sau khi bật dịch vụ Đẩy Tự động, bạn có thể nhận các tin nhắn đã đẩy về, trả phí chạy ứng dụng nội bộ và tạo lưu lượng dữ liệu. Các dịch vụ đẩy tự động chuẩn gồm thông báo email, quản lý thiết bị, chỉ báo dịch vụ, tải dịch vụ và đẩy cung cấp dữ liệu.</string>  
+    <string name="gemini_wap_push_permission_tail">Chấp nhận thỏa thuận này?</string>  
+    <string name="gemini_wap_push_permission_title">Thỏa thuận dịch vụ đẩy tự động</string>  
+    <string name="gemini_wap_push_permission">Dịch vụ đẩy tự động</string>  
+    <!-- Strings for CU wap push end-->  
+    <!-- add for gemini enhancement  SIM tether info part    begin -->  
+    <string name="gemini_3g_disable_warning_case0">"Trước tiên bạn phải bật chuyển vùng dữ liệu cho SIM này vốn có thể chịu các mức cước chuyển vùng đáng kể! Bạn chắc chắn muốn bật chuyển dùng dữ liệu và chọn SIM này?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"Dịch vụ 3G không có sẵn với SIM vừa chọn này. Thao tác này có thể tải dữ liệu chậm hơn. Bạn có thể thay đổi cài đặt dịch vụ 3G trong Cài đặt &gt; Không dây &amp; mạng &gt; Mạng di động. Chắc chắn muốn chọn SIM này?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"Dịch vụ 3G không có sẵn với SIM vừa chọn này. Thao tác này có thể tải dữ liệu chậm hơn. Bạn có thể thay đổi cài đặt dịch vụ 3G trong Cài đặt &gt; Quản lý SIM. Bạn chắc chắn muốn chọn SIM này?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"Trước tiên bạn phải bật chuyển vùng dữ liệu cho SIM này vốn có thể chịu mức cước chuyển vùng đáng kể! Ngoài ra, dịch vụ 3G không có sẵn với SIM này. Thao tác này có thể tải dữ liệu chậm hơn. Bạn có thể thay đổi nó trong Cài đặt &gt; Không dây &amp; mạng &gt; Mạng di động. Bạn chắc chắn muốn bật chuyển vùng dữ liệu và chọn SIM này?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"Trước tiên bạn phải bật chuyển vùng dữ liệu cho SIM này vốn có thể chịu mức cước chuyển vùng đáng kể! Ngoài ra, dịch vụ 3G không có sẵn với SIM này. Thao tác này có thể tải dữ liệu chậm hơn. Bạn có thể thay đổi nó trong Cài đặt &gt; Không dây &amp; mạng &gt; Mạng di động. Bạn chắc chắn muốn bật chuyển vùng dữ liệu và chọn SIM này?"</string>  
+    <string name="gemini_sim_tether_info_title">Danh bạ &amp; SIM</string>  
+    <string name="gemini_sim_tether_add_record">Thêm số liên lạc</string>  
+    <string name="gemini_sim_add_title">Danh bạ</string>  
+    <!-- Displayed full screen when the user has no tether info to display-->  
+    <string name="gemini_sim_tether_norecord">"Bạn không có bất kỳ số liên lạc nào liên kết với SIM hiện hành.\n\nChạm nút Thêm số liên lạc để chọn các số liên lạc bạn muốn liên kết với SIM này"</string>  
+    <string name="gemini_sim_tether_nocontacts">"Không có số liên lạc lưu trên điện thoại của bạn. Vui lòng thêm số liên lạc mới hoặc nhập danh bạ trước"</string>  
+    <string name="gemini_sim_tether_no_assc_contacts">"Đã kết nối thành công mọi số liên lạc"</string>  
+    <string name="gemini_sim_tether_disassociate">Ngắt kết nối</string>  
+    <string name="selected_item_count">Đã chọn 
+        <xliff:g id="count">%d</xliff:g> 
+    </string>  
+    <string name="gemini_sim_tether_unselect_all">Hủy chọn tất cả</string>
+    <string name="gemini_sim_tether_nocontact_confirm">OK</string>  
+    <string name="gemini_sim_tether_select_all">Chọn tất cả</string>  
+    <string name="gemini_sim_tether_select_ok">Lưu</string>  
+    <string name="gemini_sim_tether_select_cancel">Hủy</string>  
+    <string name="gemini_sim_tether_revert_title">Lưu ý</string>  
+    <string name="gemini_sim_tether_revert_message">Các cấu hình của bạn đã được thay đổi nhưng chưa lưu lại. Bạn chắc chắn muốn thoát không cần lưu lại?</string>  
+    <string name="gemini_tether_saving_progress_message">Đang lưu...</string>  
+    <!-- add for gemini enhancement SIM tether info part end -->  
+    <!-- Strings for Gemini SimLock Settings -->  
+    <!-- Gemini SimLock TabActivity Sim1 tab tag -->  
+    <!-- Gemini SimLock error message -->  
+    <string name="gemini_sim_lock_simid_error">Bị lỗi vì ID SIM k.hợp lệ.</string>  
+    <!-- Gemini SimLock sim1 not insert message -->  
+    <string name="gemini_sim_lock_no_insert_message_sim">Chưa lắp SIM.</string>  
+    <!-- Gemini SimLock sim1 radio off message -->  
+    <string name="gemini_sim_lock_radio_off_message_sim1">Đài FM 1 đã tắt.</string>  
+    <!-- Gemini SimLock sim2 radio off message -->  
+    <string name="gemini_sim_lock_radio_off_message_sim2">Đài FM 2 đã tắt.</string>  
+    <!--End of String for SIM Management Settings-->  
+    <!-- for CU application -->  
+    <string name="akp_installer_settings_title">Trình cài đặt Gói Android</string>  
+    <string name="akp_installer_settings_summary">Cài đặt APK của bạn từ bộ nhớ điện thoại và thẻ SD</string>  
+    <string name="launch_main_label">Bật ứng dụng</string>  
+    <string name="launch_main">Bật ứng dụng bằng thao tác chính</string>  
+    <string name="launch_activitie">Bật</string>  
+    <string name="move_app_to_where">Di chuyển sang 
+        <xliff:g id="location">%s</xliff:g> 
+    </string>  
+    <!--Wi-Fi settings strings start-->  
+    <string name="wifi_no_cert_for_wapi">Không thể tìm chứng nhận cho AP kết nối hiện hành</string>  
+    <!-- Label for the SIM Slot of EAP-SIM method support -->  
+    <string name="sim_slot">Khe lắp SIM</string>  
+    <!-- Label for the SIM Slot 0 of EAP-SIM method support -->  
+    <string name="eap_sim_slot_0">Khe lắp Sim 1</string>  
+    <!-- Label for the SIM Slot of EAP-SIM method support -->  
+    <string name="eap_sim_slot_1">Khe lắp Sim 2</string>  
+    <!-- Label for the toast if user use eap-sim/aka in airplane mode -->  
+    <string name="eap_sim_aka_airplanemode">Hãy tắt chế độ Máy bay để sử dụng EAP-SIM/AKA</string>  
+    <!-- Label for the toast if user use eap-sim/aka when sim card is absent -->  
+    <string name="eap_sim_aka_no_sim_error">Bạn phải lắp thẻ SIM để sử dụng EAP-SIM/AKA</string>  
+    <!-- Label for the toast if user use eap-sim/aka when user don't select a sim slot -->  
+    <string name="eap_sim_aka_no_sim_slot_selected">Bạn phải chọn thẻ SIM để sử dụng EAP-SIM/AKA</string>  
+    <string name="wifi_security_wapi_certificate">Giấy phép WAPI</string>  
+    <!-- Label for the WAPI user certificate of the network -->  
+    <string name="wapi_user_certificate">Giấy phép n.dùng</string>  
+    <!-- Label for the WAPI ASE certificate of the network -->  
+    <string name="wapi_as_certificate">Giấy phép ASE</string>  
+    <!-- Label for the check box for hexadecimal password -->  
+    <string name="wifi_hex_password">Mật khẩu thập lục phân.</string>  
+    <!-- The label for WEP transmit Key -->  
+    <string name="wifi_WEP_transmit_key">"Khóa truyền tải"</string>  
+    <!-- The label for WEP Secury Key -->  
+    <string name="wifi_WEP_secury_key">"Khóa bảo mật"</string>  
+    <!--add for Wi-Fi hotspot auto-sleep policy-->  
+    <string name="wifi_tether_auto_disable_title">Luôn bật trạm phát Wi-Fi</string>  
+    <string name="wifi_tether_auto_channel_text">Tự động</string>  
+    <string name="wifi_tether_auto_channel_width_text">Tự động 20/40 MHz</string>  
+    <string name="wifi_channel">Kênh ưu tiên</string>  
+    <string name="wifi_channel_width">Độ rộng kênh</string>  
+    <string name="confirm_title">Xác nhận</string>  
+    <!--Wi-Fi settings strings end-->  
+    <!-- Wireless settings for PCH Monitor start -->  
+    <string name="pch_toggle_title">Ưu tiên truyền GPRS</string>  
+    <!-- for PCH Monitor data prefer -->  
+    <string name="pch_data_prefer_summary_off">Ưu tiên d.liệu</string>  
+    <!-- for PCH Monitor call prefer-->  
+    <string name="pch_call_prefer_summary_on">Ưu tiên c.gọi</string>  
+    <!-- for PCH Monitor warning message -->  
+    <string name="pch_warning_message">Tốc độ truyền dữ liệu sẽ giảm bớt.</string>  
+    <!-- Wireless settings for PCH Monitor end -->  
+    <!-- Schedule power on/off settings -->  
+    <!-- Main Settings screen setting option name to go into the power on/off settings-->  
+    <string name="schedule_power_on_off_settings_title">Lịch bật/tắt nguồn</string>  
+    <string name="usb_bicr_title">CD-ROM tích hợp</string>  
+    <string name="usb_bicr_summary">Hiển thị đĩa CD ảo chứa một số phần mềm hữu ích.</string>  
+    <string name="select_memory">Đĩa chép mặc định</string>  
+    <string name="ipo_title">Khởi động nhanh</string>  
+    <string name="ipo_summary_on">Tắt khởi động nhanh</string>  
+    <string name="ipo_summary_off">Bật khởi động nhanh</string>  
+    <string name="agps_profile_select_Title">Cấu hình AGPS</string>  
+    <string name="location_settings_label">Chế độ kỹ sư địa điểm</string>  
+    <string name="audio_profile_error">"Lỗi"</string>  
+    <string name="battery_percent">Tỷ lệ pin</string>  
+    <!-- RCS-e settings -->  
+    <string name="rcse_settings_title">Cài đặt RCS-e</string>
+    <string name="dlg_mount_external_sd_title" product="default">Lắp thẻ SD?</string>  
+    <string name="dlg_mount_external_sd_summary" product="default">Nếu lắp thẻ SD, một số ứng dụng bạn đang sử dụng sẽ dừng lại.</string> 
+
+    <string name="tethered_ipv6_title">Cài đặt điểm thu phát không dây &amp; kết nối</string>  
+    <string name="tethered_ipv4v6">(IPv6 có sẵn)</string>  
+    <string name="tethered_ipv6">(Chỉ IPv6 có sẵn)</string>  
+    <string name="tethered_ipv4">(IPv6 không có sẵn)</string>
+	
+	<string name="usb_connect_as_cdrom_category">"Kết nối dưới dạng CD-ROM"</string>
+
+    <string name="wifi_ap_client_block_title">Chặn</string>  
+    <string name="wifi_ap_client_details_title">Chi tiết</string>  
+    <string name="wifi_wps_fail_error">Không thể cài đặt bảo vệ Wi-Fi, thử lại.</string>  
+    <string name="wifi_tether_setting_title">Cài đặt cơ bản</string>  
+    <string name="wifi_tether_wps_connect_title">"Kết nối WPS"</string>  
+    <string name="wifi_tether_wps_connect_summary">Đã chọn chế độ cài đặt bảo vệ Wi-Fi để tiếp tục</string>  
+    <string name="wifi_tether_wps_pin_error">Mã PIN ko hợp lệ</string>  
+    <string name="wifi_tethering_title">Trạm phát Wi-Fi</string>  
+    <string name="wifi_ap_wps_dialog_title">"Kết nối WPS"</string>  
+    <string name="wifi_ap_wps_mode_title">Chế độ WPS</string>  
+    <string name="wifi_ap_wps_pin_title">Nhập mã PIN từ ứ.dụng khách</string>  
+    <string name="wifi_ap_reset_OOB_title">Cài lại mã SSID mạng, bảo mật và mật khẩu về mặc định (cấu hình mặc định cho WPS )</string>  
+    <string name="wifi_ap_reset_OOB">Cài lại OOB</string>  
+    <string name="wifi_ap_max_connection_title">Các kết nối tối đa</string>  
+    <string name="wifi_ap_connected_title">Người dùng đã kết nối</string>  
+    <string name="wifi_ap_blocked_title">Người dùng bị chặn</string>  
+    <string name="wifi_ap_client_unblock_title">Hủy chặn</string>  
+    <string name="wifi_ap_client_mac_label">Địa chỉ MAC:</string>  
+    <string name="wifi_ap_client_ip_label">Địa chỉ IP:</string>  
+    <string name="usb_sharing_title">Internet qua USB</string>  
+    <string name="usb_sharing_summary">Đang chia sẻ internet trên PC chạy Windows qua cáp USB</string>  
+    <string name="usb_sharing_info_title">Truyền qua internet</string>  
+    <string name="usb_sharing_info_step_1">"1. Mở các kết nối mạng trên PC chạy Windows của bạn."</string>  
+    <string name="usb_sharing_info_step_2">"2. Nhấp phải vào kết nối mà bạn muốn chia sẻ, rồi nhấp Properties."</string>  
+    <string name="usb_sharing_info_step_3">"3. Nhấp thẻ Chia sẻ và chọn \'Cho phép các người dùng mạng khác kết nối qua internet trên máy tính này\'(chọn mạng vừa thêm vốn đại diện cho kết nối internet qua USB nếu mục \'Kết nối mạng gia đình\' hiển thị)."</string>  
+    <string name="wifi_ap_bandwidth_title">Sử dụng băng thông</string>  
+    <string name="wifi_ap_bandwidth_enable">Bật điều chỉnh băng thông</string>  
+    <string name="wifi_ap_bandwidth_chart_title">Tốc độ dữ liệu thời gian thực</string>  
+    <string name="wifi_ap_bandwidth_chart_summary">Được đo bởi điện thoại của bạn, nên việc tính tốc độ dữ liệu từ nhà khai thác mạng có thể khác nhau.</string>  
+    <string name="wifi_ap_title">Thống kê</string>  
+    <string name="wifi_ap_time_duration">Thời lượng: 
+        <xliff:g id="time">%1$s</xliff:g> 
+    </string>  
+    <string name="wifi_ap_total_data">Tổng dữ liệu sử dụng:
+        <xliff:g id="time">%1$s</xliff:g>
+    </string>
+    <string name="cpu_dtm_title">Chế độ tiết kiệm năng lượng CPU</string>
+    <string name="cpu_dtm_summary">Hạn chế tối đa hoạt động của CPU để tiết kiệm pin và giảm nhiệt độ thiết bị.</string>
+    <string name="wifi_advanced_ipv4_address_title">Địa chỉ IPv4</string>  
+    <string name="wifi_advanced_ipv6_address_title">Địa chỉ IPv6</string>  
+    <string name="wifi_ipv4_address">Địa chỉ IPv4</string>  
+    <string name="wifi_ipv6_address">Địa chỉ IPv6</string>
+    
+    <!-- MTK new datausage start -->
+    <string name="mtk_datausage_overview_wifi_today">Hôm nay</string>  
+    <string name="mtk_datausage_show_on_lockscreen">Hiển thị trên màn hình khóa</string>  
+    <string name="mtk_datausage_update">Cập nhật sử dụng dữ liệu</string>  
+    <string name="mtk_datausage_update_set">Cập nhật</string>  
+    <string name="mtk_datausage_amount_editor_title">Số lượng dữ liệu đã dùng</string>  
+    <string name="mtk_datausage_usage_list">Dùng dữ liệu của ứng dụng</string>  
+    <string name="mtk_datausage_diff_byte">Dùng dữ liệu khác</string>  
+    <string name="mtk_datausage_overview_tab">Tổng quan</string>  
+    <string name="mtk_datausage_overview_wifi_total">Tổng số</string>  
+    <string name="mtk_datausage_overview_mobile_title">DI ĐỘNG</string>  
+    <string name="mtk_datausage_overview_mobile_usage">
+        <xliff:g id="actual">%s</xliff:g> trong 
+        <xliff:g id="limit">%s</xliff:g>
+    </string>
+    <string name="mtk_datausage_overview_mobile_usage_warning">Quá giới hạn <xliff:g>%s</xliff:g></string>
+    <!-- MTK new datausage end -->
+    <string name="display_personalize">Cá nhân hóa</string>  
+    <string name="display_default">"Hiển thị"</string> 
+    <!-- Sound Enhanecement -->
+    <string name="sound_enhancement_title">Tăng cường âm thanh</string>
+    <string name="music_plus_summary">Bộ tăng cường âm thanh cho tai nghe</string>
+    <string name="auto_backlight_title">Đèn nền tiết kiệm</string>
+    <string name="auto_backlight_summary">Tự động chỉnh đèn nền để tiết kiệm pin</string>
+
+    <string name="beam_mgmt_tab_download_title">Cuộc gọi đến</string>
+    <string name="beam_mgmt_tab_upload_title">"3. Nhấp thẻ Chia sẻ và chọn 'Cho phép các người dùng mạng khác kết nối qua internet trên máy tính này'(chọn mạng vừa thêm vốn đại diện cho kết nối internet qua USB nếu mục 'Kết nối mạng gia đình' hiển thị)."</string>
+    <string name="beam_share_mgmt_notification_ticker">Lược sử chia sẻ tín hiệu</string>
+    <string name="beam_share_mgmt_notification_title">Lược sử chia sẻ tín hiệu</string>
+    <string name="beam_share_mgmt_notification_message">"Chọn xem Lược sử chia sẻ tín hiệu."</string>
+    <string name="beam_share_mgmt_tab_menu_clear">Xóa mọi cài đặt trên website?</string>
+    <string name="beam_share_open_file_dialog_title">Không thể mở file.</string>
+    <string name="beam_share_open_file_unsupported_message">Định dạng file không hỗ trợ.</string>
+    <string name="beam_share_open_file_not_found_message">"Không tìm thấy file: <xliff:g id="file_name">%1$s</xliff:g></string>
+    <string name="beam_share_transfer_fail_dialog_title">"Tín hiệu bị lỗi"</string>
+    <string name="beam_share_resend_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> đã không được gửi thành công."</string>
+    <string name="beam_share_resend_dialog_ok_button">"Thử lại"</string>
+    <string name="beam_share_show_received_files_menu">"Hiển thị các tệp đã nhận"</string>
+    <string name="beam_share_history_title">Lược sử chia sẻ tín hiệu</string>
+    <string name="beam_share_clear_confirm_dialog_title">Xóa tất cả</string>
+    <string name="beam_share_clear_confirm_dialog_message">Xóa hết lược sử?</string>
+    <string name="beam_share_receive_fail_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> đã không được nhận thành công."</string>
+    <string name="beam_share_clear_item_dailog_title">"Xóa"</string>
+    <string name="beam_share_clear_item_dailog_message">Sẽ xóa mục này.</string>
+    <string name="nfc_rw_tag_summary">Đọc từ hoặc ghi sang nhãn</string>
+    <string name="nfc_p2p_mode">Chế độ P2P</string>
+    <string name="nfc_p2p_mode_summary">Gửi hoặc nhận nội dung ứ.dụng</string>
+    <string name="nfc_tag_mode_category">C.độ nhãn</string>
+    <string name="nfc_rw_tag_title">Đọc &amp; ghi nhãn</string>
+    <string name="lock_screen_notifications_title">Thông báo khóa màn hình</string>
+    <string name="lock_screen_notifications_summary">Hiển thị thông báo khóa màn hình</string>
+    <string name="lock_screen_style_title">Kiểu khóa màn hình</string>
+
+
+      <string name="voice_ui_title">Điều khiển giọng nói</string>
+       <string name="voice_ui_app_category">Đối với Cài đặt ứ.dụng</string>
+      <string name="voice_ui_setting_category">"Cài đặt"</string>
+      <string name="alarm_app_name">"Báo thức"</string>
+      <string name="music_app_name">Nhạc</string>
+      <string name="voice_ui_language_title">"Ngôn ngữ điều khiển giọng nói"</string>
+      <string name="incoming_call_app_name">"Cuộc gọi đến"</string>
+      <string name="camera_app_name">Camera </string>
+      <string name="incomming_command_summary_format">Bạn có thể nói <xliff:g id="first">%1$s</xliff:g> hoặc <xliff:g id="second">%2$s</xliff:g> để trả lời hoặc từ chối các cuộc gọi đến.</string>
+      <string name="alarm_command_summary_format">Bạn có thể nói <xliff:g id="first">%1$s</xliff:g> hoặc <xliff:g id="second">%2$s</xliff:g> để điều khiển báo thức.</string>
+      <string name="camera_command_summary_format">Bạn có thể nói <xliff:g id="first">%1$s</xliff:g> hoặc <xliff:g id="second">%2$s</xliff:g> để chụp ảnh.</string>
+      <string name="music_command_summary_format">Bạn có thể nói <xliff:g id="first">%1$s</xliff:g> và <xliff:g id="second">%2$s</xliff:g> để điều khiển phát nhạc.</string>
+
+	<!-- Lock screen settings start -->
+	<string name="current_suffix">"(Hiện hành)"</string>
+	<string name="lockscreen_style_set">"Cài đặt Màn hình khóa"</string>
+	<string name="lockscreen_style_default_desc">"Truy cập nhanh các ứ.dụng trong màn hình khóa"</string>
+	<!-- Lock screen settings end -->
+    <!--  voice unlock start-->
+    <string name="voice_unlock_backup_info_summary">Khi Mở Khóa Thoại nhận dạng giọng nói của bạn, bạn muốn mở khóa bằng cách nào?</string>
+    <string name="unlock_set_unlock_mode_voice_weak">Mở Khóa Thoại</string>
+    <!--  voice unlock end-->
+    <string name="usb_tether_type_title">Kiểu kết nối USB</string> 
+    <string name="security_not_set">Chưa cài bảo mật</string>
+    <string name="lockdown_vpn_already_connected">Đã bật chế độ Luôn kết nối VPN để kết nối.</string> 
+    <string name="wifi_ap_no_connected">0 người dùng đã kết nối</string>  
+    <string name="wifi_ap_no_blocked">0 người dùng bị chặn</string>  
+
+    <string name="status_imei_slot3">IMEI(Khe cắm 3)</string>
+    <string name="status_imei_sv_slot3">IMEI SV(Khe cắm 3)</string>
+    <string name="status_min_number_slot3">MIN(Khe cắm 3)</string>
+    <string name="status_prl_version_slot3">Ph.bản PRL(Khe cắm 3)</string>
+    <string name="status_meid_number_slot3">MEID(Khe cắm 3)</string>
+
+    <string name="usb_tethering_select_version">Chọn phiên bản hệ thống PC</string>
+</resources>

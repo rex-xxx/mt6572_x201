@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="sitenavigation_add">新增網站</string>  
+    <string name="tab_site_navigation">"網站導覽"</string>  
+    <string-array name="pref_homepage_choices_site_navigation"> 
+        <item msgid="844041670142910837">"目前網頁"</item>  
+        <item msgid="4430498748295169195">"空白網頁"</item>  
+        <item msgid="5747608191946904074">"預設網頁"</item>  
+        <item msgid="6092441301001006473">"常用網站"</item>  
+        <item>"網站導覽"</item>  
+        <item msgid="6569304572171444894">"其他"</item> 
+    </string-array>  
+    <string name="home">主頁面</string>  
+    <string name="close">關閉</string>  
+    <string name="option">選項</string>  
+    <string name="minimize">最小化</string>  
+    <string name="quit">退出</string>  
+    <string name="pref_download_title">下載設定</string>  
+    <string name="pref_extras_set_download_directory_title">設定下載路徑</string>  
+    <string name="duplicated_bookmark">複製的書籤</string>  
+    <string name="duplicated_bookmark_warning">具備相同名稱或位置的書籤已存在，是否覆寫？</string>  
+    <string name="pref_content_search_engine_consistency">搜尋引擎一致性</string>  
+    <string name="pref_search_engine_unify">統整搜尋引擎</string>  
+    <string name="pref_search_engine_unify_summary">將搜尋引擎變更套用至快速搜尋方塊</string>  
+    <string name="permlab_readHomepage">於瀏覽器中讀取首頁</string>  
+    <string name="permdesc_readHomepage">允許應用程式不經您干預即在瀏覽器中讀取首頁資訊。</string>  
+    <string name="permlab_writeHomepage">在瀏覽器中修改首頁</string>  
+    <string name="permdesc_writeHomepage">允許應用程式不經您干預即在瀏覽器中修改首頁資訊。</string>  
+    <string name="duplicated_folder_warning">相同文件夾已經存在。</string>  
+    <string name="download_or_open_content">請選擇您需要的操作。</string>  
+    <string name="save_content">儲存</string>  
+    <string name="open_content">"開啟"</string>  
+    <string name="dialog_title">更改數據連接</string>  
+    <string name="wifi_failover_gprs_content">WLAN不可用，是否使用移動網？</string>  
+    <string name="make_primary">以後不再提示</string>  
+    <string name="pref_default_text_encoding_default">"自動檢測"</string>  
+    <string name="pref_default_font_family">"字體"</string>  
+    <string name="pref_default_font_family_dialogtitle">"字體"</string>  
+    <string name="no_voice_search_alert_dialog_title">語音搜索</string>  
+    <string name="no_voice_search_alert_dialog_msg">無效語音搜索，因為沒有語音搜索應用。請首先安裝</string>  
+    <string name="add">"新增"</string>  
+    <string name="max_input_browser_search">您的輸入已經達到最大上限。</string>  
+    <string name="bookmarks_history">書籤/記錄</string>  
+    <string name="sms_received">來自
+        <xliff:g id="text">%s</xliff:g>的簡訊
+    </string>  
+    <string-array name="pref_default_font_family_choices"> 
+        <item>Sans-serif</item>  
+        <item>Serif</item>  
+        <item>等寬</item> 
+    </string-array>  
+    <string name="download_path_unavailable_dlg_title">下載目錄無法使用</string>  
+    <string name="download_path_unavailable_dlg_msg">請修改瀏覽器的下載目錄</string>  
+    <string name="delete">刪除</string>  
+    <string name="edit">編輯</string>  
+    <string name="delete_site_navigation_msg">刪除此項目嗎？</string>  
+    <string name="site_navigation_name">名稱</string>  
+    <string name="site_navigation_address">位址</string>  
+    <string name="website_needs_title">"網站必須要有名稱。"</string>  
+    <string name="website_needs_url">"網站必須要有位置。"</string>  
+    <string name="site_navigation_cannot_save_url">此 URL 不會是網站。</string>  
+    <string name="add_site_navigation">新增網站</string>  
+    <string name="edit_site_navigation">編輯網站導覽</string>  
+    <string name="site_navigation_edit_button">編輯</string>  
+    <string name="save_webpage">儲存</string>  
+    <string name="duplicate_site_navigation_url">此 URL 已存在。</string>  
+    <string name="max_input_browser_search_title">輸入字元上限</string>  
+    <string name="max_input_browser_search_button">確定</string>  
+    <string name="save_bookmark">儲存書籤</string> 
+    <!-- M: Bottom bar strings -> -->
+    <string name="tabs">分頁</string>
+    
+    <string name="download_pending_with_file_size">"正在開始下載，文件大小："</string>
+</resources>

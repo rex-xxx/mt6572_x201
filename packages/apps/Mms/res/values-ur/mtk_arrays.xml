@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string-array name="default_smiley_names">
+        <item msgid="1831934949361041701">خوش</item>
+        <item msgid="1601611480575517120">اداس</item>
+        <item msgid="1531181614218625881">آنکھ ماررہا ہے</item>
+        <item msgid="3858808057949077894">زبان باہر نکالنا</item>
+        <item msgid="7835238297967185651">حیران</item>
+        <item msgid="1756223535005296033">بوسہ</item>
+        <item msgid="1093906245140165107">چیخنا</item>
+        <item msgid="888834839864150170">زبردست</item>
+        <item msgid="6320683740534773967">منی ماؤتھ</item>
+        <item msgid="6610111212478853990">سوچے سمجھے بولنا</item>
+        <item msgid="1706035208563940251">شرمسار</item>
+        <item msgid="9079275787422313427">فرشتہ</item>
+        <item msgid="4630490399784004880">فیصلہ نہ کرپانا</item>
+        <item msgid="7002574538342357456">رونا</item>
+        <item msgid="850324578089267455">منہ بند ہے</item>
+        <item msgid="6334637439528489607">ہنسنا</item>
+        <item msgid="7602915122893958066">حیران</item>
+        <item msgid="3939233701582771068">"Heart"</item>
+        <item msgid="1414759480575851587">"Angry"</item>
+        <item msgid="8479809115158836070">"Smirk"</item>
+        <item msgid="638612939305162424">"Poker face"</item>
+    </string-array>
+    <string-array name="default_quick_texts">
+        <item>آپ کہاں ہیں؟</item>
+        <item>آپ کیا کررہے ہيں؟</item>
+        <item>واپس کال کرو!</item>
+        <item>میں اس وقت میٹنگ میں ہوں</item>
+        <item>جلد ہی کال کرتا ہوں</item>
+        <item>فکر نہ کرو، میں ٹھیک ہوں</item>
+        <item>گھر آرہا ہوں</item>
+        <item>جلد ہی پہنچتا ہوں</item>
+        <item>پہنچ جاؤ</item>
+    </string-array>
+    <string-array name="pref_mms_creation_mode_choices">
+        <item>محدود وضع</item>
+        <item>تنبیہاتی وضع</item>
+        <item>فارغ وضع</item>
+    </string-array>
+    <string-array name="pref_key_mms_priority_choices">
+        <item>تیز</item>
+        <item>عام</item>
+        <item>کم</item>
+    </string-array>
+    <string-array name="pref_sms_save_location_choices">
+        <item>فون</item>
+        <item>SIM کارڈ</item>
+    </string-array>
+    <string-array name="pref_tablet_sms_save_location_choices">
+        <item>آلہ</item>
+        <item>SIM کارڈ</item>
+    </string-array>
+    <string-array name="pref_sms_input_mode_choice">
+        <item>GSM حروف تہجی</item> 
+        <item>یونی کوڈ</item> 
+        <item>خودکار</item> 
+    </string-array>
+    <string-array name="pref_message_font_size_choices">
+        <item>سسٹم کے فونٹ سائز کی پیروی کریں</item>
+        <item>چھوٹا</item>
+        <item>درمیانہ</item>
+        <item>بڑا</item>
+        <item>اضافی طور پر پڑا</item>
+    </string-array>
+</resources>
+

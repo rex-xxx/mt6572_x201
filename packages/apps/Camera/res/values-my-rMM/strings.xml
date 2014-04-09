@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="camera_error_title">ကင်မရာအမှား</string>  
+    <string name="cannot_connect_camera">ကင်မရာသို့ ဆက်သွယ်၍မရပါ။</string>  
+    <string name="camera_disabled">လုံခြုံရေးမူဝါဒများကြောင့် ကင်မရာပိတ်ထားသည်။</string>  
+    <string name="camera_label">ကင်မရာ</string>  
+    <string name="video_camera_label">ဗီဒီယိုကင်မရာနှင့် အသံဖမ်းစက်ပါဝင်သော ကမ်ကော်ဒါ</string>  
+    <string name="gallery_camera_bucket_name">ကင်မရာရုပ်ပုံများ</string>  
+    <string name="gallery_camera_videos_bucket_name">ကင်မရာဗီဒီယိုများ</string>  
+    <string name="wait">စောင့်ဆိုင်းပါ\u2026</string>  
+    <string name="no_storage" product="nosdcard">ကင်မရာအသုံးမပြုမီ USB သိမ်းဆည်းမှုပစ္စည်းအား ကွန်ပျူတာသို့ တင်ပါ။</string>  
+    <string name="no_storage" product="default">ကင်မရာအသုံးမပြုမီ SD ကဒ်ထည့်သွင်းပါ။</string>  
+    <string name="not_enough_space" product="nosdcard">သင့် USB သိမ်းဆည်းမှုပစ္စည်းပြည့်နေပြီ</string>  
+    <string name="not_enough_space" product="default">သင့် SD ကဒ်ပြည့်နေပြီ</string>  
+    <string name="preparing_sd" product="nosdcard">USB သိမ်းဆည်းမှုပစ္စည်းအား ပြင်ဆင်နေဆဲ\u2026</string>  
+    <string name="preparing_sd" product="default">SD ကဒ်ပြင်ဆင်နေဆဲ\u2026</string>  
+    <string name="access_sd_fail" product="nosdcard">USB သိမ်းဆည်းမှုပစ္စည်းထံ ဝင်ရောက်၍မရပါ။</string>  
+    <string name="access_sd_fail" product="default">SD ကဒ်သို့ ဝင်ရောက်၍မရပါ။</string>  
+    <string name="confirm_restore_message">ကင်မရာမူလအဆင်အပြင်များကို ပြန်လည်သိမ်းဆည်းလိုပါသလား?</string>  
+    <string name="review_play">ဖွင့်ပါ</string>  
+    <string name="review_cancel">မလုပ်ပါ</string>  
+    <string name="review_ok">ပြီးပြီ</string>  
+    <string name="review_retake">ပြန်လည်ရိုက်ယူပါ</string>  
+    <string name="camera_gallery_photos_text">ပြခန်း</string>  
+    <string name="time_lapse_title">သတ်မှတ်ထားသော အချိန်အပိုင်းအခြားအတွင်း ရုပ်ပုံအတွဲလိုက်ဖမ်းယူခြင်း</string>  
+    <string name="pref_camera_id_title">ကင်မရာရွေးချယ်ပါ</string>  
+    <string name="pref_camera_id_default" translatable="false">0</string>  
+    <string name="pref_camera_id_entry_back">အနောက်</string>  
+    <string name="pref_camera_id_entry_front">အရှေ့</string>  
+    <string name="pref_camera_recordlocation_title">သိမ်းဆည်းထားသည့်နေရာ</string>  
+    <string name="pref_camera_recordlocation_default" translatable="false">none</string>  
+    <string name="pref_camera_recordlocation_entry_off">ပိတ်ပါ</string>  
+    <string name="pref_camera_recordlocation_entry_on">ဖွင့်ပါ</string>  
+    <string name="pref_video_quality_title">ဗီဒီယိုအရည်အသွေး</string>  
+    <string name="pref_video_quality_default" translatable="false">10</string>  
+    <string name="pref_video_quality_entry_1080p" translatable="false">HD</string>  
+    <string name="pref_video_quality_entry_720p" translatable="false">Fine</string>  
+    <string name="pref_video_quality_entry_480p" translatable="false">SD</string>  
+    <string name="pref_video_time_lapse_frame_interval_title">ရုပ်ပုံအတွဲလိုက်ဖမ်းယူရန် သတ်မှတ်ထားသော အချိန်အပိုင်းအခြား</string>  
+    <string name="pref_video_time_lapse_frame_interval_default" translatable="false">0</string>  
+    <string name="pref_camera_settings_category">ကင်မရာအဆင်အပြင်များ</string>  
+    <string name="pref_camcorder_settings_category">ဗီဒီယိုကင်မရာနှင့် အသံဖမ်းစက်ပါဝင်သောကမ်ကော်ဒါအဆင်အပြင်များ</string>  
+    <string name="pref_camera_picturesize_title">ရုပ်ပုံအရွယ်အစား</string>  
+    <string name="pref_camera_picturesize_entry_2592x1936">5M pixels</string>  
+    <string name="pref_camera_picturesize_entry_2048x1536">3M pixels</string>  
+    <string name="pref_camera_picturesize_entry_1600x1200">2M pixels</string>  
+    <string name="pref_camera_picturesize_entry_1280x960">1.3M pixels</string>  
+    <string name="pref_camera_picturesize_entry_1024x768">1M pixels</string>  
+    <string name="pref_camera_picturesize_entry_640x480">VGA ကွန်ပျူတာ၏ ဂရပ်ဖစ်အရည်အသွေးပြသချက်</string>  
+    <string name="pref_camera_picturesize_entry_320x240">QVGA စမတ်ဖုန်းစသည်တို့တွင် အသုံးပြုသော ကွန်ပျူတာ၏ ဂရမ်ဖစ်အရည်အသွေးပြသချက်</string>  
+    <string name="pref_camera_focusmode_title">ချိန်ရွယ်သည့်ပုံစံ</string>  
+    <string name="pref_camera_focusmode_entry_auto">အလိုအလျောက်</string>  
+    <string name="pref_camera_focusmode_entry_infinity">အဆုံးမရှိ</string>  
+    <string name="pref_camera_focusmode_entry_macro">ညွှန်ကြားချက်အစု</string>  
+    <string name="pref_camera_flashmode_default" translatable="false">auto</string>  
+    <string name="pref_camera_flashmode_no_flash" translatable="false">no_flash</string>  
+    <string name="pref_camera_flashmode_title">ဖလက်ရှ်ပုံစံ</string>  
+    <string name="pref_camera_flashmode_entry_auto">အလိုအလျောက်</string>  
+    <string name="pref_camera_flashmode_entry_on">ဖွင့်ပါ</string>  
+    <string name="pref_camera_flashmode_entry_off">ပိတ်ပါ</string>  
+    <string name="pref_camera_video_flashmode_default" translatable="false">off</string>  
+    <string name="pref_camera_whitebalance_default" translatable="false">auto</string>  
+    <string name="pref_camera_whitebalance_title">အလင်းရောင်ညီမျှရန် ထိန်းညှိချက်</string>  
+    <string name="pref_camera_whitebalance_entry_auto">အလိုအလျောက်</string>  
+    <string name="pref_camera_whitebalance_entry_incandescent">အရောင်တောက်ပစေချက်</string>  
+    <string name="pref_camera_whitebalance_entry_daylight">နေ့ဘက်အလင်းရောင်</string>  
+    <string name="pref_camera_whitebalance_entry_fluorescent">မီးစုန်းအရောင်ဖြစ်စေချက်</string>  
+    <string name="pref_camera_whitebalance_entry_cloudy">တိမ်ထူ</string>  
+    <string name="pref_camera_scenemode_default" translatable="false">auto</string>  
+    <string name="pref_camera_scenemode_title">မြင်ကွင်းပုံစံ</string>  
+    <string name="pref_camera_scenemode_entry_auto">အလိုအလျောက်</string>  
+    <string name="pref_camera_scenemode_entry_action">လှုပ်ရှားစဉ်</string>  
+    <string name="pref_camera_scenemode_entry_night">ည</string>  
+    <string name="pref_camera_scenemode_entry_sunset">နေဝင်ချိန်</string>  
+    <string name="pref_camera_scenemode_entry_party">အလင်းမှိန်မှိန်</string>  
+    <string name="not_selectable_in_scene_mode">မြင်ကွင်းပုံစံတွင် ရွေးချယ်၍မရပါ။</string>  
+    <string name="pref_restore_title">ကင်မရာအဆင်အပြင်များ</string>  
+    <string name="pref_restore_detail">မူလအတိုင်းပြန်လည်သိမ်းဆည်းပါ</string>  
+    <string name="pref_exposure_title">အလင်းဝင်သည့်ပမာဏ</string>  
+    <string name="pref_exposure_default" translatable="false">0</string>  
+    <string name="dialog_ok">လုပ်မည်</string>  
+    <string name="spaceIsLow_content" product="nosdcard">သင့် USB သိမ်းဆည်းမှုပစ္စည်းတွင်နေရာလွတ်သိပ်မကျန်တော့ပါ။ အရည်အသွေးအဆင်အပြင်ပြောင်းပါ သို့မဟုတ် အခြားဖိုင်များရှိ ဖိုင်အချို့ကို ဖျက်ပါ။</string>  
+    <string name="spaceIsLow_content" product="default">သင့် SD ကဒ်တွင် နေရာလွတ်သိပ်မကျန်တော့ပါ။ အရည်အသွေးအဆင်အပြင်ပြောင်းပါ သို့မဟုတ် အခြားဖိုင်များရှိ ဖိုင်အချို့ကို ဖျက်ပါ။</string>  
+    <string name="image_file_name_format" translatable="false">"'IMG'_yyyyMMdd_HHmmss"</string>  
+    <string name="video_file_name_format" translatable="false">"'VID'_yyyyMMdd_HHmmss"</string>  
+    <string name="pano_file_name_format" translatable="false">"'PANO'_yyyyMMdd_HHmmssSSS"</string>  
+    <string name="video_reach_size_limit">အရွယ်အစားကန့်သတ်ချက်ပမာဏသို့ ရောက်ရှိ</string>  
+    <string name="setting_increment" translatable="false">&gt;</string>  
+    <string name="setting_decrement" translatable="false">&lt;</string>  
+    <string name="share_picture_via">မှတစ်ဆင့် ရုပ်ပုံဝေမျှမည်</string>  
+    <string name="share_video_via">မှတစ်ဆင့် ဗီဒီယိုဝေမျှမည်</string>  
+    <string name="no_picture_to_share">ဝေမျှရန် ရုပ်ပုံမရှိပါ။</string>  
+    <string name="no_video_to_share">ဝေမျှရန် ဗီဒီယိုမရှိပါ။</string>  
+    <string name="pano_too_fast_prompt">မြန်လွန်းသည်</string>  
+    <string name="pano_dialog_prepare_preview">မြင်ကွင်းကျယ်ပုံစံပြင်ဆင်နေဆဲ</string>  
+    <string name="pano_dialog_panorama_failed">မြင်ကွင်းကျယ်ပုံစံသိမ်းဆည်း၍မရပါ။</string>  
+    <string name="pano_dialog_title">မြင်ကွင်းကျယ်ပုံစံ</string>  
+    <string name="pano_capture_indication">မြင်ကွင်းကျယ်ပုံစံရိုက်ကူးနေဆဲ</string>  
+    <string name="pano_dialog_waiting_previous">ယခင်မြင်ကွင်းကျယ်ပုံစံစောင့်ဆိုင်းနေဆဲ</string>  
+    <string name="pano_review_saving_indication_str">သိမ်းဆည်းနေဆဲ\u2026</string>  
+    <string name="tap_to_focus">ဆုံချက်ချိန်ရန် ထိပါ</string>  
+    <string name="pref_video_effect_default" translatable="false">none</string>  
+    <string name="pref_video_effect_title">သက်ရောက်မှုများ</string>  
+    <string name="effect_none">ဘာမှမလုပ်ပါ</string>  
+    <string name="effect_goofy_face_squeeze">ကျုံ့စေမည်</string>  
+    <string name="effect_goofy_face_big_eyes">မျက်လုံးကြီးစေမည်</string>  
+    <string name="effect_goofy_face_big_mouth">ပါးစပ်ကြီးစေမည်</string>  
+    <string name="effect_goofy_face_small_mouth">ပါးစပ်သေးစေမည်</string>  
+    <string name="effect_goofy_face_big_nose">နှာခေါင်းကြီးစေမည်</string>  
+    <string name="effect_goofy_face_small_eyes">မျက်လုံးသေးစေမည်</string>  
+    <string name="effect_backdropper_space">အာကာသထဲ</string>  
+    <string name="effect_backdropper_sunset">နေဝင်ချိန်</string>  
+    <string name="effect_backdropper_gallery">သင့်ဗီဒီယို</string>  
+    <string name="not_selectable_in_effect">သက်ရောက်မှုဖွင့်ထားပါက ရွေးချယ်၍မရနိုင်ပါ။</string>  
+    <string name="video_snapshot_hint">ရိုက်ကူးနေစဉ်ဓာတ်ပုံရိုက်ရန် ထိပါ။</string>  
+    <string name="disable_video_snapshot_hint">အထူးသက်ရောက်မှုများဖွင့်ထားပါက လျှပ်တစ်ပြက်ဗီဒီယိုရိုက်ကူးချက်ကို ပိတ်ထားသည်။</string>  
+    <string name="clear_effects">သက်ရောက်မှုများကို ရှင်းလင်းပါ</string>  
+    <string name="effect_silly_faces">အူကြောင်ကြောင်မျက်နှာများ</string>  
+    <string name="effect_background">နောက်ခံ</string>  
+    <string name="accessibility_shutter_button">အလင်းတံခါးခလုတ်</string>  
+    <string name="accessibility_review_thumbnail">နောက်ဆုံးဓာတ်ပုံ</string>  
+    <string name="accessibility_camera_picker">ရှေ့နှင့်နောက်ကင်မရာပြောင်းခြင်း</string>  
+    <string name="accessibility_mode_picker">ကင်မရာ၊ ဗီဒီယို၊ သို့မဟုတ် မြင်ကွင်းကျယ်ပုံစံရွေးချယ်မှု</string>  
+    <string name="accessibility_second_level_indicators">နောက်ထပ်အဆင်အပြင်ထိန်းချုပ်မှုများ</string>  
+    <string name="accessibility_back_to_first_level">အဆင်အပြင်ထိန်းချုပ်မှုများကို ပိတ်ပါ</string>  
+    <string name="accessibility_zoom_control">ချဲ့စက်ထိန်းချုပ်မှု</string>  
+    <string name="accessibility_decrement">လျှော့ပါ %1$s</string>  
+    <string name="accessibility_increment">တိုးပါ %1$s</string>  
+    <string name="accessibility_switch">%1$s ပြောင်းခြင်း</string>  
+
+
+    <string name="empty" translatable="false">" "</string>  
+</resources>

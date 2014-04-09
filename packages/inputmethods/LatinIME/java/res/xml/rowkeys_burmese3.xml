@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge
+    xmlns:latin="http://schemas.android.com/apk/res/com.android.inputmethod.latin">
+    <switch>
+        <case
+            latin:keyboardLayoutSetElement="alphabetManualShifted|alphabetShiftLocked|alphabetShiftLockShifted">
+            <Key latin:keyLabel="&#x1007;" />
+            <Key latin:keyLabel="&#x100C;" />
+            <Key latin:keyLabel="&#x1003;" latin:moreKeys="&#x1070;" />
+            <Key latin:keyLabel="&#x1020;" latin:moreKeys="&#x100B;,&#x100D;" />
+            <Key latin:keyLabel="&#x101A;" />
+            <Key latin:keyLabel="&#x1025;" latin:moreKeys="&#x1026;,&#x104C;" />
+            <Key latin:keyLabel="&#x102B;" latin:moreKeys="&#x106B;" />
+        </case>
+        <default>
+            <Key latin:keyLabel="&#x1016;" latin:moreKeys="&#x1048;,&#x107F;" />
+            <Key latin:keyLabel="&#x1011;" latin:moreKeys="&#xAA6A;,&#xAA69;,&#xAA67;" />
+            <Key latin:keyLabel="&#x1001;" latin:moreKeys="&#x1054;,&#x1055;,&#x1076;,&#x1080;" />
+            <Key latin:keyLabel="&#x101C;" latin:moreKeys="&#x107A;,&#x1047;,&#xAA6E;" />
+            <Key latin:keyLabel="&#x1018;" />
+            <!-- U+102A is bigger than usual word, so we delete it -->
+            <Key latin:keyLabel="&#x100A;" latin:moreKeys="&#x1029;" />
+            <Key latin:keyLabel="&#x102C;" latin:moreKeys="&#x1063;" />
+        </default>
+    </switch>
+</merge>

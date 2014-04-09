@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">    
+    <string name="deleteConfirmation_title" msgid="1418215926447642260">"حذف جهة الاتصال؟"</string>
+    <string name="add_contact_dlg_title" msgid="2896685845822146494">"إضافة جهة اتصال"</string>
+    <string name="no_sdcard_title" product="nosdcard" msgid="8543619259870877473">"وحدة التخزين غير متوفرة."</string>
+    <string name="no_sdcard_title" product="default" msgid="5911758680339949273">"لا بطاقة SD"</string>
+    <string name="searching_vcard_title" msgid="4970508055399376813">"البحث عن vCard"</string>
+    <string name="scanning_sdcard_failed_title" product="nosdcard" msgid="4944932641334764942">"تعذر فحص وحدة التخزين"</string>
+    <string name="scanning_sdcard_failed_title" product="default" msgid="6664940444476572612">"تعذر فحص بطاقة SD"</string>
+    <string name="cancel_import_confirmation_title" msgid="5578683596010294836">"إلغاء استيراد ملف vCard"</string>
+    <string name="cancel_export_confirmation_title" msgid="6516467140276768528">"إلغاء تصدير ملف vCard"</string>
+    <string name="menu_all_contacts" msgid="5101735431586050711">"جميع جهات الاتصال"</string>
+    <string name="search_bar_hint" msgid="1012756309632856553">"البحث في جهات الاتصال"</string>
+    <string name="aggregation_suggestion_join_dialog_title" msgid="5276699501316246253">"ضم جهات الاتصال"</string>
+    <string name="aggregation_suggestion_edit_dialog_title" msgid="1064042382692091314">"تعديل جهات الاتصال المحددة"</string>
+    <string name="cancel_confirmation_dialog_title" msgid="3950463632415908534">"إلغاء التغييرات"</string>
+  <string name = "no_way_to_print">لا يوجد برنامج متاح لطباعة الاسم.</string>
+  <string name = "menu_print">طباعة</string>
+  <string name = "printContact">طباعة بيانات الاسم بواسطة</string>
+
+<!--The following lines are provided and maintained by Mediatek Inc.  -->
+    <!-- The title for multiple selection call log activity -->
+    <string name="selected_item_count">تم تحديد <xliff:g id="count">%d</xliff:g></string>
+    <!-- Menu item used to start call log multiple selection activity -->
+    <string name="recentCalls_delete">"حذف"</string>
+    <string name="menu_selectAll">تحديد الكل</string>
+    <string name="menu_clearAll">"إلغاء تحديد الكل"</string>
+        <!-- Text used to show the dual sim info -->
+    <string name="sim1">SIM1</string>
+    <string name="sim2">SIM2</string>
+    <string name="all_resources">كل المصادر</string>
+    <string name="choose_resources_header">اختيار المصادر</string>
+    <string name="all_tab_label1">"الكل"</string>
+    <string name="call_log_item_count">(<xliff:g id="count">%1$d</xliff:g>)</string>
+
+    <!-- below strings are used by dialpad -->
+    <string name="call_indicator_3g">3G</string>
+    <string name="call_sipcall">"مكالمة عبر الإنترنت"</string>
+    <string name="call_pin_dialog_title">اختر شريحة البطاقة</string>
+    <string name="call_people">الأشخاص</string>
+    <string name="call_ip_dial">"طلب IP "</string>
+    <string name="call_speed_dial">الاتصال السريع</string>
+    <string name="call_video_call">مكالمة فيديو</string>
+    <string name="add_speed_dial">انقر لإضافة الاتصال السريع</string>
+    <string name="speed_dial_added">تم إضافة %1$s (%2$s) إلى الاتصال السريع %3$s</string>
+    <string name="remove_speed_dial">حذف</string>
+    <string name="remove_sd_confirm_1">هل أنت متأكد أنك تريد حذف %1$s (%2$s) من الاتصال السريع %3$s؟</string>
+    <string name="emergencycall">مكالمة طوارئ</string>
+    <string name="imei_invalid">Invalid</string>
+    <!-- Speed Dial phase II -->
+    <string name="sd_add">"إضافة"</string>
+    <string name="reselect_number">الرقم مخصص بالفعل إلى مفتاح اتصال سريع، يرجى تحديد رقمًا آخرًا.</string>
+    <!-- strings are used by dialpad end -->
+    <string name="calllog_today">اليوم</string>
+    <string name="calllog_yesterday">الأمس</string>
+    
+    <!-- strings are used by contact detail -->
+    <string name="menu_association">اقتران بطاقة SIM</string>
+    <string name="menu_remove_association">إزالة اقتران SIM</string>
+    <string name="remove_association_message">هل تريد بالتأكيد إزالة اقتران SIM لهذا الرقم؟</string>
+    <string name="remove_number_title">إزالة</string>  
+    <string name="warning_detail">سيقوم اقتران SIM باستيراد جهة الاتصال إلى الهاتف, هل ترغب في متابعة اقتران SIM؟</string>
+    <string name="associatiated_SIM">"SIM المقترنة"</string>
+    <string name="unassociated">"غير مقترن"</string>
+    <string name="associate_SIM">"اقتران SIM"</string>
+    <string name="block_incoming_call">حجب المكالمات الواردة مباشرة</string>
+    <string name="block_video_incoming_call"></string>
+
+    <!-- Contacts multi-choice string -->
+    <string name="menu_actionbar_selected_items">تم تحديد <xliff:g id="name">%s</xliff:g></string>
+
+       <!-- MTK for edit SIM/USIM contact -->
+    <string name="has_double_phone_number">لا يمكن حفظ رقم من نفس النوع مرتين، يرجى فحص ذلك.</string>
+    <string name="phone_book_busy">قائمة الأسماء مشغولة الآن، يُرجى المحاولة فيما بعد.</string>
+    <string name="sim_invalid">لا يمكن حفظ أحد الأسماء إذا كانت شريحة البطاقة غير سارية. </string>
+    <string name="cannot_insert_null_number">لا يمكن حفظ أحد الأسماء بدون إدخال رقم له.</string>
+    <string name="AirPlane_mode_on">لا يمكن حفظ أحد الأسماء أثناء تشغيل وضعية الطيران.</string>
+    <string name="FDNEnabled">لا يمكن حفظ أحد الأسماء أثناء تشغيل خاصية رقم الاتصال الثابت.</string>
+    <string name="sim_invalid_number">لا يمكن حفظ رقم تم إدخاله بشكل غير صحيح.</string>
+    <string name="email_invalid">لا يمكن حفظ بريد إلكتروني غير صالح.</string>
+    <string name="email_2g_invalid">"لا يمكن حفظ البريد الإلكتروني ببطاقة 2G SIM، يرجى تحديد 3G SIM للحفظ."</string>
+    <string name="sim_invalid_fix_number">لا يمكن حفظ رقم إصلاح غير صالح.</string>
+    <string name="AirPlane_mode_on_edit">لا يمكن تحرير جهة الاتصال عند تشغيل وضع الطيران.</string>
+    <string name="msg_loading_sim_contacts_toast">"جار تحميل جهات اتصال SIM في الخلفية، يرجى الانتظار لحظة."</string>
+    <string name="fix_number_too_long">" رقم إصلاح طويل جدًا"</string>
+    <string name="name_too_long">"الاسم أطول من اللازم"</string>
+    <string name="storage_full">وحدة التخزين ممتلئة.</string>
+    <string name="number_too_long">"الرقم أطول من اللازم."</string>
+    <string name="generic_failure">فشل عام. </string>
+
+    <string name="send_groupsms_no_number_more">"لا تشتمل الكثير من جهات اتصال %1$s و%2$s على رقم هاتف صحيح."</string>
+    <string name="send_groupsms_no_number_1">"لا تشتمل %1$s على رقم هاتف صحيح."</string>
+    <string name="send_groupsms_no_number_2">"لا تشتمل %1$s و%2$s على رقم هاتف صحيح."</string>    
+
+    <!-- Feature Fix by Mediatek Begin -->
+
+    <!-- The local account type to be added, it used to manage SIM contacts. -->
+    <string name="account_type_sim" product="tablet">حساب SIM</string>
+    <!-- The local account type to be added, it used to manage SIM contacts. -->
+    <string name="account_type_sim" product="default">حساب SIM</string>
+
+    <!-- The local account type to be added, it used to manage USIM contacts. -->
+    <string name="account_type_usim" product="tablet">حساب USIM</string>
+    <!-- The local account type to be added, it used to manage USIM contacts. -->
+    <string name="account_type_usim" product="default">حساب USIM</string>
+
+    <!-- The local account type to be added, it used to manage Phone contacts. -->
+    <string name="account_type_local_phone" product="tablet">الحساب المحلي للهاتف</string>
+    <!-- The local account type to be added, it used to manage Phone contacts. -->
+    <string name="account_type_local_phone" product="default">الحساب المحلي للهاتف</string>
+
+
+    <!-- The local account to be added, it used to manage SIM/USIM/PHONE contacts. -->
+    <string name="local_account_type" product="tablet">الحساب المحلي</string>
+    <!-- The local account to be added, it used to manage SIM/USIM/PHONE contacts. -->
+    <string name="local_account_type" product="default">الحساب المحلي</string>
+
+    <!-- The local account to be added, it used to manage SIM/USIM/PHONE contacts settings. -->
+    <string name="local_account_label" product="tablet">الحساب المحلي</string>
+    <!-- The local account to be added, it used to manage SIM/USIM/PHONE contacts settings -->
+    <string name="local_account_label" product="default">الحساب المحلي</string>
+
+    <!-- Title for data source when creating or editing a contact that doesn't
+         belong to a specific account.  This contact will only exist on the SIM Card
+         and will not be synced. -->
+    <string name="account_type_sim_label" product="tablet">SIM فقط، غير متزامنة</string>
+    <!-- Title for data source when creating or editing a contact that doesn't
+         belong to a specific account.  This contact will only exist on the SIM Card
+         and will not be synced. -->
+    <string name="account_type_sim_label" product="default">SIM فقط، غير متزامنة</string>
+
+    <!-- Title for data source when creating or editing a contact that doesn't
+         belong to a specific account.  This contact will only exist on the USIM Card
+         and will not be synced. -->
+    <string name="account_type_usim_label" product="tablet">USIM فقط، غير متزامنة</string>
+    <!-- Title for data source when creating or editing a contact that doesn't
+         belong to a specific account.  This contact will only exist on the USIM Card
+         and will not be synced. -->
+    <string name="account_type_usim_label" product="default">USIM فقط، غير متزامنة</string>
+
+    <!-- below strings are used by contacts group -->
+    <string name="please_wait">يُرجى الانتظار...</string>
+    <string name="move_contacts_to">نقل جهات الاتصال إلى</string>
+    <string name="menu_move_group">"نقل أعضاء المجموعة"</string> 
+    <string name="menu_message_group">"إرسال رسالة مجمعة"</string>
+    <string name="menu_email_group">إرسال بريد إلكتروني للمجموعة</string>    
+    <string name="moving_group_members">"جارٍ نقل أعضاء المجموعة..."</string>
+    <string name="removing_group_members_sucess">"تم حذف أعضاء المجموعة بنجاح"</string>
+    <string name="moving_group_members_sucess">"تم نقل أعضاء المجموعة بنجاح"</string>
+    <string name="moving_group_members_fail">"فشل نقل أعضاء المجموعة "</string>
+    <string name="no_valid_number_in_group">لا تشتمل هذه المجموعة على جهة اتصال برقم هاتف صحيح.</string>
+    <string name="no_valid_email_in_group">لا تشتمل هذه المجموعة على جهة اتصال ببريد إلكتروني.</string>
+    <string name="email_error">يجب تثبيت برنامج البريد الإلكتروني، أو تكوين حسابك!</string>
+	<string name="usim_group_name_exceed_limit">"اسم المجموعة أطول من اللازم للعمل على USIM."</string>
+	<string name="usim_group_count_exceed_limit">"لا يمكن إضافة المزيد من المجموعات الجديدة إلى USIM."</string>
+    <!-- below strings are used by contacts import/export -->
+    <string name="import_export_title">"استيراد/تصدير"</string>
+    <string name="next">التالي</string>
+    <string name="imexport_bridge_sd_card">بطاقة SD</string>
+    <string name="tips_source">نسخ جهات الاتصال من</string>    
+    <string name="tips_target">نسخ جهات الاتصال إلى</string>
+    <string name="back">رجوع</string>
+    <string name="imexport_title">استيراد/تصدير جهات الاتصال</string>
+    <!-- Feature Fix by Mediatek End -->
+
+
+    <!-- Title when popup ContactEditorAccountsChangedActivity's dialog -->
+    <string name="store_contact_to">حفظ جهة الاتصال إلى</string>
+
+    <!-- strings are used by people activity -->
+    <string name="menu_delete_contact">"حذف جهة الاتصال"</string>
+    
+    <!-- string for multiple choice -->
+
+    <string name="notifier_finish_delete_title">نجاح حذف جهات الاتصال</string>
+    <string name="notifier_finish_delete_content">تم حذف <xliff:g id="total">%d</xliff:g> جهة اتصال </string>
+
+    <string name="notifier_finish_copy_title">نجاح نسخ جهات الاتصال</string>
+    <string name="notifier_finish_copy_content">تم نسخ 
+        <xliff:g id="total">%d</xliff:g> جهة اتصال
+    </string>
+
+    <string name="notifier_multichoice_process_report">تم: 
+        <xliff:g id="items">%d</xliff:g>\nتعذر إتمام: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>
+
+    <string name="notifier_failure_by_sim_full">فشل بسبب امتلاء ذاكرة SIM\nتم: 
+        <xliff:g id="items">%d</xliff:g>\nتعذر إتمام: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>
+    <string name="notifier_failure_sim_notready">فشل بسبب عدم جاهزية SIM \nتم: 
+        <xliff:g id="items">%d</xliff:g>\nتعذر إتمام: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>
+
+    <string name="notifier_cancel_delete_title">تم إلغاء حذف جهات الاتصال</string>
+    <string name="notifier_fail_delete_title">فشل إلغاء حذف جهات الاتصال</string>
+
+    <string name="notifier_cancel_copy_title">تم إلغاء نسخ جهات الاتصال</string>
+    <string name="notifier_fail_copy_title">فشل إلغاء نسخ جهات الاتصال</string>
+
+    <string name="notifier_progress_delete_message">حذف 
+        <xliff:g id="current_number">%s</xliff:g>/ 
+        <xliff:g id="total_number">%s</xliff:g>: 
+        <xliff:g id="name" example="JoeDue">%s</xliff:g> 
+    </string> 
+    <string name="notifier_progress_delete_description">حذف 
+        <xliff:g id="name" example="JoeDue">%s</xliff:g> 
+    </string>
+
+    <string name="notifier_progress_copy_message">نسخ 
+        <xliff:g id="current_number">%s</xliff:g>/ 
+        <xliff:g id="total_number">%s</xliff:g>: 
+        <xliff:g id="name" example="JoeDue">%s</xliff:g> 
+    </string> 
+    <string name="notifier_progress_copy_description">نسخ 
+        <xliff:g id="name" example="JoeDue">%s</xliff:g> 
+    </string>
+
+    <string name="multichoice_confirmation_title_delete">إلغاء حذف جهات الاتصال</string>
+    <string name="multichoice_confirmation_message_delete">هل ترغب في إلغاء حذف جهات الاتصال؟</string>
+
+    <string name="multichoice_confirmation_title_copy">إلغاء نسخ جهات الاتصال</string>
+    <string name="multichoice_confirmation_message_copy">هل ترغب في إلغاء نسخ جهات الاتصال؟</string>
+    
+      <!-- The toast title when storage is full -->
+    <string name="phone_storage_full_create">ذاكرة تخزين الهاتف ممتلئة؛ لذا يتعذر إنشاء جهة اتصال جديدة.</string>
+    <string name="phone_storage_full_edit">ذاكرة تخزين الهاتف ممتلئة؛ لذا يتعذر تحرير جهة الاتصال.</string>
+    <!-- Displayed at the top of the call log search, showing the total number of call logs found in call log search result page -->
+    <plurals name="searchFoundCalllogs">
+        <item quantity="one">1 سجل مكالمات</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> سجلات مكالمات</item>
+    </plurals>
+        
+    <string name="search_results_for">"نتائج البحث عن: <xliff:g id="QUERY">%s</xliff:g>"</string>
+    <string name="listFoundAllCalllogZero">لم يتم العثور على سجل المكالمات</string>
+    
+    <string name="calllogList">سجل المكالمات</string>
+    <string name="calllogHint">بحث سجل المكالمات</string>
+    <string name="calllog_description">المكالمات الواردة والصادرة والفائتة.</string>
+    <string name="noMatchingCalllogs">لم يتم العثور على سجل مكالمات مطابق.</string>
+  
+    <string name="menu_videocallNumber">مكالمة فيديو \u202D%s\u202C</string>
+    <string name="menu_ipcallNumber">اتصال IP من 
+        <xliff:g id="name">%s</xliff:g> 
+    </string>
+    
+    <string name="deleting_call_log">جار حذف سجل الاتصالات...</string>
+
+    <!-- The previous lines are provided and maintained by Mediatek Inc. -->
+    
+    <!-- missing voicemail number -->
+    <!-- Title of the "Missing voicemail number" dialog -->
+    <string name="no_vm_number">رقم البريد الصوتي الفائت</string>
+    <!-- Body text of the "Missing voicemail number" dialog -->
+    <string name="no_vm_number_msg">لا يوجد رقم للبريد الصوتي مسجل على شريحة البطاقة.</string>
+    <!-- Button label on the "Missing voicemail number" dialog -->
+    <string name="add_vm_number_str">إضافة رقم</string>
+    
+    <string name="reminder">تذكير</string>
+    <string name="enable_sip_dialog_message">تم تعطيل مكالمة الإنترنت، هل ترغب في تمكينها؟</string>
+
+    <!-- The toast title for add SIP No. to SIM/USIM contact -->
+    <string name="add_SIP_to_sim">لا يمكن إضافة رقم SIP لجهة اتصال SIM/USIM.</string>
+    <!-- The toast title fot if there has SIP No. can't add new -->
+    <string name="already_has_SIP">لا يمكن إضافة رقمين SIP لجهة الاتصال، إن أردت المتابعة. يرجى حذف رقم SIP القديم أولاً.</string>
+
+    <string name="multichoice_no_select_alert">"لم يتم تحديد أي عنصر."</string>
+    <string name="multichoice_delete_confirm_message">"هل أنت متأكد أنك تريد حذف الاسم (الأسماء) المختار؟"</string>
+    <string name="multichoice_delete_confirm_title">"جاري حذف الاسم (الأسماء)"</string>
+
+    <string name="name_needed">"يتطلب إدخال الاسم"</string>
+    <string name="save_group_fail">تعذر حفظ المجموعة.</string>
+    <string name="group_name_exists">اسم المجموعة موجود بالفعل.</string>
+    <string name="sum_search_networks">"البحث عن كل الشبكات المتاحة"</string>    
+    <string name="notifier_progress__delete_will_start_message">سيتم حذف جهات الاتصال بعد قليل.</string>  
+    <string name="notifier_progress__copy_will_start_message">سيتم نسخ جهات الاتصال بعد قليل.</string>
+    
+    <string name="remove_sd_confirm_2">هل أنت متأكد من رغبتك في إزالة 
+        <xliff:g id="contact_name">%1$s</xliff:g> من خاصية الاتصال السريع 
+        <xliff:g id="key">%2$s</xliff:g>؟
+    </string>  
+    <string name="callFailed_simError">لا يوجد SIM أو خطأ SIM</string>  
+    <string name="group_discard_member">تجاهل</string>  
+    <string name="group_discard_member_reason">سيتم تجاهل التعديلات لأن اسم المجموعة غير صالح.</string>  
+    <string name="share_contacts_limit">"لا يمكن أن تتجاوز جهات الاتصال المحددة للمشاركة 3500"</string>  
+    <string name="contact_delete_all_tips">"هناك بالفعل عملية حذف جهة اتصال قيد التشغيل في الخلفية، يرجى إلغاؤها أولاً، إذا كنت ترغب في بدء عملية حذف جهة اتصال جديدة."</string>
+
+	<string name="turn_on_3g_service_message">"خدمة 3G قيد الإيقاف الآن، هل ترغب في تشغيلها؟"</string>
+    <string name="associate_sim_missing_message">بطاقة %1$s SIM غير متاحة. هل ترغب في إجراء المكالمة عبر %2$s"</string>
+    <string name="associate_sim_missing_other">أخرى</string>
+    <string name="sim_manage_call_via">اتصال عبر</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">يرجى إدخال رقم IP المبدئي في إعدادات المكالمات الصوتية.</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">لا تتوفر وظيفة طلب IP مع مكالمة الإنترنت.</string>
+    <string name="email_too_long">البريد الإلكتروني طويل للغاية</string> 
+    <string name="deleteCallLogConfirmation_title">هل تريد حذف سجل (سجلات) المكالمات؟</string>  
+    <string name="deleteCallLogConfirmation_message">هل تريد بالفعل حذف سجل (سجلات) المكالمات المحددة؟</string>
+    <!-- The previous lines are provided and maintained by Mediatek Inc. -->
+    <!--The following lines are provided and maintained by Mediatek Inc. 2012-5-16-->  
+    <string name="delete_group_failure">فشل حذف مجموعة.</string>  
+    <!-- The previous lines are provided and maintained by Mediatek Inc. -->
+    
+      <string name="from_account_format"> 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="source" example="user@gmail.com">%1$s</xliff:g> 
+    </string>
+  <string name="speed_dial_added2"> 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="contact_name">%1$s</xliff:g> إضافة إلى الاتصال السريع 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="key">%2$s</xliff:g> 
+    </string>
+  <string name="call_log_filter_all_resources">كل المصادر</string>
+  <string name="multichoice_contacts_limit">"يتعذر تجاوز جهات الاتصال المحددة عن 3500"</string>
+  <string name="file_already_on_sd_card">الملف موجود بالفعل في بطاقة SD.</string>
+  <string name="send_file_sms_error">تعذر مشاركة الملف مع SMS، لذا يرجى استخدام MMS.</string>
+  <string name="error_save_usim_contact_email_lost">"فشل حفظ عنوان البريد الإلكتروني نظرًا لاكتمال ذاكرة تخزين USIM للبريد الإلكتروني".</string>
+  <string name="error_import_usim_contact_email_lost">"فشل استيراد عناوين البريد الإلكتروني الخاصة ببعض جهات الاتصال بسبب امتلاء وحدة تخزين USIM الخاصة بالبريد الإلكتروني. \nتم: 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="items">%d</xliff:g>\nلم يتم: 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="items">%d</xliff:g>"
+    </string>
+  <string name="user_profile_cannot_sd_card">لا يمكن مشاركة المحتوى بهذه الطريقة.</string>
+  <string name="call_sms">SMS</string> 
+  <string name="contact_group_list_title">"اختر المجموعة المستهدفة"</string> 
+    <string name="import_no_vcard_dialog_text">لم يتم العثور على ملف vCard في 
+        <xliff:g id="storage_name">%s</xliff:g>
+    </string> 
+
+  <string name="send_groupemail_no_number_more">"يوجد في %1$s و%2$s جهات اتصال كثيرة ليس لها بريد إلكتروني صالح."</string>
+  <string name="send_groupemail_no_number_1">"%1$s ليس بها بريد إلكتروني صالح."</string>
+  <string name="send_groupemail_no_number_2">"لا يوجد في %1$s و%2$s بريد إلكتروني صالح."</string>
+  <string name="createContactShortcutSuccessful">تم إضافة الأداة البرمجية لجهات الاتصال إلى الشاشة الرئيسية.</string>
+  <string name="notification_action_voicemail_play">تشغيل</string>
+  <string name="send_message">إرسال رسالة</string>
+  <string name="type_ip_outgoing">المكالمة الصادرة لعنوان IP ‏( 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="name">%s</xliff:g>)‏
+    </string>
+  <string name="call_log_auto_rejected_label">المكالمات المرفوضة تلقائيًا</string>
+  <string name="look_simstorage">عرض سعة بطاقة SIM</string>
+    <string name="dlg_simstorage_content">سعة ذاكرة تخزين دفتر أرقام الهاتف 
+        <xliff:g id="items">%d</xliff:g>، وتم استخدام 
+        <xliff:g id="items">%d</xliff:g>.
+    </string>
+  <string name="delete_group_dialog_title" msgid="7368429698398624427">"حذف المجموعة"</string>
+  <string name="dialog_phone_call_prohibited_title" msgid="2111395432187079579">"لم يتم إرسال المكالمة"</string>
+  <string name="dialog_voicemail_not_ready_title" msgid="7258109862329777060">"رقم البريد الصوتي غير متاح"</string>
+
+  <string name="nickname_too_long">"الكنية طويلة للغاية."</string>
+    <string name="pick_new_photo_from_gallery">حدد صورة جديدة</string>  
+    <string name="copy_text_to_dialer">نسخة إلى المتصل</string> 
+    <string name="account_phone_only" product="tablet">"الجهاز اللوحي"</string>  
+    <string name="account_phone_only" product="default">"الهاتف"</string>  
+
+    <string name="international_dialing_title">مساعد الاتصال الدولي</string>
+    <string name="international_dialing_select_country">تم اكتشاف قيامك بإجراءمكالمة دولية. يُرجى اختيار الوجهة.</string>
+    <string name="international_dialing_add_country_code">تم اكتشافقيامك بالاتصال برقم <xliff:g id="country_name">%s</xliff:g>. هل ترغب في إضافة رمز البلد (+<xliff:g id="country_code">%s</xliff:g>)</string>
+    <string name="international_dialing_add_country_code_and_area_code">تم اكتشاف\قيامك بالاتصال\ برقم في <xliff:g id="area_name">%1$s</xliff:g>, <xliff:g id="country_name">%2$s</xliff:g>. هل ترغب في إضافة رمز البلد ورمز المنطقة (+<xliff:g id="prefix">%3$s</xliff:g>)?</string> 
+    <string name="international_dialing_change_country_prefix">تم اكتشاف\قيامك بالاتصال\ من <xliff:g id="country_name">%s</xliff:g>. هل تريد تغيير بادئة الاتصال الدولي إلى \'+\'?</string>
+    <string name="international_dialing_add_country_code_input_area_code">تم اكتشاف\قيامك بالاتصال\ برقم في <xliff:g id="country_name">%s</xliff:g>. إن كان الأمر كذلك، يُرجى إدخال رمز المنطقة.</string>   
+    <string name="international_dialing_add_country_code_default_input_area_code">تم اكتشاف\قيامك بالاتصال\ برقم في <xliff:g id="country_name">%s</xliff:g>. إن لم تكن مدينتك المقصودة هي <xliff:g id="area_name">%s</xliff:g>, يُرجى إدخال رمز المنطقة.</string>
+    <string name="international_dialing_need_area_code">يجب إدخال رمز المنطقة في المدينة المقصودة لإتمام إجراء المكالمة.</string>
+    <string name="international_dialing_input_area_code">أدخِل رمز المنطقة هنا</string>
+    <string name="international_dialing_dialed_number">رقم الاتصال:</string>
+    <string name="international_dialing_confirm_area_code">إن لم تكن مدينتك المقصودة هي <xliff:g id="area_name">%s</xliff:g>, يُرجى إدخال رمز المنطقة في المدينة المقصودة أدناه.</string>
+    <string name="international_dialing_dial_with_country_code">اتصل باستخدام رمز البلد</string>
+    <string name="international_dialing_click_below_button">انقر فوق الزر أدناه لتغيير رقم رمز البلد.</string>
+    <string name="international_dialing_yes">نعم. استخدم الرقم أدناه:</string>
+    <string name="international_dialing_no">لا. استخدم الرقم الأصلي:</string>
+    <string name="international_dialing_call_button">"اتصال"</string>
+    <string name="international_dialing_area_code">رمز المنطقة</string>
+    <string name="international_dialing_invalid_number">الرقم غير صحيح. هل ترغب في متابعة الاتصال على أية حال؟</string>
+    <string name="international_dialing_add_country_code_and_area_code_without_prefix">هل ترغب في إضافة رمز البلد ورمز المنطقة؟</string>
+    <string name="share_too_large">تم تجاوز الحد الأقصى لإجمالي البيانات، يرجى إلغاء تحديد بعض العناصر وإعادة المحاولة.</string>
+
+</resources>

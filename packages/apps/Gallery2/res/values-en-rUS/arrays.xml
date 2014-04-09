@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <!-- add for ICS porting -->  
+    <string-array name="proxy_error"> 
+        <item>Host field can not be empty</item>  
+        <item>Port field can not be empty</item>  
+        <item>Invalid host</item>  
+        <item>Invalid port</item> 
+    </string-array> 
+</resources>

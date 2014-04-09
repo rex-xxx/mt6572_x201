@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="short_app_name">মুভি স্টুডিও</string>  
+    <string name="full_app_name">এনড্রোয়েড মুভি স্টুডিও</string>  
+    <!-- Displayed in the center of the activity while a project is loading. -->  
+    <string name="editor_loading_project">প্রকল্প লোড হচ্ছে...</string>  
+    <!-- Displayed in the center of the activity if a project could not be loaded. -->  
+    <string name="editor_no_project">কোন প্রকল্প পাওয়া যায়নি</string>  
+    <!-- Menu text displayed for adding new media item. -->  
+    <string name="editor_add">যোগ করুন</string>  
+    <!-- Menu item used to launch the Gallery video clip picker. -->  
+    <string name="editor_import_video">ভিডিও ক্লিপ আমদানি করুন</string>  
+    <!-- Menu item used to launch the Gallery image picker. -->  
+    <string name="editor_import_image">ছবি আমদানি করুন</string>  
+    <!-- Menu item used to launch the Music song picker. -->  
+    <string name="editor_import_audio">গান আমদানি করুন</string>  
+    <!-- Menu item used to share the movie (e.g. to YouTube). -->  
+    <string name="editor_share_movie">সিনেমা বিনিময় করুন</string>  
+    <!-- Menu item used to export the movie. -->  
+    <string name="editor_export_movie">সিনেমা রপ্তানি করুন</string>  
+    <!-- Menu item used to play the exported movie. -->  
+    <string name="editor_play_exported_movie">রপ্তানিকৃত সিনেমা চালু করুন</string>  
+    <!-- Menu item used to change the aspect ratio of the movie. -->  
+    <string name="editor_change_aspect_ratio">অ্যাসপেক্ট অনুপাত পরিবর্তন করুন</string>  
+    <!-- Menu item used to change the project name. -->  
+    <string name="editor_edit_project_name">প্রকল্পের নাম পরিবর্তন করুন</string>  
+    <!-- Menu item used to delete the project. -->  
+    <string name="editor_delete_project">প্রকল্প মুছে ফেলুন</string>  
+    <!-- Menu item for capturing a new video clip. -->  
+    <string name="editor_capture_video">ভিডিও রেকর্ড করুন</string>  
+    <!-- Menu item for capturing a new image. -->  
+    <string name="editor_capture_image">ছবি তুলুন</string>  
+    <!-- Text displayed in the delete project confirmation dialog. -->  
+    <string name="editor_delete_project_question">আপনি কি এই প্রকল্পটি মুছে ফেলতে চান?</string>  
+    <!-- Text displayed in the playback widget to indicate the current playhead time position [CHAR_LIMIT=11] -->  
+    <string name="editor_zero_time_stamp">00:00:00.0</string>  
+    <!-- Text displayed in the remove audio track confirmation dialog. -->  
+    <string name="editor_remove_audio_track_question">আপনি কি এই অডিও ট্র্যাকটি সরিয়ে ফেলতে চান?</string>  
+    <!-- Menu header of title overlay menu. -->  
+    <string name="editor_title_menu_header">শিরোনাম</string>  
+    <!-- Menu item used to add a new title (overlay title). -->  
+    <string name="editor_add_overlay">শিরোনাম যোগ করুন</string>  
+    <!-- Menu item used to change the overlay title. -->  
+    <string name="editor_edit_overlay">শিরোনাম সম্পাদনা করুন</string>  
+    <!-- Menu item used to remove a title (overlay title). -->  
+    <string name="editor_remove_overlay">শিরোনাম সরিয়ে ফেলুন</string>  
+    <!-- Text displayed in the remove overlay confirmation dialog. -->  
+    <string name="editor_remove_overlay_question">আপনি কি এই ওভারলে সরিয়ে ফেলতে চান?</string>  
+    <!-- Menu item used to change the rendering mode. Launches a single choice dialog. -->  
+    <string name="editor_change_rendering_mode">রেন্ডারিং মোড পরিবর্তন করুন</string>  
+    <!-- Text displayed in the remove transition confirmation dialog. -->  
+    <string name="editor_remove_transition_question">আপনি কি এই ট্রানজিশনটি সরিয়ে ফেলতে চান?</string>  
+    <!-- Text displayed in the remove effect confirmation dialog. -->  
+    <string name="editor_remove_effect_question">আপনি কি এই ইফেক্টটি সরিয়ে ফেলতে চান?</string>  
+    <!-- Text displayed in the remove video clip confirmation dialog. -->  
+    <string name="editor_remove_video_question">আপনি কি এই ভিডিও ক্লিপটি সরিয়ে ফেলতে চান?</string>  
+    <!-- Text displayed in the remove image confirmation dialog. -->  
+    <string name="editor_remove_image_question">আপনি কি এই ছবিটি সরিয়ে ফেলতে চান?</string>  
+    <!-- Text displayed as the header of effect menu. -->  
+    <string name="editor_effect_menu_header">ইফেক্ট</string>  
+    <!-- Menu item used to add an effect. -->  
+    <string name="editor_add_effect">ইফেক্ট যোগ করুন</string>  
+    <!-- Menu item used to change an effect type and/or duration. -->  
+    <string name="editor_change_effect">ইফেক্ট পরিবর্তন করুন</string>  
+    <!-- Menu item used to remove an effect. -->  
+    <string name="editor_remove_effect">ইফেক্ট সরিয়ে ফেলুন</string>  
+    <!-- Menu item text for effect pan zoom. -->  
+    <string name="editor_pan_zoom_effect">প্যান জুম</string>  
+    <!-- Menu item text for effect gradient. -->  
+    <string name="editor_gradient_effect">গ্রেডিয়েন্ট</string>  
+    <!-- Menu item text for effect sepia. -->  
+    <string name="editor_sepia_effect">সেপিয়া</string>  
+    <!-- Menu item text for effect negative. -->  
+    <string name="editor_negative_effect">ঋণাত্বক</string>  
+    <!-- Menu item text for no effect. -->  
+    <string name="editor_no_effect">কোন ইফেক্ট নেই</string>  
+    <!-- Menu item used to add a transition at the beginning of the image or video clip. -->  
+    <string name="editor_add_begin_transition">ক্লিপে ট্রানজিশন</string>  
+    <!-- Menu item used to add a transition at the end of the image or video clip. -->  
+    <string name="editor_add_end_transition">ট্রানজিশন আউট অব ক্লিপ</string>  
+    <!-- Menu item used to change a transition type and/or duration. -->  
+    <string name="editor_change_transition">ট্রানজিশন পরিবর্তন করুন</string>  
+    <!-- Toast message used when a video clip needs to be downloaded before it can be used -->  
+    <string name="editor_video_load">ভিডিও ক্লিপ ডাউনলোড করা শুরু হয়েছে । যখন এটি শেষ হবে তখন আপনাকে অবগত করা হবে ।</string>  
+    <!-- Toast message used when an image needs to be downloaded before it can be used -->  
+    <string name="editor_image_load">ছবি ডাউনলোড করা শুরু হয়েছে। যখন এটি শেষ হবে তখন আপনাকে অবগত করা হবে ।</string>  
+    <!-- The title displayed in the contextual action bar when a transition is selected. -->  
+    <string name="editor_transition_title">ট্রানজিশন</string>  
+    <!-- Audio tracks -->  
+    <!-- Enable looping for the audio track. -->  
+    <string name="editor_enable_loop_audio_track">লুপ</string>  
+    <!-- Disable looping for the audio track. -->  
+    <string name="editor_disable_loop_audio_track">লুপ করবেন না ।</string>  
+    <!-- Mute the audio track. -->  
+    <string name="editor_mute">শব্দ বন্ধ করুন</string>  
+    <!-- Unmute the audio track. -->  
+    <string name="editor_unmute">শব্দ চালু করুন</string>  
+    <!-- Text displayed in menu for ducking (lower background music volume
+         if there is sound in foreground) [CHAR LIMIT = 20]-->  
+    <string name="audio_track_menu_duck">পানিতে চোবানো হচ্ছে</string>  
+    <!-- Project picker -->  
+    <!-- Text displayed in the project picker new project option [CHAR_LIMIT=18]-->  
+    <string name="projects_new_project">নতুন প্রকল্প তৈরি করুন</string>  
+    <!-- Text displayed in the project name dialog title. -->  
+    <string name="projects_project_name">প্রকল্পের নাম</string>  
+    <!-- Aspect ratio labels -->  
+    <!-- Menu item aspect ratios are displayed in a single item select dialog. -->  
+    <string name="aspect_ratio_11_9">11 x 9</string>  
+    <string name="aspect_ratio_16_9">16 x 9</string>  
+    <string name="aspect_ratio_3_2">3 x 2</string>  
+    <string name="aspect_ratio_4_3">4 x 3</string>  
+    <string name="aspect_ratio_5_3">5 x 3</string>  
+    <!-- Error messages -->  
+    <!-- Error message displayed in a toast if a project cannot be created because the storage is not accessible. -->  
+    <string name="editor_storage_not_available">প্রকল্প তৈরি করা যায়নি । সংরক্ষানাগারে প্রবেশ করা যাচ্ছে না ।</string>  
+    <!-- Error message displayed in a toast if a project cannot be created. -->  
+    <string name="editor_create_error">একটি ভুল হয়েছে । প্রকল্প তৈরি করা যায়নি ।</string>  
+    <!-- Error message displayed in a toast if a project cannot be loaded. -->  
+    <string name="editor_load_error">একটি ভুল হয়েছে । প্রকল্প লোড করা যাচ্ছে না । আপনি কি এই প্রকল্পটি মুছে ফেলতে চান?</string>  
+    <!-- Error message displayed in a toast if the aspect ratio cannot be changed. -->  
+    <string name="editor_aspect_ratio_error">অ্যাসপেক্ট অনুপাত পরিবর্তন করা যায়নি ।</string>  
+    <!-- Error message displayed in a toast if a theme cannot be applied. -->  
+    <string name="editor_apply_theme_error">বিষয়বস্তু প্রয়োগ করা যায়নি ।</string>  
+    <!-- Error message displayed in a toast if a movie cannot be applied. -->  
+    <string name="editor_export_error">একটি ভুল হয়েছে । সিনেমাটি রপ্তানি করা যায়নি ।</string>  
+    <!-- Error message displayed in a toast if a project cannot be saved. -->  
+    <string name="editor_saved_error">প্রকল্পটি সংরক্ষণ করা যায়নি ।</string>  
+    <!-- Error message displayed in a toast if an error had occurred while releasing the project. -->  
+    <string name="editor_release_error">প্রকল্প ছাড়ার সময় একটি ভুল হয়েছে ।</string>  
+    <!-- Error message displayed in a toast if an error had occurred while releasing the project. -->  
+    <string name="editor_delete_error">প্রকল্প মুছে ফেলার সময় একটি ভুল হয়েছে ।</string>  
+    <!-- Error message displayed in a toast if an error occurs if a video clip cannot be added to the project. -->  
+    <string name="editor_add_video_clip_error">আপনার প্রকল্পে ভিডিও ক্লিপ যোগ করা যায়নি ।</string>  
+    <!-- Error message displayed in a toast if an error occurs if an image cannot be added to the project. -->  
+    <string name="editor_add_image_error">আপনার প্রকল্পে ছবিটি যোগ করা যায়নি ।</string>  
+    <!-- Error message displayed in a toast if video clip or an image cannot be moved in the timeline. -->  
+    <string name="editor_move_media_item_error">আইটেমটি সরানো যায়নি ।</string>  
+    <!-- Error message displayed in a toast if video clip or image cannot be removed from the timeline. -->  
+    <string name="editor_remove_media_item_error">আইটেমটি সরানো যাবে না ।</string>  
+    <!-- Error message displayed in a toast if the rendering mode of an image/video clip cannot be changed. -->  
+    <string name="editor_set_rendering_mode_error">রেন্ডারিং মোড সেট করা যায়নি ।</string>  
+    <!-- Error message displayed in a toast if the image duration cannot be changed. -->  
+    <string name="editor_set_media_item_duration_error">ছবির ব্যাপ্তিকাল সেট করা যায়নি ।</string>  
+    <!-- Error message displayed in a toast if a video clip cannot be trimmed. -->  
+    <string name="editor_set_media_item_boundaries_error">ভিডিও ক্লিপের সীমানা সেট করা যায়নি ।</string>  
+    <!-- Error message displayed in a toast if a transition cannot be added. -->  
+    <string name="editor_add_transition_error">ট্রানজিশন যোগ করা যাবে না ।</string>  
+    <!-- Error message displayed in a toast if a transition cannot be removed. -->  
+    <string name="editor_remove_transition_error">ট্রানজিশন সরানো যাবে না ।</string>  
+    <!-- Error message displayed in a toast if a transition duration cannot be changed. -->  
+    <string name="editor_set_transition_duration_error">ট্রানজিশনের ব্যাপ্তিকাল সেট করা যায়নি ।</string>  
+    <!-- Error message displayed in a toast if an overlay cannot be added. -->  
+    <string name="editor_add_overlay_error">ওভারলে যোগ করা যাবে না।</string>  
+    <!-- Error message displayed in a toast if an overlay cannot be removed. -->  
+    <string name="editor_remove_overlay_error">ওভারলে সরানো যাবে না ।</string>  
+    <!-- Error message displayed in a toast if an overlay duration cannot be changed. -->  
+    <string name="editor_set_duration_overlay_error">ওভারলের ব্যাপ্তিকাল সেট করা ছিল না ।</string>  
+    <!-- Error message displayed in a toast if an overlay start time cannot be changed. -->  
+    <string name="editor_set_start_time_overlay_error">ওভারলের শুরুর সময় সেট করা ছিল না ।</string>  
+    <!-- Error message displayed in a toast if an overlay text cannot be changed. -->  
+    <string name="editor_set_user_attributes_overlay_error">ওভারলের গুণাগুণ সেট করা যায়নি ।</string>  
+    <!-- Error message displayed in a toast if an effect cannot be added. -->  
+    <string name="editor_add_effect_error">ইফেক্ট যোগ করা যাবে না ।</string>  
+    <!-- Error message displayed in a toast if an effect cannot be removed. -->  
+    <string name="editor_remove_effect_error">ইফেক্ট সরানো যাবে না ।</string>  
+    <!-- Error message displayed in a toast if an audio track cannot be added. -->  
+    <string name="editor_add_audio_track_error">অডিও ট্র্যাক যোগ করা যাবে না।</string>  
+    <!-- Error message displayed in a toast if an audio track cannot be removed. -->  
+    <string name="editor_remove_audio_track_error">অডিও ট্র্যাক সরানো যাবে না ।</string>  
+    <!-- Error message displayed in a toast if an audio track cannot be trimmed. -->  
+    <string name="editor_set_audio_track_boundaries_error">অডিও ট্র্যাক বিন্যস্ত করা যাবে না ।</string>  
+    <!-- Error message displayed in a toast if a transition cannot be added. -->  
+    <string name="editor_transition_too_short">ট্রানজিশন যোগ করা যায়নি । ট্রানজিশন খুবই সংক্ষিপ্ত হয়ে যাবে ।</string>  
+    <!-- Error message displayed in a toast when a video clip or an image cannot be downloaded. -->  
+    <string name="editor_media_load_error">ফাইল ডাউনলোড করা যায়নি ।</string>  
+    <!-- Error message displayed in a toast if a project cannot be previewed. -->  
+    <string name="editor_preview_error">একটি ভুল হয়েছে । প্রকল্পটি প্রাকবীক্ষণ করা যায়নি ।</string>  
+    <!-- Export options dialog-->  
+    <!-- The title of the export dialog. -->  
+    <string name="export_dialog_export">রপ্তানি করুন</string>  
+    <!-- The label of the movie size spinner. -->  
+    <string name="export_dialog_movie_size">সিনেমার আয়তন</string>  
+    <!-- The label of the movie quality spinner. -->  
+    <string name="export_dialog_movie_quality">সিনেমার মান</string>  
+    <!-- The low quality option. -->  
+    <string name="export_dialog_movie_quality_low">নিম্ন</string>  
+    <!-- The medium quality option. -->  
+    <string name="export_dialog_movie_quality_medium">মাঝারি</string>  
+    <!-- The high quality option. -->  
+    <string name="export_dialog_movie_quality_high">উচ্চ</string>  
+    <!-- Pan and zoom activity-->  
+    <!-- The title of the Pan & zoom activity. -->  
+    <string name="pan_zoom_title">প্যান ও জুম ইফেক্ট</string>  
+    <!-- The label for the start rectangle checkbox. -->  
+    <string name="pan_zoom_start">শুরু করুন</string>  
+    <!-- The label for the end rectangle checkbox. -->  
+    <string name="pan_zoom_end">সমাপ্ত</string>  
+    <string name="pan_zoom_small_image_error">প্যান ও জুমের ইফেক্ট এই ছবিতে প্রয়োগ করা যায়নি । ছবিটি খু্বই ছোট ।</string>  
+    <!-- Themes names and titles-->  
+    <!-- The label/name for Theme 1. -->  
+    <string name="theme_name_travel">ভ্রমণ</string>  
+    <!-- The sample title for Theme 1. -->  
+    <string name="theme_travel_title">ক্যালিফোর্নিয়াতে আমার ভ্রমণ</string>  
+    <!-- The sample subtitle for Theme 1. -->  
+    <string name="theme_travel_subtitle">সান ফ্রানসিসকো</string>  
+    <!-- The label/name for Theme 2. -->  
+    <string name="theme_name_surfing">সার্ফিং করা</string>  
+    <!-- The sample title for Theme 2. -->  
+    <string name="theme_surfing_title">আমার রোমাঞ্চকর সার্ফিং</string>  
+    <!-- The sample subtitle for Theme 2. -->  
+    <string name="theme_surfing_subtitle">এসএফ বে</string>  
+    <!-- The label/name for Theme 3. -->  
+    <string name="theme_name_film">ফিল্ম</string>  
+    <!-- The sample title for Theme 3. -->  
+    <string name="theme_film_title">আমার সংক্ষিপ্ত সিনেমা</string>  
+    <!-- The sample subtitle for Theme 3. -->  
+    <string name="theme_film_subtitle">সাগরে বিনোদন</string>  
+    <!-- The label/name for Theme 4. -->  
+    <string name="theme_name_rock_and_roll">রক ও রোল</string>  
+    <!-- The sample title for Theme 4. -->  
+    <string name="theme_rock_and_roll_title">কনসার্ট</string>  
+    <!-- The sample subtitle for Theme 4. -->  
+    <string name="theme_rock_and_roll_subtitle">আড়াই ব্যারেল</string>  
+    <!-- Overlay names-->  
+    <!-- The overlay type 1 name -->  
+    <string name="overlay_preview_center">কেন্দ্রীয় শিরোনাম</string>  
+    <!-- The overlay type 2 name -->  
+    <string name="overlay_preview_bottom">নিচের শিরোনাম</string>  
+    <!-- Overlay sample titles-->  
+    <!-- The label/name for overlay 1. -->  
+    <string name="overlay_title">শিরোনাম</string>  
+    <!-- The sample title for overlay 1. -->  
+    <string name="overlay_title_sample">আমার ভ্রমণ</string>  
+    <!-- The sample subtitle for overlay 1. -->  
+    <string name="overlay_subtitle_sample">সান ফ্রানসিসকো</string>  
+    <!-- Overlay title activity EditText labels -->  
+    <!-- The dialog label for the overlay name. -->  
+    <string name="overlays_select_type">শিরোনাম টেমপ্লেট নির্বাচন করুন</string>  
+    <!-- The dialog label for the overlay sample title. -->  
+    <string name="overlay_title_label">শিরোনাম</string>  
+    <!-- The dialog label for the overlay sample subtitle. -->  
+    <string name="overlay_subtitle_label">সাবটাইটেল</string>  
+    <!-- The text displayed on the button used to change overlay title template. -->  
+    <string name="overlay_change_title_template_button_text">টেমপ্লেট পরিবর্তন করুন</string>  
+    <!-- Effect names-->  
+    <!-- The effects selection dialog title. -->  
+    <string name="effects_select_effect">ইফেক্ট</string>  
+    <!-- Effect 1 name. -->  
+    <string name="effect_pan_zoom">প্যান ও জুম ইফেক্ট</string>  
+    <!-- Effect 2 name. -->  
+    <string name="effect_gradient">গ্রেডিয়েন্ট ইফেক্ট</string>  
+    <!-- Effect 3 name. -->  
+    <string name="effect_sepia">সেপিয়া ইফেক্ট</string>  
+    <!-- Effect 4 name. -->  
+    <string name="effect_negative">ঋণাত্বক ইফেক্ট</string>  
+    <!-- Effect 5 name. -->  
+    <string name="effect_fifties">ফিফটিজ ইফেক্ট</string>  
+    <!-- Transition names-->  
+    <!-- The transition selection dialog title. -->  
+    <string name="transitions_select_transition">ট্রানজিশন নির্বাচন করুন</string>  
+    <!-- The name of the transition using a contour alpha mask. -->  
+    <string name="transitions_alpha_countour">কনটোর আলফা</string>  
+    <!-- The name of the transition using a diagonal alpha mask. -->  
+    <string name="transitions_alpha_diagonal">ডায়াগোনাল আলফা</string>  
+    <!-- The name of the crossfade transition. -->  
+    <string name="transitions_crossfade">ক্রসফেইড</string>  
+    <!-- The name of the fade to and from black transition. -->  
+    <string name="transitions_fade_black">কালো থেকে বিবর্ণ এবং বিবর্ণ থেকে কালো</string>  
+    <!-- The name of the left to right transition. -->  
+    <string name="transitions_sliding_right_out_left_in">স্লাইডিং রাইট আউট লেফ্ট ইন</string>  
+    <!-- The name of the right to left transition. -->  
+    <string name="transitions_sliding_left_out_right_in">স্লাইডিং লেফ্ট আউট রাইট ইন</string>  
+    <!-- The name of the bottom to top transition. -->  
+    <string name="transitions_sliding_top_out_bottom_in">স্লাইডিং টপ আউট বটম ইন</string>  
+    <!-- The name of the top to bottom transition. -->  
+    <string name="transitions_sliding_bottom_out_top_in">স্লাইডিং বটম আউট টপ ইন</string>  
+    <!-- The text which displays the duration of a transition as a decimal number (e.g. "1.5 sec"). -->  
+    <string name="transitions_duration"> 
+        <xliff:g id="seconds">%(,.1f</xliff:g> সেকেন্ড
+    </string>  
+    <!-- Rendering modes displayed in the single choice selection dialog-->  
+    <!-- The black borders rendering mode. -->  
+    <string name="rendering_mode_black_borders">কালো সীমান্ত</string>  
+    <!-- The stretch to fit rendering mode. -->  
+    <string name="rendering_mode_stretch">মানানসই করার জন্য প্রসারিত করা হচ্ছে ।</string>  
+    <!-- The cropping rendering mode. -->  
+    <string name="rendering_mode_crop">ক্রপ করুন ।</string>  
+    <!-- Generic strings-->  
+    <!-- Displayed in dialog buttons. -->  
+    <string name="yes">হ্যা</string>  
+    <!-- Displayed in dialog buttons. -->  
+    <string name="no">না</string>  
+    <!-- Displayed in dialog buttons. -->  
+    <string name="done">সম্পন্ন হয়েছে</string>  
+    <!-- Displayed in dialog buttons and menu items. -->  
+    <string name="edit">সম্পাদনা করুন</string>  
+    <!-- Displayed in dialog buttons and menu items. -->  
+    <string name="remove">সরিয়ে ফেলুন</string>  
+    <!-- Displayed in the carousel if the project does not have a name. -->  
+    <string name="untitled">শিরোনামহীন</string>  
+    <!-- Time related format strings displayed in the carousel below the project preview -->  
+    <string name="hours_and_minutes"> 
+        <xliff:g id="hours">%d</xliff:g> ঘণ্টা 
+        <xliff:g id="minutes">%d</xliff:g> মিনিট
+    </string>  
+    <string name="hour_and_minutes">১ ঘণ্টা 
+        <xliff:g id="minutes">%d</xliff:g> মিনিট
+    </string>  
+    <string name="minutes"> 
+        <xliff:g id="minutes">%d</xliff:g> মিনিট
+    </string>  
+    <string name="minute_and_seconds">১ মিনিট 
+        <xliff:g id="seconds">%d</xliff:g> সেকেন্ড
+    </string>  
+    <string name="seconds">
+        <xliff:g id="seconds">%d</xliff:g> সেকেন্ড
+    </string> 
+</resources>

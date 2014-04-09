@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <!-- add for ICS porting -->  
+    <string-array name="proxy_error"> 
+        <item>ไม่สามารถปล่อยฟิลด์ของโฮสต์ให้ว่างได้</item>  
+        <item>ไม่สามารถปล่อยฟิลด์ของพอร์ตให้ว่างได้</item>  
+        <item>โฮสต์ไม่ถูกต้อง</item>  
+        <item>พอร์ตไม่ถูกต้อง</item> 
+    </string-array> 
+</resources>

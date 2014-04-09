@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:latin="http://schemas.android.com/apk/res/com.android.inputmethod.latin">
+
+    <Key latin:keyLabel="ص" />
+    <Key latin:keyLabel="ز" />
+    <Key latin:keyLabel="ش" />
+    <Key latin:keyLabel="چ" />
+    <Key latin:keyLabel="ط" />
+    <Key latin:keyLabel="ب" />
+    <Key latin:keyLabel="ن" />
+    <Key latin:keyLabel="م" />
+
+</merge>

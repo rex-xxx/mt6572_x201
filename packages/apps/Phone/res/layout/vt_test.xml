@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+   <LinearLayout android:id="@+id/VTEMMediaLoopBack"
+		android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="#333333"
+		android:clickable="false" xmlns:android="http://schemas.android.com/apk/res/android">
+		
+		<RelativeLayout android:id="@+id/VTEMRelativeLayout01" 
+			android:layout_width="320dip" 
+			android:layout_height="253dip">	
+				
+				<SurfaceView android:id="@+id/VTEMHighVideo" 
+					android:layout_width="290dip" 
+					android:layout_height="237dip"
+					android:layout_centerInParent="true"
+					>					
+				</SurfaceView>
+		</RelativeLayout>
+		
+		<RelativeLayout android:id="@+id/VTEMRelativeLayout11"
+			android:layout_width="320dip" 
+			android:layout_height="36dip">
+		</RelativeLayout>
+
+		<RelativeLayout android:id="@+id/VTEMRelativeLayout10" 
+			android:layout_width="320dip" 
+			android:layout_height="166dip">
+			
+			<RelativeLayout android:id="@+id/VTEMRelativeLayout03" 
+				android:layout_width="71dip" 
+				android:layout_height="147dip"
+				android:orientation="vertical"
+				android:layout_centerVertical="true"
+				android:layout_alignParentLeft="true">
+					<Button android:id="@+id/VTEMStart" 
+						android:layout_width="59dip" 
+						android:layout_height="38dip"
+						android:layout_centerInParent="true">
+					</Button>				
+			</RelativeLayout>
+			
+			<RelativeLayout android:id="@+id/VTEMRelativeLayout02" 
+				android:layout_width="178dip" 
+				android:layout_height="147dip"
+				android:layout_centerInParent="true">				
+					<SurfaceView android:id="@+id/VTEMLowVideo" 
+						android:layout_width="170dip" 
+						android:layout_height="139dip"
+						android:layout_centerInParent="true"
+						>
+					</SurfaceView>
+			</RelativeLayout>
+			
+			<RelativeLayout android:id="@+id/VTEMRelativeLayout06" 
+				android:layout_width="71dip" 
+				android:layout_height="147dip"
+				android:orientation="vertical"
+				android:layout_centerVertical="true"
+				android:layout_alignParentRight="true">				
+					<Button android:id="@+id/VTEMEnd" 
+						android:layout_width="59dip" 
+						android:layout_height="38dip"
+						android:layout_centerInParent="true">
+					</Button>	
+			</RelativeLayout>
+		</RelativeLayout>
+	
+	</LinearLayout>
+</LinearLayout>

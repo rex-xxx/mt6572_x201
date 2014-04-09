@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenes xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcher" >
+
+    <scene
+        launcher:previewResId="@drawable/scene_default"
+        launcher:sceneNameResId="@string/scene_name_default"
+        launcher:scenePos="0"
+        launcher:sceneTitleResId="@string/scene_title_default"
+        launcher:sceneWallpaper="@drawable/wallpaper_03"
+        launcher:workspaceResId="@xml/default_workspace" />
+    <scene
+        launcher:previewResId="@drawable/scene_work"
+        launcher:sceneNameResId="@string/scene_name_work"
+        launcher:scenePos="1"
+        launcher:sceneTitleResId="@string/scene_title_work"
+        launcher:sceneWallpaper="@drawable/wallpaper_work"
+        launcher:workspaceResId="@xml/work" />
+
+</scenes>

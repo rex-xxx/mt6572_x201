@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="bluetooth_advanced_settings">Rozšířená nastavení</string>  
+    <!-- Bluetooth settings.  The user-visible string that is used whenever referring to the FTP profile. -->  
+    <string name="bluetooth_profile_ftp">Přenos souboru</string>  
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the FTP checkbox preference that describes how checking it will set the FTP profile as preferred. -->  
+    <string name="bluetooth_ftp_profile_summary_use_for">Použít pro přenos souborů</string>  
+    <string name="bluetooth_ftp_profile_summary_connected">"Připojeno k přenosu souborů"</string>  
+    <string name="mtp_transfer_unmount_error_text">Během přenášení souborů nelze odpojit kartu SD</string>  
+    <string name="mtp_transfer_erase_error_text">Během přenášení souborů nelze vymazat kartu SD</string>  
+    <string name="launch_error">"Nebylo možné spustit aplikaci!"</string>  
+    <string name="dlg_confirm_unmount_usb_title" product="default">Odpojit úložiště USB?</string>  
+    <string name="dlg_confirm_unmount_usb_text" product="default">Odpojíte-li úložiště USB, některé používané aplikace se zastaví a pravděpodobně nebudou k dispozici, dokud znovu nepřipojíte úložiště USB.</string>  
+    <string name="dlg_error_unmount_usb_title" product="default"/>  
+    <string name="dlg_error_unmount_usb_text" product="default">Nebylo možné odpojit úložiště USB. Opakujte akci později.</string>  
+    <string name="unmount_usb_inform_text" product="default">Úložiště USB bude odpojeno.</string>  
+    <string name="sd_eject_usbstorage" product="default">"Odpojit úložiště USB"</string>  
+    <string name="sd_eject_usbstorage_summary" product="default">"Odpojit interní úložiště USB"</string>  
+    <string name="sd_mount_usbstorage" product="default">"Připojit úložiště USB"</string>  
+    <string name="sd_insert_usb_summary" product="default">"Vložte úložiště USB"</string>  
+    <!-- Storage setting.  Title for UMS checkbox [CHAR LIMIT=30]-->  
+    <string name="usb_ums_title">Úložiště USB</string>  
+    <!-- Storage setting.  Summary for UMS checkbox [CHAR LIMIT=NONE]-->  
+    <string name="usb_ums_summary">"Doporučujeme XP. Umožňuje přenášet soubory mezi počítačem a úložištěm USB systému Android."</string>  
+    <string name="usb_charge_title">Pouze nabíjení</string>  
+    <string name="usb_charge_summary">Zastaví všechny funkce USB. Umožňuje zrychlit nabíjení USB a snížit spotřebu energie.</string>  
+    <!-- Agps Settings -->  
+    <string name="NI_Request_ID">ID žadatele</string>  
+    <string name="NI_Request_ClientName">Jméno klienta</string>  
+    <string name="agps_str_verify">Ověření</string>  
+    <string name="agps_str_notify">Oznámení</string>  
+    <string name="EM_NotifyDialog_title">Upozornit EM</string>  
+    <string name="agps_OK">OK</string>  
+    <string name="agps_str_allow">POVOLIT</string>  
+    <string name="agps_str_deny">ODMÍTNOUT</string>  
+    <string name="agps_str_error">Chyba</string>  
+    <string name="AGPS_DEFAULT_STRING">Výchozí řetězec A-GPS</string>  
+    <string name="AGPS_CAUSE_NETWORK_CREATE_FAIL">Vytvoření sítě se nezdařilo</string>  
+    <string name="AGPS_CAUSE_BAD_PUSH_CONTENT">Nesprávný obsah PUSH</string>  
+    <string name="AGPS_CAUSE_NOT_SUPPORTED">Nepodporovaná operace</string>  
+    <string name="AGPS_CAUSE_REQ_NOT_ACCEPTED">Požadavek nepřijat</string>  
+    <string name="AGPS_CAUSE_NO_RESOURCE">Žádný prostředek pro zpracování nového procesu</string>  
+    <string name="AGPS_CAUSE_NETWORK_DISCONN">Síťové připojení je odpojeno</string>  
+    <string name="AGPS_CAUSE_REMOTE_ABORT">Vzdálená strana přerušila relaci (přijato SUPL END)</string>  
+    <string name="AGPS_CAUSE_TIMER_EXPIRY">Očekávaná zpráva se nevrátila během určeného časového intervalu</string>  
+    <string name="AGPS_CAUSE_REMOTE_MSG_ERROR">Přijmout nesprávný obsah zprávy</string>  
+    <string name="AGPS_CAUSE_USER_AGREE">Uživatel souhlasí při potvrzení</string>  
+    <string name="AGPS_CAUSE_USER_DENY">Uživatel nesouhlasí při potvrzení</string>  
+    <string name="AGPS_CAUSE_NO_POSITION">Pouze pro pozici NO</string>  
+    <string name="AGPS_CAUSE_TLS_AUTH_FAIL">Ověření TLS se nezdařilo</string>  
+    <string name="USER_RESPONSE_TIMEOUT">Časový limit čekání na ověření</string>  
+    <string name="AGPS_EM_RECV_SI_REQ">Přijat požadavek SI</string>  
+    <string name="AGPS_EM_POS_FIXED">Poloha zaměřena</string>  
+    <string name="AGPS_NOTIFY_ONLY">Upozornění na požadavek na umístění</string>  
+    <string name="AGPS_NOTIFY_ALLOW_NO_ANSWER">Požadavek na umístění (povolit v případě žádné odpovědi)</string>  
+    <string name="AGPS_NOTIFY_DENY_NO_ANSWER">Požadavek na umístění (odmítnout v případě žádné odpovědi)</string>  
+    <string name="AGPS_NOTIFY_PRIVACY">Požadavek na umístění (ochrana osobních údajů)</string>  
+    <string name="epo_entrance_title">Nastavení EPO</string>  
+    <string name="epo_entrance_summary">Klepnutím upravte konfigurace EPO</string>  
+    <string name="agps_settings_title">Nastavení A-GPS</string>  
+    <string name="epo_enable_confirm_title">Potvrdit aktivaci EPO</string>  
+    <string name="epo_enable_confirm_message">Vyžaduje bezdrátové datové připojení pro získání GPS asistenčních dat (EPO), což může způsobit další poplatky. Opravdu chcete zapnout GPS asistenci?</string>  
+    <string name="epo_enable_confirm_allow">Pokračovat</string>  
+    <string name="epo_enable_confirm_deny">Storno</string>  
+    <string name="agps_enable_confirm_title">Potvrdit povolení A-GPS</string>  
+    <string name="agps_enable_confirm">A-GPS vyžaduje bezdrátové datové připojení pro získání dat asistenta, což může způsobit další poplatky. Opravdu chcete zapnout A-GPS?</string>  
+    <string name="agps_enable_confirm_allow">Pokračovat</string>  
+    <string name="agps_enable_confirm_deny">Storno</string>  
+    <string name="epo_enable_title">Asistence GPS EPO</string>  
+    <string name="epo_enable_summary">Použít GPS asistenční data (EPO) pro zrychlení polohování GPS.</string>  
+    <string name="agps_settings_enable_on">GPS může zrychlit pevnou dobu umístění s daty asistenta prostřednictvím bezdrátového datového připojení</string>  
+    <string name="agps_settings_enable_off">Použít data asistenta pro zrychlení pevné doby umístění s GPS</string>  
+    <string name="agps_settings_eng_enable">Nastavení A-GPS</string>  
+    <string name="agps_settings_eng_summary">Nakonfigurovat nastavení A-GPS</string>  
+    <string name="agps_disable_on_reboot">Deaktivovat po restartu</string>  
+    <string name="agps_disable_on_reboot_summary">Deaktivovat schopnost A-GPS po restartu</string>  
+    <string name="Network_Initiate">Síťový požadavek</string>  
+    <string name="Network_Initiate_Summary_on">Povolit síti požadovat pozici</string>  
+    <string name="Network_Initiate_Summary_off">Zakázat síti požadovat pozici</string>  
+    <string name="Network_Used">Síť se používá</string>  
+    <string name="agps_profile_select">Volič profilu</string>  
+    <string name="agps_profile_SLP_address_editbox_title">Adresa SLP</string>  
+    <string name="port_title">Port SLP</string>  
+    <string name="tls_summary_off">TLS je vypnuto</string>  
+    <string name="tls_summary_on">TLS je zapnuto</string>  
+    <string name="MobileNetwork_Category">Mobilní síť</string>  
+    <string name="AgpsHelp_Category">Nápověda</string>  
+    <string name="about_agps_title">O A-GPS</string>  
+    <string name="about_agps_message">\t A-GPS (Assisted-GPS) je systém, který může vylepšit spouštění a zkrátit dobu zaměření služby (TTFF) satelitů GPS. \n\t Zařízení vybavené funkcí A-GPS se může připojovat k místním serverům a získávat asistenční data prostřednictvím mobilního připojení k datové síti. \n\t Upozorňujeme vás, že datový provoz může způsobit dodatečné poplatky podle roamingových podmínek sítě. Požádejte vaše operátory o podrobné informace.</string>  
+    <string name="epo_auto_download_title">Automatické stažení</string>  
+    <string name="epo_auto_download_summary">Automaticky stáhnout satelitní data polohy</string>  
+    <string name="epo_info_title">Informace o souboru EPO</string>  
+    <string name="epo_download_time_title">Čas stahování</string>  
+    <string name="epo_download_time_summary">Není k dispozici</string>  
+    <string name="epo_start_time_title">Počáteční čas</string>  
+    <string name="epo_start_time_summary">Není k dispozici</string>  
+    <string name="epo_expire_time_title">Čas vypršel</string>  
+    <string name="epo_expire_time_summary">Není k dispozici</string>  
+    <string name="epo_about_title">O EPO</string>  
+    <string name="epo_about_message">\tEPO (Extended Prediction Orbit) je jedním z inovativních specializovaných offline serverů společnosti MediaTek, který je založen na technologii A-GPS. \n\tPodporuje až 30denní předpověď satelitů na oběžné dráze, která značně zkracuje dobu prvního zaměření služby GPS Time To First Fix (TTFF).</string>  
+    <string name="Network_Local_and_Roaming_Summary">Použít A-GPS pod domácí i roamingovou sítí</string>  
+    <string name="Network_Only_Local_Summary">Použít A-GPS pouze pod domácí sítí</string>  
+    <string name="MobileNetwork_DataConn_off">Datové připojení je vypnuté</string>  
+    <string name="MobileNetwork_off_Summary">Před použitím A-GPS zapněte datové připojení</string>  
+    <string name="WiFiNetwork_on_title">Wi-Fi je aktivní</string>  
+    <string name="MobileNetwork_on_Summary">A-GPS vyžaduje přístup k mobilní síti prostřednictvím datových připojení</string>  
+    <string name="MobileNetwork_SIM_Active">SIM 
+        <xliff:g id="active_sim_id">%1$s</xliff:g> je aktivní
+    </string>  
+    <string name="Network_Roaming_dialog_title">Upozornění</string>  
+    <string name="Network_Roaming_dialog_content">Pokud se síť nachází v roamingovém stavu, datový provoz A-GPS může způsobit dodatečné poplatky za roaming.</string>  
+    <string name="epo_download">Stáhnout</string>  
+    <string name="epo_error_no_activite_network">Před stažením dat EPO zapněte datové připojení.</string>  
+    <string name="epo_cancel_download">Storno</string>  
+    <string name="epo_status_stopping">Zastavuje se...</string>  
+    <string name="epo_status_starting">Spouští se...</string>  
+    <string name="epo_err_update_failed">Aktualizace souborů EPO se nezdařila</string>  
+    <string name="epo_error_dialog_title">Chyba</string>  
+    <string name="epo_ok_btn">OK</string>  
+    <string name="epo_warning_dialog_title">Upozornění</string>  
+    <string name="epo_warning_dialog_message">Stahování dat EPO ve stavu roamingu může způsobit dodatečné poplatky. Opravdu chcete pokračovat?</string>  
+    <!-- AudioProfile Settings -->  
+    <string name="ring_summary">Vyzvánění</string>  
+    <string name="ring_vibrate_summary">Vyzvánění a vibrace</string>  
+    <string name="silent_summary">Pouze tichý</string>  
+    <string name="meeting_summary">Pouze vibrace</string>  
+    <string name="outdoor_summary">Nejhlasitější vyzvánění a vibrace</string>  
+    <string name="audio_profile_reset">Resetovat</string>  
+    <string name="audio_profile_add">Přidat</string>  
+    <string name="audio_profile_enable">Povolit</string>  
+    <string name="audio_profile_rename">Přejmenovat</string>  
+    <string name="audio_profile_delete">Odstranit</string>  
+    <string name="audio_profile_message_reset">Budou obnoveny výchozí hodnoty všech nastavení zvukových profilů</string>  
+    <string name="audio_profile_message_rename">Zadejte název nového profilu</string>  
+    <string name="audio_profile_message_name_error">Zadaný název již existuje</string>  
+    <string name="audio_profile_message_name_length_wrong">Název musí obsahovat alespoň jeden znak</string>  
+    <string name="audio_profile_message_delete">Profil 
+        <xliff:g id="profile">%s</xliff:g> bude odstraněn
+    </string>  
+    <string name="audio_profile_message_overflow">Můžete přidat pouze 6 vlastních profilů</string>  
+    <string name="ok">OK</string>  
+    <string name="audio_profile_category_custom_title">Vlastní profily</string>  
+    <string name="audio_profile_category_predefine_title">Předdefinované profily</string>  
+    <string name="general_settings_title">"Obecné"</string>  
+    <string name="silent_settings_title">Tichý režim</string>  
+    <string name="meeting_settings_title">Schůze</string>  
+    <string name="outdoor_settings_title">Venku</string>  
+    <!-- modify default apns notices -->  
+    <string name="apn_predefine_change_dialog_notice">Opravdu chcete uložit? Úpravy výchozích APN mohou způsobit problémy s připojením!"</string>  
+    <!-- The title for AlertDialog when APN Settings is called while Airplane Mode is on -->  
+    <string name="dialog_apn_disabled">APN deaktivováno!</string>  
+    <!-- Error message for dialog of apn disabled error  -->  
+    <string name="dialog_apn_disabled_msg">Vypněte režim Letadlo, aby bylo možné aktivovat nastavení APN.</string>  
+    <string name="sound_category_feedback_title">"Systém"</string>  
+    <string name="sound_category_calls_title">"Příchozí hovory"</string>  
+    <string name="voice_call_title">Vyzváněcí tón hlasového volání</string>  
+    <string name="voice_call_summary">"Nastavit výchozí vyzváněcí tón hlasových volání"</string>  
+    <string name="video_call_title">Vyzváněcí tón videovolání</string>  
+    <string name="video_call_summary">Nastavit výchozí vyzváněcí tón videovolání</string>  
+    <string name="Phone_vibrate_summary">Vibrovat zařízení pro příchozí volání</string>  
+    <string name="vibrate_title">Vibrace</string>  
+    <string name="audio_profile_settings_title">Zvukové profily</string>  
+    <!--Add Strings for MTK AboutPhone Settings -->  
+    <!-- Gemini AboutPhone status sim status title -->  
+    <string name="sim_status_title">Stav SIM</string>  
+    <!-- Gemini AboutPhone status sim status summary -->  
+    <string name="sim_status_summary">Informace související se SIM</string>  
+    <!-- Gemini AboutPhone status imei slot1 title -->  
+    <string name="status_imei_slot1">IMEI(Slot1)</string>  
+    <!-- Gemini AboutPhone status imei sv slot1 title -->  
+    <string name="status_imei_sv_slot1">IMEI SV(Slot1)</string>  
+    <!-- Gemini AboutPhone status imei slot2 title -->  
+    <string name="status_imei_slot2">IMEI(Slot1)</string>  
+    <!-- Gemini AboutPhone status imei sv slot2 title -->  
+    <string name="status_imei_sv_slot2">IMEI SV(Slot2)</string>  
+    <!-- Gemini CDMA AboutPhone status min number slot1 title -->  
+    <string name="status_min_number_slot1">MIN(Slot1)</string>  
+    <!-- Gemini CDMA AboutPhone status prl version slot1 title -->  
+    <string name="status_prl_version_slot1">Verze PRL(Slot1)</string>  
+    <!-- Gemini CDMA AboutPhone status meid number slot1 title -->  
+    <string name="status_meid_number_slot1">MEID(Slot1)</string>  
+    <!-- Gemini CDMA AboutPhone status min number slot2 title -->  
+    <string name="status_min_number_slot2">MIN(Slot2)</string>  
+    <!-- Gemini CDMA AboutPhone status prl version slot2 title -->  
+    <string name="status_prl_version_slot2">Verze PRL(Slot2)</string>  
+    <!-- Gemini CDMA AboutPhone status meid number slot2 title -->  
+    <string name="status_meid_number_slot2">MEID(Slot2)</string>  
+    <string name="slot_status_title">"Informace IMEI"</string>  
+    <string name="slot_status_summary">"Informace související s IMEI"</string>  
+    <!-- About phone screen,  setting option name-->  
+    <string name="custom_build_version">Verze vlastního sestavení</string>  
+    <!-- A menu item in "About phone" that allows the user to update the phone with settings
+    from their cell phone carrier. The use of the string is similar to the string
+    "system_update_settings_list_item_title" in this project. [CHAR LIMIT=25] -->  
+    <!-- for software update MOTA -->  
+    <string name="software_update">Služba pro aktualizaci softwaru</string>  
+    <string name="mota_system_update_summary">"Vyhledat aktualizaci systému na serveru"</string>  
+    <!-- About phone screen,  more software updates-->  
+    <string name="software_updates_more_title">Aktualizace softwaru</string>  
+    <string name="software_updates_more_summary">Vyhledat novou verzi softwaru</string>  
+    <string name="software_updates_scomo_summary">Vyhledat novou verzi aplikace</string>  
+    <string name="scomo_settings_title">Služba pro aktualizaci softwaru</string>  
+    <!-- Battery_level_show -->  
+    <string name="battery_level" translatable="false">" 
+        <xliff:g id="battery">%s</xliff:g>%%"
+    </string>  
+    <!--End of String for Gemini AboutPhone Settings-->  
+    <!--Add Strings for MTK Display Settings -->  
+    <string name="screen_timeout_CU">Časový limit obrazovky</string>  
+    <!-- Add for landscape launcher-->  
+    <string name="landscape_launcher_title">Landscape Launcher</string>  
+    <string name="landscape_launcher_none">Žádná</string>  
+    <!-- for TVOut -->  
+    <string name="tvout_settings">Výstup TV</string>  
+    <string name="tvout_settings_summary">Nastavení výstupu TV</string>  
+    <string name="tv_system_title">Televizní systém</string>  
+    <!-- For HDMI begin -->  
+    <string name="hdmi_settings">Nastavení HDMI</string>  
+    <string name="hdmi_settings_summary">Klepnutím nakonfigurujte HDMI</string>  
+    <string name="hdmi_audio_toggler">zvuk</string>  
+    <string name="hdmi_video_toggler">video</string>  
+    <string name="hdmi_video_resolution">Rozlišení videa</string>  
+    <string name="hdmi_notification_title">Kabel HDMI je připojen</string>  
+    <string name="hdmi_notification_content">Klepnutím nakonfigurujte HDMI</string>  
+    <!--Theme manager -->  
+    <string name="display_settings_scences_title">Scény</string>  
+    <string name="mtk_thememanager_title">Motiv</string>  
+    <string name="default_name">Výchozí</string>  
+    <string name="custom_theme_name">Nový [%1$s]</string>  
+    <string name="loading">Načítání...</string>  
+    <!--End of String for MTK Display Settings-->  
+    <!--Add Strings for MTK Security Settings -->  
+    <string name="sim_enter_pin_hints">(Zadejte 4 - 8 číslic)</string>  
+    <string name="sim_remain">(Zbývá: 
+        <xliff:g id="remains">%d</xliff:g>)
+    </string>  
+    <!--End of String for MTK Security Settings-->  
+    <!--Add Strings for MTK DateTime Settings-->  
+    <!-- GPS time sync -->  
+    <string name="gps_time_sync_attention_gps_on">Zaměření signálu GPS bude trvat maximálně 1 minutu. Kromě toho systém GPS nemusí poskytnout čas z důvodu slabého prostorového signálu.\n\nOpravdu chcete použít čas poskytnutý systémem GPS?</string>  
+    <string name="gps_time_sync_attention_gps_off">Aby bylo možné použít čas poskytnutý systémem GPS, musíte nejdříve aktivovat GPS. Potom bude během max. 1 minuty zaměřen signál GPS. Kromě toho systém GPS nemusí poskytnout čas z důvodu slabého prostorového signálu. \n\nOpravdu chcete nyní aktivovat GPS a vyčkat na čas poskytnutý systémem GPS?</string>  
+    <!--End of String for MTK DateTime Settings-->  
+    <!--Add Strings for MTK Backup & reset Settings-->  
+    <!-- Drm Settings -->  
+    <!-- Privacy Screen,setting option name under Privacy Personal data -->  
+    <string name="drm_settings_title">Resetovat DRM</string>  
+    <!-- Privacy Screen,settings option summary text under Privacy personal data -->  
+    <string name="drm_settings_summary">Odstraní všechny licence DRM</string>  
+    <!-- Drm settings Activity lable -->  
+    <!-- Dialog msg for confirmation to reset DRM -->  
+    <string name="drm_reset_dialog_msg">Tato operace odstraní všechny licence v těchto zařízeních. Pokračovat?</string>  
+    <!-- Toast msg for confirmation to reset DRM -->  
+    <string name="drm_reset_toast_msg">Licence byly úspěšně odstraněny.</string>  
+    <!--End of String for MTK DateTime Settings-->  
+    <!--Add Strings for MTK SIM management Settings-->  
+    <string name="gemini_sim_management_title">Správa SIM</string>  
+    <string name="gemini_sim_info_title">Informace o SIM</string>  
+    <string name="gemini_default_sim_title">Výchozí SIM</string>  
+    <string name="gemini_general_settings_title">Obecná nastavení</string>  
+    <string name="gemini_roaming_settings_title">Roaming</string>  
+    <string name="gemini_data_roaming_title">Roaming dat</string>  
+    <string name="gemini_data_roaming_summary">Připojovat se k datovým službám při roamingu</string>  
+    <string name="gemini_roaming_reminder_title">Zobrazit připomenutí o roamingu</string>  
+    <string name="gemini_roaming_reminder_summary">Zobrazit návrh SIM na základě využívání SIM</string>  
+    <string name="gemini_contacts_sim_title">"Vázání kontaktů"</string>
+    <string name="gemini_contacts_sim_summary">Váže kontakty ke konkrétní kartě SIM</string>
+    <string name="gemini_voice_call">Hlasové volání</string>  
+    <string name="gemini_video_call">Video hovor</string>  
+    <string name="gemini_data_connection">Datové připojení</string>  
+    <string name="gemini_msg">Zasílání zpráv</string>  
+    <string name="gemini_default_sim_always_ask">Vždy se dotázat</string>  
+    <string name="gemini_intenet_call">Volání v Internetu</string>  
+    <string name="gemini_default_sim_never">Vypnuto</string>  
+    <string name="gemini_default_sim_3g_off">Vypnuto</string>  
+    <!-- GSM/UMTS Options strings -->  
+    <string name="gemini_gsm_umts_network_preferences_title">"Režim sítě"</string>  
+    <string name="gemini_gsm_umts_network_preferneces_summary">Dosud neimplementováno!</string>  
+    <string name="gemini_gsm_umts_network_preferences_dialogtitle">Režim sítě</string>  
+    <string name="gemini_3g_service_settings">3G služba</string>  
+    <!-- Strings for Gemini begin-->  
+    <!-- Dual sim settings activate progress message string -->  
+    <string name="gemini_sim_mode_progress_activating_message">Aktivace\u2026</string>  
+    <!-- Dual sim settings deactivate progress message string -->  
+    <string name="gemini_sim_mode_progress_deactivating_message">Deaktivace\u2026</string>  
+    <!-- Dual sim settings mode change failed message string -->  
+    <string name="gemini_sim_mode_change_failed_message">Selhání, chyba sítě.</string>  
+    <!-- Dual sim settings mode enter airplanemode confirm title string -->  
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_title">Režim Letadlo</string>  
+    <!-- Dual sim settings mode enter airplanemode WiFi and Bt will both close confirm message string -->  
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_message">Telefon přejde do režimu Letadlo. Veškerá bezdrátová připojení budou deaktivována. Pokračovat?</string>  
+    <string name="gemini_sim_info_editor_name">Upravit název SIM</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">Uložení se nezdařilo</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">Duplicitní název pro kartu SIM</string>  
+    <string name="gemini_sim_info_editor_number">Zadejte telefonní číslo</string>  
+    <string name="gemini_sim_info_editor_color">Nastavit barvu pozadí</string>  
+    <string name="gemini_sim_info_editor_number_display_format">Zobrazit čísla</string>  
+    <string name="gemini_no_sim_indicator">Žádná karta SIM</string>  
+    <string name="gemini_sim_list_default_title">Seznam karet SIM</string>  
+    <string name="gemini_data_connection_progress_message">"Počkejte prosím..."</string>  
+    <string name="gemini_3g_modem_switching_message">"Dokončení přepnutí karty SIM bude trvat přibližně 10 sekund. Počkejte prosím..."</string>  
+    <string name="gemini_3g_modem_switch_confirm_message">"Touto operací bude rovněž přepnuta služba 3G na tuto kartu SIM. Pokračovat? Zkontrolujte, zda tato vybraná karta SIM podporuje službu 3G."</string>  
+    <string name="gemini_3g_disable_warning">„Služba 3G není s touto vybranou kartou SIM k dispozici. To může způsobit pomalejší načítání dat. Můžete změnit nastavení služby 3G v části Nastavení &gt; Bezdrát &amp; sítě &gt; Mobilní sítě.“</string>  
+    <string name="gemini_3g_disable_warning_cu">„Služba 3G není s touto vybranou kartou SIM k dispozici. To může způsobit pomalejší načítání dat. Můžete změnit nastavení služby 3G v části Nastavení &gt; Správa SIM.“</string>  
+    <!-- Strings for CU wap push begin-->  
+    <string name="gemini_wap_push_permission_head">Po aktivaci služby Automaticky nabízet vám mohou být zasílány nabízené zprávy, účtovány místní poplatky za spouštění aplikací a může se zvýšit datový provoz. Mezi běžné automaticky nabízené služby patří e-mailová oznámení, správa zařízení, indikace služeb, načítání služeb a zajišťování nabídek.</string>  
+    <string name="gemini_wap_push_permission_tail">Přijmout tuto smlouvu?</string>  
+    <string name="gemini_wap_push_permission_title">Smlouva na automaticky nabízené služby</string>  
+    <string name="gemini_wap_push_permission">Automaticky nabízená služba</string>  
+    <!-- Strings for CU wap push end-->  
+    <!-- add for gemini enhancement  SIM tether info part    begin -->  
+    <string name="gemini_3g_disable_warning_case0">"Nejdříve musíte aktivovat roaming dat pro tuto kartu SIM, za což vám mohou být účtovány značné roamingové poplatky! Opravdu chcete aktivovat roaming dat a vybrat tuto kartu SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"Služba 3G není s touto vybranou kartou SIM k dispozici. To může způsobit pomalejší načítání dat. Můžete změnit nastavení služby 3G v části Nastavení &gt; Bezdrát &amp; sítě &gt; Mobilní sítě. Opravdu chcete vybrat tuto kartu SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"Služba 3G není s touto vybranou kartou SIM k dispozici. To může způsobit pomalejší načítání dat. Můžete změnit nastavení služby 3G v části Nastavení &gt; Správa SIM. Opravdu chcete vybrat tuto kartu SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"Nejdříve musíte aktivovat datový roaming pro tuto kartu SIM, což může znamenat značné roamingové poplatky! Kromě toho služba 3G není s touto kartou SIM k dispozici. To může způsobit pomalejší načítání dat. To můžete změnit v části Nastavení &gt; Bezdrát &amp; sítě &gt; Mobilní sítě. Opravdu chcete aktivovat datový roaming a vybrat tuto kartu SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"Nejdříve musíte aktivovat datový roaming pro tuto kartu SIM, což může znamenat značné roamingové poplatky! Kromě toho služba 3G není s touto kartou SIM k dispozici. To může způsobit pomalejší načítání dat. To můžete změnit v části Nastavení &gt; Správa SIM. Opravdu chcete aktivovat datový roaming a vybrat tuto kartu SIM?"</string>  
+    <string name="gemini_sim_tether_info_title">Kontakty a SIM</string>  
+    <string name="gemini_sim_tether_add_record">Přidat kontakty</string>  
+    <string name="gemini_sim_add_title">"Kontakty"</string>  
+    <!-- Displayed full screen when the user has no tether info to display-->  
+    <string name="gemini_sim_tether_norecord">"Nemáte žádné číslo kontaktu přidružené k aktuální kartě SIM.\n\nStisknutím tlačítka Přidat kontakty vyberte kontakty, které chcete přidružit k této kartě SIM"</string>  
+    <string name="gemini_sim_tether_nocontacts">"Ve vašem telefonu nejsou uloženy žádné kontakty. Nejdříve přidejte nový kontakt nebo naimportujte kontakty"</string>  
+    <string name="gemini_sim_tether_no_assc_contacts">"Kontaky jsou navázány úspěšně\ů"</string>  
+    <string name="gemini_sim_tether_disassociate">Odojit</string>  
+    <string name="selected_item_count"> 
+        <xliff:g id="count">%d</xliff:g> vybráno
+    </string>  
+    <string name="gemini_sim_tether_unselect_all">Zrušit výběr</string>
+    <string name="gemini_sim_tether_nocontact_confirm">OK</string>  
+    <string name="gemini_sim_tether_select_all">Vybrat vše</string>  
+    <string name="gemini_sim_tether_select_ok">Uložit</string>  
+    <string name="gemini_sim_tether_select_cancel">Storno</string>  
+    <string name="gemini_sim_tether_revert_title">Upozornění</string>  
+    <string name="gemini_sim_tether_revert_message">Vaše konfigurace byly změněny a nebyly uloženy. Opravdu chcete ukončit bez uložení?</string>  
+    <string name="gemini_tether_saving_progress_message">Ukládání...</string>  
+    <!-- add for gemini enhancement SIM tether info part end -->  
+    <!-- Strings for Gemini SimLock Settings -->  
+    <!-- Gemini SimLock error message -->  
+    <string name="gemini_sim_lock_simid_error">Chyba, neplatné ID SIM.</string>  
+    <!-- Gemini SimLock sim1 not insert message -->  
+    <string name="gemini_sim_lock_no_insert_message_sim">SIM není připojena.</string>  
+    <!-- Gemini SimLock sim1 radio off message -->  
+    <string name="gemini_sim_lock_radio_off_message_sim1">Rádio1 je vypnuté.</string>  
+    <!-- Gemini SimLock sim2 radio off message -->  
+    <string name="gemini_sim_lock_radio_off_message_sim2">Rádio2 je vypnuté.</string>  
+    <!--End of String for SIM Management Settings-->  
+    <!-- for CU application -->  
+    <string name="akp_installer_settings_title">Instalátor APK</string>  
+    <string name="akp_installer_settings_summary">Nainstalujte váš APK úložiště telefonu a karty SD</string>  
+    <string name="launch_main_label">Spustit aplikaci</string>  
+    <string name="launch_main">Spustit aplikaci hlavní aktivitou</string>  
+    <string name="launch_activitie">Spustit</string>  
+    <string name="move_app_to_where">Přesunout do 
+        <xliff:g id="location">%s</xliff:g> 
+    </string>  
+    <!--Wi-Fi settings strings start-->  
+    <string name="wifi_no_cert_for_wapi">Nebylo možné najít certifikaci pro aktuálně připojovaný AP</string>  
+    <!-- Label for the SIM Slot of EAP-SIM method support -->  
+    <string name="sim_slot">Slot SIM</string>  
+    <!-- Label for the SIM Slot 0 of EAP-SIM method support -->  
+    <string name="eap_sim_slot_0">Slot Sim 1</string>  
+    <!-- Label for the SIM Slot of EAP-SIM method support -->  
+    <string name="eap_sim_slot_1">Slot Sim 2</string>  
+    <!-- Label for the toast if user use eap-sim/aka in airplane mode -->  
+    <string name="eap_sim_aka_airplanemode">Před používáním EAP-SIM/AKA vypněte režim Letadlo</string>  
+    <!-- Label for the toast if user use eap-sim/aka when sim card is absent -->  
+    <string name="eap_sim_aka_no_sim_error">Aby bylo možné použít EAP-SIM/AKA, musíte vložit kartu SIM</string>  
+    <!-- Label for the toast if user use eap-sim/aka when user don't select a sim slot -->  
+    <string name="eap_sim_aka_no_sim_slot_selected">Aby bylo možné použít EAP-SIM/AKA, musíte vybrat slot SIM</string>  
+    <!--for wifi security title-->  
+    <string name="wifi_security_wapi_certificate">Certifikát WAPI</string>  
+    <!-- Label for the WAPI user certificate of the network -->  
+    <string name="wapi_user_certificate">Certifikát uživatele</string>  
+    <!-- Label for the WAPI ASE certificate of the network -->  
+    <string name="wapi_as_certificate">Certifikát ASE</string>  
+    <!-- Label for the check box for hexadecimal password -->  
+    <string name="wifi_hex_password">Hexadecimální heslo.</string>  
+    <!-- The label for WEP transmit Key -->  
+    <string name="wifi_WEP_transmit_key">Přenést klíč</string>  
+    <!-- The label for WEP Secury Key -->  
+    <string name="wifi_WEP_secury_key">Zabezpečovací klíč</string>  
+    <!--add for Wi-Fi hotspot auto-sleep policy-->  
+    <string name="wifi_tether_auto_disable_title">Zachovat aktivní bod Wi-Fi zapnutý</string>  
+    <string name="wifi_tether_auto_channel_text">Automaticky</string>  
+    <string name="wifi_tether_auto_channel_width_text">Auto 20/40 MHz</string>  
+    <string name="wifi_channel">Upřednostňovaný kanál</string>  
+    <string name="wifi_channel_width">Šířka kanálu</string>  
+    <string name="confirm_title">Potvrdit</string>  
+    <!--Wi-Fi settings strings end-->  
+    <!-- Wireless settings for PCH Monitor start -->  
+    <string name="pch_toggle_title">Upřednostňovaný režim přenosu GPRS</string>  
+    <!-- for PCH Monitor data prefer -->  
+    <string name="pch_data_prefer_summary_off">Upřednostňovaná data</string>  
+    <!-- for PCH Monitor call prefer-->  
+    <string name="pch_call_prefer_summary_on">Upřednostnit volání</string>  
+    <!-- for PCH Monitor warning message -->  
+    <string name="pch_warning_message">Rychlost přenášení dat se sníží.</string>  
+    <!-- Wireless settings for PCH Monitor end -->  
+    <!-- Schedule power on/off settings -->  
+    <!-- Main Settings screen setting option name to go into the power on/off settings-->  
+    <string name="schedule_power_on_off_settings_title">Naplánovat zapnutí/vypnutí</string>  
+    <string name="usb_bicr_title">Integrovaná jednotka CD-ROM</string>  
+    <string name="usb_bicr_summary">Zobrazí virtuální disk CD-ROM obsahující užitečný software.</string>  
+    <string name="select_memory">Výchozí disk pro zápis</string>  
+    <string name="ipo_title">Rychlé spuštění</string>  
+    <string name="ipo_summary_on">Zakázat rychlé spuštění</string>  
+    <string name="ipo_summary_off">Povolit rychlé spuštění</string>  
+    <string name="agps_profile_select_Title">Profil SUPL</string>  
+    <string name="location_settings_label">Technický režim umístění</string>  
+    <string name="audio_profile_error">Chyba</string>  
+    <string name="battery_percent">Procenta baterie</string>  
+    <!-- RCS-e settings -->  
+    <string name="rcse_settings_title">Nastavení RCS-e</string>
+    <string name="dlg_mount_external_sd_title" product="default">Připojit kartu SD?</string>  
+    <string name="dlg_mount_external_sd_summary" product="default">Pokud připojíte kartu SD, některé používané aplikace se ukončí.</string> 	
+
+    <string name="tethered_ipv6_title">Nastavení aktivního bodu a sdílení</string>  
+    <string name="tethered_ipv4v6">(IPv6 k dispozici)</string>  
+    <string name="tethered_ipv6">(Pouze IPv6 k dispozici)</string>  
+    <string name="tethered_ipv4">(IPv6 není k dispozici)</string>
+	
+	<string name="usb_connect_as_cdrom_category">"Připojit jako CD-ROM"</string>
+
+    <string name="wifi_ap_client_block_title">"Blokovat"</string>  
+    <string name="wifi_ap_client_details_title">Podrobnosti</string>  
+    <string name="wifi_wps_fail_error">Wi-Fi Protected Setup se nezdařilo, opakujte akci.</string>  
+    <string name="wifi_tether_setting_title">Základní nastavení</string>  
+    <string name="wifi_tether_wps_connect_title">Připojení WPS</string>  
+    <string name="wifi_tether_wps_connect_summary">Vybrán režim Wi-Fi Protected Setup pro pokračování</string>  
+    <string name="wifi_tether_wps_pin_error">Neplatný PIN</string>  
+    <string name="wifi_tethering_title">Aktivní bod Wi-Fi</string>  
+    <string name="wifi_ap_wps_dialog_title">Připojení WPS</string>  
+    <string name="wifi_ap_wps_mode_title">Režim WPS</string>  
+    <string name="wifi_ap_wps_pin_title">Zadejte PIN od klienta</string>  
+    <string name="wifi_ap_reset_OOB_title">Obnovit výchozí SSID sítě, zabezpečení a heslo (konfigurace pro WPS při vybalení)</string>  
+    <string name="wifi_ap_reset_OOB">Resetovat OOB</string>  
+    <string name="wifi_ap_max_connection_title">Maximum připojení</string>  
+    <string name="wifi_ap_connected_title">Připojení uživatelé</string>  
+    <string name="wifi_ap_blocked_title">Blokovaní uživatelé</string>  
+    <string name="wifi_ap_client_unblock_title">Odblokovat</string>  
+    <string name="wifi_ap_client_mac_label">Adresa MAC:</string>  
+    <string name="wifi_ap_client_ip_label">Adresa IP:</string>  
+    <string name="usb_sharing_title">USB Internet</string>  
+    <string name="usb_sharing_summary">Sdílení Windows PC internetu prostřednictvím kabelu USB</string>  
+    <string name="usb_sharing_info_title">Internetové předávání</string>  
+    <string name="usb_sharing_info_step_1">"1. Otevřete síťová připojení ve vašem Windows PC."</string>  
+    <string name="usb_sharing_info_step_2">"2. Pravým tlačítkem klepněte na spojení, které chcete sdílet, a potom klepněte na Vlastnosti."</string>  
+    <string name="usb_sharing_info_step_3">"3. Klepněte na kartu Sdílení a vyberte možnost \'Umožnit ostatním uživatelům v síti využívat připojení k Internetu tohoto počítače\'(pokud se zobrazí \'Připojení domácí sítě\', vyberte nově přidanou síť, která představuje USB Internet)."</string>  
+    <string name="wifi_ap_bandwidth_title">Využití šířky pásma</string>  
+    <string name="wifi_ap_bandwidth_enable">Povolit omezení šířky pásma</string>  
+    <string name="wifi_ap_bandwidth_chart_title">Rychlost dat v reálném čase</string>  
+    <string name="wifi_ap_bandwidth_chart_summary">Měřeno podle vašeho telefonu, účtování rychlosti dat vašeho poskytovatele se může lišit.</string>  
+    <string name="wifi_ap_title">Statistika</string>  
+    <string name="wifi_ap_time_duration">Doba trvání: 
+        <xliff:g id="time">%1$s</xliff:g> 
+    </string>  
+    <string name="wifi_ap_total_data">Využitá data celkem:
+        <xliff:g id="time">%1$s</xliff:g>
+    </string>
+    <string name="cpu_dtm_title">Režim snížené spotřeby procesoru</string>
+    <string name="cpu_dtm_summary">Omezte maximální výkon procesoru pro prodloužení životnosti baterie a snížení teploty zařízení.</string>
+    <string name="wifi_advanced_ipv4_address_title">Adresa IPv4</string>  
+    <string name="wifi_advanced_ipv6_address_title">Adresa IPv6</string>  
+    <string name="wifi_ipv4_address">Adresa IPv4</string>  
+    <string name="wifi_ipv6_address">Adresa IPv6</string> 
+    
+    <!-- MTK new datausage start -->
+    <string name="mtk_datausage_overview_wifi_today">Dnes</string>  
+    <string name="mtk_datausage_show_on_lockscreen">Zobrazit na obrazovce zámku</string>  
+    <string name="mtk_datausage_update">Zaktualizovat využití dat</string>  
+    <string name="mtk_datausage_update_set">"Aktualizovat"</string>  
+    <string name="mtk_datausage_amount_editor_title">Množství využitých dat</string>  
+    <string name="mtk_datausage_usage_list">Využití dat aplikací</string>  
+    <string name="mtk_datausage_diff_byte">Rozdíl využití dat</string>  
+    <string name="mtk_datausage_overview_tab">Přehled</string>  
+    <string name="mtk_datausage_overview_wifi_total">Celkem</string>  
+    <string name="mtk_datausage_overview_mobile_title">MOBIL</string>  
+    <string name="mtk_datausage_overview_mobile_usage">
+        <xliff:g id="actual">%s</xliff:g> z 
+        <xliff:g id="limit">%s</xliff:g>
+    </string>
+    <string name="mtk_datausage_overview_mobile_usage_warning">Překročení limitu <xliff:g>%s</xliff:g></string>
+    <!-- MTK new datausage end -->
+    <string name="display_personalize">Přizpůsobit</string>  
+    <string name="display_default">"Displej"</string>
+    <!-- Sound Enhanecement -->
+    <string name="sound_enhancement_title">Vylepšení zvuku</string>
+    <string name="music_plus_summary">Vylepšení zvuku pro sluchátka do ucha</string>
+    <string name="auto_backlight_title">Úsporné podsvícení</string>
+    <string name="auto_backlight_summary">Automaticky přizpůsobí podsvícení pro úsporu energie</string>
+
+    <string name="beam_mgmt_tab_download_title">Přijatá volání</string>
+    <string name="beam_mgmt_tab_upload_title">"3. Klepněte na kartu Sdílení a vyberte možnost 'Umožnit ostatním uživatelům v síti využívat připojení k Internetu tohoto počítače'(pokud se zobrazí 'Připojení domácí sítě', vyberte nově přidanou síť, která představuje USB Internet)."</string>
+    <string name="beam_share_mgmt_notification_ticker">Historie sdíleného vysílání</string>
+    <string name="beam_share_mgmt_notification_title">Historie sdíleného vysílání</string>
+    <string name="beam_share_mgmt_notification_message">"Tato možnost slouží k zobrazení historie sdíleného vysílání."</string>
+    <string name="beam_share_mgmt_tab_menu_clear">"Vymazat všechna nastavení webu?"</string>
+    <string name="beam_share_open_file_dialog_title">Soubor nelze otevřít</string>
+    <string name="beam_share_open_file_unsupported_message">Formát souboru není podporován.</string>
+    <string name="beam_share_open_file_not_found_message">"Soubor nenalezen: <xliff:g id="file_name">%1$s</xliff:g></string>
+    <string name="beam_share_transfer_fail_dialog_title">"Vysílání se nezdařilo"</string>
+    <string name="beam_share_resend_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> nebyl úspěšně odeslán."</string>
+    <string name="beam_share_resend_dialog_ok_button">"Zkuste to znovu"</string>
+    <string name="beam_share_show_received_files_menu">"Zobrazit přijaté soubory"</string>
+    <string name="beam_share_history_title">Historie sdíleného vysílání</string>
+    <string name="beam_share_clear_confirm_dialog_title">"Vymazat vše"</string>
+    <string name="beam_share_clear_confirm_dialog_message">Vymazat veškerou historii?</string>
+    <string name="beam_share_receive_fail_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> nebyl úspěšně přijat."</string>
+    <string name="beam_share_clear_item_dailog_title">ODSTRANIT</string>
+    <string name="beam_share_clear_item_dailog_message">Položka bude odstraněna.</string>
+    <string name="nfc_rw_tag_summary">Načíst z nebo zapsat do značky</string>
+    <string name="nfc_p2p_mode">Režim P2P</string>
+    <string name="nfc_p2p_mode_summary">Odeslat nebo přijmout obsah aplikace</string>
+    <string name="nfc_tag_mode_category">Režim značek</string>
+    <string name="nfc_rw_tag_title">Načítání a zápis značky</string>
+
+      <string name="voice_ui_title">Hlasové ovládání</string>
+      <string name="voice_ui_app_category">Pro nastavení aplikací</string>
+      <string name="voice_ui_setting_category">"Nastavení"</string>
+      <string name="alarm_app_name">"Budíky"</string>
+      <string name="music_app_name">Hudba</string>
+      <string name="voice_ui_language_title">"Jazyk pro hlasové ovládání"</string>
+      <string name="incoming_call_app_name">"Příchozí volání"</string>
+      <string name="camera_app_name">Fotoaparát</string>
+      <string name="incomming_command_summary_format">Vyslovením <xliff:g id="first">%1$s</xliff:g> nebo <xliff:g id="second">%2$s</xliff:g> můžete přijmout nebo odmítnout příchozí volání.</string>
+      <string name="alarm_command_summary_format">Vyslovením <xliff:g id="first">%1$s</xliff:g> nebo <xliff:g id="second">%2$s</xliff:g> můžete ovládat budík.</string>
+      <string name="camera_command_summary_format">Vyslovením <xliff:g id="first">%1$s</xliff:g> nebo <xliff:g id="second">%2$s</xliff:g> můžete zachytit.</string>
+      <string name="music_command_summary_format">Vyslovením <xliff:g id="first">%1$s</xliff:g> a <xliff:g id="second">%2$s</xliff:g> můžete ovládat přehrávání hudby.</string>
+
+    <string name="lock_screen_notifications_title">Zamknutá obrazovka - oznámení</string>
+    <string name="lock_screen_notifications_summary">Zobrazovat oznámení na zamknuté obrazovce</string>
+    <string name="lock_screen_style_title">Zamknutá obrazovka - styl</string>
+
+	<!-- Lock screen settings start -->
+	<string name="current_suffix">"(Aktuální)"</string>
+	<string name="lockscreen_style_set">Nastavit zamknutou obrazovku</string>
+	<string name="lockscreen_style_default_desc">"Rychlý přístup k aplikacím na zamykací obrazovce"</string>
+	<!-- Lock screen settings end -->
+    <!--  voice unlock start-->
+    <string name="voice_unlock_backup_info_summary">Když vás Odemknutí hlasem nemůže rozpoznat, jak chcete odemknout?</string>
+    <string name="unlock_set_unlock_mode_voice_weak">Odemknout hlasem</string>
+    <!--  voice unlock end-->
+    <string name="usb_tether_type_title">Typ sdílení USB</string> 
+    <string name="security_not_set">Zabezpečení není nastaveno</string>
+    <string name="lockdown_vpn_already_connected">Funkce Vždy na VPN je již aktivována pro připojení.</string> 
+
+    <string name="wifi_ap_no_connected">0 připojení uživatelé</string>  
+    <string name="wifi_ap_no_blocked">0 blokovaní uživatelé</string>  
+
+    <string name="status_imei_slot3">IMEI(slot 3)</string>
+    <string name="status_imei_sv_slot3">IMEI SV(slot 3)</string>
+    <string name="status_min_number_slot3">MIN(slot 3)</string>
+    <string name="status_prl_version_slot3">Verze PRL(slot 3)</string>
+    <string name="status_meid_number_slot3">MEID(slot 3)</string>
+
+    <string name="usb_tethering_select_version">Vyberte verzi PC systému</string>
+</resources>

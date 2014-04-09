@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="one_video_widget">Im Startbildschirm ist nur ein \" 
+        <xliff:g id="name" example="videoplayer">%s</xliff:g>\" erlaubt.
+    </string>  
+    <string name="orientation">Lage kann nicht erkannt werden.</string>  
+    <string name="scene">Szene wählen</string> 
+    <string name="scene_title_default">Standard</string>
+	<string name="scene_title_work">Arbeit</string> 
+    <string name="state">Aktuell</string>
+    <string name="scene_instructions">Szene einstellen</string>
+
+    <string name="shortcut_array_installed"><xliff:g id="count" example="3">%1$d</xliff:g> Verknüpfungen erstellt.</string>
+    <string name="shortcut_install_failed">Verknüpfung \"<xliff:g id="name" example="Xiaoming">%1$s</xliff:g>\" konnte nicht erstellt werden.</string>
+    <string name="shortcut_array_install_failed"><xliff:g id="count" example="3">%1$d</xliff:g> Verknüpfungen konnten nicht erstellt werden.</string>
+    <string name="shortcut_array_duplicate"><xliff:g id="count" example="3">%1$d</xliff:g> Verknüpfungen existieren bereits.</string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_label">ဒေါင်းလုဒ်မန်နေဂျာ</string>  
+    <string name="permlab_downloadManager">ဒေါင်းလုဒ်မန်နေဂျာသို့ ဝင်ရောက်ပါ။</string>  
+    <string name="permdesc_downloadManager">ပရိုဂရမ်အား ဒေါင်းလုဒ်မန်နေဂျာသို့ ဝင်ရောက်ပြီး ၎င်းအား အသုံးပြု၍ ဖိုင်များကို ဒေါင်းလုဒ်လုပ်ရန် ခွင့်ပြုပါ။ အန္တရာယ်ရှိသော ပရိုဂရမ်များက ယင်းကို အသုံးပြု၍ ဒေါင်းလုဒ်လုပ်ခြင်းကို နှောက်ယှက်ပြီး ကိုယ်ရေးကိုယ်တာသတင်းအချက်အလက်များသို့ ဝင်ရောက်နိုင်သည်။</string>  
+    <string name="permlab_downloadManagerAdvanced">ဒေါင်းလုဒ်မန်နေဂျာလုပ်ဆောင်ချက်များကို အဆင့်မြှင့်ထားပြီး။</string>  
+    <string name="permdesc_downloadManagerAdvanced">ပရိုဂရမ်အား ဒေါင်းလုဒ်မန်နေဂျာ၏ အဆင့်မြှင့်ထားသော လုပ်ဆောင်ချက်များသို့ ဝင်ရောက်ခွင့်ပြုပါ။ အန္တရာယ်ရှိသော ပရိုဂရမ်များက ယင်းကို အသုံးပြု၍ ဒေါင်းလုဒ်လုပ်ခြင်းကို နှောက်ယှက်ပြီး ကိုယ်ရေးကိုယ်တာသတင်းအချက်အလက်များသို့ ဝင်ရောက်နိုင်သည်။</string>  
+    <string name="permlab_downloadCompletedIntent">ဒေါင်းလုဒ်လုပ်ခြင်းဆိုင်ရာ အချက်ပေးချက်များကို ပေးပို့ပါ။</string>  
+    <string name="permdesc_downloadCompletedIntent">ပရိုဂရမ်အား ပြီးဆုံးသွားသော ဒေါင်းလုဒ်လုပ်ခြင်းများအတွက် အချက်ပေးချက်များ ပေးပို့ခွင့်ပြုပါ။ အန္တရာယ်ရှိသော ပရိုဂရမ်များက ယင်းကို အသုံးပြု၍ ဒေါင်းလုဒ်လုပ်သည့် အခြားပရိုဂရမ်များကို အနှောက်အယှက်ပေးလိမ့်မည်။</string>  
+    <string name="permlab_seeAllExternal" product="nosdcard">ဒေါင်းလုဒ်လုပ်ထားချက်အားလုံးကို USB သိမ်းဆည်းမှုပစ္စည်းသို့ မြင်စေပါ</string>  
+    <string name="permlab_seeAllExternal" product="default">ဒေါင်းလုဒ်လုပ်ထားချက်အားလုံးကို SD ကဒ်သို့ မြင်စေပါ</string>  
+    <string name="permdesc_seeAllExternal">ပရိုဂရမ်အား မည်သည့်ပရိုဂရမ်က ဒေါင်းလုဒ်လုပ်သည်ကို ဂရုမထားဘဲ ဒေါင်းလုဒ်လုပ်ထားချက်အားလုံးကို SD ကဒ်သို့ မြင်ရန်ခွင့်ပြုပါ။</string>  
+    <string name="permlab_downloadCacheNonPurgeable">ဒေါင်းလုဒ်ကက်(ရှ်)သိမ်းဆည်းမှုတွင် နေရာချန်ပါ</string>  
+    <string name="permdesc_downloadCacheNonPurgeable">ပရိုဂရမ်အား ဒေါင်းလုဒ်မန်နေဂျာက နေရာလိုအပ်ပါက အလိုအလျောက်ဖျက်၍မရသော ဒေါင်းလုဒ်ကက်(ရှ်)သိမ်းဆည်းမှုတွင် ဖိုင်များကို ဒေါင်းလုဒ်လုပ်ရန် ခွင့်ပြုပါ။</string>  
+    <string name="permlab_downloadWithoutNotification">အချက်မပေးဘဲ ဖိုင်များကို ဒေါင်းလုဒ်လုပ်ပါ</string>  
+    <string name="permdesc_downloadWithoutNotification">ပရိုဂရမ်အား အသုံးပြုသူကို မည်သည့်အချက်ပေးချက်မှမပြဘဲ ဒေါင်းလုဒ်မန်နေဂျာမှတစ်ဆင့် ဖိုင်များကို ဒေါင်းလုဒ်လုပ်ရန် ခွင့်ပြုပါ။</string>  
+    <string name="permlab_accessAllDownloads">စနစ်၏ ဒေါင်းလုဒ်လုပ်ထားချက်များအားလုံးသို့ ဝင်ရောက်ပါ</string>  
+    <string name="permdesc_accessAllDownloads">ပရိုဂရမ်အား စနစ်ရှိ မည်သည့်ပရိုဂရမ်မဆိုက စတင်ထားသည့် ဒေါင်းလုဒ်လုပ်ထားချက်အားလုံးကို ကြည့်ရှုရန်နှင့် အဆင့်မြှင့်တင်ရန် ခွင့်ပြုပါ။</string>  
+    <string name="download_unknown_title">&amp;lt;ခေါင်းစဉ်တပ်မထား&amp;gt;</string>  
+    <string name="notification_filename_separator">", "</string>  
+    <string name="notification_filename_extras">" နှင့်နောက်ထပ် 
+        <xliff:g id="number" example="27">%d</xliff:g> ခု"
+    </string>  
+    <string name="notification_download_complete">ဒေါင်းလုဒ်လုပ်ခြင်းပြီးဆုံး။</string>  
+    <string name="notification_download_failed">ဒေါင်းလုဒ်လုပ်ခြင်း မအောင်မြင်ပါ။</string>  
+    <string name="notification_need_wifi_for_size">ဒေါင်းလုဒ်လုပ်ရာတွင် အရွယ်အစားကြီးမားသဖြင့် Wi-Fi လိုအပ်သည်။</string>  
+    <string name="notification_paused_in_background">နောက်ခံတွင် ခဏရပ်ထားပါ။</string>  
+    <string name="wifi_required_title">ကွန်ယက်အထောက်အပံ့အတွက် ဒေါင်းလုဒ်လုပ်ထားချက်မှာ ကြီးမားလွန်းသည်</string>  
+    <string name="wifi_required_body">ဤ 
+        <xliff:g id="size" example="12.3KB">%s</xliff:g> ဒေါင်းလုဒ်လုပ်ခြင်းအား ပြီးဆုံးစေရန် Wi-Fi အသုံးပြုရမည်။ \n\nနောက်တစ်ကြိမ် Wi-Fi ကွန်ယက်သို့ ချိတ်ဆက်ပါက ဤဒေါင်းလုဒ်လုပ်ခြင်းအား စတင်ရန် 
+        <xliff:g id="queue_text" example="Queue">%s</xliff:g> ကို ထိပါ။
+    </string>  
+    <string name="wifi_recommended_title">နောက်တွင် ဒေါင်းလုဒ်လုပ်ရန် စီထားမလား</string>  
+    <string name="wifi_recommended_body">ဤ 
+        <xliff:g id="size" example="12.3KB">%s</xliff:g> ဒေါင်းလုဒ်လုပ်ခြင်းအား စတင်ခြင်းက သင့်ဘက်ထရီသက်တမ်းတိုစေပြီး/သို့မဟုတ် သင့်အချက်အလက်စီစဉ်မှုပေါ်တွင်မူတည်၍ ငွေကြေးကုန်ကျစေနိုင်သည့် မိုဘိုင်းအချက်အလက်ချိတ်ဆက်မှုအား အလွန်အမင်းအသုံးပြုစေမည်ဖြစ်သည်။ \n\n သင့်နောက်တစ်ကြိမ် Wi-Fi ကွန်ယက်သို့ ချိတ်ဆက်ပါက ယင်းဒေါင်းလုဒ်လုပ်ခြင်းအား စတင်ရန် 
+        <xliff:g id="queue_text" example="Queue">%s</xliff:g> ကို ထိပါ။
+    </string>  
+    <string name="button_queue_for_wifi">စီတန်းပါ</string>  
+    <string name="button_cancel_download">ဖျက်ပစ်သည်</string>  
+    <string name="button_start_now">ယခုစတင်ပါ</string>  
+    <string name="download_percent">
+        <xliff:g id="number">%d</xliff:g>
+        <xliff:g id="percent">%%</xliff:g>
+    </string> 
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="editor_gray_effect">Kelabu</string>  
+    <string name="not_enough_space" product="nosdcard">"Storan USB anda penuh."</string>  
+    <string name="not_enough_space" product="default">"Kad SD anda penuh."</string>
+</resources>

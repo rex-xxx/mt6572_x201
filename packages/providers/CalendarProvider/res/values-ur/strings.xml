@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="calendar_storage">کیلنڈر اسٹوریج</string>  
+    <string name="upgrade_msg">کیلنڈر کا ڈیٹا بیس اپ گریڈ کرنا۔</string>  
+    <string name="calendar_default_name">ڈیفالٹ</string>  
+    <string name="calendar_info">کیلنڈر کی معلومات</string>  
+    <string name="calendar_info_error">خامی</string>  
+    <string name="calendar_info_no_calendars">کوئی کیلنڈرز نہیں ہیں</string>  
+    <string name="calendar_info_events">واقعات: 
+        <xliff:g id="events">%1$d</xliff:g> 
+    </string>  
+    <string name="calendar_info_events_dirty">واقعات: 
+        <xliff:g id="events">%1$d</xliff:g>، غیر محفوظ کردہ: 
+        <xliff:g id="dirty events">%2$d</xliff:g> 
+    </string>  
+    <string name="provider_label">کیلنڈر</string>  
+    <string name="debug_tool_delete_button">ابھی حذف کریں</string>  
+    <string name="debug_tool_start_button">شروع کریں</string>  
+    <string name="debug_tool_message">آپ 1) SD کارڈ / USB اسٹوریج پر اپنے کیلنڈر ڈیٹابیس کی، جو کسی بھی اطلاق کے ذریعہ پڑھے جانے لائق ہے ایک کاپی بنانے والے، اور 2) اسے ای میل کرنے والے ہیں۔ جیسے ہی آپ آلہ سے باہر اسے کاپی کرلیں یا ای میل موصول ہوجائے اسے حذف کرنا یاد رکھیں۔</string>  
+    <string name="debug_tool_email_sender_picker">اپنی فائل بھیجنے کیلئے ایک پروگرام چنیں</string>  
+    <string name="debug_tool_email_subject">کیلنڈر Db منسلک ہوگیا</string>  
+    <string name="debug_tool_email_body">میری سبھی ملاقاتوں اور ذاتی معلومات کے ساتھ میرے کیلنڈر کا ڈیٹابیس منسلک ہے۔ احتیاط سے کام لیں۔</string> 
+</resources>

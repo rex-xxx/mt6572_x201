@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+    <string name="app_name">ဂဏန်းတွက်စက်</string>
+    <string name="error">အမှား</string>
+    <string name="digit0">0</string>
+    <string name="digit1">1</string>
+    <string name="digit2">2</string>
+    <string name="digit3">3</string>
+    <string name="digit4">4</string>
+    <string name="digit5">5</string>
+    <string name="digit6">6</string>
+    <string name="digit7">7</string>
+    <string name="digit8">8</string>
+    <string name="digit9">9</string>
+    <string name="del">ဖျက်ပါ</string>
+    <string name="clear">C</string>
+    <string name="sin">sin</string>
+    <string name="cos">cos</string>
+    <string name="tan">tan</string>
+    <string name="e">e</string>
+    <string name="ln">ln</string>
+    <string name="lg">log</string>
+    <string name="leftParen">(</string>
+    <string name="rightParen">)</string>
+    <string name="basic">အခြေခံအကြောင်းအရာအကွက်</string>  
+    <string name="advanced">အဆင့်မြင့်အကြောင်းအရာအကွက်</string>  
+    <string name="clear_history">မှတ်တမ်းကို ရှင်းလင်းပါ</string>  
+    <string name="text_copied_toast">စာသားကူးယူပြီး။</string>
+
+    <!--Content descriptions for accessibility. These strings will be read aloud to users who are using the calculator with
+    accessibility features enabled and should reflect the mathematical concept instead of a direct representation of what is shown
+    on the button-->
+    <string name="leftParenDesc">ဘယ်ဘက်ရှိ စကားချပ်</string>
+    <string name="rightParenDesc">ညာဘက်ရှိ စကားချပ်</string>
+    <string name="factorialDesc">မြှောက်ဖော်ကိန်း</string>
+    <string name="lnDesc">မူရင်းလော့ဂ်ဂရစ်သမ်</string>
+    <string name="lgDesc">လော့ဂ်ဂရစ်သမ်</string>
+    <string name="sqrtDesc">နှစ်ထပ်ကိန်းရင်း</string>
+    <string name="divDesc">အစား</string>
+    <string name="mulDesc">အမြှောက်</string>
+    <string name="plusDesc">​ပေါင်းသည်</string>
+    <string name="minusDesc">အနှုတ်</string>
+    <string name="dotDesc">ဒဿမ</string>
+    <string name="powerDesc">ထပ်ကိန်း</string>
+    <string name="delDesc">ဖျက်ပါ</string>
+    <string name="clearDesc">ရှင်းလင်းရန်</string>
+    <string name="tanDesc">tangent</string>
+    <string name="sinDesc">sine</string>
+    <string name="cosDesc">cosine</string>
+    <string name="eDesc">Euler\ နံပါတ်</string>
+    <string name="piDesc">pi</string>
+    <string name="equalDesc">ညီမျှခြင်း</string>
+
+</resources>

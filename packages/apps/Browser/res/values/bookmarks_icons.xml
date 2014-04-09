@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bookmark_preloads_for_op02">
+        <item>@raw/op02_favicon_wo</item>
+        <item>@raw/op02_thumb_wo</item>
+    </array>
+    <array name="bookmark_preloads_for_op01">       
+        <item>@raw/op01_favicon_mm</item>
+        <item>@raw/op01_thumb_mm</item>
+        <item>@raw/op01_favicon_cmread</item>
+        <item>@raw/op01_thumb_cmread</item>
+        <item>@raw/op01_favicon_10086_game</item>
+        <item>@raw/op01_thumb_game</item>
+        <item>@raw/op01_favicon_cmvideo</item>
+        <item>@raw/op01_thumb_cmvideo</item>
+        <item>@raw/op01_favicon_10086_music</item>
+        <item>@raw/op01_thumb_music</item>
+        <item>@raw/op01_favicon_12580</item>
+        <item>@raw/op01_thumb_12580</item>
+        <item>@raw/op01_favicon_fetion</item>
+        <item>@raw/op01_thumb_fetion</item>
+        <item>@raw/op01_favicon_139mail</item>
+        <item>@raw/op01_thumb_139mail</item>
+        <item>@raw/op01_favicon_webaddress</item>
+        <item>@raw/op01_thumb_webaddress</item>        
+    </array>
+    <array name="bookmark_preloads_for_yahoo">
+        <item>@raw/favicon_yahoo</item>
+        <item>@raw/thumb_mobile</item>
+        <item>@raw/favicon_yahoo</item>
+        <item>@raw/thumb_mail</item>
+        <item>@raw/favicon_yahoo</item>
+        <item>@raw/thumb_messenger</item>
+        <item>@raw/favicon_yahoo</item>
+        <item>@raw/thumb_news</item>
+    </array>
+    <array name="bookmark_preloads">
+        <item>@raw/favicon_google</item>
+        <item>@raw/thumb_google</item>
+        <item>@raw/favicon_picasa</item>
+        <item>@raw/thumb_picasa</item>
+        <!-- item>@raw/favicon_yahoo</item>
+        <item>@raw/thumb_yahoo</item-->
+        <item>@raw/favicon_msn</item>
+        <item>@raw/thumb_msn</item>
+        <item>@raw/favicon_twitter</item>
+        <item>@raw/thumb_twitter</item>
+        <item>@raw/favicon_facebook</item>
+        <item>@raw/thumb_facebook</item>
+        <item>@raw/favicon_wikipedia</item>
+        <item>@raw/thumb_wikipedia</item>
+        <item>@raw/favicon_ebay</item>
+        <item>@raw/thumb_ebay</item>
+        <item>@raw/favicon_cnn</item>
+        <item>@raw/thumb_cnn</item>
+        <item>@raw/favicon_nytimes</item>
+        <item>@raw/thumb_nytimes</item>
+        <item>@raw/favicon_espn</item>
+        <item>@raw/thumb_espn</item>
+        <item>@raw/favicon_amazon</item>
+        <item>@raw/thumb_amazon</item>
+        <item>@raw/favicon_weatherchannel</item>
+        <item>@raw/thumb_weatherchannel</item>
+        <item>@raw/favicon_bbc</item>
+        <item>@raw/thumb_bbc</item>
+        <item>@raw/favicon_gameloft</item>
+        <item>@raw/thumb_gameloft</item>
+        <item>@raw/favicon_dena</item>
+        <item>@raw/thumb_dena</item>
+        <item>@raw/favicon_cmge</item>
+        <item>@raw/thumb_cmge</item>
+    </array>
+</resources>

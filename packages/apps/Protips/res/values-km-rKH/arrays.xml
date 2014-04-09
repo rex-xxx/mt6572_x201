@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string-array name="tips">
+        <item>មើលកម្មវិធីរបស់អ្នកទាំងអស់ ។\n យកម្រាមដៃប៉ះលើរូបតំណាងការចាប់ផ្តើម ។ @drawable/all_apps</item>
+        <item>ទាញកម្មវិធីចូលទៅក្នុងអេក្រង់ដើមរបស់អ្នក ។\n យកម្រាមដៃប៉ះ &amp; សង្កត់កម្មវិធីនៅលើអ្នកចាប់ផ្តើម=្យជាប់ រហូតដល់វាញ័រ ។</item>
+        <item>ការរៀបចំអេក្រង់ដើមរបស់អ្នកឡើងវិញ ។\n យកម្រាមដៃប៉ះ &amp; សង្កត់វាឲ្យជាប់ ហើយពេលវាញ័រ ទាញវាទៅទីណាតាមដែលអ្នកចង់បាន ។</item>
+        <item>លុបរបស់ចោល ។\n យកម្រាមដៃប៉ះ &amp; សង្កត់វាឲ្យជាប់ ហើយពេលដែលវាញ័រ ទាញវាដាក់ចូលទៅក្នុងរូបធុងសម្រាម ។ @drawable/trash</item>
+        <item>អេក្រង់ដើមច្រើន ។\n អូសទៅឆ្វេង ឬស្តាំ ដើម្បីប្តូរ ។ ទាញរបស់ទៅកាន់អេក្រង់ផ្សេងទៀត ។</item>
+        <item>បានធ្វើរួចរាល់ជាមួយវីដជេដនេះហើយមែនទេ?\n យកម្រាមដៃប៉ះ &amp; សង្កត់វាឲ្យជាប់ ហើយពេលដែលវាញ័រ ទាញវាដាក់ទៅក្នុងរូបធុងសម្រាម ។</item>
+    </string-array>
+    <string-array name="tips2">
+        <item>Home is a garden \nTouch &amp; hold an empty spot \nTo grow new icons</item>
+        <item>Phone isn’t waterproof \nDo not immerse in water \nor other fluids</item>
+        <item>Want some more home screens? \nSwipe left and right to find them \n(No theft required)</item>
+        <item>Little Home screen dots \nWhat could they possibly do? \nTouch &amp; hold to learn.</item>
+        <item>Status bar icons \nTo discover their secrets \nPull the windowshade</item>
+        <item>There is a trick to \nDragging items twixt Home screens \nPause at the edges</item>
+        <item>Touch Market for apps \nLike a box of chocolates \nEach one a surprise</item>
+        <item>Oh, and by the way: \nCeci n’est pas une trombone \nI am an Android</item>
+    </string-array>
+</resources>

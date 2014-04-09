@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_advanced_settings">ব্লুটুথ উচ্চতর সেটিং</string>  
+    <!-- Bluetooth settings.  The user-visible string that is used whenever referring to the FTP profile. -->  
+    <string name="bluetooth_profile_ftp">ফাইল স্থানান্তর</string>  
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the FTP checkbox preference that describes how checking it will set the FTP profile as preferred. -->  
+    <string name="bluetooth_ftp_profile_summary_use_for">ফাইল স্থানান্তরের জন্য ব্যবহার করুন</string>  
+    <string name="bluetooth_ftp_profile_summary_connected">"ফাইল ট্রান্সফারের সাথে সংযুক্ত"</string>  
+    <string name="mtp_transfer_unmount_error_text">ফাইল স্থানান্তরের সময় এসডি কার্ডকে আনমাউন্ট করা যাবে না</string>  
+    <string name="mtp_transfer_erase_error_text">ফাইল স্থানান্তরের সময় এসডি কার্ডকে মুছে ফেলা যাবে না</string>  
+    <string name="launch_error">"অ্যাপ্লিকেশন চালু করতে পারেনি!"</string>  
+    <string name="dlg_confirm_unmount_usb_title" product="default">ইউএসবি স্টোরেজ আনমাউন্ট করবেন?</string>  
+    <string name="dlg_confirm_unmount_usb_text" product="default">আপনি যদি ইউএসবি স্টোরেজ আনমাউন্ট করেন, তাহলে আপনি ব্যবহার করছেন এমন কিছু অ্যাপ বন্ধ হয়ে যাবে এবং আপনি যতক্ষণ পর্যন্ত ইউএসবি স্টোরেজ রিমাউন্ট না করেন ততক্ষণ পর্যন্ত হয়ত তা পাওয়া যাবে না।</string>  
+    <string name="dlg_error_unmount_usb_title" product="default"/>  
+    <string name="dlg_error_unmount_usb_text" product="default">ইউএসবি সংরক্ষাণাগার আনমাউন্ট করা সম্ভব হয়নি । পরে আবার চেষ্টা করুন ।</string>  
+    <string name="unmount_usb_inform_text" product="default">ইউএসবি স্টোরেজ আনমাউন্ট করা হবে।</string>  
+    <string name="sd_eject_usbstorage" product="default">ইউএসবি স্টোরেজ আনমাউন্ট করুন</string>  
+    <string name="sd_eject_usbstorage_summary" product="default">অভ্যন্তরীণ ইউএসবি স্টোরেজ আনমাউন্ট করুন</string>  
+    <string name="sd_mount_usbstorage" product="default">ইউএসবি স্টোরেজ মাউন্ট করুন</string>  
+    <string name="sd_insert_usb_summary" product="default">মাউন্টিংয়ের জন্য এসডি কার্ড প্রবেশ করান</string>  
+    <!-- Storage setting.  Title for UMS checkbox [CHAR LIMIT=30]-->  
+    <string name="usb_ums_title">ইউএসবি স্টোরেজ</string>  
+    <!-- Storage setting.  Summary for UMS checkbox [CHAR LIMIT=NONE]-->  
+    <string name="usb_ums_summary">"এক্সপি'র জন্য পরামর্শ দেওয়া হচ্ছে। আপনাকে আপনার কম্পিউটার ও আপনার অ্যান্ড্রোয়েডের ইউএসবি স্টোরেজের মধ্যে ফাইল ট্রান্সফার করতে দেয় "</string>  
+    <string name="usb_charge_title">কেবল চার্জ</string>  
+    <string name="usb_charge_summary">সকল ইউএসবি কার্যক্রম বন্ধ করুন। ইউএসবি চার্জিংয়ের গতি বৃদ্ধি করে এবং পাওয়ার ব্যবহার কমায়।</string>  
+    <!-- Agps Settings -->  
+    <string name="NI_Request_ID">রিকোয়েস্টর আইডি</string>  
+    <string name="NI_Request_ClientName">ক্লায়েন্টের নাম</string>  
+    <string name="agps_str_verify">বৈধতা যাচাই</string>  
+    <string name="agps_str_notify">নোটিফিকেশন</string>  
+    <string name="EM_NotifyDialog_title">ইএম অবগতকরণ</string>  
+    <string name="agps_OK">ঠিক আছে</string>  
+    <string name="agps_str_allow">অনুমতি দিন</string>  
+    <string name="agps_str_deny">প্রত্যাখান করুন</string>  
+    <string name="agps_str_error">ত্রুটি</string>  
+    <string name="AGPS_DEFAULT_STRING">এ-জিপিএস ডিফল্ট স্ট্রিং</string>  
+    <string name="AGPS_CAUSE_NETWORK_CREATE_FAIL">নেটওয়ার্ক তৈরি ব্যর্থ</string>  
+    <string name="AGPS_CAUSE_BAD_PUSH_CONTENT">ভুল পুশ কনটেন্ট</string>  
+    <string name="AGPS_CAUSE_NOT_SUPPORTED">অসমর্থিত অপারেশন</string>  
+    <string name="AGPS_CAUSE_REQ_NOT_ACCEPTED">অনুরোধ গৃহীত নয়</string>  
+    <string name="AGPS_CAUSE_NO_RESOURCE">নতুন প্রক্রিয়া সামলাতে রিসোর্স নেই</string>  
+    <string name="AGPS_CAUSE_NETWORK_DISCONN">নেটওয়ার্ক সংযোগ বিচ্ছিন্ন</string>  
+    <string name="AGPS_CAUSE_REMOTE_ABORT">রিমোট সাইট অ্যাবোর্ট সেশন (SUPL END গ্রহণ করুন)</string>  
+    <string name="AGPS_CAUSE_TIMER_EXPIRY">নির্ধারিত সময়ের বিরতির সময় প্রত্যাশিত বার্তা ফিরে আসেনি</string>  
+    <string name="AGPS_CAUSE_REMOTE_MSG_ERROR">ভুল মেসেজ কনটেন্ট লাভ করুন</string>  
+    <string name="AGPS_CAUSE_USER_AGREE">নিশ্চিতকরণে ব্যবহারকারী রাজি</string>  
+    <string name="AGPS_CAUSE_USER_DENY">নিশ্চিতকরণে ব্যবহারকারীর বিলম্ব</string>  
+    <string name="AGPS_CAUSE_NO_POSITION">কেবল নো পজিশনের জন্য</string>  
+    <string name="AGPS_CAUSE_TLS_AUTH_FAIL">টিএলএস সত্যায়ন ব্যর্থ</string>  
+    <string name="USER_RESPONSE_TIMEOUT">বৈধতা যাচাইয়ের অপেক্ষমানকাল অতিক্রান্ত</string>  
+    <string name="AGPS_EM_RECV_SI_REQ">এসআই অনুরোধ পাওয়া গেছে</string>  
+    <string name="AGPS_EM_POS_FIXED">পজিশন নির্ধারিত</string>  
+    <string name="AGPS_NOTIFY_ONLY">লোকেশন অনুরোধ নোটিফিকেশন</string>  
+    <string name="AGPS_NOTIFY_ALLOW_NO_ANSWER">লোকেশন অনুরোধ (উত্তর না থাকলে অনুমতি দিন)</string>  
+    <string name="AGPS_NOTIFY_DENY_NO_ANSWER">লোকেশন অনুরোধ (উত্তর না থাকলে প্রত্যাখান করুন)</string>  
+    <string name="AGPS_NOTIFY_PRIVACY">লোকেশন অনুরোধ (গোপনীয়তা)</string>  
+    <string name="epo_entrance_title">ইপিও সেটিং</string>  
+    <string name="epo_entrance_summary">ইপিও কনফিগারেশন পরিমার্জনের জন্য ক্লিক করুন</string>  
+    <string name="agps_settings_title">এ-জিপিএস সেটিং</string>  
+    <string name="epo_enable_confirm_title">ইপিও সক্রিয়করণ নিশ্চিত</string>  
+    <string name="epo_enable_confirm_message">জিপিএস সহায়তা ডাটা (EPO) পাওয়ার জন্য এর ওয়্যারলেস ডাটা সংযোগ প্রয়োজন যাতে অতিরিক্ত নেটওয়ার্ক ফি লাগবে। আপনি কি জিপিএস সহায়তা চালু করতে নিশ্চিত?</string>  
+    <string name="epo_enable_confirm_allow">অব্যাহত রাখুন</string>  
+    <string name="epo_enable_confirm_deny">বাতিল করুন</string>  
+    <string name="agps_enable_confirm_title">এ-জিপিএস সক্রিয়করণ নিশ্চিত করুন</string>  
+    <string name="agps_enable_confirm">অ্যাসিস্ট্যান্ট ডাটা সংগ্রহ করতে এ-জিপিএস-এর ওয়্যারলেস ডাটা সংযোগ প্রয়োজন যাতে অতিরিক্ত ফি লাগতে পারে। আপনি কি এ-জিপিএস চালু করতে নিশ্চিত?</string>  
+    <string name="agps_enable_confirm_allow">অব্যাহত রাখুন</string>  
+    <string name="agps_enable_confirm_deny">বাতিল করুন</string>  
+    <string name="epo_enable_title">GPS EPO সহায়তা</string>  
+    <string name="epo_enable_summary">জিপিএস পজিশনিংয়ের গতি বাড়াতে GPS সহায়তা ডাটা (EPO) ব্যবহার করুন।</string>  
+    <string name="agps_settings_enable_on">জিপিএস ওয়্যারলেস সংযোগের মাধ্যমে অ্যাসিস্ট্যান্ট ডাটার সাথে লোকেশনের নির্ধারিত সময়কে দ্রুতগতির করতে পারে।</string>  
+    <string name="agps_settings_enable_off">জিপিএস-এর সাথে লোকেশনের নির্ধারিত সময়কে দ্রুতগতির করতে অ্যাসিস্ট্যান্ট ডাটা ব্যবহার করুন।</string>  
+    <string name="agps_settings_eng_enable">এ-জিপিএস সেটিং</string>  
+    <string name="agps_settings_eng_summary">এ-জিপিএস সেটিং সেট আপ করুন</string>  
+    <string name="agps_disable_on_reboot">রিবুটের পর নিষ্ক্রিয় করুন</string>  
+    <string name="agps_disable_on_reboot_summary">রিবুটের পর এ-জিপিএস সামর্থ্য নিষ্ক্রিয় করুন</string>  
+    <string name="Network_Initiate">নেটওয়ার্ক অনুরোধ</string>  
+    <string name="Network_Initiate_Summary_on">অবস্থানের জন্য অনুরোধ জানাতে নেটওয়ার্ককে অনুমতি দিন</string>  
+    <string name="Network_Initiate_Summary_off">অবস্থানের জন্য অনুরোধ জানাতে নেটওয়ার্ক প্রত্যাখান করুন</string>  
+    <string name="Network_Used">﻿ব্যবহৃত নেটওয়ার্ক</string>  
+    <string name="agps_profile_select">প্রোফাইল নির্বাচনকারী</string>  
+    <string name="agps_profile_SLP_address_editbox_title">SLP ঠিকানা</string>  
+    <string name="port_title">এসএলপি পোর্ট</string>  
+    <string name="tls_summary_off">টিএলএস বন্ধ করা হয়েছে</string>  
+    <string name="tls_summary_on">টিএলএস চালু করা হয়েছে</string>  
+    <string name="MobileNetwork_Category">মোবাইল নেটওয়ার্ক</string>  
+    <string name="AgpsHelp_Category">সাহায্য</string>  
+    <string name="about_agps_title">এ-জিপিএস সম্পর্কে</string>  
+    <string name="about_agps_message">\tএ-জিপিএস (অ্যাসিস্টেট-জিপিএস) এমন সিস্টেম যা শুরুর পারফরমেন্স এবং জিপিএস স্যাটেলাইটের টাইম-টু-ফার্স্ট-ফিক্স (টিটিএফএফ) উন্নত করতে পারে।. \n\t এ-জিপিএস সক্ষম ডিভাইস লোকেশন সার্ভারের সাথে সংযুক্ত হয়ে মোবাইল নেটওয়ার্ক ডাটা সংযোগের মাধ্যমে ডাটা গ্রহণে সাহায্য করে।. \n\t লক্ষ্য করুন যে ডাটা ট্রাফিক নেটওয়ার্ক রোমিং অবস্থায় অতিরিক্ত ফি কাটতে পারে। বিস্তারিত জানার জন্য আপনার আপনার অপারেটরের সাথে যোগাযোগ করুন।.</string>  
+    <string name="epo_auto_download_title">স্বয়ংক্রিয় ডাউনলোড</string>  
+    <string name="epo_auto_download_summary">স্যাটেলাইট অবস্থানের তথ্য স্বয়ংক্রিয়ভাবে ডাউনলোড করুন</string>  
+    <string name="epo_info_title">ইপিও ফাইল তথ্য</string>  
+    <string name="epo_download_time_title">ডাউনলোডের সময়</string>  
+    <string name="epo_download_time_summary">লভ্য নয়</string>  
+    <string name="epo_start_time_title">শুরুর সময়</string>  
+    <string name="epo_start_time_summary">লভ্য নয়</string>  
+    <string name="epo_expire_time_title">মেয়াদোর্ত্তীনের সময়</string>  
+    <string name="epo_expire_time_summary">লভ্য নয়</string>  
+    <string name="epo_about_title">ইপিও সম্পর্কে</string>  
+    <string name="epo_about_message">\tইপিও (এক্সটেনডেট প্রেডিকশন অরবিট) হল মিডিয়া টেকের অন্যতম অভিনব প্রোপ্রাইয়েটারি অফ-লাইন সার্ভার ভিত্তিক এ-জিপিএস প্রযুক্তি। \n\t এটি ৩০ দিন পর্যন্ত স্যাটেলাইট অরবিট প্রেডিকশন সমর্থন করে। জিপিএন টাইম টু ফার্স্ট ফিক্স (টিটিএফএফ) উন্নত করার মাধ্যমে ব্যবহারকারীর অভিজ্ঞতা অনেকখানি সমৃদ্ধ করতে যা ব্যবহার করা যেতে পারে।</string>  
+    <string name="Network_Local_and_Roaming_Summary">স্থানীয় ও রোমিং উভয় নেটওয়ার্কের অধীনে এ-জিপিএস ব্যবহার করুন</string>  
+    <string name="Network_Only_Local_Summary">স্থানীয় নেটওয়ার্কের অধীনে কেবল এ-জিপিএস ব্যবহার করুন</string>  
+    <string name="MobileNetwork_DataConn_off">ডাটা সংযোগ বন্ধ</string>  
+    <string name="MobileNetwork_off_Summary">এ-জিপিএস ব্যবহার করার পূর্বে ডাটা সংযোগ চালু করুন</string>  
+    <string name="WiFiNetwork_on_title">ওয়াই-ফাই সক্রিয়</string>  
+    <string name="MobileNetwork_on_Summary">এ-জিপিএস-এর ডাটা সংযোগের মাধ্যমে মোবাইল নেটওয়ার্কে প্রবেশ করা প্রবেশ প্রয়োজন</string>  
+    <string name="MobileNetwork_SIM_Active">সিম সক্রিয়</string>  
+    <string name="Network_Roaming_dialog_title">মনযোগ আকর্ষণ</string>  
+    <string name="Network_Roaming_dialog_content">যদি নেটওয়ার্ক রোমিং অবস্থায় থাকে তাহলে, এ-জিপিএস ডাটা ট্রাফিকের জন্য অতিরিক্ত রোমিং ফি দিতে হতে পারে।</string>  
+    <string name="epo_download">ডাউনলোড</string>  
+    <string name="epo_error_no_activite_network">ইপিও ডাটা ডাউনলোড করার আগে ডাটা সংযোগ চালু করুন</string>  
+    <string name="epo_cancel_download">বাতিল করুন</string>  
+    <string name="epo_status_stopping">থামানো হচ্ছে...</string>  
+    <string name="epo_status_starting">শুরু করা হচ্ছে...</string>  
+    <string name="epo_err_update_failed">ইপিও ফাইল আপডেট করতে ব্যর্থ হয়েছে</string>  
+    <string name="epo_error_dialog_title">ত্রুটি</string>  
+    <string name="epo_ok_btn">ঠিক আছে</string>  
+    <string name="epo_warning_dialog_title">মনযোগ আকর্ষণ</string>  
+    <string name="epo_warning_dialog_message">রোমিং অবস্থায় ইপিও ডাটা ডাউনলোড করলে বাড়তি ফি দিতে হবে। আপনি কি নিশ্চিত আপনি অব্যাহত রাখতে চান?</string>  
+    <!-- AudioProfile Settings -->  
+    <string name="ring_summary">রিং</string>  
+    <string name="ring_vibrate_summary">রিং ও কম্পন</string>  
+    <string name="silent_summary">কেবল নিঃশব্দ</string>  
+    <string name="meeting_summary">কেবল কম্পন</string>  
+    <string name="outdoor_summary">সবচেয়ে জোরে রিং ও কম্পন</string>  
+    <string name="audio_profile_reset">পুনরায় সেট করুন</string>  
+    <string name="audio_profile_add">যোগ করুন</string>  
+    <string name="audio_profile_enable">সক্রিয় করুন</string>  
+    <string name="audio_profile_rename">পুনরায় নামকরণ করুন</string>  
+    <string name="audio_profile_delete">মুছে ফেলুন</string>  
+    <string name="audio_profile_message_reset">সব অডিও প্রোফাইল সেটিং ডিফল্টে পুনরায় সেট করা হবে।</string>  
+    <string name="audio_profile_message_rename">নতুন প্রোফাইল নাম প্রবেশ করান</string>  
+    <string name="audio_profile_message_name_error">নামের ইনপুটটি ইতিমধ্যেই রয়েছে</string>  
+    <string name="audio_profile_message_name_length_wrong">নামে অবশ্যই অন্তত একটি ক্যারেক্টার থাকতে হবে</string>  
+    <string name="audio_profile_message_delete">প্রোফাইল 
+        <xliff:g id="profile">%s</xliff:g> মুছে ফেলা হবে
+    </string>  
+    <string name="audio_profile_message_overflow">আপনি কেবল ৬টি কাস্টম প্রোফাইল যোগ করতে পারবেন</string>  
+    <string name="ok">ঠিক আছে</string>  
+    <string name="audio_profile_category_custom_title">ব্যবহারকারী সংজ্ঞায়িত প্রোফাইল</string>  
+    <string name="audio_profile_category_predefine_title">পূর্ব থেকেই সংজ্ঞায়িত প্রোফাইল</string>  
+    <string name="general_settings_title">সাধারণ</string>  
+    <string name="silent_settings_title">নিঃশব্দ</string>  
+    <string name="meeting_settings_title">বৈঠক</string>  
+    <string name="outdoor_settings_title">আউটডোর</string>  
+    <!-- modify default apns notices -->  
+    <string name="apn_predefine_change_dialog_notice">আপনি কি নিশ্চিত আপনি সংরক্ষণ করতে চান? ডিফল্ট APNs-এ কোন পরিবর্তন করা হলে সংযোগে সমস্যা হতে পারে!</string>  
+    <!-- The title for AlertDialog when APN Settings is called while Airplane Mode is on -->  
+    <string name="dialog_apn_disabled">এপিএন নিষ্ক্রিয়!</string>  
+    <!-- Error message for dialog of apn disabled error  -->  
+    <string name="dialog_apn_disabled_msg">এপিএন সেটিং সক্রিয় করার জন্য উড়োজাহাজ মোড সক্রিয় করুন।</string>  
+    <string name="sound_category_feedback_title">ফিডব্যাক</string>  
+    <string name="sound_category_calls_title">ইনকামিং কল</string>  
+    <string name="voice_call_title">ভয়েস কলের রিংটোন</string>  
+    <string name="voice_call_summary">"আপনার ডিফল্ট ভয়েস কলের রিংটোন সেট করুন"</string>  
+    <string name="video_call_title">ভিডিও কলের রিংটোন</string>  
+    <string name="video_call_summary">আপনার ডিফল্ট ভিডিও কলের রিংটোন সেট করুন</string>  
+    <string name="Phone_vibrate_summary">ইনকামিং কলের জন্য ফোন কাপবে</string>  
+    <string name="vibrate_title">ভাইব্রেট করুন</string>  
+    <string name="audio_profile_settings_title">অডিও প্রোফাইল</string>  
+    <!--Add Strings for MTK AboutPhone Settings -->  
+    <!-- Gemini AboutPhone status sim status title -->  
+    <string name="sim_status_title">সিমের অবস্থা</string>  
+    <!-- Gemini AboutPhone status sim status summary -->  
+    <string name="sim_status_summary">সিম সংক্রান্ত তথ্য</string>  
+    <!-- Gemini AboutPhone status imei slot1 title -->  
+    <string name="status_imei_slot1">আইএমইআই(স্লট১)</string>  
+    <!-- Gemini AboutPhone status imei sv slot1 title -->  
+    <string name="status_imei_sv_slot1">আইএমইআই এসভি(স্লট১)</string>  
+    <!-- Gemini AboutPhone status imei slot2 title -->  
+    <string name="status_imei_slot2">আইএমইআই(স্লট২)</string>  
+    <!-- Gemini AboutPhone status imei sv slot2 title -->  
+    <string name="status_imei_sv_slot2">আইএমইআই এসভি(স্লট২)</string>  
+    <!-- Gemini CDMA AboutPhone status min number slot1 title -->  
+    <string name="status_min_number_slot1">মিন(স্লট১)</string>  
+    <!-- Gemini CDMA AboutPhone status prl version slot1 title -->  
+    <string name="status_prl_version_slot1">পিআরএল সংস্করণ(স্লট১)</string>  
+    <!-- Gemini CDMA AboutPhone status meid number slot1 title -->  
+    <string name="status_meid_number_slot1">এমইআইডি(স্লট১)</string>  
+    <!-- Gemini CDMA AboutPhone status min number slot2 title -->  
+    <string name="status_min_number_slot2">মিন(স্লট২)</string>  
+    <!-- Gemini CDMA AboutPhone status prl version slot2 title -->  
+    <string name="status_prl_version_slot2">পিআরএল সংস্করণ(স্লট২)</string>  
+    <!-- Gemini CDMA AboutPhone status meid number slot2 title -->  
+    <string name="status_meid_number_slot2">এমইআইডি(স্লট২)</string>  
+    <string name="slot_status_title">"IMEI তথ্য"</string>  
+    <string name="slot_status_summary">"IMEI আপেক্ষিক তথ্য"</string>  
+    <!-- About phone screen,  setting option name-->  
+    <string name="custom_build_version">"কাস্টম বিল্ড সংস্করণ"</string>  
+    <!-- A menu item in "About phone" that allows the user to update the phone with settings
+    from their cell phone carrier. The use of the string is similar to the string
+    "system_update_settings_list_item_title" in this project. [CHAR LIMIT=25] -->  
+    <!-- for software update MOTA -->  
+    <string name="software_update">সফটওয়্যার আপডেট সেবা</string>  
+    <string name="mota_system_update_summary">"সার্ভারে সিস্টেম আপডেট চেক করুন"</string>  
+    <!-- About phone screen,  more software updates-->  
+    <string name="software_updates_more_title">সফটওয়্যার আপডেট সেবা</string>  
+    <string name="software_updates_more_summary">নতুন সংস্করণের সফটওয়্যার আছে কিনা দেখুন</string>  
+    <string name="software_updates_scomo_summary">অ্যাপ্লিকেশনের জন্য নতুন সংস্করণ যাচাই করুন</string>  
+    <string name="scomo_settings_title">সফটওয়্যার আপডেট সেবা</string>  
+    <!-- Battery_level_show -->  
+    <string name="battery_level" translatable="false">" 
+        <xliff:g id="battery">%s</xliff:g>%%"
+    </string>  
+    <!--End of String for Gemini AboutPhone Settings-->  
+    <!--Add Strings for MTK Display Settings -->  
+    <string name="screen_timeout_CU">স্ক্রিন টাইমআউট</string>  
+    <!-- Add for landscape launcher-->  
+    <string name="landscape_launcher_title">ল্যান্ডস্কেপ লঞ্চার</string>  
+    <string name="landscape_launcher_none">কোনটি নয়</string>  
+    <!-- for TVOut -->  
+    <string name="tvout_settings">টিভি আউট</string>  
+    <string name="tvout_settings_summary">টিভি আউট সেটিং</string>  
+    <string name="tv_system_title">টিভি সিস্টেম</string>  
+    <!-- For HDMI begin -->  
+    <string name="hdmi_settings">HDMI সেটিং</string>  
+    <string name="hdmi_settings_summary">HDMI কনফিগার করার জন্য ক্লিক করুন</string>  
+    <string name="hdmi_audio_toggler">অডিও</string>  
+    <string name="hdmi_video_toggler">ভিডিও</string>  
+    <string name="hdmi_video_resolution">ভিডিও রেজ্যুলুশন</string>  
+    <string name="hdmi_notification_title">HDMI ক্যাবল সংযুক্ত</string>  
+    <string name="hdmi_notification_content">HDMI কনফিগার করার জন্য ক্লিক করুন</string>  
+    <!--Theme manager -->  
+    <string name="display_settings_scences_title">দৃশ্য</string>  
+    <string name="mtk_thememanager_title">থিম</string>  
+    <string name="default_name">ডিফল্ট</string>  
+    <string name="custom_theme_name">নতুন [%1$s]</string>  
+    <string name="loading">লোড হচ্ছে\u2026</string>  
+    <!--End of String for MTK Display Settings-->  
+    <!--Add Strings for MTK Security Settings -->  
+    <string name="sim_enter_pin_hints">(৪-৮ ডিজিট প্রবেশ করান)</string>  
+    <string name="sim_remain">(বাকি: 
+        <xliff:g id="remains">%d</xliff:g>)
+    </string>  
+    <!--End of String for MTK Security Settings-->  
+    <!--Add Strings for MTK DateTime Settings-->  
+    <!-- GPS time sync -->  
+    <string name="gps_time_sync_attention_gps_on">জিপিএস ফিক্স পেতে সর্বোচ্চ ১ মিনিট সময় লাগবে। অধিকন্তু, দুর্বল পরিবেশ সংকেতের কারণে জিপিএস সময় দিতে ব্যর্থ হতে পারে। \n\n আপনি কি নিশ্চিত আপনি জিপিএস প্রদত্ত সময় ব্যবহার করতে পারবেন?</string>  
+    <string name="gps_time_sync_attention_gps_off">জিপিএস প্রদত্ত সময় ব্যবহার করতে, আপনাকে অবশ্যই প্রথমে জিপিএস সক্রিয় করতে হবে। এরপর জিপিএস ফিক্স পেতে সর্বোচ্চ ১ মিনিট সময় লাগবে। অধিকন্তু, দুর্বল পরিবেশ সংকেতের কারণে জিপিএস সময় দিতে ব্যর্থ হতে পারে। \n\n আপনি কি নিশ্চিত আপনি এখন জিপিএস সক্রিয় করতে এবং জিপিএস প্রদত্ত সময়ের জন্য অপেক্ষা করতে চান?</string>  
+    <!--End of String for MTK DateTime Settings-->  
+    <!--Add Strings for MTK Backup & reset Settings-->  
+    <!-- Drm Settings -->  
+    <!-- Privacy Screen,setting option name under Privacy Personal data -->  
+    <string name="drm_settings_title">ডিআরএম রিসেট করা</string>  
+    <!-- Privacy Screen,settings option summary text under Privacy personal data -->  
+    <string name="drm_settings_summary">সব ডিআরএম লাইসেন্স মুছে ফেলুন</string>  
+    <!-- Drm settings Activity lable -->  
+    <!-- Dialog msg for confirmation to reset DRM -->  
+    <string name="drm_reset_dialog_msg">এই কার্যক্রম এই ডিভাইসের সব লাইসেন্স মুছে ফেলবে। অব্যাহত রাখবেন?</string>  
+    <!-- Toast msg for confirmation to reset DRM -->  
+    <string name="drm_reset_toast_msg">লাইসেন্স সফলভাবে মুছে ফেলা গেছে।</string>  
+    <!--End of String for MTK DateTime Settings-->  
+    <!--Add Strings for MTK SIM management Settings-->  
+    <string name="gemini_sim_management_title">সিম ব্যবস্থাপনা</string>  
+    <string name="gemini_sim_info_title">সিম তথ্য</string>  
+    <string name="gemini_default_sim_title">ডিফল্ট সিম</string>  
+    <string name="gemini_general_settings_title">সাধারণ সেটিং</string>  
+    <string name="gemini_roaming_settings_title">রোমিং</string>  
+    <string name="gemini_data_roaming_title">ডাটা রোমিং</string>  
+    <string name="gemini_data_roaming_summary">রোমিংয়ের সময় ডাটা সার্ভিসে সংযুক্ত করুন</string>  
+    <string name="gemini_roaming_reminder_title">রোমিং রিমাইন্ডার দেখান</string>  
+    <string name="gemini_roaming_reminder_summary">সিম ব্যবহারের ওপর সিম সাজেশন দেখান</string>  
+    <string name="gemini_contacts_sim_title">"পরিচিতজন বাঁধা"</string>
+    <string name="gemini_contacts_sim_summary">নির্দিষ্ট একটি সিম কার্ডের সাথে পরিচিতজনদের বাঁধাই করে রাখুন</string>
+    <string name="gemini_voice_call">ভয়েস কল</string>  
+    <string name="gemini_video_call">ভিডিও কল</string>  
+    <string name="gemini_data_connection">ডাটা সংযোগ</string>  
+    <string name="gemini_msg">মেসেজিং</string>  
+    <string name="gemini_default_sim_always_ask">সবসময় জিজ্ঞাসা করুন</string>  
+    <string name="gemini_intenet_call">ইন্টারনেট কল</string>  
+    <string name="gemini_default_sim_never">বন্ধ</string>  
+    <string name="gemini_default_sim_3g_off">বন্ধ</string>  
+    <!-- GSM/UMTS Options strings -->  
+    <string name="gemini_gsm_umts_network_preferences_title">নেটওয়ার্ক মোড</string>  
+    <string name="gemini_gsm_umts_network_preferneces_summary">এখনও বাস্তবায়িত হয়নি</string>  
+    <string name="gemini_gsm_umts_network_preferences_dialogtitle">নেটওয়ার্ক মোড</string>  
+    <string name="gemini_3g_service_settings">থ্রিজি সেবা</string>  
+    <!-- Strings for Gemini begin-->  
+    <!-- Dual sim settings activate progress message string -->  
+    <string name="gemini_sim_mode_progress_activating_message">সক্রিয় হচ্ছে\u2026</string>  
+    <!-- Dual sim settings deactivate progress message string -->  
+    <string name="gemini_sim_mode_progress_deactivating_message">নিষ্ক্রিয় হচ্ছে\u2026</string>  
+    <!-- Dual sim settings mode change failed message string -->  
+    <string name="gemini_sim_mode_change_failed_message">ব্যর্থ, নেটওয়ার্কে ত্রুটি</string>  
+    <!-- Dual sim settings mode enter airplanemode confirm title string -->  
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_title">উড়োজাহাজ মোড</string>  
+    <!-- Dual sim settings mode enter airplanemode WiFi and Bt will both close confirm message string -->  
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_message">ফোন উড়োজাহাজ মোডে প্রবেশ করবে। সকল তারহীন সংযোগ নিষ্ক্রিয় হয়ে যাবে। অব্যাহত রাখবেন?</string>  
+    <string name="gemini_sim_info_editor_name">সিমের নাম পরিবর্তন করুন</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">সংরক্ষণ ব্যর্থ হয়েছে</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">সিম কার্ডের জন্য অবিকল নাম</string>  
+    <string name="gemini_sim_info_editor_number">ফোন নম্বর প্রবেশ করান</string>  
+    <string name="gemini_sim_info_editor_color">ব্যাকগ্রাউন্ড কালার সেট করুন</string>  
+    <string name="gemini_sim_info_editor_number_display_format">নম্বর প্রদর্শন করুন</string>  
+    <string name="gemini_no_sim_indicator">সিম কার্ড নেই</string>  
+    <string name="gemini_sim_list_default_title">সিম কার্ড তালিকা</string>  
+    <string name="gemini_data_connection_progress_message">"অপেক্ষা করুন..."</string>  
+    <string name="gemini_3g_modem_switching_message">"সিম পরিবর্তন সম্পন্ন হতে প্রায় ১০ সেকেন্ড সময় লাগবে। অপেক্ষা করুন…"</string>  
+    <string name="gemini_3g_modem_switch_confirm_message">"এটি এই সিমে ৩জি সার্ভিসে সুইচ করবে। অব্যাহত রাখবেন? নিশ্চিত করুন যে নির্বাচিত সিম ৩জি সার্ভিস সমর্থন করে।"</string>  
+    <string name="gemini_3g_disable_warning">"থ্রিজি সেবা নির্বাচিত এই সিমে নেই। এতে ডাটা লোড ধীরগতির হয়ে যাবে। আপনি থ্রিজি সেবার সেটিং পরিবর্তন করতে পারেন সেটিং&gt;ওয়্যারলেস এবং নেটওয়ার্ক&gt; মোবাইল নেটওয়ার্কের অধীনে।"</string>  
+    <string name="gemini_3g_disable_warning_cu">"থ্রিজি সেবা নির্বাচিত এই সিমে নেই। এতে ডাটা লোড ধীরগতির হয়ে যাবে। আপনি থ্রিজি সেবার সেটিং পরিবর্তন করতে পারেন সেটিং&gt; সিম ব্যবস্থাপনা।"</string>  
+    <!-- Strings for CU wap push begin-->  
+    <string name="gemini_wap_push_permission_head">অটো-পুশ সার্ভিস সক্রিয় করার পর আপনি পুশ মেসেজ পেতে পারেন, স্থানীয় অ্যাপ্লিকেশন চালাতে পারেন এবং ডাটা ট্রাফিক তৈরি করতে পারেন। সাধারণ অটো-পুশ সার্ভিসে আছে ইমেইল নোটিফিকেশন, ডিভাইস ব্যবস্থাপনা, সার্ভিস ইন্ডিকেশন, সার্ভিস লোডিং এবং প্রভিশনিং পুশ।</string>  
+    <string name="gemini_wap_push_permission_tail">এই চুক্তি গ্রহণ করবেন?</string>  
+    <string name="gemini_wap_push_permission_title">অটো-পুশ সার্ভিস চুক্তি</string>  
+    <string name="gemini_wap_push_permission">অটো-পুশ সার্ভিস</string>  
+    <!-- Strings for CU wap push end-->  
+    <!-- add for gemini enhancement  SIM tether info part    begin -->  
+    <string name="gemini_3g_disable_warning_case0">" এই সিমের জন্য আপনাকে অবশ্যই প্রথমে ডাটা রোমিং সক্রিয় করতে হবে যার জন্য আপনাকে অনেক রোমিং চার্জ দিতে হতে পারে! আপনি কি নিশ্চিত আপনি ডাটা রোমিং সক্রিয় করতে এবং এই সিম নির্বাচন করতে চান?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"নির্বাচিত সিমের সাথে থ্রিজি সেবা নেই। এতে ডাটা লোড ধীরগতির হতে পারে। আপনি থ্রিজি সেবা সেটিং পরিবর্তন করতে পারেন সেটিং&gt;ওয়্যারলেস ও নেটওয়ার্ক&gt; মোবাইল নেটওয়ার্ক। আপনি কি নিশ্চিত আপনি এই সিম নির্বাচন করবেন?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"নির্বাচিত সিমের সাথে থ্রিজি সেবা নেই। এতে ডাটা লোড ধীরগতির হতে পারে। আপনি থ্রিজি সেবা সেটিং পরিবর্তন করতে পারেন সেটিং&gt; সিম ম্যানেজমেন্ট। আপনি কি নিশ্চিত আপনি এই সিম নির্বাচন করবেন?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"আপনাকে প্রথমে এই সিমের জন্য ডাটা রোমিং সক্রিয় করতে হবে যাতে আপনার প্রচুর রোমিং চার্জ লাগতে পারে! এছাড়া থ্রিজি নির্বাচিত সিমের সাথে থ্রিজি সেবা নেই। এতে ডাটা লোড ধীরগতির হতে পারে। আপনি থ্রিজি সেবা সেটিং পরিবর্তন করতে পারেন সেটিং&gt;সেটিং&gt;ওয়্যারলেস ও নেটওয়ার্ক&gt; মোবাইল নেটওয়ার্ক। আপনি কি নিশ্চিত আপনি ডাটা রোমিং সক্রিয় করবেন এবং এই সিম নির্বাচন করবেন?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"আপনাকে প্রথমে এই সিমের জন্য ডাটা রোমিং সক্রিয় করতে হবে যাতে আপনার প্রচুর রোমিং চার্জ লাগতে পারে! এছাড়া থ্রিজি নির্বাচিত সিমের সাথে থ্রিজি সেবা নেই। এতে ডাটা লোড ধীরগতির হতে পারে। আপনি থ্রিজি সেবা সেটিং পরিবর্তন করতে পারেন সেটিং&gt; সিম ম্যানেজমেন্ট। আপনি কি নিশ্চিত আপনি ডাটা রোমিং সক্রিয় করবেন এবং এই সিম নির্বাচন করবেন?"</string>  
+    <string name="gemini_sim_tether_info_title">পরিচিতজন ও সিম</string>  
+    <string name="gemini_sim_tether_add_record">পরিচিতজন যোগ করুন</string>  
+    <string name="gemini_sim_add_title">পরিচিতজন</string>  
+    <!-- Displayed full screen when the user has no tether info to display-->  
+    <string name="gemini_sim_tether_norecord">" বর্তমান সিমের সাথে সংশ্লিষ্ট আপনার কোন পরিচিতজনের নম্বর নেই।\n\nএই সিমে আপনি যে সকল পরিচিতজন রাখতে চান তা বাছাই করার জন্য পরিচিতজন যুক্ত করুন বাটনটি স্পর্শ করুন"</string>  
+    <string name="gemini_sim_tether_nocontacts">"ফোনে কোন পরিচিতজন সংরক্ষণ করা হয়নি। নতুন পরিচিতজন যোগ করুন বা প্রথমে পরিচিতজন আমদানি করুন"</string>  
+    <string name="gemini_sim_tether_no_assc_contacts">" পরিচিতজনগুলো সব সফলভাবে বন্ধনে আবদ্ধ"</string>  
+    <string name="gemini_sim_tether_disassociate">পৃথক করা</string>  
+    <string name="selected_item_count"> 
+        <xliff:g id="count">%d</xliff:g> নির্বাচিত
+    </string>  
+    <string name="gemini_sim_tether_unselect_all">সব নির্বাচনমুক্ত করুন</string>
+    <string name="gemini_sim_tether_nocontact_confirm">ঠিক আছে</string>  
+    <string name="gemini_sim_tether_select_all">সব নির্বাচন করুন</string>  
+    <string name="gemini_sim_tether_select_ok">সংরক্ষণ করুন</string>  
+    <string name="gemini_sim_tether_select_cancel">বাতিল করুন</string>  
+    <string name="gemini_sim_tether_revert_title">মনযোগ আকর্ষণ</string>  
+    <string name="gemini_sim_tether_revert_message">আপনার কনফিগারেশন পরিবর্তন হয়েছে কিন্তু সংরক্ষণ করা হয়নি। আপনি কি নিশ্চিত যে আপনি সংরক্ষণ ছাড়া ছেড়ে যাবেন?</string>  
+    <string name="gemini_tether_saving_progress_message">সংরক্ষিত হচ্ছে...</string>  
+    <!-- add for gemini enhancement SIM tether info part end -->  
+    <!-- Strings for Gemini SimLock Settings -->  
+    <!-- Gemini SimLock TabActivity Sim1 tab tag -->  
+    <!-- Gemini SimLock error message -->  
+    <string name="gemini_sim_lock_simid_error">ব্যর্থ হয়েছে, অকার্যকর সিম আইডি।</string>  
+    <!-- Gemini SimLock sim1 not insert message -->  
+    <string name="gemini_sim_lock_no_insert_message_sim">সিম প্লাগ-ইন অবস্থায় নেই।</string>  
+    <!-- Gemini SimLock sim1 radio off message -->  
+    <string name="gemini_sim_lock_radio_off_message_sim1">রেডিও১ বন্ধ ।</string>  
+    <!-- Gemini SimLock sim2 radio off message -->  
+    <string name="gemini_sim_lock_radio_off_message_sim2">রেডিও২ বন্ধ ।</string>  
+    <!--End of String for SIM Management Settings-->  
+    <!-- for CU application -->  
+    <string name="akp_installer_settings_title">এপিকে ইনস্টলার</string>  
+    <string name="akp_installer_settings_summary">এসডি কার্ড থেকে আপনার এপিকে ইনস্টল করুন</string>  
+    <string name="launch_main_label">অ্যাপ্লিকেশন চালু করুন</string>  
+    <string name="launch_main">প্রধান কার্যক্রমের মাধ্যমে অ্যাপ্লিকেশনটি চালু করুন</string>  
+    <string name="launch_activitie">চালু করুন</string>  
+    <string name="move_app_to_where">এসডি কার্ডে 
+        <xliff:g id="location">%s</xliff:g> 
+    </string>  
+    <!--Wi-Fi settings strings start-->  
+    <string name="wifi_no_cert_for_wapi">অ্যাপ সংযুক্ত করতে এখন কোনো সার্টিফিকেট খুঁজে পাওয়া যায়নি</string>  
+    <!-- Label for the SIM Slot of EAP-SIM method support -->  
+    <string name="sim_slot">সিম স্লট</string>  
+    <!-- Label for the SIM Slot 0 of EAP-SIM method support -->  
+    <string name="eap_sim_slot_0">সিম স্লট ০</string>  
+    <!-- Label for the SIM Slot of EAP-SIM method support -->  
+    <string name="eap_sim_slot_1">সিম স্লট ১</string>  
+    <!-- Label for the toast if user use eap-sim/aka in airplane mode -->  
+    <string name="eap_sim_aka_airplanemode">ইএপি-সিম/একেএ ব্যবহারের জন্য উড়োজাহাজ মোড বন্ধ করুন</string>  
+    <!-- Label for the toast if user use eap-sim/aka when sim card is absent -->  
+    <string name="eap_sim_aka_no_sim_error">ইএপি-সিম/একেএ ব্যবহারের জন্য আপনাকে অবশ্যই একটি সিম কার্ড প্রবেশ করাতে হবে</string>  
+    <!-- Label for the toast if user use eap-sim/aka when user don't select a sim slot -->  
+    <string name="eap_sim_aka_no_sim_slot_selected">ইএপি-সিম/একেএ ব্যবহারের জন্য আপনাকে অবশ্যই একটি সিম স্লট নির্বাচন করতে হবে</string>  
+    <string name="wifi_security_wapi_certificate">WAPI সনদপত্র</string>  
+    <!-- Label for the WAPI user certificate of the network -->  
+    <string name="wapi_user_certificate">ব্যবহারকারীর সনদ</string>  
+    <!-- Label for the WAPI ASE certificate of the network -->  
+    <string name="wapi_as_certificate">এএসই সনদ</string>  
+    <!-- Label for the check box for hexadecimal password -->  
+    <string name="wifi_hex_password">হেক্সাডেসিমেল পাসওয়ার্ড।</string>  
+    <!-- The label for WEP transmit Key -->  
+    <string name="wifi_WEP_transmit_key">ট্রান্সমিট কি</string>  
+    <!-- The label for WEP Secury Key -->  
+    <string name="wifi_WEP_secury_key">সিকিউরি কি</string>  
+    <!--add for Wi-Fi hotspot auto-sleep policy-->  
+    <string name="wifi_tether_auto_disable_title">ওয়াই-ফাই হটস্পট চালু রাখুন</string>  
+    <string name="wifi_tether_auto_channel_text">স্বয়ংক্রিয়</string>  
+    <string name="wifi_tether_auto_channel_width_text">স্বয়ংক্রিয় ২০/৪০ মেগাহার্জ</string>  
+    <string name="wifi_channel">পছন্দসই চ্যানেল</string>  
+    <string name="wifi_channel_width">চ্যানেল উইডথ</string>  
+    <string name="confirm_title">ঠিক আছে</string>  
+    <!--Wi-Fi settings strings end-->  
+    <!-- Wireless settings for PCH Monitor start -->  
+    <string name="pch_toggle_title">জিপিআরএস ট্রান্সফার অগ্রাধিকার</string>  
+    <!-- for PCH Monitor data prefer -->  
+    <string name="pch_data_prefer_summary_off">ডাটা অগ্রাধিকার</string>  
+    <!-- for PCH Monitor call prefer-->  
+    <string name="pch_call_prefer_summary_on">কল অগ্রাধিকার</string>  
+    <!-- for PCH Monitor warning message -->  
+    <string name="pch_warning_message">ডাটা প্রেরণের হার হ্রাস পাবে।</string>  
+    <!-- Wireless settings for PCH Monitor end -->  
+    <!-- Schedule power on/off settings -->  
+    <!-- Main Settings screen setting option name to go into the power on/off settings-->  
+    <string name="schedule_power_on_off_settings_title">সিডিউল পাওয়ার চালু/বন্ধ</string>  
+    <string name="usb_bicr_title">বিল্ট-ইন সিডি-রম</string>  
+    <string name="usb_bicr_summary">কিছু দরকারী সফটওয়্যারসহ একটি ভার্চ্যুয়াল সিডি-রম দেখান।</string>  
+    <string name="select_memory">ডিফল্ট লেখার ডিস্ক</string>  
+    <string name="ipo_title">দ্রুত রিবুট</string>  
+    <string name="ipo_summary_on">দ্রুত রিবুট নিষ্ক্রিয় করুন</string>  
+    <string name="ipo_summary_off">দ্রুত রিবুট সক্রিয় করুন</string>  
+    <string name="agps_profile_select_Title">এ-জিপিএস প্রোফাইল</string>  
+    <string name="location_settings_label">লোকেশন ইঞ্জিনিয়ার মোড</string>  
+    <string name="audio_profile_error">ত্রুটি</string>  
+    <string name="battery_percent">ব্যাটারির শতাংশ</string>  
+    <!-- RCS-e settings -->  
+    <string name="rcse_settings_title">আরসিএস-ই সেটিং</string>
+    <string name="dlg_mount_external_sd_title" product="default">এসডি কার্ড মাউন্ট করবেন?</string>  
+    <string name="dlg_mount_external_sd_summary" product="default">আপনি যদি এসডি কার্ড মাউন্ট করেন, তাহলে আপনার ব্যবহৃত কিছু অ্যাপ বন্ধ হয়ে যাবে।</string> 
+
+    <string name="tethered_ipv6_title">হটস্পট ও টিথারিং সেটিং</string>  
+    <string name="tethered_ipv4v6">(IPv6 আছে)</string>  
+    <string name="tethered_ipv6">(কেবল IPv6 আছে)</string>  
+    <string name="tethered_ipv4">(IPv6 আছে)</string>
+	
+    <string name="usb_connect_as_cdrom_category">"সংযুক্ত করুন CD-ROM"</string>
+
+    <string name="wifi_ap_client_block_title">ব্লক করুন</string>  
+    <string name="wifi_ap_client_details_title">বিবরণ</string>  
+    <string name="wifi_wps_fail_error">ওয়াই-ফাই সুরক্ষিত সেটআপ ব্যর্থ হয়েছে, আবার চেষ্টা করুন।</string>  
+    <string name="wifi_tether_setting_title">প্রাথমিক সেটিং</string>  
+    <string name="wifi_tether_wps_connect_title">ডব্লিউপিএস সংযোগ</string>  
+    <string name="wifi_tether_wps_connect_summary">সামনে এগিয়ে যাবার জন্য সংরক্ষিত ওয়াই-ফাই সেটআপ মোড নির্বাচন করা হয়েছে</string>  
+    <string name="wifi_tether_wps_pin_error">অকার্যকর পিন</string>  
+    <string name="wifi_tethering_title">ওয়াই-ফাই হটস্পট</string>  
+    <string name="wifi_ap_wps_dialog_title">ডব্লিউপিএস সংযোগ</string>  
+    <string name="wifi_ap_wps_mode_title">WPS মোড</string>  
+    <string name="wifi_ap_wps_pin_title">গ্রাহকের কাছ থেকে পিন নিয়ে লিখুন</string>  
+    <string name="wifi_ap_reset_OOB_title">নেটওয়ার্কের এসএসআইডি আবার সেট করুন, নিরাপত্তা ও পাসওয়ার্ড ডিফল্ট করুন ( WPS এর জন্য আউট-অফ-বক্স কনফিগারেশন)</string>  
+    <string name="wifi_ap_reset_OOB">OOB আবার সেট করুন</string>  
+    <string name="wifi_ap_max_connection_title">সর্বোচ্চ সংযোগ</string>  
+    <string name="wifi_ap_connected_title">সংযুক্ত ব্যবহারকারী</string>  
+    <string name="wifi_ap_blocked_title">ব্লক করা ব্যবহারকারী</string>  
+    <string name="wifi_ap_client_unblock_title">আনব্লক করুন</string>  
+    <string name="wifi_ap_client_mac_label">এমএসি ঠিকানা:</string>  
+    <string name="wifi_ap_client_ip_label">আইপি ঠিকানা:</string>  
+    <string name="usb_sharing_title">ইউএসবি ইন্টারনেট</string>  
+    <string name="usb_sharing_summary">ইউএসবি ক্যাবলের মাধ্যমে উইন্ডোজ পিসি ইন্টারনেট বিনিময় করা হচ্ছে</string>  
+    <string name="usb_sharing_info_title">ইন্টারনেট পাস করছে</string>  
+    <string name="usb_sharing_info_step_1">" ১. আপনার উইন্ডোজ পিসিতে নেটওয়ার্ক সংযোগ চালু করুন ।"</string>  
+    <string name="usb_sharing_info_step_2">"২. আপনি যে সংযোগটি বিনিময় করতে চান সেই সংযোগটির ডানে/রাইট-ক্লিক করুন এবং তারপর প্রোপাটিজে ক্লিক করুন ।"</string>  
+    <string name="usb_sharing_info_step_3">"৩. শেয়ারিং ট্যাবে ক্লিক করুন এবং \' এই কম্পিউটারের ইন্টারনেট সংযোগের মাধ্যমে অন্যান্য নেটওয়ার্ক ব্যবহারকারীদের সংযুক্ত হতে অনুমতি দিন\' নির্বাচন করুন\'( নতুন যুক্ত হওয়া নেটওয়ার্ক বাছাই করুন যা ইউএসবি ইন্টারনেট প্রতিনিধিত্ব করে যদি\' বাড়ির নেটওয়ার্কিং সংযোগ\' ভেসে ওঠে)।"</string>  
+    <string name="wifi_ap_bandwidth_title">ব্যবহৃত ব্যান্ডউইথ</string>  
+    <string name="wifi_ap_bandwidth_enable">ব্যান্ডউইথ থ্রোটলিং সক্রিয় করুন</string>  
+    <string name="wifi_ap_bandwidth_chart_title">রিয়েল-সময়ে ডাটার গতি</string>  
+    <string name="wifi_ap_bandwidth_chart_summary">আপনার ফোনের মাধ্যমে মাপা হয়েছে, আপনার ক্যারিয়ারের ডাটার গতির হিসাবে পার্থক্য হতে পারে ।</string>  
+    <string name="wifi_ap_title">পরিসংখ্যান</string>  
+    <string name="wifi_ap_time_duration">কতক্ষণ চলবে: 
+        <xliff:g id="time">%1$s</xliff:g> 
+    </string>  
+    <string name="wifi_ap_total_data">মোট ব্যবহৃত ডাটা:
+        <xliff:g id="time">%1$s</xliff:g>
+    </string>
+    <string name="cpu_dtm_title">সিপিইউ-এর পাওয়ার সংরক্ষণ মোড</string>
+    <string name="cpu_dtm_summary">ব্যাটারির আয়ু বাড়াতে এবং ডিভাইসের তাপমাত্রা কমাতে সবোর্চ্চ সিপিইউ পারফরম্যান্স সীমিত করুন।</string>
+    <string name="wifi_advanced_ipv4_address_title">IPv4 ঠিকানা</string>  
+    <string name="wifi_advanced_ipv6_address_title">IPv6 তালিকা</string>  
+    <string name="wifi_ipv4_address">IPv4 ঠিকানা</string>  
+    <string name="wifi_ipv6_address">IPv6 তালিকা</string>
+	
+	<!-- MTK new datausage start -->
+    <string name="mtk_datausage_overview_wifi_today">আজ</string>  
+    <string name="mtk_datausage_show_on_lockscreen">লক স্ক্রিনে দেখান</string>  
+    <string name="mtk_datausage_update">ডাটা ব্যবহার আপডেট করুন</string>  
+    <string name="mtk_datausage_update_set">আপডেট করুন</string>  
+    <string name="mtk_datausage_amount_editor_title">ব্যবহৃত ডাটার পরিমাণ</string>  
+    <string name="mtk_datausage_usage_list">অ্যাপ কতৃক ব্যবহৃত ডাটা</string>  
+    <string name="mtk_datausage_diff_byte">ডিফ কতৃক ব্যবহৃত ডাটা</string>  
+    <string name="mtk_datausage_overview_tab">প্রাথমিক ধারণা</string>  
+    <string name="mtk_datausage_overview_wifi_total">মোট</string>  
+    <string name="mtk_datausage_overview_mobile_title">মোবাইল</string>  
+    <string name="mtk_datausage_overview_mobile_usage">
+        <xliff:g id="actual">%s</xliff:g> বাহিরে 
+        <xliff:g id="limit">%s</xliff:g>
+    </string>
+    <string name="mtk_datausage_overview_mobile_usage_warning">সীমার বাইরে <xliff:g>%s</xliff:g></string>
+	<!-- MTK new datausage end -->
+    <string name="display_personalize">ব্যক্তিক</string>  
+    <string name="display_default">দেখান</string>
+    <!-- Sound Enhanecement -->
+    <string name="sound_enhancement_title">সাউন্ড এনহেন্সমেন্ট</string>
+    <string name="music_plus_summary">ইয়ারফোনের জন্য অডিও এনহ্যান্সার</string>
+    <string name="auto_backlight_title">ইকোনোমিকাল ব্যাকলাইট</string>
+    <string name="auto_backlight_summary">পাওয়ার সংরক্ষণের জন্য ব্যাকলাইট স্বয়ংক্রিয়ভাবে খাপখাওয়ান</string>
+
+    <string name="beam_mgmt_tab_download_title">প্রাপ্ত কল</string>
+    <string name="beam_mgmt_tab_upload_title">"৩. শেয়ারিং ট্যাবে ক্লিক করুন এবং ' এই কম্পিউটারের ইন্টারনেট সংযোগের মাধ্যমে অন্যান্য নেটওয়ার্ক ব্যবহারকারীদের সংযুক্ত হতে অনুমতি দিন' নির্বাচন করুন'( নতুন যুক্ত হওয়া নেটওয়ার্ক বাছাই করুন যা ইউএসবি ইন্টারনেট প্রতিনিধিত্ব করে যদি' বাড়ির নেটওয়ার্কিং সংযোগ' ভেসে ওঠে)।"</string>
+    <string name="beam_share_mgmt_notification_ticker">বিম শেয়ারের ইতিহাস</string>
+    <string name="beam_share_mgmt_notification_title">বিম শেয়ারের ইতিহাস</string>
+    <string name="beam_share_mgmt_notification_message">"বিম শেয়ারের ইতিহাস দেখতে নির্বাচন করুন।"</string>
+    <string name="beam_share_mgmt_tab_menu_clear">সব ওয়েবসাইট সেটিং মুছে ফেলবেন?</string>
+    <string name="beam_share_open_file_dialog_title">ফাইলটি খুলতে পারছি না।</string>
+    <string name="beam_share_open_file_unsupported_message">ফাইলটি খুলতে পারছি না।</string>
+    <string name="beam_share_open_file_not_found_message">"ফাইল পাওয়া যায়নি: <xliff:g id="file_name">%1$s</xliff:g></string>
+    <string name="beam_share_transfer_fail_dialog_title">"বিম ব্যর্থ হয়েছে"</string>
+    <string name="beam_share_resend_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> সফলভাবে পাঠানো হয়নি।"</string>
+    <string name="beam_share_resend_dialog_ok_button">আবার চেষ্টা করুন</string>
+    <string name="beam_share_show_received_files_menu">প্রাপ্ত ফাইলগুলো দেখান</string>
+    <string name="beam_share_history_title">বিম শেয়ারের ইতিহাস</string>
+    <string name="beam_share_clear_confirm_dialog_title">সব মুছুন</string>
+    <string name="beam_share_clear_confirm_dialog_message">সব ইতিহাস মুছে ফেলবেন?</string>
+    <string name="beam_share_receive_fail_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> সফলভাবে গৃহীত হয়নি।"</string>
+    <string name="beam_share_clear_item_dailog_title">মুছে ফেলুন</string>
+    <string name="beam_share_clear_item_dailog_message"> আইটেমটি মুছে ফেলা হবে।</string>
+    <string name="nfc_rw_tag_summary">ট্যাগ থেকে পড়ুন বা ট্যাগে লিখুন</string>
+    <string name="nfc_p2p_mode">পি২পি মোড</string>
+    <string name="nfc_p2p_mode_summary">অ্যাপ কনটেন্ট পাঠান বা গ্রহণ করেন</string>
+    <string name="nfc_tag_mode_category">ট্যাগ মোড</string>
+    <string name="nfc_rw_tag_title">ট্যাগ পাঠ ও লেখা</string>
+
+      <string name="voice_ui_title">শব্দ নিয়ন্ত্রণ</string>
+      <string name="voice_ui_app_category">অ্যাপ সেটিংয়ের জন্য</string>
+      <string name="voice_ui_setting_category">"সেটিং"</string>
+      <string name="alarm_app_name">এলার্ম</string>
+      <string name="music_app_name">গান</string>
+      <string name="voice_ui_language_title">"ভয়েস নিয়ন্ত্রণের জন্য ভাষা"</string>
+      <string name="incoming_call_app_name">"ইনকামিং কল"</string>
+      <string name="camera_app_name">ক্যামেরা </string>
+      <string name="incomming_command_summary_format">উত্তর দেয়ার জন্য আপনি বলতে পারেন <xliff:g id="first">%1$s</xliff:g> বা <xliff:g id="second">%2$s</xliff:g> অথবা ইনকামিং কল প্রত্যাখান করতে পারেন।</string>
+      <string name="alarm_command_summary_format">এলার্ম নিয়ন্ত্রণ করার জন্য আপনি <xliff:g id="first">%1$s</xliff:g> বা <xliff:g id="second">%2$s</xliff:g> বলতে পারেন।</string>
+      <string name="camera_command_summary_format">ক্যাপচার করতে আপনি বলতে পারেন <xliff:g id="first">%1$s</xliff:g> বা <xliff:g id="second">%2$s</xliff:g> ।</string>
+      <string name="music_command_summary_format">সঙ্গীত বাজানো নিয়ন্ত্রণ করতে আপনি বলতে পারেন <xliff:g id="first">%1$s</xliff:g> এবং <xliff:g id="second">%2$s</xliff:g> ।</string>
+
+    <string name="lock_screen_notifications_title">লক স্ক্রিন নোটিফিকেশন</string>
+    <string name="lock_screen_notifications_summary">লক স্ক্রিনে নোটিফিকেশন দেখান</string>
+    <string name="lock_screen_style_title">লক স্ক্রিন স্টাইল</string>
+
+	<!-- Lock screen settings start -->
+	<string name="current_suffix">"(বর্তমান)"</string>
+	<string name="lockscreen_style_set">স্ক্রিন লক সেট করুন</string>
+	<string name="lockscreen_style_default_desc">" লক স্ক্রিনে অ্যাপ্লিকেশনে দ্রুত প্রবেশ"</string>
+	<!-- Lock screen settings end -->
+    <!--  voice unlock start-->
+    <string name="voice_unlock_backup_info_summary">ভয়েস আনলক যখন আপনাকে চিহ্নিত করতে পারবে না, তখন আপনি কিভাবে আনলক করতে চান?</string>
+    <string name="unlock_set_unlock_mode_voice_weak">ভয়েস আনলক</string>
+    <!--  voice unlock end-->
+    <string name="usb_tether_type_title">ইউএসবি টিথারিংএর ধরণ</string> 
+    <string name="security_not_set">নিরাপত্তা সেট করা হয়নি</string>
+    <string name="lockdown_vpn_already_connected">"সংযোগের জন্য 'সবসময় ভিপিএন-এ রয়েছে' ইতিমধ্যেই সক্রিয় করা হয়েছে।"</string>
+
+    <string name="wifi_ap_no_connected">0 সংযুক্ত ব্যবহারকারী</string>  
+    <string name="wifi_ap_no_blocked">0 ব্লক করা ব্যবহারকারী</string>   
+
+    <string name="status_imei_slot3">আইএমইআই(স্লট৩)</string>
+    <string name="status_imei_sv_slot3">আইএমইআই এসভি(স্লট৩)</string>
+    <string name="status_min_number_slot3">এমআইএন(স্লট৩)</string>
+    <string name="status_prl_version_slot3">পিআরএল সংস্করণ(স্লট৩)</string>
+    <string name="status_meid_number_slot3">এমইআইডি(স্লট৩)</string>
+
+    <string name="usb_tethering_select_version">পিসি সিস্টেমের সংস্করণ নির্বাচন করুন</string>
+</resources>

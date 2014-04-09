@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">    
+  <string name="menu_print">인쇄</string>
+  <string name="printContact">연락처 인쇄 방법</string>
+  <string name="no_way_to_print">연락처를 인쇄하는 데 사용할 수 있는 애플리케이션이 없습니다.</string>
+  <string name="from_account_format"> 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="source" example="user@gmail.com">%1$s</xliff:g> 
+    </string>
+  <string name="selected_item_count"> 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="count">%d</xliff:g>개가 선택되었습니다
+    </string>
+  <string name="recentCalls_delete">삭제</string>
+  <string name="menu_selectAll">"모두 선택"</string>
+  <string name="menu_clearAll">"모두 선택 해제"</string>
+  <string name="sim1">SIM1</string>
+  <string name="sim2">SIM2</string>
+  <string name="all_resources">모든 리소스</string>
+  <string name="choose_resources_header">리소스 선택</string>
+  <string name="all_tab_label1">모두</string>
+  <string name="call_log_item_count">( 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="count">%1$d</xliff:g>)
+    </string>
+  <string name="call_indicator_3g">3G</string>
+  <string name="call_sipcall">인터넷 통화</string>
+  <string name="call_pin_dialog_title">SIM 카드 선택</string>
+  <string name="call_people">사람</string>
+  <string name="call_ip_dial">IP 다이얼</string>
+  <string name="call_speed_dial">단축 다이얼</string>
+  <string name="send_message">메시지 보내기</string>
+  <string name="call_video_call">영상 통화</string>
+  <string name="add_speed_dial">단축 다이얼을 추가합니다</string>
+  <string name="speed_dial_added">단축 다이얼 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="key">%3$s</xliff:g>에 추가된 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="contact_name">%1$s</xliff:g> ( 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="phone_label">%2$s</xliff:g>)
+    </string>
+  <string name="speed_dial_added2">단축 다이얼 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="key">%2$s</xliff:g>에 추가된 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="contact_name">%1$s</xliff:g> 
+    </string>
+  <string name="remove_speed_dial">제거</string>
+  <string name="remove_sd_confirm_1"> 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="contact_name">%1$s</xliff:g> ( 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="phone_label">%2$s</xliff:g>)을(를) 단축 다이얼 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="key">%3$s</xliff:g>에서 제거하시겠습니까?
+    </string>
+  <string name="remove_sd_confirm_2"> 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="contact_name">%1$s</xliff:g>을(를) 단축 다이얼 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="key">%2$s</xliff:g>에서 제거하시겠습니까?
+    </string>
+  <string name="emergencycall">긴급 전화번호</string>
+  <string name="imei_invalid">유효하지 않음</string>
+  <string name="call_log_filter_all_resources">모든 리소스</string>
+  <string name="turn_on_3g_service_message">지금 3D 서비스가 꺼져 있습니다. 켜시겠습니까?</string>
+  <string name="associate_sim_missing_message">"%1$s SIM을(를) 사용할 수 없습니다. %2$s을(를) 통해 통화하시겠습니까"</string>
+  <string name="associate_sim_missing_other">"기타"</string>
+  <string name="sim_manage_call_via">통화 방법</string>
+  <string name="callFailed_simError">SIM이 없거나 SIM 오류</string>
+  <string name="ip_dial_error_toast_for_no_ip_prefix_number">먼저 음성 통화 설정에서 IP 접두어 번호를 입력하십시오.</string>
+  <string name="ip_dial_error_toast_for_sip_call_selected">IP 다이얼 기능은 인터넷 통화에서 사용할 수 없습니다.</string>
+  <string name="sd_add">추가</string>
+  <string name="reselect_number">번호가 이미 단축 다이얼 키로 지정되었습니다. 다른 번호를 선택하십시오.</string>
+  <string name="calllog_today">오늘</string>
+  <string name="calllog_yesterday">내일</string>
+  <string name="menu_association">SIM 카드 연결</string>
+  <string name="menu_remove_association">SIM 연결 제거</string>
+  <string name="remove_association_message">이 번호에 대한 SIM 연결을 제거하시겠습니까?</string>
+  <string name="remove_number_title">제거</string>
+  <string name="warning_detail">SIM 연결이 연락처를 전화기로 가져옵니다. SIM 연결을 계속하시겠습니까?</string>
+  <string name="associatiated_SIM">"연결된 SIM"</string>
+  <string name="unassociated">"연결 해제됨"</string>
+  <string name="associate_SIM">"SIM 연결"</string>
+  <string name="block_incoming_call">수신 통화를 직접 차단</string>
+  <string name="block_video_incoming_call">수신 영상 통화를 직접 차단</string>
+  <string name="menu_actionbar_selected_items"> 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="name">%s</xliff:g>이(가) 선택됨
+    </string>
+  <string name="has_double_phone_number">동일한 유형의 번호를 두 번 저장할 수 없습니다. 번호를 확인하십시오.</string>
+  <string name="phone_book_busy">현재 전화번호부가 사용 중입니다. 나중에 시도하십시오.</string>
+  <string name="sim_invalid">SIM 카드가 잘못된 경우 연락처를 저장할 수 없습니다.</string>
+  <string name="cannot_insert_null_number">번호가 비어 있는 연락처는 저장할 수 없습니다.</string>
+  <string name="AirPlane_mode_on">비행기 모드가 켜져 있는 경우 연락처를 저장할 수 없습니다.</string>
+  <string name="FDNEnabled">EDN이 활성화된 경우 연락처를 저장할 수 없습니다.</string>
+  <string name="sim_invalid_number">잘못된 번호는 저장할 수 없습니다.</string>
+  <string name="email_invalid">잘못된 이메일은 저장할 수 없습니다.</string>
+  <string name="email_2g_invalid">이메일을 2G SIM에 저장할 수 없습니다. 저장할 3G SIM을 선택하십시오.</string>
+  <string name="sim_invalid_fix_number">잘못된 고정 번호는 저장할 수 없습니다.</string>
+  <string name="AirPlane_mode_on_edit">비행기 모드가 켜져 있는 경우 연락처를 편집할 수 없습니다.</string>
+  <string name="msg_loading_sim_contacts_toast">"백그라운드에서 SIM 연락처를 로드하는 중입니다. 잠시 기다리십시오."</string>
+  <string name="fix_number_too_long">"고정 번호가 너무 깁니다."</string>
+  <string name="name_too_long">"이름이 너무 깁니다."</string>
+  <string name="storage_full">저장소가 가득 찼습니다.</string>
+  <string name="number_too_long">"번호가 너무 깁니다."</string>
+  <string name="generic_failure">일반 고장.</string>
+  <string name="email_too_long">이메일이 너무 깁니다</string>
+  <string name="send_groupsms_no_number_more">"%1$s과(와) %2$s 이상 연락처에 유효한 전화번호가 없습니다."</string>
+  <string name="send_groupsms_no_number_1">"%1$s에 유효한 전화번호가 없습니다."</string>
+  <string name="send_groupsms_no_number_2">"%1$s과(와) %2$s에 유효한 전화번호가 없습니다."</string>
+  <string name="account_type_sim" product="tablet">SIM 계정</string>
+  <string name="account_type_sim" product="default">SIM 계정</string>
+  <string name="account_type_usim" product="tablet">USIM 계정</string>
+  <string name="account_type_usim" product="default">USIM 계정</string>
+  <string name="account_type_local_phone" product="tablet">전화기 로컬 계정</string>
+  <string name="account_type_local_phone" product="default">전화기 로컬 계정</string>
+  <string name="local_account_type" product="tablet">로컬 계정</string>
+  <string name="local_account_type" product="default">로컬 계정</string>
+  <string name="local_account_label" product="tablet">로컬 계정</string>
+  <string name="local_account_label" product="default">로컬 계정</string>
+  <string name="account_type_sim_label" product="tablet">SIM 전용, 비동기화됨</string>
+  <string name="account_type_sim_label" product="default">SIM 전용, 비동기화됨</string>
+  <string name="account_type_usim_label" product="tablet">USIM 전용, 비동기화됨</string>
+  <string name="account_type_usim_label" product="default">USIM 전용, 비동기화됨</string>
+  <string name="please_wait">"기다리십시오"</string>
+  <string name="move_contacts_to">연락처 이동 위치</string>
+  <string name="menu_move_group">"그룹 멤버 이동"</string>
+  <string name="menu_message_group">"그룹 메시지 보내기"</string>
+  <string name="menu_email_group">"그룹 이메일 보내기"</string>
+  <string name="moving_group_members">"그룹 멤버를 이동하는 중\u2026"</string>
+  <string name="removing_group_members_sucess">"그룹 멤버를 성공적으로 제거"</string>
+  <string name="moving_group_members_sucess">"그룹 멤버를 성공적으로 이동"</string>
+  <string name="moving_group_members_fail">"그룹 멤버 이동에 실패했습니다"</string>
+  <string name="no_valid_number_in_group">이 그룹에 유효한 전화번호가 있는 연락처가 없습니다.</string>
+  <string name="no_valid_email_in_group">이 그룹에 이메일이 있는 연락처가 없습니다.</string>
+  <string name="email_error">이메일 애플리케이션을 설치하거나 계정을 구성해야 합니다!</string>
+  <string name="usim_group_name_exceed_limit">"USIM에 대한 그룹 이름이 너무 깁니다."</string>
+  <string name="usim_group_count_exceed_limit">"USIM에 더 이상 새 그룹을 추가할 수 없습니다."</string>
+  <string name="save_group_fail">그룹 저장에 실패했습니다.</string>
+  <string name="group_name_exists">그룹 이름이 이미 존재합니다.</string>
+  <string name="group_discard_member">폐기</string>
+  <string name="group_discard_member_reason">그룹이 이름이 잘못되었기 때문에 수정이 폐기됩니다.</string>
+  <string name="import_export_title">가져오기/내보내기</string>
+  <string name="next">"다음"</string>
+  <string name="imexport_bridge_sd_card">SD 카드</string>
+  <string name="tips_source">연락처 복사 소스</string>
+  <string name="tips_target">연락처 복사 위치</string>
+  <string name="back">뒤로</string>
+  <string name="imexport_title">연락처 가져오기/내보내기</string>
+  <string name="store_contact_to">연락처 저장 위치</string>
+  <string name="menu_delete_contact">연락처 삭제</string>
+  <string name="notifier_finish_delete_title">연락처를 성공적으로 삭제</string>
+  <string name="notifier_finish_delete_content"> 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="total">%d</xliff:g>개의 연락처가 삭제됨
+    </string>
+  <string name="notifier_finish_copy_title">연락처를 성공적으로 복사</string>
+  <string name="notifier_finish_copy_content"> 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="total">%d</xliff:g>개의 연락처가 복사됨
+    </string>
+  <string name="notifier_multichoice_process_report">완료됨: 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="items">%d</xliff:g>개\n완료되지 않음: 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="items">%d</xliff:g>개
+    </string>
+  <string name="notifier_failure_by_sim_full">SIM 저장소가 가득 차서 발생한 장애\n완료됨: 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="items">%d</xliff:g>개\n완료되지 않음: 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="items">%d</xliff:g>개
+    </string>
+  <string name="notifier_failure_sim_notready">SIM이 준비되지 않아 발생한 장애\n완료됨: 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="items">%d</xliff:g>개\n완료되지 않음: 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="items">%d</xliff:g>개
+    </string>
+  <string name="notifier_cancel_delete_title">연락처 삭제가 취소됨</string>
+  <string name="notifier_fail_delete_title">연락처 삭제 실패</string>
+  <string name="notifier_cancel_copy_title">연락처 복사가 취소됨</string>
+  <string name="notifier_fail_copy_title">연락처 복사 실패</string>
+  <string name="notifier_progress__delete_will_start_message">연락처가 잠시 후 삭제됩니다.</string>
+  <string name="notifier_progress_delete_message"> 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="current_number">%s</xliff:g>/ 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="total_number">%s</xliff:g>개를 삭제하는 중: 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="name" example="JoeDue">%s</xliff:g> 
+    </string>
+  <string name="notifier_progress_delete_description"> 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="name" example="JoeDue">%s</xliff:g>을(를) 삭제하는 중
+    </string>
+  <string name="notifier_progress__copy_will_start_message">연락처가 잠시 후 저장됩니다.</string>
+  <string name="notifier_progress_copy_message"> 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="current_number">%s</xliff:g>/ 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="total_number">%s</xliff:g>개를 복사하는 중: 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="name" example="JoeDue">%s</xliff:g> 
+    </string>
+  <string name="notifier_progress_copy_description"> 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="name" example="JoeDue">%s</xliff:g>을(를) 복사하는 중
+    </string>
+  <string name="multichoice_confirmation_title_delete">연락처 삭제 취소</string>
+  <string name="multichoice_confirmation_message_delete">연락처 삭제를 취소하시겠습니까?</string>
+  <string name="multichoice_confirmation_title_copy">연락처 복사 취소</string>
+  <string name="multichoice_confirmation_message_copy">연락처 복사를 취소하시겠습니까?</string>
+  <string name="multichoice_no_select_alert">"선택한 항목이 없습니다."</string>
+  <string name="multichoice_delete_confirm_message">"선택한 연락처를 삭제하시겠습니까?"</string>
+  <string name="multichoice_delete_confirm_title">연락처를 삭제하시겠습니까?</string>
+  <string name="multichoice_contacts_limit">"선택한 연락처가 3500개를 초과할 수 없습니다"</string>
+  <string name="phone_storage_full_create">전화기 저장소가 가득 찼습니다. 새 연락처를 만들 수 없습니다.</string>
+  <string name="phone_storage_full_edit">전화기 저장소가 가득 찼습니다. 연락처를 편집할 수 없습니다.</string>
+  <string name="add_SIP_to_sim">SIP 번호를 SIM/USIM 연락처에 추가할 수 없습니다.</string>
+  <string name="already_has_SIP">계속해야 할 경우, 2개의 SIP 번호를 연락처에 추가할 수 없습니다. 먼저 이전의 SIP 번호를 삭제하십시오.</string>
+  <plurals name="searchFoundCalllogs"> 
+        <item quantity="one">1개의 통화 기록</item>  
+        <item quantity="other"> 
+            <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="count">%d</xliff:g>개의 통화 기록
+        </item> 
+    </plurals>
+  <string name="search_results_for">다음에 대한 검색 결과: 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="query">%s</xliff:g> 
+    </string>
+  <string name="listFoundAllCalllogZero">통화 기록을 찾을 수 없습니다.</string>
+  <string name="calllogList">통화 이력</string>
+  <string name="calllogHint">통화 기록 검색</string>
+  <string name="calllog_description">수신, 발신 및 부재중 통화</string>
+  <string name="noMatchingCalllogs">일치하는 통화 기록을 찾을 수 없습니다.</string>
+  <string name="menu_videocallNumber">영상 통화 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="name">%s</xliff:g> 
+    </string>
+  <string name="menu_ipcallNumber">IP 통화 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="name">%s</xliff:g> 
+    </string>
+  <string name="deleting_call_log">통화 기록을 삭제하는 중…</string>
+  <string name="no_vm_number">부재중 음성 메일 번호</string>
+  <string name="no_vm_number_msg">음성 메일 번호가 SIM 카드에 저장되지 않았습니다.</string>
+  <string name="add_vm_number_str">번호 추가</string>
+  <string name="reminder">알림</string>
+  <string name="enable_sip_dialog_message">인터넷 통화가 비활성화되었습니다. 활성화하시겠습니까?</string>
+  <string name="share_contacts_limit">"공유하기 위해 선택하는 연락처 수가 3500개를 초과할 수 없습니다"</string>
+  <string name="contact_delete_all_tips">"연락처 삭제가 실행 중입니다. 작업을 수행할 수 없습니다"</string>
+  <string name="deleteCallLogConfirmation_title">통화 기록을 삭제하시겠습니까?</string>
+  <string name="deleteCallLogConfirmation_message">선택한 통화 기록을 삭제하시겠습니까?</string>
+  <string name="file_already_on_sd_card">파일이 SD 카드에 이미 존재합니다.</string>
+  <string name="send_file_sms_error">파일을 SMS와 공유할 수 없습니다. MMS를 사용하십시오.</string>
+  <string name="user_profile_cannot_sd_card">내용을 이 방법과 공유할 수 없습니다.</string>
+  <string name="error_save_usim_contact_email_lost">"이메일에 대한 USIM 저장소가 가득 찼기 때문에 이메일 주소를 저장하는 데 실패했습니다."</string>
+  <string name="error_import_usim_contact_email_lost">"이메일에 대한 USIM 저장소가 가득 찼기 때문에 일부 연락처의 이메일 주소를 가져오는 데 실패했습니다.\n완료됨: 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="items">%d</xliff:g>개\n완료되지 않음: 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="items">%d</xliff:g>개"
+    </string>
+  <string name="type_ip_outgoing">IP 발신 통화( 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="name">%s</xliff:g>)
+    </string>
+  <string name="call_sms">SMS</string>
+  <string name="delete_group_failure">그룹을 삭제하는 데 실패했습니다.</string>
+  <string name="account_type_uim_label" product="tablet">UIM 전용, 동기화되지 않음</string>
+  <string name="account_type_uim_label" product="default">UIM 전용, 동기화되지 않음</string>
+  <string name="call_log_auto_rejected_label">자동 거부된 통화</string>
+  <string name="import_no_vcard_dialog_text"> 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="storage_name">%s</xliff:g>에서 vCard 파일을 찾을 수 없습니다
+    </string>
+  <string name="look_simstorage">SIM 카드 용량 보기</string>  
+    <string name="dlg_simstorage_content">전화번호부 저장용량 
+        <xliff:g id="items">%d</xliff:g>이(가) 사용되었습니다
+        <xliff:g id="items">%d</xliff:g>.
+    </string>
+  <string name="contact_group_list_title">"대상 그룹 선택"</string>
+  <string name="send_groupemail_no_number_more">"%1$s과(와) %2$s 이상 연락처에 유효한 이메일이 없습니다."</string>
+  <string name="send_groupemail_no_number_1">"%1$s에 유효한 이메일이 없습니다."</string>
+  <string name="send_groupemail_no_number_2">"%1$s과(와) %2$s에 유효한 이메일이 없습니다."</string>
+  <string name="delete_group_dialog_title" msgid="7368429698398624427">"그룹 삭제"</string>
+  <string name="dialog_phone_call_prohibited_title" msgid="2111395432187079579">"전화를 걸 수 없음"</string>
+  <string name="dialog_voicemail_not_ready_title" msgid="7258109862329777060">"음성사서함 번호를 사용할 수 없음"</string>
+    <string name="nickname_too_long">"별명이 너무 깁니다."</string>
+    <string name="pick_new_photo_from_gallery">새 사진 선택</string>  
+    <string name="copy_text_to_dialer">다이얼러에 복사</string> 
+    <string name="account_phone_only" product="tablet">"태블릿"</string>  
+    <string name="account_phone_only" product="default">"전화"</string>  
+    <string name="deleteConfirmation_title">연락처를 삭제하시겠습니까?</string>
+    <string name="add_contact_dlg_title">연락처 추가</string>
+
+    <string name="international_dialing_title">국제 다이얼링 어시스트</string>
+    <string name="international_dialing_select_country">국제 전화를 거는 것이감지되었습니다. 목적지를 선택하십시오. </string>
+    <string name="international_dialing_add_country_code"><xliff:g id="country_name">%s</xliff:g> 번호로 다이얼하는 것이 감지되었습니다. 국가 코드 (+<xliff:g id="country_code">%s</xliff:g>)을(를) 추가하시겠습니까?</string>
+    <string name="international_dialing_add_country_code_and_area_code"><xliff:g id="area_name">%1$s</xliff:g>, <xliff:g id="country_name">%2$s</xliff:g>(으)로 번호를 다이얼하는 것이 감지되었습니다. 국가 코드와 지역 번호(+<xliff:g id="prefix">%3$s</xliff:g>)를 추가하시겠습니까?</string> 
+    <string name="international_dialing_change_country_prefix"><xliff:g id="country_name">%s</xliff:g>에서 다이얼하는 것이 감지되었습니다. 국제 전화 접두어를 \'+\'로 변경하시겠습니까?</string>
+    <string name="international_dialing_add_country_code_input_area_code"><xliff:g id="country_name">%s</xliff:g>의 번호를 다이얼하는 것이 감지되었습니다. 이 경우 지역 번호를 입력하십시오.</string>   
+    <string name="international_dialing_add_country_code_default_input_area_code"><xliff:g id="country_name">%s</xliff:g>의 번호로 다이얼하는 것이 감지되었습니다. 목적지 도시가 <xliff:g id="area_name">%s</xliff:g>이(가) 아닌 경우 지역 번호를 입력하십시오.</string>
+    <string name="international_dialing_need_area_code">통화하려면 목적지 도시의 지역 번호가 필요합니다.</string>
+    <string name="international_dialing_input_area_code">여기에 지역 번호를 입력하십시오</string>
+    <string name="international_dialing_dialed_number">다이얼링 번호:</string>
+    <string name="international_dialing_confirm_area_code">목적지 도시가 <xliff:g id="area_name">%s</xliff:g>이(가) 아닌 경우 아래에 있는 목적지 도시의 지역 번호를 입력하십시오.</string>
+    <string name="international_dialing_dial_with_country_code">국가 코드를 사용하여 다이얼하십시오</string>
+    <string name="international_dialing_click_below_button">아래의 버튼을 클릭하여 국가 코드 번호를 변경하십시오.</string>
+    <string name="international_dialing_yes">예. 아래 번호를 사용합니다:</string>
+    <string name="international_dialing_no">아니요. 원래의 번호를 사용합니다:</string>
+    <string name="international_dialing_call_button">"전화걸기"</string>
+    <string name="international_dialing_area_code">지역 번호</string>
+    <string name="international_dialing_invalid_number">번호가 잘못되었습니다. 계속 다이얼하시겠습니까?</string>
+    <string name="international_dialing_add_country_code_and_area_code_without_prefix">국가 코드와 지역 번호를 추가하시겠습니까?</string>
+    <string name="share_too_large">총 데이터가 상한을 초과합니다. 일부 항목의 선택을 해제하고 다시 시도하십시오.</string>
+
+</resources>

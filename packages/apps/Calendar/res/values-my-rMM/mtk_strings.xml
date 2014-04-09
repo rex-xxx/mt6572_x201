@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools">  
+    <string name="quick_response_error_already_exist">စာသား ရှိပြီးဖြစ်သည်</string>  
+    <string name="quick_response_error_null">ဗလာဖြစ်၍မရပါ</string> 
+    <string name="go_to">သို့ သွားပါ</string>
+    <string name="preferences_alerts_vibrateWhen_summary">အကြောင်းအရာသတိပေးချက်အတွက် တုန်ခါပါ</string>
+    <string name="search_hint">ပြက္ခဒိန်တွင်ရှာပါ</string>
+</resources>

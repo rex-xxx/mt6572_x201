@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Field title for the given name of a contact -->
+    <string name="name_given">First name</string>
+    <!-- Field title for the family name of a contact -->
+    <string name="name_family">Last name</string>
+
+    <!-- An allowable value for the "sort list by" contact display option  -->
+    <string name="display_options_sort_by_given_name">First name</string>
+
+    <!-- An allowable value for the "sort list by" contact display option  -->
+    <string name="display_options_sort_by_family_name">Last name</string>
+
+    <!-- An allowable value for the "view names as" contact display option  -->
+    <string name="display_options_view_given_name_first">First name first</string>
+
+    <!-- An allowable value for the "view names as" contact display option  -->
+    <string name="display_options_view_family_name_first">Last name first</string>
+
+
+    <!-- Title of the confirmation dialog for deleting the call log -->
+    <string name="deleteCallLogConfirmation_title">Delete call log(s)?</string>
+
+    <!-- Confirmation dialog for deleting the call log -->
+    <string name="deleteCallLogConfirmation_message">Are you sure to delete the selected call log(s)?</string>
+    
+    <string name="local_device_account_name">Device</string> 
+    <string name="account_type_uim_label">UIM-only, unsynced</string> 
+    <string name="email_too_long">Email is too long</string> 
+    <!--The following lines are provided and maintained by Mediatek Inc. 2012-5-16-->  
+    <string name="delete_group_failure">Failed to delete group.</string>  
+    <string name="import_no_vcard_dialog_title">Couldn\'t scan 
+        <xliff:g id="storage_name">%s</xliff:g> 
+    </string>  
+    <string name="import_no_vcard_dialog_text">No vCard file found in 
+        <xliff:g id="storage_name">%s</xliff:g>
+    </string> 
+    <!-- The previous lines are provided and maintained by Mediatek Inc. --> 
+
+    <string name="contact_group_list_title">"Choose target group"</string> 
+    <string name="look_simstorage">View SIM Card Capacity</string>  
+    <string name="dlg_simstorage_content">phone number book Storage Capacity 
+        <xliff:g id="items">%d</xliff:g>,has been used 
+        <xliff:g id="items">%d</xliff:g>.
+    </string>
+
+    <string name="nickname_too_long">"Nickname is too long."</string>
+    <string name="pick_new_photo_from_gallery">Select new photo</string>  
+    <string name="copy_text_to_dialer">Copy to dialer</string> 
+    <string name="account_phone_only" product="tablet">Tablet</string>  
+    <string name="account_phone_only" product="default">Phone contact</string>  
+
+</resources>

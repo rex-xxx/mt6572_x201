@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="bluetooth_advanced_settings">အဆင့်မြင့် ဆက်တင်များ</string>  
+    <string name="bluetooth_profile_ftp">ဖိုင်လွှဲပြောင်းခြင်း</string>  
+    <string name="bluetooth_ftp_profile_summary_use_for">ဖိုင်လွှဲပြောင်းခြင်းအတွက် အသုံးပြုရန်</string>  
+    <string name="bluetooth_ftp_profile_summary_connected">"ဖိုင်လွှဲပြောင်းခြင်းသို့ ချိတ်ဆက်ခဲ့သည်"</string>  
+    <string name="mtp_transfer_unmount_error_text">ဖိုင်လွှဲပြောင်းနေစဉ် CD ကတ်ကို မဖယ်ရှားနိုင်ပါ</string>  
+    <string name="mtp_transfer_erase_error_text">ဖိုင်လွှဲပြောင်းနေစဉ် CD ကတ်ကို မဖျက်နိုင်ပါ</string>  
+    <string name="launch_error">"အသုံးချပရိုဂရမ်ကို မဖွင့်နိုင်ပါ။"</string>  
+    <string name="dlg_confirm_unmount_usb_title" product="default">USB သိမ်းဆည်းနေရာကို ဖယ်ရှားမှာလား။</string>  
+    <string name="dlg_confirm_unmount_usb_text" product="default">USB သိမ်းဆည်းနေရာကို ဖယ်ရှားပါက သင်အသုံးပြုနေသော အသုံးချပရိုဂရမ်အချို့တို့ ရပ်တန့်သွားလိမ့်မည်ဖြစ်ပြီး USB သိမ်းဆည်းနေရာကို ပြန်လည်စတင်သည့်အချိန်အထိ အသုံးမပြုနိုင်ဘဲ ဖြစ်နိုင်သည်။</string>  
+    <string name="dlg_error_unmount_usb_title" product="default"/>  
+    <string name="dlg_error_unmount_usb_text" product="default">USB သိမ်းဆည်းနေရာကို မဖယ်ရှားနိုင်ပါ။ နောက်မှ ထပ်ကြိုးစားပါ။</string>  
+    <string name="unmount_usb_inform_text" product="default">USB သိမ်းဆည်းနေရာကို ဖယ်ရှားလိမ့်မည်။</string>  
+    <string name="sd_eject_usbstorage" product="default">USB သိမ်းဆည်းနေရာကို ဖယ်ရှားပါ</string>  
+    <string name="sd_eject_usbstorage_summary" product="default">USB သိမ်းဆည်းနေရာကို ဖယ်ရှားပါ ထို့နောက် ယင်းကို ဘေးကင်းစွာ ဖြုတ်နိုင်မည်</string>  
+    <string name="sd_mount_usbstorage" product="default">USB သိမ်းဆည်းနေရာကို အစပျိုးပါ</string>  
+    <string name="sd_insert_usb_summary" product="default">အစပျိုးရန် USB သိမ်းဆည်းနေရာကို ထည့်သွင်းပါ</string>  
+    <string name="usb_ums_title">USB သိမ်းဆည်းနေရာ</string>  
+    <string name="usb_ums_summary">"XP က ထောက်ခံခဲ့သည်။ သင့်ကွန်ပျူတာနှင့် အန်းဒွိုက်၏ USB သိမ်းဆည်းနေရာအကြား ဖိုင်များကို လွှဲပြောင်းခွင့်ပေးသည်။"</string>  
+    <string name="usb_charge_title">အားသွင်းရုံသာ</string>  
+    <string name="usb_charge_summary">USB လုပ်ငန်းများအားလုံးကို ရပ်ပါ။ USB အားသွင်းခြင်းနှင့် ပါဝါသုံးစွဲမှုကို အရှိန်မြင့်စေသည်။</string>  
+    <string name="NI_Request_ID">တောင်းဆိုသူ ID</string>  
+    <string name="NI_Request_ClientName">ကလိုင်းယင့်အမည်</string>  
+    <string name="agps_str_verify">စစ်မှန်ကြောင်း အတည်ပြုခြင်း</string>  
+    <string name="agps_str_notify">အကြောင်းကြားချက်</string>  
+    <string name="EM_NotifyDialog_title">EM သတိပေးမှု</string>  
+    <string name="agps_OK">ခွင့်ပြု</string>  
+    <string name="agps_str_allow">ခွင့်ပြု</string>  
+    <string name="agps_str_deny">ငြင်းပယ်</string>  
+    <string name="agps_str_error">အမှား</string>  
+    <string name="AGPS_DEFAULT_STRING">A-GPS မူလသတ်မှတ် အတွဲ</string>  
+    <string name="AGPS_CAUSE_NETWORK_CREATE_FAIL">ကွန်ယက်တည်ဆောက်မှု မအောင်မြင်ပါ</string>  
+    <string name="AGPS_CAUSE_BAD_PUSH_CONTENT">မမှန်သော ပွတ်(ရှ်) အကြောင်းအရာ</string>  
+    <string name="AGPS_CAUSE_NOT_SUPPORTED">မထောက်ပံ့သော လုပ်ငန်း</string>  
+    <string name="AGPS_CAUSE_REQ_NOT_ACCEPTED">တောင်းဆိုမှုကို လက်မခံပါ</string>  
+    <string name="AGPS_CAUSE_NO_RESOURCE">လုပ်ငန်းစဉ်သစ်ကို ကိုင်တွယ်ရန် အရင်းမြစ်မရှိပါ</string>  
+    <string name="AGPS_CAUSE_NETWORK_DISCONN">ကွန်ယက်ချိတ်ဆက်မှု ကျနေသည်</string>  
+    <string name="AGPS_CAUSE_REMOTE_ABORT">သီးခြားဘက်သည် ကဏ္ဍကို ဖျက်သိမ်းသည် (SUPL END ကိုလက်ခံပါ)</string>  
+    <string name="AGPS_CAUSE_TIMER_EXPIRY">သတ်မှတ်ထားသော အချိန်ကာလအတွင်း သတင်းတို ပြန်မလာစေရန် မျှော်လင့်ပါ</string>  
+    <string name="AGPS_CAUSE_REMOTE_MSG_ERROR">မမှန်သော သတင်းတိုအကြောင်းအရာကို လက်ခံသည်</string>  
+    <string name="AGPS_CAUSE_USER_AGREE">အသုံးပြုသူသည် အတည်ပြုမှုကို လက်ခံသည်</string>  
+    <string name="AGPS_CAUSE_USER_DENY">အသုံးပြုသူသည် အတည်ပြုမှုကို ငြင်းပယ်သည်</string>  
+    <string name="AGPS_CAUSE_NO_POSITION">မှား နေရာ အတွက်သာ</string>  
+    <string name="AGPS_CAUSE_TLS_AUTH_FAIL">TLS စစ်မှန်ကြောင်းအထောက်အထား မအောင်မြင်ပါ</string>  
+    <string name="USER_RESPONSE_TIMEOUT">စစ်မှန်ကြောင်းအတည်ပြုခြင်းကို စောင့်စားခြင်း အချိန်စေ့ပြီ</string>  
+    <string name="AGPS_EM_RECV_SI_REQ">SI တောင်းဆိုမှုကို လက်ခံရရှိခဲ့သည်</string>  
+    <string name="AGPS_EM_POS_FIXED">အဆင့်နေရာကို ပြင်ဆင်ခဲ့သည်</string>  
+    <string name="AGPS_NOTIFY_ONLY">နေရာတောင်းဆိုမှု အကြောင်းကြားချက်</string>  
+    <string name="AGPS_NOTIFY_ALLOW_NO_ANSWER">နေရာတောင်းဆိုမှု (မဖြေပါက ခွင့်ပြုပါ)</string>  
+    <string name="AGPS_NOTIFY_DENY_NO_ANSWER">နေရာတောင်းဆိုမှု (မဖြေပါက ငြင်းပယ်ပါ)</string>  
+    <string name="AGPS_NOTIFY_PRIVACY">နေရာတောင်းဆိုမှု (ပုဂ္ဂလိကလွတ်လပ်ခွင့်)</string>  
+    <string name="epo_entrance_title">EPO ဆက်တင်များ</string>  
+    <string name="epo_entrance_summary">EPO ဖွဲ့စည်းပုံများကို ပြင်ဆင်ရန် နှိပ်ပါ</string>  
+    <string name="agps_settings_title">A-GPS ဆက်တင်များ</string>  
+    <string name="epo_enable_confirm_title">EPO လုပ်ဆောင်စေမှု အတည်ပြုသည်</string>  
+    <string name="epo_enable_confirm_message">ယင်းသည် သင့်အား ကွန်ယက်အတွက် အပိုအခကြေးငွေကုန်ကျစေနိုင်သော GPS အထောက်အပံ့ဒေတာ (EPO)ကို ရယူရန် ဝါယာလက်(စ်) ဒေတာ ချိတ်ဆက်မှု လိုအပ်သည်။ GPS အထောက်အပံ့ကို ဖွင့်ရန် သေချာပါသလား။</string>  
+    <string name="epo_enable_confirm_allow">ဆက်ရန်</string>  
+    <string name="epo_enable_confirm_deny">ပယ်ဖျက်</string>  
+    <string name="agps_enable_confirm_title">A-GPS လုပ်ဆောင်စေမှု အတည်ပြုသည်</string>  
+    <string name="agps_enable_confirm">A-GPS သည် သင့်အား အပိုအခကြေးငွေကုန်ကျစေနိုင်သော GPS အထောက်အပံ့ဒေတာကို ရယူရန် ဝါယာလက်(စ်) ဒေတာ ချိတ်ဆက်မှု လိုအပ်သည်။ A-GPS ကို ဖွင့်ရန် သေချာပါသလား။</string>  
+    <string name="agps_enable_confirm_allow">ဆက်ရန်</string>  
+    <string name="agps_enable_confirm_deny">ပယ်ဖျက်</string>  
+    <string name="epo_enable_title">GPS EPO အထောက်အပံ့</string>  
+    <string name="epo_enable_summary">GPS နေရာချထားမှုကို အရှိန်မြှင့်ရန် GPS အထောက်အပံ့ဒေတာ (EPO)ကို သုံးပါ။</string>  
+    <string name="agps_settings_enable_on">GPS သည် ဝါယာလက်(စ်)ဒေတာ ချိတ်ဆက်မှုမှတစ်ဆင့် ထောက်ပံ့မှုဒေတာကို အသုံးပြု၍ နေရာ၏ ပုံသေအချိန်ကို အရှိန်မြှင့်နိုင်သည်</string>  
+    <string name="agps_settings_enable_off">GPS ကိုအသုံးပြု၍ နေရာ၏ ပုံသေအချိန်ကို အရှိန်မြှင့်နိုင်ရန် ထောက်ပံ့မှုဒေတာကို အသုံးပြုပါ</string>  
+    <string name="agps_settings_eng_enable">A-GPS ဆက်တင်များ</string>  
+    <string name="agps_settings_eng_summary">A-GPS ဆက်တင်များကို သတ်မှတ်ပါ</string>  
+    <string name="agps_disable_on_reboot">လုပ်ငန်းပြန်လည်စပြီးနောက် ရပ်နားပါ</string>  
+    <string name="agps_disable_on_reboot_summary">လုပ်ငန်းပြန်လည်စပြီးနောက် A-GPS လုပ်နိုင်စွမ်းကို ရပ်နားပါ</string>  
+    <string name="Network_Initiate">ကွန်ယက် တောင်းဆိုမှု</string>  
+    <string name="Network_Initiate_Summary_on">နေရာကို တောင်းဆိုရန် ကွန်ယက်ကို ခွင့်ပြုသည်</string>  
+    <string name="Network_Initiate_Summary_off">နေရာကို တောင်းဆိုရန် ကွန်ယက်ကို ငြင်းပယ်ပြုသည်</string>  
+    <string name="Network_Used">ကွန်ယက်ကို အသုံးပြုခဲ့သည်</string>  
+    <string name="agps_profile_select">ပရိုဖိုင်း ရွေးချယ်မှု</string>  
+    <string name="agps_profile_SLP_address_editbox_title">SLP လိပ်စာ</string>  
+    <string name="port_title">SLP ဝင်ထွက်ပေါက်</string>  
+    <string name="tls_summary_off">TLS ကို ပိတ်ထားသည်</string>  
+    <string name="tls_summary_on">TLS ကို ဖွင့်ထားသည်</string>  
+    <string name="MobileNetwork_Category">မိုဘိုင်းကွန်ယက်</string>  
+    <string name="AgpsHelp_Category">အကူအညီ</string>  
+    <string name="about_agps_title">A-GPS အကြောင်း</string>  
+    <string name="about_agps_message">\t A-GPS(ထောက်ပံ့သော-GPS)သည် လုပ်ဆောင်မှုစတင်ခြင်းနှင့် GPS ဂြိုဟ်ထု ပထမအကြိမ်တပ်ဆင်မှုအချိန်(TTFF)ကို ပိုမိုကောင်းမွန်အောင် ပြုလုပ်နိုင်သော စနစ်ဖြစ်သည်။\n\t A-GPS လုပ်နိုင်စွမ်းရှိသော စက်တစ်ခုသည် မိုဘိုင်းကွန်ယက် ဒေတာ ချိတ်ဆက်မှုမှတစ်ဆင့် အထောက်အပံ့ဒေတာကို ရယူရန် ဒေသတွင်းဆာဗာကို ချိတ်ဆက်နိုင်သည်။ \n\t ဒေတာရယူပေးပို့မှုသည် ကွန်ယက်ဖြန့်ကျက်မှုအခြေအနေများတွင် အပိုကြေးကုန်ကျစေနိုင်ကြောင်း သတိပြုပါ။ အသေးစိတ်အချက်အလက်အတွက် သင်၏ အော်ပရေတာများနှင့် ကျေးဇူးပြု၍ ဆက်သွယ်ပါ။</string>  
+    <string name="epo_auto_download_title">အလိုအလျောက် ဒေါင်းလုဒ်</string>  
+    <string name="epo_auto_download_summary">ဂြိုဟ်ထုနေရာဒေတာကို အလိုအလျောက် ဒေါင်းလုပ်လုပ်ရန်</string>  
+    <string name="epo_info_title">EPO ဖိုင် အချက်အလက်</string>  
+    <string name="epo_download_time_title">ဒေါင်းလုဒ်ချိန်</string>  
+    <string name="epo_download_time_summary">မရနိုင်ပါ</string>  
+    <string name="epo_start_time_title">စတင်ချိန်</string>  
+    <string name="epo_start_time_summary">မရနိုင်ပါ</string>  
+    <string name="epo_expire_time_title">စတင်ချိန်</string>  
+    <string name="epo_expire_time_summary">မရနိုင်ပါ</string>  
+    <string name="epo_about_title">EPO အကြောင်း</string>  
+    <string name="epo_about_message">\tEPO (ချဲ့ထားသော ခန့်မှန်း ဂြိုဟ်ထုပတ်လမ်း)သည် Media Tek ၏ A-GPS နည်းပညာကို အခြေခံသော ဆန်းသစ်ထုတ်လုပ်သည့် အော့(ဖ်)လိုင်း ဆာဗာ တစ်မျိုးဖြစ်သည်။ \n\tယင်းသည်ဂြိုဟ်ထုပတ်လမ်း ခန်းမှန်းချက်ကို ရက် ၃၀ အထိ ပေးနိုင်သည်။ ယင်းကို GPS ပထမအကြိမ်တပ်ဆင်မှုအချိန်(TTFF)အား မြှင့်တင်ခြင်းဖြင့် အသုံးပြုသူ အတွေ့အကြုံကို အလွန်ကောင်းစေရန် အသုံးပြုနိုင်သည်။</string>  
+    <string name="Network_Local_and_Roaming_Summary">A-GPS ကို ပြည်တွင်း ပြည်ပ ကွန်ယက် နှစ်ခုလုံးတွင် အသုံးပြုရန်</string>  
+    <string name="Network_Only_Local_Summary">A-GPS ကို ပြည်တွင်း ကွန်ယက်တွင်သာ အသုံးပြုရန်</string>  
+    <string name="MobileNetwork_DataConn_off">ဒေတာ ချိတ်ဆက်မှု ပိတ်ထားသည်</string>  
+    <string name="MobileNetwork_off_Summary">A-GPS ကို အသုံးမပြုမီ ဒေတာချိတ်ဆက်မှုကို ကျေးဇူးပြု၍ ဖွင့်ပါ</string>  
+    <string name="WiFiNetwork_on_title">ဝိုင်-ဖိုင် လုပ်ဆောင်နေသည်</string>  
+    <string name="MobileNetwork_on_Summary">A-GPS သည် ဒေတာချိတ်ဆက်မှုများမှတစ်ဆင့် မိုဘိုင်းကွန်ယက်ကို ဝင်ရောက်ရန် လိုအပ်သည်</string>  
+    <string name="MobileNetwork_SIM_Active">SIM 
+        <xliff:g id="active_sim_id">%1$s</xliff:g> သည် လုပ်ဆောင်နေသည်
+    </string>  
+    <string name="Network_Roaming_dialog_title">သတိ</string>  
+    <string name="Network_Roaming_dialog_content">ကွန်ယက်သည် ဖြန့်ကျက်မှုအောက်တွင်ရှိစဉ် A-GPS ဒေတာရယူပေးပို့မှုသည် အပို ဖြန့်ကျက်ကြေးကို ကုန်ကျစေနိုင်သည်။</string>  
+    <string name="epo_download">ဒေါင်းလုဒ်</string>  
+    <string name="epo_error_no_activite_network">EPO ဒေတာကို ဒေါင်းလုဒ်မလုပ်မီ ဒေတာချိတ်ဆက်မှုကို ကျေးဇူးပြု၍ဖွင့်ပါ</string>  
+    <string name="epo_cancel_download">ပယ်ဖျက်</string>  
+    <string name="epo_status_stopping">ရပ်နေသည်…</string>  
+    <string name="epo_status_starting">စတင်နေသည်…</string>  
+    <string name="epo_err_update_failed">EPO ဖိုင်များ မွမ်းမံခြင်း မအောင်မြင်ပါ</string>  
+    <string name="epo_error_dialog_title">အမှား</string>  
+    <string name="epo_ok_btn">OK</string>  
+    <string name="epo_warning_dialog_title">သတိ</string>  
+    <string name="epo_warning_dialog_message">ကွန်ယက်ဖြန့်ကျက်မှု အခြေအနေတွင် EPO ဒေတာကို ဒေါင်းလုဒ်လုပ်ခြင်းသည် အပိုကြေးများ ကျသင့်စေနိုင်သည်။ ဆက်လက်လုပ်ဆောင်ရန် သေချာပါသလား။</string>  
+    <string name="ring_summary">ဖုန်းခေါ်သံ</string>  
+    <string name="ring_vibrate_summary">ဖုန်းခေါ်သံနှင့် တုန်ခါမှု</string>  
+    <string name="silent_summary">အသံတိတ်သာ</string>  
+    <string name="meeting_summary">တုန်ခါမှုသာ</string>  
+    <string name="outdoor_summary">အကျယ်ဆုံး ဖုန်းခေါ်သံနှင့် တုန်ခါမှု</string>  
+    <string name="audio_profile_reset">ပြန်လည်သတ်မှတ်ရန်</string>  
+    <string name="audio_profile_add">ထပ်ထည့်ရန်</string>  
+    <string name="audio_profile_enable">လုပ်ဆောင်စေသည်</string>  
+    <string name="audio_profile_rename">အမည်ပြောင်းရန်</string>  
+    <string name="audio_profile_delete">ဖျက်ရန်</string>  
+    <string name="audio_profile_message_reset">ရေဒီယို ပရိုဖိုင်းဆက်တင်များအားလုံးကို မူလသတ်မှတ်ထားသည့်အတိုင်း ပြန်လည်သတ်မှတ်မည်</string>  
+    <string name="audio_profile_message_rename">ပရိုဖိုင်းအသစ်၏ အမည်ကို ကျေးဇူးပြု၍ ထပ်ထည့်ပါ</string>  
+    <string name="audio_profile_message_name_error">ထည့်သွင်းသောအမည်သည် ရှိပြီးဖြစ်သည်</string>  
+    <string name="audio_profile_message_name_length_wrong">အမည်တွင် အနည်းဆုံး အက္ခရာတစ်လုံး ပါရမည်</string>  
+    <string name="audio_profile_message_delete">ပရိုဖိုင်း 
+        <xliff:g id="profile">%s</xliff:g> ကို ဖျက်လိမ့်မည်
+    </string>  
+    <string name="audio_profile_message_overflow">သင်သည် စိတ်ကြိုက်ပရိုဖိုင်း ၆ခု သာ ထည့်ခွင့်ရှိသည်</string>  
+    <string name="ok">OK</string>  
+    <string name="audio_profile_category_custom_title">အသုံးပြုသူ သတ်မှတ်ထားသော ပရိုဖိုင်းများ</string>  
+    <string name="audio_profile_category_predefine_title">ကြိုတင်သတ်မှတ်ထားသော ပရိုဖိုင်းများ</string>  
+    <string name="general_settings_title">ယေဘုယျ</string>  
+    <string name="silent_settings_title">အသံတိတ်</string>  
+    <string name="meeting_settings_title">အစည်းအဝေး</string>  
+    <string name="outdoor_settings_title">ပြင်ပ</string>  
+    <string name="apn_predefine_change_dialog_notice">သိမ်းရန် သေချာပါသလာ။ မူလသတ်မှတ်ထားသော APN များကို ပြုပြင်ခြင်းသည် ချိတ်ဆက်မှု ပြဿနာကို ဖြစ်စေနိုင်သည်။"</string>  
+    <string name="dialog_apn_disabled">APN ရပ်နေသည်။</string>  
+    <string name="dialog_apn_disabled_msg">APN ဆက်တင်များကို လုပ်ဆောင်စေရန် လေယာဉ်တွင်းနည်းစနစ်ကို ကျေးဇူးပြု၍ပိတ်ပါ။</string>  
+    <string name="sound_category_feedback_title">စနစ်</string>  
+    <string name="sound_category_calls_title">အဝင်ဖုန်းများ</string>  
+    <string name="voice_call_title">အသံဖုန်း မြည်သံ</string>  
+    <string name="voice_call_summary">သင်၏ အလိုအလျောက်ရွေးချယ်မှုဖြစ်သော အသံဖုန်း မြည်သံကို သတ်မှတ်ပါ</string>  
+    <string name="video_call_title">ဗီဒီယိုဖုန်း မြည်သံ</string>  
+    <string name="video_call_summary">သင်၏ အလိုအလျောက်ရွေးချယ်မှုဖြစ်သော ဗီဒီယိုဖုန်း မြည်သံကို သတ်မှတ်ပါ</string>  
+    <string name="Phone_vibrate_summary">အဝင်ဖုန်းများအတွက် တုန်ခါမှုစက်များ</string>  
+    <string name="vibrate_title">တုန်ခါမှု</string>  
+    <string name="audio_profile_settings_title">အသံပရိုဖိုင်းများ</string>  
+    <string name="sim_status_title">SIM အခြေအနေ</string>  
+    <string name="sim_status_summary">SIM ဆက်နွယ်နေသော သတင်းအချက်အလက်များ</string>  
+    <string name="status_imei_slot1">IMEI(အပေါက်1)</string>  
+    <string name="status_imei_sv_slot1">IMEI SV(အပေါက်1)</string>  
+    <string name="status_imei_slot2">IMEI(အပေါက်2)</string>  
+    <string name="status_imei_sv_slot2">IMEI SV(အပေါက်2)</string>  
+    <string name="status_min_number_slot1">MIN(အပေါက်1)</string>  
+    <string name="status_prl_version_slot1">PRL ဗားရှင်း(အပေါက်1)</string>  
+    <string name="status_meid_number_slot1">MEID(အပေါက်1)</string>  
+    <string name="status_min_number_slot2">MIN(အပေါက်2)</string>  
+    <string name="status_prl_version_slot2">PRL ဗားရှင်း(အပေါက်2)</string>  
+    <string name="status_meid_number_slot2">MEID(အပေါက်2)</string>  
+    <string name="slot_status_title">IMEI သတင်းအချက်အလက်များ</string>  
+    <string name="slot_status_summary">IMEI ပတ်သတ်သော သတင်းအချက်အလက်များ</string>  
+    <string name="custom_build_version">အသုံးပြုသူစိတ်ကြိုက်တည်ဆောင်မှု မူကွဲ</string>  
+    <string name="software_update">ဆော့(ဖ်)ဝဲ မွမ်းမံရေးဝန်ဆောင်မှု</string>  
+    <string name="mota_system_update_summary">ဆာဗာပေါ်တွင် စနစ်မွမ်းမံမှုကို စစ်ဆေးပါ</string>  
+    <string name="software_updates_more_title">ဆော့(ဖ်)ဝဲ မွမ်းမံရေးများ</string>  
+    <string name="software_updates_more_summary">ဆော့(ဖ်)ဝဲ မူကွဲသစ်များကို စစ်ဆေးပါ</string>  
+    <string name="software_updates_scomo_summary">အသုံးချပရိုဂရမ် မူကွဲသစ်များကို စစ်ဆေးပါ</string>  
+    <string name="scomo_settings_title">ဆော့(ဖ်)ဝဲ မွမ်းမံရေးဝန်ဆောင်မှု</string>  
+    <string name="battery_level" translatable="false">" 
+        <xliff:g id="battery">%s</xliff:g>%%"
+    </string>  
+    <string name="screen_timeout_CU">ဖန်သားပြင် အချိန်စေ့ပြီ</string>  
+    <string name="landscape_launcher_title">မြင်ကွင်းကျယ် ဖွင့်မှု</string>  
+    <string name="landscape_launcher_none">ဘာမျှမရှိ</string>  
+    <string name="tvout_settings">တီဗီအောက်</string>  
+    <string name="tvout_settings_summary">တီဗီအောက် ဆက်တင်များ</string>  
+    <string name="tv_system_title">တီဗီစနစ်</string>  
+    <string name="hdmi_settings">HDMI စနစ်များ</string>  
+    <string name="hdmi_settings_summary">HDMI ကို သီးသန့်စီစဉ်ထားရှိရန် နှိပ်ပါ</string>  
+    <string name="hdmi_audio_toggler">အသံ</string>  
+    <string name="hdmi_video_toggler">ဗီဒီယို</string>  
+    <string name="hdmi_video_resolution">ဗီဒီယို ပြတ်သားမှု</string>  
+    <string name="hdmi_notification_title">HDMI ကြိုး ချိတ်ဆက်ခဲ့သည်</string>  
+    <string name="hdmi_notification_content">HDMI ကို သီးသန့်စီစဉ်ထားရှိရန် နှိပ်ပါ</string>  
+    <string name="display_settings_scences_title">မြင်ကွင်းများ</string>  
+    <string name="mtk_thememanager_title">အာဘော်</string>  
+    <string name="default_name">မူလသတ်မှတ်ချက်</string>  
+    <string name="custom_theme_name">အသစ် [%1$s]</string>  
+    <string name="loading">တင်နေသည်…</string>  
+    <string name="sim_enter_pin_hints">(ဂဏန်း ၄-၈ လုံးကို ထည့်သွင်းပါ)</string>  
+    <string name="sim_remain">(လက်ကျန်- 
+        <xliff:g id="remains">%d</xliff:g>)
+    </string>  
+    <string name="gps_time_sync_attention_gps_on">GPS တပ်ဆင်မှုရယူရန် အများဆုံး ၁မိနစ်ကြာမည်။ ထို့ပြင် ပတ်ဝန်းကျင်ဆိုင်ရာ ထုတ်လွှင့်ချက် အားနည်းမှုကြောင့် GPS သည် အချိန်ပေးရန် မအောင်မြင် ဖြစ်နိုင်သည်။ \n\nGPS ကပေးသော အချိန်ကို အသုံးပြုရန် သေချာပါသလား။</string>  
+    <string name="gps_time_sync_attention_gps_off">GPS ကပေးသော အချိန်ကို အသုံးပြုရန် GPS ကို ဦးစွာ လုပ်ဆောင်စေရမည်။ ထို့နောက် GPS တပ်ဆင်မှုရယူရန် အများဆုံး ၁မိနစ်ကြာမည်။ ထို့ပြင် ပတ်ဝန်းကျင်ဆိုင်ရာ ထုတ်လွှင့်ချက် အားနည်းမှုကြောင့် GPS သည် အချိန်ပေးရန် မအောင်မြင် ဖြစ်နိုင်သည်။ \n\nGPS ကို ယခု လုပ်ဆောင်စေပြီး GPS ကပေးသော အချိန်ကိုစောင့်ရန် သေချာပါသလား။</string>  
+    <string name="drm_settings_title">DRM ပြန်လည်သတ်မှတ်ခြင်း</string>  
+    <string name="drm_settings_summary">DRM လိုင်စင်များ အားလုံးကို ဖျက်သည်</string>  
+    <string name="drm_reset_dialog_msg">ဤလုပ်ဆောင်မှုသည် ဤစက်များပေါ်ရှိ လိုင်စင်များအားလုံးကို ဖျက်လိမ့်မည်။ ဆက်လုပ်မှာလား။</string>  
+    <string name="drm_reset_toast_msg">လိုင်စင်များကို အောင်မြင်စွာ ဖျက်ခဲ့ပြီးဖြစ်သည်။</string>  
+    <string name="gemini_sim_management_title">SIM စီမံခန့်ခွဲမှု</string>  
+    <string name="gemini_sim_info_title">SIM သတင်းအချက်အလက်</string>  
+    <string name="gemini_default_sim_title">မူလသတ်မှတ်ထားသော SIM</string>  
+    <string name="gemini_general_settings_title">ယေဘုယျ ဆက်တင်များ</string>  
+    <string name="gemini_roaming_settings_title">နိုင်ငံတကာ လှည့်လည်သွားလာခြင်း</string>  
+    <string name="gemini_data_roaming_title">ဒေတာ လှည့်လည်သွားလာခြင်း</string>  
+    <string name="gemini_data_roaming_summary">နိုင်ငံတကာ လှည့်လည်သွားလာနေစဉ် ဒေတာဝန်ဆောင်မှုများကို ချိတ်ဆက်ရန်</string>  
+    <string name="gemini_roaming_reminder_title">လှည်လည်သွားလာခြင်း သတိပေးချက်ကို ပြပါ</string>  
+    <string name="gemini_roaming_reminder_summary">SIM အသုံးပြုမှုကို အခြေံ၍ SIM အကြံပြုချက်ကို ပြပါ</string>  
+    <string name="gemini_contacts_sim_title">"လိပ်စာများပူးတွဲခြင်း"</string>
+    <string name="gemini_contacts_sim_summary">လိပ်စာများကို သတ်မှတ်ထားသော SIM ကဒ်သို့ ပူးတွဲပါ</string>
+    <string name="gemini_voice_call">အသံဖုန်း</string>  
+    <string name="gemini_video_call">ဗီဒီယိုဖုန်း</string>  
+    <string name="gemini_data_connection">ဒေတာ ချိတ်ဆက်ခြင်း</string>  
+    <string name="gemini_msg">သတင်းတိုပို့ခြင်း</string>  
+    <string name="gemini_default_sim_always_ask">အမြဲမေးပါ</string>  
+    <string name="gemini_intenet_call">အင်တာနက်အသုံးပြု ဖုန်းခေါ်ဆိုခြင်း</string>  
+    <string name="gemini_default_sim_never">ပိတ်</string>  
+    <string name="gemini_default_sim_3g_off">ပိတ်</string>  
+    <string name="gemini_gsm_umts_network_preferences_title">ကွန်ယက်နည်းစနစ်</string>  
+    <string name="gemini_gsm_umts_network_preferneces_summary">အကောင်အထည်မဖော်ရသေးပါ။</string>  
+    <string name="gemini_gsm_umts_network_preferences_dialogtitle">ကွန်ယက်နည်းစနစ်</string>  
+    <string name="gemini_3g_service_settings">3G ဝန်ဆောင်မှု</string>  
+    <string name="gemini_sim_mode_progress_activating_message">စတင်လုပ်ဆောင်နေသည်\u2026</string>  
+    <string name="gemini_sim_mode_progress_deactivating_message">ရပ်နားနေသည်\u2026</string>  
+    <string name="gemini_sim_mode_change_failed_message">မအောင်မြင်ပါ။ ကွန်ယက်ပြဿနာ</string>  
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_title">လေယာဉ်တွင်းနည်းစနစ်</string>  
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_message">ဖုန်းသည် လေယာဉ်တွင်းနည်းစနစ်သို့ ဝင်ရောက်တော့မည်။ ဝါယာလက်(စ်)ချိတ်ဆက်မှုများအားလုံး ရပ်တန့်သွားလိမ့်မည်။ ဆက်လုပ်မှာလား။</string>  
+    <string name="gemini_sim_info_editor_name">SIM အမည်ကို တည်းဖြတ်ရန်</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">သိမ်းဆည်းမှုမအောင်မြင်ပါ</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">SIM ကတ်အတွက် မူပွားအမည်</string>  
+    <string name="gemini_sim_info_editor_number">ဖုန်းနံပါတ်ကို ထည့်ပါ</string>  
+    <string name="gemini_sim_info_editor_color">နောက်ခံအရောင်ကို သတ်မှတ်ပါ</string>  
+    <string name="gemini_sim_info_editor_number_display_format">နံပါတ်များကို ဖော်ပြပါ</string>  
+    <string name="gemini_no_sim_indicator">SIM ကတ်မရှိပါ</string>  
+    <string name="gemini_sim_list_default_title">SIM ကတ်စာရင်း</string>  
+    <string name="gemini_data_connection_progress_message">"ကျေးဇူးပြုစောင့်ပါ…"</string>  
+    <string name="gemini_3g_modem_switching_message">"SIM ကို လဲခြင်းသည် ၁၀ စက္ကန့်ခန့်ကြာမည်။ ကျေးဇူးပြု၍ စောင့်ပါ…"</string>  
+    <string name="gemini_3g_modem_switch_confirm_message">"ယင်းသည် ဤ SIM အတွက် 3G ဝန်ဆောင်မှုကိုလည်း လဲလှယ်လိမ့်မည်။ ဆက်လုပ်မှာလား။ ရွေးချယ်လိုက်သော ဤ SIM သည် 3G ဝန်ဆောင်မှုကို ထောက်ပံ့ကြောင်းလည်း ကျေးဇူးပြု၍ သေချာအောင် ပြုလုပ်ပါ။"</string>  
+    <string name="gemini_3g_disable_warning">"ရွေးချယ်လိုက်သော ဤ SIM တွင် 3G ဝန်ဆောင်မှုကို မရနိုင်ပါ။ ဒေတာကို နှေးကွေးစွာ တင်လိမ့်မည်။ 3G ဝန်ဆောင်မှုဆက်တင်ကို ဆက်တင်များ&gt; ဝါယာလက်(စ်) နှင့် ကွန်ယက်များ &gt; မိုဘိုင်း ကွန်ယက်များ အောက်တွင် သင်ပြောင်းလဲနိုင်သည်။"</string>  
+    <string name="gemini_3g_disable_warning_cu">"ရွေးချယ်လိုက်သော ဤ SIM တွင် 3G ဝန်ဆောင်မှုကို မရနိုင်ပါ။ ဒေတာကို နှေးကွေးစွာ တင်လိမ့်မည်။ 3G ဝန်ဆောင်မှုဆက်တင်ကို ဆက်တင်များ&gt;SIM စီမံခန့်ခွဲမှုံ အောက်တွင် သင်ပြောင်းလဲနိုင်သည်။"</string>  
+    <string name="gemini_wap_push_permission_head">အော်တို-ပွတ်(ရှ်) ဝန်ဆောင်မှုကို လုပ်ဆောင်စေပြီးနောက် သင်သည် ပွတ်(ရှ်)သတင်းတိုများကို လက်ခံရရှိနိုင်မည်၊ ဖုန်းတွင်း လုပ်ငန်းသုံးပရိုဂရမ်များ လည်ပတ်နိုင်မည့်အပြင် ဒေတာရယူပေးပို့နိုင်မည်။ ပုံမှန် အော်တို-ပွတ်(ရှ်) ဝန်ဆောင်မှုများတွင် အီးမေး(လ်)အကြောင်းကြားချက်၊ စက်ကိရိယာစီမံခန့်ခွဲမှု၊ ဝန်ဆောင်မှု အမှတ်အသား၊ ဝန်ဆောင်မှု တင်ခြင်းနှင့် ပွတ်(ရှ်)ဖြည့်တင်းခြင်းတို့ ပါဝင်သည်။</string>  
+    <string name="gemini_wap_push_permission_tail">ဤသဘောတူညီချက်ကို လက်ခံမှာလား။</string>  
+    <string name="gemini_wap_push_permission_title">အော်တို-ပွတ်(ရှ်) ဝန်ဆောင်မှု သဘောတူညီချက်</string>  
+    <string name="gemini_wap_push_permission">အော်တို-ပွတ်(ရှ်) ဝန်ဆောင်မှု</string>  
+    <string name="gemini_3g_disable_warning_case0">"ဤ SIM အတွက် ဒေတာလှည်လည်ခြင်းကို ဦးစွာ လုပ်ဆောင်စေရမည်။ ယင်းသည် သိသာသော နိုင်ငံတကာလှည့်လည်မှု အဖိုးအခကို ကျသင့်စေနိုင်သည်။ ဒေတာလှည်လည်ခြင်းကို လုပ်ဆောင်စေပြီး ဤ SIM ကို ရွေးချယ်ရန် သေချာပါသလား။"</string>  
+    <string name="gemini_3g_disable_warning_case1">"ရွေးချယ်လိုက်သော ဤ SIM တွင် 3G ဝန်ဆောင်မှုကို မရနိုင်ပါ။ ဒေတာကို နှေးကွေးစွာ တင်လိမ့်မည်။ 3G ဝန်ဆောင်မှုဆက်တင်ကို ဆက်တင်များ&gt; ဝါယာလက်(စ်) နှင့် ကွန်ယက်များ &gt; မိုဘိုင်း ကွန်ယက်များ အောက်တွင် သင်ပြောင်းလဲနိုင်သည်။ ဤ SIM ကို ရွေးချယ်ရန် သေချာပါသလား။"</string>  
+    <string name="gemini_3g_disable_warning_case2">"ရွေးချယ်လိုက်သော ဤ SIM တွင် 3G ဝန်ဆောင်မှုကို မရနိုင်ပါ။ ဒေတာကို နှေးကွေးစွာ တင်လိမ့်မည်။ 3G ဝန်ဆောင်မှုဆက်တင်ကို ဆက်တင်များ&gt;SIM စီမံခန့်ခွဲမှု အောက်တွင် သင်ပြောင်းလဲနိုင်သည်။ ဤ SIM ကို ရွေးချယ်ရန် သေချာပါသလား။"</string>  
+    <string name="gemini_3g_disable_warning_case3">"ဤ SIM အတွက် ဒေတာလှည်လည်ခြင်းကို ဦးစွာ လုပ်ဆောင်စေရမည်။ ယင်းသည် သိသာသော နိုင်ငံတကာလှည့်လည်မှု အဖိုးအခကို ကျသင့်စေနိုင်သည်။ ထို့အပြင် ဤ SIM တွင် 3G ဝန်ဆောင်မှုကို မရနိုင်ပါ။ ဒေတာကို နှေးကွေးစွာ တင်လိမ့်မည်။ 3G ဝန်ဆောင်မှုဆက်တင်ကို ဆက်တင်များ&gt; ဝါယာလက်(စ်) နှင့် ကွန်ယက်များ &gt; မိုဘိုင်း ကွန်ယက်များ အောက်တွင် သင်ပြောင်းလဲနိုင်သည်။ ဒေတာလှည်လည်ခြင်းကို လုပ်ဆောင်စေပြီး ဤ SIM ကို ရွေးချယ်ရန် သေချာပါသလား။"</string>  
+    <string name="gemini_3g_disable_warning_case4">"ဤ SIM အတွက် ဒေတာလှည်လည်ခြင်းကို ဦးစွာ လုပ်ဆောင်စေရမည်။ ယင်းသည် သိသာသော နိုင်ငံတကာလှည့်လည်မှု အဖိုးအခကို ကျသင့်စေနိုင်သည်။ ထို့အပြင် ဤ SIM တွင် 3G ဝန်ဆောင်မှုကို မရနိုင်ပါ။ ဒေတာကို နှေးကွေးစွာ တင်လိမ့်မည်။ 3G ဝန်ဆောင်မှုဆက်တင်ကို ဆက်တင်များ&gt;SIM စီမံခန့်ခွဲမှု အောက်တွင် သင်ပြောင်းလဲနိုင်သည်။ ဒေတာလှည်လည်ခြင်းကို လုပ်ဆောင်စေပြီး ဤ SIM ကို ရွေးချယ်ရန် သေချာပါသလား။"</string>  
+    <string name="gemini_sim_tether_info_title">အဆက်အသွယ်များ &amp; SIM</string>  
+    <string name="gemini_sim_tether_add_record">အဆက်အသွယ်များကို ထည့်ရန်</string>  
+    <string name="gemini_sim_add_title">အဆက်အသွယ်များ</string>  
+    <string name="gemini_sim_tether_norecord">လက်ရှိ SIM နှင့်တွဲနေသော ဆက်သွယ်ရန်နံပါတ်တစ်ခုခု သင့်မှာမရှိ။ \n\n ဤ SIM တွင်သင်ဖွဲ့လိုသော အဆက်အသွယ်များကို ရွေးချယ်ရန် သင်အဆက်အသွယ်များ ထပ်ထည့်ရန်ခလုတ်ကို ထိပါ။</string>  
+    <string name="gemini_sim_tether_nocontacts">သင့်ဖုန်းထဲတွင်အဆက်အသွယ်များ သိမ်းဆည်းထားခြင်းမရှိပါ။ ကျေးဇူးပြု၍ ဦးစွာအဆက်အသွယ်အသစ်ထည့်ပါ သို့မဟုတ် အခြားနေရာမှ ပြောင်းထည့်ပါ</string>  
+    <string name="gemini_sim_tether_no_assc_contacts">အဆက်အသွယ်များကို အောင်မြင်စွာအားလုံးဖွဲ့ပြီးပြီ</string>  
+    <string name="gemini_sim_tether_disassociate">ခွဲခြားထားရန်</string>  
+    <string name="selected_item_count"> 
+        <xliff:g id="count">%d</xliff:g> ရွေးချယ်ပြီး
+    </string>  
+    <string name="gemini_sim_tether_unselect_all">ရွေးထားခြင်းများအားလုံးဖြုတ်ရန်</string> 
+    <string name="gemini_sim_tether_nocontact_confirm">OK</string>  
+    <string name="gemini_sim_tether_select_all">အားလုံးကို ရွေးချယ်ပါ</string>  
+    <string name="gemini_sim_tether_select_ok">သိမ်းရန်</string>  
+    <string name="gemini_sim_tether_select_cancel">ပယ်ဖျက်</string>  
+    <string name="gemini_sim_tether_revert_title">သတိ</string>  
+    <string name="gemini_sim_tether_revert_message">သင်၏ ဖွဲ့စည်းပုံများသည် ပြောင်းလဲနေပြီး မသိမ်းရသေးပါ။ မသိမ်းဘဲ သင်ထွက်ခွာလိုသည်မှာ သေချာပါသလား။</string>  
+    <string name="gemini_tether_saving_progress_message">သိမ်းနေသည်…</string>  
+    <string name="gemini_sim_lock_sim1_tab_tag">SIM1</string>  
+    <string name="gemini_sim_lock_sim1_tab_label">SIM1</string>  
+    <string name="gemini_sim_lock_sim2_tab_tag">SIM2</string>  
+    <string name="gemini_sim_lock_sim2_tab_label">SIM2</string>  
+    <string name="gemini_sim_lock_simid_error">မအောင်မြင်ပါ။ မမှန်သော ဆင်းအိုင်ဒီ။</string>  
+    <string name="gemini_sim_lock_no_insert_message_sim">SIM ထည့်မထားပါ။</string>  
+    <string name="gemini_sim_lock_radio_off_message_sim1">ရေဒီယို၁သည် ပိတ်နေသည်</string>  
+    <string name="gemini_sim_lock_radio_off_message_sim2">ရေဒီယို၂သည် ပိတ်နေသည်</string>  
+    <string name="akp_installer_settings_title">APK တပ်ဆင်မှု</string>  
+    <string name="akp_installer_settings_summary">သင်၏ APK ကို ဖုန်းသိမ်းဆည်းနေရာနှင့် SD ကတ်မှ တပ်ဆင်ပါ</string>  
+    <string name="launch_main_label">အသုံးချပရိုဂရမ် ဖွင့်ပါ</string>  
+    <string name="launch_main">အဓိကလှုပ်ရှားမှုဖြင့် အသုံးချပရိုဂရမ် ဖွင့်ပါ</string>  
+    <string name="launch_activitie">ဖွင့်ပါ</string>  
+    <string name="move_app_to_where"> 
+        <xliff:g id="location">%s</xliff:g> သို့ရွှေ့ပါ
+    </string>  
+    <string name="wifi_no_cert_for_wapi">လက်ရှိ ချိတ်ဆက်ထားသော AP အတွက် လက်မှတ်ကို ရှာမတွေ့ပါ</string>  
+    <string name="sim_slot">SIM အပေါက်</string>  
+    <string name="eap_sim_slot_0">Sim အပေါက် 1</string>  
+    <string name="eap_sim_slot_1">Sim အပေါက် 2</string>  
+    <string name="eap_sim_aka_airplanemode">EAP-SIM/AKA ကို အသုံးပြုရန် လေယာဉ်တွင်းနည်းစနစ်ကို ကျေးဇူးပြု၍ ပိတ်ပါ</string>  
+    <string name="eap_sim_aka_no_sim_error">EAP-SIM/AKA ကို အသုံးပြုရန် ဆင်းကတ်ကို သင်ထည့်ရမည်။</string>  
+    <string name="eap_sim_aka_no_sim_slot_selected">EAP-SIM/AKA ကို အသုံးပြုရန် ဆင်းစလော့(ဆင်းကတ်ထည့်ရန် အပေါက်)ကို သင်ရွေးချယ်ရမည်</string>  
+    <string name="wifi_security_wapi_certificate">WAPI လက်မှတ်</string>  
+    <string name="wapi_user_certificate">အသုံးပြုသူ လက်မှတ်</string>  
+    <string name="wapi_as_certificate">ASE လက်မှတ်</string>  
+    <string name="wifi_hex_password">ဆဋ္ဌဒဿမ စကားဝှက်။</string>  
+    <string name="wifi_WEP_transmit_key">ထုတ်လွှင့်မှုကီး</string>  
+    <string name="wifi_WEP_secury_key">လုံခြုံရေး ကီး</string>  
+    <string name="wifi_tether_auto_disable_title">ဝိုင်-ဖိုင် ဟော့စပေါ့ ကို ဆက်ဖွင့်ထားပါ</string>   
+    <string name="wifi_tether_auto_channel_text">အလိုအလျောက်</string>  
+    <string name="wifi_tether_auto_channel_width_text">အော်တို ၂၀/၄၀ MHz</string>  
+    <string name="wifi_channel">ပိုမိုနှစ်သက်သော ချန်နယ်</string>  
+    <string name="wifi_channel_width">ချန်နယ်အကျယ်</string>  
+    <string name="confirm_title">အတည်ပြုရန်</string>  
+    <string name="pch_toggle_title">GPRS လွှဲပြောင်းမှုတွင် ပိုမိုနှစ်သက်သော နည်းစနစ်</string>  
+    <string name="pch_data_prefer_summary_off">ပိုမိုနှစ်သက်သော ဒေတာ</string>  
+    <string name="pch_call_prefer_summary_on">ပိုမိုနှစ်သက်သော ဖုန်းခေါ်ဆိုမှု</string>  
+    <string name="pch_warning_message">ဒေတာ လွှင့်ထုတ်နှုန်း ကျဆင်းသွားလိမ့်မည်။</string>  
+    <string name="schedule_power_on_off_settings_title">ပါဝါ ဖွင့်/ပိတ် အစီအစဉ်</string>  
+    <string name="usb_bicr_title">မူလပါပြီး CD-ROM</string>  
+    <string name="usb_bicr_summary">အသုံးဝင်သော ဆော့(ဖ်)ဝဲအချို့ ပါဝင်သည့် CD-ROM ယောင်တစ်ခုကို ပြပါ</string>  
+    <string name="select_memory">မူလသတ်မှတ်ထားသော ရေးရန်ဓာတ်ပြား</string>  
+    <string name="ipo_title">အမြန် ပြန်လည်စတင်ခြင်း</string>  
+    <string name="ipo_summary_on">အမြန် ပြန်လည်စတင်ခြင်းကို ရပ်ဆိုင်းရန်</string>  
+    <string name="ipo_summary_off">အမြန် ပြန်လည်စတင်ခြင်း လုပ်ဆောင်စေရန်</string>  
+    <string name="agps_profile_select_Title">SUPL ပရိုဖိုင်း</string>  
+    <string name="location_settings_label">နေရာ အင်ဂျင်နီယာ နည်းစနစ်</string>  
+    <string name="audio_profile_error">အမှား</string>  
+    <string name="battery_percent">ဘက်ထရီ ရာခိုင်နှုန်း</string>  
+    <string name="rcse_settings_title">RCS-e ဆက်တင်များ</string>
+    <string name="dlg_mount_external_sd_title" product="default">SD ကဒ် ကိုထုတ်မည်လား။</string>  
+    <string name="dlg_mount_external_sd_summary" product="default">အကယ်၍ သင် sd ကဒ် ထုတ်လျှင်၊ သင် အသုံးပြုနေသာ အချို့ လုပ်ငန်းသုံး ပရိုဂရမ်များ ရပ်လိမ့်မည်။</string>
+     
+    <string name="tethered_ipv6_title">ဟော့စပေါ့နှင့်ချည်နှောင်ခြင်း ဆက်တင်များ</string>  
+    <string name="tethered_ipv4v6">(IPv6 ရရှိနိုင်သည်)</string>  
+    <string name="tethered_ipv6">(IPv6 သာလျှင်ရရှိနိုင်သည်)</string>  
+    <string name="tethered_ipv4">(IPv6 မရရှိနိုင်ပါ)</string>    
+	
+	<string name="usb_connect_as_cdrom_category">"အဖြစ်ချိတ်ဆက်ပါ CD-ROM"</string>
+
+    <string name="wifi_ap_client_block_title">ပိတ်ဆို့ပါ</string>  
+    <string name="wifi_ap_client_details_title">အသေးစိတ်</string>  
+    <string name="wifi_wps_fail_error">Wi-Fi ကာကွယ်ထားသော အဆင်အပြင် မအောင်မြင်ပါ၊ ပြန်ကြိုးစားကြည့်ပါ။</string>  
+    <string name="wifi_tether_setting_title">အခြေခံအဆင်အပြင်များ</string>  
+    <string name="wifi_tether_wps_connect_title">WPS ချိတ်ဆက်ခြင်း</string>  
+    <string name="wifi_tether_wps_connect_summary">ဆက်လုပ်ရန် Wi-Fi ကာကွယ်ထားသော အဆင်အပြင်ပုံစံအား ရွေးချယ်ပြီး</string>  
+    <string name="wifi_tether_wps_pin_error">PIN အသုံးမရှိ</string>  
+    <string name="wifi_tethering_title">Wi-Fi အင်တာနက်ဝင်ပေါက်</string>  
+    <string name="wifi_ap_wps_dialog_title">WPS ချိတ်ဆက်ခြင်း</string>  
+    <string name="wifi_ap_wps_mode_title">WPS ပုံစံ</string>  
+    <string name="wifi_ap_wps_pin_title">ဧည့်သည်ထံမှ PIN ကို ရိုက်ပါ</string>  
+    <string name="wifi_ap_reset_OOB_title">SSID ကွန်ယက်၊ လုံခြုံရေးနှင့် စကားဝှက်အား မူလပုံစံ(WPS ၏ ယာယီစီစဉ်ထားရှိချက်)သို့ ပြန်ထားရှိပါ</string>  
+    <string name="wifi_ap_reset_OOB">OOB အား ပြန်ထားရှိပါ</string>  
+    <string name="wifi_ap_max_connection_title">အများဆုံးချိတ်ဆက်မှုများ</string>  
+    <string name="wifi_ap_connected_title">ချိတ်ဆက်ထားသော အသုံးပြုသူများ</string>  
+    <string name="wifi_ap_blocked_title">ပိတ်ဆို့ထားသော အသုံးပြုသူများ</string>  
+    <string name="wifi_ap_client_unblock_title">မပိတ်ပါ</string>  
+    <string name="wifi_ap_client_mac_label">MAC လိပ်စာ:</string>  
+    <string name="wifi_ap_client_ip_label">IP လိပ်စာ:</string>  
+    <string name="usb_sharing_title">USB အင်တာနက်</string>  
+    <string name="usb_sharing_summary">ဝင်းဒိုး PC အင်တာနက်အား USB ကြိုးမှတစ်ဆင့် ဝေမျှခြင်း</string>  
+    <string name="usb_sharing_info_title">ကွန်ပျူတာဖြင့်အင်တာနက်ချိတ်ဆက်မှုအား အသုံးပြုခြင်း</string>  
+    <string name="usb_sharing_info_step_1">"1. သင့်ဝင်းဒိုး PC ရှိ ကွန်ယက်ချိတ်ဆက်မှုများကို ဖွင့်ပါ။"</string>  
+    <string name="usb_sharing_info_step_2">"2. သင်ဝေမျှလိုသော ချိတ်ဆက်မှုတွင် ညာဘက်ကလစ်ကို နှိပ်ပြီး ပါရှိချက်အကြောင်းအရာများကို ကလစ်နှိပ်ပါ။"</string>  
+    <string name="usb_sharing_info_step_3">"3. ဝေမျှမည့် အကြောင်းအရာကို ကလစ်နှိပ်ပြီး \'ဤကွန်ပျူတာအင်တာနက်မှတစ်ဆင့် ချိတ်ဆက်ရန် အခြားကွန်ယက်အသုံးပြုသူများကို ခွင့်ပြုပါ\' (\'အိမ်တွင်းအင်တာနက်ချိတ်ဆက်မှု\' ပေါ်လာပါက USB အင်တာနက်ကို ကိုယ်စားပြုသည့် အသစ်ထည့်ထားသောကွန်ယက်ကို ရွေးချယ်ပါ)။"</string>  
+    <string name="wifi_ap_bandwidth_title">လှိုင်းခွင်အကျယ်အသုံးပြုမှု</string>  
+    <string name="wifi_ap_bandwidth_enable">ဒေတာပေးပို့မှုစသဖြင့်ကန့်သတ်ပြီး ကွန်ယက်လိုင်းကျပ်ခြင်းအား လျှော့ချခြင်းကို ဖွင့်ပါ</string>  
+    <string name="wifi_ap_bandwidth_chart_title">ဒေတာများကို အချိန်နှင့်တစ်ပြေးညီပေးပို့ခြင်းဆိုင်ရာ မြန်နှုန်း</string>  
+    <string name="wifi_ap_bandwidth_chart_summary">သင့်ဖုန်းဖြင့် တိုင်းတာပြီး၊ သင့်ကွန်ယက်အထောက်အပံ့ဒေတာမြန်နှုန်းတွက်ချက်မှုမှာ ကွာခြားနိုင်သည်။</string>  
+    <string name="wifi_ap_title">စာရင်းအင်းဇယား</string>  
+    <string name="wifi_ap_time_duration">ကြာချိန်: 
+        <xliff:g id="time">%1$s</xliff:g> 
+    </string>  
+    <string name="wifi_ap_total_data">အသုံးပြုပြီးဒေတာစုစုပေါင်း:
+        <xliff:g id="time">%1$s</xliff:g>
+    </string>
+    <string name="cpu_dtm_title">CPU ပါဝါချွေတာခြင်းပုံစံ</string>
+	<string name="cpu_dtm_summary">ဘက်ထရီသက်တမ်းနှင့် ပစ္စည်းအပူချိန်အနိမ့်ကို ထိန်းသိမ်းထားရှိရန် CPU လုပ်ဆောင်ချက် အများဆုံးသတ်မှတ်ချက်ကို ကန့်သတ်ပါ.</string>
+    <string name="wifi_advanced_ipv4_address_title">IPv4 လိပ်စာ</string>  
+    <string name="wifi_advanced_ipv6_address_title">IPv6 လိပ်စာ</string>  
+    <string name="wifi_ipv4_address">IPv4 လိပ်စာ</string>  
+    <string name="wifi_ipv6_address">IPv6 လိပ်စာ</string> 
+    
+    <!-- MTK new datausage start -->
+    <string name="mtk_datausage_overview_wifi_today">ယနေ့</string>  
+    <string name="mtk_datausage_show_on_lockscreen">သော့ခတ်သည့် စကရင်ပေါ်တွင် ပြပါ</string>  
+    <string name="mtk_datausage_update">ဒေတာအသုံးပြုမှုကို အဆင့်မြှင့်ပါ</string>  
+    <string name="mtk_datausage_update_set">အဆင့်မြှင့်ပါ</string>  
+    <string name="mtk_datausage_amount_editor_title">အသုံးပြုထားသော ဒေတာပမာဏ</string>  
+    <string name="mtk_datausage_usage_list">ပရိုဂရမ်၏ ဒေတာအသုံးပြုမှု</string>  
+    <string name="mtk_datausage_diff_byte">ဒေတာအသုံးပြုမှုကွာခြားချက်</string>  
+    <string name="mtk_datausage_overview_tab">ခြုံငုံသုံးသပ်ချက်</string>  
+    <string name="mtk_datausage_overview_wifi_total">စုစုပေါင်း</string>  
+    <string name="mtk_datausage_overview_mobile_title">မိုဘိုင်း</string>  
+    <string name="mtk_datausage_overview_mobile_usage">
+        <xliff:g id="limit">%s</xliff:g> ရှိ 
+        <xliff:g id="actual">%s</xliff:g>
+    </string>
+    <string name="mtk_datausage_overview_mobile_usage_warning"><xliff:g>%s</xliff:g>ကန့်သတ်ချက်ထက် ကျော်လွန်</string>
+    <!-- MTK new datausage start -->
+    <string name="display_personalize">ကိုယ်ပိုင်အမှတ်အသားပြုလုပ်ထားပါ</string>  
+    <string name="display_default">အခင်းအကျင်း</string> 
+    <!-- Sound Enhanecement -->
+    <string name="sound_enhancement_title">အသံအဆင့်မြှင့်ချက်</string>
+    <string name="music_plus_summary">နားကြပ်အတွက် အသံအဆင့်မြှင့်ချက်</string>
+    <string name="auto_backlight_title">ချွေတာရေးနောက်ခံမီးရောင်</string>
+    <string name="auto_backlight_summary">ဓာတ်အားချွေတာရန် နောက်ခံမီးရောင်ကို အလိုအလျောက်ထိန်းညှိပါ</string>
+
+    <string name="beam_mgmt_tab_download_title">လက်ခံရရှိသော ခေါ်ဆိုမှုများ</string>
+    <string name="beam_mgmt_tab_upload_title">"3. ဝေမျှမည့် အကြောင်းအရာကို ကလစ်နှိပ်ပြီး 'ဤကွန်ပျူတာအင်တာနက်မှတစ်ဆင့် ချိတ်ဆက်ရန် အခြားကွန်ယက်အသုံးပြုသူများကို ခွင့်ပြုပါ' ('အိမ်တွင်းအင်တာနက်ချိတ်ဆက်မှု' ပေါ်လာပါက USB အင်တာနက်ကို ကိုယ်စားပြုသည့် အသစ်ထည့်ထားသောကွန်ယက်ကို ရွေးချယ်ပါ)။"</string>
+    <string name="beam_share_mgmt_notification_ticker">ပေးပို့မှုဝေမျှချက်မှတ်တမ်း</string>
+    <string name="beam_share_mgmt_notification_title">ပေးပို့မှုဝေမျှချက်မှတ်တမ်း</string>
+    <string name="beam_share_mgmt_notification_message">"ပေးပို့မှုဝေမျှချက်မှတ်တမ်းကြည့်ရှုရန် ရွေးချယ်ပါ။"</string>
+    <string name="beam_share_mgmt_tab_menu_clear">ဝက်ဘ်ဆိုဒ်အဆင်အပြင်များအားလုံးကို ရှင်းလင်းမလား?</string>
+    <string name="beam_share_open_file_dialog_title">ဖိုင်အားမဖွင့်နိုင်ပါ</string>
+    <string name="beam_share_open_file_unsupported_message">ဖိုင်ပုံစံမှာ အထောက်အပံ့ မပေးထားပါ။</string>
+    <string name="beam_share_open_file_not_found_message">"ဖိုင်ရှာမတွေ့ပါ: <xliff:g id="file_name">%1$s</xliff:g></string>
+    <string name="beam_share_transfer_fail_dialog_title">"ပေးပို့ချက်မအောင်မြင်ပါ"</string>
+    <string name="beam_share_resend_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> အား အောင်မြင်စွာ မပေးပို့နိုင်ပါ။"</string>
+    <string name="beam_share_resend_dialog_ok_button">ပြန်ကြိုးစားကြည့်ပါ</string>
+    <string name="beam_share_show_received_files_menu">လက်ခံရရှိခဲ့သော ဖိုင်များကို ပြပါ</string>
+    <string name="beam_share_history_title">ပေးပို့မှုဝေမျှချက်မှတ်တမ်း</string>
+    <string name="beam_share_clear_confirm_dialog_title">အားလုံးကို ရှင်းလင်းပါ</string>
+    <string name="beam_share_clear_confirm_dialog_message">မှတ်တမ်းအားလုံးကို ရှင်းမလား?</string>
+    <string name="beam_share_receive_fail_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> အား အောင်မြင်စွာ မရရှိပါ။"</string>
+    <string name="beam_share_clear_item_dailog_title">ဖျက်ပါ</string>
+    <string name="beam_share_clear_item_dailog_message">အကြောင်းအရာအား ဖျက်မည်။</string>
+    <string name="nfc_rw_tag_summary">အမှတ်အသားမှဖတ်ပါ သို့မဟုတ် အမှတ်အသားမှရေးသားပါ</string>
+    <string name="nfc_p2p_mode">P2P ပုံစံ</string>
+    <string name="nfc_p2p_mode_summary">ပရိုဂရမ်အကြောင်းအရာ ပေးပို့ပါ သို့မဟုတ် လက်ခံပါ</string>
+    <string name="nfc_tag_mode_category">အမှတ်အသားပြုခြင်းပုံစံ</string>
+    <string name="nfc_rw_tag_title">ဖတ်ခြင်းနှင့် ရေးသားခြင်းအား အမှတ်အသားပြုပါ</string> 
+    <string name="lock_screen_notifications_title">သော့ခတ်သည့်စကရင် အချက်ပေးချက်များ</string>
+    <string name="lock_screen_notifications_summary">သော့ခတ်သည့်စကရင်တွင် အချက်ပေးချက်များကို ပြသပါ</string>
+    <string name="lock_screen_style_title">စကရင်သော့ခတ်သည့်ပုံစံ</string>
+
+
+      <string name="voice_ui_title">အသံထိန်းညှိချက်</string>
+      <string name="voice_ui_app_category">ဆော့ဖ်ဝဲချိန်ညှိချက်များအတွက်</string>
+      <string name="voice_ui_setting_category">"အဆင်အပြင်များ"</string>
+      <string name="alarm_app_name">နှိုးစက်များ</string>
+      <string name="music_app_name">ဂီတ</string>
+      <string name="voice_ui_language_title">"အသံထိန်းချုပ်မှုအတွက် ဘာသာစကား"</string>
+      <string name="incoming_call_app_name">"အဝင်ဖုန်းခေါ်ဆိုမှု"</string>
+      <string name="camera_app_name">"ကင်မရာ"</string>
+      <string name="incomming_command_summary_format">အဝင်ခေါ်ဆိုမှုကို ဖြေဆိုရန် သို့မဟုတ် ပယ်ချရန် <xliff:g id="first">%1$s</xliff:g> သို့မဟုတ် <xliff:g id="second">%2$s</xliff:g> ဟူ၍ ပြောနိုင်သည်။</string>
+      <string name="alarm_command_summary_format">နှိုးစက်ကို ထိန်းချုပ်ရန် <xliff:g id="first">%1$s</xliff:g> သို့မဟုတ် <xliff:g id="second">%2$s</xliff:g> ဟု သင် ပြောနိုင်သည်။</string>
+      <string name="camera_command_summary_format">ရိုက်ကူးရန် <xliff:g id="first">%1$s</xliff:g> သို့မဟုတ် <xliff:g id="second">%2$s</xliff:g> ဟူ၍ ပြောနိုင်သည်။</string>
+      <string name="music_command_summary_format">ဂီတဖွင့်ထားခြင်းကို ထိန်းချုပ်ရန် <xliff:g id="first">%1$s</xliff:g> နှင့် <xliff:g id="second">%2$s</xliff:g> ဟူ၍ ပြောနိုင်သည်။</string>
+
+	<!-- Lock screen settings start -->
+	<string name="current_suffix">"(လက်ရှိ)"</string>
+	<string name="lockscreen_style_set">"သော့ခတ်သည့်စကရင်အဆင်အပြင်ထားပါ"</string>
+	<string name="lockscreen_style_default_desc">"သော့ခတ်သည့်စကရင်ရှိ ပရိုဂရမ်များသို့ အမြန်ဝင်ရောက်ချက်"</string>
+	<!-- Lock screen settings end -->
+    <!--  voice unlock start-->
+    <string name="voice_unlock_backup_info_summary">အသံဖြင့်သော့ဖွင့်ခြင်းက သင့်အား မမှတ်မိပါက သင်မည်ကဲ့သို့ သော့ဖွင့်လိုပါသနည်း?</string>
+    <string name="unlock_set_unlock_mode_voice_weak">အသံဖြင့်သော့ဖွင့်ပါ</string>
+    <!--  voice unlock end-->
+    <string name="usb_tether_type_title">USB ကွန်ယက်ချိတ်ဆက်သည့် အမျိုးအစား</string> 
+    <string name="security_not_set">လုံခြုံရေးကို ချိန်ညှိမထားပါ</string>
+    <string name="lockdown_vpn_already_connected">ချိတ်ဆက်မှုအတွက် VPN အမြဲဖွင့်ထား ကို ဖွင့်ထားပြီး။</string> 
+
+    <string name="wifi_ap_no_connected">0 ချိတ်ဆက်ထားသော အသုံးပြုသူများ</string>  
+    <string name="wifi_ap_no_blocked">0 ပိတ်ဆို့ထားသော အသုံးပြုသူများ</string>  
+
+    <string name="status_imei_slot3">IMEI(ကဒ်အထိုင်၃)</string>
+    <string name="status_imei_sv_slot3">IMEI SV(ကဒ်အထိုင်၃)</string>
+    <string name="status_min_number_slot3">MIN(ကဒ်အထိုင်၃)</string>
+    <string name="status_prl_version_slot3">PRL မူ(ကဒ်အထိုင်၃)</string>
+    <string name="status_meid_number_slot3">MEID(ကဒ်အထိုင်၃)</string>
+
+    <string name="usb_tethering_select_version">PC စနစ်ဗားရှင်းကို ရွေးချယ်ပါ</string>
+</resources>

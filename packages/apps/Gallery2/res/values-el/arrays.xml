@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <!-- add for ICS porting -->  
+    <string-array name="proxy_error"> 
+        <item>Το πεδίο κεντρικού υπολογιστή δεν πρέπει να είναι κενό</item>  
+        <item>Το πεδίο θύρας δεν πρέπει να είναι κενό</item>  
+        <item>Μη έγκυρος κεντρικός υπολογιστής</item>  
+        <item>Μη έγκυρη θύρα</item> 
+    </string-array> 
+</resources>

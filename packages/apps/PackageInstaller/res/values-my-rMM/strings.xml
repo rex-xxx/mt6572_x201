@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">ပက်ကေ့သွင်းစက်</string>  
+    <string name="install">သွင်းပါ</string>  
+    <string name="done">ပြီးပြီ</string>  
+    <string name="security_settings_desc">ဤပရိုဂရမ်အား ခွင့်ပြုမည် :</string>  
+    <string name="cancel">မလုပ်ပါ</string>  
+    <string name="unknown">မသိပါ</string>  
+    <string name="installing">သွင်းနေဆဲ\u2026</string>  
+    <string name="install_done">ပရိုဂရမ်သွင်းပြီး</string>  
+    <string name="install_confirm_question">ဤပရိုဂရမ်သွင်းမလား? ယင်းက အောက်ပါအကြောင်းအရာများထံသို့ ဝင်ရောက်ခွင့်ရယူလိမ့်မည်:</string>  
+    <string name="install_confirm_question_no_perms">ဤပရိုဂရမ်အား သွင်းမလား? ယင်းက မည်သည့်အထူးဝင်ရောက်ခွင့်မှ မလိုအပ်ပေ။</string>  
+    <string name="install_confirm_question_update">ဤလက်ရှိပရိုဂရမ်သို့ အဆင့်မြှင့်တင်ချက် သွင်းမလား? သင့်လက်ရှိအချက်အလက်အား ဆုံးရှုံးလိမ့်မည်မဟုတ်ပါ။ ဤအဆင့်မြှင့်တင်ပြီး ပရိုဂရမ်က အောက်ပါအကြောင်းအရာများထံသို့ ဝင်ရောက်ခွင့်ရယူလိမ့်မည်:</string>  
+    <string name="install_confirm_question_update_system">ဤတွဲလျက်ပါရှိသည့် ပရိုဂရမ်သို့ အဆင့်မြှင့်တင်ချက်အား သွင်းမလား? သင့်လက်ရှိအချက်အလက်အား ဆုံးရှုံးလိမ့်မည်မဟုတ်ပါ။ ဤအဆင့်မြှင့်တင်ပြီး ပရိုဂရမ်က အောက်ပါအကြောင်းအရာများထံသို့ ဝင်ရောက်ခွင့်ရယူလိမ့်မည်:</string>  
+    <string name="install_failed">ပရိုဂရမ်မသွင်းရသေးပါ</string>  
+    <string name="install_failed_invalid_apk">ပက်ကေ့ပျက်စီးသွားပြီဟု ထင်ရသည်</string>  
+    <string name="install_failed_inconsistent_certificates">လက်မှတ်ဆိုင်ရာ ပြဿနာရှိသည့် အမည်တူတည်ရှိနေသော ပက်ကေ့မှာ သွင်းပြီးပြီဖြစ်သည်။</string>  
+    <string name="install_failed_older_sdk">ပက်ကေ့မှာ Android ၏ ဗားရှင်းအသစ်များတွင်သာ အလုပ်လုပ်သည်။</string>  
+    <string name="install_failed_cpu_abi_incompatible" product="tablet">ဤပရိုဂရမ်မှာ သင့်တက်ဘလက်နှင့် အဆင်မပြေပါ။</string>  
+    <string name="install_failed_cpu_abi_incompatible" product="default">ဤပရိုဂရမ်မှာ သင့်ဖုန်းနှင့် အဆင်မပြေပါ။</string>  
+    <string name="install_failed_file_not_found">သွင်းခြင်းမပြီးဆုံးမီ အထူးပြုထားသည့် ပက်ကေ့အား ဖျက်ပြီးဖြစ်သည်။</string>  
+    <string name="install_failed_verify_failed">ပက်ကေ့အား မှန်ကန်ကြောင်းအတည်ပြုခြင်း မအောင်မြင်ပါသဖြင့် သွင်း၍မရပါ။</string>  
+    <string name="install_failed_verify_timeout">ဤပက်ကေ့အား မှန်ကန်ကြောင်းအတည်ပြုရာတွင် တုန့်ပြန်ချက်မရှိသဖြင့် ဖြတ်တောက်ခြင်း ဖြစ်ပေါ်သွားသည်။ နောက်တစ်ကြိမ်ပြန်သွင်းရန် ကြိုးစားပါ။</string>  
+    <string name="install_failed_msg" product="tablet"> 
+        <xliff:g id="app_name">%1$s</xliff:g> အား သင့်တက်ဘလက်တွင် သွင်း၍မရပါ။
+    </string>  
+    <string name="install_failed_msg" product="default"> 
+        <xliff:g id="app_name">%1$s</xliff:g> အား သင့်ဖုန်းတွင် သွင်း၍မရပါ။
+    </string>  
+    <string name="launch">ဖွင့်ပါ</string>  
+    <string name="unknown_apps_dlg_title">သွင်းခြင်းကို ပိတ်ထားသည်</string>  
+    <string name="unknown_apps_dlg_text" product="tablet">လုံခြုံရေးအတွက် သင့်တက်ဘလက်အား အမည်မသိရင်းမြစ်များမှ ရရှိသော ပရိုဂရမ်များသွင်းခြင်းအား ပိတ်ထားမည်ဖြစ်သည်။</string>  
+    <string name="unknown_apps_dlg_text" product="default">လုံခြုံရေးအတွက် သင့်ဖုန်းအား အမည်မသိရင်းမြစ်များမှ ရရှိသော ပရိုဂရမ်များသွင်းခြင်းအား ပိတ်ထားမည်ဖြစ်သည်။</string>  
+    <string name="ok">လုပ်မည်</string>  
+    <string name="settings">အဆင်အပြင်များ</string>  
+    <string name="allow_source_dlg_title">ပရိုဂရမ်များအတွက် ရင်းမြစ်အသစ်များ</string>  
+    <string name="allow_source_dlg_text"> 
+        <xliff:g id="app_name">%1$s</xliff:g> က အခြားပရိုဂရမ်အား သွင်းလိုသည်။ \n\n၎င်းအား ယခုနှင့် နောင်တွင် ခွင့်ပြုမလား?
+    </string>  
+    <string name="manage_applications">ပရိုဂရမ်များကို စီစဉ်ပါ</string>  
+    <string name="dlg_app_replacement_title">ပရိုဂရမ်ကို အစားထိုးမလား?</string>  
+    <string name="dlg_app_replacement_statement">သင်သွင်းနေသော ပရိုဂရမ်အား အခြားပရိုဂရမ်က အစားထိုးမည်ဖြစ်သည်။ \n\nယခင် သင်၏အသုံးပြုသူဆိုင်ရာ အချက်အလက်များအားလုံးကို သိမ်းထားမည်ဖြစ်သည်။</string>  
+    <string name="dlg_sys_app_replacement_statement">ယင်းမှာစနစ်ပရိုဂရမ်ဖြစ်သည်။ \n\nယခင် သင်၏အသုံးပြုသူဆိုင်ရာ အချက်အလက်များအားလုံးကို သိမ်းထားမည်ဖြစ်သည်။</string>  
+    <string name="out_of_space_dlg_title">နေရာမလုံလောက်ပါ</string>  
+    <string name="out_of_space_dlg_text"> 
+        <xliff:g id="app_name">%1$s</xliff:g> အား မသွင်းနိုင်ပါ။ နေရာအချို့လွတ်အောင်လုပ်ပြီး ပြန်ကြိုးစားကြည့်ပါ။
+    </string>  
+    <string name="dlg_ok">လုပ်မည်</string>  
+    <string name="app_not_found_dlg_title">ပရိုဂရမ်ရှာမတွေ့ပါ</string>  
+    <string name="app_not_found_dlg_text">သွင်းထားသော ပရိုဂရမ်များစာရင်းတွင် ပရိုဂရမ်ကို ရှာမတွေ့ပါ။</string>  
+    <string name="uninstall_application_title">ပရိုဂရမ်သွင်းထားခြင်းကို ဖြုတ်ပါ</string>  
+    <string name="uninstall_update_title">အဆင့်မြှင့်ချက်သွင်းထားခြင်းကို ဖြုတ်ပါ</string>  
+    <string name="uninstall_activity_text"> 
+        <xliff:g id="activity_name">%1$s</xliff:g> မှာ အောက်ပါပရိုဂရမ်၏ တစ်ပိုင်းတစ်ဒေသဖြစ်သည်:
+    </string>  
+    <string name="uninstall_application_text">ဤပရိုဂရမ်သွင်းထားခြင်းကို ဖြုတ်လိုပါသလား?</string>  
+    <string name="uninstall_update_text">ဤပရိုဂရမ်အား ဝယ်ယူစဉ်ပုံစံဗားရှင်းနှင့် အစားထိုးလိုပါသလား?</string>  
+    <string name="uninstalling">သွင်းထားခြင်းကို ဖြုတ်နေဆဲ\u2026</string>  
+    <string name="uninstall_done">သွင်းထားခြင်းကို ဖြုတ်ခြင်းပြီးဆုံး</string>  
+    <string name="uninstall_failed">သွင်းထားခြင်းကို ဖြုတ်ရာမအောင်မြင်ပါ</string>  
+    <string name="uninstall_failed_device_policy_manager">ဤပက်ကေ့မှာ လုပ်ဆောင်ဆဲ ပစ္စည်းစီစဉ်ကြီးကြပ်ချက်ဖြစ်၍ သွင်းထားခြင်းကို ဖြုတ်၍မရပါ</string>  
+    <string name="manage_device_administrators">ပစ္စည်း၏ စီစဉ်ကြီးကြပ်ချက်များကို စီစဉ်ပါ</string>  
+    <string name="uninstall_failed_msg"> 
+        <xliff:g id="app_name">%1$s</xliff:g> အား သွင်းထားခြင်းကို ဖြုတ်၍မရပါ
+    </string>  
+    <string name="Parse_error_dlg_title">ပိုင်းခြားစိစစ်ခြင်းအမှားပြနေသည်</string>  
+    <string name="Parse_error_dlg_text">ပက်ကေ့အား ပိုင်းခြားစိစစ်ခြင်းတွင် ပြဿနာရှိနေသည်</string>  
+    <string name="newPerms">အသစ်</string>  
+    <string name="privacyPerms">ကိုယ်ရေးကိုယ်တာကိစ္စ</string>  
+    <string name="devicePerms">ပစ္စည်းဝင်ရောက်ခွင့်</string>  
+    <string name="no_new_perms">ဤအဆင့်မြှင့်ခြင်းတွင် ခွင့်ပြုချက်အသစ်များ မလိုအပ်ပါ</string> 
+</resources>

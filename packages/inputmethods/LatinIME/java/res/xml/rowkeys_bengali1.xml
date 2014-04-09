@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:latin="http://schemas.android.com/apk/res/com.android.inputmethod.latin">
+
+    <switch>
+        <case
+            latin:keyboardLayoutSetElement="alphabetManualShifted|alphabetShiftLocked|alphabetShiftLockShifted" >
+            <!-- U+09CC: "" -->
+            <Key latin:keyLabel="&#x09CC;" latin:keyHintLabel="1" latin:additionalMoreKeys="1,&#x09E7;" />
+            <!-- U+09C8: "" -->
+            <Key latin:keyLabel="&#x09C8;" latin:keyHintLabel="2" latin:additionalMoreKeys="2,&#x09E8;" />
+            <!-- U+09BE: "" -->
+            <Key latin:keyLabel="&#x09BE;" latin:keyHintLabel="3" latin:additionalMoreKeys="3,&#x09E9;" />
+            <!-- U+09C0: "" -->
+            <Key latin:keyLabel="&#x09C0;" latin:keyHintLabel="4" latin:additionalMoreKeys="4,&#x09EA;" />
+            <!-- U+09C2: "" -->
+            <Key latin:keyLabel="&#x09C2;" latin:keyHintLabel="5" latin:additionalMoreKeys="5,&#x09EB;" />
+            <!-- U+09AC: "" -->
+            <Key latin:keyLabel="&#x09AC;" latin:keyHintLabel="6" latin:additionalMoreKeys="6,&#x09EC;" />
+            <!-- U+09B9: "" -->
+            <Key latin:keyLabel="&#x09B9;" latin:keyHintLabel="7" latin:additionalMoreKeys="7,&#x09ED;" />
+            <!-- U+0997: "" -->
+            <Key latin:keyLabel="&#x0997;" latin:keyHintLabel="8" latin:additionalMoreKeys="8,&#x09EE;" />
+            <!-- U+09A6: "" -->
+            <Key latin:keyLabel="&#x09A6;" latin:keyHintLabel="9" latin:additionalMoreKeys="9,&#x09EF;" />
+            <!-- U+099E: "" -->
+            <Key latin:keyLabel="&#x099E;" latin:keyHintLabel="0" latin:additionalMoreKeys="0,&#x09E6;" />
+        </case>
+        <default>
+            <!-- U+0994: "" -->
+            <Key latin:keyLabel="&#x0994;" latin:keyHintLabel="1" latin:additionalMoreKeys="1,&#x09E7;" />
+            <!-- U+0990: "" -->
+            <Key latin:keyLabel="&#x0990;" latin:keyHintLabel="2" latin:additionalMoreKeys="2,&#x09E8;" />
+            <!-- U+0986: "" -->
+            <Key latin:keyLabel="&#x0986;" latin:keyHintLabel="3" latin:additionalMoreKeys="3,&#x09E9;" />
+            <!-- U+0641: "" -->
+            <Key latin:keyLabel="&#x0988;" latin:keyHintLabel="4" latin:additionalMoreKeys="4,&#x09EA;" />
+            <!-- U+098A: "" -->
+            <Key latin:keyLabel="&#x098A;" latin:keyHintLabel="5" latin:additionalMoreKeys="5,&#x09EB;" />
+            <!-- U+09AD: "" -->
+            <Key latin:keyLabel="&#x09AD;" latin:keyHintLabel="6" latin:additionalMoreKeys="6,&#x09EC;" />
+            <!-- U+0999: "" -->
+            <Key latin:keyLabel="&#x0999;" latin:keyHintLabel="7" latin:additionalMoreKeys="7,&#x09ED;,&#x09A1;" />
+            <!-- U+0998: "" -->
+            <Key latin:keyLabel="&#x0998;" latin:keyHintLabel="8" latin:additionalMoreKeys="8,&#x09EE;" />
+            <!-- U+09A7: "" -->
+            <Key latin:keyLabel="&#x09A7;" latin:keyHintLabel="9" latin:additionalMoreKeys="9,&#x09EF;" />
+            <!-- U+09B7: "" -->
+            <Key latin:keyLabel="&#x09B7;" latin:keyHintLabel="0" latin:additionalMoreKeys="0,&#x09E6;" />
+        </default>
+    </switch>
+
+</merge>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+     <string-array name="wifi_security"> 
+        <item>@string/wifi_security_none</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+        <item>WAPI PSK</item>
+        <item>WAPI認證</item>  
+    </string-array>  
+    <string-array name="wpa_security"> 
+        <item>@string/wifi_security_none</item> 
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>  
+    <string-array name="wpa_security_wfa"> 
+        <item>@string/wifi_security_none</item>
+        <item>WEP</item>
+        <item>WPA PSK</item>
+        <item>WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>  
+    <string-array name="wapi_security"> 
+        <item>@string/wifi_security_none</item>
+        <item>WAPI PSK</item>
+        <item>WAPI認證</item>  
+    </string-array>  
+    <string-array name="gemini_sim_info_number_display_format_entries"> 
+        <item>前 4 個數字</item>  
+        <item>後 4 個數字</item>  
+        <item>不顯示</item> 
+    </string-array>  
+    <string-array name="gemini_sim_roaming_reminder_entries"> 
+        <item>一次</item>  
+        <item>永遠要</item>  
+        <item>永不</item> 
+    </string-array>  
+    <string-array name="gsm_umts_network_preferences_choices"> 
+        <item>GSM/WCDMA (自動模式)</item>  
+        <item>僅限 WCDMA</item>  
+        <item>僅限 GSM</item> 
+    </string-array>  
+    <string-array name="network_use_entry"> 
+        <item>僅使用主網路</item>  
+        <item>首頁 + 漫遊</item> 
+    </string-array>  
+    <string-array name="auto_time_entries"> 
+        <item>使用網路提供的時間</item>  
+        <item>使用 GPS 提供的時間</item>  
+        <item>關閉</item> 
+    </string-array>  
+    <string-array name="hdmi_video_resolution_entries"> 
+        <item>自動</item>  
+        <item>720P</item>
+        <item>480P</item>
+    </string-array>  
+    <string-array name="wifi_WEP_security_type"> 
+        <item>自動</item>  
+        <item>WEP ASCII</item>
+        <item>"WEP 十六進位"</item>  
+    </string-array>  
+    <string-array name="wifi_hotspot_disable_policy_entries"> 
+        <item>永遠要</item>  
+        <item>閒置 5 分鐘時關閉</item>  
+        <item>閒置 10 分鐘時關閉</item> 
+    </string-array> 
+	<!-- Wi-Fi settings.  Use a sim slot to do EAP-SIM authentication. -->
+	<string-array name="sim_slot">
+		<!-- Do not translate. -->
+		<item>(未指定)</item>
+		<!-- Do not translate. -->
+		<item>SIM 卡槽 1</item>
+		<!-- Do not translate. -->
+		<item>SIM 卡槽 2</item>
+	</string-array>
+
+    <string-array name="wifi_ap_wps_mode_entries"> 
+        <item>按下按鈕</item>  
+        <item>對等裝置 PIN 碼</item> 
+    </string-array>  
+    <string-array name="wifi_ap_max_connection_entries"> 
+        <item>1 位使用者</item>  
+        <item>2 位使用者</item> 
+        <item>3 位使用者</item> 
+        <item>4 位使用者</item> 
+        <item>5 位使用者</item> 
+        <item>6 位使用者</item> 
+        <item>7 位使用者</item> 
+        <item>8 位使用者</item> 
+    </string-array> 
+</resources>

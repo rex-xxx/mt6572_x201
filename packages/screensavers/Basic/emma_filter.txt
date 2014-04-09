@@ -1,0 +1,2 @@
++com.android.dreams.basic.*
+-com.android.dreams.basic.R*

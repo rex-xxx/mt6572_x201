@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="home">হোম</string>  
+    <string name="close">বন্ধ করুন</string>  
+    <string name="option">অপশন</string>  
+    <string name="minimize">ছোট করুন</string>  
+    <string name="quit">প্রস্থান</string>  
+    <string name="pref_download_title">ডাউনলোড সেটিং</string>  
+    <string name="pref_extras_set_download_directory_title">ডাউনলোড নির্দেশিকা সেট করুন</string>  
+    <string name="sitenavigation_add">ওয়েবসাইট যোগ করুন</string>  
+    <string name="tab_site_navigation">সাইট নেভিগেশন</string>  
+    <string-array name="pref_homepage_choices_site_navigation"> 
+        <item>বর্তমান পৃষ্ঠা</item>  
+        <item>খালি পৃষ্ঠা</item>  
+        <item>ডিফল্ট পৃষ্ঠা</item>  
+        <item>সবচেয়ে বেশি দেখা সাইট</item>  
+        <item>সাইট নেভিগেশন</item>  
+        <item>অন্যান্য</item> 
+    </string-array>  
+    <string-array name="predefined_websites_default_optr"> 
+        <item>Hao123</item>  
+        <item>http://www.hao123.com/</item>  
+        <item>site_navigation_default_default1</item>  
+        <item>Google</item>  
+        <item>http://www.google.cn/</item>  
+        <item>site_navigation_default_default2</item>  
+        <item>Baidu</item>  
+        <item>http://www.baidu.com/</item>  
+        <item>site_navigation_default_default3</item>  
+        <item>Sina</item>  
+        <item>http://www.sina.com.cn/</item>  
+        <item>site_navigation_default_default4</item>  
+        <item>Sohu</item>  
+        <item>http://www.sohu.com/</item>  
+        <item>site_navigation_default_default5</item>  
+        <item>Yahoo</item>  
+        <item>http://www.yahoo.com/</item>  
+        <item>site_navigation_default_default6</item> 
+    </string-array>  
+    <string-array name="predefined_websites_op01"> 
+        <item>about:blank</item>  
+        <item>about:blank1</item>  
+        <item>sitenavigation_thumbnail_default</item>  
+        <item>about:blank</item>  
+        <item>about:blank2</item>  
+        <item>sitenavigation_thumbnail_default</item>  
+        <item>about:blank</item>  
+        <item>about:blank3</item>  
+        <item>sitenavigation_thumbnail_default</item>  
+        <item>about:blank</item>  
+        <item>about:blank4</item>  
+        <item>sitenavigation_thumbnail_default</item>  
+        <item>about:blank</item>  
+        <item>about:blank5</item>  
+        <item>sitenavigation_thumbnail_default</item>  
+        <item>about:blank</item>  
+        <item>about:blank6</item>  
+        <item>sitenavigation_thumbnail_default</item>  
+        <item>about:blank</item>  
+        <item>about:blank7</item>  
+        <item>sitenavigation_thumbnail_default</item>  
+        <item>about:blank</item>  
+        <item>about:blank8</item>  
+        <item>sitenavigation_thumbnail_default</item>  
+        <item>about:blank</item>  
+        <item>about:blank9</item>  
+        <item>sitenavigation_thumbnail_default</item> 
+    </string-array>  
+    <string name="permlab_readHomepage">ব্রাউজারে হোমপেইজ পড়ুন</string>  
+    <string name="permdesc_readHomepage">আপনার হস্তক্ষেপ ছাড়াই ব্রাউজারে হোম পেজের তথ্য পড়ার জন্য অ্যাপ্লিকেশনকে অনুমতি দিন।</string>  
+    <string name="permlab_writeHomepage">ব্রাউজারে হোমপেইজ পরিমার্জন করুন</string>  
+    <string name="permdesc_writeHomepage">আপনার হস্তক্ষেপ ছাড়াই ব্রাউজারে হোম পেজের তথ্য পরিমার্জনের জন্য অ্যাপ্লিকেশনকে অনুমতি দিন।</string>  
+    <string name="duplicated_bookmark">ডুপ্লিকেট বুকমার্ক</string>  
+    <string name="duplicated_bookmark_warning">বুকমার্কটির নাম বা লোকেশন ইতিমধ্যে বিদ্যমান নাম বা লোকেশনের মতই, ওভাররাইট করবেন?</string>  
+    <string name="pref_content_search_engine_consistency">সার্চ ইঞ্জিন সামঞ্জস্যতা</string>  
+    <string name="pref_search_engine_unify">সার্চ ইঞ্জিন একত্রিত করুন</string>  
+    <string name="pref_search_engine_unify_summary">কুইকসার্চবক্সে সার্চ ইঞ্জিনের পরিবর্তন প্রয়োগ করুন।</string>  
+    <string name="download_or_open_content">কোন অপারেশন আপনি নির্বাচন করবেন?</string>  
+    <string name="save_content">সংরক্ষণ করুন</string>  
+    <string name="open_content">খুলুন</string>  
+    <string name="no_voice_search_alert_dialog_title">কণ্ঠ অনুসন্ধান</string>  
+    <string name="no_voice_search_alert_dialog_msg">ভয়েস অনুসন্ধান নেই কারণ কোনো ভয়েস সার্চ অ্যাপ্লিকেশন নেই। প্রথমে এটি ইনস্টল করুন।</string>  
+    <string name="make_primary">এ বিষয়ে আর আমাকে স্মরণ করিয়ে দেবেন না</string>  
+    <string name="dialog_title">ডাটা সংযোগ পরিবর্তন করুন</string>  
+    <string name="wifi_failover_gprs_content">ওয়াই-ফাই নেই, মোবাইল নেটওয়ার্ক সংযুক্ত করতে চেষ্টা করবেন?</string>  
+    <string name="delete">মুছুন</string>  
+    <string name="edit">সম্পাদনা করুন</string>  
+    <string name="add">যোগ করুন</string>  
+    <string name="delete_site_navigation_msg">এই আইটেম মুছে ফেলবেন?</string>  
+    <string name="site_navigation_name">নাম</string>  
+    <string name="site_navigation_address">ঠিকানা</string>  
+    <string name="website_needs_title">"ওয়েবসাইটের অবশ্যই একটি নাম থাকতে হবে।"</string>  
+    <string name="website_needs_url">"ওয়েবসাইটের অবশ্যই একটি অবস্থান থাকতে হবে।"</string>  
+    <string name="site_navigation_cannot_save_url">এই ইউআরএল কোনো ওয়েবসাইট হতে পারে না।</string>  
+    <string name="add_site_navigation">ওয়েবসাইট যোগ করুন</string>  
+    <string name="edit_site_navigation">সাইট নেভিগেশন সম্পাদনা করুন</string>  
+    <string name="site_navigation_edit_button">সম্পাদনা করুন</string>  
+    <string name="save_webpage">সংরক্ষণ করুন</string>  
+    <string name="duplicate_site_navigation_url">এই ইউআরএল ইতিমধ্যে আছে।</string>  
+    <string name="duplicated_folder_warning">ফোল্ডারটির নাম ইতিমধ্যে বিদ্যমান।</string>  
+    <string name="bookmarks_history">বকমরক/ইতহস</string>  
+    <string name="delete_folder_warning">\" 
+        <xliff:g id="bookmark">%s</xliff:g>\" ফোল্ডারটি মুছে ফেলবেন?
+    </string>  
+    <string name="saving_snapshot">সংরক্ষণ করা হচ্ছে\u2026</string>  
+    <string name="contextmenu_savelinkbookmark">বুকমার্ক হিসেব লিংক সংরক্ষণ করুন</string>  
+    <string name="pref_allow_apptabs">প্রতি অ্যাপের জন্য মাল্টিপল ট্যাবের অনুমতি দিন</string>  
+    <string name="pref_content_landscape_only">ল্যান্ডস্কেপ-শুধুমাত্র ডিসপ্লে</string>  
+    <string name="pref_content_landscape_only_summary">কেবল প্রশস্ত ল্যান্ডস্কেপ স্ক্রিনের মাধ্যমে পৃষ্ঠা প্রদর্শন করুন</string>  
+    <string-array name="pref_op02_text_encoding_choices"> 
+        <item>স্বয়ংক্রিয় ডিটেকটর</item>  
+        <item>ল্যাটিন-১(ISO-8859-1)</item>  
+        <item>ইউনিকোড (UTF-8)</item>  
+        <item>ইউনিকোড (UTF-16)</item>  
+        <item>চাইনিজ (GB2312)</item>  
+        <item>চাইনিজ (GBK)</item>  
+        <item>চাইনিজ (Big5)</item>  
+        <item>জাপানিজ (ISO-2022-JP)</item>  
+        <item>জাপানিজ (SHIFT_JIS)</item>  
+        <item>জাপানিজ (EUC-JP)</item>  
+        <item>কোরিয়ান (EUC-KR)</item> 
+    </string-array>  
+    <string name="pref_default_text_encoding_default">স্বয়ংক্রিয়-সনাক্তকারী</string>  
+    <string name="pref_link_prefetch_title">ওয়েব পেইজ পূর্বেই লোড করা হয়েছে</string>  
+    <string-array name="pref_link_prefetch_choices"> 
+        <item>কখনো না</item>  
+        <item>শুধুমাত্র ওয়াই-ফাই</item>  
+        <item>সবসময়</item> 
+    </string-array>  
+    <string name="pref_link_prefetch_summary">ব্যাকগ্রাউন্ডে লিঙ্ককৃত ওয়েব পৃষ্ঠা প্রিলোড করতে ব্রাউজারকে অনুমতি দিন।</string>  
+    <string name="pref_link_prefetch_dialogtitle">ওয়েড পৃষ্ঠা প্রি-লোড হচ্ছে</string>  
+    <string name="download_path_unavailable_dlg_title">ডাউনলোড নির্দেশিকা পাওয়া যাচ্ছে না</string>  
+    <string name="download_path_unavailable_dlg_msg">ব্রাউজারের ডাউনলোড নির্দেশিকা পরিমার্জন করুন</string>  
+    <string name="other_bookmarks">অন্যান্য বুকমার্ক</string>  
+    <string name="max_input_browser_search">আপনার ইনপুট সর্বোচ্চ সীমায় পৌছে গেছে।</string>  
+    <string name="max_input_browser_search_title">ইনপুট সীমা</string>  
+    <string name="max_input_browser_search_button">ঠিক আছে</string>  
+    <string name="save_bookmark">বুকমার্ক সংরক্ষণ করুন</string>  
+    <string name="sms_received">
+        <xliff:g id="text">%s</xliff:g> থেকে বার্তা
+    </string> 
+</resources>

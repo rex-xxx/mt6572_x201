@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wallpapers" msgid="7890805662847963863">অ্যান্ড্রোয়েড লাইভ ওয়ালপেপার</string>
+    <string name="wallpaper_walkaround" msgid="5548084303782181478">মধ্য দিয়ে দেখা</string>
+    <string name="wallpaper_walkaround_author" msgid="7292960549371044078">গুগল</string>
+    <string name="wallpaper_walkaround_desc" msgid="1714824320382778730">দুর্ঘটনার ঝুঁকি ছাড়াই আপনার মোবাইলের মধ্য দিয়ে দেখুন এবং ঘুরে বেড়ান</string>
+    <string name="wallpaper_grass" msgid="4753389782988032116">ঘাস</string>
+    <string name="wallpaper_grass_author" msgid="9197652780831360471">গুগল</string>
+    <string name="wallpaper_grass_desc" msgid="7808225799564607409">দিনের শুরুতে বা রাতের আকাশের নিচে ঘাসগুলো মৃদু মৃদু দুলছে।</string>
+    <string name="wallpaper_galaxy" msgid="4698294375306738428">তারার মেলা</string>
+    <string name="wallpaper_galaxy_author" msgid="5455561260819111338">গুগল</string>
+    <string name="wallpaper_galaxy_desc" msgid="6816969378845338629">মিটি মিটি জ্বলা তারার মেলা</string>
+    <string name="wallpaper_fall" msgid="1500920940722360941">পানি</string>
+    <string name="wallpaper_fall_author" msgid="8860429843949521342">গুগল</string>
+    <string name="wallpaper_fall_desc" msgid="595888373487204297">শরতে পাতাগুলো ঝরে পড়ছে এবং &lt;br&gt; নিচের ঢেউ খেলা পুকুরে:&lt;br&gt; লিকুয়িড ব্যাকগ্রাউন্ড জেন</string>
+    <string name="wallpaper_clock" msgid="6555051461698958610">পোলার ক্লক</string>
+    <string name="wallpaper_clock_author" msgid="8779094427834551330">গুগল</string>
+    <string name="wallpaper_clock_desc" msgid="6767980298898740026">ক্লক ওয়াইজ এআরসি অনুসারে তারিখ ও সময় উপস্থাপন করে:মাস, দিন, ঘণ্টা, মিনিট এবং সেকেন্ড।</string>
+    <string name="wallpaper_nexus" msgid="3789061608411260304">সম্বন্ধ</string>
+    <string name="wallpaper_nexus_author" msgid="8492858637541249441">গুগল</string>
+    <string name="wallpaper_nexus_desc" msgid="5562598238151885905">নিউরাল নেটওয়ার্কের ভেতর এ পলক দেখে নেয়া</string>
+    <string name="clock_settings" msgid="7837858747417927288">পোলার ক্লক সেটিংস</string>
+    <string name="show_seconds" msgid="8525899907567218168">সেকেন্ড প্রদর্শন করুন</string>
+    <string name="variable_line_width" msgid="8487094734462263605">রিংয়ের প্রশস্ততা বিভিন্ন হতে পারে</string>
+    <string name="palette" msgid="1636154448241520718">কালার প্যালেট</string>
+    <string name="palette_gray" msgid="4575370050214496017">আয়রন</string>
+    <string name="palette_violet" msgid="6124851215872884048">মধ্যরাত</string>
+    <string name="palette_matrix" msgid="2755109999115087511">সবুজ স্ক্রিন</string>
+    <string name="palette_white_c" msgid="3846812107437715188">মেরু ভাল্লুক (ডায়নামিক)</string>
+    <string name="palette_black_c" msgid="1521258571661038231">কৃষ্ণ বিবর (ডায়নামিক)</string>
+    <string name="palette_halloween" msgid="1502590278217616811">পামকিন পাই</string>
+    <string name="palette_zenburn" msgid="5537306782860767365">এলিয়েন ফ্রুট সালাদ</string>
+    <string name="palette_oceanic" msgid="7336134088073550028">ব্লু লেজার</string>
+</resources>
+

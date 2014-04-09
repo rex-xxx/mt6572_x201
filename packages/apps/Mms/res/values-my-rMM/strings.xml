@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+/*
+ * Copyright (C) 2007-2008 Esmertec AG.
+ * Copyright (C) 2007-2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_label">မက်ဆေ့ပို့ခြင်း</string>  
+    <string name="new_message">မက်ဆေ့အသစ်</string>  
+    <string name="menu_call_back"> 
+        <xliff:g id="name">%s</xliff:g> ကို ခေါ်ပါ
+    </string>  
+    <string name="menu_send_email"> 
+        <xliff:g id="name">%s</xliff:g> သို့ အီးမေးလ်ပို့ပါ
+    </string>  
+    <string name="menu_compose_new">စာရေးမည်</string>  
+    <string name="menu_preferences">အဆင်အပြင်များ</string>  
+    <string name="menu_add_address_to_contacts">လိပ်စာများသို့ 
+        <xliff:g id="contactEmailOrNumber">%s</xliff:g> ကို ထည့်ပါ
+    </string>  
+    <string name="menu_call">ခေါ်ဆိုပါ</string>  
+    <string name="menu_search">ရှာဖွေပါ</string>  
+    <string name="menu_delete_all">မက်ဆေ့အတွဲများအားလုံးကို ဖျက်ပါ</string>  
+    <string name="menu_delete">မက်ဆေ့အတွဲများကို ဖျက်ပါ</string>  
+    <string name="menu_view">မက်ဆေ့အတွဲများကို ကြည့်ပါ</string>  
+    <string name="menu_debug_dump">DEBUG DUMP</string>  
+    <string name="refreshing">ပြန်လည်ဆန်းသစ်နေဆဲ\u2026</string>  
+    <string name="menu_cell_broadcasts">တစ်ပြိုင်နက်မက်ဆေ့အမြောက်အမြားပို့ခြင်း</string>  
+    <string name="has_draft">ပုံကြမ်း</string>  
+    <string name="no_subject_view">(အကြောင်းအရာမရှိ)</string>  
+    <string name="messagelist_sender_self">ကိုယ်</string>  
+    <string name="view_slideshow">ဆလိုက်ရှိုးကြည့်ပါ</string>  
+    <string name="view_message_details">အသေးစိတ်ကြည့်ပါ</string>  
+    <string name="view_delivery_report">သတင်းပေးပို့ချက်ကြည့်ပါ</string>  
+    <string name="delete_message">ဖျက်ပါ</string>  
+    <string name="expire_on">ရက်ကျော်ခြင်း: 
+        <xliff:g id="date">%s</xliff:g>"
+    </string>  
+    <string name="kilobyte">KB</string>  
+    <string name="undelivered_msg_dialog_title">မပေးပို့သော မက်ဆေ့</string>  
+    <string name="undelivered_msg_dialog_body">ဤမက်ဆေ့အား ပို့၍မရပါ။ \nပေးပို့ခဲ့သော အကြိမ်ပေါင်း : 
+        <xliff:g id="message">%s</xliff:g> 
+    </string>  
+    <string name="undelivered_sms_dialog_body">ဤမက်ဆေ့အား ပို့၍မရပါ။</string>  
+    <string name="delete_thread">မက်ဆေ့အတွဲများကို ဖျက်ပါ</string>  
+    <string name="menu_forward">လက်ဆင့်ကမ်းပါ</string>  
+    <string name="download">ဒေါင်းလုဒ်လုပ်ပါ</string>  
+    <string name="downloading">ဒေါင်းလုဒ်လုပ်နေဆဲ</string>  
+    <string name="inline_subject">"&lt;အကြောင်းအရာ: <xliff:g id="subject">%s</xliff:g>&gt;"</string>
+    <string name="drm_protected_text">* ဒစ်ဂျစ်တယ်အကြောင်းအရာနှင့်ပစ္စည်းများ အသုံးပြုခွင့်ကန့်သတ်ချက်ပါရှိသော စာသား *</string>  
+    <string name="insufficient_drm_rights">ဒစ်ဂျစ်တယ်အကြောင်းအရာနှင့်ပစ္စည်းများ အသုံးပြုခွင့်ကန့်သတ်ချက်လုပ်ပိုင်ခွင့်များ မလုံလောက်မှုစမ်းသပ်တွေ့ရှိသည်။</string>  
+    <string name="copy_message_text">စာသားကို ကူးယူပါ</string>  
+    <string name="message_options">မက်ဆေ့ရွေးချယ်စရာများ</string>  
+    <string name="done">ပြီးပြီ</string>  
+    <string name="move_up">အပေါ်ကို ရွှေ့ပါ</string>  
+    <string name="move_down">အောက်ကို ရွှေ့ပါ</string>  
+    <string name="remove_slide">ဆလိုက်အချပ်ကို ဖယ်ရှားပါ</string>  
+    <string name="add_slide">ဆလိုက်အချပ်ကို ထည့်ပါ</string>  
+    <string name="add_slide_hint">ဆလိုက်အချပ်အသစ်ဖန်တီးရန် ရွေးချယ်ပါ</string>  
+    <string name="discard_slideshow">ဆလိုက်ရှိုးကို ဖြတ်ချပါ</string>  
+    <string name="slide_show_part">အပိုင်း 
+        <xliff:g id="part">%1$s</xliff:g>/ 
+        <xliff:g id="total">%2$s</xliff:g> 
+    </string>  
+    <string name="remove_text">စာသားကို ဖယ်ရှားပါ</string>  
+    <string name="add_picture">ရုပ်ပုံထည့်ပါ</string>  
+    <string name="remove_picture">ရုပ်ပုံဖယ်ရှားပါ</string>  
+    <string name="add_music">ဂီတထည့်ပါ</string>  
+    <string name="remove_music">ဂီတဖယ်ရှားပါ</string>  
+    <string name="add_video">ဗီဒီယိုထည့်ပါ</string>  
+    <string name="remove_video">ဗီဒီယိုဖယ်ရှားပါ</string>  
+    <string name="to_hint">သို့</string>  
+    <string name="subject_hint">အကြောင်းအရာ</string>  
+    <string name="add_attachment">ပူးတွဲပါ</string>  
+    <string name="add_subject">အကြောင်းအရာထည့်ပါ</string>  
+    <string name="discard">ဖြတ်ချပါ</string>  
+    <string name="view">ကြည့်ပါ</string>  
+    <string name="replace">အစားထိုးပါ</string>  
+    <string name="remove">ဖယ်ရှားပါ</string>  
+    <string name="send">ပို့ပါ</string>  
+    <string name="mms">MMS</string>  
+    <string name="all_threads">မက်ဆေ့အတွဲများအားလုံး</string>  
+    <string name="type_to_compose_text_enter_to_send">မက်ဆေ့ရိုက်ပါ</string>  
+    <string name="open_keyboard_to_compose_message">မက်ဆေ့ရိုက်ရန် ကီးဘုတ်ဖွင့်ပါ</string>  
+    <string name="compressing">ရုပ်ပုံကြီးလွန်းသည်။ ချုံ့နေဆဲ\u2026</string>  
+    <string name="unsupported_media_format">အထောက်အပံ့မပေးသော 
+        <xliff:g id="name">%1$s</xliff:g> ပုံစံ
+    </string>  
+    <string name="select_different_media">မတူညီသော 
+        <xliff:g id="name">%1$s</xliff:g> ကို ရွေးချယ်ပါ။
+    </string>  
+    <string name="exceed_message_size_limitation">မက်ဆေ့အရွယ်အစားကန့်သတ်ချက်သို့ ရောက်ရှိ။</string>  
+    <string name="message_too_big_for_video">ဗီဒီယိုပူးတွဲရန် မက်ဆေ့ကြီးလွန်းနေသည်။</string>  
+    <string name="failed_to_add_media">ဆောရီး၊ သင်ဤ 
+        <xliff:g id="name">%1$s</xliff:g> ကို သင့်မက်ဆေ့သို့ ထည့်၍မရပါ။
+    </string>  
+    <string name="failed_to_resize_image">ရုပ်ပုံကို အရွယ်အစားမပြင်ရသေးပါ။</string>  
+    <string name="resize_image_error_information">ဆောရီး၊ ဤရုပ်ပုံကို အရွယ်အစားပြင်လျှင်သော်မှ ပို့ရန်ကြီးလွန်းနေသည်။</string>  
+    <string name="forward_prefix">လက်ဆင့်ကမ်းခြင်း :\u0020</string>  
+    <string name="discard_message">ဖြတ်ချပါ</string>  
+    <string name="discard_message_reason">လက်ခံသူအသုံးမရှိ၍ သင့်မက်ဆေ့အား ဖြတ်ချမည်။</string>  
+    <string name="has_invalid_recipient">အသုံးမရှိသော လက်ခံသူ(များ):</string>  
+    <string name="invalid_destination">အသုံးမရှိသောပေးပို့မည့်လိပ်စာ</string>  
+    <string name="service_not_activated">ဝန်ဆောင်မှု ကွန်ယက်ပေါ်တွင် လုပ်ဆောင်နေခြင်းမရှိပါ။</string>  
+    <string name="service_message_not_found">မက်ဆေ့ရက်ကျော်သွားပြီ သို့မဟုတ် မရနိုင်ပါ။</string>  
+    <string name="service_network_problem">ကွန်ယက်ပြဿနာအမှားပြနေသည်။</string>  
+    <string name="invalid_recipient_message">လက်ခံသူ(များ)ကို ပြင်ဆင်ပါ သို့မဟုတ်ပါက မက်ဆေ့ရရှိလိမ့်မည်မဟုတ်ပါ။</string>  
+    <string name="cannot_send_message">ဤမက်ဆေ့အား ပို့၍မရပါ။</string>  
+    <string name="cannot_send_message_reason">သင့်မက်ဆေ့တွင် လက်ခံသူအသုံးမရှိပါ။</string>  
+    <string name="cannot_forward_drm_obj">မက်ဆေ့တွင် ပါရှိသည့် DRM အကြောင်းအရာအား လက်ဆင့်ကမ်း၍မရပါ။</string>  
+    <string name="converting_to_picture_message">ရုပ်သံပသာဒစုံမက်ဆေ့သို့ ပြောင်းနေဆဲ \u2026</string>  
+    <string name="converting_to_text_message">စာသားမက်ဆေ့သို့ ပြောင်းနေဆဲ \u2026</string>  
+    <string name="cannot_add_slide_anymore">ဆလိုက်အချပ်များ ထပ်ထည့်၍မရပါ။</string>  
+    <string name="cannot_add_picture_and_video">ဗီဒီယိုနှင့် ရုပ်ပုံအား ဆလိုက်တစ်ချပ်တည်းတွင် ထည့်၍မရပါ။</string>  
+    <string name="cannot_save_message">မက်ဆေ့အား သိမ်း၍မရပါ။</string>  
+    <string name="message_saved_as_draft">မက်ဆေ့အား ပုံကြမ်းအဖြစ် သိမ်းထားသည်။</string>  
+    <string name="too_many_recipients">ဤမက်ဆေ့တွင် လက်ခံသူအမြောက်အမြား ( 
+        <xliff:g id="currentCount">%1$s</xliff:g>) ဦး ရှိသည်။ လက်ခံသူ 
+        <xliff:g id="maxLimit">%2$s</xliff:g> ဦးသာ ကန့်သတ်ချက်ရှိသည်။
+    </string>  
+    <string name="too_many_attachments">ပူးတွဲချက် 
+        <xliff:g id="maxLimit">%1$s</xliff:g> သာ ကန့်သတ်ချက်ရှိသည်။ ပထမဆုံး 
+        <xliff:g id="currentCount">%2$s</xliff:g> သာ ထည့်မည်။
+    </string>  
+    <string name="adding_attachments_title">ပူးတွဲချက်များထည့်နေဆဲ</string>  
+    <string name="adding_attachments">ဆလိုက်ရှိုးသို့ အကြောင်းအရာများထည့်နေစဉ် စောင့်ဆိုင်းပါ။</string>  
+    <string name="building_slideshow_title">ဆလိုက်ရှိုးပြုလုပ်နေဆဲ</string>  
+    <string name="cannot_play_audio">အသံဖွင့်၍မရပါ။</string>  
+    <string name="preview">ပြန်လည်ကြည့်ရှုချက်</string>  
+    <string name="preview_slideshow">ပြန်လည်ကြည့်ရှုချက်</string>  
+    <string name="replace_image">ရုပ်ပုံကို အစားထိုးပါ</string>  
+    <string name="duration_sec">ကြာချိန် ( 
+        <xliff:g id="duration">%s</xliff:g> sec)
+    </string>  
+    <string name="duration_selector_title">ဆလိုက်အချပ်အတွက် ကြာချိန်</string>  
+    <string name="layout_selector_title">ဆလိုက်ရှိုးအပြင်အဆင်</string>  
+    <string name="layout_top">အပြင်အဆင်(အပေါ်)</string>  
+    <string name="layout_bottom">အပြင်အဆင်(အောက်)</string>  
+    <string name="type_to_compose_text_or_leave_blank">မက်ဆေ့ရိုက်ပါ၊ သို့မဟုတ် ကွက်လပ်ထားပါ</string>  
+    <string name="duration_not_a_number">ကြာချိန်မှာ နံပါတ်ဖြစ်ရမည်</string>  
+    <string name="duration_zero">ကြာချိန်မှာ သုညစက္ကန့်ထက် ကြီးရမည်</string>  
+    <string name="secs">စက္ကန့်</string>  
+    <string-array name="select_dialog_items"> 
+        <item>1 စက္ကန့်</item>  
+        <item>2 စက္ကန့်</item>  
+        <item>3 စက္ကန့်</item>  
+        <item>4 စက္ကန့်</item>  
+        <item>5 စက္ကန့်</item>  
+        <item>6 စက္ကန့်</item>  
+        <item>7 စက္ကန့်</item>  
+        <item>8 စက္ကန့်</item>  
+        <item>9 စက္ကန့်</item>  
+        <item>10 စက္ကန့်</item>  
+        <item>အခြား\u2026</item> 
+    </string-array>  
+    <string name="menu_view_contact">လိပ်စာကြည့်ပါ</string>  
+    <string name="menu_add_to_contacts">လိပ်စာများသို့ ထည့်ပါ</string>  
+    <string name="hidden_sender_address">ပေးပို့သူလိပ်စာဖျောက်ထားပါ</string>  
+    <string name="yes">လုပ်မည်</string>  
+    <string name="no">မလုပ်ပါ</string>  
+    <string name="set">ထားရှိပါ</string>  
+    <string name="play">ဖွင့်ပါ</string>  
+    <string name="edit">တည်းဖြတ်ပါ</string>  
+    <string name="try_to_send">ပေးပို့ရန် ကြိုးစားပါ</string>  
+    <string name="preferences_title">"အဆင်အပြင်များ"</string>  
+    <string name="restore_default">"မူလအဆင်အပြင်များသို့ ပြန်လည်ထားရှိပါ"</string>  
+    <string name="pref_notification_settings_title">အချက်ပေးချက်အဆင်အပြင်များ</string>  
+    <string name="pref_mms_settings_title">"ရုပ်သံပသာဒစုံမက်ဆေ့(MMS) အဆင်အပြင်များ"</string>  
+    <string name="pref_sms_settings_title">"စာသားမက်ဆေ့(SMS) အဆင်အပြင်များ"</string>  
+    <string name="pref_sms_storage_title">သိမ်းဆည်းမှုအဆင်အပြင်များ</string>  
+    <string name="pref_summary_manage_sim_messages">သင့် SIM ကဒ်တွင် သိမ်းဆည်းထားသော မက်ဆေ့များကို စီစဉ်ပါ</string>  
+    <string name="pref_summary_mms_delivery_reports">သင်ပေးပို့သမျှ မက်ဆေ့တိုင်းအတွက် ပေးပို့ပြီးကြောင်းသတင်းပေးပို့ချက်ကို တောင်းဆိုပါ</string>  
+    <string name="pref_summary_mms_read_reports">သင်ပေးပို့သမျှ မက်ဆေ့တိုင်းအတွက် ဖတ်ပြီးကြောင်းသတင်းပေးပို့ချက်ကို တောင်းဆိုပါ</string>  
+    <string name="pref_summary_sms_delivery_reports">သင်ပေးပို့သမျှ မက်ဆေ့တိုင်းအတွက် ပေးပို့ပြီးကြောင်းသတင်းပေးပို့ချက်ကို တောင်းဆိုပါ</string>  
+    <string name="pref_summary_auto_delete">ကန့်သတ်ချက်သို့ ရောက်ရှိပါက မက်ဆေ့အဟောင်းများကို ဖျက်ပါ</string>  
+    <string name="pref_summary_delete_limit">စကားပြောချက်တစ်ခုစီအတွက် မက်ဆေ့ 
+        <xliff:g id="count">%1$s</xliff:g>ခု
+    </string>  
+    <string name="pref_title_manage_sim_messages">SIM ကဒ်မက်ဆေ့များကို စီစဉ်ပါ</string>  
+    <string name="pref_title_mms_delivery_reports">ပေးပို့ပြီးကြောင်းသတင်းပေးပို့ချက်ကို တောင်းဆိုပါ</string>  
+    <string name="pref_title_mms_read_reports">ဖတ်ပြီးကြောင်းသတင်းပေးပို့ချက်ကို တောင်းဆိုပါ</string>  
+    <string name="pref_title_sms_delivery_reports">ပေးပို့ပြီးကြောင်းသတင်းပေးပို့ချက်ကို တောင်းဆိုပါ</string>  
+    <string name="pref_title_auto_delete">မက်ဆေ့အဟောင်းများကို ဖျက်ပါ</string>  
+    <string name="pref_title_sms_delete">စာသားမက်ဆေ့ကန့်သတ်ချက်</string>  
+    <string name="pref_title_mms_delete">ရုပ်သံပသာဒစုံမက်ဆေ့ကန့်သတ်ချက်</string>  
+    <string name="pref_title_notification_enabled">အချက်ပေးချက်များ</string>  
+    <string name="pref_summary_notification_enabled">မက်ဆေ့အချက်ပေးချက်များကို အကြောင်းအရာပြဘားတွင် ပြသပါ</string>  
+    <string name="pref_title_notification_vibrateWhen">တုန်ခါပါ</string>  
+    <string name="pref_summary_notification_vibrateWhen">အချက်ပေးပါက တုန်ခါပါ</string>  
+    <string name="pref_title_notification_ringtone">ဖုန်းခေါ်ဆိုမှုတီးလုံးရွေးချယ်ပါ</string>  
+    <string name="pref_messages_to_save">သိမ်းဆည်းရန် မက်ဆေ့အရေအတွက် ထားရှိပါ</string>  
+    <string-array name="prefEntries_vibrateWhen"> 
+        <item>အမြဲတမ်း</item>  
+        <item>အသံဖျောက်ထားလျှင်သာ</item>  
+        <item>ဘယ်တော့မှ</item> 
+    </string-array>  
+    <string translatable="false" name="prefDefault_vibrateWhen">never</string>  
+    <string translatable="false" name="prefDefault_vibrate_true">always</string>  
+    <string translatable="false" name="prefDefault_vibrate_false">never</string>  
+    <string-array translatable="false" name="prefValues_vibrateWhen"> 
+        <item>always</item>  
+        <item>silent</item>  
+        <item>never</item> 
+    </string-array>  
+    <string name="prefDialogTitle_vibrateWhen">တုန်ခါပါ</string>  
+    <string name="pref_title_mms_auto_retrieval">အလိုအလျောက်ပြန်လည်ရယူပါ</string>  
+    <string name="pref_summary_mms_auto_retrieval">မက်ဆေ့များကို အလိုအလျောက်ပြန်လည်ရယူပါ</string>  
+    <string name="pref_title_mms_retrieval_during_roaming">ပြင်ပကွန်ယက်သို့ ဝင်ရောက်စဉ် အလိုအလျောက်ပြန်လည်ရယူပါ</string>  
+    <string name="pref_summary_mms_retrieval_during_roaming">ပြင်ပကွန်ယက်သို့ ဝင်ရောက်စဉ် မက်ဆေ့များကို အလိုအလျောက်ပြန်လည်ရယူပါ</string>  
+    <string name="confirm_dialog_title">ဖျက်ပါ</string>  
+    <string name="confirm_dialog_locked_title">သော့ခတ်ထားသော မက်ဆေ့ကို ဖျက်မလား?</string>  
+    <plurals name="confirm_delete_conversation"> 
+        <item quantity="one">စကားပြောချက်တစ်ခုကို ဖျက်မည်</item>  
+        <item quantity="other">စကားပြောချက် 
+            <xliff:g id="number" example="15">%1$s</xliff:g> ခုကို ဖျက်မည်
+        </item> 
+    </plurals>  
+    <string name="confirm_delete_conversation">မက်ဆေ့အတွဲတစ်ခုလုံးကို ဖျက်မည်</string>  
+    <string name="confirm_delete_all_conversations">မက်ဆေ့အတွဲများအားလုံးကို ဖျက်မည်</string>  
+    <string name="confirm_delete_message">မက်ဆေ့ကို ဖျက်မည်</string>  
+    <string name="confirm_delete_locked_message">ဤသော့ခတ်ထားသော မက်ဆေ့ကို ဖျက်မှာ သေချာလား?</string>  
+    <string name="confirm_delete_all_SIM_messages">SIM ရှိ မက်ဆေ့များအားလုံးကို ဖျက်မည်။</string>  
+    <string name="confirm_delete_SIM_message">SIM ရှိ ဤမက်ဆေ့ကို ဖျက်မည်။</string>  
+    <string name="delete_unlocked">သော့ခတ်ထားသော မက်ဆေ့များကို ဖျက်ပါ</string>  
+    <string name="delete">ဖျက်ပါ</string>  
+    <string name="select_conversations">စကားပြောချက်များကို ရွေးချယ်ပါ</string>  
+    <string name="no_conversations">စကားပြောချက်များမရှိပါ</string>  
+    <string name="loading_conversations">စကားပြောချက်များကို ဖွင့်နေဆဲ</string>  
+    <string name="cannot_get_details">အသေးစိတ်မရနိုင်ပါ</string>  
+    <string name="message_details_title">မက်ဆေ့အသေးစိတ်</string>  
+    <string name="message_type_label">ရိုက်ပါ :\u0020</string>  
+    <string name="text_message">စာသားမက်ဆေ့</string>  
+    <string name="multimedia_message">ရုပ်သံပသာဒစုံမက်ဆေ့</string>  
+    <string name="multimedia_notification">ရုပ်သံပသာဒစုံမက်ဆေ့အချက်ပေးချက်</string>  
+    <string name="from_label">မှ :\u0020</string>  
+    <string name="to_address_label">သို့ :\u0020</string>  
+    <string name="bcc_label">Bcc :\u0020</string>  
+    <string name="sent_label">ပို့ပြီး :\u0020</string>  
+    <string name="received_label">လက်ခံရရှိပြီး :\u0020</string>  
+    <string name="saved_label">သိမ်းဆည်းပြီး :\u0020</string>  
+    <string name="subject_label">အကြောင်းအရာ :\u0020</string>  
+    <string name="message_size_label">မက်ဆေ့အရွယ်အစား :\u0020</string>  
+    <string name="priority_label">ဦးစားပေးချက် :\u0020</string>  
+    <string name="priority_high">များ</string>  
+    <string name="priority_normal">ပုံမှန်</string>  
+    <string name="priority_low">နည်း</string>  
+    <string name="message_class_label">မက်ဆေ့အမျိုးအစား :\u0020</string>  
+    <string name="error_code_label">အမှားကုဒ် :\u0020</string>  
+    <string name="menu_edit">တည်းဖြတ်ပါ</string>  
+    <string name="menu_delete_messages">မက်ဆေ့ကို ဖျက်ပါ</string>  
+    <string name="menu_lock">သော့ခတ်ပါ</string>  
+    <string name="menu_unlock">သော့ဖွင့်ပါ</string>  
+    <string name="sim_copy_to_phone_memory" product="tablet">တက်ဘလက်မှတ်ဥာဏ်သို့ ကူးယူပါ</string>  
+    <string name="sim_copy_to_phone_memory" product="default">ဖုန်းမှတ်ဥာဏ်သို့ ကူးယူပါ</string>  
+    <string name="sim_delete">ဖျက်ပါ</string>  
+    <string name="sim_manage_messages_title">SIM ကဒ်ရှိ စာသားမက်ဆေ့များ</string>  
+    <string name="sim_view">ကြည့်ပါ</string>  
+    <string name="sim_empty">SIM ကဒ်တွင် မက်ဆေ့မရှိပါ</string>  
+    <string name="delivery_header_title">သတင်းပေးပို့ချက်</string>  
+    <string name="status_none">(ဘာမှမရှိပါ)</string>  
+    <string name="status_pending">ဆိုင်းငံ့ထားဆဲ</string>  
+    <string name="status_read">ဖတ်ပါ</string>  
+    <string name="status_received">လက်ခံရရှိပြီး</string>  
+    <string name="status_failed">မအောင်မြင်ပါ</string>  
+    <string name="status_unread">မဖတ်ရသေးပါ</string>  
+    <string name="status_rejected">ပယ်ချပြီး</string>  
+    <string name="recipient_label">လက်ခံသူ :\u0020</string>  
+    <string name="status_label">အခြေအနေ :\u0020</string>  
+    <string name="delivered_label">ပေးပို့ပြီး :\u0020</string>  
+    <string name="attach_image">ရုပ်ပုံများ</string>  
+    <string name="attach_take_photo">ဓာတ်ပုံရိုက်ပါ</string>  
+    <string name="attach_video">ဗီဒီယိုများ</string>  
+    <string name="attach_record_video">ဗီဒီယိုရိုက်ပါ</string>  
+    <string name="attach_sound">အသံ</string>  
+    <string name="attach_record_sound">အသံဖမ်းပါ</string>  
+    <string name="attach_slideshow">ဆလိုက်ရှိုး</string>  
+    <string name="select_bottom_text">အောက်ခြေရှိ စာသား</string>  
+    <string name="select_top_text">အပေါ်ရှိ စာသား</string>  
+    <string name="delivery_toast_body">%s မှ မက်ဆေ့လက်ခံရရှိသည်</string>  
+    <plurals name="notification_multiple"> 
+        <item quantity="one">%d မဖတ်ရသေးသော မက်ဆေ့</item>  
+        <item quantity="other">%d မဖတ်ရသေးသော မက်ဆေ့</item> 
+    </plurals>  
+    <string name="notification_multiple_title">မက်ဆေ့အသစ်များ</string>  
+    <string name="notification_failed_multiple">မက်ဆေ့ 
+        <xliff:g id="count">%s</xliff:g> ခု ပို့၍မရပါ။
+    </string>  
+    <string name="notification_failed_multiple_title">မက်ဆေ့များမပို့ရသေးပါ</string>  
+    <string name="sim_full_title">SIM ကဒ်ပြည့်နေပြီ</string>  
+    <string name="sim_full_body">နောက်ထပ်နေရာလွတ်ရရှိရန် အချို့မက်ဆေ့များကို ဖျက်ပါ။</string>  
+    <string name="sms_full_title">စာသားမက်ဆေ့မှတ်ဥာဏ်ပြည့်နေပြီ</string>  
+    <string name="sms_full_body">မှတ်ဥာဏ်ပြည့်နေ၍ အဝင်မက်ဆေ့အား ပယ်ချလိုက်သည်။ မက်ဆေ့အဟောင်းများကို ဖျက်ပါ။</string>  
+    <string name="sms_rejected_title">စာသားမက်ဆေ့ပယ်ချပြီး</string>  
+    <string name="sms_rejected_body">အမည်မသိအကြောင်းရင်းကြောင့် အဝင်မက်ဆေ့အား ပယ်ချလိုက်သည်။</string>  
+    <string name="type_audio">အသံ</string>  
+    <string name="type_picture">ရုပ်ပုံ</string>  
+    <string name="type_video">ဗီဒီယို</string>  
+    <string name="confirm">အတည်ပြုပါ</string>  
+    <string name="message_send_read_report">ဖတ်ပြီးကြောင်းသတင်းပေးပို့ချက်ကို ပေးပို့မည်။</string>  
+    <string name="message_queued">သင့်မက်ဆေ့အား လက်ရှိမပေးပို့နိုင်ပါ။ ဝန်ဆောင်မှုရရှိပါက ပေးပို့မည်။</string>  
+    <string name="fdn_check_failure">ပုံသေခေါ်ဆိုမှုနံပါတ်များသို့သာ မက်ဆေ့များကို ပေးပို့နိုင်သည်။</string>  
+    <string name="no_subject">(အကြောင်းအရာမရှိ)</string>  
+    <string name="unknown_sender">အမည်မသိပေးပို့သူ</string>  
+    <string name="dl_failure_notification">မက်ဆေ့ 
+        <xliff:g id="subject">%1$s</xliff:g> from 
+        <xliff:g id="from">%2$s</xliff:g>အား ဒေါင်းလုဒ်လုပ်ခြင်းမအောင်မြင်ပါ။
+    </string>  
+    <string name="rate_limit_surpassed">အတည်ပြုပါ</string>  
+    <string name="confirm_rate_limit">ရုပ်သံပသာဒစုံမက်ဆေ့အမြောက်အမြား ပေးပို့ထားသည်။ အဆင်ပြေလား?</string>  
+    <string name="message_download_failed_title">မက်ဆေ့အား ဒေါင်းလုဒ်မလုပ်ထားပါ</string>  
+    <string name="message_send_failed_title">မက်ဆေ့အား မပို့ထားပါ</string>  
+    <string name="message_failed_body">မက်ဆေ့အား ပြန်လည်ကြည့်ရှုရန် ရွေးချယ်ပြီး ပြန်လည်ကြိုးစားကြည့်ပါ။</string>  
+    <string name="download_later">လက်ရှိဒေါင်းလုဒ်လုပ်ရန် မဖြစ်နိုင်ပါ။ နောက်မှတစ်ဖန် ကြိုးစားကြည့်ပါ။</string>  
+    <string name="select_audio">အသံရွေးချယ်ပါ</string>  
+    <string name="copy_to_sdcard">ပူးတွဲချက်ကို သိမ်းဆည်းပါ</string>  
+    <string name="copy_to_sdcard_success">ပူးတွဲချက်သိမ်းဆည်းပြီး</string>  
+    <string name="copy_to_sdcard_fail">ပူးတွဲချက်အား သိမ်းဆည်းရန် မဖြစ်နိုင်ပါ</string>  
+    <string name="save_ringtone">ဖုန်းခေါ်ဆိုမှုတီးလုံးအဖြစ်သိမ်းဆည်းပါ</string>  
+    <string name="saved_ringtone">ဖုန်းခေါ်ဆိုမှုတီးလုံးသိမ်းဆည်းပြီး</string>  
+    <string name="saved_ringtone_fail">ဖုန်းခေါ်ဆိုမှုတီးလုံးသိမ်းဆည်းခြင်းမအောင်မြင်ပါ</string>  
+    <string name="menu_insert_smiley">စမိုင်လီရုပ်ထည့်သွင်းပါ</string>  
+    <string name="select_link_title">လုပ်ဆောင်ချက် ရွေးချယ်ပါ</string>  
+    <string name="slide_number">ဆလိုက်အချပ် 
+        <xliff:g id="number" example="5">%s</xliff:g> 
+    </string>  
+    <plurals name="slide_duration"> 
+        <item quantity="one"> 
+            <xliff:g id="number" example="1">%s</xliff:g> စက္ကန့်
+        </item>  
+        <item quantity="few"> 
+            <xliff:g id="number" example="2">%s</xliff:g> စက္ကန့်
+        </item>  
+        <item quantity="other"> 
+            <xliff:g id="number" example="15">%s</xliff:g> စက္ကန့်
+        </item> 
+    </plurals>  
+    <string name="delivery_report_activity">ပေးပို့ပြီးကြောင်းသတင်းပေးပို့ချက်</string>  
+    <string name="storage_limits_activity">သိမ်းဆည်းမှုကန့်သတ်ချက်များ</string>  
+    <string name="change_duration_activity">ကြာချိန်ကို ပြောင်းပါ</string>  
+    <string name="edit_slideshow_activity">ဆလိုက်ရှိုးကို တည်းဖြတ်ပါ</string>  
+    <string name="edit_slide_activity">ဆလိုက်အချပ်ကို တည်းဖြတ်ပါ</string>  
+    <string name="slideshow_activity">ဆလိုက်ရှိုး</string>  
+    <string name="class_0_message_activity">အဆင့် 0 မက်ဆေ့</string>  
+    <string name="search_label">မက်ဆေ့ပေးပို့ခြင်း</string>  
+    <string name="search_hint">မက်ဆေ့ပေးပို့ခြင်းကို ရှာပါ</string>  
+    <string name="search">မက်ဆေ့ပေးပို့ခြင်း</string>  
+    <string name="search_setting_description">သင့်မက်ဆေ့များရှိ စာသား</string>  
+    <string name="search_empty">ကိုက်ညီချက်မရှိပါ</string>  
+    <plurals name="search_results_title"> 
+        <item quantity="one">\" 
+            <xliff:g id="search" example="???">%2$s</xliff:g>\" အတွက် ရလဒ် 
+            <xliff:g id="number" example="1">%1$s</xliff:g> ခု
+        </item>  
+        <item quantity="other">\" 
+            <xliff:g id="search" example="???">%2$s</xliff:g>\" အတွက် ရလဒ် 
+            <xliff:g id="number" example="15">%1$s</xliff:g> ခု
+        </item> 
+    </plurals>  
+    <string name="search_history">\" 
+        <xliff:g id="search">%2$s</xliff:g>\" အတွက် ရလဒ် 
+        <xliff:g id="count">%1$s</xliff:g> ခု
+    </string>  
+    <string name="confirm_clear_search_title">ရှင်းလင်းပါ</string>  
+    <string name="confirm_clear_search_text">ရှာဖွေမှုမှတ်တမ်းကို ရှင်းလင်းမည်</string>  
+    <string name="pref_mms_clear_search_history_title">ရှာဖွေမှုမှတ်တမ်းကို ရှင်းလင်းပါ</string>  
+    <string name="pref_mms_clear_search_history_summary">ယခင်မက်ဆေ့ပေးပို့ခြင်းဆိုင်ရာ ရှာဖွေချက်များကို ရှာဖွေသည့် အကွက်တွင် ပြသခြင်းမှ ရှင်းလင်းပါ</string>  
+    <string name="save">သိမ်းဆည်းပါ</string>  
+    <string name="storage_limits_title">မက်ဆေ့များကို ကန့်သတ်ပါ</string>  
+    <string name="storage_limits_message">စကားပြောချက်တစ်ခုစီအတွက် သင်သိမ်းဆည်းထားသော မက်ဆေ့အရေအတွက်ကို ကန့်သတ်လိုပါသလား?</string>  
+    <string name="storage_limits_setting">ကန့်သတ်ချက်ထားရှိပါ</string>  
+    <string name="storage_limits_setting_dismiss">ကန့်သတ်ချက်မရှိပါ</string>  
+    <string name="too_many_unsent_mms">ယခုမက်ဆေ့ပို့၍မရပါ။ မပို့ရသေးသော ရုပ်သံပသာဒစုံမက်ဆေ့အမြောက်အမြားရှိသည်။</string>  
+    <string name="sending_message">ပေးပို့နေဆဲ\u2026</string>  
+    <string name="pick_too_many_recipients">လက်ခံသူများပြားလွန်းနေသည်</string>  
+    <string name="adding_recipients">လက်ခံသူများထည့်နေဆဲ\u2026</string>  
+    <string name="draft_separator">,\u0020</string>  
+    <string name="message_count_format">\u00a0 
+        <xliff:g id="number" example="1">%1$s</xliff:g> 
+    </string>  
+    <string name="message_count_notification">မက်ဆေ့အသစ် 
+        <xliff:g id="number" example="3">%1$s</xliff:g> ခု
+    </string>  
+    <plurals name="message_count_notification_overflow"> 
+        <item quantity="one">အခြားမက်ဆေ့ + 
+            <xliff:g id="number" example="1">%1$s</xliff:g> ခု
+        </item>  
+        <item quantity="other">အခြားမက်ဆေ့ + 
+            <xliff:g id="number" example="15">%1$s</xliff:g> ခု
+        </item> 
+    </plurals>  
+    <string name="error_state">Inconsistent state</string>  
+    <string name="error_state_text">The state of threads and recipients is inconsistent. Please capture a bug report and report it via http://go/droidanizer</string>  
+    <plurals name="recipient_count"> 
+        <item quantity="other">လူ 
+            <xliff:g id="number" example="15">%1$s</xliff:g> ဦး
+        </item> 
+    </plurals>  
+    <string name="view_more_conversations">နောက်ထပ်စကားပြောချက်များကို ကြည့်ပါ</string>  
+    <string name="attachment_audio">အသံ</string>  
+    <string name="attachment_slideshow">ဆလိုက်ရှိုး</string>  
+    <string name="attachment_video">ဗီဒီယို</string>  
+    <string name="attachment_picture">ရုပ်ပုံ</string>  
+    <string name="notification_separator">\u0020\u0020</string>  
+    <string name="enumeration_comma">,\u0020</string>  
+    <string name="cell_broadcast">တစ်ပြိုင်နက်မက်ဆေ့အမြောက်အမြားပို့ခြင်း</string>  
+    <string name="cell_broadcast_title">တစ်ပြိုင်နက်မက်ဆေ့အမြောက်အမြားပို့ခြင်းဆိုင်ရာ အဆင်အပြင်များ</string>  
+    <string name="cell_broadcast_settings">SIM ကဒ်၏ တစ်ပြိုင်နက်မက်ဆေ့အမြောက်အမြားပို့ခြင်းဆိုင်ရာ အဆင်အပြင်များ</string>  
+    <string name="menu_insert_quick_text">အမြန်စာသားကို ထည့်သွင်းပါ</string>  
+    <string name="select_quick_text">အမြန်စာသားကို ရွေးချယ်ပါ</string>  
+    <string name="add">ထည့်ပါ</string>  
+    <string name="quick_text_editor">အမြန်စာသားကို တည်းဖြတ်ပါ</string>  
+    <string name="modify_successful">အောင်မြင်စွာ အဆင့်မြှင့်ပြီးဖြစ်သည်။</string>  
+    <string name="modify_unsuccessful">အဆင့်မြှင့်ခြင်းမအောင်မြင်ပါ!</string>  
+    <string name="delete_successful">အောင်မြင်စွာဖျက်ပြီးဖြစ်သည်။</string>  
+    <string name="delete_unsuccessful">ဖျက်ခြင်းမအောင်မြင်ပါ!</string>  
+    <string name="add_quick_text_successful">အမြန်စာသားအောင်မြင်စွာထည့်ပြီးဖြစ်သည်။</string>  
+    <string name="already_have_quick_text">သင့်တွင် ဤအမြန်စာသားရှိပြီးဖြစ်သည်!</string>  
+
+    <string name="gemini_3g_indic" translatable="false">3G</string>  
+
+<string name="save_attachment">ပူးတွဲချက်ကို သိမ်းဆည်းပါ</string>
+      <string name="file_attachment_common_name">ဖိုင်မျိုးစုံ(<xliff:g id="text">%s</xliff:g>)</string>
+      <string name="file_attachment_contains">ပါဝင်မှုများ</string>
+      <string name="file_attachment_files">ဖိုင်များ</string>
+      <string name="save_multi_attachment_notes">ဖိုင်မျိုးစုံတွင် ဖိုင်အမြောက်အမြား ပါဝင်သည်။ ယင်းတို့ကို စစ်ဆေးပြီး သိမ်းဆည်းမလား?</string>
+      <string name="save_single_attachment_notes">၎င်းမှာ MMS တွင် အထောက်အပံ့မပေးသည့် ပုံစံဖိုင်ဖြစ်သည်။ ဖိုင်မန်နေဂျာသို့ သိမ်းမလား?</string>
+      <string name="multi_files">ဖိုင်မျိုးစုံ</string>
+      <string name="save_single_supportformat_attachment_notes">ဖိုင်မန်နေဂျာသို့ သိမ်းမလား?</string>
+      <string name="slideshow_options">ဆလိုက်ရှိုးရွေးစရာများ</string>
+      <string name="send_mms">MMS ပေးပို့ပါ</string>
+      <string name="pref_summary_mms_group_mms">လက်ခံသူအမြောက်အမြားရှိပါက မက်ဆေ့ချ်တစ်စောင်သာ ပေးပို့ရန် MMS အသုံးပြုပါ</string>
+      <string name="pref_title_mms_group_mms">အုပ်စုလိုက်မက်ဆေ့ချ်ပေးပို့ခြင်း</string>
+      <string name="menu_group_participants">လက်ခံသူများကို အုပ်စုဖွဲ့ပါ</string>
+      <string name="recipient_list_activity">လက်ခံသူများကို အုပ်စုဖွဲ့ပါ</string>
+      <string name="message_timestamp_format"><xliff:g id="string" example="FredFlinstone">%1$s</xliff:g>\u0020-\u0020<xliff:g id="string" example="9:39AM">%2$s</xliff:g></string>
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="wifi_security"> 
+        <item>"باز کردن"</item> 
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+        <item>WAPI PSK</item> 
+        <item>گواهینامه WAPI</item>  
+    </string-array>  
+    <string-array name="wpa_security"> 
+        <item>"باز کردن"</item>  
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>  
+    <string-array name="wpa_security_wfa"> 
+        <item>"باز کردن"</item>  
+        <item>WEP</item>
+        <item>WPA PSK</item>
+        <item>WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>  
+    <string-array name="wapi_security"> 
+        <item>"باز کردن"</item>  
+        <item>WAPI PSK</item>
+        <item>گواهینامه WAPI</item>  
+    </string-array>  
+    <string-array name="gemini_sim_info_number_display_format_entries"> 
+        <item>4 رقم اول</item>  
+        <item>4 رقم آخر</item>  
+        <item>نمايش نده</item> 
+    </string-array>  
+    <string-array name="gemini_sim_roaming_reminder_entries"> 
+        <item>يک بار</item>  
+        <item>همیشه</item>  
+        <item>هرگز</item> 
+    </string-array>  
+    <string-array name="gsm_umts_network_preferences_choices"> 
+        <item>GSM/WCDMA (حالت خودکار)</item>  
+        <item>فقط WCDMA</item>  
+        <item>فقط GSM</item> 
+    </string-array>  
+    <string-array name="network_use_entry"> 
+        <item>فقط خانه</item>  
+        <item>خانه + رومینگ</item> 
+    </string-array>  
+    <string-array name="auto_time_entries"> 
+        <item>استفاده از زمان ارائه شده توسط شبکه</item>  
+        <item>استفاده از زمان ارائه شده توسط GPS</item>  
+        <item>خاموش</item> 
+    </string-array>  
+    <string-array name="hdmi_video_resolution_entries"> 
+        <item>خودکار</item>  
+        <item>720P</item>
+        <item>480P</item>
+    </string-array>  
+    <string-array name="wifi_WEP_security_type"> 
+        <item>خودکار</item>  
+        <item>WEP ASCII</item>
+        <item>WEP هگزادسيمال</item>  
+    </string-array>  
+    <string-array name="wifi_hotspot_disable_policy_entries"> 
+        <item>همیشه</item>  
+        <item>پس از گذشت 5 دقیقه از حالت آماده به کار، خاموش شود</item>  
+        <item>پس از گذشت 10 دقیقه از حالت آماده به کار، خاموش شود</item> 
+    </string-array>  
+    <string-array name="wifi_ap_wps_mode_entries"> 
+        <item>دکمه فشاری</item>  
+        <item>PIN از سوی مشتری</item> 
+    </string-array>  
+    <string-array name="wifi_ap_max_connection_entries"> 
+        <item>1 کاربر</item>  
+        <item>2 کاربر</item> 
+        <item>3 کاربر</item> 
+        <item>4 کاربر</item> 
+        <item>5 کاربر</item> 
+        <item>6 کاربر</item> 
+        <item>7 کاربر</item> 
+        <item>8 کاربر</item> 
+    </string-array> 
+	<string-array name="sim_slot">
+		<item>"(مشخص نشده)"</item>
+		<item>شیار سیم 1</item>
+		<item>شیار سیم 2</item>
+	</string-array>
+</resources>

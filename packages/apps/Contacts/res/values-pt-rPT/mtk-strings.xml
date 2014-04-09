@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">   
+    <string name="group_discard_member_reason">As modificações serão rejeitadas porque o nome do grupo é inválido.</string>   
+	<string name="deleteConfirmation_title">Eliminar contacto?</string>
+    <string name="add_contact_dlg_title">Adicionar contacto</string>
+
+    <string name="international_dialing_title">Assistente de marcação internacional</string>
+    <string name="international_dialing_select_country">Foi detectado que está a fazer uma chamada internacional. Escolha o seu destino.</string>
+    <string name="international_dialing_add_country_code">Foi detectado que está a ligar para um número de <xliff:g id="country_name">%s</xliff:g>. Deseja adicionar o código do país (+<xliff:g id="country_code">%s</xliff:g>)?</string>
+    <string name="international_dialing_add_country_code_and_area_code">Foi detectado que está a ligar para um número em <xliff:g id="area_name">%1$s</xliff:g>, <xliff:g id="country_name">%2$s</xliff:g>. Deseja adicionar o código do país e o código da área (+<xliff:g id="prefix">%3$s</xliff:g>)?</string> 
+    <string name="international_dialing_change_country_prefix">Foi detectado que está a efectuar uma chamada a partir de  <xliff:g id="country_name">%s</xliff:g>. Mudar prefixo internacional para \'+\'?</string>
+    <string name="international_dialing_add_country_code_input_area_code">Foi detectado que está a ligar para um número de <xliff:g id="country_name">%s</xliff:g>. Em caso afirmativo, introduza o código da área.</string>   
+    <string name="international_dialing_add_country_code_default_input_area_code">Foi detectado que está a ligar para um número de <xliff:g id="country_name">%s</xliff:g>. Se a sua cidade de destino não for <xliff:g id="area_name">%s</xliff:g>, introduza o código da área.</string>
+    <string name="international_dialing_need_area_code">É necessário o código da área da sua cidade de destino para efectuar a chamada.</string>
+    <string name="international_dialing_input_area_code">Introduza aqui o código da área</string>
+    <string name="international_dialing_dialed_number">Ligar para o número:</string>
+    <string name="international_dialing_confirm_area_code">Se a sua cidade de destino não for <xliff:g id="area_name">%s</xliff:g>, introduza abaixo o código da área da sua cidade de destino.</string>
+    <string name="international_dialing_dial_with_country_code">Ligar com código do país</string>
+    <string name="international_dialing_click_below_button">Clique no botão abaixo para alterar o número do código do país.</string>
+    <string name="international_dialing_yes">Sim. Utilizar o número abaixo:</string>
+    <string name="international_dialing_no">Não. Utilizar o número original:</string>
+    <string name="international_dialing_call_button">"Chamada"</string>
+    <string name="international_dialing_area_code">código da área</string>
+    <string name="international_dialing_invalid_number">Este número é inválido. Deseja ligar mesmo assim?</string>
+    <string name="international_dialing_add_country_code_and_area_code_without_prefix">Deseja adicionar o código do país e o código da área?</string>
+    <string name="share_too_large">O total de dados excede o limite superior, desmarque alguns itens e tente novamente.</string>
+
+</resources>

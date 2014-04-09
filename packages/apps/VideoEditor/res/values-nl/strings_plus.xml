@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="editor_gray_effect">Grijs</string>  
+    <string name="not_enough_space" product="nosdcard">"Uw USB-opslag is vol."</string>  
+    <string name="not_enough_space" product="default">"De SD-kaart is vol."</string>
+</resources>

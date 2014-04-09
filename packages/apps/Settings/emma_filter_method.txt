@@ -1,0 +1,193 @@
+-com.android.settings.applications.InstalledAppDetails.access$000 (InstalledAppDetails, Message): void
+-com.android.settings.applications.InstalledAppDetails.access$100 (InstalledAppDetails): ApplicationsState$AppEntry
+-com.android.settings.applications.InstalledAppDetails.access$1000 (InstalledAppDetails, String): void
+-com.android.settings.applications.InstalledAppDetails.access$1100 (InstalledAppDetails, int): CharSequence
+-com.android.settings.applications.InstalledAppDetails.access$1200 (InstalledAppDetails): CompoundButton
+-com.android.settings.applications.InstalledAppDetails.access$1300 (InstalledAppDetails, boolean): void
+-com.android.settings.applications.InstalledAppDetails.access$1500 (InstalledAppDetails): PackageManager
+-com.android.settings.applications.InstalledAppDetails.access$1600 (InstalledAppDetails): void
+-com.android.settings.applications.InstalledAppDetails.access$200 (InstalledAppDetails): ApplicationsState
+-com.android.settings.applications.InstalledAppDetails.access$300 (InstalledAppDetails, Message): void
+-com.android.settings.applications.InstalledAppDetails.access$400 (InstalledAppDetails): Handler
+-com.android.settings.applications.InstalledAppDetails.access$500 (InstalledAppDetails): void
+-com.android.settings.applications.InstalledAppDetails.access$600 (InstalledAppDetails): void
+-com.android.settings.applications.InstalledAppDetails.access$700 (InstalledAppDetails, String): void
+-com.android.settings.applications.InstalledAppDetails.access$800 (InstalledAppDetails, boolean, boolean): void
+-com.android.settings.applications.InstalledAppDetails.access$900 (InstalledAppDetails): Button
+-com.android.settings.applications.InstalledAppDetails.forceStopPackage (String): void
+-com.android.settings.applications.InstalledAppDetails.getMoveErrMsg (int): CharSequence
+-com.android.settings.applications.InstalledAppDetails.initiateClearUserData (): void
+-com.android.settings.applications.InstalledAppDetails.isExSdcardInserted (): boolean
+-com.android.settings.applications.ManageApplications$ApplicationsAdapter$1.performFiltering (CharSequence): Filter$FilterResults
+-com.android.settings.applications.ManageApplications$ApplicationsAdapter$1.publishResults (CharSequence, Filter$FilterResults): void
+-com.android.settings.applications.InstalledAppDetails.onPackageIconChanged (): void
+-com.android.settings.applications.InstalledAppDetails.onPackageListChanged (): void
+-com.android.settings.applications.InstalledAppDetails.onPackageSizeChanged (String): void
+-com.android.settings.applications.InstalledAppDetails.onRebuildComplete (ArrayList): void
+-com.android.settings.applications.InstalledAppDetails.processClearMsg (Message): void
+-com.android.settings.applications.InstalledAppDetails.processMoveMsg (Message): void
+-com.android.settings.applications.InstalledAppDetails.refeshUi2SD (): void
+-com.android.settings.applications.InstalledAppDetails.setNotificationsEnabled (boolean): void
+-com.android.settings.applications.RunningServiceDetails.access$000 (RunningServiceDetails, ComponentName): void
+-com.android.settings.applications.RunningServiceDetails.access$100 (RunningServiceDetails): void
+-com.android.settings.applications.RunningServiceDetails.activeDetailForService (ComponentName): RunningServiceDetails$ActiveDetail
+-com.android.settings.applications.RunningServiceDetails.finish (): void
+-com.android.settings.bluetooth.Utf8ByteLengthFilter.filter (CharSequence, int, int, Spanned, int, int): CharSequence
+-com.android.settings.bluetooth.BluetoothEventManager.access$1500 (Context): String
+-com.android.settings.bluetooth.BluetoothEventManager.getDockedDeviceAddress (Context): String
+-com.android.settings.bluetooth.BluetoothEventManager$BondStateChangedHandler.onReceive (Context, Intent, BluetoothDevice): void
+-com.android.settings.bluetooth.BluetoothEventManager$BondStateChangedHandler.showUnbondMessage (Context, String, int): void
+-com.android.settings.bluetooth.BluetoothEventManager$DockEventHandler.onReceive (Context, Intent, BluetoothDevice): void
+-com.android.settings.deviceinfo.Memory.getAppInstallLocation (): String
+-com.android.settings.deviceinfo.Memory.handleUpdateAppInstallLocation (String): void
+-com.android.settings.deviceinfo.Memory.isExSdcardInserted (): boolean
+-com.android.settings.deviceinfo.Memory.getVolumeString (int): String
+-com.android.settings.deviceinfo.Memory.access$000 (Memory): StorageManager
+-com.android.settings.deviceinfo.UsageBarPreference.UsageBarPreference (Context, AttributeSet): void
+-com.android.settings.deviceinfo.UsageBarPreference.UsageBarPreference (Context, AttributeSet, int): void
+-com.android.settings.ext.DefaultSettingsMiscExt.setTimeoutPrefTitle (Preference): void
+-com.android.settings.wifi.WifiSettings.resumeWifiScan (): void
+-com.android.settings.wifi.WifiSettings.pauseWifiScan (): void
+-com.android.settings.wifi.WifiSettings.getAccessPointsCount (): int
+-com.android.settings.wifi.WifiSettings.refreshAccessPoints (): void
+-com.android.settings.wifi.WifiSettings.addNetworkForSelector (): void
+-com.android.settings.wifi.WifiSettings.updateAP (PreferenceCategory): void
+-com.android.settings.vpn2.VpnDialog.onNothingSelected (AdapterView): void
+-com.android.settings.fuelgauge.BatteryHistoryPreference.getStats (): BatteryStats
+-com.android.settings.fuelgauge.Utils.Utils (): void
+-com.android.settings.fuelgauge.Utils.formatBytes (Context, double): String
+-com.android.settings.fuelgauge.PowerUsageDetail.access$000 (PowerUsageDetail): Button
+-com.android.settings.fuelgauge.PowerUsageDetail.doAction (int): void
+-com.android.settings.fuelgauge.PowerUsageDetail.killProcesses (): void
+-com.android.settings.fuelgauge.PowerUsageDetail.onClick (View): void
+-com.android.settings.fuelgauge.PowerUsageDetail.reportBatteryUse (): void
+-com.android.settings.fuelgauge.PowerUsageDetail.startApplicationDetailsActivity (): void
+-com.android.settings.fuelgauge.PowerUsageDetail.onReceive (Context, Intent): void
+-com.mediatek.lbs.LbsReceiver.dealWithOmaUpdataResult (boolean, String): void
+-com.mediatek.lbs.LbsReceiver.handleAgpsOmaProfileUpdate (Context, Intent): void
+-com.mediatek.lbs.LbsReceiver.handleAgpsProfileUpdate (Context, Intent): void
+-com.mediatek.lbs.LbsReceiver.handleBootCompleted (Context, Intent): void
+-com.mediatek.lbs.LbsReceiver.handleOmaCpCapability (Context, Intent): void
+-com.mediatek.lbs.LbsReceiver.handleOmaCpSetting (Context, Intent): void
+-com.mediatek.lbs.LbsReceiver.initSIMStatus (boolean): void
+-com.mediatek.lbs.EPOSettings.access$000 (EPOSettings, int): void
+-com.mediatek.lbs.EPOSettings.handleStatusChanged (): void
+-com.mediatek.lbs.EPOSettings.handleStopDownload (): void
+-com.mediatek.lbs.EPOSettings.isGpsAvailable (): boolean
+-com.mediatek.lbs.EPOSettings.isNetworkAvailable (): boolean
+-com.mediatek.lbs.EPOSettings.onCreateDialog (int): Dialog
+-com.mediatek.lbs.EPOSettings.onOptionsItemSelected (MenuItem): boolean
+-com.android.settings.tts.TtsEngineSettingsFragment.installVoiceData (): void
+-com.android.settings.tts.TtsEngineSettingsFragment.onPreferenceChange (Preference, Object): boolean
+-com.android.settings.tts.TtsEngineSettingsFragment.onPreferenceClick (Preference): boolean
+-com.android.settings.tts.tsEngineSettingsFragment.updateLanguageTo (String): void
+-com.android.settings.tts.tsEngineSettingsFragment.onOptionsItemSelected (MenuItem): boolean
+-com.android.settings.tts.TextToSpeechSettings$2.onInit (int): void
+-com.android.settings.tts.TtsEnginePreference$2.onClick (View): void
+-com.android.settings.applications.RunningServiceDetails$ActiveDetail.onClick (View): void
+-com.android.settings.applications.RunningServiceDetails$ActiveDetail.stopActiveService (boolean): void
+-com.android.settings.BrightnessPreference.onSaveInstanceState (): Parcelable
+-com.android.settings.ChooseLockGeneric$ChooseLockGenericFragment.getBiometricSensorIntent (): Intent
+-com.android.settings.ChooseLockSettingsHelper.confirmPattern (int, CharSequence, CharSequence): boolean
+-com.android.settings.PrivacySettings.setBackupEnabled (boolean): void
+-com.android.settings.PrivacySettings.showEraseBackupDialog (): void
+-com.android.settings.wifi.WifiConfigController.closeSpinnerDialog (): void
+-com.android.settings.wifi.WifiConfigController.makeNAI (String, String): String
+-com.android.settings.wifi.WifiConfigController.setCertificate (Spinner, String, String): void
+-com.android.settings.wifi.WifiConfigController.setSelection (Spinner, String): void
+-com.android.settings.fuelgauge.getIcon (): Drawable
+-com.android.settings.fuelgauge.getNameIcon (): void 	
+-com.android.settings.fuelgauge.getQuickNameIconForUid (BatteryStats$Uid): void
+-com.android.settings.fuelgauge.getValues (): double []
+-com.android.settings.fuelgauge.BatterySipper$UidToDetail (): void
+-com.android.settings.inputmethod.InputMethodAndLanguageSettings.access$000 (InputMethodAndLanguageSettings, String): void
+-com.android.settings.inputmethod.InputMethodAndLanguageSettings.access$100 (InputMethodAndLanguageSettings): void
+-com.android.settings.inputmethod.InputMethodAndSubtypeEnabler.access$000 (InputMethodAndSubtypeEnabler): List
+-com.android.settings.inputmethod.InputMethodAndSubtypeEnabler.access$100 (): String
+-com.android.settings.inputmethod.SpellCheckersSettings.access$000 (SpellCheckersSettings, SingleSpellCheckerPreference): void
+-com.android.settings.tts.TextToSpeechSettings.access$000 (TextToSpeechSettings, String): void
+-com.android.settings.WirelessSettings.onActivityResult (int, int, Intent): void
+-com.android.settings.TetherSettings.setUsbTethering (boolean): void
+-com.android.settings.TetherSettings.onConfigurationChanged (Configuration): void
+-com.android.settings.TetherSettings.onActivityResult (int, int, Intent): void
+-com.android.settings.TetherSettings.access$502 (TetherSettings, boolean): boolean
+-com.android.settings.wifi.p2p.WifiP2pSettings.onPreferenceTreeClick (PreferenceScreen, Preference): boolean
+-com.android.settings.wifi.p2p.WifiP2pSettings.onSaveInstanceState (Bundle): void
+-com.android.settings.wifi.p2p.WifiP2pSettings$3.onClick (DialogInterface, int): void
+-com.android.settings.wifi.p2p.WifiP2pSettings$4.onClick (DialogInterface, int): void
+-com.android.settings.wifi.p2p.WifiP2pSettings$6.onFailure (int): void
+-com.android.settings.TetherSettings.access$000 (TetherSettings): BluetoothPan
+-com.android.settings.TetherSettings.access$1000 (TetherSettings): boolean
+-com.android.settings.TetherSettings.access$1002 (TetherSettings, boolean): boolean
+-com.android.settings.TetherSettings.access$1100 (TetherSettings): BluetoothDun
+-com.android.settings.TetherSettings$1.onServiceDisconnected (int): void
+-com.android.settings.AccessibilitySettings.access$100 (AccessibilitySettings): void
+-com.android.settings.AccessibilitySettings.access$200 (AccessibilitySettings): void
+-com.android.settings.AccessibilitySettings.access$500 (AccessibilitySettings): Handler
+-com.android.settings.AccessibilitySettings.access$600 (Context): Set
+-com.android.settings.AccessibilitySettings.access$700 (): Set
+-com.android.settings.AccessibilitySettings.access$800 (Activity): AccessibilitySettings$ToggleSwitch
+-com.android.settings.AccessibilitySettings.createAndAddActionBarToggleSwitch (Activity): AccessibilitySettings$ToggleSwitch
+-com.android.settings.AccessibilitySettings.onConfigurationChanged (Configuration): void
+-com.android.settings.AccessibilitySettings.updateServicesPreferences (): void
+-com.android.settings.AccessibilitySettings.loadInstalledServices (): void
+-com.android.settings.DevelopmentSettings.onConfigurationChanged (Configuration): void
+-com.android.settings.wifi.WifiSettings.onContextItemSelected (MenuItem): boolean
+-com.android.settings.wifi.WifiSettings.onCreateContextMenu (ContextMenu, View, ContextMenu$ContextMenuInfo): void
+-com.android.settings.wifi.WifiSettings.onConfigurationChanged (Configuration): void
+-com.android.settings.DataUsageSummary.access$1900 (DataUsageSummary): TelephonyManagerEx
+-com.android.settings.DataUsageSummary.access$2000 (DataUsageSummary): CellConnMgr
+-com.android.settings.DataUsageSummary.access$2100 (DataUsageSummary, boolean): void
+-com.android.settings.DataUsageSummary.access$2200 (DataUsageSummary): boolean
+-com.android.settings.DataUsageSummary.access$2800 (DataUsageSummary): Intent
+-com.android.settings.DataUsageSummary.access$4100 (DataUsageSummary, long): void
+-com.android.settings.DataUsageSummary.access$4600 (DataUsageSummary, boolean): void
+-com.android.settings.DataUsageSummary.access$500 (DataUsageSummary): boolean
+-com.android.settings.DataUsageSummary.access$502 (DataUsageSummary, boolean): boolean
+-com.android.settings.DataUsageSummary.access$602 (DataUsageSummary, Boolean): Boolean
+-com.android.settings.DataUsageSummary.access$700 (DataUsageSummary): ConnectivityManager
+-com.android.settings.DataUsageSummary.isMobileDataEnabled (): boolean
+-com.android.settings.DataUsageSummary.setMobileDataEnabled (boolean): void
+-com.android.settings.DataUsageSummary.getDataRoaming (int): boolean
+-com.android.settings.DataUsageSummary.setDataRoaming (boolean): void
+-com.android.settings.net.DataUsageMeteredSettings.buildWifiPref (Context, WifiConfiguration): Preference
+-com.android.settings.wifi.WifiApDialog.closeSpinnerDialog (): void
+-com.android.settings.wifi.WifiApDialog.onNothingSelected (AdapterView): void
+-com.android.settings.wifi.WifiApEnabler.updateTetherState (Object [], Object [], Object []): void
+-com.android.settings.wifi.AccessPoint.AccessPoint (Context, Bundle): void
+-com.android.settings.wifi.AccessPoint.saveWifiState (Bundle): void
+-com.android.settings.ext.DefaultApnEditorExt.getUriFromIntent (Context, Intent): Uri
+-com.android.settings.ext.DefaultApnEditorExt.setPreferenceState (DialogPreference): void
+-com.android.settings.TetherSettings.updateUsbState (String [], String [], String []): void
+-com.android.settings.vpn2.VpnSettings.onContextItemSelected (MenuItem): boolean
+-com.android.settings.vpn2.VpnSettings.onCreateContextMenu (ContextMenu, View, ContextMenu$ContextMenuInfo): void
+-com.android.settings.vpn2.VpnSettings.onSaveInstanceState (Bundle): void
+-com.android.settings.vpn2.VpnSettings.disconnect (String): void
+-com.android.settings.vpn2.VpnSettings.connect (VpnProfile): void
+-com.android.settings.vpn2.VpnSettings$VpnPreference.update (int): void
+-com.android.settings.widget.SettingsAppWidgetProvider.access$600 (): int []
+-com.android.settings.widget.SettingsAppWidgetProvider.onDisabled (Context): void
+-com.android.settings.widget.SettingsAppWidgetProvider.toggleBrightness (Context): void
+-com.android.settings.widget.SettingsAppWidgetProvider$BluetoothStateTracker.requestStateChange (Context, boolean): void
+-com.android.settings.Utils.Utils (): void
+-com.android.settings.Utils.getDefaultIpAddresses (Context): String
+-com.android.settings.Utils.getStatusExtPlugin (Context): IStatusExt
+-com.android.settings.Utils.getStatusGeminiExtPlugin (Context): IStatusGeminiExt
+-com.android.settings.Utils.isPackageExist (Context, String): boolean
+-com.android.settings.Utils.updatePreferenceToSpecificActivityFromMetaDataOrRemove (Context, PreferenceGroup, String): boolean
+-com.android.settings.ProxySelector.ProxySelector (): void
+-com.android.settings.ProxySelector.initView (View): void
+-com.android.settings.ProxySelector.onActivityCreated (Bundle): void
+-com.android.settings.ProxySelector.onCreate (Bundle): void
+-com.android.settings.ProxySelector.onCreateDialog (int): Dialog
+-com.android.settings.ProxySelector.onCreateView (LayoutInflater, ViewGroup, Bundle): View
+-com.android.settings.ProxySelector.populateFields (): void
+-com.android.settings.ProxySelector.saveToDb (): boolean
+-com.android.settings.ProxySelector.showDialog (int): void
+-com.mediatek.schpwronoff.AlarmClock.onConfigurationChanged (Configuration): void
+-com.mediatek.schpwronoff.AlarmClock.onContextItemSelected (MenuItem): boolean
+-com.mediatek.schpwronoff.AlarmClock.updateLayout (): void
+-com.mediatek.schpwronoff.AlarmProvider.delete (Uri, String, String []): int
+-com.mediatek.schpwronoff.AlarmProvider.getType (Uri): String
+-com.mediatek.schpwronoff.AlarmProvider.insert (Uri, ContentValues): Uri
+-com.mediatek.schpwronoff.AlarmProvider$DatabaseHelper.onUpgrade (SQLiteDatabase, int, int): void

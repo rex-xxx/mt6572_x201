@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <!-- General -->  
+    <skip/>  
+    <!-- Application name -->  
+    <string name="wallpapers">טפטים חיים של Android</string>  
+    <!-- Wallpapers: -->  
+    <skip/>  
+    <!-- Wallpaper showing the camera preview -->  
+    <string name="wallpaper_walkaround">שקוף</string>  
+    <string name="wallpaper_walkaround_author">Google</string>  
+    <string name="wallpaper_walkaround_desc">ראה דרך הטלפון ונוע בלי להסתכן בתאונה.</string>  
+    <!-- Wallpaper showing grass and the sky -->  
+    <string name="wallpaper_grass">עשב</string>  
+    <string name="wallpaper_grass_author">Google</string>  
+    <string name="wallpaper_grass_desc">משטחי עשב מתנועעים ברכות תחת שמיים ביום או בלילה.</string>  
+    <!-- Wallpaper showing a galaxy -->  
+    <string name="wallpaper_galaxy">גלקסיה</string>  
+    <string name="wallpaper_galaxy_author">Google</string>  
+    <string name="wallpaper_galaxy_desc">גלקסיה המורכבת מכוכבים שסובבים לאטם.</string>  
+    <!-- Wallpaper showing leaves floating on water -->  
+    <string name="wallpaper_fall">מים</string>  
+    <string name="wallpaper_fall_author">Google</string>  
+    <string name="wallpaper_fall_desc">עלי שלכת נושרים</string>  
+    <!-- Wallpaper showing a clock -->  
+    <string name="wallpaper_clock">שעון פולאר</string>  
+    <string name="wallpaper_clock_author">Google</string>  
+    <string name="wallpaper_clock_desc">מציג את התאריך והשעה כקשתות הנעות בכיוון השעון: חודש, יום, שעה, דקה ושנייה.</string>  
+    <!-- Wallpaper showing nexus -->  
+    <string name="wallpaper_nexus">נקסוס</string>  
+    <string name="wallpaper_nexus_author">Google</string>  
+    <string name="wallpaper_nexus_desc">הצצה לרשת עצבית.</string>  
+    <!-- Polar clock: title of settings activity -->  
+    <string name="clock_settings">הגדרות שעון פולאר</string>  
+    <!-- Polar clock: label for "show seconds" pref -->  
+    <string name="show_seconds">הצג שניות</string>  
+    <!-- Polar clock: label for "variable widths" pref -->  
+    <string name="variable_line_width">שנה רוחב טבעות</string>  
+    <!-- Polar clock: label for "palette" pref -->  
+    <string name="palette">לוח צבעים</string>  
+    <!-- Polar clock: palette name -->  
+    <string name="palette_gray">ברזל</string>  
+    <!-- Polar clock: palette name -->  
+    <string name="palette_violet">חצות</string>  
+    <!-- Polar clock: palette name -->  
+    <string name="palette_matrix">מסך ירוק</string>  
+    <!-- Polar clock: palette name -->  
+    <string name="palette_white_c">דוב קוטב (דינמי)</string>  
+    <!-- Polar clock: palette name -->  
+    <string name="palette_black_c">חור שחור (דינמי)</string>  
+    <!-- Polar clock: palette name -->  
+    <string name="palette_halloween">פשטידת דלעת</string>  
+    <!-- Polar clock: palette name -->  
+    <string name="palette_zenburn">סלט פירות חייזרי</string>  
+    <!-- Polar clock: palette name -->  
+    <string name="palette_oceanic">לייזר כחול</string> 
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright 2007, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License"); 
+** you may not use this file except in compliance with the License. 
+** You may obtain a copy of the License at 
+**
+**     http://www.apache.org/licenses/LICENSE-2.0 
+**
+** Unless required by applicable law or agreed to in writing, software 
+** distributed under the License is distributed on an "AS IS" BASIS, 
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+** See the License for the specific language governing permissions and 
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="delete_progress_title">"刪除歌曲"</string>
+    <string name="delete_progress_message">"正在刪除歌曲，請稍候…"</string>
+    <string name="fail_to_start_stream" msgid="3605390187703912835">"無法播放您要求的串流媒體。"</string>
+    <string name="music_fm_transmiter">"FM發射器"</string>
+    <string name="effects_list_title" msgid="8804547581593509614">"音效"</string>
+    <string name="usb_in_using">啟用 USB 儲存裝置時無法使用播放清單。</string>
+    <string name="shuffle_menu_item_desc">隨機播放</string>
+    <string name="repeat_menu_item_desc">重複播放</string>
+    <string name="menu_search">搜尋</string>
+    <string name="delete_track_failed">無法刪除。</string>
+    <string name="no_music_title">沒有音樂.</string>
+    <string name="search_empty">無相符項目。</string>
+    <string name="audiofocus_request_failed_message">通話中無法播放音樂。</string>
+    <string name="add_folder_to_play">播放文件夾</string>
+    <string name="add_folder_as_playlist">添加文件夾播放列表</string>
+    <string name="add_song_to_play">播放文件</string>
+    <string name="add_file">"加入文檔"</string>
+    <string name="voice_command_indicator_ticker">你可以說 <xliff:g id="first">%1$s</xliff:g> 和 <xliff:g id="second">%2$s</xliff:g> 控制音樂播放。</string>
+    <string name="voice_command_indicator_content_title">"語音控制"</string>
+    <string name="voice_command_indicator_content_text">已對音樂啟用語音控制</string>
+    <string name="fl_invalid">無播放檔案的權限。</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/*
+ * Copyright (C) 2007-2008 Esmertec AG.
+ * Copyright (C) 2007-2008 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+<!-- MTK Resources -->
+    <string name="create_new_message" msgid="8735943333953093860">"Sukurti naują pranešimą"</string>
+    <string name="menu_undelivered_messages" msgid="3896857623211780616">"Nepristatyti pranešimai"</string>
+    <string name="broadcast_from_to" msgid="2050376286109362539">"<xliff:g id="SENDER">%1$s</xliff:g>skirta <xliff:g id="RECIPIENT">%2$s</xliff:g>"</string>
+    <string name="anonymous_recipient" msgid="2501437626187039034">"Anonimas"</string>
+    <string name="view_picture" msgid="4356315935277709195">"Žiūrėti paveikslėlį"</string>
+    <string name="sent_on" msgid="5868288548564632354">"Išsiųstas: <xliff:g id="DATE">%s</xliff:g>"</string>
+    <string name="name_colon" msgid="7069560650889479120"><b>"<xliff:g id="NAME">%s</xliff:g>"</b>": "</string>
+    <string name="compose_title" msgid="558578836596816068">"Sukurti"</string>
+    <string name="image_too_large" msgid="261880224164478061">"Paveikslėlis per didelis"</string>
+    <string name="ask_for_automatically_resize" msgid="7657603662407738758">"Automatiškai pakeisti paveikslėlio dydį prieš siunčiant?"</string>
+    <string name="cannot_load_message" msgid="2577010607550849892">"Negalima įkelti pranešimo."</string>
+    <string name="locked_message_cannot_be_deleted" msgid="6369452071783350219">"Užrakinto pranešimo ištrinti negalima."</string>
+    <string name="multiple_recipients" msgid="8747754491343248141">"<xliff:g id="RECIPIENTCOUNT">%1$s</xliff:g> gavėjai (-ų)"</string>
+    <string name="resize" msgid="4308912589984220360">"Keisti dydį"</string>
+    <string name="to_label" msgid="2355268818058389047">"Kam "</string>
+    <string name="confirm_delete_all_messages" msgid="5836389073199814660">"Bus ištrinta visa gija."</string>
+    <string name="mms_priority_label" msgid="7397600367853359607">"Pirmenybė"</string>
+    <string name="menu_retry_sending" msgid="3146582005568302643">"Bandyti siųsti iš naujo"</string>
+    <string name="menu_retry_sending_all" msgid="1870529976966340616">"Bandyti siųsti viską iš naujo"</string>
+    <string name="retrying_dialog_body" msgid="4738260459043003431">"Šis pranešimas <xliff:g id="MESSAGE">%s</xliff:g> nebuvo išsiųstas dėl ryšio problemos."\n"Bandoma siųsti iš naujo..."</string>
+    <string name="dl_expired_notification" msgid="950390029992535809">"Baigėsi šio pranešimo galiojimo laikas, jis bus ištrintas."</string>
+    <string name="add_attachment_activity" msgid="5324811371129695320">"Pridėti priedą:"</string>
+    <string name="select_layout_activity" msgid="5041916695464513848">"Pasirinkti išdėstymą"</string>
+    <string name="edit_text_activity" msgid="5915226413346879213">"Redaguoti tekstą"</string>
+    <string name="pick_numbers_activity" msgid="2083330191224178637">"Pasirinkti numerius"</string>
+    <string name="send_using_mms_activity" msgid="3703434556280345726">"Siųsti kaip daugialypės terpės pranešimą..."</string>
+    <string name="select_contact_method_activity" msgid="1743384358979323991">"Pasirinkti adresato būdą"</string>
+    <string name="me" msgid="341726346007839961">"Aš"</string>
+    <string name="invalid_contact_message" msgid="8215051456181842274">"Kontaktas neegzistuoja."</string>
+    <string name="finish">"Atlikta"</string>
+</resources>

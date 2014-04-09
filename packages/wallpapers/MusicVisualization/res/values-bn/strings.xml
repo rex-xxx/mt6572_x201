@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wallpapers" msgid="7646602778647576267">মিউজিক ভিজুয়ালাইজেশন ওয়ালপেপার</string>
+    <string name="author" msgid="6199067265817633685">গুগল</string>
+    <string name="vis2_desc" msgid="192540837551311681">বর্তমানে বাজছে এমন যেকোন মিউজিক ট্র্যাকের সুরতরঙ্গ আঁকে।</string>
+    <string name="vis3_desc" msgid="3878566533630652215">বর্তমানে বাজছে এমন যেকোন মিউজিক ট্র্যাকের ফ্রিকোয়েন্সি স্পেকট্রাম দেখায়।</string>
+    <string name="vis4_desc" msgid="2752246332053894804">এনালগ সাউন্ড মিটারকে অনুকরণ করে।</string>
+    <string name="vis5_desc" msgid="4777817231155032917">সব মিউজিক ভিজুয়েলাইজেশন একসাথে, ধীরে ধীরে থ্রিডি-তে আবর্তিত হয়।</string>
+</resources>
+

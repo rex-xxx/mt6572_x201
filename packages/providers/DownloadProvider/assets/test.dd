@@ -1,0 +1,9 @@
+<media xmlns="http://www.openmobilealliance.org/xmlns/dd">
+<objectURI>files/test.3gp</objectURI>
+<size>93528</size>
+<type>video/3gpp</type>
+<name>Nokia Movies</name>
+<DDversion>1.0</DDversion>
+<installNotifyURI>http://wap1.mtk.com.tw/smallp/cgi-bin/test.pl</installNotifyURI>
+<description>OMA Download with Notify</description>
+</media>

@@ -1,0 +1,34 @@
+# Disable the warnings of using dynamic method call in common library.
+-dontnote com.android.gallery3d.common.*
+
+# Keep all classes extended from com.android.gallery3d.common.Entry
+# Since we annotate on the fields and use reflection to create SQL
+# according to those field.
+
+-keep class * extends com.android.gallery3d.common.Entry {
+    @com.android.gallery3d.common.Entry$Column <fields>;
+}
+
+# ctors of subclasses of CameraPreference are called with Java reflection.
+-keep class * extends com.android.camera.CameraPreference {
+  <init>(...);
+}
+
+-keep class com.android.camera.ActivityBase {
+  public int getResultCode();
+  public android.content.Intent getResultData();
+}
+
+-keep class com.android.camera.VideoCamera {
+  public boolean isRecording();
+  public void onCancelBgTraining(...);
+  public void onProtectiveCurtainClick(...);
+}
+
+-keep class * extends android.app.Activity {
+  @com.android.camera.OnClickAttr <methods>;
+}
+
+-keep class com.android.camera.CameraHolder {
+  public static void injectMockCamera(...);
+}

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="english_ime_name" msgid="7252517407088836577">"অ্যান্ড্রোয়েড কিবোর্ড"</string>
+    <string name="aosp_android_keyboard_ime_name" msgid="7877134937939182296">"অ্যান্ড্রোয়েড কিবোর্ড (AOSP)"</string>
+    <string name="english_ime_settings" msgid="6661589557206947774">"অ্যান্ড্রোয়েড কিবোর্ড সেটিং"</string>
+    <string name="english_ime_input_options" msgid="3909945612939668554">"ইনপুট অপশন"</string>
+    <string name="spell_checker_service_name" msgid="7338064335159755926">"অ্যান্ড্রোয়ড সংশোধন"</string>
+    <string name="aosp_spell_checker_service_name" msgid="6985142605330377819">"অ্যান্ড্রোয়ড সংশোধন (AOSP)"</string>
+    <string name="android_spell_checker_settings" msgid="5822324635435443689">"বানান পরীক্ষা সেটিং"</string>
+    <string name="use_contacts_for_spellchecking_option_title" msgid="5374120998125353898">"পরিচিতজনের নাম খুঁজুন"</string>
+    <string name="use_contacts_for_spellchecking_option_summary" msgid="8754413382543307713">"আপনার পরিচিতজনের তালিকায় প্রবেশ করানো নাম বানান পরীক্ষক ব্যবহার করে।"</string>
+    <string name="vibrate_on_keypress" msgid="5258079494276955460">"কি চাপের সময় কম্পন সৃষ্টি করুন"</string>
+    <string name="sound_on_keypress" msgid="6093592297198243644">"কি চাপের সময় শব্দ"</string>
+    <string name="popup_on_keypress" msgid="123894815723512944">"কি চাপের সময় পপআপ"</string>
+    <string name="general_category" msgid="1859088467017573195">"সাধারণ"</string>
+    <string name="correction_category" msgid="2236750915056607613">"পাঠ্য সংশোধন"</string>
+    <string name="misc_category" msgid="6894192814868233453">"অন্যান্য অপশন"</string>
+    <string name="advanced_settings" msgid="362895144495591463">"উচ্চতর সেটিং"</string>
+    <string name="advanced_settings_summary" msgid="4487980456152830271">"দক্ষ ব্যবহারকারীর জন্য অপশন"</string>
+    <string name="include_other_imes_in_language_switch_list" msgid="4533689960308565519">"অন্যান্য ইনপুট পদ্ধতিতে যান"</string>
+    <string name="include_other_imes_in_language_switch_list_summary" msgid="840637129103317635">"ভাষা পরিবর্তন কি অন্যান্য ইনপুট পদ্ধতিও অন্তভুর্ক্ত করে।"</string>
+    <string name="suppress_language_switch_key" msgid="8003788410354806368">"ভাষা পরিবর্তন কি-তে চাপ দিন"</string>
+    <string name="key_preview_popup_dismiss_delay" msgid="6213164897443068248">"কি পপআপ দূরীকরণে বিলম্ব"</string>
+    <string name="key_preview_popup_dismiss_no_delay" msgid="2096123151571458064">"বিলম্ব নেই"</string>
+    <string name="key_preview_popup_dismiss_default_delay" msgid="2166964333903906734">"ডিফল্ট"</string>
+    <string name="use_contacts_dict" msgid="4435317977804180815">"পরিচিতজনের নাম পরামর্শ দিন"</string>
+    <string name="use_contacts_dict_summary" msgid="6599983334507879959">"পরামর্শ ও সংশোধনের জন্য পরিচিতজনের তালিকা থেকে নাম"</string>
+    <string name="enable_span_insert" msgid="7204653105667167620">"পুনঃসংশোধন সক্রিয় করুন"</string>
+    <string name="enable_span_insert_summary" msgid="2947317657871394467">"পুনঃসংশোধনের জন্য পরামর্শ সেট করুন"</string>
+    <string name="auto_cap" msgid="1719746674854628252">"অটো-ক্যাপিটালাইজেশন"</string>
+    <string name="configure_dictionaries_title" msgid="4238652338556902049">"অ্যাড-অন অভিধান"</string>
+    <string name="main_dictionary" msgid="4798763781818361168">"প্রধান অভিধান"</string>
+    <string name="prefs_show_suggestions" msgid="8026799663445531637">"সংশোধন পরামর্শ দেখান"</string>
+    <string name="prefs_show_suggestions_summary" msgid="1583132279498502825">"টাইপ করার সময় পরামর্শকৃত শব্দাবলি দেখান"</string>
+    <string name="prefs_suggestion_visibility_show_name" msgid="3219916594067551303">"সবসময় দেখান"</string>
+    <string name="prefs_suggestion_visibility_show_only_portrait_name" msgid="3551821800439659812">"পোর্ট্রেট মোডে দেখান"</string>
+    <string name="prefs_suggestion_visibility_hide_name" msgid="6309143926422234673">"সবসময় আড়ালে রাখুন"</string>
+    <string name="auto_correction" msgid="4979925752001319458">"স্বয়ংক্রিয় সংশোধন"</string>
+    <string name="auto_correction_summary" msgid="5625751551134658006">"স্পেসবার এবং বিরামচিহ্ন স্বয়ংক্রিয়ভাবে ভুলভাবে টাইপ করা শব্দ সংশোধন করবে।"</string>
+    <string name="auto_correction_threshold_mode_off" msgid="8470882665417944026">"বন্ধ"</string>
+    <string name="auto_correction_threshold_mode_modest" msgid="8788366690620799097">"মধ্যম"</string>
+    <string name="auto_correction_threshold_mode_aggeressive" msgid="3524029103734923819">"গুরুতর"</string>
+    <string name="auto_correction_threshold_mode_very_aggeressive" msgid="3386782235540547678">"অতি গুরুতর"</string>
+    <string name="bigram_suggestion" msgid="8169311444438922902">"বিগ্রাম প্রেডিকশন"</string>
+    <string name="bigram_suggestion_summary" msgid="6635527607242625713">"প্রেডিকশনের জন্য পূববর্তী শব্দও ব্যবহার করুন"</string>
+    <string name="bigram_prediction" msgid="3216364899483135294">"পরবর্তী শব্দ অনুমান করা"</string>
+    <string name="bigram_prediction_summary" msgid="1747261921174300098">"অনুমানের জন্য পূরবর্তী শব্দও ব্যবহার করুন"</string>
+    <string name="added_word" msgid="8993883354622484372">"<xliff:g id="WORD">%s</xliff:g> : সংরক্ষিত"</string>
+    <string name="label_go_key" msgid="1635148082137219148">"যান"</string>
+    <string name="label_next_key" msgid="362972844525672568">"পরবর্তী"</string>
+    <string name="label_previous_key" msgid="1211868118071386787">"পূর্ববর্তী"</string>
+    <string name="label_done_key" msgid="2441578748772529288">"সম্পন্ন"</string>
+    <string name="label_send_key" msgid="2815056534433717444">"পাঠান"</string>
+    <string name="label_to_alpha_key" msgid="4793983863798817523">"কখগ"</string>
+    <string name="label_to_symbol_key" msgid="8516904117128967293">"?১২৩"</string>
+    <string name="label_to_symbol_with_microphone_key" msgid="9035925553010061906">"১২৩"</string>
+    <string name="label_pause_key" msgid="181098308428035340">"বিরাম দিন"</string>
+    <string name="label_wait_key" msgid="6402152600878093134">"অপেক্ষা করুন"</string>
+    <string name="spoken_use_headphones" msgid="896961781287283493">"উচ্চস্বরে বলা পাসওয়ার্ড কি শোনার জন্য হেডসেট প্লাগইন করুন"</string>
+    <string name="spoken_current_text_is" msgid="2485723011272583845">"বর্তমান টেক্সট  %s "</string>
+    <string name="spoken_no_text_entered" msgid="7479685225597344496">"কোনো শব্দ প্রবেশ করানো হয়নি"</string>
+    <string name="spoken_description_unknown" msgid="3197434010402179157">"কি কোড %d"</string>
+    <string name="spoken_description_shift" msgid="244197883292549308">"শিফট"</string>
+    <string name="spoken_description_shift_shifted" msgid="1681877323344195035">"শিফট সক্রিয়"</string>
+    <string name="spoken_description_caps_lock" msgid="3276478269526304432">"ক্যাপস লক সক্রিয়"</string>
+    <string name="spoken_description_delete" msgid="8740376944276199801">"মুছে ফেলুন"</string>
+    <string name="spoken_description_to_symbol" msgid="5486340107500448969">"প্রতীক"</string>
+    <string name="spoken_description_to_alpha" msgid="23129338819771807">"অক্ষর"</string>
+    <string name="spoken_description_to_numeric" msgid="591752092685161732">"সংখ্যা"</string>
+    <string name="spoken_description_settings" msgid="4627462689603838099">"সেটিং"</string>
+    <string name="spoken_description_tab" msgid="2667716002663482248">"ট্যাব"</string>
+    <string name="spoken_description_space" msgid="2582521050049860859">"স্পেস"</string>
+    <string name="spoken_description_mic" msgid="615536748882611950">"ভয়েস ইনপুট"</string>
+    <string name="spoken_description_smiley" msgid="2256309826200113918">"স্মাইলি face"</string>
+    <string name="spoken_description_return" msgid="8178083177238315647">"ফেরত যান"</string>
+    <string name="spoken_description_search" msgid="1247236163755920808">"অনুসন্ধান করুন"</string>
+    <string name="spoken_description_dot" msgid="40711082435231673">"বিন্দু"</string>
+    <string name="spoken_description_shiftmode_on" msgid="5700440798609574589">"শিফ্ট সক্রিয়"</string>
+    <string name="spoken_description_shiftmode_locked" msgid="593175803181701830">"ক্যাপস লক সক্রিয়"</string>
+    <string name="spoken_description_shiftmode_off" msgid="657219998449174808">"শিফ্ট নিষ্ক্রিয়"</string>
+    <string name="spoken_description_mode_symbol" msgid="7183343879909747642">"সিম্বল মোড"</string>
+    <string name="spoken_description_mode_alpha" msgid="3528307674390156956">"লেটার মোড"</string>
+    <string name="spoken_description_mode_phone" msgid="6520207943132026264">"ফোন মোড"</string>
+    <string name="spoken_description_mode_phone_shift" msgid="5499629753962641227">"ফোন সিম্বল মোড"</string>
+    <string name="voice_input" msgid="3583258583521397548">"ভয়েস ইনপুট কি"</string>
+    <string name="voice_input_modes_main_keyboard" msgid="3360660341121083174">"মেইন কিবোর্ডে"</string>
+    <string name="voice_input_modes_symbols_keyboard" msgid="7203213240786084067">"প্রতীক কিবোর্ডে"</string>
+    <string name="voice_input_modes_off" msgid="3745699748218082014">"বন্ধ"</string>
+    <string name="voice_input_modes_summary_main_keyboard" msgid="6586544292900314339">"মেইন কিবোর্ডে মাইক"</string>
+    <string name="voice_input_modes_summary_symbols_keyboard" msgid="5233725927281932391">"প্রতীক কিবোর্ডে মাইক"</string>
+    <string name="voice_input_modes_summary_off" msgid="63875609591897607">"ভয়েস ইনপুট নিষ্ক্রিয়"</string>
+    <string name="configure_input_method" msgid="373356270290742459">"ইনপুট পদ্ধতি কনফিগার করুন"</string>
+    <string name="language_selection_title" msgid="1651299598555326750">"ইনপুট ভাষা"</string>
+    <string name="select_language" msgid="3693815588777926848">"ইনপুট ভাষা"</string>
+    <string name="hint_add_to_dictionary" msgid="573678656946085380">"সংরক্ষণ করতে আবার স্পর্শ করুন"</string>
+    <string name="has_dictionary" msgid="6071847973466625007">"অভিধান আছে"</string>
+    <string name="prefs_enable_log" msgid="6620424505072963557">"ব্যবহারকারীর মতামত সক্রিয় করুন"</string>
+    <string name="prefs_description_log" msgid="5827825607258246003">"স্বয়ংক্রিয়ভাবে ব্যবহারের পরিসংখ্যান ও ক্র্যাশ রিপোর্ট গুগলের কাছে পাঠিয়ে এই ইনপুট মেথড এডিটরকে উন্নত করতে সাহায্য করুন।"</string>
+    <string name="keyboard_layout" msgid="8451164783510487501">"কিবোর্ড থিম"</string>
+    <string name="subtype_en_GB" msgid="88170601942311355">"ইংরেজি (ব্রিটিশ)"</string>
+    <string name="subtype_en_US" msgid="6160452336634534239">"ইংরেজি (আমেরিকা)"</string>
+    <string name="subtype_with_layout_en_GB" msgid="2179097748724725906">"ইংরেজি (যুক্তরাজ্য) (
+        <xliff:g id="LAYOUT">%s</xliff:g>)"</string>
+    <string name="subtype_with_layout_en_US" msgid="1362581347576714579">"ইংরেজি (যুক্তরাষ্ট্র) (
+        <xliff:g id="LAYOUT">%s</xliff:g>)"</string>
+    <string name="subtype_no_language" msgid="141420857808801746">"কোনো ভাষা নেই"</string>
+    <string name="subtype_no_language_qwerty" msgid="2956121451616633133">"কোনো ভাষা নেই (QWERTY)"</string>
+    <string name="subtype_no_language_qwertz" msgid="1177848172397202890">"কোনো ভাষা নেই (QWERTZ)"</string>
+    <string name="subtype_no_language_azerty" msgid="8721460968141187394">"কোনো ভাষা নেই (AZERTY)"</string>
+    <string name="subtype_no_language_dvorak" msgid="3122976737669823935">"কোনো ভাষা নেই (Dvorak)"</string>
+    <string name="subtype_no_language_colemak" msgid="4205992994906097244">"কোনো ভাষা নেই (Colemak)"</string>
+    <string name="subtype_no_language_pcqwerty" msgid="8840928374394180189">"কোনো ভাষা নেই (PC)"</string>
+    <string name="custom_input_styles_title" msgid="8429952441821251512">"কাস্টম ইনপুট স্টাইল"</string>
+    <string name="add_style" msgid="6163126614514489951">"স্টাইল যোগ করুন"</string>
+    <string name="add" msgid="8299699805688017798">"যোগ করুন"</string>
+    <string name="remove" msgid="4486081658752944606">"সরিয়ে ফেলুন"</string>
+    <string name="save" msgid="7646738597196767214">"সংরক্ষণ করুন"</string>
+    <string name="subtype_locale" msgid="8576443440738143764">"ভাষা"</string>
+    <string name="keyboard_layout_set" msgid="4309233698194565609">"লেআউট"</string>
+    <string name="custom_input_style_note_message" msgid="8826731320846363423">"ব্যবহারের পূর্বে আপনার কাস্টম ইনপুট স্টাইলকে সক্রিয় করতে হবে। আপনি এখন সক্রিয় করতে চান?"</string>
+    <string name="enable" msgid="5031294444630523247">"সক্রিয় করুন"</string>
+    <string name="not_now" msgid="6172462888202790482">"এখন না"</string>
+    <string name="custom_input_style_already_exists" msgid="8008728952215449707">"একই রকম ইনপুট স্টাইল ইতিমধ্যে আছে: 
+        <xliff:g id="input_style_name">%s</xliff:g>"</string>
+    <string name="prefs_usability_study_mode" msgid="1261130555134595254">"ব্যবহারযোগ্যতা স্টাডি মোড"</string>
+    <string name="prefs_keypress_vibration_duration_settings" msgid="1829950405285211668">"কম্পন সময় সেটিং"</string>
+    <string name="prefs_keypress_sound_volume_settings" msgid="5875933757082305040">"কি চাপার শব্দের ভলিউমের সেটিং"</string>
+</resources>

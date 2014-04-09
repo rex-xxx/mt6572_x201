@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="calendar_storage">ပြက္ခဒိန်သိမ်းဆည်းရန်နေရာ</string>  
+    <string name="upgrade_msg">ပြက္ခဒိန်ဒေတာဘေ့(စ်)အဆင့်မြှင့်ရန်</string>  
+    <string name="calendar_default_name">အလိုအလျောက်</string>  
+    <string name="calendar_info">ပြက္ခဒိန်အချက်အလက်</string>  
+    <string name="calendar_info_error">အမှား</string>  
+    <string name="calendar_info_no_calendars">ပြက္ခဒိန်များမရှိ</string>  
+    <string name="calendar_info_events">ဖြစ်ရပ်များ - 
+        <xliff:g id="events">%1$d</xliff:g> 
+    </string>  
+    <string name="calendar_info_events_dirty">ဖြစ်ရပ်များ - 
+        <xliff:g id="events">%1$d</xliff:g>, သိမ်းဆည်းမထားသော - 
+        <xliff:g id="dirty events">%2$d</xliff:g> 
+    </string>  
+    <string name="provider_label">ပြက္ခဒိန်</string>  
+    <string name="debug_tool_delete_button">ယခုဖျက်ရန်</string>  
+    <string name="debug_tool_start_button">စတင်ရန်</string>  
+    <string name="debug_tool_message">သင်ဤသည်တို့ကိုလုပ်ဆောင်တော့မည် ၁) မည်သည့်လုပ်ငန်းသုံး ပရိုဂရမ်ကဖြစ်စေ ဖတ်ရုံသာဖတ်နိုင်သော သင့်ပြက္ခဒိန်ဒေတာဘေ့(စ်)ကို SD ကတ်/USBသိမ်းဆည်းရန်နေရာသို့ မိတ္တူကူးခြင်း ၂) အီးမေး(လ်)ဖြင့် ပို့ခြင်း။ သင်အောင်မြင်စွာ မိတ္တူကူးပြီးသည်နှင့် တပြိုင်နက်စက်ထဲရှိ မိတ္တူကိုဖျက်ပစ်ရန် သို့မဟုတ် အီးမေး(လ်)လက်ခံရရှိပြီးသည်နှင့် မိတ္တူကိုဖျက်ပစ်ရန် မမေ့ပါနှင့်။</string>  
+    <string name="debug_tool_email_sender_picker">သင့်ဖိုင်ကိုပို့ရန် ပရိုဂရမ်းတစ်ခုရွေးပါ</string>  
+    <string name="debug_tool_email_subject">ပြက္ခဒိန် Db ပူးတွဲထားသည်</string>  
+    <string name="debug_tool_email_body">ပူးတွဲပါပြက္ခဒိန်ဒေတာဘေ့(စ်)တွင် ကျွန်ပ်၏ချိန်းဆိုချက်များ အားလုံးနှင့် ကိုယ်ရေးကိုယ်တာ အချက်အလက်များပါသည်။ ဂရုတစ်စိုက်ကိုင်တွယ်ပါ။</string> 
+</resources>

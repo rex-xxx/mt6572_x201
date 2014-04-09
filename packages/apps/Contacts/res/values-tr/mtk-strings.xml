@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">    
+    <string name="deleteConfirmation_title" msgid="1418215926447642260">"Kişi silinsin mi?"</string>
+    <string name="add_contact_dlg_title" msgid="2896685845822146494">"Kişi ekle"</string>
+    <string name="no_sdcard_title" product="nosdcard" msgid="8543619259870877473">"Depolama birimi yok"</string>
+    <string name="no_sdcard_title" product="default" msgid="5911758680339949273">"SD kart yok"</string>
+    <string name="searching_vcard_title" msgid="4970508055399376813">"vCard aranıyor"</string>
+    <string name="scanning_sdcard_failed_title" product="nosdcard" msgid="4944932641334764942">"Depolama birimi taranamadı"</string>
+    <string name="scanning_sdcard_failed_title" product="default" msgid="6664940444476572612">"SD kart taranamadı"</string>
+    <string name="cancel_import_confirmation_title" msgid="5578683596010294836">"vCard içe aktarmayı iptal etme"</string>
+    <string name="cancel_export_confirmation_title" msgid="6516467140276768528">"vCard dışa aktarmayı iptal etme"</string>
+    <string name="menu_all_contacts" msgid="5101735431586050711">"Tüm kişiler"</string>
+    <string name="search_bar_hint" msgid="1012756309632856553">"Kişileri ara"</string>
+    <string name="aggregation_suggestion_join_dialog_title" msgid="5276699501316246253">"Kişileri birleştir"</string>
+    <string name="aggregation_suggestion_edit_dialog_title" msgid="1064042382692091314">"Seçili kişileri düzenle"</string>
+    <string name="cancel_confirmation_dialog_title" msgid="3950463632415908534">"Değişiklikleri sil"</string>
+  <string name="menu_print">"Yazdır"</string>
+  <string name="printContact">"ile dosya yazdır"</string>
+  <string name="no_way_to_print">"Dosyaları yazdırmak için uygulama mevcut değil."</string>
+  
+    <!--The following lines are provided and maintained by Mediatek Inc.  -->
+    <!-- The title for multiple selection call log activity -->
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g> seçildi</string>
+    <!-- Menu item used to start call log multiple selection activity -->
+    <string name="recentCalls_delete">Sil</string>
+    <string name="menu_selectAll">"Tümünü seç"</string>
+    <string name="menu_clearAll">"Tüm seçimi kaldır"</string>
+        <!-- Text used to show the dual sim info -->
+    <string name="sim1">SIM1</string>
+    <string name="sim2">SIM2</string>
+    <string name="all_resources">Tüm Kaynaklar</string>
+    <string name="choose_resources_header">Kaynakları Seç</string>
+    <string name="all_tab_label1">Tümü</string>
+    <string name="call_log_item_count">(<xliff:g id="count">%1$d</xliff:g>)</string>
+
+    <!-- below strings are used by dialpad -->
+    <string name="call_indicator_3g">3G</string>
+    <string name="call_sipcall">İnternet çağrısı</string>
+    <string name="call_pin_dialog_title">SIM kart seçin</string>
+    <string name="call_people">Kişiler</string>
+    <string name="call_ip_dial">IP Çevir</string>
+    <string name="call_speed_dial">Hızlı Arama</string>
+    <string name="call_video_call">Görüntülü Arama</string>
+    <string name="add_speed_dial">Hızlı arama eklemek için dokunun</string>
+    <string name="speed_dial_added"><xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>), <xliff:g id="key">%3$s</xliff:g> numaralı hızlı aramaya eklendi</string>
+    <string name="remove_speed_dial">Kaldır</string>
+    <string name="remove_sd_confirm_1"><xliff:g id="contact_name">%1$s</xliff:g> (<xliff:g id="phone_label">%2$s</xliff:g>), <xliff:g id="key">%3$s</xliff:g> numaralı hızlı aramadan kaldırılacak, emin misiniz?</string>
+    <string name="emergencycall">Acil durum çağrısı</string>
+    <string name="imei_invalid">Geçersiz</string>
+    <!-- Speed Dial phase II -->
+    <string name="sd_add">Ekle</string>
+    <string name="reselect_number">Numara önceden bir hızlı arama tuşuna atanmış; lütfen başka bir numara seçin.</string>
+    <!-- strings are used by dialpad end -->
+    <string name="calllog_today">Bugün</string>
+    <string name="calllog_yesterday">Dün</string>
+    
+    <!-- strings are used by contact detail -->
+    <string name="menu_association">SIM kartını ilişkilendir</string>
+    <string name="menu_remove_association">SIM İlişkilendirmeyi Kaldır</string>
+    <string name="remove_association_message">Bu numaranın SIM ilişkilendirmesini kaldırmak istediğinizden emin misiniz?</string>
+    <string name="remove_number_title">Kaldır</string>  
+    <string name="warning_detail">SIM ilişkilendirme kişiyi telefona alacak. SIM ilişkilendirmeye devam etmek istiyor musunuz?</string>
+    <string name="associatiated_SIM">"İlişkilendirilen SIM"</string>
+    <string name="unassociated">"İlişkilendirilmedi"</string>
+    <string name="associate_SIM">"İlişkilendirilen SIM"</string>
+    <string name="block_incoming_call">Gelen çağrıyı doğrudan bloke et</string>
+    <string name="block_video_incoming_call"></string>
+
+    <!-- Contacts multi-choice string -->
+    <string name="menu_actionbar_selected_items"><xliff:g id="name">%s</xliff:g> seçildi</string>
+
+       <!-- MTK for edit SIM/USIM contact -->
+    <string name="has_double_phone_number">Aynı tür numarası iki kere kaydedilemez, lütfen kontrol edin.</string>
+    <string name="sim_invalid">SIM kart geçerli değilse kişi kaydedilemiyor.</string>
+    <string name="cannot_insert_null_number">Numarası boş olan kişi kaydedilemez</string>
+    <string name="AirPlane_mode_on">Uçak modu açık olduğunda kişi kaydedilemez.</string>
+    <string name="FDNEnabled">FDN etkinken kişi kaydedilemiyor.</string>
+    <string name="sim_invalid_number">Geçersiz numara kaydedilemiyor.</string>
+    <string name="email_invalid">Geçersiz e-posta kaydedilemez</string>
+    <string name="email_2g_invalid">"E-posta 2G SIM'e kaydedilemez, kaydetmek için lütfen 3G SIM seçin."</string>
+    <string name="sim_invalid_fix_number">Geçersiz sabit numara kaydedilemez.</string>
+    <string name="msg_loading_sim_contacts_toast">"SIM kişileri arkaplana yükleniyor, lütfen, biraz bekleyin."</string>
+    <string name="fix_number_too_long">"Sabit numara çok uzun."</string>
+    <string name="name_too_long">"Ad çok uzun."</string>
+    <string name="storage_full">Depolama alanı dolu</string>
+    <string name="number_too_long">"Sayı çok uzun."</string>
+    <string name="generic_failure">Genel Hata.</string>
+
+    <string name="send_groupsms_no_number_more">"%1$s, %2$s ve başka kişiler geçerli numaralara sahip değildir."</string>
+    <string name="send_groupsms_no_number_1">"%1$s geçerli bir numaraya sahip değil."</string>
+    <string name="send_groupsms_no_number_2">"%1$s ve %2$s geçerli numaralara sahip değiller."</string>    
+
+    <!-- Feature Fix by Mediatek Begin -->
+
+    <!-- The local account type to be added, it used to manage SIM contacts. -->
+    <string name="account_type_sim" product="tablet">SIM Hesabı</string>
+    <!-- The local account type to be added, it used to manage SIM contacts. -->
+    <string name="account_type_sim" product="default">SIM Hesabı</string>
+
+    <!-- The local account type to be added, it used to manage USIM contacts. -->
+    <string name="account_type_usim" product="tablet">USIM Hesabı</string>
+    <!-- The local account type to be added, it used to manage USIM contacts. -->
+    <string name="account_type_usim" product="default">USIM Hesabı</string>
+
+    <!-- The local account type to be added, it used to manage Phone contacts. -->
+    <string name="account_type_local_phone" product="tablet">Telefon Yerel Hesabı</string>
+    <!-- The local account type to be added, it used to manage Phone contacts. -->
+    <string name="account_type_local_phone" product="default">Telefon Yerel Hesabı</string>
+
+
+    <!-- The local account to be added, it used to manage SIM/USIM/PHONE contacts. -->
+    <string name="local_account_type" product="tablet">Yerel Hesap</string>
+    <!-- The local account to be added, it used to manage SIM/USIM/PHONE contacts. -->
+    <string name="local_account_type" product="default">Yerel Hesap</string>
+
+    <!-- The local account to be added, it used to manage SIM/USIM/PHONE contacts settings. -->
+    <string name="local_account_label" product="tablet">Yerel Hesap</string>
+    <!-- The local account to be added, it used to manage SIM/USIM/PHONE contacts settings -->
+    <string name="local_account_label" product="default">Yerel Hesap</string>
+
+    <!-- Title for data source when creating or editing a contact that doesn't
+         belong to a specific account.  This contact will only exist on the SIM Card
+         and will not be synced. -->
+    <string name="account_type_sim_label" product="tablet">Yalnızca SIM, senk. edilmedi</string>
+    <!-- Title for data source when creating or editing a contact that doesn't
+         belong to a specific account.  This contact will only exist on the SIM Card
+         and will not be synced. -->
+    <string name="account_type_sim_label" product="default">Yalnızca SIM, senk. edilmedi</string>
+
+    <!-- Title for data source when creating or editing a contact that doesn't
+         belong to a specific account.  This contact will only exist on the USIM Card
+         and will not be synced. -->
+    <string name="account_type_usim_label" product="tablet">Sadece USIM, eşitlenmemiş</string>
+    <!-- Title for data source when creating or editing a contact that doesn't
+         belong to a specific account.  This contact will only exist on the USIM Card
+         and will not be synced. -->
+    <string name="account_type_usim_label" product="default">Sadece USIM, eşitlenmemiş</string>
+
+    <!-- below strings are used by contacts group -->
+    <string name="please_wait">"Lütfen bekleyin..."</string>
+    <string name="move_contacts_to">Kişileri taşı</string>
+    <string name="menu_move_group">"Grup üyelerini taşı"</string> 
+    <string name="menu_message_group">"Gruba ileti gönder"</string>
+    <string name="menu_email_group">"Gruba E-posta gönder"</string>    
+    <string name="moving_group_members">"Grup üyeleri taşınıyor\u2026"</string>
+    <string name="removing_group_members_sucess">"Grup üyeleri başarıyla kaldırıldı"</string>
+    <string name="moving_group_members_sucess">"Grup üyeleri başarıyla taşındı"</string>
+    <string name="moving_group_members_fail">"Grup üyeleri taşınamadı"</string>
+    <string name="no_valid_number_in_group">Bu grupta geçerli telefon numarası olan kişi yok.</string>
+    <string name="no_valid_email_in_group">Bu grupta E-postası olan kişi yok.</string>
+    <string name="email_error">E-posta uygulaması yüklemeniz veya hesabınızı yapılandırmanız gerekiyor!</string>
+	<string name="usim_group_name_exceed_limit">"Grup adı USIM için çok uzun."</string>  
+    <string name="usim_group_count_exceed_limit">"USIM'e başka yeni grup eklenemez."</string>  
+    <!-- below strings are used by contacts import/export -->
+    <string name="import_export_title">İçe/Dışa Aktar</string>
+    <string name="next">İleri</string>
+    <string name="imexport_bridge_sd_card">SD Kartı</string>
+    <string name="tips_source">Kişileri kopyalamak istediğiniz kaynağı seçin</string>    
+    <string name="tips_target">Kişileri kopyalamak istediğiniz hedefi seçin</string>
+    <string name="back">Geri</string>
+    <string name="imexport_title">Kişi Al/Ver</string>
+    <!-- Feature Fix by Mediatek End -->
+
+
+    <!-- Title when popup ContactEditorAccountsChangedActivity's dialog -->
+    <string name="store_contact_to">Kişiyi şuraya kaydet</string>
+
+    <!-- strings are used by people activity -->
+    <string name="menu_delete_contact">Kişiyi sil</string>
+    
+    <!-- string for multiple choice -->
+
+    <string name="notifier_finish_delete_title">Kişiler başarıyla silindi</string>  
+    <string name="notifier_finish_delete_content"> 
+        <xliff:g id="total">%d</xliff:g> kişi silindi
+    </string>  
+    <string name="notifier_finish_copy_title">Kişiler başarıyla kopyalandı</string>  
+    <string name="notifier_finish_copy_content"> 
+        <xliff:g id="total">%d</xliff:g> kişi kopyalandı
+    </string>  
+    <string name="notifier_multichoice_process_report">Tamamlanan: 
+        <xliff:g id="items">%d</xliff:g>\nTamamlanmayan: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>  
+    <string name="notifier_failure_by_sim_full">SIM depolama alanı dolduğundan hata oluştu\nTamamlanan: 
+        <xliff:g id="items">%d</xliff:g>\nTamamlanmayan: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>  
+    <string name="notifier_failure_sim_notready">SIM hazır olmadığından hata oluştu\nTamamlanan: 
+        <xliff:g id="items">%d</xliff:g>\nTamamlanmayan: 
+        <xliff:g id="items">%d</xliff:g> 
+    </string>  
+    <string name="notifier_cancel_delete_title">Kişi silme işlemi iptal edildi</string>  
+    <string name="notifier_fail_delete_title">Kişi silme işlemi başarısız</string>  
+    <string name="notifier_cancel_copy_title">Kişi kopyalama işlemi iptal edildi</string>  
+    <string name="notifier_fail_copy_title">Kişi kopyalama işlemi başarısız</string>  
+    <string name="notifier_progress_delete_message"> 
+        <xliff:g id="current_number">%s</xliff:g>/ 
+        <xliff:g id="total_number">%s</xliff:g> siliniyor: 
+        <xliff:g id="name" example="JoeDue">%s</xliff:g> 
+    </string>  
+    <string name="notifier_progress_delete_description"> 
+        <xliff:g id="name" example="JoeDue">%s</xliff:g> siliniyor
+    </string>  
+    <string name="notifier_progress_copy_message"> 
+        <xliff:g id="current_number">%s</xliff:g>/ 
+        <xliff:g id="total_number">%s</xliff:g> kopyalanıyor: 
+        <xliff:g id="name" example="JoeDue">%s</xliff:g> 
+    </string>  
+    <string name="notifier_progress_copy_description"> 
+        <xliff:g id="name" example="JoeDue">%s</xliff:g> kopyalanıyor
+    </string>  
+    <string name="multichoice_confirmation_title_delete">Kişi silme işlemi iptal ediliyor</string>  
+    <string name="multichoice_confirmation_message_delete">Kişi silme işlemi iptal edilsin mi?</string>  
+    <string name="multichoice_confirmation_title_copy">Kişi kopyalama işlemi iptal ediliyor</string>  
+    <string name="multichoice_confirmation_message_copy">Kişi kopyalama işlemi iptal edilsin mi?</string>
+  <!-- The toast title when storage is full -->
+    <string name="phone_storage_full_create">Telefonun depolama alanı dolu, yeni kişi oluşturamazsınız.</string>
+    <string name="phone_storage_full_edit">Telefonun depolama alanı dolu, kişiyi düzenleyemezsiniz.</string>
+    <!-- Displayed at the top of the call log search, showing the total number of call logs found in call log search result page -->
+    <plurals name="searchFoundCalllogs">
+        <item quantity="one">1 arama kaydı</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> arama kaydı</item>
+    </plurals>
+        
+    <string name="search_results_for">Şunun için arama sonuçları: <xliff:g id="QUERY">%s</xliff:g></string>
+    <string name="listFoundAllCalllogZero">Arama kaydı bulunamadı</string>
+    
+    <string name="calllogList">Arama Geçmişi</string>
+    <string name="calllogHint">Arama kayıtlarını ara</string>
+    <string name="calllog_description">Gelen, giden ve cevapsız aramalar</string>
+    <string name="noMatchingCalllogs">Eşleşen arama kaydı bulunamadı.</string>
+
+    <string name="menu_videocallNumber">Görüntülü Arama: <xliff:g id="NAME">%s</xliff:g></string>
+    <string name="menu_ipcallNumber">IP Çağrı 
+        <xliff:g id="name">%s</xliff:g> 
+    </string>
+    
+    <string name="deleting_call_log">Çağrı günlüğü siliniyor…</string>
+
+    <!-- The previous lines are provided and maintained by Mediatek Inc. -->
+    
+    <!-- missing voicemail number -->
+    <!-- Title of the "Missing voicemail number" dialog -->
+    <string name="no_vm_number">Eksik sesli mesaj numarası</string>
+    <!-- Body text of the "Missing voicemail number" dialog -->
+    <string name="no_vm_number_msg">SIM kartta depolanan sesli mesaj numarası yok.</string>
+    <!-- Button label on the "Missing voicemail number" dialog -->
+    <string name="add_vm_number_str">Numara ekle</string>
+    
+    <string name="reminder">Anımsatıcı</string>
+    <string name="enable_sip_dialog_message">Internet araması devre dışı; etkinleştirmek ister misiniz?</string>
+
+    <!-- The toast title for add SIP No. to SIM/USIM contact -->
+    <string name="add_SIP_to_sim">SIP numarası, SIM/USIM kişisine eklenemiyor.</string>
+    <!-- The toast title fot if there has SIP No. can't add new -->
+    <string name="already_has_SIP">Kişiye iki SIP numarası eklenemez, devam etmeniz gerekiyorsa. İlk önce lütfen eski SIP numarasını silin.</string>
+
+    <string name="multichoice_no_select_alert">"Hiçbir öğe seçili değil."</string>
+    <string name="multichoice_delete_confirm_message">"Seçilen kişiler silinsin mi?"</string>
+    <string name="multichoice_delete_confirm_title">Kişiler siliniyor?</string>
+
+    <string name="name_needed">İsim gerekli</string>
+    <string name="save_group_fail">Grup kaydetme başarısız.</string>
+    <string name="group_name_exists">Grup adı zaten var.</string>
+    <string name="sum_search_networks">"Kullanılabilen tüm ağları ara"</string>   
+    <string name="notifier_progress__delete_will_start_message">Kişiler birazdan silinecek.</string>  
+    <string name="notifier_progress__copy_will_start_message">Kişiler birazdan kopyalanacak.</string>
+    
+    <string name="remove_sd_confirm_2"> 
+        <xliff:g id="contact_name">%1$s</xliff:g> kişisini 
+        <xliff:g id="key">%2$s</xliff:g> hızlı aramadan kaldırmak istediğinize emin misiniz?
+    </string>  
+    <string name="callFailed_simError">SIM yok veya SIM hatası</string>  
+    <string name="group_discard_member">At</string>  
+    <string name="group_discard_member_reason">Grup adı geçersiz olduğu için değişiklikler çıkarılacak.</string>  
+    <string name="share_contacts_limit">"Paylaşmak için seçilen kişiler 3500'den fazla olamaz"</string>  
+    <string name="contact_delete_all_tips">"Zaten arka planda devam etmekte olan kiş silme işlemi var. Yeni bir kişi silme işlemi başlatmak isterseniz, lütfen önce bunu iptal edin."</string>
+    
+    <string name="turn_on_3g_service_message">"3G hizmeti şu an kapalı, şimdi açmak istiyor musunuz?"</string>
+    <string name="associate_sim_missing_message">"%1$s SIM kullanılamıyor. Aramayı %2$s üzerinden yapmak ister misiniz?"</string>
+    <string name="associate_sim_missing_other">"Sesli arama yap"</string>
+    <string name="sim_manage_call_via">Aracılığıyla Ara</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">Lütfen ilk önce IP alan kodunu Sesli arama ayarlarına girin.</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">IP çevirme işlevi internet araması için kullanılamaz.</string> 
+    <string name="email_too_long">E-posta çok uzun.</string> 
+    <string name="deleteCallLogConfirmation_title">Arama günlüğünü sil?</string>  
+    <string name="deleteCallLogConfirmation_message">Seçili arama günlüğünü silmek istediğinizden emin misiniz?</string>
+    <!-- The previous lines are provided and maintained by Mediatek Inc. -->
+    <!--The following lines are provided and maintained by Mediatek Inc. 2012-5-16-->  
+    <string name="delete_group_failure">Grup silinemedi.</string>  
+    <!-- The previous lines are provided and maintained by Mediatek Inc. -->
+    
+      <string name="from_account_format"> 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="source" example="user@gmail.com">%1$s</xliff:g> 
+    </string>
+  <string name="speed_dial_added2"> 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="contact_name">%1$s</xliff:g>, 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="key">%2$s</xliff:g> hızlı aramaya atandı
+    </string>
+  <string name="call_log_filter_all_resources">"Tüm Kaynaklar"</string>
+  <string name="AirPlane_mode_on_edit">Uçak modu etkinken kişi bilgileri düzenlenemez.</string>
+  <string name="multichoice_contacts_limit">"Seçili kişiler 3500'den fazla olamaz"</string>
+  <string name="file_already_on_sd_card">Dosya zaten SD kartında.</string>
+  <string name="send_file_sms_error">"Dosya SMS ile paylaşılamıyor, Lütfen MMS'i kullanın."</string>
+  <string name="error_save_usim_contact_email_lost">"E-posta için USIM belleği dolu olduğundan E-posta adresi kaydedilemedi."</string>
+  <string name="error_import_usim_contact_email_lost">"E-posta için USIM depolama alanı dolu olduğundan bazı kişilerin e-posta adresleri alınamadı.\nTamamlanan: 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="items">%d</xliff:g>\nTamamlanmayan: 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="items">%d</xliff:g>"
+    </string>
+  <string name="user_profile_cannot_sd_card">İçerik bu yöntemle paylaşılamadı.</string>
+  <string name="call_sms">SMS</string>
+  <string name="phone_book_busy">Telefon Defteri şu an meşgul, lütfen daha sonra deneyin.</string> 
+  <string name="contact_group_list_title">"Hedef grubu seçin"</string> 
+    <string name="import_no_vcard_dialog_text">"
+        <xliff:g id="storage_name">%s</xliff:g>'de vCard bulunamadı"
+    </string> 
+  <string name="send_groupemail_no_number_more">"%1$s ve %2$s kişileri geçerli e-postaya sahip değil."</string>
+  <string name="send_groupemail_no_number_1">"%1$s geçerli e-postaya sahip değil."</string>
+  <string name="send_groupemail_no_number_2">"%1$s ve %2$s geçerli e-postaya sahip değil."</string>
+  <string name="createContactShortcutSuccessful">Ana ekrana eklenen iletişim pencere öğesi.</string>
+  <string name="send_message">Mesaj gönder</string>
+  <string name="type_ip_outgoing">IP Giden arama ( 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="name">%s</xliff:g>)
+    </string>
+  <string name="call_log_auto_rejected_label">Otomatik reddedilen aramalar</string>
+  <string name="look_simstorage">SIM Kart Kapasitesini Görüntüle</string>
+  <string name="dlg_simstorage_content">
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="items">%d</xliff:g> telefon rehberi kapasitesinin 
+        <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="items">%d</xliff:g> kullanıldı.
+    </string>
+  <string name="delete_group_dialog_title" msgid="7368429698398624427">"Grubu sil"</string>
+  <string name="dialog_phone_call_prohibited_title" msgid="2111395432187079579">"Çağrı yapılamadı"</string>
+  <string name="dialog_voicemail_not_ready_title" msgid="7258109862329777060">"Sesli mesaj numarası kullanılamıyor"</string>
+
+    <string name="nickname_too_long">"Takma ad çok uzun."</string>
+    <string name="pick_new_photo_from_gallery">Yeni foto seç</string>  
+    <string name="copy_text_to_dialer">Arayıcıya kopyala</string> 
+    <string name="account_phone_only" product="tablet">"Tablet"</string>  
+    <string name="account_phone_only" product="default">"Telefon"</string>  
+
+    <string name="international_dialing_title">Uluslararası arama yardımı</string>
+    <string name="international_dialing_select_country">Uluslararası bir arama yaptığınız algılandı. Hedefinizi seçin.</string>
+    <string name="international_dialing_add_country_code">Bir <xliff:g id="country_name">%s</xliff:g> numarasını çevirdiğiniz algılandı. Ülke kodunu (+<xliff:g id="country_code">%s</xliff:g>) eklemek istiyor musunuz?</string>
+    <string name="international_dialing_add_country_code_and_area_code"><xliff:g id="area_name">%1$s</xliff:g>, <xliff:g id="country_name">%2$s</xliff:g> içindeki bir numarayı çevirdiğiniz algılandı. Ülke kodunu ve alan kodunu (+<xliff:g id="prefix">%3$s</xliff:g>) eklemek istiyor musunuz?</string> 
+    <string name="international_dialing_change_country_prefix"><xliff:g id="country_name">%s</xliff:g> içinden numara çevirdiğiniz algılandı. Uluslararası arama önekini \'+\' olarak değiştirmek istiyor musunuz?</string>
+    <string name="international_dialing_add_country_code_input_area_code"><xliff:g id="country_name">%s</xliff:g> içindeki bir numarayı çevirdiğiniz algılandı. Öyle ise, alan kodunu girin.</string>   
+    <string name="international_dialing_add_country_code_default_input_area_code"><xliff:g id="country_name">%s</xliff:g> içindeki bir numarayı çevirdiğiniz algılandı. Hedef şehir <xliff:g id="area_name">%s</xliff:g> değilse alan kodunu girin.</string>
+    <string name="international_dialing_need_area_code">Arama için hedef şehrin alan kodu gerekiyor.</string>
+    <string name="international_dialing_input_area_code">Alan kodunu buraya girin</string>
+    <string name="international_dialing_dialed_number">Çevrilen numara:</string>
+    <string name="international_dialing_confirm_area_code">Hedef şehir <xliff:g id="area_name">%s</xliff:g> değilse hedef şehrin alan kodunu aşağıya girin.</string>
+    <string name="international_dialing_dial_with_country_code">Ülke koduyla çevir</string>
+    <string name="international_dialing_click_below_button">Ülke kodunu değiştirmek için aşağıdaki düğmeyi tıklatın.</string>
+    <string name="international_dialing_yes">Evet. Aşağıdaki numarayı kullan:</string>
+    <string name="international_dialing_no">Hayır. Orijinal numarayı kullan:</string>
+    <string name="international_dialing_call_button">"Çağrı"</string>
+    <string name="international_dialing_area_code">alan kodu</string>
+    <string name="international_dialing_invalid_number">Numara geçersiz. Yine de çevirmeye devam etmek istiyor musunuz?</string>
+    <string name="international_dialing_add_country_code_and_area_code_without_prefix">Ülke kodunu ve alan kodunu eklemek istiyor musunuz?</string>
+    <string name="share_too_large">Toplam veri üst sınırı aştı, lütfen bazı öğelerden seçimi kaldırın ve yeniden deneyin.</string>
+
+</resources>
