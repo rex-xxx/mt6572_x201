@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="confirm_radio_title">SIM dinonaktifkan</string>
+	<string name="confirm_radio_msg">
+		<xliff:g id="operator_name" example="CMCC">%1$s</xliff:g>
+		sekarang dinonaktifkan. Anda ingin mengaktifkan kartu SIM ini?
+	</string>
+	<string name="confirm_radio_msg_single">"Mode pesawat sekarang diaktifkan, Anda ingin menonaktifkannya?"</string>
+	<string name="confirm_pin_title">Kuncian PIN</string>
+	<string name="confirm_pin_msg">Kartu SIM yang akan Anda gunakan sekarang dikunci.Anda ingin membuka kuncian?</string>
+	<string name="confirm_simmelock_title">Kuncian SIM ME</string>
+	<string name="confirm_simmelock_msg">Slot SIM yang akan Anda gunakan sekarang dikunci.Anda ingin membuka kuncian?</string>
+	<string name="confirm_fdn_title">FDN Diaktifkan</string>
+	<string name="confirm_fdn_msg">Nomor panggilan tetap diaktifkan..</string>
+	<string name="confirm_roaming_title">Peringatan roaming</string>
+	<string name="confirm_roaming_msg">Kartu SIM yang akan digunakan sedang roaming. Tidak ada SIM lokal yang tersedia saat ini. Anda ingin melanjutkan?</string>
+	<string name="confirm_roaming_withPrefer_msg">Kartu SIM yang akan digunakan sedang roaming. Anda ingin melanjutkan via SIM lokal?</string>
+	<string name="confirm_roaming_lbutton">Lanjut</string>
+	<string name="confirm_roaming_rbutton">Batal</string>
+	<string name="confirm_roamingWithPrefer_lbutton">SIM lokal</string>
+	<string name="confirm_roamingWithPrefer_rbutton">SIM roaming</string>
+	<string name="confirm_radio_lbutton">Mengaktifkan</string>
+	<string name="confirm_unlock_lbutton">Membuka kuncian</string>
+	<string name="confirm_unlock_fail">Operasi dibatalkan</string>
+	<string name="confirm_turnon_radio_fail">Operasi dibatalkan</string>
+	<string name="confirm_permit_roaming_fail">Anda membatalkan tindakan ini pada SIM roaming</string>
+	<string name="confirm_sim_locked_message">"Kartu SIM dikunci secara permanen."</string>
+	<string name="confirm_slot_locked_message">"Slot telah dikunci secara permanen."</string>
+	<string name="app_name">Layanan Sambungan Selular</string>  
+	<string name="button_ok">OK</string>  
+</resources>

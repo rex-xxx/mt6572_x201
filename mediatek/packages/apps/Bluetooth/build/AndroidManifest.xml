@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.mediatek.bluetooth" android:sharedUserId="android.uid.mtkbt">
+
+	<application android:label="@string/app_label" 
+		android:name="com.mediatek.bluetooth.BluetoothApplication"
+		android:persistent="true"
+		android:icon="@drawable/bluetooth"
+		android:description="@string/app_description">
+		
+		<!-- ********************************************************************************** -->
+		<!-- PAN -->
+
+		<service android:name=".pan.BluetoothPanService">
+			<intent-filter>
+            			<action android:name="android.bluetooth.IBluetoothPan" />
+        		</intent-filter>
+		</service>
+
+	<receiver android:name=".pan.BluetoothPanReceiver">
+		<intent-filter>
+			<action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />
+		</intent-filter>	
+	</receiver>		
+		
+		<activity android:name=".pan.BluetoothPanAlert"
+				  android:excludeFromRecents="true"
+				  android:configChanges="orientation"
+                  android:theme="@*android:style/Theme.Holo.Dialog.Alert">
+		</activity>
+        
+		<!-- PAN -->
+
+		<!-- ********************************************************************************** -->
+
+
+
+        <!-- ********************************************************************************** -->
+        <!-- OPP BEG -->
+        <activity
+            android:excludeFromRecents="true"
+            android:label="@string/bt_oppc_push_action_label"
+            android:name=".opp.mmi.OppClientActivity"
+            android:theme="@*android:style/Theme.Holo.Dialog.Alert" />
+        <activity
+            android:configChanges="orientation"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:name=".opp.mmi.OppServerActivity"
+            android:theme="@*android:style/Theme.Holo.Dialog.Alert" >
+            <intent-filter >
+                <action android:name="com.mediatek.bluetooth.opp.action.PUSH_REQUEST" />
+                <action android:name="com.mediatek.bluetooth.opp.action.PULL_REQUEST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:excludeFromRecents="true"
+            android:name=".opp.mmi.OppCancelActivity"
+            android:theme="@*android:style/Theme.Holo.Dialog.Alert" />
+
+        <service android:name=".opp.adp.OppService" />
+        <service
+            android:exported="true"
+            android:name=".opp.adp.BluetoothOppService" >
+            <intent-filter >
+                <action android:name="android.bluetooth.BluetoothOpp.Client" />
+                <action android:name="android.bluetooth.BluetoothOpp.Server" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name=".opp.adp.OppReceiver" >
+            <intent-filter >
+                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".opp.adp.OppHandoverReceiver" >
+            <intent-filter >
+                <action android:name="android.btopp.intent.action.WHITELIST_DEVICE" />
+                <action android:name="android.btopp.intent.action.STOP_HANDOVER_TRANSFER" />
+            </intent-filter>
+            <intent-filter >
+                <action android:name="android.btopp.intent.action.HANDOVER_SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="*/*" />
+            </intent-filter>
+            <intent-filter >
+                <action android:name="android.btopp.intent.action.HANDOVER_SEND_MULTIPLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="*/*" />
+            </intent-filter>
+        </receiver>
+        <!-- OPP END -->
+        <!-- ********************************************************************************** -->
+
+
+
+		<!-- ********************************************************************************** -->
+		<!-- HID -->
+		<activity android:label="@string/bluetooth_hid_lable"
+			android:name=".hid.BluetoothHidActivity"
+		  	android:excludeFromRecents="false"
+		  	android:taskAffinity="com.mediatek.bluetooth.hid"
+		  	android:configChanges="orientation|screenSize|mcc|mnc|locale"
+			android:icon="@drawable/bthid_ic_launcher_wireless_keyboard">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+
+		</activity>
+		<service android:name=".hid.BluetoothHidService">
+			<intent-filter>
+            			<action android:name="android.bluetooth.IBluetoothHid" />
+        		</intent-filter>
+		</service>
+		
+		<activity android:name=".hid.BluetoothHidAlert"
+				  android:excludeFromRecents="true"
+                  android:theme="@*android:style/Theme.Holo.Dialog.Alert">
+		</activity>
+		
+		<receiver android:name=".hid.BluetoothHidReceiver">
+            <intent-filter>
+                <action android:name="android.bluetooth.devicepicker.action.DEVICE_SELECTED" />
+        		<action android:name="android.provider.Telephony.SECRET_CODE" />
+        		<data android:scheme="android_secret_code" android:host="87410" />
+            </intent-filter>
+        </receiver>
+        
+		<!-- HID -->
+		<!-- ********************************************************************************** -->
+
+	<service android:name=".pbap.BluetoothPbapService"
+		android:exported="true">
+		<intent-filter>
+			<action android:name="android.bluetooth.IBluetoothPbap" />
+		</intent-filter>
+	</service>
+	<activity android:name=".pbap.BluetoothServerAuthorize"
+		      android:theme="@*android:style/Theme.Holo.Dialog.Alert"
+		      android:excludeFromRecents="true" 
+		      android:configChanges="orientation">
+	</activity>
+	<activity android:name=".pbap.BluetoothAuthenticating"
+    		  android:excludeFromRecents="true"
+              android:theme="@*android:style/Theme.Holo.Dialog.Alert"
+              android:configChanges="orientation">
+	</activity>
+
+		<!-- ********************************************************************************** -->
+		<!-- AVRCP Start -->
+        <service android:name=".avrcp.BluetoothAvrcpService" android:exported="true" >
+            <intent-filter>
+                <action android:name="com.mediatek.bluetooth.avrcp.IBTAvrcpService"/>
+                <action android:name="com.mediatek.bluetooth.avrcp.BluetoothAvrcpService"/>
+            </intent-filter>
+        </service>        
+        <receiver android:name=".avrcp.BluetoothAvrcpReceiver" android:exported="true">
+            <intent-filter>
+        		<action android:name="android.mediatek.bluetooth.avrcp.pts" />
+        		<action android:name="android.mediatek.bluetooth.avrcp.connect" />
+        		<action android:name="android.mediatek.bluetooth.avrcp.disconnect" />
+        	</intent-filter>
+        </receiver>
+        <receiver android:name=".avrcp.BluetoothAvrcpReceiver" android:exported="true">
+            <intent-filter>
+                <!-- action android:name="android.bluetooth.adapter.action.STATE_CHANGED"/ -->
+        		<action android:name="android.provider.Telephony.SECRET_CODE" />
+        		<data android:scheme="android_secret_code" android:host="2872714" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".avrcp.BluetoothAvrcpReceiver" android:exported="true">
+            <intent-filter>
+                <!-- action android:name="android.bluetooth.adapter.action.STATE_CHANGED"/ -->
+        		<action android:name="android.provider.Telephony.SECRET_CODE" />
+        		<data android:scheme="android_secret_code" android:host="2872713" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".avrcp.BluetoothAvrcpReceiver" android:exported="true">
+            <intent-filter>
+                <!-- action android:name="android.bluetooth.adapter.action.STATE_CHANGED"/ -->
+        		<action android:name="android.provider.Telephony.SECRET_CODE" />
+        		<data android:scheme="android_secret_code" android:host="2872710" />
+            </intent-filter>
+        </receiver>
+       
+		<!-- AVRCP end -->
+		<!-- ********************************************************************************** -->
+
+
+        <activity
+            android:name="com.mediatek.activity.MessageActivity"
+            android:theme="@*android:style/Theme.Holo.Dialog.Alert" />
+
+        <receiver android:name=".BluetoothReceiver" >
+            <intent-filter >
+                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />
+                <!--
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                -->
+                <action android:name="com.mediatek.bluetooth.receiver.action.SHOW_TOAST" />
+                <action android:name="android.bluetooth.profilemanager.action.DISABLE_PROFILES" />
+            </intent-filter>
+            <intent-filter >
+                <!--
+                <action android:name="android.intent.action.MEDIA_EJECT" />
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <action android:name="android.intent.action.MEDIA_UNMOUNTED" />
+                -->
+                <data android:scheme="file" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Bluetooth Share -->
+        <activity
+            android:configChanges="orientation|screenSize|mcc|mnc|locale"
+            android:excludeFromRecents="true"
+            android:finishOnTaskLaunch="true"
+            android:name=".BluetoothShareGatewayActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter >
+                <action android:name="com.mediatek.bluetooth.sharegateway.action.DEVICE_SELECTED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.ALTERNATIVE" />
+                <category android:name="android.intent.category.SELECTED_ALTERNATIVE" />
+            </intent-filter>
+            <intent-filter >
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+                <data android:mimeType="video/*" />
+                <data android:mimeType="audio/*" />
+                <data android:mimeType="text/x-vcard" />
+                <data android:mimeType="text/x-vcalendar" />
+                <data android:mimeType="text/plain" />
+                <data android:mimeType="text/html" />
+                <data android:mimeType="application/*" />
+            </intent-filter>
+            <intent-filter >
+                <action android:name="android.intent.action.SEND_MULTIPLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="x-mixmedia/*" />
+                <data android:mimeType="image/*" />
+                <data android:mimeType="video/*" />
+                <data android:mimeType="audio/*" />
+                <data android:mimeType="text/x-vcard" />
+                <data android:mimeType="text/x-vcalendar" />
+                <data android:mimeType="text/plain" />
+                <data android:mimeType="text/html" />
+                <data android:mimeType="application/*" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".BluetoothShareGatewayReceiver" >
+            <intent-filter >
+                <action android:name="android.btopp.intent.action.OPEN_RECEIVED_FILES" />
+                <action android:name="com.mediatek.bluetooth.sharegateway.action.ACTION_SETTINGS" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:excludeFromRecents="true"
+            android:name=".share.BluetoothShareMgmtActivity"
+            android:taskAffinity="" />
+        <activity
+            android:excludeFromRecents="true"
+            android:name=".share.BluetoothShareTabActivity" />
+
+        <provider
+            android:authorities="com.mediatek.provider.bluetooth.share"
+            android:name=".share.BluetoothShareProvider" />
+
+        <!-- Bluetooth Share end -->
+
+
+        <!-- BLE System [+] ******************************************************************************** -->
+        <receiver android:name="com.mediatek.bluetooth.psm.PsmBluetoothReceiver" >
+            <intent-filter >
+                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:exported="true"
+            android:name="com.mediatek.bluetooth.ProfileService" >
+            <intent-filter >
+                <action android:name="com.mediatek.bluetooth.service.IBluetoothPrxm" />
+                <action android:name="com.mediatek.bluetooth.service.IBluetoothPrxr" />
+                <action android:name="com.mediatek.bluetooth.service.IBluetoothTimec" />
+                <action android:name="com.mediatek.bluetooth.service.IBluetoothTimes" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:launchMode="singleTop"
+            android:name="com.mediatek.bluetooth.settings.BluetoothAdvancedSettingsActivity" >
+            <intent-filter >
+                <action android:name="com.mediatek.bluetooth.settings.action.START_BT_ADV_SETTING" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- BLE System [-] ******************************************************************************** -->
+
+
+
+
+	</application>
+
+	<!-- permission -->
+<!-- Allows temporarily whitelisting Bluetooth addresses for sharing -->
+    <permission
+        android:description="@string/permdesc_bluetoothWhitelist"
+        android:label="@string/permlab_bluetoothWhitelist"
+        android:name="com.android.permission.WHITELIST_BLUETOOTH_DEVICE"
+        android:protectionLevel="signature" />
+
+    <!-- Allows receiving handover status broadcasts from Bluetooth -->
+    <permission
+        android:description="@string/permdesc_handoverStatus"
+        android:label="@string/permlab_handoverStatus"
+        android:name="com.android.permission.HANDOVER_STATUS"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.android.permission.HANDOVER_STATUS" />
+	<uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS" />
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+	<uses-permission android:name="android.permission.BLUETOOTH"/>
+	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+	<uses-permission android:name="android.permission.READ_CONTACTS"/>
+	<uses-permission android:name="android.permission.WAKE_LOCK"/>
+	<uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />	
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.CONNECTIVITY_INTERNAL"/>
+	<uses-permission android:name="android.permission.VIBRATE"/>
+	<uses-permission android:name="android.permission.FLASHLIGHT"/>
+	<uses-permission android:name="com.android.email.permission.ACCESS_PROVIDER"/>
+	<uses-permission android:name="com.android.email.permission.ACCESS_PROVIDER"/>
+	<uses-permission android:name="android.permission.READ_SMS"/>
+	<uses-permission android:name="android.permission.WRITE_SMS"/>
+	<uses-permission android:name="android.permission.SEND_SMS" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.WRITE_WAPPUSH" />
+	<uses-permission android:name="android.permission.READ_WAPPUSH" />
+	<uses-permission android:name="android.permission.READ_PROFILE" />
+	<uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+	<uses-permission android:name="android.permission.ACCESS_ALL_DOWNLOADS" />
+	<uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER"/>
+</manifest> 

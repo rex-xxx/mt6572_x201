@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resource>
+     
+    <!-- System colors 00c590-->
+    <color name="theme_main_color">#ff00c590</color>
+    <color name="theme_highlight_color">#66ffc09a</color>
+    <!-- Browser -->
+    <color name="browser_text_selection">#66ffc7a5</color>
+    <color name="browser_cursor_ring">#66f26522</color>
+    <!-- Todo -->
+    <color name="list_header_bg_color">#FF0BAA7F</color>
+</resource>
+
+

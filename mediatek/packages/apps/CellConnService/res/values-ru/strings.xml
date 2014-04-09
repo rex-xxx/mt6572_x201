@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="confirm_radio_title">SIM-карта выключена</string>
+	<string name="confirm_radio_msg">
+		<xliff:g id="operator_name" example="CMCC">%1$s</xliff:g>
+		 сейчас выключена. Включить эту SIM-карту?
+	</string>
+	<string name="confirm_radio_msg_single">"Сейчас включен режим «В самолете», отключить его?"</string>
+	<string name="confirm_pin_title">Блокировка PIN-кода</string>
+	<string name="confirm_pin_msg">SIM-карта, которую вы собираетесь использовать, заблокирована. Разблокировать карту?</string>
+	<string name="confirm_simmelock_title">Блокировка SIM-карты ME</string>
+	<string name="confirm_simmelock_msg">Слот SIM-карты, которую вы собираетесь использовать, заблокирован. Разблокировать слот?</string>
+	<string name="confirm_fdn_title">Фиксированный набор включен</string>
+	<string name="confirm_fdn_msg">Фиксированный набор номеров включен.</string>
+	<string name="confirm_roaming_title">Предупреждение: роуминг</string>
+	<string name="confirm_roaming_msg">"Выбранная SIM-карта работает в режиме роуминга. SIM-карта для \"домашней\" сети недоступна. Продолжить?"</string>
+	<string name="confirm_roaming_withPrefer_msg">"Выбранная SIM-карта работает в режиме роуминга. Переключиться на SIM-карту \"домашней\" сети?"</string>
+	<string name="confirm_roaming_lbutton">Продолжить</string>
+	<string name="confirm_roaming_rbutton">Отмена</string>
+	<string name="confirm_roamingWithPrefer_lbutton">\"Домашняя\" SIM-карта</string>
+	<string name="confirm_roamingWithPrefer_rbutton">Роуминг SIM-карты</string>
+	<string name="confirm_radio_lbutton">Включить</string>
+	<string name="confirm_unlock_lbutton">Разблокировать</string>
+	<string name="confirm_unlock_fail">Операция отменена</string>
+	<string name="confirm_turnon_radio_fail">Операция отменена</string>
+	<string name="confirm_permit_roaming_fail">Вы отключили это действие для SIM-карты в роуминге</string>
+	<string name="confirm_sim_locked_message">"SIM-карта безвозвратно заблокирована."</string>
+	<string name="confirm_slot_locked_message">"Гнездо заблокировано навсегда."</string>
+	<string name="app_name">CellConnectionService</string>  
+	<string name="button_ok">Ok</string>  
+</resources>

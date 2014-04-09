@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string msgid="4114084177056654663" name="date_and_time">"تنظیمات تاریخ و ساعت"</string>  
+    <string msgid="3259617262618020574" name="date_time_12_hour_sample">"1:00 بعدازظهر"</string>  
+    <string msgid="7762866468013985022" name="choose_timezone">"انتخاب منطقه زمانی"</string>  
+    <string msgid="1982904221918374153" name="normal_date_format">"معمولی ( 
+        <xliff:g id="DATE">%s</xliff:g>)"
+    </string>  
+    <string msgid="3086083265745944725" name="date_time_auto">"تنظیم خودکار با شبکه"</string>  
+    <string msgid="1193032284921000063" name="date_time_24hour">"استفاده از قالب 24 ساعته"</string>  
+    <string msgid="5716856602742530696" name="date_time_set_time">"تنظیم ساعت"</string>  
+    <string msgid="5045627174274377814" name="date_time_set_timezone">"انتخاب منطقه زمانی"</string>  
+    <string msgid="7021491668550232105" name="date_time_set_date">"تنظیم تاریخ"</string>  
+    <string msgid="436706100255870967" name="date_time_date_format">"انتخاب قالب تاریخ"</string>  
+    <string msgid="5683377702671088588" name="zone_list_menu_sort_alphabetically">"ترتیب الفبایی"</string>  
+    <string msgid="2720190443744884114" name="zone_list_menu_sort_by_timezone">"ترتیب بر اساس منطقه زمانی"</string>  
+    <string name="zone_auto">منطقه زمانی اتوماتیک</string>  
+    <string name="zone_auto_summaryOn">استفاده از منطقه زمانی ارائه شده توسط شبکه</string>  
+    <string name="zone_auto_summaryOff">استفاده از منطقه زمانی ارائه شده توسط شبکه</string> 
+</resources>

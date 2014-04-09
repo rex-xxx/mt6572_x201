@@ -1,0 +1,551 @@
+package android.app {
+
+  public class AlarmManager {
+    method public boolean bootFromPoweroffAlarm();
+    method public void cancelPoweroffAlarm(java.lang.String);
+  }
+
+  public static class DownloadManager.Request {
+    method public android.app.DownloadManager.Request setUserAgent(java.lang.String);
+  }
+
+  public class StatusBarManager {
+    method public void hideSimIndicator(android.content.ComponentName);
+    method public void showApplicationGuide(java.lang.String);
+    method public void showSimIndicator(android.content.ComponentName, java.lang.String);
+  }
+
+}
+
+package android.content.pm {
+
+  public class PackageInfo implements android.os.Parcelable {
+    field public int isThemePackage;
+    field public int themeNameId;
+  }
+
+}
+
+package android.content.res {
+
+  public final class Configuration implements java.lang.Comparable android.os.Parcelable {
+    field public java.lang.String skin;
+  }
+
+  public class Resources {
+    method public int getThemeColor(java.lang.String);
+    method public int getThemeHighlightColor();
+    method public android.graphics.Bitmap getThemeImage(java.lang.String, java.lang.String);
+    method public int getThemeMainColor();
+    method public android.graphics.Bitmap getThemePreview(java.lang.String);
+    method public void reloadPreloadedResources();
+  }
+
+}
+
+package android.database {
+
+  public class DatabaseUtils {
+    method public static java.util.Locale getCollatorLocale();
+    method public static void setCollatorLocale(java.util.Locale);
+  }
+
+}
+
+package android.hardware {
+
+  public class Camera {
+    method public void cancelContinuousShot();
+    method public void cancelSDPreview();
+    method public final void setASDCallback(android.hardware.Camera.ASDCallback);
+    method public final void setAUTORAMACallback(android.hardware.Camera.AUTORAMACallback);
+    method public final void setAUTORAMAMVCallback(android.hardware.Camera.AUTORAMAMVCallback);
+    method public void setCSDoneCallback(android.hardware.Camera.ContinuousShotDone);
+    method public void setContinuousShotSpeed(int);
+    method public final void setMAVCallback(android.hardware.Camera.MAVCallback);
+    method public void setPreviewDoneCallback(android.hardware.Camera.ZSDPreviewDone);
+    method public static void setProperty(java.lang.String, java.lang.String);
+    method public final void setSmileCallback(android.hardware.Camera.SmileCallback);
+    method public final void startAUTORAMA(int);
+    method public final void startMAV(int);
+    method public void startSDPreview();
+    method public void stopAUTORAMA(int);
+    method public void stopMAV(int);
+  }
+
+  public class Camera.Parameters {
+    method public android.hardware.Camera.Parameters copy();
+    method public int getBestFocusStep();
+    method public java.lang.String getBrightnessMode();
+    method public java.lang.String getContrastMode();
+    method public java.lang.String getEdgeMode();
+    method public java.lang.String getHueMode();
+    method public java.lang.String getISOSpeed();
+    method public int getMaxFocusStep();
+    method public int getMinFocusStep();
+    method public java.lang.String getSaturationMode();
+    method public java.util.List<java.lang.String> getSupportedCaptureMode();
+    method public java.util.List<java.lang.String> getSupportedContrastMode();
+    method public java.util.List<java.lang.String> getSupportedEdgeMode();
+    method public java.util.List<java.lang.String> getSupportedHueMode();
+    method public java.util.List<java.lang.String> getSupportedISOSpeed();
+    method public java.util.List<java.lang.String> getSupportedSaturationMode();
+    method public java.util.List<java.lang.String> getSupportedZSDMode();
+    method public java.lang.String getZSDMode();
+    method public void setBrightnessMode(java.lang.String);
+    method public void setBurstShotNum(int);
+    method public void setCameraMode(int);
+    method public void setCaptureMode(java.lang.String);
+    method public void setCapturePath(java.lang.String);
+    method public void setContrastMode(java.lang.String);
+    method public void setEdgeMode(java.lang.String);
+    method public void setHueMode(java.lang.String);
+    method public void setISOSpeed(java.lang.String);
+    method public void setSaturationMode(java.lang.String);
+    method public void setZSDMode(java.lang.String);
+  }
+
+}
+
+package android.media {
+
+  public class AudioManager {
+    method public boolean enableHdmiAudio(boolean);
+    method public void setAudioProfileStreamVolume(int, int, int);
+  }
+
+  public class AudioSystem {
+    method public static int getAudioCommand(int);
+    method public static int getAudioData(int, int, byte[]);
+    method public static int getEmParameter(byte[], int);
+    method public static int setAudioCommand(int, int);
+    method public static int setAudioData(int, int, byte[]);
+    method public static int setEmParameter(byte[], int);
+  }
+
+  public class MediaRecorder {
+    method public void setOnCameraReleasedListener(android.media.MediaRecorder.OnInfoListener);
+  }
+
+  public class RingtoneManager {
+    method public static android.net.Uri getDefaultRingtoneUri(android.content.Context, int);
+    method public android.database.Cursor getNewCursor();
+    method public static boolean isRingtoneExist(android.content.Context, android.net.Uri);
+  }
+
+}
+
+package android.media.videoeditor {
+
+  public class VideoEditorImpl implements android.media.videoeditor.VideoEditor {
+    method public void cancelGenerating();
+  }
+
+}
+
+package android.mtp {
+
+  public class MtpServer implements java.lang.Runnable {
+    method public void endSession();
+    method public boolean getStatus();
+    method public void sendObjectInfoChanged(int);
+    method public void sendStorageInfoChanged(android.mtp.MtpStorage);
+    method public void updateStorage(android.mtp.MtpStorage);
+  }
+
+}
+
+package android.net {
+
+  public class ConnectivityManager {
+    method public boolean getTetheringIpv6Enable();
+    method public boolean isTetheringChangeDone();
+    method public void setTetheringIpv6Enable(boolean);
+    method public boolean setUsbInternet(boolean);
+  }
+
+  public class NetworkPolicy implements java.lang.Comparable android.os.Parcelable {
+    field public boolean active;
+  }
+
+  public class NetworkUtils {
+    method public static boolean setMtuByInterface(java.lang.String, int);
+  }
+
+}
+
+package android.net.http {
+
+  public final class AndroidHttpClient implements org.apache.http.client.HttpClient {
+    method public void setHttpRequestRetryHandler(org.apache.http.impl.client.DefaultHttpRequestRetryHandler);
+  }
+
+}
+
+package android.net.wifi {
+
+  public class HotspotClient implements android.os.Parcelable {
+    field public java.lang.String deviceAddress;
+    field public boolean isBlocked;
+  }
+
+  public class WifiConfiguration implements android.os.Parcelable {
+    field public android.net.wifi.WifiConfiguration.EnterpriseField ca_cert2;
+    field public int channel;
+    field public int channelWidth;
+    field public java.lang.String imsi;
+    field public java.lang.String pcsc;
+    field public java.lang.String simSlot;
+  }
+
+  public static class WifiConfiguration.GroupCipher {
+    field public static final int SMS4 = 4; // 0x4
+  }
+
+  public static class WifiConfiguration.KeyMgmt {
+    field public static final int WAPI_CERT = 6; // 0x6
+    field public static final int WAPI_PSK = 5; // 0x5
+  }
+
+  public static class WifiConfiguration.PairwiseCipher {
+    field public static final int SMS4 = 3; // 0x3
+  }
+
+  public static class WifiConfiguration.Protocol {
+    field public static final int WAPI = 2; // 0x2
+  }
+
+  public class WifiManager {
+    method public boolean blockClient(android.net.wifi.HotspotClient);
+    method public boolean doCtiaTestOff();
+    method public boolean doCtiaTestOn();
+    method public boolean doCtiaTestRate(int);
+    method public java.lang.String[] getAccessPointPreferredChannels();
+    method public java.lang.String getClientIp(java.lang.String);
+    method public java.util.List<android.net.wifi.HotspotClient> getHotspotClients();
+    method public boolean hasConnectableAp();
+    method public boolean saveApPriority();
+    method public boolean setApProbeRequestEnabled(boolean);
+    method public boolean setTxPower(int);
+    method public boolean setTxPowerEnabled(boolean);
+    method public boolean startApWps(android.net.wifi.WpsInfo);
+    method public boolean suspendNotification();
+    method public boolean unblockClient(android.net.wifi.HotspotClient);
+    field public static final java.lang.String EXTRA_NOTIFICATION_NETWORKID = "network_id";
+    field public static final java.lang.String EXTRA_NOTIFICATION_SSID = "ssid";
+    field public static final java.lang.String EXTRA_TRIGGERED_BY_NOTIFICATION = "notification";
+    field public static final java.lang.String NO_CERTIFICATION_ACTION = "android.net.wifi.NO_CERTIFICATION";
+    field public static final java.lang.String WIFI_CLEAR_NOTIFICATION_SHOW_FLAG_ACTION = "android.net.wifi.WIFI_CLEAR_NOTIFICATION_SHOW_FLAG_ACTION";
+    field public static final java.lang.String WIFI_HOTSPOT_CLIENTS_CHANGED_ACTION = "android.net.wifi.WIFI_HOTSPOT_CLIENTS_CHANGED";
+    field public static final java.lang.String WIFI_HOTSPOT_OVERLAP_ACTION = "android.net.wifi.WIFI_HOTSPOT_OVERLAP";
+    field public static final java.lang.String WIFI_NOTIFICATION_ACTION = "android.net.wifi.WIFI_NOTIFICATION";
+    field public static final java.lang.String WIFI_WPS_CHECK_PIN_FAIL_ACTION = "android.net.wifi.WIFI_WPS_CHECK_PIN_FAIL";
+  }
+
+}
+
+package android.nfc {
+
+  public final class NfcAdapter {
+    method public int getModeFlag(int);
+    method public void setModeFlag(int, int);
+    method public void setMtkBeamPlusPushUris(android.net.Uri[], android.app.Activity);
+    method public void setMtkBeamPushUrisCallback(android.nfc.NfcAdapter.CreateBeamUrisCallback, android.app.Activity);
+    field public static final int FLAG_OFF = 0; // 0x0
+    field public static final int FLAG_ON = 1; // 0x1
+    field public static final int MODE_CARD = 4; // 0x4
+    field public static final int MODE_P2P = 2; // 0x2
+    field public static final int MODE_READER = 1; // 0x1
+  }
+
+}
+
+package android.provider {
+
+  public static class CallLog.Calls implements android.provider.BaseColumns {
+    method public static android.net.Uri addCall(com.android.internal.telephony.CallerInfo, android.content.Context, java.lang.String, int, int, long, int, int);
+    method public static android.net.Uri addCall(com.android.internal.telephony.CallerInfo, android.content.Context, java.lang.String, int, int, long, int, int, int);
+    field public static final java.lang.String SIM_ID = "simid";
+    field public static final java.lang.String VTCALL = "vtcall";
+  }
+
+  public final class MediaStore {
+    method public static android.net.Uri getMtpTransferFileUri();
+  }
+
+  public static final class Settings.System {
+    field public static final android.net.Uri DEFAULT_VIDEO_CALL_URI;
+  }
+
+  public static final class Telephony.MmsSms implements android.provider.BaseColumns {
+    field public static final android.net.Uri CONTENT_URI_QUICKTEXT;
+  }
+
+}
+
+package android.view {
+
+  public class SurfaceView {
+    method public void set3DLayout(int);
+  }
+
+}
+
+package android.webkit {
+
+  public class NotificationPermissions {
+    method public void clearAll();
+    method public static android.webkit.NotificationPermissions getInstance();
+  }
+
+  public static abstract interface NotificationPermissions.Callback {
+    method public abstract void invoke(java.lang.String, boolean);
+    method public abstract void invokeEvent(java.lang.String, int);
+    method public abstract void invokeNotificationID(int, int);
+  }
+
+  public class WebView implements android.view.ViewDebug.HierarchyHandler android.view.ViewGroup.OnHierarchyChangeListener android.view.ViewTreeObserver.OnGlobalFocusChangeListener {
+    method public void enableEmailUsingFlag();
+    method public void setVisibleParameterForEmail(int, int, boolean, int);
+  }
+
+  public final class WebViewClassic implements android.webkit.WebViewProvider android.webkit.WebViewProvider.ScrollDelegate android.webkit.WebViewProvider.ViewDelegate {
+    method public void notifyWebViewCoreThread();
+  }
+
+}
+
+package android.widget {
+
+  public class BounceCoverFlow extends android.widget.BounceGallery {
+    method public void setMaxZoomOut(float);
+    method public void setNextSelectedPositionInt(int);
+  }
+
+  public class BounceGallery {
+    method public void setCallbackDuringFling(boolean);
+    method public void setGravity(int);
+    method public void setSpacing(int);
+  }
+
+  public class ListView {
+    method public void clearScrapViewsIfNeeded();
+  }
+
+  public class Spinner implements android.content.DialogInterface.OnClickListener {
+    method public void dismissPopup();
+    method public boolean isPopupShowing();
+  }
+
+}
+
+package com.android.internal.telephony {
+
+  public class AdnRecord implements android.os.Parcelable {
+    method public java.lang.String getAdditionalNumber();
+  }
+
+}
+
+package com.android.internal.telephony.cat {
+
+  public class CatResponseMessage {
+    method public void setAdditionalInfo(byte[]);
+    method public void setDestinationId(int);
+    method public void setOneShot(boolean);
+    method public void setSourceId(int);
+  }
+
+  public class Input implements android.os.Parcelable {
+    field public boolean iconSelfExplanatory;
+  }
+
+  public class Menu implements android.os.Parcelable {
+    field public byte[] nextActionIndicator;
+  }
+
+}
+
+package com.android.internal.widget {
+
+  public class LockPatternUtils {
+    method public boolean getVoiceUnlockFallbackSet();
+    method public void saveLockPassword(java.lang.String, int, boolean, java.lang.String);
+    method public void saveLockPassword(java.lang.String, int, boolean, java.lang.String, int);
+    method public void saveLockPattern(java.util.List<com.android.internal.widget.LockPatternView.Cell>, boolean, java.lang.String);
+  }
+
+}
+
+package com.android.internal.widget.multiwaveview {
+
+  public class GlowPadView {
+    method public void setHandleDrawableImage(int);
+  }
+
+}
+
+package com.android.server {
+
+  public class NetworkManagementService {
+    method public void cfgUsbInternet() throws java.lang.IllegalStateException;
+    method public void disableMultiRouter(java.lang.String, java.lang.String) throws java.lang.IllegalStateException;
+    method public void disableNatIpv6(java.lang.String, java.lang.String) throws java.lang.IllegalStateException;
+    method public void enableMultiRouter(java.lang.String, java.lang.String) throws java.lang.IllegalStateException;
+    method public void enableNatIpv6(java.lang.String, java.lang.String) throws java.lang.IllegalStateException;
+    method public void enableUdpForwarding(boolean, java.lang.String, java.lang.String, java.lang.String) throws java.lang.IllegalStateException;
+    method public boolean getIpv6ForwardingEnabled() throws java.lang.IllegalStateException;
+    method public java.lang.String[] getSoftApPreferredChannel() throws java.lang.IllegalStateException;
+    method public deprecated boolean getStartRequest();
+    method public deprecated void restartAccessPoint(android.net.wifi.WifiConfiguration, java.lang.String, java.lang.String) throws java.lang.IllegalStateException;
+    method public void setDhcpv6Enabled(boolean, java.lang.String) throws java.lang.IllegalStateException;
+    method public void setFirewallEgressProtoRule(java.lang.String, boolean);
+    method public void setIpv6ForwardingEnabled(boolean) throws java.lang.IllegalStateException;
+    method public deprecated void setStartRequest(boolean);
+  }
+
+}
+
+package com.mediatek.bluetooth {
+
+  public class BluetoothAdapterEx {
+    method public static synchronized com.mediatek.bluetooth.BluetoothAdapterEx getDefaultAdapterEx();
+    method public boolean getSSPDebugMode();
+    method public boolean setSSPDebugMode(boolean);
+  }
+
+  public class BluetoothUuidEx {
+    field public static final android.os.ParcelUuid BipResponder;
+    field public static final android.os.ParcelUuid BppReceiver;
+    field public static final android.os.ParcelUuid ObexFileTransfer;
+    field public static final android.os.ParcelUuid Proximity;
+  }
+
+}
+
+package com.mediatek.common.audioprofile {
+
+  public class AudioProfileListener {
+    method public void onAudioProfileChanged(java.lang.String);
+  }
+
+}
+
+package com.mediatek.common.search {
+
+  public abstract interface ISearchEngineManager {
+    method public abstract java.util.List<com.mediatek.common.search.SearchEngineInfo> getAvailableSearchEngines();
+    method public abstract com.mediatek.common.search.SearchEngineInfo getBestMatchSearchEngine(java.lang.String, java.lang.String);
+    method public abstract com.mediatek.common.search.SearchEngineInfo getDefaultSearchEngine();
+    method public abstract com.mediatek.common.search.SearchEngineInfo getSearchEngine(int, java.lang.String);
+    method public abstract com.mediatek.common.search.SearchEngineInfo getSearchEngineByFavicon(java.lang.String);
+    method public abstract com.mediatek.common.search.SearchEngineInfo getSearchEngineByName(java.lang.String);
+    method public abstract boolean setDefaultSearchEngine(com.mediatek.common.search.SearchEngineInfo);
+    field public static final java.lang.String ACTION_SEARCH_ENGINE_CHANGED = "com.mediatek.search.SEARCH_ENGINE_CHANGED";
+  }
+
+  public final class SearchEngineInfo implements android.os.Parcelable {
+    method public java.lang.String getFaviconUri();
+    method public java.lang.String getKeyWord();
+    method public java.lang.String getLabel();
+    method public java.lang.String getName();
+    method public java.lang.String getSearchUriForQuery(java.lang.String);
+    method public java.lang.String getSuggestUriForQuery(java.lang.String);
+    method public boolean supportsSuggestions();
+  }
+
+}
+
+package com.mediatek.notification {
+
+  public class NotificationManagerPlus {
+    method public static void cancel(android.content.Context, int);
+    method public void cancelAll();
+    method public void cancelAll(boolean);
+    method public static void cancelAll(android.content.Context);
+    method public void clearAll();
+    method public void clearAll(boolean);
+    method public static void notify(int, com.mediatek.notification.NotificationPlus);
+    method public void pause();
+    method public void resume();
+    method public void startListening();
+    method public void stopListening();
+  }
+
+  public static class NotificationManagerPlus.ManagerBuilder {
+    ctor public NotificationManagerPlus.ManagerBuilder(android.content.Context);
+    method public com.mediatek.notification.NotificationManagerPlus create();
+    method public com.mediatek.notification.NotificationManagerPlus.ManagerBuilder setCancelable(boolean);
+    method public com.mediatek.notification.NotificationManagerPlus.ManagerBuilder setNegativeButton(java.lang.CharSequence, android.content.DialogInterface.OnClickListener);
+    method public com.mediatek.notification.NotificationManagerPlus.ManagerBuilder setNeutralButton(java.lang.CharSequence, android.content.DialogInterface.OnClickListener);
+    method public com.mediatek.notification.NotificationManagerPlus.ManagerBuilder setOnCancelListener(android.content.DialogInterface.OnCancelListener);
+    method public com.mediatek.notification.NotificationManagerPlus.ManagerBuilder setOnDismissListener(android.content.DialogInterface.OnDismissListener);
+    method public com.mediatek.notification.NotificationManagerPlus.ManagerBuilder setOnFirstShowListener(com.mediatek.notification.NotificationManagerPlus.OnFirstShowListener);
+    method public com.mediatek.notification.NotificationManagerPlus.ManagerBuilder setOnLastDismissListener(com.mediatek.notification.NotificationManagerPlus.OnLastDismissListener);
+    method public com.mediatek.notification.NotificationManagerPlus.ManagerBuilder setOnShowListener(android.content.DialogInterface.OnShowListener);
+    method public com.mediatek.notification.NotificationManagerPlus.ManagerBuilder setPositiveButton(java.lang.CharSequence, android.content.DialogInterface.OnClickListener);
+  }
+
+  public static class NotificationPlus.Builder {
+    ctor public NotificationPlus.Builder(android.content.Context);
+    method public com.mediatek.notification.NotificationPlus create();
+    method public com.mediatek.notification.NotificationPlus.Builder setCancelable(boolean);
+    method public com.mediatek.notification.NotificationPlus.Builder setMessage(java.lang.String);
+    method public com.mediatek.notification.NotificationPlus.Builder setNegativeButton(java.lang.String, android.app.PendingIntent);
+    method public com.mediatek.notification.NotificationPlus.Builder setNeutralButton(java.lang.String, android.app.PendingIntent);
+    method public com.mediatek.notification.NotificationPlus.Builder setOnCancelListener(android.app.PendingIntent);
+    method public com.mediatek.notification.NotificationPlus.Builder setPositiveButton(java.lang.String, android.app.PendingIntent);
+    method public com.mediatek.notification.NotificationPlus.Builder setTitle(java.lang.String);
+  }
+
+}
+
+package com.mediatek.storage {
+
+  public class StorageManagerEx implements com.mediatek.common.storage.IStorageManagerEx {
+    method public static java.lang.String getDefaultPath();
+    method public static java.io.File getExternalCacheDir(java.lang.String);
+    method public static java.lang.String getExternalStoragePath();
+    method public static java.lang.String getInternalStoragePath();
+    method public static boolean getSdSwapState();
+    method public static void setDefaultPath(java.lang.String);
+  }
+
+}
+
+package com.mediatek.telephony {
+
+  public class PhoneNumberUtilsEx {
+    method public static java.lang.String extractCLIRPortion(java.lang.String);
+    method public static java.util.Map<java.lang.Integer, java.util.List<java.lang.String>> getCountryCodeToRegionCodeMap();
+    method public static java.lang.String getInternationalPrefix(java.lang.String);
+    method public static boolean isAreaCodeNeeded(java.lang.String, java.lang.String);
+    method public static boolean isIdleSsString(java.lang.String);
+    method public static boolean isIncallSsString(java.lang.String);
+    method public static boolean isSpecialEmergencyNumber(java.lang.String);
+    method public static int isValidNumber(java.lang.String, java.lang.String);
+    method public static boolean isVoiceMailNumber(java.lang.String, int);
+  }
+
+}
+
+package com.mediatek.text.style {
+
+  public class BackgroundImageSpan implements android.text.ParcelableSpan {
+    ctor public BackgroundImageSpan(int, android.graphics.drawable.Drawable);
+    ctor public BackgroundImageSpan(android.os.Parcel);
+    method public static void convert(java.lang.CharSequence, android.content.Context);
+    method public void convertToDrawable(android.content.Context);
+    method public void draw(android.graphics.Canvas, int, float, int, int, int, android.graphics.Paint);
+  }
+
+}
+
+package org.apache.http.params {
+
+  public final class HttpConnectionParams implements org.apache.http.params.CoreConnectionPNames {
+    method public static void setSoSndTimeout(org.apache.http.params.HttpParams, int);
+  }
+
+}
+

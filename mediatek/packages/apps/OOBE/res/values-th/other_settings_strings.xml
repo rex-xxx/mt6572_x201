@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string msgid="4114084177056654663" name="date_and_time">"การตั้งเวลาและวันที่"</string>  
+    <string msgid="3259617262618020574" name="date_time_12_hour_sample">"1:00 pm"</string>  
+    <string msgid="7762866468013985022" name="choose_timezone">"เลือกเขตเวลา"</string>  
+    <string msgid="1982904221918374153" name="normal_date_format">"ปกติ ( 
+        <xliff:g id="DATE">%s</xliff:g>)"
+    </string>  
+    <string msgid="3086083265745944725" name="date_time_auto">"อัตโนมัติด้วยเครือข่าย""</string>  
+    <string msgid="1193032284921000063" name="date_time_24hour">"ใช้รูปแบบ 24 ชั่วโมง"</string>  
+    <string msgid="5716856602742530696" name="date_time_set_time">"ตั้งเวลา"</string>  
+    <string msgid="5045627174274377814" name="date_time_set_timezone">"เลือกเขตเวลา"</string>  
+    <string msgid="7021491668550232105" name="date_time_set_date">"ตั้งวันที่"</string>  
+    <string msgid="436706100255870967" name="date_time_date_format">"เลือกรูปแบบวันที่"</string>  
+    <string msgid="5683377702671088588" name="zone_list_menu_sort_alphabetically">"เรียงตามลำดับอักษร"</string>  
+    <string msgid="2720190443744884114" name="zone_list_menu_sort_by_timezone">"จัดเรียงตามเขตเวลา"</string>  
+    <string name="zone_auto">เลือกโซนเวลาอัตโนมัติ</string>  
+    <string name="zone_auto_summaryOn">ใช้โซนเวลาที่ในเครือข่ายให้มา</string>  
+    <string name="zone_auto_summaryOff">ใช้โซนเวลาที่ในเครือข่ายให้มา</string> 
+</resources>

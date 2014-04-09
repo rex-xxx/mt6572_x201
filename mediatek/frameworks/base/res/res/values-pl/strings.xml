@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">   
+    <!-- MTK new add Strings -->
+    <string name="badPin2">"Wpisany stary PIN2 jest nieprawidłowy."</string>
+    <string name="badPuk2">"Wpisany PUK2 jest nieprawidłowy."</string>
+    <string name="checkPwdLen">"Sprawdź, czy hasło składa się z 4 do 8 cyfr."</string>
+    <string name="pinNotEnabled">"Przed zmianą należy włączyć PIN."</string>
+    <string name="puk1Blocked">"PIN jest zablokowany."</string>
+    <string name="puk2Blocked">"PIN2 jest zablokowany."</string>
+    <string name="fdnFailMmi">"Nie powiodło się sprawdzenie FDN."</string>
+    <string name="callBarringFailMmi">"Nie powiodła się blokada połączeń"</string>
+    <string name="Pin2Mmi">"Zmiana PIN2"</string>
+    <string name="PukMmi">"Odblokuj PIN"</string>
+    <string name="Puk2Mmi">"Odblokuj PIN2"</string>
+    <string name="serviceProvisioned">"Alokowana usługa."</string>
+    <string name="cfServiceNotForwarded">"Nie przesłane dalej"</string>
+    <string name="permlab_receiveCbSms">"odbierz SMS przez przekaz komórkowy"</string>
+    <string name="permdesc_receiveCbSms">"Umożliwia odbiór aplikacji i przetwarzanie wiadomości SMS przez przekaz komórkowy. Złośliwe aplikacje mogą monitorować wiadomości lub usuwać je bez pokazywania."</string>
+    <string name="keyguard_password_enter_puk_code">"Wprowadź kod PUK"</string>
+    <string name="keyguard_password_wrong_puk_code">"Nieprawidłowy kod PUK!"</string>
+    <string name="keyguard_password_enter_new_pin_code">"Wprowadź nowy PIN"</string>
+    <string name="keyguard_password_Confirm_pin_code">"Potwierdź nowy PIN"</string>
+    <string name="invalidPuk">"Wpisz PUK składający się z 8 cyfr."</string>
+    <string name="sim_permanently_locked">"Więcej niż 10 krotne wprowadzenie nieprawidłowego kodu PUK, spowoduje trwałe zablokowanie karty SIM."</string>
+    <string name="pin_length_indicate">"(4-8 cyfr)"</string>
+    <string name="puk_length_indicate">"(8 cyfr)"</string>
+    <string name="one_retry_left">"Pozostała 1 próba"</string>
+    <string name="retries_left">"Pozostało <xliff:g id="number">%d</xliff:g> prób"</string>
+    <string name="invalid_imei">"Nieprawidłowy IMEI"</string>
+    <string name="same_imei">"Ten sam IMEI"</string>
+    <string name="unable_launch_the_ap">"Nie można uruchomić aplikacji."</string>
+    <string name="keyguard_password_enter_sim1_pin_code">"Wprowadź kod PIN SIM1"</string>
+    <string name="RestrictedChangedTitle_SIM1">"Zmieniony ograniczony dostęp SIM1"</string>
+    <string name="RestrictedChangedTitle_SIM2">"Zmieniony ograniczony dostęp SIM2"</string>
+    <string name="keyguard_password_enter_sim2_pin_code">"Wprowadź kod PIN SIM2"</string>
+    <string name="keyguard_password_wrong_sim1_pin_code">"Nieprawidłowy kod PIN SIM1!"</string>
+    <string name="keyguard_password_wrong_sim2_pin_code">"Nieprawidłowy kod PIN SIM2!"</string>
+    <string name="keyguard_password_enter_sim1_puk_code">"Wprowadź kod PUK1 SIM1"</string>
+    <string name="keyguard_password_enter_sim2_puk_code">"Wprowadź kod PUK2 SIM2"</string>
+    <string name="lockscreen_sim1_puk_locked_message">"1 karta SIM jest zablokowana kodem PUK."</string>
+    <string name="lockscreen_sim2_puk_locked_message">"2 karta SIM jest zablokowana kodem PUK."</string>
+    <string name="choose_bootup_mode">"Wybierz SIM"</string>
+    <string name="choose_gprs_mode">"Zresetuj dane połączenia SIM"</string>
+    <string name="sim_close">"Zamknięcie karty SIM"</string>
+    <string name="lockscreen_sim_puk_locked_message_short">"Zablokowanie kodem PUK"</string>
+    <string name="lockscreen_sim_locked_message_short">"Zablokowana karta SIM"</string>
+
+    <string name="every_day" msgid="4100909974923444602">"Codziennie"</string>
+    <string name="never" msgid="54104287800571769">"Nigdy"</string>
+    <string name="day_concat" msgid="971998564991636532">", "</string>
+    <string name="alarm_alert_snooze_text" msgid="1774416052207651584">"Drzemka"</string>
+</resources>

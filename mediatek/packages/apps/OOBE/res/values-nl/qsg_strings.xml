@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="qsg_app_name">Snelstartgids</string>  
+    <!-- ============================ -->  
+    <!-- quick start guide strings -->  
+    <!-- ============================ -->  
+    <string name="skip_button">Overslaan</string>  
+    <string name="ok_button">start</string>  
+    <string name="qsg_title_begin">Snelstartgids</string>  
+    <string name="qsg_summary_begin">Deze snelstartgids biedt u 4 handige tips en laat u kennismaken met basishandbewegingen en beheer van het beginscherm.</string>  
+    <string name="next">Volgende</string>  
+    <string name="play_again">Opnieuw afspelen</string>  
+    <string name="finish">Voltooien</string>  
+    <string name="qsg_title2_home_screen">Beginscherm weergeven</string>  
+    <string name="qsg_summary2_home_screen">Veeg naar links of rechts om andere pagina’s van het beginscherm weer te geven.</string>  
+    <string name="qsg_title3_choose_widget">Kies een paar widgets</string>  
+    <string name="qsg_summary3_choose_widget">Houd een widget aangeraakt die u op het beginscherm wilt plaatsen.</string>  
+    <string name="qsg_title4_launch_page">Detailpagina starten</string>  
+    <string name="qsg_summary4_launch_page">Tik op een profielafbeelding om de detailpagina voor opties te openen.</string>  
+    <string name="qsg_title5_view_notification">Meldingen weergeven</string>  
+    <string name="qsg_summary5_view_notification">Houd de statusbalk vast en schuif omlaag om alle meldingen te bekijken.</string>  
+    <string name="qsg_changesim_title">Van SIM-kaart wisselen</string>  
+    <string name="qsg_changesim_summary">Schuif de statusbalk omlaag en selecteer de dienst-SIM-kaart die u wilt gebruiken.</string>  
+    <string name="qsg_summary_end">U bent door alle tips gelopen in de snelstartgids. \n\nAls u wilt, kunt u op de knop "Opnieuw afspelen" klikken om deze gids nogmaals te bekijken.\n\nU kunt ook op de knop "Voltooien" tikken om uw nieuwe toestel te gaan gebruiken.</string> 
+</resources>

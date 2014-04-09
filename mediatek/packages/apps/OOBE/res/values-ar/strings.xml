@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+
+    <!-- OOBE part begin -->  
+    <string name="app_name">OOBE</string>  
+    <string name="oobe_btn_text_next">التالي</string>  
+    <string name="oobe_btn_text_back">رجوع</string>  
+    <string name="oobe_btn_text_finish">إنهاء</string>  
+    <string name="oobe_btn_text_skip">تخطي</string>  
+    <string name="oobe_btn_text_dismiss">تجاهل</string>  
+    <string name="oobe_title_language_setting">اختر اللغة</string>  
+    <string name="oobe_summary_language_setting">اختر لغة الهاتف المفضلة لديك</string>  
+    <string name="oobe_title_keyboard_setting">اختر لوحة المفاتيح</string>  
+    <string name="oobe_summary_keyboard_setting">اختر لوحة المفاتيح المفضلة لديك.</string>  
+    <string name="oobe_title_import_contacts">استيراد أسماء من SIM</string>  
+    <string name="oobe_summary_import_contacts">يمكنك تحديد بعض أو كل بطاقات SIM التي تم إدخالها لاستيراد أسماء إلى الهاتف.</string>  
+    <string name="oobe_title_internet_connection_setting">حدد اتصال الإنترنت</string>  
+    <string name="oobe_summary_internet_connection">حدد اتصال الإنترنت المفضل لديك. يمكنك دومًا تغيير هذه الخيارات في Settings (إعدادات) فيما بعد.</string>  
+    <string name="oobe_title_sim_management">إدارة SIM</string>  
+    <string name="oobe_summary_sim_management">يمكنك النقر فوق عنصر بطاقة SIM لتحرير المعلومات الخاصة به. وعادة ما يستخدم اسم المشغل كاسم SIM افتراضية.</string>  
+    <string name="oobe_title_default_sim">قم بضبط SIM افتراضية</string>  
+    <string name="oobe_summary_default_sim">حدد SIM المفضلة لديك كإعداد افتراضي لهذه الخدمات.</string>  
+    <string name="oobe_title_wifi_settings">قم بإعداد شبكة Wi-Fi</string>  
+    <string name="oobe_summary_wifi_settings">انقر لتحديد شبكة Wi-Fi المفضلة أدناه</string>  
+    <string name="oobe_title_date_time">قم بإعداد التاريخ&amp; الوقت</string>  
+    <string name="oobe_summary_date_time">ضربه بزنید تا قالب تاریخ &amp; زمان را انتخاب کنید و در صورت لزوم اطلاعات تاریخ &amp; ساعت را بطور دستی وارد کنید.</string>  
+    <string name="oobe_locale_switching">جاري الانتظار...</string>  
+    <string name="oobe_ime_suggested">الإجراءات المقترحة</string>  
+    <string name="oobe_gemini_3g_indic">3G</string>  
+    <string name="oobe_internet_gprs_or_wifi_title">شبكة الهاتف المحمول أو Wi-Fi</string>  
+    <string name="oobe_internet_gprs_or_wifi_summary">حدد اتصال الإنترنت المفضل لديك. يمكنك دومًا تغيير هذه الخيارات في Settings (إعدادات) فيما بعد.</string>  
+    <string name="oobe_internet_wifi_only_title">Wi-Fi فقط</string>  
+    <string name="oobe_internet_wifi_only_summary">اختر هذا، إذا لم يكن لديك خطة بيانات</string>  
+    <string name="oobe_btn_start_import_contacts">بدء الاستيراد</string>  
+    <string name="oobe_btn_cancel_import_contacts">إلغاء</string>  
+    <string name="oobe_note_import_contacts_prepare">يرجى الانتظار للحظة لنسخ أسماء SIM.</string>  
+    <string name="oobe_note_import_contacts_going">يمكنك الانتقال إلى الخطوة التالية مع استمرار عملية الاستيراد قيد التنفيذ.</string>  
+    <string name="oobe_note_import_contacts_finish">تم الانتهاء من عملية النسخ. يمكنك الانتقال للخطوة التالية.</string>  
+    <string name="oobe_note_import_contacts_cancel">تم إلغاء الاستيراد. يمكنك تخطي هذه الخطوة للانتقال إلى الخطوة التالية أو بدء عملية الاستيراد من جديد.</string>  
+    <string name="oobe_note_progress_copy_contacts">%1$d من %2$d من الأسماء</string>  
+    <string name="oobe_note_copy_contacts_waiting">جاري الانتظار...</string>  
+    <string name="basic_congratulation_title">تهانينا!</string>  
+    <string name="basic_congratulation_summary">لقد انتهيت من جميع الإعدادات الأساسية. أنت الآن جاهز للتمتع بأجهزتك الجديدة. \n\nيمكنك دائمًا تغيير إعداداتك من "معالج الإعداد" من مشغل التطبيقات.</string>  
+    <string name="oobe_advance_settings_entrance_title">إعدادات متقدمة</string>  
+    <string name="oobe_advance_settings_entrance_summary">إذا كان لديك بالفعل حساب على Google أو حساب بريد إلكتروني أو أي حساب على أي شبكة اجتماعية، فنحن نشجعك على الاستمرار في الإعدادات المتقدمة.</string>  
+    <string name="oobe_sync_settings_name">إعدادات التزامن</string>  
+    <string name="oobe_sync_settings_title">التزامن المجدول</string>  
+    <string name="oobe_sync_settings_summary">حدد مدى رغبتك في تمكين خدمات تزامن البيانات. إذا كنت لا تمتلك خطة بيانات غير محدودة، فقد تؤدي بيانات التزامن إلى تكاليف إضافية.</string>  
+    <string name="oobe_account_settings_name">إعدادات الحساب</string>  
+    <string name="oobe_account_settings_title">إعداد الحسابات</string>  
+    <string name="oobe_account_settings_summary">لتزامن البريد والأسماء وأحداث التقويم، فأنت في حاجة إلى النقر على وإعداد واحد من أنواع الحسابات التالية على الأقل.</string>  
+    <string name="oobe_account_list_title">الحسابات</string>  
+    <string name="oobe_sns_settings_name">إعدادات SNS</string>  
+    <string name="oobe_sns_settings_title">إعداد الشبكات الاجتماعية</string>  
+    <string name="oobe_sns_settings_summary">قم بإعداد الشبكة الاجتماعية المفضلة لديك وستكون قادرًا على إرسال واستلام التحديثات في تطبيق الشبكة الاجتماعية.</string>  
+    <string name="oobe_advance_settings_end_title">تهانينا!</string>  
+    <string name="oobe_advance_settings_end_summary">لقد انتهيت من كل الإعدادات المتقدمة، وبذلك تكون مستعدًا للاستمتاع بجهازك الجديد. \n\n يمكنك دومًا تغيير إعداداتك في معالج الإعداد من مشغل التطبيقات.</string>  
+    <string name="tap_to_add">انقر لإضافة حساب 
+        <xliff:g id="account" example="renren">%s</xliff:g> 
+    </string>  
+    <string name="oobe_import_contacts_sim_name">بطاقة SIM</string>  
+    <string name="oobe_title_wifi">Wi-Fi</string>  
+    <string name="lock_settings_picker_title">تحديد قفل الشاشة</string>  
+    <string name="add_network_string">إضافة شبكة</string>  
+    <string name="oobe_title_sim_edit">تحرير SIM</string>  
+    <string name="oobe_summary_sim_edit">تحرير معلومات SIM لتناسب تفضيلاتك. يمكنك تغيير اسم SIM ولونها ورقم الهاتف.</string>  
+    <string name="oobe_waiting_sim">يُرجى الانتظار، جار تثبيت بطاقة SIM...</string>  
+    <string name="oobe_advance_settings_end_name">الرسالة الأخيرة</string>  
+    <string name="oobe_contact_import_null_cursor">تم انهاء الاستفسار غير أن به مؤشر فارغ، فشل عملية الاستيراد!</string> 
+    <string name="oobe_title_timezone">تحديد المنطقة الزمنية</string>  
+    <string name="gps_time_sync_attention_gps_on">سيستغرق ضبط GPS دقيقة واحدة على أقصى تقدير، علاوة على ذلك، ربما يفشل GPS في عرض الوقت الصحيح بسبب ضعف الإشارة البيئية.\n\nهل أنت متأكد من استخدام الوقت المقدم من GPS؟</string>  
+    <string name="gps_time_sync_attention_gps_off">لاستخدام الوقت المقدم من GPS، يجب تمكين GPS أولاً، سيستغرق ضبط GPS دقيقة واحدة على أقصى تقدير، علاوة على ذلك، ربما يفشل GPS في عرض الوقت الصحيح بسبب ضعف الإشارة البيئية. \n\nهل أنت متأكد من أنك تريد تمكين GPS الآن وانتظار الوقت المقدم من GPS؟</string>  
+    <string name="oobe_summary_timezone">يرجى تحديد المنطقة الزمنية المفضلة لديك.</string>  
+    <string name="sync_account_summary_on">تم تشغيل التزامن تلقائيًا</string>  
+    <string name="sync_account_summary_off">تم إيقاف تشغيل التزامن تلقائيًا</string>  
+    <string name="sync_account_title">حساب التزامن التلقائي</string>  
+    <string name="wifi_setup_wizard_title">"تحديد Wi-Fi"</string>  
+    <string name="wifi_menu_wps_pbc">"زر دفع WPS"</string>  
+    <string name="wifi_other_network">"شبكة أخرى..."</string>  
+    <string name="wifi_setup_skip">تخطي</string>  
+    <string name="wifi_setup_next">"التالي"</string>  
+    <string name="wifi_setup_back">رجوع</string>  
+    <string name="wifi_empty_list_wifi_off">قم بتشغيل Wi-Fi حتى تتمكن من رؤية الشبكات المتاحة.</string>  
+    <string name="wifi_empty_list_wifi_on">"جارٍ البحث عن شبكات Wi-Fi..."</string> 
+
+      <string name="import_contact_already">أنت تستورد بالفعل. رجاء حاول مجددا فيما بعد.</string>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Add for lockscreen unread events feature. -->
+    <style name="UnreadNumAppearance">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minWidth">20dip</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:background">@drawable/ic_newevents_numberindication</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- power off alrm start-->
+    <style name="label">
+        <item name="android:textSize">@dimen/label_font_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="big_thin">
+        <item name="android:textSize">@dimen/big_font_size</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+    <style name="header">
+        <item name="android:textSize">@dimen/header_font_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="header_not_caps" parent ="header">
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="big_bold">
+        <item name="android:textSize">@dimen/big_font_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="widget_big_bold" parent="big_bold">
+        <item name="android:textSize">@dimen/widget_big_font_size</item>
+    </style>
+    <!-- power off alrm end -->
+
+    <!-- Keyguard PIN dimsiss button styles -->
+    <style name="DismissPadKey"
+            parent="@*android:style/Widget.Button">
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+</resources>

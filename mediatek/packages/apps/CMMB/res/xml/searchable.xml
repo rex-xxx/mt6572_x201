@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable xmlns:android="http://schemas.android.com/apk/res/android"
+    android:label="@string/search_title"
+    android:hint="@string/search_hint"
+    android:includeInGlobalSearch="false"
+
+    android:searchSuggestAuthority="com.mediatek.providers.mbbms"
+    android:searchSuggestPath="sg/purchaseitem/search"
+    android:searchSuggestThreshold="3"
+    android:searchSuggestIntentAction="android.intent.action.VIEW"
+    android:searchSettingsDescription="@string/search_settings_description"
+/>

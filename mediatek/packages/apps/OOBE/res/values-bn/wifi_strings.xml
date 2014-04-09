@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string msgid="4746946030627213196" name="wifi_settings">ওয়াই-ফাই সেটিং</string>  
+    <string msgid="2810363951104753710" name="wifi_settings_category">ওয়াই-ফাই সেটিং</string>  
+    <string msgid="6710266609710860129" name="wifi_starting">চালু হচ্ছে\u2026</string>  
+    <string msgid="5952909472548218348" name="wifi_stopping">বন্ধ হচ্ছে\u2026</string>  
+    <string msgid="3207971103917128179" name="wifi_error">ভুল</string>  
+    <string msgid="7618393787965366655" name="wifi_in_airplane_mode">উড়োজাহাজ মোডে</string>  
+    <string msgid="6194542252808587669" name="wifi_fail_to_scan">নেটওয়ার্ক স্ক্যান করতে অক্ষম</string>  
+    <string msgid="3755768188029653293" name="wifi_notify_open_networks">নেটওয়ার্ক নোটিফিকেশন</string>  
+    <string msgid="3038290727701553612" name="wifi_notify_open_networks_summary">উন্মুক্ত নেটওয়ার্ক পাওয়া গেলে আমাকে জানান</string>  
+    <string msgid="1671334951296205616" name="wifi_add_network">ওয়াই-ফাই নেটওয়ার্ক যোগ করুন</string>  
+    <string msgid="1470911530412095868" name="wifi_menu_scan">স্ক্যান করুন</string>  
+    <string msgid="7522252991919573664" name="wifi_menu_advanced">উচ্চতর</string>  
+    <string msgid="4996220309848349408" name="wifi_menu_connect">নেটওয়ার্কে সংযুক্ত করুন</string>  
+    <string msgid="8736964302477327114" name="wifi_menu_forget">নেটওয়ার্ক ভুলে যান</string>  
+    <string msgid="2068554918652440105" name="wifi_menu_modify">নেটওয়ার্ক পরিবর্তন করুন</string>  
+    <string msgid="641393708309146745" name="wifi_ssid">নেটওয়ার্ক এসএসআইডি</string>  
+    <string msgid="6603611185592956936" name="wifi_security">নিরাপত্তা</string>  
+    <string msgid="5514120261628065287" name="wifi_signal">সিগন্যাল শক্তি</string>  
+    <string msgid="4824568012414605414" name="wifi_status">স্ট্যাটাস</string>  
+    <string msgid="3526198708812322037" name="wifi_speed">লিঙ্ক স্পিড</string>  
+    <string msgid="1440054061044402918" name="wifi_ip_address">আইপি ঠিকানা</string>  
+    <string msgid="8529436133640730382" name="wifi_eap_method">ইএপি পদ্ধতি</string>  
+    <string msgid="5231074529772044898" name="please_select_phase2">পর্যায় ২ সত্যপ্রতিপাদন</string>  
+    <string msgid="3521574865488892851" name="wifi_eap_ca_cert">সিএ সনদ</string>  
+    <string msgid="1291089413368160789" name="wifi_eap_user_cert">ব্যবহারকারী সনদ</string>  
+    <string msgid="4359453783379679103" name="wifi_eap_identity">পরিচিতি</string>  
+    <string msgid="2989469344116577955" name="wifi_eap_anonymous">বেনামী পরিচিতি</string>  
+    <string msgid="5948219759936151048" name="wifi_password">পাসওয়ার্ড</string>  
+    <string msgid="4235237470701732009" name="wifi_show_password">পাসওয়ার্ড দেখান</string>  
+    <string name="wifi_hex_password">হেক্সাডেসিমাল পাসওয়ার্ড</string>  
+    <string msgid="3410422020930397102" name="wifi_unchanged">(অপরিবর্তিত)</string>  
+    <string msgid="5431501214192991253" name="wifi_unspecified">(অনির্দিষ্ট)</string>  
+    <string msgid="8426719916135950136" name="wifi_remembered">মনে রেখেছে</string>  
+    <string msgid="1136191511238508967" name="wifi_not_in_range">র‍্যাঞ্জে নেই</string>  
+    <string msgid="1076622875777072845" name="wifi_connect">সংযুক্ত করুন</string>  
+    <string msgid="8168174695608386644" name="wifi_forget">ভুলে যান</string>  
+    <string msgid="3331121567988522826" name="wifi_save">সংরক্ষণ করুন</string>  
+    <string msgid="6763568902542968964" name="wifi_cancel">বাতিল করুন</string>  
+    <string msgid="5419052271935350999" name="wifi_advanced_titlebar">উচ্চতর</string>  
+    <string msgid="1367731352485585528" name="wifi_setting_sleep_policy_title">ওয়াই-ফাই স্লিপ পলিসি</string>  
+    <string msgid="5103670439972135148" name="wifi_setting_sleep_policy_error">স্লিপ পলিসি নির্ধারণে সমস্যা হয়েছে</string>  
+    <string msgid="6571335466330978393" name="wifi_advanced_mac_address_title">ম্যাক ঠিকানা</string>  
+    <string msgid="6215297094363164846" name="wifi_advanced_ip_address_title">আইপি ঠিকানা</string>  
+    <string msgid="4345739031248760326" name="wifi_ip_settings_titlebar">আইপি সেটিং</string>  
+    <string msgid="7344118050720080045" name="wifi_dns1">ডিএনএস ১</string>  
+    <string msgid="1368601006824882659" name="wifi_dns2">ডিএনএস ২</string>  
+    <string msgid="163914742461092086" name="wifi_gateway">গেটওয়ে</string>  
+    <string msgid="8948641212931906143" name="wifi_tether_enabled_subtext">বহনযোগ্য হটস্পট 
+        <xliff:g id="network_ssid">%1$s</xliff:g> সক্রিয়
+    </string>  
+    <string name="wapi_user_certificate">ব্যবহারকারী সনদ</string>  
+    <string name="wapi_as_certificate">এএসই সনদ</string>  
+    <string msgid="7862009036663793314" name="status_unavailable">প্রাপ্ত নয়</string>  
+    <string name="wifi_ctia_test">সিটিআইএ টেস্ট মোড সেটিং</string>  
+    <string name="wifi_ctia_test_summary">সিটিআইএ টেস্ট মোড কনফিগারেশন</string>  
+    <string name="wifi_ip_settings">আইপি সেটিং</string>  
+    <string name="wifi_disabled_generic">নিষ্ক্রিয়</string>  
+    <string name="wifi_disabled_network_failure">এড়িয়ে যাওয়া দুর্বল ইন্টারনেট সংযোগ</string>  
+    <string name="wifi_disabled_password_failure">সত্যপ্রতিপাদনে সমস্যা</string>  
+    <string name="wifi_ip_settings_invalid_ip_address">একটি কার্যকর আইপি ঠিকানা টাইপ করুন।</string>  
+    <string name="wifi_ip_settings_invalid_gateway">একটি কার্যকর গেটওয়ে ঠিকানা টাইপ করুন।</string>  
+    <string name="wifi_ip_settings_invalid_dns">একটি কার্যকর ডিএনএস ঠিকানা টাইপ করুন।</string>  
+    <string name="wifi_ip_settings_invalid_network_prefix_length">একটি নেটওয়ার্ক প্রেফিক্স টাইপ করুন যার দৈর্ঘ্য হবে ০ ও ৩২-এর মধ্যে।</string>  
+    <string name="wifi_network_prefix_length">নেটওয়ার্ক প্রেফিক্সের দৈর্ঘ্য</string>  
+    <string name="wifi_connect_type_title">স্বয়ংক্রিয় সংযোগ ধরন</string>  
+    <string name="wifi_priority_label">অগ্রাধিকার</string>  
+    <string name="wifi_priority_settings_label">অগ্রাধিকার সেটিং</string>  
+    <string name="wifi_wps_available_first_item">সুরক্ষিত নেটওয়ার্ক রয়েছে</string>  
+    <string name="wifi_wps_available_second_item">\u0020 (সুরক্ষিত নেটওয়ার্ক রয়েছে)</string>  
+    <string name="wifi_secured_first_item"> 
+        <xliff:g id="wifi_security_short">%1$s</xliff:g>দ্বারা সুরক্ষিত
+    </string>  
+    <string name="wifi_secured_second_item"> 
+        <xliff:g id="wifi_security_short">%1$s</xliff:g>দ্বারা সুরক্ষিত
+    </string>  
+    <string name="wifi_security_none">কোনটি নয়</string>  
+    <string name="sim_slot">সিম স্লট</string>  
+    <string name="wifi_network_netmask">নেটমাস্ক</string>  
+    <string name="wifi_enable_watchdog_service">দুর্বল সংযোগ এড়িয়ে চলুন</string>  
+    <string name="wifi_setting_frequency_band_title">ওয়াই-ফাই ফ্রিকোয়েন্সি ব্যান্ড</string>  
+    <string name="wifi_setting_frequency_band_summary">কার্যক্রমের ফ্রিকোয়েন্সি রেঞ্জ নির্দিষ্ট করুন</string>  
+    <string name="wifi_setting_frequency_band_error">ফ্রিকোয়োন্স ব্যান্ড সেট করার ক্ষেত্রে সমস্যা ছিল।</string>  
+    <string name="proxy_settings_title">প্রক্সি সেটিং</string>  
+    <string name="proxy_clear_text">মুছুন</string>  
+    <string name="proxy_port_label">প্রক্সি পোর্ট</string>  
+    <string name="proxy_exclusionlist_label">প্রক্সি বাইপাস করুন</string>  
+    <string name="proxy_exclusionlist_hint">example.com,mycomp.test.com,localhost</string>  
+    <string name="proxy_defaultView_text">ডিফল্ট পূর্বাবস্থায় আনুন</string>  
+    <string name="proxy_hostname_label">প্রক্সি হোস্ট নাম</string>  
+    <string name="proxy_hostname_hint">proxy.example.com</string>  
+    <string name="proxy_error">মনযোগ</string>  
+    <string name="proxy_error_dismiss">"ঠিক আছে"</string>  
+    <string name="proxy_error_empty_port">আপনাকে অবশ্যই পোর্টের ঘরটি পূরণ করতে হবে।</string>  
+    <string name="proxy_error_empty_host_set_port">হোস্টের ঘর খালি থাকলে পোর্টের ঘরও খালি থাকতে হবে।</string>  
+    <string name="proxy_warning_limited_support">এইচটিটিপি প্রক্সি ব্রাউজার কর্তৃক ব্যবহৃত হয়, তবে তা অন্যান্য অ্যাপ কর্তৃক ব্যবহৃত নাও হতে পারে।</string>  
+    <string name="wifi_show_advanced">উচ্চতর বিকল্পগুলো দেখান</string>  
+    <string name="wifi_network_setup">ওয়াইপিএস</string>  
+    <string name="wifi_wps_pin">প্রবেশ পয়েন্ট থেকে পিন টাইপ করুন</string>  
+    <string name="wifi_enable_watchdog_service_summary">ওয়াই-ফাই নেটওয়ার্ক ব্যবহার করবেন না যদি না এতে ভালো ইন্টারনেট সংযোগ থাকে</string>  
+    <string name="proxy_error_invalid_host">আপনি যে হোস্ট নাম টাইপ করেছেন তা কার্যকর নয়।</string>  
+    <string name="proxy_error_invalid_exclusion_list">আপনি যে বাদ তালিকা টাইপ করেছেন তা যথাযথভাবে ফরম্যাট করা নেই। বাদ দেওয়া ডোমেইনের তালিকায় কমা দিয়ে পৃথক করে টাইপ করুন।</string>  
+    <string name="proxy_error_invalid_port">আপনি যে পোর্ট টাইপ করেছেন তা কার্যকর নয়।</string>  
+    <string name="wifi_setting_connect_type_error">সংযোগ টাইপ সেট করায় সমস্যা আছে।</string>  
+    <string name="wifi_priority_type_title">অ্যাপ অগ্রাধিকার ম্যানুয়ালভাবে সেট করুন</string>  
+    <string name="wifi_priority_type_summary">প্রতিটি অ্যাক্সেস পয়েন্টের জন্য ম্যানুয়ালভাবে অগ্রাধিকার সেট করার অনুমতি দিন</string>  
+    <string name="wifi_priority_settings_title">অ্যাপ অগ্রাধিকার সেটিং</string>  
+    <string name="wifi_priority_settings_summary">প্রতিটি অ্যাক্সেস পয়েন্টের অগ্রাধিকার সেট করতে ক্লিক করুন</string>  
+    <string name="gsm_to_wifi_connect_type_title">সেলুলার-&gt; ওয়াই-ফাই</string>  
+    <string name="wifi_connect_ap_summary">নেটওয়ার্ক সংযোগ টাইপ নির্দিষ্ট করুন</string>  
+    <string name="select_ssid_type_title">এসএসআইডি-এর পুনঃনির্বাচন</string>  
+    <string name="proxy_action_text">সম্পন্ন</string>  
+    <string name="wifi_failed_connect_message">নেটওয়ার্কের সাথে সংযুক্ত হতে ব্যর্থ হয়েছে ।</string>  
+    <string name="wifi_failed_save_message">নেটওয়ার্ক সংরক্ষণ করতে ব্যর্থ হয়েছে ।</string>  
+    <string name="wifi_failed_forget_message">নেটওয়ার্ক ভুলতে ব্যর্থ হয়েছে ।</string> 
+
+      <string name="wifi_WEP_transmit_key">ট্রান্সমিট কি</string>
+      <string name="wifi_WEP_secury_key">সিকিউরি কি</string>
+      <string name="wifi_security_wapi_certificate">WAPI সার্টিফিকেট</string>
+      <string name="wifi_no_cert_for_wapi">অ্যাপ সংযুক্ত করতে এখন কোনো সার্টিফিকেট খুঁজে পাওয়া যায়নি</string>
+      <string name="eap_sim_slot_0">সিম স্লট ০</string>
+      <string name="eap_sim_slot_1">সিম স্লট ১</string>
+      <string name="eap_sim_aka_airplanemode">ইএপি-সিম/একেএ ব্যবহারের জন্য উড়োজাহাজ মোড বন্ধ করুন</string>
+      <string name="eap_sim_aka_no_sim_error">ইএপি-সিম/একেএ ব্যবহারের জন্য আপনাকে অবশ্যই একটি সিম কার্ড প্রবেশ করাতে হবে</string>
+      <string name="eap_sim_aka_no_sim_slot_selected">ইএপি-সিম/একেএ ব্যবহারের জন্য আপনাকে অবশ্যই একটি সিম স্লট নির্বাচন করতে হবে</string>
+      <string name="wifi_ipv4_address">IPv4 ঠিকানা</string>
+      <string name="wifi_ipv6_address">IPv6 তালিকা</string>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<virtualSpnOverridesByImsi version="1">
+<virtualSpnOverride mccmnc="20801" index="08" length="02" pattern="67" name="Virgin"/>
+</virtualSpnOverridesByImsi>

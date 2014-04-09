@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="qsg_app_name">فوری شروعات کا رہنما</string>  
+    <!-- ============================ -->  
+    <!-- quick start guide strings -->  
+    <!-- ============================ -->  
+    <string name="skip_button">چھوڑیں</string>  
+    <string name="ok_button">شروع</string>  
+    <string name="qsg_title_begin">فوری شروعات کا رہنما</string>  
+    <string name="qsg_summary_begin">فوری شروعات کا یہ رہنما 4 مفید نکات فراہم کرے گا اور آپ کو بنیادی وضع اور ہوم اسکرین کے نظم و نسق سے متعارف کروائے گا۔</string>  
+    <string name="next">اگلا</string>  
+    <string name="play_again">دوبارہ چلائیں</string>  
+    <string name="finish">ختم کریں</string>  
+    <string name="qsg_title2_home_screen">ہوم اسکرین دیکھیں</string>  
+    <string name="qsg_summary2_home_screen">ہوم اسکرین کے دوسرے صفحات دیکھنے کیلئے بائیں یا دائیں تبدیل کریں۔</string>  
+    <string name="qsg_title3_choose_widget">کچھ ویجٹس چنیں</string>  
+    <string name="qsg_summary3_choose_widget">ویجٹ کو اپنے ہوم اسکرین میں شامل کرنے کیلئے، اسے چھوئیں اور پکڑے رہیں۔</string>  
+    <string name="qsg_title4_launch_page">تفصیل کا صفحہ شروع کریں</string>  
+    <string name="qsg_summary4_launch_page">اختیارات کیلئے تفصیل کا صفحہ پاپ اپ کرنے کے واسطے پروفائل کی تصویر پر تھپتھپائیں۔</string>  
+    <string name="qsg_title5_view_notification">اطلاعات دیکھیں</string>  
+    <string name="qsg_summary5_view_notification">حیثیت کا بار پکڑیں اور سبھی اطلاعات دیکھنے کیلئے اسے نیچے لے جائیں۔</string>  
+    <string name="qsg_changesim_title">SIM کارڈ تبدیل کریں</string>  
+    <string name="qsg_changesim_summary">حیثیت کا بار نیچے لے جائیں، اور چلانے کیلئے سروس SIM کارڈ منتخب کریں۔</string>  
+    <string name="qsg_summary_end">آپ فوری شروعات کا رہنما میں فراہم کردہ سبھی نکات سے گزر چکے ہیں۔ \n\nاگر آپ چاہیں تو، آپ یہ رہنما دوبارہ دیکھنے کیلئے "دوبارہ چلائیں" بٹن پر تھپتھپا سکتے ہیں۔ \n\nمتبادل طور پر، آپ اپنا نیا آلہ چلانے کیلئے "ختم کریں" بٹن پر تھپتھپا سکتے ہیں۔</string> 
+</resources>

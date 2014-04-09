@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="gemini_sim_info_title">SIM 정보</string>  
+    <string name="gemini_default_sim_title">기본 SIM</string>  
+    <string name="gemini_general_settings_title">일반 설정</string>  
+    <string name="gemini_roaming_settings_title">로밍</string>  
+    <string name="gemini_contacts_sim_title">"연락처 및 SIM"</string>  
+    <string name="gemini_contacts_sim_summary">연락처를 특정 SIM에 연결</string>  
+    <string name="gemini_voice_call">음성 통화</string>  
+    <string name="gemini_video_call">화상 통화</string>  
+    <string name="gemini_data_connection">데이터 연결</string>  
+    <string name="gemini_msg">메시징</string>  
+    <string name="gemini_default_sim_always_ask">항상 묻기</string>  
+    <string name="gemini_intenet_call">인터넷 통화</string>  
+    <string name="gemini_default_sim_never">끄기</string>  
+    <string name="gemini_default_sim_3g_off">끄기</string>  
+    <string name="gemini_gsm_umts_network_preferences_title">네트워크 모드</string>  
+    <string name="gemini_sim_mode_progress_activating_message">활성화하는 중\u2026</string>  
+    <string name="gemini_sim_mode_progress_deactivating_message">비활성화하는 중\u2026</string>  
+    <string name="gemini_3g_indic" translatable="false">3G</string>  
+    <string name="gemini_sim_info_editor_name">SIM 이름 편집</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">저장 실패</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">SIM 카드의 중복 이름</string>  
+    <string name="gemini_sim_info_editor_number">전화번호 입력</string>  
+    <string name="gemini_sim_info_editor_color">배경색 설정</string>  
+    <string name="gemini_sim_info_editor_number_display_format">번호 표시</string>  
+    <string name="gemini_no_sim_indicator">SIM 카드 없음</string>  
+    <string name="gemini_data_connection_progress_message">"기다리십시오…"</string>  
+    <string name="gemini_3g_modem_switching_message">"SIM 전환을 완료하는 데 약 10초가 걸립니다. 기다리십시오..."</string>  
+    <string name="gemini_3g_modem_switch_confirm_message">"이는 또한 3G 서비스를 이 SIM으로 전환합니다. 계속하시겠습니까? 선택한 이 SIM이 3G 서비스를 지원하는지도 확인하십시오."</string>  
+    <string name="apn_not_set">설정되지 않음</string>  
+    <string name="gemini_3g_disable_warning_case0">"먼저 이 SIM 카드에 대해 상당한 요금이 발생할 수 있는 데이터 로밍을 사용으로 설정해야 합니다! 데이터 로밍을 사용으로 설정하고 이 SIM을 선택하시겠습니까?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"선택한 이 SIM에서 3G 서비스를 사용할 수 없습니다. 이 때문에 데이터 로드가 느려질 수 있습니다. 설정 &gt; 무선 및 네트워크 &gt; 모바일 네트워크에서 3G 서비스를 변경할 수 있습니다. 이 SIM을 선택하시겠습니까?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"선택한 이 SIM에서 3G 서비스를 사용할 수 없습니다. 이 때문에 데이터 로드가 느려질 수 있습니다. 설정 &gt; SIM 관리에서 3G 서비스를 변경할 수 있습니다. 이 SIM을 선택하시겠습니까?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"먼저 이 SIM 카드에 대해 상당한 요금이 발생할 수 있는 데이터 로밍을 사용으로 설정해야 합니다! 게다가 이 SIM에서 3G 서비스를 사용할 수 없습니다. 이 때문에 데이터 로드가 느려질 수 있습니다. 설정 &gt; 무선 및 네트워크 &gt; 모바일 네트워크에서 3G 서비스를 변경할 수 있습니다. 데이터 로밍을 사용으로 설정하고 이 SIM을 선택하시겠습니까?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"먼저 이 SIM 카드에 대해 상당한 요금이 발생할 수 있는 데이터 로밍을 사용으로 설정해야 합니다! 게다가 이 SIM에서 3G 서비스를 사용할 수 없습니다. 이 때문에 데이터 로드가 느려질 수 있습니다. 설정 &gt; SIM 관리에서 3G 서비스를 변경할 수 있습니다. 데이터 로밍을 사용으로 설정하고 이 SIM을 선택하시겠습니까?"</string> 
+</resources>

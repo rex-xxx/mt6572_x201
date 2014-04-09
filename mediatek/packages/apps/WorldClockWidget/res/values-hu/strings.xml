@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Világóra</string>
+    <string name="current_time_text">Aktuális</string>
+    <string name="another_city_text">Hozzáadás</string>
+    <string name="ime_action_done">Kész</string>
+    <string name="a_city_selected">Város kiválasztva.</string>
+    <string name="search_city">Város keresése</string>
+    <string name="next">Következő</string>
+    <string name="select_right_city">Elnézést, nincs ilyen város.</string>
+    <string name="clock_loading">Betöltés\u2026</string>
+    <string name="add_new_city">Új város hozzáadása</string>  
+    <string name="delete_city">Város törlése</string>
+    <string name="delete_city_info">Megtörténik a város törlése</string>  
+    <string name="deleteok">Törlés</string>
+    <string name="cancel">Mégse</string>
+    <string name="add_city">Nyomja meg az ikont új város hozzáadásához</string>
+    <string name="has_chosen">kiválasztva.</string>
+</resources>
+

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="qsg_app_name">Guide de démarrage rapide</string>  
+    <!-- ============================ -->  
+    <!-- quick start guide strings -->  
+    <!-- ============================ -->  
+    <string name="skip_button">Omettre</string>  
+    <string name="ok_button">Démarrer</string>  
+    <string name="qsg_title_begin">Guide de démarrage rapide</string>  
+    <string name="qsg_summary_begin">"Ce Guide de démarrage rapide vous donne 4 astuces utiles et vous présentes les fonctions de base ainsi que la gestion de l'écran d'accueil."</string>  
+    <string name="next">Suivant</string>  
+    <string name="play_again">Rejouer</string>  
+    <string name="finish">Terminer</string>  
+    <string name="qsg_title2_home_screen">"Afficher l'écran d'accueil"</string>  
+    <string name="qsg_summary2_home_screen">"Poussez vers la gauche ou la droite pour afficher d'autres pages de l'écran d'accueil."</string>  
+    <string name="qsg_title3_choose_widget">Sélectionner des widgets</string>  
+    <string name="qsg_summary3_choose_widget">"Pour ajouter un widget à votre écran d'accueil, touchez-le longuement."</string>  
+    <string name="qsg_title4_launch_page">Afficher page des détails</string>  
+    <string name="qsg_summary4_launch_page">"Touchez une image de profil pour afficher la page des détails et d'autres options."</string>  
+    <string name="qsg_title5_view_notification">Afficher les notifications</string>  
+    <string name="qsg_summary5_view_notification">"Appuyez sur la barre d'état et faites-la glisser vers le bas pour afficher toutes les notifications."</string>  
+    <string name="qsg_changesim_title">Commuter carte SIM</string>  
+    <string name="qsg_changesim_summary">"Faites glisser la barre d'état vers le bas et sélectionnez la carte SIM à utiliser."</string>  
+    <string name="qsg_summary_end">Vous avez maintenant connaissance de toutes les astuces du Guide de démarrage rapide. \n\nVous pouvez toucher le bouton "Rejouer" pour revoir ces astuces. \n\nAutrement, touchez "Terminer" pour commencer à utiliser votre appareil.</string> 
+</resources>

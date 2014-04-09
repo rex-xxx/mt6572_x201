@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="next">পরবর্তীতে</string>
+    <string name="scroll_left_bar_title">আরো ক্যাপচার মোড দেখতে স্ক্রল করুন</string>
+    <string name="zoome_title">জুম ইন/আউট করুন</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="confirm_radio_title">SIM disattivata</string>
+	<string name="confirm_radio_msg">
+		<xliff:g id="operator_name" example="CMCC">%1$s</xliff:g>
+		disattivato. Attivare questa scheda SIM?
+	</string>
+	<string name="confirm_radio_msg_single">"Airplane mode (Modalità aereo) attivata. Disattivarla?"</string>
+	<string name="confirm_pin_title">Blocco PIN</string>
+	<string name="confirm_pin_msg">La scheda SIM che si sta per utilizzare è bloccata. Sbloccare?</string>
+	<string name="confirm_simmelock_title">Blocco SIM ME</string>
+	<string name="confirm_simmelock_msg">Lo slot SIM che si sta per utilizzare è bloccato. Sbloccare?</string>
+	<string name="confirm_fdn_title">FDN attivato</string>
+	<string name="confirm_fdn_msg">Numeri di selezione fissa attivati.</string>
+	<string name="confirm_roaming_title">Avviso roaming</string>
+	<string name="confirm_roaming_msg">La scheda SIM che si sta per utilizzare è in roaming. Nessuna scheda SIM disponibile. Continuare?</string>
+	<string name="confirm_roaming_withPrefer_msg">La scheda SIM che si sta per utilizzare è in roaming. Continuare con la SIM locale?</string>
+	<string name="confirm_roaming_lbutton">Continua</string>
+	<string name="confirm_roaming_rbutton">Annulla</string>
+	<string name="confirm_roamingWithPrefer_lbutton">SIM locale</string>
+	<string name="confirm_roamingWithPrefer_rbutton">SIM in roaming</string>
+	<string name="confirm_radio_lbutton">Attiva</string>
+	<string name="confirm_unlock_lbutton">Sblocca</string>
+	<string name="confirm_unlock_fail">Operazione annullata</string>
+	<string name="confirm_turnon_radio_fail">Pengendalian dibatalkan</string>
+	<string name="confirm_permit_roaming_fail">Annullare questa operazione su SIM in roaming</string>
+	<string name="confirm_sim_locked_message">"La scheda SIM è stata bloccata permanentemente."</string>
+	<string name="confirm_slot_locked_message">"Slot bloccato in modo permanente."</string>
+	<string name="app_name">CellConnectionService</string>  
+	<string name="button_ok">Ok</string>  
+</resources>

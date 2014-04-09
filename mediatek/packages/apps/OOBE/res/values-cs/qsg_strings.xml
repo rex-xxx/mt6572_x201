@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="qsg_app_name">Stručný rychlý průvodce</string>  
+    <!-- ============================ -->  
+    <!-- quick start guide strings -->  
+    <!-- ============================ -->  
+    <string name="skip_button">Přeskočit</string>  
+    <string name="ok_button">Spustit</string>  
+    <string name="qsg_title_begin">Stručný rychlý průvodce</string>  
+    <string name="qsg_summary_begin">Tento stručný rychlý průvodce vám poskytne 4 užitečných rad a seznámí vás se základními gesty a správou hlavní obrazovky.</string>  
+    <string name="next">Další</string>  
+    <string name="play_again">Přehrát znovu</string>  
+    <string name="finish">Dokončit</string>  
+    <string name="qsg_title2_home_screen">Zobrazit hlavní obrazovku</string>  
+    <string name="qsg_summary2_home_screen">Rychlým posunem vlevo nebo vpravo zobrazíte další stránky hlavní obrazovky.</string>  
+    <string name="qsg_title3_choose_widget">Vybrat pomůcky</string>  
+    <string name="qsg_summary3_choose_widget">Chcete-li přidat pomůcku na hlavní obrazovku, stiskněte ji a podržte.</string>  
+    <string name="qsg_title4_launch_page">Spustit stránku s detaily</string>  
+    <string name="qsg_summary4_launch_page">Klepnutím na obrázek profilu zobrazíte místní stránku s detaily pro volby.</string>  
+    <string name="qsg_title5_view_notification">Zobrazit oznámení</string>  
+    <string name="qsg_summary5_view_notification">Přidržte stavový panel a posouváním dolů zobrazíte všechna oznámení.</string>  
+    <string name="qsg_changesim_title">Přepnout kartu SIM</string>  
+    <string name="qsg_changesim_summary">Posouvejte stavový panel dolů a vyberte službu karty SIM, kterou chcete použít.</string>  
+    <string name="qsg_summary_end">Prošli jste všechny rady stručného rychlého průvodce. \n\nChcete-li, můžete si tohoto průvodce přehrát znovu klepnutím na tlačítko "přehrát znovu".\n\nNebo můžete klepnout na tlačítko "Dokončit" a začít používat vaše nové zařízení.</string> 
+</resources>

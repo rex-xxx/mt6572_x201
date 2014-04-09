@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Orasan ng mundo</string>
+    <string name="current_time_text">Kasalukuyan</string>
+    <string name="another_city_text">Idagdag</string>
+    <string name="ime_action_done">Tapos Na</string>
+    <string name="a_city_selected">May lungsod na napili.</string>
+    <string name="search_city">Hanapan ang lungsod</string>
+    <string name="next">Susunod</string>
+    <string name="select_right_city">Paumanhin, walang ganyang lungsod.</string>
+    <string name="clock_loading">Nilo-load\u2026</string>
+    <string name="add_new_city">Magdagdag ng bagong lungsod</string>
+    <string name="delete_city">Tanggalin ang lungsod</string>
+    <string name="has_chosen">ay napili.</string>
+    <string name="delete_city_info">Tatanggalin ang lungsod</string>
+    <string name="deleteok">I-delete</string>
+    <string name="cancel">I-cancel</string>
+    <string name="add_city">Pindutin ang icon upang magdagdag ng bagong lungsod</string>
+</resources>
+

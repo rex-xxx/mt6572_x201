@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+
+    <!-- OOBE part begin -->  
+    <string name="app_name">OOBE</string>  
+    <string name="oobe_btn_text_next">Далее</string>  
+    <string name="oobe_btn_text_back">Назад</string>  
+    <string name="oobe_btn_text_finish">Завершить</string>  
+    <string name="oobe_btn_text_skip">Пропустить</string>  
+    <string name="oobe_btn_text_dismiss">Освободить</string>  
+    <string name="oobe_title_language_setting">Выбрать язык</string>  
+    <string name="oobe_summary_language_setting">Выберите язык для сообщений телефона по своему усмотрению</string>  
+    <string name="oobe_title_keyboard_setting">Выбрать клавиатуру</string>  
+    <string name="oobe_summary_keyboard_setting">Выберите клавиатуру по своему усмотрению.</string>  
+    <string name="oobe_title_import_contacts">Импорт контактов с SIM-карты</string>  
+    <string name="oobe_summary_import_contacts">Можно выбрать несколько или все SIM-карты для импорта контактов в память телефона.</string>  
+    <string name="oobe_title_internet_connection_setting">Выбрать интернет-подключение</string>  
+    <string name="oobe_summary_internet_connection">Выберите интернет-подключение по своему усмотрению. В дальнейшем эти параметры всегда можно изменить в меню «Настройки».</string>  
+    <string name="oobe_title_sim_management">Управление SIM-картой</string>  
+    <string name="oobe_summary_sim_management">Для редактирования информации SIM-карты щелкните ее значок. Обычно в качестве имени SIM-карты используется имя владельца устройства.</string>  
+    <string name="oobe_title_default_sim">Установить SIM-карту по умолчанию</string>  
+    <string name="oobe_summary_default_sim">Для использования данных служб выберите по своему усмотрению SIM-карту по умолчанию.</string>  
+    <string name="oobe_title_wifi_settings">Настройка сети Wi-Fi</string>  
+    <string name="oobe_summary_wifi_settings">Щелкните значок ниже для выбора сети Wi-Fi по своему усмотрению</string>  
+    <string name="oobe_title_date_time">Настройка даты &amp; времени</string>  
+    <string name="oobe_summary_date_time">При необходимости нажмите для выбора формата даты &amp; времени и установите вручную дату &amp; время.</string>  
+    <string name="oobe_locale_switching">Ждите…</string>  
+    <string name="oobe_ime_suggested">Предлагается</string>  
+    <string name="oobe_gemini_3g_indic">3G</string>  
+    <string name="oobe_internet_gprs_or_wifi_title">Мобильная сеть Wi-Fi</string>  
+    <string name="oobe_internet_gprs_or_wifi_summary">Выберите интернет-подключение по своему усмотрению. В дальнейшем эти параметры всегда можно изменить в меню «Настройки».</string>  
+    <string name="oobe_internet_wifi_only_title">Только Wi-Fi</string>  
+    <string name="oobe_internet_wifi_only_summary">Если у вас нет плана данных, выберите этот вариант</string>  
+    <string name="oobe_btn_start_import_contacts">Запуск для импорта</string>  
+    <string name="oobe_btn_cancel_import_contacts">Отмена</string>  
+    <string name="oobe_note_import_contacts_prepare">Немного подождите для копирования контактов SIM-карты.</string>  
+    <string name="oobe_note_import_contacts_going">Теперь вы можете перейти к следующему шагу, пока выполняется импорт.</string>  
+    <string name="oobe_note_import_contacts_finish">Копирование завершено. Можно перейти к следующему шагу.</string>  
+    <string name="oobe_note_import_contacts_cancel">Импорт отменен. Вы можете перейти к следующему шагу или повторно запустить импорт.</string>  
+    <string name="oobe_note_progress_copy_contacts">%1$d из %2$d контактов</string>  
+    <string name="oobe_note_copy_contacts_waiting">Ждите…</string>  
+    <string name="basic_congratulation_title">Поздравляем!</string>  
+    <string name="basic_congratulation_summary">Завершена настройка основных параметров. Теперь можно наслаждаться новыми устройствами. \n\nМожно всегда изменить настройки, используя мастер установки модуля запуска приложения.</string>  
+    <string name="oobe_advance_settings_entrance_title">Дополнительные настройки</string>  
+    <string name="oobe_advance_settings_entrance_summary">Если у вас уже есть учетная запись Google, учетная запись E-Mail или учетная запись любой социальной сети, вы можете продолжить дополнительную настройку.</string>  
+    <string name="oobe_sync_settings_name">Настройка синхронизации</string>  
+    <string name="oobe_sync_settings_title">Синхронизация по графику</string>  
+    <string name="oobe_sync_settings_summary">Выберите, если вы хотите включить службы синхронизации данных. Если у вас нет неограниченного плана данных, синхронизация данных может привести к дополнительным затратам.</string>  
+    <string name="oobe_account_settings_name">Настройки учетной записи</string>  
+    <string name="oobe_account_settings_title">Настройка учетных записей</string>  
+    <string name="oobe_account_settings_summary">Для синхронизации электронной почты, контактов и календарных событий вам следует настроить хотя бы одну из учетных записей следующих типов.</string>  
+    <string name="oobe_account_list_title">Учетные записи</string>  
+    <string name="oobe_sns_settings_name">Настройки SNS</string>  
+    <string name="oobe_sns_settings_title">Настройка социальных сетей</string>  
+    <string name="oobe_sns_settings_summary">Настройте социальную сеть по своему выбору, после чего вы сможете посылать и получать обновления в приложениях социальной сети.</string>  
+    <string name="oobe_advance_settings_end_title">Поздравляем!</string>  
+    <string name="oobe_advance_settings_end_summary">Вы завершили все дополнительные настройки. Теперь вы можете в полной мере пользоваться своим устройством. \n\n Вы всегда можете изменить настройки с помощью Мастера настройки, запустив его из приложений.</string>  
+    <string name="tap_to_add">Нажмите, чтобы добавить учетную запись 
+        <xliff:g id="account" example="renren">%s</xliff:g> 
+    </string>  
+    <string name="oobe_import_contacts_sim_name">SIM-карта</string>  
+    <string name="oobe_title_wifi">"Wi-Fi"</string>  
+    <string name="lock_settings_picker_title">Выбор блокир. экрана</string>  
+    <string name="add_network_string">Добавить сеть</string>  
+    <string name="oobe_title_sim_edit">Редактирование SIM-карты</string>  
+    <string name="oobe_summary_sim_edit">Редактирование информации на SIM-карте по своему усмотрению. Вы можете изменить имя SIM-карты, цвет и номер телефона.</string>  
+    <string name="oobe_waiting_sim">Инициализация SIM-карты, ждите…</string>  
+    <string name="oobe_advance_settings_end_name">Последнее сообщение</string>  
+    <string name="oobe_contact_import_null_cursor">Запрос выполнен, однако получен пустой указатель, импорт не удался!</string> 
+    <string name="oobe_title_timezone">Выбор часового пояса</string>  
+    <string name="gps_time_sync_attention_gps_on">Для настройки GPS может потребоваться не менее 1 минуты. Кроме того, GPS может не предоставить время из-за слабого внешнего сигнала.\n\n Действительно использовать время, предоставленное GPS?</string>  
+    <string name="gps_time_sync_attention_gps_off">Чтобы использовать время, предоставленное GPS, сначала необходимо включить GPS. Затем потребуется не менее 1 минуты для настройки GPS. Кроме того, GPS может не предоставить время из-за слабого внешнего сигнала.\n\n Действительно использовать время, предоставленное GPS?</string>  
+    <string name="oobe_summary_timezone">Выберите предпочтительный часовой пояс.</string>  
+    <string name="sync_account_summary_on">Включить автоматическую синхронизацию</string>  
+    <string name="sync_account_summary_off">Выключить автоматическую синхронизацию</string>  
+    <string name="sync_account_title">Учетная запись автоматической синхронизации</string>  
+    <string name="wifi_setup_wizard_title">"Wi-Fi"</string>  
+    <string name="wifi_menu_wps_pbc">"Кнопка WPS"</string>  
+    <string name="wifi_other_network">"Другие сети…"</string>  
+    <string name="wifi_setup_skip">Пропустить</string>  
+    <string name="wifi_setup_next">"Далее"</string>  
+    <string name="wifi_setup_back">Назад</string>  
+    <string name="wifi_empty_list_wifi_off">Чтобы увидеть доступные сети, включите Wi-Fi.</string>  
+    <string name="wifi_empty_list_wifi_on">"Поиск сетей Wi-Fi…"</string> 
+
+      <string name="import_contact_already">Импорт уже выполняется. Повторите попытку позже.</string>
+</resources>

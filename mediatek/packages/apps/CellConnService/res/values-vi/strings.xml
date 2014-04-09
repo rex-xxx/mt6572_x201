@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="confirm_radio_title">Đã tắt SIM</string>
+	<string name="confirm_radio_msg">
+		<xliff:g id="operator_name" example="CMCC">%1$s</xliff:g>
+		 hiện đã tắt. Bạn muốn bật thẻ SIM này?
+	</string>
+	<string name="confirm_radio_msg_single">"Chế độ máy bay hiện đang bật, bạn muốn tắt?"</string>
+	<string name="confirm_pin_title">Khóa mã PIN</string>
+	<string name="confirm_pin_msg">Thẻ SIM bạn sắp sử dụng hiện bị khóa. Bạn muốn mở khóa?</string>
+	<string name="confirm_simmelock_title">Khóa SIM ME</string>
+	<string name="confirm_simmelock_msg">Khe cắm SIM bạn sắp sử dụng hiện bị khóa. Bạn muốn mở khóa?</string>
+	<string name="confirm_fdn_title">Đã bật FDN</string>
+	<string name="confirm_fdn_msg">Đã bật các số gọi cố định.</string>
+	<string name="confirm_roaming_title">Th.báo chuyển vùng</string>
+	<string name="confirm_roaming_msg">Thẻ SIM bạn sắp sử dụng hiện đang chuyển vùng. Hiện không có sẵn SIM từ mạng trong nước. Bạn muốn tiếp tục?</string>
+	<string name="confirm_roaming_withPrefer_msg">Thẻ SIM bạn sắp sử dụng hiện đang chuyển vùng. Bạn muốn tiếp tục dùng SIM từ mạng trong nước?</string>
+	<string name="confirm_roaming_lbutton">Tiếp tục</string>
+	<string name="confirm_roaming_rbutton">Hủy</string>
+	<string name="confirm_roamingWithPrefer_lbutton">SIM trong nước</string>
+	<string name="confirm_roamingWithPrefer_rbutton">SIM chuyển vùng</string>
+	<string name="confirm_radio_lbutton">Bật</string>
+	<string name="confirm_unlock_lbutton">Mở khóa</string>
+	<string name="confirm_unlock_fail">Đã hủy thao tác</string>
+	<string name="confirm_turnon_radio_fail">Đã hủy thao tác</string>
+	<string name="confirm_permit_roaming_fail">Bạn hủy thao tác này trên SIM chuyển vùng</string>
+	<string name="confirm_sim_locked_message">"Thẻ SIM sẽ bị khóa vĩnh viễn."</string>
+	<string name="confirm_slot_locked_message">"Khe cắm đã bị khóa vĩnh viễn."</string>
+	<string name="app_name">Dịch vụ kết nối mạng di động</string>  
+	<string name="button_ok">Ok</string>  
+</resources>

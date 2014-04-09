@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+
+    <!-- OOBE part begin -->  
+    <string name="app_name">OOBE</string>  
+    <string name="oobe_btn_text_next">পরবর্তী</string>  
+    <string name="oobe_btn_text_back">পেছনে</string>  
+    <string name="oobe_btn_text_finish">শেষ করুন</string>  
+    <string name="oobe_btn_text_skip">এড়িয়ে যান</string>  
+    <string name="oobe_btn_text_dismiss">বাতিল করুন</string>  
+    <string name="oobe_title_language_setting">ভাষা নির্বাচন করুন</string>  
+    <string name="oobe_summary_language_setting">ফোনে আপনার পছন্দের ভাষা নির্বাচন করুন</string>  
+    <string name="oobe_title_keyboard_setting">কিবোর্ড নির্বাচন করুন</string>  
+    <string name="oobe_summary_keyboard_setting">আপনার পছন্দের কিবোর্ড নির্বাচন করুন।</string>  
+    <string name="oobe_title_import_contacts">সিম থেকে পরিচিতজন আমদানি করুন</string>  
+    <string name="oobe_summary_import_contacts">ফোনে পরিচিতজন আমদানি করতে আপনার সেটে প্রবেশ করানো কিছু বা সকল সিম কার্ড আপনি নির্বাচন করতে পারেন।</string>  
+    <string name="oobe_title_internet_connection_setting">ইন্টারনেট সংযোগ নির্বাচন করুন</string>  
+    <string name="oobe_summary_internet_connection">আপনার পছন্দের ইন্টারনেট সংযোগ নির্বাচন করুন। সেটিংয়ে গিয়ে আপনি সবসময় এসব অপশন পরিবর্তন করতে পারেন।</string>  
+    <string name="oobe_title_sim_management">সিম ব্যবস্থাপনা করুন</string>  
+    <string name="oobe_summary_sim_management">সিম কার্ডের তথ্য সম্পাদনা করতে সিমে হালকা চাপ দিতে পারেন। স্বাধারণত অপারেটরের নাম ডিফল্ট সিম নাম হিসেবে ব্যবহৃত হয়।</string>  
+    <string name="oobe_title_default_sim">ডিফল্ট সিম সেট করুন</string>  
+    <string name="oobe_summary_default_sim">এসব সেবার জন্য ডিফল্ট সেটিং হিসেবে আপনার পছন্দের সিম নির্বাচন করুন</string>  
+    <string name="oobe_title_wifi_settings">ওয়াই-ফাই নেটওয়ার্ক সেট আপ করুন</string>  
+    <string name="oobe_summary_wifi_settings">নিচে আপনার পছন্দের ওয়াই-ফাই নেটওয়ার্ক নির্বাচন করতে হালকা চাপুন</string>  
+    <string name="oobe_title_date_time">তারিখ &amp; সময় সেট আপ করুন</string>  
+    <string name="oobe_summary_date_time">আপনার তারিখ &amp; ও সময় ফরম্যাট নির্বাচন করতে হালকা চাপ দিন এবং আপনার তারিখ &amp; সেট করুন। প্রয়োজন হলে হাতে হাতে সময়ের তথ্য</string>  
+    <string name="oobe_locale_switching">অপেক্ষা করছে...</string>  
+    <string name="oobe_ime_suggested">পরামর্শকৃত</string>  
+    <string name="oobe_gemini_3g_indic">3G</string>  
+    <string name="oobe_internet_gprs_or_wifi_title">মোবাইল নেটওয়ার্ক বা ওয়াই-ফাই</string>  
+    <string name="oobe_internet_gprs_or_wifi_summary">আপনার পছন্দের ইন্টারনেট সংযোগ নির্বাচন করুন। পরে আপনি সবসময় সেটিংয়ে গিয়ে এসব অপশন পরিবর্তন করতে পারেন।</string>  
+    <string name="oobe_internet_wifi_only_title">কেবল ওয়াই-ফাই</string>  
+    <string name="oobe_internet_wifi_only_summary">আপনার কোনো ডাটা প্লান না থাকলে এটি বাছাই করুন।</string>  
+    <string name="oobe_btn_start_import_contacts">আমদানি শুরু করুন</string>  
+    <string name="oobe_btn_cancel_import_contacts">বাতিল করুন</string>  
+    <string name="oobe_note_import_contacts_prepare">সিম পরিচিতজন কপি করতে এক মুহূর্তের অপেক্ষা করুন।</string>  
+    <string name="oobe_note_import_contacts_going">আমদানি প্রক্রিয়াধীন থাকা অবস্থায়ও আপনি পরবর্তী ধাপে যেতে পারেন।</string>  
+    <string name="oobe_note_import_contacts_finish">সম্পূর্ণরূপে কপি করুন। আপনি পরবর্তী ধাপ যেতে পারেন।</string>  
+    <string name="oobe_note_import_contacts_cancel">আমদানি বাতিল। আপনি পরবর্তী ধাপ বাদ দিতে পারেন বা আবার আমদানি শুরু করতে পারেন।</string>  
+    <string name="oobe_note_progress_copy_contacts">%2$d পরিচিতজনের %1$d</string>  
+    <string name="oobe_note_copy_contacts_waiting">অপেক্ষা করছে...</string>  
+    <string name="basic_congratulation_title">অভিনন্দন!</string>  
+    <string name="basic_congratulation_summary">আপনি সব মৌলিক সেটিং স্থাপন সম্পন্ন করেছেন। আপনি এখন আপনার নতুন ডিভাইস উপভোগের জন্য প্রস্তুত।\n\nআপনি অ্যাপ্লিকেশন চালুকারীর সেটআপ উইজার্ড থেকে আপনার সেটিং যেকোন সময় পরিবর্তন করতে পারেন।</string>  
+    <string name="oobe_advance_settings_entrance_title">উচ্চতর সেটিং</string>  
+    <string name="oobe_advance_settings_entrance_summary">আপনার যদি গুগল একাউন্ট, ই-মেইল একাউন্ট বা সোশ্যাল নেটওয়ার্ক একাউন্ট থাকে, তাহলে উৎসাহিত করব আপনি উচ্চতর সেটিং অব্যাহত রাখুন।</string>  
+    <string name="oobe_sync_settings_name">সিঙ্ক সেটিং</string>  
+    <string name="oobe_sync_settings_title">সময়-নির্ধারিত সেটিং</string>  
+    <string name="oobe_sync_settings_summary">ডাটা সিঙ্ক সার্ভিস সক্রিয় করতে চাইলে নির্বাচন করুন। আপনার যদি অসীম ডাটা প্লান না থাকে, তাহলে সিঙ্ক ডাটার ফলে অতিরিক্ত খরচ হবে।</string>  
+    <string name="oobe_account_settings_name">একাউন্ট সেটিং</string>  
+    <string name="oobe_account_settings_title">একাউন্ট সেট আপ করুন</string>  
+    <string name="oobe_account_settings_summary">মেইল, পরিচিতজন ও ক্যালেন্ডার ইভেন্ট সিঙ্ক করতে নিচের একাউন্টের প্রকারের অন্তত একটিতে হালকা চাপ দিয়ে সেটাকে সেট আপ করতে হবে।</string>  
+    <string name="oobe_account_list_title">একাউন্ট</string>  
+    <string name="oobe_sns_settings_name">এসএনএস সেটিং</string>  
+    <string name="oobe_sns_settings_title">সোশ্যাল নেটওয়ার্ক সেট আপ করুন</string>  
+    <string name="oobe_sns_settings_summary">আপনার প্রিয় সোশ্যাল নেটওয়ার্ক সেট আপ করুন, তাহলে আপনি সোশ্যাল নেটওয়ার্ক অ্যাপ্লিকেশনে আপডেট পাঠাতে ও গ্রহণ করতে পারবেন।</string>  
+    <string name="oobe_advance_settings_end_title">অভিনন্দন!</string>  
+    <string name="oobe_advance_settings_end_summary">আপনি সকল উচ্চতর সেটিং শেষ করেছেন। আপনি এখন প্রস্তুত আপনার নতুন ডিভাইস উপভোগ করতে। \n\n অ্যাপ থেকে সেটআপ উইজার্ডে আপনি সবসময় আপনার সেটিং পরিবর্তন করতে পারেন।</string>  
+    <string name="tap_to_add">একাউন্ট 
+        <xliff:g id="একাউন্ট" example="renren">%s</xliff:g> যোগ করতে হালকা চাপ দিন
+    </string>  
+    <string name="oobe_import_contacts_sim_name">সিম কার্ড</string>  
+    <string name="oobe_title_wifi">ওয়াই-ফাই</string>  
+    <string name="lock_settings_picker_title">স্ক্রিন লক নির্বাচন করুন</string>  
+    <string name="add_network_string">নেটওয়ার্ক যোগ করুন</string>  
+    <string name="oobe_title_sim_edit">সিম সম্পাদন করুন</string>  
+    <string name="oobe_summary_sim_edit">আপনার পছন্দসই করতে সিমের তথ্য সম্পাদনা করুন। আপনি সিমের নাম, রং ও ফোন নম্বর পরিবর্তন করতে পারেন।</string>  
+    <string name="oobe_waiting_sim">সিম কার্ড চালু হওয়ার জন্য অপেক্ষা করছে...</string>  
+    <string name="oobe_advance_settings_end_name">শেষ বার্তা</string>  
+    <string name="oobe_contact_import_null_cursor">জিজ্ঞাসা সম্পন্ন কিন্তু নাল কার্সার নিন, আমদানি প্রক্রিয়া ব্যর্থ!</string> 
+    <string name="oobe_title_timezone">সময় অঞ্চল নির্বাচন করুন</string>  
+    <string name="gps_time_sync_attention_gps_on">জিপিএস ফিক্স পেতে সর্বোচ্চ ১ মিনিট সময় লাগবে। অধিকন্তু, দুর্বল পরিবেশ সংকেতের কারণে জিপিএস সময় দিতে ব্যর্থ হতে পারে। \n\n আপনি কি নিশ্চিত আপনি জিপিএস প্রদত্ত সময় ব্যবহার করতে পারবেন?</string>  
+    <string name="gps_time_sync_attention_gps_off">জিপিএস প্রদত্ত সময় ব্যবহার করতে, আপনাকে অবশ্যই প্রথমে জিপিএস সক্রিয় করতে হবে। এরপর জিপিএস ফিক্স পেতে সর্বোচ্চ ১ মিনিট সময় লাগবে। অধিকন্তু, দুর্বল পরিবেশ সংকেতের কারণে জিপিএস সময় দিতে ব্যর্থ হতে পারে। \n\n আপনি কি নিশ্চিত আপনি এখন জিপিএস সক্রিয় করতে এবং জিপিএস প্রদত্ত সময়ের জন্য অপেক্ষা করতে চান?</string>  
+    <string name="oobe_summary_timezone">আপনার পছন্দসই সময় অঞ্চল নির্বাচন করুন</string>  
+    <string name="sync_account_summary_on">স্বয়ংক্রিয় সিংক চালু করুন</string>  
+    <string name="sync_account_summary_off">স্বয়ংক্রিয় সিংক বন্ধ করুন</string>  
+    <string name="sync_account_title">স্বয়ংক্রিয় সিংক অ্যাকাউন্ট</string>  
+    <string name="wifi_setup_wizard_title">ওয়াই-ফাই নির্বাচন করুন</string>  
+    <string name="wifi_menu_wps_pbc">ডাব্লিউপিএস পুশ বাটন</string>  
+    <string name="wifi_other_network">অন্যান্য নেটওয়ার্ক\u2026</string>  
+    <string name="wifi_setup_skip">এড়িয়ে যান</string>  
+    <string name="wifi_setup_next">পরবর্তী</string>  
+    <string name="wifi_setup_back">পেছনে</string>  
+    <string name="wifi_empty_list_wifi_off">লভ্য নেটওয়ার্কগুলো দেখতে ওয়াই-ফাই চালু করুন।</string>  
+    <string name="wifi_empty_list_wifi_on">ওয়াই-ফাই নেটওয়ার্কের খোঁজ চলছে\u2026</string> 
+
+      <string name="import_contact_already">আপনি ইতিমধ্যেই আমদানি করছেন। অনুগ্রহ করে পরবর্তীতে আবার চেষ্টা করুন।</string>
+</resources>

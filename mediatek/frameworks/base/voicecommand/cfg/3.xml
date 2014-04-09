@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KeyWordInfos>
+    <KeyWordInfo ProcessName="com.android.phone" ID="1" KeyWord="Answer,Ignore" />
+    <KeyWordInfo ProcessName="com.android.gallery3d" ID="2" KeyWord="Capture,Cheese" />
+    <KeyWordInfo ProcessName="com.android.deskclock" ID="3" KeyWord="Snooze,Stop,Stop and power on,Stop and power off" />
+    <KeyWordInfo ProcessName="com.android.music" ID="4" KeyWord="Previous,Next,Shuffle,Pause,Play,Higher,Lower"/>
+</KeyWordInfos>

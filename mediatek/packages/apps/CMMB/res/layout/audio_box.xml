@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#ff000000">
+    <ImageView android:id="@+id/logo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/audio_broadcast"
+        android:src="@drawable/audio_icon"/>      
+    <TextView android:id="@+id/audio_broadcast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/audio_broadcast" 
+                android:textSize="20sp"
+                android:layout_toRightOf="@+id/logo2"
+                android:textColor="#ffffffff"/> 
+    <TextView android:id="@+id/audio_program"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dip"
+				android:paddingBottom="5dip"                
+                android:gravity="center"
+                android:textSize="15sp"
+                android:singleLine="true"	
+                android:ellipsize ="marquee"                
+                android:layout_toRightOf="@+id/logo2"
+                android:layout_below ="@+id/audio_broadcast"
+                android:textColor="#ffffffff" />                 
+    <com.mediatek.cmmb.app.VisualizerView android:id="@+id/visualizer"
+            android:layout_width="240dp"
+            android:layout_height="54dp"
+            android:padding="5dip"
+            android:layout_toRightOf="@+id/logo2"
+            android:layout_below ="@+id/audio_program"	          
+            />	
+</RelativeLayout> 
+

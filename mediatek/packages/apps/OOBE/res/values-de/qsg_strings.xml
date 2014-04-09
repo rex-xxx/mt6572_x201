@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="qsg_app_name">Schnellstartanleitung</string>  
+    <!-- ============================ -->  
+    <!-- quick start guide strings -->  
+    <!-- ============================ -->  
+    <string name="skip_button">Überspringen</string>  
+    <string name="ok_button">Starten</string>  
+    <string name="qsg_title_begin">Schnellstartanleitung</string>  
+    <string name="qsg_summary_begin">Die Schnellstartanleitung bietet Ihnen fünf hilfreiche Tipps und stellt Ihnen grundlegende Gesten und den Startbildschirm vor.</string>  
+    <string name="next">Weiter</string>  
+    <string name="play_again">Noch einmal abspielen</string>  
+    <string name="finish">Fertig</string>  
+    <string name="qsg_title2_home_screen">Startbildschirm anzeigen</string>  
+    <string name="qsg_summary2_home_screen">Zum Anzeigen weiterer Startbildschirmseiten nach links oder rechts streichen.</string>  
+    <string name="qsg_title3_choose_widget">Wählen Sie ein paar Widgets</string>  
+    <string name="qsg_summary3_choose_widget">Zum Zufügen zum Startbildschirm halten Sie ein Widget angetippt.</string>  
+    <string name="qsg_title4_launch_page">Detailseite aufrufen</string>  
+    <string name="qsg_summary4_launch_page">Zum Anzeigen der Detailseite mit Optionen tippen Sie das Bild eines Profils an.</string>  
+    <string name="qsg_title5_view_notification">Benachrichtigungen anzeigen</string>  
+    <string name="qsg_summary5_view_notification">Zum Anzeigen sämtlicher Benachrichtigungen ziehen Sie die Statusleiste nach unten.</string>  
+    <string name="qsg_changesim_title">SIM-Karte wechseln</string>  
+    <string name="qsg_changesim_summary">Zum Verwenden ziehen Sie die Statusleiste nach unten und wählen die Service-SIM-Karte.</string>  
+    <string name="qsg_summary_end">Sie haben nun sämtliche Tipps der Schnellstartanleitung gesehen. \n\nBei Bedarf können Sie sich diese Anleitung über die "Noch einmal abspielen"-Schaltfläche erneut anschauen.\n\nAlternativ können Sie auf die "Fertig"-Schaltfläche tippen und Ihr neues Gerät normal benutzen.</string> 
+</resources>

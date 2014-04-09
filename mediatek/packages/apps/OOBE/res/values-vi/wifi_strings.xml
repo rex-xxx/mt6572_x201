@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string msgid="4746946030627213196" name="wifi_settings">"Cài đặt Wi-Fi"</string>  
+    <string msgid="2810363951104753710" name="wifi_settings_category">"Cài đặt Wi-Fi"</string>  
+    <string msgid="6710266609710860129" name="wifi_starting">"Đang bật…"</string>  
+    <string msgid="5952909472548218348" name="wifi_stopping">"Đang tắt..."</string>  
+    <string msgid="3207971103917128179" name="wifi_error">"Lỗi"</string>  
+    <string msgid="7618393787965366655" name="wifi_in_airplane_mode">"Ở chế độ trên máy bay"</string>  
+    <string msgid="6194542252808587669" name="wifi_fail_to_scan">"Không thể quét mạng"</string>  
+    <string msgid="3755768188029653293" name="wifi_notify_open_networks">"Thông báo mạng"</string>  
+    <string msgid="3038290727701553612" name="wifi_notify_open_networks_summary">"Thông báo cho tôi khi mạng mở khả dụng"</string>  
+    <string msgid="1671334951296205616" name="wifi_add_network">"Thêm mạng Wi-Fi"</string>  
+    <string msgid="1470911530412095868" name="wifi_menu_scan">"Quét"</string>  
+    <string msgid="7522252991919573664" name="wifi_menu_advanced">"Nâng cao"</string>  
+    <string msgid="4996220309848349408" name="wifi_menu_connect">"Kết nối tới mạng"</string>  
+    <string msgid="8736964302477327114" name="wifi_menu_forget">"Quên mạng"</string>  
+    <string msgid="2068554918652440105" name="wifi_menu_modify">"Sửa đổi mạng"</string>  
+    <string msgid="641393708309146745" name="wifi_ssid">"SSID Mạng"</string>  
+    <string msgid="6603611185592956936" name="wifi_security">"Bảo mật"</string>  
+    <string msgid="5514120261628065287" name="wifi_signal">"Cường độ tín hiệu"</string>  
+    <string msgid="4824568012414605414" name="wifi_status">"Trạng thái"</string>  
+    <string msgid="3526198708812322037" name="wifi_speed">"Tốc độ liên kết"</string>  
+    <string msgid="1440054061044402918" name="wifi_ip_address">"Địa chỉa IP"</string>  
+    <string msgid="8529436133640730382" name="wifi_eap_method">"Phương pháp EAP"</string>  
+    <string msgid="5231074529772044898" name="please_select_phase2">"Xác thực Giai đoạn 2"</string>  
+    <string msgid="3521574865488892851" name="wifi_eap_ca_cert">"Chứng chỉ CA"</string>  
+    <string msgid="1291089413368160789" name="wifi_eap_user_cert">"Chứng chỉ người dùng"</string>  
+    <string msgid="4359453783379679103" name="wifi_eap_identity">"Nhận dạng"</string>  
+    <string msgid="2989469344116577955" name="wifi_eap_anonymous">"Danh tính ẩn danh"</string>  
+    <string msgid="5948219759936151048" name="wifi_password">"Mật khẩu"</string>  
+    <string msgid="4235237470701732009" name="wifi_show_password">"Hiển thị mật khẩu."</string>  
+    <string name="wifi_hex_password">"Mật khẩu thập lục phân."</string>  
+    <string msgid="3410422020930397102" name="wifi_unchanged">"(không thay đổi)"</string>  
+    <string msgid="5431501214192991253" name="wifi_unspecified">"(không xác định)"</string>  
+    <string msgid="8426719916135950136" name="wifi_remembered">"Đã nhớ"</string>  
+    <string msgid="1136191511238508967" name="wifi_not_in_range">"Ngoài vùng phủ sóng"</string>  
+    <string msgid="1076622875777072845" name="wifi_connect">"Kết nối"</string>  
+    <string msgid="8168174695608386644" name="wifi_forget">"Quên"</string>  
+    <string msgid="3331121567988522826" name="wifi_save">"Lưu"</string>  
+    <string msgid="6763568902542968964" name="wifi_cancel">"Huỷ"</string>  
+    <string msgid="5419052271935350999" name="wifi_advanced_titlebar">"Nâng cao"</string>  
+    <string msgid="1367731352485585528" name="wifi_setting_sleep_policy_title">"Chính sách về chế độ ngủ của Wi-Fi"</string>  
+    <string msgid="5103670439972135148" name="wifi_setting_sleep_policy_error">"Đã xảy ra sự cố khi đặt chính sách về chế độ ngủ."</string>  
+    <string msgid="6571335466330978393" name="wifi_advanced_mac_address_title">"Địa chỉ MAC"</string>  
+    <string msgid="6215297094363164846" name="wifi_advanced_ip_address_title">"Địa chỉ IP"</string>  
+    <string msgid="4345739031248760326" name="wifi_ip_settings_titlebar">"Cài đặt IP"</string>  
+    <string msgid="7344118050720080045" name="wifi_dns1">"DNS 1"</string>  
+    <string msgid="1368601006824882659" name="wifi_dns2">"DNS 2"</string>  
+    <string msgid="163914742461092086" name="wifi_gateway">"Cổng"</string>  
+    <string msgid="8948641212931906143" name="wifi_tether_enabled_subtext">"Điểm phát sóng di động 
+        <xliff:g id="NETWORK_SSID">%1$s</xliff:g> hoạt động"
+    </string>  
+    <string name="wapi_user_certificate">"Giấy phép ng.dùng"</string>  
+    <string name="wapi_as_certificate">"Giấy phép ASE"</string>  
+    <string msgid="7862009036663793314" name="status_unavailable">"Không rảnh"</string>  
+    <string name="wifi_ctia_test">"Cài đặt chế độ kiểm tra CTIA"</string>  
+    <string name="wifi_ctia_test_summary">"Cấu hình chế độ kiểm tra CTIA"</string>  
+    <string name="wifi_ip_settings">"Cài đặt IP"</string>  
+    <string name="wifi_disabled_generic">"Đã vô hiệu hoá"</string>  
+    <string name="wifi_disabled_network_failure">Đã tránh kết nối Internet yếu</string>  
+    <string name="wifi_disabled_password_failure">Sự cố xác nhận</string>  
+    <string name="wifi_ip_settings_invalid_ip_address">Hãy nhập địa chỉ IP hợp lệ.</string>  
+    <string name="wifi_ip_settings_invalid_gateway">Hãy nhập địa chỉ cổng nối hợp lệ.</string>  
+    <string name="wifi_ip_settings_invalid_dns">Hãy nhập địa chỉ DNS hợp lệ.</string>  
+    <string name="wifi_ip_settings_invalid_network_prefix_length">Nhập độ dài tiền tố mạng giữa 0 và 32.</string>  
+    <string name="wifi_network_prefix_length">Độ dài tiền tố mạng</string>  
+    <string name="wifi_connect_type_title">Loại kết nối tự động</string>  
+    <string name="wifi_priority_label">Ưu tiên</string>  
+    <string name="wifi_priority_settings_label">Cài đặt ưu tiên</string>  
+    <string name="wifi_wps_available_first_item">Có sẵn mạng được bảo vệ</string>  
+    <string name="wifi_wps_available_second_item">\u0020(có sẵn mạng được bảo vệ)</string>  
+    <string name="wifi_secured_first_item">Bảo mật bằng 
+        <xliff:g id="wifi_security_short">%1$s</xliff:g> 
+    </string>  
+    <string name="wifi_secured_second_item">, bảo mật bằng 
+        <xliff:g id="wifi_security_short">%1$s</xliff:g> 
+    </string>  
+    <string name="wifi_security_none">"Không có"</string>  
+    <string name="sim_slot">Khe lắp SIM</string>  
+    <string name="wifi_network_netmask">Mặt nạ mạng</string>  
+    <string name="wifi_enable_watchdog_service">Tránh các kết nối yếu</string>  
+    <string name="wifi_setting_frequency_band_title">Băng tần Wi-Fi</string>  
+    <string name="wifi_setting_frequency_band_summary">Nêu rõ phạm vi tần số hoạt động</string>  
+    <string name="wifi_setting_frequency_band_error">Đã xảy ra sự cố khi cài đặt băng tần.</string>  
+    <string name="proxy_settings_title">Cài đặt proxy</string>  
+    <string name="proxy_clear_text">Xóa</string>  
+    <string name="proxy_port_label">Cổng proxy</string>  
+    <string name="proxy_exclusionlist_label">Proxy nhánh cho</string>  
+    <string name="proxy_exclusionlist_hint">example.com,mycomp.test.com,localhost</string>  
+    <string name="proxy_defaultView_text">P.hồi giá trị m.định</string>  
+    <string name="proxy_hostname_label">Tên máy chủ proxy</string>  
+    <string name="proxy_hostname_hint">proxy.example.com</string>  
+    <string name="proxy_error">Lưu ý</string>  
+    <string name="proxy_error_dismiss">"OK"</string>  
+    <string name="proxy_error_empty_port">Bạn phải điền mục cổng.</string>  
+    <string name="proxy_error_empty_host_set_port">Mục cổng phải để trống nếu mục máy chủ để trống.</string>  
+    <string name="proxy_warning_limited_support">Trình duyệt có thể sử dụng proxy HTTP nhưng các ứng dụng khác thì không thể.</string>  
+    <string name="wifi_show_advanced">Hiển thị các tùy chọn nâng cao</string>  
+    <string name="wifi_network_setup">WPS</string>  
+    <string name="wifi_wps_pin">Nhập mã PIN từ điểm truy cập</string>  
+    <string name="wifi_enable_watchdog_service_summary">Không dùng mạng Wi-Fi nếu nó có kết nối internet yếu</string>  
+    <string name="proxy_error_invalid_host">Tên máy chủ vừa nhập không hợp lệ.</string>  
+    <string name="proxy_error_invalid_exclusion_list">D.sách loại trừ vừa nhập được định dạng không đúng. Nhập d.sách các tên miền loại trừ chia cách bằng dấu phẩy.</string>  
+    <string name="proxy_error_invalid_port">Cổng vừa nhập không hợp lệ.</string>  
+    <string name="wifi_setting_connect_type_error">Đã xảy ra sự cố cài đặt loại kết nối.</string>  
+    <string name="wifi_priority_type_title">Cài thủ công ưu tiên AP</string>  
+    <string name="wifi_priority_type_summary">Cho phép cài thủ công ưu tiên cho mỗi điểm truy cập</string>  
+    <string name="wifi_priority_settings_title">Cài đặt ưu tiên AP</string>  
+    <string name="wifi_priority_settings_summary">Click để cài ưu tiên cho mỗi điểm truy cập</string>  
+    <string name="gsm_to_wifi_connect_type_title">Mạng di động-&gt;Wi-Fi</string>  
+    <string name="wifi_connect_ap_summary">Nêu rõ loại kết nối mạng</string>  
+    <string name="select_ssid_type_title">Chọn lại trong số SSID</string>  
+    <string name="proxy_action_text">Hoàn tất</string>
+    <string name="wifi_failed_connect_message" msgid="8491902558970292871">"Không thể kết nối với mạng"</string>
+    <string name="wifi_failed_forget_message" msgid="1348172929201654986">"Không thể bỏ qua mạng"</string>
+    <string name="wifi_failed_save_message" msgid="6650004874143815692">"Không thể lưu mạng"</string>
+
+      <string name="wifi_WEP_transmit_key">"Khóa truyền tải"</string>
+      <string name="wifi_WEP_secury_key">"Khóa bảo mật"</string>
+      <string name="wifi_security_wapi_certificate">Giấy phép WAPI</string>
+      <string name="wifi_no_cert_for_wapi">Không thể tìm chứng nhận cho AP kết nối hiện hành</string>
+      <string name="eap_sim_slot_0">Khe lắp Sim 1</string>
+      <string name="eap_sim_slot_1">Khe lắp Sim 2</string>
+      <string name="eap_sim_aka_airplanemode">Hãy tắt chế độ Máy bay để sử dụng EAP-SIM/AKA</string>
+      <string name="eap_sim_aka_no_sim_error">Bạn phải lắp thẻ SIM để sử dụng EAP-SIM/AKA</string>
+      <string name="eap_sim_aka_no_sim_slot_selected">Bạn phải chọn thẻ SIM để sử dụng EAP-SIM/AKA</string>
+      <string name="wifi_ipv4_address">Địa chỉ IPv4</string>
+      <string name="wifi_ipv6_address">Địa chỉ IPv6</string>
+</resources>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string msgid="4746946030627213196" name="wifi_settings">"การตั้งค่า Wi-Fi"</string>  
+    <string msgid="2810363951104753710" name="wifi_settings_category">"การตั้งค่า Wi-Fi"</string>  
+    <string msgid="6710266609710860129" name="wifi_starting">"กำลังเปิด..."</string>  
+    <string msgid="5952909472548218348" name="wifi_stopping">"กำลังปิด..."</string>  
+    <string msgid="3207971103917128179" name="wifi_error">"ข้อผิดพลาด"</string>  
+    <string msgid="7618393787965366655" name="wifi_in_airplane_mode">"โหมดใช้งานบนเครื่องบิน"</string>  
+    <string msgid="6194542252808587669" name="wifi_fail_to_scan">"สแกนหาเครือข่ายไม่ได้"</string>  
+    <string msgid="3755768188029653293" name="wifi_notify_open_networks">"การแจ้งเตือนของเครือข่าย"</string>  
+    <string msgid="3038290727701553612" name="wifi_notify_open_networks_summary">"แจ้งฉันเมื่อมีเครือข่ายเปิดให้ใช้งานได้"</string>  
+    <string msgid="1671334951296205616" name="wifi_add_network">"เพิ่มเครือข่าย Wi-Fi"</string>  
+    <string msgid="1470911530412095868" name="wifi_menu_scan">"สแกน"</string>  
+    <string msgid="7522252991919573664" name="wifi_menu_advanced">"ขั้นสูง"</string>  
+    <string msgid="4996220309848349408" name="wifi_menu_connect">"เชื่อมต่อกับเครือข่าย"</string>  
+    <string msgid="8736964302477327114" name="wifi_menu_forget">"ไม่จำเครือข่าย"</string>  
+    <string msgid="2068554918652440105" name="wifi_menu_modify">"แก้ไขเครือข่าย"</string>  
+    <string msgid="641393708309146745" name="wifi_ssid">"SSID เครือข่าย"</string>  
+    <string msgid="6603611185592956936" name="wifi_security">"ความปลอดภัย"</string>  
+    <string msgid="5514120261628065287" name="wifi_signal">"ความแรงสัญญาณ"</string>  
+    <string msgid="4824568012414605414" name="wifi_status">"สถานะ"</string>  
+    <string msgid="3526198708812322037" name="wifi_speed">"ความเร็วในการลิงก์"</string>  
+    <string msgid="1440054061044402918" name="wifi_ip_address">"ที่อยู่ IP"</string>  
+    <string msgid="8529436133640730382" name="wifi_eap_method">"วิธีการ EAP"</string>  
+    <string msgid="5231074529772044898" name="please_select_phase2">"การตรวจสอบสิทธิ์เฟส 2"</string>  
+    <string msgid="3521574865488892851" name="wifi_eap_ca_cert">"ใบรับรอง CA"</string>  
+    <string msgid="1291089413368160789" name="wifi_eap_user_cert">"ใบรับรองของผู้ใช้"</string>  
+    <string msgid="4359453783379679103" name="wifi_eap_identity">"ข้อมูลระบุตัวตน"</string>  
+    <string msgid="2989469344116577955" name="wifi_eap_anonymous">"ตัวตนที่ไม่ระบุชื่อ"</string>  
+    <string msgid="5948219759936151048" name="wifi_password">"รหัสผ่าน"</string>  
+    <string msgid="4235237470701732009" name="wifi_show_password">"แสดงรหัสผ่าน"</string>  
+    <string name="wifi_hex_password">"รหัสผ่านเลขฐานสิบหก"</string>  
+    <string msgid="3410422020930397102" name="wifi_unchanged">"(ไม่เปลี่ยน)"</string>  
+    <string msgid="5431501214192991253" name="wifi_unspecified">"(ไม่ได้ระบุ)"</string>  
+    <string msgid="8426719916135950136" name="wifi_remembered">"จำแล้ว"</string>  
+    <string msgid="1136191511238508967" name="wifi_not_in_range">"ไม่อยู่ในพื้นที่ให้บริการ"</string>  
+    <string msgid="1076622875777072845" name="wifi_connect">"เชื่อมต่อ"</string>  
+    <string msgid="8168174695608386644" name="wifi_forget">"ไม่จำ"</string>  
+    <string msgid="3331121567988522826" name="wifi_save">"บันทึก"</string>  
+    <string msgid="6763568902542968964" name="wifi_cancel">"ยกเลิก"</string>  
+    <string msgid="5419052271935350999" name="wifi_advanced_titlebar">"ขั้นสูง"</string>  
+    <string msgid="1367731352485585528" name="wifi_setting_sleep_policy_title">"ข้อกำหนดในการสลีปของ Wi-Fi"</string>  
+    <string msgid="5103670439972135148" name="wifi_setting_sleep_policy_error">"พบปัญหาในการตั้งค่าข้อกำหนดการสลีป"</string>  
+    <string msgid="6571335466330978393" name="wifi_advanced_mac_address_title">"ที่อยู่ Mac"</string>  
+    <string msgid="6215297094363164846" name="wifi_advanced_ip_address_title">"ที่อยู่ IP"</string>  
+    <string msgid="4345739031248760326" name="wifi_ip_settings_titlebar">"การตั้งค่า IP"</string>  
+    <string msgid="7344118050720080045" name="wifi_dns1">"DNS 1"</string>  
+    <string msgid="1368601006824882659" name="wifi_dns2">"DNS 2"</string>  
+    <string msgid="163914742461092086" name="wifi_gateway">"เกตเวย์"</string>  
+    <string msgid="8948641212931906143" name="wifi_tether_enabled_subtext">"ฮอตสปอตแบบพกพาได้ 
+        <xliff:g id="NETWORK_SSID">%1$s</xliff:g> ทำงานอยู่"
+    </string>  
+    <string name="wapi_user_certificate">"ใบรับรองผู้ใช้"</string>  
+    <string name="wapi_as_certificate">"ใบรับรอง ASE"</string>  
+    <string msgid="7862009036663793314" name="status_unavailable">"ไม่ว่าง"</string>  
+    <string name="wifi_ctia_test">"การตั้งค่าโหมดทดสอบ CTIA"</string>  
+    <string name="wifi_ctia_test_summary">"การกำหนดค่าโหมดทดสอบ CTIA"</string>  
+    <string name="wifi_ip_settings">"การตั้งค่า IP"</string>  
+    <string name="wifi_disabled_generic">"ปิดใช้งานแล้ว"</string>  
+    <string name="wifi_disabled_network_failure">หลีกเลี่ยงการเชื่อมต่ออินเตอร์เน็ตที่ไม่ดีแล้ว</string>  
+    <string name="wifi_disabled_password_failure">ปัญหาในการตรวจสอบผู้ใช้งาน</string>  
+    <string name="wifi_ip_settings_invalid_ip_address">โปรดพิมพ์ที่อยู่ IP ที่ถูกต้อง</string>  
+    <string name="wifi_ip_settings_invalid_gateway">โปรดพิมพ์ที่อยู่เกตเวย์ที่ถูกต้อง</string>  
+    <string name="wifi_ip_settings_invalid_dns">โปรดพิมพ์ที่อยู่ DNS ที่ถูกต้อง</string>  
+    <string name="wifi_ip_settings_invalid_network_prefix_length">พิมพ์ความยาวพรีฟิกซ์ของเครือข่ายระหว่าง 0 ถึง 32</string>  
+    <string name="wifi_network_prefix_length">ความยาวพรีฟิกซ์เครือข่าย</string>  
+    <string name="wifi_connect_type_title">ประเภทการเชื่อมต่อแบบอัตโนมัติ</string>  
+    <string name="wifi_priority_label">ลำดับความสำคัญ</string>  
+    <string name="wifi_priority_settings_label">การตั้งลำดับความสำคัญ</string>  
+    <string name="wifi_wps_available_first_item">มีเครือข่ายที่ได้รับการปกป้อง</string>  
+    <string name="wifi_wps_available_second_item">\u0020(มีเครือข่ายที่ได้รับการปกป้อง)</string>  
+    <string name="wifi_secured_first_item">ป้องกันความปลอดภัยด้วย 
+        <xliff:g id="wifi_security_short">%1$s</xliff:g> 
+    </string>  
+    <string name="wifi_secured_second_item">ป้องกันความปลอดภัยด้วย 
+        <xliff:g id="wifi_security_short">%1$s</xliff:g> 
+    </string>  
+    <string name="wifi_security_none">"ไม่มี"</string>  
+    <string name="sim_slot">สล็อตซิม</string>  
+    <string name="wifi_network_netmask">เน็ตมาสก์</string>  
+    <string name="wifi_enable_watchdog_service">หลีกเลี่ยงการเชื่อมต่อที่ไม่ดี</string>  
+    <string name="wifi_setting_frequency_band_title">ช่วงความถี่ Wi-Fi</string>  
+    <string name="wifi_setting_frequency_band_summary">กำหนดช่วงความถี่ของการทำงาน</string>  
+    <string name="wifi_setting_frequency_band_error">มีปัญหาในการตั้งค่าช่วงความถี่</string>  
+    <string name="proxy_settings_title">การตั้งค่าพร็อกซี่</string>  
+    <string name="proxy_clear_text">ล้าง</string>  
+    <string name="proxy_port_label">พอร์ตพร็อกซี่</string>  
+    <string name="proxy_exclusionlist_label">บายพาสพร็อกซี่สำหรับ</string>  
+    <string name="proxy_exclusionlist_hint">example.com,mycomp.test.com,localhost</string>  
+    <string name="proxy_defaultView_text">กู้คืนค่าเริ่มต้น</string>  
+    <string name="proxy_hostname_label">ชื่อโฮสท์ของพร็อกซี่</string>  
+    <string name="proxy_hostname_hint">proxy.example.com</string>  
+    <string name="proxy_error">โปรดทราบ</string>  
+    <string name="proxy_error_dismiss">"ตกลง"</string>  
+    <string name="proxy_error_empty_port">คุณต้องกรอกฟิลด์ของพอร์ตให้สมบูรณ์</string>  
+    <string name="proxy_error_empty_host_set_port">ถ้าฟิลด์ของโฮสท์ว่างเปล่า ฟิลด์ของพอร์ตต้องว่างเปล่า</string>  
+    <string name="proxy_warning_limited_support">บราวเซอร์จะใช้พร็อกซี่ HTTP แต่แอพอื่น ๆ อาจจะไม่ใช่</string>  
+    <string name="wifi_show_advanced">แสดงตัวเลือกขั้นแอดวานซ์</string>  
+    <string name="wifi_network_setup">WPS</string>  
+    <string name="wifi_wps_pin">พิมพ์ PIN จากจุดเชื่อมต่อ</string>  
+    <string name="wifi_enable_watchdog_service_summary">อย่าใช้เครือข่าย Wi-Fi ถ้าไม่มีการเชื่อมต่ออินเทอร์เน็ตที่ดี</string>  
+    <string name="proxy_error_invalid_host">ชื่อโฮสต์ที่คุณพิมพ์ไม่ถูกต้อง</string>  
+    <string name="proxy_error_invalid_exclusion_list">รายการการยกเว้นที่คุณพิมพ์มีรูปแบบที่ไม่เหมาะสม พิมพ์รายการของโดเมนที่ยกเว้นแยกกันด้วยเครื่องหมายคอมม่า</string>  
+    <string name="proxy_error_invalid_port">พอร์ตที่คุณพิมพ์ไม่ถูกต้อง</string>  
+    <string name="wifi_setting_connect_type_error">มีปัญหาในการตั้งค่าชนิดการเชื่อมต่อ</string>  
+    <string name="wifi_priority_type_title">ตั้งค่าลำดับความสำคัญ AP ด้วยตัวเอง</string>  
+    <string name="wifi_priority_type_summary">อนุญาตให้ตั้งค่าลำดับความสำคัญของแต่ละจุดเชื่อมต่อด้วยตัวเอง</string>  
+    <string name="wifi_priority_settings_title">การตั้งค่าลำดับความสำคัญ AP</string>  
+    <string name="wifi_priority_settings_summary">คลิกเพื่อตั้งค่าลำดับความสำคัญของแต่ละจุดเชื่อมต่อ</string>  
+    <string name="gsm_to_wifi_connect_type_title">เซลลูล่าร์-&gt;Wi-Fi</string>  
+    <string name="wifi_connect_ap_summary">ระบุชนิดการเชื่อมต่อเครือข่าย</string>  
+    <string name="select_ssid_type_title">การเลือกใหม่ระหว่าง SSID</string>  
+    <string name="proxy_action_text">เสร็จ</string>
+    <string name="wifi_failed_connect_message" msgid="8491902558970292871">"ไม่สามารถเชื่อมต่อกับเครือข่าย"</string>
+    <string name="wifi_failed_forget_message" msgid="1348172929201654986">"ไม่สามารถเลิกการจดจำเครือข่าย"</string>
+    <string name="wifi_failed_save_message" msgid="6650004874143815692">"ไม่สามารถบันทึกเครือข่าย"</string>
+
+      <string name="wifi_WEP_transmit_key">"ปุ่มส่ง"</string>
+      <string name="wifi_WEP_secury_key">"ปุ่มระบบป้องกัน"</string>
+      <string name="wifi_security_wapi_certificate">ใบรับรอง WAPI</string>
+      <string name="wifi_no_cert_for_wapi">ไม่พบใบรับรองสำหรับ AP ที่กำลังเชื่อมต่ออยู่</string>
+      <string name="eap_sim_slot_0">ช่องซิม 1</string>
+      <string name="eap_sim_slot_1">ช่องซิม 2</string>
+      <string name="eap_sim_aka_airplanemode">โปรดปิดโหมดเครื่องบินเพื่อใช้ EAP-SIM/AKA</string>
+      <string name="eap_sim_aka_no_sim_error">คุณต้องใส่ซิมการ์ดเพื่อใช้ EAP-SIM/AKA</string>
+      <string name="eap_sim_aka_no_sim_slot_selected">คุณต้องเลือกสล็อตซิมเพื่อใช้ EAP-SIM/AKA</string>
+      <string name="wifi_ipv4_address">ที่อยู่ IPv4</string>
+      <string name="wifi_ipv6_address">ที่อยู่ IPv6</string>
+</resources>

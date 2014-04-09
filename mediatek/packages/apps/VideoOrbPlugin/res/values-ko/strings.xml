@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="plugin_name">Orb 비디오</string>
+    <string name="ok">"확인"</string>
+    <string name="cancel">"취소"</string>
+    <string name="plugin_description">잠금 화면에서 최신 비디오를 보고 재생합니다</string>
+    <string name="transcoding_prompt">비디오 준비 중</string>
+    <string name="transcoding_prompt_description">Orb 비디오는 비디오를 준비하는 데 약간의 시간이 걸립니다. 계속하시겠습니까?</string>
+    <string name="transcoding_progress_format" translatable="false">"%"</string>
+    <string name="transcoding_clip_format" translatable="false">"/"</string>
+    <string name="video_file_name_format" translatable="false">"_yyyyMMdd_HHmmss"</string>
+    <string name="toast_video_add_cancelled">동영상을 추가하는 데 실패했습니다.</string>
+    <string name="toast_video_unsupported_resolution">동영상 해상도가 지원되지 않습니다.</string>
+    <string name="toast_low_storage" product="nosdcard">"USB 저장소가 꽉 찼습니다."</string>
+    <string name="toast_low_storage" product="default">"SD 카드가 꽉 찼습니다."</string>
+    <string name="toast_invalid_video">지원되지 않는 동영상 형식입니다.</string>
+</resources>

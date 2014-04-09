@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="plugin_name">Video Orb</string>
+    <string name="ok">"موافق"</string>
+    <string name="cancel">"إلغاء"</string>
+    <string name="plugin_description">شاهد أحدث مقاطع الفيديو واستمتع بتشغيلها على شاشة التأمين</string>
+    <string name="transcoding_prompt">تجهيز الفيديو</string>
+    <string name="transcoding_prompt_description">سوف يستغرق Video Orb بعض الوقت في تجهيز مقاطع الفيديو. هل ترغب في المتابعة؟</string>
+    <string name="transcoding_progress_format" translatable="false">"%"</string>
+    <string name="transcoding_clip_format" translatable="false">"/"</string>
+    <string name="video_file_name_format" translatable="false">"_yyyyMMdd_HHmmss"</string>
+    <string name="toast_video_add_cancelled">فشل إضافة مقطع فيديو</string>
+    <string name="toast_video_unsupported_resolution">دقة الفيديو غير مدعومة.</string>
+    <string name="toast_low_storage" product="nosdcard">"وحدة تخزين USB ممتلئة."</string>
+    <string name="toast_low_storage" product="default">"بطاقة SD ممتلئة."</string>
+    <string name="toast_invalid_video">تنسيق الفيديو غير مدعوم.</string>
+</resources>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string msgid="4746946030627213196" name="wifi_settings">"Wi-Fi beállítások"</string>  
+    <string msgid="2810363951104753710" name="wifi_settings_category">"Wi-Fi beállítások"</string>  
+    <string msgid="6710266609710860129" name="wifi_starting">"Bekapcsolás..."</string>  
+    <string msgid="5952909472548218348" name="wifi_stopping">"Kikapcsolás..."</string>  
+    <string msgid="3207971103917128179" name="wifi_error">"Hiba"</string>  
+    <string msgid="7618393787965366655" name="wifi_in_airplane_mode">"Repülőgép üzemmódban"</string>  
+    <string msgid="6194542252808587669" name="wifi_fail_to_scan">"Nem lehet hálózatokat keresni"</string>  
+    <string msgid="3755768188029653293" name="wifi_notify_open_networks">"Hálózati értesítés"</string>  
+    <string msgid="3038290727701553612" name="wifi_notify_open_networks_summary">"Értesítést kérek az elérhető nyitott hálózatokról"</string>  
+    <string msgid="1671334951296205616" name="wifi_add_network">"Wi-Fi hálózat hozzáadása"</string>  
+    <string msgid="1470911530412095868" name="wifi_menu_scan">"Keresés"</string>  
+    <string msgid="7522252991919573664" name="wifi_menu_advanced">"Speciális"</string>  
+    <string msgid="4996220309848349408" name="wifi_menu_connect">"Csatlakozás hálózathoz"</string>  
+    <string msgid="8736964302477327114" name="wifi_menu_forget">"Hálózat elfelejtése"</string>  
+    <string msgid="2068554918652440105" name="wifi_menu_modify">"Hálózat módosítása"</string>  
+    <string msgid="641393708309146745" name="wifi_ssid">"Hálózati SSID"</string>  
+    <string msgid="6603611185592956936" name="wifi_security">"Biztonság"</string>  
+    <string msgid="5514120261628065287" name="wifi_signal">"Jelerősség"</string>  
+    <string msgid="4824568012414605414" name="wifi_status">"Állapot"</string>  
+    <string msgid="3526198708812322037" name="wifi_speed">"Vonalsebesség"</string>  
+    <string msgid="1440054061044402918" name="wifi_ip_address">"IP-cím"</string>  
+    <string msgid="8529436133640730382" name="wifi_eap_method">"EAP módszer"</string>  
+    <string msgid="5231074529772044898" name="please_select_phase2">"Hitelesítés 2. fázisa"</string>  
+    <string msgid="3521574865488892851" name="wifi_eap_ca_cert">"CA tanúsítvány"</string>  
+    <string msgid="1291089413368160789" name="wifi_eap_user_cert">"Felhasználói tanúsítvány"</string>  
+    <string msgid="4359453783379679103" name="wifi_eap_identity">"Azonosság"</string>  
+    <string msgid="2989469344116577955" name="wifi_eap_anonymous">"Név nélküli identitás"</string>  
+    <string msgid="5948219759936151048" name="wifi_password">"Jelszó"</string>  
+    <string msgid="4235237470701732009" name="wifi_show_password">"Jelszó megjelenítése."</string>  
+    <string name="wifi_hex_password">Hexadecimális jelszó.</string>  
+    <string msgid="3410422020930397102" name="wifi_unchanged">"(nem változott)"</string>  
+    <string msgid="5431501214192991253" name="wifi_unspecified">"(nincs megadva)"</string>  
+    <string msgid="8426719916135950136" name="wifi_remembered">"Megjegyezve"</string>  
+    <string msgid="1136191511238508967" name="wifi_not_in_range">"Hatókörön kívül"</string> 
+    <string msgid="1076622875777072845" name="wifi_connect">"Kapcsolódás"</string>  
+    <string msgid="8168174695608386644" name="wifi_forget">"Elfelejt"</string>  
+    <string msgid="3331121567988522826" name="wifi_save">"Mentés"</string>  
+    <string msgid="6763568902542968964" name="wifi_cancel">"Mégse"</string>  
+    <string msgid="5419052271935350999" name="wifi_advanced_titlebar">"Speciális"</string>  
+    <string msgid="1367731352485585528" name="wifi_setting_sleep_policy_title">"Wi-Fi alvás irányelve"</string>  
+    <string msgid="5103670439972135148" name="wifi_setting_sleep_policy_error">"Probléma volt az alvás üzemmód irányelvének beállításával."</string>  
+    <string msgid="6571335466330978393" name="wifi_advanced_mac_address_title">"MAC-cím"</string>  
+    <string msgid="6215297094363164846" name="wifi_advanced_ip_address_title">"IP-cím"</string>  
+    <string msgid="4345739031248760326" name="wifi_ip_settings_titlebar">"IP-beállítások"</string>  
+    <string msgid="7344118050720080045" name="wifi_dns1">"DNS 1"</string>  
+    <string msgid="1368601006824882659" name="wifi_dns2">"DNS 2"</string>  
+    <string msgid="163914742461092086" name="wifi_gateway">"Átjáró"</string>  
+    <string msgid="8948641212931906143" name="wifi_tether_enabled_subtext">"A(z) 
+        <xliff:g id="NETWORK_SSID">%1$s</xliff:g> hordozható hotspot aktív"
+    </string>  
+    <string name="wapi_user_certificate">Felhasználói tanúsítvány</string>  
+    <string name="wapi_as_certificate">ASE tanúsítvány</string>  
+    <string msgid="7862009036663793314" name="status_unavailable">"Nem érhető el"</string>  
+    <string name="wifi_ctia_test">CTIA tesztmód beállítás</string>  
+    <string name="wifi_ctia_test_summary">CTIA tesztmód konfiguráció</string>  
+    <string name="wifi_connect_type_title">Auto. csatlakozás típusa</string>  
+    <string name="wifi_setting_connect_type_error">Probléma történt a kapcsolódási típus beállítása során.</string>  
+    <string name="wifi_priority_type_title">AP elsőbbség manuális beállítása</string>  
+    <string name="wifi_priority_type_summary">Az egyes hozzáférési pontok elsőbbségének manuális beállítása</string>  
+    <string name="wifi_priority_settings_title">AP elsőbbség beállítások</string>  
+    <string name="wifi_priority_settings_summary">Kattintosn rá az egyes hozzáférési pontok elsőbbségének beállításához</string>  
+    <string name="wifi_priority_label">Elsőbbség</string>  
+    <string name="wifi_priority_settings_label">Elsőbbség beállítások</string>  
+    <string name="wifi_ip_settings">"IP-beállítások"</string>  
+    <string name="wifi_disabled_generic">"Letiltva"</string>  
+    <string name="wifi_disabled_network_failure">Rossz internet-kapcsolat mellőzve</string>  
+    <string name="wifi_disabled_password_failure">Hitelesítési probléma</string>  
+    <string name="wifi_ip_settings_invalid_ip_address">Érvényes IP-címet adjon meg.</string>  
+    <string name="wifi_ip_settings_invalid_gateway">Érvényes átjárócímet adjon meg.</string>  
+    <string name="wifi_ip_settings_invalid_dns">Érvényes DNS-címet adjon meg.</string>  
+    <string name="wifi_ip_settings_invalid_network_prefix_length">0–32 karakter hosszúságú hálózati előtagot adjon meg.</string>  
+    <string name="wifi_network_prefix_length">Hálózati előtag hossza</string>  
+    <string name="wifi_wps_available_first_item">Jelszóvédett hálózat elérhető</string>  
+    <string name="wifi_wps_available_second_item">\u0020(jelszóvédett hálózat elérhető)</string>  
+    <string name="wifi_secured_first_item"> 
+        <xliff:g id="wifi_security_short">%1$s</xliff:g> biztonsággal
+    </string>  
+    <string name="wifi_secured_second_item">, 
+        <xliff:g id="wifi_security_short">%1$s</xliff:g> biztonsággal
+    </string>  
+    <string name="wifi_security_none">Nincs</string>  
+    <string name="sim_slot">SIM-nyílás</string>  
+    <string name="wifi_network_netmask">Hálózati maszk</string>  
+    <string name="wifi_enable_watchdog_service">Rossz csatlakozás mellőzése</string>  
+    <string name="wifi_setting_frequency_band_title">Wi-Fi frekvenciasáv</string>  
+    <string name="wifi_setting_frequency_band_summary">Az üzemi frekvenciatartomány megadása</string>  
+    <string name="wifi_setting_frequency_band_error">Probléma történt a frekvenciasáv beállítása során.</string>  
+    <string name="proxy_settings_title">Proxy beállítások</string>  
+    <string name="proxy_clear_text">Törlés</string>  
+    <string name="proxy_port_label">Proxy port</string>  
+    <string name="proxy_exclusionlist_label">Proxy mellőzése ehhez:</string>  
+    <string name="proxy_exclusionlist_hint">example.com,mycomp.test.com,localhost</string>  
+    <string name="proxy_defaultView_text">Alapértelmezés visszaállítása</string>  
+    <string name="proxy_hostname_label">Proxy gépnév</string>  
+    <string name="proxy_hostname_hint">proxy.example.com</string>  
+    <string name="proxy_error">Figyelem</string>  
+    <string name="proxy_error_dismiss">OK</string>  
+    <string name="proxy_error_empty_port">Ki kell töltenie a port mezőt.</string>  
+    <string name="proxy_error_empty_host_set_port">A port mezőnek üresnek kell maradnia, ha a gazdagép mező üres.</string>  
+    <string name="proxy_warning_limited_support">A HTTP proxy-t a böngésző használja, de más alkalmazás nem használhatja.</string>  
+    <string name="wifi_show_advanced">Speciális lehetőségek mutatása</string>  
+    <string name="wifi_network_setup">WPS</string>  
+    <string name="wifi_wps_pin">Hozzáférési pont PIN-jének megadása</string>  
+    <string name="wifi_enable_watchdog_service_summary">Wi-Fi hálózat használatának mellőzése, kivéve ha jó az internet-kapcsolat</string>  
+    <string name="proxy_error_invalid_host">A megadott gépnév érvénytelen.</string>  
+    <string name="proxy_error_invalid_exclusion_list">A megadott kivétellista formátuma nem megfelelő. A kizárt tartományokat vesszővel tagolt listába gépelje.</string>  
+    <string name="proxy_error_invalid_port">A megadott port érvénytelen.</string>  
+    <string name="gsm_to_wifi_connect_type_title">Mobil-&gt;Wi-Fi</string>  
+    <string name="wifi_connect_ap_summary">Hálózati kapcsolat típusának megadása</string>  
+    <string name="select_ssid_type_title">Új választás SSID-k közül</string>  
+    <string name="proxy_action_text">Kész</string>
+    <string name="wifi_failed_connect_message" msgid="8491902558970292871">"Nem sikerült hálózathoz csatlakozni."</string>
+    <string name="wifi_failed_forget_message" msgid="1348172929201654986">"Nem sikerült elfelejteni a hálózatot."</string>
+    <string name="wifi_failed_save_message" msgid="6650004874143815692">"Nem sikerült menteni a hálózatot."</string>
+
+      <string name="wifi_WEP_transmit_key">Közvetítési kulcs</string>
+      <string name="wifi_WEP_secury_key">Biztonsági kulcs</string>
+      <string name="wifi_security_wapi_certificate">WAPI-tanúsítvány</string>
+      <string name="wifi_no_cert_for_wapi">Nem található tanúsítvány a jelenleg kapcsolódó AP-hez</string>
+      <string name="eap_sim_slot_0">1. SIM-nyílás</string>
+      <string name="eap_sim_slot_1">2. SIM-nyílás</string>
+      <string name="eap_sim_aka_airplanemode">EAP-SIM/AKA használatához kapcsolja ki a Repülőgép üzemmódot</string>
+      <string name="eap_sim_aka_no_sim_error">EAP-SIM/AKA használatához helyezzen be egy SIM-kártyát</string>
+      <string name="eap_sim_aka_no_sim_slot_selected">EAP-SIM/AKA használatához válasszon SIM-kártyanyílást</string>
+      <string name="wifi_ipv4_address">IPv4-cím</string>
+      <string name="wifi_ipv6_address">IPv6-cím</string>
+</resources>

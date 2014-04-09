@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ics_blue_foreground">#33b5e5</color>
+    <color name="title_color">@android:color/holo_blue_light</color>
+    <color name="setup_divider_color">#333333</color>
+
+    <color name="sim_blue">#0098df</color>	
+    <color name="sim_orange">#ff7214</color>
+    <color name="sim_green">#35b800</color>
+    <color name="sim_purple">#735ce1</color>
+</resources>

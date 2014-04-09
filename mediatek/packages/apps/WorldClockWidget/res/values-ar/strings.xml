@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">الساعة العالمية</string>
+    <string name="current_time_text">الحالي</string>
+    <string name="another_city_text">"إضافة"</string>
+    <string name="ime_action_done">انتهى</string>
+    <string name="a_city_selected">مدينة محددة.</string>
+    <string name="search_city">بحث عن مدينة</string>
+    <string name="next">"التالي"</string>
+    <string name="select_right_city">نأسف، هذه المدينة غير موجودة.</string>
+    <string name="clock_loading">"جارٍ التحميل…"</string>
+	<string name="add_new_city">إضافة مدينة جديدة</string>  
+    <string name="delete_city">حذف مدينة</string>  
+    <string name="delete_city_info">سيتم حذف المدينة</string>  
+    <string name="deleteok">"حذف"</string>  
+    <string name="cancel">إلغاء</string>
+	<string name="add_city">اضغط على الأيقونة لإضافة مدينة جديدة</string>
+    <string name="has_chosen">تم اختيارها.</string>
+</resources>
+

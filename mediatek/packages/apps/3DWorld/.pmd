@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<pmd>
+  <useProjectRuleSet>true</useProjectRuleSet>
+  <ruleSetFile>.ruleset</ruleSetFile>
+  <includeDerivedFiles>false</includeDerivedFiles>
+  <violationsAsErrors>false</violationsAsErrors>
+
+  <exclude-pattern>.*/R.java</exclude-pattern>
+  <exclude-pattern>.*/gen/.*</exclude-pattern>
+
+  <rule ref="rulesets/android.xml">
+    <exclude name="ProtectLogD"/>
+    <exclude name="ProtectLogV"/>
+  </rule>
+  <rule ref="rulesets/design.xml" />
+</pmd>

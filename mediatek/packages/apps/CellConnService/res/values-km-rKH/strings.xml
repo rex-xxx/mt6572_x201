@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">សេវាកម្មការតភ្ជាប់ទូរស័ព្ទចល័ត</string>
+    <string name="button_ok">យល់ព្រម</string>
+    <string name="button_cancel">លើកលែង</string>
+    <string name="confirm_radio_title">SIM បានត្រូវបិទ</string>
+    <string name="confirm_radio_msg">
+        <xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> 	ឥឡូវបានបិទហើយ ។ តើអ្នកចង់បើក SIM កាតនេះទេ?
+    </string>
+    <string name="confirm_radio_msg_single">ម៉ូដជិះយន្តហោះ ឥឡូវបានបើកហើយ តើអ្នកចង់បិទវាទេ?</string>
+    <string name="confirm_pin_title">SIM បានជាប់សោ</string>
+    <string name="confirm_pin_msg">SIM កាតដែលអ្នកបានជ្រើសរើស ឥឡូវបានជាប់សោហើយ ។ ជាដំបូងត្រូវដោះសោវាសិន ។</string>
+    <string name="confirm_simmelock_title">SIM ME បានជាប់សោ</string>
+    <string name="confirm_simmelock_msg">ប្រឡោះ SIM ដែលអ្នកបានជ្រើសរើស ឥឡូវជាប់សោហើយ ។ ជាដំបូងត្រូវដោះសោវាសិន ។</string>
+    <string name="confirm_fdn_title">បានធ្វើឲ្យ FDN សកម្ម</string>
+    <string name="confirm_fdn_msg">លេខទូរស័ព្ទលើតុដែលបានរវៃ ត្រូវបានធ្វើឲ្យសកម្មហើយ ។</string>
+    <string name="confirm_roaming_title">ការព្រមានចំពោះរ៉ូមិង</string>
+    <string name="confirm_roaming_msg">SIM កាតដែលអ្នកបម្រុងនឹងប្រើ ឥឡូវកំពុងរ៉ូមិង ។ ឥឡូវមិនមាន SIM ប្រើសេវាកម្ម មូលដ្ឋានឡើយ ។ តើអ្នកចង់បន្តទេ?</string>
+    <string name="confirm_roaming_withPrefer_msg">SIM កាតដែលអ្នកបម្រុងនឹងប្រើ ឥឡូវកំពុងរ៉ូមិង ។ តើអ្នកចង់បន្តតាមរយៈ SIM ដែលប្រើសេវាកម្មមូលដ្ឋានឬទេ?</string>
+    <string name="confirm_roaming_lbutton">បន្ត</string>
+    <string name="confirm_roaming_rbutton">លើកលែង</string>
+    <string name="confirm_roamingWithPrefer_lbutton">SIM ប្រើសេវាកម្មមូលដ្ឋាន</string>
+    <string name="confirm_roamingWithPrefer_rbutton">SIM ជាប់រ៉ូមិង</string>
+    <string name="confirm_radio_lbutton">បើក</string>
+    <string name="confirm_unlock_lbutton">ដោះសោ</string>
+    <string name="confirm_unlock_fail">ប្រតិបត្តិការត្រូវបានលើកលែង</string>
+    <string name="confirm_turnon_radio_fail">ប្រតិបត្តិការត្រូវបានលើកលែង</string>
+    <string name="confirm_permit_roaming_fail">អ្នកលើកលែងសកម្មភាពនេះ នៅក្នុង SIM ដែលជាប់រ៉ូមិង</string>
+    <string name="confirm_sim_locked_message">SIM កាតត្រូវបានចាក់សោជាអចិន្ត្រៃយ៍</string>
+    <string name="confirm_slot_locked_message">ប្រឡោះកាតត្រូវបានចាក់សោជាអចិន្ត្រៃយ៍</string>
+</resources>

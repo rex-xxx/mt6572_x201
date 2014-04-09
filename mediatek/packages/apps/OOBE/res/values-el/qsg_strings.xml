@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="qsg_app_name">Οδηγός γρήγορης έναρξης</string>  
+    <!-- ============================ -->  
+    <!-- quick start guide strings -->  
+    <!-- ============================ -->  
+    <string name="skip_button">Παράλειψη</string>  
+    <string name="ok_button">Έναρξη</string>  
+    <string name="qsg_title_begin">Οδηγός γρήγορης έναρξης</string>  
+    <string name="qsg_summary_begin">Ο Οδηγός γρήγορης έναρξης παρέχει 4 χρήσιμες συμβουλές και σας παρουσιάζει τη διαχείριση των βασικών κινήσεων και της αρχικής οθόνης.</string>  
+    <string name="next">Επόμενο</string>  
+    <string name="play_again">Επανάληψη αναπαραγωγής</string>  
+    <string name="finish">Ολοκλήρωση</string>  
+    <string name="qsg_title2_home_screen">Προβολή αρχικής οθόνης</string>  
+    <string name="qsg_summary2_home_screen">Σύρετε αριστερά ή δεξιά για να προβάλετε άλλες σελίδες ή την αρχική οθόνη.</string>  
+    <string name="qsg_title3_choose_widget">Επιλέξτε μερικά γραφικά στοιχεία</string>  
+    <string name="qsg_summary3_choose_widget">Για να προσθέσετε ένα γραφικό στοιχείο στην αρχική σας οθόνη, αγγίξτε την παρατεταμένα.</string>  
+    <string name="qsg_title4_launch_page">Εκκίνηση σελίδας λεπτομερειών</string>  
+    <string name="qsg_summary4_launch_page">Πιέστε μια εικόνα προφίλ για να αναδυθεί η σελίδα λεπτομερειών για επιλογές.</string>  
+    <string name="qsg_title5_view_notification">Προβολή ειδοποιήσεων</string>  
+    <string name="qsg_summary5_view_notification">Κρατήστε πατημένη τη γραμμή κατάστασης και κυλήστε προς τα κάτω για να προβάλετε όλες τις ειδοποιήσεις.</string>  
+    <string name="qsg_changesim_title">Εναλλαγή κάρτας SIM</string>  
+    <string name="qsg_changesim_summary">Σύρετε προς τα κάτω τη γραμμή κατάστασης και επιλέξτε την υπηρεσία κάρτας SIM για λειτουργία.</string>  
+    <string name="qsg_summary_end">Έχετε παρακολουθήσει όλες τις συμβουλές που παρέχονται από τον Οδηγός γρήγορης έναρξη. \n\nΕάν θέλετε, μπορείτε να πιέσετε στο κουμπί "αναπαραγωγή ξανά" για να προβάλλετε ξανά αυτόν τον οδηγό.\n\nΕναλλακτικά, πιέστε το κουμπί can tap on "Ολοκλήρωση" για να λειτουργήσετε τη νέα σας συσκευή.</string> 
+</resources>

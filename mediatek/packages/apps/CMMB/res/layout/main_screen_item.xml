@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"     
+	android:layout_height="wrap_content"
+	android:paddingTop="7dip"
+	android:paddingBottom="7dip">
+
+	<ImageView android:id="@+id/logo_image" 
+			android:layout_width="60dip"
+			android:layout_height="50dip" 
+			android:layout_centerVertical="true"					
+			android:scaleType="center"	        
+			/>
+			
+	<ImageView android:id="@+id/encryped_indicator"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_centerVertical="true"			
+			android:paddingLeft="30dip"
+			android:paddingTop="14dip"			
+			/>
+	<LinearLayout 
+		android:layout_width="wrap_content"     
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@+id/logo_image"
+		android:layout_toLeftOf="@+id/program_entrance"
+		android:layout_alignParentTop="true"
+		android:gravity="left">	
+		<TextView android:id="@+id/channel_name"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" 
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:singleLine="true"
+					android:ellipsize="marquee" 	
+					android:drawablePadding="2dip"
+					android:layout_toRightOf="@+id/logo_image"
+					/>
+	</LinearLayout>
+
+	<TextView 	android:id="@+id/duration"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_marginRight="5dip" 
+				android:textAppearance="?android:attr/textAppearanceSmall" 
+				android:layout_toRightOf="@+id/logo_image"
+				android:layout_alignParentBottom="true"/>
+
+	<TextView 	android:id="@+id/program_name"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceSmall" 
+				android:singleLine="true"
+				android:ellipsize="marquee" 				
+				android:layout_toRightOf="@+id/duration"
+				android:layout_toLeftOf="@+id/program_entrance"				
+				android:layout_alignParentBottom="true"/>
+					
+	<ImageView android:id="@+id/program_entrance"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_centerVertical="true" 
+			android:layout_marginRight="17dip" 
+			android:src="@drawable/program_entrance"/>
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="date_and_time">तिथि व समय सेटिंग</string>  
+    <string name="date_time_12_hour_sample">अपराह्न 1.00 बजे</string>  
+    <string name="choose_timezone">टाइम जोन चुनें</string>  
+    <string name="normal_date_format">सामान्‍य ( 
+        <xliff:g example="12-31-2009" id="date">%s</xliff:g>)
+    </string>  
+    <string name="date_time_auto">नेटवर्क के साथ स्वचालित</string>  
+    <string name="date_time_24hour">24-घंटे का स्‍वरूप प्रयोग करें</string>  
+    <string name="date_time_set_time">समय सेट करें</string>  
+    <string name="date_time_set_timezone">टाइम जोन चुनें</string>  
+    <string name="date_time_set_date">तिथि सेट करें</string>  
+    <string name="date_time_date_format">तिथि फोरमेट चुनें</string>  
+    <string name="zone_list_menu_sort_alphabetically">वर्णक्रम के अनुसार छांटें</string>  
+    <string name="zone_list_menu_sort_by_timezone">टाइम जोन के अनुसार छांटें</string>  
+    <string name="zone_auto">स्वचालित समय क्षेत्र</string>  
+    <string name="zone_auto_summaryOn">नेटवर्क द्वारा प्रदान समय क्षेत्र का उपयोग करें</string>  
+    <string name="zone_auto_summaryOff">नेटवर्क द्वारा प्रदान समय क्षेत्र का उपयोग करें</string> 
+</resources>

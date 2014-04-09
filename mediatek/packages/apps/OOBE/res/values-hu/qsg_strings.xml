@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="qsg_app_name">Gyors üzembe helyezési útmutató</string>  
+    <!-- ============================ -->  
+    <!-- quick start guide strings -->  
+    <!-- ============================ -->  
+    <string name="skip_button">Kihagyás</string>  
+    <string name="ok_button">Indítás</string>  
+    <string name="qsg_title_begin">Gyors üzembe helyezési útmutató</string>  
+    <string name="qsg_summary_begin">Ez a Gyors Üzembe Helyezési Útmutató 4 hasznos tippet tartalmaz és bevezeti Önt az alapvető mozdulatokba és az induló képernyő kezelésébe.</string>  
+    <string name="next">Következő</string>  
+    <string name="play_again">Új lejátszás</string>  
+    <string name="finish">Befejezés</string>  
+    <string name="qsg_title2_home_screen">Induló képernyő megtekintése</string>  
+    <string name="qsg_summary2_home_screen">Csúsztassa az ujját balra vagy jobbra az Induló képernyő összes oldalának megtekintéséhez.</string>  
+    <string name="qsg_title3_choose_widget">Válasszon néhány minialkalmazást</string>  
+    <string name="qsg_summary3_choose_widget">Minialkalmazás induló képernyőre helyezéséhez érintse meg és tartsa rajta az ujját.</string>  
+    <string name="qsg_title4_launch_page">Részletek oldal megnyitása</string>  
+    <string name="qsg_summary4_launch_page">Érintsen meg egy profilképet az opciók részletei oldal megnyitásához.</string>  
+    <string name="qsg_title5_view_notification">Értesítések megtekintése</string>  
+    <string name="qsg_summary5_view_notification">Érintse meg az állapotsávot és görgesse lefelé az összes értesítés megtekintéséhez.</string>  
+    <string name="qsg_changesim_title">SIM-kártya váltása</string>  
+    <string name="qsg_changesim_summary">Húzza lefelé az állapotsort és válassza a szolgáltatás SIM-kártyáját a működtetéshez.</string>  
+    <string name="qsg_summary_end">Végiglépkedett a Gyors üzembe helyezési útmutató összes tippjén. \n\nAz útmutató újbóli megtekintéséhez érintse meg a "lejátszás újra" gombot.\n\nMás megoldásként érintse meg a "Befejezés" gombot új eszköze működtetéséhez.</string> 
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="confirm_radio_title">SIM kapalı</string>
+	<string name="confirm_radio_msg">
+		<xliff:g id="operator_name" example="CMCC">%1$s</xliff:g>
+		 şu anda kapalı. Bu SIM kartını açmak ister misiniz?
+	</string>
+	<string name="confirm_radio_msg_single">"Uçak modu şu anda açık; kapatmak ister misiniz?"</string>
+	<string name="confirm_pin_title">PIN Kilidi</string>
+	<string name="confirm_pin_msg">Kullanmak üzere olduğunuz SIM kartı şu anda kilitli. Kilidi açmak ister misiniz?</string>
+	<string name="confirm_simmelock_title">SIM ME kilidi</string>
+	<string name="confirm_simmelock_msg">Kullanmak üzere olduğunuz SIM yuvası şu anda kilitli. Kilidi açmak ister misiniz?</string>
+	<string name="confirm_fdn_title">FDN Etkin</string>
+	<string name="confirm_fdn_msg">Sabit arama numaraları etkin.</string>
+	<string name="confirm_roaming_title">Dolaşım uyarısı</string>
+	<string name="confirm_roaming_msg">"Kullanmak üzere olduğunuz SIM kart şu an dolaşımda. Şu an yerel SIM mevcut değil. Devam etmek istiyor musunuz?"</string>
+	<string name="confirm_roaming_withPrefer_msg">"Kullanmak üzere olduğunuz SIM kart şu an dolaşımda. Yerel SIM yoluyla devam etmek istiyor musunuz?"</string>
+	<string name="confirm_roaming_lbutton">Devam Et</string>
+	<string name="confirm_roaming_rbutton">İptal</string>
+	<string name="confirm_roamingWithPrefer_lbutton">Yerel SIM</string>
+	<string name="confirm_roamingWithPrefer_rbutton">"Dolaşım SIM'i"</string>
+	<string name="confirm_radio_lbutton">Aç</string>
+	<string name="confirm_unlock_lbutton">Kilidi aç</string>
+	<string name="confirm_unlock_fail">İşlem iptal edildi</string>
+	<string name="confirm_turnon_radio_fail">İşlem iptal edildi</string>
+	<string name="confirm_permit_roaming_fail">"Dolaşan SIM'de bu eylemi iptal ettiniz"</string>
+	<string name="confirm_sim_locked_message">"SIM kart kalıcı olarak kilitlenir."</string>
+	<string name="confirm_slot_locked_message">"Yuva kalıcı olarak kilitlendi."</string>
+	<string name="app_name">CellConnectionService</string>  
+	<string name="button_ok">Tamam</string>  
+</resources>

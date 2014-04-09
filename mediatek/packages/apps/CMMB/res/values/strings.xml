@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<!-- MBBMS 3.0  BEGIN-->
+
+<!-- UPGRADE -->
+<string name="non_force_upgrade">New version of CMMB client is available.Upgrade now? (You can do it later in Settings screen if you choose no)</string>
+<string name="force_upgrade">CMMB client must be upgraded to work properly!</string>
+<string name="area_warn">\tCan not watch TV now and the possible reason is：\n
+\t1、The signal is unavailable or too weak,please draw the antenna and try again.\n
+\t2、The service guide you are using is from %1$s,if you are not in %1$s,please %2$s.</string>
+<string name="click_and_modify">click here to modify</string>
+<string name="upgrade_failed">Failed to upgrade CMMB client!</string>
+<string name="upgrade_is_ongoing">Upgrade is still ongoing,you can cancel it in Device Management application!</string>
+<string name="unknown_location">unknown location</string>
+<!-- UPGRADE -->
+<!-- IMD -->
+<string name="downloading">Downloading\u2026</string>
+<string name="download_sdcard_busy_dlg_msg" product="nosdcard">The USB storage is busy. To allow downloads, select \"Turn off USB storage\" in the notification.</string>
+<string name="download_sdcard_busy_dlg_msg" product="default">The SD card is busy. To allow downloads, select \"Turn off USB storage\" in the notification.</string>
+<string name="download_sdcard_busy_dlg_title" product="nosdcard">USB storage unavailable</string>
+<string name="download_sdcard_busy_dlg_title" product="default">SD card unavailable</string>	
+<string name="download_no_sdcard_dlg_msg" product="nosdcard">USB storage is required to download <xliff:g id="filename">%s</xliff:g>.</string>
+<string name="download_no_sdcard_dlg_msg" product="default">An SD card is required to download <xliff:g id="filename">%s</xliff:g>.</string>
+<string name="download_no_sdcard_dlg_title" product="nosdcard">USB storage unavailable</string>
+<string name="download_no_sdcard_dlg_title" product="default">No SD card</string>   
+<string name="imd_amount">IMD Amount</string>
+<!-- IMD -->
+<!-- MBBMS 3.0  END-->
+
+<string name="search">"Search"</string>
+<string name="search_title">"Mobile TV"</string>
+<string name="search_hint">"Search packages"</string>
+<string name="search_settings_description">"Search packages which include current channel or program name."</string>
+<string name="unsubscribe_all_tip">"Unsubscribe all packages?"</string>
+<string name="unsubscribe_all">"Unsubscribe All"</string>
+<string name="unsubscribe_all_success">"Unsubscribed all packages , welcome order again."</string>
+<string name="package_include_programs">"Package including programs List: "</string>
+<string name="select_all">"Select All"</string>
+<string name="display_ordered">"Next Step"</string>
+<string name="content_list">"Program List"</string>
+<string name="no_unsubscribed_content">"No subscribed programs"</string>
+<string name="money_order_times">"Charges：%1$.2f￥/%2$d times"</string>
+<string name="fail_subscribe_for_end_program">"Fail to subscribe packages for %1$s is(are) over."</string>
+<string name="fail_unsubscribe_for_program_has_begun">"Fail to unsubscribe packages for %1$s has alreay begun."</string>
+<string name="search_empty">"Not find packages"</string>
+
+<!-- common -->
+<string name="mobile_tv">Mobile TV</string>
+<string name="package_management">"Package management"</string>
+<string name="emergency_broadcast">"Emergency broadcast"</string>
+<string name="setting">Settings</string>
+<string name="help">Help</string>
+<string name="quit">Quit</string>
+<!-- common -->
+
+<!-- setting -->
+<string name="apn">"Access Point Names"</string>
+<string name="sg_server_host">"Service guide server address"</string>
+<string name="sg_server_port">"Service guide server port"</string>
+<string name="wap_host">"WAP gateway address"</string>
+<string name="wap_port">"WAP gateway port"</string>
+<string name="restore">"Restore default settings"</string>
+<string name="restore_warning">"Will restore the default value and delete your settings,continue?"</string>
+<string name="invalid_value">"Invalid value"</string>
+<string name="invalid_apn">"Invalid APN"</string>
+<string name="invalid_input">"Invalid input, please try again."</string>
+<!-- setting -->
+
+<!-- help -->
+<string name="help_info">"\tMobile TV business is jointly launched by China Broadcast Corporation, which is owned by State Administration of Radio, Film and Television, and China Mobile Communications Corporation, you can watch real-time multi-sets of TV shows. Watch clear and smooth, no traffic charges.\b
+\tFor more details, please call 10086 or 4006005577 for advice.\n
+\tFirst-time using Mobile TV\b
+\tSubscribe packages can enjoy the wonderful channel.\n
+\tEmergency Broadcast\b
+\tEmergency broadcast is a way announcing emergency notifications using radio communication system."</string>
+<!-- help -->
+
+<!--emergency broadcast  -->
+<string name="delete_all">"Delete all"</string>
+<string name="delete">"Delete"</string>
+<string name="ebm_no_list">"No emergency broadcast"</string>
+<string name="ebm_level">"Emergency broadcast level %d"</string>
+<!--emergency broadcast  -->
+
+<!--PurchaseItem management-->
+<string name="subscribed_package">"Ordered package"</string>
+<string name="unsubscribed_package">"To order package"</string>
+<string name="subscribe_suffix">"(Ordered)"</string>
+<string name="unsubscribe_suffix">"(Not ordered)"</string>
+<string name="period_order_one_month">"Period: 1 month"</string>
+<string name="period_order_multi_month">"Package valid period: %d months"</string>
+<string name="money_order_one_month">"Charges：%.2f￥/month"</string>
+<string name="money_order_multi_month">"Total charges：%.2f￥"</string>
+<string name="package_include_channels">"Package including channels List: "</string>
+<string name="no_local_tip">"You can watch the packages of current area, packages of remote area can be watched just in its area."</string>
+<string name="subscribe">"Subscribe"</string>
+<string name="unsubscribe">"Unsubscribe"</string>
+<string name="subscribe_tip">"Whether order %s or not?"</string>
+<string name="unsubscribe_tip">"Whether drop %s or not?"</string>
+<string name="is_subscribing">"Subscribing, please wait."</string>
+<string name="is_unsubscribing">"Unsubscribing, please wait."</string>
+<string name="unsubscribe_success">"Unsubscribed %s , welcome order again."</string>
+<string name="subscribe_success">"Subscribed package %s."</string>
+<string name="subscribe_fail">"Processing error. Please try again later."</string>
+<string name="unsubscribe_fail">"Processing error. Please try again later."</string>
+<string name="no_unsubscribed_package">"No unsubscribed packages"</string>
+<string name="no_subscribed_package">"No subscribed packages"</string>
+<string name="query_account_info_ongoing">"Updating package info, please wait..."</string>
+<string name="query_account_info_fail">"Updating subscribed package info failed!"</string>
+<string name="query_account_info_success">"Updating subscribed package info success!"</string>
+<string name="money_unknown">"Unknown type charges: %.2f￥"</string>
+<string name="period_unknown">"Unknown period"</string>
+<string name="period_order_times">"Valid times: %d"</string>
+<!--PurchaseItem management-->
+
+<!-- play bill -->
+<string name="channels">"Channels"</string>
+<string name="date">"Date"</string>
+<string name="today">"Today"</string>
+<string name="tomorrow">"Tomorrow"</string>
+<string name="day_after_tomorrow">"Day af.tomo."</string>
+<string name="play_history">"History"</string>
+<string name="play_now">"Playing"</string>
+<string name="play_later">"Next play"</string>
+<string name="no_content">"No related playbill info!"</string>
+<string name="content_no_detail">"No details"</string>
+<string name="no_more_date">"Sorry, no valid date to be selected!"</string>
+<string name="content_passed">"Passed program, current channel is playing other program."</string>
+<string name="content_non_arrival">"Incoming program, current channel is playing other program."</string>
+<string name="period_format">"%1$02d:%2$02d - %3$02d:%4$02d"</string>
+<!-- play bill -->
+
+<!--Main Screen related resources begin-->
+<string name="main_all_channels">All channels</string>
+<string name="main_favourite_channels">Favorite channels</string>
+<string name="favourite_added">Add %1$s to favorites. </string>
+<string name="favourite_removed">Remove %1$s from favorites. </string>
+<string name="quit_confirm">Are you sure to exit? </string>
+<string name="datacon_hint">Data connection is opened, it will be closed after TV exit. </string>
+<string name="gemini_3g_indic" translatable="false">3G</string>  
+<!--Main Screen related resources end-->
+
+<!-- Player related resources begin-->
+<string name="saved_to">The snapshot %1$s has been saved to %2$s folder.</string>
+<string name="not_support_snap">Please take snapshot after play.</string>
+<string name="please_wait">Please wait\u2026</string>
+<string name="signal_none">TV is stopped due to no signal.(1001)</string>
+<string name="signal_weak_stop_internal">Signal is weak,please try again later.(1001)</string>    
+<string name="signal_recover">TV signal is recovered!</string>    
+<string name="open_channel_fail">Connection failure,please try again later.</string>
+<string name="capture_fail">Failed to get a snapshot!</string>
+<string name="no_storage">Please insert an SD card.</string>
+<string name="spaceIsLow_content">Your SD card is running out of space. </string>   
+<string name="refresh">Refresh</string>
+<string name="program_list">Program list</string>
+<string name="loading">"Loading\u2026"</string>
+<string name="channel_unavailable_now">The channel %s is encrypted and can\'t be watched.</string>
+<string name="channel_unavailable_now2">This channel is encrypted and can\'t be watched.</string>    
+<string name="need_subscription_hint">The channel %s is not subscribed.Subscribe to it now?</string>
+<string name="need_subscription_hint2">This channel is not subscribed and can\'t be watched.</string>    
+<string name="no_channel_available">No channel available.</string>
+<string name="no_favorite_channel">No favorite channel.</string>
+<string name="unknown">Unknown</string>
+<string name="dlg_10_no_sim">No sim is found,press ok to enter CMMB mode.</string>
+<string name="dlg_10_not_connected">Mobile network is not available,press ok to enter CMMB mode.</string>
+<string name="add_to_favorites">Add to favorites</string>
+<string name="remove_from_favorites">Remove from favorites</string>
+<string name="input_city_hint">If the city you input does not match your location,you will not be able to watch TV!</string>
+<string name="auto_refresh_is_used">Auto refresh mode will be used!</string>
+<string name="auto_refresh">Auto refresh</string>
+<string name="specify_location">Specify location</string>
+<string name="gsm_signal_recover">Mobile signal is recoverd and service guide will be downloaded from mobile network.Continue?</string>
+<string name="read">Read</string>
+<string name="ignore">Ignore</string>
+<string name="failed_to_update_service">Failed to update channel and program list!(2001)</string>
+<string name="greeting">Welcome to Mobile TV</string>
+<string name="_updating">" (Updating\u2026)"</string>
+<string name="_unknown_state">" (Unknown state)"</string>
+<string name="updating_sg_hint">Please wait until service guide is updated!</string>
+<string name="please_choose_refresh_type">Refresh</string>
+<string name="unsupported_channel">This channel is not supported.</string>
+<string name="audio_broadcast">Audio Broadcast</string>
+<string name="full_screen">Full Screen</string>
+<string name="exit_full_screen">Exit Full Screen</string>
+<string name="cmcc_net_error">Get order information fail. Please try again later.</string>
+<string name="cmcc_net_error2">Get order information fail. Please try again later.</string>
+<!-- Player related resources end-->
+
+<!-- special -->
+<string name="mts_sg_retrieve" translatable="false">[MTS]SG Retrieve</string>
+<string name="mts_gba" translatable="false">[MTS]GBA</string>
+<string name="mts_sub_update" translatable="false">[MTS]Subscription update</string>
+<string name="mts_msk_retrieve" translatable="false">[MTS]MSK Retrieve</string>
+<!-- special -->
+
+<!-- 3.0 -->
+<string name="interactivity_arrival">"Interactivity arriving"</string>
+<string name="interactivity_auto_pop">"Auto pop interactivity"</string>
+<string name="user_location_info">"User area"</string>
+<string name="select_user_location">"Select user area"</string>
+<string name="check_location_automatically">"Check area automatically every time"</string>
+<string name="check_location_manually">"Set area manually(%1$s)"</string>
+<string name="update_user_location">"Updating user area, please wait..."</string>
+<string name="select_suggestion">"Please select your area. Otherwise, you cannot watch the program. If you cannot find your area, please select \"%1$s\""</string>
+<string name="select_province">"Please select your area, otherwise you cannot watch the program"</string>
+<string name="select_city">"You have selected [%s]，please continue to select your area. Otherwise, you cannot watch the program"</string>
+<string name="select_county">"You have selected [%1$s-%2$s]，please continue to select your area. Otherwise, you cannot watch the program"</string>
+<string name="save_location">"Save this area"</string>
+<string name="previous_step">"Previous step"</string>
+<string name="unknow_location">"Cannot get your area."</string>
+<string name="check_all_cities">"Check all areas"</string>
+<string name="no_location">"There is no available area"</string>
+<string name="location_saved">"Area is saved"</string>
+<string name="update_client">"Upgrade client"</string>
+<string name="check_new_version">"Check new version"</string>
+<string name="network_settings">"Network settings"</string>
+<string name="has_new_version">"New version of Mobile TV client, upgrade it now?"</string>
+<string name="no_new_version">"Your client is newest version, no need to upgrade."</string>
+<string name="update_new_version">"Getting new version info, please wait..."</string>
+<string name="see_interactivity">"View current interactivity"</string>
+<string name="no_interactivity">"No interactivity"</string>
+<string name="previous_row">"Previous"</string>
+<string name="next_row">"Next"</string>
+<string name="goto_half">"Turn to half screen"</string>
+<string name="service_interactivity">"Interactivity of %1$s"</string>
+<string name="error_check_upgrade">"Cannot get new version info, unknown error!"</string>
+<string name="unknown_version">"Unknown version info!"</string>
+<string name="error_sync_location">"Cannot get area info, unknown error!"</string>
+<string name="interactivity_detail">"Interactivity details"</string>
+<string name="update_sg_interactivity">"Getting interactivity info, please wait..."</string>
+<string name="error_sync_interactivity">"Cannot get interactivity info, unknown error!"</string>
+<!-- 3.0 -->
+
+<!-- levono ftm -->
+<string name="channel_freq" translatable="false">"Freqency:"</string>
+<string name="sig_rssi" translatable="false">"RSSI:"</string>
+<string name="sig_snr" translatable="false">"SNR:"</string>
+<string name="sig_ber" translatable="false">"BER:"</string>
+<string name="sig_fs" translatable="false">"FS:"</string>
+<string name="sig_pwr" translatable="false">"Inbandpwr:"</string>
+<string name="sig_carroffset" translatable="false">"CarrOffset:"</string>
+<!-- levono ftm -->
+</resources>

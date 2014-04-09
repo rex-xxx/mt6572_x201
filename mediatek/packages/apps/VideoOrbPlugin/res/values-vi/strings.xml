@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="plugin_name">Video Orb</string>
+    <string name="ok">"OK"</string>
+    <string name="cancel">"Hủy"</string>
+    <string name="plugin_description">Xem video mới nhất của bạn phát trên màn hình khóa</string>
+    <string name="transcoding_prompt">Chuẩn bị video</string>
+    <string name="transcoding_prompt_description">Video Orb sẽ cần một ít thời gian để chuẩn bị các video. Bạn muốn tiếp tục?</string>
+    <string name="transcoding_progress_format" translatable="false">"%"</string>
+    <string name="transcoding_clip_format" translatable="false">"/"</string>
+    <string name="video_file_name_format" translatable="false">"_yyyyMMdd_HHmmss"</string>
+    <string name="toast_video_add_cancelled">Không thể thêm video</string>
+    <string name="toast_video_unsupported_resolution">Độ phân giải video không hỗ trợ.</string>
+    <string name="toast_low_storage" product="nosdcard">"Bộ nhớ USB đầy."</string>
+    <string name="toast_low_storage" product="default">"Thẻ SD của bạn đã đầy."</string>
+    <string name="toast_invalid_video">Định dạng video không hỗ trợ.</string>
+</resources>

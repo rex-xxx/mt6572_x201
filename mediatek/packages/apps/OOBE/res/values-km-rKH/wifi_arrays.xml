@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <skip/>  
+    <string-array name="wifi_status"> 
+        <item>កំពុងស្គែន\u2026</item>  
+        <item>កំពុងតភ្ជាប់\u2026</item>  
+        <item>កំពុងបញ្ជាក់ការពិត\u2026</item>  
+        <item>កំពុងទទួលអាសយដ្ឋាន IP\u2026</item>  
+        <item>បានតភ្ជាប់</item>  
+        <item>បានព្យួរ</item>  
+        <item>កំពុងផ្តាច់ការតភ្ជាប់\u2026</item>  
+        <item>បានផ្តាច់ការតភ្ជាប់</item>  
+        <item>បរាជ័យ</item>  
+        <item>Unsuccessful</item> 
+    </string-array>  
+    <skip/>  
+    <string-array name="wifi_status_with_ssid"> 
+        <item>កំពុងស្គែន\u2026</item>  
+        <item>កំពុងតភ្ជាប់ជាមួយ 
+            <xliff:g id="network_name">%1$s</xliff:g>\u2026
+        </item>  
+        <item>កំពុងបញ្ជាក់ការពិតជាមួយ 
+            <xliff:g id="network_name">%1$s</xliff:g>\u2026
+        </item>  
+        <item>កំពុងទទួលអាសយដ្ឋាន IP ពី 
+            <xliff:g id="network_name">%1$s</xliff:g>\u2026
+        </item>  
+        <item>បានតភ្ជាប់ជាមួយ 
+            <xliff:g id="network_name">%1$s</xliff:g> 
+        </item>  
+        <item>បានព្យួរ</item>  
+        <item>កំពុងផ្តាច់ការតភ្ជាប់ពី 
+            <xliff:g id="network_name">%1$s</xliff:g>\u2026
+        </item>  
+        <item>បានផ្តាច់ការតភ្ជាប់</item>  
+        <item>បរាជ័យ</item>  
+        <item>Unsuccessful</item> 
+    </string-array>  
+    <skip/>  
+    <string-array name="wifi_signal"> 
+        <item>មិនល្អ</item>  
+        <item>មធ្យម</item>  
+        <item>ល្អ</item>  
+        <item>ប្រសើរ</item> 
+    </string-array>  
+    <string-array name="wifi_sleep_policy_entries"> 
+        <item>ពេលអេក្រង់បិទ</item>  
+        <item>មិនដែល ពេលតចូល</item>  
+        <item>មិនដែល</item> 
+    </string-array>  
+    <skip/>  
+    <string-array name="wifi_connect_type_entries"> 
+        <item>តភ្ជាប់ដោយស្វ័យប្រវត្តិ</item>  
+        <item>តភ្ជាប់ដោយដៃ</item>  
+        <item>ជានិច្ចកាលសួរ</item> 
+    </string-array>  
+    <string-array name="wifi_frequency_band_entries"> 
+        <item>ស្វ័យប្រវត្តិ</item>  
+        <item>តែ 5 GHz ទេ</item>  
+        <item>តែ 2.4 GHz ទេ</item> 
+    </string-array>  
+    <string-array name="wifi_sleep_policy_entries_wifi_only"> 
+        <item>ជានិច្ចកាល</item>  
+        <item>តែពេលតចូលទេ</item>  
+        <item>មិនដែល</item> 
+    </string-array>  
+    <string-array name="wifi_ip_settings"> 
+        <item>DHCP</item>
+        <item>ស្តាទិក</item>
+    </string-array>  
+    <string-array name="wifi_proxy_settings"> 
+        <item>គ្មាន</item>  
+        <item>ដោយដៃ</item> 
+    </string-array>  
+
+    <string-array name="auto_time_entries"> 
+        <item>ប្រើម៉ោងដែលផ្តល់ដោយបណ្តាញ</item>  
+        <item>ប្រើម៉ោងដែលផ្តល់ដោយ GPS</item>  
+        <item>បិទ</item> 
+    </string-array> 
+    <string-array name="wifi_WEP_security_type"> 
+        <item>ស្វ័យប្រវត្តិ</item>  
+        <!-- Do not translate. -->  
+        <item>WEP ASCII</item>  
+        <item>WEP ទសភាពប្រាំមួយខ្ទង់</item> 
+    </string-array>  
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+<SpriteAnimation xmlns:android="http://schemas.android.com/apk/res/android" 
+                          xmlns:ngin3d="http://schemas.android.com/apk/res/com.mediatek.ngin3d.tests"
+                          android:id="@+id/sprite_animation1" 
+                          ngin3d:spriteType="multiSprite"
+                          ngin3d:addSpriteFile="@array/spriteAnimationFiles"
+                          ngin3d:duration="200"
+                          >
+</SpriteAnimation>      
+
+

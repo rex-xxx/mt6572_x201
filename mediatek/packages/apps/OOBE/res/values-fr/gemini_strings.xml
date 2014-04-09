@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="gemini_sim_info_title">Infos SIM</string>  
+    <string name="gemini_default_sim_title">SIM par défaut</string>  
+    <string name="gemini_general_settings_title">Réglages de base</string>  
+    <string name="gemini_roaming_settings_title">Itinérance</string>  
+    <string name="gemini_contacts_sim_title">"Contacts &amp; SIM"</string>  
+    <string name="gemini_contacts_sim_summary">Associer les contacts à une carte SIM spécifique</string>  
+    <string name="gemini_voice_call">Appel vocal</string>  
+    <string name="gemini_video_call">Appel vidéo</string>  
+    <string name="gemini_data_connection">Connexion des données</string>  
+    <string name="gemini_msg">"SMS/MMS"</string>  
+    <string name="gemini_default_sim_always_ask">Toujours demander</string>  
+    <string name="gemini_intenet_call">Appel Internet</string>  
+    <string name="gemini_default_sim_never">Arrêt</string>  
+    <string name="gemini_default_sim_3g_off">Désactivé</string>  
+    <string name="gemini_sim_info_editor_name">Modifier le nom SIM</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">Echec de l\'enregistrement</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">Nom en double pour carte SIM</string>  
+    <string name="gemini_sim_info_editor_number">Saisir numéro de téléphone</string>  
+    <string name="gemini_sim_info_editor_color">Régler la couleur d\'arrière-plan</string>  
+    <string name="gemini_sim_info_editor_number_display_format">Afficher les numéros</string>  
+    <string name="gemini_no_sim_indicator">Aucune carte SIM</string>  
+    <string name="gemini_data_connection_progress_message">"Veuillez patienter......"</string>  
+    <string name="gemini_3g_modem_switching_message">"La commutation SIM mettra environ 10 secondes. Veuillez patienter…"</string>  
+    <string name="gemini_3g_modem_switch_confirm_message">"Ceci va également commuter le service 3G vers la carte SIM. Continuer? Veuillez vous assurer que la carte SIM est compatible avec le service 3G."</string>  
+    <string name="gemini_sim_mode_progress_activating_message">Activation ......</string>  
+    <string name="gemini_sim_mode_progress_deactivating_message">Désactivation ......</string>  
+    <string msgid="7422262558097875757" name="apn_not_set">"Non défini"</string>  
+    <string name="gemini_3g_disable_warning_case0">"Vous devez activer l'itinérance des données pour cette carte SIM, ce qui peut ajouter des frais considérables d'itinérance ! Voulez-vous vraiment activer l'itinérance des données et sélectionner cette carte SIM ?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"Le service 3G n’est pas disponible avec la carte SIM sélectionnée. Le chargement des données peut être ralenti. Vous pouvez modifier le réglage du service 3G sous Réglages &gt; Sans-fil &amp; réseaux &gt; Réseaux mobiles. Confirmer la sélection de cette carte SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"Le service 3G n’est pas disponible avec la carte SIM sélectionnée. Le chargement des données peut être ralenti. Vous pouvez modifier le réglage du service 3G sous Réglages &gt; Gestion SIM. Confirmer la sélection de cette carte SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"Vous devez tout d’abord autoriser l’itinérance des données sur cette carte SIM, ce qui peut entraîner des frais d’itinérance non négligeables! De plus, le service 3G n’est pas disponible avec cette carte SIM. Le chargement des données peut être ralenti. Vous pouvez modifier le réglage sous Réglages &gt; Sans-fil &amp; réseaux &gt; Réseaux mobiles. Confirmer l’itinérance des données et la sélection de cette carte SIM?</string>  
+    <string name="gemini_3g_disable_warning_case4">" Vous devez tout d’abord autoriser l’itinérance des données sur cette carte SIM, ce qui peut entraîner des frais d’itinérance non négligeables! De plus, le service 3G n’est pas disponible avec cette carte SIM. Le chargement des données peut être ralenti. Vous pouvez modifier le réglage sous Réglages &gt; Gestion SIM. Confirmer l’itinérance des données et la sélection de cette carte SIM?"</string>  
+    <string name="gemini_gsm_umts_network_preferences_title">Mode réseau</string>  
+</resources>

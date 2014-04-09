@@ -1,0 +1,48 @@
+diff --git a/src/devicedrv/mali/common/mali_osk.h b/src/devicedrv/mali/common/mali_osk.h
+index 968238b..4b99e4d 100644
+--- a/src/devicedrv/mali/common/mali_osk.h
++++ b/src/devicedrv/mali/common/mali_osk.h
+@@ -623,6 +623,13 @@ _mali_osk_wq_work_t *_mali_osk_wq_create_work( _mali_osk_wq_work_handler_t handl
+  */
+ void _mali_osk_wq_delete_work( _mali_osk_wq_work_t *work );
+ 
++/** @brief Delete a work object
++ *
++ * This will NOT flush the work queue, so only call this if you are sure that the work handler will
++ * not be called after deletion.
++ */
++void _mali_osk_wq_delete_work_nonflush( _mali_osk_wq_work_t *work );
++
+ /** @brief Cause a queued, deferred call of the work handler
+  *
+  * _mali_osk_wq_schedule_work provides a mechanism for enqueuing deferred calls
+diff --git a/src/devicedrv/mali/common/mali_pp_job.c b/src/devicedrv/mali/common/mali_pp_job.c
+index 0c3ecb2..02f8371 100644
+--- a/src/devicedrv/mali/common/mali_pp_job.c
++++ b/src/devicedrv/mali/common/mali_pp_job.c
+@@ -130,6 +130,8 @@ fail:
+ void mali_pp_job_delete(struct mali_pp_job *job)
+ {
+ #ifdef CONFIG_SYNC
++	/* It is safe to delete the work without flushing. */
++	if (NULL != job->sync_work) _mali_osk_wq_delete_work_nonflush(job->sync_work);
+ 	if (NULL != job->pre_fence) sync_fence_put(job->pre_fence);
+ 	if (NULL != job->sync_point) sync_fence_put(job->sync_point->fence);
+ #endif
+diff --git a/src/devicedrv/mali/linux/mali_osk_wq.c b/src/devicedrv/mali/linux/mali_osk_wq.c
+index 6515f05..d43a677 100644
+--- a/src/devicedrv/mali/linux/mali_osk_wq.c
++++ b/src/devicedrv/mali/linux/mali_osk_wq.c
+@@ -98,6 +98,12 @@ void _mali_osk_wq_delete_work( _mali_osk_wq_work_t *work )
+ 	kfree(work_object);
+ }
+ 
++void _mali_osk_wq_delete_work_nonflush( _mali_osk_wq_work_t *work )
++{
++	mali_osk_wq_work_object_t *work_object = (mali_osk_wq_work_object_t *)work;
++	kfree(work_object);
++}
++
+ void _mali_osk_wq_schedule_work( _mali_osk_wq_work_t *work )
+ {
+ 	mali_osk_wq_work_object_t *work_object = (mali_osk_wq_work_object_t *)work;

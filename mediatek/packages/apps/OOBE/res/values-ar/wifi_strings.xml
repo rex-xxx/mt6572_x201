@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string msgid="4746946030627213196" name="wifi_settings">"إعدادات Wi-Fi"</string>  
+    <string msgid="2810363951104753710" name="wifi_settings_category">"إعدادات Wi-Fi"</string>  
+    <string msgid="6710266609710860129" name="wifi_starting">"جارٍ التشغيل..."</string>  
+    <string msgid="5952909472548218348" name="wifi_stopping">"جارٍ الإيقاف..."</string>  
+    <string msgid="3207971103917128179" name="wifi_error">"خطأ"</string>  
+    <string msgid="7618393787965366655" name="wifi_in_airplane_mode">"في وضع الطائرة"</string>  
+    <string msgid="6194542252808587669" name="wifi_fail_to_scan">"يتعذر البحث عن شبكات"</string>  
+    <string msgid="3755768188029653293" name="wifi_notify_open_networks">"رسالة تنبيه بالشبكات"</string>  
+    <string msgid="3038290727701553612" name="wifi_notify_open_networks_summary">"تنبيهي عند توفر شبكة مفتوحة"</string>  
+    <string msgid="1671334951296205616" name="wifi_add_network">"إضافة شبكة Wi-Fi"</string>  
+    <string msgid="1470911530412095868" name="wifi_menu_scan">"فحص"</string>  
+    <string msgid="7522252991919573664" name="wifi_menu_advanced">"متقدم"</string>  
+    <string msgid="4996220309848349408" name="wifi_menu_connect">"اتصال بالشبكة"</string>  
+    <string msgid="8736964302477327114" name="wifi_menu_forget">"حذف الشبكة"</string>  
+    <string msgid="2068554918652440105" name="wifi_menu_modify">"تعديل الشبكة"</string>  
+    <string msgid="641393708309146745" name="wifi_ssid">"SSID للشبكة"</string>  
+    <string msgid="6603611185592956936" name="wifi_security">"الأمان"</string>  
+    <string msgid="5514120261628065287" name="wifi_signal">"قوة الإشارة"</string>  
+    <string msgid="4824568012414605414" name="wifi_status">"الحالة"</string>  
+    <string msgid="3526198708812322037" name="wifi_speed">"سرعة الربط"</string>  
+    <string msgid="1440054061044402918" name="wifi_ip_address">"عنوان IP"</string>  
+    <string msgid="8529436133640730382" name="wifi_eap_method">"طريقة EAP"</string>  
+    <string msgid="5231074529772044898" name="please_select_phase2">"مصادقة المرحلة الثانية"</string>  
+    <string msgid="3521574865488892851" name="wifi_eap_ca_cert">"شهادة CA"</string>  
+    <string msgid="1291089413368160789" name="wifi_eap_user_cert">"شهادة المستخدم"</string>  
+    <string msgid="4359453783379679103" name="wifi_eap_identity">"الهوية"</string>  
+    <string msgid="2989469344116577955" name="wifi_eap_anonymous">"هوية مجهولة"</string>  
+    <string msgid="5948219759936151048" name="wifi_password">"كلمة المرور"</string>  
+    <string msgid="4235237470701732009" name="wifi_show_password">"عرض كلمة المرور."</string>  
+    <string name="wifi_hex_password">كلمة مرور عشرية.</string>  
+    <string msgid="3410422020930397102" name="wifi_unchanged">"(لم يتم التغيير)"</string>  
+    <string msgid="5431501214192991253" name="wifi_unspecified">"(غير محدد)"</string>  
+    <string msgid="8426719916135950136" name="wifi_remembered">"يتم تذكرها"</string>  
+    <string msgid="1136191511238508967" name="wifi_not_in_range">"ليست في النطاق"</string>  
+    <string msgid="1076622875777072845" name="wifi_connect">"اتصال"</string>  
+    <string msgid="8168174695608386644" name="wifi_forget">"حذف"</string>  
+    <string msgid="3331121567988522826" name="wifi_save">"حفظ"</string>  
+    <string msgid="6763568902542968964" name="wifi_cancel">"إلغاء"</string>  
+    <string msgid="5419052271935350999" name="wifi_advanced_titlebar">"متقدم"</string>  
+    <string msgid="1367731352485585528" name="wifi_setting_sleep_policy_title">"سياسة سكون Wi-Fi"</string>  
+    <string msgid="5103670439972135148" name="wifi_setting_sleep_policy_error">"هناك مشكلة في إعداد سياسة السكون."</string>  
+    <string msgid="6571335466330978393" name="wifi_advanced_mac_address_title">"عنوان Mac"</string>  
+    <string msgid="6215297094363164846" name="wifi_advanced_ip_address_title">"عنوان IP"</string>  
+    <string msgid="4345739031248760326" name="wifi_ip_settings_titlebar">"إعدادات IP"</string>  
+    <string msgid="7344118050720080045" name="wifi_dns1">"نظام أسماء النطاقات 1"</string>  
+    <string msgid="1368601006824882659" name="wifi_dns2">"نظام أسماء النطاقات 2"</string>  
+    <string msgid="163914742461092086" name="wifi_gateway">"البوابة"</string>  
+    <string msgid="8948641212931906143" name="wifi_tether_enabled_subtext">"نقطة الاتصال المحمولة 
+        <xliff:g id="NETWORK_SSID">%1$s</xliff:g> نشطة"
+    </string>  
+    <string name="wapi_user_certificate">شهادة المستخدم</string>  
+    <string name="wapi_as_certificate">شهادة ASE</string>  
+    <string msgid="7862009036663793314" name="status_unavailable">"غير متاح"</string>  
+    <string name="wifi_ctia_test">إعداد وضعية اختبار CITA</string>  
+    <string name="wifi_ctia_test_summary">تكوين وضعية اختبار CITA</string>  
+    <string name="wifi_ip_settings">"إعدادات IP"</string>  
+    <string name="wifi_disabled_generic">"معطّل"</string>  
+    <string name="wifi_disabled_network_failure">تجنب التوصيل الرديء بالإنترنت</string>  
+    <string name="wifi_disabled_password_failure">مشكلة في المصادقة</string>  
+    <string name="wifi_ip_settings_invalid_ip_address">اكتب عنوان IP صالح.</string>  
+    <string name="wifi_ip_settings_invalid_gateway">اكتب عنوان بوابة صالح.</string>  
+    <string name="wifi_ip_settings_invalid_dns">اكتب عنوان DNS صالح.</string>  
+    <string name="wifi_ip_settings_invalid_network_prefix_length">اكتب بادئة شبكة يتراوح طولها بين 0 و32.</string>  
+    <string name="wifi_network_prefix_length">طول بادئة الشبكة</string>  
+    <string name="wifi_connect_type_title">نوع الاتصال التلقائي</string>  
+    <string name="wifi_priority_label">الأولوية</string>  
+    <string name="wifi_priority_settings_label">إعدادات الأولوية</string>  
+    <string name="wifi_wps_available_first_item">شبكة محمية متاحة</string>  
+    <string name="wifi_wps_available_second_item">\u0020(شبكة محمية متاحة)</string>  
+    <string name="wifi_secured_first_item">محمية بـ 
+        <xliff:g id="wifi_security_short">%1$s</xliff:g> 
+    </string>  
+    <string name="wifi_secured_second_item">محمية بـ 
+        <xliff:g id="wifi_security_short">%1$s</xliff:g> 
+    </string>  
+    <string name="wifi_security_none">لا شئ</string>  
+    <string name="sim_slot">فتحة SIM</string>  
+    <string name="wifi_network_netmask">قناع الشبكة</string>  
+    <string name="wifi_enable_watchdog_service">تجنب التوصيلات الرديئة</string>  
+    <string name="wifi_setting_frequency_band_title">نطاق تردد Wi-Fi</string>  
+    <string name="wifi_setting_frequency_band_summary">تحديد نطاق تردد التشغيل</string>  
+    <string name="wifi_setting_frequency_band_error">ثمة مشكلة في إعداد نطاق التردد.</string>  
+    <string name="proxy_settings_title">"إعدادات الخادم الوكيل"</string>
+    <string name="proxy_clear_text">مسح</string>  
+    <string name="proxy_port_label">منفذ الوكيل</string>  
+    <string name="proxy_exclusionlist_label">تجاهل الوكيل لـ</string>  
+    <string name="proxy_exclusionlist_hint">for example.com,mycomp.test.com,localhost</string>  
+    <string name="proxy_defaultView_text">استعادة الإعدادات الأساسية</string>  
+    <string name="proxy_hostname_label">اسم مضيف الوكيل</string>  
+    <string name="proxy_hostname_hint">proxy.example.com</string>  
+    <string name="proxy_error">تنبيه</string>  
+    <string name="proxy_error_dismiss">"موافق"</string>  
+    <string name="proxy_error_empty_port">يتعين عليك إكمال حقل المنفذ.</string>  
+    <string name="proxy_error_empty_host_set_port">يجب ترك حقل المنفذ فارغًا إذا كان حقل المضيف فارغًا.</string>  
+    <string name="proxy_warning_limited_support">يستخدم المتصفح وكيل HTTP‎‏ ولكن قد لا تستخدمه التطبيقات الأخرى.‎‏‎</string>  
+    <string name="wifi_show_advanced">إظهار الخيارات المتقدمة</string>  
+    <string name="wifi_network_setup">WPS</string>  
+    <string name="wifi_wps_pin">اكتب رمز PIN من نقطة الوصول</string>  
+    <string name="wifi_enable_watchdog_service_summary">تجنب استخدام شبكة Wi-Fi إلا إذا كانت متصلة جيدًا بالإنترنت</string>  
+    <string name="proxy_error_invalid_host">اسم المضيف الذي كتبته غير صالح.</string>  
+    <string name="proxy_error_invalid_exclusion_list">لم يتم تهيئة قائمة الاستثناء التي قمت بكتابتها بالطريقة المناسبة. اكتب قائمة المجالات المستبعدة على أن تفصل بين كل منها بفاصلة.</string>  
+    <string name="proxy_error_invalid_port">المنفذ الذي كتبته غير صالح.</string>  
+    <string name="wifi_setting_connect_type_error">ثمة مشكلة في تحديد نوع الاتصال.</string>  
+    <string name="wifi_priority_type_title">ضبط أولوية نقطة الوصول يدويًّا</string>  
+    <string name="wifi_priority_type_summary">السماح بضبط أولوية كل نقطة وصول يدويًّا</string>  
+    <string name="wifi_priority_settings_title">إعدادات أولوية نقطة الوصول</string>  
+    <string name="wifi_priority_settings_summary">انقر لضبط أولوية كل نقطة وصول</string>  
+    <string name="gsm_to_wifi_connect_type_title">خلوي-&gt;تقنية Wi-Fi</string>  
+    <string name="wifi_connect_ap_summary">حدد نوع اتصال الشبكة</string>  
+    <string name="select_ssid_type_title">إعادة التحديد من SSID</string>  
+    <string name="proxy_action_text">انتهى</string>  
+    <string name="wifi_failed_connect_message" msgid="8491902558970292871">"أخفق التوصيل بالشبكة"</string>  
+    <string name="wifi_failed_save_message" msgid="6650004874143815692">"أخفق حفظ الشبكة"</string>  
+    <string name="wifi_failed_forget_message" msgid="1348172929201654986">"أخفق حذف الشبكة"</string> 
+
+      <string name="wifi_WEP_transmit_key">مفتاح البث</string>
+      <string name="wifi_WEP_secury_key">مفتاح الأمان</string>
+      <string name="wifi_security_wapi_certificate">شهادة WAPI</string>
+      <string name="wifi_no_cert_for_wapi">لم يتم العثور على الشهادة الخاصة باتصال نقطة الوصول الحالية</string>
+      <string name="eap_sim_slot_0">فتحة Sim 1</string>
+      <string name="eap_sim_slot_1">فتحة Sim 2</string>
+      <string name="eap_sim_aka_airplanemode">يُرجى إيقاف تشغيل وضع الطيران لاستخدام EAP-SIM/AKA</string>
+      <string name="eap_sim_aka_no_sim_error">يجب إدخال بطاقة sim حتى تتمكن من استخدام EAP-SIM/AKA</string>
+      <string name="eap_sim_aka_no_sim_slot_selected">يجب تحديد بطاقة sim حتى تتمكن من استخدام EAP-SIM/AKA</string>
+      <string name="wifi_ipv4_address">عنوان IPv4</string>
+      <string name="wifi_ipv6_address">عنوان IPv6</string>
+</resources>

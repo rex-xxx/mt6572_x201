@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">世界時鐘</string> 
+    <string name="a_city_selected">已選取一個城市。</string>
+    <string name="another_city_text">新增</string>
+    <string name="search_city">搜尋城市</string>
+     <string name="current_time_text">目前時間</string>
+    <string name="ime_action_done">完成</string>    
+    <string name="next">"下一頁"</string>
+    <string name="select_right_city">抱歉，沒有這樣的城市。</string>
+    <string name="clock_loading">載入中\u2026</string>
+	<string name="add_city">按一下圖示新增城市</string>
+	<string name="add_new_city">新增城市</string>  
+    <string name="has_chosen">已選取。</string>
+    <string name="delete_city">刪除城市</string>  
+    <string name="delete_city_info">即將刪除此城市</string>  
+    <string name="deleteok">"刪除"</string>  
+    <string name="cancel">取消</string>
+</resources>
+

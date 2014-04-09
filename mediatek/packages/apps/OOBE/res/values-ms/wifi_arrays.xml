@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string-array name="wifi_status"> 
+        <item>Mengimbas\u2026</item>  
+        <item>Pengimbasan\u2026</item>  
+        <item>Menyambung\u2026</item>  
+        <item>Mengesahkan ketulenan\u2026</item>  
+        <item>Mendapatkan alamat IP\u2026</item>  
+        <item>Bersambung</item>  
+        <item>Digantung</item>  
+        <item>Memutuskan sambungan\u2026</item>  
+        <item>Terputus sambungan</item>  
+        <item>Tidak berjaya</item> 
+    </string-array>  
+    <string-array name="wifi_status_with_ssid"> 
+        <item>Mengimbas\u2026</item>  
+        <item>Pengimbasan\u2026</item>  
+        <item>Menyambung ke 
+            <xliff:g id="network_name">%1$s</xliff:g>\u2026
+        </item>  
+        <item>Mengesahkan dengan 
+            <xliff:g id="network_name">%1$s</xliff:g>\u2026
+        </item>  
+        <item>Mendapatkan alamat IP dari 
+            <xliff:g id="network_name">%1$s</xliff:g>\u2026
+        </item>  
+        <item>Bersambung ke 
+            <xliff:g id="network_name">%1$s</xliff:g> 
+        </item>  
+        <item>Digantung</item>  
+        <item>Memutuskan sambungan dari 
+            <xliff:g id="network_name">%1$s</xliff:g>\u2026
+        </item>  
+        <item>Terputus sambungan</item>  
+        <item>Tidak berjaya</item> 
+    </string-array>  
+
+    <string-array name="wifi_signal"> 
+        <item>Teruk</item>  
+        <item>Sederhana</item>  
+        <item>Baik</item>  
+        <item>Cemerlang</item> 
+    </string-array>  
+    <string-array name="wifi_sleep_policy_entries"> 
+        <item>Apabila skrin dimatikan</item>  
+        <item>Jangan sesekali semasa palam terpasang</item>  
+        <item>Jangan sesekali</item> 
+    </string-array>  
+    <string-array name="wifi_frequency_band_entries"> 
+        <item>Auto</item>  
+        <item>5 GHz sahaja</item>  
+        <item>2.4 GHz sahaja</item> 
+    </string-array>  
+    <string-array name="wifi_sleep_policy_entries_wifi_only"> 
+        <item>Sentiasa</item>  
+        <item>Hanya apabila dipasang</item>  
+        <item>Jangan sekali-kali</item> 
+    </string-array>  
+    <string-array name="wifi_ip_settings"> 
+        <item>DHCP</item>  
+        <item>Statik</item> 
+    </string-array>  
+    <string-array name="wifi_proxy_settings"> 
+        <item>"Tiada"</item>  
+        <item>Manual</item> 
+    </string-array>  
+    <string-array name="auto_time_entries"> 
+        <item>Gunakan waktu yang diberikan oleh rangkaian</item>  
+        <item>Gunakan waktu yang diberikan oleh GPS</item>  
+        <item>Sentiasa bertanya</item> 
+    </string-array>  
+    <string-array name="wifi_connect_type_entries"> 
+        <item>Sambung secara automatik</item>  
+        <item>Sambung secara manual</item>  
+        <item>Sentiasa tanya</item> 
+    </string-array> 
+    <string-array name="wifi_WEP_security_type"> 
+        <item>Auto</item>  
+        <item>WEP ASCII</item>
+        <item>"WEP perenambelasan"</item>  
+    </string-array>  
+</resources>

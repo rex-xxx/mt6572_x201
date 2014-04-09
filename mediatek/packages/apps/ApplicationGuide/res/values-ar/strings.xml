@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="next">"التالي"</string>
+    <string name="scroll_left_bar_title">مرر لعرض المزيد من أوضاع الالتقاط</string>
+    <string name="zoome_title">تكبير / تصغير</string>
+</resources>

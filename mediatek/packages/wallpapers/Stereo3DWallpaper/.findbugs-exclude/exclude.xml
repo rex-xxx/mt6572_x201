@@ -1,0 +1,33 @@
+<FindBugsFilter>
+    <Match>
+        <Class name="com.mediatek.stereo3dwallpaper.R" />
+    </Match>
+    <Match>
+        <Class name="~com\.mediatek\.stereo3dwallpaper\.R\$.*" />
+    </Match>
+    <Match>
+        <Package name="~com\.mediatek\.stereo3dwallpaper\.R.*" />
+    </Match>
+    <Match>
+        <Class name="com.mediatek.stereo3dwallpaper.Stereo3DWallpaperManagerService" />
+        <Bug pattern="DMI_HARDCODED_ABSOLUTE_FILENAME" />
+    </Match>
+    <Match>
+        <Package name="com.mediatek.a3m" />
+    </Match>
+    <Match>
+        <Package name="com.mediatek.glui" />
+    </Match>
+    <Match>
+        <Package name="com.mediatek.ngin3d" />
+    </Match>
+    <Match>
+        <Package name="com.mediatek.ngin3d.a3m" />
+    </Match>
+    <Match>
+        <Package name="com.mediatek.ngin3d.android" />
+    </Match>
+    <Match>
+        <Package name="com.mediatek.ngin3d.debugtools.messagepackage" />
+    </Match>
+</FindBugsFilter>

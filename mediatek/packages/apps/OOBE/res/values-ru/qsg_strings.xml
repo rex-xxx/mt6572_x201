@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="qsg_app_name">Краткое руководство</string>  
+    <!-- ============================ -->  
+    <!-- quick start guide strings -->  
+    <!-- ============================ -->  
+    <string name="skip_button">Пропустить</string>  
+    <string name="ok_button">Пуск</string>  
+    <string name="qsg_title_begin">Краткое руководство</string>  
+    <string name="qsg_summary_begin">Данное краткое руководство содержит 4 полезных советов и описание основных знаков и управление исходным экраном.</string>  
+    <string name="next">Далее</string>  
+    <string name="play_again">Воспроизвести повторно</string>  
+    <string name="finish">Завершить</string>  
+    <string name="qsg_title2_home_screen">Просмотр исходного экрана</string>  
+    <string name="qsg_summary2_home_screen">Проведите пальцем влево или вправо для просмотра других страниц исходного экрана.</string>  
+    <string name="qsg_title3_choose_widget">Выберите несколько виджетов</string>  
+    <string name="qsg_summary3_choose_widget">Для добавления виджета на исходный экран коснитесь его и удерживайте.</string>  
+    <string name="qsg_title4_launch_page">Запустить подробную страницу</string>  
+    <string name="qsg_summary4_launch_page">Щелкните значок профиля для вызова всплывающей подробной страницы для выбора функций.</string>  
+    <string name="qsg_title5_view_notification">Просмотр уведомлений</string>  
+    <string name="qsg_summary5_view_notification">Коснитесь строки состояния и проведите пальцем вниз для просмотра всех уведомлений.</string>  
+    <string name="qsg_changesim_title">Переключение SIM-карты</string>  
+    <string name="qsg_changesim_summary">Опустите вниз строку состояния и выберите нужную SIM-карту для использования.</string>  
+    <string name="qsg_summary_end">Вы просмотрели все советы, приведенные в Кратком руководстве. \n\nПри желании вы можете щелкнуть кнопку "Воспроизвести повторно" для повторного просмотра данного Краткого руководства.\n\nИли щелкните кнопку "Завершить" для работы с вашим новым устройством.</string> 
+</resources>

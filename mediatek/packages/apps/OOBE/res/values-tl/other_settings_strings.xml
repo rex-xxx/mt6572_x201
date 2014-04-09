@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string msgid="4114084177056654663" name="date_and_time">"Mga setting ng petsa &amp; oras"</string>  
+    <string msgid="3259617262618020574" name="date_time_12_hour_sample">"1:00 pm"</string>  
+    <string msgid="7762866468013985022" name="choose_timezone">"Pumili ng time zone"</string>  
+    <string msgid="1982904221918374153" name="normal_date_format">"Normal ( 
+        <xliff:g id="DATE">%s</xliff:g>)"
+    </string>  
+    <string msgid="3086083265745944725" name="date_time_auto">"Awtomatiko"</string>  
+    <string msgid="1193032284921000063" name="date_time_24hour">"Gumamit ng format na 24-oras"</string>  
+    <string msgid="5716856602742530696" name="date_time_set_time">"Magtakda ng oras"</string>  
+    <string msgid="5045627174274377814" name="date_time_set_timezone">"Pumili ng time zone"</string>  
+    <string msgid="7021491668550232105" name="date_time_set_date">"Magtakda ng petsa"</string>  
+    <string msgid="436706100255870967" name="date_time_date_format">"Pumili ng format ng petsa"</string>  
+    <string msgid="5683377702671088588" name="zone_list_menu_sort_alphabetically">"Pag-uri-uriin nang ayon sa alpabeto"</string>  
+    <string msgid="2720190443744884114" name="zone_list_menu_sort_by_timezone">"Pag-uri-uriin ayon sa time zone"</string>  
+    <string name="zone_auto">Awtomatikong time zone</string>  
+    <string name="zone_auto_summaryOn">Gamitin ng time zone na nilaan ng network</string>  
+    <string name="zone_auto_summaryOff">Gamitin ng time zone na nilaan ng network</string> 
+</resources>

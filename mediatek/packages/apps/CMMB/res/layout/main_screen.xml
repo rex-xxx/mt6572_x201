@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<FrameLayout android:id="@+id/content_all"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">			
+        <ListView android:id="@+id/list_all"
+        		android:layout_width="match_parent"
+               android:layout_height="match_parent"/> 	
+     <TextView android:id="@+id/empty_all"
+            android:layout_width="match_parent" 
+            android:layout_height="match_parent"
+			android:gravity ="center"      
+          		android:textAppearance="?android:attr/textAppearanceLarge"
+            android:paddingBottom="30dip"	         
+           	android:visibility="gone"
+            android:text="@string/no_channel_available"/>   					
+	</FrameLayout>	
+	
+	<FrameLayout android:id="@+id/content_favorite"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">	
+		<ListView android:id="@+id/list_favorite"
+       		    android:layout_width="match_parent"
+                  android:layout_height="match_parent"/> 						
+    		<TextView android:id="@+id/empty_favorite"
+            android:layout_width="match_parent" 
+            android:layout_height="match_parent"
+			android:gravity ="center"      
+          		android:textAppearance="?android:attr/textAppearanceLarge"
+            android:paddingBottom="30dip"	  
+           	android:visibility="gone"
+            android:text="@string/no_favorite_channel"/>  		
+	</FrameLayout>			
+   <RelativeLayout android:id="@+id/progress_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+         	android:gravity ="center"            
+            android:background = "@android:color/black">            
+    <ImageView android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:visibility="invisible"	            
+        android:src="@drawable/loading_icon"/>          
+    <TextView	android:id="@+id/loading_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20sp"
+				android:layout_centerHorizontal="true"	            
+        		android:layout_below="@id/logo"       
+				android:visibility="invisible"	                    		
+                android:textColor="#ffffffff" />     
+    </RelativeLayout>  	
+    <ProgressBar android:id="@+id/loading_process"
+        style="@android:style/Widget.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"                   
+        android:layout_centerInParent="true"                      
+        android:max="10000"/>
+   	
+</RelativeLayout>
+	
+	

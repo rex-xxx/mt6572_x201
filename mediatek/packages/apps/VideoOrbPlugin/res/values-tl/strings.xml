@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="plugin_name">Video Orb</string>
+    <string name="ok">"OK"</string>
+    <string name="cancel">"Kanselahin"</string>
+    <string name="plugin_description">Panooring ang pinakabago mong video at pinalalabas sa lock screen</string>
+    <string name="transcoding_prompt">Hinahanda ang Video</string>
+    <string name="transcoding_prompt_description">Aabutin ang Video Orb nang ilang panahon upang maghanda ng mga video. Nais mo bang magpatuloy?</string>
+    <string name="transcoding_progress_format" translatable="false">"%"</string>
+    <string name="transcoding_clip_format" translatable="false">"/"</string>
+    <string name="video_file_name_format" translatable="false">"_yyyyMMdd_HHmmss"</string>
+    <string name="toast_video_add_cancelled">Nabigong idagdag ang video</string>
+    <string name="toast_video_unsupported_resolution">Hindi suportado ang resolusyon ng video.</string>
+    <string name="toast_low_storage" product="nosdcard">"Puno na ang iyong imbakan na USB."</string>
+    <string name="toast_low_storage" product="default">"Puno ang iyong SD card."</string>
+    <string name="toast_invalid_video">Hindi suportado ang format ng video.</string>
+</resources>

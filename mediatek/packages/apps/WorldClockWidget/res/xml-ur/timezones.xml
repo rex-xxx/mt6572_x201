@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timezones>
+  <timezone id="Asia/Tehran" weatherID="2254271">Abadan, آبادان</timezone>
+  <timezone id="Asia/Dubai" weatherID="1940330">Abu Dhabi, ابو ظہبی</timezone>
+  <timezone id="Asia/Aden" weatherID="1958930">Aden, عدن</timezone>
+  <timezone id="Asia/Amman" weatherID="1968902">Amman, عمان</timezone>
+  <timezone id="Europe/Istanbul" weatherID="2343732">Ankara, انقرہ</timezone>
+  <timezone id="Asia/Baghdad" weatherID="1979455">Baghdad, بغداد</timezone>
+  <timezone id="Asia/Baku" weatherID="1951874">Baku, باکو</timezone>
+  <timezone id="Asia/Brunei" weatherID="1020725">Bandar Seri Begawan, بندر سیری بیگوان</timezone>
+  <timezone id="Asia/Bangkok" weatherID="1225448">Bangkok, بنکاک</timezone>
+  <timezone id="Asia/Beirut" weatherID="1960307">Beirut, بیروت</timezone>
+  <timezone id="Asia/Colombo" weatherID="2189783">Colombo, کولمبو</timezone>
+  <timezone id="Asia/Jakarta" weatherID="1047378">Djakarta(Jakarta), جکارتہ</timezone>
+  <timezone id="Asia/Ho_Chi_Minh" weatherID="1236594">Hanoi, ہنوئی</timezone>
+  <timezone id="Asia/Dhaka" weatherID="2211027">Islamabad, اسلام آباد</timezone>
+  <timezone id="Asia/Jerusalem" weatherID="1968222">Jerusalem, یروشلم</timezone>
+  <timezone id="Asia/Kuala_Lumpur" weatherID="1154781">Kuala Lumpur, کوالا لمپور</timezone>
+  <timezone id="Asia/Manila" weatherID="1199477">Manila, منیلا</timezone>
+  <timezone id="Asia/Riyadh" weatherID="1939897">Mecca, مکّہ</timezone>
+  <timezone id="Asia/Kolkata" weatherID="2295019">New Delhi, نئی دہلی</timezone>
+  <timezone id="Asia/Phnom_Penh" weatherID="1020985">Phnom Penh, فوم پینہ</timezone>
+  <timezone id="Asia/Pyongyang" weatherID="1079132">Pyongyang, پونگ یانگ</timezone>
+  <timezone id="Asia/Seoul" weatherID="9001031">Seoul, سیؤل</timezone>
+  <timezone id="Asia/Singapore" weatherID="23424948">Singapore, سنگاپور</timezone>
+  <timezone id="Asia/Tehran" weatherID="2251945">Tehran, تہران</timezone>
+  <timezone id="Asia/Tokyo" weatherID="1118370">Tokyo, ٹوکیو</timezone>
+  <timezone id="Asia/Ulaanbaatar" weatherID="2266535">Ulan Bator, اولان باتور</timezone>
+  <timezone id="Asia/Shanghai" weatherID="2127866">Hefei, حیفہ</timezone>
+  <timezone id="Asia/Macau" weatherID="1887901">Macau, مکاؤ</timezone>
+  <timezone id="Asia/Harbin" weatherID="2151330">Beijing, بیجنگ</timezone>
+  <timezone id="Asia/Shanghai" weatherID="2139963">Fuzhou, فیو ہو</timezone>
+  <timezone id="Asia/Shanghai" weatherID="2139967">Xiamen, چیامین</timezone>
+  <timezone id="Asia/Chongqing" weatherID="2145605">Lanzhou, لانہو</timezone>
+  <timezone id="Asia/Chongqing" weatherID="2161838">Guangzhou, گنگ ہو</timezone>
+  <timezone id="Asia/Chongqing" weatherID="2161853">Shenzhen, شین چین</timezone>
+  <timezone id="Asia/Chongqing" weatherID="2161856">Zhuhai, زوہائی</timezone>
+  <timezone id="Asia/Shanghai" weatherID="2166473">Nanning, نانینگ</timezone>
+  <timezone id="Asia/Chongqing" weatherID="2146703">Guiyang, گویانگ</timezone>
+  <timezone id="Asia/Chongqing" weatherID="2162779">Haikou, ہیکؤ</timezone>
+  <timezone id="Asia/Shanghai" weatherID="2171287">Shijiazhuang, شیجی زوانگ</timezone>
+  <timezone id="Asia/Shanghai" weatherID="2172736">Zhengzhou, زینگ ہو</timezone>
+  <timezone id="Asia/Harbin" weatherID="2141166">Harbin, ہربن</timezone>
+  <timezone id="Asia/Shanghai" weatherID="2163866">Wuhan, ووہان</timezone>
+  <timezone id="Asia/Chongqing" weatherID="2142699">Changsha, چنگاشا</timezone>
+  <timezone id="Asia/Harbin" weatherID="2137321">Changchun, چنگ چُن</timezone>
+  <timezone id="Asia/Shanghai" weatherID="2137081">Nanjing, نانجینگ</timezone>
+  <timezone id="Asia/Shanghai" weatherID="2137082">Suzhou, سوہو</timezone>
+  <timezone id="Asia/Shanghai" weatherID="2133704">Nanchang, نان چانگ</timezone>
+  <timezone id="Asia/Shanghai" weatherID="2147986">Dalian, دلیان</timezone>
+  <timezone id="Asia/Harbin" weatherID="2148332">Shenyang, شینیانگ</timezone>
+  <timezone id="Asia/Chongqing" weatherID="2149760">Hohhot, ہوہوٹ</timezone>
+  <timezone id="Asia/Chongqing" weatherID="2150551">Yinchuan, ین چوآن</timezone>
+  <timezone id="Asia/Chongqing" weatherID="2138941">Xining, زیننگ</timezone>
+  <timezone id="Asia/Shanghai" weatherID="2168327">Jinan, جنیان</timezone>
+  <timezone id="Asia/Shanghai" weatherID="2168606">Qingdao, کوئینگ ڈاؤ</timezone>
+  <timezone id="Asia/Chongqing" weatherID="2154547">Taiyuan, تائی یوآن</timezone>
+  <timezone id="Asia/Chongqing" weatherID="2157249">Xi'an, زیان</timezone>
+  <timezone id="Asia/Shanghai" weatherID="2151849">Shanghai, شنگھائی</timezone>
+  <timezone id="Asia/Chongqing" weatherID="2158433">Chengdu, شینگڈو</timezone>
+  <timezone id="Asia/Taipei" weatherID="2306179">Taipei, تائیپی</timezone>
+  <timezone id="Asia/Shanghai" weatherID="2159908">Tianjin, تیان جِن</timezone>
+  <timezone id="Asia/Chongqing" weatherID="2144789">Lhasa, لہاسہ</timezone>
+  <timezone id="Asia/Hong_Kong" weatherID="2165352">Hong Kong, ہانگ کانگ</timezone>
+  <timezone id="Asia/Urumqi" weatherID="2143692">Urumqi, یورومقی</timezone>
+  <timezone id="Asia/Chongqing" weatherID="2160693">Kunming, کومِنگ</timezone>
+  <timezone id="Asia/Shanghai" weatherID="2132574">Hangzhou, ہینگ ہو</timezone>
+  <timezone id="Asia/Shanghai" weatherID="2132579">Ningbo, نینگبو</timezone>
+  <timezone id="Asia/Shanghai" weatherID="2132582">Wenzhou, وین ہو</timezone>
+  <timezone id="Asia/Chongqing" weatherID="2158434">Chongqing, چونگ کوئینگ</timezone>
+  <timezone id="America/Guyana" weatherID="727232">Amsterdam, ایمسٹرڈم</timezone>
+  <timezone id="Europe/Brussels" weatherID="966591">Antwerp, اینٹورپ</timezone>
+  <timezone id="Europe/Athens" weatherID="946738">Athens, یونان</timezone>
+  <timezone id="Europe/Belgrade" weatherID="532697">Belgrade, بلغراد</timezone>
+  <timezone id="Europe/Berlin" weatherID="638242">Berlin, برلن</timezone>
+  <timezone id="Europe/Brussels" weatherID="968019">Brussels, بروسیلز</timezone>
+  <timezone id="Europe/Bucharest" weatherID="868274">Bucharest, بخاریسٹ</timezone>
+  <timezone id="Europe/Budapest" weatherID="804365">Budapest, بُڈاپیسٹ</timezone>
+  <timezone id="Europe/Copenhagen" weatherID="554890">Copenhagen, کوپن ہیگن</timezone>
+  <timezone id="Europe/Dublin" weatherID="560743">Dublin, ڈَبلِن</timezone>
+  <timezone id="America/Chicago" weatherID="782538">Geneva, جینیوا</timezone>
+  <timezone id="Europe/Rome" weatherID="716085">Genoa, جینوآ</timezone>
+  <timezone id="America/Halifax" weatherID="21125">Glasgow, گلاسگوو</timezone>
+  <timezone id="Europe/Helsinki" weatherID="565346">Helsinki, ہیلنسکی</timezone>
+  <timezone id="Europe/Istanbul" weatherID="2344116">Istanbul, استنبول</timezone>
+  <timezone id="Europe/Lisbon" weatherID="742676">Lisbon, لیسبون</timezone>
+  <timezone id="Europe/London" weatherID="44418">London, لندن</timezone>
+  <timezone id="America/Bogota" weatherID="766273">Madrid, میڈریڈ</timezone>
+  <timezone id="Europe/Moscow" weatherID="2122265">Moscow, ماسکو</timezone>
+  <timezone id="Europe/Berlin" weatherID="676757">Munich, میونخ</timezone>
+  <timezone id="Europe/Moscow" weatherID="2122296">Murmansk, مرمانسک</timezone>
+  <timezone id="Europe/Oslo" weatherID="862592">Oslo, اوسلو</timezone>
+  <timezone id="Europe/Paris" weatherID="615702">Paris, پیرس</timezone>
+  <timezone id="Europe/Prague" weatherID="796597">Prague, پراگوئے</timezone>
+  <timezone id="Atlantic/Reykjavik" weatherID="980389">Reykjavik, ریکزیویک</timezone>
+  <timezone id="Europe/Rome" weatherID="721943">Rome, روم</timezone>
+  <timezone id="America/New_York" weatherID="733075">Rotterdam, روٹرڈم</timezone>
+  <timezone id="Europe/Moscow" weatherID="2123260">St.Peterburg, سینٹ پیٹربرگ</timezone>
+  <timezone id="Europe/Sofia" weatherID="839722">Sofia, صوفیہ</timezone>
+  <timezone id="Europe/Stockholm" weatherID="906057">Stockholm, اسٹاک ہوم</timezone>
+  <timezone id="Europe/Tirane" weatherID="472135">Tirana, تیرانہ</timezone>
+  <timezone id="Europe/Vatican" weatherID="23424986">Vatican, ویٹیکن</timezone>
+  <timezone id="Europe/Rome" weatherID="725746">Venice, وینیس</timezone>
+  <timezone id="America/New_York" weatherID="551801">Vienna, ویئینا</timezone>
+  <timezone id="Europe/Warsaw" weatherID="523920">Warsaw, وارسا</timezone>
+  <timezone id="America/Chicago" weatherID="784794">Zurich, زیوریچ</timezone>
+  <timezone id="America/Anchorage" weatherID="2354490">Anchorage, انکوریج</timezone>
+  <timezone id="America/Caracas" weatherID="379176">Asuncion, اسونسیؤن</timezone>
+  <timezone id="America/New_York" weatherID="2357024">Atlanta, اٹلانٹا</timezone>
+  <timezone id="America/Bogota" weatherID="368148">Bogota, بگوٹا</timezone>
+  <timezone id="Europe/London" weatherID="2367105">Boston, بوسٹن</timezone>
+  <timezone id="America/Sao_Paulo" weatherID="455819">Brasilia, براسیلیا</timezone>
+  <timezone id="America/Argentina/Buenos_Aires" weatherID="468739">Buenos Aires, بیونس آئرس</timezone>
+  <timezone id="America/Guayaquil" weatherID="395269">Caracas, کاراکاس</timezone>
+  <timezone id="America/Panama" weatherID="667931">Colon, "کولن"</timezone>
+  <timezone id="America/Havana" weatherID="2345115">Havana, ہوانا</timezone>
+  <timezone id="America/Jamaica" weatherID="109251">Kingston, کنگسٹن</timezone>
+  <timezone id="America/La_Paz" weatherID="2344804">La Paz, لا پاز</timezone>
+  <timezone id="America/Lima" weatherID="418440">Lima, لیما</timezone>
+  <timezone id="America/Los_Angeles" weatherID="2442047">Los Angeles, لاس اینجلس</timezone>
+  <timezone id="America/Mexico_City" weatherID="116545">Mexico City, میکسیکو سٹی</timezone>
+  <timezone id="America/New_York" weatherID="2450022">Miami, میامی</timezone>
+  <timezone id="America/Montevideo" weatherID="468052">Montevideo, مونٹیویڈیو</timezone>
+  <timezone id="America/New_York" weatherID="2459115">New York, نیو یارک</timezone>
+  <timezone id="America/Panama" weatherID="159386">Panama, پناما</timezone>
+  <timezone id="America/Port_of_Spain" weatherID="380213">Port-of-Spain, پورٹ آف اسپین</timezone>
+  <timezone id="America/Los_Angeles" weatherID="2487956">San Francisco, سان فرانسسکو</timezone>
+  <timezone id="America/Sao_Paulo" weatherID="349859">Santiago, سینٹیاگو</timezone>
+  <timezone id="America/Toronto" weatherID="4118">Toronto, ٹورنٹو</timezone>
+  <timezone id="America/Vancouver" weatherID="9807">Vancouver, وینکؤر</timezone>
+  <timezone id="America/New_York" weatherID="2514815">Washington, D.C., واشنگٹن ڈی سی</timezone>
+  <timezone id="Africa/Abidjan" weatherID="20069967">Abidjan, عابدجان</timezone>
+  <timezone id="Africa/Addis_Ababa" weatherID="1313090">Addis Ababa, عدیس ابابا</timezone>
+  <timezone id="Africa/Algiers" weatherID="1253079">Algiers, الجائرس</timezone>
+  <timezone id="Africa/Tripoli" weatherID="1117457">Banghazi, بن غازی</timezone>
+  <timezone id="Africa/Maputo" weatherID="1544986">Beira, بیئرا</timezone>
+  <timezone id="Africa/Brazzaville" weatherID="1279685">Brazzaville, برازا ویلی</timezone>
+  <timezone id="Africa/Cairo" weatherID="1521894">Cairo, قاہرہ</timezone>
+  <timezone id="Africa/Johannesburg" weatherID="1591691">Cape Town, کیپ ٹاؤن</timezone>
+  <timezone id="Africa/Dakar" weatherID="2346988">Dakar, ڈاکر</timezone>
+  <timezone id="Africa/Casablanca" weatherID="1532755">Casablanca, کاسا بلنکا</timezone>
+  <timezone id="Africa/Dar_es_Salaam" weatherID="1443415">Dar es Salaam, دار السلام</timezone>
+  <timezone id="Africa/Djibouti" weatherID="23424797">Djibouti, جبوتی</timezone>
+  <timezone id="Africa/Douala" weatherID="1478198">Douala, دوالا</timezone>
+  <timezone id="Africa/Kampala" weatherID="20070421">Kampala, کمپالا</timezone>
+  <timezone id="Africa/Lagos" weatherID="1396803">Kano, کانو</timezone>
+  <timezone id="Africa/Khartoum" weatherID="1433559">Khartoum, خرطوم</timezone>
+  <timezone id="Africa/Kinshasa" weatherID="1290062">Kinshasa, کنشاسا</timezone>
+  <timezone id="Africa/Lagos" weatherID="2346342">Lagos, لاگوس</timezone>
+  <timezone id="Africa/Luanda" weatherID="1261906">Luanda, لوانڈا</timezone>
+  <timezone id="Africa/Lusaka" weatherID="1569006">Lusaka, لوساکا</timezone>
+  <timezone id="Africa/Maputo" weatherID="1550363">Maputo, مپوتو</timezone>
+  <timezone id="Africa/Monrovia" weatherID="2453077">Monrovia, مونروویا</timezone>
+  <timezone id="Africa/Nairobi" weatherID="1528488">Nairobi, نیروبی</timezone>
+  <timezone id="Africa/Ndjamena" weatherID="1277402">Ndjamena, جمینا</timezone>
+  <timezone id="Africa/Niamey" weatherID="1505949">Niamey, نیامی</timezone>
+  <timezone id="Africa/Brazzaville" weatherID="1282253">Pointe-Noire, پوائنٹ - نوائر</timezone>
+  <timezone id="Africa/Casablanca" weatherID="1539359">Rabat, رباط</timezone>
+  <timezone id="Indian/Antananarivo" weatherID="1358594">Tananarive, تنان رائیو</timezone>
+  <timezone id="Europe/Athens" weatherID="1353281">Tripoli, تریپولی</timezone>
+  <timezone id="Africa/Tunis" weatherID="23424967">Tunis, تیونس</timezone>
+  <timezone id="Pacific/Fiji" weatherID="1064103">Suva, سووا</timezone>
+  <timezone id="Australia/Sydney" weatherID="1105779">Sydney, سڈنی</timezone>
+  <timezone id="Pacific/Auckland" weatherID="2351310">Wellington, ویلنگٹن</timezone>
+  <timezone id="Europe/Madrid" weatherID="9000001">Barcelona, بارسلونا</timezone>
+  <timezone id="Europe/Berlin" weatherID="9000002">Frankfurt, فرینکفرٹ</timezone>
+  <timezone id="Europe/Zagreb" weatherID="9000003">Zagreb, زگریب</timezone>
+  <timezone id="Europe/Tallinn" weatherID="9000004">Tallinn, تالین</timezone>
+  <timezone id="Europe/Minsk" weatherID="9000005">Minsk, مینک</timezone>
+  <timezone id="Africa/Johannesburg" weatherID="9000006">Johannesburg, جوہانسبرگ</timezone>
+  <timezone id="Europe/Kiev" weatherID="9000007">Kiev(Kyiv), Kyiv</timezone>
+  <timezone id="Europe/Simferopol" weatherID="9000008">Odesa, اوڈیسا</timezone>
+  <timezone id="Africa/Harare" weatherID="9000009">Harare, ہرارے</timezone>
+  <timezone id="Asia/Riyadh" weatherID="9000010">Riyadh, ریاض</timezone>
+  <timezone id="Indian/Antananarivo" weatherID="9000011">Antananarivo, انتانانارائیوو</timezone>
+  <timezone id="Asia/Kuwait" weatherID="9000012">Kuwait City, کویت سٹی</timezone>
+  <timezone id="Asia/Kabul" weatherID="9000013">Kabul, کابل</timezone>
+  <timezone id="Asia/Karachi" weatherID="9000014">Karachi, کراچی</timezone>
+  <timezone id="Asia/Tashkent" weatherID="9000015">Tashkent, تاشقند</timezone>
+  <timezone id="Asia/Karachi" weatherID="9000016">Lahore, لاہور</timezone>
+  <timezone id="Asia/Kolkata" weatherID="9000017">Mumbai, ممبئی</timezone>
+  <timezone id="Asia/Kolkata" weatherID="9000018">Kolkata, کولکاتہ</timezone>
+  <timezone id="Asia/Kathmandu" weatherID="9000019">Kathmandu, کاٹھمنڈو</timezone>
+  <timezone id="Asia/Dhaka" weatherID="9000020">Dhaka, ڈھاکہ</timezone>
+  <timezone id="Asia/Rangoon" weatherID="9000021">Yangon(Yangoon), Yangoon</timezone>
+  <timezone id="Australia/Perth" weatherID="9000022">Perth, پرتھ</timezone>
+  <timezone id="Australia/Darwin" weatherID="9000023">Darwin, ڈاروین</timezone>
+  <timezone id="Asia/Vladivostok" weatherID="9000024">Vladivostok, ولادی ووستوک</timezone>
+  <timezone id="Australia/Brisbane" weatherID="9000025">Brisbane, برسبین</timezone>
+  <timezone id="Australia/Melbourne" weatherID="9000026">Melbourne, ملبورن</timezone>
+  <timezone id="Australia/Sydney" weatherID="9000027">Canberra, کینبیرا</timezone>
+  <timezone id="Australia/Adelaide" weatherID="9000028">Adelaide, ایڈیلیڈ</timezone>
+  <timezone id="Asia/Kamchatka" weatherID="9000029">Kamchatka, کامچٹکا</timezone>
+  <timezone id="Asia/Anadyr" weatherID="9000030">Anadyr, انادیر</timezone>
+  <timezone id="Pacific/Chatham" weatherID="9000031">Chatham Island, جزیرہ چیتھم</timezone>
+  <timezone id="Pacific/Kiritimati" weatherID="9000032">Kiritimati, کریتیمتی</timezone>
+  <timezone id="Pacific/Honolulu" weatherID="9001001">Honolulu, ہونو لولو</timezone>
+  <timezone id="America/Anchorage" weatherID="9001002">Anchorage(Alaska), اینکوریج (الاسکا)</timezone>
+  <timezone id="America/Los_Angeles" weatherID="9001003">Seattle, سیئٹل</timezone>
+  <timezone id="America/Edmonton" weatherID="9001004">Edmonton, ایڈمونٹون</timezone>
+  <timezone id="America/Phoenix" weatherID="9001005">Phoenix, فونکس</timezone>
+  <timezone id="America/Denver" weatherID="9001006">Denver, ڈینور</timezone>
+  <timezone id="America/Winnipeg" weatherID="9001007">Winnipeg, وینیپیگ</timezone>
+  <timezone id="America/Chicago" weatherID="9001008">Houston, ہوسٹن</timezone>
+  <timezone id="America/Chicago" weatherID="9001009">Minneapolis, مینیاپولیس</timezone>
+  <timezone id="America/Sao_Paulo" weatherID="9001010">Sao Paulo(St. Paul(Brazil)), ساؤ پلاؤ</timezone>
+  <timezone id="America/Chicago" weatherID="9001011">New Orleans, نیو اورلیئنس</timezone>
+  <timezone id="America/Chicago" weatherID="9001012">Chicago, شکاگو</timezone>
+  <timezone id="America/Chicago" weatherID="9001013">Montgomery, مونٹگمری</timezone>
+  <timezone id="America/Guatemala" weatherID="9001014">Guatemala, گواٹیمالہ</timezone>
+  <timezone id="America/El_Salvador" weatherID="9001015">San Salvador, سان سلواڈور</timezone>
+  <timezone id="America/Tegucigalpa" weatherID="9001016">Tegucigalpa, ٹیگوسیگلپ</timezone>
+  <timezone id="America/Managua" weatherID="9001017">Managua, مناگوآ</timezone>
+  <timezone id="America/Indiana/Indianapolis" weatherID="9001018">Indianapolis, انڈیانیپولیس</timezone>
+  <timezone id="America/Detroit" weatherID="9001019">Detroit, ڈیٹریوٹ</timezone>
+  <timezone id="America/New_York" weatherID="9001020">Philadelphia, فلاڈلفیا</timezone>
+  <timezone id="America/Chicago" weatherID="9001021">Ottawa, اوٹّاوا</timezone>
+  <timezone id="America/Nassau" weatherID="9001022">Nassau, نساؤ</timezone>
+  <timezone id="America/Montreal" weatherID="9001023">Montreal, مونٹریال</timezone>
+  <timezone id="America/Santo_Domingo" weatherID="9001024">Santo Domingo, سنتو ڈومنگو</timezone>
+  <timezone id="America/Santo_Domingo" weatherID="9001025">San Juan, سان جوآن</timezone>
+  <timezone id="America/Halifax" weatherID="9001026">Halifax, ہیلی فکس</timezone>
+  <timezone id="America/Antigua" weatherID="9001027">St. John's, سینٹ جونز</timezone>
+  <timezone id="America/Sao_Paulo" weatherID="9001029">Rio de Janeiro, ریو ڈی جینیریو</timezone>
+  <timezone id="Canada/Pacific" weatherID="9001030">Aklavik, اکلاویک</timezone>
+  <timezone id="Asia/Seoul" weatherID="9001031">Seoul, سیؤل</timezone>
+  <timezone id="America/Chicago" weatherID="9001032">St.Paul(America), سینٹ پال (امریکا)</timezone>
+</timezones>

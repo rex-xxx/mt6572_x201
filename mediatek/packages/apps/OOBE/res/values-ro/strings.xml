@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+
+    <!-- OOBE part begin -->  
+    <string name="app_name">OOBE</string>  
+    <string name="oobe_btn_text_next">Următorul</string>  
+    <string name="oobe_btn_text_back">Înapoi</string>  
+    <string name="oobe_btn_text_finish">Terminare</string>  
+    <string name="oobe_btn_text_skip">Ignorare</string>  
+    <string name="oobe_btn_text_dismiss">Îndepărtare</string>  
+    <string name="oobe_title_language_setting">Selectare limbă</string>  
+    <string name="oobe_summary_language_setting">Selectaţi limba preferată pentru telefon</string>  
+    <string name="oobe_title_keyboard_setting">Selectare tastaturi</string>  
+    <string name="oobe_summary_keyboard_setting">Selectaţi tastaturile preferate.</string>  
+    <string name="oobe_title_import_contacts">Import persoane de contact de pe cartela SIM</string>  
+    <string name="oobe_summary_import_contacts">Puteţi selecta unele sau toate cartelele SIM inserate pentru a importa persoane de contact în telefon.</string>  
+    <string name="oobe_title_internet_connection_setting">Selectare conexiune la Internet</string>  
+    <string name="oobe_summary_internet_connection">Selectaţi conexiunea preferată la Internet. Puteţi modifica întotdeauna aceste opţiuni ulterior în Setări.</string>  
+    <string name="oobe_title_sim_management">Gestionare cartelă SIM</string>  
+    <string name="oobe_summary_sim_management">Puteţi atinge elementul de cartelă SIM pentru a-i edita informaţiile. În mod normal, numele de operator este utilizat ca nume SIM implicit.</string>  
+    <string name="oobe_title_default_sim">Setare cartelă SIM implicită</string>  
+    <string name="oobe_summary_default_sim">Selectaţi cartela SIM preferată ca setare implicită pentru aceste servicii.</string>  
+    <string name="oobe_title_wifi_settings">Configurare reţea Wi-Fi</string>  
+    <string name="oobe_summary_wifi_settings">Atingeţi pentru a selecta o reţea Wi-Fi preferată de mai jos</string>  
+    <string name="oobe_title_date_time">Configurare Dată &amp; oră</string>  
+    <string name="oobe_summary_date_time">Atingeţi pentru a selecta formatul de dată &amp; oră şi setaţi manual informaţiile de Dată &amp; oră, dacă este necesar.</string>  
+    <string name="oobe_locale_switching">Se aşteaptă...</string>  
+    <string name="oobe_ime_suggested">Sugerat</string>  
+    <string name="oobe_gemini_3g_indic">3G</string>  
+    <string name="oobe_internet_gprs_or_wifi_title">Reţea mobilă sau Wi-Fi</string>  
+    <string name="oobe_internet_gprs_or_wifi_summary">Selectaţi conexiunea preferată la Internet. Puteţi modifica întotdeauna aceste opţiuni ulterior în Setări.</string>  
+    <string name="oobe_internet_wifi_only_title">Numai Wi-Fi</string>  
+    <string name="oobe_internet_wifi_only_summary">Alegeţi această setare, dacă nu dispuneţi de un plan de date</string>  
+    <string name="oobe_btn_start_import_contacts">Pornire import</string>  
+    <string name="oobe_btn_cancel_import_contacts">Revocare</string>  
+    <string name="oobe_note_import_contacts_prepare">Aşteptaţi un moment pentru a copia persoanele de contact din cartela SIM.</string>  
+    <string name="oobe_note_import_contacts_going">Acum puteţi continua la pasul următor în timp ce importul este încă în curs.</string>  
+    <string name="oobe_note_import_contacts_finish">Copiere terminată. Puteţi continua la pasul următor.</string>  
+    <string name="oobe_note_import_contacts_cancel">Import revocat. Puteţi să faceţi salt la pasul următor sau să porniţi importul din nou.</string>  
+    <string name="oobe_note_progress_copy_contacts">%1$d din %2$d persoane de contact</string>  
+    <string name="oobe_note_copy_contacts_waiting">Se aşteaptă...</string>  
+    <string name="basic_congratulation_title">Felicitări!</string>  
+    <string name="basic_congratulation_summary">Aţi finalizat toate setările de bază. Acum vă puteţi bucura de noile dispozitive.\n\nPuteţi schimba oricând setările din Expert Configurare din lansatorul Aplicaţii.</string>  
+    <string name="oobe_advance_settings_entrance_title">Setări complexe</string>  
+    <string name="oobe_advance_settings_entrance_summary">Dacă dispuneţi deja de un cont Google, un cont de e-mail sau orice cont de reţea socială, vă încurajăm să continuaţi setările complexe.</string>  
+    <string name="oobe_sync_settings_name">Sincronizare setări</string>  
+    <string name="oobe_sync_settings_title">Sincronizare programată</string>  
+    <string name="oobe_sync_settings_summary">Selectaţi dacă doriţi să activaţi serviciile de sincronizare a datelor. Dacă nu dispuneţi de un plan de date nelimitat, este posibil ca sincronizarea datelor să ducă la costuri suplimentare.</string>  
+    <string name="oobe_account_settings_name">Setări cont</string>  
+    <string name="oobe_account_settings_title">Configurare conturi</string>  
+    <string name="oobe_account_settings_summary">Pentru a sincroniza e-mail, persoane de contact şi evenimente de calendar, trebuie să atingeţi şi să configuraţi cel puţin unul din următoarele tipuri de conturi.</string>  
+    <string name="oobe_account_list_title">Conturi</string>  
+    <string name="oobe_sns_settings_name">Setări SNS</string>  
+    <string name="oobe_sns_settings_title">Configurare reţele sociale</string>  
+    <string name="oobe_sns_settings_summary">Configuraţi reţeaua socială preferată şi veţi avea posibilitatea de a trimite şi a primi actualizări în aplicaţia Reţea socială.</string>  
+    <string name="oobe_advance_settings_end_title">Felicitări!</string>  
+    <string name="oobe_advance_settings_end_summary">Aţi terminat toate setările complexe. Acum sunteţi pregătit pentru a vă bucura de noul dvs. dispozitiv. \n\n Puteţi modifica întotdeauna setările în Expertul de configurare din programul de lansare aplicaţii.</string>  
+    <string name="tap_to_add">Atingeţi pentru a adăuga contul 
+        <xliff:g id="account" example="renren">%s</xliff:g> 
+    </string>  
+    <string name="oobe_import_contacts_sim_name">Cartelă SIM</string>  
+    <string name="oobe_title_wifi">Wi-Fi</string>  
+    <string name="lock_settings_picker_title">Selectați blocare ecran</string>  
+    <string name="add_network_string">Adăugare rețea</string>  
+    <string name="oobe_title_sim_edit">Editare SIM</string>  
+    <string name="oobe_summary_sim_edit">Editați informația SIM pentru a corespunde preferințelor dumneavoastră. Puteți schimba numele SIM-ului, culoarea și numărul de telefon.</string>  
+    <string name="oobe_waiting_sim">Așteptare inițializare cartelă SIM...</string>  
+    <string name="oobe_advance_settings_end_name">Ultimul mesaj</string>  
+    <string name="oobe_contact_import_null_cursor">Interogare finalizată dar a rezultat un cursor nul, procesul de importare a eșuat!</string> 
+    <string name="oobe_title_timezone">Selectare fus orar</string>  
+    <string name="gps_time_sync_attention_gps_on">Obţinerea fixării GPS va dura maximum 1 minut. În plus, este posibil ca funcţia GPS să nu reuşească să furnizeze ora din cauza semnalului ambiental slab.\n\nSigur utilizaţi ora furnizată de funcţia GPS?</string>  
+    <string name="gps_time_sync_attention_gps_off">Pentru a utiliza ora furnizată de funcţia GPS, trebuie să activaţi funcţia GPS mai întâi. Obţinerea fixării GPS va dura maximum 1 minut. În plus, este posibil ca funcţia GPS să nu reuşească să furnizeze ora din cauza semnalului ambiental slab.\n\nSigur activaţi funcţia GPS şi aşteptaţi ora furnizată de funcţia GPS?</string>  
+    <string name="oobe_summary_timezone">Selectaţi fusul orar preferat.</string>  
+    <string name="sync_account_summary_on">Activare sincronizare automată</string>  
+    <string name="sync_account_summary_off">Dezactivare sincronizare automată</string>  
+    <string name="sync_account_title">Cont de sincronizare automată</string>  
+    <string name="wifi_setup_wizard_title">"Selectaţi o reţea Wi-Fi"</string>  
+    <string name="wifi_menu_wps_pbc">"Buton WPS"</string>  
+    <string name="wifi_other_network">"Altă reţea…"</string>  
+    <string name="wifi_setup_skip">Ignorare</string>  
+    <string name="wifi_setup_next">"Înainte"</string>  
+    <string name="wifi_setup_back">Înapoi</string>  
+    <string name="wifi_empty_list_wifi_off">Pentru a vedea rețelele disponibile, porniți Wi-Fi.</string>  
+    <string name="wifi_empty_list_wifi_on">"Se caută reţele Wi-Fi…"</string> 
+
+      <string name="import_contact_already">Deja importaţi. Încercaţi din nou mai târziu.</string>
+</resources>

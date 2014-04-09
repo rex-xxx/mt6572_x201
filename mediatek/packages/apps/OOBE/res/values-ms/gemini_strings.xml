@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="gemini_sim_info_title">Maklumat SIM</string>  
+    <string name="gemini_default_sim_title">SIM lalai</string>  
+    <string name="gemini_general_settings_title">Tetapan umum</string>  
+    <string name="gemini_roaming_settings_title">Perayauan</string>  
+    <string name="gemini_contacts_sim_title">"Kenalan &amp; SIM"</string>  
+    <string name="gemini_contacts_sim_summary">Hubungkan kenalan dengan SIM tertentu</string>  
+    <string name="gemini_voice_call">Panggilan suara</string>  
+    <string name="gemini_video_call">Panggilan video</string>  
+    <string name="gemini_data_connection">Sambungan data</string>  
+    <string name="gemini_msg">Mesej</string>  
+    <string name="gemini_default_sim_always_ask">Sentiasa bertanya</string>  
+    <string name="gemini_intenet_call">Panggilan Internet</string>  
+    <string name="gemini_default_sim_never">Dimatikan</string>  
+    <string name="gemini_default_sim_3g_off">Mati</string>  
+    <string name="gemini_sim_info_editor_name">Edit nama SIM</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">Gagal disimpan</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">Nama disalin untuk kad SIM</string>  
+    <string name="gemini_sim_info_editor_number">Masukkan nombor telefon</string>  
+    <string name="gemini_sim_info_editor_color">Tetapkan warna latar belakang</string>  
+    <string name="gemini_sim_info_editor_number_display_format">Paparkan nombor</string>  
+    <string name="gemini_no_sim_indicator">Tiada kad SIM</string>  
+    <string name="gemini_data_connection_progress_message">"Sila tunggu..."</string>  
+    <string name="gemini_3g_modem_switching_message">"Penukaran SIM akan mengambil masa kira-kira 10 saat untuk dilengkapkan. Sila tunggu…"</string>  
+    <string name="gemini_3g_modem_switch_confirm_message">"Ini juga akan menukar perkhidmatan 3G kepada SIM ini. Teruskan? Sila pastikan juga SIM yang dipilih ini menyokong perkhidmatan 3G."</string>  
+    <string name="gemini_sim_mode_progress_activating_message">Mengaktifkan.....</string>  
+    <string name="gemini_sim_mode_progress_deactivating_message">Menyahaktifkan....</string>  
+    <string name="apn_not_set">"Tidak ditetapkan"</string>  
+    <string name="gemini_3g_disable_warning_case0">"Anda mesti mendayakan perayauan data untuk SIM ini dahulu yang boleh dikenakan caj perayauan yang tinggi! Adakah anda pasti mahu mendayakan perayauan data dan memilih SIM ini?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"Perkhidmatan 3G tidak tersedia dengan SIM yang dipilih ini. Ini boleh memuatkan data dengan perlahan. Anda boleh menukar tetapan perkhidmatan 3G di bawah Tetapan &gt; Wayarles &amp; rangkaian &gt; Rangkaian mudah alih. Adakah anda pasti mahu memilih SIM ini?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"Perkhidmatan 3G tidak tersedia dengan SIM yang dipilih ini. Ini boleh memuatkan data dengan perlahan. Anda boleh menukar tetapan perkhidmatan 3G di bawah Tetapan &gt; Pengurusan SIM. Adakah anda pasti mahu memilih SIM ini?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"Anda mesti mendayakan perayauan data untuk SIM ini terlebih dahulu yang boleh dikenakan caj perayauan yang tinggi! Selain itu, perkhidmatan 3G tidak tersedia dengan SIM ini. Ini boleh memuatkan data dengan perlahan. Anda boleh menukarkannya di bawah Tetapan &gt; Wayarles &amp; rangkaian &gt; Rangkaian mudah alih. Adakah anda pasti mahu mendayakan perayauan data dan memilih SIM ini?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"Anda mesti mendayakan perayauan data untuk SIM ini terlebih dahulu yang boleh dikenakan caj perayauan yang tinggi! Selain itu, perkhidmatan 3G tidak tersedia dengan SIM ini. Ini boleh memuatkan data dengan perlahan. Anda boleh menukarkannya di bawah Tetapan &gt; Pengurusan SIM. Adakah anda pasti mahu mendayakan perayauan data dan memilih SIM ini?"</string>  
+    <string name="gemini_gsm_umts_network_preferences_title">Mod Rangkaian</string>  
+</resources>

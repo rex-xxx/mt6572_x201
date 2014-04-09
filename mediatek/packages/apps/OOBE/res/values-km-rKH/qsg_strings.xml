@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="qsg_app_name">មគ្គុទ្ទេសក៍ការចាប់ផ្តើមបែបរហ័ស</string>  
+    <string name="skip_button">រំលង</string>  
+    <string name="ok_button">ចាប់ផ្តើម</string>  
+    <string name="qsg_title_begin">មគ្គុទ្ទេសក៍ការចាប់ផ្តើមបែបរហ័ស</string>  
+    <string name="qsg_summary_begin">មគ្គុទ្ទេសក៍ការចាប់ផ្តើមបែបរហ័សនេះ នឹងអាចផ្តល់ព័ត៌មានគន្លឹះដែលមានប្រយោជន៍ចំនួន 5 ហើយណែនាំអ្នកឲ្យស្គាល់កាយវិការជាមូលដ្ឋាន ព្រមទាំងការចាត់ចែងអេក្រង់ដើម ។</string>  
+    <string name="next">បន្ទាប់</string>  
+    <string name="play_again">លេងម្តងទៀត</string>  
+    <string name="finish">ចប់</string>  
+    <string name="qsg_title2_home_screen">មើលអេក្រង់ដើម</string>  
+    <string name="qsg_summary2_home_screen">ទាញទៅឆ្វេង ឬស្តាំ ដើម្បីមើលទំព័រផ្សេងទៀតនៃអេក្រង់ដើម ។</string>  
+    <string name="qsg_title3_choose_widget">ជ្រើសរើសវីដជេដខ្លះ</string>  
+    <string name="qsg_summary3_choose_widget">ដើម្បីបន្ថែមវីដជេដ ទៅក្នុងអេក្រង់ដើមរបស់អ្នក យកម្រាមដៃប៉ះ និងសង្កត់វាឲ្យជាប់ ។</string>  
+    <string name="qsg_title4_launch_page">ចាប់ផ្តើមព័ត៌មានលំអិតរបស់ទំព័រ</string>  
+    <string name="qsg_summary4_launch_page">ថេបរូបរបស់ទម្រង់ ដើម្បីឲ្យព័ត៌មានលំអិតរបស់ទំព័រលោតឡើង សម្រាប់ជម្រើស ។</string>  
+    <string name="qsg_title5_view_notification">មើលការប្រាប់ដំណឹង</string>  
+    <string name="qsg_summary5_view_notification">សង្កត់ខ្សែស្ថានភាពឲ្យជាប់ រួចអូសវាចុះក្រោម ដើម្បីមើលការប្រាប់ដំណឹងទាំងអស់ ។</string>  
+    <string name="qsg_changesim_title">ដូរ SIM កាត</string>  
+    <string name="qsg_changesim_summary">អូសខ្សែស្ថានភាពចុះក្រោម និងជ្រើសរើសសេវាកម្ម SIM ដើម្បីប្រតិបត្តិការ ។</string>  
+    <string name="qsg_summary_end">អ្នកបានអានព័ត៌មានគន្លឹះទាំងអស់ដែលមាននៅក្នុងការណែនាំរបៀបចាប់ផ្តើមរហ័សរួចហើយ ។ \n\nបើអ្នកចង់ អ្នកអាចថេបលើប៊ូតុង "លេងម្តងទៀត" ដើម្បីមើលការណែនាំទាំងនេះម្តងទៀត ។\n\nតាមវិធីផ្សេងទៀត អ្នកអាចថេបលើប៊ូតុង "ចប់" ដើម្បីប្រតិបត្តិការឧបករណ៍ថ្មីរបស់អ្នក ។</string> 
+</resources>

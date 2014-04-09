@@ -1,0 +1,11 @@
+= Graphite2 Manual =
+Martin Hosken <martin_hosken@sil.org>
+
+:numbered:
+
+include::intro.txt[]
+include::building.txt[]
+include::calling.txt[]
+include::features.txt[]
+include::hacking.txt[]
+include::testing.txt[]

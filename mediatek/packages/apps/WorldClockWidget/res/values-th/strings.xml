@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">นาฬิกาโลก</string>
+    <string name="a_city_selected">เมืองถูกเลือกแล้ว</string>
+    <string name="another_city_text">เพิ่ม</string>
+    <string name="search_city">ค้นหาเมือง</string>
+    <string name="current_time_text">ปัจจุบัน</string>
+    <string name="ime_action_done">เสร็จ</string>     
+    <string name="next">ถัดไป </string>
+    <string name="select_right_city">ขออภัย ไม่มีเมืองนี้</string>
+    <string name="clock_loading">Đang tải\u2026</string>
+	<string name="add_new_city">เพิ่มเมืองใหม่</string>  
+    <string name="delete_city">ลบเมือง</string>  
+    <string name="delete_city_info">เมืองจะถูกลบ</string>  
+    <string name="deleteok">ลบ</string>  
+    <string name="cancel">ปฏิเสธ</string>
+ 	<string name="add_city">กดที่ไอคอนเพื่อเพิ่มเมือง</string> 
+    <string name="has_chosen">ถูกเลือกแล้ว</string>
+</resources>
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="qsg_app_name">快速嚮導</string>
+
+
+    <!-- ============================ -->
+    <!-- quick start guide strings -->
+    <!-- ============================ -->
+
+
+    <string name="skip_button">跳過</string>
+    <string name="ok_button">開始</string>
+    <string name="qsg_title_begin">快速嚮導</string>
+    <string name="qsg_summary_begin">快速嚮導將提供4段動畫，給您介紹操作手機的基本手勢和知識。</string>
+    <string name="next">下一步</string>
+    <string name="play_again">重播</string>
+    <string name="finish">結束</string>
+    <string name="qsg_title2_home_screen">察看主屏幕</string>
+    <string name="qsg_summary2_home_screen">左右滑動以察看其他屏幕。 </string>
+    <string name="qsg_title3_choose_widget">選擇窗口小控件</string>
+    <string name="qsg_summary3_choose_widget">在您的屏幕上添加一個小部件，選中小部件按住並拖動。 </string>
+    <string name="qsg_title4_launch_page">打開詳細界面</string>
+    <string name="qsg_summary4_launch_page">點擊聯繫人頭像，將進入相關詳細頁面。</string>
+    <string name="qsg_title5_view_notification">察看通知</string>
+    <string name="qsg_summary5_view_notification">按住頂部狀態欄並向下拖動即可看到所有通知</string>
+    <string name="qsg_changesim_title">切換SIM卡</string>
+    <string name="qsg_changesim_summary">下拉狀態欄，然後選擇您想操作使用的SIM卡.</string>
+    <string name="qsg_summary_end">您已經學習了所有快速嚮導提供的操作演示。 \n\n如果您想重新播放，請點擊“重播”按鈕。 \n\n您也可以點擊“結束”按鈕，開始使用手機。</string>
+
+</resources>

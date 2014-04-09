@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Item" android:orientation="horizontal">
+    <TextView android:id="@+id/item_text" android:layout_width="match_parent"
+        android:layout_height="@dimen/BodyLineHeight" android:layout_marginLeft="@dimen/BodyMarginLeft"
+        android:layout_marginRight="@dimen/DescriptionTextMarginRight"
+        android:gravity="left|bottom" android:singleLine="true"
+        android:ellipsize="end" android:textSize="@dimen/DescriptionTextSize"
+        android:textColor="@color/DescriptionTextColor" />
+
+    <ImageView android:id="@+id/item_state" android:layout_width="wrap_content"
+        android:layout_height="@dimen/BodyLineHeight" android:layout_below="@id/item_text"
+        android:layout_alignParentLeft="true" android:layout_marginLeft="@dimen/BodyMarginLeft"
+        android:src="@drawable/ic_unexpire" />
+
+    <TextView android:id="@+id/item_due_date" android:layout_width="match_parent"
+        android:layout_height="@dimen/BodyLineHeight" android:layout_below="@id/item_text"
+        android:layout_toRightOf="@id/item_state" android:gravity="left|center"
+        android:layout_marginLeft="@dimen/BodyMarginLeft" android:text="@string/no_expire_date"
+        android:textSize="@dimen/DueDateTextSize" android:textColor="@color/DueDateTextColor" />
+
+    <ImageView android:id="@+id/change_info_state" style="@style/TodoImgButton"
+        android:layout_alignParentRight="true" android:layout_centerInParent="true"
+        android:layout_marginRight="@dimen/BodyMarginRight" android:src="@drawable/ic_todo_done" />
+
+        <CheckBox android:id="@+id/item_checkbox" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_alignParentRight="true"
+            android:layout_centerInParent="true" android:layout_marginRight="@dimen/BodyCheckBoxMarginRight" android:clickable="false"
+            android:focusable="false" />
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="gemini_sim_info_title">Informace o SIM</string>  
+    <string name="gemini_default_sim_title">Výchozí SIM</string>  
+    <string name="gemini_general_settings_title">Obecná nastavení</string>  
+    <string name="gemini_roaming_settings_title">Roaming</string>  
+    <string name="gemini_contacts_sim_title">"Kontakty &amp; SIM"</string>  
+    <string name="gemini_contacts_sim_summary">Přidružit kontakty s konkrétní SIM</string>  
+    <string name="gemini_voice_call">Hlasové volání</string>  
+    <string name="gemini_video_call">Video hovor</string>  
+    <string name="gemini_data_connection">Datové připojení</string>  
+    <string name="gemini_msg">Zasílání zpráv</string>  
+    <string name="gemini_default_sim_always_ask">Vždy se dotázat</string>  
+    <string name="gemini_intenet_call">Volání v Internetu</string>  
+    <string name="gemini_default_sim_never">Vypnuto</string>  
+    <string name="gemini_sim_info_editor_name">Upravit název SIM</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">Uložení se nezdařilo</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">Duplicitní název pro kartu SIM</string>  
+    <string name="gemini_sim_info_editor_number">Zadejte telefonní číslo</string>  
+    <string name="gemini_sim_info_editor_color">Nastavit barvu pozadí</string>  
+    <string name="gemini_sim_info_editor_number_display_format">Zobrazit čísla</string>  
+    <string name="gemini_no_sim_indicator">Žádná karta SIM</string>  
+    <string name="gemini_data_connection_progress_message">"Počkejte prosím..."</string>  
+    <string name="gemini_gsm_umts_network_preferences_title">Režim sítě</string>  
+    <string name="gemini_sim_mode_progress_activating_message">Aktivace\u2026</string>  
+    <string name="gemini_sim_mode_progress_deactivating_message">Deaktivace\u2026</string>  
+    <string msgid="7422262558097875757" name="apn_not_set">"Nenastaveno"</string>  
+    <string name="gemini_3g_modem_switch_confirm_message">"Touto operací bude rovněž přepnuta služba 3G na tuto kartu SIM. Pokračovat? Zkontrolujte, zda tato vybraná karta SIM podporuje službu 3G."</string>  
+    <string name="gemini_3g_disable_warning_case0">"Nejdříve musíte aktivovat roaming dat pro tuto kartu SIM, za což vám mohou být účtovány značné roamingové poplatky! Opravdu chcete aktivovat roaming dat a vybrat tuto kartu SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case1">„Služba 3G není s touto vybranou kartou SIM k dispozici. To může způsobit pomalejší načítání dat. Můžete změnit nastavení služby 3G v části Nastavení &gt; Bezdrát &amp; sítě &gt; Mobilní sítě. Opravdu chcete vybrat tuto kartu SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case2">„Služba 3G není s touto vybranou kartou SIM k dispozici. To může způsobit pomalejší načítání dat. Můžete změnit nastavení služby 3G v části Nastavení &gt; Správa SIM. Opravdu chcete vybrat tuto kartu SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"Nejdříve musíte aktivovat datový roaming pro tuto kartu SIM, což může znamenat značné roamingové poplatky! Kromě toho služba 3G není s touto kartou SIM k dispozici. To může způsobit pomalejší načítání dat. To můžete změnit v části Nastavení &gt; Bezdrát &amp; sítě &gt; Mobilní sítě. Opravdu chcete aktivovat datový roaming a vybrat tuto kartu SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"Nejdříve musíte aktivovat datový roaming pro tuto kartu SIM, což může znamenat značné roamingové poplatky! Kromě toho služba 3G není s touto kartou SIM k dispozici. To může způsobit pomalejší načítání dat. To můžete změnit v části Nastavení &gt; Správa SIM. Opravdu chcete aktivovat datový roaming a vybrat tuto kartu SIM?"</string>  
+    <string name="gemini_default_sim_3g_off">Vypnout</string>  
+    <string name="gemini_3g_modem_switching_message">"Dokončení přepnutí karty SIM bude trvat přibližně 10 sekund. Počkejte prosím..."</string>  
+</resources>

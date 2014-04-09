@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+
+    <!-- OOBE part begin -->  
+    <string name="app_name">OOBE</string>  
+    <string name="oobe_btn_text_next">بعدی</string>  
+    <string name="oobe_btn_text_back">بازگشت</string>  
+    <string name="oobe_btn_text_finish">پایان</string>  
+    <string name="oobe_btn_text_skip">رد شدن</string>  
+    <string name="oobe_btn_text_dismiss">رد کردن</string>  
+    <string name="oobe_title_language_setting">انتخاب زبان</string>  
+    <string name="oobe_summary_language_setting">زبان ترجیحی تلفن خود را انتخاب کنید</string>  
+    <string name="oobe_title_keyboard_setting">انتخاب صفحه کلیدها</string>  
+    <string name="oobe_summary_keyboard_setting">صفحه کلید ترجیحی خود را انتخاب کنید.</string>  
+    <string name="oobe_title_import_contacts">وارد کردن از مخاطبین از سیم کارت</string>  
+    <string name="oobe_summary_import_contacts">می توانید بخشی یا همه مخاطبان خود را از سیم کارت درج شده به تلفن خود منتقل کنید.</string>  
+    <string name="oobe_title_internet_connection_setting">انتخاب اتصال اینترنت</string>  
+    <string name="oobe_summary_internet_connection">اتصال اینترنت ترجیحی خود را انتخاب کنید. بعدتر می توانید این گزینه ها را در قسمت تنظیمات تغییر دهید.</string>  
+    <string name="oobe_title_sim_management">مدیریت سيم کارت</string>  
+    <string name="oobe_summary_sim_management">روی سیم کارت ضربه بزنید تا اطلاعات آن را ویرایش کنید. بطور معمول، نام اپراتور به عنوان نام پیش فرض سیم کارت استفاده می شود.</string>  
+    <string name="oobe_title_default_sim">تعیین سيم کارت پيش فرض</string>  
+    <string name="oobe_summary_default_sim">سیم کارت ترجیحی خود را به عنوان سیم کارت پیش فرض برای استفاده در سرویس های زیر انتخاب کنید.</string>  
+    <string name="oobe_title_wifi_settings">راه اندازی شبکه Wi-Fi</string>  
+    <string name="oobe_summary_wifi_settings">در زیر، برای انتخاب شبکه Wi-Fi ترجیحی ضربه بزنید</string>  
+    <string name="oobe_title_date_time">تنظیم تاریخ &amp; ساعت</string>  
+    <string name="oobe_summary_date_time">ضربه بزنید تا قالب تاریخ ς &amp; زمان را انتخاب کنید و در صورت لزوم اطلاعات تاریخ ς &amp; ساعت را بطور دستی وارد کنید.</string>  
+    <string name="oobe_locale_switching">در حال انتظار...</string>  
+    <string name="oobe_ime_suggested">پيشنهادی</string>  
+    <string name="oobe_gemini_3g_indic">3G</string>  
+    <string name="oobe_internet_gprs_or_wifi_title">شبکه موبایل یا شبکه Wi-Fi</string>  
+    <string name="oobe_internet_gprs_or_wifi_summary">اتصال اینترنت ترجیحی خود را انتخاب کنید. بعدتر می توانید این گزینه ها را در قسمت تنظیمات تغییر دهید.</string>  
+    <string name="oobe_internet_wifi_only_title">فقط Wi-Fi</string>  
+    <string name="oobe_internet_wifi_only_summary">اگر طرح داده ندارید، این مورد را انتخاب کنید</string>  
+    <string name="oobe_btn_start_import_contacts">وارد کردن را شروع کنید</string>  
+    <string name="oobe_btn_cancel_import_contacts">لغو</string>  
+    <string name="oobe_note_import_contacts_prepare">چند لحظه صبر کنید تا مخاطبین سیم کارت کپی شوند.</string>  
+    <string name="oobe_note_import_contacts_going">حالا می توانید در هنگامی که انتقال در حال انجام است به مرحله بعدی بروید.</string>  
+    <string name="oobe_note_import_contacts_finish">کپی کامل شد. می توانید به مرحله بعدی بروید.</string>  
+    <string name="oobe_note_import_contacts_cancel">وارد کردن لغو شد. می توانید به مرحله بعدی بپرید یا شروع به ورود دوباره کنید.</string>  
+    <string name="oobe_note_progress_copy_contacts">%1$d از %2$d مخاطب</string>  
+    <string name="oobe_note_copy_contacts_waiting">در حال انتظار...</string>  
+    <string name="basic_congratulation_title">تبریک!</string>  
+    <string name="basic_congratulation_summary">شما همه تنظیمات پایه را کامل کرده اید. اکنون شما آماده بهره مندی از دستگاه های جدید خود هستید.\n\nهمیشه می توانید تنظیمات خود را از راهنمای گام به گام نصب از راه انداز برنامه تغییر دهید.</string>  
+    <string name="oobe_advance_settings_entrance_title">تنظیمات پیشرفته</string>  
+    <string name="oobe_advance_settings_entrance_summary">اگر قبلا شناسه Google یا شناسه E-Mail یا شناسه در هر یک از سایت های شبکه اجتماعی دارید، شما را تشویق می کنیم تا تنظیمات پیشرفته را ادامه دهید.</string>  
+    <string name="oobe_sync_settings_name">تنظیمات همگام سازی</string>  
+    <string name="oobe_sync_settings_title">همگام سازی زمان بندی شده</string>  
+    <string name="oobe_sync_settings_summary">آن را انتخاب کنید تا سرویس همگام سازی داده، فعال شود. اگر طرح داده نامحدود نداشته باشید، همگام سازی داده ممکن است هزینه اضافی برای تان در برداشته باشد.</string>  
+    <string name="oobe_account_settings_name">تنظیمات حساب</string>  
+    <string name="oobe_account_settings_title">راه اندازی حساب</string>  
+    <string name="oobe_account_settings_summary">برای همگام سازی ایمیل ها، مخاطبین و رویدادهای تقویم، باید روی حداقل یکی از انواع حساب زیر ضربه زده و آن را راه اندازی کنید.</string>  
+    <string name="oobe_account_list_title">حساب ها</string>  
+    <string name="oobe_sns_settings_name">تنظيمات SNS</string>  
+    <string name="oobe_sns_settings_title">راه اندازی شبکه های اجتماعی</string>  
+    <string name="oobe_sns_settings_summary">شبکه اجتماعی دلخواه خود را راه اندازی کنید تا قادر به ارسال و دریافت به روز رسانی با برنامه شبکه های اجتماعی شوید.</string>  
+    <string name="oobe_advance_settings_end_title">تبریک!</string>  
+    <string name="oobe_advance_settings_end_summary">شما همه تنظیمات پیشرفته را کامل کرده اید. حالا می توانید از دستگاه جدید خود لذت ببرید. \n\n همیشه می توانید این تنظیمات را از ويزارد تنظیم در راه انداز برنامه ها تغییر دهید.</string>  
+    <string name="tap_to_add">برای افزودن حساب 
+        <xliff:g id="account" example="renren">%s</xliff:g> ضربه بزنيد
+    </string>  
+    <string name="oobe_import_contacts_sim_name">سيم کارت</string>  
+    <string name="oobe_title_wifi">Wi-Fi</string>  
+    <string name="lock_settings_picker_title">تنظيم قفل صفحه</string>  
+    <string name="add_network_string">افزودن شبکه</string>  
+    <string name="oobe_title_sim_edit">ویرایش سیم کارت</string>  
+    <string name="oobe_summary_sim_edit">اطلاعات سیم کارت را ویرایش کنید تا برآورنده ترجیحات شما باشد. شما می توانید نام و رنگ سیم کارت و شماره تلفن را تغییر دهید.</string>  
+    <string name="oobe_waiting_sim">در انتظار آغاز سیم کارت...</string>  
+    <string name="oobe_advance_settings_end_name">آخرین پیام</string>  
+    <string name="oobe_contact_import_null_cursor">جستجو تکمیل شد ولی یک مکان نمای تهی دریافت شد، روند ورود ناموفق بود!</string> 
+    <string name="oobe_title_timezone">انتخاب منطقه زمانی</string>  
+    <string name="gps_time_sync_attention_gps_on">تثبیت GPS حداکثر 1 دقیقه طول می کشد. به علاوه، به دلیل سیگنال ضعیف محیطی ممکن است GPS نتواند زمان را ارائه کند.\n\nآیا از استفاده از زمان ارائه شده توسط GPS مطمئن هستید؟</string>  
+    <string name="gps_time_sync_attention_gps_off">برای استفاده از زمان ارائه شده توسط GPS، باید ابتدا GPS را فعال کنید. سپس حداکثر 1 دقیقه تا تثبیت شدن GPS طول می کشد. به علاوه، به دلیل سیگنال ضعیف محیطی ممکن است GPS نتواند زمان را ارائه کند. \n\nآیا از فعال کردن GPS در حال حاضر و انتظار برای زمان ارائه زمان توسط GPS مطمئن هستید؟</string>  
+    <string name="oobe_summary_timezone">لطفا منطقه زمانی دلخواه خود را انتخاب کنید.</string>  
+    <string name="sync_account_summary_on">همگام سازی خودکار روشن</string>  
+    <string name="sync_account_summary_off">همگام سازی خودکار خاموش</string>  
+    <string name="sync_account_title">شناسه همگام سازی خودکار</string>  
+    <string name="wifi_setup_wizard_title">"انتخاب Wi-Fi"</string>  
+    <string name="wifi_menu_wps_pbc">"دکمه ارسال WPS"</string>  
+    <string name="wifi_other_network">"شبکه دیگر…"</string>  
+    <string name="wifi_setup_skip">رد شدن</string>  
+    <string name="wifi_setup_next">"بعدی"</string>  
+    <string name="wifi_setup_back">بازگشت</string>  
+    <string name="wifi_empty_list_wifi_off">برای دیدن شبکه های در دسترس، Wi-Fi را روشن کنید.</string>  
+    <string name="wifi_empty_list_wifi_on">"در حال جستجوی شبکه‌های Wi-Fi…"</string> 
+
+      <string name="import_contact_already">شما در هم اکنون در حال درج اطلاعات هستید. لطفا بعدا دوباره سعی کنید.</string>
+</resources>

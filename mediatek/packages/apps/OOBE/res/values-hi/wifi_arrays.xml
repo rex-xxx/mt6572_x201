@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string-array name="wifi_status"> 
+        <item>स्कैन हो रहा है\u2026</item>  
+        <item>स्‍कैन कर रहा है...</item>  
+        <item>इससे कनेक्‍ट...</item>  
+        <item>प्रमाणित कर रहा है...</item>  
+        <item>आईपी पता प्राप्‍त कर रहा है...</item>  
+        <item>Connected</item>  
+        <item>निलंबित किया गया</item>  
+        <item>डिस्‍कनेक्‍ट कर रहा है...</item>  
+        <item>डिसकनेक्ट हो गया</item>  
+        <item>असफल</item> 
+    </string-array>  
+    <string-array name="wifi_status_with_ssid"> 
+        <item>स्कैन हो रहा है\u2026</item>  
+        <item>स्‍कैन कर रहा है...</item>  
+        <item> 
+            <xliff:g id="network_name">%1$s</xliff:g>\u2026 से कनेक्‍ट
+        </item>  
+        <item> 
+            <xliff:g id="network_name">%1$s</xliff:g> के साथ प्रमाणित कर रहा है...
+        </item>  
+        <item>%1$s से आईपी पता प्राप्‍त कर रहा है...</item>  
+        <item> 
+            <xliff:g id="network_name">%1$s</xliff:g> से कनेक्‍ट
+        </item>  
+        <item>निलंबित किया गया</item>  
+        <item> 
+            <xliff:g id="network_name">%1$s</xliff:g>\u2026 से डिस्‍कनेक्‍ट कर रहा है
+        </item>  
+        <item>डिसकनेक्ट हो गया</item>  
+        <item>असफल</item> 
+    </string-array>  
+    <string-array name="wifi_signal"> 
+        <item>निकृष्ठ</item>  
+        <item>उत्तम</item>  
+        <item>अच्छा</item>  
+        <item>उत्कृष्ठ</item> 
+    </string-array>  
+    <string-array name="wifi_sleep_policy_entries"> 
+        <item>जब स्‍क्रीन ऑफ हो जाती है</item>  
+        <item>प्‍लग इन करने पर कभी नहीं</item>  
+        <item>कभी नहीं</item> 
+    </string-array>  
+    <string-array name="wifi_frequency_band_entries"> 
+        <item>स्वचालित</item>  
+        <item>केवल 5 GHz</item>  
+        <item>केवल 2.4 GHz</item> 
+    </string-array>  
+    <string-array name="wifi_sleep_policy_entries_wifi_only"> 
+        <item>हमेशा</item>  
+        <item>केवल प्लग-इन होने पर</item>  
+        <item>कभी नहीं</item> 
+    </string-array>  
+    <string-array name="wifi_network_setup"> 
+        <item>ऑफ</item>  
+        <item>पुश बटन</item>  
+        <item>पहुँच बिंदु से पिन</item>  
+        <item>इस उपकरण से पिन</item> 
+    </string-array>  
+    <string-array name="wifi_ip_settings"> 
+        <item>DHCP</item>  
+        <item>स्थिर</item> 
+    </string-array>  
+    <string-array name="wifi_proxy_settings"> 
+        <item>कोई नहीं</item>  
+        <item>मैन्युअल</item> 
+    </string-array>  
+    <string-array name="auto_time_entries"> 
+        <item>नेटवर्क द्वारा प्रदान समय का उपयोग करें</item>  
+        <item>GPS द्वारा प्रदान समय का उपयोग करें</item>  
+        <item>ऑफ</item> 
+    </string-array>  
+    <string-array name="wifi_connect_type_entries"> 
+        <item>स्वचालित रूप से कनेक्ट हों</item>  
+        <item>मैन्युअली कनेक्ट हों</item>  
+        <item>हमेशा पूछें</item> 
+    </string-array> 
+    <string-array name="wifi_WEP_security_type"> 
+        <item>स्वचालित</item>  
+        <item>WEP ASCII</item>
+        <item>डब्‍ल्‍यूईपी हेक्‍साडेसीमल</item>  
+    </string-array>  
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string-array name="gemini_sim_info_number_display_format_entries"> 
+        <item>Πρώτα 4 ψηφία</item>  
+        <item>Τελευταία 4 ψηφία</item>  
+        <item>Χωρίς εμφάνιση</item> 
+    </string-array>  
+</resources>

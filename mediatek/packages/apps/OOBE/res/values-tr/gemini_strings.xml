@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="gemini_sim_info_title">SIM Bilgileri</string>  
+    <string name="gemini_default_sim_title">Varsayılan SIM</string>  
+    <string name="gemini_general_settings_title">Genel ayarlar</string>  
+    <string name="gemini_roaming_settings_title">Dolaşma</string>  
+    <string name="gemini_contacts_sim_title">Kişiler ve SIM</string>  
+    <string name="gemini_contacts_sim_summary">Kişileri belirli bir SIM ile ilişkilendir</string>  
+    <string name="gemini_voice_call">Sesli arama</string>  
+    <string name="gemini_video_call">Görüntülü arama</string>  
+    <string name="gemini_data_connection">Veri bağlantısı</string>  
+    <string name="gemini_msg">"Mesajlaş."</string>  
+    <string name="gemini_default_sim_always_ask">Her zaman sor</string>  
+    <string name="gemini_intenet_call">Internet Araması</string>  
+    <string name="gemini_default_sim_never">Kapalı</string>  
+    <string name="gemini_default_sim_3g_off">Kapat</string>  
+    <string name="gemini_sim_info_editor_name">SIM adını düzenle</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">Kaydetme başarısız</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">SIM kartı için yinelenen ad</string>  
+    <string name="gemini_sim_info_editor_number">Telefon numarası gir</string>  
+    <string name="gemini_sim_info_editor_color">Arka plan rengini ayarla</string>  
+    <string name="gemini_sim_info_editor_number_display_format">Numaraları görüntüle</string>  
+    <string name="gemini_no_sim_indicator">SIM kartı yok</string>  
+    <string name="gemini_data_connection_progress_message">"Lütfen bekleyin..."</string>  
+    <string name="gemini_3g_modem_switching_message">"SIM'in değiştirilmesi yaklaşık 10 saniye sürecektir. Lütfen bekleyin…"</string>  
+    <string name="gemini_3g_modem_switch_confirm_message">"İşlem aynı zamanda 3G servisini bu SIM'e değiştirecektir. Devam edilsin mi? Lütfen, seçilen SIM'in 3G servisini destekleyip, desteklemediğinide kontrol edin."</string>  
+    <string name="gemini_sim_mode_progress_activating_message">Etkinleştiriliyor...</string>  
+    <string name="gemini_sim_mode_progress_deactivating_message">Devre dışı bırakılıyor...</string>  
+    <string msgid="7422262558097875757" name="apn_not_set">"Ayarlanmadı"</string>  
+    <string name="gemini_3g_disable_warning_case0">"Önce, bu SIM kartı için, önemli dolaşım ücretlerine neden olabilecek veri dolaşımını etkinleştirmelisiniz! Veri dolaşımını etkinleştirmek ve bu SIM kartı seçmek istediğinizden emin misiniz?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"Bu seçilen SIM ile 3G hizmeti kullanılamıyor. Veriler yavaş yüklenebilir. Ayarlar &gt; Kablosuz ve ağlar &gt; Mobil ağlar menüsünden 3G hizmeti ayarını değiştirebilirsiniz. Bu SIM'i seçmek istediğinizden emin misiniz?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"Bu seçilen SIM ile 3G hizmeti kullanılamıyor. Veriler yavaş yüklenebilir. Ayarlar &gt; SIM yönetimi 3G hizmeti ayarını değiştirebilirsiniz. Bu SIM'i seçmek istediğinizden emin misiniz?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"Bu SIM kart için önce kayda değer dolaşım ücretlerine neden olabilen veri dolaşımını etkinleştirmelisiniz. Ayrıca, bu SIM ile 3G hizmeti kullanılamıyor. Veriler yavaş yüklenebilir. Ayarlar &gt; Kablosuz ve ağlar &gt; Mobil ağlar menüsünden bu ayarı değiştirebilirsiniz. Veri dolaşımını etkinleştirmek ve bu SIM'i seçmek istediğinize emin misiniz?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"Bu SIM kart için önce kayda değer dolaşım ücretlerine neden olabilen veri dolaşımını etkinleştirmelisiniz. Ayrıca, bu SIM ile 3G hizmeti kullanılamıyor. Veriler yavaş yüklenebilir. Ayarlar &gt; SIM yönetimi menüsünden bu ayarı değiştirebilirsiniz. Veri dolaşımını etkinleştirmek ve bu SIM'i seçmek istediğinize emin misiniz?"</string>  
+    <string name="gemini_gsm_umts_network_preferences_title">Ağ Modu</string>  
+</resources>

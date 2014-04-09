@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="confirm_radio_title">SIM desligado</string>
+	<string name="confirm_radio_msg">
+		<xliff:g id="operator_name" example="CMCC">%1$s</xliff:g>
+		está agora ligado. Você gostaria de ligar este cartão SIM?
+	</string>
+	<string name="confirm_radio_msg_single">"O mode avião está agora ligado, você deseja desligar?"</string>
+	<string name="confirm_pin_title">Bloqueio de PIN</string>
+	<string name="confirm_pin_msg">O cartão SIM que você está paa usar está agora travando.Deseja Destravar?</string>
+	<string name="confirm_simmelock_title">Trava SIM ME</string>
+	<string name="confirm_simmelock_msg">O slot SIM que você está paa usar está agora travando.Deseja Destravar?</string>
+	<string name="confirm_fdn_title">FDN Habilitado</string>
+	<string name="confirm_fdn_msg">Os números de discagem fixos estão habilitados..</string>
+	<string name="confirm_roaming_title">Alerta de deslocamento</string>
+	<string name="confirm_roaming_msg">"O cartão SIM que você está prestes a usar está agora em deslocamento. Nenhum SIM local está agora disponível. Você deseja continuar?"</string>
+	<string name="confirm_roaming_withPrefer_msg">"O cartão SIM que você está prestes a usar está agora em deslocamento. Nenhum SIM local está agora disponível. Você deseja continuar pelo SIM loca? "</string>
+	<string name="confirm_roaming_lbutton">Continuar</string>
+	<string name="confirm_roaming_rbutton">Cancelar</string>
+	<string name="confirm_roamingWithPrefer_lbutton">SIM local</string>
+	<string name="confirm_roamingWithPrefer_rbutton">SIM em deslocamento</string>
+	<string name="confirm_radio_lbutton">Ligar</string>
+	<string name="confirm_unlock_lbutton">Destravar</string>
+	<string name="confirm_unlock_fail">Operação cancelada</string>
+	<string name="confirm_turnon_radio_fail">Operação cancelada</string>
+	<string name="confirm_permit_roaming_fail">Você cancelou esta ação no SIM em deslocamento</string>
+	<string name="confirm_sim_locked_message">"Bloqueia o cartão SIM permanentemente"</string>
+	<string name="confirm_slot_locked_message">"O slot foi permanentemente travado."</string>
+	<string name="app_name">CellConnectionService</string>  
+	<string name="button_ok">Ok</string> 
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceCategory android:title="@string/interactivity_arrival">
+    <com.mediatek.cmmb.app.RightCheckBoxPreference
+        android:key="key_interactivity"
+        android:persistent="false"
+        android:layout="@layout/right_check"
+        android:title="@string/interactivity_auto_pop"
+        />
+</PreferenceCategory>
+<PreferenceCategory android:title="@string/user_location_info">
+    <com.mediatek.cmmb.app.RightCheckBoxPreference
+        android:key="key_location_check_auto"
+        android:persistent="false"
+        android:layout="@layout/right_ridio"
+        android:title="@string/check_location_automatically"
+        />
+    <com.mediatek.cmmb.app.RightCheckBoxPreference
+        android:key="key_location_check_manual"
+        android:persistent="false"
+        android:layout="@layout/right_ridio"
+        />
+</PreferenceCategory>
+<PreferenceCategory android:title="@string/update_client">
+    <Preference
+        android:key="key_update"
+        android:title="@string/check_new_version"
+        android:persistent="false"
+        />
+</PreferenceCategory>
+<PreferenceCategory android:title="@string/network_settings">
+    <Preference
+        android:key="key_apn"
+        android:title="@string/apn"
+        android:persistent="false"
+        />
+    <Preference
+        android:key="key_sg_server_host"
+        android:title="@string/sg_server_host"
+        android:persistent="false"
+        />
+    <Preference
+        android:key="key_sg_server_port"
+        android:title="@string/sg_server_port"
+        android:persistent="false"
+        />
+    <Preference
+        android:key="key_wap_host"
+        android:title="@string/wap_host"
+        android:persistent="false"
+        />
+    <Preference
+        android:key="key_wap_port"
+        android:title="@string/wap_port"
+        android:persistent="false"
+        />
+    <Preference
+        android:key="key_restore"
+        android:title="@string/restore"
+        android:persistent="false"
+        />
+</PreferenceCategory>
+</PreferenceScreen>

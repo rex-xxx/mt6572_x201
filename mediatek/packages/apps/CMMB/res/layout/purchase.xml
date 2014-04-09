@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <FrameLayout
+        android:id="@+id/package_subscribed_tab"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ListView
+            android:id="@+id/package_subscribed_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:id="@+id/package_subscribed_info"
+            android:layout_width="match_parent" 
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:paddingBottom="30dip"
+            android:gravity ="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/no_subscribed_package"
+            android:visibility="gone"
+            />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/package_unsubscribed_tab"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ListView
+            android:id="@+id/package_unsubscribed_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+        <TextView
+            android:id="@+id/package_unsubscribed_info"
+            android:layout_width="match_parent" 
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:paddingBottom="30dip"
+            android:gravity ="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/no_unsubscribed_package"
+            android:visibility="gone"
+            />
+    </FrameLayout>
+</FrameLayout>

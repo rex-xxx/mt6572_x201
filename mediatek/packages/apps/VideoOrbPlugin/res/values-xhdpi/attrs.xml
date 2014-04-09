@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- video measurement, width : 320, height : 260 -->
+    <integer-array name="video_measure">
+        <item>320</item>
+        <item>240</item>
+    </integer-array>
+    <integer-array name="video_transcode_target">
+        <item>536</item>
+        <item>480</item>
+    </integer-array>
+</resources>

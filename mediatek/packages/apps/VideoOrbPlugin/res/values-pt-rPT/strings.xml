@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="plugin_name">Video Orb</string>
+    <string name="ok">"OK"</string>
+    <string name="cancel">"Cancelar"</string>
+    <string name="plugin_description">Visualize o seu vídeo mais recente e reproduza-o no ecrã de bloqueio</string>
+    <string name="transcoding_prompt">Preparação do vídeo</string>
+    <string name="transcoding_prompt_description">O Video Orb irá demorar algum tempo a preparar os vídeos. Deseja continuar?</string>
+    <string name="transcoding_progress_format" translatable="false">"%"</string>
+    <string name="transcoding_clip_format" translatable="false">"/"</string>
+    <string name="video_file_name_format" translatable="false">"_yyyyMMdd_HHmmss"</string>
+    <string name="toast_video_add_cancelled">Falha ao adicionar o vídeo</string>
+    <string name="toast_video_unsupported_resolution">A resolução do vídeo não é suportada.</string>
+    <string name="toast_low_storage" product="nosdcard">"O armazenamento USB está cheio."</string>
+    <string name="toast_low_storage" product="default">"O cartão SD está cheio."</string>
+    <string name="toast_invalid_video">Formato de vídeo não suportado.</string>
+</resources>

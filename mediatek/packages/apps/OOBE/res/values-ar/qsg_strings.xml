@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="qsg_app_name">دليل التشغيل السريع</string>  
+    <!-- ============================ -->  
+    <!-- quick start guide strings -->  
+    <!-- ============================ -->  
+    <string name="skip_button">تخطي</string>  
+    <string name="ok_button">بدء</string>  
+    <string name="qsg_title_begin">دليل التشغيل السريع</string>  
+    <string name="qsg_summary_begin">يرد في دليل التشغيل السريع 4 نصائح مساعدة واقتراحات أساسية وكيفية إدارة الشاشة الرئيسية.</string>  
+    <string name="next">التالي</string>  
+    <string name="play_again">إعادة التشغيل</string>  
+    <string name="finish">إنهاء</string>  
+    <string name="qsg_title2_home_screen">عرض الشاشة الرئيسية</string>  
+    <string name="qsg_summary2_home_screen">انقر يمينًا أو يسارًا لعرض صفحات أخرى من الشاشة الرئيسية.</string>  
+    <string name="qsg_title3_choose_widget">اختر بعض عناصر الواجهة</string>  
+    <string name="qsg_summary3_choose_widget">لإضافة عنصر واجهة إلى الشاشة الرئيسية، المسها مع الاستمرار.</string>  
+    <string name="qsg_title4_launch_page">إطلاق صفحة التفاصيل</string>  
+    <string name="qsg_summary4_launch_page">انقر فوق صورة الملف التعريفي لإطلاق صفحة التفاصيل للخيارات.</string>  
+    <string name="qsg_title5_view_notification">عرض الإشعارات</string>  
+    <string name="qsg_summary5_view_notification">اضغط مع الاستمرار على شريط الحالة واسحبه لأسفل لعرض جميع الإشعارات.</string>  
+    <string name="qsg_changesim_title">تشغيل بطاقة SIM</string>  
+    <string name="qsg_changesim_summary">اسحب شريط الحالة لأسفل واختر خدمة بطاقة SIM لتشيغلها.</string>  
+    <string name="qsg_summary_end">لقد اطلعت على جميع النصائح الواردة في دليل التشغيل السريع. \n\nلو كنت ترغب، انقر فوق زر "إعادة التشغيل" لعرض هذا الدليل ثانية.\n\nوبدلاً من ذلك، يمكنك النقر فوق زر "إنهاء" لتشغيل جهازك الجديد.</string> 
+</resources>

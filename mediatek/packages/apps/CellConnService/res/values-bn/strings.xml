@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">সেলকানেকশন সার্ভিস</string>
+    <string name="button_ok">ঠিক করুন</string>
+    <string name="button_cancel">বাতিল করুন</string>
+    <string name="confirm_radio_title">সিম বন্ধ করা হয়েছে</string>
+    <string name="confirm_radio_msg"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g>এখন বন্ধ আছে। আপনি কি এই সিমকার্ডটি চালু করতে চান?</string>
+    <string name="confirm_radio_msg_single">এখন উড়োজাহাজ মোড চালু আছে, আপনি কি এটি বন্ধ করতে চান?</string>
+    <string name="confirm_pin_title">সিম লক করা</string>
+    <string name="confirm_pin_msg">নির্বাচিত সিমকার্ডটি এখন লক করা। প্রথমে তা আনলক করুন।</string>
+    <string name="confirm_simmelock_title">SIM ME লক করা</string>
+    <string name="confirm_simmelock_msg">নির্বাচিত সিম স্লট এখন লক করা। প্রথমে তা আনলক করুন।</string>
+    <string name="confirm_fdn_title">এফডিএন সক্রিয় রয়েছে</string>
+    <string name="confirm_fdn_msg">নির্ধারিত ডায়াল নম্বর সক্রিয় রয়েছে</string>
+    <string name="confirm_roaming_title">রোমিং সতর্কবাণী</string>
+    <string name="confirm_roaming_msg"> আপনি যে সিমকার্ডটি ব্যবহার করতে যাচ্ছিলেন এখন তা রোমিং অবস্থায় আছে। এখন কোন লোকাল সিম নেই। আপনি কি অব্যাহত রাখতে চান? </string>
+    <string name="confirm_roaming_withPrefer_msg"> আপনি যে সিমকার্ডটি ব্যবহার করতে যাচ্ছিলেন এখন তা রোমিং অবস্থায় আছে। আপনি কি লোকাল সিমের মাধ্যমে অব্যাহত রাখতে চান? </string>
+    <string name="confirm_roaming_lbutton">অব্যাহত রাখুন</string>
+    <string name="confirm_roaming_rbutton">বাতিল করুন</string>
+    <string name="confirm_roamingWithPrefer_lbutton">লোকাল সিম</string>
+    <string name="confirm_roamingWithPrefer_rbutton">রোমিং সিম</string>
+    <string name="confirm_radio_lbutton">চালু করুন</string>
+    <string name="confirm_unlock_lbutton"> আনলক করুন</string>
+    <string name="confirm_unlock_fail">কার্যক্রম বাতিল করা হয়েছে</string>
+    <string name="confirm_turnon_radio_fail">কার্যক্রম বাতিল করা হয়েছে</string>
+    <string name="confirm_permit_roaming_fail"> আপনি রোমিং সিমে এই পদক্ষেপটি বাতিল করেছেন</string>
+    <string name="confirm_sim_locked_message">সিমকার্ড স্থায়ীভাবে লক করা হয়েছে</string>
+    <string name="confirm_slot_locked_message">স্লট স্থায়ীভাবে লক করা হয়েছে</string>
+</resources>
+

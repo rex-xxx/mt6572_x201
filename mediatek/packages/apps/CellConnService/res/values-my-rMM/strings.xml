@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">ဆဲ(လ်)ချိတ်ဆက်မှုဆာဗာ</string>
+    <string name="button_ok">Ok</string>
+    <string name="button_cancel">ဖျက်သိမ်းရန်</string>
+    <string name="confirm_radio_title">SIM ပိတ်ထားသည်</string>
+    <string name="confirm_radio_msg">
+        <xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> မှာယခုပိတ်ထားပါသည်။ ဤ SIM ကတ်ကို သင်ဖွင့်လိုပါသလား။		
+    </string>
+    <string name="confirm_radio_msg_single">လေယာဉ်စီးစဉ်ပုံစံကို ယခုဖွင့်ထားပါသည်။ သင်ပိတ်လိုပါသလား။</string>
+    <string name="confirm_pin_title">SIM သော့ချထားသည်</string>
+    <string name="confirm_pin_msg">ရွေးချယ်ထားသော SIM မှာ ယခုပိတ်ထားပါသည်။ ကျေးဇူးပြုပြီးအရင်ဖွင့်ပါ။</string>
+    <string name="confirm_simmelock_title">SIM ME သော့ချထားသည်</string>
+    <string name="confirm_simmelock_msg">ရွေးချယ်ထားသော SIM အပေါက်မှာ ယခုပိတ်ထားပါသည်။ ကျေးဇူးပြုပြီးအရင်ဖွင့်ပါ။</string>
+    <string name="confirm_fdn_title">FDN အလုပ်လုပ်နိုင်သည်</string>
+    <string name="confirm_fdn_msg">အသင့်ပြင်ပြီးသား ဖုန်းနံပါတ်ခေါ်ခြင်းမှာ အလုပ်လုပ်နိုင်သည်။</string>
+    <string name="confirm_roaming_title">နိုင်ငံတကာလှည့်လည်သွားခြင်းသတိပေးချက်</string>
+    <string name="confirm_roaming_msg">သင်အသုံးပြုတော့မည့် SIM ကတ်မှာ ယခုနိုင်ငံတကာလှည့်လည်သွားခြင်း ပုံစံဖြစ်နေသည်။ ဒေသသုံး SIM ကို မရရှိနိုင်ပါ။ သင်ဆက်လက်လုပ်ဆောင်မှာလား။</string>
+    <string name="confirm_roaming_withPrefer_msg">သင်အသုံးပြုတော့မည့် SIM ကတ်မှာ ယခုနိုင်ငံတကာလှည့်လည်သွားခြင်း ပုံစံဖြစ်နေသည်။ ဒေသသုံး SIM မှတဆင့် သင်ဆက်လက် လုပ်ဆောင်မှာလား။</string>
+    <string name="confirm_roaming_lbutton">ဆက်လုပ်ရန်</string>
+    <string name="confirm_roaming_rbutton">ဖျက်သိမ်းရန်</string>
+    <string name="confirm_roamingWithPrefer_lbutton">ဒေသသုံး SIM</string>
+    <string name="confirm_roamingWithPrefer_rbutton">နိုင်ငံတကာလှည့်လည်သွားနေသော SIM</string>
+    <string name="confirm_radio_lbutton">ဖွင့်ရန်</string>
+    <string name="confirm_unlock_lbutton">သော့ဖွင့်ရန်</string>
+    <string name="confirm_unlock_fail">လုပ်ငန်းကိုပယ်ဖျက်သည်။</string>
+    <string name="confirm_turnon_radio_fail">လုပ်ငန်းကိုပယ်ဖျက်သည်။</string>
+    <string name="confirm_permit_roaming_fail">နိုင်ငံတကာလှည့်လည်သွားနေသော SIM ပေါ်တွင် ဤလုပ်ငန်း လုပ်ဆောင်ခြင်းအား သင်ပယ်ဖျက်သည်။</string>
+    <string name="confirm_sim_locked_message">SIM ကတ်ကိုအမြဲတမ်း သော့ချထားသည်။</string>
+    <string name="confirm_slot_locked_message">အပေါက်ကိုအမြဲတမ်း သော့ချထားသည်။</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="date_and_time">Tetapan tarikh &amp; masa</string>  
+    <string name="date_time_12_hour_sample">13:00:00</string>  
+    <string name="choose_timezone">Pilih zon waktu</string>  
+    <string name="normal_date_format">Biasa ( 
+        <xliff:g example="12-31-2009" id="date">%s</xliff:g>)
+    </string>  
+    <string name="date_time_auto">Automatik menggunakan rangkaian</string>  
+    <string name="date_time_24hour">Gunakan format 24-jam</string>  
+    <string name="date_time_set_time">Tetapkan masa</string>  
+    <string name="date_time_set_timezone">Pilih zon waktu</string>  
+    <string name="date_time_set_date">Tetapkan tarikh</string>  
+    <string name="date_time_date_format">Pilih format tarikh</string>  
+    <string name="zone_list_menu_sort_alphabetically">Susun mengikut abjad</string>  
+    <string name="zone_list_menu_sort_by_timezone">Susun mengikut zon masa</string>  
+    <string name="zone_auto">Zon waktu automatik</string>  
+    <string name="zone_auto_summaryOn">Gunakan zon waktu yang diberikan oleh rangkaian</string>  
+    <string name="zone_auto_summaryOff">Gunakan zon waktu yang diberikan oleh rangkaian</string> 
+</resources>

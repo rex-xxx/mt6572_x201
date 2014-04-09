@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="gemini_sim_info_title">SIM 資訊</string>  
+    <string name="gemini_default_sim_title">預設 SIM</string>  
+    <string name="gemini_general_settings_title">一般設定</string>  
+    <string name="gemini_roaming_settings_title">漫遊</string>  
+    <string name="gemini_contacts_sim_title">聯絡人與 SIM</string>  
+    <string name="gemini_contacts_sim_summary">與特定 SIM 結合聯絡人</string>  
+    <string name="gemini_voice_call">語音通話</string>  
+    <string name="gemini_video_call">視訊通話</string>  
+    <string name="gemini_data_connection">行動網路</string>  
+    <string name="gemini_msg">"簡訊"</string>  
+    <string name="gemini_default_sim_always_ask">每次詢問</string>  
+    <string name="gemini_intenet_call">網路通話</string>  
+    <string name="gemini_default_sim_never">關閉</string>  
+    <string name="gemini_default_sim_3g_off">關閉</string>  
+    <string name="gemini_sim_info_editor_name">編輯 SIM 名稱</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">儲存失敗</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">SIM 卡名稱已存在</string>  
+    <string name="gemini_sim_info_editor_number">輸入電話號碼</string>  
+    <string name="gemini_sim_info_editor_color">設定背景顏色</string>  
+    <string name="gemini_sim_info_editor_number_display_format">顯示號碼</string>  
+    <string name="gemini_no_sim_indicator">無 SIM 卡</string>  
+    <string name="gemini_data_connection_progress_message">"請稍候..."</string>  
+    <string name="gemini_3g_modem_switching_message">切換 SIM 卡約需 10 秒。請稍候...</string>  
+    <string name="gemini_3g_modem_switch_confirm_message">這會將 3G 服務切換至此 SIM 卡。是否繼續？請確認所選 SIM 卡支援 3G 服務。</string>  
+    <string name="gemini_gsm_umts_network_preferences_title">"GSM/UMTS 網路偏好設定"</string>  
+    <string name="gemini_sim_mode_progress_activating_message">啟用中...</string>  
+    <string name="gemini_sim_mode_progress_deactivating_message">停用中...</string>  
+    <string msgid="7422262558097875757" name="apn_not_set">"(未設定)"</string>  
+    <string name="gemini_3g_disable_warning_case0">"您必須先啟用此 SIM 卡的數據漫遊功能，但此舉會產生高額漫遊費用！是否確定要啟用數據漫遊功能，並選擇此 SIM 卡？"</string>  
+    <string name="gemini_3g_disable_warning_case1">"此選擇的 SIM 卡無法使用 3G 服務。資料載入速度可能會更慢。您可在設定 &gt; 無線與網路 &gt; 行動網路下變更 3G 服務。確定要選擇此 SIM 卡嗎?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"此選擇的 SIM 卡無法使用 3G 服務。資料載入速度可能會更慢。您可在設定 &gt; SIM 卡管理下變更 3G 服務。確定要選擇此 SIM 卡嗎?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"您必須先為此 SIM卡啟用資料漫遊功能，但此可能會產生龐大的漫遊費用！ 此外，此 SIM 卡無法使用3G 服務。資料載入速度可能會更慢。您可在設定 &gt; 無線與網路 &gt; 行動網路下變更 3G 服務。確定要選擇此 SIM 卡嗎?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"您必須先為此 SIM卡啟用資料漫遊功能，但此可能會產生龐大的漫遊費用！ 此外，此 SIM 卡無法使用3G 服務。資料載入速度可能會更慢。您可在設定 &gt; SIM 卡管理下變更 3G 服務。確定要選擇此 SIM 卡嗎?"</string> 
+    <string name="import_contact_already">您正在加載聯繫人，請稍候再試。</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+<SpriteAnimation xmlns:android="http://schemas.android.com/apk/res/android" 
+                          xmlns:ngin3d="http://schemas.android.com/apk/res/com.mediatek.ngin3d.tests"
+                          android:id="@+id/sprite_animation3" 
+                          ngin3d:target="@+id/hamtaro"
+                          ngin3d:spritImageFile="@drawable/hamtaro"
+                          ngin3d:sheetSpriteDescriptionFile="@raw/hamtaro"
+                          ngin3d:duration="1500" 
+                          >
+</SpriteAnimation>       
+
+

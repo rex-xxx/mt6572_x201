@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="qsg_app_name">Ghid de pornire rapidă</string>  
+    <!-- ============================ -->  
+    <!-- quick start guide strings -->  
+    <!-- ============================ -->  
+    <string name="skip_button">Omitere</string>  
+    <string name="ok_button">start</string>  
+    <string name="qsg_title_begin">Ghid de pornire rapidă</string>  
+    <string name="qsg_summary_begin">Acest ghid de pornire rapidă oferă 4 sfaturi utile şi vă prezintă gesturi de bază şi gestionarea ecranului de pornire.</string>  
+    <string name="next">"Înainte"</string>  
+    <string name="play_again">Redare din nou</string>  
+    <string name="finish">Terminare</string>  
+    <string name="qsg_title2_home_screen">Vizualizare ecran de pornire</string>  
+    <string name="qsg_summary2_home_screen">Glisaţi la stânga sau la dreapta pentru a vizualiza alte pagini din ecranul de pornire.</string>  
+    <string name="qsg_title3_choose_widget">Alegere anumite widgeturi</string>  
+    <string name="qsg_summary3_choose_widget">Pentru a adăuga un widget la ecranul de pornire, atingeţi-l şi menţineţi apăsat.</string>  
+    <string name="qsg_title4_launch_page">Lansare pagină de detalii</string>  
+    <string name="qsg_summary4_launch_page">Atingeţi o imagine de profil pentru a afişa pagina de detalii pentru opţiuni.</string>  
+    <string name="qsg_title5_view_notification">Vizualizare notificări</string>  
+    <string name="qsg_summary5_view_notification">Menţineţi apăsată bara de stare şi glisaţi în jos pentru a vizualiza toate notificările.</string>  
+    <string name="qsg_changesim_title">Comutare cartelă SIM</string>  
+    <string name="qsg_changesim_summary">Glisaţi în jos pe bara de stare şi selectaţi cartela SIM de serviciu pentru utilizare.</string>  
+    <string name="qsg_summary_end">Aţi parcurs toate sfaturile furnizate în ghidul de pornire rapidă. \n\nDacă doriţi, puteţi atinge butonul "Redare din nou" pentru a vizualiza ghidul din nou.\n\nÎn mod alternativ, puteţi atinge butonul "Terminare" pentru a utiliza noul dvs. dispozitiv.</string> 
+</resources>

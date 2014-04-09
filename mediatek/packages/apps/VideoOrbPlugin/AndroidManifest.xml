@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.mediatek.videoorbplugin"
+          android:versionCode="130220"
+          android:versionName="w13.08">
+    <uses-sdk android:targetSdkVersion="17" android:minSdkVersion="14"/>
+    <!-- For video transcoding purpose -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!-- For setting current layer query -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <application android:label="VideoOrbPlugin">
+        <service android:name=".VideoOrbView" android:exported="true">
+            <intent-filter>
+                <action android:name="com.mediatek.common.policy.IKeyguardLayer" />
+            </intent-filter>
+            <meta-data android:name="class" android:value="com.mediatek.videoorbplugin.VideoOrbView"/>
+        </service>
+
+        <activity android:name=".TranscoderActivity" android:label="@string/plugin_name"
+                  android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="com.mediatek.action.VIDEOORB_TRANSCODE_VIDEO" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

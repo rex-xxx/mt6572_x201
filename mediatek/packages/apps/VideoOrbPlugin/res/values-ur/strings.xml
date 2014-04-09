@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="plugin_name">Video Orb</string>
+    <string name="ok">ٹھیک ہے</string>
+    <string name="cancel">منسوخ کریں</string>
+    <string name="plugin_description">اپنا تازہ ترین ویڈیو اور اسے لاک اسکرین پر چلتا ہوا دیکھیں </string>
+    <string name="transcoding_prompt">ویڈیو کی تیاری</string>
+    <string name="transcoding_prompt_description">Video Orb کو ویڈیوز تیار کرنے میں تھوڑا وقت لگے گا۔ کیا آپ جاری رکھنا چاہتے ہیں؟</string>
+    <string name="transcoding_progress_format" translatable="false">"%"</string>
+    <string name="transcoding_clip_format" translatable="false">"/"</string>
+    <string name="video_file_name_format" translatable="false">"_yyyyMMdd_HHmmss"</string>
+    <string name="toast_video_add_cancelled">ویڈیو شامل کرنے میں ناکام</string>
+    <string name="toast_video_unsupported_resolution">ویڈیو ریزولیوشن معاون نہیں ‏ہے۔</string>
+    <string name="toast_low_storage" product="nosdcard">آپ کا USB اسٹوریج بھرگیا ہے۔</string>
+    <string name="toast_low_storage" product="default">آپ کا SD کارڈ بھر گيا ہے۔</string>
+    <string name="toast_invalid_video">غیر معاون ویڈیو شکل۔</string>
+</resources>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+     package="com.mediatek.cmmb.app"
+      android:versionCode="2"
+      android:versionName="3.0">
+    <application android:icon="@drawable/ic_launcher_cmmb" android:label="@string/mobile_tv">         
+    
+    <!-- Player related resources begin-->
+        <activity android:name=".FtmActivity"
+                  android:configChanges="orientation|keyboardHidden|mcc|mnc|screenSize"
+                  android:theme="@style/CustomTheme"
+                  android:screenOrientation="landscape"
+                  android:windowSoftInputMode="stateAlwaysHidden"
+                  android:label="@string/invalid_value" android:exported="true"
+                  android:launchMode="singleInstance">
+        </activity>
+
+        <activity android:name=".PlayerActivity"
+                  android:configChanges="orientation|keyboardHidden|mcc|mnc|screenSize"
+                  android:theme="@style/CustomTheme"
+                  android:screenOrientation="landscape"
+                  android:windowSoftInputMode="stateAlwaysHidden">
+        </activity>
+        
+        <activity android:name=".BootCmmbActivity"
+                  android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainScreen"
+            android:label="@string/mobile_tv"
+            android:configChanges="orientation|keyboardHidden|mcc|mnc|screenSize" 
+            android:launchMode="singleTop"
+            >
+
+        </activity>
+        <activity
+            android:name=".LocationAdviceActivity"
+            android:configChanges="orientation|keyboardHidden|mnc|mcc|screenSize"
+            android:label="@string/mobile_tv"
+            >
+        </activity>        
+        <activity android:name=".PlaybillActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:configChanges="orientation|keyboardHidden|mnc|mcc|screenSize"
+            android:exported="false"
+            >
+        </activity>
+        <activity android:name="PackageActivity"
+            android:label="@string/package_management"
+            android:configChanges="orientation|keyboardHidden|mnc|mcc|screenSize"
+            android:exported="false"
+            >
+            <meta-data
+	            android:name="android.app.default_searchable"
+	            android:value="com.mediatek.cmmb.app.SearchPackageActivity"
+	            />
+        </activity>
+        <activity
+            android:name=".HelpActivity"
+            android:configChanges="orientation|keyboardHidden|mnc|mcc|screenSize"
+            android:label="@string/help"
+            android:exported="false"
+            >
+        </activity>
+<!-- Channel Management related resources end-->
+        <activity
+            android:name=".SettingActivity"
+            android:configChanges="orientation|keyboardHidden|mnc|mcc|screenSize"
+            android:label="@string/setting"
+            android:exported="false"
+            >
+        </activity>
+        <activity
+            android:name=".MessageListActivity"
+            android:configChanges="orientation|keyboardHidden|mnc|mcc|screenSize"
+            android:label="@string/emergency_broadcast"
+            android:exported="false"
+            >
+        </activity>
+        <activity
+            android:name=".MessageDetailActivity"
+            android:configChanges="orientation|keyboardHidden|mnc|mcc|screenSize"
+            android:exported="false"
+            >
+        </activity>
+        <activity
+            android:name=".LocationSelector"
+            android:label="@string/select_user_location"
+            android:configChanges="orientation|keyboardHidden|mnc|mcc|screenSize"
+            android:exported="false"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.PICK" />
+                <data android:mimeType="location/mediatek-cmmb" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".InteractivityListActivity"
+            android:configChanges="orientation|keyboardHidden|mnc|mcc|screenSize"
+            android:exported="false"
+            >
+        </activity>
+        <activity android:name=".InteractivityDetailActivity"
+            android:label="@string/interactivity_detail"
+            android:configChanges="orientation|keyboardHidden|mnc|mcc|screenSize"
+            android:exported="false"
+            >
+        </activity>
+        <provider 
+            android:name="com.mediatek.mbbms.providers.MBBMSProvider" 
+            android:authorities="com.mediatek.providers.mbbms"
+            android:readPermission="com.mediatek.providers.mbbms.READ_MBBMS"
+            android:writePermission="com.mediatek.providers.mbbms.WRITE_MBBMS"
+            >
+        </provider>
+        <service android:name="com.mediatek.mbbms.service.MBBMSService">
+        <intent-filter>
+            <action android:name="com.ben.MBBMSService" />
+        </intent-filter>
+        </service>        
+        <receiver android:name=".DownloadStatusReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETED"/>
+                <data android:scheme="content" android:mimeType="vnd.android.cursor.item/download"/>
+            </intent-filter>
+        </receiver>		
+        <activity android:name="SearchPackageActivity"
+                android:configChanges="orientation|keyboardHidden|mnc|mcc|screenSize"
+                android:theme="@android:style/Theme.NoTitleBar"
+                android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable"
+            />
+        </activity> 
+        <activity android:name="com.mediatek.cmmb.app.ContentSelectActivity"
+            android:configChanges="orientation|keyboardHidden|mnc|mcc|screenSize"
+            android:label="@string/content_list"
+            android:exported="false">
+        </activity> 
+    </application>
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+<uses-permission android:name="android.permission.DEVICE_POWER"></uses-permission>
+<uses-permission android:name="android.permission.WAKE_LOCK"></uses-permission>
+<uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+<uses-permission android:name="android.permission.WRITE_APN_SETTINGS"></uses-permission>
+<uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+<uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+<uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+<uses-permission android:name="android.permission.RECORD_AUDIO" />
+<uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER"/>
+<uses-permission android:name="android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS" />
+<uses-permission android:name="android.permission.STATUS_BAR" />
+</manifest> 

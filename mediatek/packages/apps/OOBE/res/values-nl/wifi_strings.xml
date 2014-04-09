@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string msgid="4746946030627213196" name="wifi_settings">"Wi-Fi-instellingen"</string>  
+    <string msgid="2810363951104753710" name="wifi_settings_category">"Wi-Fi-instellingen"</string>  
+    <string msgid="6710266609710860129" name="wifi_starting">"Inschakelen..."</string>  
+    <string msgid="5952909472548218348" name="wifi_stopping">"Uitschakelen..."</string>  
+    <string msgid="3207971103917128179" name="wifi_error">"Fout"</string>  
+    <string msgid="7618393787965366655" name="wifi_in_airplane_mode">"In vliegmodus"</string>  
+    <string msgid="6194542252808587669" name="wifi_fail_to_scan">"Kan niet scannen naar netwerken"</string>  
+    <string msgid="3755768188029653293" name="wifi_notify_open_networks">"Netwerkmelding"</string>  
+    <string msgid="3038290727701553612" name="wifi_notify_open_networks_summary">"Melden wanneer een open netwerk beschikbaar is"</string>  
+    <string msgid="1671334951296205616" name="wifi_add_network">"Wi-Fi-netwerk toevoegen"</string>  
+    <string msgid="1470911530412095868" name="wifi_menu_scan">"Scannen"</string>  
+    <string msgid="7522252991919573664" name="wifi_menu_advanced">"Geavanceerd"</string>  
+    <string msgid="4996220309848349408" name="wifi_menu_connect">"Verbinding maken met netwerk"</string>  
+    <string msgid="8736964302477327114" name="wifi_menu_forget">"Netwerk vergeten"</string>  
+    <string msgid="2068554918652440105" name="wifi_menu_modify">"Netwerk aanpassen"</string>  
+    <string msgid="641393708309146745" name="wifi_ssid">"SSID van netwerk"</string>  
+    <string msgid="6603611185592956936" name="wifi_security">"Beveiliging"</string>  
+    <string msgid="5514120261628065287" name="wifi_signal">"Signaalsterkte"</string>  
+    <string msgid="4824568012414605414" name="wifi_status">"Status"</string>  
+    <string msgid="3526198708812322037" name="wifi_speed">"Linksnelheid"</string>  
+    <string msgid="1440054061044402918" name="wifi_ip_address">"IP-adres"</string>  
+    <string msgid="8529436133640730382" name="wifi_eap_method">"EAP-methode"</string>  
+    <string msgid="5231074529772044898" name="please_select_phase2">"Phase 2-verificatie"</string>  
+    <string msgid="3521574865488892851" name="wifi_eap_ca_cert">"CA-certificaat"</string>  
+    <string msgid="1291089413368160789" name="wifi_eap_user_cert">"Gebruikerscertificaat"</string>  
+    <string msgid="4359453783379679103" name="wifi_eap_identity">"Identiteit"</string>  
+    <string msgid="2989469344116577955" name="wifi_eap_anonymous">"Anonieme identiteit"</string>  
+    <string msgid="5948219759936151048" name="wifi_password">"Wachtwoord"</string>  
+    <string msgid="4235237470701732009" name="wifi_show_password">"Wachtwoord weergeven."</string>  
+    <string name="wifi_hex_password">Hexadecimaal wachtwoord.</string>  
+    <string msgid="3410422020930397102" name="wifi_unchanged">"(ongewijzigd)"</string>  
+    <string msgid="5431501214192991253" name="wifi_unspecified">"(niet opgegeven)"</string>  
+    <string msgid="8426719916135950136" name="wifi_remembered">"Onthouden"</string>  
+    <string msgid="1136191511238508967" name="wifi_not_in_range">"Niet binnen bereik"</string>   
+    <string msgid="1076622875777072845" name="wifi_connect">"Verbinden"</string>  
+    <string msgid="8168174695608386644" name="wifi_forget">"Vergeten"</string>  
+    <string msgid="3331121567988522826" name="wifi_save">"Opslaan"</string>  
+    <string msgid="6763568902542968964" name="wifi_cancel">"Annuleren"</string>  
+    <string msgid="5419052271935350999" name="wifi_advanced_titlebar">"Geavanceerd"</string>  
+    <string msgid="1367731352485585528" name="wifi_setting_sleep_policy_title">"Wi-Fi-slaapbeleid"</string>  
+    <string msgid="5103670439972135148" name="wifi_setting_sleep_policy_error">"Er is een probleem opgetreden bij het instellen van het slaapbeleid."</string>  
+    <string msgid="6571335466330978393" name="wifi_advanced_mac_address_title">"MAC-adres"</string>  
+    <string msgid="6215297094363164846" name="wifi_advanced_ip_address_title">"IP-adres"</string>  
+    <string msgid="4345739031248760326" name="wifi_ip_settings_titlebar">"IP-instellingen"</string>  
+    <string msgid="7344118050720080045" name="wifi_dns1">"DNS 1"</string>  
+    <string msgid="1368601006824882659" name="wifi_dns2">"DNS 2"</string>  
+    <string msgid="163914742461092086" name="wifi_gateway">"Gateway"</string>  
+    <string msgid="8948641212931906143" name="wifi_tether_enabled_subtext">"Draagbare hotspot 
+        <xliff:g id="NETWORK_SSID">%1$s</xliff:g> actief"
+    </string>  
+    <string name="wapi_user_certificate">"Gebruikerscertificaat"</string>  
+    <string name="wapi_as_certificate">"ASE-certificaat"</string>  
+    <string msgid="7862009036663793314" name="status_unavailable">"Niet beschikbaar"</string>  
+    <string name="wifi_ctia_test">Instelling CTIA-testmodus</string>  
+    <string name="wifi_ctia_test_summary">Configuratie CTIA-testmodus</string>  
+    <string name="wifi_ip_settings">"IP-instellingen"</string>  
+    <string name="wifi_disabled_generic">"Uitgeschakeld"</string>  
+    <string name="wifi_disabled_network_failure">Slechte internetverbinding vermeden</string>  
+    <string name="wifi_disabled_password_failure">Verificatieprobleem</string>  
+    <string name="wifi_ip_settings_invalid_ip_address">Voer een geldig IP-adres in.</string>  
+    <string name="wifi_ip_settings_invalid_gateway">Voer een geldig gateway-adres in.</string>  
+    <string name="wifi_ip_settings_invalid_dns">Voer een geldig DNS-adres in.</string>  
+    <string name="wifi_ip_settings_invalid_network_prefix_length">Typ een netwerkvoorvoegsellengte tussen 0 en 32.</string>  
+    <string name="wifi_network_prefix_length">Lengte netwerkvoorvoegsel</string>  
+    <string name="wifi_connect_type_title">Type automatische verbinding</string>  
+    <string name="wifi_priority_label">Prioriteit</string>  
+    <string name="wifi_priority_settings_label">Prioiteitinstellingen</string>  
+    <string name="wifi_wps_available_first_item">Beveiligd netwerk beschikbaar</string>  
+    <string name="wifi_wps_available_second_item">\u0020(beveiligd netwerk beschikbaar)</string>  
+    <string name="wifi_secured_first_item">Beveiligd met 
+        <xliff:g id="wifi_security_short">%1$s</xliff:g> 
+    </string>  
+    <string name="wifi_secured_second_item">, beveiligd met 
+        <xliff:g id="wifi_security_short">%1$s</xliff:g> 
+    </string>  
+    <string name="wifi_security_none">Geen</string>  
+    <string name="sim_slot">SIM-sleuf</string>  
+    <string name="wifi_network_netmask">Netmask</string>  
+    <string name="wifi_enable_watchdog_service">Vermijd slechte verbindingen</string>  
+    <string name="wifi_setting_frequency_band_title">Wi-Fi frequentieband</string>  
+    <string name="wifi_setting_frequency_band_summary">Geef het frequentiebereik van de handeling op</string>  
+    <string name="wifi_setting_frequency_band_error">Er is een probleem opgetreden bij het instellen van de frequentieband.</string>  
+    <string name="proxy_settings_title">Proxy-instellingen</string>  
+    <string name="proxy_clear_text">"Wissen"</string>  
+    <string name="proxy_port_label">Proxypoort</string>  
+    <string name="proxy_exclusionlist_label">Proxy negeren voor</string>  
+    <string name="proxy_exclusionlist_hint">example.com,mycomp.test.com,localhost</string>  
+    <string name="proxy_defaultView_text">Standaardwaarden herstellen</string>  
+    <string name="proxy_hostname_label">Proxy hostnaam</string>  
+    <string name="proxy_hostname_hint">proxy.example.com</string>  
+    <string name="proxy_error">Let op</string>  
+    <string name="proxy_error_dismiss">"OK"</string>  
+    <string name="proxy_error_empty_port">U moet het poortveld invullen.</string>  
+    <string name="proxy_error_empty_host_set_port">Het poortveld moet leeg zijn als het hostveld leeg is.</string>  
+    <string name="proxy_warning_limited_support">De HTTP-proxy wordt door de browser gebruikt maar mag niet door andere toepassingen gebruikt worden.</string>  
+    <string name="wifi_show_advanced">Geavanceerde opties weergeven</string>  
+    <string name="wifi_network_setup">WPS</string>  
+    <string name="wifi_wps_pin">Typ PIN-code van access point</string>  
+    <string name="wifi_enable_watchdog_service_summary">Geen Wi-Fi netwerk gebruiken behalve als deze een goede internetverbinding heeft</string>  
+    <string name="proxy_error_invalid_host">De hostnaam die u hebt ingevoerd, is ongeldig.</string>  
+    <string name="proxy_error_invalid_exclusion_list">De door u getypte uitzonderingslijst is niet goed opgemaakt. Typ een kommagescheiden lijst met uitgesloten domeinen.</string>  
+    <string name="proxy_error_invalid_port">De poort die u hebt ingevoerd, is ongeldig.</string>  
+    <string name="wifi_setting_connect_type_error">Er is een probleem opgetreden bij het instellen van het verbindingstype.</string>  
+    <string name="wifi_priority_type_title">AP-prioriteit met de hand instellen</string>  
+    <string name="wifi_priority_type_summary">Handmatig instellen prioriteit voor elk access point toestaan</string>  
+    <string name="wifi_priority_settings_title">AP-prioriteitsinstellingen</string>  
+    <string name="wifi_priority_settings_summary">Klik om de prioriteit voor elk access point in te stellen</string>  
+    <string name="gsm_to_wifi_connect_type_title">Mobiel -&gt; Wi-Fi</string>  
+    <string name="wifi_connect_ap_summary">Type netwerkverbinding opgeven</string>  
+    <string name="select_ssid_type_title">Opnieuw kiezen met SSID</string>  
+    <string name="proxy_action_text">Gereed</string>
+    <string name="wifi_failed_connect_message" msgid="8491902558970292871">"Kan geen verbinding maken met het netwerk"</string>
+    <string name="wifi_failed_forget_message" msgid="1348172929201654986">"Vergeten van netwerk is mislukt"</string>
+    <string name="wifi_failed_save_message" msgid="6650004874143815692">"Opslaan van netwerk is mislukt"</string>
+
+      <string name="wifi_WEP_transmit_key">Verzendcode</string>
+      <string name="wifi_WEP_secury_key">Beveiligingscode</string>
+      <string name="wifi_security_wapi_certificate">WAPI-certificaat</string>
+      <string name="wifi_no_cert_for_wapi">Kan geen certificatie voor huidige verbonden AP vinden</string>
+      <string name="eap_sim_slot_0">SIM-sleuf 1</string>
+      <string name="eap_sim_slot_1">SIM-sleuf 2</string>
+      <string name="eap_sim_aka_airplanemode">Schakel de Vliegtuigmodus uit om EAP-SIM/AKA te gebruiken</string>
+      <string name="eap_sim_aka_no_sim_error">U moet een SIM-kaart plaatsen om EAP-SIM/AKA te gebruiken</string>
+      <string name="eap_sim_aka_no_sim_slot_selected">U moet een SIM-sleuf selecteren om EAP-SIM/AKA te gebruiken</string>
+      <string name="wifi_ipv4_address">IPv4-adres</string>
+      <string name="wifi_ipv6_address">IPv6-adres</string>
+</resources>

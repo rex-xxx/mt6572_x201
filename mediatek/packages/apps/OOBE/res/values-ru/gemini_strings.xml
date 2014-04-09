@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="gemini_sim_info_title">Информация о SIM-карте</string>  
+    <string name="gemini_default_sim_title">SIM-карта по умолчанию</string>  
+    <string name="gemini_general_settings_title">Общие настройки</string>  
+    <string name="gemini_roaming_settings_title">Роуминг</string>  
+    <string name="gemini_contacts_sim_title">Контакты и SIM-карта</string>  
+    <string name="gemini_contacts_sim_summary">Привязка контактов к определенной SIM-карте</string>  
+    <string name="gemini_voice_call">Голосовой вызов</string>  
+    <string name="gemini_video_call">Видеовызов</string>  
+    <string name="gemini_data_connection">Соединение для передачи данных</string>  
+    <string name="gemini_msg">"SMS/MMS"</string>  
+    <string name="gemini_default_sim_always_ask">Всегда спрашивать</string>  
+    <string name="gemini_intenet_call">Интернет-вызов</string>  
+    <string name="gemini_default_sim_never">Выкл.</string>  
+    <string name="gemini_default_sim_3g_off">Выкл.</string>  
+    <string name="gemini_sim_info_editor_name">Изменить имя SIM-карты</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">Сбой сохранения</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">Такое имя SIM-карты уже существует</string>  
+    <string name="gemini_sim_info_editor_number">Введите номер телефона</string>  
+    <string name="gemini_sim_info_editor_color">Установить цвет фона</string>  
+    <string name="gemini_sim_info_editor_number_display_format">Отобразить номера</string>  
+    <string name="gemini_no_sim_indicator">Нет SIM-карты</string>  
+    <string name="gemini_data_connection_progress_message">"Подождите......"</string>  
+    <string name="gemini_3g_modem_switching_message">"Переключение SIM-карты займет около 10 секунд. Подождите…"</string>  
+    <string name="gemini_3g_modem_switch_confirm_message">"К этой SIM-карте будут также подключены услуги 3G. Продолжить? Убедитесь, что выбранная SIM-карта поддерживает услуги 3G."</string>  
+    <string name="gemini_sim_mode_progress_activating_message">Активация…</string>  
+    <string name="gemini_sim_mode_progress_deactivating_message">Деактивация…</string>  
+    <string msgid="7422262558097875757" name="apn_not_set">"Не задано"</string>  
+    <string name="gemini_3g_disable_warning_case0">"Для данной SIM-карты сначала следует включить роуминг данных, что может повлечь значительное повышение стоимости передачи данных! Включить режим роуминга и выбрать данную SIM-карту?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"Для выбранной SIM-карты функция 3G не доступна. Это может снизить скорость передачи данных. Чтобы изменить настройку функции 3D, выберите пункты меню: Настройка &gt; Беспроводные и другие сети &gt;Мобильные сети. Вы действительно хотите выбрать эту SIM-карту?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"Для выбранной SIM-карты функция 3G не доступна. Это может снизить скорость передачи данных. Чтобы изменить настройку функции 3D, выберите пункты меню: Настройка &gt; Беспроводные и другие сети &gt; Мобильные сети. Вы действительно хотите выбрать эту SIM-карту?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"Для данной SIM-карты сначала необходимо включить роуминг данных, чтобы не допустить значительных расходов, связанных с роумингом. Кроме того, функция 3G не доступна для этой SIM-карты. Это может снизить скорость передачи данных. Чтобы изменить настройку, выберите пункты меню: Настройка &gt;Беспроводные и другие сети &gt; Мобильные сети. Вы действительно хотите включить роуминг данных и выбрать эту SIM-карту?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"Для данной SIM-карты сначала необходимо включить роуминг данных, чтобы не допустить значительных расходов, связанных с роумингом. Кроме того, функция 3G не доступна для этой SIM-карты. Это может снизить скорость передачи данных. Чтобы изменить настройку, выберите пункты меню: Настройка &gt; Управление SIM-картой. Вы действительно хотите включить роуминг данных и выбрать эту SIM-карту?"</string>  
+    <string name="gemini_gsm_umts_network_preferences_title">Режим сети</string>  
+</resources>

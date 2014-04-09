@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="qsg_app_name">מדריך מקוצר</string>  
+    <string name="skip_button">דלג</string>  
+    <string name="ok_button">התחל</string>  
+    <string name="qsg_title_begin">מדריך מקוצר</string>  
+    <string name="qsg_summary_begin">מדריך מקוצר זה מספק 4 טיפים מועילים ויציג בפניך את המחוות הבסיסיות וניהול מסך הבית.</string>  
+    <string name="next">"הבא"</string>  
+    <string name="play_again">הפעל שוב</string>  
+    <string name="finish">סיום</string>  
+    <string name="qsg_title2_home_screen">הצג את מסך הבית</string>  
+    <string name="qsg_summary2_home_screen">החלק שמאלה או ימינה כדי להציג דפים אחרים במסך הבית.</string>  
+    <string name="qsg_title3_choose_widget">בחר כמה יישומונים</string>  
+    <string name="qsg_summary3_choose_widget">כדי להוסיף יישומון למסך הבית, גע בו נגיעה ממושכת.</string>  
+    <string name="qsg_title4_launch_page">פתח דף פרטים</string>  
+    <string name="qsg_summary4_launch_page">הקש על תמונת פרופיל כדי להקפיץ את דף הפרטים לקבלת אפשרויות.</string>  
+    <string name="qsg_title5_view_notification">הצג התראות</string>  
+    <string name="qsg_summary5_view_notification">החזק את שורת המצב והחלק למטה כדי להציג את כל ההתראות.</string>  
+    <string name="qsg_changesim_title">החלף כרטיס SIM</string>  
+    <string name="qsg_changesim_summary">החלק את שורת המצב למטה ובחר את כרטיס ה-SIM להפעלה.</string>  
+    <string name="qsg_summary_end">עברת על כל הטיפים המופיעים במדריך המקוצר. \n\nאם תרצה, תוכל להקיש על הלחצן "הפעל שוב" כדי להציג שוב את המדריך.\n\nלחלופין, תוכל להקיש על "סיום" כדי להפעיל את המכשיר החדש שלך.</string> 
+</resources>

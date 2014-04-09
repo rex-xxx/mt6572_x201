@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="qsg_app_name">Gabasy sa Mabilis na Pagsisimula</string>  
+    <!-- ============================ -->  
+    <!-- quick start guide strings -->  
+    <!-- ============================ -->  
+    <string name="skip_button">Laktawan</string>  
+    <string name="ok_button">Magsimula</string>  
+    <string name="qsg_title_begin">Gabasy sa Mabilis na Pagsisimula</string>  
+    <string name="qsg_summary_begin">Ang Gabay sa mabili na pagsisimulang ito ay maglalaan ng 4 makakatulong na tip at pakikilala ka sa mga basic na gesture at pamamahala ng home screen.</string>  
+    <string name="next">Susunod</string>  
+    <string name="play_again">I-play muli</string>  
+    <string name="finish">Tapusin</string>  
+    <string name="qsg_title2_home_screen">Tingnan ang Home na screen</string>  
+    <string name="qsg_summary2_home_screen">I-swipe pakaliwa o pakanan upang tingnan ang ibang mga pahina ng Home na screen.</string>  
+    <string name="qsg_title3_choose_widget">Pumili ng ilang mga widget</string>  
+    <string name="qsg_summary3_choose_widget">Upang magdagdag ng widget sa iyong home na screen, hipuin at pigilan ito.</string>  
+    <string name="qsg_title4_launch_page">Ilunsad ang pahina ng detalye</string>  
+    <string name="qsg_summary4_launch_page">Tapikin ang isang profile na larawan upang i-popup ang pahina ng detalye para sa mga opsyon.</string>  
+    <string name="qsg_title5_view_notification">Tingnan ang mga abiso.</string>  
+    <string name="qsg_summary5_view_notification">Hawakan ang status bar upang i-slide pababa para makita lahat ng mga abiso.</string>  
+    <string name="qsg_changesim_title">Magpalit ng SIM card</string>  
+    <string name="qsg_changesim_summary">I-slide pababa ang status bar at piliin ang serbisyong SIM card upang paganahin.</string>  
+    <string name="qsg_summary_end">Nadaanan mo lahat ng mga tip na nilaan sa Gabay ng mabilis na pagsimula. \n\nKung nais mo, maaari kang mag-tap sa pindutan na "i-play muli" upang tingnan muli ang gabay na ito.\n\nBilang kahalili, maaari mong tapikin ang pindutan ng "Tapusin" upang paganahin ang bago mong aparato.</string> 
+</resources>

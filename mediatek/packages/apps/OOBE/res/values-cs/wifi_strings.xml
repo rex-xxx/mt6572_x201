@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string msgid="4746946030627213196" name="wifi_settings">"Nastavení WiFi"</string>  
+    <string msgid="2810363951104753710" name="wifi_settings_category">"Nastavení WiFi"</string>  
+    <string msgid="6710266609710860129" name="wifi_starting">"Zapínání WiFi..."</string>  
+    <string msgid="5952909472548218348" name="wifi_stopping">"Vypínání..."</string>  
+    <string msgid="3207971103917128179" name="wifi_error">"Chyba"</string>  
+    <string msgid="7618393787965366655" name="wifi_in_airplane_mode">"Při režimu V letadle"</string>  
+    <string msgid="6194542252808587669" name="wifi_fail_to_scan">"Nelze vyhledávat sítě"</string>  
+    <string msgid="3755768188029653293" name="wifi_notify_open_networks">"Oznamování sítě"</string>  
+    <string msgid="3038290727701553612" name="wifi_notify_open_networks_summary">"Oznamovat dostupné nezabezpečené sítě"</string>  
+    <string msgid="1671334951296205616" name="wifi_add_network">"Přidat síť WiFi"</string>  
+    <string msgid="1470911530412095868" name="wifi_menu_scan">"Vyhledávání"</string>  
+    <string msgid="7522252991919573664" name="wifi_menu_advanced">"Pokročilé"</string>  
+    <string msgid="4996220309848349408" name="wifi_menu_connect">"Připojit k síti"</string>  
+    <string msgid="8736964302477327114" name="wifi_menu_forget">"Odstranit záznam sítě"</string>  
+    <string msgid="2068554918652440105" name="wifi_menu_modify">"Upravit síť"</string>  
+    <string msgid="641393708309146745" name="wifi_ssid">"Identifikátor SSID sítě"</string>  
+    <string msgid="6603611185592956936" name="wifi_security">"Zabezpečení"</string>  
+    <string msgid="5514120261628065287" name="wifi_signal">"Síla signálu"</string>  
+    <string msgid="4824568012414605414" name="wifi_status">"Stav"</string>  
+    <string msgid="3526198708812322037" name="wifi_speed">"Rychlost připojení"</string>  
+    <string msgid="1440054061044402918" name="wifi_ip_address">"Adresa IP"</string>  
+    <string msgid="8529436133640730382" name="wifi_eap_method">"Metoda EAP"</string>  
+    <string msgid="5231074529772044898" name="please_select_phase2">"Ověření Phase 2"</string>  
+    <string msgid="3521574865488892851" name="wifi_eap_ca_cert">"Certifikát CA"</string>  
+    <string msgid="1291089413368160789" name="wifi_eap_user_cert">"Certifikát uživatele"</string>  
+    <string msgid="4359453783379679103" name="wifi_eap_identity">"Identita"</string>  
+    <string msgid="2989469344116577955" name="wifi_eap_anonymous">"Anonymní identita"</string>  
+    <string msgid="5948219759936151048" name="wifi_password">"Heslo"</string>  
+    <string msgid="4235237470701732009" name="wifi_show_password">"Zobrazovat heslo."</string>  
+    <string name="wifi_hex_password">Hexadecimální heslo.</string>  
+    <string msgid="3410422020930397102" name="wifi_unchanged">"(nezměněno)"</string>  
+    <string msgid="5431501214192991253" name="wifi_unspecified">"(neurčeno)"</string>  
+    <string msgid="8426719916135950136" name="wifi_remembered">"Uložené nastavení"</string>  
+    <string msgid="1136191511238508967" name="wifi_not_in_range">"Mimo dosah"</string>  
+    <string msgid="1076622875777072845" name="wifi_connect">"Připojit"</string>  
+    <string msgid="8168174695608386644" name="wifi_forget">"Odstranit"</string>  
+    <string msgid="3331121567988522826" name="wifi_save">"Uložit"</string>  
+    <string msgid="6763568902542968964" name="wifi_cancel">"Zrušit"</string>  
+    <string msgid="5419052271935350999" name="wifi_advanced_titlebar">"Pokročilé"</string>  
+    <string msgid="1367731352485585528" name="wifi_setting_sleep_policy_title">"Zásady používání sítě Wi-Fi v režimu spánku"</string>  
+    <string msgid="5103670439972135148" name="wifi_setting_sleep_policy_error">"Při nastavení zásad pro režim spánku došlo k problému."</string>  
+    <string msgid="6571335466330978393" name="wifi_advanced_mac_address_title">"Adresa MAC"</string>  
+    <string msgid="6215297094363164846" name="wifi_advanced_ip_address_title">"Adresa IP"</string>  
+    <string msgid="4345739031248760326" name="wifi_ip_settings_titlebar">"Nastavení adresy IP"</string>  
+    <string msgid="7344118050720080045" name="wifi_dns1">"Server DNS 1"</string>  
+    <string msgid="1368601006824882659" name="wifi_dns2">"Server DNS 2"</string>  
+    <string msgid="163914742461092086" name="wifi_gateway">"Brána"</string>  
+    <string msgid="8948641212931906143" name="wifi_tether_enabled_subtext">"Přenosný hotspot 
+        <xliff:g id="NETWORK_SSID">%1$s</xliff:g> je aktivní"
+    </string>  
+    <string name="wapi_user_certificate">"Certifikát uživatele"</string>  
+    <string name="wapi_as_certificate">"Certifikát ASE"</string>  
+    <string msgid="7862009036663793314" name="status_unavailable">"Nedostupný údaj"</string>  
+    <string name="wifi_ctia_test">Nastavení testovacího režimu CTIA</string>  
+    <string name="wifi_ctia_test_summary">Konfigurace testovacího režimu CTIA</string>  
+    <string name="wifi_connect_type_title">Automatický typ připojení</string>  
+    <string name="wifi_setting_connect_type_error">Došlo k problému s nastavením typu připojení.</string>  
+    <string name="wifi_priority_type_title">Nastavit prioritu AP ručně</string>  
+    <string name="wifi_priority_type_summary">Povolit nastavení priority pro každý přístupový bod ručně</string>  
+    <string name="wifi_priority_settings_title">Nastavení priority AP</string>  
+    <string name="wifi_priority_settings_summary">Klepnutím nastavte prioritu každého přístupového bodu</string>  
+    <string name="wifi_priority_label">Priorita</string>  
+    <string name="wifi_priority_settings_label">Nastavení priority</string>  
+    <string name="wifi_ip_settings">"Nastavení adresy IP"</string>  
+    <string name="wifi_disabled_generic">"Vypnuto"</string>  
+    <string name="wifi_disabled_network_failure">Vynechaná špatná připojení k Internetu</string>  
+    <string name="wifi_disabled_password_failure">Problém a ověřením</string>  
+    <string name="wifi_ip_settings_invalid_ip_address">Zadejte platnou adresu IP.</string>  
+    <string name="wifi_ip_settings_invalid_gateway">Zadejte platnou adresu brány.</string>  
+    <string name="wifi_ip_settings_invalid_dns">Zadejte platnou adresu brány DNS.</string>  
+    <string name="wifi_ip_settings_invalid_network_prefix_length">Zadejte délku síťové předpony mezi 0 a 32.</string>  
+    <string name="wifi_network_prefix_length">Délka síťové předpony</string>  
+    <string name="wifi_wps_available_first_item">Dostupné chráněné sítě</string>  
+    <string name="wifi_wps_available_second_item">\u0020(dostupná chráněná síť)</string>  
+    <string name="wifi_secured_first_item">Zabezpečeno pomocí 
+        <xliff:g id="wifi_security_short">%1$s</xliff:g> 
+    </string>  
+    <string name="wifi_secured_second_item">, zabezpečeno pomocí 
+        <xliff:g id="wifi_security_short">%1$s</xliff:g> 
+    </string>  
+    <string name="wifi_security_none">Žádná</string>  
+    <string name="sim_slot">Slot SIM</string>  
+    <string name="wifi_network_netmask">Maska sítě</string>  
+    <string name="wifi_enable_watchdog_service">Vynechat špatná připojení</string>  
+    <string name="wifi_setting_frequency_band_title">Frekvenční pásmo Wi-Fi</string>  
+    <string name="wifi_setting_frequency_band_summary">Určete provozní frekvenční rozsah</string>  
+    <string name="wifi_setting_frequency_band_error">Došlo k problému s nastavením frekvenčního pásma.</string>  
+    <string name="proxy_settings_title">Nastavení proxy</string>  
+    <string name="proxy_clear_text">"Vymazat"</string>  
+    <string name="proxy_port_label">Port serveru proxy</string>  
+    <string name="proxy_exclusionlist_label">Nepoužívat server proxy pro</string>  
+    <string name="proxy_exclusionlist_hint">example.com,mycomp.test.com,localhost</string>  
+    <string name="proxy_defaultView_text">Obnovit výchozí</string>  
+    <string name="proxy_hostname_label">Název hostitele serveru proxy</string>  
+    <string name="proxy_hostname_hint">proxy.example.com</string>  
+    <string name="proxy_error">Upozornění</string>  
+    <string name="proxy_error_dismiss">OK</string>  
+    <string name="proxy_error_empty_port">Musíte vyplnit pole portu.</string>  
+    <string name="proxy_error_empty_host_set_port">Pole portu musí být prázdné, pokud je pole hostitele prázdné.</string>  
+    <string name="proxy_warning_limited_support">HTTP proxy je používáno prohlížečem, ale nemůže být používáno jinými aplikacemi.</string>  
+    <string name="wifi_show_advanced">Zobrazit upřesňující možnosti</string>  
+    <string name="wifi_network_setup">WPS</string>  
+    <string name="wifi_wps_pin">Zadat PIN z přístupového bodu</string>  
+    <string name="wifi_enable_watchdog_service_summary">Nepoužívat síť Wi-Fi, pokud nemá dobré připojení k Internetu</string>  
+    <string name="proxy_error_invalid_host">Zadaný název hostitele není platný.</string>  
+    <string name="proxy_error_invalid_exclusion_list">Zadaný seznam výjimek není správně naformátovaný. Zadejte seznam vyloučených domén oddělených čárkami.</string>  
+    <string name="proxy_error_invalid_port">Zadaný port není platný.</string>  
+    <string name="gsm_to_wifi_connect_type_title">Mobil-&gt;Wi-Fi</string>  
+    <string name="wifi_connect_ap_summary">Určete typ síťového připojení</string>  
+    <string name="select_ssid_type_title">Opakovaný výběr mezi SSID</string>  
+    <string name="proxy_action_text">Hotovo</string>  
+    <string name="wifi_failed_forget_message" msgid="1348172929201654986">"Odstranění záznamu sítě se nezdařilo."</string>  
+    <string name="wifi_failed_save_message" msgid="6650004874143815692">"Uložení sítě se nezdařilo."</string>  
+    <string name="wifi_failed_connect_message" msgid="8491902558970292871">"Připojení k síti se nezdařilo."</string> 
+      <string name="wifi_WEP_transmit_key">Přenést klíč</string>
+      <string name="wifi_WEP_secury_key">Zabezpečovací klíč</string>
+      <string name="wifi_security_wapi_certificate">Certifikát WAPI</string>
+      <string name="wifi_no_cert_for_wapi">Nebylo možné najít certifikaci pro aktuálně připojovaný AP</string>
+      <string name="eap_sim_slot_0">Slot Sim 1</string>
+      <string name="eap_sim_slot_1">Slot Sim 2</string>
+      <string name="eap_sim_aka_airplanemode">Před používáním EAP-SIM/AKA vypněte režim Letadlo</string>
+      <string name="eap_sim_aka_no_sim_error">Aby bylo možné použít EAP-SIM/AKA, musíte vložit kartu SIM</string>
+      <string name="eap_sim_aka_no_sim_slot_selected">Aby bylo možné použít EAP-SIM/AKA, musíte vybrat slot SIM</string>
+      <string name="wifi_ipv4_address">Adresa IPv4</string>
+      <string name="wifi_ipv6_address">Adresa IPv6</string>
+</resources>

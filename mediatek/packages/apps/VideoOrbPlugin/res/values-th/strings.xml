@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="plugin_name">วิดีโอออร์บ</string>
+    <string name="ok">"ตกลง"</string>
+    <string name="cancel">"ยกเลิก"</string>
+    <string name="plugin_description">ดูวิดีโอล่าสุดของคุณ และเล่นบนหน้าจอล็อก</string>
+    <string name="transcoding_prompt">การเตรียมวิดีโอ</string>
+    <string name="transcoding_prompt_description">วิดีโอออร์บจะใช้เวลาสักครู่เพื่อเตรียมวิดีโอ คุณต้องการทำต่อหรือไม่</string>
+    <string name="transcoding_progress_format" translatable="false">"%"</string>
+    <string name="transcoding_clip_format" translatable="false">"/"</string>
+    <string name="video_file_name_format" translatable="false">"_yyyyMMdd_HHmmss"</string>
+    <string name="toast_video_add_cancelled">เพิ่มวิดีโอไม่สำเร็จ</string>
+    <string name="toast_video_unsupported_resolution">ไม่สนับสนุนความละเอียดของวิดีโอ</string>
+    <string name="toast_low_storage" product="nosdcard">"ที่เก็บข้อมูล USB ของคุณเต็ม"</string>
+    <string name="toast_low_storage" product="default">"การ์ด SD ของคุณเต็ม"</string>
+    <string name="toast_invalid_video">รูปแบบวิดีโอที่ไม่สนับสนุน</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">CellConnectionService</string>
+    <string name="button_ok">אישור</string>
+    <string name="button_cancel">ביטול</string>
+    <string name="confirm_radio_title">SIM כבוי</string>
+    <string name="confirm_radio_msg">
+        <xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> 		כבוי כעת. האם להפעיל כרטיס SIM זה?
+    </string>
+    <string name="confirm_radio_msg_single">מצב טיסה הופעל, לכבות אותו?</string>
+    <string name="confirm_pin_title">SIM ננעל</string>
+    <string name="confirm_pin_msg">כרטיס ה-SIM הנבחר נעול כעת. תחילה עליך לשחרר אותו. 		</string>
+    <string name="confirm_simmelock_title">SIM ME ננעל</string>
+    <string name="confirm_simmelock_msg">חריץ ה-SIM הנבחר נעול כעת. תחילה עליך לשחרר אותו.</string>
+    <string name="confirm_fdn_title">FDN מאופשר</string>
+    <string name="confirm_fdn_msg">מספרי החיוג הקבועים מאופשרים.</string>
+    <string name="confirm_roaming_title">אזהרת נדידה</string>
+    <string name="confirm_roaming_msg">כרטיס ה-SIM בו אתה מתכוון להשתמש  		נמצא כעת במצב נדידה. אין כעת SIM מקומי זמין. האם להמשיך?</string>
+    <string name="confirm_roaming_withPrefer_msg">כרטיס ה-SIM בו אתה מתכוון להשתמש נמצא כעת במצב נדידה. האם להמשיך את השימוש באמצעות כרטיס ה-SIM המקומי?</string>
+    <string name="confirm_roaming_lbutton">המשך</string>
+    <string name="confirm_roaming_rbutton">ביטול</string>
+    <string name="confirm_roamingWithPrefer_lbutton">SIM מקומי</string>
+    <string name="confirm_roamingWithPrefer_rbutton">SIM בנדידה</string>
+    <string name="confirm_radio_lbutton">הפעל</string>
+    <string name="confirm_unlock_lbutton">שחרר</string>
+    <string name="confirm_unlock_fail">הפעולה בוטלה</string>
+    <string name="confirm_turnon_radio_fail">הפעולה בוטלה</string>
+    <string name="confirm_permit_roaming_fail">ביטלת את הפעולה בכרטיס ה-SIM שבנדידה</string>
+    <string name="confirm_sim_locked_message">כרטיס ה-SIM ננעל לצמיתות</string>
+    <string name="confirm_slot_locked_message">החריץ ננעל לצמיתות</string>
+</resources>

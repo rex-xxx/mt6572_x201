@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mediatek.todos.tests"
+    android:versionCode="1"
+    android:versionName="1.0" >  
+    <application >
+        <uses-library android:name="android.test.runner" />
+        <uses-library android:name="com.jayway.android.robotium"/>
+    </application>
+
+    <uses-sdk android:minSdkVersion="14" />
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:targetPackage="com.mediatek.todos" />
+    <instrumentation
+        android:name="com.mediatek.todos.tests.TodosTestRunner"
+        android:targetPackage="com.mediatek.todos" />
+    <instrumentation android:name=".performance.TodosLaunchPerformance"
+        android:targetPackage="com.mediatek.todos"
+        android:label="Todos Launch Performance">
+    </instrumentation>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.INJECT_EVENTS" />
+</manifest>

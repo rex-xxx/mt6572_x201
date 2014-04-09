@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string msgid="4114084177056654663" name="date_and_time">তারিখ &amp; সময় সেটিং</string>  
+    <string msgid="3259617262618020574" name="date_time_12_hour_sample">১:০০ অপরাহ্ন</string>  
+    <string msgid="7762866468013985022" name="choose_timezone">সময় অঞ্চল নির্বাচন করুন</string>  
+    <string msgid="1982904221918374153" name="normal_date_format">সাধারণ ( 
+        <xliff:g example="12-31-2009" id="date">%s</xliff:g>)
+    </string>  
+    <string msgid="3086083265745944725" name="date_time_auto">স্বয়ংক্রিয়ভাবে নেটওয়ার্ক দ্বারা</string>  
+    <string msgid="1193032284921000063" name="date_time_24hour">২৪-ঘণ্টা ফরমেট ব্যবহার করুন</string>  
+    <string msgid="5716856602742530696" name="date_time_set_time">সময় সেট করুন</string>  
+    <string msgid="5045627174274377814" name="date_time_set_timezone">সময় অঞ্চল নির্বাচন করুন</string>  
+    <string msgid="7021491668550232105" name="date_time_set_date">সময় সেট করুন</string>  
+    <string msgid="436706100255870967" name="date_time_date_format">তারিখের ফরমেট নির্বাচন করুন</string>  
+    <string msgid="5683377702671088588" name="zone_list_menu_sort_alphabetically">বর্ণনাক্রমিকভাবে সাজান</string>  
+    <string msgid="2720190443744884114" name="zone_list_menu_sort_by_timezone">সময় অঞ্চল অনুযায়ী সাজান</string>  
+    <string name="zone_auto">স্বয়ংক্রিয় সময় অঞ্চল</string>  
+    <string name="zone_auto_summaryOn">নেটওয়ার্ক প্রদত্ত সময় অঞ্চল ব্যবহার করুন</string>  
+    <string name="zone_auto_summaryOff">নেটওয়ার্ক প্রদত্ত সময় অঞ্চল ব্যবহার করুন</string> 
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.mediatek.appwidget.worldclock"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/ic_clock" android:label="@string/app_name">
+    <activity
+            android:name=".AutoCompleteTextViewActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:excludeFromRecents="true">
+        </activity>
+        <activity 
+            android:name=".ChooseActivity"
+            android:launchMode="singleTask"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+        </activity>
+        <receiver android:name=".WorldClockWidgetProvider">
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/appwidget_provider" />
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.LOCALE_CHANGED" />
+                <action
+                    android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action
+                    android:name="com.android.launcher.Clock_sytle" />
+                <action 
+                    android:name="android.intent.action.mtk.worldclock.deleteIntent"
+                    />
+            </intent-filter>
+        </receiver>
+
+    </application>
+    <uses-sdk android:minSdkVersion="14" />
+
+</manifest> 

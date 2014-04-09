@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Wereldklok</string>
+    <string name="current_time_text">Huidig</string>
+    <string name="another_city_text">Toevoegen</string>
+    <string name="ime_action_done">Gereed</string>
+    <string name="a_city_selected">Een geselecteerde plaats</string>
+    <string name="search_city">Plaats zoeken</string>
+    <string name="next">Volgende</string>
+    <string name="select_right_city">Die stad bestaat niet.</string>
+    <string name="clock_loading">Laden\u2026</string>
+	<string name="add_new_city">Nieuwe plaats toevoegen</string>  
+    <string name="delete_city">Plaats verwijderen</string>  
+    <string name="delete_city_info">De plaats wordt verwijderd</string>  
+    <string name="deleteok">Verwijderen</string>  
+    <string name="cancel">Annuleren</string>
+	<string name="add_city">Druk op pictogram om een nieuwe stad toe te voegen</string> 
+    <string name="has_chosen">is gekozen.</string>
+</resources>
+

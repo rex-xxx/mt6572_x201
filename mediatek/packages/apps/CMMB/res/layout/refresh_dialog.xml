@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<ScrollView                   
+android:layout_width="match_parent"                  
+android:layout_height="match_parent"                  
+xmlns:android="http://schemas.android.com/apk/res/android"> 
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">		        
+	<LinearLayout android:id="@+id/auto_refresh"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:clickable = "true"
+	android:focusable="true"
+	android:background="@android:drawable/list_selector_background">    
+		<TextView 
+			        android:layout_height="wrap_content"
+			        android:layout_width="wrap_content"
+			        android:layout_weight="1"
+			        android:layout_marginLeft="20dip"
+			        android:layout_marginRight="20dip"
+			        android:textStyle="bold"
+			        android:text="@string/auto_refresh"	 			              	        
+			        android:textAppearance="?android:attr/textAppearanceMedium" />    
+		<CheckBox
+					android:id="@+id/auto_checkbox"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentRight="true"				
+					android:layout_centerVertical="true"						
+					android:paddingRight="10dp"/> 
+	</LinearLayout>
+	
+	<ImageView android:id="@+id/divider"
+			android:layout_width="match_parent" 
+			android:layout_height="1dp"
+	        android:layout_marginTop="5dip"
+	        android:layout_marginBottom="5dip"			
+			android:background="@android:drawable/divider_horizontal_bright"/>	
+			
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"	    
+	    android:orientation="vertical">   
+    <TextView android:id="@+id/specify_location"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:textStyle="bold"
+        android:text="@string/specify_location"
+        android:gravity="left"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+            	
+    <TextView android:id="@+id/input_city_hint"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"    
+        android:text="@string/input_city_hint"
+		android:textStyle="italic"        
+        android:gravity="left"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+            
+    <EditText
+        android:id="@+id/city_editor"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:scrollHorizontally="true"
+        android:autoText="false"
+        android:capitalize="none"
+        android:gravity="fill_horizontal"
+        android:inputType="textPersonName"        
+        android:maxLength="20"
+        android:imeOptions="actionDone"
+        android:textAppearance="?android:attr/textAppearanceMedium" /> 
+    </LinearLayout>
+</LinearLayout>
+</ScrollView> 

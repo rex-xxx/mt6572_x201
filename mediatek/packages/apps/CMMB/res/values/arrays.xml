@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="mbbms_description_text">
+        <item>Processing error. Please try again later.(001)</item>
+        <item>Package information errors. Please update the service guide and try again.(003)</item>
+        <item>The server is busy. Please try again later.(007)</item>
+        <item>Processing error. Please consult mobile phone manufacturer.(008)</item>
+        <item>The package has not been subscribed. Please update subscription table.(010)</item>
+        <item>No permission to subscribe the package. Please consult the operator for detail information.(011)</item>
+        <item>Processing error. Please try again later.(015)</item>
+        <item>The request has been processed. Please wait.(016)</item>
+        <item>Processing error. Please consult the operator.(022)</item>
+        <item>Processing error. Please try again later.(024)</item>
+        <item>Fail to subscribe the package since it is included in another package that had been subscribed.(027)</item>
+        <item>The area you are located does not support mobile TV service.(028)</item>
+        <item>The package has been subscribed. Please update the subscription table. (029)</item>
+        <item>The package can not be subscribed due to money is not enough.(131)</item>
+        <item>The channel list and content list can not be updated due to weak signal. Please try again later.(2001)</item>
+        <item>Can not connect to the mobile network. Please check the network settings.(2201)</item>
+        <item>Fail to update subscription table. Please try again later.(2202)</item>
+        <item>Connection timeout. Please try again later.(2203)</item>
+        <item>Processing error. Please try again later.(2204)</item>
+        <item>File parsing error. Please try again later.(4101)</item>
+        <item>Bad program frequency. Please try again later.(4102)</item>
+        <item>Bad network parameter. Please try again later.(4103)</item>
+        <item>Processing error. Please try again later.(4104)</item>
+        <item>Bad user name. Please try again later.(5201)</item>
+        <item>Authentication failed. Please try again later.(5202)</item>
+    </string-array>
+    
+    <string-array name="mbbms_description_id" translatable="false">
+        <item>001</item>
+        <item>003</item>
+        <item>007</item>
+        <item>008</item>
+        <item>010</item>
+        <item>011</item>
+        <item>015</item>
+        <item>016</item>
+        <item>022</item>
+        <item>024</item>
+        <item>027</item>
+        <item>028</item>
+        <item>029</item>
+        <item>131</item>
+        <item>2001</item>
+        <item>2201</item>
+        <item>2202</item>
+        <item>2203</item>
+        <item>2204</item>
+        <item>4101</item>
+        <item>4102</item>
+        <item>4103</item>
+        <item>4104</item>
+        <item>5101</item>
+        <item>5102</item>
+    </string-array>
+</resources>

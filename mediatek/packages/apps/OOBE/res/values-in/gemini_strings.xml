@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="gemini_sim_info_title">Informasi SIM</string>  
+    <string name="gemini_default_sim_title">SIM Default</string>  
+    <string name="gemini_general_settings_title">Pengaturan umum</string>  
+    <string name="gemini_roaming_settings_title">Roaming</string>  
+    <string name="gemini_contacts_sim_title">"Kontak &amp; SIM"</string>  
+    <string name="gemini_contacts_sim_summary">Kaitkan kontak dengan kartu SIM</string>  
+    <string name="gemini_voice_call">Panggilan suara</string>  
+    <string name="gemini_video_call">Panggilan video</string>  
+    <string name="gemini_data_connection">Sambungan data</string>  
+    <string name="gemini_msg">Perpesanan</string>  
+    <string name="gemini_default_sim_always_ask">Selalu tanya</string>  
+    <string name="gemini_intenet_call">Panggilan Internet</string>  
+    <string name="gemini_default_sim_never">Nonaktif</string>  
+    <string name="gemini_default_sim_3g_off">Nonaktifkan</string>  
+    <string name="gemini_sim_info_editor_name">Edit nama SIM</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">Menyimpan gagal</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">Nama duplikat di kartu SIM</string>  
+    <string name="gemini_sim_info_editor_number">Masukkan nomor telepon</string>  
+    <string name="gemini_sim_info_editor_color">Atur warna latar</string>  
+    <string name="gemini_sim_info_editor_number_display_format">Tampilkan nomor</string>  
+    <string name="gemini_no_sim_indicator">Tidak ada kartu SIM</string>  
+    <string name="gemini_data_connection_progress_message">"Tunggu......"</string>  
+    <string name="gemini_3g_modem_switching_message">"Pengalihan SIM memerlukan waktu sekitar 10 detik. Tunggu…"</string>  
+    <string name="gemini_3g_modem_switch_confirm_message">"Tindakan ini juga akan mengalihkan layanan 3G ke SIM ini. Lanjutkan? Pastikan juga SIM yang dipilih mendukung layanan 3G."</string>  
+    <string msgid="7422262558097875757" name="apn_not_set">"Tidak disetel"</string>  
+    <string name="gemini_3g_disable_warning_case0">"Anda harus terlebih dulu mengaktifkan roaming data untuk SIM ini yang dapat menimbulkan biaya roaming signifikan! Anda yakin ingin mengaktifkan roaming data dan memilih SIM ini?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"Layanan 3G tidak tersedia dengan SIM yang dipilih ini. Hal ini dapat memperlambat pemuatan data. Anda dapat mengubah pengaturan layanan 3G dalam Pengaturan &gt; Nirkabel &amp; jaringan &gt; Jaringan ponsel. Anda yakin ingin memilih SIM ini?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"Layanan 3G tidak tersedia dengan SIM yang dipilih ini. Hal ini dapat memperlambat pemuatan data. Anda dapat mengubah pengaturan layanan 3G dalam Pengaturan &gt; Manajemen SIM. Anda yakin ingin memilih SIM ini?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"Anda harus terlebih dulu mengaktifkan roaming data untuk SIM ini yang dapat menimbulkan biaya roaming yang besar! Selain itu, layanan 3G tidak tersedia dengan SIM ini. Hal ini dapat memperlambat pemuatan data. Anda dapat mengubahnya dalam Pengaturan &gt; Nirkabel &amp; jaringan &gt; Jaringan ponsel. Anda yakin ingin mengaktifkan roaming data dan memilih SIM ini?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"Anda harus terlebih dulu mengaktifkan roaming data untuk SIM ini yang dapat menimbulkan biaya roaming yang besar! Selain itu, layanan 3G tidak tersedia dengan SIM ini. Hal ini dapat memperlambat pemuatan data. Anda dapat mengubahnya dalam Pengaturan &gt; Manajemen SIM. Anda yakin ingin mengaktifkan roaming data dan memilih SIM ini?"</string>  
+    <string name="gemini_gsm_umts_network_preferences_title">Mode Jaringan</string>  
+    <string name="gemini_sim_mode_progress_activating_message">Mengaktifkan\u2026</string>  
+    <string name="gemini_sim_mode_progress_deactivating_message">Menonaktifkan\u2026</string>  
+</resources>

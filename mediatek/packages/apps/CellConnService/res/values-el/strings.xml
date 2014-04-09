@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">Υπηρεσία σύνδεσης κινητού</string>  
+    <string name="button_ok">ΟΚ</string>  
+    <string name="button_cancel">Ακύρωση
+</string>  
+    <string name="confirm_radio_title">Η κάρτα SIM είναι απενεργοποιημένη</string>  
+    <string name="confirm_radio_msg">Το 
+        <xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> έχει τώρα απενεργοποιηθεί. Θέλετε να ενεργοποιήσετε αυτή την κάρτα SIM;
+    </string>  
+    <string name="confirm_radio_msg_single">Η λειτουργία πτήσης είναι τώρα ενεργοποιημένη, θέλετε να την απενεργοποιήσετε;</string>  
+    <string name="confirm_pin_title">Η κάρτα SIM είναι κλειδωμένη</string>  
+    <string name="confirm_pin_msg">Η επιλεγμένη κάρτα SIM είναι τώρα κλειδωμένη. Πρώτα, ξεκλειδώστε την.</string>  
+    <string name="confirm_simmelock_title">Η κάρτα SIM ME είναι κλειδωμένη</string>  
+    <string name="confirm_simmelock_msg">Η επιλεγμένη υποδοχή SIM είναι τώρα κλειδωμένη. Πρώτα, ξεκλειδώστε την.</string>  
+    <string name="confirm_fdn_title">Η λειτουργία FDN είναι ενεργοποιημένη</string>  
+    <string name="confirm_fdn_msg">Η λειτουργία προκαθορισμένων αριθμών κλήσης είναι ενεργοποιημένη.</string>  
+    <string name="confirm_roaming_title">Προειδοποίηση περιαγωγής</string>  
+    <string name="confirm_roaming_msg">Η κάρτα SIM που σκοπεύετε να χρησιμοποιήσετε είναι σε περιαγωγή. Δεν υπάρχει διαθέσιμη τοπική κάρτα SIM αυτήν τη στιγμή. Θέλετε να συνεχίσετε;</string>  
+    <string name="confirm_roaming_withPrefer_msg">Η κάρτα SIM που σκοπεύετε να χρησιμοποιήσετε είναι σε περιαγωγή. Θέλετε να συνεχίσετε μέσω της τοπικής κάρτας SIM;</string>  
+    <string name="confirm_roaming_lbutton">Συνεχίστε
+</string>  
+    <string name="confirm_roaming_rbutton">Ακύρωση
+</string>  
+    <string name="confirm_roamingWithPrefer_lbutton">Τοπική κάρτα SIM</string>  
+    <string name="confirm_roamingWithPrefer_rbutton">Κάρτα SIM σε περιαγωγή</string>  
+    <string name="confirm_radio_lbutton">Άνοιγμα</string>  
+    <string name="confirm_unlock_lbutton">Ξεκλείδωμα</string>  
+    <string name="confirm_disable_lbutton">δεν επιτρέπεται</string>  
+    <string name="confirm_unlock_fail">Η λειτουργία έχει ακυρωθεί</string>  
+    <string name="confirm_turnon_radio_fail">Η λειτουργία έχει ακυρωθεί</string>  
+    <string name="confirm_permit_roaming_fail">Ακυρώσατε αυτήν την ενέργεια στην κάρτα SIM που είναι σε περιαγωγή</string>  
+    <string name="confirm_sim_locked_message">Η κάρτα SIM έχει κλειδώσει οριστικά</string>  
+    <string name="confirm_slot_locked_message">Η υποδοχή της κάρτας SIM έχει κλειδώσει οριστικά</string> 
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="gemini_sim_info_title">Thông tin SIM</string>  
+    <string name="gemini_default_sim_title">SIM mặc định</string>  
+    <string name="gemini_general_settings_title">Cài đặt chung</string>  
+    <string name="gemini_roaming_settings_title">Chuyển vùng</string>  
+    <string name="gemini_contacts_sim_title">"Danh bạ &amp; SIM"</string>  
+    <string name="gemini_contacts_sim_summary">Kết hợp danh bạ với một SIM cụ thể</string>  
+    <string name="gemini_voice_call">Gọi thoại</string>  
+    <string name="gemini_video_call">Gọi video</string>  
+    <string name="gemini_data_connection">Kết nối dữ liệu</string>  
+    <string name="gemini_msg">Tin nhắn</string>  
+    <string name="gemini_default_sim_always_ask">Luôn hỏi</string>  
+    <string name="gemini_intenet_call">Gọi internet</string>  
+    <string name="gemini_default_sim_never">Tắt</string>  
+    <string name="gemini_default_sim_3g_off">Tắt</string>  
+    <string name="gemini_sim_info_editor_name">Sửa tên SIM</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">Không thể lưu</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">Trùng tên cho thẻ SIM</string>  
+    <string name="gemini_sim_info_editor_number">Nhập số ĐT</string>  
+    <string name="gemini_sim_info_editor_color">Cài màu nền</string>  
+    <string name="gemini_sim_info_editor_number_display_format">Hiển thị các số</string>  
+    <string name="gemini_no_sim_indicator">Chưa lắp SIM</string>  
+    <string name="gemini_data_connection_progress_message">"Hãy đợi......"</string>  
+    <string name="gemini_3g_modem_switching_message">"Chuyển đổi SIM sẽ mất khoảng 10 giây. Hãy đợi…"</string>  
+    <string name="gemini_3g_modem_switch_confirm_message">"Thao tác này cũng sẽ chuyển dịch vụ 3G sang SIM này. Tiếp tục? Cũng nên đảm bảo SIM vừa chọn này có hỗ trợ dịch vụ 3G."</string>  
+    <string name="gemini_sim_mode_progress_activating_message">Đang k.hoạt......</string>  
+    <string name="gemini_sim_mode_progress_deactivating_message">Đang ngưng k.hoạt......</string>  
+    <string msgid="7422262558097875757" name="apn_not_set">"Chưa được đặt"</string>  
+    <string name="gemini_3g_disable_warning_case0">"Trước tiên bạn phải bật chuyển vùng dữ liệu cho SIM này vốn có thể chịu các mức cước chuyển vùng đáng kể! Bạn chắc chắn muốn bật chuyển dùng dữ liệu và chọn SIM này?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"Dịch vụ 3G không có sẵn với SIM vừa chọn này. T.tác này có thể tải dữ liệu chậm hơn. Bạn có thể thay đổi cài đặt dịch vụ 3G trong Cài đặt &gt; Không dây &amp; mạng &gt; Mạng di động. Chắc chắn muốn chọn SIM này?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"Dịch vụ 3G không có sẵn với SIM vừa chọn này. T.tác này có thể tải dữ liệu chậm hơn. Bạn có thể thay đổi cài đặt dịch vụ 3G trong Cài đặt &gt; Quản lý SIM. Chắc chắn muốn chọn SIM này?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"Trước tiên bạn phải bật ch.vùng dữ liệu cho SIM này vốn có thể chịu mức cước ch.vùng đáng kể! Ngoài ra, dịch vụ 3G không có sẵn với SIM này. T.tác này có thể tải dữ liệu chậm hơn. Bạn có thể thay đổi nó trong Cài đặt &gt; Không dây &amp; mạng &gt; Mạng di động. Bạn chắc chắn muốn bật ch.vùng dữ liệu và chọn SIM này?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"Trước tiên bạn phải bật ch.vùng dữ liệu cho SIM này vốn có thể chịu mức cước ch.vùng đáng kể! Ngoài ra, dịch vụ 3G không có sẵn với SIM này. T.tác này có thể tải dữ liệu chậm hơn. Bạn có thể thay đổi nó trong Cài đặt &gt; Quản lý SIM. Bạn chắc chắn muốn bật ch.vùng dữ liệu và chọn SIM này?"</string>  
+    <string name="gemini_gsm_umts_network_preferences_title">Chế độ mạng</string>  
+</resources>

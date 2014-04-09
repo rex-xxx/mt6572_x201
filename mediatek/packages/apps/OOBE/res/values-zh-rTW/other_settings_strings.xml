@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string msgid="4114084177056654663" name="date_and_time">"日期與時間設定"</string>  
+    <string msgid="3259617262618020574" name="date_time_12_hour_sample">"下午 1:00"</string>  
+    <string msgid="7762866468013985022" name="choose_timezone">"選取時區"</string>  
+    <string msgid="1982904221918374153" name="normal_date_format">"一般 ( 
+        <xliff:g id="DATE">%s</xliff:g>)"
+    </string>  
+    <string msgid="3086083265745944725" name="date_time_auto">"與網路自動同步"</string>  
+    <string msgid="1193032284921000063" name="date_time_24hour">"使用 24 小時格式"</string>  
+    <string msgid="5716856602742530696" name="date_time_set_time">"設定時間"</string>  
+    <string msgid="5045627174274377814" name="date_time_set_timezone">"選取時區"</string>  
+    <string msgid="7021491668550232105" name="date_time_set_date">"設定日期"</string>  
+    <string msgid="436706100255870967" name="date_time_date_format">"選取日期格式"</string>  
+    <string msgid="5683377702671088588" name="zone_list_menu_sort_alphabetically">"依照字母排序"</string>  
+    <string msgid="2720190443744884114" name="zone_list_menu_sort_by_timezone">"依時區排序"</string>  
+    <string name="zone_auto">自動設置時區</string>  
+    <string name="zone_auto_summaryOn">使用網路提供之時區</string>  
+    <string name="zone_auto_summaryOff">使用網路提供之時區</string> 
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="gemini_sim_info_title">SIM-gegevens</string>  
+    <string name="gemini_default_sim_title">Standaard SIM</string>  
+    <string name="gemini_general_settings_title">Algemene instellingen</string>  
+    <string name="gemini_roaming_settings_title">Roaming</string>  
+    <string name="gemini_contacts_sim_title">"Contactpersonen &amp; SIM"</string>  
+    <string name="gemini_contacts_sim_summary">Contactpersonen koppelen met een specifieke SIM</string>  
+    <string name="gemini_voice_call">Spraakoproep</string>  
+    <string name="gemini_video_call">Videogesprek</string>  
+    <string name="gemini_data_connection">Gegevensverbinding</string>  
+    <string name="gemini_msg">Berichten</string>  
+    <string name="gemini_default_sim_always_ask">Altijd vragen</string>  
+    <string name="gemini_intenet_call">Internetgesprek</string>  
+    <string name="gemini_default_sim_never">Uit</string>  
+    <string name="gemini_default_sim_3g_off">Uit</string>  
+    <string name="gemini_sim_info_editor_name">SIM-naam bewerken</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">Opslaan mislukt</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">Dubbele naam voor SIM-kaart</string>  
+    <string name="gemini_sim_info_editor_number">Telefoonnummer invoeren</string>  
+    <string name="gemini_sim_info_editor_color">Achtergrondkleur instellen</string>  
+    <string name="gemini_sim_info_editor_number_display_format">Nummers weergeven</string>  
+    <string name="gemini_no_sim_indicator">Geen SIM-kaart</string>  
+    <string name="gemini_data_connection_progress_message">"Een ogenblik geduld..."</string>  
+    <string name="gemini_3g_modem_switching_message">"Het schakelen naar een SIM duurt ongeveer 10 seconden. Een ogenblik geduld…"</string>  
+    <string name="gemini_3g_modem_switch_confirm_message">"Dit zal ook de 3G-service schakelen naar deze SIM. Doorgaan? Zorg dat deze geselecteerde SIM 3G-service ondersteunt."</string>  
+    <string name="gemini_gsm_umts_network_preferences_title">Netwerkmodus</string>  
+    <string name="gemini_sim_mode_progress_activating_message">Activeren\u2026</string>  
+    <string name="gemini_sim_mode_progress_deactivating_message">Deactiveren\u2026</string>  
+    <string msgid="7422262558097875757" name="apn_not_set">"Niet ingesteld"</string>  
+    <string name="gemini_3g_disable_warning_case0">"Voor deze SIM moet u eerst gegevens-roaming inschakelen, wat aanzienlijke roaming-kosten kan veroorzaken! Weet u zeker dat u gegevensroaming wilt inschakelen en deze SIM wilt selecteren?”</string>  
+    <string name="gemini_3g_disable_warning_case1">"3G-service niet beschikbaar voor deze SIM. Gegevens kunnen langzamer laden. U kunt de instelling voor 3G-service wijzigen onder Instellingen &gt; Draadloos en netwerken &gt; Mobiele netwerken. Weet u zeker dat u deze SIM wilt selecteren?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"3G-service niet beschikbaar voor deze SIM. Gegevens kunnen langzamer laden. U kunt de instelling voor 3G-service wijzigen onder Instellingen &gt; SIM-beheer. Weet u zeker dat u deze SIM wilt selecteren?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"Voor deze SIM moet u eerst gegevens-roaming inschakelen, wat aanzienlijke roaming-kosten kan veroorzaken! Overigens is de 3G-service niet beschikbaar voor deze SIM. Gegevens kunnen langzamer laden. U kunt dit wijzigen onder Instellingen &gt; Draadloos en netwerken &gt; Mobiele netwerken. Weet u zeker dat u gegevensroaming wilt inschakelen en deze SIM wilt selecteren?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"Voor deze SIM moet u eerst gegevens-roaming inschakelen, wat aanzienlijke roaming-kosten kan veroorzaken! Overigens is de 3G-service niet beschikbaar voor deze SIM. Gegevens kunnen langzamer laden. U kunt dit wijzigen onder Instellingen &gt; SIM-beheer Weet u zeker dat u gegevensroaming wilt inschakelen en deze SIM wilt selecteren?”</string> 
+</resources>

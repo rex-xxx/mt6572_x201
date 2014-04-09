@@ -1,0 +1,20 @@
+<FindBugsFilter>
+    <Match>
+       <Class name="com.mediatek.word3d.R" />
+    </Match>
+    <Match>
+        <Class name="~com\.mediatek\.word3d\.R\$.*" />
+    </Match>
+    <Match>
+        <Package name="~com\.mediatek\.word3d\.R.*" />
+    </Match>
+    <Match>
+        <Package name="~com\.mediatek\.glui\.*.*" />
+    </Match>
+    <Match>
+        <Package name="~com\.mediatek\.a3m\.*.*" />
+    </Match>
+    <Match>
+        <Package name="~com\.mediatek\.ngin3d\.*.*" />
+    </Match>
+</FindBugsFilter>

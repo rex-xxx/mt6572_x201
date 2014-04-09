@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="next">"下一頁"</string>
+    <string name="scroll_left_bar_title">捲動查看更多的截圖模式</string>
+    <string name="zoome_title">放大/縮小</string>
+</resources>

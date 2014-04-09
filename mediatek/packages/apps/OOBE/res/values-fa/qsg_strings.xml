@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="qsg_app_name">راهنمای آغاز به کار سریع</string>  
+    <!-- ============================ -->  
+    <!-- quick start guide strings -->  
+    <!-- ============================ -->  
+    <string name="skip_button">رد کردن</string>  
+    <string name="ok_button">شروع</string>  
+    <string name="qsg_title_begin">راهنمای آغاز به کار سریع</string>  
+    <string name="qsg_summary_begin">راهنمای آغاز به کار سریع 4 راهنمایی مفید را ارائه می دهد و حرکات ابتدایی و چگونگی مدیریت صفحه خانه را معرفی می کند.</string>  
+    <string name="next">بعدی</string>  
+    <string name="play_again">پخش مجدد</string>  
+    <string name="finish">پایان</string>  
+    <string name="qsg_title2_home_screen">مشاهده صفحه اصلی</string>  
+    <string name="qsg_summary2_home_screen">برای رفتن به یکی از صفحات در صفحه اصلی به چپ یا راست دست بکشید.</string>  
+    <string name="qsg_title3_choose_widget">بعضی ویجت ها را انتخاب کنید</string>  
+    <string name="qsg_summary3_choose_widget">برای افزودن يک ویجت به صفحه اصلی، آن را لمس کرده و نگه دارید.</string>  
+    <string name="qsg_title4_launch_page">اجرای صفحه جزييات</string>  
+    <string name="qsg_summary4_launch_page">روی تصویر پروفایل ضربه بزنید تا صفحه جزییات برای تنظیم گزینه ها باز شود.</string>  
+    <string name="qsg_title5_view_notification">مشاهده اعلانها</string>  
+    <string name="qsg_summary5_view_notification">نوار وضعیت را نگه دارید و برای مشاهده همه اعلان ها به پایین بکشید.</string>  
+    <string name="qsg_changesim_title">تعویض سيم کارت</string>  
+    <string name="qsg_changesim_summary">نوار وضعیت را به پایین بکشید و سرویس سیم کارت را برای فعالسازی انتخاب کنید.</string>  
+    <string name="qsg_summary_end">شما همه ترفندهای راهنمای شروع سریع را پشت سر گذاشته اید. \n\nدر صورت تمایل می توانید روی دکمه "پخش مجدد" ضربه بزنید تا دوباره این راهنما را مشاهده کنید.\n\nهمچنین می توانید روی دکمه "پایان" ضربه بزنید تا از دستگاه جدیدتان استفاده کنید.</string> 
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+
+    <!-- OOBE part begin -->  
+    <string name="app_name">OOBE</string>  
+    <string name="oobe_btn_text_next">Következő</string>  
+    <string name="oobe_btn_text_back">Vissza</string>  
+    <string name="oobe_btn_text_finish">Befejezés</string>  
+    <string name="oobe_btn_text_skip">Átugrás</string>  
+    <string name="oobe_btn_text_dismiss">Elvet</string>  
+    <string name="oobe_title_language_setting">Nyelvválasztás</string>  
+    <string name="oobe_summary_language_setting">Válassza ki a kívánt nyelvet a telefonhoz</string>  
+    <string name="oobe_title_keyboard_setting">Billentyűzetek választása</string>  
+    <string name="oobe_summary_keyboard_setting">Válassza ki a kívánt billentyűzeteket.</string>  
+    <string name="oobe_title_import_contacts">Partnerek importálása a SIM-ről</string>  
+    <string name="oobe_summary_import_contacts">Kiválaszthatja az összes beillesztett SIM-kártyát vagy egyes SIM-kártyákat a partnerek telefonra importálásához.</string>  
+    <string name="oobe_title_internet_connection_setting">Internetkapcsolat választása</string>  
+    <string name="oobe_summary_internet_connection">Jelölje ki a kívánt internetkapcsolatot. Ezek a lehetőségek később módosíthatók a Settings (Beállítások) menüben.</string>  
+    <string name="oobe_title_sim_management">SIM kezelése</string>  
+    <string name="oobe_summary_sim_management">Érintse meg a SIM autó elemet adatainak szerkesztéséhez. Általában a szolgáltató neve az alapértelmezett SIM-név.</string>  
+    <string name="oobe_title_default_sim">Alapértelmezett SIM beállítása</string>  
+    <string name="oobe_summary_default_sim">A kívánt SIM kijelölése alapértelmezett beállításként e szolgáltatásokhoz.</string>  
+    <string name="oobe_title_wifi_settings">Wi-Fi hálózat beállítása</string>  
+    <string name="oobe_summary_wifi_settings">Érintse meg a kívánt Wi-Fi hálózat kiválasztásához az alábbiak közül</string>  
+    <string name="oobe_title_date_time">Dátum &amp; idő beállítása</string>  
+    <string name="oobe_summary_date_time">Érintse meg a dátum &amp; idő formátum kiválasztásához, majd szükség esetén kézzel állítsa be a Dátum &amp; Idő info. elemet.</string>  
+    <string name="oobe_locale_switching">Várakozás…</string>  
+    <string name="oobe_ime_suggested">Javasolt</string>  
+    <string name="oobe_gemini_3g_indic">3G</string>  
+    <string name="oobe_internet_gprs_or_wifi_title">Mobilhálózat vagy Wi-Fi</string>  
+    <string name="oobe_internet_gprs_or_wifi_summary">Jelölje ki a kívánt internetkapcsolatot. Ezek a lehetőségek később módosíthatók a Settings (Beállítások) menüben.</string>  
+    <string name="oobe_internet_wifi_only_title">Csak Wi-Fi</string>  
+    <string name="oobe_internet_wifi_only_summary">Ezt akkor válassza, ha nincs adat-előfizetése</string>  
+    <string name="oobe_btn_start_import_contacts">Importálás indítása</string>  
+    <string name="oobe_btn_cancel_import_contacts">Mégse</string>  
+    <string name="oobe_note_import_contacts_prepare">Kis türelmet, amíg megtörténik a SIM partnerek másolása.</string>  
+    <string name="oobe_note_import_contacts_going">Az importálás során a következő lépéssel folytathatja az eljárást.</string>  
+    <string name="oobe_note_import_contacts_finish">A másolás kész. Folytathatja a következő lépéssel.</string>  
+    <string name="oobe_note_import_contacts_cancel">Importálás megszakítva. A következő lépésre ugorhat, vagy újrakezdheti az importálást.</string>  
+    <string name="oobe_note_progress_copy_contacts">%1$d / %2$d partner</string>  
+    <string name="oobe_note_copy_contacts_waiting">Várakozás…</string>  
+    <string name="basic_congratulation_title">Gratulálunk!</string>  
+    <string name="basic_congratulation_summary">Végzett az összes alapbeállítással. Az új eszközöket használatba veheti.\n\nA beállításokat bármikor módosíthatja az App launcher (Alkalmazásindító) Setup Wizard (Beállító Varázsló) elemében.</string>  
+    <string name="oobe_advance_settings_entrance_title">Speciális beállítások</string>  
+    <string name="oobe_advance_settings_entrance_summary">Ha már rendelkezik Google-fiókkal, e-mail fiókkal vagy közösségi oldalon lévő fiókkal, javasoljuk, hogy a speciális beállításokkal folytassa.</string>  
+    <string name="oobe_sync_settings_name">Szink. beállítások</string>  
+    <string name="oobe_sync_settings_title">Ütemezett szink.</string>  
+    <string name="oobe_sync_settings_summary">Jelölje ki, ha engedélyezni akarja az adatszinkronizálási szolgáltatásokat. Ha nem rendelkezik korlátlan adatfiókkal, az adatszinkronizálás többletköltségekkel járhat.</string>  
+    <string name="oobe_account_settings_name">Fiókbeállítások</string>  
+    <string name="oobe_account_settings_title">Fiókok beállítása</string>  
+    <string name="oobe_account_settings_summary">Az üzenetek, partnerek és naptáresemények szinkronizálásához érintsen meg és állítson be legalább egyet az alábbi fióktípusok közül.</string>  
+    <string name="oobe_account_list_title">Fiókok</string>  
+    <string name="oobe_sns_settings_name">SNS beállítások</string>  
+    <string name="oobe_sns_settings_title">Közösségi hálózatok beállítása</string>  
+    <string name="oobe_sns_settings_summary">Állítsa be kedvenc közösségi oldalát, így frissítéseket tud küldeni és fogadni a közösségi hálózati alkalmazásban.</string>  
+    <string name="oobe_advance_settings_end_title">Gratulálunk!</string>  
+    <string name="oobe_advance_settings_end_summary">Végzett az összes speciális beállítással. Most már használatba veheti új eszközét. \n\n A beállításokat bármikor módosíthatja az App launcher (Alkalmazásindító) Setup Wizard (Beállító Varázsló) elemében.</string>  
+    <string name="tap_to_add">Érintse meg a(z) 
+        <xliff:g id="fiók" example="renren">%s</xliff:g> fiók hozzáadásához
+    </string>  
+    <string name="oobe_import_contacts_sim_name">SIM-kártya</string>  
+    <string name="oobe_title_wifi">Wi-Fi</string>  
+    <string name="lock_settings_picker_title">Zárolt képernyő kiválasztása</string>  
+    <string name="add_network_string">Hálózat hozzáadása</string>  
+    <string name="oobe_title_sim_edit">SIM szerkesztése</string>  
+    <string name="oobe_summary_sim_edit">A SIM infó szerkesztése, hogy megfeleljen igényeinek. A SIM neve, színe és a telefonszám módosítható.</string>  
+    <string name="oobe_waiting_sim">Várakozás a SIM-kártya inicializálására…</string>  
+    <string name="oobe_advance_settings_end_name">Legutóbbi üzenet</string>  
+    <string name="oobe_contact_import_null_cursor">Lekérdezés kész, de null kurzort eredményez. Sikertelen importálás!</string> 
+    <string name="oobe_title_timezone">Időzóna választása</string>  
+    <string name="gps_time_sync_attention_gps_on">A GPS-helymeghatározás legfeljebb 1 percet vesz igénybe. Ezenkívül előfordulhat, hogy a GPS nem ad időinformációt a gyenge jel miatt.\n\nBiztosan a GPS által biztosított időt akarja használni?</string>  
+    <string name="gps_time_sync_attention_gps_off">A GPS által biztosított idő használatához engedélyeznie kell a GPS-t. A GPS-helymeghatározás legfeljebb 1 percet vesz igénybe. Ezenkívül előfordulhat, hogy a GPS nem ad időinformációt a gyenge jel miatt. \n\nBiztosan engedélyezni akarja a GPS-t és várakozik a GPS által biztosított időadatokra?</string>  
+    <string name="oobe_summary_timezone">Válassza ki preferált időzónáját.</string>  
+    <string name="sync_account_summary_on">Automatikus szink. be</string>  
+    <string name="sync_account_summary_off">Automatikus szink. ki</string>  
+    <string name="sync_account_title">Fiók automata szink.</string>  
+    <string name="wifi_setup_wizard_title">"Wi-Fi hálózat kiválasztása"</string>  
+    <string name="wifi_menu_wps_pbc">"WPS gomb"</string>  
+    <string name="wifi_other_network">"Másik hálózat..."</string>  
+    <string name="wifi_setup_skip">Átugrás</string>  
+    <string name="wifi_setup_next">"Tovább"</string>  
+    <string name="wifi_setup_back">Vissza</string>  
+    <string name="wifi_empty_list_wifi_off">Az elérhető hálózatok megtekintéséhez kapcsolja be a Wi-Fi funkciót.</string>  
+    <string name="wifi_empty_list_wifi_on">"Wi-Fi hálózatok keresése..."</string> 
+
+      <string name="import_contact_already">Már importálást végez. Kérjük, próbálja meg később.</string>
+</resources>

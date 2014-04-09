@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Hora mundial</string>
+    <string name="current_time_text">Actual</string>
+    <string name="another_city_text">Adicionar</string>
+    <string name="ime_action_done">Concluído</string>
+    <string name="a_city_selected">Uma cidade selecionada.</string>
+    <string name="search_city">Procurar cidade</string>
+    <string name="next">Próximo</string>
+    <string name="select_right_city">Lamentamos mas não existe essa cidade.</string>
+    <string name="clock_loading">Carregando\u2026</string>
+	<string name="add_new_city">Adicionar nova cidade</string>  
+    <string name="delete_city">Eliminar cidade</string>  
+    <string name="delete_city_info">A cidade será eliminada</string>  
+    <string name="deleteok">Excluir</string>  
+    <string name="cancel">Cancelar</string>
+	<string name="add_city">Pressione o ícone para adicionar nova cidade</string> 
+    <string name="has_chosen">foi selecionada.</string>
+</resources>
+

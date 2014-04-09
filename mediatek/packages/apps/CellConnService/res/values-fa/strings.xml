@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">CellConnectionService</string>
+    <string name="button_ok">تاييد</string>
+    <string name="button_cancel">لغو</string>
+    <string name="confirm_radio_title">سيم کارت غيرفعال شد</string>
+    <string name="confirm_radio_msg"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> هم اکنون غيرفعال است. آيا می خواهيد اين سيم کارت را فعال کنيد؟</string>
+    <string name="confirm_radio_msg_single">حالت پرواز هم اکنون فعال است. آيا می خواهيد آن را غيرفعال کنيد؟</string>
+    <string name="confirm_pin_title">سيم کارت قفل شد</string>
+    <string name="confirm_pin_msg">سيم کارت انتخاب شده قفل است. لطفاً ابتدا آن را باز کنيد.</string>
+    <string name="confirm_simmelock_title">سيم کارت ME قفل شد</string>
+    <string name="confirm_simmelock_msg">شکاف سيم کارت انتخاب شده قفل است. لطفاً ابتدا آن را باز کنيد.</string>
+    <string name="confirm_fdn_title">FDN فعال شد</string>
+    <string name="confirm_fdn_msg">شماره های تماس ثابت فعال شد.</string>
+    <string name="confirm_roaming_title">هشدار رومينگ</string>
+    <string name="confirm_roaming_msg">سيم کارتی که می خواهيد از آن استفاده کنيد در حال رومينگ است. هيچ سيم کارت محلی فعلاً وجود ندارد. آيا می خواهيد ادامه بدهيد؟</string>
+    <string name="confirm_roaming_withPrefer_msg">سيم کارتی که می خواهيد از آن استفاده کنيد در حال رومينگ است. آيا می خواهيد از طريق سيم کارت محلی ادامه بدهيد؟</string>
+    <string name="confirm_roaming_lbutton">ادامه</string>
+    <string name="confirm_roaming_rbutton">لغو</string>
+    <string name="confirm_roamingWithPrefer_lbutton">سيم کارت محلی</string>
+    <string name="confirm_roamingWithPrefer_rbutton">سيم کارت رومينگ</string>
+    <string name="confirm_radio_lbutton">روشن</string>
+    <string name="confirm_unlock_lbutton">باز کردن</string>
+    <string name="confirm_unlock_fail">عمليات لغو شد</string>
+    <string name="confirm_turnon_radio_fail">عمليات لغو شد</string>
+    <string name="confirm_permit_roaming_fail">شما اين عمل را روی سيم کارت رومينگ لغو می کنيد</string>
+    <string name="confirm_sim_locked_message">سيم کارت به طور دائم قفل شد</string>
+    <string name="confirm_slot_locked_message">شکاف به طور دائم قفل شد</string>
+</resources>
+

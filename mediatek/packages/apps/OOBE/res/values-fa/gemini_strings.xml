@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="gemini_sim_info_title">اطلاعات سيم کارت</string>  
+    <string name="gemini_default_sim_title">سيم کارت پيش فرض</string>  
+    <string name="gemini_general_settings_title">تنظيمات کلی</string>  
+    <string name="gemini_roaming_settings_title">رومينگ</string>  
+    <string name="gemini_contacts_sim_title">"مخاطبين و سيم کارت"</string>  
+    <string name="gemini_contacts_sim_summary">ارتباط دادن مخاطبین به یک سیم کارت خاص</string>  
+    <string name="gemini_voice_call">تماس صوتی</string>  
+    <string name="gemini_video_call">تماس تصويری</string>  
+    <string name="gemini_data_connection">اتصال داده</string>  
+    <string name="gemini_msg">پيام رسانی</string>  
+    <string name="gemini_default_sim_always_ask">هميشه سوال کن</string>  
+    <string name="gemini_intenet_call">تماس اينترنتی</string>  
+    <string name="gemini_default_sim_never">خاموش</string>  
+    <string name="gemini_default_sim_3g_off">خاموش</string>  
+    <string name="gemini_sim_info_editor_name">ويرايش نام سيم کارت</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">بروز اشکال در ذخيره سازی</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">نام سيم کارت تکراری است</string>  
+    <string name="gemini_sim_info_editor_number">شماره تلفن را وارد کنيد</string>  
+    <string name="gemini_sim_info_editor_color">تنظيم رنگ زمينه</string>  
+    <string name="gemini_sim_info_editor_number_display_format">نمايش شماره ها</string>  
+    <string name="gemini_no_sim_indicator">سيم کارت وجود ندارد</string>  
+    <string name="gemini_data_connection_progress_message">"لطفاً صبر کنيد..."</string>  
+    <string name="gemini_3g_modem_switching_message">"جابجايی سيم کارت حدوداً 10 ثانيه طول می کشد. لطفاً صبر کنيد..."</string>  
+    <string name="gemini_3g_modem_switch_confirm_message">"این کار باعث برقراری خدمات 3G به این SIM می شود. ادامه می دهید؟ لطفا مطمئن شوید که این SIM از خدمات 3G پشتیبانی می کند."</string>  
+    <string name="gemini_gsm_umts_network_preferences_title">حالت شبکه</string>  
+    <string name="gemini_sim_mode_progress_activating_message">در حال فعال سازی\u2026</string>  
+    <string name="gemini_sim_mode_progress_deactivating_message">در حال غيرفعال کردن\u2026</string>  
+    <string msgid="7422262558097875757" name="apn_not_set">"تنظیم نشده است"</string>  
+    <string name="gemini_3g_disable_warning_case0">"شما ابتدا باید رومینگ داده ها را برای این سیم کارت فعال کنید که ممکن است منجر به هزینه های قابل توجه رومینگ گردد! آیا از فعال کردن رومینگ داده ها و انتخاب این سیم کارت مطمئن هستید؟"</string>  
+    <string name="gemini_3g_disable_warning_case1">"با این سیم انتخاب شده سرویس 3G قابل استفاده نیست. این موضوع ممکن است بارگیری داده ها را کندتر کند. شما می توانید با مراجعه به تنظیمات &gt; بی سیم و شبکه ها &gt; شبکه های موبایل، تنظیمات سرویس 3G خود را تغییر دهید. آیا مطمئنید می خواهید این سیم را انتخاب کنید؟"</string>  
+    <string name="gemini_3g_disable_warning_case2">"با این سیم انتخاب شده سرویس 3G قابل استفاده نیست. این موضوع ممکن است بارگیری داده ها را کندتر کند. شما می توانید با مراجعه به تنظیمات &gt; مدیریت سیم، تنظیمات سرویس 3G خود را تغییر دهید. آیا مطمئنید می خواهید این سیم را انتخاب کنید؟"</string>  
+    <string name="gemini_3g_disable_warning_case3">"شما باید ابتدا رومینگ داده برای این سیم را فعال کنید که ممکن است هزینه رومینگ زیادی برای شما داشته باشد! علاوه بر این، سرویس 3G در این سیم قابل استفاده نیست. این موضوع ممکن است بارگیری داده ها را کندتر کند. شما می توانید با مراجعه به تنظیمات &gt; بی سیم و شبکه ها &gt; شبکه های موبایل، این تنظیمات را تغییر دهید. آیا مطمئنید می خواهید رومینگ داده را فعال و این سیم را انتخاب کنید؟"</string>  
+    <string name="gemini_3g_disable_warning_case4">"شما باید ابتدا رومینگ داده برای این سیم را فعال کنید که ممکن است هزینه رومینگ زیادی برای شما داشته باشد! علاوه بر این، سرویس 3G در این سیم قابل استفاده نیست. این موضوع ممکن است بارگیری داده ها را کندتر کند. شما می توانید با مراجعه به تنظیمات &gt; مدیریت سیم، این تنظیمات را تغییر دهید. آیا مطمئنید می خواهید رومینگ داده را فعال و این سیم را انتخاب کنید؟"</string> 
+</resources>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<!-- MBBMS 3.0  BEGIN-->
+
+<!-- UPGRADE -->
+<string name="non_force_upgrade">"檢測到新版本手機電視客戶端。立即陞級？（取消後可到設置中陞級）"</string>
+<string name="force_upgrade">"為保證您的使用，手機電視客戶端需要陞級才能正常使用。"</string>
+<string name="area_warn">"\t無法觀看，原因可能為：\n
+\t1、您所在位置無廣播電視信號或廣播電視信號弱,請嘗試拔出天線再試；\n
+\t2、您收到的為%1$s的節目單，如您不在%1$s， 請%2$s。"</string>
+<string name="click_and_modify">"點擊此更改"</string>
+<string name="upgrade_failed">更新客戶端失敗!</string>
+<string name="upgrade_is_ongoing">"正在更新,可進入設定/增強售後服務中取消!"</string>
+<string name="unknown_location">未知地區</string>
+<!-- UPGRADE -->
+<!-- IMD -->
+<string name="downloading">下載中\u2026</string>
+<string name="download_sdcard_busy_dlg_msg" product="nosdcard">"USB 儲存裝置忙碌中。如要允許下載，請選取通知中的 [關閉 USB 儲存裝置]。"</string>
+<string name="download_sdcard_busy_dlg_msg" product="default">"SD 記憶卡忙碌中。如要允許下載，請選取通知中的 [停用 USB 儲存裝置]。"</string>
+<string name="download_sdcard_busy_dlg_title" product="nosdcard">"沒有可用的 USB 儲存裝置"</string>
+<string name="download_sdcard_busy_dlg_title" product="default">"無法使用 SD 卡"</string>
+<string name="download_no_sdcard_dlg_msg" product="nosdcard">"必須掛接 USB 儲存裝置才能下載 <xliff:g id="FILENAME">%s</xliff:g>。"</string>
+<string name="download_no_sdcard_dlg_msg" product="default">"需要 SD 卡下載 <xliff:g id="FILENAME">%s</xliff:g>。"</string>	
+<string name="download_no_sdcard_dlg_title" product="nosdcard">"沒有可用的 USB 儲存裝置"</string>
+<string name="download_no_sdcard_dlg_title" product="default">"沒有 SD 卡"</string> 
+<string name="imd_amount">互動信息</string>
+<!-- IMD -->
+<!-- MBBMS 3.0  END-->
+
+<string name="search">"搜索"</string>
+<string name="search_title">"行動電視"</string>
+<string name="search_hint">"搜索節目組合"</string>
+<string name="search_settings_description">"搜索包含當前頻道或節目的節目組合。"</string>
+<string name="unsubscribe_all_tip">"取消訂閲所有節目組合？"</string>
+<string name="unsubscribe_all">"取消所有訂閲"</string>
+<string name="unsubscribe_all_success">"已取消訂閲所有節目組合，歡迎再次訂購。"</string>
+<string name="package_include_programs">"節目詳單："</string>
+<string name="select_all">"選擇全部"</string>
+<string name="display_ordered">"下一步"</string>
+<string name="content_list">"節目訂閲"</string>
+<string name="no_unsubscribed_content">"無取消訂閱的節目."</string>
+<string name="money_order_times">"資費：%1$.2f￥/%2$d次"</string>
+<string name="fail_subscribe_for_end_program">"訂購失敗，節目組和%1$s已過期。"</string>
+<string name="fail_unsubscribe_for_program_has_begun">"取消訂閲失敗，%1$s已生效。"</string>
+<string name="search_empty">"未找到任何節目組合。"</string>
+
+<!-- common -->
+<string name="mobile_tv">行動電視</string>
+<string name="package_management">"節目組合管理"</string>
+<string name="emergency_broadcast">"緊急廣播"</string>
+<string name="setting">設定</string>
+<string name="help">說明</string>
+<string name="quit">退出</string>
+<!-- common -->
+
+<!-- setting -->
+<string name="apn">"存取點名稱 (APN)"</string>
+<string name="sg_server_host">"服務指南伺服器位址"</string>
+<string name="sg_server_port">"服務指南伺服器連接埠"</string>
+<string name="wap_host">"WAP 閘道位址"</string>
+<string name="wap_port">"WAP 閘道連接埠"</string>
+<string name="restore">"還原成預設設定"</string>
+<string name="restore_warning">"將還原成預設值並刪除個人設定。是否繼續？"</string>
+<string name="invalid_value">"數值無效"</string>
+<string name="invalid_apn">"APN 無效"</string>
+<string name="invalid_input">"輸入無效，請重新輸入。"</string>
+<!-- setting -->
+
+<!-- help -->
+<string name="help_info">"\t行動電視是由國家廣電總局所屬中廣傳播公司和中國移動提供，內含多套即時節目，節目畫質清晰，播放流暢，且無須收取資訊流程費用。\b
+\t請洽詢 10086 或 4006005577 取得詳細資訊。\n
+\t首次使用行動電視\b
+\t訂閱節目組合，享受豐富多元的節目內容。\n
+\t緊急廣播\b
+\t緊急廣播是透過廣播通訊系統向大眾發布緊急訊息。"</string>
+<!-- help -->
+
+<!--emergency broadcast  -->
+<string name="delete_all">"全部刪除"</string>
+<string name="delete">"刪除"</string>
+<string name="ebm_no_list">"無緊急廣播"</string>
+<string name="ebm_level">"第 %d 級緊急訊息"</string>
+<!--emergency broadcast  -->
+
+<!--PurchaseItem management-->
+<string name="subscribed_package">"已訂購的節目組合"</string>
+<string name="unsubscribed_package">"即將訂購的節目組合"</string>
+<string name="subscribe_suffix">"（已訂購）"</string>
+<string name="unsubscribe_suffix">"（未訂購）"</string>
+<string name="period_order_one_month">"時間：每月"</string>
+<string name="period_order_multi_month">"節目組合有效時間：%d 個月"</string>
+<string name="money_order_one_month">"費用：每月 %.2f￥"</string>
+<string name="money_order_multi_month">"總費用：%.2f￥"</string>
+<string name="package_include_channels">"包含頻道清單的節目組合："</string>
+<string name="no_local_tip">"您只能收看當前地區的套餐，異地套餐需在套餐所屬地區觀看"</string>
+<string name="subscribe">"訂閱"</string>
+<string name="unsubscribe">"取消訂閱"</string>
+<string name="subscribe_tip">"是否訂購 %s？"</string>
+<string name="unsubscribe_tip">"是否取消 %s？"</string>
+<string name="is_subscribing">"訂閱中，請稍候。"</string>
+<string name="is_unsubscribing">"正在取消訂閱，請稍候。"</string>
+<string name="unsubscribe_success">"已取消訂閱 %s，歡迎再次訂購。"</string>
+<string name="subscribe_success">"已訂閱節目組合 %s。"</string>
+<string name="subscribe_fail">"處理發生錯誤，請稍後再試一次。"</string>
+<string name="unsubscribe_fail">"處理發生錯誤，請稍後再試一次。"</string>
+<string name="no_unsubscribed_package">"無取消訂閱的節目組合。"</string>
+<string name="no_subscribed_package">"無已訂閱的節目組合"</string>
+<string name="query_account_info_ongoing">"正在更新…"</string>
+<string name="query_account_info_fail">"已訂閱節目組合資訊更新失敗！"</string>
+<string name="query_account_info_success">"已訂閱節目組合資訊更新成功！"</string>
+<string name="money_unknown">"未知類型費用：%.2f￥"</string>
+<string name="period_unknown">"未知的期間"</string>
+<string name="period_order_times">"有效次數：%d"</string>
+<!--PurchaseItem management-->
+
+<!-- play bill -->
+<string name="channels">"頻道"</string>
+<string name="date">"日期"</string>
+<string name="today">"今天"</string>
+<string name="tomorrow">"明天"</string>
+<string name="day_after_tomorrow">"後天"</string>
+<string name="play_history">"歷程紀錄"</string>
+<string name="play_now">"正在播放"</string>
+<string name="play_later">"下一台"</string>
+<string name="no_content">"無相關的節目單資訊！"</string>
+<string name="content_no_detail">"無詳細資訊"</string>
+<string name="no_more_date">"很抱歉，沒有可選擇的有效日期！"</string>
+<string name="content_passed">"已播放的節目，目前頻道正在播放其他節目。"</string>
+<string name="content_non_arrival">"即將播放的節目，目前頻道正在播放其他節目。"</string>
+<string name="period_format">"%1$02d:%2$02d - %3$02d:%4$02d"</string>
+<!-- play bill -->
+
+<!--Main Screen related resources begin-->
+<string name="main_all_channels">所有頻道</string>
+<string name="main_favourite_channels">最愛頻道</string>
+<string name="favourite_added">新增%1$s至我的最愛。</string>
+<string name="favourite_removed">已自我的最愛移除%1$s。</string>
+<string name="quit_confirm">您確定退出吗？ </string>
+<string name="datacon_hint">数据連接已連線,退出恢復斷線</string>
+<!--Main Screen related resources end-->
+
+<!-- Player related resources begin-->
+<string name="saved_to">快照 %1$s 已儲存至 %2$s。</string>
+<string name="not_support_snap">請播放節目後再試儲存快照.</string>
+<string name="please_wait">請稍候\u2026</string>
+<string name="signal_none">訊號微弱，電視已停止。(1001)</string>
+<string name="signal_weak_stop_internal">訊號微弱，電視已停止。(1001)</string>    
+<string name="signal_recover">電視訊號已恢復！</string>    
+<string name="open_channel_fail">連線失敗，請稍後重試。</string>
+<string name="capture_fail">無法取得快照！</string>
+<string name="no_storage">請插入 SD 卡。</string>
+<string name="spaceIsLow_content">SD 卡空間不足。 </string>   
+<string name="refresh">刷新</string>
+<string name="program_list">節目清單</string>
+<string name="loading">"載入中\u2026"</string>
+<string name="channel_unavailable_now">頻道 %s 已加密，無法收看。</string>
+<string name="channel_unavailable_now2">此頻道已加密，無法收看。</string>    
+<string name="need_subscription_hint">尚未訂閱頻道 %s。是否立即訂閱？</string>
+<string name="need_subscription_hint2">尚未訂閱此頻道，無法收看。</string>    
+<string name="no_channel_available">無可收看的頻道。</string>
+<string name="no_favorite_channel">無最愛的頻道。</string>
+<string name="unknown">未知</string>
+<string name="dlg_10_no_sim">找不到任何 SIM 卡，請按下 [確定] 進入 CMMB 模式。</string>
+<string name="dlg_10_not_connected">無法使用行動網路，請按下 [確定] 進入 CMMB 模式。</string>
+<string name="add_to_favorites">新增至我的最愛</string>
+<string name="remove_from_favorites">自我的最愛移除</string>
+<string name="input_city_hint">若輸入的城市與您的所在位置不符，會無法收看電視！</string>
+<string name="auto_refresh_is_used">將使用自動重新整理模式！</string>
+<string name="auto_refresh">自動重新整理</string>
+<string name="specify_location">指定位置</string>
+<string name="gsm_signal_recover">手機訊號已恢復，可從行動網路下載服務指南。是否繼續？</string>
+<string name="read">閱讀</string>
+<string name="ignore">忽略</string>
+<string name="failed_to_update_service">無法更新頻道和節目列表！（2001）</string>
+<string name="greeting">歡迎使用行動電視</string>
+<string name="_updating">"（更新中\u2026）"</string>
+<string name="_unknown_state">"（未知狀態）"</string>
+<string name="updating_sg_hint">請稍後，待服務指南更新完畢！</string>
+<string name="please_choose_refresh_type">重新整理</string>
+<string name="unsupported_channel">不支援此頻道。</string>
+<string name="audio_broadcast">音訊廣播</string>
+<string name="full_screen">全屏播放</string>
+<string name="exit_full_screen">退出全屏</string>
+<string name="cmcc_net_error">手機訊號微弱，無法取得訂閱資訊，請稍後重試。</string>
+<string name="cmcc_net_error2">無法取得訂閱資訊，請稍後重試。</string>
+<!-- Player related resources end-->
+
+<!-- 3.0 -->
+<string name="interactivity_arrival">"當互動到達時"</string>
+<string name="interactivity_auto_pop">"自動彈出互動內容"</string>
+<string name="user_location_info">"用戶所在地訊息"</string>
+<string name="select_user_location">"選擇用戶所在地"</string>
+<string name="check_location_automatically">"每次啟動均自動檢測地點"</string>
+<string name="check_location_manually">"手動設置地點（%1$s市）"</string>
+<string name="update_user_location">"更新所在地訊息狀態中，请稍候..."</string>
+<string name="select_suggestion">"請選擇您目前所在的地區，否則將無法觀看，如無您所在地區，請選擇"%1$s”"</string>
+<string name="select_province">"請選擇您目前所在的地區，否則將無法觀看"</string>
+<string name="select_city">"您已選擇 [%s]，請繼續選擇您目前所在的地區，否則將無法觀看"</string>
+<string name="select_county">"您已選擇 [%1$s-%2$s]，請繼續選擇您目前所在的地區，否則將無法觀看"</string>
+<string name="save_location">"記住此地點"</string>
+<string name="previous_step">"上一步"</string>
+<string name="unknow_location">"無法檢測到您目前的地點。"</string>
+<string name="check_all_cities">"查看所有地區"</string>
+<string name="no_location">"無可選擇的地區"</string>
+<string name="location_saved">"地點已保存"</string>
+<string name="update_client">"客戶端更新"</string>
+<string name="check_new_version">"檢測新版本"</string>
+<string name="network_settings">"網關連接設置"</string>
+<string name="has_new_version">"檢測到新版本手機電視客戶端，立即升級？"</string>
+<string name="no_new_version">"您的客戶端為最新版本，無需升級。"</string>
+<string name="update_new_version">"获取新版本訊息狀態中，请稍候..."</string>
+<string name="see_interactivity">"查看目前互動"</string>
+<string name="no_interactivity">"無互動内容"</string>
+<string name="previous_row">"上一條"</string>
+<string name="next_row">"下一條"</string>
+<string name="goto_half">"切換為半屏"</string>
+<string name="service_interactivity">"%1$s台互動内容"</string>
+<string name="interactivity_item">"互動%1$s"</string>
+<string name="error_check_upgrade">"获取新版本訊息失敗，未知錯誤！"</string>
+<string name="unknown_version">"未知版本訊息！"</string>
+<string name="error_sync_location">"获取地区信息失败，未知錯誤！"</string>
+<string name="interactivity_detail">"互動詳情"</string>
+<string name="update_sg_interactivity">"互動訊息更新狀態中，请稍候..."</string>
+<string name="error_sync_interactivity">"获取互動訊息失敗，未知錯誤！"</string>
+<!-- 3.0 -->
+
+</resources>

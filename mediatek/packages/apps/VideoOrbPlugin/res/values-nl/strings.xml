@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="plugin_name">Video Orb</string>
+    <string name="ok">"OK"</string>
+    <string name="cancel">"Annuleren"</string>
+    <string name="plugin_description">Bekijk de nieuwste video op het vergrendelscherm</string>
+    <string name="transcoding_prompt">Video voorbereiden</string>
+    <string name="transcoding_prompt_description">"Video Orb heeft even tijd nodig om video's voor te bereiden. Wilt u doorgaan?"</string>
+    <string name="transcoding_progress_format" translatable="false">"%"</string>
+    <string name="transcoding_clip_format" translatable="false">"/"</string>
+    <string name="video_file_name_format" translatable="false">"_yyyyMMdd_HHmmss"</string>
+    <string name="toast_video_add_cancelled">Video toevoegen mislukt</string>
+    <string name="toast_video_unsupported_resolution">Video-resolutie niet ondersteund.</string>
+    <string name="toast_low_storage" product="nosdcard">"Uw USB-opslag is vol."</string>
+    <string name="toast_low_storage" product="default">"De SD-kaart is vol."</string>
+    <string name="toast_invalid_video">Niet-ondersteunde video-indeling.</string>
+</resources>

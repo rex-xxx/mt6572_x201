@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string msgid="4746946030627213196" name="wifi_settings">"Mga setting ng Wi-Fi"</string>  
+    <string msgid="2810363951104753710" name="wifi_settings_category">"Mga setting ng Wi-Fi"</string>  
+    <string msgid="6710266609710860129" name="wifi_starting">"Ino-on…"</string>  
+    <string msgid="5952909472548218348" name="wifi_stopping">"Ino-off…"</string>  
+    <string msgid="3207971103917128179" name="wifi_error">"Error"</string>  
+    <string msgid="7618393787965366655" name="wifi_in_airplane_mode">"Sa airplane mode"</string>  
+    <string msgid="6194542252808587669" name="wifi_fail_to_scan">"Hindi magawang mag-scan para sa mga network"</string>  
+    <string msgid="3755768188029653293" name="wifi_notify_open_networks">"Notification ng network"</string>  
+    <string msgid="3038290727701553612" name="wifi_notify_open_networks_summary">"I-notify ako kapag available ang bukas na network"</string>  
+    <string msgid="1671334951296205616" name="wifi_add_network">"Magdagdag ng Wi-Fi network"</string>  
+    <string msgid="1470911530412095868" name="wifi_menu_scan">"I-scan"</string>  
+    <string msgid="7522252991919573664" name="wifi_menu_advanced">"Advanced"</string>  
+    <string msgid="4996220309848349408" name="wifi_menu_connect">"Kumonekta sa network"</string>  
+    <string msgid="8736964302477327114" name="wifi_menu_forget">"Kalimutan ang network"</string>  
+    <string msgid="2068554918652440105" name="wifi_menu_modify">"Baguhin ang network"</string>  
+    <string msgid="641393708309146745" name="wifi_ssid">"Network SSID"</string>  
+    <string msgid="6603611185592956936" name="wifi_security">"Seguridad"</string>  
+    <string msgid="5514120261628065287" name="wifi_signal">"Lakas ng signal"</string>  
+    <string msgid="4824568012414605414" name="wifi_status">"Katayuan"</string>  
+    <string msgid="3526198708812322037" name="wifi_speed">"I-link ang bilis"</string>  
+    <string msgid="1440054061044402918" name="wifi_ip_address">"IP address"</string>  
+    <string msgid="8529436133640730382" name="wifi_eap_method">"Pamamaraang EAP"</string>  
+    <string msgid="5231074529772044898" name="please_select_phase2">"Phase 2 na pagpapatotoo"</string>  
+    <string msgid="3521574865488892851" name="wifi_eap_ca_cert">"Certificate ng CA"</string>  
+    <string msgid="1291089413368160789" name="wifi_eap_user_cert">"Certificate ng user"</string>  
+    <string msgid="4359453783379679103" name="wifi_eap_identity">"Pagkakilanlan"</string>  
+    <string msgid="2989469344116577955" name="wifi_eap_anonymous">"Anonymous na pagkakakilanlan"</string>  
+    <string msgid="5948219759936151048" name="wifi_password">"Password"</string>  
+    <string msgid="4235237470701732009" name="wifi_show_password">"Ipakita ang password."</string>  
+    <string name="wifi_hex_password">Hexadecimal na password.</string>  
+    <string msgid="3410422020930397102" name="wifi_unchanged">"(di-nabago)"</string>  
+    <string msgid="5431501214192991253" name="wifi_unspecified">"(di-tukoy)"</string>  
+    <string msgid="8426719916135950136" name="wifi_remembered">"Natandaan"</string>  
+    <string msgid="1136191511238508967" name="wifi_not_in_range">"Wala sa sakop"</string>  
+    <string msgid="1076622875777072845" name="wifi_connect">"Kumonekta"</string>  
+    <string msgid="8168174695608386644" name="wifi_forget">"Kalimutan"</string>  
+    <string msgid="3331121567988522826" name="wifi_save">"I-save"</string>  
+    <string msgid="6763568902542968964" name="wifi_cancel">"Kanselahin"</string>  
+    <string msgid="5419052271935350999" name="wifi_advanced_titlebar">"Advanced"</string>  
+    <string msgid="1367731352485585528" name="wifi_setting_sleep_policy_title">"Patakaran ng paghinto ng Wi-Fi"</string>  
+    <string msgid="5103670439972135148" name="wifi_setting_sleep_policy_error">"Nagkaproblema sa pagtatakda ng patakaran ng paghinto."</string>  
+    <string msgid="6571335466330978393" name="wifi_advanced_mac_address_title">"MAC address"</string>  
+    <string msgid="6215297094363164846" name="wifi_advanced_ip_address_title">"IP address"</string>  
+    <string msgid="4345739031248760326" name="wifi_ip_settings_titlebar">"Mga setting ng IP"</string>  
+    <string msgid="7344118050720080045" name="wifi_dns1">"DNS 1"</string>  
+    <string msgid="1368601006824882659" name="wifi_dns2">"DNS 2"</string>  
+    <string msgid="163914742461092086" name="wifi_gateway">"Gateway"</string>  
+    <string msgid="8948641212931906143" name="wifi_tether_enabled_subtext">"Ang Portable na hotspot na 
+        <xliff:g id="NETWORK_SSID">%1$s</xliff:g> ay aktibo"
+    </string>  
+    <string name="wapi_user_certificate">Sertipiko ng gumagamit</string>  
+    <string name="wapi_as_certificate">ASE na sertipiko</string>  
+    <string msgid="7862009036663793314" name="status_unavailable">"Hindi available"</string>  
+    <string name="wifi_ctia_test">CTIA Test Mode na Setting</string>  
+    <string name="wifi_ctia_test_summary">CTIA Test Mode na kumpigurasyon</string>  
+    <string name="wifi_connect_type_title">Uri ng auto konekta</string>  
+    <string name="wifi_setting_connect_type_error">May problema sa pagtakda ng uri ng koneksiyon.</string>  
+    <string name="wifi_priority_type_title">Mano-manong itakda ang priyoridad ng AP</string>  
+    <string name="wifi_priority_type_summary">Pahintulutan na mano-manong magtakta ng priyoridad sa access point</string>  
+    <string name="wifi_priority_settings_title">Mga setting ng priyoridad g AP</string>  
+    <string name="wifi_priority_settings_summary">Mag-click upang itakda ang priyoridad ng bawat access point</string>  
+    <string name="wifi_priority_label">Priyoridad</string>  
+    <string name="wifi_priority_settings_label">Mga setting ng priyoridad</string>  
+    <string name="wifi_ip_settings">"Mga setting ng IP"</string>  
+    <string name="wifi_disabled_generic">"Hindi pinagana"</string>  
+    <string name="wifi_disabled_network_failure">Iwasan ang masamang koneksyon sa internet</string>  
+    <string name="wifi_disabled_password_failure">Problema sa pagpapatotoo</string>  
+    <string name="wifi_ip_settings_invalid_ip_address">Mag-type ng balidong IP address.</string>  
+    <string name="wifi_ip_settings_invalid_gateway">Mag-type ng balidong gateway address.</string>  
+    <string name="wifi_ip_settings_invalid_dns">Mag-type ng balidong DNS address.</string>  
+    <string name="wifi_ip_settings_invalid_network_prefix_length">Mag-type haba network prefix pagitan ng 0 at 32.</string>  
+    <string name="wifi_network_prefix_length">Haba ng prefix ng network</string>  
+    <string name="wifi_wps_available_first_item">May protektadong network</string>  
+    <string name="wifi_wps_available_second_item">\u0020(may protektadong network)</string>  
+    <string name="wifi_secured_first_item">Nasegurosa 
+        <xliff:g id="wifi_security_short">%1$s</xliff:g> 
+    </string>  
+    <string name="wifi_secured_second_item">, naseguro sa 
+        <xliff:g id="wifi_security_short">%1$s</xliff:g> 
+    </string>  
+    <string name="wifi_security_none">Wala</string>  
+    <string name="sim_slot">SIM Slot</string>  
+    <string name="wifi_network_netmask">Netmask</string>  
+    <string name="wifi_enable_watchdog_service">Iwasan ang masamang mga koneksyon</string>  
+    <string name="wifi_setting_frequency_band_title">Wi-Fi frequency band</string>  
+    <string name="wifi_setting_frequency_band_summary">Tukuyin ang frequency range ng operasyon</string>  
+    <string name="wifi_setting_frequency_band_error">May problema sa pagtakda ng frequency band.</string>  
+    <string name="proxy_settings_title">Mga Proxy setting</string>  
+    <string name="proxy_clear_text">Limasin</string>  
+    <string name="proxy_port_label">Proxy port</string>  
+    <string name="proxy_exclusionlist_label">I-bypass ang proxy para sa</string>  
+    <string name="proxy_exclusionlist_hint">example.com,mycomp.test.com,localhost</string>  
+    <string name="proxy_defaultView_text">Ibalik ang mga default</string>  
+    <string name="proxy_hostname_label">Proxy hostname</string>  
+    <string name="proxy_hostname_hint">proxy.example.com</string>  
+    <string name="proxy_error">Atensiyon</string>  
+    <string name="proxy_error_dismiss">OK</string>  
+    <string name="proxy_error_empty_port">Dapat mong kumpletuhin ang port field.</string>  
+    <string name="proxy_error_empty_host_set_port">Dapat walang laman ang port field kung ang host field ay walang laman.</string>  
+    <string name="proxy_warning_limited_support">Ang HTTP proxy ay ginamit ng browser ngunit hindi maaaring gamitin ng mga ibang app.</string>  
+    <string name="wifi_show_advanced">Ipakita ang mga advanced na opsyon</string>  
+    <string name="wifi_network_setup">WPS</string>  
+    <string name="wifi_wps_pin">I-type ang PIN mula sa access point</string>  
+    <string name="wifi_enable_watchdog_service_summary">Huwag gumamit ng Wi-Fi na network maliban kung may mahusay itong koneksyon sa Internet</string>  
+    <string name="proxy_error_invalid_host">Hindi balido ang hostname na ipinasok mo.</string>  
+    <string name="proxy_error_invalid_exclusion_list">Ang listahan ng hindi kasama na ipinasok mo ay hindi naka-format nang maayos. Mag-type ng comma-separated na listahan ng mga hindi nakasamang mga domain.</string>  
+    <string name="proxy_error_invalid_port">Hindi balido ang port na ipinasok mo.</string>  
+    <string name="gsm_to_wifi_connect_type_title">Cellular-&gt;Wi-Fi</string>  
+    <string name="wifi_connect_ap_summary">Tukuyin ang uri ng network</string>  
+    <string name="select_ssid_type_title">Muling pagpili sa SSID</string>  
+    <string name="proxy_action_text">Tapos na</string>
+    <string name="wifi_failed_connect_message" msgid="8491902558970292871">"Nabigong kumonekta sa network."</string>
+    <string name="wifi_failed_forget_message" msgid="1348172929201654986">"Nabigong kalimutan ang network"</string>
+    <string name="wifi_failed_save_message" msgid="6650004874143815692">"Nabigong i-save ang network"</string>
+ 
+      <string name="wifi_WEP_transmit_key">Transmit Key</string>
+      <string name="wifi_WEP_secury_key">Secury Key</string>
+      <string name="wifi_security_wapi_certificate">WAPI Sertipiko</string>
+      <string name="wifi_no_cert_for_wapi">Hindi mahanap ang sertipikasyon para sa kasalukuyang pangkonektang AP</string>
+      <string name="eap_sim_slot_0">Sim Slot 1</string>
+      <string name="eap_sim_slot_1">Sim Slot 2</string>
+      <string name="eap_sim_aka_airplanemode">Paki-off ang Airplane mode upang gamiting ang EAP-SIM/AKA</string>
+      <string name="eap_sim_aka_no_sim_error">Kailangan mong i-insert ang sim card para gamitin ang EAP-SIM/AKA</string>
+      <string name="eap_sim_aka_no_sim_slot_selected">Kailangan mong piliin ang sim slot para gamitin ang EAP-SIM/AKA</string>
+      <string name="wifi_ipv4_address">IPv4 na address</string>
+      <string name="wifi_ipv6_address">IPv6 na address</string>
+</resources>

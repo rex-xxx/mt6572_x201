@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="gemini_sim_info_title">Impormasyon ng SIM</string>  
+    <string name="gemini_default_sim_title">Default na SIM</string>  
+    <string name="gemini_general_settings_title">Mga pangkalahatang setting</string>  
+    <string name="gemini_roaming_settings_title">Roaming</string>  
+    <string name="gemini_contacts_sim_title">"Mga Kontak &amp; SIM"</string>  
+    <string name="gemini_contacts_sim_summary">Iugnay ang mga kontak sa partikular na SIM</string>  
+    <string name="gemini_voice_call">Voice na tawag</string>  
+    <string name="gemini_video_call">Video na tawag</string>  
+    <string name="gemini_data_connection">Koneksiyon ng datos</string>  
+    <string name="gemini_msg">Pagmemensahe</string>  
+    <string name="gemini_default_sim_always_ask">Laging magtanong</string>  
+    <string name="gemini_intenet_call">Internet na Tawag</string>  
+    <string name="gemini_default_sim_never">Off</string>  
+    <string name="gemini_sim_info_editor_name">I-edit ang pangalan ng SIM</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">Nabigo ang pag-save</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">Dobleng pangalan para sa SIM card</string>  
+    <string name="gemini_sim_info_editor_number">Ipasok ang numero ng telepono</string>  
+    <string name="gemini_sim_info_editor_color">Itakda ang background na kulay</string>  
+    <string name="gemini_sim_info_editor_number_display_format">Ipakita ang mga numero</string>  
+    <string name="gemini_no_sim_indicator">Walang SIM card</string>  
+    <string name="gemini_data_connection_progress_message">Pakihintay...</string>  
+    <string name="gemini_gsm_umts_network_preferences_title">Network na Mode</string>  
+    <string name="gemini_sim_mode_progress_activating_message">Pinapagana\u2026</string>  
+    <string name="gemini_sim_mode_progress_deactivating_message">Hindi pinapagana\u2026</string>  
+    <string msgid="7422262558097875757" name="apn_not_set">"Hindi nakatakda"</string>  
+    <string name="gemini_3g_modem_switch_confirm_message">"Ililipat din nito ang serbisyong 3G sa SIM na ito. Magpatuloy? Pakisiguro din na suportado ng napiling SIM na ito ang serbisyong 3G."</string>  
+    <string name="gemini_3g_disable_warning_case0">"Kailangan mong i-enable ang data roaming para sa SIM na ito subalit ito ay maaaring maningil ng bayad sa roaming! Sigurado ka bang ie-enable ang data roaming at pipiliin ang SIM na ito?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"Wala ang serbisyong 3G service sa napiling SIM na ito. Maaaring mas mabagal na mag-load ang data. Mababago mo ang setting ng serbisyong 3G sa ilalim ng Mga Setting &gt; Wireless &amp; networks &gt; Mobile networks. Sigurado ka bang pipiliin ang SIM na ito?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"Wala ang serbisyong 3G service sa napiling SIM na ito. Maaaring mas mabagal na mag-load ang data. Mababgo mo ang setting ng serbisyong 3G sa ilalim ng Mga Settings &gt; SIM management. Sigurado ka bang pipiliin ang SIM na ito?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"Kailangan mong paganahin ang data roaming para muna sa SIM na ito na na maaaring magkaroon ng makabuluhang mga singil sa roaming! Subalit, wala ang serbisyong 3G SIM na ito. Maaaring mas mabagal na mag-load ang data. Mababago mo ito sa ilalim ng Mga Setting &gt; Wireless &amp; networks &gt; Mobile networks. Sigurado ka bang papaganahin ang roaming ng data at pipiliin ang SIM na ito?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"Kailangan mong paganahin ang data roaming para muna sa SIM na ito na na maaaring magkaroon ng makabuluhang mga singil sa roaming! Subalit, wala ang serbisyong 3G SIM na ito. Maaaring mas mabagal na mag-load ang data. Mababago mo ito sa ilalim ng Mga Setting &gt; SIM management. Sigurado ka bang papaganahin ang roaming ng data at pipiliin ang SIM na ito?"</string>  
+    <string name="gemini_default_sim_3g_off">Off</string>  
+    <string name="gemini_3g_modem_switching_message">"Ang paglipat ng SIM ay aabutin nang tinatayang 10 segundo upang kumpletuhin. Pakihintay..."</string>  
+</resources>

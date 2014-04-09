@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">World clock</string>
+    <string name="current_time_text">Current</string>
+    <string name="another_city_text">Add</string>
+    <string name="ime_action_done">Done</string>
+    <string name="a_city_selected">A city selected.</string>
+    <string name="search_city">Search city</string>
+    <string name="next">Next</string>
+    <string name="select_right_city">Sorry, there is no such city.</string>
+    <string name="clock_loading">Loading\u2026</string>
+    <string name="add_city">Press icon to add new city</string>
+    <string name="add_new_city">Add new city</string>
+    <string name="delete_city">Delete city</string>
+    <string name="delete_city_info">The city will be deleted</string>
+    <string name="has_chosen">has been chosen.</string>
+    <string name="deleteok">Delete</string>
+    <string name="cancel">Cancel</string>    
+</resources>

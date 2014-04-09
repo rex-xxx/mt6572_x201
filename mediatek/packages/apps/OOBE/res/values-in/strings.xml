@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+
+    <!-- OOBE part begin -->  
+    <string name="app_name">OOBE</string>  
+    <string name="oobe_btn_text_next">Lanjut</string>  
+    <string name="oobe_btn_text_back">Kembali</string>  
+    <string name="oobe_btn_text_finish">Selesai</string>  
+    <string name="oobe_btn_text_skip">Lewati</string>  
+    <string name="oobe_btn_text_dismiss">Tutup</string>  
+    <string name="oobe_title_language_setting">Pilih Bahasa</string>  
+    <string name="oobe_summary_language_setting">Pilih bahasa telepon yang dikehendaki</string>  
+    <string name="oobe_title_keyboard_setting">Pilih keyboard</string>  
+    <string name="oobe_summary_keyboard_setting">Pilih keyboard yang dikehendaki</string>  
+    <string name="oobe_title_import_contacts">Impor kontak dari SIM</string>  
+    <string name="oobe_summary_import_contacts">Anda dapat memilih beberapa atau semua kartu SIM yang dimasukkan untuk mengimpor kontak ke telepon.</string>  
+    <string name="oobe_title_internet_connection_setting">Pilih sambungan Internet</string>  
+    <string name="oobe_summary_internet_connection">"Pilih sambungan Internet yang dikehendaki. Anda dapat selalu mengubah pilihan ini nanti dalam Pengaturan."</string>  
+    <string name="oobe_title_sim_management">Kelola SIM</string>  
+    <string name="oobe_summary_sim_management">Anda dapat menyentuh item Kartu SIM untuk mengedit infonya. Biasanya, nama operator digunakan sebagai nama SIM default.</string>  
+    <string name="oobe_title_default_sim">Tetapkan SIM default</string>  
+    <string name="oobe_summary_default_sim">Pilih SIM yang dikehendaki sebagai pengaturan default untuk layanan ini.</string>  
+    <string name="oobe_title_wifi_settings">Konfigurasikan jaringan Wi-Fi</string>  
+    <string name="oobe_summary_wifi_settings">Sentuh untuk memilih jaringan Wi-Fi</string>  
+    <string name="oobe_title_date_time">Tetapkan tanggal &amp; waktu</string>  
+    <string name="oobe_summary_date_time">Sentuh untuk memilih format data &amp; waktu, lalu tetapkan info Tanggal &amp; Waktu secara manual, jika perlu.</string>  
+    <string name="oobe_locale_switching">Menunggu…</string>  
+    <string name="oobe_ime_suggested">Disarankan</string>  
+    <string name="oobe_gemini_3g_indic">3G</string>  
+    <string name="oobe_internet_gprs_or_wifi_title">Jaringan selular atau Wi-Fi</string>  
+    <string name="oobe_internet_gprs_or_wifi_summary">"Pilih sambungan Internet yang dikehendaki. Anda dapat selalu mengubah pilihan ini nanti dalam Pengaturan."</string>  
+    <string name="oobe_internet_wifi_only_title">Hanya Wi-Fi</string>  
+    <string name="oobe_internet_wifi_only_summary">Pilih ini, jika Anda belum berlangganan program data</string>  
+    <string name="oobe_btn_start_import_contacts">Mulai mengimpor</string>  
+    <string name="oobe_btn_cancel_import_contacts">Batal</string>  
+    <string name="oobe_note_import_contacts_prepare">Tunggu sebentar sementara menyalin kontak SIM.</string>  
+    <string name="oobe_note_import_contacts_going">Sekarang Anda dapat melanjutkan ke langkah berikutnya sewaktu impor masih berlangsung.</string>  
+    <string name="oobe_note_import_contacts_finish">Penyalinan selesai. Anda dapat memproses ke langkah berikutnya.</string>  
+    <string name="oobe_note_import_contacts_cancel">Impor dibatalkan. Anda dapat beralih ke langkah berikutnya atau mulai mengimpor kembali.</string>  
+    <string name="oobe_note_progress_copy_contacts">%1$d dari %2$d kontak</string>  
+    <string name="oobe_note_copy_contacts_waiting">Menunggu…</string>  
+    <string name="basic_congratulation_title">Selamat!</string>  
+    <string name="basic_congratulation_summary">Anda telah selesai menetapkan semua tetapan asas. Anda kini telah bersedia untuk menikmati keseronokan peranti baru anda.\n\nAnda sentiasa boleh mengubah tetapan anda daripada Pendeta Persediaan daripada pelancar Aplikasi.</string>  
+    <string name="oobe_advance_settings_entrance_title">Pengaturan Lanjutan</string>  
+    <string name="oobe_advance_settings_entrance_summary">Jika Anda telah memiliki account Google, account e-mail, atau account jaringan sosial apapun, sebaiknya teruskan ke pengaturan lanjutan.</string>  
+    <string name="oobe_sync_settings_name">Pengaturan sinkronisasi</string>  
+    <string name="oobe_sync_settings_title">Sinkronisasi terjadwal</string>  
+    <string name="oobe_sync_settings_summary">Pilih jika Anda ingin mengaktifkan layanan sinkronisasi data. Jika Anda tidak berlangganan program data tidak terbatas, sinkronisasi data dapat menimbulkan biaya tambahan.</string>  
+    <string name="oobe_account_settings_name">Pengaturan account</string>  
+    <string name="oobe_account_settings_title">Konfigurasikan account</string>  
+    <string name="oobe_account_settings_summary">Untuk mensinkronisasi e-mail, kontak, dan aktivitas kalender, Anda harus menyentuh dan mengkonfigurasi minimal satu dari jenis account berikut.</string>  
+    <string name="oobe_account_list_title">Account</string>  
+    <string name="oobe_sns_settings_name">Pengaturan SNS</string>  
+    <string name="oobe_sns_settings_title">Konfigurasikan jaringan sosial</string>  
+    <string name="oobe_sns_settings_summary">Mengkonfigurasi jaringan sosial favorit agar dapat mengirim dan menerima update di aplikasi Jaringan sosial.</string>  
+    <string name="oobe_advance_settings_end_title">Selamat!</string>  
+    <string name="oobe_advance_settings_end_summary">Anda telah menyelesaikan semua pengaturan lanjutan. Sekarang Anda dapat segera menikmati perangkat baru ini. \n\n Anda dapat selalu mengubah pengaturan ini dalam Wizard Konfigurasi dari Pengaktif aplikasi.</string>  
+    <string name="tap_to_add">Sentuh untuk menambah account 
+        <xliff:g id="account" example="renren">%s</xliff:g> 
+    </string>  
+    <string name="oobe_import_contacts_sim_name">Kartu SIM</string>  
+    <string name="oobe_title_wifi">"Wi-Fi"</string>  
+    <string name="lock_settings_picker_title">Pilih kuncian layar</string>  
+    <string name="add_network_string">Tambah jaringan</string>  
+    <string name="oobe_title_sim_edit">Edit SIM</string>  
+    <string name="oobe_summary_sim_edit">Edit info SIM untuk menyesuaikan dengan preferensi Anda. Anda dapat mengganti nama SIM, warna, dan nomor telepon.</string>  
+    <string name="oobe_waiting_sim">Menunggu inisialisasi kartu SIM…</string>  
+    <string name="oobe_advance_settings_end_name">Pesan terakhir</string>  
+    <string name="oobe_contact_import_null_cursor">Permintaan selesai namun diperoleh kursor nol, proses pengimporan gagal!</string> 
+    <string name="oobe_title_timezone">Pilih zona waktu</string>  
+    <string name="gps_time_sync_attention_gps_on">Diperlukan waktu maksimal 1 menit untuk mengambil perbaikan GPS. Selain itu, GPS mungkin gagal menyediakan waktu karena sinyal yang lemah di sekitar.\n\nAnda yakin ingin menggunakan waktu yang disediakan GPS?</string>  
+    <string name="gps_time_sync_attention_gps_off">Untuk menggunakan waktu yang disediakan GPS, Anda harus mengaktifkan GPS terlebih dulu. Selanjutnya, diperlukan waktu maksimal 1 menit untuk mengambil perbaikan GPS. Selain itu, GPS mungkin gagal menyediakan waktu karena sinyal yang lemah di sekitar. \n\nAnda yakin ingin mengaktifkan GPS sekarang dan menunggu waktu yang disediakan GPS?</string>  
+    <string name="oobe_summary_timezone">Pilih zona waktu pilihan Anda.</string>  
+    <string name="sync_account_summary_on">Sinkronisasi otomatis sedang aktif</string>  
+    <string name="sync_account_summary_off">Sinkronisasi otomatis sedang tidak aktif</string>  
+    <string name="sync_account_title">Sinkronisasi Account Otomatis</string>  
+    <string name="wifi_setup_wizard_title">"Pilih Wi-Fi"</string>  
+    <string name="wifi_menu_wps_pbc">"Tombol Tekan WPS"</string>  
+    <string name="wifi_other_network">"Jaringan lain..."</string>  
+    <string name="wifi_setup_skip">Lewati</string>  
+    <string name="wifi_setup_next">"Berikutnya"</string>  
+    <string name="wifi_setup_back">Kembali</string>  
+    <string name="wifi_empty_list_wifi_off">Untuk melihat jaringan tersedia, aktifkan Wi-Fi.</string>  
+    <string name="wifi_empty_list_wifi_on">"Menelusuri jaringan Wi-Fi..."</string> 
+
+      <string name="import_contact_already">Anda telah mengimpornya. Coba lagi nanti.</string>
+</resources>

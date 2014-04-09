@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="gemini_sim_info_title">Πληροφορίες SIM</string>  
+    <string name="gemini_default_sim_title">Προεπιλεγμένη SIM</string>  
+    <string name="gemini_general_settings_title">Γενικές ρυθμίσεις</string>  
+    <string name="gemini_roaming_settings_title">Περιαγωγή</string>  
+    <string name="gemini_contacts_sim_title">"Επαφές &amp; SIM"</string>  
+    <string name="gemini_contacts_sim_summary">Συσχέτιση επαφών με συγκεκριμένη SIM</string>  
+    <string name="gemini_voice_call">Φωνητική κλήση</string>  
+    <string name="gemini_video_call">Κλήση βίντεο</string>  
+    <string name="gemini_data_connection">Σύνδεση δεδομένων</string>  
+    <string name="gemini_msg">Μηνύματα</string>  
+    <string name="gemini_default_sim_always_ask">Πάντα ερώτηση</string>  
+    <string name="gemini_intenet_call">Κλήση Internet</string>  
+    <string name="gemini_default_sim_never">Απενεργοποίηση</string>  
+    <string name="gemini_sim_info_editor_name">Επεξεργασία ονόματος SIM</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">Η αποθήκευση απέτυχε</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">Διπλότυπο όνομα κάρτας SIM</string>  
+    <string name="gemini_sim_info_editor_number">Εισαγωγή αριθμού τηλεφώνου</string>  
+    <string name="gemini_sim_info_editor_color">Ορισμός χρώματος φόντου</string>  
+    <string name="gemini_sim_info_editor_number_display_format">Εμφάνιση αριθμών</string>  
+    <string name="gemini_no_sim_indicator">Δεν υπάρχει κάρτα SIM</string>  
+    <string name="gemini_data_connection_progress_message">"Περιμένετε..."</string>  
+    <string name="gemini_gsm_umts_network_preferences_title">Λειτουργία δικτύου</string>  
+    <string name="gemini_sim_mode_progress_activating_message">Ενεργοποίηση\u2026</string>  
+    <string name="gemini_sim_mode_progress_deactivating_message">Απενεργοποίηση\u2026</string>  
+    <string msgid="7422262558097875757" name="apn_not_set">"Δεν έχει ρυθμιστεί"</string>  
+    <string name="gemini_3g_modem_switch_confirm_message">"Με αυτήν την ενέργεια θα γίνει επίσης εναλλαγή της υπηρεσίας 3G σε αυτήν την κάρτα SIM. Συνέχεια; Βεβαιωθείτε, επίσης, ότι η επιλεγμένη κάρτα SIM υποστηρίζει την υπηρεσία 3G."</string>  
+    <string name="gemini_3g_disable_warning_case0">"Πρώτα πρέπει να ενεργοποιήσετε την περιαγωγή δεδομένων για αυτήν την κάρτα SIM, γεγονός το οποίο ενδέχεται να σας επιβαρύνει με σημαντικά έξοδα περιαγωγής! Είστε βέβαιοι ότι θέλετε να ενεργοποιήσετε την περιαγωγή δεδομένων και να επιλέξετε αυτήν την κάρτα SIM;"</string>  
+    <string name="gemini_3g_disable_warning_case1">"Η υπηρεσία 3G δεν είναι διαθέσιμη με την επιλεγμένη SIM. Ενδέχεται να προκαλείται καθυστέρηση φόρτωσης δεδομένων. Μπορείτε να αλλάξετε τη ρύθμιση υπηρεσίας 3G στην περιοχή Ρυθμίσεις &gt; Ασύρματο και δίκτυα &gt; Δίκτυα κινητής τηλεφωνίας. Είστε βέβαιοι ότι θέλετε να επιλέξετε αυτήν την κάρτα SIM;</string>  
+    <string name="gemini_3g_disable_warning_case2">"Η υπηρεσία 3G δεν είναι διαθέσιμη με την επιλεγμένη SIM. Ενδέχεται να προκαλείται καθυστέρηση φόρτωσης δεδομένων. Μπορείτε να αλλάξετε τη ρύθμιση υπηρεσίας 3G στην περιοχή Ρυθμίσεις &gt; Διαχείριση κάρτας SIM. Είστε βέβαιοι ότι θέλετε να επιλέξετε αυτήν την κάρτα SIM;"</string>  
+    <string name="gemini_3g_disable_warning_case3">"Πρώτα πρέπει να ενεργοποιήσετε την περιαγωγή δεδομένων για αυτήν την κάρτα SIM, γεγονός το οποίο ενδέχεται να σας επιβαρύνει με σημαντικά έξοδα περιαγωγής! Επίσης, η υπηρεσία 3G δεν είναι διαθέσιμη με αυτήν την κάρτα SIM. Ενδέχεται να προκαλείται καθυστέρηση φόρτωσης δεδομένων. Μπορείτε να αλλάξετε τη ρύθμιση στην περιοχή Ρυθμίσεις &gt; Ασύρματο και δίκτυα &gt; Δίκτυα κινητής τηλεφωνίας. Είστε βέβαιοι ότι θέλετε να ενεργοποιήσετε την περιαγωγή δεδομένων και να επιλέξετε αυτήν την κάρτα SIM;"</string>  
+    <string name="gemini_3g_disable_warning_case4">"Πρώτα πρέπει να ενεργοποιήσετε την περιαγωγή δεδομένων για αυτήν την κάρτα SIM, γεγονός το οποίο ενδέχεται να σας επιβαρύνει με σημαντικά έξοδα περιαγωγής! Επίσης, η υπηρεσία 3G δεν είναι διαθέσιμη με αυτήν την κάρτα SIM. Ενδέχεται να προκαλείται καθυστέρηση φόρτωσης δεδομένων. Μπορείτε να αλλάξετε τη ρύθμιση στην περιοχή Ρυθμίσεις &gt; Ασύρματο και δίκτυα &gt; Διαχείριση κάρτας SIM. Είστε βέβαιοι ότι θέλετε να ενεργοποιήσετε την περιαγωγή δεδομένων και να επιλέξετε αυτήν την κάρτα SIM;"</string>  
+    <string name="gemini_default_sim_3g_off">Απενεργοποίηση</string>  
+    <string name="gemini_3g_modem_switching_message">"Η εναλλαγή SIM θα χρειαστεί περίπου 10 δευτερόλεπτα για να ολοκληρωθεί. Περιμένετε..."</string>  
+</resources>

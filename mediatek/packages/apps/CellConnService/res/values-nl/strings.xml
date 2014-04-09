@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">CellConnectionService</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Annuleren</string>
+    <string name="confirm_radio_title">SIM uitgeschakeld</string>
+    <string name="confirm_radio_msg"> <xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> is nu uitgeschakeld. Wilt u deze SIM-kaart inschakelen?</string>
+    <string name="confirm_radio_msg_single"> De vliegtuigmodus is nu ingeschakeld. Wilt u deze uitschakelen?</string>
+    <string name="confirm_pin_title">SIM vergrendeld</string>
+    <string name="confirm_pin_msg">De geselecteerde SIM-kaart is nu vergrendeld. Ontgrendel deze eerst.</string>
+    <string name="confirm_simmelock_title">SIM ME vergrendeld</string>
+    <string name="confirm_simmelock_msg">De geselecteerde SIM-sleuf is nu vergrendeld. Ontgrendel deze eerst.</string>
+    <string name="confirm_fdn_title">FDN ingeschakeld</string>
+    <string name="confirm_fdn_msg">De vaste kiesnummer zijn ingeschakeld.</string>
+    <string name="confirm_roaming_title">Roaming-waarschuwing</string>
+    <string name="confirm_roaming_msg">De SIM-kaart die u wilt gebruiken is bezig met roamen. Er is nu geen lokale SIM beschikbaar. Wilt u doorgaan?</string>
+    <string name="confirm_roaming_withPrefer_msg">De SIM-kaart die u wilt gebruiken is bezig met roamen. Wilt u doorgaan via de lokale SIM?</string>
+    <string name="confirm_roaming_lbutton">Doorgaan</string>
+    <string name="confirm_roaming_rbutton">Annuleren</string>
+    <string name="confirm_roamingWithPrefer_lbutton">Lokale SIM</string>
+    <string name="confirm_roamingWithPrefer_rbutton">Roaming SIM</string>
+    <string name="confirm_radio_lbutton">Inschakelen</string>
+    <string name="confirm_unlock_lbutton">Ontgrendelen</string>
+    <string name="confirm_unlock_fail">Bewerking geannuleerd</string>
+    <string name="confirm_turnon_radio_fail">Bewerking geannuleerd</string>
+    <string name="confirm_permit_roaming_fail">U kunt deze actie op de roaming SIM annuleren</string>
+    <string name="confirm_sim_locked_message">De SIM-kaart is permanent vergrendeld</string>
+    <string name="confirm_slot_locked_message">De sleuf is permanent vergrendeld</string>
+</resources>
+

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--* Copyright Statement:
+ *
+ * This software/firmware and related documentation ("MediaTek Software") are
+ * protected under relevant copyright laws. The information contained herein
+ * is confidential and proprietary to MediaTek Inc. and/or its licensors.
+ * Without the prior written permission of MediaTek inc. and/or its licensors,
+ * any reproduction, modification, use or disclosure of MediaTek Software,
+ * and information contained herein, in whole or in part, shall be strictly prohibited.
+ *
+ * MediaTek Inc. (C) 2012. All rights reserved.
+ *
+ * BY OPENING THIS FILE, RECEIVER HEREBY UNEQUIVOCALLY ACKNOWLEDGES AND AGREES
+ * THAT THE SOFTWARE/FIRMWARE AND ITS DOCUMENTATIONS ("MEDIATEK SOFTWARE")
+ * RECEIVED FROM MEDIATEK AND/OR ITS REPRESENTATIVES ARE PROVIDED TO RECEIVER ON
+ * AN "AS-IS" BASIS ONLY. MEDIATEK EXPRESSLY DISCLAIMS ANY AND ALL WARRANTIES,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NONINFRINGEMENT.
+ * NEITHER DOES MEDIATEK PROVIDE ANY WARRANTY WHATSOEVER WITH RESPECT TO THE
+ * SOFTWARE OF ANY THIRD PARTY WHICH MAY BE USED BY, INCORPORATED IN, OR
+ * SUPPLIED WITH THE MEDIATEK SOFTWARE, AND RECEIVER AGREES TO LOOK ONLY TO SUCH
+ * THIRD PARTY FOR ANY WARRANTY CLAIM RELATING THERETO. RECEIVER EXPRESSLY ACKNOWLEDGES
+ * THAT IT IS RECEIVER'S SOLE RESPONSIBILITY TO OBTAIN FROM ANY THIRD PARTY ALL PROPER LICENSES
+ * CONTAINED IN MEDIATEK SOFTWARE. MEDIATEK SHALL ALSO NOT BE RESPONSIBLE FOR ANY MEDIATEK
+ * SOFTWARE RELEASES MADE TO RECEIVER'S SPECIFICATION OR TO CONFORM TO A PARTICULAR
+ * STANDARD OR OPEN FORUM. RECEIVER'S SOLE AND EXCLUSIVE REMEDY AND MEDIATEK'S ENTIRE AND
+ * CUMULATIVE LIABILITY WITH RESPECT TO THE MEDIATEK SOFTWARE RELEASED HEREUNDER WILL BE,
+ * AT MEDIATEK'S OPTION, TO REVISE OR REPLACE THE MEDIATEK SOFTWARE AT ISSUE,
+ * OR REFUND ANY SOFTWARE LICENSE FEES OR SERVICE CHARGE PAID BY RECEIVER TO
+ * MEDIATEK FOR SUCH MEDIATEK SOFTWARE AT ISSUE.
+ *
+ * The following software/firmware and/or related documentation ("MediaTek Software")
+ * have been modified by MediaTek Inc. All revisions are subject to any receiver's
+ * applicable license agreements with MediaTek Inc.
+ */  -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="video_sharing_invitation_dialog_title">Incoming streaming video</string>
+    <string name="video_sharing_invitation_dialog_content">Accept streaming video.</string>
+    <string name="share_image">Share from...</string>
+    <string name="file_name_title">File name: </string>
+    <string name="rejected_share_image">The other side rejected the image sharing.</string>
+    <string name="terminated_share_image">The image sharing is terminated by the other side.</string>
+    <string name="terminate_share_image">The image sharing will be terminated to proceed the operation you selected. Are you sure to go on?</string>
+    <string name="wait_remote_to_accept">Waiting the other side to accept.</string>
+    <string name="remote_has_accepted">The other side has accepted the video sharing.</string>
+    <string name="remote_reject">The other side rejected the video sharing.</string>
+    <string name="remote_terminated">The video sharing is terminated by the other side.</string>
+    <string name="wait_for_video">Waiting for the video from peer side...</string>
+    <string name="attention_title">Attention</string>
+    <string name="no_storage">No enough storage to receive the image</string>
+    <string name="image_sharing_invitation_time_out">Image sharing invitation has already timed out.</string>
+    <string name="image_sharing_already_ongoing">Image sharing is not available since another share is in progress</string>
+    <string name="image_sharing_accepted">The other side has accepted the image sharing.</string>
+    <string name="now_allowed_video_share_by_network">Your network do not meet the video share requirement.</string>
+    <string name="gallery_item">Gallery</string>
+    <string name="camera_item">Camera</string>
+    <string name="video_sharing_terminated_due_to_network">The video sharing is terminated due to network issue</string>
+    <string name="image_sharing_terminated_due_to_network">The image sharing is terminated due to network issue</string>
+    <string name="video_sharing_is_on_going">Video sharing is not available since another share is in progress</string>
+    <string name="video_sharing_invitation_time_out">Video sharing invitation has already timed out</string>
+    <string name="video_sharing_not_available">Video share capability is not available, please try it later.</string>
+    <string name="image_sharing_not_available">Image share capability is not available, please try it later.</string>
+    <string name="video_sharing_not_support">This video file is not supported.</string>
+</resources>

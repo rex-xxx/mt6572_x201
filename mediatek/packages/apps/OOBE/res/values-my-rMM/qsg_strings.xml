@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="qsg_app_name">လျှင်မြန်စွာ စတင်သည့် လမ်းညွှန်</string>  
+    <string name="skip_button">ခုံကျော်သည်</string>  
+    <string name="ok_button">စတင်သည်</string>  
+    <string name="qsg_title_begin">လျှင်မြန်စွာ စတင်သည့် လမ်းညွှန်</string>  
+    <string name="qsg_summary_begin">ဤလျင်မြန်စွာ စတင်ခြင်း လမ်းညွှန်သည် အသုံးကျသော အရိပ် အမြွက် ၅ ခု ကို ထောက် ပံ့ပေးလိမ့်မည်ဖြစ်ပြီး အခြေခံ အမူအရာ နှင့် ပင်မ ဖန်သားပြင် စီမံခန့်ခွဲမှု အား သင့်ကို မိတ်ဆက် ပေးသည်။</string>  
+    <string name="next">နောက်တစ်ခု</string>  
+    <string name="play_again">နောက်တစ်ကြိမ် ဖွင့်သည်</string>  
+    <string name="finish">ပြီးဆုံးသည်</string>  
+    <string name="qsg_title2_home_screen">ပင်မ ဖန်သားပြင် ကို ကြည့်သည်</string>  
+    <string name="qsg_summary2_home_screen">ပင်မ ဖန်သားပြင်၏ အခြား စာမျက်နှာများကို ကြည့်ရန် ဘယ် သို့မဟုတ် ညာ ကို လွှဲရိုက်သည်။</string>  
+    <string name="qsg_title3_choose_widget">ဝဒ်ဂျက်(စ်) အချို့ ရွေးချယ်သည်</string>  
+    <string name="qsg_summary3_choose_widget">သင်၏ ပင်မ ဖန်သားပြင်သို့ ဝဒ်ဂျက်(စ်) ပေါင်းထည့်ရန် ထိုအရာကို ထိပြီး ကိုင်ထားပါ။</string>  
+    <string name="qsg_title4_launch_page">စာမျက်နှာ အသေးစိတ်ကို စတင်သည်</string>  
+    <string name="qsg_summary4_launch_page">ရွေးချယ်စရာများ အတွက် စာမျက်နှာ အသေးစိတ် ပေါ်လာရန် ပရိုဖိုင်း ပုံရိပ်ကို ခေါက်ပါ။</string>  
+    <string name="qsg_title5_view_notification">အကြောင်းကြားချက်များ ကြည့်သည်</string>  
+    <string name="qsg_summary5_view_notification">အကြောင်းကြားချက်များအားလုံးကို ကြည့်ရန် အခြေအနေဖော်ပြမှုဘားကို ကိုင်ထားပြီး အောက်သို့ ဆွဲချပါ။</string>  
+    <string name="qsg_changesim_title">SIM ကဒ် ပြောင်းသည်</string>  
+    <string name="qsg_changesim_summary">လုပ်ငန်းဆောင်ရွက်ရန် SIM ကဒ် ဝန်ဆောင်မှုကို ရွေးချယ်ပြီ; အခြေအနေ ဖော်ပြမှုဘားကို အောက်သို့ ဆွဲချပါ။</string>  
+    <string name="qsg_summary_end">လျင်မြန်စွာ စတင်ခြင်း လမ်းညွှန် တွင် အထောက်အကူပေး သည့် အရိပ်အမြွက် များအားလုံးကို သင် တစ်လျှောက်လုံး ရပြီးပြီ။ \n\nအကယ်၍ သင် အလိုရှိပါက ဤလမ်း ညွှန်ကို နောတ်တစ် ကြိမ်ကြည့်ရန် "နောက်တစ်ကြိမ် ဖွင့်သည်" ခလုတ် ကို ခေါက်နိုင်ပါသည်။\n\n တစ်နည်းအားဖြင့် သင့် စက်အသစ် လုပ်ငန်း လည်ပတ်မှုဆောင်ရွက်ရန် "ပြီးဆုံးပြီ" ခလုတ်ကို ခေါက်နိုင်ပါသည်။</string> 
+</resources>

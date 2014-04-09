@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="qsg_app_name">Guia de Início Rápido</string>  
+    <!-- ============================ -->  
+    <!-- quick start guide strings -->  
+    <!-- ============================ -->  
+    <string name="skip_button">Ignorar</string>  
+    <string name="ok_button">Iniciar</string>  
+    <string name="qsg_title_begin">Guia de Início Rápido</string>  
+    <string name="qsg_summary_begin">Este Guia de início rápido fornecerá 4 dicas úteis e apresentarpa gestos básicos e a gestão da tela inicial.</string>  
+    <string name="next">"Avançar"</string>  
+    <string name="play_again">Reproduzir novamente</string>  
+    <string name="finish">Concluir</string>  
+    <string name="qsg_title2_home_screen">Ver a Tela inicial</string>  
+    <string name="qsg_summary2_home_screen">Passe para a esquerda ou direita para visualizar outras páginas da Tela inicial.</string>  
+    <string name="qsg_title3_choose_widget">Selecionar alguns widgets</string>  
+    <string name="qsg_summary3_choose_widget">Para adicionar um widget para sua tela Inicial, toque e segure.</string>  
+    <string name="qsg_title4_launch_page">Iniciar página de detalhe</string>  
+    <string name="qsg_summary4_launch_page">Toque na imagem do perfil para abrir a página de detalhes para opções.</string>  
+    <string name="qsg_title5_view_notification">Ver notificações</string>  
+    <string name="qsg_summary5_view_notification">Segure a barra de status e deslize para baixo para ver todas as notificações.</string>  
+    <string name="qsg_changesim_title">Alterar cartão SIM</string>  
+    <string name="qsg_changesim_summary">Deslize a barra de status para baixo, e selecione o cartão SIM de serviço para operar.</string>  
+    <string name="qsg_summary_end">Você percorreu todas as dicas no Guia de início rápido. \n\nCaso deseje, você pode tocar no botão "reproduzir novamente" para ver este guia novamente.\n\nComo alternativa, você pode tocar no botão "Finalizar" para operar seu novo dispositivo.</string> 
+</resources>

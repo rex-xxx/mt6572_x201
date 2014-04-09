@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/gemini_sim_info_title">
+    <EditTextPreference
+        android:title="@string/gemini_sim_info_editor_name"
+        android:dialogTitle="@string/gemini_sim_info_editor_name"
+        android:key="sim_name"
+        android:persistent="false"
+        android:imeOptions="actionDone"
+        android:maxLength="13"
+        android:singleLine="true"
+        />
+    <EditTextPreference
+        android:title="@string/gemini_sim_info_editor_number"
+        android:dialogTitle="@string/gemini_sim_info_editor_number"
+        android:key="sim_number"
+        android:phoneNumber="true"
+        android:maxLength="19"
+        />
+    <com.mediatek.oobe.basic.gemini.ColorPickerPreference
+        android:title="@string/gemini_sim_info_editor_color"
+        android:dialogTitle="@string/gemini_sim_info_editor_color"
+        android:key="sim_color"
+        />
+    <ListPreference
+        android:title="@string/gemini_sim_info_editor_number_display_format"
+        android:dialogTitle="@string/gemini_sim_info_editor_number_display_format"
+        android:key="sim_number_format"
+        android:entries="@array/gemini_sim_info_number_display_format_entries"
+        android:entryValues="@array/gemini_sim_info_number_display_format_values" />
+
+</PreferenceScreen>   

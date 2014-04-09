@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+ 
+	<!-- Locales in this list are displayed with the corresponding name from 
+		special_locale_names instead of using the name from Locale.getDisplayName(). -->
+	<string-array name="special_locale_codes" translatable="false">
+		<item>zh_CN</item>
+		<item>zh_TW</item>
+	</string-array>
+
+	<string-array name="special_locale_names" translatable="false">
+		<item>中文 (简体)</item>
+		<item>中文 (繁體)</item>
+	</string-array>
+	
+	
+
+
+	<!-- Date & Time from Settings begin -->
+	<!-- There is a setting to control the format of dates displayed throughout the system.  This is in the Date & Time Settings screen.  These will be adjusted to use punctuation appropriate to the user's locale. -->
+    <string-array name="date_format_values" translatable="false">
+        <!-- The blank item means to use whatever the locale calls for. -->
+        <item></item>
+        <item>MM-dd-yyyy</item>
+        <item>dd-MM-yyyy</item>
+        <item>yyyy-MM-dd</item>
+        <item>EE-MMM-d-yyyy</item>
+        <item>EE-d-MMM-yyyy</item>
+        <item>yyyy-MMM-d-EE</item>
+    </string-array>
+	<!-- Date & Time from Settings end -->
+
+	<!-- Gemini arrays begin -->
+    <!-- SIM number display format -->
+    <string-array name="gemini_sim_info_number_display_format_entries">
+        <item>First 4 digits</item>
+        <item>Last 4 digits</item>
+        <item>Do not display</item>
+    </string-array>
+
+    <string-array name="gemini_sim_info_number_display_format_values" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+	<!-- Gemini arrays end -->
+
+	<!-- Wi-Fi settings start -->
+    <!-- Match this with the order of NetworkInfo.DetailedState. --> 
+    <!-- Wi-Fi settings. The status messages when the network is unknown. -->
+    <string-array name="wifi_status">
+        <!-- Status message of Wi-Fi when it is idle. -->
+        <item></item>
+        <!-- Status message of Wi-Fi when it is scanning. -->
+        <item>Scanning\u2026</item>
+        <!-- Status message of Wi-Fi when it is connecting. -->
+        <item>Connecting\u2026</item>
+        <!-- Status message of Wi-Fi when it is authenticating. -->
+        <item>Authenticating\u2026</item>
+        <!-- Status message of Wi-Fi when it is obtaining IP address. -->
+        <item>Obtaining IP address\u2026</item>
+        <!-- Status message of Wi-Fi when it is connected. -->
+        <item>Connected</item>
+        <!-- Status message of Wi-Fi when it is suspended. -->
+        <item>Suspended</item>
+        <!-- Status message of Wi-Fi when it is disconnecting. -->
+        <item>Disconnecting\u2026</item>
+        <!-- Status message of Wi-Fi when it is disconnected. -->
+        <item>Disconnected</item>
+        <!-- Status message of Wi-Fi when it is a failure. -->
+        <item>Unsuccessful</item>
+        <!-- Status message of Wi-Fi when it is blocked. -->
+        <item>Blocked</item>
+        <!-- Status message of Wi-Fi when connectiong is being verified. -->
+        <item>Temporarily avoiding poor connection</item>
+    </string-array>
+
+    <!-- Match this with the order of NetworkInfo.DetailedState. --> 
+    <!-- Wi-Fi settings. The status messages when the network is known. -->
+    <string-array name="wifi_status_with_ssid">
+        <!-- Status message of Wi-Fi when it is idle. -->
+        <item></item>
+        <!-- Status message of Wi-Fi when it is scanning. -->
+        <item>Scanning\u2026</item>
+        <!-- Status message of Wi-Fi when it is connecting to a network. -->
+        <item>Connecting to <xliff:g id="network_name">%1$s</xliff:g>\u2026</item>
+        <!-- Status message of Wi-Fi when it is authenticating with a network. -->
+        <item>Authenticating with <xliff:g id="network_name">%1$s</xliff:g>\u2026</item>
+        <!-- Status message of Wi-Fi when it is obtaining IP address from a network. -->
+        <item>Obtaining IP address from <xliff:g id="network_name">%1$s</xliff:g>\u2026</item>
+        <!-- Status message of Wi-Fi when it is connected to a network. -->
+        <item>Connected to <xliff:g id="network_name">%1$s</xliff:g></item>
+        <!-- Status message of Wi-Fi when it is suspended. -->
+        <item>Suspended</item>
+        <!-- Status message of Wi-Fi when it is disconnecting from a network. -->
+        <item>Disconnecting from <xliff:g id="network_name">%1$s</xliff:g>\u2026</item>
+        <!-- Status message of Wi-Fi when it is disconnected. -->
+        <item>Disconnected</item>
+        <!-- Status message of Wi-Fi when it is a failure. -->
+        <item>Unsuccessful</item>
+        <!-- Status message of Wi-Fi when it is blocked. -->
+        <item>Blocked</item>
+        <!-- Status message of Wi-Fi when connectiong is being verified. -->
+        <item>Temporarily avoiding poor connection</item>
+    </string-array>
+
+    <!-- Match this with the constants in AccessPoint. --> <skip />
+    <!-- Wi-Fi settings.  The type of security a Wi-Fi network has. -->
+    <!-- Do not translate. -->
+    <string-array name="wifi_security">
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_none</item>
+        <!-- Do not translate. -->
+        <item>WEP</item>
+        <!-- Do not translate. -->
+        <item>WPA/WPA2 PSK</item>
+        <!-- Do not translate. -->
+        <item>802.1x EAP</item>
+        <!-- Do not translate. -->
+        <item>WAPI PSK</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_wapi_certificate</item>
+    </string-array>
+
+    <!-- Match this with the constants in WifiDialog. --> <skip />
+    <!-- Wi-Fi settings.  The type of EAP method a Wi-Fi network has. -->
+    <!-- Do not translate. -->
+    <string-array name="wifi_eap_method">
+        <!-- Do not translate. -->
+        <item>PEAP</item>
+        <!-- Do not translate. -->
+        <item>TLS</item>
+        <!-- Do not translate. -->
+        <item>TTLS</item>
+    </string-array>
+
+    <!-- Match this with drawable.wifi_signal. --> <skip />
+    <!-- Wi-Fi settings. The signal strength a Wi-Fi network has. -->
+    <string-array name="wifi_signal">
+        <item>Poor</item>
+        <item>Fair</item>
+        <item>Good</item>
+        <item>Excellent</item>
+    </string-array>
+
+    <!-- Wi-Fi settings. Presented as a list dialog to the user to choose the Wi-Fi sleep policy. -->
+    <string-array name="wifi_sleep_policy_entries">
+        <!-- Wi-Fi should go to sleep when the screen turns off. -->
+        <item>When screen turns off</item>
+        <!-- When plugged in, never go to sleep.  When on battery, go to sleep when screen turns off. -->
+        <item>Never when plugged in</item>
+        <!-- Never go to sleep. -->
+        <item>Never</item>
+    </string-array>
+
+    <!-- Match with wifi_sleep_policy_entries and the values of the settings in Settings class. --> <skip />
+    <!-- Do not translate. -->
+    <string-array name="wifi_sleep_policy_values" translatable="false">
+        <!-- Do not translate. -->
+        <item>0</item>
+        <!-- Do not translate. -->
+        <item>1</item>
+        <!-- Do not translate. -->
+        <item>2</item>
+    </string-array>
+    
+    <!-- Phase 2 options -->
+    <!-- Do not translate. -->
+    <string-array name="wifi_phase2_entries">
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_none</item>
+		<!-- Do not translate. -->
+        <item>PAP</item>
+		<!-- Do not translate. -->
+        <item>MSCHAP</item>
+		<!-- Do not translate. -->
+        <item>MSCHAPV2</item>
+		<!-- Do not translate. -->
+        <item>GTC</item>
+    </string-array>
+	    
+    <!-- Add for CMCC WLAN begin -->
+	<string-array name="wifi_connect_type_entries">
+        <!-- auto connect to wifi -->
+        <item>Automatically connect</item>
+        <!-- manual connect to wifi -->
+        <item>Manually connect</item>
+        <!-- always notify user when wifi is available -->
+        <item>Always ask</item>
+    </string-array>
+	<string-array name="wifi_connect_type_values" translatable="false">
+        <!-- auto connect to wifi -->
+        <item>0</item>
+        <!-- manual connect to wifi -->
+        <item>1</item>
+        <!-- always notify user when wifi is available -->
+        <item>2</item>
+    </string-array>
+	<!-- Add for CMCC WLAN end -->
+	
+	<!-- Wi-Fi settings. Presented as a list dialog to the user to choose the Wi-Fi frequency band. -->
+    <string-array name="wifi_frequency_band_entries">
+        <!-- Operation on both 2.4 GHz and 5 GHz [CHAR LIMIT=25]-->
+        <item>Auto</item>
+        <!-- Operation on 5 GHz alone [CHAR LIMIT=25]-->
+        <item>5 GHz only</item>
+        <!-- Operation on 2.4 GHz alone [CHAR LIMIT=25]-->
+        <item>2.4 GHz only</item>
+    </string-array>
+
+    <!-- Match with wifi_frequency_band_entries and the values of the settings in WifiManager. -->
+    <!-- Do not translate. -->
+    <string-array name="wifi_frequency_band_values" translatable="false">
+        <!-- Do not translate. -->
+        <item>0</item>
+        <!-- Do not translate. -->
+        <item>1</item>
+        <!-- Do not translate. -->
+        <item>2</item>
+    </string-array>
+    
+   <!-- Wi-Fi settings. Presented as a list dialog to the user to choose the Wi-Fi sleep policy. Used when
+         the device is Wi-Fi-only. [CHAR LIMIT=30] -->
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <!-- Always keep Wi-Fi on when screen turns off. -->
+        <item>Always</item>
+        <!-- Keep Wi-Fi on when screen turns off and plugged in.  When on battery, go to sleep when screen turns off. -->
+        <item>Only when plugged in</item>
+        <!-- Do not keep Wi-Fi on when screen turns off, for Wi-Fi-only devices, no other data connection -->
+        <item>Never</item>
+    </string-array>
+    
+    <!-- Wi-Fi IP settings. -->
+   <!-- Note that adding/removing/moving the items will need wifi settings code change. -->
+    <string-array name="wifi_ip_settings">
+        <!-- Use DHCP (Dynamic Host Configuration Protocol) for obtaining IP settings [CHAR LIMIT=25] [ do not translate ]-->
+        <item>DHCP</item>
+        <!-- Use statically defined IP settings [CHAR LIMIT=25]-->
+        <item>Static</item>
+    </string-array>
+
+    <!-- Wi-Fi proxy settings. -->
+    <!-- Note that adding/removing/moving the items will need wifi settings code change. -->
+    <string-array name="wifi_proxy_settings">
+        <!-- No HTTP proxy is used for the current wifi network [CHAR LIMIT=25] -->
+        <item>None</item>
+        <!-- Manual HTTP proxy settings are used for the current wifi network [CHAR LIMIT=25] -->
+        <item>Manual</item>
+    </string-array>
+
+	<!-- For auto time sync values -->
+    <string-array name="auto_time_entries">
+    	<item>Use network provided time</item>
+    	<item>Use GPS provided time</item>
+    	<item>Off</item>
+    </string-array>
+	<!-- Wi-Fi settings end -->
+    <!-- Do not translate. -->
+    <string-array name="wifi_security_wfa">
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_none</item>
+        <!-- Do not translate. -->
+        <item>WEP</item>
+        <!-- Do not translate. -->
+        <item>WPA PSK</item>
+        <!-- Do not translate. -->
+        <item>WPA2 PSK</item>
+        <!-- Do not translate. -->
+        <item>802.1x EAP</item>
+        <!-- Do not translate. -->
+        <item>WAPI PSK</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_wapi_certificate</item>
+    </string-array>
+    <!-- Wi-Fi settings.  The type of security a Wi-Fi network has. -->
+    <string-array name="wpa_security">
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_none</item>
+        <!-- Do not translate. -->
+        <item>WEP</item>
+        <!-- Do not translate. -->
+        <item>WPA/WPA2 PSK</item>
+        <!-- Do not translate. -->
+        <item>802.1x EAP</item>
+    </string-array>
+    <string-array name="wpa_security_wfa">
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_none</item>
+        <item>WEP</item>
+        <!-- Do not translate. -->
+        <item>WPA PSK</item>
+        <!-- Do not translate. -->
+        <item>WPA2 PSK</item>
+        <!-- Do not translate. -->
+        <item>802.1x EAP</item>
+    </string-array>
+    <string-array name="wapi_security">
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_none</item>
+        <!-- Do not translate. -->
+        <item>WAPI PSK</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_wapi_certificate</item>
+    </string-array>
+	<string-array name="sim_slot">
+		<!-- Do not translate. -->
+		<item>@string/wifi_unspecified</item>
+		<!-- Do not translate. -->
+		<item>@string/eap_sim_slot_0</item>
+		<!-- Do not translate. -->
+		<item>@string/eap_sim_slot_1</item>
+	</string-array>
+   <!-- WEP password type -->
+   <string-array name="wifi_WEP_index">
+        <item translatable="false">1</item>
+        <item translatable="false">2</item>
+        <item translatable="false">3</item>
+        <item translatable="false">4</item>
+    </string-array>
+   <!-- WEP password type -->
+   <string-array name="wifi_WEP_security_type">
+        <item>Auto</item>
+        <item>WEP ASCII</item>
+        <item>WEP hexadecimal</item>
+    </string-array>
+    <string-array name="wifi_eap_method_sim_aka">
+        <!-- Do not translate. -->
+        <item>PEAP</item>
+        <!-- Do not translate. -->
+        <item>TLS</item>
+        <!-- Do not translate. -->
+        <item>TTLS</item>
+        <!-- Do not translate. -->
+        <item>SIM</item>
+        <!-- Do not translate. -->
+        <item>AKA</item>
+    </string-array>
+</resources>

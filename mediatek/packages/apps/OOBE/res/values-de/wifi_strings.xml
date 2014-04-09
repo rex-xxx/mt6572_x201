@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string msgid="4746946030627213196" name="wifi_settings">"WLAN-Einstellungen"</string>  
+    <string msgid="2810363951104753710" name="wifi_settings_category">"WLAN-Einstellungen"</string>  
+    <string msgid="6710266609710860129" name="wifi_starting">"Aktivierung..."</string>  
+    <string msgid="5952909472548218348" name="wifi_stopping">"Deaktivierung..."</string>  
+    <string msgid="3207971103917128179" name="wifi_error">"Fehler"</string>  
+    <string msgid="7618393787965366655" name="wifi_in_airplane_mode">"Im Flugmodus"</string>  
+    <string msgid="6194542252808587669" name="wifi_fail_to_scan">"Netzwerkscan nicht möglich"</string>  
+    <string msgid="3755768188029653293" name="wifi_notify_open_networks">"Netzwerkhinweis"</string>  
+    <string msgid="3038290727701553612" name="wifi_notify_open_networks_summary">"Benachrichtigen, wenn ein offenes Netzwerk verfügbar ist"</string>  
+    <string msgid="1671334951296205616" name="wifi_add_network">"WLAN-Netzwerk hinzufügen"</string>  
+    <string msgid="1470911530412095868" name="wifi_menu_scan">"Scan"</string>  
+    <string msgid="7522252991919573664" name="wifi_menu_advanced">"Erweitert"</string>  
+    <string msgid="4996220309848349408" name="wifi_menu_connect">"Mit Netzwerk verbinden"</string>  
+    <string msgid="8736964302477327114" name="wifi_menu_forget">"Netzwerk entfernen"</string>  
+    <string msgid="2068554918652440105" name="wifi_menu_modify">"Netzwerk ändern"</string>  
+    <string msgid="641393708309146745" name="wifi_ssid">"Netzwerk-SSID"</string>  
+    <string msgid="6603611185592956936" name="wifi_security">"Sicherheit"</string>  
+    <string msgid="5514120261628065287" name="wifi_signal">"Signalstärke"</string>  
+    <string msgid="4824568012414605414" name="wifi_status">"Status"</string>  
+    <string msgid="3526198708812322037" name="wifi_speed">"Verbindungsgeschwindigkeit"</string>  
+    <string msgid="1440054061044402918" name="wifi_ip_address">"IP-Adresse"</string>  
+    <string msgid="8529436133640730382" name="wifi_eap_method">"EAP-Methode"</string>  
+    <string msgid="5231074529772044898" name="please_select_phase2">"Phase 2-Authentifizierung"</string>  
+    <string msgid="3521574865488892851" name="wifi_eap_ca_cert">"CA-Zertifikat"</string>  
+    <string msgid="1291089413368160789" name="wifi_eap_user_cert">"Nutzerzertifikat"</string>  
+    <string msgid="4359453783379679103" name="wifi_eap_identity">"Identität"</string>  
+    <string msgid="2989469344116577955" name="wifi_eap_anonymous">"Anonyme Identität"</string>  
+    <string msgid="5948219759936151048" name="wifi_password">"Passwort"</string>  
+    <string msgid="4235237470701732009" name="wifi_show_password">"Passwort anzeigen"</string>  
+    <string name="wifi_hex_password">"Hexadezimalkennwort"</string>  
+    <string msgid="3410422020930397102" name="wifi_unchanged">"(nicht geändert)"</string>  
+    <string msgid="5431501214192991253" name="wifi_unspecified">"(keine Angabe)"</string>  
+    <string msgid="8426719916135950136" name="wifi_remembered">"Gespeichert"</string>  
+    <string msgid="1136191511238508967" name="wifi_not_in_range">"Nicht in Reichweite"</string>   
+    <string msgid="1076622875777072845" name="wifi_connect">"Verbinden"</string>  
+    <string msgid="8168174695608386644" name="wifi_forget">"Entfernen"</string>  
+    <string msgid="3331121567988522826" name="wifi_save">"Speichern"</string>  
+    <string msgid="6763568902542968964" name="wifi_cancel">"Abbrechen"</string>  
+    <string msgid="5419052271935350999" name="wifi_advanced_titlebar">"Erweitert"</string>  
+    <string msgid="1367731352485585528" name="wifi_setting_sleep_policy_title">"WLAN Standby-Richtlinie"</string>  
+    <string msgid="5103670439972135148" name="wifi_setting_sleep_policy_error">"Beim Einrichten der Standby-Richtlinie ist ein Problem aufgetreten."</string>  
+    <string msgid="6571335466330978393" name="wifi_advanced_mac_address_title">"MAC-Adresse"</string>  
+    <string msgid="6215297094363164846" name="wifi_advanced_ip_address_title">"IP-Adresse"</string>  
+    <string msgid="4345739031248760326" name="wifi_ip_settings_titlebar">"IP-Einstellungen"</string>  
+    <string msgid="7344118050720080045" name="wifi_dns1">"DNS 1"</string>  
+    <string msgid="1368601006824882659" name="wifi_dns2">"DNS 2"</string>  
+    <string msgid="163914742461092086" name="wifi_gateway">"Gateway"</string>  
+    <string msgid="8948641212931906143" name="wifi_tether_enabled_subtext">"Mobiler Hotspot 
+        <xliff:g id="NETWORK_SSID">%1$s</xliff:g> aktiv"
+    </string>  
+    <string name="wapi_user_certificate">"Nutzerzertifikat"</string>  
+    <string name="wapi_as_certificate">"ASE-Zertifikat"</string>  
+    <string msgid="7862009036663793314" name="status_unavailable">"Nicht verfügbar"</string>  
+    <string name="wifi_ctia_test">"CTIA-Testmoduseinstellung"</string>  
+    <string name="wifi_ctia_test_summary">"CTIA-Testmoduskonfiguration"</string>  
+    <string name="wifi_ip_settings">"IP-Einstellungen"</string>  
+    <string name="wifi_disabled_generic">Deaktiviert</string>  
+    <string name="wifi_disabled_network_failure">Schlechte Internetverbindung vermieden</string>  
+    <string name="wifi_disabled_password_failure">Authentifizierungsproblem</string>  
+    <string name="wifi_ip_settings_invalid_ip_address">Gültige IP-Adresse eingeben.</string>  
+    <string name="wifi_ip_settings_invalid_gateway">Gültige Gateway-Adresse eingeben.</string>  
+    <string name="wifi_ip_settings_invalid_dns">Gültige DNS-Adresse eingeben.</string>  
+    <string name="wifi_ip_settings_invalid_network_prefix_length">Eine Netzwerk-Präfixlänge zwischen 0 und 32 eingeben.</string>  
+    <string name="wifi_network_prefix_length">Netzwerk-Präfixlänge</string>  
+    <string name="wifi_connect_type_title">Auto. Verbindungstyp</string>  
+    <string name="wifi_priority_label">Priorität</string>  
+    <string name="wifi_priority_settings_label">Prioritätseinstellungen</string>  
+    <string name="wifi_wps_available_first_item">Geschütztes Netzwerk verfügbar</string>  
+    <string name="wifi_wps_available_second_item">\u2026 (geschütztes Netzwerk verfügbar)</string>  
+    <string name="wifi_secured_first_item">Gesichert mit 
+        <xliff:g id="wifi_security_short">%1$s</xliff:g> 
+    </string>  
+    <string name="wifi_secured_second_item">, gesichert mit 
+        <xliff:g id="wifi_security_short">%1$s</xliff:g> 
+    </string>  
+    <string name="wifi_security_none">"/"</string>  
+    <string name="sim_slot">SIM-Steckplatz</string>  
+    <string name="wifi_network_netmask">Netzmaske</string>  
+    <string name="wifi_enable_watchdog_service">Schlechte Verbindungen vermeiden</string>  
+    <string name="wifi_setting_frequency_band_title">Wi-Fi-Frequenzband</string>  
+    <string name="wifi_setting_frequency_band_summary">Frequenzbereich des Betriebs angeben</string>  
+    <string name="wifi_setting_frequency_band_error">Beim Einst. d. Frequenzbandes Problem aufgetreten.</string>  
+    <string name="proxy_settings_title">Proxy-Einstellungen</string>  
+    <string name="proxy_clear_text">"Löschen"</string>  
+    <string name="proxy_port_label">Proxy-Port</string>  
+    <string name="proxy_exclusionlist_label">Bypass-Proxy für</string>  
+    <string name="proxy_exclusionlist_hint">beispiel.com,meincomp.test.com,localhost</string>  
+    <string name="proxy_defaultView_text">"Standard wiederherstellen"</string>  
+    <string name="proxy_hostname_label">Proxy-Hostname</string>  
+    <string name="proxy_hostname_hint">proxy.beispiel.com</string>  
+    <string name="proxy_error">Achtung</string>  
+    <string name="proxy_error_dismiss">"OK"</string>  
+    <string name="proxy_error_empty_port">Sie müssen das Portfeld ausfüllen.</string>  
+    <string name="proxy_error_empty_host_set_port">Das Portfeld muss leer bleiben, wenn das Hostfeld leer ist.</string>  
+    <string name="proxy_warning_limited_support">Der HTTP-Proxy wird vom Browser, jedoch möglicherweise nicht von anderen Apps verwendet.</string>  
+    <string name="wifi_show_advanced">Erweiterte Optionen anzeigen</string>  
+    <string name="wifi_network_setup">WPS</string>  
+    <string name="wifi_wps_pin">PIN vom Access Point eingeben</string>  
+    <string name="wifi_enable_watchdog_service_summary">Kein Wi-Fi-Netzwerk verwenden, sofern keine gute Internetverbindung besteht</string>  
+    <string name="proxy_error_invalid_host">Der von Ihnen eingegebene Hostname ist nicht gültig.</string>  
+    <string name="proxy_error_invalid_exclusion_list">Die von Ihnen eingegebene Ausschlussliste ist nicht richtig formatiert. Geben Sie eine durch Kommata separierte Liste an Ausschluss-Domains an.</string>  
+    <string name="proxy_error_invalid_port">Der von Ihnen eingegebene Port ist nicht gültig.</string>  
+    <string name="wifi_setting_connect_type_error">Es gab ein Problem bei der Einstellung des Verbindungstyps.</string>  
+    <string name="wifi_priority_type_title">AP-Priorität manuell einstellen</string>  
+    <string name="wifi_priority_type_summary">Ermöglicht die manuelle Einstellung der Priorität einzelner Zugangspunkte</string>  
+    <string name="wifi_priority_settings_title">AP-Prioritätseinstellungen</string>  
+    <string name="wifi_priority_settings_summary">Zum Einstellen der Priorität einzelner Zugangspunkte anklicken</string>  
+    <string name="gsm_to_wifi_connect_type_title">Zellular -&gt; Wi-Fi</string>  
+    <string name="wifi_connect_ap_summary">Netzwerkverbindungstyp angeben</string>  
+    <string name="select_ssid_type_title">Neuauswahl zwischen SSID</string>  
+    <string name="proxy_action_text">Fertig</string>  
+    <string name="wifi_failed_connect_message" msgid="8491902558970292871">"Netzwerkverbindung konnte nicht hergestellt werden."</string>  
+    <string name="wifi_failed_save_message" msgid="6650004874143815692">"Netzwerk konnte nicht gespeichert werden."</string>  
+    <string name="wifi_failed_forget_message" msgid="1348172929201654986">"Netzwerk konnte nicht entfernt werden."</string> 
+      <string name="wifi_WEP_transmit_key">Übertragungsschlüssel</string>
+      <string name="wifi_WEP_secury_key">"Sicherheitsschlüssel"</string>
+      <string name="wifi_security_wapi_certificate">WAPI-Zertifikat</string>
+      <string name="wifi_no_cert_for_wapi">Konnte Zertifizierung für aktuell verbundenen AP nicht finden</string>
+      <string name="eap_sim_slot_0">SIM-Steckplatz 1</string>
+      <string name="eap_sim_slot_1">SIM-Steckplatz 2</string>
+      <string name="eap_sim_aka_airplanemode">Flugzeugmodus zur Nutzung von EAP-SIM/AKA bitte ausschalten</string>
+      <string name="eap_sim_aka_no_sim_error">Sie müssen zur Nutzung von EAP-SIM/AKA eine SIM-Karte einstecken</string>
+      <string name="eap_sim_aka_no_sim_slot_selected">Sie müssen zur Nutzung von EAP-SIM/AKA einen SIM-Steckplatz wählen</string>
+      <string name="wifi_ipv4_address">IPv4-Adresse</string>
+      <string name="wifi_ipv6_address">IPv6-Adresse</string>
+</resources>

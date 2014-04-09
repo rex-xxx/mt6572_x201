@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"  
+  android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:paddingTop="5dip"
+	android:paddingBottom="5dip">            
+	<ImageView
+	android:id="@+id/player_logo_image"
+	android:layout_width="35dp"
+	android:layout_height="35dp"
+	android:scaleType="center"       	
+	/>
+	<ImageView
+	android:id="@+id/player_encryped_indicator"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:layout_centerVertical="true"			
+	android:paddingLeft="18dip"
+	android:paddingTop="12dip"	
+	/>	
+	<TextView
+			android:id="@+id/player_channel_name"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall" 
+        	android:singleLine="true" 
+			android:layout_centerVertical="true"  
+			android:textColor="@android:color/white"			
+		  	android:layout_toRightOf="@+id/player_logo_image"/>
+	<TextView
+			android:id="@+id/player_program_name"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+		  	android:layout_marginLeft="5dp"	
+		  	android:ellipsize ="marquee"		  	
+			android:textAppearance="?android:attr/textAppearanceSmall" 
+        	android:singleLine="true"		  	
+			android:layout_centerVertical="true"	   
+			android:textColor="@android:color/white"			
+		  	android:layout_toRightOf="@+id/player_channel_name"		  	
+	/>				
+</RelativeLayout>
+

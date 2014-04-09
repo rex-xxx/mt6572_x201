@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="plugin_name">Video Orb</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="plugin_description">See your latest video and playing on the lock screen</string>
+    <string name="transcoding_prompt">Video Preparing</string>
+    <string name="transcoding_prompt_description">Video Orb will take some time to prepare videos. Do you want to continue?</string>
+    <string name="transcoding_progress_format" translatable="false">"%"</string>
+    <string name="transcoding_clip_format" translatable="false">"/"</string>
+    <string name="video_file_name_format" translatable="false">"_yyyyMMdd_HHmmss"</string>
+    <string name="toast_video_add_cancelled">Failed to add video</string>
+    <string name="toast_video_unsupported_resolution">Video resolution is not supported.</string>
+    <string name="toast_low_storage" product="nosdcard">Your USB storage is full.</string>
+    <string name="toast_low_storage" product="default">Your SD card is full.</string>
+    <string name="toast_invalid_video">Unsupported video format.</string>
+</resources>

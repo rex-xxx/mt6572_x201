@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="gemini_sim_info_title">Informaţii SIM</string>  
+    <string name="gemini_default_sim_title">SIM implicită</string>  
+    <string name="gemini_general_settings_title">Setări generale</string>  
+    <string name="gemini_roaming_settings_title">Roaming</string>  
+    <string name="gemini_contacts_sim_title">"Contacte &amp; SIM"</string>  
+    <string name="gemini_contacts_sim_summary">Asociere contacte cu o anumită SIM</string>  
+    <string name="gemini_voice_call">Apel vocal</string>  
+    <string name="gemini_video_call">Apel video</string>  
+    <string name="gemini_data_connection">Conexiune date</string>  
+    <string name="gemini_msg">Mesagerie</string>  
+    <string name="gemini_default_sim_always_ask">Se întreabă întotdeauna</string>  
+    <string name="gemini_intenet_call">Apel prin Internet</string>  
+    <string name="gemini_default_sim_never">Oprit</string>  
+    <string name="gemini_sim_info_editor_name">Editare nume SIM</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">Salvarea nu a reuşit</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">Nume duplicat pentru cartela SIM</string>  
+    <string name="gemini_sim_info_editor_number">Introducere număr de telefon</string>  
+    <string name="gemini_sim_info_editor_color">Setare culoare fundal</string>  
+    <string name="gemini_sim_info_editor_number_display_format">Afișare numere</string>  
+    <string name="gemini_no_sim_indicator">Nicio cartelă SIM</string>  
+    <string name="gemini_data_connection_progress_message">"Aşteptaţi..."</string>  
+    <string name="gemini_gsm_umts_network_preferences_title">Mod reţea</string>  
+    <string name="gemini_sim_mode_progress_activating_message">Activare\u2026</string>  
+    <string name="gemini_sim_mode_progress_deactivating_message">Dezactivare\u2026</string>  
+    <string msgid="7422262558097875757" name="apn_not_set">"Nesetat"</string>  
+    <string name="gemini_3g_modem_switch_confirm_message">"Serviciul 3G în acest SIM va fi comutat. Continuați? Asigurați-vă că SIM-ul selectat suportă serviciul 3G."</string>  
+    <string name="gemini_3g_disable_warning_case0">"Trebuie să activați roaming de date pentru acest SIM ce poate atrage costuri importante de roaming! Sunteți sigur că activați roaming de date și că selectați acest SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"Serviciul 3G nu este disponibil cu cartela SIM selectată. Aceasta poate încărca datele mai lent. Puteţi modifica setarea serviciului 3G sub Setări &gt; Fără fir şi reţele &gt; Reţele mobile. Sigur selectaţi această cartelă SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"Serviciul 3G nu este disponibil cu cartela SIM selectată. Aceasta poate încărca datele mai lent. Puteţi modifica setarea serviciului 3G sub Setări &gt; Gestionare SIM. Sigur selectaţi această cartelă SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"Trebuie să activaţi mai întâi roamingul de date pentru această cartelă SIM, ceea ce poate atrage costuri de roaming semnificative! În plus, serviciul 3G nu este disponibil cu această cartelă SIM. Aceasta poate încărca datele mai lent. O puteţi modifica sub Setări &gt; Fără fir şi reţele &gt; Reţele mobile. Sigur activaţi roamingul de date şi selectaţi această cartelă SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"Trebuie să activaţi mai întâi roamingul de date pentru această cartelă SIM, ceea ce poate atrage costuri de roaming semnificative! În plus, serviciul 3G nu este disponibil cu această cartelă SIM. Aceasta poate încărca datele mai lent. O puteţi modifica sub Setări &gt; Gestionare SIM. Sigur activaţi roamingul de date şi selectaţi această cartelă SIM?"</string>  
+    <string name="gemini_default_sim_3g_off">Dezactivat</string>  
+    <string name="gemini_3g_modem_switching_message">"Comutarea SIM-ului se va finaliza în 10 secunde. Vă rugăm așteptați..."</string>  
+</resources>

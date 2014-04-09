@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="gemini_sim_info_title">SIM သတင်းအချက်အလက်</string>  
+    <string name="gemini_default_sim_title">မူလသတ်မှတ်ထားသော SIM</string>  
+    <string name="gemini_general_settings_title">ယေဘုယျ ဆက်တင်များ</string>  
+    <string name="gemini_roaming_settings_title">နိုင်ငံတကာ လှည့်လည်သွားလာခြင်း</string>  
+    <string name="gemini_contacts_sim_title">အဆက်အသွယ်များ နှင့် SIM</string>  
+    <string name="gemini_contacts_sim_summary">သီးသန့် SIM တစ်ခုနှင့် တွဲဖက်အဆက်အသွယ်များ</string>  
+    <string name="gemini_voice_call">အသံဖုန်း</string>  
+    <string name="gemini_video_call">ဗီဒီယိုဖုန်း</string>  
+    <string name="gemini_data_connection">ဒေတာ ချိတ်ဆက်ခြင်း</string>  
+    <string name="gemini_msg">သတင်းတိုပို့ခြင်း</string>  
+    <string name="gemini_default_sim_always_ask">အမြဲမေးပါ</string>  
+    <string name="gemini_intenet_call">အင်တာနက်ဖုန်း</string>  
+    <string name="gemini_default_sim_never">ပိတ်</string>  
+    <string name="gemini_default_sim_3g_off">ပိတ်</string>  
+    <string name="gemini_gsm_umts_network_preferences_title">ကွန်ယက်နည်းစနစ်</string>  
+    <string name="gemini_sim_mode_progress_activating_message">စတင်လုပ်ဆောင်နေသည်\u2026</string>  
+    <string name="gemini_sim_mode_progress_deactivating_message">ရပ်ဆိုင်းနေသည်\u2026</string>  
+    <string name="gemini_3g_indic" translatable="false">3G</string>  
+    <string name="gemini_sim_info_editor_name">SIM အမည်ကို တည်းဖြတ်ရန်</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">သိမ်းဆည်းမှု မအောင်မြင်ပါ</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">SIM ကတ်အတွက် မူပွားအမည်</string>  
+    <string name="gemini_sim_info_editor_number">ဖုန်းနံပါတ်ကိုထည့်ရန်</string>  
+    <string name="gemini_sim_info_editor_color">နောက်ခံအရောင်ကို သတ်မှတ်ရန်</string>  
+    <string name="gemini_sim_info_editor_number_display_format">နံပါတ်များကို ဖော်ပြရန်</string>  
+    <string name="gemini_no_sim_indicator">SIM ကတ်မရှိပါ</string>  
+    <string name="gemini_data_connection_progress_message">"ကျေးဇူးပြု၍ စောင့်ပါ..."</string>  
+    <string name="gemini_3g_modem_switching_message">"SIM ကို လဲခြင်းသည် ၁၀ စက္ကန့်ခန့်ကြာမည်။ ကျေးဇူးပြု၍ စောင့်ပါ…"</string>  
+    <string name="gemini_3g_modem_switch_confirm_message">"ယင်းသည် ဤ SIM အတွက် 3G ဝန်ဆောင်မှုကိုလည်း လဲလှယ်လိမ့်မည်။ ဆက်လုပ်မှာလား။ ရွေးချယ်လိုက်သော ဤ SIM သည် 3G ဝန်ဆောင်မှုကို ထောက်ပံ့ကြောင်းလည်း ကျေးဇူးပြု၍ သေချာအောင် ပြုလုပ်ပါ။"</string>  
+    <string name="apn_not_set">မသတ်မှတ်ပါ</string>  
+    <string name="gemini_3g_disable_warning_case0">"ဤ SIM အတွက် ဖြန့်ကျက်ခြင်း အဖိုးအခ သိသိသာသာများနိုင်သော ဒေတာဖြန့်ကျက်ခြင်းကို ဦးစွာ လုပ်ဆောင်စေရမည်။ ဒေတာဖြန့်ကျက်ခြင်းကို လုပ်ဆောင်စေရန်နှင့် ဤ SIM ကို ရွေးချယ်ရန် သေချာပါသလား။"</string>  
+    <string name="gemini_3g_disable_warning_case1">"ရွေးချယ်ထားသော ဤ SIM တွင် 3G ဝန်ဆောင်မှု မရနိုင်ပါ။ ယင်းသည် ဒေတာတင်မှုကို နှေးစေနိုင်သည်။ 3G ဝန်ဆောင်မှု ဆက်တင်များကို ဆက်တင်များ &gt; ဝါယာလက်(စ်)နှင့် ကွန်ယက်များ &gt; မိုဘိုင်းကွန်ယက်များ အောက်တွင် ပြောင်းလဲနိုင်သည်။ ဤ SIM ကို ရွေးချယ်ရန် သေချာပါသလား။"</string>  
+    <string name="gemini_3g_disable_warning_case2">"ရွေးချယ်ထားသော ဤ SIM တွင် 3G ဝန်ဆောင်မှု မရနိုင်ပါ။ ယင်းသည် ဒေတာတင်မှုကို နှေးစေနိုင်သည်။ 3G ဝန်ဆောင်မှု ဆက်တင်များကို ဆက်တင်များ &gt; SIM စီမံခန့်ခွဲမှု အောက်တွင် ပြောင်းလဲနိုင်သည်။ ဤ SIM ကို ရွေးချယ်ရန် သေချာပါသလား။"</string>  
+    <string name="gemini_3g_disable_warning_case3">"ဤ SIM အတွက် ဖြန့်ကျက်ခြင်း အဖိုးအခ သိသိသာသာများနိုင်သော ဒေတာဖြန့်ကျက်ခြင်းကို ဦးစွာ လုပ်ဆောင်စေရမည်။ ထို့ပြင် ဤ SIM တွင် 3G ဝန်ဆောင်မှု မရနိုင်ပါ။ ယင်းသည် ဒေတာတင်မှုကို နှေးစေနိုင်သည်။ ယင်းကို ဆက်တင်များ &gt; ဝါယာလက်(စ်)နှင့် ကွန်ယက်များ &gt; မိုဘိုင်းကွန်ယက်များ အောက်တွင် ပြောင်းလဲနိုင်သည်။ ဒေတာဖြန့်ကျက်ခြင်းကို လုပ်ဆောင်စေရန်နှင့် ဤ SIM ကို ရွေးချယ်ရန် သေချာပါသလား။"</string>  
+    <string name="gemini_3g_disable_warning_case4">"ဤ SIM အတွက် ဖြန့်ကျက်ခြင်း အဖိုးအခ သိသိသာသာများနိုင်သော ဒေတာဖြန့်ကျက်ခြင်းကို ဦးစွာ လုပ်ဆောင်စေရမည်။ ထို့ပြင် ဤ SIM တွင် 3G ဝန်ဆောင်မှု မရနိုင်ပါ။ ယင်းသည် ဒေတာတင်မှုကို နှေးစေနိုင်သည်။ ယင်းကို ဆက်တင်များ &gt; SIM စီမံခန့်ခွဲမှု အောက်တွင် ပြောင်းလဲနိုင်သည်။ ဒေတာဖြန့်ကျက်ခြင်းကို လုပ်ဆောင်စေရန်နှင့် ဤ SIM ကို ရွေးချယ်ရန် သေချာပါသလား။</string> 
+</resources>

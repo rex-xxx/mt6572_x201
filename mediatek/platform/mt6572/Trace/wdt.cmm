@@ -1,0 +1,13 @@
+;; disable WDT
+LOCAL &spm_reg
+&spm_reg=data.long(asd:0x10006014)
+&spm_reg=&spm_reg|0x00400000
+data.set asd:0x10006014 %le %long &spm_reg
+&spm_reg=&spm_reg&0xFFBFFFFF
+data.set asd:0x10006014 %le %long &spm_reg
+data.set asd:0x100063E4 %le %long 0x0000000F
+&spm_reg=data.long(asd:0x10006314)
+&spm_reg=&spm_reg&0xFFFFFEFF
+&spm_reg=&spm_reg|0x0b160000
+data.set asd:0x10006314 %le %long &spm_reg
+d.s asd:0x10007000 %le %long 0x22000000

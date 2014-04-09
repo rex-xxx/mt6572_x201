@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"     
+	android:layout_height="wrap_content"
+	android:paddingTop="7dip"
+	android:paddingBottom="7dip">
+
+	<TextView 	android:id="@+id/signal_attr_name"
+				android:layout_height="wrap_content"
+				android:layout_width="100dp"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textColor="@android:color/black"
+				android:textStyle="bold"				
+				android:layout_alignParentLeft="true"
+				android:layout_centerVertical="true"/>
+
+	<TextView 	android:id="@+id/signal_attr_value"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textColor="@android:color/black"
+				android:textStyle="bold" 
+				android:singleLine="true"
+				android:layout_toRightOf="@+id/signal_attr_name"
+				layout_centerVertical="true"/>
+					
+</RelativeLayout>

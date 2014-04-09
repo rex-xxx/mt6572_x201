@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">세계 시계</string>
+    <string name="current_time_text">현재</string>
+    <string name="another_city_text">추가</string>
+    <string name="ime_action_done">"완료"</string>
+    <string name="a_city_selected">도시가 선택되었습니다.</string>
+    <string name="search_city">도시 검색</string>
+    <string name="next">"다음"</string>
+    <string name="select_right_city">죄송합니다. 그런 도시는 없습니다.</string>
+    <string name="clock_loading">로드하는 중\u2026</string>
+    <string name="add_city">아이콘을 눌러 새 도시를 추가하십시오</string>
+    <string name="add_new_city">새 도시 추가</string>
+    <string name="delete_city">도시 삭제</string>
+    <string name="has_chosen">선택되었습니다.</string>
+    <string name="delete_city_info">도시가 삭제됩니다</string>
+    <string name="deleteok">삭제</string>
+    <string name="cancel">"취소"</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="date_and_time">날짜 및 시간 선택</string>  
+    <string name="date_time_12_hour_sample">1:00 PM</string>  
+    <string name="choose_timezone">시간대 선택</string>  
+    <string name="default_date_format" translatable="false"> 
+        <xliff:g id="default_date_format">MM/dd/yyyy</xliff:g> 
+    </string>  
+    <string name="normal_date_format">일반( 
+        <xliff:g id="date" example="12-31-2009">%s</xliff:g>)
+    </string>  
+    <string name="date_time_auto">네트워크에서 자동 설정</string>  
+    <string name="zone_auto">자동 시간대</string>  
+    <string name="zone_auto_summaryOn">네트워크 보호 시간대 사용</string>  
+    <string name="zone_auto_summaryOff">네트워크 보호 시간대 사용</string>  
+    <string name="date_time_24hour">24시간 형식 사용</string>  
+    <string name="date_time_set_time">시간 설정</string>  
+    <string name="date_time_set_timezone">시간대 선택</string>  
+    <string name="date_time_set_date">날짜 선택</string>  
+    <string name="date_time_date_format">날짜 형식 선택</string>  
+    <string name="zone_list_menu_sort_alphabetically">알파벳순으로 정렬</string>  
+    <string name="zone_list_menu_sort_by_timezone">시간대별로 정렬</string>  
+    <string name="date_time_24_hour_sample" translatable="false">13:00</string> 
+</resources>

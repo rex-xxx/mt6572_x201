@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="plugin_name">Orb βίντεο</string>
+    <string name="ok">"OK"</string>
+    <string name="cancel">"Ακύρωση"</string>
+    <string name="plugin_description">Δείτε το πιο πρόσφατο βίντεό σας να αναπαράγεται στην οθόνη κλειδώματος</string>
+    <string name="transcoding_prompt">Προετοιμασία βίντεο</string>
+    <string name="transcoding_prompt_description">Το Orb βίντεο θα χρειαστεί λίγο χρόνο για την προετοιμασία των βίντεο. Θέλετε να συνεχίσετε;</string>
+    <string name="transcoding_progress_format" translatable="false">"%"</string>
+    <string name="transcoding_clip_format" translatable="false">"/"</string>
+    <string name="video_file_name_format" translatable="false">"_yyyyMMdd_HHmmss"</string>
+    <string name="toast_video_add_cancelled">Αποτυχία προσθήκης βίντεο</string>
+    <string name="toast_video_unsupported_resolution">Η ανάλυση βίντεο δεν υποστηρίζεται.</string>
+    <string name="toast_low_storage" product="nosdcard">"Ο χώρος αποθήκευσης USB είναι πλήρης."</string>
+    <string name="toast_low_storage" product="default">"Η κάρτα SD είναι πλήρης."</string>
+    <string name="toast_invalid_video">Δεν υποστηρίζεται η μορφή βίντεο.</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="gemini_sim_info_title">SIM-információ</string>  
+    <string name="gemini_default_sim_title">Alapértelmezett SIM</string>  
+    <string name="gemini_general_settings_title">Általános beállítások</string>  
+    <string name="gemini_roaming_settings_title">Barangolás</string>  
+    <string name="gemini_contacts_sim_title">"Partnerek &amp; SIM"</string>  
+    <string name="gemini_contacts_sim_summary">Partnerek adott SIM-hez társítása</string>  
+    <string name="gemini_voice_call">Beszédhívás</string>  
+    <string name="gemini_video_call">Videohívás</string>  
+    <string name="gemini_data_connection">Adatkapcsolat</string>  
+    <string name="gemini_msg">Üzenetkezelés</string>  
+    <string name="gemini_default_sim_always_ask">Rákérdezés mindig</string>  
+    <string name="gemini_intenet_call">Internethívás</string>  
+    <string name="gemini_default_sim_never">Ki</string>  
+    <string name="gemini_sim_info_editor_name">SIM-név szerkesztése</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">Sikertelen mentés</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">Kettőzött név a SIM-kártyához</string>  
+    <string name="gemini_sim_info_editor_number">Telefonszám megadása</string>  
+    <string name="gemini_sim_info_editor_color">Háttérszín beállítása</string>  
+    <string name="gemini_sim_info_editor_number_display_format">Számok megjelenítése</string>  
+    <string name="gemini_no_sim_indicator">Nincs SIM-kártya</string>  
+    <string name="gemini_data_connection_progress_message">"Kérjük, várjon..."</string>  
+    <string name="gemini_gsm_umts_network_preferences_title">Hálózat mód</string>  
+    <string name="gemini_sim_mode_progress_activating_message">Aktiválás\u2026</string>  
+    <string name="gemini_sim_mode_progress_deactivating_message">Aktiválás megszüntetése\u2026</string>  
+    <string msgid="7422262558097875757" name="apn_not_set">"Nincs megadva"</string>  
+    <string name="gemini_3g_modem_switch_confirm_message">"Ez a 3G szolgáltatást is erre a SIM-re váltja. Folytatja? Győződjön meg arról is, hogy a kiválasztott SIM támogatja a 3G szolgáltatást."</string>  
+    <string name="gemini_3g_disable_warning_case0">"Engedélyeznie kell az adatbarangolást a SIM-hez, amiért jelentős barangolási díjat számolhatnak fel! Biztosan engedélyezni akarja az adatbarangolást és ezt a SIM-et választja?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"A 3G szolgáltatás nem elérhető a választott SIM-kártyával. Az adatok betöltése lassabb lehet. A 3G szolgáltatás beállítását a Beállítások -&gt; Vezeték nélküli és hálózatok&gt; Mobilhálózatok elemben végezheti el. Biztosan ezt a SIM-et választja?”</string>  
+    <string name="gemini_3g_disable_warning_case2">"A 3G szolgáltatás nem elérhető a választott SIM-kártyával. Az adatok betöltése lassabb lehet. A 3G szolgáltatás beállítását a Beállítások -&gt; SIM kezelés elemben végezheti el. Biztosan ezt a SIM-et választja?”</string>  
+    <string name="gemini_3g_disable_warning_case3">"Engedélyeznie kell az adatbarangolást a SIM-hez, amiért jelentős barangolási díjat számolhatnak fel! Ezenkívül a 3G szolgáltatás nem elérhető ezzel a SIM-kártyával. Az adatok betöltése lassabb lehet. Beállítását a Beállítások -&gt; Vezeték nélküli és hálózatok&gt; Mobilhálózatok elemben végezheti el. Biztosan engedélyezni akarja az adatbarangolást és ezt a SIM-et választja?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"Engedélyeznie kell az adatbarangolást a SIM-hez, amiért jelentős barangolási díjat számolhatnak fel! Ezenkívül a 3G szolgáltatás nem elérhető ezzel a SIM-kártyával. Az adatok betöltése lassabb lehet. Beállítását a Beállítások -&gt; SIM kezelés elemben végezheti el. Biztosan engedélyezni akarja az adatbarangolást és ezt a SIM-et választja?"</string>  
+    <string name="gemini_default_sim_3g_off">Ki</string>  
+    <string name="gemini_3g_modem_switching_message">"A SIM váltása kb. 10 másodpercet vesz igénybe. Kérjük, várjon..."</string>  
+</resources>

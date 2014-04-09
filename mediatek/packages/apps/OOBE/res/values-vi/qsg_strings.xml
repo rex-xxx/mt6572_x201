@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="qsg_app_name">Hướng dẫn khởi động nhanh</string>  
+    <!-- ============================ -->  
+    <!-- quick start guide strings -->  
+    <!-- ============================ -->  
+    <string name="skip_button">Bỏ qua</string>  
+    <string name="ok_button">Bắt đầu</string>  
+    <string name="qsg_title_begin">Hướng dẫn khởi động nhanh</string>  
+    <string name="qsg_summary_begin">Hướng dẫn khởi động nhanh này sẽ cung cấp cho bạn 4 mẹo hữu ích và giới thiệu các thao tác cơ bản cũng như cách quản lý màn hình chính.</string>  
+    <string name="next">"Tiếp theo"</string>  
+    <string name="play_again">Phát lại</string>  
+    <string name="finish">Kết thúc</string>  
+    <string name="qsg_title2_home_screen">Xem màn hình chính</string>  
+    <string name="qsg_summary2_home_screen">Chuyển sang trái hay phải để xem các trang khác của màn hình chính.</string>  
+    <string name="qsg_title3_choose_widget">Chọn một số widget</string>  
+    <string name="qsg_summary3_choose_widget">Để thêm widget vào màn hình chính, hãy chạm &amp; giữ nó.</string>  
+    <string name="qsg_title4_launch_page">Bật trang chi tiết</string>  
+    <string name="qsg_summary4_launch_page">Chạm hình đại diện để bật trang chi tiết với các tùy chọn.</string>  
+    <string name="qsg_title5_view_notification">Xem các thông báo</string>  
+    <string name="qsg_summary5_view_notification">Giữ thanh tình trạng và trượt xuống để xem mọi thông báo.</string>  
+    <string name="qsg_changesim_title">Đổi SIM</string>  
+    <string name="qsg_changesim_summary">Trượt thanh tình trạng xuống và chọn thẻ SIM dịch vụ cần sử dụng.</string>  
+    <string name="qsg_summary_end">Bạn đã đọc qua tất cả các mẹo có sẵn trong Hướng dẫn khởi động nhanh. \n\nNếu muốn, bạn có thể chạm vào nút "phát lại" để xem lại hướng dẫn này.\n\nNgoài ra, bạn cũng có thể chạm vào nút "Kết thúc" để sử dụng thiết bị mới.</string> 
+</resources>

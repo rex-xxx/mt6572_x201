@@ -1,0 +1,32 @@
+	 {"LayName": "light_01.png", "LayWidth": 1.004167, "LayHeight": 1.004684, "LayID": 47, "ParentID": 0, "LayIn": 0.00, "LayDur": 30.03, "CompIn": 0.00, "CompDur": 30.03, "Normalization": true,
+		"SourcePath": "C:/DocumentsandSettings/mtk03593/Desktop/VideoOrb/Resource/light_01.png",
+		"Version": "050941839",
+			 	"Marker": { 
+				 }, 
+				 "AnchorPoint": { 
+					"X": 0.50, "Y": 0.50, "Z": 0.00
+					 }, 
+				 "Position": { 
+					"X": 0.50, "Y": 0.50, "Z": 392.00
+					 }, 
+				 "Scale": { 
+					"Type":[ 0.00 , 0.00 , 0.00 ],
+					"Time":[ 1.33 , 3.70 , 13.65 ],
+					"X":[ 76.53 , 129.46 , 119.84 ],
+					"Y":[ 197.00 , 197.00 , 197.00 ],
+					"Z":[ 100.23 , 157.00 , 157.00 ],
+					"InTanX":[ 0.00 , 0.00 , 0.00 ],
+					"InTanY":[ 0.00 , 0.00 , 0.00 ],
+					"InTanZ":[ 0.00 , 0.00 , 0.00 ],
+					"OutTanX":[ 0.00 , 0.00 , 0.00 ],
+					"OutTanY":[ 0.00 , 0.00 , 0.00 ],
+					"OutTanZ":[ 0.00 , 0.00 , 0.00 ]
+				},
+				"Opacity": {
+					"Type":[ 0.00 , 0.00 , 0.00 , 0.00 , 0.00 ],
+					"Time":[ 1.33 , 1.84 , 5.81 , 9.98 , 29.93 ],
+					"Val":[ 0.00 , 30.00 , 50.00 , 30.00 , 40.00 ],
+					"InTanX":[ 0.00 , 0.00 , 0.00 , 0.00 , 0.00 ],
+					"OutTanX":[ 0.00 , 0.00 , 0.00 , 0.00 , 0.00 ]
+				}
+	}

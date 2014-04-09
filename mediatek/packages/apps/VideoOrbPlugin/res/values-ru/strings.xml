@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="plugin_name">Video Orb</string>
+    <string name="ok">"ОК"</string>
+    <string name="cancel">"Отмена"</string>
+    <string name="plugin_description">Просмотр последнего видеофайла и воспроизведение на заблокированном экране</string>
+    <string name="transcoding_prompt">Подготовка видеофайла</string>
+    <string name="transcoding_prompt_description">Video Orb будет готовить видеофайлы некоторое время. Продолжить?</string>
+    <string name="transcoding_progress_format" translatable="false">"%"</string>
+    <string name="transcoding_clip_format" translatable="false">"/"</string>
+    <string name="video_file_name_format" translatable="false">"_yyyyMMdd_HHmmss"</string>
+    <string name="toast_video_add_cancelled">Не удалось добавить видео</string>
+    <string name="toast_video_unsupported_resolution">Неподдерживаемое видеоразрешение.</string>
+    <string name="toast_low_storage" product="nosdcard">"На USB-накопителе нет места."</string>
+    <string name="toast_low_storage" product="default">"Ваша SD-карта заполнена."</string>
+    <string name="toast_invalid_video">Неподдерживаемый видеоформат.</string>
+</resources>

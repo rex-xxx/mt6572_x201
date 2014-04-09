@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="gemini_sim_info_title">সিম তথ্য</string>  
+    <string name="gemini_default_sim_title">ডিফল্ট সিম</string>  
+    <string name="gemini_general_settings_title">সাধারণ সেটিং</string>  
+    <string name="gemini_roaming_settings_title">রোমিং</string>  
+    <string name="gemini_contacts_sim_title">"পরিচিতজন &amp; সিম"</string>  
+    <string name="gemini_contacts_sim_summary">নির্দিষ্ট একটি সিমের সাথে পরিচিতজন সংশ্লিষ্ট করুন</string>  
+    <string name="gemini_voice_call">ভয়েস কল</string>  
+    <string name="gemini_video_call">ভিডিও কল</string>  
+    <string name="gemini_data_connection">ডাটা সংযোগ</string>  
+    <string name="gemini_msg">মেসেজিং</string>  
+    <string name="gemini_default_sim_always_ask">সবসময় জিজ্ঞাসা করুন</string>  
+    <string name="gemini_intenet_call">ইন্টারনেট কল</string>  
+    <string name="gemini_default_sim_never">বন্ধ</string>  
+    <string name="gemini_default_sim_3g_off">বন্ধ করুন</string>  
+    <string name="gemini_sim_info_editor_name">সিমের নাম পরিবর্তন করুন</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">সংরক্ষণ ব্যর্থ হয়েছে</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">সিম কার্ডের জন্য অবিকল নাম</string>  
+    <string name="gemini_sim_info_editor_number">ফোন নম্বর প্রবেশ করান</string>  
+    <string name="gemini_sim_info_editor_color">ব্যাকগ্রাউন্ড কালার সেট করুন</string>  
+    <string name="gemini_sim_info_editor_number_display_format">নম্বর প্রদর্শন করুন</string>  
+    <string name="gemini_no_sim_indicator">সিম কার্ড নেই</string>  
+    <string name="gemini_data_connection_progress_message">"অপেক্ষা করুন..."</string>  
+    <string name="gemini_3g_modem_switching_message">"সিম পরিবর্তন সম্পন্ন হতে প্রায় ১০ সেকেন্ড সময় লাগবে। অপেক্ষা করুন…"</string>  
+    <string name="gemini_3g_modem_switch_confirm_message">"এটি এই সিমে ৩জি সার্ভিসে সুইচ করবে। অব্যাহত রাখবেন? নিশ্চিত করুন যে নির্বাচিত সিম ৩জি সার্ভিস সমর্থন করে।"</string>  
+    <string name="gemini_gsm_umts_network_preferences_title">নেটওয়ার্ক মোড</string>  
+    <string name="gemini_sim_mode_progress_activating_message">সক্রিয় করা হচ্ছে\u2026</string>  
+    <string name="gemini_sim_mode_progress_deactivating_message">নিষ্ক্রিয় করা হচ্ছে\u2026</string>  
+    <string msgid="7422262558097875757" name="apn_not_set">সেট করা নেই</string>  
+    <string name="gemini_3g_disable_warning_case0">" এই সিমের জন্য আপনাকে অবশ্যই প্রথমে ডাটা রোমিং সক্রিয় করতে হবে যার জন্য আপনাকে অনেক রোমিং চার্জ দিতে হতে পারে! আপনি কি নিশ্চিত আপনি ডাটা রোমিং সক্রিয় করতে এবং এই সিম নির্বাচন করতে চান?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"নির্বাচিত সিমের সাথে থ্রিজি সেবা নেই। এতে ডাটা লোড ধীরগতির হতে পারে। আপনি থ্রিজি সেবা সেটিং পরিবর্তন করতে পারেন সেটিং&gt;ওয়্যারলেস ও নেটওয়ার্ক&gt; মোবাইল নেটওয়ার্ক। আপনি কি নিশ্চিত আপনি এই সিম নির্বাচন করবেন?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"নির্বাচিত সিমের সাথে থ্রিজি সেবা নেই। এতে ডাটা লোড ধীরগতির হতে পারে। আপনি থ্রিজি সেবা সেটিং পরিবর্তন করতে পারেন সেটিং&gt; সিম ম্যানেজমেন্ট। আপনি কি নিশ্চিত আপনি এই সিম নির্বাচন করবেন?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"আপনাকে প্রথমে এই সিমের জন্য ডাটা রোমিং সক্রিয় করতে হবে যাতে আপনার প্রচুর রোমিং চার্জ লাগতে পারে! এছাড়া থ্রিজি নির্বাচিত সিমের সাথে থ্রিজি সেবা নেই। এতে ডাটা লোড ধীরগতির হতে পারে। আপনি থ্রিজি সেবা সেটিং পরিবর্তন করতে পারেন সেটিং&gt;সেটিং&gt;ওয়্যারলেস ও নেটওয়ার্ক&gt; মোবাইল নেটওয়ার্ক। আপনি কি নিশ্চিত আপনি ডাটা রোমিং সক্রিয় করবেন এবং এই সিম নির্বাচন করবেন?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"আপনাকে প্রথমে এই সিমের জন্য ডাটা রোমিং সক্রিয় করতে হবে যাতে আপনার প্রচুর রোমিং চার্জ লাগতে পারে! এছাড়া থ্রিজি নির্বাচিত সিমের সাথে থ্রিজি সেবা নেই। এতে ডাটা লোড ধীরগতির হতে পারে। আপনি থ্রিজি সেবা সেটিং পরিবর্তন করতে পারেন সেটিং&gt; সিম ম্যানেজমেন্ট। আপনি কি নিশ্চিত আপনি ডাটা রোমিং সক্রিয় করবেন এবং এই সিম নির্বাচন করবেন?"</string> 
+</resources>

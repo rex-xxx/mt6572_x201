@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">នាឡិកាពិភពលោក</string>
+    <string name="current_time_text">បច្ចុប្បន្ន</string>
+    <string name="another_city_text">បន្ថែម</string>
+    <string name="ime_action_done">បានធ្វើរួច</string>
+    <string name="a_city_selected">ទីក្រុងមួយបានជ្រើសរើស</string>
+    <string name="search_city">រាវរកឈ្មោះទីក្រុង</string>
+    <string name="next">បន្ទាប់</string>
+    <string name="select_right_city">សូមទោស មិនមានឈ្មោះទីក្រុងនេះទេ ។</string>
+    <string name="clock_loading">កំពុងឡូត\u2026</string>
+    <string name="add_city">ចុចរូបតំណាង ដើម្បីបន្ថែមទីក្រុងថ្មី</string>
+    <string name="add_new_city">បន្ថែមទីក្រុងថ្មី</string>
+    <string name="delete_city">លុបទីក្រុងចោល</string>
+    <string name="delete_city_info">ទីក្រុងនឹងត្រូវបានលុបចោល</string>
+    <string name="deleteok">លុបចោល</string>
+    <string name="cancel">លើកលែង</string>
+    <string name="has_chosen">បានជ្រើសរើស ។</string>
+</resources>

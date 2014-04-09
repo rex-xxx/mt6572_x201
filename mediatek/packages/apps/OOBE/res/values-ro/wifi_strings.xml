@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string msgid="4746946030627213196" name="wifi_settings">"Setări Wi-Fi"</string>  
+    <string msgid="2810363951104753710" name="wifi_settings_category">"Setări Wi-Fi"</string>  
+    <string msgid="6710266609710860129" name="wifi_starting">"Se activează..."</string>  
+    <string msgid="5952909472548218348" name="wifi_stopping">"În curs de dezactivare..."</string>  
+    <string msgid="3207971103917128179" name="wifi_error">"Eroare"</string>  
+    <string msgid="7618393787965366655" name="wifi_in_airplane_mode">"În modul Avion"</string>  
+    <string msgid="6194542252808587669" name="wifi_fail_to_scan">"Imposibil de scanat pentru identificarea reţelelor"</string>  
+    <string msgid="3755768188029653293" name="wifi_notify_open_networks">"Notificare de reţea"</string>  
+    <string msgid="3038290727701553612" name="wifi_notify_open_networks_summary">"Doresc să fiu notificat când este disponibilă o reţea deschisă"</string>  
+    <string msgid="1671334951296205616" name="wifi_add_network">"Adăugaţi o reţea Wi-Fi"</string>  
+    <string msgid="1470911530412095868" name="wifi_menu_scan">"Scanaţi"</string>  
+    <string msgid="7522252991919573664" name="wifi_menu_advanced">"Avansate"</string>  
+    <string msgid="4996220309848349408" name="wifi_menu_connect">"Conectaţi-vă la reţea"</string>  
+    <string msgid="8736964302477327114" name="wifi_menu_forget">"Eliminaţi reţeaua"</string>  
+    <string msgid="2068554918652440105" name="wifi_menu_modify">"Modificaţi reţeaua"</string>  
+    <string msgid="641393708309146745" name="wifi_ssid">"SSID reţea"</string>  
+    <string msgid="6603611185592956936" name="wifi_security">"Securitatea"</string>  
+    <string msgid="5514120261628065287" name="wifi_signal">"Putere semnal"</string>  
+    <string msgid="4824568012414605414" name="wifi_status">"Stare"</string>  
+    <string msgid="3526198708812322037" name="wifi_speed">"Viteză link"</string>  
+    <string msgid="1440054061044402918" name="wifi_ip_address">"Adresă IP"</string>  
+    <string msgid="8529436133640730382" name="wifi_eap_method">"Metodă EAP"</string>  
+    <string msgid="5231074529772044898" name="please_select_phase2">"Autentificare faza 2"</string>  
+    <string msgid="3521574865488892851" name="wifi_eap_ca_cert">"Certificat CA"</string>  
+    <string msgid="1291089413368160789" name="wifi_eap_user_cert">"Certificat de utilizator"</string>  
+    <string msgid="4359453783379679103" name="wifi_eap_identity">"Identitate"</string>  
+    <string msgid="2989469344116577955" name="wifi_eap_anonymous">"Identitate anonimă"</string>  
+    <string msgid="5948219759936151048" name="wifi_password">"Parolă"</string>  
+    <string msgid="4235237470701732009" name="wifi_show_password">"Afişaţi parola."</string>  
+    <string name="wifi_hex_password">Parolă hexazecimală.</string>  
+    <string msgid="3410422020930397102" name="wifi_unchanged">"(neschimbate)"</string>  
+    <string msgid="5431501214192991253" name="wifi_unspecified">"(neindicat)"</string>  
+    <string msgid="8426719916135950136" name="wifi_remembered">"Reţinută"</string>  
+    <string msgid="1136191511238508967" name="wifi_not_in_range">"În afara ariei de acoperire"</string>  
+    <string msgid="1076622875777072845" name="wifi_connect">"Conectaţi-vă"</string>  
+    <string msgid="8168174695608386644" name="wifi_forget">"Eliminaţi"</string>  
+    <string msgid="3331121567988522826" name="wifi_save">"Salvaţi"</string>  
+    <string msgid="6763568902542968964" name="wifi_cancel">"Anulaţi"</string>  
+    <string msgid="5419052271935350999" name="wifi_advanced_titlebar">"Avansate"</string>  
+    <string msgid="1367731352485585528" name="wifi_setting_sleep_policy_title">"Politica de dezactivare a funcţiei Wi-Fi"</string>  
+    <string msgid="5103670439972135148" name="wifi_setting_sleep_policy_error">"A apărut o problemă la setarea politicii de dezactivare a funcţiei Wi-Fi."</string>  
+    <string msgid="6571335466330978393" name="wifi_advanced_mac_address_title">"Adresă MAC"</string>  
+    <string msgid="6215297094363164846" name="wifi_advanced_ip_address_title">"Adresă IP"</string>  
+    <string msgid="4345739031248760326" name="wifi_ip_settings_titlebar">"Setări IP"</string>  
+    <string msgid="7344118050720080045" name="wifi_dns1">"DNS 1"</string>  
+    <string msgid="1368601006824882659" name="wifi_dns2">"DNS 2"</string>  
+    <string msgid="163914742461092086" name="wifi_gateway">"Gateway"</string>  
+    <string msgid="8948641212931906143" name="wifi_tether_enabled_subtext">"Hotspot portabil 
+        <xliff:g id="NETWORK_SSID">%1$s</xliff:g> activ"
+    </string>  
+    <string name="wapi_user_certificate">Certificat utilizator</string>  
+    <string name="wapi_as_certificate">Certificat ASE</string>  
+    <string msgid="7862009036663793314" name="status_unavailable">"Indisponibilă"</string>  
+    <string name="wifi_ctia_test">Setare mod testare CTIA</string>  
+    <string name="wifi_ctia_test_summary">Configurare mod testare CTIA</string>  
+    <string name="wifi_connect_type_title">Tip conectare automată</string>  
+    <string name="wifi_setting_connect_type_error">Problemă la setarea tipului de conectare.</string>  
+    <string name="wifi_priority_type_title">Setare manuală prioritate punct de acces</string>  
+    <string name="wifi_priority_type_summary">Se permite setarea manuală a priorităţii pentru fiecare punct de acces</string>  
+    <string name="wifi_priority_settings_title">Setări prioritate punct de acces</string>  
+    <string name="wifi_priority_settings_summary">Clic pentru setarea priorităţii fiecărui punct de acces</string>  
+    <string name="wifi_priority_label">Prioritate</string>  
+    <string name="wifi_priority_settings_label">Setări prioritate</string>  
+    <string name="wifi_ip_settings">"Setări IP"</string>  
+    <string name="wifi_disabled_generic">"Dezactivat"</string>  
+    <string name="wifi_disabled_network_failure">Evitare conexiune internet cu viteză mică</string>  
+    <string name="wifi_disabled_password_failure">Problemă de autentificare</string>  
+    <string name="wifi_ip_settings_invalid_ip_address">Tastați o adresă IP validă.</string>  
+    <string name="wifi_ip_settings_invalid_gateway">Tastați o adresă gateway validă.</string>  
+    <string name="wifi_ip_settings_invalid_dns">Tastați o adresă DNS validă.</string>  
+    <string name="wifi_ip_settings_invalid_network_prefix_length">Tastați un prefix rețea cu lungimea între 0 și 32.</string>  
+    <string name="wifi_network_prefix_length">Lungime prefix rețea</string>  
+    <string name="wifi_wps_available_first_item">Rețea protejată disponibilă</string>  
+    <string name="wifi_wps_available_second_item">\u0020(rețea protejată disponibilă)</string>  
+    <string name="wifi_secured_first_item">Securizat cu 
+        <xliff:g id="wifi_security_short">%1$s</xliff:g> 
+    </string>  
+    <string name="wifi_secured_second_item">, securizat cu 
+        <xliff:g id="wifi_security_short">%1$s</xliff:g> 
+    </string>  
+    <string name="wifi_security_none">Fără</string>  
+    <string name="sim_slot">Slot SIM</string>  
+    <string name="wifi_network_netmask">Netmask</string>  
+    <string name="wifi_enable_watchdog_service">Evitare conexiuni de proastă calitate</string>  
+    <string name="wifi_setting_frequency_band_title">Bandă de frecvență Wi-Fi</string>  
+    <string name="wifi_setting_frequency_band_summary">Specificați plaja de frecvență de funcționare</string>  
+    <string name="wifi_setting_frequency_band_error">A apărut o problemă la setarea benzii de frecvență.</string>  
+    <string name="proxy_settings_title">Setări proxy</string>  
+    <string name="proxy_clear_text">Golire</string>  
+    <string name="proxy_port_label">Port proxy</string>  
+    <string name="proxy_exclusionlist_label">Evitare proxy pentru</string>  
+    <string name="proxy_exclusionlist_hint">example.com,mycomp.test.com,localhost</string>  
+    <string name="proxy_defaultView_text">Restabilire setări implicite</string>  
+    <string name="proxy_hostname_label">Nume gazdă proxy</string>  
+    <string name="proxy_hostname_hint">proxy.example.com</string>  
+    <string name="proxy_error">Atenţie</string>  
+    <string name="proxy_error_dismiss">OK</string>  
+    <string name="proxy_error_empty_port">Trebuie să completați câmpul portului.</string>  
+    <string name="proxy_error_empty_host_set_port">Câmpul portului trebuie să fie vid dacă gazda este vidă.</string>  
+    <string name="proxy_warning_limited_support">Proxy HTTP este folosit de navigator dar nu neapărat de celelalte aplicații.</string>  
+    <string name="wifi_show_advanced">Afișare opțiuni avansate</string>  
+    <string name="wifi_network_setup">WPS</string>  
+    <string name="wifi_wps_pin">Tastați PIN de la punctul de acces</string>  
+    <string name="wifi_enable_watchdog_service_summary">Nu utilizați rețeaua WiFi decât dacă are o conexiune Internet bună</string>  
+    <string name="proxy_error_invalid_host">Numele introdus al gazdei nu este valid.</string>  
+    <string name="proxy_error_invalid_exclusion_list">Lista de excludere pe care ați introdus-o nu este formatată în mod corespunzător. Tastați o listă separată prin virgulă de domenii excluse.</string>  
+    <string name="proxy_error_invalid_port">Numele introdus al portului nu este valid.</string>  
+    <string name="gsm_to_wifi_connect_type_title">Celular-&gt;Wi-Fi</string>  
+    <string name="wifi_connect_ap_summary">Specificați tip de conexiune rețea</string>  
+    <string name="select_ssid_type_title">Reselecție dintre SSID</string>  
+    <string name="proxy_action_text">Finalizat</string>
+    <string name="wifi_failed_connect_message" msgid="8491902558970292871">"Nu s-a putut stabili conexiunea la reţea"</string>
+    <string name="wifi_failed_forget_message" msgid="1348172929201654986">"Nu s-a putut elimina reţeaua"</string>
+    <string name="wifi_failed_save_message" msgid="6650004874143815692">"Nu s-a putut salva reţeaua"</string>
+
+      <string name="wifi_WEP_transmit_key">Transmitere cheie</string>
+      <string name="wifi_WEP_secury_key">Cheie de securitate</string>
+      <string name="wifi_security_wapi_certificate">Certificat WAPI</string>
+      <string name="wifi_no_cert_for_wapi">Imposibil de găsit certificare pentru AP-ul în curs de conectare</string>
+      <string name="eap_sim_slot_0">Slot SIM 1</string>
+      <string name="eap_sim_slot_1">Slot SIM 2</string>
+      <string name="eap_sim_aka_airplanemode">Dezactivaţi modul Avion pentru a putea utiliza EAP-SIM/AKA</string>
+      <string name="eap_sim_aka_no_sim_error">Trebuie să introduceți o cartelă sim pentru a folosi EAP-SIM/AKA</string>
+      <string name="eap_sim_aka_no_sim_slot_selected">Trebuie să selectați un slot sim pentru a folosi EAP-SIM/AKA</string>
+      <string name="wifi_ipv4_address">Adresă IPv4</string>
+      <string name="wifi_ipv6_address">Adresă IPv6</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:key="tvout_en_disable"
+        android:persistent="false"
+        android:title="@string/TVOut_able" >
+    </CheckBoxPreference>
+
+    <ListPreference
+        android:defaultValue="NTSC"
+        android:entries="@array/tvout_system_list"
+        android:entryValues="@array/tvout_system_list"
+        android:key="tv_system"
+        android:persistent="true"
+        android:title="@string/tv_system_title" />
+
+    <Preference
+        android:key="chinese_test_patter"
+        android:persistent="false"
+        android:title="@string/Chinese_test_pat" >
+    </Preference>
+
+</PreferenceScreen>

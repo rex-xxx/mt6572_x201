@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- DO NOT TRANSLATE -->
+    <string name="app_name">OOBE</string>
+    <string name="oobe_btn_text_next">Next</string>
+    <string name="oobe_btn_text_back">Back</string>
+    <string name="oobe_btn_text_finish">Finish</string>
+    <string name="oobe_btn_text_skip">Skip</string>
+    <string name="oobe_btn_text_dismiss">Dismiss</string>
+    <string name="oobe_title_language_setting">Select Language</string>
+    <string name="oobe_summary_language_setting">Select your operating phone language</string>
+    <string name="oobe_title_keyboard_setting">Select keyboards</string>
+    <string name="oobe_summary_keyboard_setting">Select your preferred keyboards.</string>
+    <string name="oobe_title_import_contacts">Import contacts from SIM</string>
+    <string name="oobe_summary_import_contacts">Select some or all of your inserted SIM cards to import the contacts to phone.</string>
+    <string name="oobe_title_internet_connection_setting">Select internet connection</string>
+    <string name="oobe_summary_internet_connection">Select your preferred internet connection. You can always change these options later in Settings.</string>
+    <string name="oobe_title_sim_management">Manage SIM</string>
+    <string name="oobe_summary_sim_management">Tap a SIM card to edit its info. By default, the operator name is set as SIM name if possible.</string>
+    <string name="oobe_title_sim_edit">Edit SIM</string>
+    <string name="oobe_summary_sim_edit">Edit SIM info to fit with your preferences. You can change SIM name and color and edit phone number.</string>
+    <string name="oobe_title_default_sim">Set default SIM</string>
+    <string name="oobe_summary_default_sim">Select your preferred SIM as default SIM for a specified service.</string>
+    <string name="oobe_title_wifi_settings">Set up Wi-Fi network</string>
+    <string name="oobe_title_wifi">Wi-Fi</string>
+    <string name="oobe_summary_wifi_settings">Turn on and select a preferred Wi-Fi network.</string>
+    <string name="oobe_title_date_time">Set up date &amp; time</string>
+    <string name="oobe_summary_date_time">Tap to select your date &amp; time format and set your date &amp; time info manually if necessary.</string>
+    <string name="oobe_locale_switching">Waiting...</string>
+    <string name="oobe_ime_suggested">Suggested</string>
+    <string name="oobe_waiting_sim">Waiting SIM card initialization...</string>
+	<!-- DO NOT TRANSLATE -->
+    <string name="oobe_gemini_3g_indic">3G</string>
+    <string name="oobe_internet_gprs_or_wifi_title">Mobile network or Wi-Fi</string>
+    <string name="oobe_internet_gprs_or_wifi_summary">Choose this, if you have a data plan with your mobile network provider.</string>
+    <string name="oobe_internet_wifi_only_title">Wi-Fi Only</string>
+    <string name="oobe_internet_wifi_only_summary">Choose this, if you haven\'t had a data plan</string>
+    <string name="oobe_btn_start_import_contacts">Start to import</string>
+    <string name="oobe_btn_cancel_import_contacts">Cancel</string>
+    <string name="oobe_note_import_contacts_prepare">Please wait for a moment to copy SIM contacts.</string>
+    <string name="oobe_note_import_contacts_going">You can proceed to next step while the import is still in process.</string>
+    <string name="oobe_note_import_contacts_finish">Copy is complete. You can proceed to next step.</string>
+    <string name="oobe_note_import_contacts_cancel">Import canceled. You can skip to next step or start importing again.</string>
+    <string name="oobe_note_progress_copy_contacts">%1$d of %2$d contacts</string>
+    <string name="oobe_note_copy_contacts_waiting">Waiting...</string>
+    <string name="basic_congratulation_title">Congratulations!</string>
+    <string name="basic_congratulation_summary">You have finished all basic settings. You are now ready to enjoy your new device.</string>
+    <string name="oobe_advance_settings_entrance_title">Advanced settings</string>
+    <string name="oobe_advance_settings_entrance_summary">If you already have a Google account, E-mail account 
+    	or any social network account, we encourage you continuing advance settings.</string>
+    <string name="oobe_sync_settings_name">Sync settings</string>
+    <string name="oobe_sync_settings_title">Scheduled sync</string>
+    <string name="oobe_sync_settings_summary">"Select if you like to enable data sync services. If you don't have an unlimited data plan, syncing data may result in additional costs."</string>
+    <string name="oobe_account_settings_name">Account settings</string>
+    <string name="oobe_account_settings_title">Set up accounts</string>
+    <string name="oobe_account_settings_summary">To sync mail, contacts, and calendar events, you need to tap and set up at least one of following account types.</string>
+    <string name="oobe_account_list_title">Accounts</string>
+    <string name="oobe_sns_settings_name">SNS settings</string>
+    <string name="oobe_sns_settings_title">Set up social networks</string>
+    <string name="oobe_sns_settings_summary">Set up your favorite social network and you will be able to send and receive updates in Social network application.</string>
+    <string name="oobe_advance_settings_end_title">Congratulations!</string>
+    <string name="oobe_advance_settings_end_summary">You have finished all advanced settings. You are now ready to enjoy your new device.
+    	\n\n You can always change your settings in Setup Wizard from App launcher.</string>
+    <string name="oobe_advance_settings_end_name">Last message</string>
+    <string name="tap_to_add">Tap to add <xliff:g id="account" example="renren">%s</xliff:g> account</string>
+    <string name="oobe_import_contacts_sim_name">SIM Card</string>
+    <string name="oobe_contact_import_null_cursor">Query completed but get a null cursor, importing process fail!</string>
+
+    <!-- Title for security picker to choose the unlock method: None/Pattern/PIN/Password [CHAR LIMIT=22] -->
+    <string name="lock_settings_picker_title">Select screen lock</string>
+    <string name="add_network_string"> Add Network </string>
+    <!-- STRING TRANSLATION START [mtk54279]  -->
+    <string name="oobe_title_timezone">Select time zone</string>
+    <string name="oobe_summary_timezone">Please select your prefered time zone.</string>
+
+    <string name="gps_time_sync_attention_gps_on">It will take at most 1 minute to obtain GPS fix. Besides, GPS may fail to provide time due to weak environmental signal.\n\nAre you sure to use GPS provided time?</string>
+    <string name="gps_time_sync_attention_gps_off">To use GPS provided time, you must enable GPS first. It then take at most 1 minute to obtain GPS fix. Besides, GPS may fail to provide time due to weak environmental signal. \n\nAre you sure to enable GPS now and wait for GPS provided time?</string>
+    <string name="sync_account_summary_on">Automatically sync on</string>
+    <string name="sync_account_summary_off">Automatically sync off</string>
+    <string name="sync_account_title">Auto Sync Account</string>
+
+    <!-- Used in the 1st-level settings screen to turn on Wi-Fi  [CHAR LIMIT=60] -->
+    <string name="wifi_setup_wizard_title">Select Wi-Fi</string>
+    <!-- Menu option to do WPS Push Button [CHAR LIMIT=25]-->
+    <string name="wifi_menu_wps_pbc">WPS Push Button</string>
+    <!-- Wi-Fi settings. title for setup other network button [CHAR LIMIT=35]-->
+    <string name="wifi_other_network">Other network\u2026</string>
+    <!-- Button message shown on the button enabling users skip Wifi Setup.
+         Used in Wifi Setup For Setup Wizard with XL screen. -->
+    <string name="wifi_setup_skip">Skip</string>
+    <!-- Button message shown on the button enabling users go the next step.
+         Used in Wifi Setup For Setup Wizard with XL screen. -->
+    <string name="wifi_setup_next">Next</string>
+    <!-- Button label to go back to previous screen. Used in SetupWizard for
+      XLarge screen [CHAR LIMIT=10] -->
+    <string name="wifi_setup_back">Back</string>
+    <!-- Wi-Fi settings. text displayed when Wi-Fi is off and network list is empty [CHAR LIMIT=50]-->
+    <string name="wifi_empty_list_wifi_off">To see available networks, turn Wi-Fi on.</string>
+    <!-- Wi-Fi settings. text displayed when Wi-Fi is on and network list is empty [CHAR LIMIT=50]-->
+    <string name="wifi_empty_list_wifi_on">Searching for Wi-Fi networks\u2026</string>
+    <!-- Help URL, WiFi [DO NOT TRANSLATE] -->
+    <string name="help_url_wifi" translatable="false"></string>
+    <!-- Button for skipping a step after having been warned of a potential concern [CHAR LIMIT=30] -->
+    <string name="wifi_skip_anyway" msgid="5205612884736051138">Skip anyway</string>
+
+
+    <!-- Button for going to the previous screen or step [CHAR LIMIT=20] -->
+    <string name="wifi_dont_skip">Don\'t skip</string>
+    <!-- Text warning about skipping Wi-Fi with a mobile connect (tablet) [CHAR LIMIT=NONE]-->
+    <string name="wifi_skipped_message" product="tablet" msgid="6518433975501257341">WARNING: You may incur extra carrier data charges.\n\nTablet setup can require significant network activity.</string>
+    <!-- Text warning about skipping Wi-Fi with a mobile connect (phone) [CHAR LIMIT=NONE]-->
+    <string name="wifi_skipped_message" product="default" msgid="4376150150678208848">WARNING: You may incur extra carrier data charges.\n\nPhone setup can require significant network activity.</string>
+    <!-- Text warning about skipping Wi-Fi without a mobile connect (tablet) [CHAR LIMIT=NONE] -->
+    <string name="wifi_and_mobile_skipped_message" product="tablet" msgid="5647058314212144925">WARNING: The tablet won\'t be able to verify that your software is up to date.</string>
+    <!-- Text warning about skipping Wi-Fi without a mobile connect (phone) [CHAR LIMIT=NONE] -->
+    <string name="wifi_and_mobile_skipped_message" product="default" msgid="1288483646141987070">WARNING: The phone won\'t be able to verify that your software is up to date.</string>
+    <!-- Message informing that wifi is required during setup [CHAR LIMIT=NONE] -->
+    <string name="wifi_required_info_text">To complete setup, your tablet needs access to Wi-Fi. After setup, you can switch between mobile data and Wi-Fi.</string>
+
+	<!-- Strings for SIM management begin-->   
+    <string name="gemini_sim_info_title">SIM Information</string>  
+    <string name="gemini_default_sim_title">Default SIM</string>  
+    <string name="gemini_general_settings_title">General settings</string>  
+    <string name="gemini_roaming_settings_title">Roaming</string>    
+    <string name="gemini_contacts_sim_title">"Contacts &amp; SIM"</string>      
+    <string name="gemini_contacts_sim_summary">Associate contacts with a specific SIM</string> 
+    <string name="gemini_voice_call">Voice call</string>        
+    <string name="gemini_video_call">Video call</string>   
+    <string name="gemini_data_connection">Data connection</string>   
+    <string name="gemini_msg">Messaging</string>       
+    <string name="gemini_default_sim_always_ask">Always ask</string>    
+    <string name="gemini_intenet_call">Internet Call</string>    
+    <string name="gemini_default_sim_never">Off</string>       
+    <string name="gemini_default_sim_3g_off">Off</string>  
+        <!-- GSM/UMTS Options strings -->
+    <string name="gemini_gsm_umts_network_preferences_title">Network Mode</string>
+    <!-- Strings for Gemini begin-->
+    
+ 
+    <!-- Dual sim settings activate progress message string -->
+    <string name="gemini_sim_mode_progress_activating_message">Activating\u2026</string>
+    <!-- Dual sim settings deactivate progress message string -->
+    <string name="gemini_sim_mode_progress_deactivating_message">Deactivating\u2026</string>
+    <string name="gemini_3g_indic" translatable="false">3G</string>      
+    <string name="gemini_sim_info_editor_name">Edit SIM name</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">Save failed</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">Duplicate name for SIM card</string>  
+    <string name="gemini_sim_info_editor_number">Enter phone number</string>  
+    <string name="gemini_sim_info_editor_color">Set background color</string> 
+    <string name="gemini_sim_info_editor_number_display_format">Display numbers</string>    
+    <string name="gemini_no_sim_indicator">No SIM card</string>     
+    <string name="gemini_data_connection_progress_message">"Please wait..."</string>
+    <string name="gemini_3g_modem_switching_message">"Switching SIM will take around 10 seconds to complete. Please wait..."</string>
+    <string name="gemini_3g_modem_switch_confirm_message">"This will also switch 3G service to this SIM. Continue? Please also make sure this selected SIM supports 3G service."</string>
+
+    <string name="apn_not_set">Not set</string>
+    
+    <string name="gemini_3g_disable_warning_case0">"You must enable data roaming for this SIM first which may incur significant roaming charges! Are you sure to enable data roaming and select this SIM?"</string>
+    <string name="gemini_3g_disable_warning_case1">"3G service is not available with this selected SIM. This may load data slower. You can change the 3G service setting under Settings > Wireless &amp; networks > Mobile networks. Are you sure to select this SIM?"</string>
+    <string name="gemini_3g_disable_warning_case2">"3G service is not available with this selected SIM. This may load data slower. You can change the 3G service setting under Settings > SIM management. Are you sure to select this SIM?"</string>
+    <string name="gemini_3g_disable_warning_case3">"You must enable data roaming for this SIM first which may incur significant roaming charges! Besides, 3G service is not available with this SIM. This may load data slower. You can change it under Settings > Wireless &amp; networks > Mobile networks. Are you sure to enable data roaming and select this SIM?"</string>
+    <string name="gemini_3g_disable_warning_case4">"You must enable data roaming for this SIM first which may incur significant roaming charges! Besides, 3G service is not available with this SIM. This may load data slower. You can change it under Settings > SIM management. Are you sure to enable data roaming and select this SIM?"</string>
+	<!-- Date & time settings screen title -->
+    <string name="date_and_time">Date &amp; time settings</string>
+    <!-- Date/time settings.  Summary of the checkbox for choosing between 12 hour time or 24 hour time.  Sample of 12-hour time -->
+    <string name="date_time_12_hour_sample">1:00 pm</string>
+    <!-- The title of the activity to pick a time zone. -->
+    <string name="choose_timezone">Select time zone</string>
+    <!-- Do not translate. Used as the value for a setting. -->
+    <string name="default_date_format" translatable="false"><xliff:g id="default_date_format">MM/dd/yyyy</xliff:g></string>
+
+    <!-- The option in the date-format picker for using the normal format
+         called for by the user's locale. -->
+    <string name="normal_date_format">Normal (<xliff:g id="date" example="12-31-2009">%s</xliff:g>)</string>
+    
+    <!-- Date and time settings -->
+    <!-- Main Settings screen setting option name to go into the date and time settings-->
+    <!-- Main Settings screen setting option summary text for the item to go into the date and time settings. -->
+    <!-- Date & time setting screen setting check box title if the date and time should be determined automatically -->
+    <string name="date_time_auto">Automatic with network</string>
+
+    <string name="zone_auto">Automatic time zone</string>
+    <!-- Date & time setting screen setting option summary text when Automatic time zone check box is selected (that is, when date and time should be determined automatically)
+        [CHAR LIMIT=100]  -->
+    <string name="zone_auto_summaryOn">Use network-provided time zone</string>
+    <!-- Date & time setting screen setting option summary text when Automatic time zone check box is clear
+        [CHAR LIMIT=100] -->
+    <string name="zone_auto_summaryOff">Use network-provided time zone</string>
+    
+    <!-- Date & time setting screen setting check box title -->
+    <string name="date_time_24hour">Use 24-hour format</string>
+    <!-- Date & time setting screen setting option title -->
+    <string name="date_time_set_time">Set time</string>
+    <!-- Date & time setting screen setting option title -->
+    <string name="date_time_set_timezone">Select time zone</string>
+    <!-- Date & time setting screen setting option title -->
+    <string name="date_time_set_date">Set date</string>
+    <!-- Date & time setting screen setting option title.  This setting allows the user to choose how the date should be displayed in apps (what ordering for month and day, etc.) -->
+    <string name="date_time_date_format">Select date format</string>
+    <!-- Menu item on Select time zone screen -->
+    <string name="zone_list_menu_sort_alphabetically">Sort alphabetically</string>
+    <!-- Menu item on Select time zone screen -->
+    <string name="zone_list_menu_sort_by_timezone">Sort by time zone</string>
+    
+	<string name="date_time_24_hour_sample" translatable="false">13:00</string>
+
+    <string name="qsg_app_name">Quick Start Guide</string>
+
+    <string name="skip_button">Skip</string>
+    <string name="ok_button">Start</string>
+    <string name="qsg_title_begin">Quick Start Guide</string>
+    <string name="qsg_summary_begin">This Quick start guide contains 4 useful tips and introduces you basic gestures and phone management.</string>
+    <string name="next">Next</string>
+    <string name="play_again">Play again</string>
+    <string name="finish">Finish</string>
+    <string name="qsg_title2_home_screen">View home screen</string>
+    <string name="qsg_summary2_home_screen">Swipe left or right to view other pages of home screen.</string>
+    <string name="qsg_title3_choose_widget">Choose some widgets</string>
+    <string name="qsg_summary3_choose_widget">To add a widget to your home screen, touch &amp; hold it.</string>
+    <string name="qsg_title4_launch_page">Launch detail page</string>
+    <string name="qsg_summary4_launch_page">Tap a profile image to popup the detail page for options.</string>
+    <string name="qsg_title5_view_notification">View notifications</string>
+    <string name="qsg_summary5_view_notification">Hold the status bar and slide down to view all notifications.</string>
+    <string name="qsg_changesim_title">Switch SIM card</string>
+    <string name="qsg_changesim_summary">Slide down status bar, and select the service SIM card to operate.</string>
+    <string name="qsg_summary_end">You have walked through all tips in Quick start guide. \n\nYou can tap on Play again button to view the guide again.\n\nAlternatively, you can tap on Finish button to operate your new device.</string>
+
+    <string name="wifi_settings">Wi-Fi settings</string>
+    <!-- Title of the Wi-fi settings screen -->
+    <!-- Button caption to forget a wifi network -->
+    <!-- Label for link speed (wifi) -->
+    <!-- Verbose wifi signal strength.  This is the best out of 4 levels. -->
+    <!-- Verbose wifi signal strength.  This is the 2nd best out of 4 levels. -->
+    <!-- Verbose wifi signal strength.  This is the 3rd best out of 4 levels. -->
+    <!-- Verbose wifi signal strength.  This is the worst out of 4 levels. -->
+    <!-- Label for the security of a wifi network -->
+    <!-- Value for the wifi security -->
+    <string name="wifi_settings_category">Wi-Fi settings</string>
+    <!-- Wi-Fi IP addrress label -->
+    <!-- Label for the spinner to show ip settings [CHAR LIMIT=25] -->
+    <string name="wifi_ip_settings">IP settings</string>
+    <!-- Label for the signal strength -->
+    <!-- Label for the WAPI user certificate of the network -->
+    <string name="wapi_user_certificate">User certificate</string>
+    <!-- Label for the WAPI ASE certificate of the network -->
+    <string name="wapi_as_certificate">ASE certificate</string>   
+    <!-- Summary text when turning Wi-Fi or bluetooth on -->
+    <string name="wifi_starting">Turning on\u2026</string>
+    <!-- Summary text when turning Wi-Fi or bluetooth off -->
+    <string name="wifi_stopping">Turning off\u2026</string>
+    <!-- Summary text when Wi-Fi or bluetooth has error -->
+    <string name="wifi_error">Error</string>
+
+  <!-- title for CTIA setting added by mtk03034 -->
+  <string name="wifi_ctia_test">CTIA Test Mode Setting</string>
+  <string name="wifi_ctia_test_summary">CTIA Test Mode configuration</string>
+
+    <!-- Summary text of the Wi-fi settings screen -->
+    <!-- Toast message when Wi-Fi or bluetooth is disallowed in airplane mode -->
+    <string name="wifi_in_airplane_mode">In airplane mode</string>
+    <!-- Toast message when Wi-Fi cannot scan for networks -->
+    <string name="wifi_fail_to_scan">Unable to scan for networks</string>
+    <!-- Checkbox title for option to notify user when open networks are nearby -->
+    <string name="wifi_notify_open_networks">Network notification</string>
+    <!-- Checkbox summary for option to notify user when open networks are nearby -->
+    <string name="wifi_notify_open_networks_summary">Notify me when an open network is available</string>
+    <!-- This dialog will use the error_title as the title. -->
+    <!-- Netwokr SSID was empty  -->
+    <!-- Generic error message -->
+    <!-- Action message to manually add a wifi network -->
+    <string name="wifi_add_network">Add Wi-Fi network</string>
+    <!-- Header for the list of wifi networks-->
+    <!-- Menu option to scan Wi-Fi networks -->
+    <string name="wifi_menu_scan">Scan</string>
+    <!-- Menu option to Wi-Fi advanced settings -->
+    <string name="wifi_menu_advanced">Advanced</string>
+    <!-- Menu option to connect to a Wi-Fi network -->
+    <string name="wifi_menu_connect">Connect to network</string>
+    <!-- Menu option to delete a Wi-Fi network -->
+    <string name="wifi_menu_forget">Forget network</string>
+    <!-- Menu option to modify a Wi-Fi network configuration -->
+    <string name="wifi_menu_modify">Modify network</string>
+
+    <!-- Dialog for Access Points --> <skip />
+    <!-- Label for the SSID of the network -->
+    <string name="wifi_ssid">Network SSID</string>
+    <!-- Label for the security of the connection -->
+    <string name="wifi_security">Security</string>
+    <!-- Label for the signal strength of the connection -->
+    <string name="wifi_signal">Signal strength</string>
+    <!-- Label for the status of the connection -->
+    <string name="wifi_status">Status</string>
+    <!-- Label for the link speed of the connection -->
+    <string name="wifi_speed">Link speed</string>
+    <!-- Label for the IP address of the connection -->
+    <string name="wifi_ip_address">IP address</string>
+    <!-- Hint text for the IP address -->
+    <string name="wifi_ip_address_hint" translatable="false">192.168.1.128</string>
+    <!-- Label for the EAP method of the network -->
+    <string name="wifi_eap_method">EAP method</string>
+    <!-- Label for the phase2 -->
+    <string name="please_select_phase2">Phase 2 authentication</string>
+    <!-- Label for the EAP CA certificate of the network -->
+    <string name="wifi_eap_ca_cert">CA certificate</string>
+    <!-- Label for the EAP user certificate of the network -->
+    <string name="wifi_eap_user_cert">User certificate</string>
+    <!-- Label for the EAP identity of the network -->
+    <string name="wifi_eap_identity">Identity</string>
+    <!-- Label for the EAP anonymous identity of the network -->
+    <string name="wifi_eap_anonymous">Anonymous identity</string>
+    <!-- Label for the password of the secured network -->
+    <string name="wifi_password">Password</string>
+    <!-- Label for the check box to show password -->
+    <string name="wifi_show_password">Show password</string>
+    <!-- Label for the check box for hexadecimal password -->
+    <string name="wifi_hex_password">Hexadecimal password</string>
+    <!-- Hint for unchanged fields -->
+    <string name="wifi_unchanged">(unchanged)</string>
+    <!-- Hint for unspecified fields -->
+    <string name="wifi_unspecified">(unspecified)</string>
+    <!-- Summary for the remembered network. -->
+    <string name="wifi_remembered">Remembered</string>
+    <!-- Status for networks disabled for unknown reason -->
+    <string name="wifi_disabled_generic">Disabled</string>
+    <!-- Status for networked disabled from a DNS or DHCP failure -->
+    <string name="wifi_disabled_network_failure">Avoided poor Internet connection</string>
+    <!-- Status for networks disabled from authentication failure (wrong password
+         or certificate). -->
+    <string name="wifi_disabled_password_failure">Authentication problem</string>
+    <!-- Summary for the remembered network but currently not in range. -->
+    <string name="wifi_not_in_range">Not in range</string>
+    <!-- Button label to connect to a Wi-Fi network -->
+    <string name="wifi_connect">Connect</string>
+    <!-- Button label to delete a Wi-Fi network -->
+    <string name="wifi_forget">Forget</string>
+    <!-- Button label to save a Wi-Fi network configuration -->
+    <string name="wifi_save">Save</string>
+    <!-- Button label to dismiss the dialog -->
+    <string name="wifi_cancel">Cancel</string>
+    <!-- Button label to do wps pin -->
+    <!-- The label for WEP Secury Key -->
+    <!-- The label for WEP Tranmit Key -->
+
+    <!-- Wi-Fi Advanced Settings --> <skip />
+    <!-- Wi-Fi settings screen, advanced, settings section.  This is a header shown above advanced wifi settings. -->
+    <string name="wifi_advanced_titlebar">Advanced</string>
+    <!-- Wi-Fi settings screen, setting title for choosing the number of channels to be used -->
+    <!-- Wi-Fi settings screen, setting summary for choosing the number of channels to be used -->
+    <!-- Wi-Fi settings screen, generic error message when the regulatory domain could not be set. -->
+    <!-- Wi-Fi settings screen, label to be appended to the count in displaying the list of valid channel counts -->
+    <!-- Wi-Fi suspends after screen is off for a delay. -->
+    <!-- Wi-Fi settings screen, generic error message when the sleep policy could not be set. -->
+    <string name="wifi_setting_sleep_policy_error">There was a problem setting the sleep policy.</string>
+    <!-- Wi-Fi settings screen, advanced, title of the item to show the Wi-Fi device's MAC address. -->
+    <string name="wifi_advanced_mac_address_title">MAC address</string>
+    <!-- Title of the screen to adjust IP settings -->
+    <!-- Wi-Fi settings screen, advanced, title of the item to show the Wi-Fi device's current IP address. -->
+    <string name="wifi_advanced_ip_address_title">IP address</string>
+
+    <string name="wifi_ip_settings_titlebar">IP settings</string>
+    <!-- Menu ietm to save the IP settings -->
+    <!-- Menu ietm to cancel the IP settings -->
+    <!-- Error message if the IP address is not valid -->
+    
+    <!-- Wifi Advanced settings.  Used as a label under the shortcut icon that goes to Wifi advanced settings. [CHAR LIMIT=20]-->
+    <!-- Error message if the IP address is not valid [CHAR LIMIT=50]-->
+    <string name="wifi_ip_settings_invalid_ip_address">Type a valid IP address.</string>
+    <!-- Error message if the gateway is not valid [CHAR LIMIT=50]-->
+    <string name="wifi_ip_settings_invalid_gateway">Type a valid gateway address.</string>
+    <!-- Error message if the dns is not valid [CHAR LIMIT=50]-->
+    <string name="wifi_ip_settings_invalid_dns">Type a valid DNS address.</string>
+    <!-- Error message if the network prefix length is not valid [CHAR LIMIT=50]-->
+    <string name="wifi_ip_settings_invalid_network_prefix_length">Type a network prefix length between 0 and 32.</string>
+    <!-- Label for the DNS (first one) [ do not translate ] -->
+    <string name="wifi_dns1">DNS 1</string>
+    <!-- Hint text for DNS  [ do not translate ] -->
+    <string name="wifi_dns1_hint" translatable="false">8.8.8.8</string>
+    <!-- Label for the DNS (second one)  [ do not translate ] -->
+    <string name="wifi_dns2">DNS 2</string>
+    <!-- Hint text for DNS  [ do not translate ] -->
+    <string name="wifi_dns2_hint" translatable="false">4.4.4.4</string>
+    <!-- Label for the gateway of the network -->
+    <string name="wifi_gateway">Gateway</string>
+    <!-- Hint text for the gateway  [ do not translate ] -->
+    <string name="wifi_gateway_hint" translatable="false">192.168.1.1</string>
+    <!-- Label for the network prefix of the network [CHAR LIMIT=25]-->
+    <string name="wifi_network_prefix_length">Network prefix length</string>
+    <!-- Hint text for network prefix length  [ do not translate ] -->
+    <string name="wifi_network_prefix_length_hint" translatable="false">24</string>
+    
+    <!-- Other misc -->
+    <string name="status_unavailable">Unavailable</string>
+    
+    <!-- Do not translate,the default value is null -->
+    
+    <!-- CMCC WLAN customization begin-->
+    <string name="wifi_connect_type_title">Auto connect type</string>
+    <string name="wifi_setting_connect_type_error">There was a problem setting the connect type.</string>
+    <string name="wifi_priority_type_title">Set AP priority manually</string>
+    <string name="wifi_priority_type_summary">Allow to set priority for each access point manually</string>
+    <string name="wifi_priority_settings_title">AP priority settings</string>
+    <string name="wifi_priority_settings_summary">Click to set priority of each access point</string>
+    
+    <string name="wifi_priority_label">Priority</string>
+    <string name="wifi_priority_settings_label">Priority settings</string>
+    <!-- CMCC WLAN customization end-->
+    
+	<!-- New added for ICS begin -->
+	
+	<!-- Substring of status line when Wi-Fi Protected Setup (WPS) is available and
+         string is listed first -->
+    <string name="wifi_wps_available_first_item">Protected network available</string>
+    <!-- Substring of wifi status when Wi-Fi Protected Setup (WPS) is available and
+         string is listed after a wifi_secured_* string-->
+    <string name="wifi_wps_available_second_item">\u0020(protected network available)</string>
+	<!-- Substring of wifi status for wifi with authentication.  This version is for when the
+         string is first in the list (titlecase in english) -->
+    <string name="wifi_secured_first_item">Secured with <xliff:g id="wifi_security_short">%1$s</xliff:g></string>
+    <!-- Substring of wifi status for wifi with authentication.  This version is for when the
+         string is not first in the list (lowercase in english) -->
+    <string name="wifi_secured_second_item">, secured with <xliff:g id="wifi_security_short">%1$s</xliff:g></string>
+
+    <!-- Do not translate.  Concise terminology for wifi with WEP security -->
+    <string name="wifi_security_short_wep" translatable="false">WEP</string>
+    <!-- Do not translate.  Concise terminology for wifi with WPA security -->
+    <string name="wifi_security_short_wpa"  translatable="false">WPA</string>
+    <!-- Do not translate.  Concise terminology for wifi with WPA2 security -->
+    <string name="wifi_security_short_wpa2"  translatable="false">WPA2</string>
+    <!-- Do not translate.  Concise terminology for wifi with both WPA/WPA2 security -->
+    <string name="wifi_security_short_wpa_wpa2"  translatable="false">WPA/WPA2</string>
+    <!-- Do not translate.  Concise terminology for wifi with unknown PSK type -->
+    <string name="wifi_security_short_psk_generic"  translatable="false">@string/wifi_security_short_wpa_wpa2</string>
+    <!-- Do not translate.  Concise terminology for wifi with 802.1x EAP security -->
+    <string name="wifi_security_short_eap"  translatable="false">802.1x</string>
+
+    <!-- Used in Wi-Fi settings dialogs when Wi-Fi does not have any security. -->
+    <string name="wifi_security_none">None</string>
+
+    <!-- Do not translate.  Terminology for wifi with WEP security -->
+    <string name="wifi_security_wep"  translatable="false">WEP</string>
+    <!-- Do not translate.  Terminology for wifi with WPA security -->
+    <string name="wifi_security_wpa"  translatable="false">WPA PSK</string>
+    <!-- Do not translate.  Terminology for wifi with WPA2 security -->
+    <string name="wifi_security_wpa2"  translatable="false">WPA2 PSK</string>
+    <!-- Do not translate.  Terminology for wifi with both WPA/WPA2 security, or unknown -->
+    <string name="wifi_security_wpa_wpa2"  translatable="false">WPA/WPA2 PSK</string>
+    <!-- Do not translate.  Terminology for wifi with unknown PSK type -->
+    <string name="wifi_security_psk_generic"  translatable="false">@string/wifi_security_wpa_wpa2</string>
+    <!-- Do not translate.  Concise terminology for wifi with 802.1x EAP security -->
+    <string name="wifi_security_eap"  translatable="false">802.1x EAP</string>
+    
+    <!-- Label for the SIM Slot of EAP-SIM method support -->
+    <string name="sim_slot">SIM slot</string>
+    
+    <string name="wifi_network_netmask">Netmask </string>
+    <!-- Hint text for network netmask-->
+    <string name="wifi_network_netmask_hint" translatable="false">255.255.255.0</string>
+        <!--add for wifi ap auto connect for CMCC-->
+    <string name="gsm_to_wifi_connect_type_title">Cellular->Wi-Fi</string>
+    <string name="wifi_connect_ap_summary">Specify network connection type</string>
+    <string name="select_ssid_type_title">Reselection among SSID</string>
+    
+    <!-- Checkbox title for option to toggle wifi watchdog service -->
+    <string name="wifi_enable_watchdog_service">Avoid poor connections</string>
+    <!-- Checkbox summary for option to toggle wifi watchdog service -->
+    <string name="wifi_enable_watchdog_service_summary">Don\'t use a Wi-Fi network unless it has a good Internet connection</string>
+    
+    <!-- Wi-Fi settings screen, setting title for setting the band [CHAR LIMIT=50]-->
+    <string name="wifi_setting_frequency_band_title">Wi-Fi frequency band</string>
+    <!-- Wi-Fi settings screen, setting summary for setting the wifi frequency band [CHAR LIMIT=50]-->
+    <string name="wifi_setting_frequency_band_summary">Specify the frequency range of operation</string>
+    <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
+    <string name="wifi_setting_frequency_band_error">There was a problem setting the frequency band.</string>
+    
+    <!-- HTTP proxy settings title -->
+    <string name="proxy_settings_title">Proxy settings</string>
+    <!-- HTTP proxy settings. Button to clear the proxy box. -->
+    <string name="proxy_clear_text">Clear</string>
+    <!-- HTTP proxy settings. The port number label. -->
+    <string name="proxy_port_label">Proxy port</string>
+    <!-- HTTP proxy settings. The hint text field for port.  [ do not translate ] -->
+    <string name="proxy_port_hint" translatable="false">8080</string>
+    <!-- HTTP proxy settings. The exclusion list label. -->
+    <string name="proxy_exclusionlist_label">Bypass proxy for</string>
+    <!-- HTTP proxy settings. The hint text for proxy exclusion list. [CHAR LIMIT=50]  [ do not translate ] -->
+    <string name="proxy_exclusionlist_hint">example.com,mycomp.test.com,localhost</string>
+    <!-- HTTP proxy settings. The button to restore the defaults. -->
+    <string name="proxy_defaultView_text">Restore defaults</string>
+    <!-- HTTP proxy settings. The button to save. -->
+    <string name="proxy_action_text">Done</string>
+    <!-- HTTP proxy settings. The text field for the hostname -->
+    <string name="proxy_hostname_label">Proxy hostname</string>
+    <!-- HTTP proxy settings. The hint text field for the hostname. [CHAR LIMIT=50]  [ do not translate ] -->
+    <string name="proxy_hostname_hint">proxy.example.com</string>
+    <!-- HTTP proxy settings. Title if there is an error-->
+    <string name="proxy_error">Attention</string>
+    <!-- HTTP proxy settings. Button to get rid of error box-->
+    <string name="proxy_error_dismiss">OK</string>
+    <!-- HTTP proxy settings. The error if the hostname is not valid -->
+    <string name="proxy_error_invalid_host">The hostname you typed isn\'t valid.</string>
+    <!-- HTTP proxy settings. The error if the exclusion list is not valid -->
+    <string name="proxy_error_invalid_exclusion_list">The exclusion list you typed isn\'t properly formatted. Type a comma-separated list of excluded domains.</string>
+    <!-- HTTP proxy settings. Error msg -->
+    <string name="proxy_error_empty_port">You must complete the port field.</string>
+    <!-- HTTP proxy settings. Error msg -->
+    <string name="proxy_error_empty_host_set_port">The port field must be empty if the host field is empty.</string>
+    <!-- HTTP proxy settings. Error msg -->
+    <string name="proxy_error_invalid_port">The port you typed isn\'t valid.</string>
+    <!-- HTTP proxy settings. Warning message about limited application support [CHAR LIMIT=100]-->
+    <string name="proxy_warning_limited_support">The HTTP proxy is used by the browser but may not be used by the other apps.</string>
+   
+    <!-- Label to show/hide advanced options -->
+    <string name="wifi_show_advanced">Show advanced options</string>
+    
+    <!-- Failured notification for connect -->
+    <string name="wifi_failed_connect_message">Failed to connect to network</string>
+    <!-- Failured notification for save -->
+    <string name="wifi_failed_save_message">Failed to save network</string>
+    <!-- Failured notification for forget -->
+    <string name="wifi_failed_forget_message">Failed to forget network</string>
+    <!-- Wi-Fi settings screen, setting title for setting the wifi sleep policy -->  
+    <string name="wifi_setting_sleep_policy_title">Wi-Fi sleep policy</string>
+
+    <!-- Subtext for wifi tether checkbox on success -->  
+    <string name="wifi_tether_enabled_subtext">Portable hotspot 
+        <xliff:g id="network_ssid">%1$s</xliff:g> active
+    </string>  
+
+    <string name="wifi_WEP_transmit_key">Transmit Key</string>
+    <string name="wifi_WEP_secury_key">Secury Key</string>
+    <string name="wifi_security_wapi_psk" translatable="false">WAPI PSK</string>
+    <string name="wifi_security_wapi_certificate">WAPI Certificate</string>
+    <!--Wi-Fi settings strings start-->
+    <string name="wifi_no_cert_for_wapi">Could not find certification for current connecting AP</string>
+    <!-- Label for the SIM Slot 0 of EAP-SIM method support -->
+    <string name="eap_sim_slot_0">SIM slot 1</string>
+    <!-- Label for the SIM Slot of EAP-SIM method support -->
+    <string name="eap_sim_slot_1">SIM slot 2</string>
+    <!-- Label for the toast if user use eap-sim/aka in airplane mode -->
+    <string name="eap_sim_aka_airplanemode">Please turn off Airplane mode to use EAP-SIM/AKA</string>
+    <!-- Label for the toast if user use eap-sim/aka when sim card is absent -->
+    <string name="eap_sim_aka_no_sim_error">You must insert a sim card to use EAP-SIM/AKA</string>	
+    <!-- Label for the toast if user use eap-sim/aka when user don't select a sim slot -->
+    <string name="eap_sim_aka_no_sim_slot_selected">You must select a sim slot to use EAP-SIM/AKA</string>
+    <string name="wifi_ipv4_address">IPv4 address</string>
+    <string name="wifi_ipv6_address">IPv6 address</string> 
+
+    <string name="wifi_disconnect" translatable="false">Disconnect</string>
+    <string name="wifi_menu_disconnect" translatable="false">Disconnect from network</string>
+
+    <string name="trust_access_points" translatable="false">Default credible access points</string>
+    <string name="configed_access_points" translatable="false">Credible access points</string>
+    <string name="new_access_points" translatable="false">Unknown access points</string>
+
+    <string name="import_contact_already">You are importing already. Please try again later.</string>
+</resources>

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0"?>
+<ruleset name="Android Application Rules"
+    xmlns="http://pmd.sf.net/ruleset/1.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sf.net/ruleset/1.0.0 http://pmd.sf.net/ruleset_xml_schema.xsd"
+    xsi:noNamespaceSchemaLocation="http://pmd.sf.net/ruleset_xml_schema.xsd">
+
+  <description>Ruleset for Android application</description>
+
+  <exclude-pattern>.*/R.java</exclude-pattern>
+  <exclude-pattern>.*/gen/.*</exclude-pattern>
+
+  <rule name="DoNotHardCodeSDCard"
+      message="Do not hardcode /sdcard."
+      class="net.sourceforge.pmd.rules.XPathRule">
+    <description>Use Environment.getExternalStorageDirectory() instead of "/sdcard"</description>
+    <priority>3</priority>
+    <properties>
+      <property name="xpath">
+        <value>//Literal[starts-with(@Image,'"/sdcard')]</value>
+      </property>
+    </properties>
+  </rule>
+
+  <rule name="CallSuperFirst"
+      message="Super should be called at the start of the method."
+      class="net.sourceforge.pmd.rules.XPathRule">
+    <description>Super should be called at the start of the method.</description>
+    <priority>3</priority>
+    <properties>
+      <property name="xpath">
+        <value>
+            //MethodDeclaration[MethodDeclarator[
+              @Image='onCreate' or
+              @Image='onConfigurationChanged' or
+              @Image='onPostCreate' or
+              @Image='onPostResume' or
+              @Image='onRestart' or
+              @Image='onRestoreInstanceState' or
+              @Image='onResume' or
+              @Image='onStart'
+              ]]
+                /Block[not(
+                  (BlockStatement[1]/Statement/StatementExpression/PrimaryExpression/PrimaryPrefix[@Image= ancestor::MethodDeclaration/MethodDeclarator/@Image]) or
+                  ((BlockStatement[1]/Statement/IfStatement/Expression[
+              PrimaryExpression/PrimaryPrefix/Name[@Image='Config.LOGD' or @Image='Config.LOGV']
+              or
+              ConditionalAndExpression/PrimaryExpression/PrimaryPrefix/Name[@Image='Config.LOGD' or @Image='Config.LOGV']
+                     ]) and
+                  (BlockStatement[2]/Statement/StatementExpression/PrimaryExpression/PrimaryPrefix[@Image= ancestor::MethodDeclaration/MethodDeclarator/@Image])))]
+            [ancestor::ClassOrInterfaceDeclaration[//ClassOrInterfaceType[
+              typeof(@Image, 'android.app.Activity', 'Activity') or
+              typeof(@Image, 'android.app.Application', 'Application') or
+              typeof(@Image, 'android.app.Service', 'Service')
+            ]]]
+        </value>
+      </property>
+    </properties>
+  </rule>
+  
+  <rule name="CallSuperLast"
+      message="Super should be called at the end of the method."
+      class="net.sourceforge.pmd.rules.XPathRule">
+    <description>Super should be called at the end of the method.</description>
+    <priority>3</priority>
+    <properties>
+      <property name="xpath">
+        <value>
+            //MethodDeclaration[MethodDeclarator[
+              @Image='onDestroy' or
+              @Image='onPause' or
+              @Image='onSaveInstanceState' or
+              @Image='onStop' or
+              @Image='onTerminate'
+              ]]
+               /Block/BlockStatement[last()]
+                [not(Statement/StatementExpression/PrimaryExpression/PrimaryPrefix[@Image= ancestor::MethodDeclaration/MethodDeclarator/@Image])]
+            [ancestor::ClassOrInterfaceDeclaration[//ClassOrInterfaceType[
+              typeof(@Image, 'android.app.Activity', 'Activity') or
+              typeof(@Image, 'android.app.Application', 'Application') or
+              typeof(@Image, 'android.app.Service', 'Service')
+            ]]]
+        </value>
+      </property>
+    </properties>
+  </rule>
+  
+</ruleset>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+
+    <!-- OOBE part begin -->  
+    <string name="app_name">OOBE</string>  
+    <string name="oobe_btn_text_next">Seguinte</string>  
+    <string name="oobe_btn_text_back">Voltar</string>  
+    <string name="oobe_btn_text_finish">Concluir</string>  
+    <string name="oobe_btn_text_skip">Ignorar</string>  
+    <string name="oobe_btn_text_dismiss">Rejeitar</string>  
+    <string name="oobe_title_language_setting">Seleccionar idioma</string>  
+    <string name="oobe_summary_language_setting">Seleccione o idioma de telefone desejado</string>  
+    <string name="oobe_title_keyboard_setting">Seleccionar teclados</string>  
+    <string name="oobe_summary_keyboard_setting">Seleccione os teclados desejados.</string>  
+    <string name="oobe_title_import_contacts">Importar contactos do SIM</string>  
+    <string name="oobe_summary_import_contacts">Pode seleccionar alguns ou todos os seus cartões SIM inseridos para importar contactos para o telefone.</string>  
+    <string name="oobe_title_internet_connection_setting">Seleccionar ligação à Internet</string>  
+    <string name="oobe_summary_internet_connection">Seleccione a ligação à Internet desejada. Poderá alterar estas opções mais tarde nas Definições.</string>  
+    <string name="oobe_title_sim_management">Gerir SIM</string>  
+    <string name="oobe_summary_sim_management">Pode tocar no item do cartão SIM para editar as informações. Normalmente o nome da operadora é utilizado como o nome predefinido do SIM.</string>  
+    <string name="oobe_title_default_sim">Definir SIM predefinido</string>  
+    <string name="oobe_summary_default_sim">Seleccione o SIM predefinido que pretende utilizar para estes serviços.</string>  
+    <string name="oobe_title_wifi_settings">Configurar rede Wi-Fi</string>  
+    <string name="oobe_summary_wifi_settings">Toque para seleccionar uma rede Wi-Fi preferida na lista abaixo</string>  
+    <string name="oobe_title_date_time">Configurar data &amp; hora</string>  
+    <string name="oobe_summary_date_time">Toque para seleccionar o seu formato de data &amp; hora e defina as informações de Data &amp; Hora manualmente caso seja necessário.</string>  
+    <string name="oobe_locale_switching">A aguardar…</string>  
+    <string name="oobe_ime_suggested">Sugerido</string>  
+    <string name="oobe_gemini_3g_indic">3G</string>  
+    <string name="oobe_internet_gprs_or_wifi_title">Rede móvel ou Wi-Fi</string>  
+    <string name="oobe_internet_gprs_or_wifi_summary">Seleccione a ligação à Internet desejada. Poderá alterar estas opções mais tarde nas Definições.</string>  
+    <string name="oobe_internet_wifi_only_title">Apenas Wi-Fi</string>  
+    <string name="oobe_internet_wifi_only_summary">Escolha esta opção se não possuir um plano de dados</string>  
+    <string name="oobe_btn_start_import_contacts">Iniciar importação</string>  
+    <string name="oobe_btn_cancel_import_contacts">Cancelar</string>  
+    <string name="oobe_note_import_contacts_prepare">Aguarde um momento até terminar a cópia de contactos do SIM.</string>  
+    <string name="oobe_note_import_contacts_going">Pode agora avançar para o passo seguinte enquanto a importação está a decorrer.</string>  
+    <string name="oobe_note_import_contacts_finish">Cópia concluída. Pode avançar para o passo seguinte.</string>  
+    <string name="oobe_note_import_contacts_cancel">Importação cancelada. Pode avançar para o passo seguinte ou executar novamente a importação.</string>  
+    <string name="oobe_note_progress_copy_contacts">%1$d de %2$d contactos</string>  
+    <string name="oobe_note_copy_contacts_waiting">A aguardar...</string>  
+    <string name="basic_congratulation_title">Parabéns!</string>  
+    <string name="basic_congratulation_summary">Concluiu todas as configurações básicas. Pode agora começar a desfrutar dos seus novos dispositivos. \n\nPode alterar as suas configurações a qualquer momento no Assistente de configuração no Iniciador de aplicações.!</string>  
+    <string name="oobe_advance_settings_entrance_title">Definições avançadas</string>  
+    <string name="oobe_advance_settings_entrance_summary">Se já possuir uma conta do Google, uma conta de e-mail ou uma conta numa rede social, encorajamo-lo a avançar para as definições avançadas.</string>  
+    <string name="oobe_sync_settings_name">Definições de sincronização</string>  
+    <string name="oobe_sync_settings_title">Sincronização agendada</string>  
+    <string name="oobe_sync_settings_summary">Escolha se deseja activar os serviços de sincronização de dados. Se não possuir um plano de dados ilimitados, a sincronização de dados poderá resultar em custos adicionais.</string>  
+    <string name="oobe_account_settings_name">Definições de conta</string>  
+    <string name="oobe_account_settings_title">Configurar contas</string>  
+    <string name="oobe_account_settings_summary">Para sincronizar o e-mail, contactos e eventos do calendário, precisa de seleccionar e configurar pelo menos um dos seguintes tipos de conta.</string>  
+    <string name="oobe_account_list_title">Contas</string>  
+    <string name="oobe_sns_settings_name">Definições de Redes sociais</string>  
+    <string name="oobe_sns_settings_title">Configurar redes sociais</string>  
+    <string name="oobe_sns_settings_summary">Configure a sua rede social preferida e poderá enviar e receber actualizações na aplicação de Redes sociais.</string>  
+    <string name="oobe_advance_settings_end_title">Parabéns!</string>  
+    <string name="oobe_advance_settings_end_summary">Concluiu todas as definições avançadas. Pode agora começar a desfrutar do seu novo dispositivo. \n\n Poderá alterar as suas definições a qualquer momento no Assistente de configuração a partir do Iniciador de aplicações.</string>  
+    <string name="tap_to_add">Toque para adicionar conta 
+        <xliff:g id="account" example="renren">%s</xliff:g> 
+    </string>  
+    <string name="oobe_import_contacts_sim_name">Cartão SIM</string>  
+    <string name="oobe_title_wifi">Wi-Fi</string>  
+    <string name="lock_settings_picker_title">Sel. bloqueio do ecrã</string>  
+    <string name="add_network_string">Adicionar rede</string>  
+    <string name="oobe_title_sim_edit">Editar SIM</string>  
+    <string name="oobe_summary_sim_edit">Edite as informações do SIM de acordo com as suas preferências. Pode alterar o nome e a cor do SIM, bem como o número de telefone.</string>  
+    <string name="oobe_waiting_sim">A aguardar pela iniciação do cartão SIM…</string>  
+    <string name="oobe_advance_settings_end_name">Última mensagem</string>  
+    <string name="oobe_contact_import_null_cursor">A pesquisa foi concluída mas foi obtido um cursor nulo. O processo de importação falhou!</string> 
+    <string name="oobe_title_timezone">Seleccionar fuso horário</string>  
+    <string name="gps_time_sync_attention_gps_on">A aquisição do sinal de GPS irá demorar no máximo 1 minuto. Além disso, o GPS poderá não fornecer os dados de hora devido à fraca intensidade do sinal.\n\nDeseja realmente utilizar a hora fornecida por GPS?</string>  
+    <string name="gps_time_sync_attention_gps_off">Para utilizar a hora fornecida por GPS, deverá activar primeiro o GPS. A aquisição do sinal de GPS irá demorar no máximo 1 minuto. Além disso, o GPS poderá não fornecer os dados de hora devido à fraca intensidade do sinal.\n\nDeseja realmente activar o GPS agora e aguardar pela hora fornecida por GPS?</string>  
+    <string name="oobe_summary_timezone">Seleccione o seu fuso horário preferido</string>  
+    <string name="sync_account_summary_on">Sincronização automática activada</string>  
+    <string name="sync_account_summary_off">Sincronização automática desactivada</string>  
+    <string name="sync_account_title">Sincronizar conta automaticamente</string>  
+    <string name="wifi_setup_wizard_title">"Selecionar Wi-Fi"</string>  
+    <string name="wifi_menu_wps_pbc">"Botão WPS"</string>  
+    <string name="wifi_other_network">"Outra rede..."</string>  
+    <string name="wifi_setup_skip">Ignorar</string>  
+    <string name="wifi_setup_next">"Seguinte"</string>  
+    <string name="wifi_setup_back">Voltar</string>  
+    <string name="wifi_empty_list_wifi_off">Para ver as redes dispon., active a lig. Wi-Fi.</string>  
+    <string name="wifi_empty_list_wifi_on">"A pesquisar redes Wi-Fi..."</string> 
+
+      <string name="import_contact_already">Já está a importar. Tente mais tarde.</string>
+</resources>

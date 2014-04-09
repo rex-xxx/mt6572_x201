@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <skip/>  
+    <string-array name="wifi_status"> 
+        <item>검색하는 중\u2026</item>  
+        <item>연결하는 중\u2026</item>  
+        <item>인증하는 중\u2026</item>  
+        <item>IP주소를 획득하는 중\u2026</item>  
+        <item>연결됨</item>  
+        <item>보류됨</item>  
+        <item>연결을 끊는 중\u2026</item>  
+        <item>연결이 끊김</item>  
+        <item>실패</item>  
+        <item>Unsuccessful</item> 
+    </string-array>  
+    <skip/>  
+    <string-array name="wifi_status_with_ssid"> 
+        <item>검색하는 중\u2026</item>  
+        <item> 
+            <xliff:g id="network_name">%1$s</xliff:g>에 연결하는 중\u2026
+        </item>  
+        <item> 
+            <xliff:g id="network_name">%1$s</xliff:g>에서 인증하는 중\u2026
+        </item>  
+        <item> 
+            <xliff:g id="network_name">%1$s</xliff:g>에서 IP 주소를 획득하는 중\u2026
+        </item>  
+        <item> 
+            <xliff:g id="network_name">%1$s</xliff:g>에 연결됨
+        </item>  
+        <item>보류됨</item>  
+        <item> 
+            <xliff:g id="network_name">%1$s</xliff:g>의 연결을 끊는 중\u2026
+        </item>  
+        <item>연결이 끊김</item>  
+        <item>실패</item>  
+        <item>Unsuccessful</item> 
+    </string-array>  
+    <string-array name="wifi_signal"> 
+        <item>약함</item>  
+        <item>보통</item>  
+        <item>강함</item>  
+        <item>아주 강함</item> 
+    </string-array>  
+    <string-array name="wifi_sleep_policy_entries"> 
+        <item>화면이 꺼진 경우</item>  
+        <item>연결된 경우 사용 안 함</item>  
+        <item>사용 안 함</item> 
+    </string-array>  
+
+    <string-array name="wifi_connect_type_entries"> 
+        <item>자동 연결</item>  
+        <item>수동 연결</item>  
+        <item>언제나 묻기</item> 
+    </string-array>  
+    <string-array name="wifi_frequency_band_entries"> 
+        <item>자동</item>  
+        <item>5 GHz 전용</item>  
+        <item>2.4 GHz 전용</item> 
+    </string-array>  
+    <string-array name="wifi_sleep_policy_entries_wifi_only"> 
+        <item>항상</item>  
+        <item>연결된 경우만</item>  
+        <item>사용 안함</item> 
+    </string-array>  
+    <string-array name="wifi_ip_settings"> 
+        <item>정적</item>  
+        <item>Static</item> 
+    </string-array>  
+    <string-array name="wifi_proxy_settings"> 
+        <item>없음</item>  
+        <item>수동</item> 
+    </string-array>  
+
+    <string-array name="auto_time_entries"> 
+        <item>네트워크 제공 시간 사용</item>  
+        <item>GPS 제공 시간 사용</item>  
+        <item>꺼짐</item> 
+    </string-array> 
+    <string-array name="wifi_WEP_security_type"> 
+        <item>자동</item>  
+        <item>WEP ASCII</item>
+        <item>WEP 16진수</item>  
+    </string-array>  
+</resources>

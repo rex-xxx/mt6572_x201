@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="gemini_sim_info_title">ព័ត៌មាន SIM</string>  
+    <string name="gemini_default_sim_title">SIM សិតពីរោងចក្រ</string>  
+    <string name="gemini_general_settings_title">ការសិតទូទៅ</string>  
+    <string name="gemini_roaming_settings_title">រ៉ូមិង</string>  
+    <string name="gemini_contacts_sim_title">"លេខទំនាក់ទំនង &amp; SIM"</string>  
+    <string name="gemini_contacts_sim_summary">ភ្ជាប់លេខទំនាក់ទំនងជាមួយនឹង SIM ជាក់លាក់ណាមួយ</string>  
+    <string name="gemini_voice_call">ការហៅជាសម្លេង</string>  
+    <string name="gemini_video_call">ការហៅជាវីដេអូ</string>  
+    <string name="gemini_data_connection">ការតភ្ជាប់ទិន្នន័យ</string>  
+    <string name="gemini_msg">ការផ្ញើសារ</string>  
+    <string name="gemini_default_sim_always_ask">ជានិច្ចកាលត្រូវសួរ</string>  
+    <string name="gemini_intenet_call">ការហៅតាមអ៊ិនធឺណិត</string>  
+    <string name="gemini_default_sim_never">បិទ</string>  
+    <string name="gemini_default_sim_3g_off">បិទ</string>  
+    <string name="gemini_gsm_umts_network_preferences_title">ម៉ូដបណ្តាញ</string>  
+    <string name="gemini_sim_mode_progress_activating_message">កំពុងធ្វើឲ្យសកម្ម\u2026</string>  
+    <string name="gemini_sim_mode_progress_deactivating_message">កំពុងធ្វើឲ្យអសកម្ម\u2026</string>  
+    <string name="gemini_3g_indic" translatable="false">3G</string>  
+    <string name="gemini_sim_info_editor_name">កែសម្រួលឈ្មោះ SIM</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">បរាជ័យក្នុងការរក្សាទុក</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">ចម្លងឈ្មោះឲ្យដូច សម្រាប់ SIM កាត</string>  
+    <string name="gemini_sim_info_editor_number">បញ្ចូលលេខទូរស័ព្ទ</string>  
+    <string name="gemini_sim_info_editor_color">សិតពណ៌ផ្ទៃខាងក្រោយ</string>  
+    <string name="gemini_sim_info_editor_number_display_format">បង្ហាញលេខ</string>  
+    <string name="gemini_no_sim_indicator">មិនមាន SIM កាត</string>  
+    <string name="gemini_data_connection_progress_message">"សូមរង់ចាំ ..."</string>  
+    <string name="gemini_3g_modem_switching_message">"ប្តូរ SIM នឹងត្រូវចំណាយពេលប្រហែល 10 វិនាទីដើម្បីបញ្ចប់ ។ សូមរង់ចាំ ..."</string>  
+    <string name="gemini_3g_modem_switch_confirm_message">"នេះក៏នឹងប្តូរសេវាកម្ម 3G មកកាន់ SIM នេះផងដែរ ។ ចង់បន្តទេ? សូមមេត្តាប្រាកដផងដែរថា SIM ដែឡអ្នកជ្រើសយកនេះ អាចប្រើបានជាមួយនឹងសេវាកម្ម 3G ដែរ ។"</string>  
+    <string name="apn_not_set">មិនបានសិត</string>  
+    <string name="gemini_3g_disable_warning_case0">"អ្នកត្រូវតែធ្វើឲ្យការរ៉ូមិងទិន្នន័យសកម្ម សម្រាប់ SIM នេះជាមុនសិន ដែលអ្នកអាចត្រូវចំណាយប្រាក់ថ្លៃរ៉ូមិង! តើអ្នកពិតជាចង់ធ្វើឲ្យរ៉ូមិងទិន្នន័យសកម្ម ហើតជ្រើសយក SIM នេះមែនទេ?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"សេវាកម្ម 3G មិនមានទេចំពោះ SIM ដែលអ្នកបានជ្រើសរើស ។ សកម្មភាពនេះ អាចនាំឲ្យមានការឡូតទិន្នន័យយឺត ។ អ្នកអាចប្តូរការសិតសេវាកម្ម 3G ក្រោមពាក្យ ការសិត &gt; គ្មានខ្សែ &amp; បណ្តាញ &gt; បណ្តាញចល័ត ។ តើអ្នកពិតជាចង់ជ្រើសរើស SIM នេះមែនទេ?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"សេវាកម្ម 3G មិនមានទេចំពោះ SIM ដែលអ្នកបានជ្រើសរើស ។ សកម្មភាពនេះ អាចនាំឲ្យមានការឡូតទិន្នន័យយឺត ។ អ្នកអាចប្តូរការសិតសេវាកម្ម 3G ក្រោមពាក្យ ការសិត &gt; ការចាត់ចែង SIM ។ តើអ្នកពិតជាចង់ជ្រើសរើស SIM នេះមែនទេ?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"អ្នកត្រូវតែធ្វើឲ្យការរ៉ូមិងទិន្នន័យសកម្ម សម្រាប់ SIM នេះជាមុនសិន ដែលអ្នកអាចត្រូវចំណាយប្រាក់ថ្លៃរ៉ូមិង! តែនៅក្នុង SIM នេះមិនមានសេវាកម្ម 3G ទេ ។ សកម្មភាពនេះ អាចនាំឲ្យមានការឡូតទិន្នន័យយឺត ។ អ្នកអាចប្តូរវាក្រោមពាក្យ ការសិត &gt; គ្មានខ្សែ &amp; បណ្តាញ &gt; បណ្តាញចល័ត ។ តើអ្នកពិតជាចង់ធ្វើឲ្យការរ៉ូមិងទិន្នន័យសកម្ម ហើយជ្រើសរើស SIM នេះមែនទេ?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"អ្នកត្រូវតែធ្វើឲ្យការរ៉ូមិងទិន្នន័យសកម្ម សម្រាប់ SIM នេះជាមុនសិន ដែលអ្នកអាចត្រូវចំណាយប្រាក់ថ្លៃរ៉ូមិង! តែនៅក្នុង SIM នេះមិនមានសេវាកម្ម 3G ទេ ។ សកម្មភាពនេះ អាចនាំឲ្យមានការឡូតទិន្នន័យយឺត ។ អ្នកអាចប្តូរវាក្រោមពាក្យ ការសិត &gt; ការចាត់ចែង SIM ។ តើអ្នកពិតជាចង់ធ្វើឲ្យការរ៉ូមិងទិន្នន័យសកម្ម ហើយជ្រើសរើស SIM នេះមែនទេ?"</string> 
+</resources>

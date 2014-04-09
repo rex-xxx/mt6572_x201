@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="qsg_app_name">빠른 시작 설명서</string>  
+    <string name="skip_button">건너뛰기</string>  
+    <string name="ok_button">시작</string>  
+    <string name="qsg_title_begin">빠른 시작 설명서</string>  
+    <string name="qsg_summary_begin">이 빠른 시작 설명서에서는 4가지 유용한 팁을 제공하여 기본 제스처와 홈 화면 관리를 소개합니다.</string>  
+    <string name="next">"다음"</string>  
+    <string name="play_again">다시 재생</string>  
+    <string name="finish">마침</string>  
+    <string name="qsg_title2_home_screen">홈 화면 보기</string>  
+    <string name="qsg_summary2_home_screen">왼쪽 또는 오른쪽으로 스와이프하여 홈 화면의 다른 페이지를 봅니다.</string>  
+    <string name="qsg_title3_choose_widget">몇 가지 위젯 선택</string>  
+    <string name="qsg_summary3_choose_widget">홈 화면에 위젯을 추가하려면 위젯을 터치한 후 누르고 있으십시오.</string>  
+    <string name="qsg_title4_launch_page">상세 페이지 시작</string>  
+    <string name="qsg_summary4_launch_page">프로필 이미지를 탭핑하여 옵션의 상세 페이지가 팝업합니다.</string>  
+    <string name="qsg_title5_view_notification">알림 보기</string>  
+    <string name="qsg_summary5_view_notification">상태 표시줄을 누른 채로 아래로 밀어 모든 알림을 봅니다.</string>  
+    <string name="qsg_changesim_title">SIM 카드 전환</string>  
+    <string name="qsg_changesim_summary">상태 표시줄을 아래로 밀고 서비스 SIM 카드를 선택하여 작동합니다.</string>  
+    <string name="qsg_summary_end">빠른 시작 설명서에 제공된 모든 팁을 살펴보았습니다. \n\n원할 경우, "다시 재생" 버튼을 탭핑하여 이 설명서를 다시 볼 수 있습니다.\n\n또는 "마침" 버튼을 탭핑하여 새 장치를 작동할 수 있습니다.</string> 
+</resources>

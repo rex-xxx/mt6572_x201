@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="qsg_app_name">Panduan Mula Pantas</string>  
+    <!-- ============================ -->  
+    <!-- quick start guide strings -->  
+    <!-- ============================ -->  
+    <string name="skip_button">Langkau</string>  
+    <string name="ok_button">Mula</string>  
+    <string name="qsg_title_begin">Panduan Mula Pantas</string>  
+    <string name="qsg_summary_begin">Panduan Mula Pantas ini akan memberikan 4 petua berguna dan memperkenalkan anda kepada gerak isyarat asas dan pengurusan skrin utama.</string>  
+    <string name="next">Seterusnya</string>  
+    <string name="play_again">Main semula</string>  
+    <string name="finish">Selesai</string>  
+    <string name="qsg_title2_home_screen">Lihat Skrin utama</string>  
+    <string name="qsg_summary2_home_screen">Leret ke kiri atau kanan untuk melihat halaman Skrin utama lain.</string>  
+    <string name="qsg_title3_choose_widget">Pilih beberapa widget</string>  
+    <string name="qsg_summary3_choose_widget">Untuk menambah widget pada skrin utama anda, sentuh &amp; tahannya.</string>  
+    <string name="qsg_title4_launch_page">Lancarkan halaman butiran</string>  
+    <string name="qsg_summary4_launch_page">Ketik pada imej profil untuk menimbulkan halaman butiran untuk pilihan.</string>  
+    <string name="qsg_title5_view_notification">Lihat pemberitahuan</string>  
+    <string name="qsg_summary5_view_notification">Tahan bar status dan luncur ke bawah untuk melihat semua pemberitahuan.</string>  
+    <string name="qsg_changesim_title">Tukar kad SIM</string>  
+    <string name="qsg_changesim_summary">Luncur bar status ke bawah dan pilih kad SIM perkhidmatan untuk menggunakan.</string>  
+    <string name="qsg_summary_end">Anda telah melihat dan mempelajari semua petua yang disediakan dalam Panduan mula pantas. \n\nJika anda mahu, anda boleh mengetik pada butang "main semula" untuk melihat panduan ini semula.\n\nSebaliknya, anda boleh mengetik pada butang "Selesai" untuk menggunakan peranti baru anda.</string> 
+</resources>

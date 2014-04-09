@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="gemini_sim_info_title">SIM जानकारी</string>  
+    <string name="gemini_default_sim_title">डिफाल्ट SIM</string>  
+    <string name="gemini_general_settings_title">सामान्य सेटिंग्स</string>  
+    <string name="gemini_roaming_settings_title">रोमिंग</string>  
+    <string name="gemini_contacts_sim_title">"संपर्क और SIM"</string>  
+    <string name="gemini_contacts_sim_summary">एक विशिष्ट SIM के साथ संपर्क संबंधित करें</string>  
+    <string name="gemini_voice_call">ध्वनि कॉल</string>  
+    <string name="gemini_video_call">ध्वनि कॉल</string>  
+    <string name="gemini_data_connection">डेटा कनेक्शन</string>  
+    <string name="gemini_msg">संदेश</string>  
+    <string name="gemini_default_sim_always_ask">हमेशा पूछें</string>  
+    <string name="gemini_intenet_call">इंटरनेट कॉल</string>  
+    <string name="gemini_default_sim_never">ऑफ</string>  
+    <string name="gemini_default_sim_3g_off">बंद करें</string>  
+    <string name="gemini_sim_info_editor_name">SIM नाम को संपादन करें</string>  
+    <string name="gemini_sim_info_editor_number">फ़ोन नंबर दर्ज करें</string>  
+    <string name="gemini_sim_info_editor_color">पृष्ठभूमि का रंग सेट करें</string>  
+    <string name="gemini_sim_info_editor_number_display_format">नंबर प्रदर्शित करें</string>  
+    <string name="gemini_no_sim_indicator">कोई SIM कार्ड नहीं है</string>  
+    <string name="gemini_data_connection_progress_message">"कृपया प्रतीक्षा करें..."</string>  
+    <string name="gemini_3g_modem_switching_message">"SIM स्विचिंग पूरा करने में करीब 10 सेकंड लगेंगे. कृपया प्रतिक्षा करें... "</string>  
+    <string name="gemini_3g_modem_switch_confirm_message">"यह इस SIM पर 3G सेवा भी स्विच कर देगा. जारी रखें? कृपया यह भी सुनिश्चित करें कि यह चुना हुआ SIM 3G सेवा को समर्थित करता है."</string>  
+    <string name="gemini_gsm_umts_network_preferences_title">नेटवर्क मोड</string>  
+    <string name="gemini_sim_mode_progress_activating_message">सक्रिय कर रहा है...</string>  
+    <string name="gemini_sim_mode_progress_deactivating_message">निष्क्रिय कर रहा है...</string>  
+    <string name="apn_not_set">"सेट नहीं है"</string>  
+    <string name="gemini_3g_disable_warning_case0">"पहले आपको इस सिम के लिए डेटा रोमिंग सक्षम करना पड़ेगा जिसके कारण रोमिंग शुल्क उल्लेखनीय रूप से बढ़ सकता है! क्या आप सचमुच डेटा रोमिंग सक्षम करना चाहते हैं और इस सिम को चुनना चाहते हैं।"</string>  
+    <string name="gemini_3g_disable_warning_case1">"3G सेवा इस चयनित सिम के साथ उपलब्ध नहीं है। यह डेटा को संभवतः धीरे-धीरे लोड करेगा। आप सेटिंग्स &gt; वायरलेस एंड नेटवर्क &gt; मोबाइल नेटवर्क के अंतर्गत 3G सेवा सेटिंग परिवर्तित कर सकते हैं। क्या आप वाकई इस सिम को चुनना चाहते हैं?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"3G सेवा इस चयनित सिम के साथ उपलब्ध नहीं है। यह डेटा को संभवतः धीरे-धीरे लोड करेगा। आप सेटिंग्स &gt; सिम प्रबंधन के अंतर्गत 3G सेवा सेटिंग परिवर्तित कर सकते हैं। क्या आप वाकई इस सिम को चुनना चाहते हैं?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"आपको पहले इस सिम के लिए डेटा रोमिंग सक्षम करना होगा जिससे संभवतः अधिक रोमिंग शुल्क लग सकता है! इसके अतिरिक्त, 3G सेवा इस सिम के साथ उपलब्ध नहीं है। यह डेटा को संभवतः धीरे-धीरे लोड करेगा। आप सेटिंग्स &gt; वायरलेस एंड नेटवर्क &gt; मोबाइल नेटवर्क के अंतर्गगत इसे बदल सकते हैं। क्या आप वाकई डेटा रोमिंग सक्षम करना चाहते हैं और इस सिम को चुनना चाहते हैं?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"आपको पहले इस सिम के लिए डेटा रोमिंग सक्षम करना होगा जिससे संभवतः अधिक रोमिंग शुल्क लग सकता है! इसके अतिरिक्त, 3G सेवा इस सिम के साथ उपलब्ध नहीं है। यह डेटा को संभवतः धीरे-धीरे लोड करेगा। आप सेटिंग्स &gt; सिम प्रबंधन के अंतर्गत इसे परिवर्तित कर सकते हैं। क्या आप वाकई डेटा रोमिंग सक्षम करना चाहते हैं और इस सिम को चुनना चाहते हैं?"</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">सहेजना असफल</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">सिम कार्ड के लिए डुप्लिकेट नाम</string> 
+</resources>

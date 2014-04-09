@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="date_and_time">ការសិតកាលបរិច្ឆេទ &amp; ម៉ោង</string>  
+    <string name="date_time_12_hour_sample">1:00 PM</string>  
+    <string name="choose_timezone">ជ្រើសរើសល្វែងម៉ោង</string>  
+    <string name="default_date_format" translatable="false"> 
+        <xliff:g id="default_date_format">MM/dd/yyyy</xliff:g> 
+    </string>  
+    <string name="normal_date_format">ធម្មតា ( 
+        <xliff:g id="date" example="12-31-2009">%s</xliff:g>)
+    </string>  
+    <string name="date_time_auto">ស្វ័យប្រវត្តិជាមួយបណ្តាញ</string>  
+    <string name="zone_auto">ល្វែងម៉ោងស្វ័យប្រវត្តិ</string>  
+    <string name="zone_auto_summaryOn">ប្រើល្វែងម៉ោងដែលផ្តល់ដោយបណ្តាញ</string>  
+    <string name="zone_auto_summaryOff">ប្រើល្វែងម៉ោងដែលផ្តល់ដោយបណ្តាញ</string>  
+    <string name="date_time_24hour">ទ្រង់ទ្រាយម៉ោង 24 ម៉ោង</string>  
+    <string name="date_time_set_time">សិតម៉ោង</string>  
+    <string name="date_time_set_timezone">ជ្រើសរើសល្វែងម៉ោង</string>  
+    <string name="date_time_set_date">សិតកាលបរិច្ឆេទ</string>  
+    <string name="date_time_date_format">ជ្រើសរើសទ្រង់ទ្រាយកាលបរិច្ឆេទ</string>  
+    <string name="zone_list_menu_sort_alphabetically">រៀបតាមលំដាប់អក្ខរក្រម</string>  
+    <string name="zone_list_menu_sort_by_timezone">រៀបតាមល្វែងម៉ោង</string>  
+    <string name="date_time_24_hour_sample" translatable="false">13:00</string> 
+</resources>

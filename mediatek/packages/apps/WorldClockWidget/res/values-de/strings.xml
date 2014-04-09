@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Weltuhr</string> 
+    <string name="a_city_selected">Eine Stadt ausgewählt.</string>
+    <string name="search_city">Stadt suchen</string>
+    <string name="another_city_text">Hinzufügen</string>
+    <string name="next">"Weiter"</string>
+    <string name="select_right_city">Entschuldigung, Stadt existiert nicht.</string>
+    <string name="current_time_text">Aktuell</string>
+    <string name="ime_action_done">Fertig</string>
+    <string name="clock_loading">Wird geladen\u2026</string>
+	<string name="add_new_city">Neue Stadt hinzufügen</string>  
+    <string name="delete_city">Stadt löschen</string>  
+    <string name="delete_city_info">Die Stadt wird gelöscht</string>  
+    <string name="deleteok">"Löschen"</string>  
+    <string name="cancel">"Ablehnen"</string>
+	<string name="add_city">Zum Hinzufügen einer neuen Stadt Symbol drücken</string>     
+    <string name="has_chosen">wurden ausgewählt.</string>
+</resources>
+

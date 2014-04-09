@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="gemini_sim_info_title">פרטי SIM</string>  
+    <string name="gemini_default_sim_title">SIM של ברירת מחדל</string>  
+    <string name="gemini_general_settings_title">הגדרות כלליות</string>  
+    <string name="gemini_roaming_settings_title">נדידה</string>  
+    <string name="gemini_contacts_sim_title">"אנשי קשר ו-SIM"</string>  
+    <string name="gemini_contacts_sim_summary">קשר אנשי קשר ל-SIM ספציפי</string>  
+    <string name="gemini_voice_call">שיחה קולית</string>  
+    <string name="gemini_video_call">שיחת וידאו</string>  
+    <string name="gemini_data_connection">חיבור נתונים</string>  
+    <string name="gemini_msg">שליחת הודעות</string>  
+    <string name="gemini_default_sim_always_ask">שאל תמיד</string>  
+    <string name="gemini_intenet_call">שיחת אינטרנט</string>  
+    <string name="gemini_default_sim_never">כבוי</string>  
+    <string name="gemini_default_sim_3g_off">כבוי</string>  
+    <string name="gemini_gsm_umts_network_preferences_title">מצב רשת</string>  
+    <string name="gemini_sim_mode_progress_activating_message">מפעיל\u2026</string>  
+    <string name="gemini_sim_mode_progress_deactivating_message">מנטרל\u2026</string>  
+    <string name="gemini_3g_indic" translatable="false">3G</string>  
+    <string name="gemini_sim_info_editor_name">ערוך שם SIM</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">השמירה נכשלה</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">שם כפול לכרטיס SIM</string>  
+    <string name="gemini_sim_info_editor_number">‏הזן מספר טלפון</string>  
+    <string name="gemini_sim_info_editor_color">קבע כצבע רקע</string>  
+    <string name="gemini_sim_info_editor_number_display_format">הצג מספרים</string>  
+    <string name="gemini_no_sim_indicator">אין כרטיס SIM</string>  
+    <string name="gemini_data_connection_progress_message">"נא להמתין..."</string>  
+    <string name="gemini_3g_modem_switching_message">"החלפת SIM תימשך בערך 10 שניות. המתן..."</string>  
+    <string name="gemini_3g_modem_switch_confirm_message">"פעולה זו תעביר גם שירות 3G ל-SIM זה. להמשיך? ודא גם שה-SIM שנבחר תומך בשירות 3G."</string>  
+    <string name="apn_not_set">לא נקבע</string>  
+    <string name="gemini_3g_disable_warning_case0">"תחילה עליך לאפשר נדידת נתונים ב-SIM זה, והדבר עלול לגרום לחיובים גבוהים בנדידה! האם אתה בטוח שברצונך לאפשר נדידת נתונים ולבחור בכרטיס SIM זה?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"שירות 3G אינו זמין עבור כרטיס ה-SIM שנבחר. ייתכן שהנתונים ייטענו לאט יותר. תוכל לשנות את הגדרות שירות 3G בהגדרות &gt; רשתות ואלחוטי &gt; רשתות סלולריות. האם אתה בטוח שברצונך לבחור בכרטיס SIM זה?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"שירות 3G אינו זמין עבור כרטיס ה-SIM שנבחר. ייתכן שהנתונים ייטענו לאט יותר. תוכל לשנות את הגדרות שירות 3G בהגדרות &gt; ניהול SIM. האם אתה בטוח שברצונך לבחור בכרטיס SIM זה?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"תחילה עליך לאפשר נדידת נתונים ב-SIM זה, והדבר עלול לגרום לחיובים גבוהים בנדידה! בנוסף, שירות 3G אינו זמין עבור כרטיס SIM זה. ייתכן שהנתונים ייטענו לאט יותר. תוכל לשנות זאת בהגדרות &gt; רשתות ואלחוטי &gt; רשתות סלולריות. האם אתה בטוח שברצונך לאפשר נדידת נתונים ולבחור בכרטיס SIM זה?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"תחילה עליך לאפשר נדידת נתונים ב-SIM זה, והדבר עלול לגרום לחיובים גבוהים בנדידה! בנוסף, שירות 3G אינו זמין עבור כרטיס SIM זה. ייתכן שהנתונים ייטענו לאט יותר. תוכל לשנות זאת בהגדרות &gt; ניהול SIM. האם אתה בטוח שברצונך לאפשר נדידת נתונים ולבחור בכרטיס SIM זה?"</string> 
+</resources>

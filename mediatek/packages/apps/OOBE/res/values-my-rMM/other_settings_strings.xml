@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="date_and_time">ရက်စွဲ နှင့် အချိန် ဆက်တင်များ</string>  
+    <string name="date_time_12_hour_sample">ညနေ ၁:၀၀</string>  
+    <string name="choose_timezone">အချိန်ဇုန်ကို ရွေးချယ်ပါ</string>  
+    <string name="default_date_format" translatable="false"> 
+        <xliff:g id="default_date_format">MM/dd/yyyy</xliff:g> 
+    </string>  
+    <string name="normal_date_format">သာမန် ( 
+        <xliff:g id="date" example="12-31-2009">%s</xliff:g>)
+    </string>  
+    <string name="date_time_auto">ကွန်ယက်နှင့် အလိုအလျောက်</string>  
+    <string name="zone_auto">အချိန်ဇုန်နှင့် အလိုအလျောက်</string>  
+    <string name="zone_auto_summaryOn">ကွန်ယက်ကပေးသော အချိန်ဇုန်ကို အသုံးပြုရန်</string>  
+    <string name="zone_auto_summaryOff">ကွန်ယက်ကပေးသော အချိန်ဇုန်ကို အသုံးပြုရန်</string>  
+    <string name="date_time_24hour">၂၄ နာရီ ပုံစံကို အသုံးပြုရန်</string>  
+    <string name="date_time_set_time">အချိန်ကို သတ်မှတ်ရန်</string>  
+    <string name="date_time_set_timezone">အချိန်ဇုန်ကို သတ်မှတ်ရန်</string>  
+    <string name="date_time_set_date">ရက်စွဲကို သတ်မှတ်ရန်</string>  
+    <string name="date_time_date_format">ရက်စွဲ ပုံစံကို ရွေးချယ်ရန်</string>  
+    <string name="zone_list_menu_sort_alphabetically">အက္ခရာစဉ်လိုက် စီရန်</string>  
+    <string name="zone_list_menu_sort_by_timezone">အချိန်ဇုန်းအလိုက် စီရန်</string>  
+    <string name="date_time_24_hour_sample" translatable="false">13:00</string> 
+</resources>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<!-- MBBMS 3.0  BEGIN-->
+
+<!-- UPGRADE -->
+<string name="non_force_upgrade">"检测到新版本手机电视客户端。立即升级？（取消后可到设置中升级）"</string>
+<string name="force_upgrade">"为保证您的使用，手机电视客户端需要升级才能正常使用。"</string>
+<string name="area_warn">"\t无法观看，原因可能为：\n
+\t1、您所在位置无广播电视信号或广播电视信号弱,请尝试拔出天线再试；\n
+\t2、您收到的为%1$s的节目单，如您不在%1$s， 请%2$s。"</string>
+<string name="click_and_modify">"点击此更改"</string>
+<string name="upgrade_failed">更新客户端失败!</string>
+<string name="upgrade_is_ongoing">"正在更新,可进入设置/增强售后服务中取消!"</string>
+<string name="unknown_location">未知地区</string>
+<!-- UPGRADE -->
+<!-- IMD -->
+<string name="downloading">下载中\u2026</string>
+<string name="download_sdcard_busy_dlg_msg" product="nosdcard">"USB 存储设备正忙。要允许下载，请在通知中选择“关闭 USB 存储设备”。"</string>
+<string name="download_sdcard_busy_dlg_msg" product="default">"SD 卡正忙。要允许下载，请在通知中选择“关闭 USB 存储设备”。"</string>
+<string name="download_sdcard_busy_dlg_title" product="nosdcard">"不存在 USB 存储设备"</string>
+<string name="download_sdcard_busy_dlg_title" product="default">"SD 卡不可用"</string>
+<string name="download_no_sdcard_dlg_msg" product="nosdcard">"必须装载 USB 存储设备才能下载“<xliff:g id="FILENAME">%s</xliff:g>”。"</string>
+<string name="download_no_sdcard_dlg_msg" product="default">"需要有 SD 卡才能下载<xliff:g id="FILENAME">%s</xliff:g>。"</string>	
+<string name="download_no_sdcard_dlg_title" product="nosdcard">"不存在 USB 存储设备"</string>
+<string name="download_no_sdcard_dlg_title" product="default">"无 SD 卡"</string>   
+<string name="imd_amount">互动信息</string>
+<!-- IMD -->
+<!-- MBBMS 3.0  END-->
+
+<string name="search">"搜索"</string>
+<string name="search_title">"手机电视"</string>
+<string name="search_hint">"搜索套餐"</string>
+<string name="search_settings_description">"搜索包含当前频道或节目的套餐。"</string>
+<string name="unsubscribe_all_tip">"退订所有套餐?"</string>
+<string name="unsubscribe_all">"退订所有"</string>
+<string name="unsubscribe_all_success">"已退订所有套餐，欢迎再次订购。"</string>
+<string name="package_include_programs">"套餐包含节目："</string>
+<string name="select_all">"全选"</string>
+<string name="display_ordered">"下一步"</string>
+<string name="content_list">"节目订购"</string>
+<string name="no_unsubscribed_content">"没有未订购的节目"</string>
+<string name="money_order_times">"资费：%1$.2f￥/%2$d次"</string>
+<string name="fail_subscribe_for_end_program">"订购失败，套餐%1$s已经过期。"</string>
+<string name="fail_unsubscribe_for_program_has_begun">"退订失败，套餐%1$s已经生效。"</string>
+<string name="search_empty">"未找到符合条件的套餐。"</string>
+
+<!-- common -->
+<string name="mobile_tv">手机电视</string>
+<string name="package_management">"套餐管理"</string>
+<string name="emergency_broadcast">"紧急广播"</string>
+<string name="setting">"设置"</string>
+<string name="help">帮助</string>
+<string name="quit">退出</string>
+<!-- common -->
+
+<!-- setting -->
+<string name="apn">"接入点名称（APN）"</string>
+<string name="sg_server_host">"业务指南服务器域名"</string>
+<string name="sg_server_port">"业务指南服务器端口"</string>
+<string name="wap_host">"WAP网关地址"</string>
+<string name="wap_port">"WAP网关端口"</string>
+<string name="restore">"恢复默认设置"</string>
+<string name="restore_warning">"此操作会帮您返回到最初的默认设置，同时擦除您所有的自定义设置，确定执行本操作？"</string>
+<string name="invalid_value">"无效值"</string>
+<string name="invalid_apn">"无效APN"</string>
+<string name="invalid_input">"输入无效，请重新输入。"</string>
+<!-- setting -->
+
+<!-- help -->
+<string name="help_info">"\t手机电视业务由国家广电总局所属中广传播公司与中国移动联合推出，可以实时收看多套电视节目。收看效果清晰流畅，无需流量费。\b
+\t详情可拨打10086或4006005577进行咨询。\n
+\t初次使用手机电视\b
+\t订购套餐可享受精彩频道。\n
+\t紧急广播\b
+\t紧急广播是一种利用广播通信系统向公众通告紧急事件的方式。"</string>
+<!-- help -->
+
+<!--emergency broadcast  -->
+<string name="delete_all">"删除全部"</string>
+<string name="delete">"删除"</string>
+<string name="ebm_no_list">"没有紧急广播内容"</string>
+<string name="ebm_level">"紧急广播%d级"</string>
+<!--emergency broadcast  -->
+
+<!--PurchaseItem management-->
+<string name="subscribed_package">"已订购套餐"</string>
+<string name="unsubscribed_package">"未订购套餐"</string>
+<string name="subscribe_suffix">"(已订)"</string>
+<string name="unsubscribe_suffix">"(未订)"</string>
+<string name="period_order_one_month">"时间：包月"</string>
+<string name="period_order_multi_month">"套餐有效时间：%d个月"</string>
+<string name="money_order_one_month">"资费：%.2f元/月"</string>
+<string name="money_order_multi_month">"总资费：%.2f元"</string>
+<string name="package_include_channels">"该套餐包含下列频道："</string>
+<string name="no_local_tip">"您只能收看当前地区的套餐，异地套餐需在套餐所属地区观看"</string>
+<string name="subscribe">"订购"</string>
+<string name="unsubscribe">"退订"</string>
+<string name="subscribe_tip">"是否订购 %s ？ "</string>
+<string name="unsubscribe_tip">"是否退订 %s ？"</string>
+<string name="is_subscribing">"订购中，请稍候。"</string>
+<string name="is_unsubscribing">"退订中，请稍候。"</string>
+<string name="unsubscribe_success">"已退订 %s ，欢迎再次订购。"</string>
+<string name="subscribe_success">"已订购 %s 套餐。"</string>
+<string name="subscribe_fail">"处理错误，请稍后再试。"</string>
+<string name="unsubscribe_fail">"处理错误，请稍后再试。"</string>
+<string name="no_unsubscribed_package">"没有未订购的套餐"</string>
+<string name="no_subscribed_package">"没有已订购的套餐"</string>
+<string name="query_account_info_ongoing">"正在更新..."</string>
+<string name="query_account_info_fail">"更新已订购套餐信息失败！"</string>
+<string name="query_account_info_success">"套餐信息更新成功！"</string>
+<string name="money_unknown">"未知类型费用：%.2f￥"</string>
+<string name="period_unknown">"未知订购周期"</string>
+<string name="period_order_times">"有效次数：%d"</string>
+<!--PurchaseItem management-->
+
+<!-- play bill -->
+<string name="channels">"频道"</string>
+<string name="date">"日期"</string>
+<string name="today">"今天"</string>
+<string name="tomorrow">"明天"</string>
+<string name="day_after_tomorrow">"后天"</string>
+<string name="play_history">"历史播放"</string>
+<string name="play_now">"正在播放"</string>
+<string name="play_later">"稍后播放"</string>
+<string name="no_content">"无该频道相关的节目信息！"</string>
+<string name="content_no_detail">"暂无简介"</string>
+<string name="no_more_date">"抱歉，没有可选择的日期！"</string>
+<string name="content_passed">"节目已过期，正在播放该频道其他节目。"</string>
+<string name="content_non_arrival">"节目时间未到，正在播放该频道其他节目。"</string>
+<string name="period_format">"%1$02d:%2$02d - %3$02d:%4$02d"</string>
+<!-- play bill -->
+
+<!--Main Screen related resources begin-->
+<string name="main_all_channels">全部频道</string>
+<string name="main_favourite_channels">收藏频道</string>
+<string name="favourite_added">已收藏%1$s。</string>
+<string name="favourite_removed">已取消%1$s的收藏。</string>
+<string name="quit_confirm">您确定退出吗？ </string>
+<string name="datacon_hint">为正常收看电视，数据连接已打开，退出将恢复关闭状态</string>
+<!--Main Screen related resources end-->
+
+<!-- Player related resources begin-->
+<string name="saved_to">截图%1$s已保存到%2$s文件夹。</string>
+<string name="not_support_snap">请播放节目后再保存截图.</string>
+<string name="please_wait">请稍候\u2026</string>
+<string name="signal_none">电视信号弱，无法播放节目。（1001）</string>
+<string name="signal_weak_stop_internal">您所在的区域广播电视信号弱，无法播放节目（1001）</string>    
+<string name="signal_recover">电视信号已恢复!</string>    
+<string name="open_channel_fail">连接失败，请稍候再试。</string>
+<string name="capture_fail">截取视频失败!</string>    
+<string name="no_storage">请插入SD卡。</string>  
+<string name="spaceIsLow_content">SD卡空间已快用完。</string>	
+<string name="refresh">刷新</string>
+<string name="program_list">节目单</string>    
+<string name="loading">正在载入\u2026</string>
+<string name="channel_unavailable_now">%s频道为加密频道，无法观看。</string>
+<string name="channel_unavailable_now2">该频道为加密频道，无法播放。</string>
+<string name="need_subscription_hint">尚未订购包含%s频道的收视套餐，无法观看。是否进入套餐管理进行订购？</string>
+<string name="need_subscription_hint2">该频道所属套餐尚未订购，无法播放。</string>	
+<string name="no_channel_available">暂无频道。</string>
+<string name="no_favorite_channel">暂无收藏频道。</string>
+<string name="unknown">未知</string>
+<string name="dlg_10_no_sim">终端未插入SIM/USIM卡，终端将通过广播网络下载节目单。为获得更佳体验，请插入SIM/USIM卡。（5002）</string>
+<string name="dlg_10_not_connected">无移动网络信号，终端将通过广播网络下载节目单。为获得更佳体验，请移至移动信号较强的地区再试。</string>
+<string name="add_to_favorites">收藏</string>
+<string name="remove_from_favorites">取消收藏</string>
+<string name="input_city_hint">请输入您所在的城市名（不含空格及其他字符）。如果您所输入的城市名与您当前所在地不符，将无法正常收看。</string>
+<string name="auto_refresh_is_used">自动刷新模式会被使用。</string>
+<string name="auto_refresh">自动刷新</string>
+<string name="specify_location">指定城市刷新</string>
+<string name="gsm_signal_recover">移动信号已恢复，终端将通过移动网络下载节目单。是否下载？</string>
+<string name="read">阅读</string>
+<string name="ignore">忽略</string>
+<string name="failed_to_update_service">无法更新频道和节目列表，请稍后再试。（2001）</string>
+<string name="greeting">欢迎进入移动电视</string>
+<string name="_updating">" (正在更新\u2026)"</string>
+<string name="_unknown_state">" (未知状态)"</string>
+<string name="updating_sg_hint">请等待新频道和节目列表更新完成!</string>
+<string name="please_choose_refresh_type">请选择刷新方式</string>
+<string name="unsupported_channel">此频道内容不被支持。</string>
+<string name="audio_broadcast">音频广播</string>
+<string name="full_screen">全屏播放</string>
+<string name="exit_full_screen">退出全屏</string>
+<string name="cmcc_net_error">移动网络信号弱，获取订购信息失败，请稍候再试。</string>
+<string name="cmcc_net_error2">获取订购信息失败，请稍候再试。</string>
+<!-- Player related resources end-->
+
+<!-- 3.0 -->
+<string name="interactivity_arrival">"当互动到达时"</string>
+<string name="interactivity_auto_pop">"自动弹出互动内容"</string>
+<string name="user_location_info">"用户所在地信息"</string>
+<string name="select_user_location">"选择用户所在地"</string>
+<string name="check_location_automatically">"每次启动均自动检测地区"</string>
+<string name="check_location_manually">"手动设置地区（%1$s市）"</string>
+<string name="update_user_location">"正在更新所在地信息，请稍候..."</string>
+<string name="select_suggestion">"请选择您目前所在的地区，否则将无法观看，如无您所在地区，请选择“%1$s”"</string>
+<string name="select_province">"请选择您目前所在的地区，否则将无法观看"</string>
+<string name="select_city">"您已选择 [%s]，请继续选择您目前所在的地区，否则将无法观看"</string>
+<string name="select_county">"您已选择 [%1$s-%2$s]，请继续选择您目前所在的地区，否则将无法观看"</string>
+<string name="save_location">"记住此地区"</string>
+<string name="previous_step">"上一步"</string>
+<string name="unknow_location">"无法检测到您目前的位置。"</string>
+<string name="check_all_cities">"查看所有地区"</string>
+<string name="no_location">"无可选择的地区"</string>
+<string name="location_saved">"地点已保存"</string>
+<string name="update_client">"客户端更新"</string>
+<string name="check_new_version">"检测新版本"</string>
+<string name="network_settings">"网络连接设置"</string>
+<string name="has_new_version">"检测到新版本手机电视客户端。立即升级？"</string>
+<string name="no_new_version">"您的客户端为最新版本，无需升级。"</string>
+<string name="update_new_version">"正在获取新版本信息，请稍候..."</string>
+<string name="see_interactivity">"查看当前互动"</string>
+<string name="no_interactivity">"没有互动内容"</string>
+<string name="previous_row">"上一条"</string>
+<string name="next_row">"下一条"</string>
+<string name="goto_half">"转向半屏"</string>
+<string name="service_interactivity">"%1$s台互动内容"</string>
+<string name="interactivity_item">"互动%1$s"</string>
+<string name="error_check_upgrade">"获取新版本信息失败，未知错误！"</string>
+<string name="unknown_version">"未知版本信息！"</string>
+<string name="error_sync_location">"获取地区信息失败，未知错误！"</string>
+<string name="interactivity_detail">"互动详情"</string>
+<string name="update_sg_interactivity">"正在获取互动信息，请稍候..."</string>
+<string name="error_sync_interactivity">"获取互动信息失败，未知错误！"</string>
+<!-- 3.0 -->
+
+</resources>

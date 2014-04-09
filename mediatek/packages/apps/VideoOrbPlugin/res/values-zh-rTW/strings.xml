@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="plugin_name">Video Orb</string>
+    <string name="ok">"確定"</string>
+    <string name="cancel">"取消"</string>
+    <string name="plugin_description">觀賞最新的視訊，在鎖定的螢幕上播放</string>
+    <string name="transcoding_prompt">準備視訊中</string>
+    <string name="transcoding_prompt_description">Video Orb 需要一點時間來準備視訊，繼續？</string>
+    <string name="transcoding_progress_format" translatable="false">"%"</string>
+    <string name="transcoding_clip_format" translatable="false">"/"</string>
+    <string name="video_file_name_format" translatable="false">"_yyyyMMdd_HHmmss"</string>
+    <string name="toast_video_add_cancelled">"取消新增影片"</string>
+    <string name="toast_video_unsupported_resolution">"影片解析度過高，無法新增影片。"</string>
+    <string name="toast_low_storage" product="nosdcard">"您的 USB 儲存裝置已滿。"</string>
+    <string name="toast_low_storage" product="default">"SD 卡已滿。"</string>
+    <string name="toast_invalid_video">"不支援此影片格式。"</string>
+</resources>

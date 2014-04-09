@@ -1,0 +1,46 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<Preference android:key="settings_font" android:title="@string/settings_font"
+		android:persistent="false">
+		<intent android:action="android.intent.action.MAIN"
+			android:targetPackage="com.mediatek.engineermode"
+			android:targetClass="com.mediatek.engineermode.settingsfontsize.SettingsFontSize" />
+	</Preference>
+	
+	<Preference android:key="swla" android:title="@string/swla"
+		android:persistent="false">
+		<intent android:action="android.intent.action.MAIN"
+			android:targetPackage="com.mediatek.engineermode"
+			android:targetClass="com.mediatek.engineermode.swla.SwlaActivity" />
+	</Preference>
+
+
+	<Preference android:key="thermal" android:title="@string/thermal"
+		android:persistent="false">
+		<intent android:action="android.intent.action.MAIN"
+			android:targetPackage="com.mediatek.thermalmanager"
+			android:targetClass="com.mediatek.thermalmanager.MTKThermalManagerActivity" />
+	</Preference>
+	
+	<Preference android:key="ConfigureCheck" android:title="@string/configure_check"
+		android:persistent="false">
+		<intent android:action="android.intent.action.MAIN"
+		        android:targetPackage="com.mediatek.configurecheck"
+		        android:targetClass="com.mediatek.configurecheck.MainActivity" />
+	</Preference>
+	
+	<Preference android:key="ConfigureCheck2" android:title="@string/configure_check2"
+		android:persistent="false">
+		<intent android:action="android.intent.action.MAIN"
+		        android:targetPackage="com.mediatek.configurecheck2"
+		        android:targetClass="com.mediatek.configurecheck2.MainActivity" />
+	</Preference>
+	
+	<Preference android:key="system_update" android:title="@string/system_update"
+	    android:persistent="false">
+	    <intent android:action="com.mediatek.systemupdate.UPDATE_TYPE_OPTION"
+			android:targetPackage="com.mediatek.systemupdate"
+			android:targetClass="com.mediatek.systemupdate.UpdateOption" />
+	</Preference>
+
+</PreferenceScreen>

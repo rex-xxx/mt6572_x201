@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="confirm_radio_title">SIM désactivé</string>
+	<string name="confirm_radio_msg">
+		<xliff:g id="operator_name" example="CMCC">%1$s</xliff:g>
+		 "Le mode aéronautique est activé, souhaitez-vous le désactiver?"
+	</string>
+	<string name="confirm_radio_msg_single">SIM est maintenant désactivée. Souhaitez-vous activer cette carte SIM?</string>
+	<string name="confirm_pin_title">Verrouillage PIN</string>
+	<string name="confirm_pin_msg">"La carte SIM que vous êtes sur le point d'utiliser est verrouillée. Souhaitez-vous la déverrouiller?"</string>
+	<string name="confirm_simmelock_title">Verrouillage SIM ME</string>
+	<string name="confirm_simmelock_msg">"La fente SIM que vous êtes sur le point d'utiliser est verrouillée. Souhaitez-vous la déverrouiller?"</string>
+	<string name="confirm_fdn_title">FDN activée</string>
+	<string name="confirm_fdn_msg">La liste des numéros fixes est activée.</string>
+	<string name="confirm_roaming_title">Avertissement itinérance</string>
+	<string name="confirm_roaming_msg">"La carte SIM que vous vous apprêtez à utiliser est actuellement en itinérance. Aucune SIM locale n'est disponible. Continuer?"</string>
+	<string name="confirm_roaming_withPrefer_msg">"La carte SIM que vous vous apprêtez à utiliser est actuellement en itinérance. Souhaitez-vous continuer via la SIM locale?"</string>
+	<string name="confirm_roaming_lbutton">Continuer</string>
+	<string name="confirm_roaming_rbutton">Annuler</string>
+	<string name="confirm_roamingWithPrefer_lbutton">SIM locale</string>
+	<string name="confirm_roamingWithPrefer_rbutton">SIM itinérance</string>
+	<string name="confirm_radio_lbutton">Activer</string>
+	<string name="confirm_unlock_lbutton">Déverrouiller</string>
+	<string name="confirm_unlock_fail">Opération annulée</string>
+	<string name="confirm_turnon_radio_fail">Opération annulée</string>
+	<string name="confirm_permit_roaming_fail">"Vous avez annulé cette action d'itinérance SIM"</string>
+	<string name="confirm_sim_locked_message">"La scheda SIM è stata bloccata permanentemente"</string>
+	<string name="confirm_slot_locked_message">"La fente a été définitivement verrouillée."</string>
+	<string name="app_name">ServiceConnexionCellulaire</string>  
+	<string name="button_ok">Ok</string>  
+</resources>

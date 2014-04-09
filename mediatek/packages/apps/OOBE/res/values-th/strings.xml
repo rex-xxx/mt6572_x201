@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+
+    <!-- OOBE part begin -->  
+    <string name="app_name">OOBE</string>  
+    <string name="oobe_btn_text_next">ถัดไป</string>  
+    <string name="oobe_btn_text_back">กลับ</string>  
+    <string name="oobe_btn_text_finish">เสร็จ</string>  
+    <string name="oobe_btn_text_skip">ข้าม</string>  
+    <string name="oobe_btn_text_dismiss">ยกเลิก</string>  
+    <string name="oobe_title_language_setting">เลือกภาษา</string>  
+    <string name="oobe_summary_language_setting">เลือกภาษาโทรศัพท์ที่ต้องการ</string>  
+    <string name="oobe_title_keyboard_setting">เลือกแป้นพิมพ์</string>  
+    <string name="oobe_summary_keyboard_setting">เลือกแป้นพิมพ์ที่ต้องการ</string>  
+    <string name="oobe_title_import_contacts">นำเข้ารายชื่อจาก SIM</string>  
+    <string name="oobe_summary_import_contacts">คุณสามารถเลือกรายชื่อบางรายการของ SIM การ์ดหรือทั้งหมด เพื่อนำเข้าไปยังโทรศัพท์</string>  
+    <string name="oobe_title_internet_connection_setting">เลือกการเชื่อมต่ออินเทอร์เน็ต</string>  
+    <string name="oobe_summary_internet_connection">เลือกการเชื่อมต่ออินเทอร์เน็ตที่ต้องการ คุณสามารถเปลี่ยนตัวเลือกเหล่านี้ในภายหลังได้ตลอดเวลาใน การตั้งค่า</string>  
+    <string name="oobe_title_sim_management">จัดการ SIM</string>  
+    <string name="oobe_summary_sim_management">คุณสามารถแทปรายการ SIM การ์ดเพื่อแก้ไขข้อมูล โดยปกติ ชื่อผู้ให้บริการจะถูกใช้เป็นชื่อ SIM เริ่มต้น</string>  
+    <string name="oobe_title_default_sim">ตั้งค่า SIM เริ่มต้น</string>  
+    <string name="oobe_summary_default_sim">เลือก SIM ที่ต้องการตั้งเป็นค่าเริ่มต้นสำหรับบริการเหล่านี้</string>  
+    <string name="oobe_title_wifi_settings">ตั้งค่าเครือข่าย Wi-Fi</string>  
+    <string name="oobe_summary_wifi_settings">แทปเพื่อเลือกเครือข่าย Wi-Fi ที่ต้องการด้านล่าง</string>  
+    <string name="oobe_title_date_time">ตั้งค่าวันที่ &amp; เวลา</string>  
+    <string name="oobe_summary_date_time">แทปเพื่อเลือกรูปแบบวันที่ &amp; เวลา และตั้งค่าข้อมูล &amp; เวลาของคุณด้วยตัวเอง ถ้าจำเป็น</string>  
+    <string name="oobe_locale_switching">กำลังรอ...</string>  
+    <string name="oobe_ime_suggested">ที่แนะนำ</string>  
+    <string name="oobe_gemini_3g_indic">3G</string>  
+    <string name="oobe_internet_gprs_or_wifi_title">เครือข่ายมือถือหรือ Wi-Fi</string>  
+    <string name="oobe_internet_gprs_or_wifi_summary">เลือกการเชื่อมต่ออินเทอร์เน็ตที่ต้องการ คุณสามารถเปลี่ยนตัวเลือกเหล่านี้ในภายหลังได้เสมอใน การตั้งค่า</string>  
+    <string name="oobe_internet_wifi_only_title">Wi-Fi เท่านั้น</string>  
+    <string name="oobe_internet_wifi_only_summary">เลือกค่านี้ ถ้าคุณไม่มีแผนข้อมูล</string>  
+    <string name="oobe_btn_start_import_contacts">เริ่มนำเข้า</string>  
+    <string name="oobe_btn_cancel_import_contacts">ยกเลิก</string>  
+    <string name="oobe_note_import_contacts_prepare">โปรดรอสักครู่เพื่อคัดลอกรายชื่อ SIM</string>  
+    <string name="oobe_note_import_contacts_going">ขณะนี้ คุณสามารถดำเนินการยังขั้นถัดไป ในขณะที่อยู่ระหว่างการนำเข้าได้</string>  
+    <string name="oobe_note_import_contacts_finish">คัดลอกสมบูรณ์ คุณสามารถดำเนินการยังขั้นถัดไปได้</string>  
+    <string name="oobe_note_import_contacts_cancel">การนำเข้าถูกยกเลิก คุณสามารถข้ามไปยังขั้นถัดไป หรือเริ่มการนำเข้าอีกครั้ง</string>  
+    <string name="oobe_note_progress_copy_contacts">%1$d จาก %2$d รายชื่อ</string>  
+    <string name="oobe_note_copy_contacts_waiting">กำลังรอ...</string>  
+    <string name="basic_congratulation_title">ขอแสดงความยินดี!</string>  
+    <string name="basic_congratulation_summary">คุณได้ทำการตั้งค่าพื้นฐานทั้งหมดเสร็จแล้ว ขณะนี้คุณพร้อมที่จะเพลิดเพลินกับการใช้งานอุปกรณ์ชิ้นใหม่\n\nสามารถเปลี่ยนแปลงการตั้งค่าได้ทุกเวลาที่ Setup Wizard จาก App launcher</string>  
+    <string name="oobe_advance_settings_entrance_title">การตั้งค่าขั้นสูง</string>  
+    <string name="oobe_advance_settings_entrance_summary">ถ้าคุณมีบัญชี Google, บัญชีอีเมล หรือบัญชีเครือข่ายสังคมออนไลน์อื่นๆ อยู่แล้ว เราแนะนำให้คุณดำเนินการตั้งค่าขั้นสูง</string>  
+    <string name="oobe_sync_settings_name">การตั้งค่าการซิงค์</string>  
+    <string name="oobe_sync_settings_title">ซิงค์ตามกำหนดการ</string>  
+    <string name="oobe_sync_settings_summary">เลือกถ้าคุณต้องการเปิดทำงานบริการซิงค์ข้อมูล ถ้าคุณไม่มีแผนข้อมูลแบบไม่จำกัด การซิงค์ข้อมูลอาจเป็นผลให้เกิดค่าใช้จ่ายเพิ่มเติม</string>  
+    <string name="oobe_account_settings_name">การตั้งค่าบัญชี</string>  
+    <string name="oobe_account_settings_title">ตั้งค่าบัญชี</string>  
+    <string name="oobe_account_settings_summary">ในการซิงค์เมล รายชื่อ และเหตุการณ์ปฏิทิน คุณจำเป็นต้องแทป และตั้งค่าชนิดบัญชีต่อไปนี้อย่างน้อยหนึ่งอย่าง</string>  
+    <string name="oobe_account_list_title">บัญชี</string>  
+    <string name="oobe_sns_settings_name">บัญชี SNS</string>  
+    <string name="oobe_sns_settings_title">ตั้งค่าเครือข่ายสังคม</string>  
+    <string name="oobe_sns_settings_summary">ตั้งค่าเครือข่ายสังคมโปรดของคุณ และคุณจะสามารถส่งและรับอัพเดตในแอพพลิเคชั่นเครือข่ายสังคมได้</string>  
+    <string name="oobe_advance_settings_end_title">ขอแสดงความยินดี!</string>  
+    <string name="oobe_advance_settings_end_summary">คุณทำการตั้งค่าขั้นสูงทั้งหมดเสร็จแล้ว ขณะนี้คุณพร้อมที่จะสนุกสนานกับอุปกรณ์ใหม่ของคุณ\n\n คุณสามารถเปลี่ยนการตั้งค่าในตัวช่วยสร้างการตั้งค่า จากตัวเปิดแอพพ์ได้ตลอดเวลา</string>  
+    <string name="tap_to_add">แทปเพื่อเพิ่ม 
+        <xliff:g id="account" example="renren">%s</xliff:g> บัญชี
+    </string>  
+    <string name="oobe_import_contacts_sim_name">SIM การ์ด</string>  
+    <string name="oobe_title_wifi">Wi-Fi</string>  
+    <string name="lock_settings_picker_title">เลือกการล็อคหน้าจอ</string>  
+    <string name="add_network_string">เพิ่มเครือข่าย</string>  
+    <string name="oobe_title_sim_edit">แก้ไข SIM</string>  
+    <string name="oobe_summary_sim_edit">แก้ไข SIM เพื่อให้ตรงกับความชอบของคุณ คุณสามารถเปลี่ยนชื่อ SIM และสี และหมายเลขโทรศัพท์ได้</string>  
+    <string name="oobe_waiting_sim">กำลังรอการตั้งค่าเริ่มต้น SIM การ์ด...</string>  
+    <string name="oobe_advance_settings_end_name">ข้อความล่าสุด</string>  
+    <string name="oobe_contact_import_null_cursor">การสอบถามสมบูรณ์ แต่ได้เคอร์เซอร์ว่าง, กระบวนการนำเข้าล้มเหลว!</string> 
+    <string name="oobe_title_timezone">เลือกโซนเวลา</string>  
+    <string name="gps_time_sync_attention_gps_on">การจับตำแหน่ง GPS จะใช้เวลามากสุด 1 นาที นอกจากนี้ GPS อาจไม่สามารถแสดงเวลาได้ เนื่องจากสัญญาณแวดล้อมที่อ่อนกำลัง\n\nคุณต้องการใช้เวลาที่แสดงโดย GPS หรือไม่</string>  
+    <string name="gps_time_sync_attention_gps_off">เพื่อที่จะใช้เวลาที่ได้จาก GPS ขั้นแรกคุณต้องเปิดใช้งาน GPS จากนั้นจะใช้เวลามากสุด 1 นาทีในการรับสัญญาณ GPS นอกจากนี้ GPS อาจไม่สามารถแสดงเวลาได้ เนื่องจากสัญญาณแวดล้อมที่อ่อนกำลัง\n\nคุณต้องการเปิดใช้งาน GPS ขณะนี้และรอเวลาจาก GPS หรือไม่</string>  
+    <string name="oobe_summary_timezone">โหรดเลือกโซนเวลาที่ต้องการ</string>  
+    <string name="sync_account_summary_on">เปิดการซิงค์อัตโนมัติ</string>  
+    <string name="sync_account_summary_off">ปิดการซิงค์อัตโนมัติ</string>  
+    <string name="sync_account_title">บัญชีการซิงค์อัตโนมัติ</string>  
+    <string name="wifi_setup_wizard_title">"เลือก WiFi"</string>  
+    <string name="wifi_menu_wps_pbc">"ปุ่มกด WPS"</string>  
+    <string name="wifi_other_network">"เครือข่ายอื่น…"</string>  
+    <string name="wifi_setup_skip">ข้าม</string>  
+    <string name="wifi_setup_next">"ถัดไป"</string>  
+    <string name="wifi_setup_back">กลับ</string>  
+    <string name="wifi_empty_list_wifi_off">เปิด Wi-Fi เพื่อดูเครือข่ายที่มี</string>  
+    <string name="wifi_empty_list_wifi_on">"กำลังค้นหาเครือข่าย WiFi…"</string> 
+
+      <string name="import_contact_already">ท่านกำลังนำเข้าอยู่ โปรดลองใหม่อีกครั้งภายหลัง</string>
+</resources>

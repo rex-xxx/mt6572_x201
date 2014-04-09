@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string msgid="4114084177056654663" name="date_and_time">"Настройки даты и времени"</string>  
+    <string msgid="3259617262618020574" name="date_time_12_hour_sample">"1:00 pm"</string>  
+    <string msgid="7762866468013985022" name="choose_timezone">"Выбрать часовой пояс"</string>  
+    <string msgid="1982904221918374153" name="normal_date_format">"Обычный ( 
+        <xliff:g id="DATE">%s</xliff:g>)"
+    </string>  
+    <string msgid="3086083265745944725" name="date_time_auto">"Автоматическая с сетью"</string>  
+    <string msgid="1193032284921000063" name="date_time_24hour">"24-часовой формат"</string>  
+    <string msgid="5716856602742530696" name="date_time_set_time">"Настроить время"</string>  
+    <string msgid="5045627174274377814" name="date_time_set_timezone">"Выбрать часовой пояс"</string>  
+    <string msgid="7021491668550232105" name="date_time_set_date">"Настроить дату"</string>  
+    <string msgid="436706100255870967" name="date_time_date_format">"Выбрать формат даты"</string>  
+    <string msgid="5683377702671088588" name="zone_list_menu_sort_alphabetically">"Упорядочить по алфавиту"</string>  
+    <string msgid="2720190443744884114" name="zone_list_menu_sort_by_timezone">"Упорядочить по часовому поясу"</string>  
+    <string name="zone_auto">Автомат. часовой пояс</string>  
+    <string name="zone_auto_summaryOn">Синхронизация часового пояса по сети</string>  
+    <string name="zone_auto_summaryOff">Синхронизация часового пояса по сети</string> 
+</resources>

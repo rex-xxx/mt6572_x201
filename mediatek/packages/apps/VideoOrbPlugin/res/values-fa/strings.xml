@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="plugin_name">Video Orb</string>
+    <string name="ok">"تأیید"</string>
+    <string name="cancel">"لغو"</string>
+    <string name="plugin_description">آخرین ویدیو خود را در حال پخش بر روی در صفحه قفل شده، مشاهده کنید</string>
+    <string name="transcoding_prompt">آماده سازی ویدئو</string>
+    <string name="transcoding_prompt_description">مدتی طول می کشد تا Video Orb، ویدیوها را آماده کند. آیا مایلید ادامه دهید؟</string>
+    <string name="transcoding_progress_format" translatable="false">"%"</string>
+    <string name="transcoding_clip_format" translatable="false">"/"</string>
+    <string name="video_file_name_format" translatable="false">"_yyyyMMdd_HHmmss"</string>
+    <string name="toast_video_add_cancelled">افزودن ویدیو ناموفق بود</string>
+    <string name="toast_video_unsupported_resolution">از این وضوح ویدیو پشتیبانی نمی شود.</string>
+    <string name="toast_low_storage" product="nosdcard">"حافظه USB پر است."</string>
+    <string name="toast_low_storage" product="default">"کارت SD شما پر است."</string>
+    <string name="toast_invalid_video">قالب ویدیو پشتیبانی نشده.</string>
+</resources>

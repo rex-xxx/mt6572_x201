@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+        <!-- MTK new add Strings -->
+    <string name="badPin2">"Введен неверный прежний PIN2."</string>
+    <string name="badPuk2">"Введен неверный PUK2."</string>
+    <string name="checkPwdLen">"Пароль должен содержать от 4 до 8 цифр."</string>
+    <string name="pinNotEnabled">"Перед изменением включите PIN-код."</string>
+    <string name="puk1Blocked">"PIN заблокирован"</string>
+    <string name="puk2Blocked">"PIN2 заблокирован"</string>
+    <string name="fdnFailMmi">"Ошибка при проверке FDN."</string>
+    <string name="callBarringFailMmi">"Ошибка блокирования вызова."</string>
+    <string name="Pin2Mmi">"Смена PIN2"</string>
+    <string name="PukMmi">"Деблокировать PIN"</string>
+    <string name="Puk2Mmi">"Деблокировать PIN2"</string>
+    <string name="serviceProvisioned">"Услуга предоставлена."</string>
+    <string name="serviceUnknown">"Состояние службы неизвестно."</string>
+    <string name="cfServiceNotForwarded">"не переадресовано"</string>
+    <string name="permlab_receiveCbSms">"Получить эстафетное SMS"</string>
+    <string name="permdesc_receiveCbSms">"Позволяет приложению получать и обрабатывать эстафетные SMS. Шпионские программы могут анализировать ваши сообщения или удалять, не показывая вам."</string>
+    <string name="keyguard_password_enter_puk_code">"Введите код PUK"</string>
+    <string name="keyguard_password_wrong_puk_code">"Неверный код PUK!"</string>
+    <string name="keyguard_password_enter_new_pin_code">"Введите новый код PIN"</string>
+    <string name="keyguard_password_Confirm_pin_code">"Подтвердите новый PIN-код"</string>
+    <string name="invalidPuk">"Введите 8 цифр."</string>
+    <string name="sim_permanently_locked">"PUK-код был введен более 10 раз, SIM-карта безвозвратно заблокирована"</string>
+    <string name="pin_length_indicate">"(4-8 цифр)"</string>
+    <string name="puk_length_indicate">"(8 цифр)"</string>
+    <string name="one_retry_left">"Осталась одна попытка"</string>
+    <string name="retries_left">"Осталось:<xliff:g id="number">%d</xliff:g>"</string>
+    <string name="invalid_imei">"Неверный IMEI"</string>
+    <string name="same_imei">"Тот же самый IMEI"</string>
+    <string name="unable_launch_the_ap">"Невозможно запустить приложение."</string>
+    <string name="keyguard_password_enter_sim1_pin_code">"Введите PIN-код для SIM1"</string>
+    <string name="RestrictedChangedTitle_SIM1">"Отменен ограниченный доступ к SIM1"</string>
+    <string name="RestrictedChangedTitle_SIM2">"Отменен ограниченный доступ к SIM2"</string>
+    <string name="keyguard_password_enter_sim2_pin_code">"Введите PIN-код для SIM2"</string>
+    <string name="keyguard_password_wrong_sim1_pin_code">"Неверный PIN-код для SIM1!"</string>
+    <string name="keyguard_password_wrong_sim2_pin_code">"Неверный PIN-код для SIM2!"</string>
+    <string name="keyguard_password_enter_sim1_puk_code">"Введите PUK-код для SIM1"</string>
+    <string name="keyguard_password_enter_sim2_puk_code">"Введите PUK-код для SIM2"</string>
+    <string name="lockscreen_sim1_puk_locked_message">"Первая SIM1 заблокирована PUK-кодом"</string>
+    <string name="lockscreen_sim2_puk_locked_message">"Первая SIM2 заблокирована PUK-кодом"</string>
+    <string name="choose_bootup_mode">"Выбор SIM-карты"</string>
+    <string name="choose_gprs_mode">Выберите информационное соединение</string>
+    <string name="sim_close">"SIM-карта закрыта"</string>
+    <string name="lockscreen_sim_puk_locked_message_short">"PUK-код заблокирован"</string>
+    <string name="lockscreen_sim_locked_message_short">"SIM-карта заблокирована"</string>
+    <string name="simlock_slot_locked_message">"Гнездо заблокировано навсегда."</string>
+    <string name="simlock_entersimmelock">"Ввод блокировки SIM-карты ME"</string>
+    <string name="slot_id">Разъем <xliff:g id="number">%d</xliff:g>:</string>
+    <string name="new_simcard">Новая SIM-карта</string>
+    <string name="lockscreen_missing_sim_dialog_message">"SIM-карта извлечена. Проверьте правильность установки SIM-карты."</string>
+    <string name="lockscreen_password_error">Неверный пароль, повторите попытку</string>
+
+   <string name="aerr_application_lowmem">Непредвиденная остановка работы приложения <xliff:g id="application">%1$s</xliff:g>
+        (процесс <xliff:g id="process">%2$s</xliff:g>). Это может быть связано с недостаточным объемом памяти. Освободите часть памяти и повторите попытку.</string>
+   <string name="aerr_process_lowmem">Произошла неожиданная остановка процесса <xliff:g id="process">%1$s</xliff:g>. Это может быть связано с недостаточным объемом памяти. Освободите часть памяти и повторите попытку.</string>
+   <string name="free_memory_btn">"Освободите часть памяти"</string>
+   <string name="free_memory_text">"Недостаточно памяти. Освободите память."</string>		
+ <string name="mem_low_title">Освободите память</string>
+    <string name="keyguard_pinword_enter_pinword_code">Введите PIN чтобы разблокировать</string>
+    <string name="lockscreen_pinword_error">Неверный PIN-код, повторите попытку</string>
+   <string name="no_favorite_contacts">Нет любимых контактов.</string>
+   <string name="contact_widget_loading">Идет загрузка\u2026</string>
+   <string name="volume_fm">"Громкость FM"</string>  
+   <string name="volume_matv">"Мобильное ТВ FM"</string>  
+   
+   <!-- add new style for mtk streaming video player start -->
+   <string name="media_controller_buffering">"Буферизация %d%%..."</string>
+   <string name="media_controller_live">"В режиме реального времени"</string>
+   <string name="media_controller_playing">"Воспроизведение"</string>
+   <string name="media_controller_connecting">"Подключение..."</string>
+   <string name="media_controller_weak_signal">"Слабый сигнал"</string>
+   <string name="VideoView_error_text_bad_file">"Неправильный файл, невозможно воспроизвести этот видеоматериал."</string>
+   <string name="VideoView_error_text_cannot_connect_to_server">"Невозможно подключиться к серверу."</string>
+   <string name="VideoView_error_text_type_not_supported">"Тип медиафайла не поддерживается."</string>
+   <string name="VideoView_error_text_drm_not_supported">"Это видео защищено с помощью DRM и не может быть воспроизведено."</string>
+   <!-- add new style for mtk streaming video player end -->
+
+   <!-- added new string for SearchDialog, used to indicate WikiPedia--> 
+   <string name="wikiPediaName">wikipedia_ru</string>
+   
+    <!-- support TextView undo tool bar -->
+    <string name="redo">Вернуть</string>
+    <string name="undo">Отменить</string>
+    <string name="undoAll">Отменить все</string>
+   <string name="new_sim">Новая SIM-карта</string>
+
+    <!-- support RecipientsView recipient bar -->
+    <string name="edit">Изменить</string>
+    <string name="delete">Удалить</string>
+    
+        <!-- string for gemini enhancement-->
+    <string name="sim_card_changed_dialog_title">Карта SIM изменена</string>
+    <string name="change_setting_for_onenewsim">Обнаружена новая SIM-карта. Новые настройки SIM-карты по умолчанию:</string>
+    <string name="change_setting_for_twonewsim">Обнаружена новая SIM-карта. Новые настройки SIM-карты по умолчанию:</string>
+    <string name="default_sim_setting_prompt">Новые настройки SIM-карты по умолчанию:</string>
+    <string name="change_settings">Изменить</string>
+    <string name="sim_card_removed">Карта SIM удалена.</string>
+    <string name="sim_card_swapped">Карта SIM заменена.</string>
+    <string name="keyguard_voice_call">Голосовой вызов:</string>
+    <string name="keyguard_sms">SMS:</string>
+    <string name="keyguard_data">Соединение для передачи данных:</string>
+    <string name="keyguard_alwaysask">Всегда спрашивать</string>
+    <string name="keyguard_data_none">Выкл</string>
+    <string name="keyguard_close">Закрыть</string>
+    <string name="dismiss">Отбой</string>
+    <string name="keyguard_wrong_code_input">Неверный код.</string>
+    <string name="keyguard_code_length_prompt">Введите 4–8 цифр.</string>
+    <string name="keyguard_code_donnot_mismatch">Коды не должны совпадать.</string>
+    <string name="for_text">для</string>
+    <string name="keyguard_internal_call">Интернет-вызов</string>
+    <string name="keyguard_not_set">Не устан</string>
+    <string name="network_searching">Поиск новой сети</string>
+    <string name="searching_simcard">Detecting...</string>
+    
+    <string name="for_first_simcard">для первой SIM-карты</string>
+    <string name="for_second_simcard">для второй SIM-карты</string>
+    <string name="for_third_simcard">Для третьей SIM</string>
+    <string name="for_fourth_simcard">Для четвертой SIM</string>
+     <string name="missed_call_display">Пропущенный вызов:</string>
+   <string name="missed_message_display">Пропущенное сообщение:</string>
+     <!-- string for gemini enhancement end-->
+
+    <!-- For the unlock screen, Information message shown in dialog when user has too many failed attempts -->
+    <string name="lockscreen_pin_too_many_failed_attempts_dialog_message">"Вы ввели неправильный PIN-код <xliff:g id="NUMBER_0">%d</xliff:g> раз(а). "\n\n"Повторите попытку через <xliff:g id="NUMBER_1">%d</xliff:g> сек."</string>
+    <string name="lockscreen_password_too_many_failed_attempts_dialog_message">"Вы ввели неправильный пароль <xliff:g id="NUMBER_0">%d</xliff:g> раз(а). "\n\n"Повторите попытку через <xliff:g id="NUMBER_1">%d</xliff:g> сек."</string>
+    
+    <string name="ext_media_checking_notification_title_sd2">Подготовка карты памяти SD card2</string> 
+    
+    <!-- add for drm start -->
+    <string name="drm_protection_status">Статус защиты:</string>
+    <string name="drm_can_forward">Можно пересылать.</string>
+    <string name="drm_can_not_forward">Нельзя пересылать.</string>
+    <string name="drm_no_limitation">Нет ограничений.</string>
+    <string name="drm_no_license">Нет разрешения DRM.</string>
+    <string name="drm_begin">Начало:</string>
+    <string name="drm_end">Окончание:</string>
+    <string name="drm_use_left">Осталось:</string>
+    <string name="drm_protectioninfo_renew">Обновить</string>
+    <string name="drm_protectioninfo_title">Информация о защите</string>
+    <string name="drm_licenseacquisition_title">Получение разрешения DRM</string>
+    <string name="drm_licenseacquisition_message">%1$s не имеет разрешения DRM. Доя получения разрешение DRM можно нажать кнопку Renew (Обновить).</string>
+    <string name="drm_toast_license_expired">Срок действия разрешения DRM истек.</string>
+    <string name="drm_forwardforbidden_title">Пересылка запрещена</string>
+    <string name="drm_forwardforbidden_message">Некоторые защищенные файлы пересылать нельзя.</string>
+    <string name="drm_license_install_success">Установка разрешения DRM выполнена.</string>
+    <string name="drm_license_install_fail">Установка разрешения DRM не удалась.</string>
+    <string name="drm_secure_timer_title">Неверная синхронизация безопасности DRM</string>
+    <string name="drm_secure_timer_message">Нельзя использовать защищенные файлы DRM. Проверьте подключение данных.</string>
+    <string name="drm_consume_title">Права DRM утрачены</string>
+    <string name="drm_consume_message">Ваши действия приведут к утрате прав DRM.</string>
+    <!-- add for drm end -->
+   
+    <string name="recip_unsupport_operator">Раздел RecipientsView не поддерживает операций с символами, для управления получателями воспользуйтесь панелью инструментов.</string>
+    <string name="recip_unsupport_selection">Вы не можете переместить знак вставки в начало, если в разделе RecipientsView есть получатели.</string>
+
+    <string name="default_label" >"Будильник"</string>
+    <string name="alarm_alert_snooze_text" >"Отложить"</string>
+    <string name="every_day" >"Каждый день"</string>
+    <string name="never" >"Не выбрано"</string>
+    <string name="day_concat" >", "</string>
+    <string name="dismiss_power_on">Пропустить и включить</string>
+    <string name="dismiss_power_off">Пропустить и выключить</string>
+
+    <string name="gps_time_sync_fail_str">Сбой при получении времени, предоставленного GPS</string>
+
+    <string name="usb_ums_notification_title">Подключение к USB-накопителю</string>
+    <string name="usb_charging_notification_title">Только зарядка USB</string>     
+
+    <string name="sim_missing_slot1">Гнездо 1: SIM-карта не обнаружена</string>  
+    <string name="sim_missing_slot2">Гнездо 2: SIM-карта не обнаружена</string>  
+    <string name="sim_missing">SIM-карта не обнаружена</string>  
+    <string name="sim_missing_detail">Проверьте готовность SIM-карты</string>
+
+    <!-- add for webview find -->
+    <string name="find_previous">предыдущий</string>
+    <string name="find_next">следующий</string>
+
+    <string name="tethered_notification_message_for_hotspot">
+        <xliff:g id="connected">%1$d</xliff:g> подключено, 
+        <xliff:g id="blocked">%2$d</xliff:g> заблокировано
+    </string>
+    <string name="default_wallpaper_name">"По умолчанию"</string> 
+    <string name="invalid_sim_title">Недопустимая SIM-карта</string>
+    <string name="invalid_sim_message">UIM/SIM-карта не распознана</string>
+    <!-- voice unlock start -->
+    <string name="voice_unlock_service_error">Ошибка функции включения голоса.</string>
+    <string name="voice_unlock_password_wrong">Извините, ваш голос не распознается.</string>
+    <string name="voice_unlock_noisy">Слишком шумно, вас слышно недостаточно четко.</string>
+    <string name="voice_unlock_weak">Невозможно услышать ваш голос.</string>
+    <string name="voice_unlock_media_playing">Функция включения голоса отключается при воспроизведении медиафайлов.</string>
+    <string name="voiceunlock_multiple_failures">Превышено максимальное количество попыток голосовой разблокировки</string>    
+    <!-- voice unlock end -->
+
+    <string name="wifi_display_bt_hdmi_off_wfd_on">При включении беспроводного дисплея Bluetooth и HDMI будут отключены. Продолжить?</string> 
+    <string name="wifi_display_wfd_off_hdmi_on">При включении HDMI беспроводной дисплей будет отключен. Продолжить?</string> 
+    <string name="wifi_display_wfd_off_bt_on">При включении Bluetooth беспроводный дисплей будет отключен. Продолжить?</string> 
+    <string name="wifi_display_wifi_p2p_disconnect_wfd_connect">При подключении беспроводного дисплея текущее подключение Wi-Fi Direct будет прервано. Продолжить?</string>
+    <!-- Add for AT&T to show toast when pass pin/puk lock -->
+    <string name="pin_pass">Код принят</string>
+    <string name="puk_pass">PIN-код разблокирован</string>
+    <!-- MountService start -->
+    <string name="sdcard_ready_title">SD-карта готова</string>
+    <string name="sdcard_select_default_path">Изменить память для записи по умолчанию?</string>
+    <string name="sdcard_default_path_change">Память для записи изменена на память телефона.</string>
+    <!-- MountService end -->
+</resources>

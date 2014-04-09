@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string msgid="4746946030627213196" name="wifi_settings">"Kablosuz ayarları"</string>  
+    <string msgid="2810363951104753710" name="wifi_settings_category">"Kablosuz ayarları"</string>  
+    <string msgid="6710266609710860129" name="wifi_starting">"Açılıyor…"</string>  
+    <string msgid="5952909472548218348" name="wifi_stopping">"Kapatılıyor…"</string>  
+    <string msgid="3207971103917128179" name="wifi_error">"Hata"</string>  
+    <string msgid="7618393787965366655" name="wifi_in_airplane_mode">"Uçak modunda"</string>  
+    <string msgid="6194542252808587669" name="wifi_fail_to_scan">"Ağ aranamıyor"</string>  
+    <string msgid="3755768188029653293" name="wifi_notify_open_networks">"Ağ bildirimi"</string>  
+    <string msgid="3038290727701553612" name="wifi_notify_open_networks_summary">"Açık bir ağ kullanılabilir olduğunda bana bildir"</string>  
+    <string msgid="1671334951296205616" name="wifi_add_network">"Kablosuz ağ ekle"</string>  
+    <string msgid="1470911530412095868" name="wifi_menu_scan">"Tara"</string>  
+    <string msgid="7522252991919573664" name="wifi_menu_advanced">"Gelişmiş"</string>  
+    <string msgid="4996220309848349408" name="wifi_menu_connect">"Ağa bağlan"</string>  
+    <string msgid="8736964302477327114" name="wifi_menu_forget">"Ağı unut"</string>  
+    <string msgid="2068554918652440105" name="wifi_menu_modify">"Ağı değiştir"</string>  
+    <string msgid="641393708309146745" name="wifi_ssid">"Ağ SSID\'si"</string>  
+    <string msgid="6603611185592956936" name="wifi_security">"Güvenlik"</string>  
+    <string msgid="5514120261628065287" name="wifi_signal">"Sinyal gücü"</string>  
+    <string msgid="4824568012414605414" name="wifi_status">"Durum"</string>  
+    <string msgid="3526198708812322037" name="wifi_speed">"Bağlantı hızı"</string>  
+    <string msgid="1440054061044402918" name="wifi_ip_address">"IP adresi"</string>  
+    <string msgid="8529436133640730382" name="wifi_eap_method">"EAP yöntemi"</string>  
+    <string msgid="5231074529772044898" name="please_select_phase2">"Aşama 2 için kimlik doğrulaması"</string>  
+    <string msgid="3521574865488892851" name="wifi_eap_ca_cert">"CA sertifikası"</string>  
+    <string msgid="1291089413368160789" name="wifi_eap_user_cert">"Kullanıcı sertifikası"</string>  
+    <string msgid="4359453783379679103" name="wifi_eap_identity">"Kimlik"</string>  
+    <string msgid="2989469344116577955" name="wifi_eap_anonymous">"Anonim kimlik"</string>  
+    <string msgid="5948219759936151048" name="wifi_password">"Şifre"</string>  
+    <string msgid="4235237470701732009" name="wifi_show_password">"Şifreyi göster."</string>  
+    <string name="wifi_hex_password">"Onaltılı parola."</string>  
+    <string msgid="3410422020930397102" name="wifi_unchanged">"(değişmedi)"</string>  
+    <string msgid="5431501214192991253" name="wifi_unspecified">"(belirtilmemiş)"</string>  
+    <string msgid="8426719916135950136" name="wifi_remembered">"Anımsandı"</string>  
+    <string msgid="1136191511238508967" name="wifi_not_in_range">"Kapsama alanı dışında"</string>
+    <string msgid="1076622875777072845" name="wifi_connect">"Bağlan"</string>  
+    <string msgid="8168174695608386644" name="wifi_forget">"Unut"</string>  
+    <string msgid="3331121567988522826" name="wifi_save">"Kaydet"</string>  
+    <string msgid="6763568902542968964" name="wifi_cancel">"İptal"</string>  
+    <string msgid="5419052271935350999" name="wifi_advanced_titlebar">"Gelişmiş"</string>  
+    <string msgid="1367731352485585528" name="wifi_setting_sleep_policy_title">"Kablosuz uyku politikası"</string>  
+    <string msgid="5103670439972135148" name="wifi_setting_sleep_policy_error">"Uyku politikası ayarlanırken bir sorun oluştu."</string>  
+    <string msgid="6571335466330978393" name="wifi_advanced_mac_address_title">"MAC adresi"</string>  
+    <string msgid="6215297094363164846" name="wifi_advanced_ip_address_title">"IP adresi"</string>  
+    <string msgid="4345739031248760326" name="wifi_ip_settings_titlebar">"IP ayarları"</string>  
+    <string msgid="7344118050720080045" name="wifi_dns1">"DNS 1"</string>  
+    <string msgid="1368601006824882659" name="wifi_dns2">"DNS 2"</string>  
+    <string msgid="163914742461092086" name="wifi_gateway">"Geçit"</string>  
+    <string msgid="8948641212931906143" name="wifi_tether_enabled_subtext">"Taşınabilir ortak erişim noktası 
+        <xliff:g id="NETWORK_SSID">%1$s</xliff:g> etkin"
+    </string>  
+    <string name="wapi_user_certificate">"Kullanıcı sertifikası"</string>  
+    <string name="wapi_as_certificate">"ASE sertifikası"</string>  
+    <string msgid="7862009036663793314" name="status_unavailable">"Kullanılamıyor"</string>  
+    <string name="wifi_ctia_test">"CTIA Test Modu Ayarı"</string>  
+    <string name="wifi_ctia_test_summary">"CTIA Test Modu yapılandırması"</string>  
+    <string name="wifi_ip_settings">"IP ayarları"</string>  
+    <string name="wifi_disabled_generic">"Devre dışı"</string>  
+    <string name="wifi_disabled_network_failure">Kullanılmayan kötü İnternet bağlantıları</string>  
+    <string name="wifi_disabled_password_failure">Kimlik doğrulama sorunu</string>  
+    <string name="wifi_ip_settings_invalid_ip_address">Geçerli bir IP adresi girin.</string>  
+    <string name="wifi_ip_settings_invalid_gateway">Geçerli bir ağ geçidi adresi girin.</string>  
+    <string name="wifi_ip_settings_invalid_dns">Geçerli bir DNS adresi girin.</string>  
+    <string name="wifi_ip_settings_invalid_network_prefix_length">0 ila 32 karakter arasında bir ağ öneki girin.</string>  
+    <string name="wifi_network_prefix_length">Ağ öneki uzunluğu</string>  
+    <string name="wifi_connect_type_title">Otomatik bağlantı tipi</string>  
+    <string name="wifi_priority_label">Öncelik</string>  
+    <string name="wifi_priority_settings_label">Öncelik ayarları</string>  
+    <string name="wifi_wps_available_first_item">Korumalı ağ mevcut</string>  
+    <string name="wifi_wps_available_second_item">\u0020(korumalı ağ mevcut)</string>  
+    <string name="wifi_secured_first_item"> 
+        <xliff:g id="wifi_security_short">%1$s</xliff:g> ile güvenliği sağlanmış
+    </string>  
+    <string name="wifi_secured_second_item">, s 
+        <xliff:g id="wifi_security_short">%1$s</xliff:g> ile güvenliği sağlanmış
+    </string>  
+    <string name="wifi_security_none">"Yok"</string>  
+    <string name="sim_slot">SIM Yuvası</string>  
+    <string name="wifi_network_netmask">Ağ maskesi</string>  
+    <string name="wifi_enable_watchdog_service">Kötü bağlantıları göz ardı et</string>  
+    <string name="wifi_setting_frequency_band_title">Wi-Fi Frekans Bandı</string>  
+    <string name="wifi_setting_frequency_band_summary">Frekans aralığını belirleyin</string>  
+    <string name="wifi_setting_frequency_band_error">Frekans aralığı belirlenirken bir sorun oluştu.</string>  
+    <string name="proxy_settings_title">Proxy ayarları</string>  
+    <string name="proxy_clear_text">"Temizle"</string>  
+    <string name="proxy_port_label">Proxy bağlantı noktası</string>  
+    <string name="proxy_exclusionlist_label">"Proxy'yi atla"</string>  
+    <string name="proxy_exclusionlist_hint">example.com,mycomp.test.com,localhost</string>  
+    <string name="proxy_defaultView_text">"Varsayılanları geri yükle"</string>  
+    <string name="proxy_hostname_label">Proxy ana bilgisayar adı</string>  
+    <string name="proxy_hostname_hint">proxy.example.com</string>  
+    <string name="proxy_error">Dikkat</string>  
+    <string name="proxy_error_dismiss">"Tamam"</string>  
+    <string name="proxy_error_empty_port">Bağlantı noktası alanını doldurmalısınız.</string>  
+    <string name="proxy_error_empty_host_set_port">Ana bilgisayar alanı boş ise bağlantı yuvası alanı boş olmalıdır.</string>  
+    <string name="proxy_warning_limited_support">HTTP proxy başka bir tarayıcı tarafından kullanılıyor ancak diğer uygulamalar tarafından kullanılamayabilir.</string>  
+    <string name="wifi_show_advanced">Gelişmiş seçenekleri göster</string>  
+    <string name="wifi_network_setup">WPS</string>  
+    <string name="wifi_wps_pin">"Erişim noktasının PIN'ini girin"</string>  
+    <string name="wifi_enable_watchdog_service_summary">İyi bir İnternet bağlantısına sahip oluncaya kadar Wi-Fi ağını kullanmayın</string>  
+    <string name="proxy_error_invalid_host">Yazdığınız ana bilgisayar adı geçerli değil.</string>  
+    <string name="proxy_error_invalid_exclusion_list">Yazdığınız hariç tutulan listesi düzgün biçimlendirilmemiş. Virgülle ayrılmış hariç tutulan etki alanları listesini yazın.</string>  
+    <string name="proxy_error_invalid_port">Yazdığınız bağlantı noktası geçerli değil.</string>  
+    <string name="wifi_setting_connect_type_error">Bağlantı tipini ayarlamada bir sorun oldu.</string>  
+    <string name="wifi_priority_type_title">EN önceliğini manüel ayarla</string>  
+    <string name="wifi_priority_type_summary">Her erişim noktası için önceliğin manüel ayarlanmasına izin ver</string>  
+    <string name="wifi_priority_settings_title">EN önceliği ayarları</string>  
+    <string name="wifi_priority_settings_summary">Her erişim noktasının önceliğini ayarlamak için tıklatın</string>  
+    <string name="gsm_to_wifi_connect_type_title">Cep Telefonu-&gt;Wi-Fi</string>  
+    <string name="wifi_connect_ap_summary">Ağ bağlantı tipini belirle</string>  
+    <string name="select_ssid_type_title">SSID arasında yeniden seçim</string>  
+    <string name="proxy_action_text">Bitti</string>
+    <string name="wifi_failed_connect_message" msgid="8491902558970292871">"Ağa bağlanılamadı"</string>
+    <string name="wifi_failed_forget_message" msgid="1348172929201654986">"Ağ unutulamadı"</string>
+    <string name="wifi_failed_save_message" msgid="6650004874143815692">"Ağ kaydedilemedi"</string>
+
+      <string name="wifi_WEP_transmit_key">"İletim Anahtarı"</string>
+      <string name="wifi_WEP_secury_key">"Güvenlik Anahtarı"</string>
+      <string name="wifi_security_wapi_certificate">WAPI Sertifikası</string>
+      <string name="wifi_no_cert_for_wapi">Geçerli AP bağlantısı için sertifikası bulunamadı</string>
+      <string name="eap_sim_slot_0">Sim Yuvası 1</string>
+      <string name="eap_sim_slot_1">Sim Yuvası 2</string>
+      <string name="eap_sim_aka_airplanemode">EAP-SIM/AKA kullanımı için lütfen Uçak modunu kapatın</string>
+      <string name="eap_sim_aka_no_sim_error">EAP-SIM/AKA kullanımı için bir sim kart takmalısınız</string>
+      <string name="eap_sim_aka_no_sim_slot_selected">EAP-SIM/AKA kullanımı için bir sim yuvası seçmelisiniz</string>
+      <string name="wifi_ipv4_address">IPv4 adresi</string>
+      <string name="wifi_ipv6_address">IPv6 adresi</string>
+</resources>

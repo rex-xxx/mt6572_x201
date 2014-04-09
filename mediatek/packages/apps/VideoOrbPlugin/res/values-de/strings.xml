@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="plugin_name">Video-Orb</string>
+    <string name="ok">"OK"</string>
+    <string name="cancel">"Abbrechen"</string>
+    <string name="plugin_description">Aktuellstes Video anzeigen und am Sperrbildschirm wiedergeben</string>
+    <string name="transcoding_prompt">Videovorbereitung</string>
+    <string name="transcoding_prompt_description">Video-Orb benötigt einige Zeit zur Vorbereitung der Videos. Wirklich fortfahren?</string>
+    <string name="transcoding_progress_format" translatable="false">"%"</string>
+    <string name="transcoding_clip_format" translatable="false">"/"</string>
+    <string name="video_file_name_format" translatable="false">"_yyyyMMdd_HHmmss"</string>
+    <string name="toast_video_add_cancelled">Video nicht hinzugefügt</string>
+    <string name="toast_video_unsupported_resolution">Videoauflösung nicht unterstützt.</string>
+    <string name="toast_low_storage" product="nosdcard">"Ihr USB-Speicher ist voll."</string>
+    <string name="toast_low_storage" product="default">"Ihre SD-Karte ist voll."</string>
+    <string name="toast_invalid_video">Nicht unterstütztes Videoformat.</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+
+    <SpriteAnimation xmlns:android="http://schemas.android.com/apk/res/android" 
+                              xmlns:ngin3d="http://schemas.android.com/apk/res/com.mediatek.ngin3d.tests"
+                              android:id="@+id/sprite_animation2" 
+                              ngin3d:spriteType="singleSprite"
+                              ngin3d:spritImageFile="@drawable/hamtro_walk"
+                              ngin3d:singleSpriteWidth="48px"
+                              ngin3d:singleSpriteHeight="50px"
+                              ngin3d:duration="5000"
+                              >
+    </SpriteAnimation>      
+
+

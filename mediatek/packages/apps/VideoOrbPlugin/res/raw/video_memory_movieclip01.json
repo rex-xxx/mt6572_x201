@@ -1,0 +1,25 @@
+	 {"LayName": "MovieClip02", "LayWidth": 0.208333, "LayHeight": 0.117096, "LayID": 33, "ParentID": 0, "LayIn": 0.00, "LayDur": 30.03, "CompIn": 0.00, "CompDur": 30.03, "Normalization": true,
+		"SourcePath": null,
+		"Version": "050941839",
+			 	"Marker": { 
+				 }, 
+				 "AnchorPoint": { 
+					"X": 0.5, "Y": 0.50, "Z": 0.00
+					 },
+				 "Scale": { 
+					"X": 90.00, "Y": 90.00, "Z": 90.00
+					 }, 
+				 "Orientation": { 
+					"Type":[ 0.00 , 0.00 , 0.00 ],
+					"Time":[ 0.00 , 15.02 , 30.00 ],
+					"X":[ 0.00 , 0.00 , 0.00 ],
+					"Y":[ 50.00 , 231.00 , 52.00 ],
+					"Z":[ 0.00 , 0.00 , 0.00 ],
+					"InTanX":[ 0.00 , 0.00 , 0.00 ],
+					"InTanY":[ 0.00 , 0.00 , 0.00 ],
+					"InTanZ":[ 0.00 , 0.00 , 0.00 ],
+					"OutTanX":[ 0.00 , 0.00 , 0.00 ],
+					"OutTanY":[ 0.00 , 0.00 , 0.00 ],
+					"OutTanZ":[ 0.00 , 0.00 , 0.00 ]
+				}
+	}

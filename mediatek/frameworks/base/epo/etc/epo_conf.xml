@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<epo_profiles version="1">
+
+    <!-- The following parameters are provided  for customer to 
+    configure EPO default value.
+   -->
+  <!--  
+  epo_enable:
+  	Wether to enable EPO when device first boot up.
+  auto_enable:
+  	Wether to enable EPO auto download feature when device first boot up.
+  update_period:
+    Update period, the unit is minute. if the value is set to "4320", 
+    then it will update EPO file per 3 days (3 days = 4320 minutes).
+    The minimal value of update_period should not be less than 1440 (1 day).
+  -->
+  <epo_conf_para
+  	epo_enable="no"
+  	auto_enable="no"
+  	update_period="21600"
+  />
+</epo_profiles>

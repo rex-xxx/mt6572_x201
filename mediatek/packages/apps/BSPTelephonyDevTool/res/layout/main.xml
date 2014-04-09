@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+>
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dip"
+>
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+    >
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/default_sim"
+            android:textSize="8pt"
+        />
+	    <LinearLayout android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	    >
+		    <Button android:id="@+id/btn_default_sim_sim1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:text="@string/sim1"
+		    />
+		    <Button android:id="@+id/btn_default_sim_sim2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:text="@string/sim2"
+	        />
+	    </LinearLayout>
+	    <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+        >
+            <TextView android:id="@+id/operator_sim1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/no_sim_inserted"
+            />
+            <TextView android:id="@+id/operator_sim2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/no_sim_inserted"
+            />
+        </LinearLayout>
+	    <View android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#AAA"
+            android:layout_margin="10dip"
+        />
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+    >
+	    <Button android:id="@+id/btn_status_bar_notification"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	    />
+	    <View android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#AAA"
+            android:layout_margin="10dip"
+        />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+    >
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/network_status_and_signal_strength"
+            android:textSize="8pt"
+        />
+        <LinearLayout android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:layout_marginBottom="3dip"
+	        android:gravity="center_vertical"
+	    >
+	        <TextView android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/sim1"
+	            android:textSize="8pt"
+	        />
+	        <TextView android:id="@+id/network_type_sim1"
+	            android:layout_width="100dip"
+                android:layout_height="wrap_content"
+                android:textSize="8pt"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:background="#AAA"
+                android:textColor="#000"
+                android:gravity="center_horizontal"
+            />
+	        <ProgressBar android:id="@+id/progress_signal_sim1"
+	            android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+	        />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+        >
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sim2"
+                android:textSize="8pt"
+            />
+            <TextView android:id="@+id/network_type_sim2"
+                android:layout_width="100dip"
+                android:layout_height="wrap_content"
+                android:textSize="8pt"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:background="#AAA"
+                android:textColor="#000"
+                android:gravity="center_horizontal"
+            />
+            <ProgressBar android:id="@+id/progress_signal_sim2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+            />
+        </LinearLayout>
+        <View android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#AAA"
+            android:layout_margin="10dip"
+        />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+    >
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/data_connection"
+            android:textSize="8pt"
+        />
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="3dip"
+        >
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sim1"
+                android:textSize="8pt"
+            />
+            <TextView android:id="@+id/data_connection_type_sim1"
+                android:layout_width="100dip"
+                android:layout_height="wrap_content"
+                android:textSize="8pt"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:background="#AAA"
+                android:textColor="#000"
+                android:gravity="center_horizontal"
+            />
+            <TextView android:id="@+id/data_activity_sim1"
+                android:layout_width="40dip"
+                android:layout_height="wrap_content"
+                android:textSize="8pt"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:background="#AAA"
+                android:textColor="#000"
+                android:gravity="center_horizontal"
+            />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="3dip"
+        >
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sim2"
+                android:textSize="8pt"
+            />
+            <TextView android:id="@+id/data_connection_type_sim2"
+                android:layout_width="100dip"
+                android:layout_height="wrap_content"
+                android:textSize="8pt"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:background="#AAA"
+                android:textColor="#000"
+                android:gravity="center_horizontal"
+            />
+            <TextView android:id="@+id/data_activity_sim2"
+                android:layout_width="40dip"
+                android:layout_height="wrap_content"
+                android:textSize="8pt"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:background="#AAA"
+                android:textColor="#000"
+                android:gravity="center_horizontal"
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+        >
+            <Button android:id="@+id/btn_default_data_sim1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/sim1"
+            />
+            <Button android:id="@+id/btn_default_data_sim2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/sim2"
+            />
+            <Button android:id="@+id/btn_default_data_off"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/off"
+            />
+        </LinearLayout>
+        <View android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#AAA"
+            android:layout_margin="10dip"
+        />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+    >
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/capability_3g"
+            android:textSize="8pt"
+        />
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+        >
+            <Button android:id="@+id/btn_3g_sim1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/sim1"
+            />
+            <Button android:id="@+id/btn_3g_sim2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/sim2"
+            />
+            <Button android:id="@+id/btn_3g_off"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/off"
+            />
+        </LinearLayout>
+        <View android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#AAA"
+            android:layout_margin="10dip"
+        />
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

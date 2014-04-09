@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+   
+    <string name="badPin2">PIN2 lama yang Anda ketik salah.</string>
+    <string name="badPuk2">PUK2 yang Anda ketik salah.</string>
+    <string name="checkPwdLen">Pastikan sandi Anda berisi 4 hingga 8 digit.</string>
+    <string name="pinNotEnabled">Aktifkan PIN sebelum diubah.</string>
+    <string name="puk1Blocked">PIN diblokir.</string>
+    <string name="puk2Blocked">PIN2 diblokir.</string>
+    <string name="fdnFailMmi">Gagal pada Pemeriksaan FDN.</string>
+    <string name="callBarringFailMmi">Gagal pada Pembatasan Panggilan.</string>
+    <string name="Pin2Mmi">PIN2 berubah</string>
+    <string name="PukMmi">Batalkan pemblokiran PIN</string>
+    <string name="Puk2Mmi">Batalkan pemblokiran PIN2</string>
+    <string name="serviceProvisioned">Layanan ditentukan.</string>
+    <string name="serviceUnknown">Masalah sambungan atau kode MMI tidak valid.</string>
+    <string name="cfServiceNotForwarded">Tidak diteruskan</string>
+    <string name="permlab_receiveCbSms">terima SMS CB</string>
+    <string name="permdesc_receiveCbSms">Dapat digunakan oleh aplikasi untuk menerima dan memproses pesan SMS CB. Aplikasi berbahaya dapat memantau atau menghapus pesan Anda tanpa menampilkannya.</string>
+    <string name="keyguard_password_enter_puk_code">Masukkan kode PUK</string>
+    <string name="keyguard_password_wrong_puk_code">Kode PUK salah!</string>
+    <string name="keyguard_password_enter_new_pin_code">Masukkan PIN baru</string>
+    <string name="keyguard_password_Confirm_pin_code">Konfirmasikan PIN baru</string>
+    <string name="invalidPuk">Masukkan 8 angka.</string>
+    <string name="sim_permanently_locked">Salah memasukkan kode PUK lebih dari 10 kali. Kartu SIM dikunci secara permanen.</string>
+    <string name="pin_length_indicate">(4-8 digit)</string>
+    <string name="puk_length_indicate">(8 digit)</string>
+    <string name="one_retry_left">1 percobaan lagi</string>
+    <string name="retries_left">Tersisa:<xliff:g id="number">%d</xliff:g></string>
+    <string name="invalid_imei">IMEI tidak valid</string>
+    <string name="same_imei">IMEI sama</string>
+    <string name="unable_launch_the_ap">Tidak dapat menjalankan aplikasi.</string>
+    <string name="keyguard_password_enter_sim1_pin_code">Masukkan kode PIN SIM1</string>
+    <string name="RestrictedChangedTitle_SIM1">Akses Terbatas SIM1 diubah</string>
+    <string name="RestrictedChangedTitle_SIM2">Akses Terbatas SIM2 diubah</string>
+    <string name="keyguard_password_enter_sim2_pin_code">Masukkan kode PIN SIM2</string>
+    <string name="keyguard_password_wrong_sim1_pin_code">Kode PIN SIM1 salah!</string>
+    <string name="keyguard_password_wrong_sim2_pin_code">Kode PIN SIM2 salah!</string>
+    <string name="keyguard_password_enter_sim1_puk_code">Kode PUK SIM1 salah!</string>
+    <string name="keyguard_password_enter_sim2_puk_code">Kode PUK SIM2 salah!</string>
+    <string name="lockscreen_sim1_puk_locked_message">PUK kartu SIM 1 terkunci.</string>
+    <string name="lockscreen_sim2_puk_locked_message">PUK kartu SIM 2 terkunci.</string>
+    <string name="choose_bootup_mode">Pilih SIM</string>
+    <string name="choose_gprs_mode">Pilih sambungan data</string>
+    <string name="sim_close">Kartu SIM ditutup</string>
+    <string name="lockscreen_sim_puk_locked_message_short">PUK terkunci</string>
+    <string name="lockscreen_sim_locked_message_short">Kartu SIM terkunci</string>
+    <string name="simlock_slot_locked_message">"Slot telah dikunci secara permanen."</string>
+    <string name="simlock_entersimmelock">"Masukkan Kuncian SIM ME"</string>
+    <string name="slot_id">Slot <xliff:g id="number">%d</xliff:g>:</string>
+    <string name="new_simcard">Kartu SIM baru</string>
+    <string name="lockscreen_missing_sim_dialog_message">"Kartu SIM dikeluarkan. Pastikan kartu SIM telah terpasang dengan benar."</string>
+   <string name="aerr_application_lowmem">Aplikasi %1$s (proses %2$s) telah dihentikan secara tiba-tiba. Hal ini mungkin terjadi karena kapasitas memori rendah. Kosongkan memori, lalu coba lagi.</string>
+   <string name="aerr_process_lowmem">Proses %1$s telah dihentikan secara tiba-tiba. Hal ini mungkin terjadi karena kapasitas memori rendah. Kosongkan memori, lalu coba lagi.</string>
+   <string name="free_memory_btn">"Kosongkan memori"</string>
+   <string name="free_memory_text">"Memori rendah. Kosongkan memori."</string>		
+ <string name="mem_low_title">Kosongkan memori</string>
+<string name="keyguard_pinword_enter_pinword_code">Masukkan PIN untuk mengaktifkan</string>
+    <string name="lockscreen_pinword_error">PIN salah, harap coba lagi</string>
+   <string name="no_favorite_contacts">Tidak ada kontak favorit</string>
+   <string name="contact_widget_loading">Memuat\u2026</string>
+   <string name="volume_fm">Volume FM</string>
+   <string name="volume_matv">Volume TV Bergerak</string>
+<string name="lockscreen_password_error">Kata sandi salah, harap coba lagi</string>
+   
+   <!-- add new style for mtk streaming video player start -->
+   <string name="media_controller_buffering">"Menampung %d%%..."</string>
+   <string name="media_controller_live">"Langsung"</string>
+   <string name="media_controller_playing">"Memutar"</string>
+   <string name="media_controller_connecting">"Menyambung..."</string>
+   <string name="media_controller_weak_signal">"Sinyal lemah"</string>
+   <string name="VideoView_error_text_bad_file">"File rusak, video ini tidak dapat diputar."</string>
+   <string name="VideoView_error_text_cannot_connect_to_server">"Tidak dapat menyambung ke server."</string>
+   <string name="VideoView_error_text_type_not_supported">"Jenis file media tidak didukung."</string>
+   <string name="VideoView_error_text_drm_not_supported">"Dilindungi DRM, video ini tidak dapat diputar."</string>
+   <!-- add new style for mtk streaming video player end -->
+
+    <!-- support TextView undo tool bar -->
+    <string name="redo">Kembalikan</string>
+    <string name="undo">Batalkan</string>
+    <string name="undoAll">Batalkan Semua</string>
+   <string name="new_sim">SIM Baru</string>
+
+    <!-- support RecipientsView recipient bar -->
+    <string name="edit">Edit</string>
+    <string name="delete">Hapus</string>
+    
+    <!-- string for gemini enhancement-->
+    <string name="sim_card_changed_dialog_title">Kartu SIM diganti</string>
+    <string name="change_setting_for_onenewsim">Kartu SIM baru terdeteksi.Pengaturan SIM default saat ini adalah:</string>
+    <string name="change_setting_for_twonewsim">Kartu SIM baru terdeteksi.Pengaturan SIM default saat ini adalah:</string>
+    <string name="default_sim_setting_prompt">Pengaturan SIM default saat ini adalah:</string>
+    <string name="change_settings">Ubah</string>
+    <string name="sim_card_removed">Kartu SIM dikeluarkan.</string>
+    <string name="sim_card_swapped">Kartu SIM ditukar.</string>
+    <string name="keyguard_voice_call">Panggilan suara:</string>
+    <string name="keyguard_sms">SMS:</string>
+    <string name="keyguard_data">Sambungan data:</string>
+    <string name="keyguard_alwaysask">Selalu tanya</string>
+    <string name="keyguard_data_none">Nonaktif</string>
+    <string name="keyguard_close">Tutup</string>
+    <string name="dismiss">Selesai</string>
+    <string name="keyguard_wrong_code_input">Kode salah.</string>
+    <string name="keyguard_code_length_prompt">Masukkan 4-8 angka.</string>
+    <string name="keyguard_code_donnot_mismatch">Tidak Sesuai.</string>
+    <string name="for_text">untuk</string>
+    <string name="keyguard_internal_call">Panggilan internal</string>
+    <string name="keyguard_not_set">Tidak diatur</string>
+    <string name="network_searching">Mencari jaringan baru</string>
+    <string name="searching_simcard">Detecting...</string>
+    
+    <string name="for_first_simcard">untuk SIM pertama</string>
+    <string name="for_second_simcard">untuk SIM kedua</string>
+    <string name="for_third_simcard">Untuk SIM ketiga</string>
+    <string name="for_fourth_simcard">Untuk SIM keempat</string>
+     <string name="missed_call_display">Panggilan Tak Terjawab:</string>
+   <string name="missed_message_display">Pesan Tak Terbaca:</string>
+     <!-- string for gemini enhancement end-->
+
+    <!-- For the unlock screen, Information message shown in dialog when user has too many failed attempts -->
+    <string name="lockscreen_pin_too_many_failed_attempts_dialog_message">"Anda salah memasukkan PIN sebanyak <xliff:g id="NUMBER_0">%d</xliff:g> kali. "\n\n"Harap coba lagi dalam <xliff:g id="NUMBER_1">%d</xliff:g> detik."</string>
+    <string name="lockscreen_password_too_many_failed_attempts_dialog_message">"Anda salah memasukkan sandi sebanyak <xliff:g id="NUMBER_0">%d</xliff:g> kali. "\n\n"Harap coba lagi dalam <xliff:g id="NUMBER_1">%d</xliff:g> detik."</string>
+    
+    <string name="ext_media_checking_notification_title_sd2">Menyiapkan kartu SD2</string> 
+    
+    <!-- add for drm start -->
+    <string name="drm_protection_status">Status proteksi:</string>
+    <string name="drm_can_forward">Dapat diteruskan.</string>
+    <string name="drm_can_not_forward">Tidak dapat diteruskan.</string>
+    <string name="drm_no_limitation">Tidak ada batasan.</string>
+    <string name="drm_no_license">Tidak ada lisensi DRM yang tersedia.</string>
+    <string name="drm_begin">Awal:</string>
+    <string name="drm_end">Akhir:</string>
+    <string name="drm_use_left">Sisa jumlah:</string>
+    <string name="drm_protectioninfo_renew">Perbarui</string>
+    <string name="drm_protectioninfo_title">Info Proteksi</string>
+    <string name="drm_licenseacquisition_title">Penerimaan Lisensi DRM</string>
+    <string name="drm_licenseacquisition_message">%1$s tidak memiliki lisensi DRM. Anda dapat menekan tombol "Perbarui" untuk memperoleh lisensi DRM.</string>
+    <string name="drm_toast_license_expired">Lisensi DRM telah kedaluwarsa.</string>
+    <string name="drm_forwardforbidden_title">Penerusan Dilarang</string>
+    <string name="drm_forwardforbidden_message">Beberapa file yang diproteksi tidak dapat diteruskan.</string>
+    <string name="drm_license_install_success">Penginstalan Lisensi DRM berhasil.</string>
+    <string name="drm_license_install_fail">Penginstalan Lisensi DRM gagal.</string>
+    <string name="drm_secure_timer_title">Secure clock DRM tidak valid</string>
+    <string name="drm_secure_timer_message">Anda tidak dapat menggunakan file yang diproteksi DRM. Pastikan tersedia sambungan data.</string>
+    <string name="drm_consume_title">Gunakan hak DRM</string>
+    <string name="drm_consume_message">Tindakan Anda akan menggunakan hak DRM.</string>
+    <!-- add for drm end -->
+
+    <string name="recip_unsupport_operator">RecipientsView tidak mendukung operasi karakter, gunakan toolbar untuk mengoperasikan penerima.</string>
+    <string name="recip_unsupport_selection">Maaf, Anda tidak dapat memindahkan simbol ke awal bila ada penerima di RecipientsView.</string>
+
+    <!--     add for alarm boot           -->
+
+    <string name="sim_missing_slot1">Slot 1: Tidak ada kartu SIM terdeteksi</string>  
+    <string name="sim_missing_slot2">Slot 2: Tidak ada kartu SIM terdeteksi</string>  
+    <string name="sim_missing">Tidak ada kartu SIM terdeteksi</string>  
+    <string name="sim_missing_detail">Periksa jika kartu SIM sudah siap</string>
+
+    <!-- Default label to display for an alarm -->
+    <string name="default_label" >"Alarm"</string>
+    <string name="dismiss_power_on">Hentikan dan aktifkan</string>
+    <string name="dismiss_power_off">Hentikan dan nonaktifkan</string>
+    <string name="alarm_alert_snooze_text" >"Tunda"</string>
+    <string name="every_day" >"Setiap hari"</string>
+    <string name="never" >"Tidak pernah"</string>
+    <string name="day_concat" >", "</string>   
+    
+    <string name="gps_time_sync_fail_str">Gagal mengambil waktu yang disediakan GPS</string>
+    
+    <string name="usb_ums_notification_title">Tersambung sebagai Penyimpanan USB</string>
+    <string name="usb_charging_notification_title">Hanya Isi Daya Dengan USB</string>
+
+    <!-- add for webview find -->
+    <string name="find_previous">sebelumnya</string>
+    <string name="find_next">berikutnya</string>
+
+    <string name="tethered_notification_message_for_hotspot">
+        <xliff:g id="connected">%1$d</xliff:g> tersambung, 
+        <xliff:g id="blocked">%2$d</xliff:g> diblokir
+    </string>
+    <string name="default_wallpaper_name">"Default"</string> 
+    <string name="invalid_sim_title">Kartu SIM tidak valid</string>
+    <string name="invalid_sim_message">Kartu UIM/SIM tidak dikenal</string>
+    <!-- voice unlock start -->
+    <string name="voice_unlock_service_error">Layanan pengaktifan dengan suara bermasalah.</string>
+    <string name="voice_unlock_password_wrong">Maaf, tidak dapat mengenali suara Anda.</string>
+    <string name="voice_unlock_noisy">Terlalu bising sehingga tidak dapat mendengar suara Anda dengan jelas.</string>
+    <string name="voice_unlock_weak">Tidak dapat mendengar suara Anda.</string>
+    <string name="voice_unlock_media_playing">Pengaktifan dengan suara akan dinonaktifkan selama pemutaran media berlangsung.</string>
+    <string name="voiceunlock_multiple_failures">Upaya maximum untuk Membuka Kunci Suara telah terlampaui</string>    
+    <!-- voice unlock end -->
+
+    <string name="wifi_display_bt_hdmi_off_wfd_on">Bluetooth dan HDMI akan dinonaktifkan saat Anda mengaktifkan layar nirkabel. Lanjutkan?</string> 
+    <string name="wifi_display_wfd_off_hdmi_on">Layar nirkabel akan dinonaktifkan saat Anda mengaktifkan HDMI. Lanjutkan?</string> 
+    <string name="wifi_display_wfd_off_bt_on">Layar nirkabel akan dinonaktifkan bila Bluetooth diaktifkan. Lanjutkan?</string> 
+    <string name="wifi_display_wifi_p2p_disconnect_wfd_connect">Sambungan Wi-Fi Direct yang aktif akan diputus bila Anda menyambung ke perangkat layar nirkabel. Lanjutkan?</string>
+    <!-- Add for AT&T to show toast when pass pin/puk lock -->
+    <string name="pin_pass">Kode diterima</string>
+    <string name="puk_pass">Pemblokiran PIN dibatalkan</string>
+    <!-- MountService start -->
+    <string name="sdcard_ready_title">Kartu SD siap</string>
+    <string name="sdcard_select_default_path">Anda ingin mengganti disk tulis default?</string>
+    <string name="sdcard_default_path_change">Disk tulis default akan mengubah penyimpanan di Ponsel.</string>
+    <!-- MountService end -->
+</resources>
+

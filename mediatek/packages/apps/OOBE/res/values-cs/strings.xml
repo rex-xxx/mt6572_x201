@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+
+    <!-- OOBE part begin -->  
+    <string name="app_name">OOBE</string>  
+    <string name="oobe_btn_text_next">Další</string>  
+    <string name="oobe_btn_text_back">Zpět</string>  
+    <string name="oobe_btn_text_finish">Dokončit</string>  
+    <string name="oobe_btn_text_skip">Přeskočit</string>  
+    <string name="oobe_btn_text_dismiss">Zrušit</string>  
+    <string name="oobe_title_language_setting">Vybrat jazyk</string>  
+    <string name="oobe_summary_language_setting">Vyberte váš upřednostňovaný jazyk telefonu</string>  
+    <string name="oobe_title_keyboard_setting">Vybrat klávesnice</string>  
+    <string name="oobe_summary_keyboard_setting">Vyberte vaše upřednostňované klávesnice.</string>  
+    <string name="oobe_title_import_contacts">Importovat kontakty ze SIM</string>  
+    <string name="oobe_summary_import_contacts">Můžete vybrat některé nebo všechny vložené karty SIM pro importování kontaktů do telefonu.</string>  
+    <string name="oobe_title_internet_connection_setting">Vybrat připojení k Internetu</string>  
+    <string name="oobe_summary_internet_connection">Vyberte vaše upřednostňované připojení k Internetu. Tyto možnosti můžete později vždy změnit v části Nastavení.</string>  
+    <string name="oobe_title_sim_management">Správa SIM</string>  
+    <string name="oobe_summary_sim_management">Klepnutím na položku karty SIM můžete upravovat její informace. Normálně je jako výchozí název SIM použito jméno operátora.</string>  
+    <string name="oobe_title_default_sim">Nastavit výchozí SIM</string>  
+    <string name="oobe_summary_default_sim">Vyberte vaši upřednostňovanou kartu SIM jako výchozí nastavení těchto služeb.</string>  
+    <string name="oobe_title_wifi_settings">Nastavit síť Wi-Fi</string>  
+    <string name="oobe_summary_wifi_settings">Klepnutím vyberte upřednostňovanou síť Wi-Fi níže</string>  
+    <string name="oobe_title_date_time">Nastavit datum &amp; čas</string>  
+    <string name="oobe_summary_date_time">Klepnutím vyberte formát vašich data &amp; času a podle potřeby nastavte informace Datum &amp; čas.</string>  
+    <string name="oobe_locale_switching">Čekání...</string>  
+    <string name="oobe_ime_suggested">Doporučeno</string>  
+    <string name="oobe_gemini_3g_indic">3G</string>  
+    <string name="oobe_internet_gprs_or_wifi_title">Mobilní síť nebo Wi-Fi</string>  
+    <string name="oobe_internet_gprs_or_wifi_summary">Vyberte vaše upřednostňované připojení k Internetu. Tyto možnosti můžete později vždy změnit v části Nastavení.</string>  
+    <string name="oobe_internet_wifi_only_title">Pouze Wi-Fi</string>  
+    <string name="oobe_internet_wifi_only_summary">Vyberte tuto možnost, pokud nemáte datový plán</string>  
+    <string name="oobe_btn_start_import_contacts">Zahájit import</string>  
+    <string name="oobe_btn_cancel_import_contacts">Storno</string>  
+    <string name="oobe_note_import_contacts_prepare">Počkejte, než se zkopírují kontakty SIM.</string>  
+    <string name="oobe_note_import_contacts_going">Nyní můžete přejít na další krok, zatímco import stále probíhá.</string>  
+    <string name="oobe_note_import_contacts_finish">Kopírování dokončeno. Můžete přejít na další krok.</string>  
+    <string name="oobe_note_import_contacts_cancel">Import zrušen. Můžete přeskočit na další krok nebo znovu zahájit import.</string>  
+    <string name="oobe_note_progress_copy_contacts">%1$d z %2$d kontaktů</string>  
+    <string name="oobe_note_copy_contacts_waiting">Čekání...</string>  
+    <string name="basic_congratulation_title">Blahopřejeme!</string>  
+    <string name="basic_congratulation_summary">Dokončili jste všechna základní nastavení. Nyní můžete začít používat vaše nové přístroje.\n\nVaše nastavení můžete kdykoli měnit v Průvodci nastavením ze Spouštěče aplikací.</string>  
+    <string name="oobe_advance_settings_entrance_title">Upřesnit nastavení</string>  
+    <string name="oobe_advance_settings_entrance_summary">Máte-li účet služby Google, e-mailový účet nebo účet u některé sociální sítě, doporučujeme vám pokračovat v upřesňujících nastaveních.</string>  
+    <string name="oobe_sync_settings_name">Nastavení syn­chronizace</string>  
+    <string name="oobe_sync_settings_title">Plánovaná synchronizace</string>  
+    <string name="oobe_sync_settings_summary">Tuto možnost vyberte, chcete aktivovat služby synchronizace dat. Nemáte-li neomezený datový plán, synchronizace dat může vést k dodatečným nákladům.</string>  
+    <string name="oobe_account_settings_name">Nastavení účtů</string>  
+    <string name="oobe_account_settings_title">Nastavení účtů</string>  
+    <string name="oobe_account_settings_summary">Aby bylo možné synchronizovat poštu, kontakty a akce v kalendáři, je třeba klepnout a nastavit alespoň jeden z následujících typů účtu.</string>  
+    <string name="oobe_account_list_title">Účty</string>  
+    <string name="oobe_sns_settings_name">Nastavení SNS</string>  
+    <string name="oobe_sns_settings_title">Nastavení sociálních sítí</string>  
+    <string name="oobe_sns_settings_summary">Nastavte vaši oblíbenou sociální síť a budete moci odesílat a přijímat aktualizace v aplikaci Sociální síť.</string>  
+    <string name="oobe_advance_settings_end_title">Blahopřejeme!</string>  
+    <string name="oobe_advance_settings_end_summary">Dokončili jste všechna upřesňující nastavení. Nyní můžete začít používat váš nový přístroj. \n\n Vaše nastavení můžete kdykoli měnit v Průvodci nastavením ze Spouštěče aplikací.</string>  
+    <string name="tap_to_add">Klepnutím přidejte účet 
+        <xliff:g id="account" example="renren">%s</xliff:g> 
+    </string>  
+    <string name="oobe_import_contacts_sim_name">Karta SIM</string>  
+    <string name="oobe_title_wifi">Wi-Fi</string>  
+    <string name="lock_settings_picker_title">Vybrat zámek obrazovky</string>  
+    <string name="add_network_string">Přidat síť</string>  
+    <string name="oobe_title_sim_edit">Úpravy SIM</string>  
+    <string name="oobe_summary_sim_edit">Upravte informace SIM podle vašich preferencí. Můžete změnit název SIM a barvu a telefonní číslo.</string>  
+    <string name="oobe_waiting_sim">Čekání na inicializaci karty SIM...</string>  
+    <string name="oobe_advance_settings_end_name">Poslední zpráva</string>  
+    <string name="oobe_contact_import_null_cursor">Dotaz dokončen, ale získán nulový kurzor, proces importu se nezdařil!</string> 
+    <string name="oobe_title_timezone">Vybrat časové pásmo</string>  
+    <string name="gps_time_sync_attention_gps_on">Zaměření signálu GPS bude trvat maximálně 1 minutu. Kromě toho systém GPS nemusí poskytnout čas z důvodu slabého prostorového signálu.\n\nOpravdu chcete použít čas poskytnutý systémem GPS?</string>  
+    <string name="gps_time_sync_attention_gps_off">Aby bylo možné použít čas poskytnutý systémem GPS, musíte nejdříve aktivovat GPS. Potom bude během max. 1 minuty zaměřen signál GPS. Kromě toho systém GPS nemusí poskytnout čas z důvodu slabého prostorového signálu. \n\nOpravdu chcete nyní aktivovat GPS a vyčkat na čas poskytnutý systémem GPS?</string>  
+    <string name="oobe_summary_timezone">Vyberte upřednostňované časové pásmo.</string>  
+    <string name="sync_account_summary_on">Automatická synch. zap.</string>  
+    <string name="sync_account_summary_off">Automatická synch vyp.</string>  
+    <string name="sync_account_title">Automaticky synchronizovat účet</string>  
+    <string name="wifi_setup_wizard_title">"Vybrat síť Wi-Fi"</string>  
+    <string name="wifi_menu_wps_pbc">"Tlačítko WPS"</string>  
+    <string name="wifi_other_network">"Jiná síť…"</string>  
+    <string name="wifi_setup_skip">Přeskočit</string>  
+    <string name="wifi_setup_next">"Další"</string>  
+    <string name="wifi_setup_back">Zpět</string>  
+    <string name="wifi_empty_list_wifi_off">Chcete-li zobrazit dostupné sítě, zapněte Wi-Fi.</string>  
+    <string name="wifi_empty_list_wifi_on">"Vyhledávání sítí Wi-Fi…"</string> 
+
+      <string name="import_contact_already">Již probíhá import. Zkuste to znovu později.</string>
+</resources>

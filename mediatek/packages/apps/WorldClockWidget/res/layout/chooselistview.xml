@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:layout_marginBottom="20dip"
+	android:orientation="vertical" >
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" >
+
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/add_new_city"
+			android:visibility="invisible" />
+	</LinearLayout>
+
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" >
+
+		<RadioButton
+			android:id="@+id/current_city"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="3dp"
+			android:clickable="false"
+			android:focusable="false" />
+
+		<TextView
+			android:id="@+id/chooseactivitytextviewid"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="3dip"
+			android:layout_toRightOf="@id/current_city"
+			android:textSize="18dip" />
+
+		<TextView
+			android:id="@+id/chooselistviewweatherid"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:visibility="gone" />
+	</RelativeLayout>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" >
+
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/add_new_city"
+			android:visibility="invisible" />
+	</LinearLayout>
+
+</LinearLayout>

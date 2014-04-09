@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string msgid="4746946030627213196" name="wifi_settings">"Setelan Wi-Fi"</string>  
+    <string msgid="2810363951104753710" name="wifi_settings_category">"Setelan Wi-Fi"</string>  
+    <string msgid="6710266609710860129" name="wifi_starting">"Menghidupkan..."</string>  
+    <string msgid="5952909472548218348" name="wifi_stopping">"Mematikan…"</string>  
+    <string msgid="3207971103917128179" name="wifi_error">"Galat"</string>  
+    <string msgid="7618393787965366655" name="wifi_in_airplane_mode">"Dalam mode pesawat"</string>  
+    <string msgid="6194542252808587669" name="wifi_fail_to_scan">"Tidak dapat memindai jaringan"</string>  
+    <string msgid="3755768188029653293" name="wifi_notify_open_networks">"Pemberitahuan jaringan"</string>  
+    <string msgid="3038290727701553612" name="wifi_notify_open_networks_summary">"Beri tahu saya ketika ada jaringan yang tersedia"</string>  
+    <string msgid="1671334951296205616" name="wifi_add_network">"Tambahkan jaringan Wi-Fi"</string>  
+    <string msgid="1470911530412095868" name="wifi_menu_scan">"Pindai"</string>  
+    <string msgid="7522252991919573664" name="wifi_menu_advanced">"Lanjutan"</string>  
+    <string msgid="4996220309848349408" name="wifi_menu_connect">"Hubungkan ke jaringan"</string>  
+    <string msgid="8736964302477327114" name="wifi_menu_forget">"Lupakan jaringan"</string>  
+    <string msgid="2068554918652440105" name="wifi_menu_modify">"Ubah jaringan"</string>  
+    <string msgid="641393708309146745" name="wifi_ssid">"SSID jaringan"</string>  
+    <string msgid="6603611185592956936" name="wifi_security">"Keamanan"</string>  
+    <string msgid="5514120261628065287" name="wifi_signal">"Kekuatan sinyal"</string>  
+    <string msgid="4824568012414605414" name="wifi_status">"Status"</string>  
+    <string msgid="3526198708812322037" name="wifi_speed">"Kecepatan tautan"</string>  
+    <string msgid="1440054061044402918" name="wifi_ip_address">"alamat IP"</string>  
+    <string msgid="8529436133640730382" name="wifi_eap_method">"Metode EAP"</string>  
+    <string msgid="5231074529772044898" name="please_select_phase2">"Autentikasi tahap 2"</string>  
+    <string msgid="3521574865488892851" name="wifi_eap_ca_cert">"Sertifikat CA"</string>  
+    <string msgid="1291089413368160789" name="wifi_eap_user_cert">"Sertifikat pengguna"</string>  
+    <string msgid="4359453783379679103" name="wifi_eap_identity">"Identitas"</string>  
+    <string msgid="2989469344116577955" name="wifi_eap_anonymous">"Identitas anonim"</string>  
+    <string msgid="5948219759936151048" name="wifi_password">"Sandi"</string>  
+    <string msgid="4235237470701732009" name="wifi_show_password">"Tampilkan sandi."</string>  
+    <string name="wifi_hex_password">"Sandi heksadesimal."</string>  
+    <string msgid="3410422020930397102" name="wifi_unchanged">"(tidak diubah)"</string>  
+    <string msgid="5431501214192991253" name="wifi_unspecified">"(tidak ditentukan)"</string>  
+    <string msgid="8426719916135950136" name="wifi_remembered">"Diingat"</string>  
+    <string msgid="1136191511238508967" name="wifi_not_in_range">"Tidak dalam jangkauan"</string>  
+    <string msgid="1076622875777072845" name="wifi_connect">"Sambungkan"</string>  
+    <string msgid="8168174695608386644" name="wifi_forget">"Lupakan"</string>  
+    <string msgid="3331121567988522826" name="wifi_save">"Simpan"</string>  
+    <string msgid="6763568902542968964" name="wifi_cancel">"Batal"</string>  
+    <string msgid="5419052271935350999" name="wifi_advanced_titlebar">"Lanjutan"</string>  
+    <string msgid="1367731352485585528" name="wifi_setting_sleep_policy_title">"Kebijakan tidur Wi-Fi"</string>  
+    <string msgid="5103670439972135148" name="wifi_setting_sleep_policy_error">"Terjadi masalah saat menyetel kebijakan tidur."</string>  
+    <string msgid="6571335466330978393" name="wifi_advanced_mac_address_title">"Alamat MAC"</string>  
+    <string msgid="6215297094363164846" name="wifi_advanced_ip_address_title">"Alamat IP"</string>  
+    <string msgid="4345739031248760326" name="wifi_ip_settings_titlebar">"Setelan IP"</string>  
+    <string msgid="7344118050720080045" name="wifi_dns1">"DNS 1"</string>  
+    <string msgid="1368601006824882659" name="wifi_dns2">"DNS 2"</string>  
+    <string msgid="163914742461092086" name="wifi_gateway">"Gateway"</string>  
+    <string msgid="8948641212931906143" name="wifi_tether_enabled_subtext">" 
+        <xliff:g id="NETWORK_SSID">%1$s</xliff:g> hotspot portabel aktif"
+    </string>  
+    <string name="wapi_user_certificate">"Sertifikat pengguna"</string>  
+    <string name="wapi_as_certificate">"Sertifikat ASE"</string>  
+    <string msgid="7862009036663793314" name="status_unavailable">"Tidak Tersedia"</string>  
+    <string name="wifi_ctia_test">"Pengaturan Mode Uji CTIA"</string>  
+    <string name="wifi_ctia_test_summary">"Konfigurasi Mode Uji CTIA"</string>  
+    <string name="wifi_ip_settings">"Setelan IP"</string>  
+    <string name="wifi_disabled_generic">Tidak aktif</string>  
+    <string name="wifi_disabled_network_failure">Sambungan Internet buruk dihindari</string>  
+    <string name="wifi_disabled_password_failure">Masalah otentikasi</string>  
+    <string name="wifi_ip_settings_invalid_ip_address">Ketik alamat IP valid.</string>  
+    <string name="wifi_ip_settings_invalid_gateway">Ketik alamat gateway valid.</string>  
+    <string name="wifi_ip_settings_invalid_dns">Ketik alamat DNS valid.</string>  
+    <string name="wifi_ip_settings_invalid_network_prefix_length">Ketik panjang prefiks jaringan antara 0 dan 32.</string>  
+    <string name="wifi_network_prefix_length">Panjang prefiks jaringan</string>  
+    <string name="wifi_connect_type_title">Jenis sambungan otomatis</string>  
+    <string name="wifi_priority_label">Prioritas</string>  
+    <string name="wifi_priority_settings_label">Pengaturan prioritas</string>  
+    <string name="wifi_wps_available_first_item">Jaringan yang dilindungi tersedia</string>  
+    <string name="wifi_wps_available_second_item">\u0020(jaringan yang dilindungi tersedia)</string>  
+    <string name="wifi_secured_first_item">Diamankan dengan 
+        <xliff:g id="wifi_security_short">%1$s</xliff:g> 
+    </string>  
+    <string name="wifi_secured_second_item">, diamankan dengan 
+        <xliff:g id="wifi_security_short">%1$s</xliff:g> 
+    </string>  
+    <string name="wifi_security_none">"Tidak satupun"</string>  
+    <string name="sim_slot">Slot SIM</string>  
+    <string name="wifi_network_netmask">Netmask</string>  
+    <string name="wifi_enable_watchdog_service">Hindari sambungan buruk</string>  
+    <string name="wifi_setting_frequency_band_title">Gelombang frekuensi Wi-Fi</string>  
+    <string name="wifi_setting_frequency_band_summary">Menentukan jangkauan frekuensi operasi</string>  
+    <string name="wifi_setting_frequency_band_error">Ada masalah saat mengatur gelombang frekuensi.</string>  
+    <string name="proxy_settings_title">Pengaturan proxy</string>  
+    <string name="proxy_clear_text">Hapus</string>  
+    <string name="proxy_port_label">Port proxy</string>  
+    <string name="proxy_exclusionlist_label">Pintas proxy untuk</string>  
+    <string name="proxy_exclusionlist_hint">example.com,mycomp.test.com,localhost</string>  
+    <string name="proxy_defaultView_text">Kembalikan default</string>  
+    <string name="proxy_hostname_label">Nama host proxy</string>  
+    <string name="proxy_hostname_hint">proxy.example.com</string>  
+    <string name="proxy_error">Perhatian</string>  
+    <string name="proxy_error_dismiss">"OK"</string>  
+    <string name="proxy_error_empty_port">Anda harus mengisi kolom port.</string>  
+    <string name="proxy_error_empty_host_set_port">Kolom port harus kosong jika kolom host kosong.</string>  
+    <string name="proxy_warning_limited_support">Proxy HTTP digunakan oleh browser namun mungkin tidak digunakan oleh aplikasi lain.</string>  
+    <string name="wifi_show_advanced">Tampilkan pilihan lanjutan</string>  
+    <string name="wifi_network_setup">WPS</string>  
+    <string name="wifi_wps_pin">Ketik PIN dari jalur akses</string>  
+    <string name="wifi_enable_watchdog_service_summary">Jangan gunakan jaringan Wi-Fi kecuali terdapat sambungan Internet yang bagus</string>  
+    <string name="proxy_error_invalid_host">Nama host yang Anda ketik tidak valid.</string>  
+    <string name="proxy_error_invalid_exclusion_list">Daftar pengecualian yang Anda ketik tidak diformat dengan tepat. Ketik daftar pemisahan koma dari domain yang dikecualikan.</string>  
+    <string name="proxy_error_invalid_port">Port yang Anda ketik tidak valid.</string>  
+    <string name="wifi_setting_connect_type_error">Ada masalah saat mengatur jenis sambungan.</string>  
+    <string name="wifi_priority_type_title">Atur prioritas AP secara manual</string>  
+    <string name="wifi_priority_type_summary">Bolehkan mengatur prioritas untuk setiap jalur akses secara manual</string>  
+    <string name="wifi_priority_settings_title">Pengaturan prioritas AP</string>  
+    <string name="wifi_priority_settings_summary">Klik untuk mengatur prioritas setiap jalur akses</string>  
+    <string name="gsm_to_wifi_connect_type_title">Selular-&gt; Wi-Fi</string>  
+    <string name="wifi_connect_ap_summary">Tentukan jenis sambungan jaringan</string>  
+    <string name="select_ssid_type_title">Memilih ulang di antara SSID</string>  
+    <string name="proxy_action_text">Selesai</string>
+    <string name="wifi_failed_connect_message" msgid="8491902558970292871">"Gagal menyambung ke jaringan"</string>
+    <string name="wifi_failed_forget_message" msgid="1348172929201654986">"Gagal melupakan jaringan"</string>
+    <string name="wifi_failed_save_message" msgid="6650004874143815692">"Gagal menyimpan jaringan"</string>
+
+      <string name="wifi_WEP_transmit_key">"Kode Transmisi"</string>
+      <string name="wifi_WEP_secury_key">"Kode Keamanan"</string>
+      <string name="wifi_security_wapi_certificate">Sertifikat WAPI</string>
+      <string name="wifi_no_cert_for_wapi">Tidak dapat menemukan sertifikasi untuk AP yang sedang tersambung</string>
+      <string name="eap_sim_slot_0">Slot SIM 1</string>
+      <string name="eap_sim_slot_1">Slot SIM 2</string>
+      <string name="eap_sim_aka_airplanemode">Nonaktifkan mode Pesawat untuk menggunakan EAP-SIM/AKA</string>
+      <string name="eap_sim_aka_no_sim_error">Anda harus memasukkan kartu SIM untuk menggunakan EAP-SIM/AKA</string>
+      <string name="eap_sim_aka_no_sim_slot_selected">Anda harus memilih slot SIM untuk menggunakan EAP-SIM/AKA</string>
+      <string name="wifi_ipv4_address">Alamat IPv4</string>
+      <string name="wifi_ipv6_address">Alamat IPv6</string>
+</resources>

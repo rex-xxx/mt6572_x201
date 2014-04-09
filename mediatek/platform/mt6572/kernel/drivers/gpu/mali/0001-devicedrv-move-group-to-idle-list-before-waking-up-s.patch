@@ -1,0 +1,35 @@
+From 0f10e5046c7d942350477caf8b64d55f3029abf9 Mon Sep 17 00:00:00 2001
+From: johant01 <johant01@a20b5ec8-1c04-0410-9aed-99bbe04c040a>
+Date: Wed, 6 Mar 2013 10:42:30 +0000
+Subject: [PATCH] devicedrv: move group to idle list before waking up sleeping
+ workers
+
+This commit fixes Bugzilla #11392.
+
+git-svn-id: http://trd-svn1.trondheim.arm.com/svn/mpd/graphics/sw/S0003-drivers/projects/PR400/branches/base_staging_esb@146500 a20b5ec8-1c04-0410-9aed-99bbe04c040a
+---
+ src/devicedrv/mali/common/mali_pp_scheduler.c | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+
+diff --git a/src/devicedrv/mali/common/mali_pp_scheduler.c b/src/devicedrv/mali/common/mali_pp_scheduler.c
+index 8b6a567..f2f05ee 100644
+--- a/src/devicedrv/mali/common/mali_pp_scheduler.c
++++ b/src/devicedrv/mali/common/mali_pp_scheduler.c
+@@ -712,6 +712,14 @@ void mali_pp_scheduler_job_done(struct mali_group *group, struct mali_pp_job *jo
+ 		 * num_slots == num_slots_idle, so unless we are done working, no
+ 		 * threads will actually be woken up.
+ 		 */
++		if (mali_group_is_virtual(group))
++		{
++			virtual_group_working = MALI_FALSE;
++		}
++		else
++		{
++			_mali_osk_list_move(&(group->pp_scheduler_list), &group_list_idle);
++		}
+ 		_mali_osk_wait_queue_wake_up(pp_scheduler_working_wait_queue);
+ 		mali_pp_scheduler_unlock();
+ 		return;
+-- 
+1.8.0
+

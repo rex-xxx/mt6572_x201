@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="gemini_sim_info_title">ข้อมูล SIM</string>  
+    <string name="gemini_default_sim_title">SIM เริ่มต้น</string>  
+    <string name="gemini_general_settings_title">การตั้งค่าทั่วไป</string>  
+    <string name="gemini_roaming_settings_title">โรมมิ่ง</string>  
+    <string name="gemini_contacts_sim_title">"ผู้ติดต่อ &amp; SIM"</string>  
+    <string name="gemini_contacts_sim_summary">เชื่อมโยงผู้ติดต่อกับ SIM เฉพาะ</string>  
+    <string name="gemini_voice_call">สายสนทนา</string>  
+    <string name="gemini_video_call">สายวิดีโอ</string>  
+    <string name="gemini_data_connection">การเชื่อมต่อข้อมูล</string>  
+    <string name="gemini_msg">ระบบข้อความ</string>  
+    <string name="gemini_default_sim_always_ask">ถามเสมอ</string>  
+    <string name="gemini_intenet_call">สายอินเทอร์เน็ต</string>  
+    <string name="gemini_default_sim_never">ปิด</string>  
+    <string name="gemini_default_sim_3g_off">ปิด</string>  
+    <string name="gemini_sim_info_editor_name">แก้ไขชื่อ SIM</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">บันทึกล้มเหลว</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">ชื่อสำหรับ SIM การ์ดซ้ำกัน</string>  
+    <string name="gemini_sim_info_editor_number">ป้อนหมายเลขโทรศัพท์</string>  
+    <string name="gemini_sim_info_editor_color">ตั้งค่าสีพื้นหลัง</string>  
+    <string name="gemini_sim_info_editor_number_display_format">แสดงหมายเลข</string>  
+    <string name="gemini_no_sim_indicator">ไม่มี SIM การ์ด</string>  
+    <string name="gemini_data_connection_progress_message">"โปรดรอ......"</string>  
+    <string name="gemini_3g_modem_switching_message">"การสลับ SIM จะใช้เวลาประมาณ 10 วินาทีจึงจะสมบูรณ์ โปรดรอ…"</string>  
+    <string name="gemini_3g_modem_switch_confirm_message">"นี่จะสลับบริการ 3G ไปยัง SIM นี้ด้วย ทำต่อหรือไม่? ให้แน่ใจว่า SIM ที่เลือกนี้สนับสนุนบริการ 3G"</string>  
+    <string name="gemini_sim_mode_progress_activating_message">กำลังเปิดทำงาน......</string>  
+    <string name="gemini_sim_mode_progress_deactivating_message">กำลังปิดทำงาน......</string>  
+    <string msgid="7422262558097875757" name="apn_not_set">"ไม่ได้ตั้งค่า"</string>  
+    <string name="gemini_3g_disable_warning_case0">"คุณต้องเปิดการโรมมิ่งข้อมูลสำหรับซิมนี้ก่อน ซึ่งอาจมีค่าธรรมเนียมการโรมมิ่ง! คุณแน่ใจว่าต้องการเปิดการโรมมิ่งข้อมูลและเลือกซิมนี้หรือไม่"</string>  
+    <string name="gemini_3g_disable_warning_case1">"ไม่มีบริการ 3G พร้อมกับ SIM ที่เลือก ซึ่งอาจโหลดข้อมูลได้ช้าลง คุณสามารถเปลี่ยนการตั้งค่าบริการ 3G ได้ภายใต้ การตั้งค่า &gt; บริการไร้สาย &amp; เครือข่าย &gt; เครือข่ายโทรศัพท์มือถือ คุณแน่ใจว่าจะเลือก SIM นี้หรือไม่"</string>  
+    <string name="gemini_3g_disable_warning_case2">"ไม่มีบริการ 3G พร้อมกับ SIM ที่เลือก ซึ่งอาจโหลดข้อมูลได้ช้าลง คุณสามารถเปลี่ยนการตั้งค่าบริการ 3G ได้ภายใต้ การตั้งค่า &gt; การจัดการ SIM คุณแน่ใจว่าจะเลือก SIM นี้หรือไม่"</string>  
+    <string name="gemini_3g_disable_warning_case3">"คุณต้องเปิดใช้งานการโรมมิ่งข้อมูลสำหรับ SIM นี้ก่อน ซึ่งอาจมีค่าใช้จ่ายในการโรมมิ่งเป็นจำนวนเงินมาก! นอกจากนี้ยังไม่มีบริการ 3G พร้อมกับ SIM นี้ ซึ่งอาจจะโหลดข้อมูลได้ช้าลง คุณสามารถเปลี่ยนได้ภายใต้ การตั้งค่า &gt; บริการไร้สาย &amp; เครือข่าย &gt; เครือข่ายโทรศัพท์มือถือ คุณแน่ใจว่าจะเปิดการใช้งานการโรมมิ่งข้อมูลและเลือก SIM นี้หรือไม่"</string>  
+    <string name="gemini_3g_disable_warning_case4">"คุณต้องเปิดใช้งานการโรมมิ่งข้อมูลสำหรับ SIM นี้ก่อน ซึ่งอาจมีค่าใช้จ่ายในการโรมมิ่งเป็นจำนวนเงินมาก! นอกจากนี้ยังไม่มีบริการ 3G พร้อมกับ SIM นี้ ซึ่งอาจจะโหลดข้อมูลได้ช้าลง คุณสามารถเปลี่ยนได้ภายใต้ การตั้งค่า &gt; การจัดการ SIM คุณแน่ใจว่าจะเปิดการใช้งานการโรมมิ่งข้อมูลและเลือก SIM นี้หรือไม่"</string>  
+    <string name="gemini_gsm_umts_network_preferences_title">โหมดเครือข่าย</string>  
+</resources>

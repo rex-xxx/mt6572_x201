@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KeyWordInfos>
+    <KeyWordInfo ProcessName="com.android.phone" ID="1" KeyWord="接電話,拒絕" />
+    <KeyWordInfo ProcessName="com.android.gallery3d" ID="2" KeyWord="拍照,笑一個" />
+    <KeyWordInfo ProcessName="com.android.deskclock" ID="3" KeyWord="等一下,別吵,停止並開機,停止並關機" />
+    <KeyWordInfo ProcessName="com.android.music" ID="4" KeyWord="前一首,後一首,換一首,小聲點,大聲點,暫停,播放" />
+</KeyWordInfos>

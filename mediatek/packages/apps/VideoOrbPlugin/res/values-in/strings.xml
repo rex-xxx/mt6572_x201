@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="plugin_name">Video Orb</string>
+    <string name="ok">"OK"</string>
+    <string name="cancel">"Batal"</string>
+    <string name="plugin_description">Lihat video dan pemutaran terbaru di layar kunci</string>
+    <string name="transcoding_prompt">Persiapan Video</string>
+    <string name="transcoding_prompt_description">Video Orb memerlukan waktu beberapa saat untuk mempersiapkan video. Lanjutkan?</string>
+    <string name="transcoding_progress_format" translatable="false">"%"</string>
+    <string name="transcoding_clip_format" translatable="false">"/"</string>
+    <string name="video_file_name_format" translatable="false">"_yyyyMMdd_HHmmss"</string>
+    <string name="toast_video_add_cancelled">Gagal menambah video</string>
+    <string name="toast_video_unsupported_resolution">Resolusi video tidak didukung.</string>
+    <string name="toast_low_storage" product="nosdcard">"Penyimpanan USB penuh."</string>
+    <string name="toast_low_storage" product="default">"Kartu SD Anda penuh."</string>
+    <string name="toast_invalid_video">Format video tidak didukung.</string>
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">                   
+
+    <com.mediatek.cmmb.app.TVSurfaceView android:id="@+id/surface"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+			android:visibility="invisible"           
+            android:layout_centerInParent="true" />
+	<ViewStub android:id="@+id/audio_box" 
+			android:layout="@layout/audio_box"
+			android:layout_width="match_parent"
+		    android:layout_height="match_parent"/>  
+    <TextView android:id="@+id/player_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@android:drawable/toast_frame"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+        	android:textColor="#ffffffff"
+        	android:shadowColor="#BB000000"
+        	android:shadowRadius="3.25"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom ="true"
+            android:layout_marginBottom="60dip"
+            android:visibility="gone" />                        
+   <RelativeLayout android:id="@+id/progress_indicator"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/black"> 
+	<TextView android:paddingBottom="5dip" android:id="@+id/channel_name0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_centerHorizontal ="true"
+        		android:layout_above="@id/logo"                   
+                android:textColor="#ffffffff" />               
+    <ImageView android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+		android:layout_centerInParent="true"                      
+        />                         
+    <ProgressBar android:id="@android:id/progress"
+            style="@android:style/Widget.ProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:max="10000"
+            android:layout_centerInParent="true"/> 
+    <TextView android:paddingTop="5dip" 
+    			android:id="@+id/notification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20sp"
+				android:layout_centerHorizontal="true"
+				android:layout_below ="@id/logo"				
+                android:textColor="#ffffffff" />               
+    </RelativeLayout>  
+     
+    <ImageView android:id="@+id/unread_eb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_alignParentTop ="true"
+        android:layout_alignParentLeft ="true"
+		android:paddingTop="5dip"
+	    android:paddingRight="5dip"                
+        />                         
+       
+	<TextView android:id="@+id/channel_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="35sp"
+				android:paddingTop="5dip"
+			    android:paddingRight="5dip"                
+                android:layout_alignParentTop ="true"
+                android:layout_alignParentRight ="true"
+                android:textColor="#ff0000ff" />  
+   <ViewStub android:id="@+id/dlg_needsubscrib"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout="@layout/alert_dialog"
+            android:visibility="gone" 
+			/>
+	<ListView 
+			android:id="@+id/channel_list_in_player"
+			android:layout_width="240dp" 
+			android:layout_height="272dp" 
+			android:layout_centerInParent="true"
+			android:orientation="vertical"
+			android:background="@drawable/popup"			
+			android:cacheColorHint="#00000000"		
+			android:visibility="gone"/>
+
+	<ViewStub android:id="@+id/control_panel" 
+			android:layout="@layout/control_panel"
+			android:layout_width="match_parent"
+		    android:layout_height="wrap_content"/>  
+</RelativeLayout>
+

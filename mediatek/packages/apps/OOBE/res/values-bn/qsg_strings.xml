@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="qsg_app_name">দ্রুত শুরু করার গাইড/কুইক স্টার্ট গাইড</string>  
+    <!-- ============================ -->  
+    <!-- quick start guide strings -->  
+    <!-- ============================ -->  
+    <string name="skip_button">বাদ দিন</string>  
+    <string name="ok_button">শুরু</string>  
+    <string name="qsg_title_begin">দ্রুত শুরু করার গাইড/কুইক স্টার্ট গাইড</string>  
+    <string name="qsg_summary_begin">কুইক স্টার্ট গাইড আপনাকে সহায়তাকারী ৫টি পরামর্শ দেবে ও প্রাথমিক পদক্ষেপ এবং হোম স্ক্রিন ব্যবস্থাপনার সাথে আপনাকে পরিচয় করিয়ে দেবে ।</string>  
+    <string name="next">পরবর্তী</string>  
+    <string name="play_again">আবার চালু করুন</string>  
+    <string name="finish">শেষ করুন</string>  
+    <string name="qsg_title2_home_screen">হোম স্ক্রিন দেখুন</string>  
+    <string name="qsg_summary2_home_screen">হোম স্ক্রিনের অন্যান্য পৃষ্ঠা দেখার জন্য বাম বা ডানে সোয়াইপ করুন ।</string>  
+    <string name="qsg_title3_choose_widget">কিছু উইডগেট পছন্দ করুন</string>  
+    <string name="qsg_summary3_choose_widget">আপনার হোম স্ক্রিনে উইডগেট যোগ করার জন্য স্পর্শ করুন এবং ধরে রাখুন ।</string>  
+    <string name="qsg_title4_launch_page">পৃষ্ঠার বিস্তারিত লঞ্চ করুন</string>  
+    <string name="qsg_summary4_launch_page">অপশনের জন্য বিস্তারিত পৃষ্ঠা পপআপ করতে প্রোফাইল ইমেজে টোকা দিন ।</string>  
+    <string name="qsg_title5_view_notification">নোটিফিকেশন দেখুন</string>  
+    <string name="qsg_summary5_view_notification">স্ট্যাটাস বার হোল্ড করুন এবং সব নোটিফিকেশন দেখার জন্য স্লাইড নিচে নামুন ।</string>  
+    <string name="qsg_changesim_title">সিম কার্ড সুইচ করুন</string>  
+    <string name="qsg_changesim_summary">স্ট্যাটাস বার স্লাইড নিচে নামান এবং চালু করার জন্য সিম কার্ড সেবা নির্বাচন করুন ।</string>  
+    <string name="qsg_summary_end">কুইক স্টার্ট গাইডে দেয়া সব পরামর্শ আপনি অবলোকন করেছেন । \n\n আপনি যদি এই গাইডটি আবার দেখতে চান তাহলে "আবার চালু করুন" বোতামটিতে ট্যাপ করতে পারেন । n\n অন্যদিকে আপনার নতুন যন্ত্রটি চালু করার জন্য আপনি "শেষ করুন" বাটনটিতে ট্যাপ করতে পারেন ।</string> 
+</resources>

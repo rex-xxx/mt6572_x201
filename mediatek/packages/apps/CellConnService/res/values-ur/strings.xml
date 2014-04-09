@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">سیل کنکشن کی خدمت!</string>
+    <string name="button_ok">ٹھیک ہے</string>
+    <string name="button_cancel">منسوخ کریں</string>
+    <string name="confirm_radio_title">SIM بند ہے</string>
+    <string name="confirm_radio_msg"> <xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> اب بند ہے۔ کیا آپ اس SIM کارڈ کو آن کرنا چاہتے ہیں؟</string>
+    <string name="confirm_radio_msg_single">طیارے کی وضع آن ہے، کیا آپ اسے بند کرنا چاہتے ہيں؟</string>
+    <string name="confirm_pin_title">SIM مقفل ہے</string>
+    <string name="confirm_pin_msg">"منتخب کردہ SIM کارڈ ابھی مقفل ہے۔ براہ کرم پہلے اسے غیر مقفل کریں۔"</string>
+    <string name="confirm_simmelock_title">SIM ME مقفل ہے</string>
+    <string name="confirm_simmelock_msg">"منتخب کردہ SIM سلاٹ ابھی مقفل ہے۔ براہ کرم پہلے اسے غیر مقفل کریں۔"</string>
+    <string name="confirm_fdn_title">FDN فعال ہے</string>
+    <string name="confirm_fdn_msg">فکسڈ ڈائلنگ نمبر فعال ہے۔</string>
+    <string name="confirm_roaming_title">گشت کی تنبیہہ</string>
+    <string name="confirm_roaming_msg">آپ جو SIM کارڈ استعمال کرنے والے ہیں، وہ اس وقت گشت پر ہے۔ اس وقت کوئی مقامی SIM دستیاب نہيں ہے۔ کیا آپ جاری رکھنا چآہتے ہيں؟</string>
+    <string name="confirm_roaming_withPrefer_msg">آپ جو SIM کارڈ استعمال کرنے والے ہیں، وہ اس وقت گشت پر ہے۔ کیا آپ مقامی SIM کے ذریعے جاری رکھنا چاہتے ہيں؟</string>
+    <string name="confirm_roaming_lbutton">جاری رکھیں</string>
+    <string name="confirm_roaming_rbutton">منسوخ کریں</string>
+    <string name="confirm_roamingWithPrefer_lbutton">مقامی SIM</string>
+    <string name="confirm_roamingWithPrefer_rbutton">گشت کرنے والی SIM</string>
+    <string name="confirm_radio_lbutton">آن کریں</string>
+    <string name="confirm_unlock_lbutton">غیرمقفل کریں</string>
+    <string name="confirm_unlock_fail">عمل منسوخ ہوگیا</string>
+    <string name="confirm_turnon_radio_fail">عمل منسوخ ہوگیا</string>
+    <string name="confirm_permit_roaming_fail">آپ گشت کرنے والی SIM پر یہ عمل منسوخ کرتے ہيں</string>
+    <string name="confirm_sim_locked_message">SIM کارڈ کو مستقل طور پر لاک کردیا گيا ہے</string>
+    <string name="confirm_slot_locked_message">خانے کو مستقل طور پر لاک کردیا گیا ہے</string>
+</resources>
+

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="qsg_app_name">Guida introduttiva</string>  
+    <!-- ============================ -->  
+    <!-- quick start guide strings -->  
+    <!-- ============================ -->  
+    <string name="skip_button">Salta</string>  
+    <string name="ok_button">Avvia</string>  
+    <string name="qsg_title_begin">Guida introduttiva</string>  
+    <string name="qsg_summary_begin">La guida introduttiva fornisce 4 consigli utili e presenta i gesti basici e la gestione della schermata iniziale.</string>  
+    <string name="next">Avanti</string>  
+    <string name="play_again">Esegui di nuovo</string>  
+    <string name="finish">Fine</string>  
+    <string name="qsg_title2_home_screen">Visualizza schermata iniziale</string>  
+    <string name="qsg_summary2_home_screen">Strisciare a sinistra o a destra per visualizzare altre pagine della schermata iniziale.</string>  
+    <string name="qsg_title3_choose_widget">Scegli alcuni widget</string>  
+    <string name="qsg_summary3_choose_widget">Per aggiungere un widget alla schermata iniziale, toccare e tenere premuto.</string>  
+    <string name="qsg_title4_launch_page">Avvia pagina dei dettagli</string>  
+    <string name="qsg_summary4_launch_page">"Toccare l'immagine di un profilo per visualizzare le opzioni della pagina dei dettagli."</string>  
+    <string name="qsg_title5_view_notification">Visualizza notifiche</string>  
+    <string name="qsg_summary5_view_notification">Tenere la barra di stato e farla scorrere verso il basso per visualizzare tutte le notifiche.</string>  
+    <string name="qsg_changesim_title">Cambia scheda SIM</string>  
+    <string name="qsg_changesim_summary">Far scorrere verso il basso la barra di stato e selezionare la scheda SIM di servizio per il funzionamento.</string>  
+    <string name="qsg_summary_end">Si sono osservati tutti i consigli della guida introduttiva. \n\nSe lo si desidera, è possibile toccare il tasto "Esegui di nuovo" per visualizzare nuovamente la guida.\n\nIn alternativa, è possibile toccare il tasto "Fine" per utilizzare il nuovo dispositivo.</string> 
+</resources>

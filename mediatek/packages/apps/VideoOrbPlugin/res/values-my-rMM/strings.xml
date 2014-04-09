@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="plugin_name">Video Orb</string>
+    <string name="ok">လုပ်မည်</string>
+    <string name="cancel">မလုပ်ပါ</string>
+    <string name="plugin_description">သင့်နောက်ဆုံးဗီဒီယိုကို ကြည့်ပြီး သော့ခတ်ထားသည့် စကရင်တွင် ဖွင့်ပါ</string>
+    <string name="transcoding_prompt">ဗီဒီယိုပြင်ဆင်နေဆဲ</string>
+    <string name="transcoding_prompt_description">ဗီဒီယိုများကို ပြင်ဆင်ရန် Video Orb မှာ အချိန်အနည်းငယ် ယူလိမ့်မည်။ သင်ဆက်လုပ်လိုပါသလား?</string>
+    <string name="transcoding_progress_format" translatable="false">"%"</string>
+    <string name="transcoding_clip_format" translatable="false">"/"</string>
+    <string name="video_file_name_format" translatable="false">"_yyyyMMdd_HHmmss"</string>
+    <string name="toast_video_add_cancelled">ဗီဒီယိုထည့်ခြင်းမအောင်မြင်ပါ</string>
+    <string name="toast_video_unsupported_resolution">ဗီဒီယိုအရည်အသွေးကို အထောက်အပံ့မပေးပါ</string>
+    <string name="toast_low_storage" product="nosdcard">သင့် USB သိမ်းဆည်းမှုပစ္စည်းပြည့်နေပြီ</string>
+    <string name="toast_low_storage" product="default">သင့် SD ကဒ်မှာ ပြည့်နေပါသည်။</string>
+    <string name="toast_invalid_video">အထောက်အပံ့မပေးသော ဗီဒီယိုပုံစံ</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">ساعت جهانی</string>
+    <string name="current_time_text">جاری</string>
+    <string name="another_city_text">افزودن</string>
+    <string name="ime_action_done">انجام</string>
+    <string name="a_city_selected">يک شهر انتخاب شد.</string>
+    <string name="search_city">جستجوی شهر</string>
+    <string name="next">بعدی</string>
+    <string name="select_right_city">متاسفانه، چنین شهری وجود ندارد.</string>
+    <string name="clock_loading">در حال بارگذاری\u2026</string>
+	<string name="add_new_city">افزودن شهر جدید</string>  
+    <string name="delete_city">حذف شهر</string>
+    <string name="delete_city_info">شهر حذف خواهد شد</string>  
+    <string name="deleteok">حذف</string>
+    <string name="cancel">لغو</string>
+	<string name="add_city">برای افزودن شهر جدید، نماد را فشار دهید</string>
+    <string name="has_chosen">انتخاب شده است.</string>
+</resources>
+

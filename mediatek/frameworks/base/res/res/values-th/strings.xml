@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+   
+    <string name="badPin2">PIN2 เดิมที่คุณพิมพ์ไม่ถูกต้อง</string>
+    <string name="badPuk2">PUK2 ที่คุณพิมพ์ไม่ถูกต้อง</string>
+    <string name="checkPwdLen">ตรวจสอบรหัสผ่านของคุณว่าอยู่ระหว่าง 4 ถึง 8 หลัก</string>
+    <string name="pinNotEnabled">โปรดเปิดทำงาน PIN ก่อนที่จะเปลี่ยนแปลง</string>
+    <string name="puk1Blocked">PIN ถูกบล็อก</string>
+    <string name="puk2Blocked">PIN2 ถูกบล็อก</string>
+    <string name="fdnFailMmi">ล้มเหลวในการตรวจสอบ FDN</string>
+    <string name="callBarringFailMmi">ล้มเหลวในการห้ามโทร</string>
+    <string name="Pin2Mmi">PIN2 เปลี่ยน</string>
+    <string name="PukMmi">ปลดบล็อก PIN</string>
+    <string name="Puk2Mmi">ปลดบล็อก PIN2</string>
+    <string name="serviceProvisioned">เปิดให้บริการแล้ว</string>
+    <string name="serviceUnknown">ปัญหาในการเชื่อมต่อ หรือรหัส MMI ไม่ถูกต้อง</string>
+    <string name="cfServiceNotForwarded">ม่ได้โอน</string>
+    <string name="permlab_receiveCbSms">ได้รับ CB SMS</string>
+    <string name="permdesc_receiveCbSms">อนุญาตให้แอปพลิเคชั่นรับ และประมวลผลข้อความ CB SMS แอปพลิเคชั่นที่ประสงค์ร้ายอาจตรวจดูข้อความของคุณ หรือลบข้อความโดยไม่แสดงให้คุณเห็น</string>
+    <string name="keyguard_password_enter_puk_code">ป้อนรหัส PUK</string>
+    <string name="keyguard_password_wrong_puk_code">รหัส PUK ไม่ถูกต้อง!</string>
+    <string name="keyguard_password_enter_new_pin_code">ป้อน PIN ใหม่</string>
+    <string name="keyguard_password_Confirm_pin_code">ยืนยัน PIN ใหม่</string>
+    <string name="invalidPuk">ป้อนตัวเลข 8 ตัว</string>
+    <string name="sim_permanently_locked">การป้อนรหัส PUK ที่ไม่ถูกต้องมากกว่า 10 ครั้ง ทำให้ SIM การ์ดถูกล็อคอย่างถาวร</string>
+    <string name="pin_length_indicate">(4-8 หลัก)</string>
+    <string name="puk_length_indicate">(8 หลัก)</string>
+    <string name="one_retry_left">เหลือการลอง 1 ครั้ง</string>
+    <string name="retries_left">เหลือ: <xliff:g id="number">%d</xliff:g></string>
+    <string name="invalid_imei">IMEI ไม่ถูกต้อง</string>
+    <string name="same_imei">IMEI เดียวกัน</string>
+    <string name="unable_launch_the_ap">ไม่สามารถเปิดแอปพลิเคชั่น</string>
+    <string name="keyguard_password_enter_sim1_pin_code">ป้อนรหัส SIM1 PIN </string>
+    <string name="RestrictedChangedTitle_SIM1">การเข้าถึง SIM1 แบบจำกัดถูกเปลี่ยน</string>
+    <string name="RestrictedChangedTitle_SIM2">การเข้าถึง SIM2 แบบจำกัดถูกเปลี่ยน</string>
+    <string name="keyguard_password_enter_sim2_pin_code">ป้อนรหัส SIM2 PIN </string>
+    <string name="keyguard_password_wrong_sim1_pin_code">รหัส SIM1 PIN ไม่ถูกต้อง!</string>
+    <string name="keyguard_password_wrong_sim2_pin_code">รหัส SIM2 PIN ไม่ถูกต้อง!</string>
+    <string name="keyguard_password_enter_sim1_puk_code">ป้อนรหัส SIM1 PUK </string>
+    <string name="keyguard_password_enter_sim2_puk_code">ป้อนรหัส SIM2 PUK </string>
+    <string name="lockscreen_sim1_puk_locked_message">SIM การ์ด 1 ถูกล็อคด้วย PUK</string>
+    <string name="lockscreen_sim2_puk_locked_message">SIM การ์ด 2 ถูกล็อคด้วย PUK</string>
+    <string name="choose_bootup_mode">โปรดเลือก SIM</string>
+    <string name="choose_gprs_mode">โปรดรีเซ็ต SIM การเชื่อมต่อข้อมูลของคุณ</string>
+    <string name="sim_close">SIM การ์ดปิด</string>
+    <string name="lockscreen_sim_puk_locked_message_short">PUK ถูกล็อค</string>
+    <string name="lockscreen_sim_locked_message_short">SIM การ์ดถูกล็อค</string>
+    <string name="simlock_slot_locked_message">"สล็อตถูกล็อคถาวร"</string>
+    <string name="simlock_entersimmelock">"ป้อน SIM ME ล็อค"</string>
+    <string name="slot_id">ช่องเสียบ <xliff:g id="number">%d</xliff:g>:</string>
+    <string name="new_simcard">การ์ด SIM ใหม่</string>
+    <string name="lockscreen_missing_sim_dialog_message">"SIM การ์ดไม่ได้เสียบอยู่ โปรดตรวจดูให้แน่ใจว่า SIM การ์ดเสียบอยู่อย่างแน่นหนา"</string>
+    <string name="keyguard_pinword_enter_pinword_code">ป้อน PIN เพื่อปลดล็อค</string>
+    <string name="lockscreen_pinword_error">PIN ไม่ถูกต้อง, โปรดลองอีกครั้ง</string>
+    <string name="no_favorite_contacts">ไม่มีรายชื่อโปรด</string>
+    <string name="contact_widget_loading">กำลังโหลด\u2026</string>
+    <string name="volume_fm">ระดับเสียง FM</string>
+    <string name="volume_matv">ระดับเสยง TV มือถือ </string>
+
+    <string name="aerr_application_lowmem">แอปพลิเคชั่น %1$s (กระบวนการ %2$s) หยุดโดยไม่ได้คาดหมาย นี่อาจเกิดขึ้นเนื่องจากพื้นที่หน่วยความจำเหลือน้อย โปรดปลดปล่อยหน่วยความจำ และลองอีกครั้ง</string>
+    <string name="aerr_process_lowmem">กระบวนการ <xliff:g id="process">%1$s</xliff:g> หยุดโดยไม่ได้คาดหมาย นี่อาจเกิดขึ้นเนื่องจากพื้นที่หน่วยความจำเหลือน้อย โปรดปลดปล่อยหน่วยความจำ และลองอีกครั้ง</string>
+
+    <string name="free_memory_btn">"ปลดปล่อยหน่วยความจำ"</string>
+    <string name="free_memory_text">"หน่วยความจำเหลือน้อย โปรดปลดปล่อยหน่วยความจำ"</string>
+    <string name="mem_low_title">โปรดปลดปล่อยหน่วยความจำ</string>
+<string name="lockscreen_password_error">รหัสผ่านผิดพลาด โปรดลองอีกครั้ง</string>
+
+    
+   <!-- add new style for mtk streaming video player start -->
+   <string name="media_controller_buffering">"กำลังบัฟเฟอร์ %d%%..."</string>
+   <string name="media_controller_live">"สด"</string>
+   <string name="media_controller_playing">"กำลังเล่น"</string>
+   <string name="media_controller_connecting">"กำลังเชื่อมต่อ..."</string>
+   <string name="media_controller_weak_signal">"สัญญาณอ่อน"</string>
+   <string name="VideoView_error_text_bad_file">"ไฟล์ไม่ดี วิดีโอนี้ไม่สามารถเล่นได้"</string>
+   <string name="VideoView_error_text_cannot_connect_to_server">"ไม่สามารถเชื่อมต่อไปยังเซิร์ฟเวอร์"</string>
+   <string name="VideoView_error_text_type_not_supported">"ชนิดไฟล์มีเดียไม่สนับสนุน"</string>
+   <string name="VideoView_error_text_drm_not_supported">"มีการป้องกัน DRM  วิดีโอนี้ไม่สามารถเล่นได้"</string>
+   <!-- add new style for mtk streaming video player end -->
+
+   <!-- added new string for SearchDialog, used to indicate WikiPedia--> 
+   <string name="wikiPediaName">wikipedia_th</string>
+   
+    <!-- support TextView undo tool bar -->
+    <string name="redo">ทำซ้ำ</string>
+    <string name="undo">เลิกทำ</string>
+    <string name="undoAll">เลิกทำทั้งหมด</string>
+   <string name="new_sim">SIM ใหม่</string>
+
+    <!-- support RecipientsView recipient bar -->
+    <string name="edit">แก้ไข</string>
+    <string name="delete">ลบ</string>
+    
+     <!-- string for gemini enhancement-->
+    <string name="sim_card_changed_dialog_title">เปลี่ยนซิมการ์ดแล้ว</string>
+    <string name="change_setting_for_onenewsim">ตรวจพบ SIM ใหม่
+ขณะนี้การตั้งค่า SIM เริ่มต้นคือ:</string>
+   <string name="change_setting_for_twonewsim">ตรวจพบ SIM ใหม่
+ขณะนี้การตั้งค่า SIM เริ่มต้นคือ:</string>
+    <string name="default_sim_setting_prompt">ขณะนี้การตั้งค่า SIM เริ่มต้นคือ:</string>
+    <string name="change_settings">เปลี่ยน</string>
+    <string name="sim_card_removed">นำซิมการ์ดออกแล้ว</string>
+    <string name="sim_card_swapped">สลับซิมการ์ดแล้ว</string>
+    <string name="keyguard_voice_call">สายสนทนา:</string>
+    <string name="keyguard_video_call">วิดีโอคอล:</string>      
+    <string name="keyguard_sms">SMS:</string>
+    <string name="keyguard_data">การเชื่อมต่อข้อมูล:</string>
+    <string name="keyguard_alwaysask">เสมอ</string>
+    <string name="keyguard_data_none">ปิด</string>
+    <string name="keyguard_close">ปิด</string>
+    <string name="dismiss">ยกเลิก</string>
+    <string name="keyguard_wrong_code_input">รหัสผิด.</string>
+    <string name="keyguard_code_length_prompt">ป้อนตัวเลข 4-8 ตัว.</string>
+    <string name="keyguard_code_donnot_mismatch">ไม่ตรง.</string>
+    <string name="for_text">สำหรับ</string>
+    <string name="keyguard_internal_call">สายอินเทอร์เน็ต</string>
+    <string name="keyguard_not_set">ไม่ได้ตั้งค่า</string>
+    <string name="network_searching">กำลังค้นหาเครือข่ายใหม่</string>
+    <string name="searching_simcard">Detecting...</string>
+    
+    <string name="for_first_simcard">สำหรับ SIM แรก</string>
+    <string name="for_second_simcard">สำหรับ SIM ที่สอง</string>
+    <string name="for_third_simcard">สำหรับ SIM ที่สาม</string>
+    <string name="for_fourth_simcard">สำหรับ SIM ที่สี่</string>
+    <string name="missed_call_display">เบอร์ที่ไม่ได้รับสาย:</string>
+   <string name="missed_message_display">ข้อความที่ไม่ได้อ่าน:</string>
+     <!-- string for gemini enhancement end-->
+
+    <!-- For the unlock screen, Information message shown in dialog when user has too many failed attempts -->
+    <string name="lockscreen_pin_too_many_failed_attempts_dialog_message">"คุณป้อน PIN ของคุณไม่ถูกต้อง  <xliff:g id="NUMBER_0">%d</xliff:g> ครั้ง"\n\n"โปรดลองอีกครั้งในอีก <xliff:g id="NUMBER_1">%d</xliff:g> วินาที"</string>
+    <string name="lockscreen_password_too_many_failed_attempts_dialog_message">"คุณป้อนรหัสผ่านของคุณไม่ถูกต้อง  <xliff:g id="NUMBER_0">%d</xliff:g> ครั้ง "\n\n"โปรดลองอีกครั้งในอีก <xliff:g id="NUMBER_1">%d</xliff:g> วินาที"</string>
+    
+    <string name="ext_media_checking_notification_title_sd2">กำลังเตรียม SD การ์ด2</string> 
+    
+    <!-- add for drm start -->
+    <string name="drm_protection_status">สถานะการป้องกัน:</string>
+    <string name="drm_can_forward">สามารถส่งต่อได้</string>
+    <string name="drm_can_not_forward">ไม่สามารถส่งต่อได้</string>
+    <string name="drm_no_limitation">ไม่มีข้อจำกัด</string>
+    <string name="drm_no_license">ไม่มีใบอนุญาต DRM</string>
+    <string name="drm_begin">เริ่ม:</string>
+    <string name="drm_end">สิ้นสุด:</string>
+    <string name="drm_use_left">เหลือจำนวน:</string>
+    <string name="drm_protectioninfo_renew">ต่ออายุ</string>
+    <string name="drm_protectioninfo_title">ข้อมูลการป้องกัน</string>
+    <string name="drm_licenseacquisition_title">การรับใบอนุญาต DRM</string>
+    <string name="drm_licenseacquisition_message">%1$s ไม่มีใบอนุญาต DRM ที่ใช้ได้ คุณสามารถกด “ต่ออายุ” เพื่อรับใบอนุญาต DRM</string>
+    <string name="drm_toast_license_expired">ใบอนุญาต DRM หมดอายุแล้ว</string>
+    <string name="drm_forwardforbidden_title">ห้ามส่งต่อ</string>
+    <string name="drm_forwardforbidden_message">ไฟล์ที่ป้องกันบางไฟล์ไม่สามารถถูกส่งต่อได้</string>
+    <string name="drm_license_install_success">การติดตั้งใบอนุญาต DRM สำเร็จ</string>
+    <string name="drm_license_install_fail">การติดตั้งใบอนุญาต DRM ล้มเหลว</string>
+    <string name="drm_secure_timer_title">นาฬิการะบบป้องกัน DRM ไม่ถูกต้อง</string>
+    <string name="drm_secure_timer_message">คุณไม่สามารถใช้ไฟล์ที่มีการป้องกัน DRM ได้ ให้แน่ใจว่ามีการเชื่อมต่อข้อมูล</string>
+    <string name="drm_consume_title">ใช้สิทธิ์ DRM</string>
+    <string name="drm_consume_message">การกระทำของคุณจะใช้สิทธิ์ DRM</string>
+    <!-- add for drm end -->
+
+    <string name="recip_unsupport_operator">RecipientsView ไม่สนับสนุนการทำงานของตัวอักษร โปรดใช้แถบเครื่องมือเพื่อดำเนินการกับผู้รับ</string>
+    <string name="recip_unsupport_selection">ขออภัย คุณไม่สามารถย้ายเครื่องหมายหมวกไปยังจุดเริ่มต้น เมื่อมีผู้รับใน RecipientsView</string>
+
+    <string name="default_label" >"ปลุก"</string>
+    <string name="alarm_alert_snooze_text" >"ปิดเสียงเตือนชั่วคราว"</string>
+    <string name="dismiss_power_on">ยกเลิกและเปิดเครื่อง</string>
+    <string name="dismiss_power_off">ยกเลิกและปิดเครื่อง</string>
+    <string name="every_day">"ทุกวัน"</string>
+    <string name="never">"ไม่ใช้"</string>
+    <string name="day_concat">", "</string>
+
+    <string name="gps_time_sync_fail_str">ไม่สามารถรับเวลาจาก GPS ได้</string>
+
+    <string name="usb_ums_notification_title">เชื่อมต่อเป็นที่เก็บข้อมูล USB</string>
+    <string name="usb_charging_notification_title">ชาร์จผ่าน USB เท่านั้น</string>
+
+    <string name="sim_missing_slot1">ช่องเสียบ 1: ไม่พบซิมการ์ด</string>  
+    <string name="sim_missing_slot2">ช่องเสียบ 2: ไม่พบซิมการ์ด</string>  
+    <string name="sim_missing">ไม่พบซิมการ์ด</string>  
+    <string name="sim_missing_detail">โปรดตรวจสอบว่าซิมการ์ดพร้อมใช้งาน</string>
+
+    <!-- add for webview find -->
+    <string name="find_previous">ก่อนหน้า</string>
+    <string name="find_next">ต่อไป</string>
+
+    <string name="tethered_notification_message_for_hotspot">
+        <xliff:g id="connected">%1$d</xliff:g> เชื่อมต่อแล้ว
+        <xliff:g id="blocked">%2$d</xliff:g> บล็อก
+    </string>
+    <string name="default_wallpaper_name">"เริ่มต้น"</string> 
+    <string name="invalid_sim_title">SIM การ์ดไม่ถูกต้อง</string>
+    <string name="invalid_sim_message">ไม่รู้จัก UIM/SIM การ์ด</string>
+    <!-- voice unlock start -->
+    <string name="voice_unlock_service_error">ข้อผิดพลาดบริการปลดล็อกด้วยเสียง</string>
+    <string name="voice_unlock_password_wrong">ขออภัย ไม่สามารถระบุเสียงของคุณได้</string>
+    <string name="voice_unlock_noisy">เสียงดังเกินไปจนได้ยิน\เสียงของคุณไม่ชัดเจน</string>
+    <string name="voice_unlock_weak">ไม่ได้\ยินเสียงของคุณ</string>
+    <string name="voice_unlock_media_playing">การปลดล็อกด้วยเสียงถูกปิดการใช้งานระหว่างการเล่นสื่อ</string>
+    <string name="voiceunlock_multiple_failures">เสียงดังที่สุด เกินจำนวนความพยายามในการปลดล็อก</string>    
+    <!-- voice unlock end -->
+
+    <string name="wifi_display_bt_hdmi_off_wfd_on">บลูทูธและ HDMI จะถูกปิดเมื่อคุณเปิดการแสดงผลแบบไร้สาย คุณต้องการทำต่อหรือไม่?</string> 
+    <string name="wifi_display_wfd_off_hdmi_on">การแสดงผลแบบไร้สายจะถูกปิดเมื่อคุณเปิด HDMI คุณต้องการทำต่อหรือไม่?</string> 
+    <string name="wifi_display_wfd_off_bt_on">จอไร้สายจะปิดการทำงานเมื่อคุณเปิดบลูทูธ คุณต้องการทำต่อหรือไม่</string>
+    <string name="wifi_display_wifi_p2p_disconnect_wfd_connect">การเชื่อมต่อ Wi-Fi Direct จะถูกยกเลิกเมื่อคุณเชื่อมต่อกับอุปกรณ์จอไร้สาย คุณต้องการทำต่อหรือไม่</string>
+    <!-- Add for AT&T to show toast when pass pin/puk lock -->
+    <string name="pin_pass">รหัสรับการยอมรับ</string>
+    <string name="puk_pass">ยกเลิกการปิดกั้น PIN</string>
+    <!-- MountService start -->
+    <string name="sdcard_ready_title">การ์ด SD พร้อม</string>
+    <string name="sdcard_select_default_path">ท่านต้องการเปลี่ยนดิสก์เริ่มต้นในการเขียนหรือไม่?</string>
+    <string name="sdcard_default_path_change">ดิสก์เริ่มต้นในการเขียนจะเปลี่ยนเป็นหน่วยจัดเก็บข้อมูลของโทรศัพท์</string>
+    <!-- MountService end -->
+</resources>
+

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mediatek.oobe.utils.OOBERootView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/oobe_root_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_panel" />
+
+    <Spinner
+        android:id="@+id/language_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/emergcy_call_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="12dp"
+        android:drawableLeft="@*android:drawable/ic_emergency"
+        android:text="@*android:string/lockscreen_emergency_call" 
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/sp_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/welcome_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/oobe_welcome" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_weight="1"
+        android:drawSelectorOnTop="false"
+        android:scrollbarAlwaysDrawVerticalTrack="true" />
+
+    <include layout="@layout/progressbar" />
+
+    <include layout="@layout/button_panel" />
+
+</com.mediatek.oobe.utils.OOBERootView>

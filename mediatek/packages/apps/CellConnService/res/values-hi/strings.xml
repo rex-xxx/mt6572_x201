@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="confirm_radio_msg">  %1$s को अब बंद कर दिया गया है. क्या आप इस SIM कार्ड को चालू करना चाहेंगे?</string>
+    <string name="button_cancel">रद्द करें</string>
+    <string name="app_name">CellConnectionService</string>
+    <string name="confirm_fdn_title">FDN सक्षम किया गया</string>
+    <string name="button_ok">ओके</string>
+    <string name="confirm_roaming_title">रोमिंग चेतावनी</string>
+    <string name="confirm_simmelock_title">SIM ME लॉक है</string>
+    <string name="confirm_pin_title">SIM लॉक है</string>
+    <string name="confirm_radio_title">SIM बंद कर दिया गया है</string>
+    <string name="confirm_roaming_msg">जो SIM कार्ड आप उपयोग करने वाले हैं वह अब रोमिंग है. अब कोई स्थानीय SIM उपलब्ध नहीं है. क्या आप जारी रखना चाहेंगे?</string>
+	<string name="confirm_roaming_withPrefer_msg">जो SIM कार्ड आप उपयोग करने वाले हैं वह अब रोमिंग पर है. क्या आप स्थानीय SIM द्वारा जारी रखना चाहेंगे?</string>
+	<string name="confirm_roaming_lbutton">जारी रखें</string>
+	<string name="confirm_roaming_rbutton">रद्द करें</string>
+	<string name="confirm_roamingWithPrefer_lbutton">स्थानीय SIM</string>
+	<string name="confirm_roamingWithPrefer_rbutton">रोमिंग SIM</string>
+    <string name="confirm_fdn_msg">निश्चित डायलिंग नंबर सक्षम किया हुआ है.</string>
+    <string name="confirm_pin_msg">चुना हुआ SIM कार्ड अब लॉक किया हुआ है. कृपया पहले इसे अनलॉक करें.</string>
+    <string name="confirm_simmelock_msg">चुना हुआ SIM स्लॉट अब लॉक किया हुआ है. कृपया पहले इसे अनलॉक करें.</string>
+    <string name="confirm_radio_lbutton">चालू करें</string>
+    <string name="confirm_turnon_radio_fail">आपरेशन रद्द कर दिया गया</string>
+    <string name="confirm_unlock_fail">आपरेशन रद्द कर दिया गया</string>
+    <string name="confirm_unlock_lbutton">अनलॉक</string>
+    <string name="confirm_permit_roaming_fail">आपने यह क्रिया रोमिंग SIM पर रद्द की है</string>
+   <string name="confirm_radio_msg_single">हवाई जहाज मोड अब चालू कर दिया गया है, क्या आप बंद करना चाहेंगे? </string>
+   <string name="confirm_sim_locked_message">SIM कार्ड स्थायी रूप से लॉक कर दिया गया है</string>
+   <string name="confirm_slot_locked_message">स्लॉट स्थायी रूप से लॉक कर दिया गया है</string>
+</resources>
+

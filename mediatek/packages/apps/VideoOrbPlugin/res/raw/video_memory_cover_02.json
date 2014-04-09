@@ -1,0 +1,22 @@
+	 {"LayName": "cover-02.png", "LayWidth": 2.133333, "LayHeight": 1.000000, "LayID": 211, "ParentID": 0, "LayIn": 0.00, "LayDur": 30.03, "CompIn": 0.00, "CompDur": 30.03, "Normalization": true,
+		"SourcePath": "C:/DocumentsandSettings/mtk03593/Desktop/VideoOrb/Resource/cover-02.png",
+		"Version": "050941839",
+			 	"Marker": { 
+				 }, 
+				 "AnchorPoint": { 
+					"X": 0.50, "Y": 0.50, "Z": 0.00
+					 }, 
+				 "Position": { 
+					"Type":[ 12.00 , 12.00 ],
+					"Time":[ 1.33 , 30.00 ],
+					"X":[ 1.07 , -0.04 ],
+					"Y":[ 0.50 , 0.50 ],
+					"Z":[ 1200.00 , 1200.00 ],
+					"InTanX":[ 0.00 , 0.00 ],
+					"InTanY":[ 0.00 , 0.00 ],
+					"InTanZ":[ 0.00 , 0.00 ],
+					"OutTanX":[ 0.00 , 0.00 ],
+					"OutTanY":[ 0.00 , 0.00 ],
+					"OutTanZ":[ 0.00 , 0.00 ]
+				}
+	}

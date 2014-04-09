@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <skip/>  
+    <string-array name="wifi_status"> 
+        <item>ဖြန့်ကျက်စူးစမ်းနေသည်\u2026</item>  
+        <item>ချိတ်ဆက်နေသည်\u2026</item>  
+        <item>စစ်မှန်ကြောင်းအတည်ပြုနေသည်\u2026</item>  
+        <item>IP လိပ်စာကို ရယူနေသည်\u2026</item>  
+        <item>ချိတ်ဆက်ခဲ့သည်</item>  
+        <item>ရပ်ဆိုင်းခဲ့သည်</item>  
+        <item>ဖြုတ်နေသည်\u2026</item>  
+        <item>ဖြုတ်ခဲ့သည်</item>  
+        <item>မအောင်မြင်ပါ</item>  
+        <item>Unsuccessful</item> 
+    </string-array>  
+    <skip/>  
+    <string-array name="wifi_status_with_ssid"> 
+        <item>ဖြန့်ကျက်စူးစမ်းနေသည်\u2026</item>  
+        <item> 
+            <xliff:g id="network_name">%1$s</xliff:g> ကို ချိတ်ဆက်နေသည်\u2026
+        </item>  
+        <item> 
+            <xliff:g id="network_name">%1$s</xliff:g> နှင့် စစ်မှန်ကြောင်းအတည်ပြုနေသည်\u2026
+        </item>  
+        <item> 
+            <xliff:g id="network_name">%1$s</xliff:g> မှ IP လိပ်စာကို ရယူနေသည်\u2026
+        </item>  
+        <item> 
+            <xliff:g id="network_name">%1$s</xliff:g> ကို ချိတ်ဆက်ခဲ့သည်
+        </item>  
+        <item>ရပ်ဆိုင်းခဲ့သည်</item>  
+        <item> 
+            <xliff:g id="network_name">%1$s</xliff:g> မှ ဖြုတ်နေသည်\u2026
+        </item>  
+        <item>ဖြုတ်ခဲ့သည်</item>  
+        <item>မအောင်မြင်ပါ</item>  
+        <item>Unsuccessful</item> 
+    </string-array>  
+    <string-array name="wifi_signal"> 
+        <item>ညံ့</item>  
+        <item>သင့်</item>  
+        <item>ကောင်း</item>  
+        <item>အလွန်ကောင်း</item> 
+    </string-array>  
+    <string-array name="wifi_sleep_policy_entries"> 
+        <item>ဖန်သားပြင် ပိတ်သည့်အခါ</item>  
+        <item>ပလပ်တပ်ထားသည့်အခါ လုံးဝ မပြုလုပ်ပါနှင့်</item>  
+        <item>လုံးဝ</item> 
+    </string-array>  
+    <skip/>  
+    <string-array name="wifi_connect_type_entries"> 
+        <item>အလိုအလျောက် ချိတ်ဆက်ရန်</item>  
+        <item>ကိုယ်တိုင် ချိတ်ဆက်ရန်</item>  
+        <item>အမြဲတမ်း မေးပါ</item> 
+    </string-array>  
+    <string-array name="wifi_frequency_band_entries"> 
+        <item>အလိုအလျောက်</item>  
+        <item>၅ GHz သာ</item>  
+        <item>၂.၄ GHz သာ</item> 
+    </string-array>  
+    <string-array name="wifi_sleep_policy_entries_wifi_only"> 
+        <item>အမြဲတမ်း</item>  
+        <item>ပလပ်တပ်ထားသည့်အခါသာ</item>  
+        <item>ဘယ်တော့မျှ</item> 
+    </string-array>  
+    <string-array name="wifi_ip_settings"> 
+        <item>တည်ငြိမ်သော</item>  
+        <item>Static</item> 
+    </string-array>  
+    <string-array name="wifi_proxy_settings"> 
+        <item>ဘာမျှမရှိ</item>  
+        <item>ကိုယ်တိုင်လုပ်ဆောင်ရန်</item> 
+    </string-array>  
+    <string-array name="auto_time_entries"> 
+        <item>ကွန်ယက်ကပေးသော အချိန်ကို အသုံးပြုရန်</item>  
+        <item>GPS ကပေးသော အချိန်ကို အသုံးပြုရန်</item>  
+        <item>ပိတ်သည်</item> 
+    </string-array> 
+    <string-array name="wifi_WEP_security_type"> 
+        <item>အလိုအလျောက်</item>  
+        <item>WEP ASCII</item>  
+        <item>WEP ဆဋ္ဌဒဿမ</item> 
+    </string-array>  
+</resources>

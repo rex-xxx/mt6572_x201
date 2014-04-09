@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="qsg_app_name">Hızlı Başlangıç Kılavuzu</string>  
+    <!-- ============================ -->  
+    <!-- quick start guide strings -->  
+    <!-- ============================ -->  
+    <string name="skip_button">Atla</string>  
+    <string name="ok_button">Başlat</string>  
+    <string name="qsg_title_begin">Hızlı Başlangıç Kılavuzu</string>  
+    <string name="qsg_summary_begin">Bu Hızlı Başlangıç kılavuzu size 4 yardımcı ipucu verecek ve temel hareketler ve giriş ekranı yönetimini tanıtacaktır.</string>  
+    <string name="next">İleri</string>  
+    <string name="play_again">Yeniden oyna</string>  
+    <string name="finish">Bitir</string>  
+    <string name="qsg_title2_home_screen">Giriş ekranını göster</string>  
+    <string name="qsg_summary2_home_screen">Giriş ekranının diğer sayfalarını görüntülemek için sola veya sağa vurun.</string>  
+    <string name="qsg_title3_choose_widget">Bazı ekran araçlarını seç</string>  
+    <string name="qsg_summary3_choose_widget">Giriş ekranınıza ekran aracı eklemek için dokunun ve bekleyin.</string>  
+    <string name="qsg_title4_launch_page">Ayrıntı sayfasını başlat</string>  
+    <string name="qsg_summary4_launch_page">Seçenekler için ayrıntı sayfasını göstermek üzere profil görüntüsüne dokunun.</string>  
+    <string name="qsg_title5_view_notification">Bildirimleri göster</string>  
+    <string name="qsg_summary5_view_notification">ve tüm bildirimleri göstermek için aşağı kaydırın.</string>  
+    <string name="qsg_changesim_title">SIM kart değiştir</string>  
+    <string name="qsg_changesim_summary">Durum çubuğunu aşağı kaydırın ve çalıştırılacak hizmet SIM kartını seçin.</string>  
+    <string name="qsg_summary_end">Hızlı başlangıç kılavuzunda verilen tüm ipuçlarından. \n\nİsterseniz, bu kılavuzu tekrar göstermek için "yeniden oynat"a dokunabilirsiniz.\n\nAlternatif olarak, yeni aygıtınızı çalıştırmak için "Bitir" düğmesine dokunabilirsiniz.</string> 
+</resources>

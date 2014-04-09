@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="gemini_sim_info_title">Informações do SIM</string>  
+    <string name="gemini_default_sim_title">SIM padrãoi</string>  
+    <string name="gemini_general_settings_title">Configurações gerais</string>  
+    <string name="gemini_roaming_settings_title">Deslocamento</string>  
+    <string name="gemini_contacts_sim_title">"Contatos &amp; SIM"</string>  
+    <string name="gemini_contacts_sim_summary">Contatos associados com um SIM específico</string>  
+    <string name="gemini_voice_call">Chamada de voz</string>  
+    <string name="gemini_video_call">Chamada de vídeo</string>  
+    <string name="gemini_data_connection">Conexão de dados</string>  
+    <string name="gemini_msg">Mensagem</string>  
+    <string name="gemini_default_sim_always_ask">Sempre perguntar</string>  
+    <string name="gemini_intenet_call">Chamada de Internet</string>  
+    <string name="gemini_default_sim_never">Desligado</string>  
+    <string name="gemini_default_sim_3g_off">Desligar</string>  
+    <string name="gemini_sim_info_editor_name">Editar nome do SIM</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">Salvar falhou</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">Duplicar nome para cartão SIM</string>  
+    <string name="gemini_sim_info_editor_number">Digitar número do telefone</string>  
+    <string name="gemini_sim_info_editor_color">Definir cor de fundo</string>  
+    <string name="gemini_sim_info_editor_number_display_format">Exibir números</string>  
+    <string name="gemini_no_sim_indicator">Sem cartão SIM</string>  
+    <string name="gemini_data_connection_progress_message">"Favor aguardar..."</string>  
+    <string name="gemini_3g_modem_switching_message">"A mudança de SIM irá demorar aproximadamente 10 segundos. Aguarde…"</string>  
+    <string name="gemini_3g_modem_switch_confirm_message">"Isto irá também activar o serviço 3G para este SIM. Deseja continuar? Certifique-se de que o SIM seleccionado suporta o serviço 3G."</string>  
+    <string name="gemini_gsm_umts_network_preferences_title">Modo de Rede</string>  
+    <string name="gemini_sim_mode_progress_activating_message">Ativando\u2026</string>  
+    <string name="gemini_sim_mode_progress_deactivating_message">Desativando\u2026</string>  
+    <string msgid="7422262558097875757" name="apn_not_set">"Não definido"</string>  
+    <string name="gemini_3g_disable_warning_case0">"Deverá activar primeiro o roaming de dados para este SIM, o que poderá originar custos de roaming significativos! Deseja realmente activar o roaming de dados e seleccionar este SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"O serviço 3G não está disponível com o SIM seleccionado. Isso poderá carregar os dados de forma mais lenta. Pode alterar a definição do serviço 3G em Definições &gt; Sem fios e redes &gt; Redes móveis. Deseja realmente seleccionar este SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"O serviço 3G não está disponível com o SIM seleccionado. Isso poderá carregar os dados de forma mais lenta. Pode alterar a definição do serviço 3G em Definições &gt; Gestão do SIM. Deseja realmente seleccionar este SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"Deverá primeiro activar o roaming de dados para este SIM, o que poderá originar custos de roaming significativos! Além disso, o serviço 3G não está disponível com este SIM. Isso poderá carregar os dados de forma mais lenta. Pode alterar a definição do serviço em Definições &gt; Sem fios e redes &gt; Redes móveis. Deseja realmente activar o roaming de dados e seleccionar este SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"Deverá primeiro activar o roaming de dados para este SIM, o que poderá originar custos de roaming significativos! Além disso, o serviço 3G não está disponível com este SIM. Isso poderá carregar os dados de forma mais lenta. Pode alterar a definição do serviço em Definições &gt; Gestão do SIM. Deseja realmente activar o roaming de dados e seleccionar este SIM?"</string> 
+</resources>

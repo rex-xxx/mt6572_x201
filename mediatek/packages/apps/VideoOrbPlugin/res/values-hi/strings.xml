@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="plugin_name">वीडियो ऑर्ब</string>
+    <string name="ok">"ठीक"</string>
+    <string name="cancel">"रद्द करें"</string>
+    <string name="plugin_description">अपने नवीनतम वीडियो को लॉक स्क्रीन पर देखें और चलाएं</string>
+    <string name="transcoding_prompt">वीडियो तैयार हो रहा है</string>
+    <string name="transcoding_prompt_description">वीडियो ऑर्ब वीडियो तैयार करने में कुछ समय लेगा। क्या आप जारी रखना चाहते हैं?</string>
+    <string name="transcoding_progress_format" translatable="false">"%"</string>
+    <string name="transcoding_clip_format" translatable="false">"/"</string>
+    <string name="video_file_name_format" translatable="false">"_yyyyMMdd_HHmmss"</string>
+    <string name="toast_video_add_cancelled">वीडियो जोड़ने में विफल</string>
+    <string name="toast_video_unsupported_resolution">वीडियो रिज़ॉल्यूशन समर्थित नहीं है।</string>
+    <string name="toast_low_storage" product="nosdcard">"आपका USB संग्रहण पूरा भर गया है."</string>
+    <string name="toast_low_storage" product="default">"आपका SD कार्ड भरा हुआ है."</string>
+    <string name="toast_invalid_video">असमर्थित वीडियो फ़ॉर्मेट।</string>
+</resources>

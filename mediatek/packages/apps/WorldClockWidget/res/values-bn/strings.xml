@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">বিশ্ব ঘড়ি</string>
+    <string name="current_time_text">বর্তমান</string>
+    <string name="another_city_text">যোগ করুন</string>
+    <string name="ime_action_done">সম্পন্ন</string>
+    <string name="a_city_selected">একটি শহর নির্বাচন করা হয়েছে।</string>
+    <string name="search_city">শহর অনুসন্ধান করুন</string>
+    <string name="next">পরবর্তী</string>
+    <string name="select_right_city">দুঃখিত, এ ধরনের কোন শহর নেই।</string>
+    <string name="clock_loading">\u2026 লোড করা হচ্ছে</string>
+	<string name="add_new_city">নতুন শহর যোগ করুন</string>  
+    <string name="delete_city">শহর মুছে ফেলুন</string>  
+    <string name="delete_city_info">শহরটি মুছে ফেলা হবে।</string>  
+    <string name="deleteok">মুছে ফেলুন</string>  
+    <string name="cancel">বাতিল করুন</string>
+	<string name="add_city">নতুন শহর যোগ করতে আইকন চাপুন</string>
+    <string name="has_chosen">বাছাই করা হয়েছে।</string>
+</resources>
+

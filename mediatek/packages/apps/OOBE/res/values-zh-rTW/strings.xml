@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+
+    <!-- OOBE part begin -->  
+    <string name="app_name">﻿設置嚮導</string>
+    <string name="oobe_btn_text_next">下一步</string>  
+    <string name="oobe_btn_text_back">上一步</string>  
+    <string name="oobe_btn_text_finish">完成</string>  
+    <string name="oobe_btn_text_skip">略過</string>  
+    <string name="oobe_btn_text_dismiss">關閉</string>  
+    <string name="oobe_title_language_setting">選擇語言</string>  
+    <string name="oobe_summary_language_setting">選擇偏好的手機語言</string>  
+    <string name="oobe_title_keyboard_setting">選擇鍵盤</string>  
+    <string name="oobe_summary_keyboard_setting">選擇偏好的鍵盤</string>  
+    <string name="oobe_title_import_contacts">匯入 SIM 中的聯絡人</string>  
+    <string name="oobe_summary_import_contacts">您可選擇部分或所有已插入的 SIM 卡，以便將聯絡人資料匯入手機。</string>  
+    <string name="oobe_title_internet_connection_setting">選擇網際網路連線</string>  
+    <string name="oobe_summary_internet_connection">選擇偏好的網際網路連線。之後您隨時可在 [設定] 中變更這些選項。</string>  
+    <string name="oobe_title_sim_management">管理 SIM 卡</string>  
+    <string name="oobe_summary_sim_management">輕按 SIM 卡項目即可編輯其資訊。一般會以電信業者名稱作為預設的 SIM 卡名稱。</string>  
+    <string name="oobe_title_default_sim">設定預設 SIM 卡</string>  
+    <string name="oobe_summary_default_sim">選擇偏好的 SIM 卡作為這些服務的預設設定。</string>  
+    <string name="oobe_title_wifi_settings">設定 Wi-Fi 網路</string>  
+    <string name="oobe_summary_wifi_settings">輕按並從下方選擇偏好的 Wi-Fi 網路</string>  
+    <string name="oobe_title_date_time">設定日期 &amp; 時間</string>  
+    <string name="oobe_summary_date_time">輕按並選擇日期 &amp; 時間格式，然後視情況需要手動設定日期 &amp; 時間資訊。</string>  
+    <string name="oobe_locale_switching">等待中...</string>  
+    <string name="oobe_ime_suggested">建議使用</string>  
+    <string name="oobe_gemini_3g_indic">3G</string>  
+    <string name="oobe_internet_gprs_or_wifi_title">行動網路或 Wi-Fi</string>  
+    <string name="oobe_internet_gprs_or_wifi_summary">選擇偏好的網際網路連線。之後您隨時可在 [設定] 中變更這些選項。</string>  
+    <string name="oobe_internet_wifi_only_title">僅使用 Wi-Fi</string>  
+    <string name="oobe_internet_wifi_only_summary">如果您未使用數據傳輸方案，請選擇此項</string>  
+    <string name="oobe_btn_start_import_contacts">開始匯入</string>  
+    <string name="oobe_btn_cancel_import_contacts">取消</string>  
+    <string name="oobe_note_import_contacts_prepare">複製 SIM 卡聯絡人需要一段時間，請稍候。</string>  
+    <string name="oobe_note_import_contacts_going">雖然匯入程序尚未結束，但您現在已可繼續下一步。</string>  
+    <string name="oobe_note_import_contacts_finish">複製完成，可繼續下一步。</string>  
+    <string name="oobe_note_import_contacts_cancel">匯入已取消。您可前往下一步，或重新開始匯入程序。</string>  
+    <string name="oobe_note_progress_copy_contacts">第 %1$d 位聯絡人，共 %2$d 位</string>  
+    <string name="oobe_note_copy_contacts_waiting">等待中...</string>  
+    <string name="basic_congratulation_title">恭喜！</string>  
+    <string name="basic_congratulation_summary">您已完成所有基本設定，現在可以開始體驗全新裝置。\n\n您可隨時前往 App 啟動程式中的 [設定精靈] 變更設定。</string>  
+    <string name="oobe_advance_settings_entrance_title">進階設定</string>  
+    <string name="oobe_advance_settings_entrance_summary">如果您已經擁有 Google 帳戶、電子郵件帳戶或任何社交網路帳戶，我們建議您繼續進行進階設定。</string>  
+    <string name="oobe_sync_settings_name">同步處理設定</string>  
+    <string name="oobe_sync_settings_title">已排定的同步處理</string>  
+    <string name="oobe_sync_settings_summary">選擇是否要啟用資料同步處理服務。如果您使用受限的數據傳輸方案，進行資料同步處理可能需要支付額外費用。</string>  
+    <string name="oobe_account_settings_name">帳戶設定</string>  
+    <string name="oobe_account_settings_title">設定帳戶</string>  
+    <string name="oobe_account_settings_summary">若要同步處理郵件、聯絡人及行事曆活動，您必須至少輕按並設定下列任一種帳戶類型。</string>  
+    <string name="oobe_account_list_title">帳戶</string>  
+    <string name="oobe_sns_settings_name">SNS 設定</string>  
+    <string name="oobe_sns_settings_title">設定社交網路</string>  
+    <string name="oobe_sns_settings_summary">設定最愛的社交網路後，即可在社交網路應用程式傳送和接收更新。</string>  
+    <string name="oobe_advance_settings_end_title">恭喜！</string>  
+    <string name="oobe_advance_settings_end_summary">您已完成所有進階設定，可以開始使用新的裝置。\n\n您隨時可在 App 啟動器的設定精靈中變更設定。</string>  
+    <string name="tap_to_add">輕按可新增 
+        <xliff:g id="account" example="renren">%s</xliff:g> 帳戶
+    </string>  
+    <string name="oobe_import_contacts_sim_name">SIM 卡</string>  
+    <string name="oobe_title_wifi">"Wi-Fi"</string>  
+    <string name="lock_settings_picker_title">選擇螢幕鎖</string>  
+    <string name="add_network_string">新增網路</string>  
+    <string name="oobe_title_sim_edit">編輯 SIM 卡</string>  
+    <string name="oobe_summary_sim_edit">依照您的偏好編輯 SIM 卡。您可變更 SIM 名稱、顏色及電話號碼。</string>  
+    <string name="oobe_waiting_sim">正在初始化 SIM 卡，請稍候...</string>  
+    <string name="oobe_advance_settings_end_name">上一筆訊息</string>  
+    <string name="oobe_contact_import_null_cursor">查詢完成，但取得無效游標，匯入程序失敗！</string> 
+    <string name="sync_account_summary_on">開啟自動同步</string>
+    <string name="sync_account_summary_off">關閉自動同步</string>
+    <string name="sync_account_title">賬號同步模式</string>
+    <string name="oobe_title_timezone">選擇時區</string>  
+    <string name="gps_time_sync_attention_gps_on">使用 GPS 提供時間，必須要等待 GPS 定位成功。GPS 定位最多需要一分鐘。如果 GPS 信號弱，可能會定位失敗。\n\n確定要使用 GPS 提供時間嗎？</string>  
+    <string name="gps_time_sync_attention_gps_off">使用 GPS 提供時間，必須要先啟用 GPS，並等待 GPS 定位成功。GPS 定位最多需要一分鐘。如果 GPS 信號弱，可能會定位失敗。\n\n確定現在要啟用 GPS 並使用 GPS 提供時間嗎？</string>  
+    <string name="oobe_summary_timezone">請選擇慣用時區。</string>  
+    <string name="wifi_setup_wizard_title">"選取 WiFi"</string>  
+    <string name="wifi_menu_wps_pbc">"WPS 按鈕"</string>  
+    <string name="wifi_other_network">"其他網路..."</string>  
+    <string name="wifi_setup_skip">略過</string>  
+    <string name="wifi_setup_next">"下一步"</string>  
+    <string name="wifi_setup_back">上一步</string>  
+    <string name="wifi_empty_list_wifi_off">請先開啟Wi-Fi，才可檢視可用網路。</string>  
+    <string name="wifi_empty_list_wifi_on">"正在搜尋 Wi-Fi 網路..."</string> 
+</resources>

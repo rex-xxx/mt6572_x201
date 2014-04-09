@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="plugin_name">Video Orb</string>
+    <string name="ok">"Tamam"</string>
+    <string name="cancel">"İptal"</string>
+    <string name="plugin_description">Kilit ekranında en son videonuz görünsün ve oynatılsın</string>
+    <string name="transcoding_prompt">Video Hazırlanıyor</string>
+    <string name="transcoding_prompt_description">Video Orb un videoları hazırlaması biraz zaman alacak. Devam etmek istiyor musunuz?</string>
+    <string name="transcoding_progress_format" translatable="false">"%"</string>
+    <string name="transcoding_clip_format" translatable="false">"/"</string>
+    <string name="video_file_name_format" translatable="false">"_yyyyMMdd_HHmmss"</string>
+    <string name="toast_video_add_cancelled">Video eklenemedi</string>
+    <string name="toast_video_unsupported_resolution">Video çözünürlüğü desteklenmiyor.</string>
+    <string name="toast_low_storage" product="nosdcard">"USB belleğiniz dolu."</string>
+    <string name="toast_low_storage" product="default">"SD kartınız dolu."</string>
+    <string name="toast_invalid_video">Desteklenmeyen video biçimi.</string>
+</resources>

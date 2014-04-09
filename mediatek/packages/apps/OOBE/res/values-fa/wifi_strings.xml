@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string msgid="4746946030627213196" name="wifi_settings">"تنظیمات WiFi"</string>  
+    <string msgid="2810363951104753710" name="wifi_settings_category">"تنظیمات Wi-Fi"</string>  
+    <string msgid="6710266609710860129" name="wifi_starting">"روشن کردن..."</string>  
+    <string msgid="5952909472548218348" name="wifi_stopping">"در حال خاموش کردن..."</string>  
+    <string msgid="3207971103917128179" name="wifi_error">"خطا"</string>  
+    <string msgid="7618393787965366655" name="wifi_in_airplane_mode">"در حالت هواپیما"</string>  
+    <string msgid="6194542252808587669" name="wifi_fail_to_scan">"اسکن کردن شبکه ها امکان پذیر نیست"</string>  
+    <string msgid="3755768188029653293" name="wifi_notify_open_networks">"اعلان شبکه"</string>  
+    <string msgid="3038290727701553612" name="wifi_notify_open_networks_summary">"هنگام در دسترس بودن یک شبکه باز، به من اعلام شود"</string>  
+    <string msgid="1671334951296205616" name="wifi_add_network">"افزودن شبکه Wi-Fi"</string>  
+    <string msgid="1470911530412095868" name="wifi_menu_scan">"اسکن"</string>  
+    <string msgid="7522252991919573664" name="wifi_menu_advanced">"پیشرفته"</string>  
+    <string msgid="4996220309848349408" name="wifi_menu_connect">"اتصال به شبکه"</string>  
+    <string msgid="8736964302477327114" name="wifi_menu_forget">"فراموش کردن شبکه"</string>  
+    <string msgid="2068554918652440105" name="wifi_menu_modify">"اصلاح کردن شبکه"</string>  
+    <string msgid="641393708309146745" name="wifi_ssid">"SSID شبکه"</string>  
+    <string msgid="6603611185592956936" name="wifi_security">"امنیت"</string>  
+    <string msgid="5514120261628065287" name="wifi_signal">"قدرت سیگنال"</string>  
+    <string msgid="4824568012414605414" name="wifi_status">"وضعیت"</string>  
+    <string msgid="3526198708812322037" name="wifi_speed">"سرعت پیوند"</string>  
+    <string msgid="1440054061044402918" name="wifi_ip_address">"آدرس IP"</string>  
+    <string msgid="8529436133640730382" name="wifi_eap_method">"روش EAP"</string>  
+    <string msgid="5231074529772044898" name="please_select_phase2">"تأیید اعتبار مرحله 2"</string>  
+    <string msgid="3521574865488892851" name="wifi_eap_ca_cert">"گواهی CA"</string>  
+    <string msgid="1291089413368160789" name="wifi_eap_user_cert">"گواهی کاربر"</string>  
+    <string msgid="4359453783379679103" name="wifi_eap_identity">"هویت"</string>  
+    <string msgid="2989469344116577955" name="wifi_eap_anonymous">"هویت ناشناس"</string>  
+    <string msgid="5948219759936151048" name="wifi_password">"رمز ورود"</string>  
+    <string msgid="4235237470701732009" name="wifi_show_password">"رمز ورود نمایش داده شود."</string>  
+    <string name="wifi_hex_password">رمز ورود هگزادسيمال</string>  
+    <string msgid="3410422020930397102" name="wifi_unchanged">"(بدون تغییر)"</string>  
+    <string msgid="5431501214192991253" name="wifi_unspecified">"(مشخص نشده)"</string>  
+    <string msgid="8426719916135950136" name="wifi_remembered">"به خاطر سپرده شد"</string>  
+    <string msgid="1136191511238508967" name="wifi_not_in_range">"در محدوده نیست"</string>   
+    <string msgid="1076622875777072845" name="wifi_connect">"اتصال"</string>  
+    <string msgid="8168174695608386644" name="wifi_forget">"فراموش کردن"</string>  
+    <string msgid="3331121567988522826" name="wifi_save">"ذخیره"</string>  
+    <string msgid="6763568902542968964" name="wifi_cancel">"لغو"</string>  
+    <string msgid="5419052271935350999" name="wifi_advanced_titlebar">"پیشرفته"</string>  
+    <string msgid="1367731352485585528" name="wifi_setting_sleep_policy_title">"سیاست توقف موقت عملکرد WiFi"</string>  
+    <string msgid="5103670439972135148" name="wifi_setting_sleep_policy_error">"مشکلی در تنظیم قوانین خواب دستگاه وجود داشت."</string>  
+    <string msgid="6571335466330978393" name="wifi_advanced_mac_address_title">"آدرس MAC"</string>  
+    <string msgid="6215297094363164846" name="wifi_advanced_ip_address_title">"آدرس IP"</string>  
+    <string msgid="4345739031248760326" name="wifi_ip_settings_titlebar">"تنظیمات IP"</string>  
+    <string msgid="7344118050720080045" name="wifi_dns1">"DNS 1"</string>  
+    <string msgid="1368601006824882659" name="wifi_dns2">"DNS 2"</string>  
+    <string msgid="163914742461092086" name="wifi_gateway">"دروازه"</string>  
+    <string msgid="8948641212931906143" name="wifi_tether_enabled_subtext">"نقطه اتصال قابل حمل 
+        <xliff:g id="NETWORK_SSID">%1$s</xliff:g> فعال"
+    </string>  
+    <string name="wapi_user_certificate">گواهی کاربر</string>  
+    <string name="wapi_as_certificate">گواهی ASE</string>  
+    <string msgid="7862009036663793314" name="status_unavailable">"در دسترس نیست"</string>  
+    <string name="wifi_ctia_test">تنظيم حالت تست CTIA</string>  
+    <string name="wifi_ctia_test_summary">پيکربندی حالت تست CTIA</string>  
+    <string name="wifi_ip_settings">"تنظیمات IP"</string>  
+    <string name="wifi_disabled_generic">"غیرفعال شد"</string>  
+    <string name="wifi_disabled_network_failure">اتصالات پرهیز شده ضعیف اینترنت</string>  
+    <string name="wifi_disabled_password_failure">مشکل در تایید اعتبار</string>  
+    <string name="wifi_ip_settings_invalid_ip_address">یک آدرس IP معتبر بنویسید.</string>  
+    <string name="wifi_ip_settings_invalid_gateway">یک آدرس دروازه معتبر بنویسید.</string>  
+    <string name="wifi_ip_settings_invalid_dns">یک آدرس DNS معتبر بنویسید.</string>  
+    <string name="wifi_ip_settings_invalid_network_prefix_length">یک پیشوند شبکه با طول 0 تا 32 بنویسید.</string>  
+    <string name="wifi_network_prefix_length">طول پیشوند شبکه</string>  
+    <string name="wifi_connect_type_title">نوع اتصال خودکار</string>  
+    <string name="wifi_priority_label">اولویت</string>  
+    <string name="wifi_priority_settings_label">تنظیمات اولویت</string>  
+    <string name="wifi_wps_available_first_item">شبکه محافظت شده موجود است</string>  
+    <string name="wifi_wps_available_second_item">\u0020(شبکه محافظت شده موجود است)</string>  
+    <string name="wifi_secured_first_item">ایمن شده با 
+        <xliff:g id="wifi_security_short">%1$s</xliff:g> 
+    </string>  
+    <string name="wifi_secured_second_item">، ایمن شده با 
+        <xliff:g id="wifi_security_short">%1$s</xliff:g> 
+    </string>  
+    <string name="wifi_security_none">هيچ</string>  
+    <string name="sim_slot">شکاف سیم کارت</string>  
+    <string name="wifi_network_netmask">ماسک شبکه</string>  
+    <string name="wifi_enable_watchdog_service">پرهیز از اتصالات ضعیف</string>  
+    <string name="wifi_setting_frequency_band_title">باند فرکانسی Wi-Fi</string>  
+    <string name="wifi_setting_frequency_band_summary">محدوده فرکانسی عملیات را مشخص کنید</string>  
+    <string name="wifi_setting_frequency_band_error">مشکلی درتنظیم باند فرکانسی وجود داشت.</string>  
+    <string name="proxy_settings_title">تنظيمات پروکسی</string>  
+    <string name="proxy_clear_text">پاک کردن</string>  
+    <string name="proxy_port_label">پورت پروکسی</string>  
+    <string name="proxy_exclusionlist_label">گذشتن از پروکسی</string>  
+    <string name="proxy_exclusionlist_hint">example.com,mycomp.test.com,localhost</string>  
+    <string name="proxy_defaultView_text">بازگردانی پيش فرض ها</string>  
+    <string name="proxy_hostname_label">نام میزبان پروکسی</string>  
+    <string name="proxy_hostname_hint">proxy.example.com</string>  
+    <string name="proxy_error">توجه</string>  
+    <string name="proxy_error_dismiss">"تاييد"</string>  
+    <string name="proxy_error_empty_port">باید قسمت درگاه را پر کنید.</string>  
+    <string name="proxy_error_empty_host_set_port">اگر قسمت میزبان خالی است، قسمت درگاه باید خالی باشد.</string>  
+    <string name="proxy_warning_limited_support">پروکسی HTTP توسط مرورگر استفاده می شود ولی ممکن است توسط سایر برنامه ها استفاده نشود.</string>  
+    <string name="wifi_show_advanced">نمایش گزینه های پیشرفته</string>  
+    <string name="wifi_network_setup">WPS</string>  
+    <string name="wifi_wps_pin">پین را از نقطه دسترسی وارد کنید</string>  
+    <string name="wifi_enable_watchdog_service_summary">از شبکه Wi-Fi تا زمانی که دارای اتصال مناسب اینترنت نیست، استفاده نکنید</string>  
+    <string name="proxy_error_invalid_host">نام میزبان وارد شده معتبر نیست.</string>  
+    <string name="proxy_error_invalid_exclusion_list">لیست استثنای وارد شده، به صورت درست قالب بندی نشده است. لیستی از دامنه های مستثنی که با ویرگول جدا شده باشند، وارد کنید.</string>  
+    <string name="proxy_error_invalid_port">درگاه وارد شده معتبر نیست.</string>  
+    <string name="wifi_setting_connect_type_error">هنگام تنظیم نوع اتصال مشکلی رخ داد.</string>  
+    <string name="wifi_priority_type_title">تنظیم اولویت نقطه دسترسی به صورت دستی</string>  
+    <string name="wifi_priority_type_summary">تنظیم اولویت برای هر یک از نقاط دسترسی به صورت دستی مجاز شود</string>  
+    <string name="wifi_priority_settings_title">تنظیمات اولویت نقطه دسترسی</string>  
+    <string name="wifi_priority_settings_summary">برای تنظیم اولویت هر یک از نقاط دسترسی، کلیک کنید</string>  
+    <string name="gsm_to_wifi_connect_type_title">سلولی-&gt;Wi-Fi</string>  
+    <string name="wifi_connect_ap_summary">نوع اتصال شبکه را تعیین کنید</string>  
+    <string name="select_ssid_type_title">انتخاب مجدد SSID</string>  
+    <string name="proxy_action_text">انجام</string>
+    <string name="wifi_failed_forget_message" msgid="1348172929201654986">"شبکه فراموش نشد"</string>
+    <string name="wifi_failed_save_message" msgid="6650004874143815692">"شبکه ذخیره نشد"</string>
+    <string name="wifi_failed_connect_message" msgid="8491902558970292871">"اتصال به شبکه برقرار نشد"</string>
+      <string name="wifi_WEP_transmit_key">کليد ارسال</string>
+      <string name="wifi_WEP_secury_key">کليد امنيتی</string>
+      <string name="wifi_security_wapi_certificate">گواهینامه WAPI</string>
+      <string name="wifi_no_cert_for_wapi">یافتن گواهی برای نقطه دسترسی اتصال فعلی امکان پذیر نیست</string>
+      <string name="eap_sim_slot_0">شیار سیم 1</string>
+      <string name="eap_sim_slot_1">شیار سیم 2</string>
+      <string name="eap_sim_aka_airplanemode">لطفا حالت هواپیما را خاموش کنید تا از EAP-SIM/AKA استفاده کنید</string>
+      <string name="eap_sim_aka_no_sim_error">برای استفاده از EAP-SIM/AKA باید یک سیم کارت قرار دهید</string>
+      <string name="eap_sim_aka_no_sim_slot_selected">برای استفاده از EAP-SIM/AKA باید یک شکاف سیم کارت انتخاب کنید</string>
+      <string name="wifi_ipv4_address">آدرس IPv4</string>
+      <string name="wifi_ipv6_address">آدرس IPv6</string>
+</resources>

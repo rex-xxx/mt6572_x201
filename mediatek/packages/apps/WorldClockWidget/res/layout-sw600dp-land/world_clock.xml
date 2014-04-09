@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="288dip"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    android:gravity="center_horizontal"
+    android:background="@drawable/wgt_clock_style_bg">
+    <LinearLayout
+        android:layout_width="288dip"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="8dip"
+		android:id="@+id/remoteviewallid"
+	>
+        <ClocksWgtAnalogClock
+            android:id="@+id/localcitytime"
+            android:dial="@drawable/wgt_clock_style1_day_dial"
+            android:hand_hour="@drawable/wgt_clock_style1_day_hour"
+            android:hand_minute="@drawable/wgt_clock_style1_day_minute"
+            android:layout_width="130dip"
+            android:layout_height="130dip" />
+        <RelativeLayout
+            android:layout_width="130dip"
+            android:layout_height="130dip"
+            android:layout_marginLeft="3dip" >
+            <ImageButton
+                android:id="@+id/another_button"
+                android:layout_width="130dip"
+                android:layout_height="130dip"
+                android:background="@drawable/add_icon_selector"/>
+            <ClocksWgtAnalogClock
+                android:id="@+id/anothercitytime"
+                android:dial="@drawable/wgt_clock_style1_day_dial"
+                android:hand_hour="@drawable/wgt_clock_style1_day_hour"
+                android:hand_minute="@drawable/wgt_clock_style1_day_minute"
+                android:layout_width="130dip"
+                android:layout_height="130dip"
+                android:visibility="invisible" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="288dip"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="-5dip"
+        android:layout_marginBottom="@dimen/style_1_no_weather_city_margin_bottom"
+        android:background="#00FF0000">
+        <TextView
+            android:id="@+id/localcity"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:shadowColor="#FF000000"
+            android:shadowRadius="2.0"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:focusable="false"
+            android:layout_width="130dip"
+            android:layout_height="wrap_content"
+            android:text="@string/current_time_text"
+            android:background="#00FF0000" />
+        <TextView
+            android:id="@+id/anothercity"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:shadowColor="#FF000000"
+            android:shadowRadius="2.0"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:focusable="false"
+            android:layout_width="130dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dip"
+            android:text="@string/another_city_text" />
+    </LinearLayout>
+</LinearLayout>

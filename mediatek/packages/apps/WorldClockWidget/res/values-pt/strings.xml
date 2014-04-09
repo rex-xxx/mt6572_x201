@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Fuso horário</string>
+    <string name="a_city_selected">Uma cidade selecionada.</string>
+    <string name="another_city_text">Adicionar</string>
+    <string name="search_city">Procurar cidade</string>
+    <string name="current_time_text">Atual</string>
+    <string name="ime_action_done">Concluído</string>     
+    <string name="next">"Avançar"</string>
+    <string name="select_right_city">Desculpe, não existe tal cidade.</string>
+    <string name="clock_loading">Carregando\u2026</string>
+	<string name="add_new_city">Adicionar nova cidade</string>  
+    <string name="delete_city">Excluir cidade</string>  
+    <string name="delete_city_info">A cidade será excluída</string>  
+    <string name="deleteok">"Excluir"</string>  
+    <string name="cancel">"Negar"</string>
+	<string name="add_city">Prima o ícone para adicionar uma nova cidade</string> 
+    <string name="has_chosen">foi escolhida.</string>
+</resources>
+

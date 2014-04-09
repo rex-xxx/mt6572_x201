@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="qsg_app_name">त्वरित प्रारंभ मार्गदर्शिका</string>  
+    <!-- ============================ -->  
+    <!-- quick start guide strings -->  
+    <!-- ============================ -->  
+    <string name="skip_button">छोड़ें</string>  
+    <string name="ok_button">प्रारंभ</string>  
+    <string name="qsg_title_begin">त्वरित प्रारंभ मार्गदर्शिका</string>  
+    <string name="qsg_summary_begin">यह त्वरित प्रारंभ मार्गदर्शिका 4 सहायता युक्तियां प्रदान करेगा और आपको हरकतों और होम स्क्रीन प्रबंधन से परिचय करवाएगा।</string>  
+    <string name="next">अगला</string>  
+    <string name="play_again">दोबारा चलाएं</string>  
+    <string name="finish">समाप्त</string>  
+    <string name="qsg_title2_home_screen">होम स्क्रीन देखें</string>  
+    <string name="qsg_summary2_home_screen">होम स्क्रीन के अन्य पृष्ठों को देखने के लिए बाएं या दाएं स्वाइप करे</string>  
+    <string name="qsg_title3_choose_widget">कुछ विजेट्स चुनें</string>  
+    <string name="qsg_summary3_choose_widget">अपने होम स्क्रीन में विजेट्स जोड़ने के लिए उसे स्पर्श करें और पकड़ें रहें।</string>  
+    <string name="qsg_title4_launch_page">विस्तृत पृष्ठ आरंभ करें</string>  
+    <string name="qsg_summary4_launch_page">विकल्प के लिए विस्तृत पृष्ठ पॉपअप करने के लिए प्रोफ़ाइल छवि टैप करें।</string>  
+    <string name="qsg_title5_view_notification">सूचनाएं देखें</string>  
+    <string name="qsg_summary5_view_notification">सभी सूचनाओं को देखने के लिए स्थिति पट्टी को पकड़ कर रखें और नीचे खिसकाएं।</string>  
+    <string name="qsg_changesim_title">सिम कार्ड बदलें</string>  
+    <string name="qsg_changesim_summary">स्थिति पट्टी को नीचे खिसकाएं और ऑपरेट करने के लिए सेवा सिम कार्ड का चयन करें।</string>  
+    <string name="qsg_summary_end">आपने त्वरित आरंभ मार्गदर्शिका में प्रदान किए गए युक्तियों को देखा है। \n\nअगर आप इस मार्गदर्शिका को दोबारा देखना चाहते हैं, तो आप "दोबारा चलाएँ" को टैप कर सकते हैं।\n\nवैकल्पिक रूप से, नए डिवाइस को ऑपरेट करने के लिए आप "समाप्त" बटन को टैप कर सकते हैं।</string> 
+</resources>

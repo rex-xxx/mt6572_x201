@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string msgid="4746946030627213196" name="wifi_settings">"Wi-Fi 設定"</string>  
+    <string msgid="2810363951104753710" name="wifi_settings_category">"Wi-Fi 設定"</string>  
+    <string msgid="6710266609710860129" name="wifi_starting">"開啟中..."</string>  
+    <string msgid="5952909472548218348" name="wifi_stopping">"關閉中..."</string>  
+    <string msgid="3207971103917128179" name="wifi_error">"錯誤"</string>  
+    <string msgid="7618393787965366655" name="wifi_in_airplane_mode">"處於飛航模式時"</string>  
+    <string msgid="6194542252808587669" name="wifi_fail_to_scan">"無法掃描網路"</string>  
+    <string msgid="3755768188029653293" name="wifi_notify_open_networks">"網路通知"</string>  
+    <string msgid="3038290727701553612" name="wifi_notify_open_networks_summary">"有開放網路時通知我"</string>  
+    <string msgid="1671334951296205616" name="wifi_add_network">"新增 Wi-Fi 網路"</string>  
+    <string msgid="1470911530412095868" name="wifi_menu_scan">"掃描"</string>  
+    <string msgid="7522252991919573664" name="wifi_menu_advanced">"進階"</string>  
+    <string msgid="4996220309848349408" name="wifi_menu_connect">"連線至網路"</string>  
+    <string msgid="8736964302477327114" name="wifi_menu_forget">"清除網路"</string>  
+    <string msgid="2068554918652440105" name="wifi_menu_modify">"修改網路"</string>  
+    <string msgid="641393708309146745" name="wifi_ssid">"網路 SSID"</string>  
+    <string msgid="6603611185592956936" name="wifi_security">"安全性"</string>  
+    <string msgid="5514120261628065287" name="wifi_signal">"訊號強度"</string>  
+    <string msgid="4824568012414605414" name="wifi_status">"狀態"</string>  
+    <string msgid="3526198708812322037" name="wifi_speed">"連線速度"</string>  
+    <string msgid="1440054061044402918" name="wifi_ip_address">"IP 位址"</string>  
+    <string msgid="8529436133640730382" name="wifi_eap_method">"EAP 方法"</string>  
+    <string msgid="5231074529772044898" name="please_select_phase2">"階段 2 驗證"</string>  
+    <string msgid="3521574865488892851" name="wifi_eap_ca_cert">"CA 憑證"</string>  
+    <string msgid="1291089413368160789" name="wifi_eap_user_cert">"使用者憑證"</string>  
+    <string msgid="4359453783379679103" name="wifi_eap_identity">"識別"</string>  
+    <string msgid="2989469344116577955" name="wifi_eap_anonymous">"匿名識別"</string>  
+    <string msgid="5948219759936151048" name="wifi_password">"密碼"</string>  
+    <string msgid="4235237470701732009" name="wifi_show_password">"顯示密碼"</string>  
+    <string name="wifi_hex_password">"十六進制密碼"</string>  
+    <string msgid="3410422020930397102" name="wifi_unchanged">"(未變更)"</string>  
+    <string msgid="5431501214192991253" name="wifi_unspecified">"(未指定)"</string>  
+    <string msgid="8426719916135950136" name="wifi_remembered">"已記住"</string>  
+    <string msgid="1136191511238508967" name="wifi_not_in_range">"超出可用範圍"</string>   
+    <string msgid="1076622875777072845" name="wifi_connect">"連線"</string>  
+    <string msgid="8168174695608386644" name="wifi_forget">"清除"</string>  
+    <string msgid="3331121567988522826" name="wifi_save">"儲存"</string>  
+    <string msgid="6763568902542968964" name="wifi_cancel">"取消"</string>  
+    <string msgid="5419052271935350999" name="wifi_advanced_titlebar">"進階"</string>  
+    <string msgid="1367731352485585528" name="wifi_setting_sleep_policy_title">"Wi-Fi 休眠設定"</string>  
+    <string msgid="5103670439972135148" name="wifi_setting_sleep_policy_error">"休眠設定時發生問題。"</string>  
+    <string msgid="6571335466330978393" name="wifi_advanced_mac_address_title">"MAC 位址"</string>  
+    <string msgid="6215297094363164846" name="wifi_advanced_ip_address_title">"IP 位址"</string>  
+    <string msgid="4345739031248760326" name="wifi_ip_settings_titlebar">"IP 設定"</string>  
+    <string msgid="7344118050720080045" name="wifi_dns1">"DNS 1"</string>  
+    <string msgid="1368601006824882659" name="wifi_dns2">"DNS 2"</string>  
+    <string msgid="163914742461092086" name="wifi_gateway">"閘道"</string>  
+    <string msgid="8948641212931906143" name="wifi_tether_enabled_subtext">"可攜式無線基地台 
+        <xliff:g id="NETWORK_SSID">%1$s</xliff:g> 已啟用"
+    </string>  
+    <string name="wapi_user_certificate">"使用者憑證"</string>  
+    <string name="wapi_as_certificate">"ASE 憑證"</string>  
+    <string msgid="7862009036663793314" name="status_unavailable">"無法取得"</string>  
+    <string name="wifi_ctia_test">"CTIA 測試模式設定"</string>  
+    <string name="wifi_ctia_test_summary">"CTIA 測試模式組態設定"</string>  
+    <string name="wifi_connect_type_title">自動連線類型</string>  
+    <string name="wifi_setting_connect_type_error">設定連線類型時發生問題。</string>  
+    <string name="wifi_priority_type_title">手動設定 AP 優先順序</string>  
+    <string name="wifi_priority_type_summary">可手動設定各 AP 的優先順序</string>  
+    <string name="wifi_priority_settings_title">AP 優先順序設定</string>  
+    <string name="wifi_priority_settings_summary">按一下即可設定各 AP 的優先順序</string>  
+    <string name="wifi_priority_label">優先順序</string>  
+    <string name="wifi_priority_settings_label">優先順序設定</string>  
+    <string name="wifi_ip_settings">"IP 設定"</string>  
+    <string name="wifi_disabled_generic">已停用</string>  
+    <string name="wifi_disabled_network_failure">不使用不良網際網路連線</string>  
+    <string name="wifi_disabled_password_failure">驗證發生問題</string>  
+    <string name="wifi_ip_settings_invalid_ip_address">請輸入有效的IP位址</string>  
+    <string name="wifi_ip_settings_invalid_gateway">請輸入有效的閘道位址</string>  
+    <string name="wifi_ip_settings_invalid_dns">請輸入有效的DNS位址</string>  
+    <string name="wifi_ip_settings_invalid_network_prefix_length">網路前綴長度應介於0至32</string>  
+    <string name="wifi_network_prefix_length">網路前綴長度</string>  
+    <string name="wifi_wps_available_first_item">可使用的受保護網路</string>  
+    <string name="wifi_wps_available_second_item">\u0020(可使用的受保護網路)</string>  
+    <string name="wifi_secured_first_item">以 
+        <xliff:g id="wifi_security_short">%1$s</xliff:g> 作為安全措施
+    </string>  
+    <string name="wifi_secured_second_item">，以 
+        <xliff:g id="wifi_security_short">%1$s</xliff:g> 作為安全措施
+    </string>  
+    <string name="wifi_security_none">"無"</string>  
+    <string name="sim_slot">SIM 卡槽</string>  
+    <string name="wifi_network_netmask">"網路遮罩"</string>  
+    <string name="wifi_enable_watchdog_service">避免使用不良連線</string>  
+    <string name="wifi_setting_frequency_band_title">Wi-Fi頻帶</string>  
+    <string name="wifi_setting_frequency_band_summary">請說明運作頻帶範圍</string>  
+    <string name="wifi_setting_frequency_band_error">頻帶設定發生問題</string>  
+    <string name="proxy_settings_title">Proxy 設定</string>  
+    <string name="proxy_clear_text">"清除"</string>  
+    <string name="proxy_port_label">代理端口</string>  
+    <string name="proxy_exclusionlist_label">繞行代理</string>  
+    <string name="proxy_exclusionlist_hint">example.com,mycomp.test.com,localhost</string>  
+    <string name="proxy_defaultView_text">"還原預設值"</string>  
+    <string name="proxy_hostname_label">代理主機名稱</string>  
+    <string name="proxy_hostname_hint">proxy.example.com</string>  
+    <string name="proxy_error">注意</string>  
+    <string name="proxy_error_dismiss">"確定"</string>  
+    <string name="proxy_error_empty_port">必須填入端口數值。</string>  
+    <string name="proxy_error_empty_host_set_port">若主機空白，則端口也應保持空白。</string>  
+    <string name="proxy_warning_limited_support">瀏覽器正使用HTTP代理，但其他app可能無法使用。</string>  
+    <string name="wifi_show_advanced">顯示進階選項</string>  
+    <string name="wifi_network_setup">WPS</string>  
+    <string name="wifi_wps_pin">請輸入無線網路基地台的PIN碼</string>  
+    <string name="wifi_enable_watchdog_service_summary">除非 Wi-Fi 網路訊號良好，否則請勿使用 Wi-Fi 網路</string>  
+    <string name="proxy_error_invalid_host">您輸入的主機名稱無效。</string>  
+    <string name="proxy_error_invalid_exclusion_list">您輸入的例外清單格式不正確。請輸入例外網域的逗號分隔清單。</string>  
+    <string name="proxy_error_invalid_port">您輸入的連接埠無效。</string>  
+    <string name="gsm_to_wifi_connect_type_title">蜂窩網至 Wi-Fi 重選</string>  
+    <string name="wifi_connect_ap_summary">設定網絡連線方式</string>  
+    <string name="select_ssid_type_title">不同 SSID 間重選</string>  
+    <string name="proxy_action_text">完成</string>
+    <string name="wifi_failed_connect_message" msgid="8491902558970292871">"無法連線至網路"</string>
+    <string name="wifi_failed_forget_message" msgid="1348172929201654986">"無法刪除網路"</string>
+    <string name="wifi_failed_save_message" msgid="6650004874143815692">"無法儲存網路"</string>
+
+      <string name="wifi_WEP_transmit_key">"傳輸鍵"</string>
+      <string name="wifi_WEP_secury_key">"安全鍵"</string>
+      <string name="wifi_security_wapi_certificate">WAPI認證</string>
+      <string name="wifi_no_cert_for_wapi">未能找到正在連接的接入點的證書</string>
+      <string name="eap_sim_slot_0">SIM 卡槽 1</string>
+      <string name="eap_sim_slot_1">SIM 卡槽 2</string>
+      <string name="eap_sim_aka_airplanemode">若要使用 EAP-SIM/AKA，請關閉飛航模式</string>
+      <string name="eap_sim_aka_no_sim_error">您必須插入 SIM 卡才能使用 EAP-SIM/AKA</string>
+      <string name="eap_sim_aka_no_sim_slot_selected">您必須選擇 SIM 卡槽才能使用 EAP-SIM/AKA</string>
+      <string name="wifi_ipv4_address">IPv4 位址</string>
+      <string name="wifi_ipv6_address">IPv6 位址</string>
+
+    <string name="wifi_disconnect">中斷連線</string>  
+    <string name="wifi_menu_disconnect">中斷網路連線</string> 
+    <string name="trust_access_points">默認信任接入點</string>
+    <string name="configed_access_points">信任接入點</string>
+    <string name="new_access_points">未知接入點</string> 
+</resources>

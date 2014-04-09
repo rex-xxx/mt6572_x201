@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mediatek.oobe.utils.OOBERootView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/oobe_root_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_panel" />
+<!-- 
+    <Switch
+        android:id="@+id/oobeSwitchWidget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:focusable="false"
+        android:visibility="gone" />
+ -->
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1">
+    </FrameLayout>
+     	
+    
+    <include layout="@layout/progressbar" />
+
+    <include layout="@layout/button_panel" />
+
+</com.mediatek.oobe.utils.OOBERootView>

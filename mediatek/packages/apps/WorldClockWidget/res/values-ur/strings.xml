@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">عالمی گھڑی</string>
+    <string name="current_time_text">حالیہ</string>
+    <string name="another_city_text">شامل کرنا</string>
+    <string name="ime_action_done">ہوگيا</string>
+    <string name="a_city_selected">ایک شہر منتخب ہوگيا۔</string>
+    <string name="search_city">شہر تلاش کرنا</string>
+    <string name="next">اگلا</string>
+    <string name="select_right_city">معذرت، ایسا کوئی شہر موجود نہیں ہے۔</string>
+    <string name="clock_loading">\u2026 لوڈ کررہا ہے</string>
+	<string name="add_new_city">نئے شہر کا اضافہ رکيں</string>  
+    <string name="delete_city">شہر مٹائيں</string>  
+    <string name="delete_city_info">شہر کو مٹایا جائے گا</string>  
+    <string name="deleteok">مٹائيں</string>  
+    <string name="cancel">منسوخ</string>
+	<string name="add_city">نیا شہر شامل کرنے کے لئے آئیکن دبائيں</string> 
+    <string name="has_chosen">منتخب ہوچکا ہے۔</string>
+</resources>
+

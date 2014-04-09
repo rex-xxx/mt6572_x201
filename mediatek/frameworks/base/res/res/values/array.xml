@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     add for power-off alarm
+     TODO: need to remove not used items. 
+  -->
+
+<resources>
+    <array name="snooze_dismiss_drawables">
+        <item>@com.mediatek:drawable/ic_alarm_alert_dismiss_pwron</item>
+        <item>@com.mediatek:drawable/ic_alarm_alert_snooze</item>
+        <item>@com.mediatek:drawable/ic_alarm_alert_dismiss_pwroff</item>
+        <item>@null</item>
+    </array>
+    <array name="snooze_dismiss_descriptions">
+        <item>@string/alarm_alert_dismiss_text</item>
+        <item>@null</item>
+        <item>@string/alarm_alert_snooze_text</item>
+        <item>@null</item>
+    </array>
+    <array name="snooze_dismiss_direction_descriptions">
+        <item>@string/description_direction_right</item>
+        <item>@null</item>
+        <item>@string/description_direction_left</item>
+        <item>@null</item>
+    </array>
+
+    <array name="dismiss_drawables">
+        <item>@com.mediatek:drawable/ic_alarm_alert_dismiss_pwron</item>
+        <item>@null</item>
+        <item>@null</item>
+        <item>@null</item>
+    </array>
+    <array name="dismiss_descriptions">
+        <item>@string/alarm_alert_dismiss_text</item>
+        <item>@null</item>
+        <item>@null</item>
+        <item>@null</item>
+    </array>
+    <array name="dismiss_direction_descriptions">
+        <item>@string/description_direction_right</item>
+        <item>@null</item>
+        <item>@null</item>
+        <item>@null</item>
+    </array>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <skip/>  
+    <string-array name="wifi_status"> 
+        <item>סורק\u2026</item>  
+        <item>מתחבר\u2026</item>  
+        <item>מאמת\u2026</item>  
+        <item>מקבל כתובת IP\u2026</item>  
+        <item>מחובר</item>  
+        <item>מושעה</item>  
+        <item>מתנתק\u2026</item>  
+        <item>מנותק</item>  
+        <item>נכשל</item>  
+        <item>Unsuccessful</item> 
+    </string-array>  
+    <skip/>  
+    <string-array name="wifi_status_with_ssid"> 
+        <item>סורק\u2026</item>  
+        <item>מתחבר אל 
+            <xliff:g id="network_name">%1$s</xliff:g>\u2026
+        </item>  
+        <item>מאמת עם 
+            <xliff:g id="network_name">%1$s</xliff:g>\u2026
+        </item>  
+        <item>מקבל כתובת IP מ- 
+            <xliff:g id="network_name">%1$s</xliff:g>\u2026
+        </item>  
+        <item>מחובר אל 
+            <xliff:g id="network_name">%1$s</xliff:g> 
+        </item>  
+        <item>מושעה</item>  
+        <item>מתנתק מ- 
+            <xliff:g id="network_name">%1$s</xliff:g>\u2026
+        </item>  
+        <item>מנותק</item>  
+        <item>נכשל</item>  
+        <item>Unsuccessful</item> 
+    </string-array>  
+    <string-array name="wifi_signal"> 
+        <item>גרוע</item>  
+        <item>סביר</item>  
+        <item>טוב</item>  
+        <item>מצוין</item> 
+    </string-array>  
+    <string-array name="wifi_sleep_policy_entries"> 
+        <item>כאשר המסך כבוי</item>  
+        <item>לעולם לא כאשר המכשיר מחובר</item>  
+        <item>אף פעם</item> 
+    </string-array>  
+
+    <string-array name="wifi_connect_type_entries"> 
+        <item>התחבר אוטומטית</item>  
+        <item>התחבר ידנית</item>  
+        <item>שאל תמיד</item> 
+    </string-array>  
+    <string-array name="wifi_frequency_band_entries"> 
+        <item>אוטומטי</item>  
+        <item>‎5 GHz בלבד</item>  
+        <item>‎2.4 GHz בלבד</item> 
+    </string-array>  
+
+    <string-array name="wifi_sleep_policy_entries_wifi_only"> 
+        <item>תמיד</item>  
+        <item>רק כאשר המכשיר מחובר</item>  
+        <item>אף פעם</item> 
+    </string-array>  
+    <string-array name="wifi_ip_settings"> 
+        <item>סטטי</item>  
+        <item>Static</item> 
+    </string-array>  
+    <string-array name="wifi_proxy_settings"> 
+        <item>ללא</item>  
+        <item>ידני</item> 
+    </string-array>  
+    <string-array name="auto_time_entries"> 
+        <item>השתמש בזמן המסופק על ידי הרשת</item>  
+        <item>השתמש בזמן המסופק על ידי ה-GPS</item>  
+        <item>כבוי</item> 
+    </string-array> 
+    <string-array name="wifi_WEP_security_type"> 
+        <item>אוטומטי</item>  
+        <item>WEP ASCII</item>
+        <item>WEP הקסדצימלי</item>  
+    </string-array>  
+</resources>

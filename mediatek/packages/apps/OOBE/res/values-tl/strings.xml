@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+
+    <!-- OOBE part begin -->  
+    <string name="app_name">OOBE</string>  
+    <string name="oobe_btn_text_next">Susunod</string>  
+    <string name="oobe_btn_text_back">Bumalik</string>  
+    <string name="oobe_btn_text_finish">Tapusin</string>  
+    <string name="oobe_btn_text_skip">Laktawan</string>  
+    <string name="oobe_btn_text_dismiss">I-dismiss</string>  
+    <string name="oobe_title_language_setting">Piliin ang Wika</string>  
+    <string name="oobe_summary_language_setting">Piliin ang nais mong wika sa telepono</string>  
+    <string name="oobe_title_keyboard_setting">Piliin ang mga keyboard</string>  
+    <string name="oobe_summary_keyboard_setting">Piliin ang nais mong mga keyboard</string>  
+    <string name="oobe_title_import_contacts">Mag-import ng mga kontak mula sa SIM</string>  
+    <string name="oobe_summary_import_contacts">Maaari mong piliin ang ilan o lahat ng napili mong mga SIM card upang i-import ang mga kontak sa telepono.</string>  
+    <string name="oobe_title_internet_connection_setting">Pumili ng koneksyon sa internet</string>  
+    <string name="oobe_summary_internet_connection">Piliin ang nais mong koneksyon sa internet. Mababago mo ito mamata sa Mga Setting.</string>  
+    <string name="oobe_title_sim_management">Pamahalaan ang SIM</string>  
+    <string name="oobe_summary_sim_management">Maaari mong tapikin ang item sa SIM card upang i-edit ang impormasyon nito. Karaniwan, ang pangalan ng operator ay ginagamit bilang default na pangalan ng SIM.</string>  
+    <string name="oobe_title_default_sim">Itakda ang default na SIM</string>  
+    <string name="oobe_summary_default_sim">Piliin ang nais mong SIM bilang default na setting para sa mga serbisyong ito.</string>  
+    <string name="oobe_title_wifi_settings">Mag-set up ng Wi-Fi network</string>  
+    <string name="oobe_summary_wifi_settings">Tapikin upang pumili ng nais na Wi-Fi network sa ibaba</string>  
+    <string name="oobe_title_date_time">Mag-set up ng petsa &amp; oras</string>  
+    <string name="oobe_summary_date_time">Tapikin upang piliin ang iyong data &amp; format ng oras at itakda ang iyong impormasyon sa Petsa &amp; Oras mano-mano kung kailangan.</string>  
+    <string name="oobe_locale_switching">Naghihintay...</string>  
+    <string name="oobe_ime_suggested">Minungkahi</string>  
+    <string name="oobe_gemini_3g_indic">3G</string>  
+    <string name="oobe_internet_gprs_or_wifi_title">Mobile network o Wi-Fi</string>  
+    <string name="oobe_internet_gprs_or_wifi_summary">Piliin ang nais mong koneksyon sa internet. Mababago mo ang mga opsyong ito sa Settngs sa ibang panahon.</string>  
+    <string name="oobe_internet_wifi_only_title">Wi-Fi Lang</string>  
+    <string name="oobe_internet_wifi_only_summary">Piliin ito, kung wala kang plano sa data</string>  
+    <string name="oobe_btn_start_import_contacts">Simulang mah-import</string>  
+    <string name="oobe_btn_cancel_import_contacts">Kanselahin</string>  
+    <string name="oobe_note_import_contacts_prepare">Pakihintay nang sandali para kopyahin ang mga kontak sa SIM.</string>  
+    <string name="oobe_note_import_contacts_going">Makakatuloy ka na ngayon sa susunod na hakbang habang isinasagawa pa ang pag-import.</string>  
+    <string name="oobe_note_import_contacts_finish">Kumpleto ang pag-kopya. Makatutuloy ka sa susunod na hakbang.</string>  
+    <string name="oobe_note_import_contacts_cancel">Kanselado ang pag-import. Makakalaktaw ka sa susunod na hakbang o makakapagsimula muling mag-import.</string>  
+    <string name="oobe_note_progress_copy_contacts">%1$d ng %2$d mga kontak</string>  
+    <string name="oobe_note_copy_contacts_waiting">Naghihintay...</string>  
+    <string name="basic_congratulation_title">Binabati Kita!</string>  
+    <string name="basic_congratulation_summary">Natapos mo na lahat ng mga basic na setting. Handa ka nang mag-enjoy sa mga bago mong aparato.\n\nMaaari mong baguhin ang iyong mga setting mula sa Setup Wizard mula sa App launcher anumang oras.</string>  
+    <string name="oobe_advance_settings_entrance_title">Advance na Mga Setting</string>  
+    <string name="oobe_advance_settings_entrance_summary">Kung mayroon ka nang Google account, E-Mail account o anumang social network na account, hinihikayat ka naming magpatuloy sa mga advance na setting.</string>  
+    <string name="oobe_sync_settings_name">Mga setting sa sync</string>  
+    <string name="oobe_sync_settings_title">Nakatakdang sync</string>  
+    <string name="oobe_sync_settings_summary">Piliin kung nais mong paganahin ang mga serbisyo sa pag-sync sa data. Kung wala kang unlimited na plano ng data, ang sync data ay maaaring magresulta sa karagdagang mga gastos.</string>  
+    <string name="oobe_account_settings_name">Mga setting ng account</string>  
+    <string name="oobe_account_settings_title">I-set up ang mga account</string>  
+    <string name="oobe_account_settings_summary">Upang i-sync ang mail, mga contact at mga kaganapan sa kalendaryo, kailangan mong tapikin at i-set up ang isa man lang sa mga sumusunod na uri ng account.</string>  
+    <string name="oobe_account_list_title">Mga account</string>  
+    <string name="oobe_sns_settings_name">Mga setting ng SNS</string>  
+    <string name="oobe_sns_settings_title">Mag-set up ng mga social network</string>  
+    <string name="oobe_sns_settings_summary">I-set up ang iyong paboritong social network at makakapagpadala ka at makakatanggap ng mga update sa iyong Social network na aplikasyon.</string>  
+    <string name="oobe_advance_settings_end_title">Binabati Kita!</string>  
+    <string name="oobe_advance_settings_end_summary">Natapos mo lahat ng mga advanced na setting. Handa ka na ngayong mag-enjoy sa bago mong device. \n\n Mababago mo anumang oras ang iyong mga setting sa Setup Wizard mula sa App launcher.</string>  
+    <string name="tap_to_add">Tapikin upang idagdag ang 
+        <xliff:g id="account" example="renren">%s</xliff:g> na account
+    </string>  
+    <string name="oobe_import_contacts_sim_name">SIM Card</string>  
+    <string name="oobe_title_wifi">Wi-FI</string>  
+    <string name="lock_settings_picker_title">Piliin ang screen lock</string>  
+    <string name="add_network_string">Magdagdag ng network</string>  
+    <string name="oobe_title_sim_edit">I-edit ang SIM</string>  
+    <string name="oobe_summary_sim_edit">I-edit ang impo ng SIM upang tumugma sa mga nais mo. Mababago mo ang pangalan ng SIM at kulay at numero ng telepono.</string>  
+    <string name="oobe_waiting_sim">Hinihintay ang inisyalisasyon ng SIM card…</string>  
+    <string name="oobe_advance_settings_end_name">Huling mensahe</string>  
+    <string name="oobe_contact_import_null_cursor">Nakumpleto ang query ngunit nakakuha ng null na cursor, nabigo ang proseso ng pag-import!</string> 
+    <string name="oobe_title_timezone">Piliin ang time zone</string>  
+    <string name="gps_time_sync_attention_gps_on">Aabutin nang hanggang 1 minuto upang makakuha ng GPS na pag-ayos. Bagaman ang GPS ay maaaring mabigong maglaan ng oras dahil sa mahinang signal sa kapaligiran.\n\nSigurado ka bang gagamit ng nilaang oras ng GPS?</string>  
+    <string name="gps_time_sync_attention_gps_off">Upang gumamit ng nilaan ng GPS na oras, dapat mong paganahin muna ang GPS. Maaaring abutin nang hanggang 1 minuto upang makakuha ng pagsasaayos ng GPS. Bagaman maaaring mabigo ang GPS na maglaan ng oras dahil sa mahinang signal sa paligir. \n\nSigurado ka bang pagaganahin ang GPS ngayon at maghintay para sa nilaan na oras ng GPS?</string>  
+    <string name="oobe_summary_timezone">Pakipili ang nais mong time zone.</string>  
+    <string name="sync_account_summary_on">Awtomatikong mag-sync on</string>  
+    <string name="sync_account_summary_off">Awtomatikong mag-sync off</string>  
+    <string name="sync_account_title">I-awto Sync ang Account</string>  
+    <string name="wifi_setup_wizard_title">"Piliin ang Wi-Fi"</string>  
+    <string name="wifi_menu_wps_pbc">"Push Button ng WPS"</string>  
+    <string name="wifi_other_network">"Iba pang network..."</string>  
+    <string name="wifi_setup_skip">Laktawan</string>  
+    <string name="wifi_setup_next">"Susunod"</string>  
+    <string name="wifi_setup_back">Bumalik</string>  
+    <string name="wifi_empty_list_wifi_off">Upang makita ang mga available na network, i-on ang Wi-Fi.</string>  
+    <string name="wifi_empty_list_wifi_on">"Naghahanap ng mga Wi-Fi network..."</string> 
+
+      <string name="import_contact_already">Nag-iimport ka na. Pakisubukan muli mamaya.</string>
+</resources>

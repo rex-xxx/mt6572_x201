@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+
+    <!-- OOBE part begin -->  
+    <string name="app_name">OOBE</string>  
+    <string name="oobe_btn_text_next">Weiter</string>  
+    <string name="oobe_btn_text_back">Zurück</string>  
+    <string name="oobe_btn_text_finish">Fertigstellen</string>  
+    <string name="oobe_btn_text_skip">Überspringen</string>  
+    <string name="oobe_btn_text_dismiss">Verwerfen</string>  
+    <string name="oobe_title_language_setting">Sprache wählen</string>  
+    <string name="oobe_summary_language_setting">Wählen Sie Ihre bevorzugte Telefonsprache</string>  
+    <string name="oobe_title_keyboard_setting">Tastaturen wählen</string>  
+    <string name="oobe_summary_keyboard_setting">Wählen Sie Ihre bevorzugten Tastaturen.</string>  
+    <string name="oobe_title_import_contacts">Kontakte von SIM importieren</string>  
+    <string name="oobe_summary_import_contacts">Sie können einige oder all Ihre eingesteckten SIM-Karten zum Importieren der Kontakte auf das Telefon auswählen.</string>  
+    <string name="oobe_title_internet_connection_setting">Internetverbindung wählen</string>  
+    <string name="oobe_summary_internet_connection">Wählen Sie Ihre bevorzugte Internetverbindung. Sie können diese Optionen zu einem späteren Zeitpunkt jederzeit über Einstellungen ändern.</string>  
+    <string name="oobe_title_sim_management">SIM verwalten</string>  
+    <string name="oobe_summary_sim_management">Sie können zur Bearbeitung der Informationen auf den Eintrag der SIM-Karte tippen. Normalerweise wird der Betreibername als Standard-SIM-Name verwendet.</string>  
+    <string name="oobe_title_default_sim">Standard-SIM festlegen</string>  
+    <string name="oobe_summary_default_sim">Wählen Sie Ihre bevorzugte SIM als Standardeinstellung für diese Dienste.</string>  
+    <string name="oobe_title_wifi_settings">WLAN einrichten</string>  
+    <string name="oobe_summary_wifi_settings">Wählen Sie unten durch Antippen das bevorzugte WLAN-Netzwerk</string>  
+    <string name="oobe_title_date_time">Datum &amp; Zeit einstellen</string>  
+    <string name="oobe_summary_date_time">Zur Auswahl Ihres Datums- &amp; Zeitformats und zur manuellen Anpassung Ihrer Datums- &amp; Zeitinformationen antippen.</string>  
+    <string name="oobe_locale_switching">Warten…</string>  
+    <string name="oobe_ime_suggested">Empfohlen</string>  
+    <string name="oobe_gemini_3g_indic">3G</string>  
+    <string name="oobe_internet_gprs_or_wifi_title">Mobiles Netzwerk oder WLAN</string>  
+    <string name="oobe_internet_gprs_or_wifi_summary">Wählen Sie Ihre bevorzugte Internetverbindung. Sie können diese Optionen zu einem späteren Zeitpunkt jederzeit über Einstellungen ändern.</string>  
+    <string name="oobe_internet_wifi_only_title">Nur WLAN</string>  
+    <string name="oobe_internet_wifi_only_summary">Wählen Sie diese Option, wenn Sie keinen Datenplan haben</string>  
+    <string name="oobe_btn_start_import_contacts">Zum Importieren starten</string>  
+    <string name="oobe_btn_cancel_import_contacts">Abbrechen</string>  
+    <string name="oobe_note_import_contacts_prepare">Bitte haben Sie einen Augenblick Geduld, bis die SIM-Kontakte kopiert sind.</string>  
+    <string name="oobe_note_import_contacts_going">Nun können Sie während des Importvorgangs mit dem nächsten Schritt fortfahren.</string>  
+    <string name="oobe_note_import_contacts_finish">Kopieren abgeschlossen. Sie können mit dem nächsten Schritt fortfahren.</string>  
+    <string name="oobe_note_import_contacts_cancel">Importieren abgebrochen. Sie können zum nächsten Schritt springen oder den Importvorgang neu starten.</string>  
+    <string name="oobe_note_progress_copy_contacts">%1$d von %2$d Kontakten</string>  
+    <string name="oobe_note_copy_contacts_waiting">Warten…</string>  
+    <string name="basic_congratulation_title">Herzlichen Glückwunsch!</string>  
+    <string name="basic_congratulation_summary">Sie haben alle Grundeinstellungen abgeschlossen. Nun können Sie Ihre neuen Geräte genießen.\n\nSie können Ihre Einstellungen jederzeit über den Einrichtungsassistenten vom App-Launcher ändern.</string>  
+    <string name="oobe_advance_settings_entrance_title">Erweiterte Einstellungen</string>  
+    <string name="oobe_advance_settings_entrance_summary">Falls Sie bereits über ein Google-, eMail- oder ein Konto bei einem sozialen Netzwerk verfügen, empfehlen wir Ihnen, mit den erweiterten Einstellungen fortzufahren.</string>  
+    <string name="oobe_sync_settings_name">Synchronisierungseinstellungen</string>  
+    <string name="oobe_sync_settings_title">Geplante Synchronisierung</string>  
+    <string name="oobe_sync_settings_summary">Wählen Sie, ob Sie die Datensynchronisierungsdienste aktivieren möchten. Falls Sie keinen unbeschränkten Datenplan haben, kann die Synchronisierung der Daten zusätzliche Kosten verursachen.</string>  
+    <string name="oobe_account_settings_name">Konteneinstellungen</string>  
+    <string name="oobe_account_settings_title">Konten einrichten</string>  
+    <string name="oobe_account_settings_summary">Zur Synchronisierung von Nachrichten, Kontakten und Kalenderereignissen müssen Sie mindestens einen der folgenden Kontentypen antippen und einrichten.</string>  
+    <string name="oobe_account_list_title">Konten</string>  
+    <string name="oobe_sns_settings_name">SNS-Einstellungen</string>  
+    <string name="oobe_sns_settings_title">Soziale Netzwerke einrichten</string>  
+    <string name="oobe_sns_settings_summary">Richten Sie Ihre bevorzugten sozialen Netzwerke ein und Sie können Aktualisierungen in der Soziales Netzwerk-Anwendung senden und empfangen.</string>  
+    <string name="oobe_advance_settings_end_title">Herzlichen Glückwunsch!</string>  
+    <string name="oobe_advance_settings_end_summary">Sie haben alle erweiterten Einstellungen abgeschlossen. Nun können Sie Ihr neues Gerät genießen. \n\n Sie haben die Möglichkeit, Ihre Einstellungen jederzeit im Einrichtungsassistenten vom App-Launcher zu ändern.</string>  
+    <string name="tap_to_add">Zum Hinzufügen eines 
+        <xliff:g id="account" example="renren">%s</xliff:g>-Kontos antippen
+    </string>  
+    <string name="oobe_import_contacts_sim_name">SIM-Karte</string>  
+    <string name="oobe_title_wifi">"WLAN"</string>  
+    <string name="lock_settings_picker_title">Bildsch.-Sperre wählen</string>  
+    <string name="add_network_string">Netzwerk hinzufügen</string>  
+    <string name="oobe_title_sim_edit">SIM bearbeiten</string>  
+    <string name="oobe_summary_sim_edit">SIM-Info zur Anpassung an Ihre Präferenzen bearbeiten. Sie können SIM-Namen, Farbe und Telefonnummer ändern.</string>  
+    <string name="oobe_waiting_sim">Warte auf SIM-Karteninitialisierung…</string>  
+    <string name="oobe_advance_settings_end_name">Letzte Mitteilung</string>  
+    <string name="oobe_contact_import_null_cursor">Anfrage abgeschlossen, doch Null-Cursor erhalten; Import fehlgeschlagen!</string> 
+    <string name="oobe_title_timezone">Zeitzone einstellen</string>  
+    <string name="gps_time_sync_attention_gps_on">Bis zur GPS-Ortung dauert es maximal 1 Minute. Außerdem kann es GPS aufgrund schwacher Umgebungssignale misslingen, die Zeitangabe bereitzustellen.\n\nWirklich die von GPS bereitgestellte Zeitangabe verwenden?</string>  
+    <string name="gps_time_sync_attention_gps_off">Zur Nutzung der per GPS bereitgestellten Zeitangabe müssen Sie GPS zuerst aktivieren. Bis zur GPS-Ortung dauert es maximal 1 Minute. Außerdem kann es GPS aufgrund schwacher Umgebungssignale misslingen, die Zeitangabe bereitzustellen.\n\nGPS jetzt wirklich aktivieren und auf die von GPS bereitgestellte Zeitangabe warten?</string>  
+    <string name="oobe_summary_timezone">Bitte wählen Sie Ihre bevorzugte Zeitzone.</string>  
+    <string name="sync_account_summary_on">Auto-Synchronisierung ein</string>  
+    <string name="sync_account_summary_off">Auto-Synchronisierung aus</string>  
+    <string name="sync_account_title">Konto automatisch synchronisieren</string>  
+    <string name="wifi_setup_wizard_title">"WLAN auswählen"</string>  
+    <string name="wifi_menu_wps_pbc">"WPS-Push-Taste"</string>  
+    <string name="wifi_other_network">"Anderes Netzwerk…"</string>  
+    <string name="wifi_setup_skip">Überspringen</string>  
+    <string name="wifi_setup_next">"Weiter"</string>  
+    <string name="wifi_setup_back">Zurück</string>  
+    <string name="wifi_empty_list_wifi_off">Zur Anzeige verfügb. Netzwerke Wi-Fi einschalten.</string>  
+    <string name="wifi_empty_list_wifi_on">"Suche nach WLAN-Netzwerken läuft…"</string> 
+
+      <string name="import_contact_already">Sie importieren bereits. Bitte versuchen Sie es später noch einmal.</string>
+</resources>

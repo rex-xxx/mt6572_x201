@@ -1,0 +1,76 @@
+do project.cmm
+
+SYSTEM.Reset
+SYSTEM.CPU CortexA9MPCore
+System.Option Cflush ON    	;flush the cache to avoid data consistency
+SYSTEM.OPTION ENRESET ON
+SYSTEM.OPTION TRST ON
+SYStem.Option ResBreak OFF
+SYStem.Option WaitReset OFF
+SYStem.JtagClock 5MHz
+
+;R-T Memory Access
+SYSTEM.MULTICORE MEMORYACCESSPORT 0
+SYSTEM.MULTICORE DEBUGACCESSPORT 1
+
+;Setting Core debug register access
+SYSTEM.MULTICORE COREBASE APB:0x80070000
+
+sys.mode go
+wait 500.ms
+sys.mode down
+wait 100.ms
+sys.mode up
+;SYStem.Up
+
+; set_hw_breakpoint_by_def
+; setting attribute of breakpoints
+Break.Select Program OnChip
+Break.Select Hll OnChip
+;Break.Select Spot OnChip
+Break.Select Read OnChip
+Break.Select Write OnChip
+
+D.S A:0xC0000000 %LE %LONG 0x00002260 ;disable wdt
+
+; disable DABORT and PABORT breakpoint
+tronchip.set dabort off
+tronchip.set pabort off
+tronchip.set undef off
+
+print "loading u-boot symbol"
+d.load.elf ../../../../bootable/bootloader/uboot/u-boot /gnu /nocode
+
+
+Y.SPATH.RESET ; reset all source path
+Y.SPATH.SRD ../../../../mediatek/platform/mt6575/uboot
+Y.SPATH.SRD ../../../../mediatek/custom/out/&project/preloader
+Y.SPATH.SRD ../../../../bootable/bootloader/uboot/common
+Y.SPATH.SRD ../../../../bootable/bootloader/uboot/arch/arm/cpu/arm_cortexa9
+Y.SPATH.SRD ../../../../bootable/bootloader/uboot/drivers/
+Y.SPATH.SRD ../../../../bootable/bootloader/uboot/include
+Y.SPATH.SRD ../../../../bootable/bootloader/uboot/arch/arm/lib
+Y.SPATH.SRD ../../../../bootable/bootloader/uboot/disk
+Y.SPATH.SRD ../../../../bootable/bootloader/uboot/fs/fat
+Y.SPATH.SRD ../../../../bootable/bootloader/uboot/fs/fdos
+Y.SPATH.SRD ../../../../bootable/bootloader/uboot/lib
+Y.SPATH.SRD ../../../../bootable/bootloader/uboot/tools
+
+; jump to BROM
+Register.Set PC a:0xffff0000
+
+;winclear
+winpos 0% 0% 50% 50%
+d.l
+;winpos 0% 50% 50% 20%
+;sYmbol.Browse
+;winpos 0% 70% 50% 30%
+;Break.List
+
+;winpos 50% 0% 50% 50%
+;Register
+;winpos 50% 50% 50% 50%
+;Var.Frame /l /c
+
+enddo
+

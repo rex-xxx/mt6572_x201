@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="keyguard_pinword_enter_pinword_code">Εισαγάγετε PIN για ξεκλείδωμα</string>
+    <string name="badPin2">Το παλιό PIN2 που πληκτρολογήσατε δεν είναι σωστό.</string>
+    <string name="badPuk2">Το PUK2 που πληκτρολογήσατε δεν είναι σωστό.</string>
+    <string name="checkPwdLen">Βεβαιωθείτε ότι ο κωδικός πρόσβασης είναι από 4 έως 8 ψηφία.</string>
+    <string name="pinNotEnabled">Ενεργοποιήστε το PIN πριν το αλλάξετε.</string>
+    <string name="puk1Blocked">Το PIN έχει αποκλειστεί.</string>
+    <string name="puk2Blocked">Το PIN2 έχει αποκλειστεί.</string>
+    <string name="fdnFailMmi">Αποτυχία ελέγχου FDN.</string>
+    <string name="callBarringFailMmi">Αποτυχία φραγής κλήσεων.</string>
+    <string name="Pin2Mmi">Αλλαγή PIN2</string>
+    <string name="PukMmi">Κατάργηση αποκλεισμού PIN</string>
+    <string name="Puk2Mmi">Κατάργηση αποκλεισμού PIN2</string>
+    <string name="serviceProvisioned">Η υπηρεσία παρέχεται.</string>
+    <string name="serviceUnknown">Πρόβλημα σύνδεσης ή μη έγκυρος κωδικός MMI.</string>
+    <string name="cfServiceNotForwarded">Δεν έχει προωθηθεί</string>
+    <string name="permlab_receiveCbSms">λήψη SMS CB</string>
+    <string name="permdesc_receiveCbSms">Επιτρέπει στην εφαρμογή τη λήψη και επεξεργασία μηνυμάτων SMS CB. Οι κακόβουλες εφαρμογές ενδέχεται να παρακολουθούν τα μηνύματά σας ή να τα διαγράφουν χωρίς να σας τα εμφανίσουν.</string>
+    <string name="keyguard_password_enter_puk_code">Εισαγάγετε κωδικό PUK</string>
+    <string name="keyguard_password_wrong_puk_code">Εσφαλμένος κωδικός PUK!</string>
+    <string name="keyguard_password_enter_new_pin_code">Εισαγάγετε νέο PIN</string>
+    <string name="keyguard_password_Confirm_pin_code">Επιβεβαιώστε νέο PIN</string>
+    <string name="invalidPuk">Εισαγάγετε 8 ψηφία.</string>
+    <string name="sim_permanently_locked">Η εισαγωγή εσφαλμένου κωδικού PUK περισσότερες από 10 φορές, κλειδώνει οριστικά την κάρτα SIM.</string>
+    <string name="pin_length_indicate">(4-8 ψηφία)</string>
+    <string name="puk_length_indicate">(8 ψηφία)</string>
+    <string name="one_retry_left">Απομένει 1 επανάληψη</string>
+    <string name="retries_left">Απομένει:<xliff:g id="number">%d</xliff:g></string>
+    <string name="invalid_imei">Μη έγκυρο IMEI</string>
+    <string name="same_imei">Όμοιο IMEI</string>
+    <string name="oper_long_46000">China Mobile</string>
+    <string name="oper_long_46001">China Unicom</string>
+    <string name="oper_long_46601">Far EasTone</string>
+    <string name="oper_long_46692">Chunghwa Telecom</string>
+    <string name="oper_long_46697">Taiwan Mobile</string>
+    <string name="oper_long_99998">Android1</string>
+    <string name="oper_long_99999">Android</string>
+    <string name="oper_short_46000">CMCC</string>
+    <string name="oper_short_46001">CU-GSM</string>
+    <string name="oper_short_46601">FET</string>
+    <string name="oper_short_46692">VODAFONE</string>
+    <string name="oper_short_46697">TWN</string>
+    <string name="oper_short_99997">AD1</string>
+    <string name="oper_short_99999">AD</string>
+    <string name="unable_launch_the_ap">Δεν είναι δυνατή η εκκίνηση της εφαρμογής</string>
+    <string name="keyguard_password_enter_sim1_pin_code">Εισαγάγετε κωδικό PIN για τη SIM 1</string>
+    <string name="RestrictedChangedTitle_SIM1">Η περιορισμένη πρόσβαση στη SIM1 έχει αλλάξει</string>
+    <string name="RestrictedChangedTitle_SIM2">Η περιορισμένη πρόσβαση στη SIM2 έχει αλλάξει</string>
+    <string name="keyguard_password_enter_sim2_pin_code">Εισαγάγετε κωδικό PIN για τη SIM 2</string>
+    <string name="keyguard_password_wrong_sim1_pin_code">Εσφαλμένος κωδικός PIN για τη SIM 1!</string>
+    <string name="keyguard_password_wrong_sim2_pin_code">Εσφαλμένος κωδικός PIN για τη SIM 2!</string>
+    <string name="keyguard_password_enter_sim1_puk_code">Εισαγάγετε κωδικό PUK για τη SIM 1</string>
+    <string name="keyguard_password_enter_sim2_puk_code">Εισαγάγετε κωδικό PUK για τη SIM 2</string>
+    <string name="lockscreen_sim1_puk_locked_message">Η κάρτα SIM 1 έχει κλειδωθεί με PUK.</string>
+    <string name="lockscreen_sim2_puk_locked_message">Η κάρτα SIM 2 έχει κλειδωθεί με PUK.</string>
+    <string name="choose_bootup_mode">Επιλέξτε SIM</string>
+    <string name="choose_gprs_mode">Επιλέξτε σύνδεση δεδομένων</string>
+    <string name="sim_close">Κλείσιμο κάρτας SIM</string>
+    <string name="lockscreen_sim_puk_locked_message_short">Κλελιδωμα με με PUK</string>
+    <string name="lockscreen_sim_locked_message_short">Η κάρτα SIM έχει κλειδωθεί</string>
+    <string name="simlock_slot_locked_message">Η υποδοχή της κάρτας SIM έχει κλειδώσει οριστικά</string> 
+    <string name="simlock_entersimmelock">"Εισαγωγή κλειδώματος κάρτας SIM ME"</string>
+    <string name="slot_id">Υποδοχή <xliff:g id="number">%d</xliff:g>:</string>
+    <string name="new_simcard">Νέα κάρτα SIM</string>
+    <string name="lockscreen_missing_sim_dialog_message">"Η κάρτα SIM έχει αποσυνδεθεί. Βεβαιωθείτε ότι η κάρτα SIM που διαθέτετε έχει συνδεθεί σωστά."</string>
+    <string name="permlab_receiveDmRegisterSms">λήψη SMS εγγραφής DM</string>
+    <string name="permdesc_receiveDmRegisterSms">Επιτρέπει στην εφαρμογή τη λήψη και επεξεργασία μηνυμάτων SMS εγγραφής DM. Καμία εφαρμογή εκτός από την εφαρμογή DM APP δεν πρέπει να χρησιμοποιεί αυτή τη δυνατότητα</string>
+    <string name="lockscreen_password_error">Σφάλμα κωδικού πρόσβασης, προσπαθήστε ξανά</string>
+    <string name="lockscreen_pinword_error">Σφάλμα κωδικού PIN, προσπαθήστε ξανά</string>
+    <string name="music_no_artist">Άγνωστο όνομα καλλιτέχνη</string>
+    <string name="music_play">Αναπαραγωγή</string>
+    <string name="music_pause">Παύση</string>
+    <string name="music_library">Βιβλιοθήκη</string>
+    <string name="music_no_songs">Δεν υπάρχουν τραγούδια</string>
+    <string name="serviceClassVideo">Βίντεο</string>
+    <string name="aerr_application_lowmem">Η εφαρμογή <xliff:g id="application">%1$s</xliff:g> (διεργασία <xliff:g id="process">%2$s</xliff:g>) διακόπηκε απροσδόκητα. Αυτό ενδέχεται να οφείλεται σε περιορισμένο χώρο της μνήμης. Απελευθερώστε χώρο στη μνήμη και προσπαθήστε ξανά.</string>
+    <string name="aerr_process_lowmem">Η διεργασία <xliff:g id="process">%1$s</xliff:g> διακόπηκε απροσδόκητα. Αυτό ενδέχεται να οφείλεται σε περιορισμένο χώρο της μνήμης. Απελευθερώστε χώρο στη μνήμη και προσπαθήστε ξανά.</string>
+    <string name="free_memory_btn">"Απελευθέρωση μνήμης"</string>
+    <string name="free_memory_text">"Περιορισμένη μνήμη. Απελευθερώστε χώρο στη μνήμη."</string>
+    <string name="mem_low_title">Απελευθερώστε χώρο στη μνήμη.</string>
+    <string name="unread_message">%d μη αναγνωσμένο μήνυμα</string>
+    <string name="unread_messages">%d μη αναγνωσμένα μηνύματα</string>
+    <string name="missed_call">%d αναπάντητη κλήση</string>
+    <string name="missed_calls">%d αναπάντητες κλήσεις</string>
+    <string name="no_favorite_contacts">Δεν υπάρχουν αγαπημένες επαφές</string>
+    <string name="contact_widget_loading">Γίνεται φόρτωση\u2026</string>
+    <string name="volume_fm">Ένταση FM</string>
+    <string name="volume_matv">Ένταση TV κινητού</string>
+    <string name="media_controller_buffering">"Γίνεται αποθήκευση στο buffer %d%%..."</string>
+    <string name="media_controller_live">"Ζωντανά"</string>
+    <string name="media_controller_playing">"Γίνεται αναπαραγωγή"</string>
+    <string name="media_controller_connecting">"Γίνεται σύνδεση..."</string>
+    <string name="media_controller_weak_signal">"αδύναμο σήμα"</string>
+    <string name="VideoView_error_text_bad_file">"Κατεστραμμένο αρχείο, δεν είναι δυνατή η αναπαραγωγή του βίντεο."</string>
+    <string name="VideoView_error_text_cannot_connect_to_server">"Δεν είναι δυνατή η σύνδεση με το διακομιστή."</string>
+    <string name="VideoView_error_text_type_not_supported">"Ο τύπος αρχείων πολυμέσων δεν υποστηρίζεται."</string>
+    <string name="VideoView_error_text_drm_not_supported">"Προστασία DRM, δεν είναι δυνατή η αναπαραγωγή του βίντεο."</string>
+    <string name="VideoView_error_text_invalid_connection">"Μη έγκυρη σύνδεση. (403 Απαγορεύεται η πρόσβαση)"</string>
+    <string name="redo">Επανάληψη</string>
+    <string name="undo">Αναίρεση</string>
+    <string name="undoAll">Αναίρεση όλων</string>
+    <string name="new_sim">Νέα SIM</string>
+    <string name="edit">Επεξεργασία</string>
+    <string name="delete">Διαγραφή</string>
+    <string name="sim_card_changed_dialog_title">Η κάρτα SIM έχει αλλάξει</string>
+    <string name="change_setting_for_onenewsim">Ανιχνεύθηκε νέα κάρτα SIM. Έχει όνομα</string>
+    <string name="change_setting_for_twonewsim">Ανιχνεύθηκαν νέες κάρτες SIM. Έχουν όνομα</string>
+    <string name="change_settings">Αλλαγή</string>
+    <string name="sim_card_removed">Η κάρτα SIM αφαιρέθηκε.</string>
+    <string name="sim_card_swapped">Η κάρτα SIM έχει εναλλαχθεί.</string>
+    <string name="keyguard_voice_call">Φωνητική κλήση:</string>
+    <string name="keyguard_sms">Μηνύματα:</string>
+    <string name="keyguard_data">Σύνδεση δεδομένων:</string>
+    <string name="keyguard_alwaysask">Πάντα ερώτηση</string>
+    <string name="keyguard_data_none">Απενερεγοποίηση</string>
+    <string name="dismiss">Παράβλεψη</string>
+    <string name="keyguard_wrong_code_input">Εσφαλμένος κωδικός.</string>
+    <string name="keyguard_code_length_prompt">Εισαγάγετε 4-8 ψηφία.</string>
+    <string name="keyguard_code_donnot_mismatch">Δεν συμφωνούν.</string>
+    <string name="for_text">για</string>
+    <string name="keyguard_internal_call">Εσωτερική κλήση</string>
+    <string name="keyguard_not_set">Δεν έχει οριστεί</string>
+    <string name="network_searching">Γίνεται αναζήτηση για δίκτυο</string>
+    <string name="searching_simcard">Γίνεται ανίχνευση…</string>
+    <string name="keyguard_close">Κλείσιμο</string>
+    <string name="for_first_simcard">Για την πρώτη SIM</string>
+    <string name="for_second_simcard">Για τη δεύτερη SIM</string>
+    <string name="for_third_simcard">Για την τρίτη κάρτα SIM</string>
+    <string name="for_fourth_simcard">Για την τέταρτη κάρτα SIM</string>
+    <string name="default_sim_setting_prompt">Τώρα, οι προεπιλεγμένες ρυθμίσεις SIM είναι:</string>
+    <string name="keyguard_video_call">Κλήση βίντεο:</string>
+    <string name="lockscreen_pin_too_many_failed_attempts_dialog_message"> Έχετε εισαγάγει εσφαλμένο PIN <xliff:g id="number">%d</xliff:g> φορές. \n\nΠροσπαθήστε ξανά σε <xliff:g id="number">%d</xliff:g> δευτερόλεπτα.</string>
+    <string name="lockscreen_password_too_many_failed_attempts_dialog_message"> Έχετε εισαγάγει εσφαλμένο κωδικό πρόσβασης <xliff:g id="number">%d</xliff:g> φορές. \n\nΠροσπαθήστε ξανά σε <xliff:g id="number">%d</xliff:g> δευτερόλεπτα.</string>
+    <string name="criticallowtitle">Δεν υπάρχει χώρος</string>
+    <string name="criticallowmessage">Ο χώρος αποθήκευσης του τηλεφώνου είναι πλήρης. Διαγράψτε αρχεία που δεν χρησιμοποιείτε, διαφορετικά η εφαρμογή ενδέχεται να διακοπεί απροσδόκητα</string>
+    <string name="nq_sms_filter_title">Φίλτρο SMS</string>
+    <string name="nq_sms_filter_message">Αυτό το μήνυμα ενδέχεται να επιφέρει χρεώσεις. Θέλετε να συνεχίσετε;</string>
+    <string name="nq_sms_filter_yes">Ναι</string>
+    <string name="nq_sms_filter_no">Όχι</string>
+    <string name="ext_media_checking_notification_title_sd2">Προετοιμασία κάρτας SD 2</string>
+    <string name="drm_protection_status">Κατάσταση προώθησης:</string>
+    <string name="drm_can_forward">Μπορεί να προωθηθεί.</string>
+    <string name="drm_can_not_forward">Δεν μπορεί να προωθηθεί.</string>
+    <string name="drm_no_limitation">Δεν υπάρχει περιορισμός.</string>
+    <string name="drm_no_license">Δεν υπάρχει διαθέσιμη άδεια DRM.</string>
+    <string name="drm_begin">Έναρξη:</string>
+    <string name="drm_end">Λήξη:</string>
+    <string name="drm_use_left">Υπόλοιπο:</string>
+    <string name="drm_protectioninfo_renew">Ανανέωση</string>
+    <string name="drm_protectioninfo_title">Πληροφορίες προστασίας</string>
+    <string name="drm_licenseacquisition_title">Λήψη άδειας DRM</string>
+    <string name="drm_licenseacquisition_message">Δεν υπάρχει διαθέσιμη άδεια DRM σε %1$s. Μπορείτε να πιέσετε το κουμπί ?enew?? Για την απόκτηση άδειας DRM.</string>
+    <string name="drm_toast_license_expired">Η άδεια DRM έχει λήξει.</string>
+    <string name="drm_forwardforbidden_title">Απαγορεύεται η προώθηση</string>
+    <string name="drm_forwardforbidden_message">Δεν είναι δυνατή η προώθηση ορισμένων προστατευμένων αρχείων.</string>
+    <string name="drm_license_install_success">Η εγκατάσταση άδειας DRM ολοκληρώθηκε με επιτυχία.</string>
+    <string name="drm_license_install_fail">Η εγκατάσταση άδειας DRM απέτυχε.</string>
+    <string name="drm_secure_timer_title">Μη έγκυρο κλείδωμα ασφαλείας DRM</string>
+    <string name="drm_secure_timer_message">Δεν είναι δυνατή η χρήση προστατευμένων αρχείων DRM. Βεβαιωθείτε ότι υπάρχει διαθέσιμη σύνδεση δεδομένων.</string>
+    <string name="drm_consume_title">Κατανάλωση δικαιωμάτων DRM</string>
+    <string name="drm_consume_message">Η ενέργειά σας θα καταναλώσει δικαιώματα DRM.</string>
+
+    <!--     add for alarm boot           -->
+    <string name="default_label" >"Ξυπνητήρι"</string>
+    <string name="dismiss_power_on">Παράβλεψη και ενεργοποίηση</string>
+    <string name="dismiss_power_off">Παράβλεψη και απενεργοποίηση</string>
+    <string name="alarm_alert_snooze_text">Snooze</string>
+    <string name="every_day" >"Κάθε ημέρα"</string>
+    <string name="never" >"Ποτέ"</string>
+    <string name="day_concat" >", "</string>
+    
+    <string name="gps_time_sync_fail_str">Αποτυχία λήψης ώρας που παρέχεται από το GPS</string>
+
+	<string name="usb_ums_notification_title">Συνδέθηκε ως χώρος αποθήκευσης USB</string>
+    <string name="usb_charging_notification_title">Μόνο φόρτιση USB</string>
+
+    <string name="sim_missing_slot1">Υποδοχή 1: Δεν εντοπίστηκε κάρτα SIM</string>  
+    <string name="sim_missing_slot2">Υποδοχή 2: Δεν εντοπίστηκε κάρτα SIM</string>  
+    <string name="sim_missing">Δεν εντοπίστηκε κάρτα SIM</string>  
+    <string name="sim_missing_detail">Ελέγξτε εάν η κάρτα SIM είναι έτοιμη</string> 
+
+    <!-- add for webview find -->
+    <string name="find_previous">προηγούμενο</string>
+    <string name="find_next">επόμενο</string>
+
+    <string name="tethered_notification_message_for_hotspot">
+        <xliff:g id="connected">%1$d</xliff:g> έχουν συνδεθεί, 
+        <xliff:g id="blocked">%2$d</xliff:g> έχουν αποκλειστεί
+    </string>
+    <string name="default_wallpaper_name">"Προεπιλογή"</string> 
+    <string name="invalid_sim_title">Μη έγκυρη κάρτα SIM</string>
+    <string name="invalid_sim_message">Η κάρτα UIM/SIM δεν αναγνωρίζεται</string>
+    <!-- voice unlock start -->
+    <string name="voice_unlock_service_error">Σφάλμα υπηρεσίας φωνητικού ξεκλειδώματος.</string>
+    <string name="voice_unlock_password_wrong">Δυστυχώς, δεν είναι δυνατή η αναγνώριση της φωνής σας.</string>
+    <string name="voice_unlock_noisy">Υπάρχει πολύς θόρυβος και δεν ακούγεστε καθαρά.</string>
+    <string name="voice_unlock_weak">Δεν ακούγεται η φωνή σας.</string>
+    <string name="voice_unlock_media_playing">Το φωνητικό ξεκλείδωμα είναι απενεργοποιημένο κατά τη διάρκεια της αναπαραγωγής πολυμέσων.</string>
+    <string name="voiceunlock_multiple_failures">Έχει γίνει υπέρβαση του μέγιστου αριθμού προσπαθειών για φωνητικό ξεκλείδωμα</string>    
+    <!-- voice unlock end -->
+
+    <string name="wifi_display_bt_hdmi_off_wfd_on">Το Bluetooth και το HDMI θα απενεργοποιηθούν όταν ενεργοποιήσετε την ασύρματη οθόνη. Θέλετε να συνεχίσετε;</string>
+    <string name="wifi_display_wfd_off_hdmi_on">Η ασύρματη οθόνη θα απενεργοποιηθεί όταν ενεργοποιήσετε το HDMI. Θέλετε να συνεχίσετε;</string>
+    <string name="wifi_display_wfd_off_bt_on">Η ασύρματη οθόνη θα απενεργοποιηθεί όταν ενεργοποιήσετε το Bluetooth. Θέλετε να συνεχίσετε;</string> 
+    <string name="wifi_display_wifi_p2p_disconnect_wfd_connect">Η τρέχουσα σύνδεση Wi-Fi Direct θα αποσυνδεθεί όταν συνδεθείτε στη συσκευή ασύρματης οθόνης. Θέλετε να συνεχίσετε;</string>
+    <!-- Add for AT&T to show toast when pass pin/puk lock -->
+    <string name="pin_pass">Αποδεκτός κωδικός</string>
+    <string name="puk_pass">Κατάργηση αποκλεισμού του κωδικού PIN</string>
+    <!-- MountService start -->
+    <string name="sdcard_ready_title">SD κάρτα είναι έτοιμη</string>
+    <string name="sdcard_select_default_path">Θέλετε να αλλάξετε το προεπιλεγμένο δίσκο εγγραφής;</string>
+    <string name="sdcard_default_path_change">Προεπιλογή δίσκο εγγραφής θα αλλάξει την αποθήκευση τηλέφωνο.</string>
+    <!-- MountService end -->
+</resources>
+

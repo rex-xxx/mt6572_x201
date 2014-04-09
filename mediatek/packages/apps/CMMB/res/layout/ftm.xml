@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">                   
+
+    <com.mediatek.cmmb.app.TVSurfaceView android:id="@+id/surface"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+			android:visibility="invisible"           
+            android:layout_centerInParent="true" />
+            
+   <RelativeLayout android:id="@+id/progress_indicator"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/black"> 
+    <ImageView android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+		android:layout_centerInParent="true"                      
+        />                         
+	<TextView android:paddingBottom="5dip" android:id="@+id/channel_name0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_centerHorizontal ="true"
+        		android:layout_above="@id/logo"                   
+                android:textColor="#ffffffff" />               
+    <ProgressBar android:id="@android:id/progress"
+            style="@android:style/Widget.ProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:max="10000"
+            android:layout_centerInParent="true"/> 
+    <TextView android:paddingTop="5dip" 
+    			android:id="@+id/notification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20sp"
+				android:layout_centerHorizontal="true"
+				android:layout_below ="@id/logo"				
+                android:textColor="#ffffffff" />               
+    </RelativeLayout>  
+     
+       
+	<ListView 
+			android:id="@+id/channel_list_in_player"
+			android:layout_width="240dp" 
+			android:layout_height="272dp" 
+			android:layout_centerInParent="true"
+			android:orientation="vertical"
+			android:background="@drawable/popup"			
+			android:cacheColorHint="#00000000"		
+			android:visibility="gone"/> 
+
+	<ListView 
+			android:id="@+id/signal_info"
+			android:layout_width="200dp" 
+			android:layout_height="wrap_content" 
+			android:layout_alignParentRight="true"
+			android:layout_alignParentTop="true"
+			android:orientation="vertical"
+			android:background="#AA777777"			
+			android:cacheColorHint="#00000000"		
+			android:visibility="gone"/>
+			  
+</RelativeLayout>
+

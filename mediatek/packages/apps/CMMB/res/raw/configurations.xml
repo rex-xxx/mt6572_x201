@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configurations>
+    <frequencies>
+        <frequency>474000000</frequency>
+        <frequency>482000000</frequency>
+        <frequency>490000000</frequency>
+        <frequency>498000000</frequency>
+        <frequency>506000000</frequency>
+        <frequency>514000000</frequency>
+        <frequency>522000000</frequency>
+        <frequency>530000000</frequency>
+        <frequency>538000000</frequency>
+        <frequency>546000000</frequency>
+        <frequency>554000000</frequency>
+        <frequency>562000000</frequency>
+        <frequency>610000000</frequency>
+        <frequency>618000000</frequency>
+        <frequency>626000000</frequency>
+        <frequency>634000000</frequency>
+        <frequency>642000000</frequency>
+        <frequency>650000000</frequency>
+        <frequency>658000000</frequency>
+        <frequency>666000000</frequency>
+        <frequency>674000000</frequency>
+        <frequency>682000000</frequency>
+        <frequency>690000000</frequency>
+        <frequency>698000000</frequency>
+        <frequency>706000000</frequency>
+        <frequency>714000000</frequency>
+        <frequency>722000000</frequency>
+        <frequency>730000000</frequency>
+        <frequency>738000000</frequency>
+        <frequency>746000000</frequency>
+        <frequency>754000000</frequency>
+        <frequency>762000000</frequency>
+        <frequency>770000000</frequency>
+        <frequency>778000000</frequency>
+        <frequency>786000000</frequency>
+        <frequency>794000000</frequency>
+    </frequencies>
+    <userAgent>Athens15_TD/V2 MBBMS/2.2</userAgent>
+    <terminalCapability>2.0</terminalCapability>
+    <sgServer>sg.mbbms.chinamobile.com</sgServer>
+    <sgPort>80</sgPort>
+    <wap>10.0.0.172</wap>
+    <wapPort>80</wapPort>
+    <apn>CMWAP</apn>
+    <locationCheckMode>0</locationCheckMode>
+    <savedLocation>""</savedLocation>
+    <autoPopupImd>1</autoPopupImd>
+</configurations>

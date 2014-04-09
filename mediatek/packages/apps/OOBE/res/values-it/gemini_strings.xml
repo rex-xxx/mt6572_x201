@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="gemini_sim_info_title">Informazioni SIM</string>  
+    <string name="gemini_default_sim_title">SIM predefinita</string>  
+    <string name="gemini_general_settings_title">Impostazioni generali</string>  
+    <string name="gemini_roaming_settings_title">Roaming</string>  
+    <string name="gemini_contacts_sim_title">Contatti e SIM</string>  
+    <string name="gemini_contacts_sim_summary">Associa contatti con SIM specifica</string>  
+    <string name="gemini_voice_call">Chiamata vocale</string>  
+    <string name="gemini_video_call">Videochiamata</string>  
+    <string name="gemini_data_connection">Connessione dati</string>  
+    <string name="gemini_msg">"Messaggi"</string>  
+    <string name="gemini_default_sim_always_ask">Chiedi sempre</string>  
+    <string name="gemini_intenet_call">Chiamata Internet</string>  
+    <string name="gemini_default_sim_never">Off</string>  
+    <string name="gemini_default_sim_3g_off">Off</string>  
+    <string name="gemini_sim_info_editor_name">Modifica nome SIM</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">Salvataggio non riuscito</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">Duplica nome per scheda SIM</string>  
+    <string name="gemini_sim_info_editor_number">Digita numero di telefono</string>  
+    <string name="gemini_sim_info_editor_color">Imposta colore sfondo</string>  
+    <string name="gemini_sim_info_editor_number_display_format">Visualizza numeri</string>  
+    <string name="gemini_no_sim_indicator">Nessuna scheda SIM</string>  
+    <string name="gemini_data_connection_progress_message">"Attendere..."</string>  
+    <string name="gemini_3g_modem_switching_message">"Il completamento dell'attivazione della SIM richiede circa 10 secondi. Attendere..."</string>  
+    <string name="gemini_3g_modem_switch_confirm_message">"Ciò attiva anche il servizio 3G su questa SIM. Continuare? Assicurarsi che la SIM selezionata supporti il servizio 3G."</string>  
+    <string name="gemini_sim_mode_progress_activating_message">Attivazione...</string>  
+    <string name="gemini_sim_mode_progress_deactivating_message">Disattivazione...</string>  
+    <string msgid="7422262558097875757" name="apn_not_set">"Non impostato"</string>  
+    <string name="gemini_3g_disable_warning_case0">"Abilitare prima il roaming dati per questa SIM potrebbe causare significativi costi di roaming! Abilitare il roaming dati e selezionare questa SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"Servizio 3G non disponibile per la SIM selezionata. Ciò potrebbe caricare lentamente i dati. È possibile modificare l'impostazione del servizio 3G su Impostazioni &gt; Wireless e reti &gt; Reti mobili. Selezionare questa SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"Servizio 3G non disponibile per la SIM selezionata. Ciò potrebbe caricare lentamente i dati. È possibile modificare l'impostazione del servizio 3G su Impostazioni &gt; Gestione SIM. Selezionare questa SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"Abilitare prima il roaming dati per questa SIM potrebbe causare significativi costi di roaming! Inoltre, il servizio 3G non è disponibile per questa SIM. Ciò potrebbe caricare lentamente i dati. È possibile modificarla su Impostazioni &gt; Wireless e reti &gt; Reti mobili. Abilitare il roaming dati e selezionare questa SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"Abilitare prima il roaming dati per questa SIM potrebbe causare significativi costi di roaming! Inoltre, il servizio 3G non è disponibile per questa SIM. Ciò potrebbe caricare lentamente i dati. È possibile modificarla su Impostazioni &gt; Gestione SIM. Abilitare il roaming dati e selezionare questa SIM?"</string>  
+    <string name="gemini_gsm_umts_network_preferences_title">Modalità di rete</string>  
+</resources>

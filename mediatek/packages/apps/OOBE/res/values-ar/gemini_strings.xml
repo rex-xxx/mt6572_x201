@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="gemini_sim_info_title">معلومات بطاقة SIM</string>  
+    <string name="gemini_default_sim_title">بطاقة SIM الافتراضية</string>  
+    <string name="gemini_general_settings_title">الإعدادات العامة</string>  
+    <string name="gemini_roaming_settings_title">التجوال</string>  
+    <string name="gemini_contacts_sim_title">"جهات الاتصال وبطاقة SIM"</string>  
+    <string name="gemini_contacts_sim_summary">اقتران جهات الاتصال مع بطاقة SIM معينة</string>  
+    <string name="gemini_voice_call">مكالمة صوتية</string>  
+    <string name="gemini_video_call">مكالمة فيديو</string>  
+    <string name="gemini_data_connection">اتصال البيانات</string>  
+    <string name="gemini_msg">"المراسلات"</string>  
+    <string name="gemini_default_sim_always_ask">السؤال دائمًا</string>  
+    <string name="gemini_intenet_call">مكالمة عبر الإنترنت</string>  
+    <string name="gemini_default_sim_never">إيقاف</string>  
+    <string name="gemini_default_sim_3g_off">إيقاف</string>  
+    <string name="gemini_sim_info_editor_name">تحرير اسم بطاقة SIM</string>  
+    <string name="gemini_sim_info_editor_number">أدخل رقم الهاتف</string>  
+    <string name="gemini_sim_info_editor_color">ضبط لون الخلفية</string>  
+    <string name="gemini_sim_info_editor_number_display_format">عرض الأرقام</string>  
+    <string name="gemini_no_sim_indicator">لا توجد بطاقة SIM</string>  
+    <string name="gemini_data_connection_progress_message">"يرجى الانتظار..."</string>  
+    <string name="gemini_3g_modem_switching_message">"ستستغرق عملية تبديل بطاقة SIM حوالي 10 ثوانٍ. يرجى الانتظار…"</string>  
+    <string name="gemini_3g_modem_switch_confirm_message">"يعمل هذا أيضًا على تبديل خدمة 3G إلى SIM. استمرار؟ يرجى التأكد من دعم SIM التي تم اختيارها لخدمة 3G."</string>  
+    <string name="gemini_gsm_umts_network_preferences_title">وضع الشبكة</string>  
+    <string name="gemini_sim_mode_progress_activating_message">جاري التنشيط...</string>  
+    <string name="gemini_sim_mode_progress_deactivating_message">جاري الإيقاف...</string>  
+    <string msgid="7422262558097875757" name="apn_not_set">"لم يتم التعيين"</string>  
+    <string name="gemini_3g_disable_warning_case0">"يجب أولا تمكين تجوال البيانات لبطاقة SIM مما قد يكلفك مبلغا من المال! هل تريد بالتأكيد تمكين تجوال البيانات واختيار بطاقة SIM؟"</string>  
+    <string name="gemini_3g_disable_warning_case1">"خدمة ‏3G غير متاحة مع بطاقة SIM المحددة. قد يبطأ ذلك من سرعة تحميل البيانات. يمكن تغيير إعدادات خدمة ‎3G من الإعدادات &gt; الاتصالات اللاسلكية والشبكات &gt; شبكات الهاتف المحمول. هل أنت متأكد من رغبتك في تحديد بطاقة SIM؟"</string>  
+    <string name="gemini_3g_disable_warning_case2">"خدمة ‏3G غير متاحة مع بطاقة SIM المحددة. قد يبطأ ذلك من سرعة تحميل البيانات. يمكنك تغيير إعدادات خدمة ‎3G من الإعدادات &gt; إدارة SIM. هل أنت متأكد من رغبتك في تحديد بطاقة SIM؟"</string>  
+    <string name="gemini_3g_disable_warning_case3">"يجب أولاً تمكين تجوال البيانات لبطاقة SIM وقد تكلفك خاصية التجوال بعض الرسوم! كما أن خدمة ‎3G غير متاحة مع بطاقة SIM. قد يبطأ ذلك من سرعة تحميل البيانات. يمكن تغيير إعدادات خدمة ‎3G من الإعدادات &gt; الاتصالات اللاسلكية والشبكات &gt; شبكات الهاتف المحمول. هل أنت متأكد من رغبتك في تمكين تجوال البيانات وتحديد بطاقة SIM؟"</string>  
+    <string name="gemini_3g_disable_warning_case4">"يجب أولاً تمكين تجوال البيانات لبطاقة SIM وقد تكلفك خاصية التجوال بعض الرسوم! كما أن خدمة ‎3G غير متاحة مع بطاقة SIM. قد يبطأ ذلك من سرعة تحميل البيانات. يمكنك تغيير إعدادات خدمة ‎3G من الإعدادات &gt; إدارة SIM. هل أنت متأكد من رغبتك في تمكين تجوال البيانات وتحديد بطاقة SIM؟"</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">تعذر الحفظ</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">تكرار الاسم في بطاقة SIM</string> 
+</resources>

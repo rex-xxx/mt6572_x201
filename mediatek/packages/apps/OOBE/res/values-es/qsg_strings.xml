@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="qsg_app_name">Guía de inicio rápido</string>  
+    <!-- ============================ -->  
+    <!-- quick start guide strings -->  
+    <!-- ============================ -->  
+    <string name="skip_button">Omitir</string>  
+    <string name="ok_button">Iniciar</string>  
+    <string name="qsg_title_begin">Guía de inicio rápido</string>  
+    <string name="qsg_summary_begin">Esta Guía de inicio rápido ofrecerá 4 útiles consejos y presentará la gestión básica de su pantalla de inicio y sus gestos.</string>  
+    <string name="next">Siguiente</string>  
+    <string name="play_again">Reproducir de nuevo</string>  
+    <string name="finish">Finalizar</string>  
+    <string name="qsg_title2_home_screen">Ver pantalla de inicio</string>  
+    <string name="qsg_summary2_home_screen">Pase el dedo a izquierda o derecha para ver otras páginas de la pantalla de inicio.</string>  
+    <string name="qsg_title3_choose_widget">Elegir algunos widgets</string>  
+    <string name="qsg_summary3_choose_widget">Para agregar un widget a su pantalla de inicio, tóquelo y manténgalo presionado.</string>  
+    <string name="qsg_title4_launch_page">Iniciar página de detalles</string>  
+    <string name="qsg_summary4_launch_page">Toque una imagen de perfil para ver la página de detalles con las opciones.</string>  
+    <string name="qsg_title5_view_notification">Ver notificaciones</string>  
+    <string name="qsg_summary5_view_notification">Toque la barra de estado y desplácela hacia abajo para ver todas las notificaciones.</string>  
+    <string name="qsg_changesim_title">Cambiar tarjeta SIM</string>  
+    <string name="qsg_changesim_summary">Desplace hacia abajo la barra de estado, y seleccione la tarjeta SIM que quiera usar.</string>  
+    <string name="qsg_summary_end">Ya ha visto todos los consejos de la Guía de inicio rápido. \n\nSi quiere, puede tocar el botón "reproducir de nuevo" para volver a ver esta guía.\n\nTambién puede tocar el botón "Finalizar" para usar su nuevo dispositivo.</string> 
+</resources>

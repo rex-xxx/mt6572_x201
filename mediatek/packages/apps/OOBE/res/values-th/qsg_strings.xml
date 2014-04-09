@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="qsg_app_name">คู่มือเริ่มการใช้งานแบบเร็ว</string>  
+    <!-- ============================ -->  
+    <!-- quick start guide strings -->  
+    <!-- ============================ -->  
+    <string name="skip_button">ข้าม</string>  
+    <string name="ok_button">เริ่ม</string>  
+    <string name="qsg_title_begin">คู่มือเริ่มการใช้งานแบบเร็ว</string>  
+    <string name="qsg_summary_begin">คู่มือเริ่มการใช้งานแบบเร็วนี้จะเสนอข้อแนะนำ 4 ประการที่มีประโยชน์ และจะแนะนำคุณเกี่ยวกับรูปแบบพื้นฐานและการจัดการหน้าจอหลัก</string>  
+    <string name="next">ถัดไป</string>  
+    <string name="play_again">เล่นอีกครั้ง</string>  
+    <string name="finish">เสร็จแล้ว</string>  
+    <string name="qsg_title2_home_screen">ดูหน้าจอหลัก</string>  
+    <string name="qsg_summary2_home_screen">ปัดไปทางซ้ายหรือขวาเพื่อดูหน้าจอหลักหน้าอื่น</string>  
+    <string name="qsg_title3_choose_widget">เลือกวิดเจ็ด</string>  
+    <string name="qsg_summary3_choose_widget">ให้แตะวิดเจ็ดและค้างไว้ เพื่อเพิ่มวิดเจ็ดบนหน้าจอหลัก</string>  
+    <string name="qsg_title4_launch_page">เรียกดูหน้ารายละเอียด</string>  
+    <string name="qsg_summary4_launch_page">แตะที่รูปโปรไฟล์ เพื่อให้หน้ารายละเอียดปรากฏขึ้นให้เลือก</string>  
+    <string name="qsg_title5_view_notification">ดูการแจ้งเตือน</string>  
+    <string name="qsg_summary5_view_notification">และเลื่อนลงเพื่อดูการแจ้งเตือนทั้งหมด</string>  
+    <string name="qsg_changesim_title">เปลี่ยน SIM การ์ด</string>  
+    <string name="qsg_changesim_summary">เลื่อนแถบสถานะลง และเลือก SIM การ์ดการบริการเพื่อดำเนินการ</string>  
+    <string name="qsg_summary_end">คุณได้ผ่านข้อแนะนำทั้งหมดที่มีในคู่มือเริ่มการใช้งานแบบเร็วแล้ว \n\nหากต้องการ คุณสามารถแตะที่ปุ่ม " เล่นอีกครั้ง" เพื่อดูข้อแนะนำนี้ซ้ำ\n\nหรือคุณอาจแตะที่ปุ่ม "เสร็จแล้ว" เพื่อใช้งานอุปกรณ์ใหม่ของคุณ</string> 
+</resources>

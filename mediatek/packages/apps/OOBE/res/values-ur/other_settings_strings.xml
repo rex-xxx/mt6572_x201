@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string msgid="4114084177056654663" name="date_and_time">تاریخ &amp; وقت کی ترتیبات</string>  
+    <string msgid="3259617262618020574" name="date_time_12_hour_sample">1:00 بعد دوپہر</string>  
+    <string msgid="7762866468013985022" name="choose_timezone">منقطہ وقت منتخب کریں</string>  
+    <string msgid="1982904221918374153" name="normal_date_format">عام ( 
+        <xliff:g example="12-31-2009" id="date">%s</xliff:g>)
+    </string>  
+    <string msgid="3086083265745944725" name="date_time_auto">نیٹ ورک کے ساتھ خودکا</string>  
+    <string msgid="1193032284921000063" name="date_time_24hour">24-گھنٹے فارمیٹ استعمال کریں</string>  
+    <string msgid="5716856602742530696" name="date_time_set_time">وقت سیٹ کریں</string>  
+    <string msgid="5045627174274377814" name="date_time_set_timezone">منقطہ وقت منتخب کریں</string>  
+    <string msgid="7021491668550232105" name="date_time_set_date">تاریخ سیٹ کریں</string>  
+    <string msgid="436706100255870967" name="date_time_date_format">تاریخ فارمیٹ منتخب کریں</string>  
+    <string msgid="5683377702671088588" name="zone_list_menu_sort_alphabetically">حروف تہجی کی بنیاد پر ترتیب کریں</string>  
+    <string msgid="2720190443744884114" name="zone_list_menu_sort_by_timezone">منقطہ وقت کی بنیاد پر ترتیب کریں</string>  
+    <string name="zone_auto">خودکار منطقہ وقت</string>  
+    <string name="zone_auto_summaryOn">نیٹورک کا فراہم کردہ منطقہ وقت استعمال کریں</string>  
+    <string name="zone_auto_summaryOff">نیٹورک کا فراہم کردہ منطقہ وقت استعمال کریں</string> 
+</resources>
