@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- M: Support "SystemUI - Notification toolbar". -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:gravity="center_vertical"
+    android:paddingLeft="18dip"
+    android:id="@+id/sim_info"
+    android:paddingRight="?android:attr/scrollbarSize"
+    android:background="@android:color/transparent" >
+
+    <RelativeLayout 
+        android:layout_width="48dip"
+        android:layout_height="32dip"
+        android:id="@+id/sim_icon_bg"
+        android:layout_marginRight="6sp"
+        android:layout_marginTop="6sp"
+        android:layout_marginBottom="6sp"
+        android:layout_centerVertical="true">
+    
+        <ImageView
+            android:id="@+id/sim_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_alignParentRight="true" />
+        
+        <TextView
+            android:id="@+id/sim_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" 
+            android:textStyle="bold"
+            android:textSize="11sp"
+            android:text="@string/gemini_3g_indic"
+            android:textColor="@android:color/white"
+            android:includeFontPadding="false"/>
+ 
+        <TextView 
+            android:id="@+id/sim_short_number" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:textSize="12sp"
+            android:layout_alignParentBottom="true" 
+            android:layout_alignParentRight="true"
+            android:textColor="@android:color/white"
+            android:includeFontPadding="false"
+            android:layout_gravity="right|bottom"
+            android:layout_marginBottom="0sp"/>
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="6sp"
+        android:layout_marginTop="6sp"
+        android:layout_marginBottom="6sp"
+        android:layout_weight="1"
+        android:layout_centerVertical="true">
+    
+        <TextView android:id="@+id/sim_op_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:ellipsize="middle"  
+            android:textColor="@android:color/white"
+            android:scrollHorizontally="true"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"/>
+
+        <TextView android:id="@+id/sim_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sim_op_name"
+            android:layout_alignLeft="@id/sim_op_name"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:attr/textAppearanceSmallInverse"/>
+    </RelativeLayout>
+    
+    <RadioButton 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:id="@+id/enable_state"
+        android:focusable="false"
+        android:clickable="false"
+        android:gravity="center_vertical|center" 
+        android:layout_centerVertical="true"/>
+
+</LinearLayout>

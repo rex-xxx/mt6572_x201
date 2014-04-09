@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="gemini_default_sim_always_ask">هميشه سوال کن</string>
+    <string name="sim_switch_tip">اين سيم کارت به عنوان سيم کارت پيش فرض برای <xliff:g>%s</xliff:g> تعيين شده است. برای تغيير دادن سيم کارت پيش فرض، نوار وضعيت را نگه داشته و پايين بکشيد.</string>
+    <string name="remind_next_time">دفعه بعد به من يادآوری کن</string>
+    <string name="voice_call_service">سرويس تماس صوتی</string>
+    <string name="messages_service">سرويس پيام ها</string>
+    <string name="data_connection_service">سرويس اتصال داده</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="bluetooth">بلوتوث</string>
+    <string name="mobile">اتصال داده</string>
+    <string name="gps">GPS</string>
+    <string name="autorotate">چرخش خودکار</string>
+    <string name="normal">عمومی</string>
+    <string name="meeting">جلسه</string>
+    <string name="mute">سکوت</string>
+    <string name="outdoor">فضای باز</string>
+    <string name="offline">حالت پرواز</string>
+    <string name="brightness">روشنايی</string>
+    <string name="timeout">وقفه</string>
+    <string name="data_connection_attach_timeout_error_msg">"اتصال داده قطع شد يا شبکه در حال حاضر مشغول است."</string>
+    <string name="data_connection_dettach_timeout_error_msg">"بروز اشکال در قطع اتصال داده."</string>
+    <string name="data_connection_connected">اتصال داده سيم کارت [<xliff:g>%s</xliff:g>] فعال شد</string>
+    <string name="gemini_intenet_call">تماس اينترنتی</string>
+    <string name="gemini_default_sim_never">خاموش</string>
+    <string name="confirm_radio_title">سيم کارت غيرفعال شد</string>
+    <string name="confirm_radio_msg"> <xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> اکنون غيرفعال است. آيا میخواهيد اين سيم کارت را فعال کنيد؟</string>
+    <string name="confirm_radio_msg_single">حالت پرواز هم اکنون فعال است، آيا می خواهيد آن را خاموش کنيد؟</string>
+    <string name="confirm_radio_lbutton">روشن کردن</string>
+    <string name="gemini_3g_disable_warning">"سرویس 3G برای سیم کارت انتخاب شده در دسترس نیست. این امر ممکن است باعث کند شدن بارگذاری داده ها شود. شما می توانید از طریق تنظیمات &gt; بی سیم و شبکه ها &gt; شبکه های سیار، تنظیم سرویس 3G را تغییر دهید."</string>
+    <string name="gemini_3g_disable_warning_cu">"سرویس 3G برای سیم کارت انتخاب شده در دسترس نیست. این امر ممکن است باعث کند شدن بارگذاری داده ها شود. شما می توانید از طریق تنظیمات &gt; مدیریت سیم کارت، تنظیم سرویس 3G را تغییر دهید."</string>
+    <string name="gemini_3g_disable_warning_case0">"شما ابتدا باید رومینگ داده ها را برای این سیم کارت فعال کنید که ممکن است منجر به هزینه های قابل توجه رومینگ گردد! آیا از فعال کردن رومینگ داده ها و انتخاب این سیم کارت مطمئن هستید؟"</string>  
+    <string name="gemini_3g_disable_warning_case1">"سرویس 3G برای سیم انتخابی در دسترس نیست. ممکن داده دیرتر لود شود. می توانید تنظیمات سرویس 3G را از بخش تنظیمات &gt; بی سیم و شبکه&gt; شبکه های موبایل تغییر دهید. آیا مطمئنید می خواهید این سیم را انتخاب کنید؟"</string>  
+    <string name="gemini_3g_disable_warning_case2">"سرویس 3G برای سیم انتخابی در دسترس نیست. ممکن داده دیرتر لود شود. می توانید تنظیمات سرویس 3G را از بخش تنظیمات &gt; مدیریت سیم تغییر دهید. آیا مطمئنید می خواهید این سیم را انتخاب کنید؟"</string>  
+    <string name="gemini_3g_disable_warning_case3">"ابتدا باید رومینگ داده را برای این سیم فعال کنید که ممکن است باعث هزینه قابل ملاحظه رومینگ شود! علاوه بر آن سرویس 3G برای سیم انتخابی در دسترس نیست. ممکن داده دیرتر لود شود. می توانید از بخش تنظیمات &gt; بی سیم و شبکه&gt; شبکه های موبایل آن را تغییر دهید. آیا مطمئنید که می خواهید رومینگ داده را برای این سیم فعال کنید؟"</string>  
+    <string name="gemini_3g_disable_warning_case4">"ابتدا باید رومینگ داده را برای این سیم فعال کنید که ممکن است باعث هزینه قابل ملاحظه رومینگ شود! علاوه بر آن سرویس 3G برای سیم انتخابی در دسترس نیست. ممکن داده دیرتر لود شود. می توانید از بخش تنظیمات &gt; مدیریت سیم آنرا تغییر دهید. آیا مطمئنید که می خواهید رومینگ داده را برای این سیم فعال کنید؟"</string>  
+    <string name="dlg_no">"خیر"</string>  
+    <string name="dlg_yes">"بله"</string>  
+    <string name="builtin_installer_title_message">CD-ROM داخلی</string>  
+    <string name="builtin_installer_dlg_message">CD-ROM داخلی روشن شود؟</string>  
+    <string name="builtin_installer_always_allowed">دفعه بعد نشان داده نشود</string>
+    <string name="OK">"تأیید"</string>  
+    <string name="application_guide_title">تغییر سیم کارت پیش فرض</string>  
+    <string name="application_guide_content">لیست اخطار را به پایین بلغزانید تا سیم کارت پیش فرض را تغییر دهید</string> 
+    <string name="audio_profile">نمايه های صوتی</string>
+    <string name="data_usage">"مصرف داده"</string>
+    <string name="user_owner">"مالک"</string>
+</resources>

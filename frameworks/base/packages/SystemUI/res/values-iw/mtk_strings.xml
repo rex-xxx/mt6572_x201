@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="gemini_default_sim_always_ask">שאל תמיד</string>  
+    <string name="accessibility_phone_four_bars">האות הסלולרי עם ארבעה פסים.</string>  
+    <string name="sim_switch_tip">כרטיס SIM זה נקבע ככרטיס ברירת המחדל עבור 
+        <xliff:g>%s</xliff:g>. החזק וגרור מטה את סרגל הסטטוס כדי לשנות את כרטיס ה-SIM המוגדר כברירת מחדל.
+    </string> 
+    <string name="remind_next_time">הזכר לי בפעם הבאה</string>
+    <string name="voice_call_service">שירות שיחה קולית</string>
+    <string name="messages_service">שירות הודעות</string>
+    <string name="data_connection_service">שירות נתונים</string>
+    <string name="wifi">"Wi-Fi"</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="mobile">חיבור נתונים</string>
+    <string name="gps">GPS</string>
+    <string name="autorotate">סיבוב אוטומטי</string>
+    <string name="normal">כללי</string>
+    <string name="meeting">פגישה</string>
+    <string name="mute">שקט</string>
+    <string name="outdoor">מחוץ למבנה</string>
+    <string name="offline">מצב טיסה</string>
+    <string name="brightness">בהירות</string>
+    <string name="timeout">פסק זמן</string>
+    <string name="data_connection_attach_timeout_error_msg">"חיבור הנתונים נכשל או שהרשת עמוסה."</string>  
+    <string name="data_connection_dettach_timeout_error_msg">"ניתוק הנתונים נכשל."</string>  
+    <string name="data_connection_connected">[ 
+        <xliff:g>%s</xliff:g>] חיבור הנתונים בכרטיס ה-SIM אופשר
+    </string>  
+    <string name="gemini_intenet_call">שיחת אינטרנט</string>  
+    <string name="gemini_default_sim_never">כבוי</string>
+    <string name="gemini_3g_indic" translatable="false">3G</string>  
+    <string name="gemini_3g_disable_warning">"שירות 3G אינו זמין עבור כרטיס ה-SIM שנבחר. ייתכן שהנתונים ייטענו לאט יותר. תוכל לשנות את הגדרות שירות 3G בהגדרות &gt; רשתות ואלחוטי &gt; רשתות סלולריות. האם אתה בטוח שברצונך לבחור בכרטיס SIM זה?"</string>  
+    <string name="gemini_3g_disable_warning_cu">"שירות 3G אינו זמין עבור כרטיס ה-SIM שנבחר. ייתכן שהנתונים ייטענו לאט יותר. תוכל לשנות את הגדרות שירות 3G בהגדרות &gt; ניהול SIM. האם אתה בטוח שברצונך לבחור בכרטיס SIM זה?"</string>  
+    <string name="gemini_3g_disable_warning_case0">"ראשית עליך להפוך את נדידת הנתונים לזמינה עבור SIM זה, והדבר עלול להביא לחיובים בגין נדידה! האם אתה בטוח שברצונך להפוך את נדידת הנתונים לזמינה ולבחור ב-SIM זה?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"שירות 3G אינו זמין ב-SIM שנבחר. הדבר עלול להביא לטעינה אטית יותר של נתונים. תוכל לשנות את הגדרת שירות ה-3G בהגדרות &gt; אלחוט ורשתות &gt; רשתות סלולריות. האם אתה בטוח שברצונך לבחור ב-SIM זה?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"שירות 3G אינו זמין ב-SIM שנבחר. הדבר עלול להביא לטעינה אטית יותר של נתונים. תוכל לשנות את הגדרת שירות ה-3G בהגדרות &gt; ניהול SIM. האם אתה בטוח שברצונך לבחור ב-SIM זה?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"ראשית עליך להפוך את נדידת הנתונים לזמינה עבור SIM זה, והדבר עלול להביא לחיובים בגין נדידה! בנוסף, שירות 3G אינו זמין ב-SIM זה. הדבר עלול להביא לטעינה אטית יותר של נתונים. תוכל לשנות זאת בהגדרות &gt; אלחוט ורשתות &gt; רשתות סלולריות. האם אתה בטוח שברצונך להפוך את נדידת הנתונים לזמינה ולבחור ב-SIM זה?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"ראשית עליך להפוך את נדידת הנתונים לזמינה עבור SIM זה, והדבר עלול להביא לחיובים בגין נדידה! בנוסף, שירות 3G אינו זמין ב-SIM זה. הדבר עלול להביא לטעינה אטית יותר של נתונים. תוכל לשנות זאת בהגדרות &gt; ניהול SIM. האם אתה בטוח שברצונך להפוך את נדידת הנתונים לזמינה ולבחור ב-SIM זה?"</string>  
+    <string name="confirm_radio_title">SIM כבוי</string>  
+    <string name="confirm_radio_msg"> 
+        <xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> כבוי כעת. האם להפעיל כרטיס SIM זה?
+    </string>  
+    <string name="confirm_radio_msg_single">מצב טיסה הופעל, לכבות אותו?</string>  
+    <string name="confirm_radio_lbutton">הפעל</string>  
+    <string name="builtin_installer_title_message">תקליטור מובנה</string>  
+    <string name="builtin_installer_dlg_message">להפעיל תקליטור מובנה?</string>  
+    <string name="builtin_installer_always_allowed">אל תציג בפעם הבאה</string>  
+    <string name="dlg_no">לא</string>  
+    <string name="dlg_yes">"כן"</string>
+    <string name="OK">"אישור"</string>  
+    <string name="application_guide_title">החלף כרטיס SIM של ברירת מחדל</string>  
+    <string name="application_guide_content">החלק למטה ברשימת ההתרעות כדי לעבור לכרטיס ה-SIM של ברירת המחדל</string> 
+    <string name="audio_profile">פרופילי שמע</string>
+    <string name="data_usage">"שימוש בנתונים"</string>
+    <string name="user_owner">"בעלים"</string>
+</resources>

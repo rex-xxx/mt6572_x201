@@ -1,0 +1,17 @@
++android.net.wifi.NetworkUpdateResult
++android.net.wifi.ScanResult
++android.net.wifi.StateChangeResult
++android.net.wifi.SupplicantState
++android.net.wifi.SupplicantStateTracker
++android.net.wifi.WifiApConfigStore
++android.net.wifi.WifiConfigStore
++android.net.wifi.WifiConfiguration
++android.net.wifi.WifiInfo
++android.net.wifi.WifiManager
++android.net.wifi.WifiMonitor
++android.net.wifi.WifiNative
++android.net.wifi.WifiStateMachine
++android.net.wifi.WifiStateTracker
++android.net.wifi.WifiWatchdogStateMachine
++android.net.wifi.WpsInfo
++android.net.wifi.WpsResult

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="gemini_default_sim_always_ask">Altijd vragen</string>
+    <string name="sim_switch_tip">Deze SIM is ingesteld als de standaard SIM-kaart voor <xliff:g>%s</xliff:g>. Houd en sleep de statusbalk omlaag om de standaard SIM-kaart te wijzigen.</string>
+    <string name="remind_next_time">Mij volgende keer herinneren</string>
+    <string name="voice_call_service">spraakoproepservice</string>
+    <string name="messages_service">berichtenservice</string>
+    <string name="data_connection_service">gegevensverbindingsservice</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="mobile">Geg.verb.</string>
+    <string name="gps">GPS</string>
+    <string name="autorotate">Automatisch draaien</string>
+    <string name="normal">Algemeen</string>
+    <string name="meeting">Vergadering</string>
+    <string name="mute">Stil</string>
+    <string name="outdoor">Buitenshuis</string>
+    <string name="offline">Vliegtuigmodus</string>
+    <string name="brightness">Helderheid</string>
+    <string name="timeout">Time-out</string>
+    <string name="data_connection_attach_timeout_error_msg">"Gegevensverbinding mislukt of netwerk momenteel bezet."</string>
+    <string name="data_connection_dettach_timeout_error_msg">"Verbreken gegevensverbinding mislukt."</string>
+    <string name="data_connection_connected">[<xliff:g>%s</xliff:g>] gegevensverbinding SIM-kaart is ingeschakeld</string>
+    <string name="gemini_intenet_call">Internetgesprek</string>
+    <string name="gemini_default_sim_never">Uit</string>
+    <string name="confirm_radio_title">SIM uitgeschakeld</string>
+    <string name="confirm_radio_msg"> <xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> is nu uitgeschakeld. Wilt u deze SIM-kaart inschakelen?</string>
+    <string name="confirm_radio_msg_single"> De vliegtuigmodus is nu ingeschakeld. Wilt u deze uitschakelen?</string>
+    <string name="confirm_radio_lbutton">Inschakelen</string>
+    <string name="gemini_3g_disable_warning">"3G-service niet beschikbaar voor deze SIM. Gegevens kunnen langzamer laden. U kunt de instelling voor 3G-service wijzigen onder Instellingen &gt; Draadloos en netwerken &gt; Mobiele netwerken."</string>
+     <string name="gemini_3g_disable_warning_cu">"3G-service niet beschikbaar voor deze SIM. Gegevens kunnen langzamer laden. U kunt de instelling voor 3G-service wijzigen onder Instellingen &gt; SIM-beheer."</string>
+    <string name="gemini_3g_disable_warning_case0">"Voor deze SIM moet u eerst gegevens-roaming inschakelen, wat aanzienlijke roaming-kosten kan veroorzaken! Weet u zeker dat u gegevensroaming wilt inschakelen en deze SIM wilt selecteren?”</string>  
+    <string name="gemini_3g_disable_warning_case1">"3G-service niet beschikbaar voor deze SIM. Gegevens kunnen langzamer laden. U kunt de instelling voor 3G-service wijzigen onder Instellingen &gt; Draadloos en netwerken &gt; Mobiele netwerken. Weet u zeker dat u deze SIM wilt selecteren?”</string>  
+    <string name="gemini_3g_disable_warning_case2">"3G-service niet beschikbaar voor deze SIM. Gegevens kunnen langzamer laden. U kunt de instelling voor 3G-service wijzigen onder Instellingen &gt; SIM-beheer. Weet u zeker dat u deze SIM wilt selecteren?”</string>  
+    <string name="gemini_3g_disable_warning_case3">"Voor deze SIM moet u eerst gegevens-roaming inschakelen, wat aanzienlijke roaming-kosten kan veroorzaken! Overigens is de 3G-service niet beschikbaar voor deze SIM. Gegevens kunnen langzamer laden. U kunt dit wijzigen onder Instellingen &gt; Draadloos en netwerken &gt; Mobiele netwerken. Weet u zeker dat u gegevensroaming wilt inschakelen en deze SIM wilt selecteren?”</string>  
+    <string name="gemini_3g_disable_warning_case4">"Voor deze SIM moet u eerst gegevens-roaming inschakelen, wat aanzienlijke roaming-kosten kan veroorzaken! Overigens is de 3G-service niet beschikbaar voor deze SIM. Gegevens kunnen langzamer laden. U kunt dit wijzigen onder Instellingen &gt; SIM-beheer Weet u zeker dat u gegevensroaming wilt inschakelen en deze SIM wilt selecteren?”</string>  
+    <string name="dlg_no">"Nee"</string>  
+    <string name="dlg_yes">"Ja"</string>  
+    <string name="builtin_installer_title_message">Ingebouwde cd-rom</string>  
+    <string name="builtin_installer_dlg_message">Ingebouwde cd-rom inschakelen?</string>  
+    <string name="builtin_installer_always_allowed">Niet meer tonen</string>
+    <string name="OK">"OK"</string>  
+    <string name="application_guide_title">Wissel standaard SIM-kaart</string>  
+    <string name="application_guide_content">Schuif in meldingenlijst omlaag om standaard SIM-kaart te wisselen</string> 
+    <string name="audio_profile">Audioprofielen</string>
+    <string name="data_usage">"Datagebruik"</string>
+    <string name="user_owner">"Eigenaar"</string>
+</resources>

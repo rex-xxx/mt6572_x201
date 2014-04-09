@@ -1,0 +1,3458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="byteShort">B</string>
+    
+    <string name="kilobyteShort">KB</string>
+    
+    <string name="megabyteShort">MB</string>
+    
+    <string name="gigabyteShort">GB</string>
+    
+    <string name="terabyteShort">TB</string>
+    
+    <string name="petabyteShort">PB</string>
+    
+    <string name="fileSizeSuffix"><xliff:g id="number" example="123">%1$s</xliff:g><xliff:g id="unit" example="KB">%2$s</xliff:g></string>
+
+    
+    <string name="untitled">គ្មានចំណងជើង</string>
+
+       
+    <string name="ellipsis">បើកចំណុចតភ្ជាប់បណ្តាញដែលអាចប្តូរបាន\u2026</string>
+
+    
+    <string name="ellipsis_two_dots">\u2025</string>
+
+    
+    <string name="emptyPhoneNumber">(មិនមានលេខទូរស័ព្ទ)</string>
+
+    
+    <string name="unknownName">(មិនស្គាល់)</string>
+
+    
+    <string name="defaultVoiceMailAlphaTag">សំបុត្រសម្លេង</string>
+
+    
+    <string name="defaultMsisdnAlphaTag">MSISDN1</string>
+
+     <skip/>
+    
+    <string name="mmiError">បញ្ហាការតភ្ជាប់ ឬកូដ MMI មិនមានសុពលភាព ។</string>
+    
+    <string name="mmiFdnError">ប្រតិបត្តិការត្រូវបានមធ្យ័ត ចំពោះតែការរវៃលេខលើតុប៉ុណ្ណោះ ។</string>
+
+    
+    <string name="serviceEnabled">សេវាកម្មត្រូវបានធ្វើឲ្យសកម្ម ។</string>
+    
+    <string name="serviceEnabledFor">សេវាកម្មត្រូវបានធ្វើឲ្យសកម្មសម្រាប់ ៖</string>
+    
+    <string name="serviceDisabled">សេវាកម្មត្រូវបានធ្វើឲ្យអសកម្ម​ ។</string>
+    
+    <string name="serviceRegistered">ការចុះបញ្ជីបានជោគជ័យ ។</string>
+    
+    <string name="serviceErased">ការលុបចោលបានជោគជ័យ ។</string>
+    
+    <string name="passwordIncorrect">ពាក្យសម្ងាត់ខុស ។</string>
+    
+    <string name="mmiComplete">បញ្ចប់ MMI ។</string>
+    
+    <string name="badPin">PIN  ចាស់ដែលអ្នកវាយចូលមិ\នត្រឹមត្រូវទេ ។</string>
+    
+    <string name="badPuk">PUK ដែលអ្នកវាយចូលមិ\នត្រឹមត្រូវទេ ។</string>
+    
+    <string name="mismatchPin">PINs ដែលអុ្នកវាយចូលមិ\នត្រូវគ្នាទេ ។</string>
+    
+    <string name="invalidPin">វាយ PIN ដែលមានលេខពី 4 ទៅ 8 តួ ។</string>
+    
+    <string name="invalidPuk">វាយ PUK ដែឡមានលេខ 8 តួ ឬវែងជាងនេះ ។</string>
+    
+    <string name="needPuk">SIM កាតរបស់អ្នក ជាប់សោ PUK ។ វាយកូដ PUK ដើម្បីដោះសោ ។</string>
+    <string name="needPuk2">វាយ PUK2 ដើម្បីដោះសោ SIM កាត ។</string>
+    
+    <string name="imei">IMEI</string>
+
+    
+    <string name="meid">MEID</string>
+
+    
+    <string name="ClipMmi">អត្តសញ្ញាណអ្នកហៅចូល</string>
+    
+    <string name="ClirMmi">អត្តសញ្ញាណការហៅចេញ</string>
+    
+    <string name="CfMmi">ការបញ្ជូនការហៅ</string>
+    
+    <string name="CwMmi">ការហៅស្ថិតក្នុងការរង់ចាំ</string>
+    
+    <string name="BaMmi">ការរារាំងការហៅ</string>
+    
+    <string name="PwdMmi">ប្តូរពាក្យសម្ងាត់</string>
+    
+    <string name="PinMmi">ប្តូរ PIN</string>
+    <string name="CnipMmi">បង្ហាញលេខការហៅ</string>
+    <string name="CnirMmi">លេខការហៅមធ្យ័ត</string>
+    <string name="ThreeWCMmi">ការហៅបីផ្លូវ</string>
+    <string name="RuacMmi">ការបដិសេធការហៅចូលដែលរំខាន</string>
+    <string name="CndMmi">បញ្ជូនលេខដែលហៅ</string>
+    <string name="DndMmi">កុំរំខាន</string>
+
+    
+    <string name="CLIRDefaultOnNextCallOn">អត្តសញ្ញាណអ្នកហៅសិតតាមបែបពិរោងចក្រ ទៅភាពមធ្យ័ត ៖ មធ្យ័ត </string>
+    
+    <string name="CLIRDefaultOnNextCallOff">អត្តសញ្ញាណអ្នកហៅសិតតាមបែបពិរោងចក្រ ទៅភាពមធ្យ័ត ៖ ការហៅបន្ទាប់ ៖ មិនមធ្យ័ត Not restricted</string>
+    
+    <string name="CLIRDefaultOffNextCallOn">អត្តសញ្ញាណអ្នកហៅសិតតាមបែបពិរោងចក្រ ទៅភាពមធ្យ័ត ៖ ការហៅបន្ទាប់ ៖ មធ្យ័ត</string>
+    
+    <string name="CLIRDefaultOffNextCallOff">អត្តសញ្ញាណអ្នកហៅសិតតាមបែបពិរោងចក្រ ទៅភាពមធ្យ័ត ៖ ការហៅបន្ទាប់ ៖ មិនមធ្យ័ត</string>
+
+
+    
+    <string name="serviceNotProvisioned">មិនបានផ្តល់សេវាកម្មឲ្យទេ</string>
+    
+    <string name="CLIRPermanent">អ្នកមិ\នអាចប្តូរការសិតអត្តសញ្ញាណអ្នកហៅបានឡើយ ។</string>
+
+    
+    <string name="RestrictedChangedTitle">ប្តូរភាពមធ្យ័តលើសិទ្ធិចូលបើកមើល</string>
+    
+    <string name="RestrictedOnData">សេវាកម្មទិន្នន័យត្រូវបានរារាំង ។</string>
+    
+    <string name="RestrictedOnEmergency">សេវាកម្មក្នុងគ្រាអាសន្នត្រូវបានរារាំង ។</string>
+    
+    <string name="RestrictedOnNormal">សេវាកម្មសម្លេងត្រូវបានរារាំង ។</string>
+    
+    <string name="RestrictedOnAllVoice">សេវាកម្មសម្លេងទាំងអស់ត្រូវបានរារាំង ។</string>
+    
+    <string name="RestrictedOnSms">សេវាកម្ម SMS ត្រូវបានរារាំង ។</string>
+    
+    <string name="RestrictedOnVoiceData">សេវាកម្មសម្លេង/ទិន្នន័យត្រូវបានរារាំង ។</string>
+    
+    <string name="RestrictedOnVoiceSms">សេវាកម្មសម្លេង/SMS ត្រូវបានរារាំង ។</string>
+    
+    <string name="RestrictedOnAll">សេវាកម្មសម្លេង/ទិន្នន័យ/SMS ទាំងអស់ត្រូវបានរារាំង ។</string>
+
+     <skip/>
+    
+    <string name="serviceClassVoice">សម្លេង</string>
+    
+    <string name="serviceClassData">ទិន្នន័យ</string>
+    
+    <string name="serviceClassFAX">ហ្វាក់</string>
+    
+    <string name="serviceClassSMS">SMS</string>
+    
+    <string name="serviceClassDataAsync">មិនធ្វើសមកាលកម្ម</string>
+    
+    <string name="serviceClassDataSync">សមកាលកម្ម</string>
+    
+    <string name="serviceClassPacket">កញ្ចប់</string>
+    
+    <string name="serviceClassPAD">PAD</string>
+
+     <skip/>
+    
+    <string name="roamingText0">សញ្ញាបញ្ជាក់រ៉ូមិងបានបើក</string>
+    <string name="roamingText1">សញ្ញាបញ្ជាក់រ៉ូមិងបានបិទ</string>
+    <string name="roamingText2">សញ្ញាបញ្ជាក់រ៉ូមិងលោតជាភ្លើងសញ្ញា</string>
+    <string name="roamingText3">នៅក្រៅបរិវេណជិតខាង</string>
+    <string name="roamingText4">ក្រៅអាគារ</string>
+    <string name="roamingText5">រ៉ូមិង - ប្រព័ន្ធដែលចូលចិត្ត</string>
+    <string name="roamingText6">រ៉ូមិង - ប្រព័ន្ធដែលមាន</string>
+    <string name="roamingText7">រ៉ូមិង - ដៃគូសម្ព័ន្ធ</string>
+    <string name="roamingText8">រ៉ូមិង - ដៃគូល្អ</string>
+    <string name="roamingText9">រ៉ូមិង - មុខងារសេវាកម្មពេញលេញ </string>
+    <string name="roamingText10">រ៉ូមិង - មុខងារសេវាកម្មមួយផ្នែក</string>
+    <string name="roamingText11">សញ្ញារ៉ូមិងបើក</string>
+    <string name="roamingText12">សញ្ញារ៉ូមិងបិទ</string>
+    <string name="roamingTextSearching">កំពុងរាវរកសេវា</string>
+
+
+     <skip/>
+    
+    <string name="cfTemplateNotForwarded"><xliff:g id="bearer_service_code">{0}</xliff:g> ៖ មិនបានបញ្ជូនទេ </string>
+    
+    <string name="cfTemplateForwarded"><xliff:g id="bearer_service_code">{0}</xliff:g>: <xliff:g id="dialing_number">{1}</xliff:g></string>
+    
+    <string name="cfTemplateForwardedTime"><xliff:g id="bearer_service_code">{0}</xliff:g>: <xliff:g id="dialing_number">{1}</xliff:g>បន្ទាប់ពី <xliff:g id="time_delay">{2}</xliff:g> វិនាទី</string>
+    
+    <string name="cfTemplateRegistered"><xliff:g id="bearer_service_code">{0}</xliff:g> ៖ មិនបានបញ្ជូនទេ </string>
+    
+    <string name="cfTemplateRegisteredTime"><xliff:g id="bearer_service_code">{0}</xliff:g> ៖ មិនបានបញ្ជូនទេ </string>
+
+     <skip/>
+    
+    <string name="fcComplete">បញ្ចប់កូដលក្ខណៈ</string>
+    
+    <string name="fcError">បញ្ហាការតភ្ជាប់ ឬកូដលក្ខណៈមិនមានសុពលភាព ។</string>
+     <skip/>
+    
+    <string name="httpErrorOk">យល់ព្រម</string>
+    
+    <string name="httpError">មានកំហុសបណ្តាញ</string>
+    
+    <string name="httpErrorLookup">មិ\នអាចរកឃើញURL ឡើយ ។</string>
+    
+    <string name="httpErrorUnsupportedAuthScheme">គម្រោងបញ្ជាក់ការពិតចំពោះសៃមិ\នអាចប្រើបានទេ ។</string>
+    
+    <string name="httpErrorAuth">មិ\នអាចបញ្ជាក់ការពិតបាន ។</string>
+    
+    <string name="httpErrorProxyAuth">ការបញ្ជាក់ការពិតតាមម៉ាស៊ីនមេកណ្តាល ត្រូវបរាជ័យ ។</string>
+    
+    <string name="httpErrorConnect">មិ\នអាចតភ្ជាប់ជាមួយនឹងម៉ាស៊ីនមេបានឡើយ ។</string>
+    
+    <string name="httpErrorIO">មិ\នអាចទំនាក់ទំនងជាមួយនឹងម៉ាស៊ីនមេបានឡើយ ។ សាកល្បងម្តងទៀតនាពេលក្រោយ ។</string>
+    
+    <string name="httpErrorTimeout">អស់ម៉ោងតភ្ជាប់ជាមួយនឹងម៉ាស៊ីនមេ ។</string>
+    
+    <string name="httpErrorRedirectLoop">ទំព័រនេះមានភ្ជាប់ទៅដោយការតម្រង់ទិសម៉ាស៊ីនមេឡើងវិញច្រើនពេក ។</string>
+    
+    <string name="httpErrorUnsupportedScheme">ប្រូតូកូលនេះមិ\នអាចប្រើបានទេ ។</string>
+    
+    <string name="httpErrorFailedSslHandshake">មិ\នអាចបង្កើតការតភ្ជាប់ដែលមានសុវត្ថិភាពឡើយ ។</string>
+    
+    <string name="httpErrorBadUrl">មិ\នអាចបើកទំព័រនេះបានទេ ដោយសា URL មិនមានសុពលភាព ។</string>
+    
+    <string name="httpErrorFile">មិ\នអាចចូលបើកមើលឯកសារបានទេ ។</string>
+    
+    <string name="httpErrorFileNotFound">មិ\នអាចរកឃើញឯកសារដែលបានស្នើសុំទេ ។</string>
+    
+    <string name="httpErrorTooManyRequests">សំណើរច្រើនពេកកំពុងដំណើរការ ។ សាកល្បងម្តងទៀតនាពេលក្រោយ ។</string>
+
+     <skip/>
+    
+    <string name="notification_title">ចុះហត្ថលេខាចូលខុសសម្រាប់ <xliff:g id="account" example="foo@gmail.com">%1$s</xliff:g></string>
+
+     <skip/>
+    
+    <string name="contentServiceSync">សមកាលកម្ម</string>
+    
+    <string name="contentServiceSyncNotificationTitle">សមកាលកម្ម</string>
+    
+    <string name="contentServiceTooManyDeletesNotificationDesc">លុបចោល <xliff:g id="content_type">%s</xliff:g> ច្រើនពេក ។</string>
+
+    
+    <string name="low_memory" product="tablet">ការផ្ទុកឯកសារក្នុងកូនកុំព្យូទ័រពេញហើយ ។ លុបឯកសារចោលខ្លះ ដើម្បីមានកន្លែងទំនេរ ។</string>
+    
+    <string name="low_memory" product="default">ការផ្ទុកឯកសារក្នុងទូរស័ព្ទពេញហើយ ។ លុបឯកសារចោលខ្លះ ដើម្បីមានកន្លែងទំនេរ ។</string>
+
+
+    
+    <string name="me">ខ្ញុំ</string>
+
+     <skip/>
+    
+    <string name="power_dialog" product="tablet">ជម្រើសកូនកុំព្យូទ័រ</string>
+    
+    <string name="power_dialog" product="default">ជម្រើសទូរស័ព្ទ</string>
+    
+    <string name="silent_mode">ម៉ូដស្ងាត់</string>
+    
+    <string name="turn_on_radio">បើកបណ្តាញគ្មានខ្សែ</string>
+    
+    <string name="turn_off_radio">បិទបណ្តាញគ្មានខ្សែ</string>
+    
+    <string name="screen_lock">ចាក់សោអេក្រង់</string>
+    
+    <string name="power_off">បិទថាមពល</string>
+    
+    <string name="silent_mode_silent">បិទសម្លេងរោទ៍</string>
+    
+    <string name="silent_mode_vibrate">សម្លេងរោទ៍ញ័រ</string>
+    
+    <string name="silent_mode_ring">បើកសម្លេងរោទ៍</string>
+
+    
+    <string name="shutdown_progress">កំពុងបិទ\u2026</string>
+
+    
+    <string name="shutdown_confirm" product="tablet">កូនកុំព្យូទ័ររបស់អ្នកនឹងត្រូវបិទ ។</string>
+    
+    <string name="shutdown_confirm" product="default">ទូរស័ព្ទរបស់អ្នកនឹងត្រូវបិទ ។</string>
+
+    
+    <string name="shutdown_confirm_question">តើអ្នកត្រូវការបិទទេ?</string>
+
+    
+    <string name="reboot_safemode_title">ចាប់ផ្តើមឡើងវិញក្នុងម៉ូដសុវត្ថិភាព</string>
+
+    
+    <string name="reboot_safemode_confirm">តើអ្នកចង់ចាប់ផ្តើមឡើងវិញ ក្នុងម៉ូដសុវត្ថិភាពមែនទេ? សកម្មភាពនេះនឹងធ្វើឲ្យកម្មវិធីរបស់ភាគីទីបីដែលអ្នកបានតម្លើងត្រូវអសកម្ម ។ កម្មវិធីទាំងនេះនឹងត្រូវបានរក្សាភាពដើមវិញ ពេលអ្នកចាប់ផ្តើមម៉ាស៊ីនសាជាថ្មី ។</string>
+
+    
+    <string name="recent_tasks_title">ថ្មីៗ</string>
+    
+    <string name="no_recent_tasks">មិនមានកម្មវិធីថ្មីៗទេ </string>
+
+    
+    <string name="global_actions" product="tablet">ជម្រើសកូនកុំព្យូទ័រ</string>
+    
+    <string name="global_actions" product="default">ជម្រើសទូរស័ព្ទ</string>
+
+    
+    <string name="global_action_lock">ចាក់សោអេក្រង់</string>
+
+    
+    <string name="global_action_power_off">បិទថាមពល</string>
+
+    
+    <string name="global_action_bug_report">របាយការណ៍កំហុសកម្មវិធី</string>
+
+    
+    <string name="bugreport_title">យករបាយការណ៍កែកំហុស</string>
+    
+    <string name="bugreport_message">សកម្មភាពនេះនឹងប្រមូលព័ត៌មានរបស់អ្នកអំពីស្ថានភាពចំពោះមុខនៃឧបករណ៍របស់អ្នក ដើម្បីផ្ញើចេញជាសារអ៊ីម៉េល ។ វានឹងត្រូវចំណាយពេលបន្តិចពីការចាប់ផ្តើមរាយការណ៍កែកំហុស រហូតដល់ពេលរួចរាល់ដែលត្រូវផ្ញើចេញ ។ សូមមេត្តាអត់ធ្មត់ ។</string>
+
+    
+    <string name="global_action_toggle_silent_mode">ម៉ូដស្ងាត់</string>
+
+    
+    <string name="global_action_silent_mode_on_status">បិទសម្លេង</string>
+
+    
+    <string name="global_action_silent_mode_off_status">បើកសម្លេង</string>
+
+    
+    <string name="global_actions_toggle_airplane_mode">ម៉ូដជិះយន្តហោះ</string>
+
+    
+    <string name="global_actions_airplane_mode_on_status">បើកម៉ូដជិះយន្តហោះ</string>
+
+    
+    <string name="global_actions_airplane_mode_off_status">បិទម៉ូដជិះយន្តហោះ</string>
+
+    
+    <string name="status_bar_notification_info_overflow">999+</string>
+
+    
+    <string name="safeMode">ម៉ូដសុវត្ថិភាព</string>
+
+    
+    <string name="android_system_label">ប្រព័ន្ធ Android</string>
+
+    
+    <string name="permgrouplab_costMoney">សេវាកម្មដែលអ្នកត្រូវចំណាយប្រាក់</string>
+    
+    <string name="permgroupdesc_costMoney">ធ្វើអ្វីដែលអ្នកត្រូវចំណាយប្រាក់ ។</string>
+
+    
+    <string name="permgrouplab_messages">សាររបស់អ្នក</string>
+    
+    <string name="permgroupdesc_messages">អាន​ និងសរសេរសារ SMS​ អ៊ីម៉េល និងសារផ្សេងទៀតរបស់អ្នក ។</string>
+
+    
+    <string name="permgrouplab_personalInfo">ព័ត៌មានផ្ទាល់ខ្លួនរបស់អ្នក</string>
+    
+    <string name="permgroupdesc_personalInfo">ចូលមើលព័ត៌មានអំពីអ្នកដោយផ្ទាល់ ដែលបានរក្សាទុកក្នុងប័ណ្ណលេខទំនាក់ទំនងរបស់អ្នក ។</string>
+
+    
+    <string name="permgrouplab_socialInfo">ព័ត៌មានសង្គមរបស់អ្នក</string>
+    
+    <string name="permgroupdesc_socialInfo">ចូលមើលព័ត៌មានអំពីលេខទំនាក់ទំនង និងការភ្ជាប់ទំនាក់ទំនងសង្គមរបស់អ្នកដោយផ្ទាល់ ។</string>
+
+    
+    <string name="permgrouplab_location">ទីតាំងរបស់អ្នក</string>
+    
+    <string name="permgroupdesc_location">ត្រួតពិនិត្យទីតាំងជាក់ស្តែងរបស់អ្នក ។</string>
+
+    
+    <string name="permgrouplab_network">ការទំនាក់ទំនងបណ្តាញ</string>
+    
+    <string name="permgroupdesc_network">ចូលបើកមើលលក្ខណៈផ្សេងៗរបស់បណ្តាញ ។</string>
+
+    
+    <string name="permgrouplab_bluetoothNetwork">ប្ល៊ូធូត</string>
+    
+    <string name="permgroupdesc_bluetoothNetwork">ចូលមើលព័ត៌មានក្នុងឧបការណ៍ និងបណ្តាញតាមរយៈប៊្លូធូត ។</string>
+
+    
+    <string name="permgrouplab_audioSettings">ការកំណត់អូឌីអូ</string>
+    
+    <string name="permgroupdesc_audioSettings">ប្តូរការកំណត់អូឌីអូ ។</string>
+
+    
+    <string name="permgrouplab_affectsBattery">ប៉ះពាល់ថ្ម</string>
+    
+    <string name="permgroupdesc_affectsBattery">ប្រើលក្ខណៈសណ្ឋានដែលស៊ីថ្មអស់លឿន ។</string>
+
+    
+    <string name="permgrouplab_calendar">ប្រតិទិន</string>
+    
+    <string name="permgroupdesc_calendar">ចូលបើកមើលដោយផ្ទាល់ទៅក្នុងប្រតិទិន និងព្រឹត្តិការណ៍ ។</string>
+
+    
+    <string name="permgrouplab_dictionary">អានវចនានុក្រមអ្នកប្រើ</string>
+    
+    <string name="permgroupdesc_dictionary">អានពាក្យក្នុងវចនានុក្រមអ្នកប្រើ ។</string>
+
+    
+    <string name="permgrouplab_writeDictionary">សរសេរវចនានុក្រមអ្នកប្រើ</string>
+    
+    <string name="permgroupdesc_writeDictionary">បន្ថែមពាក្យទៅក្នុងវចនានុក្រមអ្នកប្រើ ។</string>
+
+    
+    <string name="permgrouplab_bookmarks">គូសចំណាំក្នុងសៀវភៅ និងប្រវត្តិ</string>
+    
+    <string name="permgroupdesc_bookmarks">ចូលបើកមើលដោយផ្ទាល់លើការគូសចំណាំក្នុងសៀវភៅ និងប្រវត្តិមើល ។</string>
+
+    
+    <string name="permgrouplab_deviceAlarms">សម្លេងរោទ៍ពញ្ញាក់អារម្មណ៍</string>
+    
+    <string name="permgroupdesc_deviceAlarms">កំណត់នាឡិការោទ៍ ។</string>
+
+    
+    <string name="permgrouplab_voicemail">សំបុត្រសម្លេង</string>
+    
+    <string name="permgroupdesc_voicemail">ចូលបើកសំបុត្រសម្លេងដោយផ្ទាល់ ។</string>
+
+    
+    <string name="permgrouplab_microphone">មីក្រូហ្វូន</string>
+    
+    <string name="permgroupdesc_microphone">ចូលទៅក្នុងមីក្រូហ្វូនដោយផ្ទាល់ដើម្បីថតអូឌីអូ ។</string>
+
+    
+    <string name="permgrouplab_camera">កាមេរ៉ា</string>
+    
+    <string name="permgroupdesc_camera">ចូលទៅក្នុងកាមេរ៉ាដោយផ្ទាល់ ដើម្បីថតរូប ឬថតវីដេអូ ។</string>
+
+    
+    <string name="permgrouplab_appInfo">ព័ត៌មានកម្មវិធីរបស់អ្នក </string>
+    
+    <string name="permgroupdesc_appInfo">លទ្ធភាពប៉ះពាល់ចំពោះការដំណើរការរបស់កម្មវិធីផ្សេងក្នុងឧបករណ៍របស់អ្នក ។</string>
+
+    
+    <string name="permgrouplab_wallpaper">ផ្ទៃជញ្ជាំង</string>
+    
+    <string name="permgroupdesc_wallpaper">ប្តូរការកំណត់រូបផ្ទៃជញ្ជាំងនៃឧបករណ៍របស់អ្នក ។</string>
+
+    
+    <string name="permgrouplab_systemClock">នាឡិកា</string>
+    
+    <string name="permgroupdesc_systemClock">ប្តូរម៉ោង ឬល្វែងម៉ោងរបស់ឧបករណ៍អ្នក ។</string>
+
+    
+    <string name="permgrouplab_statusBar">ខ្សែស្ថានភាព</string>
+    
+    <string name="permgroupdesc_statusBar">ប្តូរការកំណត់ខ្សែស្ថានភាពឧបករណ៍របស់អ្នក ។</string>
+
+    
+    <string name="permgrouplab_syncSettings">ការសិតសមកាលកម្ម</string>
+    
+    <string name="permgroupdesc_syncSettings">ចូលទៅកាន់ការកំណត់សមកាលកម្ម ។</string>
+
+    
+    <string name="permgrouplab_accounts">គណនីរបស់អ្នក</string>
+    
+    <string name="permgroupdesc_accounts">ចូលបើកមើលគណនីដែលមាន ។</string>
+
+    
+    <string name="permgrouplab_hardwareControls">គ្រប់គ្រងគ្រឿងរឹង</string>
+    
+    <string name="permgroupdesc_hardwareControls">ចូលបើកមើលដោយផ្ទាល់ចំពោះគ្រឿងរឹងរបស់ទូរស័ព្ទ ។</string>
+
+    
+    <string name="permgrouplab_phoneCalls">ហៅទូរស័ព្ទ</string>
+    
+    <string name="permgroupdesc_phoneCalls">ត្រួតពិនិត្យ កត់ត្រា និងដំណើរការការហៅទូរស័ព្ទ ។</string>
+
+    
+    <string name="permgrouplab_systemTools">ឧបករណ៍ប្រព័ន្ធ</string>
+    
+    <string name="permgroupdesc_systemTools">ការចូលបើកមើលក្នុងកម្រិតទាប និងការគ្រប់គ្រងរបស់ប្រព័ន្ធ ។</string>
+
+    
+    <string name="permgrouplab_developmentTools">ឧបករណ៍អភិវឌ្ឈន៍ </string>
+    
+    <string name="permgroupdesc_developmentTools">លក្ខណៈត្រូវការតែសម្រាប់អ្នកអភិវឌ្ឈន៍កម្មវិធី ។</string>
+
+    
+    <string name="permgrouplab_display">កម្មវិធី UI ដទៃទៀត</string>
+    
+    <string name="permgroupdesc_display">ប្រសិទ្ធិភាព UI នៃកម្មវិធីដទៃ ។</string>
+
+    
+    <string name="permgrouplab_storage">ការផ្ទុក</string>
+    
+    <string name="permgroupdesc_storage" product="nosdcard">ចូលបើកមើលឧបករណ៍ USB ។</string>
+    
+    <string name="permgroupdesc_storage" product="default">ចូលបើកមើលកាត SD ។</string>
+
+    
+
+    
+    <string name="permlab_statusBar">ធ្វើឲ្យអសកម្ម​ ឬកែសម្រួលខ្សែស្ថានភាព </string>
+    
+    <string name="permdesc_statusBar">អនុញ្ញាតឲ្យកម្មវិធីអាចធ្វើឲ្យខ្សែស្ថានភាពអសកម្ម ឬបន្ថែម និងលុបចេញនូវរូបតំណាងរបស់ប្រព័ន្ធ ។</string>
+
+    
+    <string name="permlab_statusBarService">ខ្សែស្ថានភាព</string>
+    
+    <string name="permdesc_statusBarService">អនុញ្ញាតឲ្យកម្មវិធីស្ថិតនៅលើខ្សែស្ថានភាព ។</string>
+
+    
+    <string name="permlab_expandStatusBar">ពង្រីក/បង្រួមខ្សែស្ថានភាព</string>
+    
+    <string name="permdesc_expandStatusBar">អនុញ្ញាតឲ្យកម្មវិធីអាចពង្រីក ឬបង្រួមខ្សែស្ថានភាព ។</string>
+
+    
+    <string name="permlab_processOutgoingCalls">ចាត់ផ្លូវហៅចេញឡើងវិញ </string>
+    
+    <string name="permdesc_processOutgoingCalls">អនុញ្ញាតឲ្យកម្មវិធីអាចដំណើរការហៅចេញ និងប្តូរលេខដែលត្រូវហៅ ។ ការអនុញ្ញាតនេះ ជួយឲ្យកម្មវិធីអាចត្រួតពិនិត្យ ឬការពារការហៅចេញ ។</string>
+
+    
+    <string name="permlab_receiveSms">ទទួលសារអក្សរ (SMS)</string>
+    
+    <string name="permdesc_receiveSms">អនុញ្ញាតឲ្យកម្មវិធីអាចទទួល និងដំណើរការសារ SMS ។ នេះមានន័យថា កម្មវិធីអាចត្រួតពិនិត្យ ឬលុបសារដែលបានផ្ញើចូលក្នុងម៉ាស៊ីនរបស់អ្នកចោល ដោយមិនបាច់បង្ហាញឲ្យអ្នកឃើញឡើយ ។</string>
+
+    
+    <string name="permlab_receiveMms">ទទួលសារអក្សរ (MMS)</string>
+    
+    <string name="permdesc_receiveMms">អនុញ្ញាតឲ្យកម្មវិធីអាចទទួល និងដំណើរការសារ MMS ។ នេះមានន័យថា កម្មវិធីអាចត្រួតពិនិត្យ ឬលុបសារដែលបានផ្ញើចូលក្នុងម៉ាស៊ីនរបស់អ្នកចោល ដោយមិនបាច់បង្ហាញឲ្យអ្នកឃើញឡើយ ។</string>
+
+    
+    <string name="permlab_receiveEmergencyBroadcast">ទទួលការផ្សាយក្នុងគ្រាអាសន្ន</string>
+    
+    <string name="permdesc_receiveEmergencyBroadcast">អនុញ្ញាតឲ្យកម្មវិធីអាចទទួល និងដំណើរការផ្សាយសារក្នុងគ្រាអាសន្ន ។ សេចក្តីអនុញ្ញាតនេះមានតែសម្រាប់កម្មវិធីរបស់ប្រព័ន្ធតែប៉ុណ្ណោះ ។</string>
+
+    
+    <string name="permlab_readCellBroadcasts">អានការផ្សាយសារទូរស័ព្ទ</string>
+    
+    <string name="permdesc_readCellBroadcasts">អនុញ្ញាតឲ្យកម្មវិធីអាចអានការផ្សាយសារទូរស័ព្ទដែលម៉ាស៊ីនរបស់អ្នកបានទទួល ។ ការពញ្ញាក់អារម្មណ៍ការផ្សាយសារទូរស័ព្ទ ត្រូវបានបញ្ជូនក្នុងទីតាំងមួយចំនួន ដើម្បីព្រមានអ្នកអំពីស្ថានការណ៍គ្រាអាសន្ន ។ កម្មវិធីដែលមិនល្អ អាចបង្ករការរំខានក្នុងដំណើរការ ឬប្រតិបត្តិការនៃម៉ាស៊ីនរបស់អ្នក ពេលអ្នកបានទទួលការផ្សាយសារទូរស័ព្ទ ។</string>
+
+     
+    <string name="permlab_sendSms">ផ្ញើសារ SMS</string>
+    
+    <string name="permdesc_sendSms">អនុញ្ញាតឲ្យកម្មវិធីអាចផ្ញើសារ SMS ។ សកម្មភាពនេះអាចនាំឲ្យអ្នកត្រូវបង់ប្រាក់ដែលមិនបានគិតទុកជាមុន ។ កម្មវិធីដែលមិនល្អ អាចធ្វើឲ្យអ្នកត្រូវបង់ប្រាក់ ដោយការផ្ញើសារ ដោយមិនមានការបញ្ជាក់ពីអ្នក ។</string>
+
+     
+    <string name="permlab_sendSmsNoConfirmation">ផ្ញើសារ SMS ដោយមិនបាច់មានការបញ្ជាក់ </string>
+    
+    <string name="permdesc_sendSmsNoConfirmation">អនុញ្ញាតឲ្យកម្មវិធីអាចផ្ញើសារ SMS ។ សកម្មភាពនេះអាចនាំឲ្យអ្នកត្រូវបង់ប្រាក់ដែលមិនបានគិតទុកជាមុន ។ កម្មវិធីដែលមិនល្អ អាចធ្វើឲ្យអ្នកត្រូវបង់ប្រាក់ ដោយការផ្ញើសារ ដោយមិនមានការបញ្ជាក់ពីអ្នក ។</string>
+
+    
+    <string name="permlab_readSms">អានសារអក្សររបស់អ្នក (SMS ឬ MMS)</string>
+    
+    <string name="permdesc_readSms" product="tablet">អនុញ្ញាតឲ្យកម្មវិធីអានសារ SMS ដែលបានរក្សាទុកក្នុងកូនកុំព្យូទ័រ ឬ SIM កាតរបស់អ្នក ។ នេះវាអនុញ្ញាតឲ្យកម្មវិធីអានគ្រប់សារ SMS ដោយមិនគិតអំពីមាតិការ ឬភាពសម្ងាត់អ្វីឡើយ ។</string>
+    
+    <string name="permdesc_readSms" product="default">អនុញ្ញាតឲ្យកម្មវិធីអានសារ SMS ដែលបានរក្សាទុកក្នុងទូរស័ព្ទ ឬ SIM កាតរបស់អ្នក ។ នេះវាអនុញ្ញាតឲ្យកម្មវិធីអានគ្រប់សារ SMS ដោយមិនគិតអំពីមាតិការ ឬភាពសម្ងាត់អ្វីឡើយ ។</string>
+
+    
+    <string name="permlab_writeSms">កែសម្រួលសារអក្សររបស់អ្នក (SMS ឬ MMS)</string>
+    
+    <string name="permdesc_writeSms" product="tablet">អនុញ្ញាតឲ្យកម្មវិធីសរសេរសារ SMS ដែលបានរក្សាទុកក្នុងកូនកុំព្យូទ័រ ឬ SIM កាតរបស់អ្នក ។ កម្មវិធីដែលមិនល្អ អាចលុបសាររបស់អ្នកចោល ។</string>
+    
+    <string name="permdesc_writeSms" product="default">អនុញ្ញាតឲ្យកម្មវិធីសរសេរសារ SMS ដែលបានរក្សាទុកក្នុងទូរសួព្ទ ឬ SIM កាតរបស់អ្នក ។ កម្មវិធីដែលមិនល្អ អាចលុបសាររបស់អ្នកចោល ។</string>
+
+    
+    <string name="permlab_receiveWapPush">ទទួលសារអក្សរ (WAP)</string>
+    
+    <string name="permdesc_receiveWapPush">អនុញ្ញាតឲ្យកម្មវិធីទទួល និងដំណើរការសារ WAP ។ ការអនុញ្ញាតនេះរួមទាំងសមត្ថភាពដើម្បីត្រួតពិនិត្យ ឬលុបសារដែលបានផ្ញើមកឲ្យអ្នក ដោយមិនចាំបាច់បង្ហាញឲ្យអ្នកឃើញឡើយ ។</string>
+
+    
+    <string name="permlab_getTasks">ទាញយកកម្មវិធីដែលកំពុងរត់</string>
+    
+    <string name="permdesc_getTasks">អនុញ្ញាតឲ្យកម្មវិធីទាញយកព័ត៌មានអំពីកិច្ចការដែលកំពុងរត់នាពេលបច្ចុប្បន្ន និងពេលថ្មីៗ ។ នេះអាចអនុញ្ញាតឲ្យកម្មវិធីទទួលបាននូវព័ត៌មានដែលកម្មវិធីប្រើក្នុងឧបករណ៍ ។</string>
+
+    
+    <string name="permlab_interactAcrossUsers">អន្តរកម្មជាមួយអ្នកប្រើទាំងអស់</string>
+    
+    <string name="permdesc_interactAcrossUsers">អនុញ្ញាតឲ្យកម្មវិធីអនុវត្តសកម្មភាពឆ្លងគ្រប់អ្នកប្រើទាំងអស់ខុសៗគ្នានៅក្នុងឧបករណ៍ ។ កម្មវិធីដែលមិនល្អ​អាចប្រើសកម្មភាពនេះ ដើម្បីបំពានចំពោះការការពាររវាងអ្នកប្រើ ។</string>
+
+    
+    <string name="permlab_interactAcrossUsersFull">អាជ្ញាប័ណ្ណពេញលេញដើម្បីធ្វើអន្តរកម្មឆ្លងអ្នកប្រើទាំងអស់ </string>
+    
+    <string name="permdesc_interactAcrossUsersFull">អនុញ្ញាតឲ្យមានអន្តរកម្មដែលអាចធ្វើទៅបានឆ្លងអ្នកប្រើទាំងអស់ ។</string>
+
+    
+    <string name="permlab_manageUsers">ចាត់ចែងអ្នកប្រើ</string>
+    
+    <string name="permdesc_manageUsers">អនុញ្ញាតឲ្យកម្មវិធីអាចចាត់ចែងអ្នកប្រើនៅក្នុងឧបករណ៍ រួមទាំងការសួរ ការបង្កើត និងការលុបចោល ។</string>
+
+    
+    <string name="permlab_getDetailedTasks">ទាញយកព័ត៌មានលំអិតដែលកំពុងរត់កម្មវិធី </string>
+    
+    <string name="permdesc_getDetailedTasks">អនុញ្ញាតឲ្យកម្មវិធីទាញយកនូវព័ត៌មានលំអិតអំពីកិច្ចការដែលកំពុងរត់នាពេលបច្ចុប្បន្ន និងពេលថ្មីៗ ។ កម្មវិធីដែលមិនល្អអាចរកឃើញនូវព័ត៌មានឯកជនអំពីកម្មវិធីផ្សេងទៀត ។</string>
+
+    
+    <string name="permlab_reorderTasks">អ្នកថតកម្មវិធីកំពុងរត់ </string>
+    
+    <string name="permdesc_reorderTasks">អនុញ្ញាតឲ្យកម្មវិធីដូរទីកន្លែងកិច្ចការមកខាងមុខ និងទៅខាងក្រោយ ។ កម្មវិធីអាចធ្វើសកម្មភាពនេះ​ដោយមិនចាំបាច់មានបញ្ជាពីអ្នកឡើយ ។</string>
+
+    
+    <string name="permlab_removeTasks">បញ្ឈប់ការរត់កម្មវិធី</string>
+    
+    <string name="permdesc_removeTasks">អនុញ្ញាតឲ្យកម្មវិធីដូរទីកន្លែងកិច្ចការ និងសម្លាប់កម្មវិធីរបស់ពួកវា ។ កម្មវិធីដែលមិនល្អ អាចរំខានអាំកប្បកិរិយារបស់កម្មវិធីផ្សេងទៀត ។</string>
+
+    
+    <string name="permlab_startAnyActivity">ចាប់ផ្តើមសកម្មភាពណាមួយ</string>
+    
+    <string name="permdesc_startAnyActivity">អនុញ្ញាតឲ្យកម្មវិធីចាប់ផ្តើមសកម្មភាព ដោយមិនគិតអអំពីការអនុញ្ញាតការពារ ឬស្ថានភាពការនាំចេញឡើយ ។</string>
+
+    
+    <string name="permlab_setScreenCompatibility">សិតភាពប្រើជាមួយគេបានរបស់អេក្រង់ </string>
+    
+    <string name="permdesc_setScreenCompatibility">អនុញ្ញាតឲ្យកម្មវិធីគ្រប់គ្រងម៉ូដនៃភាពប្រើជាមួយគេបានរបស់អេក្រង់ ជាមួយកម្មវិធីដទៃ ។ កម្មវិធីដែលមិនល្អ អាចបំបែកអាកប្បកិរិយា នៃកម្មវិធីផ្សេងទៀត ។</string>
+
+    
+    <string name="permlab_setDebugApp">ធ្វើឲ្យសកម្មនូវការរកកំហុសរបស់កម្មវិធី </string>
+    
+    <string name="permdesc_setDebugApp">អនុញ្ញាតឲ្យកម្មវិធីបើកមុខងាររកកំហុសរបស់កម្មវិធីផ្សេងទៀត ។ កម្មវិធីដែលមិនល្អ អាចប្រើចំណុចនេះ ដើម្បីសម្លាប់កម្មវិធីដទៃ ។</string>
+
+    
+    <string name="permlab_changeConfiguration">ប្តូរការសិតនៃការបង្ហាញរបស់ប្រព័ន្ធ </string>
+    
+    <string name="permdesc_changeConfiguration">អនុញ្ញាតឲ្យកម្មវិធីប្តូរការធ្វើរូបសណ្ឋានបច្ចុប្បន្ន ដូចជាទីតាំង ឬទំហំអក្សរជារួម ។</string>
+
+    
+    <string name="permlab_enableCarMode">ធ្វើឲ្យសកម្មនូវម៉ូដឡាន</string>
+    
+    <string name="permdesc_enableCarMode">អនុញ្ញារឲ្យកម្មវិធីធ្វើឲ្យសកម្មនូវម៉ូដឡាន ។</string>
+
+    
+    <string name="permlab_killBackgroundProcesses">បិទកម្មវិធីផ្សេងទៀត </string>
+    
+    <string name="permdesc_killBackgroundProcesses">អនុញ្ញាតឲ្យកម្មវិធីបញ្ចប់នូវដំណើរការខាងក្រោយនៃកម្មវិធីដទៃ ។ នេះវាអាចធ្វើឲ្យកម្មវិធីដទៃឈប់រត់ ។</string>
+
+    
+    <string name="permlab_forceStopPackages">បង្ខំឲ្យកម្មវិធីដទៃឈប់</string>
+    
+    <string name="permdesc_forceStopPackages">អនុញ្ញាតឲ្យកម្មវិធីបង្ខំកម្មវិធីដទៃឲ្យឈប់ ។</string>
+
+    
+    <string name="permlab_forceBack">បង្ខំកម្មវិធីដទៃឲ្យបិទ</string>
+    
+    <string name="permdesc_forceBack">អនុញ្ញាតឲ្យកម្មវិធីបង្ខំសកម្មភាពណាមួយដែលស្ថិតនៅខាងមុខត្រូវបិទ និងរត់ទៅនៅខាងក្រោម ។ មិនគួរត្រូវការវាទេសម្រាប់កម្មវិធីធម្មតា ។</string>
+
+    
+    <string name="permlab_dump">ទាញយកស្ថានភាពប្រព័ន្ធខាងក្នុង </string>
+    
+    <string name="permdesc_dump">អនុញ្ញាតឲ្យកម្មវិធីទាញយកស្ថានភាពខាងក្នុងនៃប្រព័ន្ធ ។ កម្មវិធីដែលមិនល្អអាចទាញយកព័ត៌មានឯកជន និងព័ត៌មានសុវត្ថិភាពជាច្រើនផ្នែក ដែលតាមធម្មតាមិនត្រូវការឡើយ ។</string>
+
+    
+    <string name="permlab_retrieve_window_content">ទាញយកមាតិការអេក្រង់</string>
+    
+    <string name="permdesc_retrieve_window_content">អនុញ្ញាតឲ្យកម្មវិធីទាញយកមាតិការវិនដូវដែលសកម្ម ។ កម្មវិធីដែលមិនល្អ អាចទាញយកមាតិការវិនដូវទាំងមូល ហើយពិនិត្យមើលអត្ថបទរបស់វា លើកលែងតែពាក្យសម្ងាត់ ។</string>
+
+    
+    <string name="permlab_temporary_enable_accessibility">ធ្វើឲ្យសិទ្ធិចូលមើលសកម្មជាបណ្តោះអាសន្ន </string>
+    
+    <string name="permdesc_temporary_enable_accessibility">អនុញ្ញាតឲ្យកម្មវិធីធ្វើឲ្យសិទ្ធិចូលមើលសកម្មជាបណ្តោះអាសន្ននៅលើឧបករណ៍ ។ កម្មវិធីដែលមិនល្អ អាចធ្វើឲ្យសិទ្ធិចូលមើលសកម្មដោយមិនមានការយល់ព្រមពីអ្នកប្រើ ។</string>
+
+    
+    <string name="permlab_retrieve_window_info">ទាញយកមកវិញនូវព័ត៌មានវិនដូវ៍</string>
+    
+    <string name="permdesc_retrieve_window_info">អនុញ្ញាតឲ្យកម្មវិធីអាចទាញយកមកវិញនូវព័ត៌មានអំពីវិនដូវ៍ពីអ្នកគ្រប់គ្រងវិនដូវ៍ ។ កម្មវិធីដែលមិនល្អ អាចទាញយកព័ត៌មានមកវិញដែលមានបំណងសម្រាប់ការប្រើប្រាស់របស់ប្រព័ន្ធខាងក្នុង ។</string>
+
+    
+    <string name="permlab_filter_events">ព្រឹត្តិការណ៍ចម្រោះ</string>
+    
+    <string name="permdesc_filter_events">អនុញ្ញាតឲ្យកម្មវិធីអាចចុះបញ្ជីចម្រោះចូលដែលមានតួនាទីច្រោះខ្សែអ្នកប្រើទាំងអស់ នៅមុនពេលបញ្ជូនចេញ ។ កម្មវិធីដែលមិនល្អ អាចគ្រប់គ្រងប្រព័ន្ធ UI ដោយមិនមានអន្តរាគមន៍ពីអ្នកប្រើ ។</string>
+
+    
+    <string name="permlab_magnify_display">ពង្រីករូបបង្ហាញ</string>
+    
+    <string name="permdesc_magnify_display">អនុញ្ញាតឲ្យកម្មវិធីអាចពង្រីកខ្លឹមសារដែលបានបង្ហាញ ។ កម្មវិធីដែលមិនល្អអាចប្តូរខ្លឹមសាររូបបង្ហាញក្នុងលក្ខណៈមួយដែលធ្វើឲ្យឧបករណ៍មិនអាចប្រើបាន ។</string>
+
+    
+    <string name="permlab_shutdown">បិទមួយផ្នែក</string>
+    
+    <string name="permdesc_shutdown">ដាក់អ្នកចាត់ចែងសកម្មភាពក្នុងសភាពបិទ ។ មិនបានធ្វើការបិទទាំងស្រុងទេ ។</string>
+
+    
+    <string name="permlab_stopAppSwitches">ការពារការដូរកម្មវិធី</string>
+    
+    <string name="permdesc_stopAppSwitches">ការពរអ្នកប្រើពីការដូរទៅកាន់កម្មវិធីផ្សេង ។</string>
+
+    
+    <string name="permlab_runSetActivityWatcher">ត្រួតពិនិត្យ និងគ្រប់គ្រងការចាប់ផ្តើមកម្មវិធី </string>
+    
+    <string name="permdesc_runSetActivityWatcher">អនុញ្ញាតឲ្យកម្មវិធី ត្រួតពិនិត្យ និងគ្រប់គ្រងពីរបៀបដែលប្រព័ន្ធចាប់ផ្តើមសកម្មភាព ។ កម្មវិធីដែលមិនល្អអាចសម្រុះស្រួលប្រព័ន្ធទាំងមូល ។ ការអនុញ្ញាតនេះគឺត្រូវការតែសម្រាប់ករអភិវឌ្ឈន៍ មិនដែលត្រូវការសម្រាប់ការប្រើប្រាស់ធម្មតាឡើយ ។</string>
+
+    
+    <string name="permlab_broadcastPackageRemoved">ផ្ញើកញ្ចប់កម្មវិធីដែលបានលុបចោលដើម្បីផ្សាយ</string>
+    
+    <string name="permdesc_broadcastPackageRemoved">អនុញ្ញាតឲ្យកម្មវិធីផ្សាយការប្រាប់ដំណឹងដែលកញ្ចប់កម្មវិធីត្រូវបានលុបចោល ។ កម្មវិធីដែលមិនល្អ អាចប្រើសកម្មភាពនេះ ដើម្បីសម្លាប់កម្មវិធីផ្សេងទៀតដែលកំពុងរត់ ។</string>
+
+    
+    <string name="permlab_broadcastSmsReceived">ផ្ញើ SMS ដែលបានទទួលដើម្បីផ្សាយ</string>
+    
+    <string name="permdesc_broadcastSmsReceived">អនុញ្ញាតឲ្យកម្មវិធីផ្សាយការប្រាប់ដណឹងថាសារ SMS បានទទួលរួចហើយ ។ កម្មវិធីដែលមិនល្អ អាចប្រើសកម្មភាពនេះដើម្បីបន្លំសារ SMS ដែលផ្ញើចូល ។</string>
+
+    
+    <string name="permlab_broadcastWapPush">ផ្ញើ WAP-PUSH ដែលបានទទួលដើម្បីផ្សាយ</string>
+    
+    <string name="permdesc_broadcastWapPush">អនុញ្ញាតឲ្យកម្មវិធីដើម្បីផ្សាយការប្រាប់ដំណឹងដែលថាសារ WAP PUSH បានទទួលហើយ ។​ កម្មវិធីដែលមិនល្អ អាចប្រើសកម្មភាពនេះ ដើម្បីបន្ឡសារ MMS ដែលបានទទួល ឬជំនួសមាតិការនៃវ៉ិបណាមួយដោយស្ងាត់ៗជាមួយនឹងវ៉ារ្យ៉ង់នៃកម្មវិធីដែលមិនល្អ ។</string>
+
+    
+    <string name="permlab_setProcessLimit">ចំនួនកំណត់នៃដំណើរការកំពុងរត់ </string>
+    
+    <string name="permdesc_setProcessLimit">អនុញ្ញាតឲ្យកម្មវិធីគ្រប់គ្រងចំនួនអតិបរមានៃដំណើរការដែលនឹងរត់ ។ មិនដែលត្រូវការសម្រាប់កម្មវិធីធម្មតាឡើយ ។</string>
+
+    
+    <string name="permlab_setAlwaysFinish">បង្ខំកម្មវិធីនៅខាងក្រោយឲ្យបិទ</string>
+    
+    <string name="permdesc_setAlwaysFinish">អនុញ្ញាតឲ្យកម្មវិធីគ្រប់គ្រងថាតើសកម្មភាព ត្រូវចប់ពេលវាត្រូវបានបញ្ជូនទៅខាងក្រោយ ។ មិនដែលត្រូវការសម្រាប់កម្មវិធីធម្មតាឡើយ ។</string>
+
+    
+    <string name="permlab_batteryStats">អានស្ថិតិថ្ម</string>
+    
+    <string name="permdesc_batteryStats">អនុញ្ញាតឲ្យកម្មវិធីអាចអានទិន្នន័យប្រើថ្មបច្ចុប្បន្នដែលស្ថិតនៅកម្រិតទាប ។ កម្មវិធីដែលមិនល្អអាច រកឃើញព័ត៌មានលំអិត អំពីកម្មវិធីមួយណាដែលអ្នកប្រើ ។</string>
+
+    
+    <string name="permlab_updateBatteryStats">កែសម្រួលស្ថិតិថ្ម</string>
+    
+    <string name="permdesc_updateBatteryStats">អនុញ្ញាតឲ្យកម្មវិធីកែសម្រួលស្ថិតិថ្មដែលបានប្រមូល ។ មិនមែនសម្រាប់ប្រើដោយកម្មវិធីធម្មតាឡើយ ។</string>
+
+    
+    <string name="permlab_backup">គ្រប់គ្រងការរក្សាទុក និងធ្វើឲ្យដូចដើមនៃប្រព័ន្ធ </string>
+    
+    <string name="permdesc_backup">អនុញ្ញាតឲ្យកម្មវិធីគ្រប់គ្រងការរក្សាទុក និងធ្វើឲ្យដូចដើមនៃយន្តការរបស់ប្រព័\ន្ធ ។ មិនមែនសម្រាប់ប្រើដោយកម្មវិធីធម្មតាឡើយ ។</string>
+
+    
+    <string name="permlab_confirm_full_backup">បញ្ជាក់ពីប្រតិបត្តិការនៃការរក្សាទុកយ៉ាងពេញលេញ ឬការធ្វើឲ្យដូចដើមវិញ </string>
+    
+    <string name="permdesc_confirm_full_backup">អនុញ្ញាតឲ្យកម្មវិធីចាប់ផ្តើម ការបញ្ជាក់ UI នៃការរក្សាទុកយ៉ាងពេញលេញ ។ មិនដែលប្រើសម្រាប់កម្មវិធីណាមួយឡើយ ។</string>
+
+    
+    <string name="permlab_internalSystemWindow">បង្ហាញវិនដូវដែលមិនបានទទួលសិទ្ធិ</string>
+    
+    <string name="permdesc_internalSystemWindow">អនុញ្ញាតឲ្យកម្មវិធីបង្កើតវិនដូវ ដែលប៉ងសម្រាប់ប្រើដោយផ្ទៃមុខអ្នកប្រើខាងក្នុង ។ មិនមែនសម្រាប់ប្រើដោយកម្មវិធីធម្មតាឡើយ ។</string>
+
+    
+    <string name="permlab_systemAlertWindow">ទាញពីលើកម្មវិធីផ្សេងទៀត​ </string>
+    
+    <string name="permdesc_systemAlertWindow">អនុញ្ញាតឲ្យកម្មវិធីអាចចេញពីលើកម្មវិធី ឬផ្នែកនៃផ្ទៃអេក្រង់របស់អ្នកប្រើដទៃ ។ ពួកវាអាចបង្កការរំខានដល់ការប្រើអេក្រង់របស់អ្នកជាមួយគ្រប់កម្មវិធីទាំងអស់ ឬប្តូរនូវអ្វីដែលអ្នកគិតថាអ្នកកំពុងមើលឃើញក្នុងកម្មវិធីដទៃ ។</string>
+
+    
+    <string name="permlab_setAnimationScale">កែសម្រួលល្បឿនការធ្វើចលនាទាំងស្រុង</string>
+    
+    <string name="permdesc_setAnimationScale">អនុញ្ញាតឲ្យកម្មវិធីប្តូរល្បឿននៃការធ្វើចលនា (ចលនាលឿនជាង ឬយឺតជាង) គ្រប់ពេលទាំងអស់ ។</string>
+
+    
+    <string name="permlab_manageAppTokens">ចាត់ចែងសញ្ញាកម្មវិធី</string>
+    
+    <string name="permdesc_manageAppTokens">អនុញ្ញាតិឲ្យកម្មវិធីបង្កើត និងចាត់ចែងសញ្ញារបស់ពួកវា ដោយឆ្លងកាត់លំដាប់លំដោយ Z ធម្មតារបស់ពួកវា ។ មិនដែលត្រូវការដោយកម្មវិធីធម្មតាឡើយ ។</string>
+
+    
+    <string name="permlab_freezeScreen">បង្កកអេក្រង់</string>
+    
+    <string name="permdesc_freezeScreen">អនុញ្ញាតឲ្យកម្មវិធីអាចបង្កកអេក្រង់ជាបណ្តោះអាសន្នសម្រាប់អន្តរភាពពេញអេក្រង់ ។</string>
+
+    
+    <string name="permlab_injectEvents">ចុចសោ និងប៊ូតុងគ្រប់គ្រង</string>
+    
+    <string name="permdesc_injectEvents" product="tablet">អនុញ្ញាតឲ្យកម្មវិធីបញ្ជូនហេតុការណ៍ដែលវាយបញ្ចូល (ចុចសោ ។ល។) ទៅឲ្យកម្មវិធីដទៃ ។ កម្មវិធីដែលមិនល្អ អាចប្រើសកម្មភាពនេះ ដើម្បីចាប់យកកូនកុំព្យូទ័រ ។</string>
+    
+    <string name="permdesc_injectEvents" product="default">អនុញ្ញាតឲ្យកម្មវិធីបញ្ជូនហេតុការណ៍ដែលវាយបញ្ចូល (ចុចសោ ។ល។) ទៅឲ្យកម្មវិធីដទៃ ។ កម្មវិធីដែលមិនល្អ អាចប្រើសកម្មភាពនេះ ដើម្បីចាប់យកទូរស័ព្ទ ។</string>
+
+    
+    <string name="permlab_readInputState">កត់ត្រានូវអ្វីដែលអ្នកវាយ និងសកម្មភាពដែលអ្នកធ្វើ </string>
+    
+    <string name="permdesc_readInputState">អនុញ្ញាតឲ្យកម្មវិធីមើលប៊ូតុងដែលអ្នកចុច បើទោះបីជាពេលអ្នកទំនាក់ទំនងជាមួយកម្មវិធីផ្សេងទៀត (ដូចជាការវាយពាក្យសម្ងាត់) ។ មិនដែលត្រូវការសម្រាប់កម្មវិធីធម្មតាឡើយ ។</string>
+
+    
+    <string name="permlab_bindInputMethod">ចងទៅក្នុងវិធីបញ្ចូល</string>
+    
+    <string name="permdesc_bindInputMethod">អនុញ្ញាតិឲ្យអ្នកកាន់ ចងបណ្តុំទៅក្នុងផ្ទៃមុខកម្រិតខ្ពស់ ចំពោះវិធីបញ្ចូល ។ មិនដែលត្រូវការដោយកម្មវិធីធម្មតាឡើយ ។ </string>
+
+    
+    <string name="permlab_bindAccessibilityService">ចងទៅនឹងការបើកមើលសេវាកម្មបាន</string>
+    
+    <string name="permdesc_bindAccessibilityService">អនុញ្ញាតឲ្យអ្នកកាន់អាចចងផ្ទៃមុខក្នុងកម្រិតខ្ពស់ នៃការបើកមើលសេវាកម្មបាន ។មិនដែលត្រូវការដោយកម្មវិធីធម្មតាឡើយ ។</string>
+
+    
+    <string name="permlab_bindTextService">ចងទៅនឹងសេវាកម្មអក្សរ</string>
+    
+    <string name="permdesc_bindTextService">អនុញ្ញាតឲ្យអ្នកកាន់ចងបណ្តុំទៅក្នុងផ្ទៃមុខកម្រិតខ្ពស់ នៃសេវាកម្មអក្សរ(ឧ.សេវាកម្មអ្នកឆែកការប្រកបពាក្យ) ។ មិនដែលត្រូវការដោយកម្មវិធីធម្មតាឡើយ ។</string>
+
+    
+    <string name="permlab_bindVpnService">ចងទៅក្នុងសេវាកម្ម VPN</string>
+    
+    <string name="permdesc_bindVpnService">អនុញ្ញាតឲ្យអ្នកកាន់ចងបណ្តុំទៅក្នុងផ្ទៃមុខកម្រិតខ្ពស់នៃសេវាកម្ម Vpn ។ មិនដែលត្រូវការដោយកម្មវិធីធម្មតាឡើយ ។</string>
+
+    
+    <string name="permlab_bindWallpaper">ចងទៅនឹងផ្ទៃជញ្ជាំង</string>
+    
+    <string name="permdesc_bindWallpaper">អនុញ្ញាតឲ្យអ្នកកាន់ចងបណ្តុំទៅក្នុងផ្ទៃមុខកម្រិតខ្ពស់នៃផ្ទៃជញ្ជាំង ។ មិនដែលត្រូវការដោយកម្មវិធីធម្មតាឡើយ ។</string>
+
+    
+    <string name="permlab_bindRemoteViews">ចងបណ្តុំសេវាកម្មវីដជេដ</string>
+    
+    <string name="permdesc_bindRemoteViews">អនុញ្ញាតឲ្យអ្នកកាន់ចងបណ្តុំទៅក្នុងផ្ទៃមុខកម្រិតខ្ពស់នៃសេវាកម្មវីដជេដ ។ មិនដែលត្រូវការដោយកម្មវិធីធម្មតាឡើយ ។</string>
+
+    
+    <string name="permlab_bindDeviceAdmin">ទំនាក់ទំនងជាមួយនឹងឧបករណ៍រដ្ឋបាល </string>
+    
+    <string name="permdesc_bindDeviceAdmin">អនុញ្ញាតឲ្យអ្នកកាន់ផ្ញើនូវបំណងទៅកាន់ឧបករណ៍រដ្ឋបាល ។ មិនដែលត្រូវការដោយកម្មវិធីធម្មតាឡើយ ។</string>
+
+    
+    <string name="permlab_setOrientation">ប្តូរការបង្ហាញអេក្រង់</string>
+    
+    <string name="permdesc_setOrientation">អនុញ្ញាតឲ្យកម្មវិធីប្តូររង្វិលនៃអេក្រង់បានគ្រប់ពេល ។ មិនដែលត្រូវការដោយកម្មវិធីធំ្មតាឡើយ ។</string>
+
+    
+    <string name="permlab_setPointerSpeed">ប្តូរល្បឿនព្រួញចង្អុល</string>
+    
+    <string name="permdesc_setPointerSpeed">អនុញ្ញាតឲ្យកម្មវិធីប្តូរល្បឿនព្រួញកណ្តុរ ឬដានព្រួញចង្អុលបានគ្រប់ពេល ។ មិនដែលត្រូវការដោយកម្មវិធីធម្មតាឡើយ ។ </string>
+
+    
+    <string name="permlab_setKeyboardLayout">ប្តូរទ្រង់ទ្រាយក្តារចុច</string>
+    
+    <string name="permdesc_setKeyboardLayout">អនុញ្ញាតឲ្យកម្មវិធីប្តូរទ្រង់ទ្រាយក្តារចុច ។  មិនដែលត្រូវការដោយកម្មវិធីធម្មតាឡើយ ។</string>
+
+    
+    <string name="permlab_signalPersistentProcesses">ផ្ញើសញ្ញា Linux ទៅឲ្យកម្មវិធី</string>
+    
+    <string name="permdesc_signalPersistentProcesses">អនុញ្ញាតឲ្យកម្មវិធីស្នើសុំថាសញ្ញាផ្គត់ផ្គង់ត្រូវផ្ញើទៅឲ្យដំណើរការទាំងអស់ដែលតស៊ូសុំ ។</string>
+
+    
+    <string name="permlab_persistentActivity">ធ្វើឲ្យកម្មវិធីរត់ជានិច្ច </string>
+    
+    <string name="permdesc_persistentActivity" product="tablet">អនុញ្ញាតឲ្យកម្មវិធីធ្វើផ្នែករបស់វាតស៊ូនៅក្នុងអង្គចងចាំ ។ សកម្មភាពនេះអាចដាក់ដែនកំណត់លើអង្កចងចាំដែលមានចំពោះកម្មវិធីដទៃ ឲ្យកូនកុំព្យូទ័រមានល្បឿនយឺត ។</string>
+    <string name="permdesc_persistentActivity" product="default">អនុញ្ញាតឲ្យកម្មវិធីធ្វើផ្នែករបស់វាតស៊ូនៅក្នុងអង្គចងចាំ ។ សកម្មភាពនេះអាចដាក់ដែនកំណត់លើអង្កចងចាំដែលមានចំពោះកម្មវិធីដទៃ ឲ្យទូរស័ព្ទមានល្បឿនយឺត ។</string>
+
+    
+    <string name="permlab_deletePackages">លុបកម្មវិធីចោល</string>
+    
+    <string name="permdesc_deletePackages">អនុញ្ញាតឲ្យកម្មវិធីលុបកញ្ចប់កម្មវិធី Android ចោល ។ កម្មវិធីដែលមិនល្អ អាចប្រើសកម្មភាពនេះដើម្បីលុបកម្មវិធីដែលសំខាន់ៗចោល ។</string>
+
+    
+    <string name="permlab_clearAppUserData">លុបទិន្នន័យរប\ស់កម្មវិធីដទៃចោល </string>
+    
+    <string name="permdesc_clearAppUserData">អនុញ្ញាតឲ្យកម្មវិធីសំអាតទិន្នន័យអ្នកប្រើ ។</string>
+    
+    <string name="permlab_deleteCacheFiles">លុបខេចរប\ស់កម្មវិធីដទៃចោល</string>
+    
+    <string name="permdesc_deleteCacheFiles">អនុញ្ញាតឲ្យកម្មវិធីលុបឯកសារខេចចោល ។</string>
+
+    
+    <string name="permlab_getPackageSize">វាស់ទំហំផ្ទុករបស់កម្មវិធី</string>
+    
+    <string name="permdesc_getPackageSize">អនុញ្ញាតឲ្យកម្មវិធីទាញយកកូដ ទិន្នន័យ និងទំហំខេចរបស់វា </string>
+
+    
+    <string name="permlab_installPackages">កម្មវិធីដែលតម្លើងដោយផ្ទាល់</string>
+    
+    <string name="permdesc_installPackages">អនុញ្ញាតឲ្យកម្មវិធីតម្លើង ឬធ្វើបច្ចុប្បន្នភាពកញ្ចប់កម្មវិធី Android ។ កម្មវិធីដែលមិនល្អ អាចប្រើសកម្មភាពនេះ ដើម្បីបន្ថែមកម្មវិធីថ្មី ជាមួយនឹងការអនុញ្ញាតដែលមានអំណាចបំពាន ។</string>
+
+    
+    <string name="permlab_clearAppCache">លុបទិន្នន័យខេចកម្មវិធីចោលទាំងអស់ </string>
+    
+    <string name="permdesc_clearAppCache" product="tablet">អនុញ្ញាតឲ្យកម្មវិធីអាចធ្វើឲ្យកន្លែងផ្ទុកទិន្នន័យរបស់កូនកុំព្យូទ័រកាន់តែទូលាយដោយការលុបចោលឯកសារមួយចំនួននៅក្នុងសឺមីខេចរបស់កម្មវិធីដទៃ ។ ចំណុចនេះអាចបណ្តាលឲ្យកម្មវិធីដទៃ ចាប់ផ្តើមយឺត​ជាងប្រកតី ដោយសារពួកវាត្រូវទាញយកទិន្នន័យរបស់ខ្លួនមកវិញ ។</string>
+    
+    <string name="permdesc_clearAppCache" product="default">អនុញ្ញាតឲ្យកម្មវិធីអាចធ្វើឲ្យកន្លែងផ្ទុកទិន្នន័យរបស់ទូរស័ព្ទកាន់តែទូលាយដោយការលុបចោលឯកសារមួយចំនួននៅក្នុងសឺមីខេចរបស់កម្មវិធីដទៃ ។ ចំណុចនេះអាចបណ្តាលឲ្យកម្មវិធីដទៃ ចាប់ផ្តើមយឺត​ជាងប្រកតី ដោយសារពួកវាត្រូវទាញយកទិន្នន័យរបស់ខ្លួនមកវិញ ។</string>
+
+    
+    <string name="permlab_movePackage">ដូរទីកន្លែងប្រភពកម្មវិធី</string>
+    
+    <string name="permdesc_movePackage">អនុញ្ញាតឲ្យកម្មវិធីដូរទីកន្លែងប្រភពកម្មវិធីពីមេឌាខាងក្នុងទៅខាងក្រៅ និងពីមេឌាខាងក្រៅទៅខាងក្នុង ។</string>
+
+    
+    <string name="permlab_readLogs">អានទិន្នន័យកំណត់ត្រាសកម្មភាពដែលសំខាន់ៗ</string>
+    
+    <string name="permdesc_readLogs" product="tablet">អនុញ្ញាតឲ្យកម្មវិធីអានពីប្រភពផ្សេងៗរបស់ប្រព័\ន្ធនៃឯកសារសកម្មភាព ។ សកម្មភាពនេះ អនុញ្ញាតឲ្យវារកឃើញនូវព័ត៌មានទូទៅអំពីអ្វីដែលអ្នកធ្វើក្នុងកូនកុំព្យូទ័រនេះ ជាពិសេសរួមទាំងព័ត៌មានផ្ទាល់ខ្លួន និងឯកជន ។</string>
+    
+    <string name="permdesc_readLogs" product="default">អនុញ្ញាតឲ្យកម្មវិធីអានពីប្រភពផ្សេងៗរបស់ប្រព័\ន្ធនៃឯកសារសកម្មភាព ។ សកម្មភាពនេះ អនុញ្ញាតឲ្យវារកឃើញនូវព័ត៌មានទូទៅអំពីអ្វីដែលអ្នកធ្វើក្នុងទូរស័ព្ទនេះ ជាពិសេសរួមទាំងព័ត៌មានផ្ទាល់ខ្លួន និងឯកជន ។</string>
+
+    
+    <string name="permlab_anyCodecForPlayback">ប្រើមេឌាដោះកូដណាមួយសម្រាប់ចាក់ត្រឡប់មកវិញ</string>
+    
+    <string name="permdesc_anyCodecForPlayback">អនុញ្ញាតឲ្យកម្មវិធីប្រើមេឌាដោះកូដណាមួយដែលបានតម្លើង ដើម្បីដោះកូដ និងលេងត្រឡប់វិញ ។</string>
+
+    
+    <string name="permlab_diagnostic">អាន/សរសេរ ដល់ធនធានដែលជាកម្មសិទ្ធិដោយក្រុមធ្វើរោគវិនិច្ឆ័យ</string>
+    
+    <string name="permdesc_diagnostic">អនុញ្ញាតឲ្យកម្មវិធីអាន និងសរសេរធនធានណាមួយដែលជាកម្មសិទ្ធិរបស់ក្រុមវិនិច្ឆ័យ ឧទាហរណ៍ ឯកសារនៅក្នុង /dev ។ សកម្មភាពនេះវាអាចប៉ះពាល់ដល់លំនឹង និងសុវត្ថិភាពរបស់ប្រព័ន្ធ ។ សកម្មភាពនេះ គួរត្រូវប្រើសម្រាប់ការធ្វើរោគវិនិច្ឆ័យលើគ្រឿងរឹងជាក់លាក់ណាមួយតែប៉ុណ្ណោះ ដោយអ្នកផលិត ឬប្រតិបត្តិក ។</string>
+
+    
+    <string name="permlab_changeComponentState">ធ្វើឲ្យផ្នែកនៃកម្មវិធី សកម្ម ឬអសកម្ម</string>
+    
+    <string name="permdesc_changeComponentState" product="tablet">អនុញ្ញាតឲ្យកម្មវិធីអាចប្តូរ ថាតើសមាសធាតុនៃកម្មវិធីផ្សេងមានភាពសកម្ម ឬអត់ ។ កម្មវិធីដែលមិនល្អ អាចប្រើសកម្មភាពនេះ ដើម្បីធ្វើឲ្យសមត្ថភាពសំខាន់របស់កូនកុំព្យូទ័រអសកម្ម ។ ត្រូវតែប្រុងប្រយ័ត្នចំពោះការអនុញ្ញាតនេះ ដោយសាថាវាអាចធ្វើឲ្យផ្នែកនៃកម្មវិធីមិនអាចប្រើបាន មិនមានភាពទៀងទាត់ ឬមិនមានលំនឹង ។</string>
+    
+    <string name="permdesc_changeComponentState" product="default">អនុញ្ញាតឲ្យកម្មវិធីអាចប្តូរ ថាតើសមាសធាតុនៃកម្មវិធីផ្សេងមានភាពសកម្ម ឬអត់ ។ កម្មវិធីដែលមិនល្អ អាចប្រើសកម្មភាពនេះ ដើម្បីធ្វើឲ្យសមត្ថភាពសំខាន់របស់ទូរស័ព្ទអសកម្ម ។ ត្រូវតែប្រុងប្រយ័ត្នចំពោះការអនុញ្ញាតនេះ ដោយសាថាវាអាចធ្វើឲ្យផ្នែកនៃកម្មវិធីមិនអាចប្រើបាន មិនមានភាពទៀងទាត់ ឬមិនមានលំនឹង ។</string>
+
+    
+    <string name="permlab_grantRevokePermissions">ឲ្យ ឬដកហូតការអនុញ្ញាតមកវិញ</string>
+    
+    <string name="permdesc_grantRevokePermissions">អនុញ្ញាតឲ្យកម្មវិធីផ្តល់ឲ្យ ឬដកហូតការអនុញ្ញាតណាមួយសម្រាប់ខ្លួន ឬកម្មវិធីដទៃ ។ កម្មវិធីដែលមិនល្អ អាចប្រើសិទ្ធិនេះ ដែលអ្នកមិនបានផ្តល់សេចក្តីអនុញ្ញាតឲ្យពួកវា ។</string>
+
+    
+    <string name="permlab_setPreferredApplications">សិតកម្មវិធីដែលចូលចិត្ត</string>
+    
+    <string name="permdesc_setPreferredApplications">អនុញ្ញាតឲ្យកម្មវិធីកែសម្រួលកម្មវិធីដែលអ្នកចូលចិត្ត ។ កម្មវិធីដែលមិនល្អ អាចប្តូរកម្មវិធីដែលកំពុងរត់ដោយស្ងាត់ៗ បោកកម្មវិធីដែលមានស្រាប់ ដើម្បីប្រមូលព័ត៌មានឯកជនពីអ្នក ។</string>
+
+    
+    <string name="permlab_writeSettings">កែសម្រួលការសិតប្រព័ន្ធ</string>
+    
+    <string name="permdesc_writeSettings">អនុញ្ញាតឲ្យកម្មវិធីកែសម្រួលទិន្នន័យការសិតរបស់ប្រព័\ន្ធ ។ កម្មវិធីដែលមិនល្អ អាចធ្វើឲ្យប្រព័\ន្ធរបស់អ្នកខូចរូបសណ្ឋាន ។</string>
+
+    <string name="permlab_writeSecureSettings">កែសម្រួលការកំណត់ប្រព័ន្ធសុវត្ថិភាព </string>
+    <string name="permdesc_writeSecureSettings">អនុញ្ញាតឲ្យកម្មវិធីកែសម្រួលទិន្នន័យការសិតសុវត្ថិភាពរបស់ប្រព័\ន្ធ ។ មិនមែនសម្រាប់ប្រើដោយកម្មវិធីធម្មតាឡើយ ។</string>
+
+    
+    <string name="permlab_writeGservices">កែសម្រួលសេវាកម្មផែនទី Google</string>
+    
+    <string name="permdesc_writeGservices">អនុញ្ញាតឲ្យកម្មវិធីកែសម្រួលសេវាកម្មផែនទី Google ។ មិនមែនសម្រាប់ប្រើដោយកម្មវិធីធម្មតាឡើយ ។</string>
+
+    
+    <string name="permlab_receiveBootCompleted">រត់ក្នុងពេលចាប់ផ្តើម</string>
+    
+    <string name="permdesc_receiveBootCompleted" product="tablet">អនុញ្ញាតឲ្យកម្មវិធីចាប់ផ្តើមដោយខ្លួនឯង ក្នុងពេលដែលប្រព័ន្ធបញ្ចប់ការចាប់ផ្តើម ។  សកម្មភាពនេះ វាធ្វើឲ្យត្រូវចំណាយពេលច្រើនក្នុងការចាប់ផ្តើមកូនកុំព្យូទ័រ ហើយអនុញ្ញាតឲ្យកម្មវិធីធ្វើឲយល្បឿនទូទៅរបស់កូនកុំព្យូទ័រមានភាពយឺត ដោយវារត់ជានិច្ច ។</string>
+    
+    <string name="permdesc_receiveBootCompleted" product="default">អនុញ្ញាតឲ្យកម្មវិធីចាប់ផ្តើមដោយខ្លួនឯង ក្នុងពេលដែលប្រព័ន្ធបញ្ចប់ការចាប់ផ្តើម ។  សកម្មភាពនេះ វាធ្វើឲ្យត្រូវចំណាយពេលច្រើនក្នុងការចាប់ផ្តើមកូនកុំព្យូទ័រ ហើយអនុញ្ញាតឲ្យកម្មវិធីធ្វើឲយល្បឿនទូទៅរបស់ទូរស័ព្ទមានភាពយឺត ដោយវារត់ជានិច្ច ។</string>
+
+    
+    <string name="permlab_broadcastSticky">ផ្ញើការផ្សាយស្អិត</string>
+    
+    <string name="permdesc_broadcastSticky" product="tablet">អនុញ្ញាតឲ្យកម្មវិធីផ្ញើការផ្សាយស្អិត ដែលវាមិនបាត់ទៅណា ក្រោយពីការផ្សាយបានបញ្ចប់ ។ ការប្រើវាច្រើនពេក អាចធ្វើឲ្យកូនកុំព្យូទ័រមានល្បឿនយឺត ឬមិនមានលំនឹង ដែលបណ្តាលឲ្យវាត្រូវប្រើអង្គចងចាំច្រើនពេក ។</string>
+    
+    <string name="permdesc_broadcastSticky" product="default">អនុញ្ញាតឲ្យកម្មវិធីផ្ញើការផ្សាយស្អិត ដែលវាមិនបាត់ទៅណា ក្រោយពីការផ្សាយបានបញ្ចប់ ។ ការប្រើវាច្រើនពេក អាចធ្វើឲ្យទូរស័ព្ទមានល្បឿនយឺត ឬមិនមានលំនឹង ដែលបណ្តាលឲ្យវាត្រូវប្រើអង្គចងចាំច្រើនពេក ។</string>
+
+    
+    <string name="permlab_readContacts">អានលេខទំនាក់ទំនងរបស់អ្នក</string>
+    
+    <string name="permdesc_readContacts" product="tablet">អនុញ្ញាតឲ្យកម្មវិធីអានទិន្នន័យអំពីលេខទំនាក់ទំនងរបស់អ្នក ដែលផ្ទុកនៅក្នុងកូនកុំព្យូទ័ររបស់អ្នក រួមទាំងភាពញឹកញាប់ដែលអ្ន\កបានហៅ អ៊ីម៉េល ឬទំនាក់ទំនងក្នុងវិធីផ្សេងទៀតជាមួយនឹងអ្នកណាម្នាក់ ។ ការអនុញ្ញាតនេះជួយឲ្យកម្មវិធីរក្សាទុកនូវទិន្នន័យទំនាក់ទំនងរបស់អ្នក ហើយកម្មវិធីដែលមិនល្អអាចចែករំលែកទិន្នន័យលេខទំនាក់ទំនង ដោយអ្នកមិនដឹងខ្លួន ។</string>
+    
+    <string name="permdesc_readContacts" product="default">អនុញ្ញាតឲ្យកម្មវិធីអានទិន្នន័យអំពីលេខទំនាក់ទំនងរបស់អ្នក ដែលផ្ទុកនៅក្នុងទូរស័ព្ទរបស់អ្នក រួមទាំងភាពញឹកញាប់ដែលអ្ន\កបានហៅ អ៊ីម៉េល ឬទំនាក់ទំនងក្នុងវិធីផ្សេងទៀតជាមួយនឹងអ្នកណាម្នាក់ ។ ការអនុញ្ញាតនេះជួយឲ្យកម្មវិធីរក្សាទុកនូវទិន្នន័យទំនាក់ទំនងរបស់អ្នក ហើយកម្មវិធីដែលមិនល្អអាចចែករំលែកទិន្នន័យលេខទំនាក់ទំនង ដោយអ្នកមិនដឹងខ្លួន ។</string>
+
+    
+    <string name="permlab_writeContacts">កែសម្រួលលេខទំនាក់ទំនងរបស់អ្នក</string>
+    
+    <string name="permdesc_writeContacts" product="tablet">អនុញ្ញាតឲ្យកម្មវិធីកែសម្រួលទិន្នន័យអំពីលែខទំនាក់ទំនងរបស់អ្នក ដែលផ្ទុកនៅក្នុងកូនកុំព្យូទ័ររបស់អ្នក រួមទាំងភាពញឹកញាប់ដែលអ្ន\កបានហៅ អ៊ីម៉េល ឬទំនាក់ទំនងក្នុងវិធីផ្សេងទៀតជាមួយនឹងអ្នកណាម្នាក់ ។ ការអនុញ្ញាតនេះជួយឲ្យកម្មវិធីអាចលុបទិន្នន័យទំនាក់ទំនងបាន ។</string>
+    
+    <string name="permdesc_writeContacts" product="default">អនុញ្ញាតឲ្យកម្មវិធីកែសម្រួលទិន្នន័យអំពីលែខទំនាក់ទំនងរបស់អ្នក ដែលផ្ទុកនៅក្នុងទូរស័ព្ទរបស់អ្នក រួមទាំងភាពញឹកញាប់ដែលអ្ន\កបានហៅ អ៊ីម៉េល ឬទំនាក់ទំនងក្នុងវិធីផ្សេងទៀតជាមួយនឹងអ្នកណាម្នាក់ ។ ការអនុញ្ញាតនេះជួយឲ្យកម្មវិធីអាចលុបទិន្នន័យទំនាក់ទំនងបាន ។</string>
+
+    
+    <string name="permlab_readCallLog">អានកំណត់ត្រាសកម្មភាពហៅ</string>
+    
+    <string name="permdesc_readCallLog" product="tablet">អនុញ្ញាតឲ្យកម្មវិធីអានកំណត់ត្រាសកម្មភាពហៅរបស់កូនកុំព្យូទ័រអ្ន\ក រួមទាំងទិន្នន័យអំពីការហៅចូល និងចេញ ។ ការអនុញ្ញាតនេះ ជួយឲ្យកម្មវិធីអាចរក្សាទុកកំណត់ត្រាការហៅរបស់អ្នក ហើយកម្មវិធីដែលមិនល្អ អាចចែករំលែកកំណត់ត្រាការហៅរបស់អ្នក ដោយអ្នកមិនដឹងខ្លួន ។</string>
+    
+    <string name="permdesc_readCallLog" product="default">អនុញ្ញាតឲ្យកម្មវិធីអានកំណត់ត្រាសកម្មភាពហៅរបស់ទូរស័ព្ទអ្ន\ក រួមទាំងទិន្នន័យអំពីការហៅចូល និងចេញ ។ ការអនុញ្ញាតនេះ ជួយឲ្យកម្មវិធីអាចរក្សាទុកកំណត់ត្រាការហៅរបស់អ្នក ហើយកម្មវិធីដែលមិនល្អ អាចចែករំលែកកំណត់ត្រាការហៅរបស់អ្នក ដោយអ្នកមិនដឹងខ្លួន ។</string>
+
+    
+    <string name="permlab_writeCallLog">សរសេរកំណត់ត្រាសកម្មភាពហៅ</string>
+    
+    <string name="permdesc_writeCallLog" product="tablet">អនុញ្ញាតឲ្យកម្មវិធីកែសម្រួលកំណត់ត្រាការហៅរបស់កូនកុំព្យូទ័រអ្ន\ក រួមទាំងទិន្នន័យអំពីការហៅចូល និងចេញ ។ កម្មវិធីដែលមិនល្អ អាចប្រើសកម្មភាពនេះ ដើម្បីលុប ឬកែសម្រួលកំណត់ត្រាសកម្មភាពហៅរបស់អ្នក ។</string>
+    
+    <string name="permdesc_writeCallLog" product="default">អនុញ្ញាតឲ្យកម្មវិធីកែសម្រួលកំណត់ត្រាការហៅរបស់ទូរស័ព្ទអ្ន\ក រួមទាំងទិន្នន័យអំពីការហៅចូល និងចេញ ។ កម្មវិធីដែលមិនល្អ អាចប្រើសកម្មភាពនេះ ដើម្បីលុប ឬកែសម្រួលកំណត់ត្រាសកម្មភាពហៅរបស់អ្នក ។</string>
+
+
+    
+    <string name="permlab_readProfile">អានកាតលេខទំនាក់ទំនងរបស់អ្នក</string>
+    
+    <string name="permdesc_readProfile" product="default">អនុញ្ញាតឲ្យកម្មវិធីអានព័ត៌មានទម្រង់ផ្ទាល់ខ្លួនដែលបានផ្ទុកនៅក្នុងឧបករណ៍របស់អ្នក ដូចជាឈ្មោះ និងព័ត៌មានទំនាក់ទំនងរបស់អ្នក ។ នេះមានន័យថា កម្មវិធីអាចស្គាល់អ្នក ហើយអាចផ្ញើព័ត៌មានទម្រង់របស់អ្នកទៅឲ្យអ្នកដទៃ ។</string>
+
+    
+    <string name="permlab_writeProfile">កែសម្រួលកាតលេខទំនាក់ទំនងរបស់អ្នក</string>
+    
+    <string name="permdesc_writeProfile" product="default">អនុញ្ញាតឲ្យកម្មវិធីប្តូរ ឬបន្ថែមព័ត៌មានទម្រង់ផ្ទាល់ខ្លួនដែលបានផ្ទុកនៅក្នុងឧបករណ៍របស់អ្នក ដូចជាឈ្មោះ និងព័ត៌មានទំនាក់ទំនងរបស់អ្នក ។ ។ នេះមានន័យថា កម្មវិធីអាចស្គាល់អ្នក ហើយអាចផ្ញើព័ត៌មានទម្រង់របស់អ្នកទៅឲ្យអ្នកដទៃ ។</string>
+
+    
+    <string name="permlab_readSocialStream" product="default">អានខ្សែសកម្មភាពសង្គមរបស់អ្នក</string>
+    <string name="permdesc_readSocialStream" product="default">អនុញ្ញាតឲ្យកម្មវិធីចូលបើកមើល និងធ្វើបច្ចុប្បន្នភាពសមកាលកម្មពីអ្នក និងមិត្តរបស់អ្នក ។  ត្រូវប្រុងប្រយ័ត្នពេលចែករំលែកព័ត៌មាន -- សកម្មភាពនេះ វាអនុញ្ញាតឲ្យកម្មវិធីអាចអានការទំនាក់ទំនងរវាងអ្នក និងមិត្តរបស់អ្នកក្នុងបណ្តាញសង្គម ដោយមិនគិតអំពីការសម្ងាត់អ្វីឡើយ ។ ចំណាំ ៖ ការអនុញ្ញាតនេះ អាចមិនត្រូវបង្ខំបានក្នុងគ្រប់បណ្តាញសង្គមឡើយ ។</string>
+
+    
+    <string name="permlab_writeSocialStream" product="default">សរសេរទៅក្នុងខ្សែសកម្មភាពសង្គមរបស់អ្នក</string>
+    <string name="permdesc_writeSocialStream" product="default">អនុញ្ញាតឲ្យកម្មវិធីបង្ហាញការធ្វើបច្ចុប្បន្នភាពសង្គមពីមិត្តរបស់អ្នក ។ ត្រូវប្រុងប្រយ័ត្នពេលចែករំលែកព័ត៌មាន -- សកម្មភាពនេះ អនុញ្ញាតឲ្យកម្មវិធីបង្កើតសារដែលអាចបង្ហាញថាមកពីមិត្តរបស់អ្នក ។ ចំណាំ ៖ ការអនុញ្ញាតនេះ អាចមិនត្រូវបង្ខំបានលើគ្រប់បណ្តាញសង្គមឡើយ ។</string>
+
+    
+    <string name="permlab_readCalendar">អានហេតុការណ៍ប្រតិទិន រួមទាំងព័ត៌មានសម្ងាត់ </string>
+    
+
+    <string name="permdesc_readCalendar" product="tablet">អនុញ្ញាតឲ្យកម្មវិធីអានហេតុការប្រតិទិន ដែលបាផ្ទុកនៅក្នុងកូនកុំព្យូទ័ររបស់អ្នក រួមទាំងអ្វីទាំងនោះដែលជារបស់មិត្ត និងសហការីរបស់អ្នកផងដែរ ។  សកម្មភាពនេះ អាចអនុញ្ញាតឲ្យកម្មវិធីចែករំលែក ឬរក្សាទុកទិន្នន័យប្រតិទិនរបស់អ្នក ដោយមិនគិតអំពីការសម្ងាត់ ឬព័ត៌មានរសើបឡើយ ។</string>
+    
+    <string name="permdesc_readCalendar" product="default">អនុញ្ញាតឲ្យកម្មវិធីអានហេតុការប្រតិទិន ដែលបាផ្ទុកនៅក្នុងទូរស័ព្ទរបស់អ្នក រួមទាំងអ្វីទាំងនោះដែលជារបស់មិត្ត និងសហការីរបស់អ្នកផងដែរ ។  សកម្មភាពនេះ អាចអនុញ្ញាតឲ្យកម្មវិធីចែករំលែក ឬរក្សាទុកទិន្នន័យប្រតិទិនរបស់អ្នក ដោយមិនគិតអំពីការសម្ងាត់ ឬព័ត៌មានរសើបឡើយ ។</string>
+
+    
+    <string name="permlab_writeCalendar">បន្ថែម ឬកែសម្រួលហេតុការណ៍ប្រតិទិន ហើយផ្ញើអ៊ីម៉េលទៅឲ្យភ្ញៀវដោយម្ចា\ស់ មិនដឹងឡើយ ។</string>
+    
+
+<string name="permdesc_writeCalendar" product="tablet">អនុញ្ញាតឲ្យកម្មវិធីបន្ថែម លុបចោល ប្តូរហេតុការណ៍ដែលអ្នកអាចកែសម្រួលនៅក្នុងកូនកុំព្យូទ័ររបស់អ្នកបាន រួមទាំងអ្វីៗទាំងនោះរបស់មិត្ត ឬសហការីផងដែរ ។ សកម្មភាពនេះ អាចអនុញ្ញាតឲ្យកម្មវិធីផ្ញើសារ ដែលបង្ហាញថាចេញពីប្រតិទិនរបស់ម្ចាស់ ឬកែសម្រួលហេតុការណ៍ ដោយម្ចា\ស់ មិនដឹងឡើយ ។</string>
+<string name="permdesc_writeCalendar" product="default">អនុញ្ញាតឲ្យកម្មវិធីបន្ថែម លុបចោល ប្តូរហេតុការណ៍ដែលអ្នកអាចកែសម្រួលនៅក្នុងទូរស័ព្ទរបស់អ្នកបាន រួមទាំងអ្វីៗទាំងនោះរបស់មិត្ត ឬសហការីផងដែរ ។ សកម្មភាពនេះ អាចអនុញ្ញាតឲ្យកម្មវិធីផ្ញើសារ ដែលបង្ហាញថាចេញពីប្រតិទិនរបស់ម្ចាស់ ឬកែសម្រួលហេតុការណ៍ ដោយម្ចា\ស់ មិនដឹងឡើយ ។</string>
+
+
+    
+    <string name="permlab_accessMockLocation">ប្រភពទីតាំងក្លែងក្លាយសម្រាប់តេស្ត</string>
+    
+    <string name="permdesc_accessMockLocation">បង្កើតប្រភពទីតាំងក្លែងក្លាយសម្រាប់តេស្ត ឬតម្លើងអ្នកផ្តល់ទីតាំងថ្មី ។ សកម្មភាពនេះ អនុញ្ញាតឲ្យកម្មវិធីមានសិទ្ធិលើទីតាំង និង/ឬស្ថានភាពដែលផ្ញើត្រឡប់ដោយប្រភពទីតាំងផ្សេងទៀត ដូចជា GPS ឬអ្នកផ្តល់ទីតាំង ។</string>
+
+    
+    <string name="permlab_accessLocationExtraCommands">ចូលបើកមើលពាក្យបញ្ជាអ្នកផ្តល់ទីតាំងបន្ថែម </string>
+    
+    <string name="permdesc_accessLocationExtraCommands">អនុញ្ញាតឲ្យកម្មវិធីអាចបើកមើលពាក្យបញ្ជាអ្នកផ្តល់ទីតាំងបន្ថែម ។ សកម្មភាពនេះ អាចអនុញ្ញាតឲ្យកម្មវិធីរំខានដល់ប្រតិបត្តិការរបស់ GPS ឬប្រភពទីតាំងផ្សេងទៀត ។</string>
+
+    
+    <string name="permlab_installLocationProvider">ការអនុញ្ញាតតម្លើងអ្នកផ្តល់ទីតាំង </string>
+    
+    <string name="permdesc_installLocationProvider">បង្កើតប្រភពទីតាំងក្លែងក្លាយសម្រាប់តេស្ត ឬតម្លើងអ្នកផ្តល់ទីតាំងថ្មី ។ សកម្មភាពនេះ អនុញ្ញាតឲ្យកម្មវិធីមានសិទ្ធិលើទីតាំង និង/ឬស្ថានភាពដែលផ្ញើត្រឡប់ដោយប្រភពទីតាំងផ្សេងទៀត ដូចជា GPS ឬអ្នកផ្តល់ទីតាំង ។</string>
+
+    
+    <string name="permlab_accessFineLocation">ទីតាំងជាក់លាក់ (ផ្អែកលើ GPS និងបណ្តាញ)</string>
+    
+    <string name="permdesc_accessFineLocation">អនុញ្ញាតឲ្យកម្មវិធីអាចបានទទួលទីតាំងជាក់លាក់របស់អ្នកដោយការប្រើប្រភពប្រព័ន្ធទីតាំងពិភពលោក (GPS) ឬប្រភពទីតាំងបណ្តាញ ដូចជាអង់តែនសេវាទូរស័ព្ទចល័ត និង Wi-Fi ។ សេវាទីតាំងទាំងនេះត្រូវតែបើក ហើយមានសម្រាប់ឧបករណ៍របស់អ្នកសម្រាប់ឲ្យកម្មវិធីប្រើប្រាស់ ។ កម្មវិធីអាចប្រើប្រាស់​របស់នេះដើម្បីកំណត់ទីតាំងរបស់អ្នក ហើយអាចប្រើថាមពលថ្មបន្ថែម ។</string>
+
+    
+    <string name="permlab_accessCoarseLocation">ទីតាំងប្រហាក់ប្រហែល (ផ្អែកលើបណ្តាញ)</string>
+    
+    <string name="permdesc_accessCoarseLocation">អនុញ្ញាតឲ្យកម្មវិធីប្រើទីតាំងប្រហាក់ប្រហែលរបស់អ្នក ។ ទីតាំងនេះបានទទួលពីទីតាំងសេវាកម្ម ដោយការប្រើប្រភពទីតាំងបណ្តាញ ដូចជាអង់តែនសេវាទូរស័ព្ទចល័ត និង Wi-Fi ។ ទីតាំងសេវាទាំងនេះ ត្រូវតែបើក ហើយមានសម្រាប់កម្មវិធីរបស់ឧបករណ៍របស់អ្នកប្រើវា ។ កម្មវិធីមួយចំនួនអាចប្រើសកម្មភាពនេះ ដើម្បីកំណត់ពីទីតាំងប្រហាក់ប្រហែលរបស់អ្នក ។</string>
+
+    
+    <string name="permlab_accessSurfaceFlinger">ចូលក្នុង SurfaceFlinger</string>
+    
+    <string name="permdesc_accessSurfaceFlinger">អនុញ្ញាតឲ្យកម្មវិធីអាចប្រើ SurfaceFlinger ក្នុងលក្ខណៈកម្រិតទាប ។</string>
+
+    
+    <string name="permlab_readFrameBuffer">អានហ្វ្រេមប៊ូហ្វើ</string>
+    
+    <string name="permdesc_readFrameBuffer">អនុញ្ញាតឲ្យកម្មវិធីអាចអានមាតិការពីហ្វ្រេមប៊ូហ្វឺបាន ។</string>
+
+    
+    <string name="permlab_configureWifiDisplay">ធ្វើរូបសណ្ឋានការបង្ហាញ Wifi</string>
+    
+    <string name="permdesc_configureWifiDisplay">អនុញ្ញាតឲ្យកម្មវិធីអាចធ្វើរូបសណ្ឋាណ និងតភ្ជាប់ទៅនឹងការបង្ហាញ Wifi ។</string>
+
+    
+    <string name="permlab_controlWifiDisplay">គ្រប់គ្រងការបង្ហាញ Wifi</string>
+    
+    <string name="permdesc_controlWifiDisplay">អនុញ្ញាតឲ្យកម្មវិធីអាចគ្រប់គ្រងទ្រង់ទ្រាយនៃការបង្ហាញ Wifi ។</string>
+
+    
+    <string name="permlab_modifyAudioSettings">ប្តូរការសិតអូឌីអូរបស់អ្នក </string>
+    
+    <string name="permdesc_modifyAudioSettings">អនុញ្ញាតឲ្យកម្មវិធីអាចកែប្រែការិសតអូឌីអូទូទៅ ដូចជាវ៉ូលូម និងឧបល័រមួយណាប្រើសម្រាប់សម្លេងចេញ ។</string>
+
+    
+    <string name="permlab_recordAudio">ថតអូឌីអូ</string>
+    
+    <string name="permdesc_recordAudio">អនុញ្ញាតឲ្យកម្មវិធីថតអូឌីអូ ជាមួយមីក្រូហ្វូន ។ ការអនុញ្ញាតនេះ ជួយឲ្យកម្មវិធីអាចថតអូឌីអូ បានគ្រប់ពេលដោយមិនចាំបាច់មានការបញ្ជាក់ពីអ្នក ។</string>
+
+    
+    <string name="permlab_camera">ថតរូប និងថតវីដេអូ</string>
+    
+    <string name="permdesc_camera">អនុញ្ញាតឲ្យកម្មវិធីថតរូប និងថតវីដេអូ ដោយប្រើកាមេរ៉ា ។ ការអនុញ្ញាតនេះ ជួយឲ្យកម្មវិធីអាចប្រើកាមេរ៉ាបានគ្រប់ពេល ដោយមិនចាំបាច់មានការបញ្ជាក់ពីអ្នក ។</string>
+
+    
+    <string name="permlab_brick" product="tablet">ធ្វើឲ្យកូនកុំព្យូទ័រអសកម្មជាអចិន្ត្រៃយ៍</string>
+    
+    <string name="permlab_brick" product="default">ធ្វើឲ្យទូរស័ព្ទអសកម្មជាអចិន្ត្រៃយ៍</string>
+    
+    <string name="permdesc_brick" product="tablet">អនុញ្ញាតឲ្យកម្មវិធីធ្វើឲ្យកូនកុំព្យូទ័រទាំងមូលអសកម្ម ។ សកម្មភាពនេះវាគ្រោះថ្នាក់ខ្លាំងណស់ ។</string>
+    
+    <string name="permdesc_brick" product="default">អនុញ្ញាតឲ្យកម្មវិធីធ្វើឲ្យទូរស័ព្ទទាំងមូលអសកម្ម ។ សកម្មភាពនេះវាគ្រោះថ្នាក់ខ្លាំងណស់ ។</string>
+
+    
+    <string name="permlab_reboot" product="tablet">បង្ខំកូនកុំព្យូទ័រចាប់ផ្តើមថ្មី</string>
+    
+    <string name="permlab_reboot" product="default">បង្ខំទូរស័ព្ទឲ្យចាប់ផ្តើមថ្មី</string>
+    
+    <string name="permdesc_reboot" product="tablet">អនុញ្ញាតឲ្យកម្មវិធីបង្ខំឲ្យចាប់ផ្តើមកូនកុំព្យូទ័រជាថ្មី ។</string>
+    
+    <string name="permdesc_reboot" product="default">អនុញ្ញាតឲ្យកម្មវិធីបង្ខំឲ្យចាប់ផ្តើមទូរស័ព្ទជាថ្មី ។</string>
+
+
+    
+    <string name="permlab_mount_unmount_filesystems" product="nosdcard">ចូលបើកមើលប្រព័ន្ធឯកសារ USB</string>
+    
+    <string name="permlab_mount_unmount_filesystems" product="default">ចូលមើលមើលប្រព័ន្ធឯកសារកាត SD</string>
+    
+    <string name="permdesc_mount_unmount_filesystems">អនុញ្ញាតឲ្យកម្មវិធីបើក និងបិទប្រព័ន្ធឯកសារ សម្រាប់ឧបករណ៍ផ្ទុកឯកសារដែលអាចដោះចេញបាន ។</string>
+
+    
+    <string name="permlab_mount_format_filesystems" product="nosdcard">លុបឧបករណ៍ USB</string>
+    
+    <string name="permlab_mount_format_filesystems" product="default">លុបកាត SD</string>
+    
+    <string name="permdesc_mount_format_filesystems">អនុញ្ញាតឲ្យកម្មវិធីធ្វើទ្រង់ទ្រាយឧបករណ៍ផ្ទុកឯកសារដែលអាចដោះចេញបាន ។</string>
+
+    
+    <string name="permlab_asec_access">ទទួលព័ត៌មានអំពីឧបករណ៍ផ្ទុកឯកសារខាងក្នុង</string>
+    
+    <string name="permdesc_asec_access">អនុញ្ញាតឲ្យកម្មវិធីបង្ខំទូរស័ព្ទចាប់ផ្តើមឡើងវិញ ។</string>
+
+    
+    <string name="permlab_asec_create">បង្កើតឧបករណ៍ផ្ទុកឯកសារខាងក្នុង</string>
+    
+    <string name="permdesc_asec_create">អនុញ្ញាតឲ្យកម្មវិធីបង្កើតឧបករណ៍ផ្ទុកឯកសារខាងក្នុង</string>
+
+    
+    <string name="permlab_asec_destroy">បំផ្លាញចោលឧបករណ៍ផ្ទុកឯកសារខាងក្នុង</string>
+    
+    <string name="permdesc_asec_destroy">អនុញ្ញាតឲ្យកម្មវិធីបំផ្លាញចោលឧបករណ៍ផ្ទុកឯកសារខាងក្នុង</string>
+
+    
+    <string name="permlab_asec_mount_unmount">បើក/បិទឧបករណ៍ផ្ទុកឯកសារខាងក្នុង</string>
+    
+    <string name="permdesc_asec_mount_unmount">អនុញ្ញាតឲ្យកម្មវិធីបើក/បិទឧបករណ៍ផ្ទុកឯកសារខាងក្នុង ។</string>
+
+    
+    <string name="permlab_asec_rename">ដាក់ឈ្មោះថ្មីឧបករណ៍ផ្ទុកឯកសារខាងក្នុង</string>
+    
+    <string name="permdesc_asec_rename">អនុញ្ញាតឲ្យកម្មវិធី ដាក់ឈ្មោះថ្មីឧបករណ៍ផ្ទុកឯកសារខាងក្នុង ។</string>
+
+    
+    <string name="permlab_vibrate">គ្រប់គ្រងភាពរំញ័រ</string>
+    
+    <string name="permdesc_vibrate">អនុញ្ញាតឲ្យកម្មវិធីគ្រប់គ្រងភាពរំញ័រ ។</string>
+
+    
+    <string name="permlab_flashlight">គ្រប់គ្រងពន្លឺសញ្ញា</string>
+    
+    <string name="permdesc_flashlight">អនុញ្ញាតឲ្យកម្មវិធីគ្រប់គ្រងពន្លឺសញ្ញា ។</string>
+
+    
+    <string name="permlab_manageUsb">គ្រប់គ្រងឧបករណ៍ USB ដែលអ្នកពេញចិត្ត និងការអនុញ្ញាត </string>
+    
+    <string name="permdesc_manageUsb">អនុញ្ញាតឲ្យកម្មវិធី គ្រប់គ្រងឧបករណ៍ USB ដែលអ្នកពេញចិត្ត និងការអនុញ្ញាត ។</string>
+
+    
+    <string name="permlab_accessMtp">អនុវត្តិប្រូតូកូល  MTP</string>
+    
+    <string name="permdesc_accessMtp">អនុញ្ញាតឲ្យបើកមើលដ្រាយវើគ្រាប់ MTP ដើម្បីអនុវត្តិប្រូតូកូល MTP USB ។</string>
+
+    
+    <string name="permlab_hardware_test">តេស្តគ្រឿងរឹង</string>
+    
+    <string name="permdesc_hardware_test">អនុញ្ញាតឲ្យកម្មវិធីគ្រប់គ្រងឧបករណ៍បន្ទាប់បន្សំផ្សេងៗ សម្រាប់គោលបំណងធ្វើតេស្តគ្រឿងរឹង ។</string>
+
+    
+    <string name="permlab_callPhone">ហៅលេខទូរស័ព្ទដោយផ្ទាល់</string>
+    
+    <string name="permdesc_callPhone">អនុញ្ញាតឲ្យកម្មវិធីហៅលេខទូរស័ព្ទ ដោយគ្មានការអន្តរាគមន៍ពីអ្នក ។ សកម្មភាពនេះ អាចនាំឲ្យអ្នកត្រូវបង់ប្រាក់ ឬការហៅ ដែលមិនបានរំពឹងទុក ។ សូមកត់ចំណាំថា សកម្មភាពនេះវាមិ\ន អនុញ្ញាតឲ្យកម្មវិធីហៅលេខគ្រាអាសន្នបានឡើយ ។ កម្មវិធីដែលមិនល្អ អាចធ្វើឲ្យអ្នកត្រូវចំនាយប្រាក់បន្ថែម ដោយការហៅដែលគ្មានការបញ្ជាក់ពីអ្នក ។</string>
+
+    
+    <string name="permlab_callPrivileged">ហៅលេខទូរស័ព្ទណាមួយដោយផ្ទាល់ </string>
+    
+    <string name="permdesc_callPrivileged">អនុញ្ញាតឲ្យកម្មវិធីអាចហៅលេខណាមួយ រួមទាំងលេខគ្រាអាសន្ន ដោយគ្មានការអន្តរាគមន៍ពីអ្នក ។ កម្មវិធីដែលមិនល្អ អាចចុចលេខហៅដែលមិនចាំបាច់ ឬការហៅដែលខុសច្បាប់ ដល់លេខសេវាកម្មគ្រាអាសន្ន ។</string>
+
+    
+    <string name="permlab_performCdmaProvisioning" product="tablet">ចាប់ផ្តើមដោយផ្ទាល់លើការតម្លើង CDMA កូនកុំព្យូទ័រ</string>
+    
+    <string name="permlab_performCdmaProvisioning" product="default">ចាប់ផ្តើមដោយផ្ទាល់លើការតម្លើង CDMA ទូរស័ព្ទ</string>
+    
+    <string name="permdesc_performCdmaProvisioning">អនុញ្ញាតឲ្យកម្មវិធីចាប់ផតើមផ្តល់នូវ CDMA ។ កម្មវិធីដែលមិនល្អ អាចចាប់ផ្តើមផ្តល់នូវ CDMA ដែលមិនចាំបាច់ ។</string>
+
+    
+    <string name="permlab_locationUpdates">គ្រប់គ្រងការប្រាប់ដំណឹងបច្ចុប្បន្នភាពទីតាំង</string>
+    
+    <string name="permdesc_locationUpdates">អនុញ្ញាតឲ្យកម្មវិធីធ្វើឲ្យសកម្ម/អសកម្មមុខងារប្រាប់ដំណឹងបច្ចុប្បន្នភាពពីវិទ្យុ ។ មិនមែនសម្រាប់ប្រើដោយកម្មវិធីធម្មតាឡើយ ។</string>
+
+    
+    <string name="permlab_checkinProperties">ចូលឆែកមើលលក្ខណៈ </string>
+    
+    <string name="permdesc_checkinProperties">អនុញ្ញាតឲ្យកម្មវិធីចូលអាន/សរសេរ នូវលក្ខណៈដែលបានអាប់ឡូត ដោយសេវាកម្មឆែកមើល ។ មិនមែនសម្រាប់ប្រើដោយកម្មវិធីធម្មតាឡើយ ។</string>
+
+    
+    <string name="permlab_bindGadget">ជ្រើសរើសវិដជេដ</string>
+    
+    <string name="permdesc_bindGadget">អនុញ្ញាតឲ្យកម្មវិធីប្រាប់ប្រព័ន្ធថាតើវិដជេដណាមួយ អាចប្រើបានជាមួយនឹងកម្មវិធីណា ។ កម្មវិធីដែលបានការអនុញ្ញាតនេះ អាចឲ្យសិទ្ធិបើកមើលព័ត៌មានផ្ទាល់ខ្លួនដល់កម្មវិធីដទៃ ។ មិនមែនសម្រាប់ប្រើដោយកម្មវិធីធម្មតាឡើយ ។</string>
+
+    
+    <string name="permlab_modifyPhoneState">កែសម្រួលស្ថានភាពទូរស័ព្ទ</string>
+    
+    <string name="permdesc_modifyPhoneState">អនុញ្ញាតឲ្យកម្មវិធីគ្រប់គ្រងលក្ខណៈរបស់ទូរស័ព្ទនៃឧបករណ៍ ។  កម្មវិធីមួយ ដែលបានទទួលការអនុញ្ញាតនេះ អាចប្តូរបណ្តាញ បើក ឬបិទវិទ្យុទូរស័ព្ទ និងស្ថានភាពបែបនេះ ដោយមិនប្រាប់ឲ្យអ្នកបានដឹងឡើយ ។</string>
+
+    
+    <string name="permlab_readPhoneState">អានស្ថានភាព និងអត្តសញ្ញាណទូរស័ព្ទ</string>
+    
+    <string name="permdesc_readPhoneState">អនុញ្ញាតឲ្យកម្មវិធីអាចបើកមើលលក្ខណៈរបស់ទូរស័ព្ទ ។ ការអនុញ្ញាតនេះ ជួយឲ្យកម្មវិធីអាចកំណត់អំពីលេខទូរស័ព្ទ និងអត្តសញ្ញាណរបស់វា មិនថា​ការហៅវាសកម្មឬទេ និងលេខពីចម្ងាយដែលអ្នកទំនាក់ទំនង ។</string>
+
+    
+    <string name="permlab_wakeLock" product="tablet">ការពារកូនកុំព្យូទ័រកុំឲ្យដេក</string>
+    
+    <string name="permlab_wakeLock" product="default">ការពារទូរស័ព្ទកុំឲ្យដេក</string>
+    
+    <string name="permdesc_wakeLock" product="tablet">អនុញ្ញាតឲ្យកម្មវិធីការពារកូនកុំព្យូទ័រកុំឲ្យដេក ។</string>
+    
+    <string name="permdesc_wakeLock" product="default">អនុញ្ញាតឲ្យកម្មវិធីការពារទូរស័ព្ទកុំឲ្យដេក ។</string>
+
+    
+    <string name="permlab_devicePower" product="tablet">បិទ ឬបើកថាមពលកូនកុំព្យូទ័រ</string>
+    
+    <string name="permlab_devicePower" product="default">បិទ ឬបើកថាមពលទូរស័ព្ទ</string>
+    
+    <string name="permdesc_devicePower" product="tablet">អនុញ្ញាតឲ្យកម្មវិធីបើក ឬបិទកូនកុំព្យូទ័រ ។</string>
+    
+    <string name="permdesc_devicePower" product="default">អនុញ្ញាតឲ្យកម្មវិធីបើក ឬបិទទូរស័ព្ទ ។</string>
+
+    
+    <string name="permlab_factoryTest">រត់ក្នុងម៉ូដតេស្តរបស់រោងចក្រ</string>
+    
+    <string name="permdesc_factoryTest" product="tablet">រត់ជាការតេស្តរបស់អ្នកផលិតក្នុងកម្រិតទាប អនុញ្ញាតឲ្យមានសិទ្ធិបើកមើលយ៉ាងពេញលេញដល់គ្រឿងរឹងរបស់កូនកុំព្យូទ័រ ។  មានតែក្នុងពេលដែលកូនកុំព្យូទ័រកំពុងរត់ក្នុងម៉ូដតេស្តរបស់អ្នកផលិត ។</string>
+    
+    <string name="permdesc_factoryTest" product="default">រត់ជាការតេស្តរបស់អ្នកផលិតក្នុងកម្រិតទាប អនុញ្ញាតឲ្យមានសិទ្ធិបើកមើលយ៉ាងពេញលេញដល់គ្រឿងរឹងរបស់ទូរស័ព្ទ ។  មានតែក្នុងពេលដែលកូនកុំព្យូទ័រកំពុងរត់ក្នុងម៉ូដតេស្តរបស់អ្នកផលិត ។</string>
+
+    
+    <string name="permlab_setWallpaper">សិតផ្ទៃជញ្ជាំង</string>
+    
+    <string name="permdesc_setWallpaper">អនុញ្ញាតឲ្យកម្មវិធីអាចសិតប្រព័ន្ធផ្ទៃជញ្ជាំង ។</string>
+
+    
+    <string name="permlab_setWallpaperHints">សម្រួលទំហំផ្ទៃជញ្ជាំងរបស់អ្នក </string>
+    
+    <string name="permdesc_setWallpaperHints">អនុញ្ញាតឲ្យកម្មវិធីសិតនូវប្រព័ន្ធគន្លឹះនៃទំហំផ្ទៃជញ្ជាំង ។</string>
+
+    
+    <string name="permlab_masterClear">សិតប្រព័ន្ធឡើងវិញ ទៅរកការសិតរបស់រោងចក្រ</string>
+    
+    <string name="permdesc_masterClear">អនុញ្ញាតឲ្យកម្មវិធីសិតប្រព័ន្ធឡើងវិញទាំងអស់ ទៅរកការសិតរបស់រោងចក្រ ដោយការលុបទិន្នន័យ ការធ្វើរូបសណ្ឋន និងកម្មវិធីដែលបានតម្លើងទាំងអស់ ។</string>
+
+    
+    <string name="permlab_setTime">សិតម៉ោង</string>
+    
+    <string name="permdesc_setTime" product="tablet">អនុញ្ញាតឲ្យកម្មវិធីអាចប្តូរនាឡិការម៉ោងរបស់កូនកុំព្យូ\ទ័រ ។</string>
+    
+    <string name="permdesc_setTime" product="default">អនុញ្ញាតឲ្យកម្មវិធីអាចប្តូរនាឡិការម៉ោងរបស់ទូរ\ស័ព្ទ ។</string>
+
+    
+    <string name="permlab_setTimeZone">សិតល្វែងម៉ោង</string>
+    
+    <string name="permdesc_setTimeZone" product="tablet">អនុញ្ញារឲ្យកម្មវិធីអាចប្តូរល្វែងម៉ោងរបស់កូនកុំព្យូ\ទ័រ ។</string>
+    
+    <string name="permdesc_setTimeZone" product="default">អនុញ្ញារឲ្យកម្មវិធីអាចប្តូរល្វែងម៉ោងរបស់ទូរ\ស័ព្ទ ។</string>
+
+    
+    <string name="permlab_accountManagerService">ដើរតួជាអ្នកផ្តល់សេវាកម្មគ្រប់គ្រងគណនី</string>
+    
+    <string name="permdesc_accountManagerService">អនុញ្ញាតឲ្យកម្មវិធីអាចហៅទៅកាន់អ្នកបញ្ជាក់ការពិតគណនី ។</string>
+
+    
+    <string name="permlab_getAccounts">រកគណនីនៅក្នុងឧបករណ៍</string>
+    
+    <string name="permdesc_getAccounts" product="tablet">អនុញ្ញាតឲ្យកម្មវិធីបានទទួលបញ្ជីគណនី ដែលកូនកុំព្យូទ័រស្គាល់ ។ សកម្មភាពនេះ អាចរួមបញ្ចូលនូវគណនីណាមួយ ដែលបង្កើតឡើងដោយកម្មវិធីដែលអ្នកបានតម្លើង ។</string>
+    
+    <string name="permdesc_getAccounts" product="default">អនុញ្ញាតឲ្យកម្មវិធីបានទទួលបញ្ជីគណនី ដែលទូរស័ព្ទស្គាល់ ។ សកម្មភាពនេះ អាចរួមបញ្ចូលនូវគណនីណាមួយ ដែលបង្កើតឡើងដោយកម្មវិធីដែលអ្នកបានតម្លើង ។</string>
+
+    
+    <string name="permlab_authenticateAccounts">បង្កើតគណនី និងពាក្យសម្ងាត់ </string>
+    
+    <string name="permdesc_authenticateAccounts">អនុញ្ញាតឲ្យកម្មវិធីអាចប្រើសមត្ថភាពអ្នកបញ្ជាក់ការពិតគណនី នៃអ្នកចាត់ចែងគណនី  រួមទាំងការបង្កើត បានទទួល និងការសិតពាក្យសម្ងាត់របស់គណនី ។</string>
+
+    
+    <string name="permlab_manageAccounts">បន្ថែម ឬលុបគណនី</string>
+    
+    <string name="permdesc_manageAccounts">អនុញ្ញាតឲ្យកម្មវិធីធ្វើប្រតិបត្តិការ ដូចជាបន្ថែម និងលុបគណនី និងលុបពាក្យសម្ងាត់របស់វាចោល ។</string>
+
+    
+    <string name="permlab_useCredentials">ប្រើគណនីនៅក្នុងឧបករណ៍</string>
+    
+    <string name="permdesc_useCredentials">អនុញ្ញាតឲ្យកម្មវិធីអាចស្នើសុំសញ្ញាការបញ្ជាក់ការពិត ។</string>
+
+    
+    <string name="permlab_accessNetworkState">មើលការតភ្ជាប់បណ្តាញ</string>
+    
+    <string name="permdesc_accessNetworkState">អនុញ្ញាតឲ្យកម្មវិធីអាចមើលព័ត៌មានអំពីការតភ្ជាប់បណ្តាញ ដូចជាបណ្តាញណាមួយដែលមាន ហើយអាចតភ្ជាប់បាន ។</string>
+
+    
+    <string name="permlab_createNetworkSockets">ចូលដល់បណ្តាញពេញលេញ</string>
+    
+    <string name="permdesc_createNetworkSockets">អនុញ្ញាតឲ្យកម្មវិធីអាចបង្កើតរន្ធបណ្តាញ និងប្រើប្រូតូកូលបណ្តាញតាមចំណូលចិត្ត ។ ប្រូស័រ និងកម្មវិធីដទៃទៀតជាអ្នកផ្តល់មធ្យោបាយដើម្បីផ្ញើទិន្នន័យទៅឲ្យអ៊ិនថឺណិត ។</string>
+
+    
+    <string name="permlab_writeApnSettings">ប្តូរ/ចាប់ការសិត និងចរាចរបណ្តាញ</string>
+    
+    <string name="permdesc_writeApnSettings">អនុញ្ញាតឲ្យកម្មវិធីអាចប្តូរការសិតបណ្តាញ និងចាប់យកគ្រប់ចរាចររបស់បណ្តាញ ឧទាហរណ៍ដើម្បីប្តូរសិទ្ធិ និងរន្ធនៃ APN ណាមួយ ។ កម្មវិធីដែលមិនល្អ អាចត្រួតពិនិត្យ តម្រង់ទិសឡើងវិញ ឬកែសម្រួលសំណុំបណ្តាញ ដោយអ្នកមិនដឹង ។</string>
+
+    
+    <string name="permlab_changeNetworkState">ប្តូរការតភ្ជាប់បណ្តាញ </string>
+    
+    <string name="permdesc_changeNetworkState">អនុញ្ញាតឲ្យកម្មវិធីអាចប្តូរស្ថានភាពនៃការតភ្ជាប់បណ្តាញ ។</string>
+
+    
+    <string name="permlab_changeTetherState">ប្តូរខ្សែការតភ្ជាប់</string>
+    
+    <string name="permdesc_changeTetherState">អនុញ្ញាតឲ្យកម្មវិធីអាចប្តូរស្ថានភាពនៃខ្សែតភ្ជាប់បណ្តាញ ។</string>
+
+    
+    <string name="permlab_changeBackgroundDataSetting">ប្តូរការសិតការប្រើទិន្នន័យខាងក្រោយ </string>
+    
+    <string name="permdesc_changeBackgroundDataSetting">អនុញ្ញាតឲ្យកម្មវិធី អាចប្តូរការសិតចំពោះការប្រើទិន្នន័យខាងក្រោយ ។.</string>
+
+    
+    <string name="permlab_accessWifiState">មើលការតភ្ជាប់ Wi-Fi </string>
+    
+    <string name="permdesc_accessWifiState">អនុញ្ញាតឲ្យកម្មវិធីអាចមើលព័ត៌មានអំពីបណ្តាញ Wi-Fi ដូចជាតើ Wi-Fi សកម្មទេ និងឈ្មោះនៃ Wi-Fi ដែលបានតភ្ជាប់ ។</string>
+
+    
+    <string name="permlab_changeWifiState">តភ្ជាប់ និងផ្តាច់ការតភ្ជាប់ពី Wi-Fi</string>
+    
+    <string name="permdesc_changeWifiState">អនុញ្ញាតឲ្យកម្មវិធីអាចតភ្ជាប់ និងផ្តាច់ការតភ្ជាប់ពី Wi-Fi និងធ្វើការផ្លាស់ប្តូរដល់ឧបករណ៍ដែលធ្វើរូបសណ្ឋានបណ្តាញ Wi-Fi ។</string>
+
+    
+    <string name="permlab_changeWifiMulticastState">អនុញ្ញាតឲ្យ Wi-Fi ទទួលការតភ្ជាប់ច្រើនយ៉ាង</string>
+    
+    <string name="permdesc_changeWifiMulticastState" product="tablet">អនុញ្ញាតឲ្យកម្មវិធីអាចទទួលសំណុំដែលបានផ្ញើចេញទៅឲ្យគ្រប់ឧបករណ៍ទាំងអស់នៅលើបណ្តាញ Wi-Fi ដោយការប្រើអាសយដ្ឋានការតភ្ជាប់ច្រើន គឺមិនមែនសម្រាប់តែកូនកុំព្យូទ័ររបស់អ្នកឡើយ ។ វាប្រើថាមពលច្រើន ជាងម៉ូដតែមួយ ។ </string>
+    <string name="permdesc_changeWifiMulticastState" product="default">អនុញ្ញាតឲ្យកម្មវិធីអាចទទួលសំណុំដែលបានផ្ញើចេញទៅឲ្យគ្រប់ឧបករណ៍ទាំងអស់នៅលើបណ្តាញ Wi-Fi ដោយការប្រើអាសយដ្ឋានការតភ្ជាប់ច្រើន គឺមិនមែនសម្រាប់តែទូរស័ព្ទរបស់អ្នកឡើយ ។ វាប្រើថាមពលច្រើន ជាងម៉ូដតែមួយ ។ </string>
+
+    
+    <string name="permlab_bluetoothAdmin">ចូលបើកមើលការសិតប្ល៊ូធូត</string>
+    
+    <string name="permdesc_bluetoothAdmin" product="tablet">អនុញ្ញាតឲ្យកម្មវិធីអាចធ្វើរូបសណ្ឋានរបស់ប្ល៊ូធូតក្នុងកូនកុំព្យូទ័រ គឺមិនមែនប្ល៊ូធូតដែលបានរកឃើញ ឬប្ល៊ូធូតដែលត្រូវចាប់គូជាមួយរបស់ឧបករណ៍ពីចម្ងាយឡើយ ។</string>
+    
+    <string name="permdesc_bluetoothAdmin" product="default">អនុញ្ញាតឲ្យកម្មវិធីអាចធ្វើរូបសណ្ឋានរបស់ប្ល៊ូធូតក្នុងទូរស័ព្ទ គឺមិនមែនប្ល៊ូធូតដែលបានរកឃើញ ឬប្ល៊ូធូតដែលត្រូវចាប់គូជាមួយរបស់ឧបករណ៍ពីចម្ងាយឡើយ ។</string>
+
+    <string name="permlab_accessWimaxState">តភ្ជាប់ និងផ្តាច់ការតភ្ជាប់ពី WiMAX</string>
+    <string name="permdesc_accessWimaxState">អនុញ្ញាតឲ្យកម្មវិធីអាចកំណត់ថាតើ WiMAX បានធ្វើឲ្យសកម្ម ហើយនិងព័ត៌មានអំពីបណ្តាញ WiMAX ណាមួយដែលត្រូវបានតភ្ជាប់ ។</string>
+
+    <string name="permlab_changeWimaxState">ប្តូរស្ថានភាព WiMAX</string>
+    <string name="permdesc_changeWimaxState" product="tablet">អនុញ្ញាតឲ្យកម្មវិធីអាចតភ្ជាប់កូនកុំព្យូទ័រជាមួយ និងផ្តាច់ការតភ្ជាប់កូនកុំព្យូទ័រពីបណ្ទាញ WiMAX ។</string>
+    <string name="permdesc_changeWimaxState" product="default">អនុញ្ញាតឲ្យកម្មវិធីអាចតភ្ជាប់ទូរស័ព្ទជាមួយ និងផ្តាច់ការតភ្ជាប់ទូរស័ព្ទពីបណ្ទាញ WiMAX ។</string>
+
+    
+    <string name="permlab_bluetooth">ចាប់គូជាមួយឧបករណ៍ប្ល៊ូធូត </string>
+    
+    <string name="permdesc_bluetooth" product="tablet">អនុញ្ញាតឲ្យកម្មវិធីអាចមើលការធ្វើរូបសណ្ឋាននៃប្ល៊ូធូត លើកូនកុំព្យូទ័រ និងធ្វើ ព្រមទាំងទទួលការតភ្ជាប់ជាមួយនឹងឧបករណ៍ដែលបានចាប់គូ ។</string>
+    
+    <string name="permdesc_bluetooth" product="default">អនុញ្ញាតឲ្យកម្មវិធីអាចមើលការធ្វើរូបសណ្ឋាននៃប្ល៊ូធូត លើទូរស័ព្ទ និងធ្វើ ព្រមទាំងទទួលការតភ្ជាប់ជាមួយនឹងឧបករណ៍ដែលបានចាប់គូ ។</string>
+
+    
+    <string name="permlab_nfc">គ្រប់គ្រងការទំនាក់ទំនងដែលនៅជិតៗ</string>
+    
+    <string name="permdesc_nfc">អនុញ្ញាតឲ្យកម្មវិធីអាចទំនាក់ទំនងជាមួយនឹងការទំនាក់ទំនងស្លាក កាត និងអ្នកអានដែលនៅជិត (NFC) ។</string>
+
+    
+    <string name="permlab_disableKeyguard">ធ្វើឲ្យការចាក់សោអេក្រង់របស់អ្នកអសកម្ម</string>
+    
+    <string name="permdesc_disableKeyguard">អនុញ្ញាតឲ្យកម្មវិធីអាចធ្វើឲ្យសោ និងពាក្យសម្ងាត់ណាមួយរបស់សោអសកម្ម ។ ឧទាហរណ៍ ទូរស័ព្ទធ្វើឲ្យប៊ូតុងសោអសកម្ម ពេលទទួលាករហៅចូល រួចហើយធ្វើឲ្យវាសកម្មឡើងវិញ ពេលការហៅបានចប់ ។</string>
+
+    
+    <string name="permlab_readSyncSettings">អានការសិតសមកាលកម្ម</string>
+    
+    <string name="permdesc_readSyncSettings">អនុញ្ញាតឲ្យកម្មវិធីអាចអានការសិតសមកាលកម្ម សម្រាប់គណនីណាមួយ ។ ឧទាហរណ៍ សកម្មភាពនេះអាចកំណត់ថាតើកម្មវិធីរបស់មនុស្សត្រូវបានធ្វើសមកាលកម្មជាមួយនឹងគណនីឬទេ ។</string>
+
+    
+    <string name="permlab_writeSyncSettings">សោសមកាលកម្មបើក និងបិទ</string>
+    
+    <string name="permdesc_writeSyncSettings">អនុញ្ញាតឲ្យកម្មវិធីអាចកែសម្រួលការសិតសមកាលកម្ម សម្រាប់គណនីមួយ ។ ឧទាហរណ៍ សកម្មភាពនេះអាចប្រើដើម្បីធ្វើឲ្យសមកាលកម្មសកម្មសម្រាប់កម្មវិធីរបស់មនុស្ស ជាមួយនឹងគណនី ។</string>
+
+    
+    <string name="permlab_readSyncStats">អានស្ថិតិសមកាលកម្ម</string>
+    
+    <string name="permdesc_readSyncStats">អនុញ្ញាតឲ្យកម្មវិធីអាចអានស្ថិតិសមកាលកម្ម សម្រាប់គណនីមួយ រួមទាំងប្រវត្តិនៃហេតុការណ៍សមកាលកម្ម និងថាតើទិន្នន័យប៉ុន្មានត្រូវបានធ្វើសមកាលកម្ម ។</string>
+
+    
+    <string name="permlab_subscribedFeedsRead">អានអ្វីដាក់ចូលដែលបានជាវ </string>
+    
+    <string name="permdesc_subscribedFeedsRead">អនុញ្ញាតឲ្យកម្មវិធីអាចបានទទួលព័ត៌មានលំអិត អំពីសមកាលកម្មចូលនាពេលបច្ចុប្បន្ន ។</string>
+
+    
+    <string name="permlab_subscribedFeedsWrite">សរសេរអ្វីដាក់ចូលដែលបានជាវ</string>
+    
+    <string name="permdesc_subscribedFeedsWrite">អនុញ្ញាតឲ្យកម្មវិធីអាចកែប្រែសមកាលកម្មចូលបច្ចុប្បន្នរបស់អ្នក ។ កម្មវិធីដែលមិនល្អ អាចប្តូរសមកាលកម្មចូលរបស់អ្នក ។</string>
+
+    
+    <string name="permlab_readDictionary">អានពាក្យ ដែលអ្នកបានបន្ថែមទៅក្នុងវចនានុក្រម </string>
+    
+    <string name="permdesc_readDictionary">អនុញ្ញាតឲ្យកម្មវិធីអាចអានបាននូវពាក្យ ឈ្មោះ និងឃ្លាទាំងអស់ដែលអ្នកប្រើអាចដាក់បញ្ចូលទៅក្នុងវចនានុក្រម ។</string>
+
+    
+    <string name="permlab_writeDictionary">បន្ថែមពាក្យទៅក្នុងវចនានុក្រមដែលអ្នកប្រើបានកំណត់ </string>
+    
+    <string name="permdesc_writeDictionary">អនុញ្ញាតឲ្យកម្មវិធីអាចសរសេរពាក្យថ្មីដាក់ទៅក្នុងវចនានុក្រមរបស់អ្នកប្រើ ។</string>
+
+    
+    <string name="permlab_sdcardRead" product="nosdcard">តេស្តការបើកមើល ដើម្បីការពារការផ្ទុកឯកសារ </string>
+    
+    <string name="permlab_sdcardRead" product="default">តេស្តការបើកមើល ដើម្បីការពារការផ្ទុកឯកសារ </string>
+    
+    <string name="permdesc_sdcardRead" product="nosdcard">អនុញ្ញាតឲ្យកម្មវិធីអាចធ្វើតេស្តការអនុញ្ញាតសម្រាប់ការផ្ទុក USB ដែលនឹងមានក្នុងឧបករណ៍អនាគត ។</string>
+    
+    <string name="permdesc_sdcardRead" product="default">អនុញ្ញាតឲ្យកម្មវិធីអាំចតេស្តការអនុញ្ញាតសម្រាប់កាត SD ដែលមាននឹងមាននៅក្នុងឧបករណ៍អនាគត ។</string>
+
+    
+    <string name="permlab_sdcardWrite" product="nosdcard">កែសម្រួល លុបចោលនូវមាតិការឧបករណ៍ USB របស់អ្នក </string>
+    
+    <string name="permlab_sdcardWrite" product="default">កែសម្រួល លុបចោលនូវមាតិការកាត SD របស់អ្នក</string>
+    
+    <string name="permdesc_sdcardWrite" product="nosdcard">អនុញ្ញាតឲ្យកម្មវិធីអាចសរសេរទៅក្នុងឧបករណ៍ USB ។</string>
+    
+    <string name="permdesc_sdcardWrite" product="default">អនុញ្ញាតឲ្យកម្មវិធីអាចសរសេរទៅក្នុងកាត SD ។</string>
+
+    
+    <string name="permlab_mediaStorageWrite" product="default">កែសម្រួល/លុបមាតិការមេឌាខាងក្នុង</string>
+    
+    <string name="permdesc_mediaStorageWrite" product="default">អនុញ្ញាតឲ្យកម្មវិធីអាចកែសម្រួលមាតិការនៃមេឌាខាងក្នុង ។</string>
+
+    
+    <string name="permlab_sdcardAccessAll">ចូលដល់កន្លែងផ្ទុកខាងក្រៅរបស់អ្នកប្រើទាំងអស់ </string>
+    
+    <string name="permdesc_sdcardAccessAll">អនុញ្ញាតឲ្យកម្មវិធីអាចចូលដល់កន្លែងផ្ទុកខាងក្រៅរបស់អ្នកប្រើទាំងអស់ ។</string>
+
+    
+    <string name="permlab_cache_filesystem">ចូលបើកមើលប្រព័ន្ធឯកសារខេច </string>
+    
+    <string name="permdesc_cache_filesystem">អនុញ្ញាតឲ្យកម្មវិធីអាចអាន និងសរសេរប្រព័ន្ធឯកសារខេច ។</string>
+
+    
+    <string name="permlab_use_sip">ធ្វើ/ទទួលការហៅពីង៊ិនថឺណិត </string>
+    
+    <string name="permdesc_use_sip">អនុញ្ញាតឲ្យកម្មវិធីអាចមើលឃើញសេវាកម្ម SIP ដើម្បីធ្វើ/ទទួលការហៅពីអ៊ិនថឺណិត ។</string>
+
+    
+    <string name="permlab_readNetworkUsageHistory">អានប្រវត្តិការប្រើបណ្តាញ</string>
+    
+    <string name="permdesc_readNetworkUsageHistory">អនុញ្ញាតឲ្យកម្មវិធីអាចអានប្រវត្តិការប្រប្រាស់បណ្តាញ សម្រាប់បណ្តាញ និងកម្មវិធីណាមួយ ។</string>
+
+    
+    <string name="permlab_manageNetworkPolicy">ចាត់ចែងគោលនយោបាយបណ្តាញ</string>
+    
+    <string name="permdesc_manageNetworkPolicy">អនុញ្ញាតឲ្យកម្មវិធីអាចចាត់ចែងគោលនយោបាយបណ្តាញ និងកំណត់ពីបញ្ញត្តិជាក់លាក់របស់កម្មវិធី ។</string>
+
+    
+    <string name="permlab_modifyNetworkAccounting">កែសម្រួល គណនីការប្រើប្រាស់បណ្តាញ</string>
+    
+    <string name="permdesc_modifyNetworkAccounting">អនុញ្ញាតឲ្យកម្មវិធីអាចកែសម្រួលវិធីប្រើបណ្តាញ ដែលជាគណនីយភាពប្រឆាំងនឹងកម្មវិធី ។ មិនមែនសម្រាប់ប្រើប្រាស់ដោយកម្មវិធីធម្មាតឡើយ ។</string>
+
+    
+
+    
+    <string name="policylab_limitPassword">សិតបញ្ញត្តិពាក្យសម្ងាត់</string>
+    
+    <string name="policydesc_limitPassword">គ្រប់គ្រងប្រវែង និងតួអក្សរដែលអនុញ្ញាតឲ្យប្រើក្នុងការដោះសោអេក្រង់ ។</string>
+    
+    <string name="policylab_watchLogin">ត្រួតពិនិត្យការប៉ងដោះសោអេក្រង់​ </string>
+    
+    <string name="policydesc_watchLogin" product="tablet">ត្រួតពិនិត្យចំនួននៃការវាយពាក្យសម្ងាត់ខុស ពេលដោះសោអេក្រង់ និងចាក់សោកូនកុំព្យូទ័រ ឬលុបចោលទាំងអស់នូវទិន្នន័យរបស់កូនកុំព្យូ\ទ័រ ប្រសិនបើគេវាយពាក្យសម្ងាត់ខុសច្រើនពេក ។</string>
+    
+    <string name="policydesc_watchLogin" product="default">ត្រួតពិនិត្យចំនួននៃការវាយពាក្យសម្ងាត់ខុស ពេលដោះសោអេក្រង់ និងចាក់សោទូរស័ព្ទ ឬលុបចោលទាំងអស់នូវទិន្នន័យរបស់ទូរស័\ព្ទ ប្រសិនបើគេវាយពាក្យសម្ងាត់ខុសច្រើនពេក ។</string>
+    
+    <string name="policylab_resetPassword">ប្តូរពាក្យសម្ងាត់ដោះសោអេក្រង់</string>
+    
+    <string name="policydesc_resetPassword">ប្តូរពាក្យសម្ងាត់ដោះសោអេក្រង់ ។</string>
+    
+    <string name="policylab_forceLock">ចាក់សោអេក្រង់</string>
+    
+    <string name="policydesc_forceLock">គ្រប់គ្រងពីរបៀប និងពេលចាក់សោអេក្រង់ ។</string>
+    
+    <string name="policylab_wipeData">លុបទិន្នន័យចោលទាំងអស់</string>
+    
+    <string name="policydesc_wipeData" product="tablet">លុបទិន្នន័យរបស់កូនកុំព្យូ\ទ័រ ដោយគ្មានការព្រមាន ដោយការធ្វើការសិតទិន្នន័យពីរោងចក្រឡើងវិញ ។</string>
+    
+    <string name="policydesc_wipeData" product="default">លុបទិន្នន័យរបស់ទូរស័\ព្ទ ដោយគ្មានការព្រមាន ដោយការធ្វើការសិតទិន្នន័យពីរោងចក្រឡើងវិញ ។</string>
+    <string name="policylab_setGlobalProxy">សិតសិទ្ធិរបស់ឧបករណ៍ទូទៅ</string>
+    
+    <string name="policydesc_setGlobalProxy">សិតសិទ្ទិរបស់ឧបករណ៍ទូទៅ ដែលត្រូវប្រើ ខណៈគោលនយោបាលមានភាពសកម្ម ។ មានតែការសិតលើឧបករណ៍រដ្ឋបាលទីមួយទេ ដែលមានប្រសិទ្ធិភាពលើសិទ្ធិទូទៅ ។</string>
+    
+    <string name="policylab_expirePassword">សិតការផុតកំណតើលើពាក្យសម្ងាត់ចាក់សោអេក្រង់</string>
+    
+    <string name="policydesc_expirePassword">គ្រប់គ្រងពីរបៀបដែលពាក្យសម្ងាត់ចាក់សោអេក្រង់ ត្រូវប្តូរញឹកញាប់ប៉ុណ្ណា ។</string>
+    
+    <string name="policylab_encryptedStorage">សិតការបំផ្លែងកូដលើការផ្ទុកឯកសារ​</string>
+    
+    <string name="policydesc_encryptedStorage">តម្រូវឲ្យទិន្នន័យរបស់កម្មវិធីដែលរក្សាទុក ត្រូវដាក់កូដ ។</string>
+    
+    <string name="policylab_disableCamera">ធ្វើឲ្យកាមេរ៉ាអសកម្ម</string>
+    
+    <string name="policydesc_disableCamera">ការពារការប្រើឧបការណ៍កាមេរ៉ាទាំងអស់ ។</string>
+    
+    <string name="policylab_disableKeyguardFeatures">បង្ហាញរូបសណ្ឋានក្នុងប៊ូតុងគ្រប់គ្រង</string>
+    
+    <string name="policydesc_disableKeyguardFeatures">បង្ការមិនប្រើនូវរូបសណ្ឋានខ្លះក្នុងប៊ូតុងគ្រប់គ្រង ។</string>
+
+     <skip/>
+    
+    <string-array name="phoneTypes">
+        <item>ផ្ទះ</item>
+        <item>ចល័ត</item>
+        <item>ការងារ</item>
+        <item>ហ្វាក់ការងារ</item>
+        <item>ហ្វាក់ផ្ទះ</item>
+        <item>ភេជ័រ</item>
+        <item>ផ្សេងៗ</item>
+        <item>តាមចំណូលចិត្ត</item>
+    </string-array>
+
+     <skip/>
+    
+    <string-array name="emailAddressTypes">
+        <item>ផ្ទះ</item>
+        <item>ការងារ</item>
+        <item>ផ្សេងៗ</item>
+        <item>តាមចំណូលចិត្ត</item>
+    </string-array>
+
+     <skip/>
+    
+    <string-array name="postalAddressTypes">
+        <item>ផ្ទះ</item>
+        <item>ការងារ</item>
+        <item>ផ្សេងៗ</item>
+        <item>តាមចំណូលចិត្ត</item>
+    </string-array>
+
+     <skip/>
+    
+    <string-array name="imAddressTypes">
+        <item>ផ្ទះ</item>
+        <item>ការងារ</item>
+        <item>ផ្សេងៗ</item>
+        <item>តាមចំណូលចិត្ត</item>
+    </string-array>
+
+     <skip/>
+    
+    <string-array name="organizationTypes">
+        <item>ការងារ</item>
+        <item>ផ្សេងៗ</item>
+        <item>តាមចំណូលចិត្ត</item>
+    </string-array>
+
+     <skip/>
+    
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+
+    
+    <string name="phoneTypeCustom">តាមចំណូលចិត្ត</string>
+    
+    <string name="phoneTypeHome">ផ្ទះ</string>
+    
+    <string name="phoneTypeMobile">ចល័ត</string>
+    
+    <string name="phoneTypeWork">ការងារ</string>
+    
+    <string name="phoneTypeFaxWork">ហ្វាក់ការងារ</string>
+    
+    <string name="phoneTypeFaxHome">ហ្វាក់ផ្ទះ</string>
+    
+    <string name="phoneTypePager">ភេជ័រ</string>
+    
+    <string name="phoneTypeOther">ផ្សេងៗ</string>
+    
+    <string name="phoneTypeCallback">ហៅត្រឡប់វិញ</string>
+    
+    <string name="phoneTypeCar">ឡាន</string>
+    
+    <string name="phoneTypeCompanyMain">លេខចម្បងរបស់ក្រុមហ៊ុន</string>
+    
+    <string name="phoneTypeIsdn">ISDN</string>
+    
+    <string name="phoneTypeMain">ចម្បង</string>
+    
+    <string name="phoneTypeOtherFax">ហ្វាក់ផ្សេងទៀត</string>
+    
+    <string name="phoneTypeRadio">វិទ្យុ</string>
+    
+    <string name="phoneTypeTelex">ទូរលេខ</string>
+    
+    <string name="phoneTypeTtyTdd">ទូរស័ព្ទសម្រាប់មនុស្សខ្វាក់ គថ្លង់</string>
+    
+    <string name="phoneTypeWorkMobile">ទូរស័ព្ទចល័តកន្លែងធ្វើការ</string>
+    
+    <string name="phoneTypeWorkPager">ភេជ័រកន្លែងធ្វើការ</string>
+    
+    <string name="phoneTypeAssistant">ជំនួយការ</string>
+    
+    <string name="phoneTypeMms">MMS</string>
+
+    
+    <string name="eventTypeCustom">តាមចំណូលចិត្ត</string>
+    
+    <string name="eventTypeBirthday">ថ្ងៃកំណើត</string>
+    
+    <string name="eventTypeAnniversary">ប្រចាំឆ្នាំ</string>
+    
+    <string name="eventTypeOther">ផ្សេងៗ</string>
+
+    
+    <string name="emailTypeCustom">តាមចំណូលចិត្ត</string>
+    
+    <string name="emailTypeHome">ផ្ទះ</string>
+    
+    <string name="emailTypeWork">ការងារ</string>
+    
+    <string name="emailTypeOther">ផ្សេងៗ</string>
+    
+    <string name="emailTypeMobile">ចល័ត</string>
+
+    
+    <string name="postalTypeCustom">តាមចំណូលចិត្ត</string>
+    
+    <string name="postalTypeHome">ផ្ទះ</string>
+    
+    <string name="postalTypeWork">ការងារ</string>
+    
+    <string name="postalTypeOther">ផ្សេងៗ</string>
+
+    
+    <string name="imTypeCustom">តាមចំណូលចិត្ត</string>
+    
+    <string name="imTypeHome">ផ្ទះ</string>
+    
+    <string name="imTypeWork">ការងារ</string>
+    
+    <string name="imTypeOther">ផ្សេងៗ</string>
+
+    
+    <string name="imProtocolCustom">តាមចំណូលចិត្ត</string>
+    
+    <string name="imProtocolAim">AIM</string>
+    
+    <string name="imProtocolMsn">Windows Live</string>
+    
+    <string name="imProtocolYahoo">Yahoo</string>
+    
+    <string name="imProtocolSkype">Skype</string>
+    
+    <string name="imProtocolQq">QQ</string>
+    
+    <string name="imProtocolGoogleTalk">Google Talk</string>
+    
+    <string name="imProtocolIcq">ICQ</string>
+    
+    <string name="imProtocolJabber">Jabber</string>
+    
+    <string name="imProtocolNetMeeting">NetMeeting</string>
+
+    
+    <string name="orgTypeWork">ការងារ</string>
+    
+    <string name="orgTypeOther">ផ្សេងៗ</string>
+    
+    <string name="orgTypeCustom">តាមចំណូលចិត្ត</string>
+
+    
+    <string name="relationTypeCustom">តាមចំណូលចិត្ត</string>
+    
+    <string name="relationTypeAssistant">ជំនួយការ</string>
+    
+    <string name="relationTypeBrother">បងប្អូនប្រុស</string>
+    
+    <string name="relationTypeChild">កូន</string>
+    
+    <string name="relationTypeDomesticPartner">ដៃគូក្នុងផ្ទះ</string>
+    
+    <string name="relationTypeFather">ឳពុក</string>
+    
+    <string name="relationTypeFriend">មិត្តភ័ក្តិ</string>
+    
+    <string name="relationTypeManager">អ្នកគ្រប់គ្រង</string>
+    
+    <string name="relationTypeMother">ម្តាយ</string>
+    
+    <string name="relationTypeParent">ឳពុកម្តាយ</string>
+    
+    <string name="relationTypePartner">ដៃគូ</string>
+    
+    <string name="relationTypeReferredBy">បញ្ជូនមកដោយ</string>
+    
+    <string name="relationTypeRelative">សាច់ញាតិ</string>
+    
+    <string name="relationTypeSister">បងប្អូនស្រី</string>
+    
+    <string name="relationTypeSpouse">ប្តីប្រពន្ធ</string>
+
+    
+    <string name="sipAddressTypeCustom">តាមចំណូលចិត្ត</string>
+    
+    <string name="sipAddressTypeHome">ផ្ទះ</string>
+    
+    <string name="sipAddressTypeWork">ការងារ</string>
+    
+    <string name="sipAddressTypeOther">ផ្សេងៗ</string>
+
+    
+    <string name="keyguard_password_enter_pin_code">វាយកូដ PIN</string>
+
+    
+    <string name="keyguard_password_enter_puk_code">វាយកូដ PUK និងកូដថ្មីរបស់ PIN</string>
+
+    
+    <string name="keyguard_password_enter_puk_prompt">កូដ PUK</string>
+    
+    <string name="keyguard_password_enter_pin_prompt">កូដថ្មីរបស់ PIN</string>
+
+    
+    <string name="keyguard_password_entry_touch_hint"><font size="17">យកម្រាមដៃប៉ះដើម្បីវាយពាក្យសម្ងាត់</font></string>
+
+    
+    <string name="keyguard_password_enter_password_code">វាយពាក្យសម្ងាត់ដើម្បីដោះសោ</string>
+
+    
+    <string name="keyguard_password_enter_pin_password_code">វាយ PIN ដើម្បីដោះសោ</string>
+
+    
+    <string name="keyguard_password_wrong_pin_code">កូដ PIN ដែលមិនត្រឹមត្រូវ ។</string>
+
+    
+    <string name="keyguard_label_text">ដើម្បីដោះសោ ចុចលើមេនុយ រួចចុចលេខ 0 ។</string>
+
+    
+    <string name="emergency_call_dialog_number_for_display">លេខក្នុងគ្រាអាសន្ន</string>
+
+     <skip/>
+
+    
+    <string name="lockscreen_carrier_default">មិនមានសេវា ។</string>
+
+    
+    <string name="lockscreen_screen_locked">អេក្រង់ជាប់សោ ។</string>
+
+    
+    <string name="lockscreen_instructions_when_pattern_enabled">ចុចលើមេនុយ ដើម្បីដោះសោ ឬហៅក្នុងគ្រាអាសន្ន ។</string>
+
+    
+    <string name="lockscreen_instructions_when_pattern_disabled">ចុចលើមេនុយ ដើម្បីដោះសោ</string>
+
+    
+    <string name="lockscreen_pattern_instructions">គូរគំរូ ដើម្បីដោះសោ</string>
+    
+    <string name="lockscreen_emergency_call">ការហៅក្នុងគ្រាអាសន្ន</string>
+    
+    <string name="lockscreen_return_to_call">ត្រឡប់មកកាន់ការហៅវិញ</string>
+    
+    <string name="lockscreen_pattern_correct">ត្រឹមត្រូវ!</string>
+    
+    <string name="lockscreen_pattern_wrong">សាកល្បងម្តងទៀត</string>
+    
+    <string name="lockscreen_password_wrong">សាកល្បងម្តងទៀត</string>
+    
+    <string name="faceunlock_multiple_failures">ការព្យាយាមដោះសោអេក្រង់បានលើសពីកម្រិតអតិបរមា</string>
+
+    
+    <string name="lockscreen_plugged_in">កំពុងសាកថ្ម <xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g></string>
+    
+    <string name="lockscreen_charged">សាក</string>
+    
+    <string name="lockscreen_battery_short"><xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g></string>
+
+    
+    <string name="lockscreen_low_battery">ភ្ជាប់ឆ្នាំងសាករបស់អ្នក ។</string>
+
+    
+    <string name="lockscreen_missing_sim_message_short">មិនមាន SIM កាត</string>
+    
+    <string name="lockscreen_missing_sim_message" product="tablet">មិនមាន SIM នៅក្នុងកូនកុំព្យូទ័រទេ ។</string>
+    
+    <string name="lockscreen_missing_sim_message" product="default">មិនមាន SIM នៅក្នុងទូរស័ព្ទទេ ។</string>
+    
+    <string name="lockscreen_missing_sim_instructions">ញាត់ SIM កាតចូល ។</string>
+    
+    <string name="lockscreen_missing_sim_instructions_long">SIM កាតបាត់ ឬមិនអាចអានបាន ។ ញាត់ SIM ចូល ។</string>
+    
+    <string name="lockscreen_permanent_disabled_sim_message_short">SIM កាតដែលខូច ។</string>
+    
+    <string name="lockscreen_permanent_disabled_sim_instructions">SIM កាតរបស់អ្នក ត្រូវបានធ្វើឲ្យអសកម្មជាអចិន្ត្រយ៍ ។\n សូមទំនាក់ទំនងជាមួយនឹងអ្នកផ្តល់សេវាកម្មគ្មានខ្សែរបស់អ្នក ដើម្បីសុំ SIM កាតថ្មី ។</string>
+
+    
+    <string name="lockscreen_transport_prev_description">ប៊ូតុង ដានពីមុន</string>
+    
+    <string name="lockscreen_transport_next_description">ប៊ូតុង ដានបន្ទាប់</string>
+    
+    <string name="lockscreen_transport_pause_description">ប៊ូតុង ឈប់បន្តិច</string>
+    
+    <string name="lockscreen_transport_play_description">ប៊ូតុងលេង</string>
+    
+    <string name="lockscreen_transport_stop_description">ប៊ូតុង ឈប់</string>
+
+    
+    <string name="emergency_calls_only" msgid="2485604591272668370">សម្រាប់តែហៅក្នុងគ្រាអាសន្ន</string>
+
+    
+    <string name="lockscreen_network_locked_message">បណ្តាញបានជាប់សោ</string>
+
+
+    
+    <string name="lockscreen_sim_puk_locked_message">SIM កាតជាប់សោ PUK ។</string>
+    
+    <string name="lockscreen_sim_puk_locked_instructions">សូមអានមគ្គុទ្ទេសក៍សម្រាប់អ្នកប្រើ ឬទំនាក់ទំនងជាមួយនឹងផ្នែកថែទាំអតិថិជន ។</string>
+
+    
+    <string name="lockscreen_sim_locked_message">SIM ការជាប់សោ ។</string>
+
+    
+    <string name="lockscreen_sim_unlock_progress_dialog_message">ដោះសោ SIM កាត\u2026</string>
+
+    
+    <string name="lockscreen_too_many_failed_attempts_dialog_message">អ្នកបានគូរគំរូដោះសោរបស់អ្នកខុសចំនួន <xliff:g id="number">%d</xliff:g> ដង ។ \n\nសាកល្បងម្តងទៀតក្នុងពេល <xliff:g id="number">%d</xliff:g> វិនាទី ។</string>
+
+    
+    <string name="lockscreen_too_many_failed_password_attempts_dialog_message">អ្នកបានវាយពាក្យសម្ងាត់របស់អ្នកខុសចំនួន <xliff:g id="number">%d</xliff:g> ដង ។ \n\nសាកល្បងម្តងទៀតក្នុងពេល <xliff:g id="number">%d</xliff:g> វិនាទី ។</string>
+
+    
+    <string name="lockscreen_too_many_failed_pin_attempts_dialog_message">អ្នកបានវាយ PIN របស់អ្នកខុសចំនួន <xliff:g id="number">%d</xliff:g> ដង ។ \n\nសាកល្បងម្តងទៀតក្នុងពេល <xliff:g id="number">%d</xliff:g> វិនាទី ។</string>
+
+    
+    <string name="lockscreen_failed_attempts_almost_glogin" product="tablet">អ្នកបានគូរគំរូដោះសោរបស់អ្នកខុសចំនួន <xliff:g id="number">%d</xliff:g> ដង ។ បន្ទាប់ពី <xliff:g id="number">%d</xliff:g> ការប៉ុនប៉ងច្រើនដោយបរាជ័យ អ្នកនឹងត្រូវបានសួរឲ្យដោះសោកូនកុំព្យូទ័ររបស់អ្នក ដោយការប្រើការចុះឈ្មោះចូលក្នុង Google ។\n\n សាកល្បងម្តងទៀតក្នុងពេល <xliff:g id="number">%d</xliff:g> វិនាទី ។</string>
+
+    
+    <string name="lockscreen_failed_attempts_almost_glogin" product="default">អ្នកបានគូរគំរូដោះសោរបស់អ្នកខុសចំនួន <xliff:g id="number">%d</xliff:g> ដង ។ បន្ទាប់ពី <xliff:g id="number">%d</xliff:g> ការប៉ុនប៉ងច្រើនដោយបរាជ័យ អ្នកនឹងត្រូវបានសួរឲ្យដោះសោទូរស័ព្ទរបស់អ្នក ដោយការប្រើការចុះឈ្មោះចូលក្នុង Google ។\n\n សាកល្បងម្តងទៀតក្នុងពេល <xliff:g id="number">%d</xliff:g> វិនាទី ។</string>
+
+    
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="tablet">អ្នកបានប៉ុនប៉ងដោះសោកូនកុំព្យូទ័រខុសចំនួន <xliff:g id="number">%d</xliff:g> ដង ។ បន្ទាប់ពី <xliff:g id="number">%d</xliff:g> ការប៉ុនប៉ងច្រើនដង ដោយបរាជ័យ កូនកុំព្យូទ័រនឹងត្រូវសិតឡើងវិញទៅរកភាពដើមពីរោងចក្រ ហើយគ្រប់ទិន្នន័យរបស់អ្នកប្រើនឹងត្រូវបាត់បត់ ។</string>
+
+    
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="default">អ្នកបានប៉ុនប៉ុងដោះសោទូរស័ព្ទខុសចំនួន <xliff:g id="number">%d</xliff:g> ដង ។ បន្ទាប់ពី <xliff:g id="number">%d</xliff:g> ការប៉ុនប៉ងច្រើនដង ដោយបរាជ័យ ទូរស័ព្ទនឹងត្រូវសិតឡើងវិញទៅរកភាពដើមពីរោងចក្រ ហើយគ្រប់ទិន្នន័យរបស់អ្នកប្រើនឹងត្រូវបាត់បត់ ។</string>
+
+    
+    <string name="lockscreen_failed_attempts_now_wiping" product="tablet">អ្នកបានប៉ុនប៉ងដោះសោកូនកុំព្យូទ័រខុសចំនួន <xliff:g id="number">%d</xliff:g> ដង ។ ឥឡូវកូនកុំព្យូទ័រនឹងត្រូវបានសិតឡើងវិញ ទៅរកភាពដើមពីរោងចក្រ ។</string>
+
+    
+    <string name="lockscreen_failed_attempts_now_wiping" product="default">អ្នកបានប៉ុនប៉ងដោះសោទូរស័ព្ទខុសចំនួន <xliff:g id="number">%d</xliff:g> ដង ។ ឥឡូវទូរស័ព្ទនឹងត្រូវបានសិតឡើងវិញ ទៅរកភាពដើមពីរោងចក្រ ។</string>
+
+    
+    <string name="lockscreen_too_many_failed_attempts_countdown">សាកល្បងម្តងទៀតក្នុងរវាង  <xliff:g id="number">%d</xliff:g> វិនាទី ។ </string>
+
+    
+    <string name="lockscreen_forgot_pattern_button_text">ភ្លេចគំរូមែនទេ?</string>
+
+    
+    <string name="lockscreen_glogin_forgot_pattern">គណនីមិនជាប់សោទេ</string>
+    
+    <string name="lockscreen_glogin_too_many_attempts">សាកល្បងគូគំរូច្រើនពេក</string>
+    
+    <string name="lockscreen_glogin_instructions">ដើម្បីដោះសោ សូមចុះឈ្មោះចូលដោយប្រើគណនី Google របស់អ្នក ។</string>
+    
+    <string name="lockscreen_glogin_username_hint">ឈ្មោះអ្នកប្រើ (អ៊ីម៉េល)</string>
+    
+    <string name="lockscreen_glogin_password_hint">ពាក្យសម្ងាត់</string>
+    
+    <string name="lockscreen_glogin_submit_button">ចុះហត្ថលេខាចូល</string>
+    
+    <string name="lockscreen_glogin_invalid_input">ឈ្មោះអ្នកប្រើ និងពាក្យសម្ងាត់មិនមានសុពលភាព ។</string>
+    
+    <string name="lockscreen_glogin_account_recovery_hint">ភ្លេចឈ្មោះអ្នកប្រើ និងពាក្យសម្ងាត់របស់អ្នកមែនទេ\?\nទ្សនា <b>google.com/accounts/recovery</b> ។</string>
+
+    
+    <string name="lockscreen_glogin_checking_password">កំពុងត្រួតពិនិត្យការរៀបចំម៉ាស៊ីនបម្រើចូល \u2026</string>
+    
+    <string name="lockscreen_unlock_label">ដោះសោ</string>
+    
+    <string name="lockscreen_sound_on_label">បើកសម្លេង</string>
+    
+    <string name="lockscreen_sound_off_label">បិទសម្លេង</string>
+
+    
+    <string name="lockscreen_access_pattern_start">បានចាប់ផ្តើមគំរូ</string>
+    
+    <string name="lockscreen_access_pattern_cleared">បានសំអាតគំរូ</string>
+    
+    <string name="lockscreen_access_pattern_cell_added">បានបន្ថែមទូរស័ព្ទ</string>
+    
+    <string name="lockscreen_access_pattern_detected">បានបញ្ចប់គំរូ</string>
+
+    
+    <string name="keyguard_accessibility_add_widget">បន្ថែមវីដជេត ។</string>
+    
+    <string name="keyguard_accessibility_widget_empty_slot">ទទេ</string>
+    
+    <string name="keyguard_accessibility_unlock_area_expanded">កន្លែងមិនជាប់សោត្រូវបានពង្រីក ។</string>
+    
+    <string name="keyguard_accessibility_unlock_area_collapsed">កន្លែងមិនជាប់សោត្រូវរលំ ។</string>
+    
+    <string name="keyguard_accessibility_widget"><xliff:g id="widget_index">%1$s</xliff:g> វីដជេដ ។</string>
+    
+    <string name="keyguard_accessibility_user_selector">ការជ្រើសរើសអ្នកប្រើ</string>
+    
+    <string name="keyguard_accessibility_status">ស្ថានភាព</string>
+    
+    <string name="keyguard_accessibility_camera">កាមេរ៉ា</string>
+    
+    <string name="keygaurd_accessibility_media_controls">គ្រប់គ្រងមេឌា</string>
+    
+    <string name="keyguard_accessibility_widget_reorder_start">ការកុម្មង់វីដជេដឡើងវិញបានចាប់ផ្តើម ។</string>
+    
+    <string name="keyguard_accessibility_widget_reorder_end">ការកុម្មង់វីដជេដឡើងវិញបានបញ្ចប់ ។</string>
+    
+    <string name="keyguard_accessibility_widget_deleted">វីដជេដ <xliff:g id="widget_index">%1$s</xliff:g> បានលុបចោល ។</string>
+    
+    <string name="keyguard_accessibility_expand_lock_area">ពង្រីកបរិវេណមិនជាប់សោ ។</string>
+    
+    <string name="keyguard_accessibility_slide_unlock">រំអិលដើម្បីដោះសោ ។</string>
+    
+    <string name="keyguard_accessibility_pattern_unlock">លំនាំដោះសោ ។</string>
+    
+    <string name="keyguard_accessibility_face_unlock">មុខដោះសោ ។</string>
+    
+    <string name="keyguard_accessibility_pin_unlock">ម្ជុលដោះសោ ។</string>
+    
+    <string name="keyguard_accessibility_password_unlock">ពាក្យសម្ងាត់ដោះសោ ។</string>
+    
+    <string name="keyguard_accessibility_pattern_area">លំនាំបរិវេណ ។</string>
+    
+    <string name="keyguard_accessibility_slide_area">រំអិលបរិវេណ ។</string>
+
+    <skip/>
+    
+    <string name="password_keyboard_label_symbol_key">\?123</string>
+    
+    <string name="password_keyboard_label_alpha_key">ABC</string>
+    
+    <string name="password_keyboard_label_alt_key">ALT</string>
+
+    
+    <string name="granularity_label_character">តួអក្សរ</string>
+    
+    <string name="granularity_label_word">ពាក្យ</string>
+    
+    <string name="granularity_label_link">ភ្ជាប់</string>
+    
+    <string name="granularity_label_line">ខ្សែ</string>
+
+    
+    <string name="hour_ampm">"<xliff:g id="hour" example="3">%-l</xliff:g><xliff:g id="ampm" example="PM">%p</xliff:g>"</string>
+
+    
+    <string name="hour_cap_ampm">"<xliff:g id="hour" example="3">%-l</xliff:g><xliff:g id="ampm" example="PM">%p</xliff:g>"</string>
+
+    
+    <string name="factorytest_failed">ការតេស្តរបស់រោងចក្របរាជ័យ</string>
+    
+    <string name="factorytest_not_system">សកម្មភាពតេស្តរបស់រោងចក្រ ប្រើបានតែជាមួយកញ្ចប់ដែលបានតម្លើងក្នុង /system/app ។</string>
+    
+    <string name="factorytest_no_action">រកកញ្ចប់​ ដែលផ្តល់សកម្មភាពតេស្តពីរោងចក្រ មិនឃើញទេ ។</string>
+    
+    <string name="factorytest_reboot">ចាប់ផ្តើមសារជាថ្មី</string>
+
+    
+    <string name="web_user_agent" translatable="false">Mozilla/5.0 (Linux; U; <xliff:g id="x">Android %s</xliff:g>)
+        AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 <xliff:g id="mobile">%s</xliff:g>Safari/534.30</string>
+    
+    <string name="web_user_agent_target_content" translatable="false">"Mobile "</string>
+
+    
+    <string name="js_dialog_title">ទំព័រលេខទី \"<xliff:g id="title">%s</xliff:g>\" សរសេរថា ៖</string>
+    
+    <string name="js_dialog_title_default">JavaScript</string>
+    
+    <string name="js_dialog_before_unload">ចង់ចាកចេញពីទំព័រនេះមែនទេ?\n\n<xliff:g id="message">%s</xliff:g>\n\nយកម្រាមដៃប៉ះលើពាក្យ យល់ព្រម ដើម្បីបន្ត ឬ លើកលែង ដើម្បីបន្តស្ថិតនៅក្នុងទំព័រនេះជាបន្តទៅទៀត ។</string>
+
+    
+    <string name="save_password_label">បញ្ជាក់</string>
+
+    
+    <string name="double_tap_toast">គន្លឹះ ៖ ថេបស្ទួន ដើម្បីពង្រីក ឬបង្រួម ។</string>
+
+    
+    <string name="autofill_this_form">បំពេញដោយស្វ័យប្រវត្តិ</string>
+    
+    <string name="setup_autofill">តម្លើងការបំពេញដោយស្វ័យប្រវត្តិ</string>
+
+    
+    <string name="autofill_address_name_separator">អាទិភាព\u0020</string>
+    
+    <string name="autofill_address_summary_name_format">$1$2$3</string>
+
+    
+    <string name="autofill_address_summary_separator">,\u0020</string>
+    
+    <string name="autofill_address_summary_format">$1$2$3</string>
+
+    
+    <string name="autofill_attention_ignored_re">attention|attn</string>
+
+    
+    <string name="autofill_region_ignored_re">province|region|other<!-- es -->|provincia<!-- pt-BR, pt-PT -->|bairro|suburb</string>
+
+    
+    <string name="autofill_company_re">company|business|organization|organisation|department<!-- de-DE -->|firma|firmenname<!-- es -->|empresa<!-- fr-FR -->|societe|société<!-- it-IT -->|ragione.?sociale<!-- ja-JP -->|会社<!-- ru -->|название.?компании<!-- zh-CN -->|单位|公司</string>
+
+    
+    <string name="autofill_address_line_1_re">address.?line|address1|addr1|street<!-- de-DE -->|strasse|straße|hausnummer|housenumber<!-- en-GB -->|house.?name<!-- es -->|direccion|dirección<!-- fr-FR -->|adresse<!-- it-IT -->|indirizzo<!-- ja-JP -->|住所1<!-- pt-BR, pt-PT -->|morada|endereço<!-- ru -->|Адрес<!-- zh-CN -->|地址</string>
+
+    
+    <string name="autofill_address_line_1_label_re">address<!-- fr-FR -->|adresse<!-- it-IT -->|indirizzo<!-- ja-JP -->|住所<!-- zh-CN -->|地址</string>
+
+    
+    <string name="autofill_address_line_2_re">address.?line2|address2|addr2|street|suite|unit<!-- de-DE -->|adresszusatz|ergänzende.?angaben<!-- es -->|direccion2|colonia|adicional<!-- fr-FR -->|addresssuppl|complementnom|appartement<!-- it-IT -->|indirizzo2<!-- ja-JP -->|住所2</string>
+
+    
+    <string name="autofill_address_line_3_re">address.?line3|address3|addr3|street|line3<!-- es -->|municipio<!-- fr-FR -->|batiment|residence<!-- it-IT -->|indirizzo3</string>
+
+    
+    <string name="autofill_country_re">country|location<!-- ja-JP -->|国<!-- zh-CN -->|国家</string>
+
+    
+    <string name="autofill_zip_code_re">zip|postal|post code|pcode|^1z$<!-- de-DE -->|postleitzahl<!-- es -->|cp<!-- fr-FR -->|cdp<!-- it-IT -->|cap<!-- ja-JP -->|郵便番号<!-- pt-BR, pt-PT -->|codigo|codpos|cep<!-- ru -->|Почтовый.?Индекс<!--zh-CN -->|邮政编码|邮编<!-- zh-TW -->|郵遞區號</string>
+
+    
+    <string name="autofill_zip_4_re">zip|^-$|post2<!-- pt-BR, pt-PT -->|codpos2</string>
+
+    
+    <string name="autofill_city_re">city|town<!-- de-DE -->|ort|stadt<!-- en-AU -->|suburb<!-- es -->|ciudad|provincia|localidad|poblacion<!-- fr-FR -->|ville|commune<!-- it-IT -->|localita<!-- ja-JP -->|市区町村<!-- pt-BR, pt-PT -->|cidade<!-- ru -->|Город<!-- zh-CN -->|市<!-- zh-TW -->|分區</string>
+
+    
+    <string name="autofill_state_re">state|county|region|province<!-- de-DE -->|land<!-- en-UK -->|county|principality<!-- ja-JP -->|都道府県<!-- pt-BR, pt-PT -->|estado|provincia<!-- ru -->|область<!-- zh-CN -->|省<!-- zh-TW -->|地區</string>
+
+    
+    <string name="autofill_address_type_same_as_re">same as</string>
+
+    
+    <string name="autofill_address_type_use_my_re">use my</string>
+
+    
+    <string name="autofill_billing_designator_re">bill</string>
+
+    
+    <string name="autofill_shipping_designator_re">ship</string>
+
+    
+    <string name="autofill_email_re">e.?mail<!-- ja-JP -->|メールアドレス<!-- ru -->|Электронной.?Почты<!-- zh-CN -->|邮件|邮箱<!-- zh-TW -->|電郵地址</string>
+
+    
+    <string name="autofill_username_re">user.?name|user.?id<!-- de-DE -->|vollständiger.?name<!-- zh-CN -->|用户名</string>
+
+    
+    <string name="autofill_name_re">^name|full.?name|your.?name|customer.?name|firstandlastname<!-- es -->|nombre.*y.*apellidos<!-- fr-FR -->|^nom<!-- ja-JP -->|お名前|氏名<!-- pt-BR, pt-PT -->|^nome<!-- zh-CN -->|姓名</string>
+
+    
+    <string name="autofill_name_specific_re">^name<!-- fr-FR -->|^nom<!-- pt-BR, pt-PT -->|^nome</string>
+
+    
+
+    <string name="autofill_first_name_re">irst.*name|initials|fname|first$<!-- de-DE -->|vorname<!-- es -->|nombre<!-- fr-FR -->|forename|prénom|prenom<!-- ja-JP -->|名<!-- pt-BR, pt-PT -->|nome<!-- ru -->|Имя</string>
+
+    
+    <string name="autofill_middle_initial_re">middle.*initial|m\\.i\\.|mi$</string>
+
+    
+    <string name="autofill_middle_name_re">middle.*name|mname|middle$<!-- es -->|apellido.?materno|lastlastname</string>
+
+    
+    <string name="autofill_last_name_re">last.*name|lname|surname|last$<!-- de-DE -->|nachname<!-- es -->|apellidos<!-- fr-FR -->|famille|^nom<!-- it-IT -->|cognome<!-- ja-JP -->|姓<!-- pt-BR, pt-PT -->|morada|apelidos|surename|sobrenome<!-- ru -->|Фамилия</string>
+
+    
+    <string name="autofill_phone_re">phone<!-- de-DE -->|telefonnummer<!-- es -->|telefono|teléfono<!-- fr-FR -->|telfixe<!-- ja-JP -->|電話<!-- pt-BR, pt-PT -->|telefone|telemovel<!-- ru -->|телефон<!-- zh-CN -->|电话</string>
+
+    
+    <string name="autofill_area_code_re">area.*code|acode|area</string>
+
+    
+    <string name="autofill_phone_prefix_re">prefix<!-- fr-FR -->|preselection<!-- pt-BR, pt-PT -->|ddd</string>
+
+    
+    <string name="autofill_phone_suffix_re">suffix</string>
+
+    
+    <string name="autofill_phone_extension_re">ext<!-- pt-BR, pt-PT -->|ramal</string>
+
+    
+    <string name="autofill_name_on_card_re">card.?holder|name.?on.?card|ccname|owner<!-- de-DE -->|karteninhaber<!-- es -->|nombre.*tarjeta<!-- fr-FR -->|nom.*carte<!-- it-IT -->|nome.*cart<!-- ja-JP -->|名前<!-- ru -->|Имя.*карты<!-- zh-CN -->|信用卡开户名|开户名|持卡人姓名<!-- zh-TW -->|持卡人姓名</string>
+
+    
+    <string name="autofill_name_on_card_contextual_re">name</string>
+
+    
+    <string name="autofill_card_cvc_re">verification|card identification|cvn|security code|cvv code|cvc</string>
+
+    
+    <string name="autofill_card_number_re">number|card.?#|card.?no|ccnum<!-- de-DE -->|nummer<!-- es -->|credito|numero|número<!-- fr-FR -->|numéro<!-- ja-JP -->|カード番号<!-- ru -->|Номер.*карты<!-- zh-CN -->|信用卡号|信用卡号码<!-- zh-TW -->|信用卡卡號</string>
+
+    
+    <string name="autofill_expiration_month_re">expir|exp.*month|exp.*date|ccmonth<!-- de-DE -->|gueltig|gültig|monat<!-- es -->|fecha<!-- fr-FR -->|date.*exp<!-- it-IT -->|scadenza<!-- ja-JP -->|有効期限<!-- pt-BR, pt-PT -->|validade<!-- ru -->|Срок действия карты<!-- zh-CN -->|月</string>
+
+    
+    <string name="autofill_expiration_date_re">exp|^/|year<!-- de-DE -->|ablaufdatum|gueltig|gültig|yahr<!-- es -->|fecha<!-- it-IT -->|scadenza<!-- ja-JP -->|有効期限<!-- pt-BR, pt-PT -->|validade<!-- ru -->|Срок действия карты<!-- zh-CN -->|年|有效期</string>
+
+    
+    <string name="autofill_card_ignored_re">^card</string>
+
+    
+    <string name="autofill_fax_re">fax<!-- fr-FR -->|télécopie|telecopie<!-- ja-JP -->|ファックス<!-- ru -->|факс<!-- zh-CN -->|传真<!-- zh-TW -->|傳真</string>
+
+    
+    <string name="autofill_country_code_re">country.*code|ccode|_cc</string>
+
+    
+    <string name="autofill_area_code_notext_re">^\\($</string>
+
+    
+    <string name="autofill_phone_prefix_separator_re">^-$|^\\)$</string>
+
+    
+    <string name="autofill_phone_suffix_separator_re">^-$</string>
+
+    
+    <string name="autofill_province">ខេត្ត</string>
+
+    
+    <string name="autofill_postal_code">កូដប្រៃសនី</string>
+
+    
+    <string name="autofill_state">រដ្ឋ</string>
+
+    
+    <string name="autofill_zip_code">ហ្ស៊ិបកូដ</string>
+
+    
+    <string name="autofill_county">ស្រុក</string>
+
+    
+    <string name="autofill_island">កោះ</string>
+
+    
+    <string name="autofill_district">ស្រុក</string>
+
+    
+    <string name="autofill_department">នាយកដ្ឋាន</string>
+
+    
+    <string name="autofill_prefecture">ការិយាល័យខេត្ត</string>
+
+    
+    <string name="autofill_parish">វិហារស្រុក</string>
+
+    
+    <string name="autofill_area">តំបន់</string>
+
+    
+    <string name="autofill_emirate">តំបន់គ្រប់គ្រង</string>
+
+    
+    <string name="permlab_readHistoryBookmarks">អានការគូសចំណាំ និងប្រវត្តិវ៉ិបរបស់អ្នក </string>
+    
+    <string name="permdesc_readHistoryBookmarks">អនុញ្ញាតឲ្យកម្មវិធីអាចអានប្រវត្តិ URLs ទាំងអស់ដែលអ្នកបើកមើល និងការគូសចំណាំទាំងអស់របស់ប្រូ\ស័រ ។ ចំណាំ ៖ ការអនុញ្ញាតនេះ អាចមិនបានទទួលការយល់ព្រមពីប្រូស័ររបស់ភាគីទីបី ឬកម្មវិធីដទៃ ដែលមានសមត្ថភាពអាចបើកបើកមើលទំព័រវ៉ិប ។</string>
+    
+
+    <string name="permlab_writeHistoryBookmarks">សរសេរប្រវត្តិ និងការគូសចំណាំទំព័រវ៉ិប </string>
+    
+    <string name="permdesc_writeHistoryBookmarks" product="tablet">អនុញ្ញាតឲ្យកម្មវិធីអាចកែសម្រួលប្រវត្តិរបស់ប្រូស័\រ ឬការគូសចំណាំ ដែលបានរក្សាទុកក្នុងកូនកុំព្យូទ័ររបស់អ្នក ។  សកម្មភាពនេះ អាចអនុញ្ញាតឲ្យកម្មវិធីអាចលុប ឬកែសម្រួលទិន្នន័យរបស់ប្រូស័រចោល ។ ចំណាំ ៖ ការអនុញ្ញាតនេះ អាចមិនត្រូវបានការយល់ព្រមពីប្រូស័ររបស់ភាគីទីបី ឬកម្មវិធីដទៃ ដែលមានសមត្ថភាពបើកមើលវ៉ិប ។</string>
+    
+    <string name="permdesc_writeHistoryBookmarks" product="default">អនុញ្ញាតឲ្យកម្មវិធីអាចកែសម្រួលប្រវត្តិរបស់ប្រូស័\រ ឬការគូសចំណាំ ដែលបានរក្សាទុកក្នុងទូរស័ព្ទរបស់អ្នក ។  សកម្មភាពនេះ អាចអនុញ្ញាតឲ្យកម្មវិធីអាចលុប ឬកែសម្រួលទិន្នន័យរបស់ប្រូស័រចោល ។ ចំណាំ ៖ ការអនុញ្ញាតនេះ អាចមិនត្រូវបានការយល់ព្រមពីប្រូស័ររបស់ភាគីទីបី ឬកម្មវិធីដទៃ ដែលមានសមត្ថភាពបើកមើលវ៉ិប ។</string>
+
+    
+    <string name="permlab_setAlarm">សិតការពញ្ញាក់អារម្មណ៍</string>
+    
+    <string name="permdesc_setAlarm">អនុញ្ញាតឲ្យកម្មវិធីអាចសិតការពញ្ញាក់អារម្មណ៍ ក្នុងនាឡិកាពញ្ញាក់អារម្មណ៍ដែលបានតម្លើងក្នុងកម្មវិធី ។ កម្មវិធីនាឡិការពញ្ញាក់អារម្មណ៍ខ្លះ អាចមិនអនុវត្តលក្ខណៈនេះឡើយ ។</string>
+
+    
+    <string name="permlab_addVoicemail">បន្ថែមសំបុត្រសម្លេង</string>
+    
+    <string name="permdesc_addVoicemail">អនុញ្ញាតឲ្យកម្មវិធីអាចបន្ថែមសារទៅក្នុងប្រអប់សំបុត្រសម្លេងរបស់អ្នក ។</string>
+
+    
+    <string name="permlab_writeGeolocationPermissions">កែសម្រួលការអនុញ្ញាតទីតាំងភូមិសាស្រ្តប្រូស័រ </string>
+    
+    <string name="permdesc_writeGeolocationPermissions">អនុញ្ញាតឲ្យកម្មវិធីអាចកែសម្រួលការអនុញ្ញាតទីតាំងភូមិសាស្រ្តរបស់ប្រូស័\រ ។ កម្មវិធីដែលមិនល្អ អាចប្រើសកម្មភាពនេះ ដើម្បីអនុញាតចំពោះការផ្ញើព័ត៌មានទីតាំងនេះទៅទៅវ៉ិបសៃដោយបង្ខំ ។</string>
+
+    
+    <string name="permlab_packageVerificationAgent">ផ្ទៀងផ្ទាត់កញ្ចប់កម្មវិធី</string>
+    
+    <string name="permdesc_packageVerificationAgent">អនុញ្ញាតឲ្យកម្មវិធីដើម្បីផ្ទៀងផ្ទាត់កញ្ចប់ដែលអាចតម្លើងបាន ។</string>
+
+    
+    <string name="permlab_bindPackageVerifier">ចងទៅក្នុងអ្នកផ្ទៀងផ្ទាត់កញ្ចប់កម្មវិធី </string>
+    
+    <string name="permdesc_bindPackageVerifier">អនុញ្ញាតឲ្យអ្នកកាន់ ដើម្បីគូសចំណាំការស្នើសុំអ្នកផ្ទៀងផ្ទាត់កញ្ចប់ ។ មិនដែលត្រូវការដោយកម្មវិធីធម្មតាឡើយ ។</string>
+
+    
+    <string name="permlab_serialPort">បើកមើលស៊េរីរបស់រន្ធ</string>
+    
+    <string name="permdesc_serialPort">អនុញ្ញាតឲ្យអ្នកកាន់ អាចបើកមើលស៊េរីរបស់រន្ធ ដោយការប្រើអ្នកគ្រប់គ្រងស៊េរី API ។</string>
+
+    
+    <string name="permlab_accessContentProvidersExternally">ចូលបើកមើលមាតិការអ្នកផ្តល់ពីខាងក្រៅ </string>
+    
+    <string name="permdesc_accessContentProvidersExternally">អនុញ្ញាតឲ្យអ្នកកាន់ អាចបើកមើលមាតិការអ្នកផ្តល់ពីប្រអប់ ។ មិនដែលត្រូវការដោយកម្មវិធីធម្មតាឡើយ ។</string>
+    
+    <string name="permlab_updateLock">មិនលើកទឹកចិត្តចំពោះការធ្វើបច្ចុប្បន្នភាពឧបករណ៍ដោយស្វ័យប្រវត្តិឡើយ </string>
+    
+    <string name="permdesc_updateLock">អនុញ្ញាតឲ្យអ្នកកាន់ ផ្តល់នូវព័ត៌មានដល់ប្រព័ន្ធអំពីពេលវេលាល្អសម្រាប់ចាប់ផ្តើមដោយមិនបាច់ប្រាប់ដំណឹង ដើម្បីតម្លើងសមត្ថភាពឧបករណ៍ ។</string>
+
+    
+    <string name="save_password_message">តើអ្នកចង់ឲ្យប្រូស័រចងចាំពាក្យសម្ងាត់នេះទេ?</string>
+    
+    <string name="save_password_notnow">មិនមែនឥឡូវនេះទេ</string>
+    
+    <string name="save_password_remember">ចងចាំ</string>
+    
+    <string name="save_password_never">មិនដែល</string>
+
+    
+    <string name="open_permission_deny">អ្នកមិ\នផ្តល់ការអនុញ្ញាតឲ្យបើកទំព័រនេះឡើយ ។</string>
+
+    
+    <string name="text_copied">អត្ថបទបានចម្លងចុលទៅក្នុងបន្ទះឃ្លិបហើយ ។</string>
+
+    
+    <string name="more_item_label">បន្ថែមទៀត</string>
+    
+    <string name="prepend_shortcut_label">មេនុយ+</string>
+    
+    <string name="menu_space_shortcut_label">ឃ្លា</string>
+    
+    <string name="menu_enter_shortcut_label">ចូល</string>
+    
+    <string name="menu_delete_shortcut_label">លុបចោល</string>
+
+    <skip/>
+
+    
+    <string name="search_go">រាវរក</string>
+    
+    <string name="searchview_description_search">រាវរក</string>
+    
+    <string name="searchview_description_query">រាវរកសំណួរ</string>
+    
+    <string name="searchview_description_clear">សំអាតសំអួរ</string>
+    
+    <string name="searchview_description_submit">ដាក់សំណួរជូន</string>
+    
+    <string name="searchview_description_voice">រាវរកសម្លេង</string>
+
+    
+    <string name="enable_explore_by_touch_warning_title">ធ្វើឲ្យអ្នករុករកសកម្មដោយការយកម្រាមដៃប៉ះមែនទេ?</string>
+    
+    <string name="enable_explore_by_touch_warning_message" product="tablet"><xliff:g id="accessibility_service_name">%1$s</xliff:g> ត្រូវការធ្វើឲ្យអ្នករុករុកសកម្មដោយការយកម្រាមដៃប៉ះ ។ ពេលការរុករកដោយការប៉ះត្រូវបានបើកឡើង អ្នកអាចឮ ឬឃើញការពណ៌នាអំពីអ្វី\ដែលស្ថិតក្រោមម្រាមដៃរបស់អ្នក ឬធ្វើកាយវិការ ដើម្បីទំនាក់ទំនងជាមួយនឹងកូនកុំព្យូទ័រ ។</string>
+    
+    <string name="enable_explore_by_touch_warning_message" product="default"><xliff:g id="accessibility_service_name">%1$s</xliff:g> ត្រូវការធ្វើឲ្យការរុករុកសកម្មដោយការយកម្រាមដៃប៉ះ ។ ពេលការរុករកដោយការប៉ះត្រូវបានបើកឡើង អ្នកអាចឮ ឬឃើញការពណ៌នាអំពីអ្វី\ដែលស្ថិតក្រោមម្រាមដៃរបស់អ្នក ឬធ្វើកាយវិការ ដើម្បីទំនាក់ទំនងជាមួយនឹងទូរស័ព្ទ ។</string>
+
+    
+    <string name="oneMonthDurationPast">1 ខែកន្លងទៅ</string>
+    
+    <string name="beforeOneMonthDurationPast">មុនពេល 1 ខែកន្លងទៅ</string>
+
+    
+    <plurals name="num_seconds_ago">
+        <item quantity="one">1 វិនាទីកន្លងទៅ</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> វិនាទីកន្លងទៅ</item>
+    </plurals>
+
+    
+    <plurals name="num_minutes_ago">
+        <item quantity="one">1 នាទីកន្លងទៅ</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> នាទីកន្លងទៅ</item>
+    </plurals>
+
+    
+    <plurals name="num_hours_ago">
+        <item quantity="one">1 ម៉ោងកន្លងទៅ</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> ម៉ោងកន្លងទៅ</item>
+    </plurals>
+
+    
+    <plurals name="last_num_days">
+        <item quantity="other">ពី <xliff:g id="count">%d</xliff:g> ថ្ងៃមុន</item>
+    </plurals>
+
+    
+    <string name="last_month">ខែមុន</string>
+
+    
+    <string name="older">ចាស់ជាង</string>
+
+    
+    <plurals name="num_days_ago">
+        <item quantity="one">ម្សិលមិញ</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> ថ្ងៃកន្លងទៅ</item>
+    </plurals>
+
+    
+    <plurals name="in_num_seconds">
+        <item quantity="one">ក្នុង 1 វិនាទី</item>
+        <item quantity="other">ក្នុង <xliff:g id="count">%d</xliff:g> វិនាទី</item>
+    </plurals>
+
+    
+    <plurals name="in_num_minutes">
+        <item quantity="one">ក្នុង 1 នាទី</item>
+        <item quantity="other">ក្នុង <xliff:g id="count">%d</xliff:g> នាទី</item>
+    </plurals>
+
+    
+    <plurals name="in_num_hours">
+        <item quantity="one">ក្នុង 1 ម៉ោង</item>
+        <item quantity="other">ក្នុង <xliff:g id="count">%d</xliff:g> ម៉ោង</item>
+    </plurals>
+
+    
+    <plurals name="in_num_days">
+        <item quantity="one">ស្អែក</item>
+        <item quantity="other">ក្នុង <xliff:g id="count">%d</xliff:g> ថ្ងៃ</item>
+    </plurals>
+
+    
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="one">1 វិនាទីកន្លងទៅ</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> វិនាទីកន្លងទៅ</item>
+    </plurals>
+
+    
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="one">1 នាទីកន្លងទៅ</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> នាទីកន្លងទៅ</item>
+    </plurals>
+
+    
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="one">1 ម៉ោងកន្លងទៅ</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> ម៉ោងកន្លងទៅ</item>
+    </plurals>
+
+    
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="one">ម្សិលមិញ</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> ថ្ងៃកន្លងទៅ</item>
+    </plurals>
+
+    
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="one">ក្នុង 1 វិនាទី</item>
+        <item quantity="other">ក្នុង <xliff:g id="count">%d</xliff:g> វិនាទី</item>
+    </plurals>
+
+    
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="one">ក្នុង 1 នាទី</item>
+        <item quantity="other">ក្នុង <xliff:g id="count">%d</xliff:g> នាទី</item>
+    </plurals>
+
+    
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="one">ក្នុង 1 ម៉ោង</item>
+        <item quantity="other">ក្នុង <xliff:g id="count">%d</xliff:g> ម៉ោង</item>
+    </plurals>
+
+    
+    <plurals name="abbrev_in_num_days">
+        <item quantity="one">ស្អែក</item>
+        <item quantity="other">ក្នុង <xliff:g id="count">%d</xliff:g> ថ្ងៃ</item>
+    </plurals>
+
+    
+    <string name="preposition_for_date">ក្នុង <xliff:g id="date" example="May29">%s</xliff:g></string>
+    
+    <string name="preposition_for_time">ម៉ោង <xliff:g id="time" example="2:33am">%s</xliff:g></string>
+    
+    <string name="preposition_for_year">ក្នុង <xliff:g id="year" example="2003">%s</xliff:g></string>
+
+    
+    <string name="day">ថ្ងៃ</string>
+    
+    <string name="days">ថ្ងៃ</string>
+    
+    <string name="hour">ម៉ោង</string>
+    
+    <string name="hours">ម៉ោង</string>
+    
+    <string name="minute">នាទី</string>
+    
+    <string name="minutes">នាទី</string>
+    
+    <string name="second">វិនាទី</string>
+    
+    <string name="seconds">វិនាទី</string>
+    
+    <string name="week">សប្តាហ៍</string>
+    
+    <string name="weeks">សប្តាហ៍</string>
+    
+    <string name="year">ឆ្នាំ</string>
+    
+    <string name="years">ឆ្នាំ</string>
+
+
+    
+    <string name="VideoView_error_title">បញ្ហាវីដេអូ</string>
+    
+    <string name="VideoView_error_text_invalid_progressive_playback">វីដេអូនេះមិ\នមានសុពលភាព សម្រាប់ការផ្ទេរូបភាពមកកាន់ឧបករណ៍នេះបានទេ ។</string>
+    
+    <string name="VideoView_error_text_unknown">មិ\នអាចលេងវីដេអូនេះបានទេ ។</string>
+    
+    <string name="VideoView_error_button">យល់ព្រម</string>
+
+
+
+
+    
+    <string name="relative_time">"<xliff:g id="date" example="4hoursago">%1$s</xliff:g>, <xliff:g id="time" example="11:00am">%2$s</xliff:g>"</string>
+
+
+    
+    <string name="noon">"ថ្ងៃត្រង់"</string>
+    
+    <string name="Noon">"ថ្ងៃត្រង់"</string>
+    
+    <string name="midnight">"អធ្រាត្រ"</string>
+    
+    <string name="Midnight">"អធ្រាត្រ"</string>
+
+
+
+
+
+
+
+
+
+
+
+    
+    <string name="elapsed_time_short_format_mm_ss"><xliff:g id="minutes" example="1">%1$02d</xliff:g>:<xliff:g id="seconds" example="23">%2$02d</xliff:g></string>
+
+    
+    <string name="elapsed_time_short_format_h_mm_ss"><xliff:g id="hours" example="1">%1$d</xliff:g>:<xliff:g id="minutes" example="43">%2$02d</xliff:g>:<xliff:g id="seconds" example="33">%3$02d</xliff:g></string>
+
+    
+    <string name="selectAll">ជ្រើសរើសយកទាំងអស់</string>
+
+    
+    <string name="cut">កាត់</string>
+
+    
+    <string name="copy">ចម្លង</string>
+
+    
+    <string name="paste">បិត</string>
+
+    
+    <string name="replace">ជំនួស\u2026</string>
+
+    
+    <string name="delete">លុបចោល</string>
+
+    
+    <string name="copyUrl">ចម្លង URL</string>
+
+    
+    <string name="selectTextMode">ជ្រើសរើសអត្ថបទ</string>
+
+    
+    <string name="textSelectionCABTitle">ការជ្រើសរើសអត្ថបទ</string>
+
+    
+    <string name="addToDictionary">បន្ថែមទៅក្នុងវចនានុក្រម</string>
+
+    
+    <string name="deleteText">លុបចោល</string>
+
+    
+    <string name="inputMethod">វិធីបញ្ចូល</string>
+
+    
+    <string name="editTextMenuTitle">សកម្មភាពអត្ថបទ</string>
+
+    
+    <string name="low_internal_storage_view_title">អស់កន្លែងផ្ទុកឯកសារហើយ</string>
+    
+    <string name="low_internal_storage_view_text">មុខងារខ្លះរបស់ប្រព័ន្ធអាចមិនដំណើរការទេ</string>
+
+    
+    <string name="ok">យល់ព្រម</string>
+    
+    <string name="cancel">លើកលែង</string>
+    
+    <string name="yes">យល់ព្រម</string>
+    
+    <string name="no">លើកលែង</string>
+    
+    <string name="dialog_alert_title">ការប្រុងប្រយ័ត្ន</string>
+
+    
+    <string name="loading">កំពុងឡូត\u2026</string>
+
+    
+    <string name="capital_on">បើក</string>
+    
+    <string name="capital_off">បិទ</string>
+
+    
+    <string name="whichApplication">បញ្ចប់ការប្រើសកម្មភាព</string>
+    
+    <string name="alwaysUse">ប្រើតាមការសិតពីរោងចក្រ សម្រាប់សកម្មភាពនេះ ។</string>
+    
+    <string name="clearDefaultHintMsg">សំអាតការសិតពីរោងចក្រក្នុងការសិតប្រព័ន្ធ &gt; កម្មវិធី &gt; បានទាញយក ។</string>
+    
+    <string name="chooseActivity">ជ្រើសរើសសកម្មភាព</string>
+    
+    <string name="chooseUsbActivity">ជ្រើសរើសសកម្មភាព សម្រាប់ឧបករណ៍ USB</string>
+    
+    <string name="noApplications">មិនមានកម្មវិធីណាអាចបំពេញមុខងារនេះបានទេ ។</string>
+    
+    <string name="aerr_title"/>
+    
+    <string name="aerr_application">ជាអកុសល <xliff:g id="application">%1$s</xliff:g> បានបញ្ឈប់ ។</string>
+    
+    <string name="aerr_process">ជាអកុសល ដំណើរការ <xliff:g id="process">%1$s</xliff:g> បានបញ្ឈប់ ។</string>
+    
+    <string name="anr_title"/>
+    
+    <string name="anr_activity_application"><xliff:g id="application">%2$s</xliff:g> មិ\នឆ្លើយតបទេ ។\n\nតើអ្នកចង់បិទវាទេ?</string>
+    
+    <string name="anr_activity_process">សកម្មភាព <xliff:g id="activity">%1$s</xliff:g> មិ\នឆ្លើយតបទេ ។\n\nតើអ្នកចង់បិទវាទេ?</string>
+    
+    <string name="anr_application_process"><xliff:g id="application">%1$s</xliff:g> មិ\នឆ្លើយតបទេ ។ តើអ្នកចង់បិទវាទេ?</string>
+    
+    <string name="anr_process">ដំណើរការ <xliff:g id="process">%1$s</xliff:g> មិ\នឆ្លើយតបទេ ។ \n\nតើអ្នកចង់បិទវាទេ?</string>
+    
+    <string name="force_close">យល់ព្រម</string>
+    
+    <string name="report">របាយការណ៍</string>
+    
+    <string name="wait">រង់ចាំ</string>
+    
+    <string name="webpage_unresponsive">ទំព័រវាលែងឆ្លើយតបហើយ ។\n\nតើអ្នកចង់បិទវាទេ?</string>
+    
+    <string name="launch_warning_title">តម្រង់ទិសកម្មវិធីសាថ្មី</string>
+    
+    <string name="launch_warning_replace"><xliff:g id="app_name">%1$s</xliff:g> ឥឡូវកំពុងរត់ ។</string>
+    
+    <string name="launch_warning_original"><xliff:g id="app_name">%1$s</xliff:g> ត្រូវបានចាប់ផ្តើមពីដំបូង ។</string>
+    
+    <string name="screen_compat_mode_scale">មាត្រដ្ឋាន</string>
+    
+    <string name="screen_compat_mode_show">ជានិច្ចកាលបង្ហាញ</string>
+    
+    <string name="screen_compat_mode_hint">ធ្វើឲ្យការសិតប្រព័ន្ធមានសកម្មភាពឡើងវិញ &gt; កម្មវិធី &gt; បានទាញយក ។</string>
+
+    
+    <string name="smv_application">កម្មវិធី <xliff:g id="application">%1$s</xliff:g> (ដំណើរការ <xliff:g id="process">%2$s</xliff:g>) បានរំលោភគោលនយោបាយម៉ូដមធ្យ័ត ដែលជាការបង្ខំខ្លួនវា ។</string>
+    
+    <string name="smv_process">ដំណើរការ <xliff:g id="process">%1$s</xliff:g> បានរំលោភគោលនយោបាយម៉ូដមធ្យ័ត ដែលជាការបង្ខំខ្លួនវា ។</string>
+
+    
+    <string name="android_upgrading_title">កំពុងធ្វើឲ្យ Android​ ប្រសើរឡើង\u2026</string>
+
+    
+    <string name="android_upgrading_apk">កំពុងធ្វើឲ្យកម្មវិធីប្រសើឡើង <xliff:g id="number" example="123">%1$d</xliff:g> of <xliff:g id="number" example="123">%2$d</xliff:g> ។</string>
+
+    
+    <string name="android_upgrading_starting_apps">កំពុងចាប់ផ្តើមកម្មវិធី ។</string>
+
+    
+    <string name="android_upgrading_complete">កំពុងបញ្ចប់ការចាប់ផ្តើម ។</string>
+
+    
+    <string name="heavy_weight_notification"><xliff:g id="app">%1$s</xliff:g> កំពុងរត់</string>
+
+    
+    <string name="heavy_weight_notification_detail">យកម្រាមដៃប៉ះ ដើម្បីប្តូរទៅកម្មវិធី</string>
+
+    
+    <string name="heavy_weight_switcher_title">ប្តូរកម្មវិធីមែនទេ?</string>
+
+    
+    <string name="heavy_weight_switcher_text">កម្មវិធីមួយផ្សេងទៀតកំពុងតែរត់ ដែលត្រូតែបញ្ឈប់វាមុនពេលអ្នកអាចចាប់ផ្តើមកម្មវិធីថ្មីមួយទៀត ។</string>
+
+    <string name="old_app_action">ត្រឡប់ទៅកាន់ <xliff:g id="old_app">%1$s</xliff:g></string>
+    <string name="old_app_description">កុំ\ចាប់ផ្តើមកម្មវិធីថ្មី ។</string>
+
+    <string name="new_app_action">ចាប់ផ្តើម <xliff:g id="old_app">%1$s</xliff:g></string>
+    <string name="new_app_description">បញ្ឈប់កម្មវិធីចាស់ដោយមិនបាច់រក្សាទុក ។</string>
+
+    
+    <string name="sendText">ជ្រើសរើសសកម្មភាព សម្រាប់អត្ថបទ </string>
+
+    
+    <string name="volume_ringtone">វ៉ូលូមសម្លេងរោទ៍</string>
+    
+    <string name="volume_music">វ៉ូលូមមេឌា</string>
+    
+    <string name="volume_music_hint_playing_through_bluetooth">កំពូងលេងតាមរយៈប្ល៊ូធូត</string>
+    
+    <string name="volume_music_hint_silent_ringtone_selected">សិតសម្លេងរោទិ៍ស្ងាត់</string>
+    
+    <string name="volume_call">វ៉ូលូមហៅចូល</string>
+    
+    <string name="volume_bluetooth_call">វ៉ូលូមសម្លេងហៅចូលប្ល៊ូធូត</string>
+    
+    <string name="volume_alarm">វ៉ូលូមសម្លេងពញ្ញាក់អារម្មណ៍</string>
+    
+    <string name="volume_notification">វ៉ូលូមប្រាប់ដំណឹង</string>
+    
+    <string name="volume_unknown">វ៉ូលូម</string>
+
+    
+    <string name="volume_icon_description_bluetooth">វ៉ូលូមប្ល៊ូធូត</string>
+    
+    <string name="volume_icon_description_ringer">វ៉ូលូមសម្លេងរោទ៍</string>
+    
+    <string name="volume_icon_description_incall">វ៉ូលូមហៅ</string>
+    
+    <string name="volume_icon_description_media">វ៉ូលូមមេឌា</string>
+    
+    <string name="volume_icon_description_notification">វ៉ូលូមប្រាប់ដំណឹង</string>
+
+     <skip/>
+    
+    <string name="ringtone_default">សម្លេងរោទ៍សិតពីរោងចក្រ</string>
+    
+    <string name="ringtone_default_with_actual">សម្លេងរោទ៍សិតពីរោងចក្រ (<xliff:g id="actual_ringtone">%1$s</xliff:g>)</string>
+    
+    <string name="ringtone_silent">ស្ងាត់</string>
+    
+    <string name="ringtone_picker_title">សម្លេងរោទ៍</string>
+    
+    <string name="ringtone_unknown">សម្លេងរោទ៍ដែលមិនស្គាល់</string>
+
+    
+    <plurals name="wifi_available">
+        <item quantity="one">មានបណ្តាញWi-Fi</item>
+        <item quantity="other">មានបណ្តាញ Wi-Fi</item>
+    </plurals>
+    
+    <plurals name="wifi_available_detailed">
+        <item quantity="one">បើកបណ្តាញ Wi-Fi ដែលមាន</item>
+        <item quantity="other">បើកបណ្តាញ Wi-Fi ដែលមាន</item>
+    </plurals>
+
+    
+    <string name="wifi_available_sign_in">ចុះហត្ថលេខាចូលទៅក្នុងបណ្តាញ Wi-Fi</string>
+
+    
+    <string name="network_available_sign_in">ចុះឈ្មោះចូលក្នុងបណ្តាញ </string>
+
+    
+    <string name="network_available_sign_in_detailed">ចំណុចតភ្ជាប់ដែលអាចផ្លាស់ប្តូរបាន  <xliff:g id="network_ssid">%1$s</xliff:g> មានភាពសកម្ម </string>
+
+     
+     <string name="wifi_watchdog_network_disabled">មិ\នអាចតភ្ជាប់ជាមួយ Wi-Fi បាន</string>
+     
+    <string name="wifi_watchdog_network_disabled_detailed">\u0020មានការតភ្ជាប់អ៊ិនថឺណិតមិនបានល្អ ។</string>
+
+    
+    <string name="wifi_tether_configure_ssid_default" translatable="false">AndroidAP</string>
+
+    <string name="wifi_p2p_dialog_title">Wi-Fi ដោយផ្ទាល់</string>
+    <string name="wifi_p2p_turnon_message">ចាប់ផ្តើម Wi-Fi ផ្ទាល់ ។ សកម្មភាពនេះ វានឹងបិទ Wi-Fi រណប/ចំណុចតភ្ជាប់ដែលអាចប្តូរបាន ។</string>
+    <string name="wifi_p2p_failed_message">មិ\នអាចចាប់ផ្តើម Wi-Fi ដោយផ្ទាល់ ។</string>
+    <string name="wifi_p2p_enabled_notification_title">បើក Wi-Fi ដោយផ្ទាល់</string>
+    <string name="wifi_p2p_enabled_notification_message">យកម្រាមដៃប៉ះដើម្បីសិត</string>
+
+    <string name="accept">ទទួលយក</string>
+    <string name="decline">បដិសេធ</string>
+    <string name="wifi_p2p_invitation_sent_title">ពាក្យអញ្ជើញបានផ្ញើចេញ</string>
+    <string name="wifi_p2p_invitation_to_connect_title">ការអញ្ជើញឲ្យតភ្ជាប់</string>
+
+    <string name="wifi_p2p_from_message">ពី ៖</string>
+    <string name="wifi_p2p_to_message">ចំពោះ ៖</string>
+    <string name="wifi_p2p_enter_pin_message">វាយ PIN ដែលជាភាពតម្រូវ ៖</string>
+    <string name="wifi_p2p_show_pin_message">PIN ៖</string>
+
+    <string name="wifi_p2p_frequency_conflict_message">ទូរស័ព្ទនឹងត្រូវផ្តាច់ការតភ្ជាប់ជាបណ្តោះអាសន្នពី Wi-Fi ខណៈពេលដែលវ\វតភ្ជាប់ជាមួយនឹង <xliff:g id="device_name">%1$s</xliff:g></string>
+
+    
+    <string name="select_character">បញ្ចូលតួអក្សរ</string>
+
+     <skip/>
+    
+    <string name="sms_control_title">កំពុងផ្ញើសារ SMS</string>
+    
+    <string name="sms_control_message"><b><xliff:g id="app_name">%1$s</xliff:g></b> កំពុងផ្ញើសារ SMS មួយចំនួនធំ ។ តើអ្នកចង់អនុញ្ញាតឲ្យកម្មវិធីនេះ បន្តការផ្ញើសារឬទេ?</string>
+    
+    <string name="sms_control_yes">អនុញ្ញាត</string>
+    
+    <string name="sms_control_no">បដិសេធ</string>
+
+     <skip/>
+    
+    <string name="sms_short_code_confirm_message"><b><xliff:g id="app_name">%1$s</xliff:g></b> ចង់ផ្ញើសារទៅកាន់ <b><xliff:g id="dest_address">%2$s</xliff:g></b> ។</string>
+    
+    <string name="sms_short_code_details">ចំណុចនេះ <font fgcolor="#ffffb060">អាចនាំឲ្យមានការទារលុយ</font> ពីគណនីចល័តរបស់អ្នក ។</string>
+    
+    <string name="sms_premium_short_code_details"><font fgcolor="#ffffb060">ចំណុចនេះអាចនាំឲ្យមានការទារលុយពីគណនីចល័តរបស់អ្នក ។</font></string>
+    
+    <string name="sms_short_code_confirm_allow">ផ្ញើចេញ</string>
+    
+    <string name="sms_short_code_confirm_deny">លើកលែង</string>
+    
+    <string name="sms_short_code_remember_choice">ចងចាំជម្រើសរបស់ខ្ញុំ</string>
+    
+    <string name="sms_short_code_remember_undo_instruction">អ្នកអាចប្តូរវានាពេលក្រោយក្នុងការកំណត់\u00A0&gt;\u00A0Apps"</string>
+
+    
+    <string name="sms_short_code_confirm_always_allow">ជានិច្ចកាលអនុញ្ញាត</string>
+    
+    <string name="sms_short_code_confirm_never_allow">មិនដែលឲ្យអនុញ្ញាតឡើយ</string>
+
+     <skip/>
+    
+    <string name="sim_removed_title">SIM កាតបានត្រូវដកចេញ</string>
+    
+    <string name="sim_removed_message">បណ្តាញចល័ត នឹងមិនមានរហួតដល់អ្នកចាប់ផ្តើមជាថ្មីជាមួយនឹង SIM កាតដែលមានសុពលភាព ។</string>
+    
+    <string name="sim_done_button">បានធ្វើរួច</string>
+    
+    <string name="sim_added_title">បានបន្ថែម SIM កាត</string>
+    
+    <string name="sim_added_message">ចាប់ផ្តើមឧបករណ៍របស់អ្នកជាថ្មី ដើម្បីចូលទៅកាន់បណ្តាញចល័ត ។</string>
+    
+    <string name="sim_restart_button">ចាប់ផ្តើមជាថ្មី</string>
+
+    
+
+    
+    <string name="time_picker_dialog_title">សិតម៉ោង</string>
+    
+    <string name="date_picker_dialog_title">សិតកាលបរិច្ឆេទ</string>
+    
+    <string name="date_time_set">សិត</string>
+    
+    <string name="date_time_done">បានធ្វើរួច</string>
+
+    
+    
+    <string name="perms_new_perm_prefix"><font size="12" fgcolor="#ff33b5e5">ថ្មី ៖ </font></string>
+    
+    <string name="perms_description_app">ផ្តល់ជូនដោយ <xliff:g id="app_name">%1$s</xliff:g> ។</string>
+    
+    <string name="no_permissions">មិនតម្រូវការឲ្យមានការអនុញ្ញាតទេ</string>
+    
+    <string name="perm_costs_money">ចំណុចនេះអាចឲ្យអ្នកត្រូវចេញថ្លៃ</string>
+
+    
+    
+    <string name="usb_storage_activity_title">ឧបករណ៍ផ្ទុកឯកសារច្រើន USB</string>
+
+    
+    <string name="usb_storage_title">បានតភ្ជាប់ USB</string>
+    
+    <string name="usb_storage_message" product="nosdcard">"អ្នកបានតភ្ជាប់ជាមួយកុំព្យូទ័រតាមរយៈ USB ។ យកម្រាមដៃប៉ះប៊ូតុងខាងក្រោម ប្រសិនបើអ្នកចង់ចម្លងឯកសាររវាងកុំព្យូទ័ររបស់អ្នក និងឧបករណ៍ USB របស់ Android's ។"</string>
+    
+    <string name="usb_storage_message" product="default">"អ្ន\កបានតភ្ជាប់ជាមួយកុំព្យូទ័ររបស់អ្នកតាមរយៈ USB ។ ប៉ះប៊ូតុងខាងក្រោម បើអ្នកចង់ចម្លងឯកសាររវាងកុំព្យូទ័ររបស់អ្នក និងកាត SD របស់ Android's ។"</string>
+    
+    <string name="usb_storage_button_mount">បើកឧបករណ៍ USB </string>
+    
+    <string name="usb_storage_error_message" product="nosdcard">មា\នបញ្ហាក្នុងការប្រើឧបករណ៍ USB របស់អ្នក សម្រាប់ឧបករណ៍ USB ផ្ទុកឯកសារច្រើន ។</string>
+    
+    <string name="usb_storage_error_message" product="default">មា\នបញ្ហាក្នុងការប្រើកាត SD របស់អ្នក សម្រាប់ឧបករណ៍ USB ផ្ទុកឯកសារច្រើន ។</string>
+    
+    <string name="usb_storage_notification_title">បានតភ្ជាប់ USB</string>
+    
+    <string name="usb_storage_notification_message">យកម្រាមដៃប៉ះដើម្បីចម្លងឯកសារទៅឲ្យ/មកពី កុំព្យូទ័ររបស់អ្នក ។</string>
+
+    
+    <string name="usb_storage_stop_notification_title">បិទឧបករណ៍ USB ។</string>
+    
+    <string name="usb_storage_stop_notification_message">យកម្រាមដៃប៉ះដើម្បីបិទឧបករណ៍ USB ។</string>
+
+    
+    
+    
+    <string name="usb_storage_stop_title">ឧបករណ៍ USB កំពុងស្ថិតក្នុងការប្រើ </string>
+    
+    <string name="usb_storage_stop_message" product="nosdcard">"នៅមុនពេលបិទឧបករណ៍ USB សូមបិទ (\"ដកចេញ\") នូវឧបករណ៍ USB នៃ Android's ពីកុំព្យូទ័ររបស់អ្នកសិន ។"</string>
+    
+    <string name="usb_storage_stop_message" product="default">"នៅមុនពេលបិទឧបករណ៍ USB សូមបិទ (\"ដកចេញ\") នូវកាត SD នៃ Android's SD ពីកុំព្យូទ័ររបស់អ្នកសិន ។"</string>
+    
+    <string name="usb_storage_stop_button_mount">បិទឧបករណ៍ USB ។</string>
+    
+    <string name="usb_storage_stop_error_message">មានបញ្ហាក្នុងការបិទឧបករណ៍ USB ។ សូមឆែកមើលថាអ្ន\កបានបិទ USB មេរួចរាល់ បន្ទាប់មកសាកល្បងម្តងទៀត ។</string>
+
+    
+    <string name="dlg_confirm_kill_storage_users_title">បើកឧបករណ៍ USB </string>
+    
+    <string name="dlg_confirm_kill_storage_users_text">បើអ្នកបើកឧបករណ៍ USB កម្មវិធីមួយចំនួនដែលអ្ន\កកំពុងប្រើ នឹងឈប់ដំណើរការ ហើយអាចឈប់រហូតដល់អ្នកបិទឧបករណ៍ USB ។</string>
+    
+    <string name="dlg_error_title">ប្រតិបត្តិការ USB មិនបានជោគជ័យទេ </string>
+    
+    <string name="dlg_ok">យល់ព្រម</string>
+
+    
+    <string name="usb_mtp_notification_title">បានតភ្ជាប់ជាឧបករណ៍មេឌា</string>
+    
+    <string name="usb_ptp_notification_title">បានតភ្ជាប់ជាកាមេរ៉ា</string>
+    
+    <string name="usb_cd_installer_notification_title">បានតភ្ជាប់ជាអ្នកតម្លើង</string>
+    
+    <string name="usb_accessory_notification_title">បានតភ្ជាប់ទៅកាន់ឧបករណ៍បន្ទាប់បន្សំរបស់ USB</string>
+    
+    <string name="usb_notification_message">យកម្រាមដៃប៉ះសម្រាប់ជម្រើសផ្សេងទៀតរបស់ឿបករណ៍ USB ។</string>
+
+    
+    
+    
+    <string name="extmedia_format_title" product="nosdcard">ចង់ធ្វើទ្រង់ទ្រាយឧបករណ៍ USB ទេ?</string>
+    
+    <string name="extmedia_format_title" product="default">ចង់ធ្វើទ្រង់ទ្រាយកាត SD ទេ?</string>
+    
+    <string name="extmedia_format_message" product="nosdcard">ឯកសារទាំងអស់ដែលបានផ្ទុកក្នុងឧបករណ៍ USB របស់អ្នក នឹងត្រូវលុបចោល ។ សកម្មភាពនេះមិ\នអាចធ្វើបញ្ច្រាសមកវិញបានទេ!</string>
+    
+    <string name="extmedia_format_message" product="default">ឯសារទាំងអស់នៅក្នុងកាតរបស់អ្នកនឹងត្រូវបាត់បង់ ។</string>
+    
+    <string name="extmedia_format_button_format">ធ្វើទ្រង់ទ្រាយ</string>
+
+    
+    <string name="adb_active_notification_title">បានតភ្ជាប់ការរកបញ្ហា USB</string>
+    
+    <string name="adb_active_notification_message">យកម្រាមដៃប៉ះដើម្បីធ្វើឲ្យការរកបញ្ហា USB អសកម្ម ។</string>
+
+    
+    
+    
+    
+    
+    <string name="locale_replacement">""</string>
+
+    
+    <string name="select_input_method">ជ្រើសរើសវិធីបញ្ចូល</string>
+    
+    <string name="configure_input_methods">តម្លើងវិធីបញ្ចូល</string>
+    
+    <string name="use_physical_keyboard">ក្តារចុចពិត</string>
+    
+    <string name="hardware">គ្រឿងរឹង</string>
+
+    
+    <string name="select_keyboard_layout_notification_title">ជ្រើសរើសទ្រង់ទ្រាយក្តារចុច</string>
+    
+    <string name="select_keyboard_layout_notification_message">យកម្រាមដៃប៉ះដើម្បីជ្រើសរើសទ្រង់ទ្រាយក្តារចុច ។</string>
+
+    <string name="fast_scroll_alphabet">\u0020ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="fast_scroll_numeric_alphabet">\u00200123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+
+    <string name="candidates_style"><u>បេក្ខជន</u></string>
+
+    
+    
+    <string name="ext_media_checking_notification_title" product="nosdcard">កំពុងរៀបចំឧបករណ៍ USB</string>
+    
+    <string name="ext_media_checking_notification_title" product="default">កំពុងរៀបចំកាត SD</string>
+    <string name="ext_media_checking_notification_message">កំពុងឆែករកមើលកំហុស ។</string>
+
+    
+    <string name="ext_media_nofs_notification_title" product="nosdcard">ឧបករណ៍ USB ទទេ</string>
+    
+    <string name="ext_media_nofs_notification_title" product="default">កាត SD ទទេ</string>
+    
+    <string name="ext_media_nofs_notification_message" product="nosdcard">ឧបករណ៍ USB ទទេ ឬមានប្រព័ន្ធឯកសារដែលមិនអាចប្រើបាន ។</string>
+    <string name="ext_media_nofs_notification_message" product="default">កាត SD វាទទេ ឬមានផ្ទុកឯកសារដែលមិនអាចប្រើបានជាមួយប្រព័ន្ធ ។</string>
+
+    
+    <string name="ext_media_unmountable_notification_title" product="nosdcard">ឧបករណ៍ USB ខូច </string>
+    
+    <string name="ext_media_unmountable_notification_title" product="default">កាត SD ខូច</string>
+    
+    <string name="ext_media_unmountable_notification_message" product="nosdcard">ឧបករណ៍ USB ខូច ។ សាកល្បងធ្វើទ្រង់ទ្រាយវាម្តងទៀត ។</string>
+    <string name="ext_media_unmountable_notification_message" product="default">កាត SD វាខូច ។ ព្យាយាមធ្វើរូបសណ្ឋានវា ។</string>
+
+    
+    <string name="ext_media_badremoval_notification_title" product="nosdcard">ឧបករណ៍ USB ត្រូវបានដកចេញខុសពីការស្មាន</string>
+    
+    <string name="ext_media_badremoval_notification_title" product="default">កាត SD ត្រូវបានដកចេញខុសពីការគិតទុក</string>
+    
+    <string name="ext_media_badremoval_notification_message" product="nosdcard">បិទឧបករណ៍ USB នៅមុនពេលដកវាចេញ ដើម្បីចៀសវាងការបាត់បង់ទិន្នន័យ ។</string>
+    <string name="ext_media_badremoval_notification_message" product="default">បិទកាត SD មុនដកវាចេញ ដើម្បីចៀសវាងការបាត់បង់ទិន្នន័យ ។</string>
+
+    
+    <string name="ext_media_safe_unmount_notification_title" product="nosdcard">មានសុវត្ថិភាពហើយក្នុងការដកឧបករណ៍ USB ចេញ </string>
+    
+    <string name="ext_media_safe_unmount_notification_title" product="default">មានសុវត្ថិភាពអាចដកកាត SD ចេញបាន</string>
+    
+    <string name="ext_media_safe_unmount_notification_message" product="nosdcard">អ្នកអាចដកឧបករណ៍ USB ចេញប្រកបដោយសុវត្ថិភាព ។</string>
+    <string name="ext_media_safe_unmount_notification_message" product="default">អ្នកអាចដកកាត SD ចេញបានដោយសុវត្ថិភាព ។</string>
+
+    
+    <string name="ext_media_nomedia_notification_title" product="nosdcard">ឧបករណ៍ USB ត្រូវបានដកចេញ</string>
+    
+    <string name="ext_media_nomedia_notification_title" product="default">ដកកាត SD ចេញ</string>
+    
+    <string name="ext_media_nomedia_notification_message" product="nosdcard">ឧបករណ៍ USB ត្រូវបានដកចេញ ។ ស៊កមេឌាថ្មីចូល ។</string>
+    <string name="ext_media_nomedia_notification_message" product="default">កាត SD ត្រូវបានដកចេញ ។ សូមបញ្ចូលកាតថ្មី ។</string>
+
+    
+    <string name="activity_list_empty">រកមិនឃើញសកម្មភាពដែលអាចចាប់គូគ្នាបានទេ ។</string>
+
+    
+    
+    <string name="permlab_pkgUsageStats">ធ្វើបច្ចុប្បន្នភាពសមាសធាតុ ចំពោះស្ថិតិនៃការប្រើប្រាស់ </string>
+    
+    <string name="permdesc_pkgUsageStats">អនុញ្ញាតឲ្យកម្មវិធីអាចកែសម្រួលស្ថិតិនៃការប្រើប្រាស់របស់សមាសធាតុដែលបានប្រមូល  ។ មិនមែនសម្រាប់ប្រើកម្មវិធីធម្មតាឡើយ ។</string>
+
+    
+    
+    <string name="permlab_copyProtectedData">ចម្លងមាតិការ</string>
+    
+    <string name="permdesc_copyProtectedData">អនុញ្ញាតឲ្យកម្មវិធី ដកហូតមកវិញនូវសេវាកម្មចំណុះការសិតពីរោងចក្រ ដើម្បីចម្លងមាតិការ ។ មិនមែនសម្រាប់ប្រើដោយកម្មវិធីធម្មតាឡើយ ។</string>
+
+    
+    <string name="permlab_route_media_output">ចាត់ផ្លូវចេញរបស់មេឌា</string>
+    
+    <string name="permdesc_route_media_output">អនុញ្ញាតឲ្យកម្មវិធីមួយអាចចាត់ផ្លូវចេញរបស់មេឌា ដល់ឧបករណ៍ខាងក្រៅផ្សេងទៀត ។</string>
+
+    
+    <string name="tutorial_double_tap_to_zoom_message_short">យកម្រាមដៃប៉ះស្ទួន សម្រាប់ការគ្រប់គ្រងលើការពង្រីក </string>
+
+
+    
+    <string name="gadget_host_error_inflating">មិ\នអាចបន្ថែមវិដជេដបានឡើយ ។</string>
+
+    
+    <string name="ime_action_go">ទៅ</string>
+
+    
+    <string name="ime_action_search">រាវរក</string>
+
+    
+    <string name="ime_action_send">ផ្ញើចេញ</string>
+
+    
+    <string name="ime_action_next">បន្ទាប់</string>
+
+    
+    <string name="ime_action_done">បានធ្វើរួច</string>
+
+    
+    <string name="ime_action_previous">មុន</string>
+
+    
+    <string name="ime_action_default">ប្រតិបត្តិ</string>
+
+    
+    <skip/>
+
+
+    
+    <string name="dial_number_using">រវៃលេខ\nការប្រើ <xliff:g id="number" example="555">%s</xliff:g></string>
+
+    
+    <string name="create_contact_using">បង្កើតលេខទំនាក់ទំនង\nការប្រើ <xliff:g id="number" example="555">%s</xliff:g></string>
+
+    
+    
+    
+    <string-array translatable="false" name="carrier_properties">
+    </string-array>
+
+    <string name="grant_credentials_permission_message_header">កម្មវិធីមួយ​ ឬច្រើនខាងក្រោម ស្នើសុំការអនុញ្ញាត ដើម្បីចូលបើកមើលគណនីរបស់អ្នក ឥឡូវនេះ និងថ្ងៃអនាគត ។</string>
+    <string name="grant_credentials_permission_message_footer">តើអ្នកចង់អនុញ្ញាតការស្នើសុំនេះទេ?</string>
+    <string name="grant_permissions_header_text">ចូលទៅរកការស្នើសុំ</string>
+    <string name="allow">អនុញ្ញាត</string>
+    <string name="deny">បដិសេធ</string>
+    <string name="permission_request_notification_title">បានស្នើសុំការអនុញ្ញាត</string>
+    <string name="permission_request_notification_with_subtitle">បានស្នើសុំការអនុញ្ញាត\nសម្រាប់គណនី <xliff:g id="account" example="foo@gmail.com">%s</xliff:g> ។</string>
+
+    
+    <string name="input_method_binding_label">វិធីបញ្ចូល</string>
+    
+    <string name="sync_binding_label">សមកាលកម្ម</string>
+    
+    <string name="accessibility_binding_label">ភាពអាចបើកមើលបាន</string>
+    
+    <string name="wallpaper_binding_label">ផ្ទៃជញ្ជាំង</string>
+    
+    <string name="chooser_wallpaper">ប្តូរផ្ទៃជញ្ជាំង</string>
+
+    
+    <string name="alternate_eri_file">/data/eri.xml</string>
+
+    
+    <string name="vpn_title">បានធ្វើឲ្យ VPN សកម្ម</string>
+    
+    <string name="vpn_title_long">VPN ត្រូវបានធ្វើឲ្យសកម្មដោយ <xliff:g id="app" example="FooVPNclient">%s</xliff:g></string>
+    
+    <string name="vpn_text">យកម្រាមដៃប៉ះដើម្បីចាត់ចែងបណ្តាញ ។</string>
+    
+    <string name="vpn_text_long">បានតភ្ជាប់ទៅកាន់ <xliff:g id="session" example="office">%s</xliff:g> ។ ប៉ះដើម្បីចាត់ចែងបណ្តាញ ។</string>
+
+    
+    <string name="vpn_lockdown_connecting">ជានិច្ចកាលត្រូវស្ថិតក្នុងការតភ្ជាប់ VPN\u2026</string>
+    
+    <string name="vpn_lockdown_connected">ជានិច្ចកាលស្ថិតក្នុង VPN ដែលបានតភ្ជាប់</string>
+    
+    <string name="vpn_lockdown_error">ជានិច្ចកាលស្ថិតក្នុងកំហុស VPN</string>
+    
+    <string name="vpn_lockdown_reset">យកម្រាមដៃប៉ះដើម្បីកំណត់ការតភ្ជាប់ឡើងវិញ </string>
+
+    
+    
+    <string name="upload_file">ជ្រើសរើសឯកសារ</string>
+    
+    <string name="no_file_chosen">មិនមានឯកសារណាត្រូវបានជ្រើសរើសឡើយ</string>
+    
+    <string name="reset">សិតឡើងវិញ</string>
+    
+    <string name="submit">ដាក់ជូន</string>
+
+    
+    
+    <string name="car_mode_disable_notification_title">ម៉ូដរថយន្តបានធ្វើឲ្យសកម្ម</string>
+    <string name="car_mode_disable_notification_message">យកម្រាមដៃប៉ះដើម្បីចាកចេញពីម៉ូដរថយន្ត ។</string>
+
+    
+    
+    <string name="tethered_notification_title">ខ្សែ ឬចំណុចតភ្ជាប់បណ្តាញដែលអាចកែប្រែបានសកម្ម </string>
+    <string name="tethered_notification_message">ចុចដើម្បីរៀបចំ ។</string>
+
+    
+    <string name="back_button_label">ថយក្រោយ</string>
+    <string name="next_button_label">បន្ទាប់</string>
+
+    
+    <string name="skip_button_label">រំលង</string>
+
+    
+    
+    <string name="throttle_warning_notification_title">ប្រើទិន្នន័យចល័តខ្ពស់</string>
+    <string name="throttle_warning_notification_message">យកម្រាមដៃប៉ះដើម្បីបានដឹងព័ត៌មានបន្ថែមអំពីការប្រើទិន្នន័យចល័ត ។</string>
+
+    
+    
+    <string name="throttled_notification_title">បានប្រើហួសដែនកំណត់ទិន្នន័យចល័ត </string>
+    <string name="throttled_notification_message">យកម្រាមដៃប៉ះដើម្បីបានដឹងព័ត៌មានបន្ថែមអំពីការប្រើទិន្នន័យចល័ត ។</string>
+
+    
+    <string name="no_matches">មិនមានអ្វីដែលអាចផ្គូផ្គងបានឡើយ</string>
+
+    
+    <string name="find_on_page">រកនៅលើទំព័រ</string>
+
+    
+    <plurals name="matches_found">
+        
+        <item quantity="one">1 គូ</item>
+        
+        <item quantity="other"><xliff:g id="index" example="2">%d</xliff:g> នៃ <xliff:g id="total" example="137">%d</xliff:g></item>
+    </plurals>
+
+    
+    <string name="action_mode_done">បានធ្វើរួច</string>
+
+    
+    
+    <string name="progress_unmounting" product="nosdcard">បិទឧបករណ៍ USB \u2026</string>
+    
+    <string name="progress_unmounting" product="default">បិទកាត SD\u2026</string>
+    
+    <string name="progress_erasing" product="nosdcard">លុបឧបករណ៍ USB\u2026</string>
+    
+    <string name="progress_erasing" product="default">លុបកាត SD\u2026</string>
+    
+    <string name="format_error" product="nosdcard">មិ\នអាចលុបឧបករណ៍ USB បានឡើយ ។</string>
+    
+    <string name="format_error" product="default">មិ\នអាចលុបកាត SD បានឡើយ ។</string>
+    
+    <string name="media_bad_removal">កាត SD ត្រូវបានដកចេញនៅមុនពេលវាត្រូវបានបិទ ។</string>
+    
+    <string name="media_checking" product="nosdcard">ឧបករណ៍ USB កំពុងតែត្រូវបានឆែកមើល ។</string>
+    
+    <string name="media_checking" product="default">កាត SD កំពុងតែត្រូវបានឆែកមើល ។</string>
+    
+    <string name="media_removed">កាត SD ត្រូវបាកដកចេញ ។</string>
+    
+    <string name="media_shared" product="nosdcard">ឧបការណ៍ USB កំពុងតែប្រើប្រាស់ដោយកុំព្យូទ័រ ។</string>
+    
+    <string name="media_shared" product="default">កាត SD កំពុងតែប្រើប្រាស់ដោយកុំព្យូទ័រ ។</string>
+    
+    <string name="media_unknown_state">មេឌាខាងក្រៅ ស្ថិតក្នុងស្ថានភាពដែលមិនស្គាល់ ។</string>
+
+    
+    
+    <string name="share">ចែករំលែក</string>
+    
+    <string name="find">រក</string>
+    
+    <string name="websearch">រាវរកវ៉ិប</string>
+    
+    <string name="find_next">រកបន្ទាប់</string>
+    
+    <string name="find_previous">រកពីមុន</string>
+
+    
+    <string name="gpsNotifTicker">ស្នើសុំទីតាំងពី <xliff:g id="name">%s</xliff:g></string>
+    
+    <string name="gpsNotifTitle">ការស្នើសុំទីតាំង </string>
+    
+    <string name="gpsNotifMessage">ស្នើសុំដោយ <xliff:g id="name">%1$s</xliff:g> (<xliff:g id="service" example="SUPL-service">%2$s</xliff:g>)</string>
+    
+    <string name="gpsVerifYes">"បាទ"</string>
+    
+    <string name="gpsVerifNo">ទេ</string>
+
+    
+    <string name="sync_too_many_deletes">លុបចោលដែនកំណត់ដែលប្រើហួស</string>
+    
+    <string name="sync_too_many_deletes_desc">មាន <xliff:g id="number_of_deleted_items">%1$d</xliff:g> របស់ដែលបានលុបចេញសម្រាប់ <xliff:g id="type_of_sync">%2$s</xliff:g>, account <xliff:g id="account_name">%3$s</xliff:g> ។ តើអ្នកចង់ធ្វើអ្វី?</string>
+    
+    <string name="sync_really_delete">លុបរបស់ចោល</string>
+    
+    <string name="sync_undo_deletes">កុំធ្វើការលុបចោល</string>
+    
+    <string name="sync_do_nothing">ឥឡូវមិនធ្វើអ្វីទេ</string>
+
+    
+    <string name="choose_account_label">ជ្រើសរើសគណនីមួយ</string>
+
+    <string name="add_account_label">"បន្ថែមគណនីមួយ"</string>
+
+    
+    <string name="add_account_button_label">បន្ថែមគណនី</string>
+
+    
+    
+    <string name="number_picker_increment_button">តម្លើង</string>
+    
+    <string name="number_picker_decrement_button">បន្ថយ</string>
+    
+    <string name="number_picker_increment_scroll_mode"><xliff:g id="value" example="3">%s</xliff:g> យកម្រាមដៃប៉ះ និងសង្កត់ឲ្យជាប់ ។</string>
+    
+    <string name="number_picker_increment_scroll_action">យកម្រាមដៃអូសឡើង ដើម្បីតម្លើង និងអូសចុះដើម្បីបន្ថយ ។</string>
+
+    
+    
+    <string name="time_picker_increment_minute_button">តម្លើងនាទី</string>
+    
+    <string name="time_picker_decrement_minute_button">បន្ថយនាទី</string>
+    
+    <string name="time_picker_increment_hour_button">តម្លើងម៉ោង</string>
+    
+    <string name="time_picker_decrement_hour_button">បន្ថយម៉ោង</string>
+    
+    <string name="time_picker_increment_set_pm_button">សិត PM</string>
+    
+    <string name="time_picker_decrement_set_am_button">សិត AM</string>
+
+    
+    
+    <string name="date_picker_increment_month_button">តម្លើងខែ</string>
+    
+    <string name="date_picker_decrement_month_button">បន្ថយខែ</string>
+    
+    <string name="date_picker_increment_day_button">តម្លើងថ្ងៃ</string>
+    
+    <string name="date_picker_decrement_day_button">បន្ថយថ្ងៃ</string>
+    
+    <string name="date_picker_increment_year_button">តម្លើងឆ្នាំ</string>
+    
+    <string name="date_picker_decrement_year_button">បន្ថយឆ្នាំ</string>
+
+    
+    
+    <string name="keyboardview_keycode_alt">ALT</string>
+    
+    <string name="keyboardview_keycode_cancel">លើកលែង</string>
+    
+    <string name="keyboardview_keycode_delete">លុបចោល</string>
+    
+    <string name="keyboardview_keycode_done">បានធ្វើរួច</string>
+    
+    <string name="keyboardview_keycode_mode_change">ម៉ូដប្តូរ</string>
+    
+    <string name="keyboardview_keycode_shift">ប្តូរ</string>
+    
+    <string name="keyboardview_keycode_enter">បញ្ចូល</string>
+
+    
+    
+    <string name="activitychooserview_choose_application">ជ្រើសរើសកម្មវិធី</string>
+
+    
+    
+    <string name="shareactionprovider_share_with">ចែករំលែកជាមួយ</string>
+    
+    <string name="shareactionprovider_share_with_application">ចែករំលែកជាមួយ <xliff:g id="application_name" example="Bluetooth">%s</xliff:g></string>
+
+    
+
+    
+    <string name="content_description_sliding_handle">"បង្អូស ។ យកម្រាមដៃប៉ះ &amp; សង្កត់ឲ្យជាប់ ។"</string>
+
+    
+    <string name="description_direction_up">អូសឡើងលើសម្រាប់ <xliff:g id="target_description" example="Unlock">%s</xliff:g> ។</string>
+    
+    <string name="description_direction_down">អូសចុះក្រោមសម្រាប់ <xliff:g id="target_description" example="Unlock">%s</xliff:g> ។</string>
+    
+    <string name="description_direction_left">"អូសទៅឆ្វេងសម្រាប់ <xliff:g id="target_description" example="Unlock">%s</xliff:g> ។</string>
+    
+    <string name="description_direction_right">អូសទៅស្តាំសម្រាប់ <xliff:g id="target_description" example="Unlock">%s</xliff:g> ។</string>
+
+    
+    <string name="description_target_unlock">ដោះសោ</string>
+    
+    <string name="description_target_camera">កាមេរ៉ា</string>
+    
+    <string name="description_target_silent">ស្ងាត់</string>
+    
+    <string name="description_target_soundon">បើកសម្លេង</string>
+    
+    <string name="description_target_search">រាវរក</string>
+
+    
+    <string name="description_target_unlock_tablet">អូសដើម្បីដោះសោ ។</string>
+
+    
+    <string name="keyboard_headset_required_to_hear_password">ស៊កប្រដាប់ស្តាបត្រចៀក ដើម្បីស្តាប់ឮការអានប៊ូតុងពាក្យសម្ងាត់ ។</string>
+    
+    <string name="keyboard_password_character_no_headset">ចុច ។</string>
+
+    
+    <string name="action_bar_home_description">ត្រឡប់ទៅទំព័រដើម</string>
+    
+    <string name="action_bar_up_description">ត្រឡប់ទៅខាងលើ</string>
+    
+    <string name="action_menu_overflow_description">ជម្រើសបន្ថែម</string>
+
+    
+    <string name="storage_internal">ការផ្ទុកខាងក្នុង</string>
+
+    
+    <string name="storage_sd_card">កាត SD</string>
+
+    
+    <string name="storage_usb">ផ្ទុកក្នុងឧបករណ៍ USB</string>
+
+    
+    <string name="extract_edit_menu_button">កែសម្រួល</string>
+
+    
+    <string name="data_usage_warning_title">ការព្រមានអំពីការប្រើទិន្នន័យ </string>
+    
+    <string name="data_usage_warning_body">យកម្រាមដៃប៉ះដើម្បីមើលការប្រើ និងការសិត ។</string>
+
+    
+    <string name="data_usage_3g_limit_title">ធ្វើឲ្យអសកម្មទិន្នន័យ 2G-3G</string>
+    
+    <string name="data_usage_4g_limit_title">ធ្វើឲ្យអសកម្មទិន្នន័យ 4G</string>
+    
+    <string name="data_usage_mobile_limit_title">ធ្វើឲ្យអសកម្មទិន្នន័យចល័ត</string>
+    
+    <string name="data_usage_wifi_limit_title">ធ្វើឲ្យអសកម្មទិន្នន័យ Wi-Fi</string>
+    
+    <string name="data_usage_limit_body">យកម្រាមដៃប៉ះដើម្បីធ្វើឲ្យវាសកម្ម ។</string>
+
+    
+    <string name="data_usage_3g_limit_snoozed_title">ហួសដែនកំណត់ទិន្នន័យ 2G-3G</string>
+    
+    <string name="data_usage_4g_limit_snoozed_title">ហួសដែនកំណត់ទិន្នន័យ 4G</string>
+    
+    <string name="data_usage_mobile_limit_snoozed_title">ហួសដែនកំណត់ទិន្នន័យចល័ត </string>
+    
+    <string name="data_usage_wifi_limit_snoozed_title">ហួសដែនកំណត់ទិន្នន័យ </string>
+    
+    <string name="data_usage_limit_snoozed_body"><xliff:g id="size" example="3.8GB">%s</xliff:g> ហួសដែនកំណត់ដែលបានបញ្ជាក់ ។</string>
+
+    
+    <string name="data_usage_restricted_title">បានមធ្យ័តលើទិន្នន័យខាងក្រោយ</string>
+    
+    <string name="data_usage_restricted_body">យកម្រាមដៃប៉ះដើម្បីលុបចេញនូវភាពមធ្យ័ត ។</string>
+
+    
+    
+    <string name="ssl_certificate">វិញ្ញាបនប័ត្រសុវត្ថិភាព</string>
+    
+    <string name="ssl_certificate_is_valid">វិញ្ញាបនប័ត្រនេះមានសុពលភាព ។</string>
+    
+    <string name="issued_to">ចេញឲ្យ ៖</string>
+    
+    <string name="common_name">ឈ្មោះធម្មតា ៖</string>
+    
+    <string name="org_name">ឈ្មោះអង្គការ ៖</string>
+    
+    <string name="org_unit">អង្គភាពក្នុងអង្គការ ៖</string>
+    
+    <string name="issued_by">ចេញឲ្យដោយ ៖</string>
+    
+    <string name="validity_period">សុពលភាព ៖</string>
+    
+    <string name="issued_on">ចេញនៅថ្ងៃទី ៖</string>
+    
+    <string name="expires_on">ផុតកំណត់នៅថ្ងៃទី ៖</string>
+    
+    <string name="serial_number">លេខស៊េរី ៖</string>
+    
+    <string name="fingerprints">ស្នាមម្រាមដៃ ៖</string>
+    
+    <string name="sha256_fingerprint">ស្នាមម្រានដៃ SHA-256 ៖</string>
+    
+    <string name="sha1_fingerprint">ស្នាមម្រានដៃ SHA-1 ៖</string>
+
+    
+    <string name="activity_chooser_view_see_all">មើលទាំងអស់</string>
+    
+    <string name="activity_chooser_view_dialog_title_default">ជ្រើសរើសសកម្មភាព</string>
+
+    
+    <string name="share_action_provider_share_with">ចែករំលែកជាមួយ</string>
+
+    
+
+    
+    <string name="status_bar_device_locked">ឧបករណ៍បានចាក់សោ</string>
+
+    
+    <string name="list_delimeter">", "</string>
+
+    
+    <string name="sending">កំពុងផ្ញើឯកសារចេញ\u2026</string>
+
+    
+    <string name="launchBrowserDefault">ចាប់ផ្តើមប្រូស័រមែនទេ?</string>
+
+    
+    <string name="SetupCallDefault">ទទួលការហៅទេ?</string>
+
+    
+    <string name="activity_resolver_use_always">ជានិច្ចកាល</string>
+
+    
+    <string name="activity_resolver_use_once">តែម្តង</string>
+
+    
+    <string name="default_audio_route_name" product="tablet">កូនកុំព្យូទ័រ</string>
+
+    
+    <string name="default_audio_route_name" product="default">ទូរស័ព្ទ</string>
+
+    
+    <string name="default_audio_route_name_headphones">ប្រដាប់ស្តាប់ត្រចៀក</string>
+
+    
+    <string name="default_audio_route_name_dock_speakers">ឧបល័របន្ទះផែតភ្ជាប់ឧបករណ៍</string>
+
+    
+    <string name="default_media_route_name_hdmi">HDMI</string>
+
+    
+    <string name="default_audio_route_category_name">ប្រព័ន្ធ</string>
+
+    
+    <string name="bluetooth_a2dp_audio_route_name">អូឌីអូប្ល៊ូធូត</string>
+
+    
+    <string name="media_route_chooser_grouping_done">បានធ្វើរួច</string>
+
+    
+    <string name="media_route_button_content_description">លទ្ធផលមេឌា</string>
+
+    
+    <string name="media_route_status_scanning">កំពុងស្គែន...</string>
+
+    
+    <string name="media_route_status_connecting">កំពុងតភ្ជាប់ ...</string>
+
+    
+    <string name="media_route_status_available">ទំនេរ</string>
+
+    
+    <string name="media_route_status_not_available">មិនមានទេ</string>
+
+    
+
+    
+    <string name="display_manager_built_in_display_name">អេក្រង់ជាប់មកជាមួយ</string>
+
+    
+    <string name="display_manager_hdmi_display_name">អេក្រង់ HDMI</string>
+
+    
+    <string name="display_manager_overlay_display_name">ស្រទាប់ #<xliff:g id="id">%1$d</xliff:g></string>
+
+    
+    <string name="display_manager_overlay_display_title"><xliff:g id="name">%1$s</xliff:g>: <xliff:g id="width">%2$d</xliff:g>x<xliff:g id="height">%3$d</xliff:g>, <xliff:g id="dpi">%4$d</xliff:g> ចំណុចក្នុងមួយអ៊ិញ</string>
+
+    
+    <string name="wifi_display_notification_title">ការបង្ហាញភាពគ្មានខ្សែត្រូវបានតភ្ជាប់</string>
+    
+    <string name="wifi_display_notification_message">អេក្រង់នេះកំពុងបង្ហាញនៅលើឧបករណ៍ផ្សេង</string>
+    
+    <string name="wifi_display_notification_disconnect">ផ្តាច់ការតភ្ជាប់</string>
+
+    
+    
+    <string name="kg_emergency_call_label">ការហៅក្នុងគ្រាអាសន្ន</string>
+    
+    <string name="kg_forgot_pattern_button_text">ភ្លេចលំនាំ</string>
+    
+    <string name="kg_wrong_pattern">ខុសលំនាំ</string>
+    
+    <string name="kg_wrong_password">ខុសពាក្យសម្ងាត់</string>
+    
+    <string name="kg_wrong_pin">ខុស PIN</string>
+    
+    <string name="kg_too_many_failed_attempts_countdown">សាកល្បងម្តងទៀតក្នុងរវាង  <xliff:g id="number">%d</xliff:g> វិនាទី ។ </string>
+    
+    <string name="kg_pattern_instructions">គូរលំនាំរបស់អ្នក</string>
+    
+    <string name="kg_sim_pin_instructions">បញ្ចូល PIN របស់ SIM </string>
+    
+    <string name="kg_pin_instructions">បញ្ចូល PIN</string>
+    
+    <string name="kg_password_instructions">បញ្ចូលពាក្យសម្ងាត់</string>
+    
+    <string name="kg_puk_enter_puk_hint">SIM ឥឡូវបានធ្វើឲ្យអសកម្ម​ ។ បញ្ចូលកូដ PUK ដើម្បីបន្ត ។ សូមទំនាក់ទំនងជាមួយអ្នកផ្តល់សេវាសម្រាប់ព័ត៌មានលំអិត ។</string>
+    
+    <string name="kg_puk_enter_pin_hint">បញ្ចូលកូដ PIN ដែលអ្នកចង់បាន</string>
+    
+    <string name="kg_enter_confirm_pin_hint">បញ្ជាក់កូដ PIN ដែលអ្នកចង់បាន</string>
+    
+    <string name="kg_sim_unlock_progress_dialog_message">ដោះសោ SIM កាត\u2026</string>
+    
+    <string name="kg_password_wrong_pin_code">កូដ PIN ដែលមិនត្រឹមត្រូវ ។</string>
+    
+    <string name="kg_invalid_sim_pin_hint">វាយ PIN ដែលមានលេខពី 4 ទៅ 8 តួ ។</string>
+    
+    <string name="kg_invalid_sim_puk_hint">កូដ PUK ត្រូវមានលេខ 8 ខ្ទង់ ឬច្រើនជាងនេះ ។</string>
+    
+    <string name="kg_invalid_puk">សូមបញ្ចូលកូដ PUK សារថ្មីឲ្យត្រឹមត្រូវ ។ ការសាកល្បងដដែលៗនាំឲ្យ SIM ត្រូវបានធ្វើឲ្យអសកម្មជាអចិន្ត្រៃយ៍ ។</string>
+      
+    <string name="kg_invalid_confirm_pin_hint" product="default">កូដ PIN មិនត្រូវគ្នាទេ </string>
+    
+    <string name="kg_login_too_many_attempts">សាកល្បងគូគំរូច្រើនពេក</string>
+    
+    <string name="kg_login_instructions">ដើម្បីដោះសោ សូមចុះឈ្មោះចូលដោយប្រើគណនី Google របស់អ្នក ។</string>
+    
+    <string name="kg_login_username_hint">ឈ្មោះអ្នកប្រើ (អ៊ីម៉េល)</string>
+    
+    <string name="kg_login_password_hint">ពាក្យសម្ងាត់</string>
+    
+    <string name="kg_login_submit_button">ចុះហត្ថលេខាចូល</string>
+    
+    <string name="kg_login_invalid_input">ឈ្មោះអ្នកប្រើ និងពាក្យសម្ងាត់មិនមានសុពលភាព ។</string>
+    
+    <string name="kg_login_account_recovery_hint">ភ្លេចឈ្មោះអ្នកប្រើ និងពាក្យសម្ងាត់របស់អ្នកមែនទេ\?\nទ្សនា <b>google.com/accounts/recovery</b> ។</string>
+    
+    <string name="kg_login_checking_password">កំពុងឆែកគណនី\u2026</string>
+    
+    <string name="kg_too_many_failed_pin_attempts_dialog_message">អ្នកបានវាយ PIN របស់អ្នកខុសចំនួន <xliff:g id="number">%d</xliff:g> ដង ។ \n\nសាកល្បងម្តងទៀតក្នុងពេល <xliff:g id="number">%d</xliff:g> វិនាទី ។</string>
+    
+    <string name="kg_too_many_failed_password_attempts_dialog_message">អ្នកបានវាយពាក្យសម្ងាត់របស់អ្នកខុសចំនួន <xliff:g id="number">%d</xliff:g> ដង ។ \n\nសាកល្បងម្តងទៀតក្នុងពេល <xliff:g id="number">%d</xliff:g> វិនាទី ។</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message">អ្នកបានគូរគំរូដោះសោរបស់អ្នកខុសចំនួន <xliff:g id="number">%d</xliff:g> ដង ។ \n\nសាកល្បងម្តងទៀតក្នុងពេល <xliff:g id="number">%d</xliff:g> វិនាទី ។</string>
+    
+    <string name="kg_failed_attempts_almost_at_wipe" product="tablet">អ្នកបានប៉ុនប៉ងដោះសោកូនកុំព្យូទ័រខុសចំនួន <xliff:g id="number">%d</xliff:g> ដង ។ បន្ទាប់ពី <xliff:g id="number">%d</xliff:g> ការប៉ុនប៉ងច្រើនដង ដោយបរាជ័យ កូនកុំព្យូទ័រនឹងត្រូវសិតឡើងវិញទៅរកភាពដើមពីរោងចក្រ ហើយគ្រប់ទិន្នន័យរបស់អ្នកប្រើនឹងត្រូវបាត់បត់ ។</string>
+    
+    <string name="kg_failed_attempts_almost_at_wipe" product="default">អ្នកបានប៉ុនប៉ុងដោះសោទូរស័ព្ទខុសចំនួន <xliff:g id="number">%d</xliff:g> ដង ។ បន្ទាប់ពី <xliff:g id="number">%d</xliff:g> ការប៉ុនប៉ងច្រើនដង ដោយបរាជ័យ ទូរស័ព្ទនឹងត្រូវសិតឡើងវិញទៅរកភាពដើមពីរោងចក្រ ហើយគ្រប់ទិន្នន័យរបស់អ្នកប្រើនឹងត្រូវបាត់បត់ ។</string>
+    
+    <string name="kg_failed_attempts_now_wiping" product="tablet">អ្នកបានប៉ុនប៉ងដោះសោកូនកុំព្យូទ័រខុសចំនួន <xliff:g id="number">%d</xliff:g> ដង ។ ឥឡូវកូនកុំព្យូទ័រនឹងត្រូវបានសិតឡើងវិញ ទៅរកភាពដើមពីរោងចក្រ ។</string>
+    
+    <string name="kg_failed_attempts_now_wiping" product="default">អ្នកបានប៉ុនប៉ងដោះសោទូរស័ព្ទខុសចំនួន <xliff:g id="number">%d</xliff:g> ដង ។ ឥឡូវទូរស័ព្ទនឹងត្រូវបានសិតឡើងវិញ ទៅរកភាពដើមពីរោងចក្រ ។</string>
+    
+    <string name="kg_failed_attempts_almost_at_login" product="tablet">អ្នកបានគូរលំនាំដោះសោរបស់អ្នកដោយមិនត្រឹមត្រូវចំនួន <xliff:g id="number">%d</xliff:g> ដង ។ ក្រោយពីសាកល្បង <xliff:g id="number">%d</xliff:g> ច្រើនដងដោយបរាជ័យ នឹងមានការស្នើសុំឲ្យ​អ្នកដោះសោកូនកុំព្យូទ័ររបស់អ្នកដោយប្រើគណនីអ៊ីម៉េល ។\n\n សូមសាកល្បងម្តងទៀតក្នុងរយៈពេល <xliff:g id="number">%d</xliff:g> វិនាទី ។</string>
+    
+    <string name="kg_failed_attempts_almost_at_login" product="default">អ្នកបានគូរលំនាំដោះសោរបស់អ្នកដោយមិនត្រឹមត្រូវចំនួន <xliff:g id="number">%d</xliff:g> ដង ។ ក្រោយពីសាកល្បង <xliff:g id="number">%d</xliff:g> ច្រើនដងដោយបរាជ័យ នឹងមានការស្នើសុំឲ្យ​អ្នកដោះសោទូរស័ព្ទរបស់អ្នកដោយប្រើគណនីអ៊ីម៉េល ។\n\n សូមសាកល្បងម្តងទៀតក្នុងរយៈពេល <xliff:g id="number">%d</xliff:g> វិនាទី ។</string>
+    
+    <string name="kg_text_message_separator" product="default">" \u2014 "</string>
+    
+    <string name="kg_reordering_delete_drop_target_text">លុបចោល</string>
+
+    
+    <string name="safe_media_volume_warning" product="default">"បើកវ៉ូលូមឲ្យខ្ពស់ផុតពីកម្រិតសុវត្ថិភាពទេ?\nការស្តាប់ដោយបើកវ៉ូលូមខ្លាំងក្នុងរយៈពេលយូរ អាចធ្វើឲ្យខូចត្រចៀកបាន ។"</string>
+
+    
+    <string name="continue_to_enable_accessibility">ចុចម្រាមដៃពីរឲ្យជាប់ដើម្បីធ្វើឲ្យសិទ្ធិចូលដល់សកម្ម ។</string>
+    
+    <string name="accessibility_enabled">សិទ្ធិចូលដល់បានធ្វើឲ្យសកម្ម ។</string>
+    
+    <string name="enable_accessibility_canceled">សិទ្ធិចូលដល់បានលើកលែង ។</string>
+    
+    <string name="user_switched">អ្នកប្រើបច្ចុប្បន្ន <xliff:g id="name" example="Bob">%1$s</xliff:g> ។</string>
+    
+    <string name="owner_name" msgid="3879126011135546571">ម្ចាស់</string>
+    
+    <string name="storage_phone">ការផ្ទុកឯកសារក្នុងទូរស័ព្ទ</string>
+    
+    <string name="storage_external_usb">ការផ្ទុកឯកសារក្នុងឧបករណ៍ USB ខាងក្រៅ</string>
+
+    <string name="zz_keyguard_accessibility_voice_unlock">ដោះសោសំឡេង។</string>
+</resources>

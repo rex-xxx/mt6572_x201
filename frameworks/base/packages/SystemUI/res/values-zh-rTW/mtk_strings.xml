@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="plmn_searching">搜尋中</string>
+    <string name="gemini_default_sim_always_ask">每次詢問</string>
+    <string name="gemini_default_sim_auto">自動</string>
+    <string name="accessibility_phone_four_bars">"電話訊號強度四格。"</string>
+    <string name="sim_switch_tip">此 SIM 卡已設為\"<xliff:g>%s</xliff:g>\"的預設 SIM 卡。按住狀態列並往下拖曳，即可變更預設 SIM 卡。</string>
+    <string name="remind_next_time">下次再提醒我</string>
+    <string name="voice_call_service">語音通話服務</string>
+    <string name="messages_service">訊息服務</string>
+    <string name="data_connection_service">資料連線服務</string>
+    <string name="wifi">"Wi-Fi"</string>
+    <string name="bluetooth">"藍牙"</string>
+    <string name="mobile">資料連結</string>
+    <string name="gps">"GPS"</string>
+    <string name="autorotate">"自動旋轉"</string>
+    <string name="normal">"正常"</string>
+    <string name="meeting">"會議"</string>
+    <string name="mute">"靜音"</string>
+    <string name="outdoor">"戶外"</string>
+    <string name="offline">飛航模式</string>
+    <string name="brightness">亮度</string>
+    <string name="timeout">休眠</string>
+    <string name="data_connection_attach_timeout_error_msg">資料連結失敗或目前網路忙碌</string>
+    <string name="data_connection_datach_timeout_error_msg">資料連結移除失敗</string>
+    <string name="data_connection_connected">[%s] SIM 卡資料連結已啟用</string>
+    <string name="gemini_intenet_call">"網路通話"</string>
+    <string name="gemini_default_sim_never">"關閉"</string>
+    <string name="gemini_3g_disable_warning">"所選 SIM 卡無法使用 3G 服務，將導致資料載入速度變慢。您可前往 [設定] > [無線與網路] > [行動網路] 變更 3G 服務設定。"</string>
+    <string name="gemini_3g_disable_warning_cu">所選 SIM 卡無法使用 3G 服務，將導致資料載入速度變慢。您可前往 [設定] > [SIM 管理] 變更 3G 服務設定。</string>    
+    <string name="gemini_3g_disable_warning_case0">"您必須先啟用此 SIM 卡的數據漫遊功能，但此舉會產生高額漫遊費用！是否確定要啟用數據漫遊功能，並選擇此 SIM 卡？"</string>  
+    <string name="gemini_3g_disable_warning_case1">"所選 SIM 卡未啟用 3G 服務，因此載入資料的速度較慢。您可前往 [設定] &gt; [無線和網路] &gt; [行動網路] 來變更 3G 服務。確定要選擇此 SIM 卡?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"所選 SIM 卡未啟用 3G 服務，因此載入資料的速度較慢。您可前往 [設定] &gt; [SIM 卡管理] 來變更 3G 服務。確定要選擇此 SIM 卡?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"您必須先啟用此 SIM 卡的資料漫遊功能；啟用後會產生較昂貴的漫遊費用！此外，所選 SIM 卡未啟用 3G 服務，因此載入資料的速度較慢。您可前往 [設定] &gt; [無線和網路] &gt; [行動網路] 來變更 3G 服務。確定要選擇此 SIM 卡？"</string>  
+    <string name="gemini_3g_disable_warning_case4">"您必須先啟用此 SIM 卡的資料漫遊功能；啟用後會產生較昂貴的漫遊費用！此外，所選 SIM 卡未啟用 3G 服務，因此載入資料的速度較慢。您可前往 [設定] &gt; [SIM 卡管理] 來變更 3G 服務。確定要選擇此 SIM 卡?"</string>  
+    <string name="confirm_radio_title">SIM 已關閉</string>
+    <string name="confirm_radio_msg"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g>目前關閉中。是否啟動此 SIM 卡？</string>
+    <string name="confirm_radio_msg_single">已啟用飛行模式，是否要關閉？</string>
+    <string name="confirm_radio_lbutton">開啟</string>
+    <string name="dlg_no">"否"</string>  
+    <string name="dlg_yes">"是"</string>  
+    <string name="builtin_installer_title_message">內建光碟機</string>  
+    <string name="builtin_installer_dlg_message">是否啟動內建光碟機？</string>  
+    <string name="builtin_installer_always_allowed">下次別再顯示</string>	 
+    <string name="OK">"確定"</string>  
+    <string name="application_guide_title">切換預設 SIM 卡</string>  
+    <string name="application_guide_content">將通知清單往下滑以切換預設 SIM 卡</string> 
+    <string name="audio_profile">音訊設定檔</string>
+    <string name="data_usage">"資料用量"</string>
+    <string name="user_owner">"擁有者"</string>
+</resources>

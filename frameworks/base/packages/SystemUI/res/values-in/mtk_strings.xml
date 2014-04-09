@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="gemini_default_sim_always_ask">Selalu tanya</string>
+    <string name="sim_switch_tip">SIM ini ditetapkan sebagai kartu SIM default untuk \"<xliff:g>%s</xliff:g>\". Tahan dan tarik ke bawah Panel Status untuk mengubah kartu SIM default.</string>
+    <string name="remind_next_time">Ingatkan saya nanti</string>
+    <string name="voice_call_service">layanan panggilan suara</string>
+    <string name="messages_service">layanan pesan</string>
+    <string name="data_connection_service">layanan sambungan data</string>
+    <string name="wifi">"Wi-Fi"</string>
+    <string name="bluetooth">"Bluetooth"</string>
+    <string name="mobile">Sambungan data</string>
+    <string name="gps">GPS</string>
+    <string name="autorotate">Rotasi otomatis</string>
+    <string name="normal">Umum</string>
+    <string name="meeting">Rapat</string>
+    <string name="mute">"Diam"</string>
+    <string name="outdoor">Luar Ruangan</string>
+    <string name="offline">Mode pesawat terbang</string>
+    <string name="brightness">Kecerahan</string>
+    <string name="timeout">Batas waktu</string>
+    <string name="data_connection_attach_timeout_error_msg">Sambungan data gagal atau jaringan saat ini sibuk</string>
+    <string name="data_connection_datach_timeout_error_msg">Pemutusan sambungan data gagal</string>
+    <string name="data_connection_connected">Sambungan data kartu SIM [%s] diaktifkan</string>
+    <string name="gemini_intenet_call">Panggilan Internet</string>  
+    <string name="gemini_default_sim_never">Nonaktif</string>
+    <string name="gemini_3g_disable_warning">"Layanan 3G tidak tersedia dengan SIM yang dipilih. Tindakan ini mungkin akan memperlambat pemuatan data. Anda dapat mengubah pengaturan layanan 3G dalam Pengaturan &gt; Nirkabel &amp; jaringan &gt; Jaringan selular."</string>
+    <string name="gemini_3g_disable_warning_cu">"Layanan 3G tidak tersedia dengan SIM yang dipilih. Tindakan ini mungkin akan memperlambat pemuatan data. Anda dapat mengubah pengaturan layanan 3G dalam Pengaturan &gt; Manajemen SIM."</string>
+    <string name="gemini_3g_disable_warning_case0">"Anda harus terlebih dulu mengaktifkan roaming data untuk SIM ini yang dapat menimbulkan biaya roaming signifikan! Anda yakin ingin mengaktifkan roaming data dan memilih SIM ini?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"Layanan 3G tidak tersedia dengan SIM yang dipilih. Memuat data mungkin menjadi lebih lambat. Anda dapat mengubah pengaturan layanan 3G dalam Pengaturan &gt; Nirkabel &amp; jaringan &gt; Jaringan selular. Anda yakin ingin memilih SIM ini?</string>  
+    <string name="gemini_3g_disable_warning_case2">"Layanan 3G tidak tersedia dengan SIM yang dipilih. Memuat data mungkin menjadi lebih lambat. Anda dapat mengubah pengaturan layanan 3G dalam Pengaturan &gt; Manajemen SIM. Anda yakin ingin memilih SIM ini?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"Anda harus mengaktifkan roaming data untuk SIM ini terlebih dulu dan dapat dikenai biaya roaming yang signifikan! Selain itu, layanan 3G tidak tersedia dengan SIM ini. Memuat data mungkin menjadi lebih lambat. Anda dapat mengubahnya dalam Pengaturan &gt; Nirkabel &amp; jaringan &gt; Jaringan selular. Anda yakin ingin mengaktifkan roaming data dan memilih SIM ini?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"Anda harus mengaktifkan roaming data untuk SIM ini terlebih dulu dan dapat dikenai biaya roaming yang signifikan! Selain itu, layanan 3G tidak tersedia dengan SIM ini. Memuat data mungkin menjadi lebih lambat. Anda dapat mengubahnya dalam Pengaturan &gt; Manajemen SIM. Anda yakin ingin mengaktifkan roaming data dan memilih SIM ini?"</string>  
+    <string name="confirm_radio_title">SIM dinonaktifkan</string>
+    <string name="confirm_radio_msg"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> sekarang dinonaktifkan. Anda ingin mengaktifkan kartu SIM ini?</string>
+    <string name="confirm_radio_msg_single">Mode pesawat sekarang diaktifkan, Anda ingin menonaktifkannya?</string>
+    <string name="confirm_radio_lbutton">Mengaktifkan</string>
+    <string name="dlg_no">"Tidak"</string>  
+    <string name="dlg_yes">"Ya"</string>  
+    <string name="builtin_installer_title_message">CD-ROM Internal</string>  
+    <string name="builtin_installer_dlg_message">Aktifkan CD-ROM Internal?</string>  
+    <string name="builtin_installer_always_allowed">Jangan tampilkan lain kali</string>
+    <string name="OK">"OK"</string>  
+    <string name="application_guide_title">Ubah kartu SIM default</string>  
+    <string name="application_guide_content">Geser daftar pemberitahuan ke bawah untuk mengubah kartu SIM default</string> 
+    <string name="audio_profile">Profil audio</string>
+    <string name="data_usage">"Penggunaan data"</string>
+    <string name="user_owner">"Pemilik"</string>
+</resources>

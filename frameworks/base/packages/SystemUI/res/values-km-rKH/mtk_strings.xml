@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <!-- for always ask -->  
+    <string name="gemini_default_sim_always_ask">សួរជានិច្ច</string>  
+    <!-- Name of the status bar as seen in the applications info settings page. [CHAR LIMIT=12] -->  
+    <string name="app_label">ប្រព័ន្ធ UI</string>  
+    <!-- The text for the button in the notification window-shade that clears
+         all of the currently visible notifications. [CHAR LIMIT=10]-->  
+    <string name="status_bar_clear_all_button">សំអាត</string>  
+    <!-- The text for the button in the notification window-shade that turns
+         on do not disturb mode, where notifications no longer show their ticker,
+         no sound plays, and no icons are visible.  The windowshade continues to show
+         the notifications. [CHAR LIMIT=25]-->  
+    <string name="status_bar_do_not_disturb_button">កុំរំខាន</string>  
+    <!-- The text for the button in the notification window-shade that turns
+         off do not disturb mode.  After clicking this, notifications will be
+         shown again. [CHAR LIMIT=25] -->  
+    <string name="status_bar_please_disturb_button">បង្ហាញការប្រាប់ដំណឹង</string>  
+    <!-- Title shown in recents popup for removing an application from the list -->  
+    <string name="status_bar_recent_remove_item_title">លុបចេញពីបញ្ជី</string>  
+    <!-- Title shown in recents popup for inspecting an application's properties -->  
+    <string name="status_bar_recent_inspect_item_title">ព័ត៌មានកម្មវិធី</string>  
+    <!-- Message shown in the middle of the screen after clicking on the recent apps button
+         when there are no recent apps to show. Also used for accessibility. [CHAR LIMIT=45]-->  
+    <string name="status_bar_no_recent_apps">មិនមានកម្មវិធីថ្មីៗទេ</string>  
+    <!-- Content description for the button to dismiss Recent Apps (only present on large
+         devices) -->  
+    <string name="status_bar_accessibility_dismiss_recents">ទាត់ចោលកម្មវិធីថ្មីៗ</string>  
+    <!-- Message that is read when you enter recent apps in TalkBack -->  
+    <plurals name="status_bar_accessibility_recent_apps"> 
+        <item quantity="one">កម្មវិធីថ្មីៗចំនួន 1</item>  
+        <item quantity="other">កម្មវិធីថ្មីៗចំនួន %d</item> 
+    </plurals>  
+    <!-- The label in the bar at the top of the status bar when there are no notifications
+         showing.  [CHAR LIMIT=40]-->  
+    <string name="status_bar_no_notifications_title">មិនមានការប្រាប់ដំណឹងទេ</string>  
+    <!-- The label for the group of notifications for ongoing events in the opened version of
+         the status bar.  An ongoing call is the prime example of this.  The MP3 music player
+         might be another example.   [CHAR LIMIT=40] -->  
+    <string name="status_bar_ongoing_events_title">ផ្ញើចេញ</string>  
+    <!-- The label for the group of notifications for recent events in the opened version of
+         the status bar.  Recently received text messsages (SMS), emails, calendar alerts, etc.
+         [CHAR LIMIT=40] -->  
+    <string name="status_bar_latest_events_title">ការប្រាប់ដំណឹង</string>  
+    <!-- When the battery is low, this is displayed to the user in a dialog.  The title of the low battery alert.  [CHAR LIMIT=NONE]-->  
+    <string name="battery_low_title">ភ្ជាប់ឆ្នាំងសាក</string>  
+    <!-- When the battery is low, this is displayed to the user in a dialog. The subtitle of the low battery alert. [CHAR LIMIT=NONE] -->  
+    <string name="battery_low_subtitle">ថ្មកំពុងស្ថិតក្នុងកម្រិតទាប</string>  
+    <!-- A message that appears when the battery level is getting low in a dialog.  This is
+        appened to the subtitle of the low battery alert.  "number" is the percentage of battery
+        remaining [CHAR LIMIT=none]-->  
+    <string name="battery_low_percent_format">នៅសល់ 
+        <xliff:g id="number">%d%%</xliff:g> 
+    </string>  
+    <!-- A message that appears when a USB charger is plugged in and the device does not
+    support charging on it.  That is, a charger that fits into the USB port and goes into
+    a wall socket, not into a computer. (This happens because some devices require more
+    current than the USB spec allows.  [CHAR LIMIT=NONE] -->  
+    <string name="invalid_charger">មិនអាចសាកតាមរន្ធ USB បានទេ ។\nសូមប្រើតែឆ្នាំងសាកដែលបានផ្តល់ជូន ។</string>  
+    <!-- When the battery is low, this is the label of the button to go to the
+         power usage activity to find out what drained the battery.  [CHAR LIMIT=30] -->  
+    <string name="battery_low_why">ការប្រើថ្ម</string>  
+    <!-- Name of the button that links to the Settings app. [CHAR LIMIT=NONE] -->  
+    <string name="status_bar_settings_settings_button">ការសិត</string>  
+    <!-- Name of the button that links to the Wifi settings screen. [CHAR LIMIT=NONE] -->  
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>  
+    <!-- Label in the system panel for airplane mode (all radios are turned off)[CHAR LIMIT=30] -->  
+    <string name="status_bar_settings_airplane">ម៉ូដជិះយន្តហោះ</string>  
+    <!-- Label in system panel saying the device will use the orientation sensor to rotate [CHAR LIMIT=30] -->  
+    <string name="status_bar_settings_auto_rotation">បង្វិលអេក្រង់ស្វ័យប្រវត្តិ</string>  
+    <!-- Abbreviation / label for mute brightness mode button. Should be all caps. [CHAR LIMIT=6] -->  
+    <string name="status_bar_settings_mute_label">គ</string>  
+    <!-- Abbreviation / label for automatic brightness mode button. Should be all caps. [CHAR LIMIT=6] -->  
+    <string name="status_bar_settings_auto_brightness_label">ស្វ័យប្រវត្តិ</string>  
+    <!-- Label in system panel saying the device will show notifications [CHAR LIMIT=30] -->  
+    <string name="status_bar_settings_notifications">ការប្រាប់ដំណឹង</string>  
+    <!-- Text to display next to the graphical battery meter.  [CHAR LIMIT=3] -->  
+    <string name="status_bar_settings_battery_meter_format" translatable="false"> 
+        <xliff:g id="number">%d</xliff:g>  
+        <xliff:g id="percent">%%</xliff:g> 
+    </string>  
+    <!-- Separator for PLMN and SPN in network name. -->  
+    <string name="status_bar_network_name_separator" translatable="false">|</string>  
+    <!-- Network connection string for Bluetooth Reverse Tethering -->  
+    <string name="bluetooth_tethered">ខ្សែតប្ល៊ូធូត</string>  
+    <!-- Title of a button to open the settings for input methods [CHAR LIMIT=30] -->  
+    <string name="status_bar_input_method_settings_configure_input_methods">តម្លើងវិធីបញ្ចូល</string>  
+    <!-- Label of a toggle switch to disable use of the physical keyboard in favor of the IME. [CHAR LIMIT=25] -->  
+    <string name="status_bar_use_physical_keyboard">ក្តារចុចពិតប្រាកដ</string>  
+    <!-- Prompt for the USB device permission dialog [CHAR LIMIT=80] -->  
+    <string name="usb_device_permission_prompt">អនុញ្ញាតឥ្យកម្មវិធីអាច 
+        <xliff:g id="application">%1$s</xliff:g> ចូលបើកមើលឧបករណ៍ USB ទេ?
+    </string>  
+    <!-- Prompt for the USB accessory permission dialog [CHAR LIMIT=80] -->  
+    <string name="usb_accessory_permission_prompt">អនុញ្ញាតឲ្យកម្មវិធីអាច 
+        <xliff:g id="application">%1$s</xliff:g> ឧបករណ៍បន្ទាប់បន្សំរបស់ USB ទេ?
+    </string>  
+    <!-- Prompt for the USB device confirm dialog [CHAR LIMIT=80] -->  
+    <string name="usb_device_confirm_prompt">បើក 
+        <xliff:g id="activity">%1$s</xliff:g> ទេ ពេលណាដែលឧបករណ៍ USB នេះបានតភ្ជាប់?
+    </string>  
+    <!-- Prompt for the USB accessory confirm dialog [CHAR LIMIT=80] -->  
+    <string name="usb_accessory_confirm_prompt">បើក 
+        <xliff:g id="activity">%1$s</xliff:g> ទេ ពេលឧបករណ៍បន្ទាប់បន្សំរបស់ USB នេះបានតភ្ជាប់?
+    </string>  
+    <!-- Prompt for the USB accessory URI dialog [CHAR LIMIT=80] -->  
+    <string name="usb_accessory_uri_prompt">មិនមានកម្មវិធីណាមួយដែលបានតម្លើងអាចបើរបានជាមួយនឹងឧបករណ៍បន្ទាប់បន្សំរបស់ USB នេះបានទេ ។ សិក្សាបន្ថែមអំពីឧបករណ៍បន្ទាប់បន្សំនេះនៅឯ 
+        <xliff:g id="url">%1$s</xliff:g> 
+    </string>  
+    <!-- Title for USB accessory dialog.  Used when the name of the accessory cannot be determined.  [CHAR LIMIT=50] -->  
+    <string name="title_usb_accessory">ឧបករណ៍បន្ទាប់បន្សំ USB</string>  
+    <!-- View button label for USB dialogs.  [CHAR LIMIT=15] -->  
+    <string name="label_view">មើល</string>  
+    <!-- Checkbox label for USB device dialogs.  [CHAR LIMIT=50] -->  
+    <string name="always_use_device">ប្រើអ្វីដែលសិតពីរោងចក្រ សម្រាប់ឧបករណ៍ USB នេះ</string>  
+    <!-- Checkbox label for USB accessory dialogs.  [CHAR LIMIT=50] -->  
+    <string name="always_use_accessory">ប្រើអ្វីដែលសិតពីរោងចក្រ សម្រាប់ឧបករណ៍បន្ទាប់បន្សំ USB នេះ</string>  
+    <!-- Checkbox label for application compatibility mode ON (zooming app to look like it's running
+         on a phone).  [CHAR LIMIT=25] -->  
+    <string name="compat_mode_on">ពង្រីកឲ្យពេញអេក្រង់</string>  
+    <!-- Checkbox label for application compatibility mode OFF (normal mode on tablets).
+         [CHAR LIMIT=25] -->  
+    <string name="compat_mode_off">ពន្លាតឲ្យពេញអេក្រង់</string>  
+    <!-- Compatibility mode help screen: header text. [CHAR LIMIT=50] -->  
+    <string name="compat_mode_help_header">ការពង្រីកដែលប្រើបាន</string>  
+    <!-- Compatibility mode help screen: body text. [CHAR LIMIT=150] -->  
+    <string name="compat_mode_help_body">ពេលដែលកម្មវិធីមួយត្រូវបានរចនាឡើង សម្រាប់អេក្រង់តូចៗ មុខងារគ្រប់គ្រងការពង្រីក នឹងបង្ហាញឡើងនៅក្បែរនាឡិកា ។</string>  
+    <!-- Notification ticker displayed when a screenshot is being saved to the Gallery. [CHAR LIMIT=30] -->  
+    <string name="screenshot_saving_ticker">កំពុងរក្សាទុកការថតអេក្រង់\u2026</string>  
+    <!-- Notification title displayed when a screenshot is being saved to the Gallery. [CHAR LIMIT=50] -->  
+    <string name="screenshot_saving_title">កំពុងរក្សាទុកការថតអេក្រង់\u2026</string>  
+    <!-- Notification text displayed when a screenshot is being saved to the Gallery. [CHAR LIMIT=100] -->  
+    <string name="screenshot_saving_text">ការថតអេក្រង់កំពុងត្រូវបានរក្សាទុក ។</string>  
+    <!-- Notification title displayed when a screenshot is saved to the Gallery. [CHAR LIMIT=50] -->  
+    <string name="screenshot_saved_title">បានថតអេក្រង់ ។</string>  
+    <!-- Notification text displayed when a screenshot is saved to the Gallery. [CHAR LIMIT=100] -->  
+    <string name="screenshot_saved_text">យកម្រាមដៃប៉ះដើម្បីមើលរូបថតអេក្រង់ ។</string>  
+    <!-- Notification title displayed when we fail to take a screenshot. [CHAR LIMIT=50] -->  
+    <string name="screenshot_failed_title">មិ\នអាចថតអេក្រង់បានទេ ។</string>  
+    <!-- Notification text displayed when we fail to take a screenshot. [CHAR LIMIT=100] -->  
+    <string name="screenshot_failed_text">មិ\នអាចរក្សាទូករូបថតអេក្រង់បានទេ ។ កន្លែងផ្ទុកអាចកំពុងស្ថិតក្នុងការប្រើប្រាស់ ។</string>  
+    <!-- Title for the USB function chooser in UsbPreferenceActivity. [CHAR LIMIT=30] -->  
+    <string name="usb_preference_title">ជម្រើសការផ្ទេរឯកសារ USB</string>  
+    <!-- Label for the MTP USB function in UsbPreferenceActivity. [CHAR LIMIT=50] -->  
+    <string name="use_mtp_button_title">បើកជាអ្នកចាក់មេឌា (MTP)</string>  
+    <!-- Label for the PTP USB function in UsbPreferenceActivity. [CHAR LIMIT=50] -->  
+    <string name="use_ptp_button_title">បើកជាកាមេរ៉ា (PTP)</string>  
+    <!-- Label for the installer CD image option in UsbPreferenceActivity. [CHAR LIMIT=50] -->  
+    <string name="installer_cd_button_title">តម្លើងកម្មវិធីផ្ទេរឯកសារ Android សម្រាប់ Mac</string>  
+    <!-- Content description of the back button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_back">ត្រឡប់ក្រោយ</string>  
+    <!-- Content description of the home button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_home">ផ្ទះ</string>  
+    <!-- Content description of the menu button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_menu">មេនុយ</string>  
+    <!-- Content description of the recents button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_recent">កម្មវិធីថ្មីៗ</string>  
+    <!-- Content description of the switch input method button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_ime_switch_button">ប្តូរប៊ូតុងវិធីបញ្ចូល ។</string>  
+    <!-- Content description of the compatibility zoom button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_compatibility_zoom_button">ប៊ូតុងសម្រាប់ពង្រីកដែលប្រើជាមួយបាន ។</string>  
+    <!-- Content description of picture of the compatibility zoom example for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_compatibility_zoom_example">ពង្រីករូបតូចទៅធំ ។</string>  
+    <!-- Content description of the bluetooth icon when connected for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_bluetooth_connected">បានតភ្ជាប់ប៊ូធូត ។</string>  
+    <!-- Content description of the bluetooth icon when connecting for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_bluetooth_disconnected">បានផ្តាច់ការតភ្ជាប់ប្ល៊ូធូត ។</string>  
+    <!-- Content description of the battery when no battery for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_no_battery">មិនមានថ្មទេ ។</string>  
+    <!-- Content description of the battery when it is one bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_battery_one_bar">ថ្មសល់មួយកាំ ។</string>  
+    <!-- Content description of the battery when it is two bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_battery_two_bars">ថ្មសល់ពីរកាំ ។</string>  
+    <!-- Content description of the battery when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_battery_three_bars">ថ្មសល់បីកាំ ។</string>  
+    <!-- Content description of the battery when it is full for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_battery_full">ថ្មពេញ ។</string>  
+    <!-- Content description of the phone signal when no signal for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_no_phone">មិនមានសេវា ។</string>  
+    <!-- Content description of the phone signal when it is one bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_phone_one_bar">រលកសញ្ញាទូរស័ព្ទមួយកាំ ។</string>  
+    <!-- Content description of the phone signal when it is two bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_phone_two_bars">រលកសញ្ញាទូរស័ព្ទពីរកាំ ។</string>  
+    <!-- Content description of the phone signal when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_phone_three_bars">រលកសញ្ញាទូរស័ព្ទបីកាំ ។</string>  
+    <!-- Content description of the phone signal when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_phone_four_bars">រលកសញ្ញាទូរស័ព្ទបួនកាំ ។</string>  
+    <!-- Content description of the phone signal when it is full for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_phone_signal_full">រលកសញ្ញាទូរស័ព្ទទូរស័ព្ទពេញ ។</string>  
+    <!-- Content description of the data signal when no signal for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_no_data">គ្មានរលកសញ្ញាទិន្នន័យ</string>  
+    <!-- Content description of the data signal when it is one bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_data_one_bar">រលកសញ្ញាទិន្នន័យមួយកាំ ។</string>  
+    <!-- Content description of the data signal when it is two bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_data_two_bars">រលកសញ្ញាទិន្នន័យពីរកាំ ។</string>  
+    <!-- Content description of the data signal when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_data_three_bars">រលកសញ្ញាទិន្នន័យបីកាំ ។</string>  
+    <!-- Content description of the data signal when it is full for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_data_signal_full">រលកសញ្ញាទិន្នន័យពេញ ។</string>  
+    <!-- Content description of the WIFI signal when no signal for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_no_wifi">គ្មានរលកសញ្ញា Wi-Fi ទេ ។</string>  
+    <!-- Content description of the WIFI signal when it is one bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_wifi_one_bar">រលកសញ្ញា Wi-Fi មួយកាំ ។</string>  
+    <!-- Content description of the WIFI signal when it is two bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_wifi_two_bars">រលកសញ្ញា Wi-Fi ពីរកាំ ។</string>  
+    <!-- Content description of the WIFI signal when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_wifi_three_bars">រលកសញ្ញា Wi-Fi បីកាំ ។</string>  
+    <!-- Content description of the WIFI signal when it is full for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_wifi_signal_full">រលកសញ្ញា WiFi ពេញ ។</string>  
+    <!-- Content description of the WiMAX signal when no signal for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_no_wimax">មិនមានរលកសញ្ញា WiMAX ។</string>  
+    <!-- Content description of the WiMAX signal when it is one bar for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_wimax_one_bar">រលកសញ្ញា WiMAX មួយកាំ ។</string>  
+    <!-- Content description of the WiMAX signal when it is two bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_wimax_two_bars">រលកសញ្ញា WiMAX ពីរកាំ ។</string>  
+    <!-- Content description of the WiMAX signal when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_wimax_three_bars">រលកសញ្ញា WiMAX បីកាំ ។</string>  
+    <!-- Content description of the WiMAX signal when it is full for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_wimax_signal_full">រលកសញ្ញា WiMAX ពេញ ។</string>  
+    <!-- Content description of the data connection type GPRS for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_data_connection_gprs">GPRS</string>  
+    <!-- Content description of the data connection type 3G for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_data_connection_3g">3G</string>  
+    <!-- Content description of the data connection type 3.5G for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_data_connection_3.5g">3.5G</string>  
+    <!-- Content description of the data connection type 4G for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_data_connection_4g">4G</string>  
+    <!-- Content description of the data connection type CDMA for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_data_connection_cdma">CDMA</string>  
+    <!-- Content description of the data connection type Edge for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_data_connection_edge">ជ្រុង</string>  
+    <!-- Content description of the data connection type WiFi for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>  
+    <!-- Content description of the data connection with no SIM for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_no_sim">គ្មាន SIM ។</string>  
+    <!-- Content description of the bluetooth tethering icon for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_bluetooth_tether">ខ្សែតប្ល៊ូធូត</string>  
+    <!-- Content description of the airplane mode icon for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_airplane_mode">ម៉ូដជិះយន្តហោះ</string>  
+    <!-- Content description of the battery level icon for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_battery_level">ថ្ម 
+        <xliff:g id="number">%d</xliff:g> ភាគរយ ។
+    </string>  
+    <!-- Content description of the button for showing a settings panel in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_settings_button">ការសិតប្រព័ន្ធ ។</string>  
+    <!-- Content description of the button for showing a notifications panel in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_notifications_button">ការប្រាប់ដំណឹង ។</string>  
+    <!-- Content description of the button for removing a notification in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_remove_notification">សំអាតការប្រាប់ដំណឹង ។</string>  
+    <!-- Content description of the enabled GPS icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_gps_enabled">បានធ្វើឲ្យ GPS សកម្ម ។</string>  
+    <!-- Content description of the acquiring GPS icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_gps_acquiring">កំពុងចាប់យក GPS ។</string>  
+    <!-- Content description of the TeleTypewriter(TTY) enabled icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_tty_enabled">ធ្វើឲ្យអង្គុលីលេខទុរសកម្ម ។</string>  
+    <!-- Content description of the ringer vibrate icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_ringer_vibrate">សម្លេងរោទ៍ញ័រ ។</string>  
+    <!-- Content description of the ringer silent icon in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_ringer_silent">សម្លេងរោទ៍ស្ងាត់ ។</string>  
+    <!-- Content description to tell the user an application has been removed from recents -->  
+    <string name="accessibility_recents_item_dismissed"> 
+        <xliff:g id="app" example="Calendar">%s</xliff:g> បានទាត់ចោល ។
+    </string>  
+    <!-- Title of dialog shown when 2G-3G data usage has exceeded limit and has been disabled. [CHAR LIMIT=48] -->  
+    <string name="data_usage_disabled_dialog_3g_title">ធ្វើឲ្យទិន្នន័យ 2G-3G អសកម្ម</string>  
+    <!-- Title of dialog shown when 4G data usage has exceeded limit and has been disabled. [CHAR LIMIT=48] -->  
+    <string name="data_usage_disabled_dialog_4g_title">ធ្វើឲ្យទិន្នន័យ 4G អសកម្ម</string>  
+    <!-- Title of dialog shown when mobile data usage has exceeded limit and has been disabled. [CHAR LIMIT=48] -->  
+    <string name="data_usage_disabled_dialog_mobile_title">ធ្វើឲ្យទិន្នន័យចល័តអសកម្ម</string>  
+    <!-- Title of dialog shown when data usage has exceeded limit and has been disabled. [CHAR LIMIT=48] -->  
+    <string name="data_usage_disabled_dialog_title">ធ្វើឲ្យទិន្នន័យអសកម្ម</string>  
+    <!-- Body of dialog shown when data usage has exceeded limit and has been disabled. [CHAR LIMIT=NONE] -->  
+    <string name="data_usage_disabled_dialog">អ្ន\កបានឈានចូលដល់ដែនកំណត់ដែឡបានបញ្ជាក់ចំពោះការប្រើទិន្នន័យហើយ ។\n\nបើអ្នកធ្វើឲ្យទិន្នន័យសកម្មឡើងវិញ អ្នកប្រតិករអាចទារថ្លៃពីអ្នក ។</string>  
+    <!-- Dialog button indicating that data connection should be re-enabled. [CHAR LIMIT=28] -->  
+    <string name="data_usage_disabled_dialog_enable">ធ្វើឲ្យទិន្នន័យសកម្មឡើងវិញ</string>  
+    <!-- Text to display underneath the graphical signal strength meter when
+         no connection is available. [CHAR LIMIT=20] -->  
+    <string name="status_bar_settings_signal_meter_disconnected">មិនមានការតភ្ជាប់អ៊ិនថឺណិតទេ</string>  
+    <!-- Text to display underneath the graphical signal strength meter when
+         it is displaying Wi-Fi status and Wi-Fi is connected to a network
+         whose SSID is not available.
+         [CHAR LIMIT=20] -->  
+    <string name="status_bar_settings_signal_meter_wifi_nossid">បានតភ្ជាប់ Wi-Fi</string>  
+    <!-- Notification text: when GPS is getting a fix [CHAR LIMIT=50] -->  
+    <string name="gps_notification_searching_text">កំពុងរាវរក GPS</string>  
+    <!-- Notification text: when GPS has found a fix [CHAR LIMIT=50] -->  
+    <string name="gps_notification_found_text">ទីតាំងសិតដោយ GPS</string>  
+    <!-- Content description of the clear button in the notification panel for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_clear_all">សំអាតការប្រាប់ដំណឹងទាំងអស់ ។</string>  
+    <!-- Description of the desk dock action that invokes the Android Dreams screen saver feature -->  
+    <string name="dreams_dock_launcher">ធ្វើឲ្យអ្នករក្សាអេក្រង់សកម្ម</string>  
+    <!-- Title shown in notification popup for inspecting the responsible
+         application -->  
+    <string name="status_bar_notification_inspect_item_title">ព័ត៌មានកម្មវិធី</string>  
+    <!-- Title for the pseudo-notification shown when notifications are disabled (do-not-disturb
+         mode) -->  
+    <string name="notifications_off_title">បិទការប្រាប់ដំណឹង</string>  
+    <!-- Content text for do-not-disturb mode notification -->  
+    <string name="notifications_off_text">ថេបត្រង់នេះ ដើម្បីបើកការប្រាប់ដំណឹងឡើងវិញ ។</string>  
+    <!-- Description of the button in the phone-style notification panel that controls auto-rotation, when auto-rotation is on. [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_rotation_lock_off">អេក្រង់នឹងត្រូវបង្វិលដោយស្វ័យប្រវត្តិ ។</string>  
+    <!-- Description of the button in the phone-style notification panel that controls auto-rotation, when auto-rotation is off. [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_rotation_lock_on_landscape">អេក្រង់ត្រូវបានចាក់សោក្នុងទ្រង់ទ្រាយផ្តេក ។</string>  
+    <!-- Description of the button in the phone-style notification panel that controls auto-rotation, when auto-rotation is off. [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_rotation_lock_on_portrait">អេក្រង់ត្រូវបានចាក់សោក្នុងទ្រង់ទ្រាយបញ្ឈរ ។</string>  
+    <string name="sim_switch_tip">SIM នេះត្រូវបានសិតជាការសិត SIM កាតពីរោងចក្រសម្រាប់ 
+        <xliff:g>%s</xliff:g> ។ សង្កត់ឲ្យជាប់ រួចហើយអូសចុះក្រោមទៅកាន់ខ្សែស្ថានភាព ដើម្បីប្តូរ SIM កាតដែលសិតពីរោងចក្រ ។
+    </string>  
+    <string name="remind_next_time">រំឭកខ្ញុំនាពេលក្រោយ</string>  
+    <string name="voice_call_service">សេវាកម្មការហៅជាសម្លេង</string>  
+    <string name="messages_service">សេវាកម្មសារ</string>  
+    <string name="data_connection_service">សេវាកម្មការភ្ជាប់ទិន្នន័យ</string>  
+    <string name="wifi">Wi-Fi</string>  
+    <string name="bluetooth">ប្ល៊ូធូត</string>  
+    <string name="mobile">ការតភ្ជាប់ទិន្នន័យ ។</string>  
+    <string name="gps">GPS</string>  
+    <string name="autorotate">ការបង្វិលស្វ័យប្រវត្តិ</string>  
+    <string name="normal">ទូទៅ</string>  
+    <string name="meeting">ការប្រជុំ</string>  
+    <string name="mute">ស្ងាត់</string>  
+    <string name="outdoor">ក្រៅផ្ទះ</string>  
+    <string name="offline">ម៉ូដជិះយន្តហោះ</string>  
+    <string name="brightness">ភ្លឺចាំង</string>  
+    <string name="timeout">អស់ម៉ោង</string>  
+    <string name="data_connection_attach_timeout_error_msg">"ការតភ្ជាប់ទិន្នន័យត្រូវបរាជ័យ ឬបណ្តាញបច្ចុប្បន្នជាប់រវល់ ។"</string>  
+    <string name="data_connection_dettach_timeout_error_msg">"ការផ្តាច់ការតភ្ជាប់ទិន្នន័យបរាជ័យ ។"</string>  
+    <string name="data_connection_connected">[ 
+        <xliff:g>%s</xliff:g>] ការតភ្ជាប់ទិន្នន័យ SIM កាតត្រូវបានធ្វើឲ្យសកម្ម
+    </string>  
+    <string name="gemini_intenet_call">ការហៅតាមអ៊ិនថឺណិត</string>  
+    <string name="gemini_default_sim_never">បិទ</string>  
+    <string name="gemini_3g_indic" translatable="false">3G</string>  
+    <string name="gemini_3g_disable_warning">"មិនមានសេវាកម្ម 3G ជាមួយនឹង SIM មួយនេះដែលបានជ្រើសរើសទេ ។ នេះវាអាចនាំឲ្យការឡូតទិន្នន័យមានល្បឿនយឺត ។ អ្នកអាចប្តូរការសិតសេវាកម្ម 3G ក្រោមការសិត &gt; គ្មានខ្សែ &amp; បណ្តាញ &gt; បណ្តាញចល័ត ។ តើអ្នកពិតជាចង់ជ្រើសរើស SIM នេះមែនទេ?"</string>  
+    <string name="gemini_3g_disable_warning_cu">"មិនមានសេវាកម្ម 3G ជាមួយនឹង SIM មួយនេះដែលបានជ្រើសរើសទេ ។ នេះវាអាចនាំឲ្យការឡូតទិន្នន័យមានល្បឿនយឺត ។ អ្នកអាចប្តូរការសិតសេវាកម្ម 3G​ ក្រោមការសិត &gt; ការចាត់ចែង SIM ។ តើអ្នកពិតជាចង់ជ្រើសរើស SIM នេះមែនទេ?"</string>  
+    <string name="gemini_3g_disable_warning_case0">"អ្នកត្រូវធ្វើឲ្យការរ៉ូមិងទិន្នន័យសម្រាប់ SIM មួយនេះសកម្មជាមុនសិន ដែលអ្នកអាចត្រូវចំណាយបន្ថែមលើសេវាម្មរ៉ូមិង! តើអ្នកពិតជាចង់ធ្វើឲ្យការរ៉ូមិងទិន្នន័យសកម្ម ហើយជ្រើសយក SIM នេះមែនទេ?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"សេវាកម្ម 3G មិនអាចប្រើបានជាមួយនឹង SIM នេះទ ។ វាអាចឡូតទិន្នន័យបានដោយយឺតៗ ។ អ្នកអាចប្តូរការសិតសេវាកម្ម 3G ក្រោម ការសិត &gt; គ្មានខ្សែ &amp; បណ្តាញ &gt; បណ្តាញចល័ត ។ តើអ្នកពិតជាចង់ជ្រើសយក SIM នេះមែនទេ?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"សេវាកម្ម 3G មិនអាចប្រើបានជាមួយនឹង SIM នេះទ ។ វាអាចឡូតទិន្នន័យបានដោយយឺតៗ ។ អ្នកអាចប្តូរការសិតសេវាកម្ម 3G ក្រោម ការសិត &gt; ការចាត់ចែង SIM ។ តើអ្នកពិតជាចង់ជ្រើសយក SIM នេះមែនទេ?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"អ្នកត្រូវធ្វើឲ្យការរ៉ូមិងទិន្នន័យសម្រាប់ SIM នេះឲ្យសកម្មជាមុនសិន ដែលអ្នកអាចត្រូវចំណាយបន្ថែមលើសេវាម្មរ៉ូមិង! ក្រៅពីនេះ សេវាកម្ម 3G មិនអាចប្រើបានជាមួយ SIM នេះទេ ។ វាអាចឡូតទិន្នន័យបានដោយយឺតៗ ។ អ្នកអាចប្តូរវាក្រោម ការសិត &gt; គ្មានខ្សែ &amp; បណ្តាញ &gt; បណ្តាញចល័ត ។ តើអ្នកពិតជាចង់ធ្វើឲ្យការរ៉ូមិងទិន្នន័យសកម្ម ហើយជ្រើសយក SIM នេះមែនទេ?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"អ្នកត្រូវធ្វើឲ្យការរ៉ូមិងទិន្នន័យសម្រាប់ SIM នេះឲ្យសកម្មជាមុនសិន ដែលអ្នកអាចត្រូវចំណាយបន្ថែមលើសេវាម្មរ៉ូមិង! ក្រៅពីនេះ សេវាកម្ម 3G មិនអាចប្រើបានជាមួយ SIM នេះទេ ។ វាអាចឡូតទិន្នន័យបានដោយយឺតៗ ។ អ្នកអាចប្តូរវាក្រោម ការសិត &gt; ការចាត់ចែង SIM ។ តើអ្នកពិតជាចង់ធ្វើឲ្យការរ៉ូមិងទិន្នន័យសកម្ម ហើយជ្រើសយក SIM នេះមែនទេ?"</string>  
+    <string name="confirm_radio_title">SIM បានបិទ</string>  
+    <string name="confirm_radio_msg"> 
+        <xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> ឥឡូវបានបិទហើយ ។ តើអ្នកចង់បើក SIM កាតនេះទេ?
+    </string>  
+    <string name="confirm_radio_msg_single">ម៉ូដជិះយន្តហោះត្រូវបើក ឥឡូវតើអ្នកចង់បិទទេ?</string>  
+    <string name="confirm_radio_lbutton">បើក</string>  
+    <string name="builtin_installer_title_message">CD-ROM នៅជាប់នឹងម៉ាស៊ីន</string>  
+    <string name="builtin_installer_dlg_message">បើក CD-ROM ដែលនៅជាប់នឹងម៉ាស៊ីនទេ?</string>  
+    <string name="builtin_installer_always_allowed">លើកក្រោយ កុំ\បង្ហាញ</string>  
+    <string name="dlg_no">ទេ</string>  
+    <string name="dlg_yes">បាទ</string> 
+    <string name="OK">យល់ព្រម</string>  
+    <string name="application_guide_title">ប្តូរស៊ិមកាតកំណត់ពីនាយ</string>  
+    <string name="application_guide_content">បង្អូសបញ្ជីប្រាប់ដំណឹងចុះក្រោម ដើម្បីប្តូរស៊ិមកាតកំណត់ពីនាយ</string> 
+    <string name="audio_profile">ទម្រង់អូឌីអូ</string>
+    <string name="data_usage">ការប្រើទិន្នន័យ</string>
+    <string name="user_owner">ម្ចាស់</string>
+    <string name="usb_debugging_title">អនុញ្ញាតឲ្យរកមើលកំហុស USB ទេ?</string>
+    <string name="usb_debugging_message">សោស្នាមម្រាមដៃ RSA របស់កុំព្យូទ័រគឺ ៖\n<xliff:g id="fingerprint">%1$s</xliff:g></string>
+    <string name="usb_debugging_always">ជានិច្ចកាលអនុញ្ញាតពីកុំព្យូទ័រនេះ</string>
+    <string name="accessibility_wifi_off">បិទ Wifi ។</string>
+    <string name="accessibility_no_signal">មិនមានសញ្ញា ។</string>
+    <string name="accessibility_not_connected">មិនបានតភ្ជាប់ ។</string>
+    <string name="accessibility_zero_bars">សូន្យកាំ ។</string>
+    <string name="accessibility_one_bar">មួយកាំ ។</string>
+    <string name="accessibility_two_bars">ពីរកាំ ។</string>
+    <string name="accessibility_three_bars">បីកាំ ។</string>
+    <string name="accessibility_signal_full">សញ្ញាពេញ ។</string>
+    <string name="accessibility_desc_on">បើក ។</string>
+    <string name="accessibility_desc_off">បិទ ។</string>
+    <string name="accessibility_desc_connected">បានតភ្ជាប់ ។</string>
+    <string name="accessibility_data_connection_1x">1 X</string>
+    <string name="accessibility_data_connection_hspa">HSPA</string>
+    <string name="accessibility_data_connection_roaming">រ៉ូមិង</string>
+    <string name="accessibility_notification_dismissed">លុបចោលការប្រាប់ដំណឹង ។</string>
+    <string name="accessibility_desc_notification_shade">ការប្រាប់ដំណឹងចោលស្រមោល ។</string>
+    <string name="accessibility_desc_quick_settings">ការកំណត់បែបរហ័ស ។</string>
+    <string name="accessibility_desc_recent_apps">កម្មវិធីថ្មីៗ ។</string>
+    <string name="accessibility_quick_settings_user">អ្នកប្រើ <xliff:g id="user" example="JohnDoe">%s</xliff:g> ។</string>
+    <string name="accessibility_quick_settings_wifi"><xliff:g id="signal" example="Threebars">%1$s</xliff:g> ។ <xliff:g id="network" example="MyWifiNetwork">%2$s</xliff:g></string>
+    <string name="accessibility_quick_settings_mobile">ចល័ត <xliff:g id="signal" example="Threebars">%1$s</xliff:g> ។ <xliff:g id="type" example="4G">%2$s</xliff:g> ។   <xliff:g id="network" example="T-Mobile">%3$s</xliff:g> ។</string>
+    <string name="accessibility_quick_settings_battery">ថ្ម <xliff:g id="state" example="50%charging">%s</xliff:g> ។</string>
+    <string name="accessibility_quick_settings_airplane">ម៉ូដជិះយន្តហោះ <xliff:g id="state" example="Off">%s</xliff:g> ។</string>
+    <string name="accessibility_quick_settings_bluetooth">ប៊្លូធូត <xliff:g id="state" example="Off">%s</xliff:g> ។</string>
+    <string name="accessibility_quick_settings_alarm">ការពញ្ញាក់អារម្មណ៍កំណត់សម្រាប់ <xliff:g id="time" example="Wed3:30PM">%s</xliff:g> ។</string>
+    <string name="close_universe">បិទ</string>
+    <string name="jelly_bean_dream_name">BeanFlinger</string>
+    <string name="start_dreams">គំនិតរវើរវាយ</string>
+    <string name="ethernet_label">Ethernet</string>
+    <string name="quick_settings_airplane_mode_label">ម៉ូដជិះយន្តហោះ</string>
+    <string name="quick_settings_battery_charging_label">កំពុងសាកថ្ម <xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g></string>
+    <string name="quick_settings_battery_charged_label">សាកថ្ម</string>
+    <string name="quick_settings_bluetooth_label">ប្ល៊ូធូត</string>
+    <string name="quick_settings_bluetooth_multiple_devices_label">ប៊្លូធូត (<xliff:g id="number">%d</xliff:g> ឧបករណ៍)</string>
+    <string name="quick_settings_bluetooth_off_label">បិទប៊្លូធូត</string>
+    <string name="quick_settings_brightness_label">ភ្លឺចាំង</string>
+    <string name="quick_settings_rotation_unlocked_label">បង្វិលដោយស្វ័យប្រវត្តិ</string>
+    <string name="quick_settings_rotation_locked_label">ការបង្វិលបានជាប់សោ</string>
+    <string name="quick_settings_ime_label">វិធីបញ្ចូល</string>
+    <string name="quick_settings_location_label">ទីតាំងក្នុងការប្រើការ</string>
+    <string name="quick_settings_media_device_label">ឧបករណ៍មេឌា</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">សម្រាប់តែហៅក្នុងគ្រាអាសន្ន</string>
+    <string name="quick_settings_settings_label">ការសិត</string>
+    <string name="quick_settings_time_label">ម៉ោង</string>
+    <string name="quick_settings_user_label">ខ្ញុំ</string>
+    <string name="quick_settings_wifi_label">Wi-Fi</string>
+    <string name="quick_settings_wifi_not_connected">មិនបានតភ្ជាប់ទេ</string>
+    <string name="quick_settings_wifi_no_network">មិនមានបណ្តាញ</string>
+    <string name="quick_settings_wifi_off_label">បិទ Wi-Fi</string>
+    <string name="quick_settings_wifi_display_label">បង្ហាញ Wi-Fi</string>
+    <string name="quick_settings_wifi_display_no_connection_label">បង្ហាញបណ្តាញគ្មានខ្សែ</string>
+    <string name="quick_settings_brightness_dialog_title">ភ្លឺចាំង</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">ស្វ័យប្រវត្តិ</string>
+    <string name="status_bar_help_title">ការប្រាប់ដំណឹងបង្ហាញទីនេះ</string>
+    <string name="status_bar_help_text">ចូលបើកមើលបានគ្រប់ពេលដោយការរំកិលចុះក្រោម ។\nរំអិលចុះក្រោមម្តងទៀតដើម្បីការគ្រប់គ្រងប្រព័ន្ធ ។</string>
+</resources>

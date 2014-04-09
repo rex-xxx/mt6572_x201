@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="sim_switch_tip">\"<xliff:g>%s</xliff:g>\" के लिए यह SIM कार्ड डिफ़ॉल्ट SIM कार्ड के रूप में सेट है. डिफ़ॉल्ट SIM कार्ड बदलने के लिए स्थिति बार को होल्ड करके नीचे ड्रैग करें.</string>
+    <string name="remind_next_time">अगली बार मुझे याद दिलाएं</string>
+    <string name="voice_call_service">ध्वनि कॉल सेवा</string>
+    <string name="messages_service">संदेश सेवा</string>
+    <string name="data_connection_service">डेटा कनेक्शन सेवा</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="bluetooth">ब्लूटूथ</string>
+    <string name="mobile">डेटा कनेक्शन</string>
+    <string name="gps">GPS</string>
+    <string name="autorotate">स्वत: घुमाव</string>
+    <string name="normal">सामान्य</string>
+    <string name="meeting">मीटिंग</string>
+    <string name="mute">मौन</string>
+    <string name="outdoor">आउटडोर</string>
+    <string name="offline">एयरप्‍लेन मोड</string>
+    <string name="brightness">चमक</string>
+    <string name="timeout">समयसमाप्त</string>
+    <string name="data_connection_attach_timeout_error_msg">"डेटा कनेक्शन विफल हुआ या वर्तमान में नेटवर्क व्यस्त है."</string>
+    <string name="data_connection_dettach_timeout_error_msg">"डेटा कनेक्शन डिटैच विफल हुआ."</string>
+    <string name="data_connection_connected">[%s] SIM कार्ड डेटा कनेक्शन सक्षम किया हुआ है</string>
+    <string name="gemini_intenet_call">इंटरनेट कॉल</string>
+    <string name="gemini_default_sim_never">ऑफ</string>
+    <string name="gemini_3g_disable_warning">"इस चयनित सिम के साथ 3G सेवा उपलब्ध नहीं है। यह डेटा लोड करना धीमा कर सकता है। आप 3G सेवा सेटिंग को सेटिंग्स &gt; वायरलेस और नेटवर्क &gt; मोबाइल नेटवर्क अंतर्गत बदल सकते हैं।"</string>
+     <string name="gemini_3g_disable_warning_cu">"इस चयनित सिम के साथ 3G सेवा उपलब्ध नहीं है। यह डेटा लोड करना धीमा कर सकता है। आप 3G सेवा सेटिंग को सेटिंग्स &gt; सिम प्रबंधन के अंतर्गत बदल सकते हैं।"</string>
+    <string name="gemini_3g_disable_warning_case0">"पहले आपको इस सिम के लिए डेटा रोमिंग सक्षम करना पड़ेगा जिसके कारण रोमिंग शुल्क उल्लेखनीय रूप से बढ़ सकता है! क्या आप सचमुच डेटा रोमिंग सक्षम करना चाहते हैं और इस सिम को चुनना चाहते हैं।"</string>  
+    <string name="gemini_3g_disable_warning_case1">"3जी सेवा इस चयनित सिम के साथ उपलब्ध नहीं है। यह डेटा को संभवतः धीरे लोड कर सकता है। आप सेटिंग्स &gt; वायरलेस एवं नेटवर्क &gt; मोबाइल नेटवर्क के अंतर्गत 3जी सेवा सेटिंग परिवर्तित कर सकते हैं। क्या आप वाकई इस सिम को चुनना चाहते हैं?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"3जी सेवा इस चयनित सिम के साथ उपलब्ध नहीं है। यह डेटा को संभवतः धीरे लोड कर सकता है। आप सेटिंग्स &gt; सिम प्रबंधन के अंतर्गत 3जी सेवा सेटिंग परिवर्तित कर सकते हैं। क्या आप वाकई इस सिम को चुनना चाहते हैं?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"आपको पहले इस सिम के लिए डेटा रोमिंग सक्षम करना पड़ेगा जिसके कारण काफी रोमिंग शुल्क लग सकता है! इसके अतिरिक्त, 3जी सेवा इस सिम के साथ उपलब्ध नहीं है। यह डेटा को संभवतः धीरे लोड कर सकता है। आप इसे सेटिंग्स &gt; वायरलेस एवं नेटवर्क &gt; मोबाइल नेटवर्क के अंतर्गत परिवर्तित कर सकते हैं। क्या आप वाकई डेटा रोमिंग सक्षम करना और इस सिम को चुनना चाहते हैं?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"आपको पहले इस सिम के लिए डेटा रोमिंग सक्षम करना पड़ेगा जिसके कारण काफी रोमिंग शुल्क लग सकता है! इसके अतिरिक्त, 3जी सेवा इस सिम के साथ उपलब्ध नहीं है। यह डेटा को संभवतः धीरे लोड कर सकता है। आप इसे सेटिंग्स &gt; सिम प्रबंधन के अंतर्गत परिवर्तित कर सकते हैं। क्या आप वाकई डेटा रोमिंग सक्षम करना और इस सिम को चुनना चाहते हैं?"</string>  
+    <string name="gemini_3g_indic">3G</string>
+    <string name="gemini_default_sim_always_ask">हमेशा पूछें</string>
+    <string name="confirm_radio_title">SIM बंद कर दिया गया है</string>
+    <string name="confirm_radio_msg">  %1$s को अब बंद कर दिया गया है. क्या आप इस SIM कार्ड को चालू करना चाहेंगे?</string>
+    <string name="confirm_radio_lbutton">चालू करें</string>
+    <string name="confirm_radio_msg_single">हवाई जहाज मोड अब चालू कर दिया गया है, क्या आप बंद करना चाहेंगे?</string>
+    <string name="OK">"ठीक"</string>  
+    <string name="application_guide_title">डिफ़ॉल्ट सिम कार्ड में बदलें</string>  
+    <string name="application_guide_content">डिफ़ॉल्ट सिम कार्ड में बदलने के लिए सूचना सूची को नीचे सरकाएँ</string> 
+    <string name="audio_profile">ऑडियो प्रोफाइल</string>
+    <string name="data_usage">"डेटा उपयोग"</string>
+    <string name="user_owner">"स्वामी"</string>
+</resources>

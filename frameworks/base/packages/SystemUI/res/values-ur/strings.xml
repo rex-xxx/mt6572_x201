@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="gemini_default_sim_always_ask">ہمیشہ پوچھیں</string> 
+    <string name="app_label" msgid="4489004083283879149">اسٹیٹس بار</string>
+    <string name="status_bar_clear_all_button" msgid="7774721344716731603">صاف کرنا</string>
+    <string name="status_bar_no_notifications_title" msgid="4755261167193833213">کوئی اطلاعات نہیں</string>
+    <string name="status_bar_ongoing_events_title" msgid="1682504513316879202">چل رہا ہے</string>
+    <string name="status_bar_latest_events_title" msgid="6594767438577593172">اطلاعات</string>
+    <string name="battery_low_title" msgid="7923774589611311406">برائے مہربانی چارجر لگائیں</string>
+    <string name="battery_low_subtitle" msgid="7388781709819722764">بیٹری ختم ہوری ہے:</string>
+    <string name="battery_low_percent_format" msgid="696154104579022959"><xliff:g id="نمبر">%d%%</xliff:g> یا اسے سے بھی کم باقی ہے۔</string>
+    <string name="battery_low_why" msgid="7279169609518386372">بیٹری کا استعمال</string>
+    <string name="sim_switch_tip">یہ سم کارڈ <xliff:g>%s</xliff:g> کے لئے بطور بنیادی سم کارڈ ہے۔ بنیادی سم کارڈ تبدیل کرنے کے لئے اسٹیٹس بار کو پکٹر کر نیچے لائیں۔</string>
+    <string name="remind_next_time">اگلی مرتبہ مجھے یاد دلائیں</string>
+    <string name="voice_call_service">وائس کال خدمت</string>
+    <string name="messages_service">پیغامات خدمت</string>
+    <string name="data_connection_service">ڈیٹا کنکشن خدمت</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="mobile">ڈیٹا کنکشن</string>
+    <string name="gps">GPS</string>
+    <string name="autorotate">خودکار گھماؤ</string>
+    <string name="normal">عام</string>
+    <string name="meeting">ملاقات</string>
+    <string name="mute">خاموش</string>
+    <string name="outdoor">بیرونی</string>
+    <string name="offline">ہوائی جہاز وضع</string>
+    <string name="brightness">اجلا پن</string>
+    <string name="timeout">تعطل وقت</string>
+    <string name="data_connection_attach_timeout_error_msg">"ڈیٹا کنکشن ناکام یا ابھی نیٹ ورک مصروف ہے۔"</string>
+    <string name="data_connection_dettach_timeout_error_msg">"ڈیٹا کنکشن کو علیحدہ کرنا ناکام۔"</string>
+    <string name="data_connection_connected">[<xliff:g>%s</xliff:g>] سم کارڈ ڈیٹا کنکشن فعال ہے</string>
+    <string name="gemini_intenet_call">انٹرنیٹ کال</string>
+    <string name="gemini_default_sim_never">بند</string>
+    <string name="confirm_radio_title">سم کارڈ بند</string>
+    <string name="confirm_radio_msg"> <xliff:g id="operator_name" example="CMCC">%1$s</xliff:g>ابھی بند ہے۔ کیا آپ یہ سم کارڈ چالو کرنا چاہیں گے؟</string>
+    <string name="confirm_radio_msg_single">ائیر پلین موڈ ابھی چالو ہے، کیا آپ اسے بند کرنا چاہیں گے؟</string>
+    <string name="confirm_radio_lbutton">آن</string>
+    <string name="usb_accessory_permission_prompt">USB اضافی پر رسائی کرنے کے لئے %1$s ایپلی کیشن کو اجازت دیں؟ </string>
+    <string name="usb_device_confirm_prompt">جب یہ USB آلہ متصل ہو تو %1$s کھولیں؟ </string>
+    <string name="usb_accessory_confirm_prompt">جب یہ USB اضافی متصل ہوتو %1$s کھولیں؟</string>
+    <string name="usb_accessory_uri_prompt" msgid="6332150684964235705">اس USB اضافی کیذریعہ کوئی بھی انسٹال شدہ ایپلی کیشن کام نہیں کرتی ہے۔ <xliff:g id="url">%1$s</xliff:g> پر اس اضافی کے حوالے سے مزید معلومات حاصل کریں</string>
+    <string name="title_usb_accessory" msgid="4966265263465181372">USB اضافی</string>
+    <string name="label_view" msgid="6304565553218192990">دیکھنا</string>
+    <string name="always_use_accessory" msgid="1210954576979621596">اس USB اضافی کے لئے بنیادی طور پر استعمال کریں</string>
+    <string name="gemini_3g_disable_warning">"اس منتخب کردہ SIM کے ساتھ 3G خدمت دستیاب نہيں ہے۔ اس کی وجہ سے ممکن ہے کہ ڈیٹا لوڈ کرنے کی رفتار کم ہو۔ آپ ترتیبات &gt; وائرلیس اور نیٹورک &gt; موبائل نیٹورکس کے تحت 3G خدمت کی ترتیب تبدیل کرسکتے ہيں۔"</string>
+    <string name="gemini_3g_disable_warning_cu">"اس منتخب کردہ SIM کے ساتھ 3G خدمت دستیاب نہيں ہے۔ اس کی وجہ سے ممکن ہے کہ ڈیٹا لوڈ کرنے کی رفتار کم ہو۔ آپ ترتیبات &gt; SIM انتظام کے تحت 3G خدمت کی ترتیب تبدیل کرسکتے ہيں۔"</string>
+    <string name="data_usage_disabled_dialog_3g_title">2G-3G ڈیٹا غیرفعال</string>  
+    <string name="data_usage_disabled_dialog_4g_title">4G ڈيٹا غیرفعال</string>  
+    <string name="data_usage_disabled_dialog_mobile_title">موبائل ڈيٹا غیرفعال</string>  
+    <string name="data_usage_disabled_dialog_title">ڈیٹا غیرفعال</string>  
+    <string name="data_usage_disabled_dialog">آپ واضح کردہ ڈيٹا کے استعمال کی حد تک پہنچ گئے ہیں۔\n\nڈیٹا دوبارہ فعال کرنے کی صورت میں ممکن ہے کہ آپ پر آپریٹر کی طرف سے اخراجات کا اطلاق ہو۔</string>  
+    <string name="data_usage_disabled_dialog_enable">ڈیٹا دوبارہ فعال کریں</string>
+    <string name="status_bar_no_recent_apps">کوئی حالیہ اطلاقات نہیں</string>  
+    <string name="screenshot_saving_ticker">اسکرین شاٹ محفوظ کیا جارہا ہے\u2026</string>  
+    <string name="screenshot_saving_title">اسکرین شاٹ محفوظ کیا جارہا ہے\u2026</string>  
+    <string name="screenshot_saving_text">اسکرین شاٹ محفوظ کیا جارہا ہے۔</string>  
+    <string name="screenshot_saved_title">اسکرین شاٹ لے لیا گیا۔</string>  
+    <string name="screenshot_saved_text">اپنا اسکرین شاٹ دیکھنے کیلئے چھوئیں۔</string>  
+    <string name="screenshot_failed_title">اسکرین شاٹ نہیں لیا جاسکتا۔</string>  
+    <string name="screenshot_failed_text">اسکرین شاٹ محفوظ نہیں کیا جاسکتا۔ اسٹوریج زیر استعمال ہوسکتا ہے۔</string> 
+</resources>
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="OK">ٹھیک ہے</string>  
+    <string name="application_guide_title">ڈیفالٹ SIM کارڈ میں تبدیل کریں</string>  
+    <string name="application_guide_content">ڈیفالٹ SIM کارڈ کو تبدیل کرنے کیلئے اطلاعات کی فہرست کو نیچے کھسکائیں</string> 
+    <string name="audio_profile">آڈیو پروفائلیں</string>
+    <string name="data_usage">ڈیٹا کا استعمال</string>
+    <string name="gemini_3g_disable_warning_case0">"آپ کو پہلے اس SIM کے لئے ڈيٹا گشت فعال کرنے کی ضرورت ہے جس کی وجہ سے قابل قدر گشت کے اخراجات لاگو ہوسکتے ہيں! کیا آپ ڈیٹا کے گشت کو فعال کرکے اس SIM کا انتخاب کرنا چاہتے ہیں؟"</string>  
+    <string name="gemini_3g_disable_warning_case1">"اس منتخب کردہ SIM کے ساتھ 3G خدمت دستیاب نہيں ہے۔ اس کی وجہ سے ممکن ہے کہ ڈیٹا لوڈ کرنے کی رفتار کم ہو۔ آپ ترتیبات &gt; وائرلیس اور نیٹورک &gt; موبائل نیٹورکس کے تحت 3G خدمت کی ترتیب تبدیل کرسکتے ہيں۔"</string>  
+    <string name="gemini_3g_disable_warning_case2">"اس منتخب کردہ SIM کے ساتھ 3G خدمت دستیاب نہيں ہے۔ اس کی وجہ سے ممکن ہے کہ ڈیٹا لوڈ کرنے کی رفتار کم ہو۔ آپ ترتیبات &gt; SIM انتظام کے تحت 3G خدمت کی ترتیب تبدیل کرسکتے ہيں۔"</string>  
+    <string name="gemini_3g_disable_warning_case3">"آپ کو پہلے اس SIM کے لئے ڈيٹا گشت فعال کرنے کی ضرورت ہے جس کی وجہ سے قابل قدر گشت کے اخراجات لاگو ہوسکتے ہيں! اس کے علاوہ، اس منتخب کردہ SIM کے ساتھ 3G کی خدمت دستیاب نہيں ہے۔ آپ ترتیبات &gt; وائرلیس اور نیٹورک &gt; موبائل نیٹورکس کے تحت 3G خدمت کی ترتیب تبدیل کرسکتے ہيں۔ کیا آپ ڈیٹا کے گشت کو فعال کرکے اس SIM کا انتخاب کرنا چاہتے ہیں؟"</string>  
+    <string name="gemini_3g_disable_warning_case4">"آپ کو پہلے اس SIM کے لئے ڈيٹا گشت فعال کرنے کی ضرورت ہے جس کی وجہ سے قابل قدر گشت کے اخراجات لاگو ہوسکتے ہيں! اس کے علاوہ، اس منتخب کردہ SIM کے ساتھ 3G کی خدمت دستیاب نہيں ہے۔ آپ ترتیبات &gt; SIM کے انتظام کے تحت 3G خدمت کی ترتیب تبدیل کرسکتے ہيں۔ کیا آپ ڈیٹا کے گشت کو فعال کرکے اس SIM کا انتخاب کرنا چاہتے ہیں؟"</string>  
+    <string name="user_owner">مالک</string>
+</resources>

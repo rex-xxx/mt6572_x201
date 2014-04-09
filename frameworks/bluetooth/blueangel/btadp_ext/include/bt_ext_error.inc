@@ -1,0 +1,4 @@
+
+ERR_DEF(BT_STSTUS_SUCCESS, 0)
+ERR_DEF(BT_STSTUS_NO_RESOURCE, 1)
+ERR_DEF(BT_STSTUS_HFP, 200)	/* Start of HFP related error cause */

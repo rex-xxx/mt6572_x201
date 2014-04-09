@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="plmn_searching">正在搜索</string>
+    <string name="gemini_default_sim_always_ask">"总是询问"</string>
+    <string name="gemini_default_sim_auto">自动</string>
+    <string name="accessibility_phone_four_bars">"手机信号强度为四格。"</string>
+    <string name="sim_switch_tip">这张SIM卡是\"<xliff:g>%s</xliff:g>\"的当前默认卡。按住并拉下状态栏可以改变该设置。</string>
+    <string name="remind_next_time">下次提醒我</string>
+    <string name="voice_call_service">语音电话</string>
+    <string name="messages_service">消息</string>
+    <string name="data_connection_service">数据连接</string>
+    <string name="wifi">"WLAN"</string>
+    <string name="bluetooth">"蓝牙"</string>
+    <string name="mobile">"数据连接"</string>
+    <string name="gps">"GPS"</string>
+    <string name="autorotate">"自动转屏"</string>
+    <string name="normal">"标准"</string>
+    <string name="meeting">"会议"</string>
+    <string name="mute">"静音"</string>
+    <string name="outdoor">"户外"</string>
+    <string name="offline">飞行模式</string>
+    <string name="brightness">屏幕亮度</string>
+    <string name="timeout">休眠</string>
+    <string name="data_connection_attach_timeout_error_msg">"数据连接失败，或目前网络繁忙。"</string>
+    <string name="data_connection_dettach_timeout_error_msg">"取消数据连接失败。"</string>
+    <string name="data_connection_connected">SIM 卡 [<xliff:g>%s</xliff:g>] 数据连接开启</string>
+    <string name="gemini_intenet_call">"互联网电话"</string>
+    <string name="gemini_default_sim_never">"关闭"</string>
+    <string name="gemini_3g_disable_warning">"此 SIM 卡不支持 3G 服务。  数据链接速度可能变慢。 您可以进入 设置 > 无线和网络 > 移动网络 进行修改。"</string>
+    <string name="gemini_3g_disable_warning_cu">"此 SIM 卡不支持 3G 服务。  数据链接速度可能变慢。 您可以进入 设置 > SIM 卡管理  进行修改。"</string>
+    <string name="gemini_3g_disable_warning_case0">"这张SIM卡必须要先开通漫游，这将产生大量漫游费！确定要开通漫游并选择这张卡吗？"</string>
+    <string name="gemini_3g_disable_warning_case1">"这张SIM卡上的3G服务不可用，将会使上网变慢。可以在 设置 > 无线和网络 > 移动网络 下更改3G服务。确定要选择这张卡吗？"</string>
+    <string name="gemini_3g_disable_warning_case2">"这张SIM卡上的3G服务不可用，将会使上网变慢。可以在 设置 > SIM卡管理 下更改3G服务。确定要选择这张卡吗？"</string>
+    <string name="gemini_3g_disable_warning_case3">"这张SIM卡必须要先开通漫游，这将产生大量漫游费！而且这张SIM卡上的3G服务不可用，将会使上网变慢。可以在 设置 > 无线和网络 > 移动网络 下更改3G服务。确定要开通漫游并选择这张卡吗？"</string>
+    <string name="gemini_3g_disable_warning_case4">"这张SIM卡必须要先开通漫游，这将产生大量漫游费！而且这张SIM卡上的3G服务不可用，将会使上网变慢。可以在 设置 > SIM卡管理 下更改3G服务。确定要开通漫游并选择这张卡吗？"</string>
+    <string name="confirm_radio_title">SIM卡关闭</string>
+    <string name="confirm_radio_msg"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g>卡已关闭。是否打开?</string>
+    <string name="confirm_radio_msg_single">SIM卡已关闭。是否打开?</string>
+    <string name="confirm_radio_lbutton">打开</string>
+
+    <string name="builtin_installer_title_message">内置光盘</string>
+    <string name="builtin_installer_dlg_message">打开内置光盘?</string>
+    <string name="builtin_installer_always_allowed">下次不再显示</string>
+    <string name="dlg_no">否</string>
+    <string name="dlg_yes">是</string>
+    <string name="OK">确定</string>  
+    <string name="application_guide_title">﻿选择默认SIM卡</string>  
+    <string name="application_guide_content">下拉通知栏选择默认SIM卡</string> 
+    <string name="audio_profile">情景模式</string>
+    <string name="data_usage">流量使用情况</string>
+    <string name="user_owner">"机主"</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="data_connection_connected">[<xliff:g>%s</xliff:g>] Ang koneksyon ng data ng SIM card ay pinapagana</string>
+    <string name="brightness">Liwanag</string>
+    <string name="timeout">Timeout</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="mobile">Kon. Ng data</string>
+    <string name="gps">GPS</string>
+    <string name="autorotate">Awto na pagpihit</string>
+    <string name="normal">Pangkalahatan</string>
+    <string name="meeting">Pulong</string>
+    <string name="mute">Tahimik</string>
+    <string name="outdoor">Sa labas</string>
+    <string name="offline">Airplane na mode</string>
+    <string name="gemini_default_sim_always_ask">Laging magtanong</string>
+    <string name="sim_switch_tip">Ang SIM na ito ay itinakda bilang default na SIM card para sa 
+        <xliff:g>%s</xliff:g>. Pindutin at hatakin pababa ang Status Bar upang baguhin ang default na SIM card.
+    </string>
+    <string name="gemini_3g_disable_warning">"Ang 3G serbisyo ay hindi available sa napiling SIM. Ito ay maaaring makapagpabagal sa pag-load ng data. Maaari mong baguhin ang 3G serbisyo na setting sa Mga Setting &gt; Wireless &amp; networks &gt; Mobile networks."</string>
+    <string name="gemini_3g_disable_warning_cu">"Ang 3G serbisyo ay hindi available sa napiling SIM. Ito ay maaaring makapagpabagal sa pag-load ng data. Maaari mong baguhin ang setting ng 3G serbisyo sa Mga Setting &gt; SIM management."</string>
+    <string name="gemini_3g_disable_warning_case0">"Kailangan mong i-enable ang data roaming para sa SIM na ito subalit ito ay maaaring maningil ng bayad sa roaming! Sigurado ka bang ie-enable ang data roaming at pipiliin ang SIM na ito?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"Ang serbisyong 3G service ay hindi magagamit sa napiling SIM na ito. Maaari itong mas mabagal mag-load ng data. Mapapalitan mo ang setting ng serbisyong 3G sa ilalim ng Settings &gt; Wireless &amp; networks &gt; Mobile networks. Sigurado ka bang pipiliin mo ang SIM na ito?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"Ang serbisyong 3G service ay hindi magagamit sa napiling SIM na ito. Maaari itong mas mabagal mag-load ng data. Mapapalitan mo ang setting ng serbisyong 3G sa ilalim ng Settings &gt; SIM management. Sigurado ka bang pipiliin mo ang SIM na ito?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"Dapat mo munang paganahin ang data roaming para sa SIM na ito na maaaring magkaroon ng makabuluhang singil sa roaming! Bagaman ang serbisyong 3G ay hindi magagamit sa SIM na ito. Maaari itong mas mabagal mag-load ng data. Mapapalitan mo ang setting ng serbisyong 3G sa ilalim ng Settings &gt; Wireless &amp; networks &gt; Mobile networks. Sigurado ka bang pagaganahin mo ang roaming ng data at pipilii ang SIM na ito?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"Dapat mo munang paganahin ang data roaming para sa SIM na ito na maaaring magkaroon ng makabuluhang singil sa roaming! Bagaman ang serbisyong 3G ay hindi magagamit sa SIM na ito. Maaari itong mas mabagal mag-load ng data. Mapapalitan mo ang setting ng serbisyong 3G sa ilalim ng Settings &gt; SIM management. Sigurado ka bang pagaganahin mo ang roaming ng data at pipilii ang SIM na ito?"</string>  
+    <string name="dlg_no">"Hindi"</string>  
+    <string name="dlg_yes">"Oo"</string>  
+    <string name="builtin_installer_title_message">Built-in CD-ROM</string>  
+    <string name="builtin_installer_dlg_message">Buksan ang Built-in CD-ROM?</string>  
+    <string name="builtin_installer_always_allowed">Huwag ipakita sa susunod</string>
+    <string name="OK">"OK"</string>  
+    <string name="application_guide_title">Ilipat ang default na SIM card</string>  
+    <string name="application_guide_content">Ibaba ang listahan ng abiso upang ilipat ang default na SIM card</string> 
+    <string name="audio_profile">Mga audio profile</string>
+    <string name="data_usage">"Paggamit ng data"</string>
+    <string name="user_owner">"May-ari"</string>
+</resources>

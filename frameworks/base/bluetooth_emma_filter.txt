@@ -1,0 +1,6 @@
++android.server.BluetoothA2dpService
++android.server.BluetoothHealthProfileHandler
++android.bluetooth.BluetoothHealth
++android.bluetooth.BluetoothHealthAppConfiguration
++android.server.BluetoothA2dpService
+

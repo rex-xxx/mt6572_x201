@@ -1,0 +1,28 @@
+
+*** These modified files were found in JOE when it aborted on Wed Jan 23 16:59:48 2013
+*** JOE was aborted by UNIX signal 15
+
+*** File '(Unnamed)'
+.git/COMMIT_EDITMSG
+.git/COMMIT_EDITMSG
+*** File '(Unnamed)'
+.git/COMMIT_EDITMSG
+
+*** File '.git/COMMIT_EDITMSG'
+[ALPS00449955] add feature option:MTK_SIM_HOT_SWAP
+
+CR-Id: ALPS00449955
+CR-Title: [SIM hot swap] add new feature option: MTK_RADIOOFF_POWER_OFF_MD and MTK_SIM_HOT_SWAP
+CR-Template:
+CR-Source: RD
+CR-Class: Change feature
+Change-Id: Ied03bca789211d935b773079b2333ac1d7d7e6dc
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch jb2.mp/dev
+# Changes to be committed:
+#   (use "git reset HEAD^1 <file>..." to unstage)
+#
+#	modified:   src/java/com/android/internal/telephony/RIL.java
+#

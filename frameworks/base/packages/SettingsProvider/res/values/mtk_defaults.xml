@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources>
+    <bool name="def_auto_time_gps">false</bool>
+    <bool name="def_roaming_indicate_needed">false</bool>
+    <string name="def_landscape_launcher" translatable="false">none</string>
+    <integer name="wifi_select_ssid_type">2</integer>
+    <string name="def_active_profile" translatable="false">mtk_audioprofile_general</string>
+    <!-- Default for dual sim -->
+    <integer name="boot_up_select_mode" translatable="false">0</integer>
+    <!-- Default for input method -->
+    <string name="default_input_method" translatable="false">com.mediatek.ime/.MtkIME</string>
+    <!-- Default for ipo settings -->
+    <bool name="def_ipo_setting" translatable="false">true</bool>
+    <!-- Default for international dialing settings -->
+    <integer name="def_international_dialing" translatable="false">1</integer>
+    <!--  Streaming parameter -->
+    <string name="mtk_rtsp_name" translatable="false">Streaming</string>
+    <string name="mtk_rtsp_to_proxy" translatable="false">10.0.0.172</string>
+    <string name="mtk_rtsp_netinfo" translatable="false">EGPRS,10,100</string>
+    <string name="mtk_rtsp_to_napid" translatable="false">CMCC WAP</string>
+    <string name="mtk_rtsp_max_udp_port" translatable="false">65535</string>
+    <string name="mtk_rtsp_min_udp_port" translatable="false">1024</string>
+
+    <!-- Default for Settings.System.VOICE_CALL_REJECT_MODE -->
+    <integer name="def_voice_call_reject_mode">0</integer>
+    <!-- Default for Settings.System.VIDEO_CALL_REJECT_MODE -->
+    <integer name="def_video_call_reject_mode">0</integer>
+
+    <!-- Default for Settings.System.IVSR_SETTING --> 
+    <integer name="def_ivsr_setting">1</integer> 
+
+    <!-- Default for Settings.Secure.BATTERY_PERCENTAGE -->
+    <bool name="def_battery_percentage">false</bool>
+    <integer name="def_cro_setting">1</integer>
+    <integer name="def_hoo_setting">1</integer>
+
+    <!-- Default for Settings.System.TETHER_IPV6_FEATURE -->
+    <integer name="def_tether_ipv6_feature">0</integer> 
+    <!-- M: mtk datausage -->
+    <bool name="data_usage_on_lockscreen">false</bool>
+    <bool name="def_wfd_auto_connect_on">true</bool>
+</resources>

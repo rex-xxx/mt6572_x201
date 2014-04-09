@@ -1,0 +1,8 @@
++com.android.server.am.*
++com.android.server.am.ActivityManagerService*
++com.android.server.am.AppErrorDialog*
++com.android.server.am.TaskRecord*
++com.android.server.am.ActivityRecord*
++com.android.server.am.TransferPipe*
++com.android.server.am.ActivityStack*
++com.android.server.am.BroadcastQueue*

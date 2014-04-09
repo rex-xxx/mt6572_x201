@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="gemini_default_sim_always_ask">Luôn hỏi</string>
+    <string name="sim_switch_tip">SIM này được cài làm SIM mặc định cho \"<xliff:g>%s</xliff:g>\". Giữ và kéo thanh tình trạng xuống để đổi thẻ SIM mặc định.</string>
+    <string name="remind_next_time">Nhắc tôi lần sau</string>
+    <string name="voice_call_service">dịch vụ gọi thoại</string>
+    <string name="messages_service">dịch vụ tin nhắn</string>
+    <string name="data_connection_service">dịch vụ kết nối dữ liệu</string>
+    <string name="wifi">"Wi-Fi"</string>
+    <string name="bluetooth">"Bluetooth"</string>
+    <string name="mobile">Kết nối dữ liệu</string>
+    <string name="gps">GPS</string>
+    <string name="autorotate">Xoay tự động</string>
+    <string name="normal">Chung</string>
+    <string name="meeting">Hội nghị</string>
+    <string name="mute">Im lặng</string>
+    <string name="outdoor">Ngoài trời</string>
+    <string name="offline">Chế độ máy bay</string>
+    <string name="brightness">Độ sáng</string>
+    <string name="timeout">Tạm dừng</string>
+    <string name="data_connection_attach_timeout_error_msg">Không thể kết nối dữ liệu hoặc mạng hiện hành đang bận</string>
+    <string name="data_connection_datach_timeout_error_msg">Không thể ngắt kết nối dữ liệu</string>
+    <string name="data_connection_connected">[%s] Kết nối dữ liệu thẻ SIM đã được bật</string>
+    <string name="gemini_intenet_call">Gọi internet</string>  
+    <string name="gemini_default_sim_never">Tắt</string>
+    <string name="gemini_3g_disable_warning">"Dịch vụ 3G không có sẵn với SIM vừa chọn này. Điều này có thể tải dữ liệu chậm hơn. Bạn có thể thay đổi cài đặt dịch vụ 3G trong Cài đặt &gt; Không dây &amp; mạng &gt; Mạng di động."</string>
+    <string name="gemini_3g_disable_warning_cu">"Dịch vụ 3G không có sẵn với SIM vừa chọn này. Điều này có thể tải dữ liệu chậm hơn. Bạn có thể thay đổi cài đặt dịch vụ 3G trong Cài đặt &gt; Quản lý SIM."</string>
+    <string name="gemini_3g_disable_warning_case0">"Trước tiên bạn phải bật chuyển vùng dữ liệu cho SIM này vốn có thể chịu các mức cước chuyển vùng đáng kể! Bạn chắc chắn muốn bật chuyển dùng dữ liệu và chọn SIM này?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"Dịch vụ 3G không có sẵn với SIM vừa chọn này. Thao tác này có thể tải dữ liệu chậm hơn. Bạn có thể thay đổi cài đặt dịch vụ 3G trong Cài đặt &gt; Không dây &amp; mạng &gt; Mạng di động. Chắc chắn muốn chọn SIM này?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"Dịch vụ 3G không có sẵn với SIM vừa chọn này. Thao tác này có thể tải dữ liệu chậm hơn. Bạn có thể thay đổi cài đặt dịch vụ 3G trong Cài đặt &gt; Quản lý SIM. Bạn chắc chắn muốn chọn SIM này?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"Trước tiên bạn phải bật chuyển vùng dữ liệu cho SIM này vốn có thể chịu mức cước chuyển vùng đáng kể! Ngoài ra, dịch vụ 3G không có sẵn với SIM này. Thao tác này có thể tải dữ liệu chậm hơn. Bạn có thể thay đổi nó trong Cài đặt &gt; Không dây &amp; mạng &gt; Mạng di động. Bạn chắc chắn muốn bật chuyển vùng dữ liệu và chọn SIM này?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"Trước tiên bạn phải bật chuyển vùng dữ liệu cho SIM này vốn có thể chịu mức cước chuyển vùng đáng kể! Ngoài ra, dịch vụ 3G không có sẵn với SIM này. Thao tác này có thể tải dữ liệu chậm hơn. Bạn có thể thay đổi nó trong Cài đặt &gt; Không dây &amp; mạng &gt; Mạng di động. Bạn chắc chắn muốn bật chuyển vùng dữ liệu và chọn SIM này?"</string>  
+    <string name="confirm_radio_title">Đã tắt SIM</string>
+    <string name="confirm_radio_msg"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> hiện đã tắt. Bạn muốn bật thẻ SIM này?</string>
+    <string name="confirm_radio_msg_single">Chế độ máy bay hiện đang bật, bạn muốn tắt?</string>
+    <string name="confirm_radio_lbutton">Bật</string>
+    <string name="dlg_no">"Không"</string>  
+    <string name="dlg_yes">"Có"</string>  
+    <string name="builtin_installer_title_message">CD-ROM tích hợp</string>  
+    <string name="builtin_installer_dlg_message">Bật CD-ROM tích hợp?</string>  
+    <string name="builtin_installer_always_allowed">Đừng hiển thị lần sau</string>	
+    <string name="OK">"OK"</string>  
+    <string name="application_guide_title">Chuyển SIM mặc định</string>  
+    <string name="application_guide_content">Sổ xuống danh sách thông báo để chuyển SIM mặc định</string> 
+    <string name="audio_profile">C.hình âm thanh</string>
+    <string name="data_usage">"Sử dụng dữ liệu"</string>
+    <string name="user_owner">"Chủ sở hữu"</string>
+</resources>

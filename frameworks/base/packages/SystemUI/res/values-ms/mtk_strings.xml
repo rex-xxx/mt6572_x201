@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="gemini_default_sim_always_ask">Sentiasa bertanya</string>
+    <string name="sim_switch_tip">SIM ini ditetapkan sebagai kad SIM lalai untuk \"<xliff:g>%s</xliff:g>\". Pegang dan seret ke bawah Bar Status untuk menukar kad SIM lalai.</string>
+    <string name="remind_next_time">Ingatkan saya lain kali</string>
+    <string name="voice_call_service">perkhidmatan panggilan suara</string>
+    <string name="messages_service">perkhidmatan mesej</string>
+    <string name="data_connection_service">perkhidmatan sambungan data</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="mobile">Sambungan data</string>
+    <string name="gps">"GPS"</string>
+    <string name="autorotate">Putaran auto</string>
+    <string name="normal">Umum</string>
+    <string name="meeting">Mesyuarat</string>
+    <string name="mute">Senyap</string>
+    <string name="outdoor">Di luar</string>
+    <string name="offline">Mod pesawat</string>
+    <string name="brightness">Kecerahan</string>
+    <string name="timeout">Masa tamat</string>
+    <string name="data_connection_attach_timeout_error_msg">Gagal sambungkan data atau rangkaian kini sibuk</string>
+    <string name="data_connection_datach_timeout_error_msg">Gagal melepaskan sambungan data</string>
+    <string name="data_connection_connected">[%s] Sambungan data kad SIM didayakan</string>
+    <string name="gemini_intenet_call">Panggilan Internet</string>
+    <string name="gemini_default_sim_never">Sentiasa bertanya</string>
+    <string name="gemini_3g_disable_warning">"Perkhidmatan 3G tidak tersedia dengan SIM yang dipilih ini. Ini boleh memuatkan data dengan perlahan. Anda boleh menukar tetapan perkhidmatan 3G di bawah Tetapan &gt; Wayarles &amp; rangkaian &gt; Rangkaian mudah alih."</string>
+     <string name="gemini_3g_disable_warning_cu">"Perkhidmatan 3G tidak tersedia dengan SIM yang dipilih ini. Ini boleh memuatkan data dengan perlahan. Anda boleh menukar tetapan perkhidmatan 3G di bawah Tetapan &gt; Pengurusan SIM."</string>
+    <string name="gemini_3g_disable_warning_case0">"Anda mesti mendayakan perayauan data untuk SIM ini dahulu yang boleh dikenakan caj perayauan yang tinggi! Adakah anda pasti mahu mendayakan perayauan data dan memilih SIM ini?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"Perkhidmatan 3G tidak tersedia dengan SIM yang dipilih ini. Ini boleh memuatkan data dengan perlahan. Anda boleh menukar tetapan perkhidmatan 3G di bawah Tetapan &gt; Wayarles &amp; rangkaian &gt; Rangkaian mudah alih. Adakah anda pasti mahu memilih SIM ini?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"Perkhidmatan 3G tidak tersedia dengan SIM yang dipilih ini. Ini boleh memuatkan data dengan perlahan. Anda boleh menukar tetapan perkhidmatan 3G di bawah Tetapan &gt; Pengurusan SIM. Adakah anda pasti mahu memilih SIM ini?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"Anda mesti mendayakan perayauan data untuk SIM ini terlebih dahulu yang boleh dikenakan caj perayauan yang tinggi! Selain itu, perkhidmatan 3G tidak tersedia dengan SIM ini. Ini boleh memuatkan data dengan perlahan. Anda boleh menukarkannya di bawah Tetapan &gt; Wayarles &amp; rangkaian &gt; Rangkaian mudah alih. Adakah anda pasti mahu mendayakan perayauan data dan memilih SIM ini?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"Anda mesti mendayakan perayauan data untuk SIM ini terlebih dahulu yang boleh dikenakan caj perayauan yang tinggi! Selain itu, perkhidmatan 3G tidak tersedia dengan SIM ini. Ini boleh memuatkan data dengan perlahan. Anda boleh menukarkannya di bawah Tetapan &gt; Pengurusan SIM. Adakah anda pasti mahu mendayakan perayauan data dan memilih SIM ini?"</string>  
+    <string name="confirm_radio_title">SIM dimatikan</string>
+    <string name="confirm_radio_msg"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g>kini dimatikan. Adakah anda mahu menghidupkan kad SIM ini?</string>
+    <string name="confirm_radio_msg_single">Mod penerbangan kini dihidupkan, adakah anda ingin mematikannya?</string>
+    <string name="confirm_radio_lbutton">Hidupkan</string>
+    <string name="dlg_no">Tidak</string>  
+    <string name="dlg_yes">Ya</string>  
+    <string name="builtin_installer_title_message">CD-ROM terbina dalam</string>  
+    <string name="builtin_installer_dlg_message">Hidupkan CD-ROM terbina dalam?</string>  
+    <string name="builtin_installer_always_allowed">Jangan tunjukkan kali berikutnya</string>
+    <string name="OK">"OK"</string>  
+    <string name="application_guide_title">Tukar kad SIM lalai</string>  
+    <string name="application_guide_content">Luncur ke bawah senarai pemberitahuan untuk menukar kad SIM lalai</string> 
+    <string name="audio_profile">Profil audio</string>
+    <string name="data_usage">"Penggunaan data"</string>
+    <string name="user_owner">"Pemilik"</string>
+</resources>

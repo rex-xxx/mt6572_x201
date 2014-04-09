@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="brightness">Fényerő</string>
+    <string name="timeout">Időtúllépés</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="mobile">Adatkapcs.</string>
+    <string name="gps">GPS</string>
+    <string name="autorotate">Automata elforgatás</string>
+    <string name="normal">Általános</string>
+    <string name="meeting">Találkozó</string>
+    <string name="mute">Néma</string>
+    <string name="outdoor">Kültéri</string>
+    <string name="offline">Repülőgép mód</string>
+    <string name="sim_switch_tip">Ezt a SIM-et alapértelmezett SIM-kártyaként állították be ehhez: 
+        <xliff:g>%s</xliff:g>. Tartsa és húzza el az állapotsort az alapértelmezett SIM-kártya módosításához.
+    </string>
+    <string name="data_connection_connected">[<xliff:g>%s</xliff:g>] SIM-kártya adatkapcsolat engedélyezett  </string>
+    <string name="gemini_default_sim_always_ask">Rákérdezés mindig</string>
+      <string name="gemini_3g_disable_warning">"A 3G szolgáltatás nem elérhető a választott SIM-kártyával. Az adatok betöltése lassabb lehet. A 3G szolgáltatás beállítását a Beállítások -&gt; Vezeték nélküli és hálózatok&gt; Mobilhálózatok elemben végezheti el."</string>
+    <string name="gemini_3g_disable_warning_cu">"A 3G szolgáltatás nem elérhető a választott SIM-kártyával. Az adatok betöltése lassabb lehet. A 3G szolgáltatás beállítását a Beállítások -&gt; SIM kezelés elemben végezheti el."</string>
+    <string name="gemini_3g_disable_warning_case0">"Engedélyeznie kell az adatbarangolást a SIM-hez, amiért jelentős barangolási díjat számolhatnak fel! Biztosan engedélyezni akarja az adatbarangolást és ezt a SIM-et választja?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"A 3G szolgáltatás nem elérhető a választott SIM-kártyával. Az adatok betöltése lassabb lehet. A 3G szolgáltatás beállítását a Beállítások &gt; Vezeték nélküli és hálózatok&gt; Mobilhálózatok elemben végezheti el. Biztosan ezt a SIM-et választja?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"A 3G szolgáltatás nem elérhető a választott SIM-kártyával. Az adatok betöltése lassabb lehet. A 3G szolgáltatás beállítását a Beállítások &gt; SIM kezelés elemben végezheti el. Biztosan ezt a SIM-et választja?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"Engedélyeznie kell az adatbarangolást a SIM-hez, amiért jelentős barangolási díjat számolhatnak fel! Ezenkívül a 3G szolgáltatás nem elérhető ezzel a SIM-kártyával. Az adatok betöltése lassabb lehet. Beállítását a Beállítások &gt; Vezeték nélküli és hálózatok &gt; Mobilhálózatok elemben végezheti el. Biztosan engedélyezni akarja az adatbarangolást és ezt a SIM-et választja?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"Engedélyeznie kell az adatbarangolást a SIM-hez, amiért jelentős barangolási díjat számolhatnak fel! Ezenkívül a 3G szolgáltatás nem elérhető ezzel a SIM-kártyával. Az adatok betöltése lassabb lehet. Beállítását a Beállítások &gt; SIM kezelés elemben végezheti el. Biztosan engedélyezni akarja az adatbarangolást és ezt a SIM-et választja?"</string>  
+    <string name="dlg_no">"Nem"</string>  
+    <string name="dlg_yes">"Igen"</string>  
+    <string name="builtin_installer_title_message">Beépített CD-ROM</string>  
+    <string name="builtin_installer_dlg_message">Bekapcsolja a beépített CD-ROM-ot?</string>  
+    <string name="builtin_installer_always_allowed">Ne jelenjen meg legközelebb</string>
+    <string name="OK">"OK"</string>  
+    <string name="application_guide_title">Alapért. SIM-kártya váltása</string>  
+    <string name="application_guide_content">Csúsztassa lefelé az értesítési listát az alapért. SIM-kártya váltásához.</string> 
+    <string name="audio_profile">Audió profilok</string>
+    <string name="data_usage">"Adathasználat"</string>
+    <string name="user_owner">"Tulajdonos"</string>
+</resources>

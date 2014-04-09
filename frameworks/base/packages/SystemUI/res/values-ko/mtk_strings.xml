@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="gemini_default_sim_always_ask">항상 묻기</string>  
+    <string name="accessibility_phone_four_bars">4개의 전화신호 세기 막대.</string>  
+    <string name="sim_switch_tip">이 SIM이 
+        <xliff:g>%s</xliff:g> 의 기본 SIM으로 설정되었습니다. 상태 표시줄을 누른 채로 끌어서 기본 SIM 카드를 변경하십시오.
+    </string>  
+    <string name="remind_next_time">다음에 알려주기</string>  
+    <string name="voice_call_service">음성 통화 서비스</string>  
+    <string name="messages_service">메시지 서비스</string>  
+    <string name="data_connection_service">데이터 연결 서비스</string>  
+    <string name="wifi">"Wi-Fi"</string>  
+    <string name="bluetooth">블루투스</string>  
+    <string name="mobile">데이터 연결</string>  
+    <string name="gps">GPS</string>  
+    <string name="autorotate">자동 순환</string>  
+    <string name="normal">일반</string>  
+    <string name="meeting">회의</string>  
+    <string name="mute">저소음</string>  
+    <string name="outdoor">옥외</string>  
+    <string name="offline">비행기 모드</string>  
+    <string name="brightness">밝기</string>  
+    <string name="timeout">시간종료</string>  
+    <string name="data_connection_attach_timeout_error_msg">"데이터 연결에 실패했거나 네트워크가 현재 사용 중입니다."</string>  
+    <string name="data_connection_dettach_timeout_error_msg">"네트워크 연결 분리에 실패했습니다."</string>  
+    <string name="data_connection_connected">[ 
+        <xliff:g>%s</xliff:g>] SIM 카드 데이터 연결이 활성화됨
+    </string>  
+    <string name="gemini_intenet_call">인터넷 통화</string>  
+    <string name="gemini_default_sim_never">꺼짐</string>  
+    <string name="gemini_3g_indic" translatable="false">3G</string>  
+    <string name="gemini_3g_disable_warning">"3G 서비스는 선택한 이 SIM에서는 사용할 수 없습니다. 이 때문에 데이터 로드가 느려질 수 있습니다. 설정 &gt; 무선 및 네트워크 &gt; 모바일 네트워크에서 3G 서비스를 변경할 수 있습니다. 이 SIM을 선택하시겠습니까?"</string>  
+    <string name="gemini_3g_disable_warning_cu">"3G 서비스는 선택한 이 SIM에서는 사용할 수 없습니다. 이 때문에 데이터 로드가 느려질 수 있습니다. 설정 &gt; SIM 관리에서 3G 서비스를 변경할 수 있습니다. 이 SIM을 선택하시겠습니까?"</string>  
+    <string name="gemini_3g_disable_warning_case0">"먼저 상당한 로밍 요금이 발생할 수 있는 이 SIM에 대한 데이터 로밍을 사용으로 설정해야 합니다! 데이터 로밍을 사용으로 설정하고 이 SIM을 선택하시겠습니까?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"선택한 이 SIM에서 3G 서비스를 사용할 수 없습니다. 이 때문에 데이터 로드가 느려질 수 있습니다. 설정 &gt; 무선 및 네트워크 &gt; 모바일 네트워크에서 3G 서비스 설정을 변경할 수 있습니다. 이 SIM을 선택하시겠습니까?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"선택한 이 SIM에서 3G 서비스를 사용할 수 없습니다. 이 때문에 데이터 로드가 느려질 수 있습니다. 설정 &gt; SIM 관리에서 3G 서비스를 변경할 수 있습니다. 이 SIM을 선택하시겠습니까?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"먼저 상당한 로밍 요금이 발생할 수 있는 이 SIM에 대한 데이터 로밍을 사용으로 설정해야 합니다! 이 밖에 이 SIM에서 3G 서비스를 사용할 수 없습니다. 이 때문에 데이터 로드가 느려질 수 있습니다. 설정 &gt; 무선 및 네트워크 &gt; 모바일 네트워크에서 이를 변경할 수 있습니다. 데이터 로밍을 사용으로 설정하고 이 SIM을 선택하시겠습니까?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"먼저 상당한 로밍 요금이 발생할 수 있는 이 SIM에 대한 데이터 로밍을 사용으로 설정해야 합니다! 이 밖에 이 SIM에서 3G 서비스를 사용할 수 없습니다. 이 때문에 데이터 로드가 느려질 수 있습니다. 설정 &gt; SIM 관리에서 이를 변경할 수 있습니다. 데이터 로밍을 사용으로 설정하고 이 SIM을 선택하시겠습니까?"</string>  
+    <string name="confirm_radio_title">SIM이 꺼졌습니다.</string>  
+    <string name="confirm_radio_msg"> 
+        <xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> 이(가) 현재 꺼졌습니다. 이 SIM 카드를 켜시겠습니까?
+    </string>  
+    <string name="confirm_radio_msg_single">현재 비행기 모드가 켜졌습니다. 끄시겠습니까?</string>  
+    <string name="confirm_radio_lbutton">켜기</string>  
+    <string name="builtin_installer_title_message">내장 CD-ROM</string>  
+    <string name="builtin_installer_dlg_message">내장 CD-ROM을 켜시겠습니까?</string>  
+    <string name="builtin_installer_always_allowed">다음부터 표시하지 않음</string>  
+    <string name="dlg_no">거절</string>  
+    <string name="dlg_yes">"예"</string> 
+    <string name="OK">"확인"</string>  
+    <string name="application_guide_title">기본 SIM 카드로 전환</string>  
+    <string name="application_guide_content">알림 목록을 아래로 슬라이드하여 기본 SIM 카드로 전환합니다.</string> 
+    <string name="audio_profile">오디오 프로필</string>
+    <string name="data_usage">"데이터 사용량"</string>
+    <string name="user_owner">"소유자"</string>
+</resources>

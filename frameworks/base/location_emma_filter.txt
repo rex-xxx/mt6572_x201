@@ -1,0 +1,15 @@
++android.location.Address
++android.location.CountryDetector
++android.location.Country
++android.location.CountryListener
++android.location.Criteria
++android.location.Geocoder
++android.location.GeocoderParams
++android.location.GpsSatellite
++android.location.GpsStatus
++android.location.Location
++android.location.LocationListener
++android.location.LocationManager
++android.location.LocationProvider
++com.android.internal.location.DummyLocationProvider
++com.android.internal.location.GpsNetInitiatedHandler

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="gemini_default_sim_always_ask">Her zaman sor</string>
+    <string name="sim_switch_tip">Bu SIM, \"<xliff:g>%s</xliff:g>\" kişisi için varsayılan SIM kart olarak ayarlandı. Varsayılan SIM kartı değiştirmek için Durum Çubuğunu tutup aşağı doğru sürükleyin.</string>
+    <string name="remind_next_time">Sonraki sefer bana hatırlar</string>
+    <string name="voice_call_service">sesli arama servisi</string>
+    <string name="messages_service">mesaj servisi</string>
+    <string name="data_connection_service">veri bağlantısı servisi</string>
+    <string name="wifi">"Wi-Fi"</string>
+    <string name="bluetooth">"Bluetooth"</string>
+    <string name="mobile">Veri bağlantısı</string>
+    <string name="gps">GPS</string>
+    <string name="autorotate">Oto. Döndürme</string>
+    <string name="normal">Genel</string>
+    <string name="meeting">Toplantı</string>
+    <string name="mute">"Sessiz"</string>
+    <string name="outdoor">Açık Hava</string>
+    <string name="offline">Uçak modu</string>
+    <string name="brightness">Parlaklık</string>
+    <string name="timeout">Zaman aşımı</string>
+    <string name="data_connection_attach_timeout_error_msg">Veri bağlantısı başarısız veya ağ şu anda meşgul</string>
+    <string name="data_connection_datach_timeout_error_msg">Veri bağlantısı kapatılamadı</string>
+    <string name="data_connection_connected">[%s] SIM kartı için veri bağlantısı etkin</string>
+    <string name="gemini_intenet_call">Internet Araması</string>  
+    <string name="gemini_default_sim_never">Kapalı</string>
+    <string name="gemini_3g_disable_warning">"Bu seçilen SIM kartında 3G hizmeti kullanılamıyor. Bu verilerin yavaş yüklenmesine neden olabilir. Ayarlar &gt; Kablosuz &amp; ağlar &gt; Mobil şebekeler konumundan 3G hizmet ayarlarını değiştirebilirsiniz."</string>
+    <string name="gemini_3g_disable_warning_cu">"Bu seçilen SIM kartında 3G hizmeti kullanılamıyor. Bu verilerin yavaş yüklenmesine neden olabilir. Ayarlar &gt; SIM kartı ayarları konumundan 3G hizmet ayarlarını değiştirebilirsiniz."</string>
+    <string name="gemini_3g_disable_warning_case0">"Önce, bu SIM kartı için, önemli dolaşım ücretlerine neden olabilecek veri dolaşımını etkinleştirmelisiniz! Veri dolaşımını etkinleştirmek ve bu SIM kartı seçmek istediğinizden emin misiniz?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"3G servisi bu seçilen SIM ile kullanılamıyor. Bu, verileri daha yavaş yükleyebilir. Ayarlar &gt; Kablosuz ve ağlar &gt; Mobil ağlar altında 3G hizmeti ayarını değiştirebilirsiniz. Bu SIM\'i seçmek istediğinizden emin misiniz?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"3G servisi bu seçilen SIM ile kullanılamıyor. Bu, verileri daha yavaş yükleyebilir. Ayarlar &gt; SIM yönetimi altında 3G hizmeti ayarını değiştirebilirsiniz. Bu SIM\'i seçmek istediğinizden emin misiniz?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"Önce bu SIM için veri dolaşımını etkinleştirmelisiniz ki bu önemli dolaşım ücretlerine neden olabilir! Ayrıca, bu SIM ile 3G hizmeti kullanılamıyor. Bu, verileri daha yavaş yükleyebilir. Ayarlar &gt; Kablosuz ve ağlar &gt; Mobil ağlar altında bunu değiştirebilirsiniz. Veri dolaşımını etkinleştirmek ve bu SIM\'i seçmek istediğinizden emin misiniz?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"Önce bu SIM için veri dolaşımını etkinleştirmelisiniz ki bu önemli dolaşım ücretlerine neden olabilir! Ayrıca, bu SIM ile 3G hizmeti kullanılamıyor. Bu, verileri daha yavaş yükleyebilir. Ayarlar &gt; SIM yönetimi altında bunu değiştirebilirsiniz. Veri dolaşımını etkinleştirmek ve bu SIM\'i seçmek istediğinizden emin misiniz?"</string>  
+    <string name="confirm_radio_title">SIM kapalı</string>
+    <string name="confirm_radio_msg"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> şu anda kapalı. Bu SIM kartını açmak ister misiniz?</string>
+    <string name="confirm_radio_msg_single">Uçak modu şu anda açık; kapatmak ister misiniz?</string>
+    <string name="confirm_radio_lbutton">Aç</string>
+    <string name="dlg_no">"Hayır"</string>  
+    <string name="dlg_yes">"Evet"</string>  
+    <string name="builtin_installer_title_message">Bütünleşik CD-ROM</string>  
+    <string name="builtin_installer_dlg_message">Bütünleşik CD-ROM\'u aç?</string>  
+    <string name="builtin_installer_always_allowed">Bir daha gösterme</string>
+    <string name="OK">"Tamam"</string>  
+    <string name="application_guide_title">Varsayılan SIM kartı değiştir</string>  
+    <string name="application_guide_content">Varsayılan SIM kartı değiştirmek için bildirim listesini aşağı kaydırın</string> 
+    <string name="audio_profile">Ses profilleri</string>
+    <string name="data_usage">"Veri kullanımı"</string>
+    <string name="user_owner">"Sahibi"</string>
+</resources>

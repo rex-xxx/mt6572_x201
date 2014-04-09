@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- M: Support "SystemUI - Notification toolbar". -->
+<com.android.systemui.statusbar.toolbar.SimIconView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0dip"
+    android:layout_height="match_parent"
+    android:paddingTop="9dip"
+    android:gravity="center_horizontal">
+
+    <RelativeLayout
+        android:layout_width="52dip"
+        android:layout_height="40dip"
+        android:id="@+id/sim_bg_view">
+        <ImageView
+            android:id="@+id/sim_icon_bg"
+            android:layout_width="48dip"
+            android:layout_height="32dip"
+            android:layout_centerInParent="true" />
+        <ImageView
+            android:id="@+id/sim_icon"
+            android:layout_width="48dip"
+            android:layout_height="32dip"
+            android:layout_centerInParent="true" />
+        <ImageView
+            android:id="@+id/sim_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="6dip"
+            android:paddingTop="6dip"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true" />
+        <TextView
+            android:id="@+id/sim_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="4dip"
+            android:visibility="gone"
+            android:paddingTop="2dip"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/white"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:text="@string/gemini_3g_indic" />
+        <TextView
+            android:id="@+id/sim_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingRight="4dip"
+            android:paddingBottom="4dip"
+            android:layout_alignParentBottom="true"
+            android:textSize="12sp"
+            android:textColor="@color/white" />
+        <ImageView
+            android:layout_width="48dip"
+            android:id="@+id/on_indicator"
+            android:layout_height="4dip"
+            android:layout_gravity="bottom"
+            android:scaleType="fitXY"
+            android:visibility="gone"
+            android:layout_centerHorizontal="true"
+            android:layout_alignBottom="@id/sim_icon"
+            android:src="@drawable/toolbar_light_on">
+        </ImageView>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/sim_op_name"
+        android:layout_width="80dip"
+        android:gravity="center_horizontal"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:layout_gravity="top|center_horizontal"
+        android:textSize="13sp"
+        android:textColor="@color/white"
+        android:paddingTop="3dip"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:paddingLeft="2dip"
+        android:paddingRight="2dip" />
+
+</com.android.systemui.statusbar.toolbar.SimIconView>

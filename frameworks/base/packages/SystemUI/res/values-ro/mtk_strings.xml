@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="brightness">Strălucire</string>
+    <string name="timeout">temporizare</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="mobile">Data con.</string>
+    <string name="gps">GPS</string>
+    <string name="autorotate">Rotire automată</string>
+    <string name="normal">Scanare canale...</string>
+    <string name="meeting">Întâlnire</string>
+    <string name="mute">Silenţios</string>
+    <string name="outdoor">În aer liber</string>
+    <string name="offline">Mod avion</string>
+    <string name="gemini_default_sim_always_ask">Se întreabă întotdeauna</string>
+    <string name="sim_switch_tip">Această cartelă SIM a fost setată drept cartela SIM implicită pentru 
+        <xliff:g>%s</xliff:g>. Ţineţi apăsată şi glisaţi în jos bara de stare pentru a schimba cartela SIM implicită.
+    </string>
+    <string name="gemini_3g_disable_warning">"Serviciul 3G nu este disponibil cu SIM-ul selectat. Datele se vor încărca mai greu. Puteți schimba setările serviciului 3G în Setări &gt; fără fir &amp; rețele &gt; Rețele mobile."</string>
+    <string name="gemini_3g_disable_warning_cu">"Serviciul 3G nu este disponibil cu SIM-ul selectat. Datele se vor încărca mai greu. Puteți schimba serviciul 3G în Setări &gt; Gestionare SIM."</string>
+    <string name="gemini_3g_disable_warning_case0">"Trebuie să activați roaming de date pentru acest SIM ce poate atrage costuri importante de roaming! Sunteți sigur că activați roaming de date și că selectați acest SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"Serviciul 3G nu este disponibil cu SIM-ul selectat. Acest lucru poate determina încărcarea mai lentă a datelor. Puteţi schimba setarea pentru serviciul 3G din Setări &gt; Wireless şi reţele &gt; Reţele mobile. Sigur doriţi să selectaţi acest SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"Serviciul 3G nu este disponibil cu SIM-ul selectat. Acest lucru poate determina încărcarea mai lentă a datelor. Puteţi schimba setarea pentru serviciul 3G din Setări &gt; Gestionare SIM. Sigur doriţi să selectaţi acest SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"Mai întâi trebuie să activaţi serviciul de roaming de date pentru acest SIM, ceea ce va determina costuri semnificative pentru transferul în roaming! În plus, serviciul 3G nu este disponibil cu SIM-ul selectat. Acest lucru poate determina încărcarea mai lentă a datelor. Îl puteţi schimba din Setări &gt; Wireless şi reţele &gt; Reţele mobile. Sigur doriţi să activaţi roamingul de date şi să selectaţi acest SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"Mai întâi trebuie să activaţi serviciul de roaming de date pentru acest SIM, ceea ce va determina costuri semnificative pentru transferul în roaming! În plus, serviciul 3G nu este disponibil cu SIM-ul selectat. Acest lucru poate determina încărcarea mai lentă a datelor. Îl puteţi schimba din Setări &gt; Gestionare SIM. Sigur doriţi să activaţi roamingul de date şi să selectaţi acest SIM?"</string>  
+    <string name="dlg_no">"Nu"</string>  
+    <string name="dlg_yes">"Da"</string>  
+    <string name="builtin_installer_title_message">CD-ROM încorporat</string>  
+    <string name="builtin_installer_dlg_message">Activați CD_ROM-ul încorporat?</string>  
+    <string name="builtin_installer_always_allowed">Nu se arată data viitoare</string>
+    <string name="OK">"OK"</string>  
+    <string name="application_guide_title">Comutare la cartela SIM implicită</string>  
+    <string name="application_guide_content">Glisaţi în jos lista de notificări pentru a comuta la cartela SIM implicită</string> 
+    <string name="audio_profile">Profiuri audio</string>
+    <string name="data_usage">"Rata de utilizare a datelor"</string>
+    <string name="user_owner">"Proprietar"</string>
+</resources>

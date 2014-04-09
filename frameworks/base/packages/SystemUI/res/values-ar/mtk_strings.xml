@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="sim_switch_tip">تم ضبط SIM هذه كبطاقة SIM افتراضية مع \"<xliff:g>%s</xliff:g>\". أمسك شريط الحالة مع سحبه لأسفل لتغيير بطاقة SIM الافتراضية.</string>
+    <string name="remind_next_time">ذكرني المرة القادمة</string>
+    <string name="voice_call_service">خدمة المكالمة الصوتية</string>
+    <string name="messages_service">خدمة الرسائل</string>
+    <string name="data_connection_service">خدمة اتصال البيانات</string>
+    <string name="data_connection_dettach_timeout_error_msg">"تعذر فصل اتصال البيانات"</string>
+    <string name="data_connection_attach_timeout_error_msg">"تعذر اتصال البيانات أو الشبكة الحالية مشغولة."</string>
+    <string name="gemini_3g_indic">3G</string>
+    <string name="gemini_default_sim_always_ask">السؤال دائمًا</string>
+    <string name="gemini_3g_disable_warning">"خدمة 3G غير متاحة مع بطاقة SIM المحددة. قد يبطأ ذلك من سرعة تحميل البيانات. يمكن تغيير إعدادات خدمة 3G من الإعدادات &gt; الاتصالات اللاسلكية والشبكات &gt; شبكات الهاتف المحمول."</string>
+    <string name="gemini_3g_disable_warning_cu">"خدمة 3G غير متاحة مع بطاقة SIM المحددة. قد يبطأ ذلك من سرعة تحميل البيانات. يمكنك تغيير إعدادات خدمة 3G من الإعدادات &gt; إدارة SIM."</string>
+    <string name="gemini_3g_disable_warning_case0">"يجب أولا تمكين تجوال البيانات لبطاقة SIM مما قد يكلفك مبلغا من المال! هل تريد بالتأكيد تمكين تجوال البيانات واختيار بطاقة SIM؟"</string>  
+    <string name="gemini_3g_disable_warning_case1">"خدمة ‎3G غير متاحة مع بطاقة SIM المحددة. قد يبطأ ذلك من سرعة تحميل البيانات. يمكن تغيير إعدادات خدمة ‎3G من الإعدادات &gt; الاتصالات اللاسلكية والشبكات &gt; شبكات الهاتف المحمول. هل أنت متأكد من رغبتك في تحديد بطاقة SIM الحالية؟"</string>  
+    <string name="gemini_3g_disable_warning_case2">"خدمة ‎3G غير متاحة مع بطاقة SIM المحددة. قد يبطأ ذلك من سرعة تحميل البيانات. يمكنك تغيير إعدادات خدمة ‎3G من الإعدادات &gt; إدارة SIM. هل أنت متأكد من رغبتك في تحديد بطاقة SIM الحالية؟"</string>  
+    <string name="gemini_3g_disable_warning_case3">"يجب أولاً تمكين تجوال البيانات لبطاقة SIM وقد تكلفك خاصية التجوال بعض الرسوم! كما أن خدمة ‎3G غير متاحة مع بطاقة SIM. قد يبطأ ذلك من سرعة تحميل البيانات. يمكن تغيير إعدادات خدمة ‎3G من الإعدادات &gt; الاتصالات اللاسلكية والشبكات &gt; شبكات الهاتف المحمول. هل أنت متأكد من رغبتك في تمكين تجوال البيانات وتحديد بطاقة SIM هذه؟"</string>  
+    <string name="gemini_3g_disable_warning_case4">"يجب أولاً تمكين تجوال البيانات لبطاقة SIM وقد تكلفك خاصية التجوال بعض الرسوم! كما أن خدمة ‎3G غير متاحة مع بطاقة SIM. قد يبطأ ذلك من سرعة تحميل البيانات. يمكنك تغيير إعدادات خدمة ‎3G من الإعدادات &gt; إدارة SIM. هل أنت متأكد من رغبتك في تمكين تجوال البيانات وتحديد بطاقة SIM هذه؟"</string>  
+    <string name="autorotate">تدوير تلقائي</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="mobile">اتصال البيانات</string>
+    <string name="gps">GPS</string>
+    <string name="normal">عام</string>
+    <string name="gemini_intenet_call">مكالمة عبر الإنترنت</string>
+    <string name="meeting">اجتماع</string>
+    <string name="gemini_default_sim_never">إيقاف</string>
+    <string name="outdoor">في الخارج</string>
+    <string name="mute">صامت</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="data_connection_connected">تم تمكين اتصال بيانات بطاقة SIM [%s]</string>
+    <string name="brightness">السطوع</string>
+    <string name="offline">"وضع الطائرة"</string>
+    <string name="timeout">المهلة</string>
+    <string name="confirm_radio_title">بطاقة SIM قيد إيقاف التشغيل</string>
+    <string name="confirm_radio_msg">%1$s في وضع إيقاف الآن. هل ترغب في تشغيل بطاقة SIM هذه؟</string>
+    <string name="confirm_radio_lbutton">تشغيل</string>
+    <string name="confirm_radio_msg_single">وضع الطيران قيد التشغيل الآن، هل ترغب في إيقاف تشغيله؟</string>
+    <string name="dlg_no">"لا"</string>  
+    <string name="dlg_yes">"نعم"</string>  
+    <string name="builtin_installer_title_message">قرص مدمج مضمن</string>  
+    <string name="builtin_installer_dlg_message">تشغيل القرص المدمج المضمن؟</string>  
+    <string name="builtin_installer_always_allowed">عدم العرض المرة القادمة</string>
+    <string name="OK">"موافق"</string>  
+    <string name="application_guide_title">تشغيل بطاقة SIM الافتراضية</string>  
+    <string name="application_guide_content">اسحب قائمة الإخطارات لأسفل لتشغيل بطاقة SIM الافتراضية</string>
+    <string name="audio_profile">الملفات الصوتية</string>
+    <string name="data_usage">"استخدام البيانات"</string>
+    <string name="user_owner">"المالك"</string>
+</resources>

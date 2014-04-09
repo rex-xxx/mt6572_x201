@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="gemini_default_sim_always_ask">Sempre perguntar</string>
+    <string name="sim_switch_tip">Este SIM definiu como cartão SIM padrão o \"<xliff:g>%s</xliff:g>\". Segure e arraste a Barra de Status para alterar o cartão SIM padrão.</string>
+    <string name="remind_next_time">Me lembre na próxima vez</string>
+    <string name="voice_call_service">serviço de chamada de voz</string>
+    <string name="messages_service">serviço de mensagens</string>
+    <string name="data_connection_service">serviço de conexão de dados</string>
+    <string name="wifi">"Wi-Fi"</string>
+    <string name="bluetooth">"Bluetooth"</string>
+    <string name="mobile">Conexão de dados</string>
+    <string name="gps">GPS</string>
+    <string name="autorotate">Auto rotação</string>
+    <string name="normal">Geral</string>
+    <string name="meeting">Reunião</string>
+    <string name="mute">"Silencioso"</string>
+    <string name="outdoor">Externo</string>
+    <string name="offline">Modo para avião</string>
+    <string name="brightness">Brilho</string>
+    <string name="timeout">Intervalo</string>
+    <string name="data_connection_attach_timeout_error_msg">Conexão de dados falhou ou rede está atualmente ocupada</string>
+    <string name="data_connection_datach_timeout_error_msg">Conexão de dados destacada falhou</string>
+    <string name="data_connection_connected">[%s] Conexão de dados do cartão SIM está habilitada</string>
+    <string name="gemini_intenet_call">Chamada de Internet</string>  
+    <string name="gemini_default_sim_never">Desligado</string>
+    <string name="gemini_3g_disable_warning">"Serviço 3G não disponível com este SIM selecionado. Isto pode tornar o carregamento de dados lento. Você pode alterar as configurações do serviço 3G sob Configurações &gt; Sem fio e redes &gt; Redes móveis."</string>
+     <string name="gemini_3g_disable_warning_cu">"Serviço 3G não disponível com este SIM selecionado. Isto pode tornar o carregamento de dados lento. Você pode alterar as configurações do serviço 3G sob Configurações &gt; Gerenciamento SIM."</string>
+    <string name="gemini_3g_disable_warning_case0">"Você deve habilidades roaming de dados para este SIM antes que possam ocorrer alterações significantes de roaming! Tem certeza que deseja selecionar roaming de dados e selecionar este SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"O serviço 3G não está disponível com este SIM selecionado. Isto pode carregar dados mais lentamente. Você pode alterar a configuração do serviço 3G em Configurações&gt; Sem fio e redes&gt; Redes móveis. Tem certeza de selecionar este SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"O serviço 3G não está disponível com este SIM selecionado. Isto pode carregar dados mais lentamente. Você pode alterar a configuração do serviço 3G em Configurações &gt; Gerenciamento de SIM. Tem certeza de selecionar este SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"Você deve habilitar o roaming de dados para este SIM primeiro que pode incorrer em significantes cobranças de roaming! Além disso, o serviço 3G não está disponível com este SIM selecionado. Isto pode carregar dados mais lentamente. Você pode alterá-lo em Configurações&gt; Sem fio e redes&gt; Redes móveis. Tem certeza que deseja habilitar o roaming de dados e e selecionar este SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"Você deve habilitar o roaming de dados para este SIM primeiro que pode incorrer em significantes cobranças de roaming! Além disso, o serviço 3G não está disponível com este SIM selecionado. Isto pode carregar dados mais lentamente. Você pode alterá-lo sob Configurações &gt; Gestão de SIM. Tem certeza que deseja habilitar o roaming de dados e e selecionar este SIM?"</string>  
+    <string name="confirm_radio_title">SIM desligado</string>
+    <string name="confirm_radio_msg"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g>está agora ligado. Você gostaria de ligar este cartão SIM?</string>
+    <string name="confirm_radio_msg_single">O mode avião está agora ligado, você deseja desligar?</string>
+    <string name="confirm_radio_lbutton">Ligar</string>
+    <string name="dlg_no">"Não"</string>  
+    <string name="dlg_yes">"Sim"</string>  
+    <string name="builtin_installer_title_message">CD-ROM embutido</string>  
+    <string name="builtin_installer_dlg_message">Ligar o CD-ROM embutido?</string>  
+    <string name="builtin_installer_always_allowed">Não exibir na próxima vez</string>
+    <string name="OK">"OK"</string>  
+    <string name="application_guide_title">Mude cartão SIM padrão</string>  
+    <string name="application_guide_content">Deslize para baixo lista de notificação para mudar cartão SIM padrão</string> 
+    <string name="audio_profile">Perfis de áudio</string>
+    <string name="data_usage">"Uso de dados"</string>
+    <string name="user_owner">"Proprietário"</string>
+</resources>

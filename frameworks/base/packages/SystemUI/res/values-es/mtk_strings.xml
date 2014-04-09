@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="gemini_default_sim_always_ask">Preguntar siempre</string>
+    <string name="sim_switch_tip">Esta tarjeta SIM está establecida como tarjeta SIM predeterminada para \"<xliff:g>%s</xliff:g>\". Sostenga y arrastre hacia abajo la barra de estado para cambiar la tarjeta SIM predeterminada.</string>
+    <string name="remind_next_time">Recordármelo la próxima vez</string>
+    <string name="voice_call_service">servicio de llamada de voz</string>
+    <string name="messages_service">servicio de mensajes</string>
+    <string name="data_connection_service">servicio de conexión de datos</string>
+    <string name="wifi">"Wi-Fi"</string>
+    <string name="bluetooth">"Bluetooth"</string>
+    <string name="mobile">Conexión de datos</string>
+    <string name="gps">GPS</string>
+    <string name="autorotate">Autorrotación</string>
+    <string name="normal">General</string>
+    <string name="meeting">Reunión</string>
+    <string name="mute">Silencio</string>
+    <string name="outdoor">Exterior</string>
+    <string name="offline">Modo avión</string>
+    <string name="brightness">Brillo</string>
+    <string name="timeout">Tiempo de espera</string>
+    <string name="data_connection_attach_timeout_error_msg">Error de la conexión de datos o la red está ocupada en este momento.</string>
+    <string name="data_connection_datach_timeout_error_msg">Error al interrumpir la conexión de datos.</string>
+    <string name="data_connection_connected">Conexión de datos de la tarjeta SIM [%s] habilitada</string>
+    <string name="gemini_intenet_call">Llamada de Internet</string>  
+    <string name="gemini_default_sim_never">Desactivado</string>
+    <string name="gemini_3g_disable_warning">"El servicio 3G no está disponible con la tarjeta SIM seleccionada. Esto puede ralentizar la carga de datos. Puede cambiar la configuración del servicio 3G en Configuración &gt; Inalámbrico y redes &gt; Redes móviles."</string>
+     <string name="gemini_3g_disable_warning_cu">"El servicio 3G no está disponible con la tarjeta SIM seleccionada. Esto puede ralentizar la carga de datos. Puede cambiar la configuración del servicio 3G en Configuración &gt; Administración de SIM."</string>
+    <string name="gemini_3g_disable_warning_case0">"Primero debe habilitar la itinerancia de datos para esta tarjeta SIM, lo que puede dar lugar ¡tarifas importantes por itinerancia! ¿Está seguro de que desea habilitar la itinerancia de datos y seleccionar esta tarjeta SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"El servicio 3G no está disponible con la tarjeta SIM seleccionada. Esto puede ralentizar la carga de datos. Puede cambiar la configuración del servicio 3G en Configuración &gt; Inalámbrico y redes &gt; Redes móviles. ¿Está seguro de que desea seleccionar esta tarjeta SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"El servicio 3G no está disponible con la tarjeta SIM seleccionada. Esto puede ralentizar la carga de datos. Puede cambiar la configuración del servicio 3G en Configuración &gt; Administración de SIM. ¿Está seguro de que desea seleccionar esta tarjeta SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"Primero debe habilitar la itinerancia de datos para esta tarjeta SIM, lo que ¡puede dar lugar tarifas importantes por itinerancia! Además, el servicio 3G no está disponible con esta tarjeta SIM. Esto puede ralentizar la carga de datos. Puede cambiarlo en Configuración &gt; Inalámbrico y redes &gt; Redes móviles. ¿Está seguro de que desea habilitar la itinerancia de datos y seleccionar esta tarjeta SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"Primero debe habilitar la itinerancia de datos para esta tarjeta SIM, lo que ¡puede dar lugar tarifas importantes por itinerancia! Además, el servicio 3G no está disponible con esta tarjeta SIM. Esto puede ralentizar la carga de datos. Puede cambiarlo en Configuración &gt; Administración de tarjetas SIM. ¿Está seguro de que desea habilitar la itinerancia de datos y seleccionar esta tarjeta SIM?"</string>  
+    <string name="confirm_radio_title">Tarjeta SIM desactivada</string>
+    <string name="confirm_radio_msg"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> está ahora desactivada. ¿Desea activar esta tarjeta SIM?</string>
+    <string name="confirm_radio_msg_single">El modo Avión está ahora activado. ¿Desea desactivarlo?</string>
+    <string name="confirm_radio_lbutton">Activar</string>
+    <string name="dlg_no">"No"</string>  
+    <string name="dlg_yes">"Sí"</string>  
+    <string name="builtin_installer_title_message">CD-ROM integrado</string>  
+    <string name="builtin_installer_dlg_message">¿Desea activar el CD-ROM integrado?</string>  
+    <string name="builtin_installer_always_allowed">No mostrar la próxima vez</string>
+    <string name="OK">"Aceptar"</string>  
+    <string name="application_guide_title">Cambiar a tarjeta SIM predeterminada</string>  
+    <string name="application_guide_content">Desplazarse hacia abajo por la lista de notificaciones para cambiar la tarjeta SIM predeterminada</string> 
+    <string name="audio_profile">Perfiles de audio</string>
+    <string name="data_usage">"Uso de datos"</string>
+    <string name="user_owner">"Propietario"</string>
+</resources>

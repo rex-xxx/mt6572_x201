@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="gemini_default_sim_always_ask">Всегда спрашивать</string>
+    <string name="sim_switch_tip">Эта SIM-карта задана по умолчанию для \"<xliff:g>%s</xliff:g>\". Нажмите и протащите строку состояния вниз, чтобы изменить SIM-карту по умолчанию.</string>
+    <string name="remind_next_time">Напомнить в следующий раз</string>
+    <string name="voice_call_service">служба голосовых вызовов</string>
+    <string name="messages_service">служба сообщений</string>
+    <string name="data_connection_service">служба передачи данных</string>
+    <string name="wifi">"Wi-Fi"</string>
+    <string name="bluetooth">"Bluetooth"</string>
+    <string name="mobile">Передача данных</string>
+    <string name="gps">GPS</string>
+    <string name="autorotate">Автоповорот</string>
+    <string name="normal">Обычный</string>
+    <string name="meeting">Совещание</string>
+    <string name="mute">"Без звука"</string>
+    <string name="outdoor">Улица</string>
+    <string name="offline">Режим полета</string>
+    <string name="brightness">Яркость</string>
+    <string name="timeout">Таймер отключения</string>
+    <string name="data_connection_attach_timeout_error_msg">Сбой соединения для передачи данных, или сеть в настоящее время занята</string>
+    <string name="data_connection_datach_timeout_error_msg">Сбой разрыва соединения для передачи данных</string>
+    <string name="data_connection_connected">Соединение для передачи данных SIM-карты [%s] включено</string>
+    <string name="gemini_intenet_call">Интернет-вызов</string>  
+    <string name="gemini_default_sim_never">Выкл.</string>
+    <string name="gemini_3g_disable_warning">"В выбранной SIM-карте отсутствует поддержка услуги 3G. Это может привести к замедлению загрузки данных. Параметры услуги 3G можно изменить в меню "Параметры &gt; Беспроводные подключения и сети &gt; Сети мобильной связи."</string>
+    <string name="gemini_3g_disable_warning_cu">"В выбранной SIM-карте отсутствует поддержка услуги 3G. Это может привести к замедлению загрузки данных. Параметры услуги 3G можно изменить в меню "Параметры &gt; Беспроводные подключения и сети &gt; Управление SIM-картами."</string>
+    <string name="gemini_3g_disable_warning_case0">"Для данной SIM-карты сначала следует включить роуминг данных, что может повлечь значительное повышение стоимости передачи данных! Включить режим роуминга и выбрать данную SIM-карту?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"Служба 3G недоступна с выбранной SIM-картой. Скорость загрузки данных может уменьшиться. Вы можете изменить настройки службы 3G через меню Настройки &gt; Беспроводная связь и сети &gt; Мобильные сети. Действительно выбрать эту SIM-карту?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"Служба 3G недоступна с выбранной SIM-картой. Скорость загрузки данных может уменьшиться. Вы можете изменить настройки службы 3G через меню Настройки &gt; SIM-карта. Действительно выбрать эту SIM-карту?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"Для использования данной SIM-картой вы должны сначала включить роуминг, но это приведет к существенным затратам на оплату роуминга! Кроме того, служба 3G недоступна с данной SIM-картой. Скорость загрузки данных может уменьшиться. Вы можете изменить настройки через меню Настройки &gt; Беспроводная связь и сети &gt; Мобильные сети. Действительно включить службу роуминга и выбрать эту SIM-карту?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"Для использования данной SIM-картой вы должны сначала включить роуминг, но это приведет к существенным затратам на оплату роуминга! Кроме того, служба 3G недоступна с данной SIM-картой. Скорость загрузки данных может уменьшиться. Настройки можно имзменить через меню Настройки &gt; SIM-карта. Действительно включить службу роуминга и выбрать эту SIM-карту?"</string>  
+    <string name="confirm_radio_title">SIM-карта выключена</string>
+    <string name="confirm_radio_msg"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g>сейчас выключена. Включить эту SIM-карту?</string>
+    <string name="confirm_radio_msg_single">Сейчас включен режим «В самолете», отключить его?</string>
+    <string name="confirm_radio_lbutton">Включить</string>
+    <string name="dlg_no">"Нет"</string>  
+    <string name="dlg_yes">"Да"</string>  
+    <string name="builtin_installer_title_message">Встроенный CD-ROM</string>  
+    <string name="builtin_installer_dlg_message">Включить встроенный CD-ROM?</string>  
+    <string name="builtin_installer_always_allowed">Не показывать в следующий раз</string>
+    <string name="OK">"ОК"</string>  
+    <string name="application_guide_title">Переключиться на SIM-карту по умолчанию</string>  
+    <string name="application_guide_content">Спуститься вниз по списку уведомлений для переключения на SIM-карту по умолчанию</string> 
+    <string name="audio_profile">Профили звука</string>
+    <string name="data_usage">"Передача данных"</string>
+    <string name="user_owner">"Владелец"</string>
+</resources>

@@ -1,0 +1,3458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="byteShort">B</string>
+    
+    <string name="kilobyteShort">KB</string>
+    
+    <string name="megabyteShort">MB</string>
+    
+    <string name="gigabyteShort">GB</string>
+    
+    <string name="terabyteShort">TB</string>
+    
+    <string name="petabyteShort">PB</string>
+    
+    <string name="fileSizeSuffix"><xliff:g id="نمبر" مثال="123">%1$s</xliff:g><xliff:g id="unit" مثال="KB">%2$s</xliff:g></string>
+
+    
+    <string name="untitled">بلاعنوان</string>
+
+    
+    <string name="ellipsis">ہاٹ اسپاٹ کو چالو کرنا\u2026</string>
+
+    
+    <string name="ellipsis_two_dots">\u2025</string>
+
+    
+    <string name="emptyPhoneNumber">(فون نمبر موجود نہیں)</string>
+
+    
+    <string name="unknownName">(نامعلوم)</string>
+
+    
+    <string name="defaultVoiceMailAlphaTag">وائس میل</string>
+
+    
+    <string name="defaultMsisdnAlphaTag">MSISDN1</string>
+
+     <skip/>
+    
+    <string name="mmiError">کنکشن پرابلم یا غلط MMI کوڈ۔</string>
+    
+    <string name="mmiFdnError">صرف ڈائلنگ نمبروں کو صحیح کرنے کے لئے آپریشن محدود ہے۔</string>
+
+    
+    <string name="serviceEnabled">خدمت غیرفعال تھی۔</string>
+    
+    <string name="serviceEnabledFor">کیلے خدمت غیر فعال تھی:</string>
+    
+    <string name="serviceDisabled">خدمت کو غیرفعال کردیا گيا ہے۔</string>
+    
+    <string name="serviceRegistered">رجسٹریشن کامیاب تھا۔</string>
+    
+    <string name="serviceErased">حذف کرنا کامیاب رہا۔</string>
+    
+    <string name="passwordIncorrect">غلط پاس ورڈ</string>
+    
+    <string name="mmiComplete">MMI مکمل</string>
+    
+    <string name="badPin">آپ کا ٹائپ کردہ پرانا PIN درست نہیں ہے۔</string>
+    
+    <string name="badPuk">آپ کا ٹائپ کردہ PUK درست نہیں ہے۔</string>
+    
+    <string name="mismatchPin">آپ کے ٹائپ کردہ PINs مماثل نہیں ہے۔</string>
+    
+    <string name="invalidPin">4 سے 8 نمبروں والی پن ٹائپ کریں۔</string>
+    
+    <string name="invalidPuk">ایسا PUK ٹائپ کریں جو 8 اعداد یا اس سے زیادہ کا ہو۔</string>
+    
+    <string name="needPuk">آپ کی SIM کارڈ PUK مقفل ہے۔ اسے غیرمقفل کرنے کے لئے PUK ٹائپ کریں۔ </string>
+    <string name="needPuk2">اسے کھولنے کے لئے PUK2 کوڈ ٹائپ کریں۔</string>
+    
+    <string name="imei">IMEI</string>
+
+    
+    <string name="meid">MEID</string>
+
+    
+    <string name="ClipMmi">آنے والی کالر آئی ڈی</string>
+    
+    <string name="ClirMmi">جانے والی کالر آئی ڈی</string>
+    
+    <string name="CfMmi">کال آگے بڑھانا</string>
+    
+    <string name="CwMmi">کال انتظار</string>
+    
+    <string name="BaMmi">کال پر بندش</string>
+    
+    <string name="PwdMmi">پاس ورڈ تبدیل</string>
+    
+    <string name="PinMmi">پن تبدیل</string>
+    <string name="CnipMmi">کال کرنے والا نمبر موجود</string>
+    <string name="CnirMmi">کال کرنے والا نمبر محدود</string>
+    <string name="ThreeWCMmi">تین طرفہ کالنگ</string>
+    <string name="RuacMmi">تنگ کرنے والی غیرپسندیدہ کالیں مسترد کرنا</string>
+    <string name="CndMmi">کالنگ نمبر ڈیلیوری</string>
+    <string name="DndMmi">خلل نہ ڈالیں</string>
+
+    
+    <string name="CLIRDefaultOnNextCallOn">کالر آئی ڈی بنیادی طور پر محدود ہوتی ہے۔ اگلی کال: محدود</string>
+    
+    <string name="CLIRDefaultOnNextCallOff">کالر آئی ڈی بنیادی طور پر محدود ہوتی ہے۔ اگلی کال: غیرمحدود</string>
+    
+    <string name="CLIRDefaultOffNextCallOn">کالر آئی ڈی بنیادی طور پر غیرمحدود ہوتی ہے۔ اگلی کال: محدود</string>
+    
+    <string name="CLIRDefaultOffNextCallOff">کالر آئی ڈی بنیادی طور پرغیر محدود ہوتی ہے۔ اگلی کال: غیرمحدود</string>
+
+
+    
+    <string name="serviceNotProvisioned">خدمت موجود نہیں</string>
+    
+    <string name="CLIRPermanent">آپ کال کنندہ کی شناخت کی ترتیبات کو تبدیل نہیں کرسکتے۔</string>
+
+    
+    <string name="RestrictedChangedTitle">محدود رسائی تبدیل ہوچکی ہے</string>
+    
+    <string name="RestrictedOnData">ڈیٹا خدمت بلاک ہے۔</string>
+    
+    <string name="RestrictedOnEmergency">ایمرجنسی خدمت بلاک ہے۔</string>
+    
+    <string name="RestrictedOnNormal">وائس خدمت بلاک ہے۔</string>
+    
+    <string name="RestrictedOnAllVoice">ساری وائس خدمتیں بلاک ہیں۔</string>
+    
+    <string name="RestrictedOnSms">SMS کی خدمت بلاک ہے۔</string>
+    
+    <string name="RestrictedOnVoiceData">صوتی / ڈیٹا  سروسز مسدود ہیں۔</string>
+    
+    <string name="RestrictedOnVoiceSms">وائس/SMS خدمتیں بلاک ہیں۔</string>
+    
+    <string name="RestrictedOnAll">تمام صوتی/ڈیٹا/‏SMS‏ سروسز مسدود ہیں۔</string>
+
+     <skip/>
+    
+    <string name="serviceClassVoice">وائس</string>
+    
+    <string name="serviceClassData">ڈیٹا</string>
+    
+    <string name="serviceClassFAX">فیکس</string>
+    
+    <string name="serviceClassSMS">SMS</string>
+    
+    <string name="serviceClassDataAsync">ناہم وقت</string>
+    
+    <string name="serviceClassDataSync">سنک ترتیبات</string>
+    
+    <string name="serviceClassPacket">پیکیٹ</string>
+    
+    <string name="serviceClassPAD">PAD</string>
+
+     <skip/>
+    
+    <string name="roamingText0">رومنگ نشان کار آن ہے</string>
+    <string name="roamingText1">رومنگ نشان کار بند ہے</string>
+    <string name="roamingText2">رومنگ نشان کار فلیش کررہا ہے</string>
+    <string name="roamingText3">پڑوس کے باہر</string>
+    <string name="roamingText4">بلڈنگ کے باہر</string>
+    <string name="roamingText5">رومنگ-ترجیحی نظام</string>
+    <string name="roamingText6">رومنگ-دستیاب نظام</string>
+    <string name="roamingText7">رومنگ-اتحادی پارٹنر</string>
+    <string name="roamingText8">رومنگ-پریمیم پارٹنر</string>
+    <string name="roamingText9">رومنگ-مکمل خدمت کی فعالیت </string>
+    <string name="roamingText10">رومنگ-جزوی خدمت کی فعالیت</string>
+    <string name="roamingText11">رومنگ بینر آن</string>
+    <string name="roamingText12">رومنگ بینر بند</string>
+    <string name="roamingTextSearching">خدمت تلاش کرنا</string>
+
+
+     <skip/>
+    
+    <string name="cfTemplateNotForwarded"><xliff:g id="bearer_service_code">{0}</xliff:g>: نہ آگے بھیجا ہوا</string>
+    
+    <string name="cfTemplateForwarded"><xliff:g id="bearer_service_code">{0}</xliff:g>: <xliff:g id="dialing_number">{1}</xliff:g></string>
+    
+    <string name="cfTemplateForwardedTime"><xliff:g id="bearer_service_code">{0}</xliff:g>: <xliff:g id="dialing_number">{1}</xliff:g> after <xliff:g id="time_delay">{2}</xliff:g> سیکنڈ</string>
+    
+    <string name="cfTemplateRegistered"><xliff:g id="bearer_service_code">{0}</xliff:g>: نہ آگے بھیجا ہوا</string>
+    
+    <string name="cfTemplateRegisteredTime"><xliff:g id="bearer_service_code">{0}</xliff:g>: نہ آگے بھیجا ہوا</string>
+
+     <skip/>
+    
+    <string name="fcComplete">فیچر کوڈ مکمل</string>
+    
+    <string name="fcError">کنکشن پرابلم یا غلط کوڈ</string>
+     <skip/>
+    
+    <string name="httpErrorOk">ٹھیک ہے</string>
+    
+    <string name="httpError">اس میں نیٹ ورک کی خرابی تھی۔</string>
+    
+    <string name="httpErrorLookup">URL نہیں ملا۔</string>
+    
+    <string name="httpErrorUnsupportedAuthScheme">سائٹ کی تصدیقی اسکیم معاون نہیں ہے۔</string>
+    
+    <string name="httpErrorAuth">تصدیق نہیں کی جاسکتی۔</string>
+    
+    <string name="httpErrorProxyAuth">بذریعہ پراکسی توثیق کاری ناکام تھی۔</string>
+    
+    <string name="httpErrorConnect"> سرور سے مربوط نہیں ہوسکتا۔</string>
+    
+    <string name="httpErrorIO"> سرور سے مواصلت نہیں کرسکتا۔ بعد میں دوبارہ کوشش کریں۔</string>
+    
+    <string name="httpErrorTimeout">سرور سے کنکشن کرنے کا وقت ختم۔</string>
+    
+    <string name="httpErrorRedirectLoop">صفحہ بہت سارے رہنمائی کرنے والے سرور پر مشتمل ہے۔ </string>
+    
+    <string name="httpErrorUnsupportedScheme">پروٹوکول معاون نہیں ہے۔</string>
+    
+    <string name="httpErrorFailedSslHandshake">ایک محفوظ کنکشن قائم نہیں کرسکتا۔</string>
+    
+    <string name="httpErrorBadUrl">صفحہ نہیں کھول سکتا کیونکہ URL غلط ہے۔</string>
+    
+    <string name="httpErrorFile">فائل تک رسائی نہیں ہوسکتی۔</string>
+    
+    <string name="httpErrorFileNotFound">مطلوبہ فائل نہیں مل سکی۔</string>
+    
+    <string name="httpErrorTooManyRequests">بہت ساری درخواستیں عمل پیرا ہیں۔ بعد دوبارہ کوشش کریں۔</string>
+
+     <skip/>
+    
+    <string name="notification_title">سائن ان کی خرابی برائے ‏‎ <xliff:g id="account" example="foo@gmail.com">%1$s</xliff:g>‎</string>
+
+     <skip/>
+    
+    <string name="contentServiceSync">سنک ترتیبات</string>
+    
+    <string name="contentServiceSyncNotificationTitle">سنک ترتیبات</string>
+    
+    <string name="contentServiceTooManyDeletesNotificationDesc">بہت سارے <xliff:g id="content_type">%s</xliff:g> مٹاتا ہے۔</string>
+
+    
+    <string name="low_memory" product="tablet">ٹیبلٹ کا اسٹوریج  بھرا ہوا ہے۔ جگہ خالی کرنے کیلئے کچھ فائلیں حذف کردیں۔</string>
+    
+    <string name="low_memory" product="default">فون کا اسٹوریج  بھرا ہوا ہے۔ جگہ خالی کرنے کیلئے کچھ فائلیں حذف کردیں۔</string>
+
+
+    
+    <string name="me">میں</string>
+
+     <skip/>
+    
+    <string name="power_dialog" product="tablet">ٹیبلیٹ کے اختیارات</string>
+    
+    <string name="power_dialog" product="default">فون کے اختیارات</string>
+    
+    <string name="silent_mode">خاموش وضع</string>
+    
+    <string name="turn_on_radio">وائرلیس آن کرنا</string>
+    
+    <string name="turn_off_radio">وائرلیس بند کرنا</string>
+    
+    <string name="screen_lock">اسکرین لاک</string>
+    
+    <string name="power_off">پاور بند کرنا</string>
+    
+    <string name="silent_mode_silent">گھنٹی بند</string>
+    
+    <string name="silent_mode_vibrate">گھنٹی لرزش</string>
+    
+    <string name="silent_mode_ring">گھنٹی چالو</string>
+
+    
+    <string name="shutdown_progress">بند ہورہا ہے\u2026</string>
+
+    
+    <string name="shutdown_confirm" product="tablet">آپ کا ٹیبلٹ بند ہوجائے گا۔</string>
+    
+    <string name="shutdown_confirm" product="default">آپ کا فون بند ہوجائے گا۔</string>
+
+    
+    <string name="shutdown_confirm_question">کیا آپ بند کرنا چاہتے ہیں؟</string>
+
+    
+    <string name="reboot_safemode_title">محفوظ وضع کیلئے بند کرکے چلائیں</string>
+
+    
+    <string name="reboot_safemode_confirm">کیا آپ محفوظ وضع میں بند کرکے چلانا چاہتے ہیں؟ اس سے تیسرے فریق کے وہ تمام اطلاقات غیرفعال ہوجائیں گے جو آپ نے نصب کیے ہیں۔ جب آپ بند کرکے دوبارہ چلائيں گے تو وہ بحال ہوجائیں گے۔</string>
+
+    
+    <string name="recent_tasks_title">حالیہ</string>
+    
+    <string name="no_recent_tasks">کوئی حالیہ اطلاقات نہیں۔</string>
+
+    
+    <string name="global_actions" product="tablet">ٹیبلیٹ کے اختیارات</string>
+    
+    <string name="global_actions" product="default">فون کے اختیارات</string>
+
+    
+    <string name="global_action_lock">اسکرین لاک</string>
+
+    
+    <string name="global_action_power_off">پاور بند کرنا</string>
+
+    
+    <string name="global_action_bug_report">بگ کی اطلاع</string>
+
+    
+    <string name="bugreport_title">بگ رپورٹ حاصل کریں</string>
+    
+    <string name="bugreport_message">یہ ایک ای میل پیغام کے بطور بھیجنے کیلئے آپ کے موجودہ آلے کی حالت کی معلومات حاصل کرے گا۔ اس میں بگ رپورٹ شروع کرنے سے بھیجے جانے کیلئے اس کے تیار ہونے کے وقت تک؛ براہ کرم صبر کریں۔</string>
+
+    
+    <string name="global_action_toggle_silent_mode">خاموش وضع</string>
+
+    
+    <string name="global_action_silent_mode_on_status">آواز بند ہے</string>
+
+    
+    <string name="global_action_silent_mode_off_status">آوازآن ہے</string>
+
+    
+    <string name="global_actions_toggle_airplane_mode">ہوائی جہاز وضع</string>
+
+    
+    <string name="global_actions_airplane_mode_on_status">ہوائی جہاز حالت آن ہے</string>
+
+    
+    <string name="global_actions_airplane_mode_off_status">ہوائی جہاز حالت بند ہے</string>
+
+    
+    <string name="status_bar_notification_info_overflow">999+</string>
+
+    
+    <string name="safeMode">محفوظ وضع</string>
+
+    
+    <string name="android_system_label">Android نظام</string>
+
+    
+    <string name="permgrouplab_costMoney">وہ خدمات جن کی آپ کو قمیت دینی ہوگی</string>
+    
+    <string name="permgroupdesc_costMoney">ایسی چیزیں کریں جس میں آپ کو معاوضہ لگے۔</string>
+
+    
+    <string name="permgrouplab_messages">آپ کے پیغامات</string>
+    
+    <string name="permgroupdesc_messages">اپنا SMS، ای میل، اور دیگر پیغامات پڑھیں اور لکھیں۔</string>
+
+    
+    <string name="permgrouplab_personalInfo">آپ کی ذاتی معلومات</string>
+    
+    <string name="permgroupdesc_personalInfo">آپ کے رابطہ کارڈ میں ذخیرہ کردہ، آپ کے بارے میں معلومات تک براہ راست رسائی۔</string>
+
+    
+    <string name="permgrouplab_socialInfo">آپ کی سماجی معلومات</string>
+    
+    <string name="permgroupdesc_socialInfo">آپ کے رابطوں اور سماجی تعلقات کے بارے میں معلومات تک براہ راست رسائی۔</string>
+
+    
+    <string name="permgrouplab_location">آپ کا محل وقوع</string>
+    
+    <string name="permgroupdesc_location">اپنے جائے وقوع کی نگرانی کریں۔</string>
+
+    
+    <string name="permgrouplab_network">نیٹ ورک مواصلت</string>
+    
+    <string name="permgroupdesc_network">متعدد نیٹ ورک خصوصیات تک رسائی حاصل کریں۔</string>
+
+    
+    <string name="permgrouplab_bluetoothNetwork">Bluetooth</string>
+    
+    <string name="permgroupdesc_bluetoothNetwork">بلوٹوتھ کے ذریعہ آلات اور نیٹ ورکس تک رسائی حاصل کریں۔</string>
+
+    
+    <string name="permgrouplab_audioSettings">آڈیو کی ترتیبات</string>
+    
+    <string name="permgroupdesc_audioSettings">آڈیو کی ترتیبات تبدیل کریں۔</string>
+
+    
+    <string name="permgrouplab_affectsBattery">بیٹری پر اثر ڈالتا ہے</string>
+    
+    <string name="permgroupdesc_affectsBattery">وہ خصوصیات استعمال کریں جو جلدی سے بیٹری کو بہا سکتی ہیں۔</string>
+
+    
+    <string name="permgrouplab_calendar">کیلنڈر</string>
+    
+    <string name="permgroupdesc_calendar">کیلنڈر اور ایونٹس تک براہ راست رسائی۔</string>
+
+    
+    <string name="permgrouplab_dictionary">صارف کی لغت پڑھیں</string>
+    
+    <string name="permgroupdesc_dictionary">صارف کی لغت میں موجود حروف پڑھیں۔</string>
+
+    
+    <string name="permgrouplab_writeDictionary">صارف کی لغت تحریر کریں</string>
+    
+    <string name="permgroupdesc_writeDictionary">صارف کی لغت میں حروف شامل کریں۔</string>
+
+    
+    <string name="permgrouplab_bookmarks">بک مارکس اور سرگزشت</string>
+    
+    <string name="permgroupdesc_bookmarks">بک مارکس اور براؤزر کی سرگزشت تک راست رسائی۔</string>
+
+    
+    <string name="permgrouplab_deviceAlarms">الارم</string>
+    
+    <string name="permgroupdesc_deviceAlarms">الارم گھڑی متعین کریں۔</string>
+
+    
+    <string name="permgrouplab_voicemail">وائس میل</string>
+    
+    <string name="permgroupdesc_voicemail">صوتی میل تک براہ راست رسائی۔</string>
+
+    
+    <string name="permgrouplab_microphone">مائکروفون</string>
+    
+    <string name="permgroupdesc_microphone">آڈیو ریکارڈ کرنے کیلئے مائکروفون تک براہ راست رسائی۔</string>
+
+    
+    <string name="permgrouplab_camera">کیمرہ</string>
+    
+    <string name="permgroupdesc_camera">تصویر لینے یا ویڈیو بنانے کیلئے کیمرے تک براہ راست رسائی۔</string>
+
+    
+    <string name="permgrouplab_appInfo">آپ کے اطلاق کی معلومات</string>
+    
+    <string name="permgroupdesc_appInfo">آپ کے آلہ پر دیگر اطلاقات کے رویے پر اثر ڈالنے کی اہلیت۔</string>
+
+    
+    <string name="permgrouplab_wallpaper">وال پیپر</string>
+    
+    <string name="permgroupdesc_wallpaper">آلہ کے وال پیپر کی ترتیبات تبدیل کریں۔</string>
+
+    
+    <string name="permgrouplab_systemClock">گھڑی</string>
+    
+    <string name="permgroupdesc_systemClock">ویڈیو کا وقت یا منطقۂ وقت تبدیل کریں۔</string>
+
+    
+    <string name="permgrouplab_statusBar">اسٹیٹس بار</string>
+    
+    <string name="permgroupdesc_statusBar">آلہ کے حیثیت والے بار کی ترتیبات تبدیل کریں۔</string>
+
+    
+    <string name="permgrouplab_syncSettings">سنک ترتیبات</string>
+    
+    <string name="permgroupdesc_syncSettings">مطابقت پذیری کی ترتیبات تک رسائی حاصل کریں۔</string>
+
+    
+    <string name="permgrouplab_accounts">آپ کے حسابات</string>
+    
+    <string name="permgroupdesc_accounts">دستیاب حسابوں پر رسائی کریں</string>
+
+    
+    <string name="permgrouplab_hardwareControls">ہارڈوئیر کنٹرول</string>
+    
+    <string name="permgroupdesc_hardwareControls">دستی سیٹ میں موجود ہارڈوئیر پر براہ راست رسائی کریں۔</string>
+
+    
+    <string name="permgrouplab_phoneCalls">فون کالیں</string>
+    
+    <string name="permgroupdesc_phoneCalls">فون کالوں کی نگرانی کریں، ریکارڈ کریں، اور چلائیں۔</string>
+
+    
+    <string name="permgrouplab_systemTools">سسٹم ٹولز</string>
+    
+    <string name="permgroupdesc_systemTools">سسٹم کی درمیانی سطح کی رسائی اور کنٹرول۔</string>
+
+    
+    <string name="permgrouplab_developmentTools">تکمیل کاری ٹولز</string>
+    
+    <string name="permgroupdesc_developmentTools">خصوصیات کی ضرورت صرف اطلاق کے ڈیولپرز کیلئے ہے۔</string>
+
+    
+    <string name="permgrouplab_display">دیگر اطلاق کا UI</string>
+    
+    <string name="permgroupdesc_display">دوسرے اطلاقات کے UI پر اثر ڈالیں۔</string>
+
+    
+    <string name="permgrouplab_storage">ذخیرہ</string>
+    
+    <string name="permgroupdesc_storage" product="nosdcard">USB ذخیرہ پر رسائی۔</string>
+    
+    <string name="permgroupdesc_storage" product="default">SD کارڈ پر رسائی۔</string>
+
+    
+
+    
+    <string name="permlab_statusBar">اسٹیٹس بارکو غیرفعال یا اس میں ترمیم کریں</string>
+    
+    <string name="permdesc_statusBar">اطلاق کو اسٹیٹس بار کو غیرفعال کرنے یاسسٹم آئیکنز کو شامل کرنے یا ہٹانے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_statusBarService">اسٹیٹس بار</string>
+    
+    <string name="permdesc_statusBarService">اطلاق کو اسٹیٹس بار پر رہنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_expandStatusBar">اسٹیٹس بار کو وسیع/غائب کرنا</string>
+    
+    <string name="permdesc_expandStatusBar">اطلاق کو اسٹیٹس بار پھیلانے یا سکیڑنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_processOutgoingCalls">باہر جانے والی کالوں کا راستہ تبدیل کریں</string>
+    
+    <string name="permdesc_processOutgoingCalls">اطلاق کو باہر جانے والی کالوں پر کارروائی کرنے اور ڈائل کیے جانے والے نمبروں کو تبدیل کرنے کی اجازت دیتا ہے۔ یہ اجازت اطلاق کو باہر جانے والی کالوں کی نگرانی کرنے، دوسری طرف بھیجنے، یا روکنے کا اختیار دیتا ہے۔</string>
+
+    
+    <string name="permlab_receiveSms">متنی پیغام وصول کریں (SMS)</string>
+    
+    <string name="permdesc_receiveSms">اطلاق کو SMS پیغامات وصول کرنے اور اس پر کارروائی کی اجازت دیتا ہے۔ اس کا مطلب ہے کہ اطلاق آپ کو دکھائے بغیر آپ کے آلے کو بھیجے گئے پیغامات کی نگرانی یا اسے حذف کرسکتا ہے۔</string>
+
+    
+    <string name="permlab_receiveMms">متنی پیغام وصول کریں (MMS)</string>
+    
+    <string name="permdesc_receiveMms">اطلاق کو MMS پیغامات وصول کرنے اور اس پر کارروائی کی اجازت دیتا ہے۔ اس کا مطلب ہے کہ اطلاق آپ کو دکھائے بغیر آپ کے آلے کو بھیجے گئے پیغامات کی نگرانی یا اسے حذف کرسکتا ہے۔</string>
+
+    
+    <string name="permlab_receiveEmergencyBroadcast">ہنگامی نشریات وصول کریں</string>
+    
+    <string name="permdesc_receiveEmergencyBroadcast">اطلاق کو ہنگامی نشریاتی پیغامات وصول کرنے اور اس پر کارروائی کی اجازت دیتا ہے۔ یہ اجازت صرف سسٹم اطلاقات کیلئے دستیاب ہے۔</string>
+
+    
+    <string name="permlab_readCellBroadcasts">سیل نشریاتی پیغامات پڑھیں</string>
+    
+    <string name="permdesc_readCellBroadcasts">اطلاق کو اپنے آلے کے ذریعہ وصول کردہ سیل نشریاتی پیغامات پڑھنے کی اجازت دیتا ہے۔ سیل نشریاتی انتباہات کچھ مقامات پر آپ کو ہنگامی حالات سے آگاہ کرانے کیلئے بھیجے جاتے ہیں۔ بدنیت اطلاقات ہنگامی سیل نشریہ موصول ہونے پر آپ کے آلے کی کارکردگی اور عمل میں رکاوٹ ڈال سکتے ہیں۔</string>
+
+     
+    <string name="permlab_sendSms">SMS پیغامات بھیجنا</string>
+    
+    <string name="permdesc_sendSms">اطلاق کو SMS پیغامات بھیجنے کی اجازت دیتا ہے۔ اس میں غیر متوقع محصولات لگ سکتے ہیں۔ بدنیت اطلاقات بغیر آپ کی تصدیق کے پیغامات بھیج کر آپ کی رقم خرچ کرسکتے ہیں۔</string>
+
+     
+    <string name="permlab_sendSmsNoConfirmation">بغیر تصدیق کے  SMS پیغامات بھیجیں</string>
+    
+    <string name="permdesc_sendSmsNoConfirmation">اطلاق کو SMS پیغامات بھیجنے کی اجازت دیتا ہے۔ اس میں غیر متوقع محصولات لگ سکتے ہیں۔ بدنیت اطلاقات بغیر آپ کی تصدیق کے پیغامات بھیج کر آپ کی رقم خرچ کرسکتے ہیں۔</string>
+
+    
+    <string name="permlab_readSms">متنی پیغامات پڑھیں (SMS یا MMS)</string>
+    
+    <string name="permdesc_readSms" product="tablet">اطلاق کو آپ کے ٹیبلیٹ یا SIM کارڈ پر اسٹوریج کردہ SMS پیغامات پڑھنے کی اجازت دیتا ہے۔ یہ اطلاق کو مواد یا رازداری سے قطع نظر، تمام SMS پیغامات پڑھنے کی اجازت دیتا ہے۔</string>
+    
+    <string name="permdesc_readSms" product="default">اطلاق کو آپ کے فون یا SIM کارڈ پر اسٹوریج کردہ SMS پیغامات پڑھنے کی اجازت دیتا ہے۔ یہ اطلاق کو مواد یا رازداری سے قطع نظر، تمام SMS پیغامات پڑھنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_writeSms">اپنے متنی پیغامات کی تدوین کریں (SMS یا MMS)</string>
+    
+    <string name="permdesc_writeSms" product="tablet">اطلاق کو آپ کے ٹیبلیٹ یا SIM کارڈ پر اسٹوریج کردہ SMS پیغامات لکھنے کی اجازت دیتا ہے۔ بدنیت اطلاقات آپ کے پیغامات کو حذف کرسکتے ہیں۔</string>
+    
+    <string name="permdesc_writeSms" product="default">اطلاق کو آپ کے ٹیبلیٹ یا SIM کارڈ پر اسٹوریج کردہ SMS پیغامات لکھنے کی اجازت دیتا ہے۔ بدنیت اطلاقات آپ کے پیغامات کو حذف کرسکتے ہیں۔</string>
+
+    
+    <string name="permlab_receiveWapPush">متنی پیغام وصول کریں (WAP)</string>
+    
+    <string name="permdesc_receiveWapPush">اطلاق کو WAP پیغامات وصول کرنے اور اس پر کارروائی کی اجازت دیں۔  اس اجازت میں  آپ کو دکھائے بغیر آپ کو بھیجے گئے پیغامات کی نگرانی یا اسے حذف کرنے کی اجازت شامل ہے۔</string>
+
+    
+    <string name="permlab_getTasks">چل رہے اطلاقات کی بازیافت کریں</string>
+    
+    <string name="permdesc_getTasks">اطلاق کو ابھی اور حالیہ چل رہے کاموں کے بارے میں معلومات کی بازیافت کی اجازت دیتا ہے۔  یہ اطلاق کو اس بارے میں معلومات کی بازیافت کی اجازت دے سکتا ہے کہ آلے پر کون سے اطلاقات کا استعمال ہوا ہے۔</string>
+
+    
+    <string name="permlab_interactAcrossUsers">صارفین کے بیچ تعامل کریں</string>
+    
+    <string name="permdesc_interactAcrossUsers">اطلاق کو آلات پر مختلف صارفین کے بیچ کارروائیاں انجام دینے کی اجازت دیتا ہے۔ مبہم اطلاقات صارفین کے مابین تحفظ کی خلاف ورزی کرنے کیلئے اسے استعمال کرسکتے ہیں۔</string>
+
+    
+    <string name="permlab_interactAcrossUsersFull">صارفین کے بیچ تعامل کرنے کیلئے پورا لائسنس</string>
+    
+    <string name="permdesc_interactAcrossUsersFull">صارفین کے بیچ سبھی ممکنہ تعامل کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_manageUsers">صارفین کا نظم کریں</string>
+    
+    <string name="permdesc_manageUsers">اطلاقات کو آلہ پر موجود صارفین، بشمول استفسار، تخلیق اور تنسیخ کا نظم کرنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_getDetailedTasks">چل رہے اطلاقات کے تفصیلات کی بازیافت کریں</string>
+    
+    <string name="permdesc_getDetailedTasks">اطلاق کو ابھی اور حالیہ چل رہے کاموں کے بارے میں تفصیلی معلومات کی بازیافت کی اجازت دیتا ہے۔ بدنیت اطلاقات دوسرے اطلاقات سے متعلق نجی معلومات کی بازیافت کرسکتے ہیں۔</string>
+
+    
+    <string name="permlab_reorderTasks">چل رہے اطلاقات کی ترتیب بدلیں</string>
+    
+    <string name="permdesc_reorderTasks">اطلاق کو آپ کے صوتی میل کے ان باکس میں پیغامات شامل کرنے دیتا ہے۔  اطلاق اسے آپ کے تعاون کے بغیر کرسکتا ہے۔ </string>
+
+    
+    <string name="permlab_removeTasks">اطلاقات کو چلانا بند کریں</string>
+    
+    <string name="permdesc_removeTasks">اطلاق کو کاموں کو حذف کرنے اور  ان کے اطلاقات کوختم کرنے کی اجازت دیتا ہے۔ بدنیت اطلاقات دوسرے اطلاقات کے رویے میں بدنظمی پیدا کرسکتے ہیں۔</string>
+
+    
+    <string name="permlab_startAnyActivity">کوئی سرگرمی شروع کریں</string>
+    
+    <string name="permdesc_startAnyActivity">اطلاق کو اجازت کےتحفظ یا برآمد شدہ حالت سے قطع نظر کوئی سرگرمی شروع کرنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_setScreenCompatibility">اسکرین کی موافقت متعین کریں</string>
+    
+    <string name="permdesc_setScreenCompatibility">اطلاق کو دوسرے اطلاقات کی اسکرین سے موافقت والی وضع پر قابو رکھنے کی اجازت دیتا ہے۔  بدنیت اطلاقات دوسرے اطلاقات کے رویے میں رکاوٹ پیدا کرسکتے ہیں۔</string>
+
+    
+    <string name="permlab_setDebugApp">اطلاق کی ڈی بگنگ فعال کریں</string>
+    
+    <string name="permdesc_setDebugApp">اطلاق کودوسرےاطلاقات کیلئے ڈی بگنگ کو چالوکرنے کی اجازت دیتا ہے۔ بدنیت اطلاقات دوسرے اطلاقات کو ختم کرنے کیلئے اس کا استعمال کرسکتے ہیں۔</string>
+
+    
+    <string name="permlab_changeConfiguration">سسٹم کی ڈسپلے والی ترتیبات تبدیل کریں</string>
+    
+    <string name="permdesc_changeConfiguration">اطلاق کو موجودہ موافقت تبدیل کرنے کی اجازت دیتا ہے، جیسے کہ مقامی اور مجموعی فونٹ سائز۔</string>
+
+    
+    <string name="permlab_enableCarMode">کار وضع فعال کرنا</string>
+    
+    <string name="permdesc_enableCarMode">اطلاق کو کار کی وضع فعال کرنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_killBackgroundProcesses">دیگراطلاقات بند کریں</string>
+    
+    <string name="permdesc_killBackgroundProcesses">اطلاق کو دیگر اطلاقات کے پس منظرکی کارروائيوں کو ختم کرنے کی اجازت دیتا ہے۔  اس سے دوسرے اطلاقات کام کرنا بند کرسکتے ہیں۔</string>
+
+    
+    <string name="permlab_forceStopPackages">دیگراطلاقات کو زبردستی بند کریں</string>
+    
+    <string name="permdesc_forceStopPackages">اطلاق کو دیگر اطلاقات کوزبردستی بند کرنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_forceBack">اطلاق کو زبردستی بند کرنا</string>
+    
+    <string name="permdesc_forceBack">اطلاق کو کسی ایسی سرگرمی کو بند کرکے واپس جانے کیلئے مجبور کرنے کی اجازت دیتا ہے جو سامنے ہو۔  معمول کے اطلاقات کیلئے کبھی درکار نہیں ہونا چاہیے۔</string>
+
+    
+    <string name="permlab_dump">سسٹم کا داخلی اسٹیٹ بازیافت کرنا</string>
+    
+    <string name="permdesc_dump">اطلاق کوسسٹم کی داخلی حالت کی بازیافت کی اجازت دیتا ہے۔ بدنیت اطلاقات وسیع پیمانے پر مختلف قسم کے نجی اور محفوظ معلومات کی بازیافت کرسکتے ہیں جن کی انہیں عام طور پر کبھی ضرورت نہیں ہوتی۔</string>
+
+    
+    <string name="permlab_retrieve_window_content">اسکرین کے مشمولات کی بازیافت کریں</string>
+    
+    <string name="permdesc_retrieve_window_content">اطلاق کو فعال ونڈو کے مشمولات کی بازیافت کی اجازت دیتا ہے۔ بدنیت اطلاقات ونڈوکے سبھی مشمولات کی بازیاف کرسکتے ہیں اور پاسورڈز کے علاوہ اسے کی تمام عبارت کی جانچ کرسکتے ہیں۔</string>
+
+    
+    <string name="permlab_temporary_enable_accessibility">رسائی کی حالت عارضی طور پر غیر فعال کریں</string>
+    
+    <string name="permdesc_temporary_enable_accessibility">کسی اطلاق کو آلہ پر رسائی کی حالت عارضی طور پر فعال کرنے کی اجازت دیتا ہے۔ مبہم اطلاقات صارف کی منظوری کے بغیر رسائی کی حالت فعال کرسکتے ہیں۔</string>
+
+    
+    <string name="permlab_retrieve_window_info">ونڈو کی معلومات بازیافت کریں</string>
+    
+    <string name="permdesc_retrieve_window_info">کسی اطلاق کو ونڈو منیجر سے ونڈوز کے بارے میں معلومات بازیافت کرنے کی اجازت دیتا ہے۔ مبہم اطلاقات ایسی معلومات بازیافت کرسکتے ہیں جو داخلی سسٹم کے استعمال کیلئے بنایا گیا ہے۔</string>
+
+    
+    <string name="permlab_filter_events">ایونٹس کو فلٹر کریں</string>
+    
+    <string name="permdesc_filter_events">کسی اطلاق کو ایک ایسا ان پٹ فلٹر رجسٹر کرنے کی اجازت دیتا ہے جو صارفین کے سبھی ایونٹس کا سلسلہ روانہ کیے جانے سے قبل انہیں فلٹر کرتا ہے۔ مبہم اطلاق صارف کی مداخلت کے بغیر سسٹم کے UI کو کنٹرول کرسکتے ہیں۔</string>
+
+    
+    <string name="permlab_magnify_display">ڈسپلے کو بڑا کریں</string>
+    
+    <string name="permdesc_magnify_display">کسی اطلاق کو ڈسپلے کا مواد بڑا کرنے کی اجازت دیتا ہے۔ مبہم اطلاقات ڈسپلے کے مواد کو ایسے انداز میں بدل سکتے ہیں جو آلہ کو ناقابل استعمال بنا دیتا ہے۔</string>
+
+    
+    <string name="permlab_shutdown">جزئی شٹ ڈاؤن</string>
+    
+    <string name="permdesc_shutdown">فعال منیجیر کو شٹ ڈاؤن اسٹیٹ میں رکھتا ہے۔ مکمل شٹ ڈاؤن کا عمل نہیں کرتا۔</string>
+
+    
+    <string name="permlab_stopAppSwitches">ایپلی کیشن سوئچوں کو منع کرنا</string>
+    
+    <string name="permdesc_stopAppSwitches">صارف کو دوسرے اطلاق پر تبدیل کرنے سے روکتاہے۔</string>
+
+    
+    <string name="permlab_runSetActivityWatcher">سبھی اطلاقات کے آغاز کی نگرانی کرتا ہے اور اس پر قابو رکھتا ہے۔</string>
+    
+    <string name="permdesc_runSetActivityWatcher">اطلاق کوسسٹم کےذریعہ سرگرمیوں کےآغاز کے طریقے کی نگرانی کرنے اور اس پر قابو رکھنے کی اجازت دیتا ہے۔ بدنیت اطلاقات سسٹم سے پوری طرح سمجھوتہ کرسکتے ہیں۔ اس اجازت کی ضرورت صرف فروغ کیلئے ہوتی ہے، معمول کے استعمال کیلئے کبھی نہیں۔</string>
+
+    
+    <string name="permlab_broadcastPackageRemoved">حذف شدہ پیکج بروڈکاسٹ بھیجنا</string>
+    
+    <string name="permdesc_broadcastPackageRemoved">اطلاق کو یہ اطلاع نشر کرنے کی اجازت دیتا ہے کہ ایک اطلاقاتی پیکیج ہٹا دیا گیا ہے۔ بدنیت اطلاقات چل رہے دوسرے اطلاقات کو ختم کرنے کیلئے اس کا استعمال کرسکتے ہیں۔</string>
+
+    
+    <string name="permlab_broadcastSmsReceived">SMS موصول کردہ براڈ کاسٹ بھیجنا</string>
+    
+    <string name="permdesc_broadcastSmsReceived">اطلاق کو یہ اطلاع نشر کرنے کی اجازت دیتا ہے کہ ایک ‏SMS‏ پیغام موصول ہوا ہے۔‎ ‎بدنیت اطلاقات آرہے ‏SMS‏ ‏پیغامات کی جعلسازی کیلئے اس کا استعمال کرسکتے ہیں۔</string>
+
+    
+    <string name="permlab_broadcastWapPush">WAP-PUSH موصول کردہ نشریہ</string>
+    
+    <string name="permdesc_broadcastWapPush">اطلاق کو یہ اطلاع نشر کرنے کی اجازت دیتا ہے کہ ایک ‏WAP PUSH‏ پیغام موصول ہوا ہے۔‎ ‎بدنیت اطلاقات اس کا ‏استعمال ‏MMS‏ پیغامات کی وصولی میں جعلسازی کیلئے یا خاموشی سے کسی ویب صفحہ کے مواد کو مختلف بدنیت ‏شکلوں کے ساتھ تبدیل کرسکتے ہیں۔</string>
+
+    
+    <string name="permlab_setProcessLimit">چل رہے اعمال کے محدود عدد</string>
+    
+    <string name="permdesc_setProcessLimit">اطلاق کو کارروائیوں کی اس زیادہ سے زیادہ تعداد پر قابو رکھنے کی اجازت دیتا ہے جو چلیں گی۔ معمول کے اطلاقات کیلئے کبھی درکار نہیں ہوتا۔</string>
+
+    
+    <string name="permlab_setAlwaysFinish">اطلاق کو زبردستی بند کریں</string>
+    
+    <string name="permdesc_setAlwaysFinish">اطلاق کو اس بات پر قابو رکھنے کی اجازت دیتا ہے کہ آیا سرگرمیاں ہمیشہ اتنی ہی جلدی مکمل ہوجاتی ہیں جتنی جلدی وہ پس منظر میں جاتی ہیں۔ معمول کے اطلاقات کیلئے کبھی درکار نہیں ہوتا۔</string>
+
+    
+    <string name="permlab_batteryStats">بیٹری کے اعداد و شمار پڑھیں</string>
+    
+    <string name="permdesc_batteryStats">کسی اطلاق کو حالیہ ادنی سطح کی بیٹری کے استعمال کا ڈیٹا پڑھنے کی اجازت دیتا ہے۔ اطلاق کو آپ کے زیر استعمال اطلاقات کے بارے میں تفصیلی معلومات پتہ کرنے دیتا ہے۔</string>
+
+    
+    <string name="permlab_updateBatteryStats">بیٹری شماریات میں ترمیم کرنا</string>
+    
+    <string name="permdesc_updateBatteryStats">اطلاق کو بیٹری کے جمع کردہ اعداد و شمار میں ترمیم کرنے دیتا ہے۔ معمول کے اطلاقات کے ذریعہ استعمال کیلئے نہیں ہے۔</string>
+
+    
+    <string name="permlab_backup">سسٹم بیک اپ کو کنٹرول کرنا اور اسے بحال کرنا</string>
+    
+    <string name="permdesc_backup">اطلاق کو سسٹم کے بیک اپ پر قابو رکھنے اور میکانزم کو بحال کرنےکی اجازت دیتا ہے۔  معمول کے اطلاقات کے ذریعہ استعمال کیلئے نہیں ہے۔</string>
+
+    
+    <string name="permlab_confirm_full_backup">مکمل بیک اپ یا بحالی کے عمل کی تصدیق کریں</string>
+    
+    <string name="permdesc_confirm_full_backup">اطلاق مکمل بیک اپ تصدیق UI شروع کرنے کی اجازت دیتا ہے۔  کسی دیگر اطلاق کے ذریعہ استعمال نہ کیا جائے۔</string>
+
+    
+    <string name="permlab_internalSystemWindow">غیر مجاز ونڈوز کو ڈسپلے کرنا</string>
+    
+    <string name="permdesc_internalSystemWindow">اطلاق کو ایک ایسا ونڈو بنانے دیتا ہے جو داخلی سسٹم صارف انٹرفیس کے ذریعہ استعمال کیلئے ہوتے ہیں۔ معمول کے اطلاقات کے ذریعہ استعمال کیلئے نہیں ہے۔</string>
+
+    
+    <string name="permlab_systemAlertWindow">اطلاق کے اوپر لائیں</string>
+    
+    <string name="permdesc_systemAlertWindow">اطلاق کو دیگر اطلاقات کے اوپری حصے یا صارف کے انٹرفیس کے حصوں پر لے جانے کی اجازت دیتا ہے۔ وہ کسی اطلاق میں انٹرفیس کے آپ کے استعمال میں خلل ڈال سکتے ہیں، یا آپ کے خیال میں دوسرے اطلاقات میں آپ جو کچھ دیکھ رہے ہیں اسے تبدیل کرسکتے ہیں۔</string>
+
+    
+    <string name="permlab_setAnimationScale"> عالمی حرکت انذاری رفتار میں ترمیم کرنا</string>
+    
+    <string name="permdesc_setAnimationScale">کسی بھی وقت اطلاق کو مجموعی انیمیشن رفتار (تیز رفتار یا سست رفتار انیمیشنز) کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_manageAppTokens">اطلاق کے نظم کے ٹوکنز</string>
+    
+    <string name="permdesc_manageAppTokens">اطلاق کو اپنے خود کے ٹوکنز بنانے اور ان کا نظم کرنے، اپنے معمول کے Z –ترتیبات سے درگزر کرنے کی اجازت دیتا ہے۔ معمول کے اطلاقات کیلئے کبھی درکار نہیں ہونا چاہیے۔</string>
+
+    
+    <string name="permlab_freezeScreen">اسکرین منجمد کریں</string>
+    
+    <string name="permdesc_freezeScreen">اطلاق کو پورے اسکرین کی ترسیل کیلئے عارضی طور پر اسکرین کو منجمد کرنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_injectEvents">کنٹرول بٹنیں اور کلید دبائیں</string>
+    
+    <string name="permdesc_injectEvents" product="tablet">اطلاق کو اپنے خود کے اندراجی واقعات کی فراہمی (کلید کو دبانا وغیرہ) دوسرے اطلاقات کو کرنے کی اجازت دیتا ہے۔  بدنیت اطلاقات اس کا استعمال ٹیبلٹ پر قابو پانے کیلئے کرسکتے ہیں۔</string>
+    
+    <string name="permdesc_injectEvents" product="default">اطلاق کو اپنے خود کے اندراجی واقعات کی فراہمی (کلید کو دبانا وغیرہ) دوسرے اطلاقات کو کرنے کی اجازت دیتا ہے۔  بدنیت اطلاقات اس کا استعمال فون پر قابو پانے کیلئے کرسکتے ہیں۔</string>
+
+    
+    <string name="permlab_readInputState">ٹائپ کردہ اور لیے گئے ایکشن کو ریکارڈ کرنا</string>
+    
+    <string name="permdesc_readInputState">اطلاق کو آپ کے ذریعہ دبائے گئے کلیدوں کی نگرانی کرنے کی اجازت دیتا ہے یہاں تک کہ دوسرے اطلاق کے ساتھ تعامل کرتے وقت بھی (جیسے کوئی پاسورڈ ٹائپ کرنا)۔ معمول کے اطلاقات کیلئے کبھی درکار نہیں ہونا چاہیے۔</string>
+
+    
+    <string name="permlab_bindInputMethod">ان پٹ طریقہ کو باندھنا</string>
+    
+    <string name="permdesc_bindInputMethod">حامل کو ایک اندراجی طریقہ کے اعلی سطحی انٹرفیس سے مشروط کرنے کی اجازت دیتا ہے۔ معمول کے اطلاقات کیلئے کبھی درکار نہیں ہونا چاہیے۔</string>
+
+    
+    <string name="permlab_bindAccessibilityService">ایک  رسائی والی سروس سے مشروط</string>
+    
+    <string name="permdesc_bindAccessibilityService">حامل کو ایک رسائی والی سروس کے اعلی سطحی انٹرفیس سے مشروط کرنے کی اجازت دیتا ہے۔ معمول کے اطلاقات کیلئے کبھی درکار نہیں ہونا چاہیے۔</string>
+
+    
+    <string name="permlab_bindTextService">متنی سروس سے مشروط</string>
+    
+    <string name="permdesc_bindTextService">حامل کو ایک متنی سروس (جیسے ہجے جانچ کرنے کی سروس) کے اعلی سطحی انٹرفیس سے مشروط کرنے کی اجازت دیتا ہے۔ معمول کے اطلاقات کیلئے کبھی درکار نہیں ہونا چاہیے۔</string>
+
+    
+    <string name="permlab_bindVpnService">ایک VPN سروس سے مشروط</string>
+    
+    <string name="permdesc_bindVpnService">حامل کو ایک Vpn سروس کے اعلی سطحی انٹرفیس سے مشروط کرنے کی اجازت دیتا ہے۔ معمول کے اطلاقات کیلئے کبھی درکار نہیں ہونا چاہیے۔</string>
+
+    
+    <string name="permlab_bindWallpaper">وال پیپر سے باندھنا</string>
+    
+    <string name="permdesc_bindWallpaper">حامل کو ایک وال پیپر سروس کے اعلی سطحی انٹرفیس سے مشروط کرنے کی اجازت دیتا ہے۔ معمول کے اطلاقات کیلئے کبھی درکار نہیں ہونا چاہیے۔</string>
+
+    
+    <string name="permlab_bindRemoteViews">ایک ویجٹ سروس سے مشروط</string>
+    
+    <string name="permdesc_bindRemoteViews">حامل کو ایک ویجٹ سروس کے اعلی سطحی انٹرفیس سے مشروط کرنے کی اجازت دیتا ہے۔ معمول کے اطلاقات کیلئے کبھی درکار نہیں ہونا چاہیے۔</string>
+
+    
+    <string name="permlab_bindDeviceAdmin">آلہ ایڈمنسٹریشن کیذریعہ تعامل</string>
+    
+    <string name="permdesc_bindDeviceAdmin">حامل کو آلے کے منتظم تک اپنے ارادے کی ترسیل کی اجازت دیتا ہے۔ معمول کے اطلاقات کیلئے کبھی درکار نہیں ہونا چاہیے۔</string>
+
+    
+    <string name="permlab_setOrientation">اسکرین کی SIMت بندی تبدیل کرنا</string>
+    
+    <string name="permdesc_setOrientation">اطلاق کو کسی بھی وقت اسکرین کی گردش تبدیل کرنے کی اجازت دیتا ہے۔ معمول کے اطلاقات کیلئے کبھی درکار نہیں ہونا چاہیے۔</string>
+
+    
+    <string name="permlab_setPointerSpeed">پوائنٹر  کی رفتار بدلیں</string>
+    
+    <string name="permdesc_setPointerSpeed">اطلاق کو کسی بھی وقت ماؤس یا ٹریک پیڈ پوائنٹر کی رفتار تبدیل کرنے کی اجازت دیتا ہے۔ معمول کے اطلاقات کیلئے کبھی درکار نہیں ہونا چاہیے۔</string>
+
+    
+    <string name="permlab_setKeyboardLayout">کی بورڈ کا خاکہ تبدیل کریں</string>
+    
+    <string name="permdesc_setKeyboardLayout">اطلاق کو کی بورڈ کا خاکہ تبدیل کرنے کی اجازت دیتا ہے۔ معمول کے اطلاقات کیلئے کبھی درکار نہیں ہونا چاہیے۔</string>
+
+    
+    <string name="permlab_signalPersistentProcesses">اطلاقات کو Linux کےسگنلز بھیجیں</string>
+    
+    <string name="permdesc_signalPersistentProcesses">اطلاق کو باہر جانے والی کالوں پر کارروائی کرنے اور ڈائل کیے جانے والے نمبروں کو تبدیل کرنے کی اجازت دیں۔</string>
+
+    
+    <string name="permlab_persistentActivity">اطلاق کو ہمیشہ چلنے والا بنائیں</string>
+    
+    <string name="permdesc_persistentActivity" product="tablet">اطلاق کو میموری میں اپنے کچھ حصوں کو برقرار رکھنے  کی اجازت دیتا ہے۔  اس سے دیگر اطلاق کیلئے میمری میں کمی ہوسکتی ہے جس سے ٹیبلٹ سست ہوسکتا ہے۔</string>
+    <string name="permdesc_persistentActivity" product="default">اطلاق کو میموری میں اپنے کچھ حصوں کو برقرار رکھنے  کی اجازت دیتا ہے۔  اس سے دیگر اطلاق کیلئے میمری میں کمی ہوسکتی ہے جس سے فون سست ہوسکتا ہے۔</string>
+
+    
+    <string name="permlab_deletePackages">اطلاقات حذف کریں</string>
+    
+    <string name="permdesc_deletePackages">اطلاق کو Android پیکیجزحذف کرنے کی اجازت دیں۔ بدنیت اطلاقات اس کا استعمال اہم اطلاقات کو حذف کرنے کیلئے کرسکتے ہیں۔</string>
+
+    
+    <string name="permlab_clearAppUserData">دیگراطلاقات کا ڈیٹا حذف کریں</string>
+    
+    <string name="permdesc_clearAppUserData">اطلاق کو صارف کا ڈیٹا حذف کرنے کی اجازت دیتا ہے۔</string>
+    
+    <string name="permlab_deleteCacheFiles">دیگراطلاقات کے کیشز حذف کریں</string>
+    
+    <string name="permdesc_deleteCacheFiles">اطلاق کو کیش فائلیں حذف کرنے کی اجازت دیں۔</string>
+
+    
+    <string name="permlab_getPackageSize">اطلاق کے اسٹوریج کی جگہ کی پیمائش کریں</string>
+    
+    <string name="permdesc_getPackageSize">اطلاق کو اپنے کوڈ، ڈیٹا،اور کیش کی جسامتوں کی بازیافت کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_installPackages">اطلاقات براہ راست نصب کریں</string>
+    
+    <string name="permdesc_installPackages">اطلاق کو نئے یا تازہ کردہ  Android پیکیجز نصب کرنے کی اجازت دیتا ہے۔ بدنیت اطلاقات اس کا استعمال نامناسب طاقتوراختیارات والے نئے اطلاقات کو شامل کرنے اجازت دے سکتا ہے۔</string>
+
+    
+    <string name="permlab_clearAppCache">اطلاق کا سبھی کیش ڈیٹا حذف کریں</string>
+    
+    <string name="permdesc_clearAppCache" product="tablet">اطلاق کو دوسرے اطلاقات کے عارضی ذخیرہ والی ڈائرکٹری میں موجود فائلیں حذف کرکے ٹیبلیٹ کا اسٹوریج خالی کرنے کی اجازت دیتا ہے۔ اس کی وجہ سے دوسرے اطلاقات مزید سست روی سے شروع ہوسکتے ہیں کیونکہ انہیں اپنا ڈیٹا دوبارہ بازیافت کرنا ہوتا ہے۔</string>
+    
+    <string name="permdesc_clearAppCache" product="default">اطلاق کو دوسرے اطلاقات کے عارضی ذخیرہ والی ڈائرکٹری میں موجود فائلیں حذف کرکے فون کا اسٹوریج خالی کرنے کی اجازت دیتا ہے۔ اس کی وجہ سے دوسرے اطلاقات مزید سست روی سے شروع ہوسکتے ہیں کیونکہ انہیں اپنا ڈیٹا دوبارہ بازیافت کرنا ہوتا ہے۔</string>
+
+    
+    <string name="permlab_movePackage">اطلاق کے وسائل کو منتقل کریں </string>
+    
+    <string name="permdesc_movePackage">اطلاق کو اطلاق کے وسائل کو داخلی سے خارجی اور اسی طرح خاری سے داخلی میں منتقل کرنے دیں۔</string>
+
+    
+    <string name="permlab_readLogs">حساس لاگ ڈیٹا پڑھنا</string>
+    
+    <string name="permdesc_readLogs" product="tablet">اطلاق کو سسٹم کے متعددلاگ فائلزں سے پڑھنے کی اجازت دیتا ہے۔  یہ اسے اس بارے میں عمومی معلومات دریافت کرنے کی اجازت دیتا ہے کہ آپ ٹیبلٹ کے ساتھ کیا کررہے ہیں، اس میں ممکنہ طور پر ذاتی یا نجی معلومات بھی شامل ہیں۔</string>
+    
+    <string name="permdesc_readLogs" product="default">اطلاق کو سسٹم کے متعددلاگ فائلزں سے پڑھنے کی اجازت دیتا ہے۔  یہ اسے اس بارے میں عمومی معلومات دریافت کرنے کی اجازت دیتا ہے کہ آپ فون کے ساتھ کیا کررہے ہیں، اس میں ممکنہ طور پر ذاتی یا نجی معلومات بھی شامل ہیں۔</string>
+
+    
+    <string name="permlab_anyCodecForPlayback">پلے بیک کیلئے کوئی میڈیا ڈی کوڈر استعمال کریں</string>
+    
+    <string name="permdesc_anyCodecForPlayback">اطلاق کو پلے بیک کو ڈی کوڈ کرنے کیلئے کوئی نصب شدہ میڈیا ڈی کوڈر استعمال کرنے کی اجازت دیں۔</string>
+
+    
+    <string name="permlab_diagnostic">تشخیص کے حوالے سے ریسورس کو پڑھنا/لکھنا</string>
+    
+    <string name="permdesc_diagnostic">اطلاق کو کسی ایسے وسیلے کو پڑھنے اور لکھنے کی اجازت دیتا ہے جو ڈیاگ گروپ کی ملکیت ہے، مثال کے طور پر، /dev میں موجود فائلیں۔ یہ ممکنہ طور پر سسٹم کے استحکام اور سلامتی کو متاثر کر سکتا ہے۔ اسے صرف صانع یا آپریٹر کے ذریعہ  ہارڈ ویئر کیلئے مخصوص تشخیصات کیلئے ہی استعمال کیا جانا چاہیے۔</string>
+
+    
+    <string name="permlab_changeComponentState">اطلاق کے اجزاء کو فعال یا غیرفعال کریں</string>
+    
+    <string name="permdesc_changeComponentState" product="tablet">اطلاق کو یہ تبدیل کرنے دیتا ہے کہ آیا دوسرے اطلاق کا کوئی جز فعال ہے یا نہیں۔ بدنیت اطلاقات اس کا استعمال ٹیبلٹ کی اہم صلاحیتوں کو غیرفعال کرنے کیلئے کرسکتے ہیں۔ اس اجازت کے ساتھ احتیاط کرنا ضروری ہے، کیونکہ یہ ممکن ہے کہ اطلاق کے اجزاء ایک ناقابل استعمال غیر موافق، یا غیر متوازن حالت میں پائے جائیں۔</string>
+    
+    <string name="permdesc_changeComponentState" product="default">اطلاق کو یہ تبدیل کرنے دیتا ہے کہ آیا دوسرے اطلاق کا کوئی جز فعال ہے یا نہیں۔ بدنیت اطلاقات اس کا استعمال فون کی اہم صلاحیتوں کو غیرفعال کرنے کیلئے کرسکتے ہیں۔ اس اجازت کے ساتھ احتیاط کرنا ضروری ہے، کیونکہ یہ ممکن ہے کہ اطلاق کے اجزاء ایک ناقابل استعمال غیر موافق، یا غیر متوازن حالت میں پائے جائیں۔</string>
+
+    
+    <string name="permlab_grantRevokePermissions">اجازتیں منظور یا منسوخ کریں</string>
+    
+    <string name="permdesc_grantRevokePermissions">کسی اطلاق کو اس کے یا دیگر اطلاقات کیلئے خصوصی اجازتیں منظور یا منسوخ کرنے کا اختیار دیں۔  بدنیت اطلاقات اس کا استعمال ان خصوصیات کیلئے کرسکتے ہیں جن کی آپ نے انہیں اجازت نہیں دی ہے۔</string>
+
+    
+    <string name="permlab_setPreferredApplications">ترجیحی اطلاقات متعین کریں</string>
+    
+    <string name="permdesc_setPreferredApplications">اطلاق کو آپ کے ترجیحی اطلاقات میں ترمیم کرنے کی اجازت دیتا ہے۔ بدنیت اطلاقات خاموشی سے ان اطلاقات میں ترمیم کرسکتے ہیں جو چل رہے ہیں، آپ کے موجودہ اطلاقات کو آپ سے ذاتی ڈیٹا حاصل کرنےکی ترغیب دیتے ہیں۔</string>
+
+    
+    <string name="permlab_writeSettings">سسٹم کی ترتیبات میں تدوین کریں</string>
+    
+    <string name="permdesc_writeSettings">اطلاق کو سسٹم کی ترتیبات کے ڈیٹا میں ترمیم کرنے دیتا ہے۔ بدنیت اطلاقات آپ کے سسٹم کی ترتیب کو خراب کرسکتے ہیں۔</string>
+
+    <string name="permlab_writeSecureSettings">محفوظ سسٹم کی ترتیبات میں ترمیم کریں</string>
+    <string name="permdesc_writeSecureSettings">اطلاق کو سسٹم کی محفوظ ترتیبات کے ڈیٹا میں ترمیم کرنے دیتا ہے۔ معمول کے اطلاقات کے ذریعہ استعمال کیلئے نہیں ہے۔</string>
+
+    
+    <string name="permlab_writeGservices">Google سروس نقشہ میں ترمیم کرنا</string>
+    
+    <string name="permdesc_writeGservices">اطلاق کو Google سروسز میپ میں ترمیم کی اجازت دیتا ہے۔  معمول کے اطلاقات کے ذریعہ استعمال کیلئے نہیں ہے۔</string>
+
+    
+    <string name="permlab_receiveBootCompleted">شروع ہونے پر چلائیں</string>
+    
+    <string name="permdesc_receiveBootCompleted" product="tablet">سسٹم کے ذریعہ بوٹ کا عمل مکمل کرنے کے بعد اطلاق کو خود بخود چالو ہونےدیتا ہے۔ اس سے ٹیبلٹ کو چالو ہونے میں زیادہ وقت لگ سکتا ہے اور اطلاق کے ہمیشہ چلنے کے سبب پورا ٹیبلٹ سست پڑسکتا ہے۔</string>
+    
+    <string name="permdesc_receiveBootCompleted" product="default">سسٹم کے ذریعہ بوٹ کا عمل مکمل کرنے کے بعد اطلاق کو خود بخود چالو ہونےدیتا ہے۔ اس سے فون کو چالو ہونے میں زیادہ وقت لگ سکتا ہے اور اطلاق کے ہمیشہ چلنے کے سبب پورا فون سست پڑسکتا ہے۔</string>
+
+    
+    <string name="permlab_broadcastSticky">اسٹکی بروڈکاسٹ بھیجنا</string>
+    
+    <string name="permdesc_broadcastSticky" product="tablet">اطلاق کو چسپندہ نشریات بھیجنے کی اجازت دیتا ہے، جو نشریہ ختم ہونے کے بعد بھی برقرار رہتا ہے۔ حد سے زیادہ استعمال سے بہت زیادہ میموری استعمال کرنے کے سبب ٹیبلٹ سست یا ناقابل استعمال ہوسکتا ہے۔</string>
+    
+    <string name="permdesc_broadcastSticky" product="default">اطلاق کو چسپندہ نشریات بھیجنے کی اجازت دیتا ہے، جو نشریہ ختم ہونے کے بعد بھی برقرار رہتا ہے۔ حد سے زیادہ استعمال سے بہت زیادہ میموری استعمال کرنے کے سبب فون سست یا ناقابل استعمال ہوسکتا ہے۔</string>
+
+    
+    <string name="permlab_readContacts">اپنے رابطے پڑھیں</string>
+    
+    <string name="permdesc_readContacts" product="tablet">اطلاق کو آپ کے ٹیبلیٹ پر اسٹوریج کردہ آپ کے رابطوں کے بارے میں ڈیٹا کو پڑھنے کی اجازت دیتا ہے، بشمول جتنے تعدد سے آپ نے مخصوص افراد کو کال، ای میل، یا دوسرے طریقوں سے ان کے ساتھ مواصلت کی ہے۔ یہ اجازت اطلاق کو آپ کے رابطہ کا ڈیٹا محفوظ کرنے کی اجازت دیتی ہے، اور بدنیت اطلاقات آپ کی معلومات کے بغیر رابطہ کے ڈیٹا کا اشتراک کرسکتے ہیں۔</string>
+    
+    <string name="permdesc_readContacts" product="default">اطلاق کو آپ کے فون پر اسٹوریج کردہ آپ کے رابطوں کے بارے میں ڈیٹا کو پڑھنے کی اجازت دیتا ہے، بشمول جتنے تعدد سے آپ نے مخصوص افراد کو کال، ای میل، یا دوسرے طریقوں سے ان کے ساتھ مواصلت کی ہے۔ یہ اجازت اطلاق کو آپ کے رابطہ کا ڈیٹا محفوظ کرنے کی اجازت دیتی ہے، اور بدنیت اطلاقات آپ کی معلومات کے بغیر رابطہ کے ڈیٹا کا اشتراک کرسکتے ہیں۔</string>
+
+    
+    <string name="permlab_writeContacts">اپنے رابطوں میں ترمیم کریں</string>
+    
+    <string name="permdesc_writeContacts" product="tablet">اطلاق کو آپ کے ٹیبلیٹ پر اسٹوریج کردہ آپ کے رابطوں کے بارے میں ڈیٹا میں ترمیم کرنے کی اجازت دیتا ہے، بشمول جتنے تعدد سے آپ نے مخصوص رابطوں کو کال، ای میل، یا دوسرے طریقوں سے ان کے ساتھ مواصلت کی ہے۔ یہ اجازت اطلاق کو رابطہ کا ڈیٹا حذف کرنے کی اجازت دیتی ہے۔</string>
+    
+    <string name="permdesc_writeContacts" product="default">اطلاق کو آپ کے فون پر اسٹوریج کردہ آپ کے رابطوں کے بارے میں ڈیٹا میں ترمیم کرنے کی اجازت دیتا ہے، بشمول جتنے تعدد سے آپ نے مخصوص رابطوں کو کال، ای میل، یا دوسرے طریقوں سے ان کے ساتھ مواصلت کی ہے۔ یہ اجازت اطلاق کو رابطہ کا ڈیٹا حذف کرنے کی اجازت دیتی ہے۔</string>
+
+    
+    <string name="permlab_readCallLog">کال کی روداد پڑھیں</string>
+    
+    <string name="permdesc_readCallLog" product="tablet">اطلاق کو آپ کے ٹیبلیٹ کے کال کی روداد، بشمول آنے والی اور باہر جانے والی کالو ں کے بارے میں ڈیٹا کو پڑھنے کی اجازت دیتا ہے۔ یہ اجازت اطلاق کو آپ کے کال کی روداد کا ڈیٹا محفوظ کرنے کی اجازت دیتی ہے، اور بدنیت اطلاقات آپ کی معلومات کے بغیر کال کی روداد کے ڈیٹا کا اشتراک کرسکتے ہیں۔</string>
+    
+    <string name="permdesc_readCallLog" product="default">اطلاق کو آپ کے فون کے کال کی روداد، بشمول آنے والی اور باہر جانے والی کالو ں کے بارے میں ڈیٹا کو پڑھنے کی اجازت دیتا ہے یہ اجازت اطلاق کو آپ کے کال کی روداد کا ڈیٹا محفوظ کرنے کی اجازت دیتی ہے، اور بدنیت اطلاقات آپ کی معلومات کے بغیر کال کی روداد کے ڈیٹا کا اشتراک کرسکتے ہیں۔</string>
+
+    
+    <string name="permlab_writeCallLog">کال کی روداد لکھیں</string>
+    
+    <string name="permdesc_writeCallLog" product="tablet">اطلاق کو آپ کے ٹیبلیٹ کے کال کی روداد، بشمول آنے والی اور باہر جانے والی کالو ں کے بارے میں ڈیٹا میں ترمیم کرنے کی اجازت دیتا ہے۔ بدنیت اطلاقات آپ کے کال کی روداد مٹانے یا اس میں ترمیم کرنے کیلئے اسے استعمال کرسکتے ہیں۔</string>
+    
+    <string name="permdesc_writeCallLog" product="default">اطلاق کو آپ کے فون کے کال کی روداد، بشمول آنے والی اور باہر جانے والی کالو ں کے بارے میں ڈیٹا میں ترمیم کرنے کی اجازت دیتا ہے۔ بدنیت اطلاقات آپ کے کال کی روداد مٹانے یا اس میں ترمیم کرنے کیلئے اسے استعمال کرسکتے ہیں۔</string>
+
+
+    
+    <string name="permlab_readProfile">خود اپنا رابطہ کارڈ پڑھیں</string>
+    
+    <string name="permdesc_readProfile" product="default">اطلاق کو آپ کے آلہ پر اسٹوریج کردہ ذاتی پروفائل کی معلومات، جیسسے آپ کا نام اور رابطہ کی معلومات پڑھنے کی اجازت دیتا ہے۔ اس کا مطلب یہ ہے کہ اطلاق آپ کو شناخت کرسکتا اور آپ کے پروفائل کی معلومات دوسروں کو بھیج سکتا ہے۔</string>
+
+    
+    <string name="permlab_writeProfile">خود اپنے رابطہ کارڈ میں ترمیم کریں</string>
+    
+    <string name="permdesc_writeProfile" product="default">اطلاق کو آپ کے آلہ پر اسٹوریج کردہ ذاتی پروفائل کی معلومات، جیسسے آپ کا نام اور رابطہ کی معلومات تبدیل کرنے یا اس میں اضافہ کرنے کی اجازت دیتا ہے۔  اس کا مطلب یہ ہے کہ اطلاق آپ کو شناخت کرسکتا اور آپ کے پروفائل کی معلومات دوسروں کو بھیج سکتا ہے۔</string>
+
+    
+    <string name="permlab_readSocialStream" product="default">اپنا سماجی سلسلہ پڑھیں</string>
+    <string name="permdesc_readSocialStream" product="default">اطلاق کو آپ اور آپ کے دوستوں کے سماجی اپ ڈیٹس تک رسائی حاصل کرنے اور مطابقت پذیر بنانے کی اجازت دیتا ہے۔ معلومات کا اشتراک کرتے وقت محتاط رہیں -- یہ رازداری سے قطع نظر، اطلاق کو آپ کو اور آپ کے دوستوں کو سماجی نیٹ ورکس کے بیچ مواصلتوں کو پڑھنے کی اجازت دیتا ہے۔ نوٹ: یہ اجازت سبھی سماجی نیٹ ورکس پر زبردستی لاگو نہیں کی جاسکتی ہے۔</string>
+
+    
+    <string name="permlab_writeSocialStream" product="default">اپنے سماجی سلسلہ مین لکھیں</string>
+    <string name="permdesc_writeSocialStream" product="default">اطلاق کو آپ کے دوستوں کے سماجی اپ ڈیٹس ڈسپلے کرنے کی اجازۃ دیتا ہے  معلومات کا اشتراک کرتے وقت محتاط رہیں -- یہ اطلاق کو ایسے پیغامات تیار کرنے کی اجازت دیتا ہے جو دوست کے پاس سے آئے ہوئے معلوم پڑسکتے ہیں۔ نوٹ: یہ اجازت سبھی سماجی نیٹ ورکس پر زبردستی لاگو نہیں کی جاسکتی ہے۔</string>
+
+    
+    <string name="permlab_readCalendar">کیلنڈر وقائع پڑھنا </string>
+    
+
+    <string name="permdesc_readCalendar" product="tablet">اطلاق کو آپ کے ٹیبلیٹ پر اسٹوریج کردہ کیلنڈر واقعات پڑھنے کی اجازت ہے، جس میں دوستوں یا ساتھی کارکن کے بھی شامل ہیں یہ رازداری یا حساسیت سے قطع نظر، اطلاق کو آپ کے کیلنڈر ڈیٹا کا اشتراک یا اسے محفوظ کرنے کی اجازت دیتا ہے۔</string>
+    
+    <string name="permdesc_readCalendar" product="default">اطلاق کو آپ کے فون پر اسٹوریج کردہ کیلنڈر واقعات پڑھنے کی اجازت ہے، جس میں دوستوں یا ساتھی کارکن کے بھی شامل ہیں۔ یہ رازداری یا حساسیت سے قطع نظر، اطلاق کو آپ کے کیلنڈر ڈیٹا کا اشتراک یا اسے محفوظ کرنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_writeCalendar">کیلنڈر وقائع شامل کرنا یا اس میں ترمیم کرنا نیز مہمانوں کو ای میل بھیجنا</string>
+    
+
+<string name="permdesc_writeCalendar" product="tablet">اطلاق کو ان واقعات کو شامل کرنے، انہیں ہٹانے یا تبدیل کرنے کی اجازت دیتا ہے جو آپ کے ٹیبلیٹ پر اسٹوریج کردہ ہیں، جس میں دوستوں یا ساتھی کارکن کے بھی شامل ہیں۔ یہ اطلاق کو ایسے پیغامات بھیجنے کی جو کیلنڈر مالکان کی جانب سے آئے ہوئے معلوم پڑتے ہیں، یا مالکان کی جانکاری کے بغیر واقعات میں ترمیم کرنے کی اجازت دیتا ہے۔</string>
+<string name="permdesc_writeCalendar" product="default">اطلاق کو ان واقعات کو شامل کرنے، انہیں ہٹانے یا تبدیل کرنے کی اجازت دیتا ہے جو آپ کے فون پر اسٹوریج کردہ ہیں، جس میں دوستوں یا ساتھی کارکن کے بھی شامل ہیں۔ یہ اطلاق کو ایسے پیغامات بھیجنے کی جو کیلنڈر مالکان کی جانب سے آئے ہوئے معلوم پڑتے ہیں، یا مالکان کی جانکاری کے بغیر واقعات میں ترمیم کرنے کی اجازت دیتا ہے۔</string>
+
+
+    
+    <string name="permlab_accessMockLocation">ٹیسٹ کرنے کے لئے سورس کا نقلی محل وقوع</string>
+    
+    <string name="permdesc_accessMockLocation">جانچ کیلئے نقل مقام کے مآخذ بنائیں یا ایک نیامقام کا فراہم کنندہ نصب کریں۔  یہ اطلاق کو مقام کو اور / یا مقام کے دیگر مآخذ جیسے GPS یا مقام کے فراہم کنندگان کے ذریعہ واپس کردہ حیثت کو مٹاکر لکھنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_accessLocationExtraCommands">اضافی محل وقوع مہیاکار کمانڈز پر رسائی کرنا</string>
+    
+    <string name="permdesc_accessLocationExtraCommands">اطلاق کو زائد مقام فراہم کنندہ کے کمانڈز تک رسائی کی جازت دیتا ہے۔  یہ اطلاق کو GPS یا دیگر مقام کے مآخذ کے عمل میں رکاوٹ ڈالنے کی اجازت دے سکتاہے۔</string>
+
+    
+    <string name="permlab_installLocationProvider">کوئی محل وقوع مہیاکار نصب کرنے کے لئے اجازت دینا</string>
+    
+    <string name="permdesc_installLocationProvider">جانچ کیلئے نقل مقام کے مآخذ بنائیں یا ایک نیامقام کا فراہم کنندہ نصب کریں۔  یہ اطلاق کو مقام کو اور / یا مقام کے دیگر مآخذ جیسے GPS یا مقام کے فراہم کنندگان کے ذریعہ واپس کردہ حیثت کو مٹاکر لکھنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_accessFineLocation">تلخیصی مقام (GPS اور نیٹ ورک پر مبنی)</string>
+    
+    <string name="permdesc_accessFineLocation">اطلاق کو گلوبل پوزیشننگ سسٹم (GPS) یا نیٹ ورک کے مقام کے مآخذ جیسے سیل ٹاورز اور Wi-Fi کا استعمال کرکے آپ کے تلخیصی مقام کو حاصل کرنے کی اجازت دیتا ہے۔ یہ مقام کی خدمات لازمی طورپر چالو اور آپ کے آلہ پر دستیاب ہونی چاہئیں تاکہ آلہ انہیں استعمال کرسکے۔ اطلاقات یہ تعین کرنے کیلئے اس کا استعمال کرسکتے ہیں کہ آپ کہاں ہیں، اور بیٹری کی اضافی قوت صرف کرسکتے ہیں۔</string>
+
+    
+    <string name="permlab_accessCoarseLocation">تخمینی ڈیٹا (نیٹ ورک پر مبنی)</string>
+    
+    <string name="permdesc_accessCoarseLocation">اطلاق کو آپ کا تخمینی مقام حاصل کرنے کی اجازت دیتا ہے۔ یہ مقام نیٹ ورک کے مقام کے مآخذ جیسے سیل ٹاورز یا Wi-Fi استعمال کرنے والے مقام کی خدمات سے ماخوذ ہے۔ یہ مقام کی خدمات لازمی طور پر چالو اور آپ کے آلہ پر دستیاب ہونی چاہئیں تاکہ اطلاق انہیں استعمال کرسکے۔ اطلاقات یہ تعین کرنے کیلئے اس کا استعمال کرسکتے ہیں کہ آپ کہاں ہیں۔</string>
+
+    
+    <string name="permlab_accessSurfaceFlinger">SurfaceFlinger پر رسائی کرنا</string>
+    
+    <string name="permdesc_accessSurfaceFlinger">اطلاق کو SurfaceFlinger کی ادنی سطح کی خصوصیات استعمال کرنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_readFrameBuffer">فریم بفر پڑھیں</string>
+    
+    <string name="permdesc_readFrameBuffer">اطلاق کو فریم بفر کا مواد پڑھنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_configureWifiDisplay">Wifi ڈسپلیز کو موافق بنائیں</string>
+    
+    <string name="permdesc_configureWifiDisplay">اطلاق کو Wifi ڈسپلیز سے موافق اور مربوط ہونے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_controlWifiDisplay">Wifi ڈسپلیز کو کنٹرول کریں</string>
+    
+    <string name="permdesc_controlWifiDisplay">اطلاق کو Wifi ڈسپلیز کی ادنی سطح کی خصوصیات کو کنٹرول کرنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_modifyAudioSettings">اپنی آڈیو کی ترتیبات تبدیل کرنا</string>
+    
+    <string name="permdesc_modifyAudioSettings">اطلاق کو آڈیو کی عالمگیر ترتیبات جیسے حجم میں اور آؤٹ پٹ کیلئے جو اسپیکر استعمال ہوتا ہے اس میں ترمیم کرنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_recordAudio">آڈیو رکارڈ کرنا</string>
+    
+    <string name="permdesc_recordAudio">اطلاق کو مائکروفون کی مدد سے آڈیو ریکارڈ کرنے کی اجازت دیتا ہے۔  یہ اجازت اطلاق کو آپ کی تصدیق کے بغیر کسی بھی وقت آڈیو ریکارڈ کرنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_camera">تصویریں اور ویڈیوز لینا</string>
+    
+    <string name="permdesc_camera">اطلاق کو کیمرے کی مدد سے تصاویر لینے اور آڈیو بنانے کی اجازت دیتا ہے۔  یہ اجازت اطلاق کو آپ کی تصدیق کے بغیر کسی بھی وقت کیمرا استعمال کرنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_brick" product="tablet">ٹیبلیٹ کو مستقل طور پر غیر فعال بنائیں</string>
+    
+    <string name="permlab_brick" product="default">ہمیشہ کے لئے فون غیرفعال کرنا</string>
+    
+    <string name="permdesc_brick" product="tablet">اطلاق کو مستقل طور پر پورا ٹیبلیٹ غیر فعال بنانے کی اجازت دیتا ہے۔ یہ کافی خطرناک ہے۔</string>
+    
+    <string name="permdesc_brick" product="default">اطلاق کو مستقل طور پر پورا فون غیر فعال بنانے کی اجازت دیتا ہے۔ یہ کافی خطرناک ہے۔</string>
+
+    
+    <string name="permlab_reboot" product="tablet">ٹیبلیٹ کو ری بوٹ ہونے پر مجبور کریں</string>
+    
+    <string name="permlab_reboot" product="default">ریبوٹ کرنے کے لئے فون پر دباؤ ڈالنا</string>
+    
+    <string name="permdesc_reboot" product="tablet">اطلاق کو ٹیبلیٹ کو ری بوٹ کرنے پر مجبور کرنے کی اجازت دیتا ہے۔</string>
+    
+    <string name="permdesc_reboot" product="default">اطلاق کو فون کو ری بوٹ کرنے پر مجبور کرنے کی اجازت دیتا ہے۔</string>
+
+
+    
+    <string name="permlab_mount_unmount_filesystems" product="nosdcard">USB اسٹوریج کے فائل سسٹم تک رسائی حاصل کریں</string>
+    
+    <string name="permlab_mount_unmount_filesystems" product="default">SD کارڈ کے فائل سسٹم تک رسائی حاصل کریں</string>
+    
+    <string name="permdesc_mount_unmount_filesystems">اطلاق کو ہٹائے جانے کے قابل اسٹوریج کیلئے فائل سسٹم لگانے یا اتارنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_mount_format_filesystems" product="nosdcard">USB ذخیرہ مٹائيں</string>
+    
+    <string name="permlab_mount_format_filesystems" product="default">SD کارڈ مٹائیں</string>
+    
+    <string name="permdesc_mount_format_filesystems">اطلاق کو ہٹائے جانے کے قابل اسٹوریج کو فارمیٹ کرنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_asec_access">داخلی ذخیرہ پر معلومات حاصل کرنا</string>
+    
+    <string name="permdesc_asec_access">اطلاق کو داخلی اسٹوریج  پر معلومات حاصل کرنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_asec_create">داخلی ذخیرہ تخلیق کرنا</string>
+    
+    <string name="permdesc_asec_create">اطلاق کو داخلی اسٹوریج تخلیق کرنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_asec_destroy">داخلی ذخیرہ کو برباد کرنا</string>
+    
+    <string name="permdesc_asec_destroy">اطلاق کو داخلی اسٹوریج ضائع کرنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_asec_mount_unmount">داخلی اسٹوریج لگائیں/اتاریں</string>
+    
+    <string name="permdesc_asec_mount_unmount">اطلاق کو داخلی اسٹوریج لگانے/اتارنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_asec_rename">داخلی ذخیرہ کو دوسرا نام دینا</string>
+    
+    <string name="permdesc_asec_rename">اطلاق کو داخلی اسٹوریج کا نام بدلنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_vibrate">ارتعاش پر کنٹرول کریں</string>
+    
+    <string name="permdesc_vibrate">اطلاق کو وائبریٹر پر کنٹرول کرنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_flashlight">فلش لائٹ کنٹرول کرنا</string>
+    
+    <string name="permdesc_flashlight">اطلاق کو فلیش لائٹ پر کنٹرول کرنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_manageUsb">USB آلات کے لئے ترجیح اور اجازت منظم کرنا</string>
+    
+    <string name="permdesc_manageUsb">اطلاق کو USB آلات کیلئے ترجیحات اور اجازتوں کا نظم کرنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_accessMtp">MTP پروٹوکول نافذ کریں</string>
+    
+    <string name="permdesc_accessMtp">MTP USB پروٹوکول نافذ کرنے کیلئے کرنیل MTP ڈرائیور تک رسائی کی اجازت دیں۔</string>
+
+    
+    <string name="permlab_hardware_test">ہارڈ وئیر ٹیسٹ کرنا</string>
+    
+    <string name="permdesc_hardware_test">اطلاق کو ہارڈ ویئر کی جانچ کے مقصد کیلئے متعدد خارجی سطحوں کو کنٹرول کرنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_callPhone">فون نمبروں پر براہ راست کال کرنا</string>
+    
+    <string name="permdesc_callPhone">اطلاق کو آپ کی مداخلت کے بغیر فون نمبروں پر کال کرنے کی اجازت دیتا ہے۔ اس کے نتیجے میں میں غیر متوقع محصولات لگ سکتے ہیں یا کالیں ہوسکتی ہیں۔ نوٹ کریں کہ یہ اطلاق کو ہنگامی نمبروں پر کال کرنے کی اجازت نہیں دیتا ہے۔ بدنیت اطلاقات بغیر آپ کی تصدیق کے کالیں کرکے آپ کی رقم خرچ کرسکتے ہیں۔</string>
+
+    
+    <string name="permlab_callPrivileged">کسی فون نمبر پر براہ راست کال کرنا</string>
+    
+    <string name="permdesc_callPrivileged">اطلاق کو آپ کی مداخلت کے بغیر کسی بھی فون نمبروں، بشمول ہنگامی نمبروں پر کال کرنے کی اجازت دیتا ہے۔ بدنیت اطلاقات ہنگامی خدمات کیلئے غیر ضروری یا غیر قانونی کالیں کرسکتے ہیں۔</string>
+
+    
+    <string name="permlab_performCdmaProvisioning" product="tablet">CDMA ٹیبلیٹ کی تشکیل براہ راست شروع کریں</string>
+    
+    <string name="permlab_performCdmaProvisioning" product="default">براہ راست CDMA سیٹ شروع کریں</string>
+    
+    <string name="permdesc_performCdmaProvisioning">اطلاق کو CDMA کی فراہمی شروع کرنے کی اجازت دیتا ہے۔ بدنیت اطلاقات غیر ضروری طور پر CDMA کی فراہمی شروع کرسکتے ہیں۔</string>
+
+    
+    <string name="permlab_locationUpdates">محل وقوع تجدید اطلاعات پر کنٹرول کرنا</string>
+    
+    <string name="permdesc_locationUpdates">اطلاق کو ریڈیو سے مقام کی تجدید کی اطلاعات فعال/غیر فعال بنانے کی اجازت دیتا ہے۔  معمول کے اطلاقات کے ذریعہ استعمال کیلئے نہیں ہے۔</string>
+
+    
+    <string name="permlab_checkinProperties">جانچ خواص پر رسائی</string>
+    
+    <string name="permdesc_checkinProperties">اطلاق کو چیک ان سروس کے ذریعہ اپ لوڈ کردہ خصوصیات تک رسائی کو پڑھنے/لکھنے کی اجازت دیتا ہے۔  معمول کے اطلاقات کے ذریعہ استعمال کیلئے نہیں ہے۔</string>
+
+    
+    <string name="permlab_bindGadget">ویجٹ انتخاب کرنا</string>
+    
+    <string name="permdesc_bindGadget">اطلاق کو سسٹم سے یہ بتانے دیتا ہےکہ کون سے ویجٹس کس اطلاق کے ذریعہ استعمال ہوسکتے ہیں۔ اس اجازت والا اطلاق دیگر اطلاقات کو ذاتی ڈیٹا تک رسائی دے سکتا ہے۔ معمول کے اطلاقات کے ذریعہ استعمال کیلئے نہیں ہے۔</string>
+
+    
+    <string name="permlab_modifyPhoneState">فون اسٹیٹ میں ترمیم کرنا</string>
+    
+    <string name="permdesc_modifyPhoneState">اطلاق کو آلہ کے فون کی حصوصیات پر کنٹرول رکھنے کی اجازت دیتا ہے۔ اس اجازت والا اطلاق پہلے آپ کو مطلع کیے بغیر نیٹ ورکس سوئچ کرسکتا ہے، فون ریڈیو چالو یا بند اور اس طرح کے کام کرسکتا ہے۔</string>
+
+    
+    <string name="permlab_readPhoneState">فون کی حیثیت اور شناخت کو پڑھیں</string>
+    
+    <string name="permdesc_readPhoneState">اطلاق کو آلہ کے فون کی حصوصیات تک رسائی حاصل کرنے کی اجازت دیتا ہے۔  یہ اجازت اطلاق کو فون نمبر اور آلہ کے IDs کا تعین کرنے کی اجازت دیتی ہے، چاہے کال فعال ہو، اور بعید نمبر کال کے ذریعہ مربوط ہو۔</string>
+
+    
+    <string name="permlab_wakeLock" product="tablet">ٹیبلیٹ کو سوجانے سے باز رکھیں</string>
+    
+    <string name="permlab_wakeLock" product="default">فون کو سوجانے سے باز رکھیں</string>
+    
+    <string name="permdesc_wakeLock" product="tablet">اطلاق کو ٹیبلیٹ کو سوجانے دینے سے باز رکھنے کی اجازت دیتا ہے۔</string>
+    
+    <string name="permdesc_wakeLock" product="default">اطلاق کو فون کو سوجانے دینے سے باز رکھنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_devicePower" product="tablet">ٹیبلیٹ کا پاور چالو یا بند کریں</string>
+    
+    <string name="permlab_devicePower" product="default">فون کے پاور کو آن یا بند کرنا</string>
+    
+    <string name="permdesc_devicePower" product="tablet">اطلاق کو ٹیبلیٹ کا پاور چالو یا بند کرنے کی اجازت دیتا ہے۔</string>
+    
+    <string name="permdesc_devicePower" product="default">اطلاق کو فون کا پاور چالو یا بند کرنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_factoryTest">فیکٹری ٹیسٹ وضع میں چلانا</string>
+    
+    <string name="permdesc_factoryTest" product="tablet">ٹیبلیٹ کے ہارڈویئر تک مکمل رسائی کی اجازت دیتے ہوئے، ادنی درجہ کی مینوفیکچرر کی جانچ کے بطور چلتا ہے۔ ٹیبلیٹ صرف مینوفیکچرر کی جانچ کی وضع میں چلنے پر دستیاب ہے۔</string>
+    
+    <string name="permdesc_factoryTest" product="default">بطور نچلی سطح مصنوعہ کار ٹیسٹ کے، فون ہارڈ وئیر پر مکمل رسائی کی اجازت دیتا ہے۔ صرف اس وقت دستیاب ہوتا ہے جب کوئی فون مصنوعہ کار ٹیسٹ وضع میں چل رہا ہو۔</string>
+
+    
+    <string name="permlab_setWallpaper">وال پیپر متعین کریں</string>
+    
+    <string name="permdesc_setWallpaper">اطلاق کو سسٹم کا وال پیپر متعین کرنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_setWallpaperHints">اپنے وال پیپر کی جسامت موافق بنائیں</string>
+    
+    <string name="permdesc_setWallpaperHints">اطلاق کو سسٹم کے وال پیپر کی جسامت کے اشارات متعین کرنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_masterClear">فیکٹری بنیادوں پر سسٹم کو دوبارہ سیٹ کرنا</string>
+    
+    <string name="permdesc_masterClear">اطلاق کو سبھی ڈیٹا، موافقت پذیری اور نصب شدہ اطلاقات مٹاکر، سسٹم کو کلی طور پر اس کی فیکٹری کی ترتیبات پر دوبارہ متعین کرنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_setTime">وقت سیٹ کریں</string>
+    
+    <string name="permdesc_setTime" product="tablet">اطلاق کو ٹیبلیٹ کی گھڑی کا وقت تبدیل کرنے کی اجازت دیتا ہے۔</string>
+    
+    <string name="permdesc_setTime" product="default">اطلاق کو فون کی گھڑی کا وقت تبدیل کرنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_setTimeZone">منطقہ کا وقت سیٹ کرنا</string>
+    
+    <string name="permdesc_setTimeZone" product="tablet">اطلاق کو ٹیبلیٹ کا منطقۂ وقت تبدیل کرنے کی اجازت دیتا ہے۔</string>
+    
+    <string name="permdesc_setTimeZone" product="default">اطلاق کو فون کا منطقۂ وقت تبدیل کرنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_accountManagerService">بطور AccountManagerService عمل کرنا</string>
+    
+    <string name="permdesc_accountManagerService">اطلاق کو AccountAuthenticators کو کالیں کرنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_getAccounts">آلہ پر موجود اکاؤنٹس تلاش کریں</string>
+    
+    <string name="permdesc_getAccounts" product="tablet">اطلاق کو ٹیبلیٹ کو معلوم اکاؤنٹس کی فہرست حاصل کرنے دیتا ہے۔  اس میں آپ کے نصب کردہ اطلاقات کے ذریعہ تخلیق کردہ کوئی بھی اکاؤنٹس شامل ہوسکتے ہیں۔</string>
+    
+    <string name="permdesc_getAccounts" product="default">اطلاق کو فون کو معلوم اکاؤنٹس کی فہرست حاصل کرنے دیتا ہے۔  اس میں آپ کے نصب کردہ اطلاقات کے ذریعہ تخلیق کردہ کوئی بھی اکاؤنٹس شامل ہوسکتے ہیں۔</string>
+
+    
+    <string name="permlab_authenticateAccounts">اکاؤنٹس بنائیں اور پاس ورڈز ترتیب دیں</string>
+    
+    <string name="permdesc_authenticateAccounts">اطلاق کو AccountManager کے اکاؤنٹ کے استناد کار کی لیاقتیں استعمال کرنے، بشمول اکاؤنٹ بنانے اور ان کے پاس ورڈز ترتیب دینے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_manageAccounts">اکاؤنٹس شامل کریں یا ہٹائیں</string>
+    
+    <string name="permdesc_manageAccounts">اطلاق کو اکاؤنٹس شامل کرنے اور ہٹانا، اور ان کا پاس ورڈ حذف کرنا جیسے اعمال انجام دینے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_useCredentials">آلہ پر موجود اکاؤنٹس استعمال کریں</string>
+    
+    <string name="permdesc_useCredentials">آلہ کو استناد کے ٹوکنز طلب کرنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_accessNetworkState">نیٹ ورک کنکشنز دیکھیں</string>
+    
+    <string name="permdesc_accessNetworkState">اطلاق کو نیٹ ورک کنکشنز کے بار میں معلومات دیکھنے کی اجازت دیتا ہے جیسے کون سے نیٹ ورکس موجود اور مربوط ہیں۔</string>
+
+    
+    <string name="permlab_createNetworkSockets">نیٹ ورک تک پوری سائی</string>
+    
+    <string name="permdesc_createNetworkSockets">اطلاق کو نیٹ ورک ساکیٹس بنانے اور حسب ضرورت نیٹ ورک پروٹوکولز استعمال کرنے کی اجازت دیتا ہے۔ براؤزر اور دیگر اطلاقات انٹرنیٹ پر ڈیٹا بھیجنے کے ذرائع فراہم کرتے ہیں، لہذا انٹرنیٹ پر ڈیٹا بھیجنے کیلئے اس اجازت کی ضرورت نہیں ہے۔</string>
+
+    
+    <string name="permlab_writeApnSettings">نقطہ رسائی نام ترتیبات لکھنا</string>
+    
+    <string name="permdesc_writeApnSettings">اطلاق کو نیٹ ورک کی ترتیبات تبدیل کرنے اور نیٹ ورک کے سبھی ٹریفک کو قطع کرنے اور اس کا معائنہ کرنے کی اجازت دیتا ہے، مثلا پراکسی اور کسی APN کا پورٹ تبدیل کرنے کیلئے۔ بدنیت اطلاقات آپ کی جانکاری کے بغیر نیٹ ورک پیکٹس پر نگاہ رکھ سکتے، ان کا رخ موڑ سکتے، یا ان پر نگاہ رکھ سکتے ہیں۔</string>
+
+    
+    <string name="permlab_changeNetworkState">نیٹ ورک مواصلت تبدیل کرنا</string>
+    
+    <string name="permdesc_changeNetworkState">اطلاق کو نیٹ ورک کے رابطہ کی حالت تبدیل کرنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_changeTetherState">سست رابطہ کی حالت تبدیل کریں</string>
+    
+    <string name="permdesc_changeTetherState">اطلاق کو نیٹ ورک کے رابطہ کی سست حالت تبدیل کرنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_changeBackgroundDataSetting">بیک گراؤنڈ ڈیٹا استعمال ترتیب تبدیل کرنا</string>
+    
+    <string name="permdesc_changeBackgroundDataSetting">اطلاق کو پس منظر کے ڈیٹا کے استعمال کی ترتیب تبدیل کرنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_accessWifiState">Wi-Fi کنکشنز دیکھیں</string>
+    
+    <string name="permdesc_accessWifiState">اطلاق کو Wi-Fi نیٹ ورکنگ کے بارے میں معلومات دیکھنے کی اجازت دیتا ہے، جسے آیا Wi-Fi فعال بنایا ہوا ہے اور Wi-Fi سے مربوط آلات کا نام کیا ہے۔</string>
+
+    
+    <string name="permlab_changeWifiState">Wi-Fi سے مربوط کریں اور منقطع کریں</string>
+    
+    <string name="permdesc_changeWifiState">آلہ کو Wi-Fi کے مقامات رسائی سے مربوط ہونے اور منقطع ہونے کی، اور Wi-Fi نیٹ ورکس کیلئے آلہ کی موافقت پذیری میں تبدیلیاں کرنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_changeWifiMulticastState">Wi-Fi ملٹی کاسٹ وصول یابی کو اجازت دینا</string>
+    
+    <string name="permdesc_changeWifiMulticastState" product="tablet">اطلاق کو صرف آپ کا ٹیبلیٹ ہی نہیں، بلکہ ملٹی کاسٹ پتے استعمال کرکے Wi-Fi نیٹ ورک پر موجود سبھی آلات کو ارسال کردہ پیکٹس وصول کرنے کی اجازت دیتا ہے۔  اس میں غیر ملٹی کاسٹ وضع سے زیادہ طاقت استعمال ہوتی ہے۔</string>
+    <string name="permdesc_changeWifiMulticastState" product="default">اطلاق کو صرف آپ کا فون ہی نہیں، بلکہ ملٹی کاسٹ پتے استعمال کرکے Wi-Fi نیٹ ورک پر موجود سبھی آلات کو ارسال کردہ پیکٹس وصول کرنے کی اجازت دیتا ہے۔  اس میں غیر ملٹی کاسٹ وضع سے زیادہ طاقت استعمال ہوتی ہے۔</string>
+
+    
+    <string name="permlab_bluetoothAdmin">Bluetooth کی ترتیبات تک رسائی حاصل کریں</string>
+    
+    <string name="permdesc_bluetoothAdmin" product="tablet">اطلاق کو مقامی Bluetooth ٹیبلیٹ کو موافقت پذیر بنانے، اور بعید آلات کا پتہ لگانے اور ان کے ساتھ جوڑا بنانے کی اجازت دیتا ہے۔</string>
+    
+    <string name="permdesc_bluetoothAdmin" product="default">اطلاق کو مقامی Bluetooth فون کو موافقت پذیر بنانے، اور بعید آلات کا پتہ لگانے اور ان کے ساتھ جوڑا بنانے کی اجازت دیتا ہے۔</string>
+
+    <string name="permlab_accessWimaxState">WiMAX سے مربوط اور منقطع کریں</string>
+    <string name="permdesc_accessWimaxState">اطلاق کو یہ تعین کرنے دیتا ہے کہ آیا WiMAX فعال بنایا ہوا ہے اور کسی بھی ایسے نیٹ ورک کے بارے میں معلومات کا تعین کرنے دیا ہے جو مربوط ہیں۔</string>
+
+    <string name="permlab_changeWimaxState">WiMAX کی حالت بدلیں</string>
+    <string name="permdesc_changeWimaxState" product="tablet">اطلاق کو ٹیبلیٹ کو WiMAX نیٹ ورکس والے ٹیبلیٹ سے مربوط اور منقطع کرنے کی اجازت دیتا ہے۔</string>
+    <string name="permdesc_changeWimaxState" product="default">اطلاق کو فون کو WiMAX نیٹ ورکس والے فون سے مربوط اور منقطع کرنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_bluetooth">Bluetooth آلات کے ساتھ جوڑا بنائیں</string>
+    
+    <string name="permdesc_bluetooth" product="tablet">اطلاق کو ٹیبلیٹ پر موجود Bluetooth کی موافقت پذیری دیکھنے، اور جوڑا لگائے گئے آلات کے ساتھ کنکشز بنانے اور قبول کرنے کی اجازت دیتا ہے۔</string>
+    
+    <string name="permdesc_bluetooth" product="default">اطلاق کو فون پر موجود Bluetooth کی موافقت پذیری دیکھنے، اور جوڑا لگائے گئے آلات کے ساتھ کنکشز بنانے اور قبول کرنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_nfc">قریبی فیلڈ مواصلت پر کنٹرول کرنا</string>
+    
+    <string name="permdesc_nfc">اطلاق کو نیئر فیلڈ کمیونیکیشن (NFC) کے ٹیگز، کارڈز، اور ریڈرز کے ساتھ مواصلت کرنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_disableKeyguard">اپنے اسکرین کا قفل غیر فعال کریں</string>
+    
+    <string name="permdesc_disableKeyguard">اطلاق کو کلیدی قفل اور متعلقہ پاس ورڈ سیکیورٹی غیر فعال کرنے کی اجازت دیتا ہے۔  مثلا، فون ایک آنے والی فون کال وصول کرنے کے وقت کلیدی قفل کو غیر فعال کرتا ہے، پھر کال پوری ہوجانے پر کلیدی قفل کو دوبارہ فعال کردیت ہے۔</string>
+
+    
+    <string name="permlab_readSyncSettings">ہم وقت ترتیبات پڑھنا</string>
+    
+    <string name="permdesc_readSyncSettings">اطلاق کو ایک اکاؤنٹ کیلئے مطابقت پذیری کی ترتیبات پڑھنے کی اجازت دیتا ہے۔ مثلا، یہ کال تعین کرتی ہے کہ آیا پیوپل اطلاق ایک اکاؤنٹ کے ساتھ مطابقت پذیر ہے۔</string>
+
+    
+    <string name="permlab_writeSyncSettings">مطابقت کو چالو اور بند میں تبدیل کریں</string>
+    
+    <string name="permdesc_writeSyncSettings">اطلاق کو ایک اکاؤنٹ کیلئے مطابقت پذیری کی ترتیبات میں ترمیم کرنے کی اجازت دیتا ہے۔  مثلا، اس کو ایک اکاؤنٹ کے ساتھ پیوپل اطلاق کی مطابقت پذیری فعال بنانے کیلئے استعمال کیا جاسکتا ہے۔</string>
+
+    
+    <string name="permlab_readSyncStats">ہم وقت شماریات پڑھنا</string>
+    
+    <string name="permdesc_readSyncStats">اطلاق کو ایک اکاؤنٹ کیلئے مطابقت پذیری کی حالت، بشمول مطابقت پذیری کے واقعات کی سرگزشت اور جس قدر ڈیٹا مطابقت پذیر بنایا گیا ہے اس کو پڑھنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_subscribedFeedsRead">رکنیت شدہ فیڈز پڑھنا</string>
+    
+    <string name="permdesc_subscribedFeedsRead">اطلاق کو فی الحال مطابقت پذیر خلاصوں کے بارے میں تفصیلات حاصل کرنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_subscribedFeedsWrite">رکنیت شدہ فیڈز لکھنا</string>
+    
+    <string name="permdesc_subscribedFeedsWrite">اطلاق کو فی الحال مطابقت پذیر خلاصوں میں ترمیم کرنے کی اجازت دیتا ہے۔ بدنیت اطلاقات آپ کے مطابقت پذیر خلاصے تبدیل کرسکتے ہیں۔</string>
+
+    
+    <string name="permlab_readDictionary">لغت میں آپ نے اصطلاحات شامل کیں انہیں پڑھیں</string>
+    
+    <string name="permdesc_readDictionary">اطلاق کو وہ سبھی الفاظ، نام اور فقرے پڑھنے کی اجازت دیتا ہے جو صارف نے لغت میں اسٹوریج کیا ہو سکتا ہے۔</string>
+
+    
+    <string name="permlab_writeDictionary">صارف کی متعین کردہ لغت میں الفاظ شامل کریں</string>
+    
+    <string name="permdesc_writeDictionary">اطلاق کو نئے الفاظ صارف کی لغت میں لکھنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_sdcardRead" product="nosdcard">محفوظ کردہ اسٹوریج تک رسائی کی جانچ کریں</string>
+    
+    <string name="permlab_sdcardRead" product="default">محفوظ کردہ اسٹوریج تک رسائی کی جانچ کریں</string>
+    
+    <string name="permdesc_sdcardRead" product="nosdcard">اطلاق کو USB اسٹوریج کیلئے ایک اجازت کی جانچ کرنے دیتا ہے جو آئندہ کے آلات پر دستیاب ہوگا۔</string>
+    
+    <string name="permdesc_sdcardRead" product="default">اطلاق کو SD کارڈ کیلئے اجازت کی جانچ کرنے دیتا ہے جو آئندہ آلات پر دستیاب ہوگی۔</string>
+
+    
+    <string name="permlab_sdcardWrite" product="nosdcard">اپنے USB اسٹوریج کے مواد میں ترمیم یا انہیں حذف کریں</string>
+    
+    <string name="permlab_sdcardWrite" product="default">اپنے SD کارڈ کے مواد میں ترمیم یا انہیں حذف کریں</string>
+    
+    <string name="permdesc_sdcardWrite" product="nosdcard">اطلاق کو USB اسٹوریج میں لکھنے کی اجازت دیتا ہے۔</string>
+    
+    <string name="permdesc_sdcardWrite" product="default">اطلاق کو SD کارڈ میں لکھنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_mediaStorageWrite" product="default">داخلی میڈیا اسٹوریج کے مواد میں ترمیم/انہیں حذف کریں</string>
+    
+    <string name="permdesc_mediaStorageWrite" product="default">اطلاق کو داخلی میڈیا اسٹوریج کے مواد میں ترمیم کرنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_sdcardAccessAll">سبھی صارفین کے خارجی اسٹوریج تک رسائی حاصل کریں</string>
+    
+    <string name="permdesc_sdcardAccessAll">اطلاق کو سبھی صارفین کیلئے خارجی اسٹوریج تک رسائی کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_cache_filesystem">کیس فائل سسٹم پر رسائی</string>
+    
+    <string name="permdesc_cache_filesystem">اطلاق کو عارضی اسٹوریج کا فائل سسٹم پڑھنے اور لکھنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_use_sip">انٹرنیٹ کالیں کرنا/وصول کرنا</string>
+    
+    <string name="permdesc_use_sip">اطلاق کو انٹرنٹی کالیں کرنے/وصول کرنے کیلئے SIP سروس استعمال کرنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_readNetworkUsageHistory">سرگزشت کے لحاظ سے نیٹ ورک کا استعمال پڑھیں</string>
+    
+    <string name="permdesc_readNetworkUsageHistory">اطلاق کو مخصوص نیٹ ورکس اور اطلاقات کیلئے سرگزشت کے لحاظ سے نیٹ ورک کا استعمال پڑھنے کی اجازت دیتا ہے۔</string>
+
+    
+    <string name="permlab_manageNetworkPolicy">نیٹ ورک کی پالیسی کا نظم کریں</string>
+    
+    <string name="permdesc_manageNetworkPolicy">اطلاق کو نیٹ ورک کی پالیسیوں کا نظم کرنے اور اطلاق کے ساتھ مخصوص اصول بیان کرنے کی اجازت دیتا ہے</string>
+
+    
+    <string name="permlab_modifyNetworkAccounting">نیٹ ورک کے استعمال کے حساب کتاب میں ترمیم کریں</string>
+    
+    <string name="permdesc_modifyNetworkAccounting">اطلاق کو اس امر میں ترمیم کرنے دیتا ہے کہ اطلاق کے برخلاف نیٹ ورک کا شمار کیسے ہوتا ہے۔ معمول کے اطلاقات کے ذریعہ استعمال کیلئے نہیں ہے۔</string>
+
+    
+
+    
+    <string name="policylab_limitPassword">پاس ورڈ قواعد سیٹ کرنا</string>
+    
+    <string name="policydesc_limitPassword">اسکرین غیر مقفل کرنے کے پاس ورڈز میں طوالت اور مجاز حروف کو کنٹرول کرتا ہے۔</string>
+    
+    <string name="policylab_watchLogin">اسکرین غیر مقفل کوششوں کی نگرانی</string>
+    
+    <string name="policydesc_watchLogin" product="tablet">اسکرین کو غیر مقفل کرتے وقت ٹائپ کردہ غلط پاس ورڈز کی تعداد پر نگاہ رکھتا ہے، اور کئی بار غلط پاس ورڈ ٹائپ کردیے جانے پر ٹیبلیٹ کو مقفل کردیتا یا ٹیبلیٹ کا ڈیٹا مٹا دیتا ہے۔</string>
+    
+    <string name="policydesc_watchLogin" product="default">اسکرین کو غیر مقفل کرتے وقت ٹائپ کردہ غلط پاس ورڈز کی تعداد پر نگاہ رکھتا ہے، اور کئی بار غلط پاس ورڈ ٹائپ کردیے جانے پر فون کو مقفل کردیتا یا فون کا ڈیٹا مٹا دیتا ہے۔</string>
+    
+    <string name="policylab_resetPassword">اسکرین غیر مقفل پاس ورڈ تبدیل کرنا</string>
+    
+    <string name="policydesc_resetPassword">اسکرین غیر مقفل کرنے کا پاس ورڈ تبدیل کریں۔</string>
+    
+    <string name="policylab_forceLock">اسکرین مقفل کرنا</string>
+    
+    <string name="policydesc_forceLock">اسکرین کیسے اور کس وقت مقفل کرنا اس پر کنٹرول کریں۔</string>
+    
+    <string name="policylab_wipeData">سارے ڈیٹا حذف کردیں</string>
+    
+    <string name="policydesc_wipeData" product="tablet">فیکٹری ڈیٹا ری سیٹ انجام دے کر بغیر انتباہ کے ٹیبلیٹ کا ڈیٹا مٹائیں۔</string>
+    
+    <string name="policydesc_wipeData" product="default">فیکٹری ڈیٹا ری سیٹ انجام دے کر بغیر انتباہ کے فون کا ڈیٹا مٹائیں۔</string>
+    <string name="policylab_setGlobalProxy">آلہ کا عالمگیر پراکسی متعین کریں۔</string>
+    
+    <string name="policydesc_setGlobalProxy">پالیسی فعال ہونے کی صورت میں استعمال کیلئے آلہ کا عالمگیر پراکسی متعین کریں صرف پہلے آلہ کا منتظم مؤثر عالمگیر پراکسی متعین کرتا ہے۔</string>
+    
+    <string name="policylab_expirePassword">اسکرین مقفل کرنے کے پاس ورڈ کی اختتامی تاریخ متعین کریں</string>
+    
+    <string name="policydesc_expirePassword">اسکرین مقفل کرنے کا پاس ورڈ جتنی کثرت سے تبدیل ہوسکتا ہے اس پر کنٹرول کریں۔</string>
+    
+    <string name="policylab_encryptedStorage">اسٹوریج کی مرموزکاری طے کریں</string>
+    
+    <string name="policydesc_encryptedStorage">لازمی ہوتا ہے کہ اسٹوریج کردہ اطلاق کا ڈیٹا مرموز کیا جائے۔</string>
+    
+    <string name="policylab_disableCamera">کیمرے غیر فعال کریں</string>
+    
+    <string name="policydesc_disableCamera">سبھی آلہ کے کیمرے کا استعمال روکیں۔</string>
+    
+    <string name="policylab_disableKeyguardFeatures">کی گارڈ کی خصوصیات غیر فعال کریں</string>
+    
+    <string name="policydesc_disableKeyguardFeatures">کی گارڈ کی کچھ خصوصیات کا استعمال روکیں۔</string>
+
+     <skip/>
+    
+    <string-array name="phoneTypes">
+        <item>گھر</item>
+        <item>موبائل</item>
+        <item>کام</item>
+        <item>کام کا فیکس</item>
+        <item>گھر کا فیکس</item>
+        <item>پیجر</item>
+        <item>دیگر</item>
+        <item>ذاتی</item>
+    </string-array>
+
+     <skip/>
+    
+    <string-array name="emailAddressTypes">
+        <item>ہوم</item>
+        <item>کام</item>
+        <item>دوسرے</item>
+        <item>ذاتی</item>
+    </string-array>
+
+     <skip/>
+    
+    <string-array name="postalAddressTypes">
+        <item>ہوم</item>
+        <item>کام</item>
+        <item>دیگر</item>
+        <item>ذاتی</item>
+    </string-array>
+
+     <skip/>
+    
+    <string-array name="imAddressTypes">
+        <item>ہوم</item>
+        <item>کام</item>
+        <item>دیگر</item>
+        <item>ذاتی</item>
+    </string-array>
+
+     <skip/>
+    
+    <string-array name="organizationTypes">
+        <item>کام</item>
+        <item>دیگر</item>
+        <item>ذاتی</item>
+    </string-array>
+
+     <skip/>
+    
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+
+    
+    <string name="phoneTypeCustom">ذاتی</string>
+    
+    <string name="phoneTypeHome">ہوم</string>
+    
+    <string name="phoneTypeMobile">موبائل</string>
+    
+    <string name="phoneTypeWork">کام</string>
+    
+    <string name="phoneTypeFaxWork">کام کا فیکس</string>
+    
+    <string name="phoneTypeFaxHome">گھر کا فیکس</string>
+    
+    <string name="phoneTypePager">پیجر</string>
+    
+    <string name="phoneTypeOther">دیگر</string>
+    
+    <string name="phoneTypeCallback">کال بیک</string>
+    
+    <string name="phoneTypeCar">گاڑی</string>
+    
+    <string name="phoneTypeCompanyMain">کمپنی مرکزی</string>
+    
+    <string name="phoneTypeIsdn">ISDN</string>
+    
+    <string name="phoneTypeMain">اصلی</string>
+    
+    <string name="phoneTypeOtherFax">دوسرے فیکس</string>
+    
+    <string name="phoneTypeRadio">ریڈیو</string>
+    
+    <string name="phoneTypeTelex">ٹیلیکس</string>
+    
+    <string name="phoneTypeTtyTdd">TTY TDD</string>
+    
+    <string name="phoneTypeWorkMobile">کام کا موبائل</string>
+    
+    <string name="phoneTypeWorkPager">کام کا پیجر</string>
+    
+    <string name="phoneTypeAssistant">معاون</string>
+    
+    <string name="phoneTypeMms">MMS</string>
+
+    
+    <string name="eventTypeCustom">ذاتی</string>
+    
+    <string name="eventTypeBirthday">تاریخ پیدائش</string>
+    
+    <string name="eventTypeAnniversary">سالگرہ</string>
+    
+    <string name="eventTypeOther">دیگر</string>
+
+    
+    <string name="emailTypeCustom">ذاتی</string>
+    
+    <string name="emailTypeHome">ہوم</string>
+    
+    <string name="emailTypeWork">کام</string>
+    
+    <string name="emailTypeOther">دیگر</string>
+    
+    <string name="emailTypeMobile">موبائل</string>
+
+    
+    <string name="postalTypeCustom">ذاتی</string>
+    
+    <string name="postalTypeHome">ہوم</string>
+    
+    <string name="postalTypeWork">کام</string>
+    
+    <string name="postalTypeOther">دیگر</string>
+
+    
+    <string name="imTypeCustom">ذاتی</string>
+    
+    <string name="imTypeHome">ہوم</string>
+    
+    <string name="imTypeWork">کام</string>
+    
+    <string name="imTypeOther">دیگر</string>
+
+    
+    <string name="imProtocolCustom">ذاتی</string>
+    
+    <string name="imProtocolAim">AIM</string>
+    
+    <string name="imProtocolMsn">Windows Live</string>
+    
+    <string name="imProtocolYahoo">Yahoo</string>
+    
+    <string name="imProtocolSkype">Skype</string>
+    
+    <string name="imProtocolQq">QQ</string>
+    
+    <string name="imProtocolGoogleTalk">Google Talk</string>
+    
+    <string name="imProtocolIcq">ICQ</string>
+    
+    <string name="imProtocolJabber">Jabber</string>
+    
+    <string name="imProtocolNetMeeting">NetMeeting</string>
+
+    
+    <string name="orgTypeWork">کام</string>
+    
+    <string name="orgTypeOther">دیگر</string>
+    
+    <string name="orgTypeCustom">ذاتی</string>
+
+    
+    <string name="relationTypeCustom">ذاتی</string>
+    
+    <string name="relationTypeAssistant">معاون</string>
+    
+    <string name="relationTypeBrother">بھائی</string>
+    
+    <string name="relationTypeChild">بچہ</string>
+    
+    <string name="relationTypeDomesticPartner">گھریلو ساتھی</string>
+    
+    <string name="relationTypeFather">والد</string>
+    
+    <string name="relationTypeFriend">دوست</string>
+    
+    <string name="relationTypeManager">منیجر</string>
+    
+    <string name="relationTypeMother">والدہ</string>
+    
+    <string name="relationTypeParent">والدین</string>
+    
+    <string name="relationTypePartner">شراکت دار</string>
+    
+    <string name="relationTypeReferredBy">حوالہ یافتہ بذریعہ</string>
+    
+    <string name="relationTypeRelative">رشتہ دار</string>
+    
+    <string name="relationTypeSister">بہن</string>
+    
+    <string name="relationTypeSpouse">شریک حیات</string>
+
+    
+    <string name="sipAddressTypeCustom">ذاتی</string>
+    
+    <string name="sipAddressTypeHome">ہوم</string>
+    
+    <string name="sipAddressTypeWork">کام</string>
+    
+    <string name="sipAddressTypeOther">دیگر</string>
+
+    
+    <string name="keyguard_password_enter_pin_code">PIN کوڈ ٹائپ کریں</string>
+
+    
+    <string name="keyguard_password_enter_puk_code">PUK اور نیا PIN کوڈ ٹائپ کریں</string>
+
+    
+    <string name="keyguard_password_enter_puk_prompt">PUK کوڈ</string>
+    
+    <string name="keyguard_password_enter_pin_prompt">نیا PIN کوڈ</string>
+
+    
+    <string name="keyguard_password_entry_touch_hint"><font size="17">پاس ورڈ ٹائپ کرنے کیلئے چھوئیں</font></string>
+
+    
+    <string name="keyguard_password_enter_password_code">غیر مقفل کرنے کیلئے پاس ورڈ ٹائپ کریں</string>
+
+    
+    <string name="keyguard_password_enter_pin_password_code">غیر مقفل کرنے کیلئے PIN ٹائپ کریں</string>
+
+    
+    <string name="keyguard_password_wrong_pin_code">غلط PIN کوڈ۔</string>
+
+    
+    <string name="keyguard_label_text">غیرمقفل کرنے کے لئے مینو دبائیں پھر 0۔</string>
+
+    
+    <string name="emergency_call_dialog_number_for_display">ایمرجنسی نمبر</string>
+
+     <skip/>
+
+    
+    <string name="lockscreen_carrier_default">کوئی خدمت نہیں۔</string>
+
+    
+    <string name="lockscreen_screen_locked">اسکرین مقفل۔</string>
+
+    
+    <string name="lockscreen_instructions_when_pattern_enabled">غیرمقفل کرنے کے لئے مینو دبائیں یا ایمرجنسی کال کریں۔</string>
+
+    
+    <string name="lockscreen_instructions_when_pattern_disabled">غیرمقفل کرنے کے لئے مینو دبائیں۔</string>
+
+    
+    <string name="lockscreen_pattern_instructions">غیرمقفل کرنے کے لئے نمونہ کا خاکہ بنائیں</string>
+    
+    <string name="lockscreen_emergency_call">ہنگامی کال</string>
+    
+    <string name="lockscreen_return_to_call">کال پر واپس جائيں</string>
+    
+    <string name="lockscreen_pattern_correct">صحیح!</string>
+    
+    <string name="lockscreen_pattern_wrong">دوبارہ کوشش کریں</string>
+    
+    <string name="lockscreen_password_wrong">دوبارہ کوشش کریں</string>
+    
+    <string name="faceunlock_multiple_failures">چہرہ غیر مقفل کرنے کی زیادہ سے زیادہ تعداد کو پہنچ گئے</string>
+
+    
+    <string name="lockscreen_plugged_in">چارج کررہا ہے (<xliff:g id="نمبر">%d</xliff:g><xliff:g id="پرسنٹ">%%</xliff:g>)</string>
+    
+    <string name="lockscreen_charged">چارج ہوگیا</string>
+    
+    <string name="lockscreen_battery_short"><xliff:g id="نمبر">%d</xliff:g><xliff:g id="پرسنٹ">%%</xliff:g></string>
+
+    
+    <string name="lockscreen_low_battery">اپنے چارجر لگائیں۔</string>
+
+    
+    <string name="lockscreen_missing_sim_message_short">SIM کارڈ نہیں</string>
+    
+    <string name="lockscreen_missing_sim_message" product="tablet">ٹیبلیٹ میں کوئی SIM کارڈ نہیں ہے۔</string>
+    
+    <string name="lockscreen_missing_sim_message" product="default">فون میں کوئی SIM کارڈ نہیں ہے۔</string>
+    
+    <string name="lockscreen_missing_sim_instructions">ایک SIM کارڈ ڈالیں۔</string>
+    
+    <string name="lockscreen_missing_sim_instructions_long">SIM کارڈ چھوٹا ہوا ہے یا پڑھے جانے لائق نہیں ہے۔ ایک SIM کارڈ ڈالیں۔</string>
+    
+    <string name="lockscreen_permanent_disabled_sim_message_short">ناقابل استعمال SIM کارڈ۔</string>
+    
+    <string name="lockscreen_permanent_disabled_sim_instructions">آپ کا SIM کارڈ مستقل طور پر غیر فعال ہوگیا ہے۔\n دوسرے SIM کارڈ کیلئے اپنے وائرلیس خدمت فراہم کنندہ سے رابطہ کریں۔</string>
+
+    
+    <string name="lockscreen_transport_prev_description">سابقہ ٹریک کا بٹن</string>
+    
+    <string name="lockscreen_transport_next_description">اگلے ٹریک کا بٹن</string>
+    
+    <string name="lockscreen_transport_pause_description">روکنے کا بٹن</string>
+    
+    <string name="lockscreen_transport_play_description">چلانے کا بٹن</string>
+    
+    <string name="lockscreen_transport_stop_description">بند کرنے کا بٹن</string>
+
+    
+    <string name="emergency_calls_only" msgid="2485604591272668370">صرف ایمرجنسی کالیں</string>
+
+    
+    <string name="lockscreen_network_locked_message">نیٹ ورک مقفل</string>
+
+
+    
+    <string name="lockscreen_sim_puk_locked_message">SIM کارڈ PUK مقفل ہے </string>
+    
+    <string name="lockscreen_sim_puk_locked_instructions">صارف کا رہنما دیکھیں یا کسٹمر کیئر سے رابطہ کریں۔</string>
+
+    
+    <string name="lockscreen_sim_locked_message">SIM کارڈ مقفل ہوگیا ہے۔</string>
+
+    
+    <string name="lockscreen_sim_unlock_progress_dialog_message">SIM کارڈ \u2026 غیر مقفل کررہا ہے</string>
+
+    
+    <string name="lockscreen_too_many_failed_attempts_dialog_message">آپ نے غیر مقفل کرنے کا اپنا طرز <xliff:g id="number">%d</xliff:g> بار غلط طریقے سے کوشش کی ہے۔ \n\nدوبارہ <xliff:g id="number">%d</xliff:g> سیکنڈ میں کوشش کریں۔</string>
+
+    
+    <string name="lockscreen_too_many_failed_password_attempts_dialog_message">آپ نے اپنا پاس ورڈ <xliff:g id="number">%d</xliff:g> بار غلط طریقے سے ٹائپ کیا ہے۔ \n\nدوبارہ <xliff:g id="number">%d</xliff:g> سیکنڈ میں کوشش کریں۔</string>
+
+    
+    <string name="lockscreen_too_many_failed_pin_attempts_dialog_message">آپ نے اپنا PIN <xliff:g id="number">%d</xliff:g> بار غلط طریقے سے ٹائپ کیا ہے۔ \n\nدوبارہ <xliff:g id="number">%d</xliff:g> سیکنڈ میں کوشش کریں۔</string>
+
+    
+    <string name="lockscreen_failed_attempts_almost_glogin" product="tablet">آپ نے غیر مقفل کرنے کا اپنا طرز <xliff:g id="number">%d</xliff:g> بار غلط طریقے سے کوشش کی ہے۔ <xliff:g id="number">%d</xliff:g> مزید ناکام کوششوں کے بعد، آپ سے اپنا Google سائن ان استعمال کرکے اپنا ٹیبلیٹ غیر مقفل کرنے کو کہا جائے گا۔\n\n دوبارہ <xliff:g id="number">%d</xliff:g> سیکنڈ میں کوشش کریں۔</string>
+
+    
+    <string name="lockscreen_failed_attempts_almost_glogin" product="default">آپ نے غیر مقفل کرنے کا اپنا طرز <xliff:g id="number">%d</xliff:g> بار غلط طریقے سے کوشش کی ہے۔ <xliff:g id="number">%d</xliff:g> مزید ناکام کوششوں کے بعد، آپ سے اپنا Google سائن ان استعمال کرکے اپنا فون غیر مقفل کرنے کو کہا جائے گا۔\n\n دوبارہ <xliff:g id="number">%d</xliff:g> سیکنڈ میں کوشش کریں۔</string>
+
+    
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="tablet">آپ نے ٹیبلیٹ غیر مقفل کرنے کیلئے<xliff:g id="number">%d</xliff:g> بار غلط طریقے سے کوشش کی ہے۔ <xliff:g id="number">%d</xliff:g> مزید ناکام کوششوں کے بعد، ٹیبلیٹ فیکٹری ڈیفالٹ پر دوبارہ متعین ہوجائے گا اور صارف کا سبھی ڈیٹا ضائع ہوجائے گا۔</string>
+
+    
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="default">آپ نے فون غیر مقفل کرنے کیلئے<xliff:g id="number">%d</xliff:g> بار غلط طریقے سے کوشش کی ہے۔ <xliff:g id="number">%d</xliff:g> مزید ناکام کوششوں کے بعد، فون فیکٹری ڈیفالٹ پر دوبارہ متعین ہوجائے گا اور صارف کا سبھی ڈیٹا ضائع ہوجائے گا۔</string>
+
+    
+    <string name="lockscreen_failed_attempts_now_wiping" product="tablet">آپ نے ٹیبلیٹ غیر مقفل کرنے کیلئے<xliff:g id="number">%d</xliff:g> بار غلط طریقے سے کوشش کی ہے۔ ٹیبلٹ اب فیکٹری ڈیفالٹ پر دوبارہ متعین ہوجائے گا۔</string>
+
+    
+    <string name="lockscreen_failed_attempts_now_wiping" product="default">آپ نے فون غیر مقفل کرنے کیلئے<xliff:g id="number">%d</xliff:g> بار غلط طریقے سے کوشش کی ہے۔ فون اب فیکٹری ڈیفالٹ پر دوبارہ متعین ہوجائے گا۔</string>
+
+    
+    <string name="lockscreen_too_many_failed_attempts_countdown">  <xliff:g id="number">%d</xliff:g> سیکنڈ کے بعد دوبارہ کوشش کریں۔ </string>
+
+    
+    <string name="lockscreen_forgot_pattern_button_text">نمونہ بھول گئے؟</string>
+
+    
+    <string name="lockscreen_glogin_forgot_pattern">اکاؤنٹ غیرمقفل کرنا</string>
+    
+    <string name="lockscreen_glogin_too_many_attempts">کافی سارے طرز کی آزمائشیں</string>
+    
+    <string name="lockscreen_glogin_instructions">غیر مقفل کرنے کیلئے، اپنے Google اکاؤنٹ کے ساتھ سائن ان کریں۔</string>
+    
+    <string name="lockscreen_glogin_username_hint">صارف کا نام (ای میل)</string>
+    
+    <string name="lockscreen_glogin_password_hint">پاس ورڈ</string>
+    
+    <string name="lockscreen_glogin_submit_button">سائن ان</string>
+    
+    <string name="lockscreen_glogin_invalid_input">غلط صارف نام یا پاس ورڈ۔</string>
+    
+    <string name="lockscreen_glogin_account_recovery_hint">اپنا صارف نام یا پاس ورڈ بھول گئے؟\n <b>google.com/accounts/recovery</b> دیکھیں۔</string>
+
+    
+    <string name="lockscreen_glogin_checking_password">آنے والے سرور کی ترتیبات چیک کررہا ہے\u2026</string>
+    
+    <string name="lockscreen_unlock_label">غیرمقفل</string>
+    
+    <string name="lockscreen_sound_on_label">آواز چالو کریں</string>
+    
+    <string name="lockscreen_sound_off_label">ساؤنڈ بند</string>
+
+    
+    <string name="lockscreen_access_pattern_start">طرز شروع ہوگیا</string>
+    
+    <string name="lockscreen_access_pattern_cleared">طرز صاف ہوگیا</string>
+    
+    <string name="lockscreen_access_pattern_cell_added">سیل شامل کردیا گیا</string>
+    
+    <string name="lockscreen_access_pattern_detected">طرز مکمل ہوگیا</string>
+
+    
+    <string name="keyguard_accessibility_add_widget">ویجٹ شامل کریں۔</string>
+    
+    <string name="keyguard_accessibility_widget_empty_slot">خامی</string>
+    
+    <string name="keyguard_accessibility_unlock_area_expanded">غیر مقفل حصہ بڑھایا گیا۔</string>
+    
+    <string name="keyguard_accessibility_unlock_area_collapsed">غیر مقفل حصہ ضائع کیا گیا۔</string>
+    
+    <string name="keyguard_accessibility_widget"><xliff:g id="widget_index">%1$s</xliff:g> ویجٹ۔</string>
+    
+    <string name="keyguard_accessibility_user_selector">صارف کا انتخاب کنندہ</string>
+    
+    <string name="keyguard_accessibility_status">حالت</string>
+    
+    <string name="keyguard_accessibility_camera">کیمرہ</string>
+    
+    <string name="keygaurd_accessibility_media_controls">میڈیا کنٹرولز</string>
+    
+    <string name="keyguard_accessibility_widget_reorder_start">ویجٹ کی دوبارہ ترتیب سازی شروع ہوگئی۔</string>
+    
+    <string name="keyguard_accessibility_widget_reorder_end">ویجٹ کی دوبارہ ترتیب سازی ختم ہوگئی۔</string>
+    
+    <string name="keyguard_accessibility_widget_deleted">ویجٹ <xliff:g id="widget_index">%1$s</xliff:g> حذف ہوگیا۔</string>
+    
+    <string name="keyguard_accessibility_expand_lock_area">غیر مقفل حصہ کی توسیع کریں۔</string>
+    
+    <string name="keyguard_accessibility_slide_unlock">سلائڈ غیر مقفل کریں۔</string>
+    
+    <string name="keyguard_accessibility_pattern_unlock">طرز غیر مقفل کریں۔</string>
+    
+    <string name="keyguard_accessibility_face_unlock">چہرہ غیر مقفل کریں۔</string>
+    
+    <string name="keyguard_accessibility_pin_unlock">پن غیر مقفل کریں۔</string>
+    
+    <string name="keyguard_accessibility_password_unlock">پاس ورڈ غیر مقفل کریں۔</string>
+    
+    <string name="keyguard_accessibility_pattern_area">طرز کا حصہ۔</string>
+    
+    <string name="keyguard_accessibility_slide_area">سلائڈ کا حصہ۔</string>
+
+    <skip/>
+    
+    <string name="password_keyboard_label_symbol_key">\?123</string>
+    
+    <string name="password_keyboard_label_alpha_key">ABC</string>
+    
+    <string name="password_keyboard_label_alt_key">ALT</string>
+
+    
+    <string name="granularity_label_character">حرف</string>
+    
+    <string name="granularity_label_word">لفظ</string>
+    
+    <string name="granularity_label_link">لنک</string>
+    
+    <string name="granularity_label_line">سطر</string>
+
+    
+    <string name="hour_ampm">"<xliff:g id="گھنٹہ" مثال="3">%-l</xliff:g><xliff:g id="ampm" مثال="PM">%p</xliff:g>"</string>
+
+    
+    <string name="hour_cap_ampm">"<xliff:g id="گھنٹہ" مثال="3">%-l</xliff:g><xliff:g id="ampm" مثال="PM">%p</xliff:g>"</string>
+
+    
+    <string name="factorytest_failed">فیکٹری ٹیسٹ ناکام</string>
+    
+    <string name="factorytest_not_system">FACTORY_TEST کا عمل کی تائید صرف ان پیکیجز کے لئے ہوتی ہے جو سسٹم/ایپلی کیشن/ میں نصب ہوتے ہیں۔ </string>
+    
+    <string name="factorytest_no_action">کوئی ایسا پیکج موجود نہیں جو FACTORY_TEST ایکشن مہیا کرتا ہو۔</string>
+    
+    <string name="factorytest_reboot">دوبارہ بوٹ کرنا</string>
+
+    
+    <string name="web_user_agent" translatable="false">Mozilla/5.0 (Linux; U; <xliff:g id="x">Android %s</xliff:g>)
+        AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 <xliff:g id="mobile">%s</xliff:g>Safari/534.30</string>
+    
+    <string name="web_user_agent_target_content" translatable="false">"Mobile "</string>
+
+    
+    <string name="js_dialog_title">\"<xliff:g id="title">%s</xliff:g>\" پر موجود صفحہ کا کہنا ہے:</string>
+    
+    <string name="js_dialog_title_default">JavaScript</string>
+    
+    <string name="js_dialog_before_unload">اس صفحہ سے الگ نیویگیٹ کریں؟\n\n<xliff:g id="message">%s</xliff:g>\n\nجاری رکھنے کیلئے اوکے کو، یا موجودہ صفحہ پر رہنے کیلئے منسوخ کریں کو چھوئیں۔</string>
+
+    
+    <string name="save_password_label">تصدیق کریں</string>
+
+    
+    <string name="double_tap_toast">نکتہ: زوم ان یا زوم آؤٹ کیلئے دو بار تھپکی دیں۔</string>
+
+    
+    <string name="autofill_this_form">خود کار بھرائی</string>
+    
+    <string name="setup_autofill">خودکار بھرائی تشکیل دیں</string>
+
+    
+    <string name="autofill_address_name_separator">ترجیح:\u0020</string>
+    
+    <string name="autofill_address_summary_name_format">$1$2$3</string>
+
+    
+    <string name="autofill_address_summary_separator">,\u0020</string>
+    
+    <string name="autofill_address_summary_format">$1$2$3</string>
+
+    
+    <string name="autofill_attention_ignored_re">attention|attn</string>
+
+    
+    <string name="autofill_region_ignored_re">province|region|other<!-- es -->|provincia<!-- pt-BR, pt-PT -->|bairro|suburb</string>
+
+    
+    <string name="autofill_company_re">company|business|organization|organisation|department<!-- de-DE -->|firma|firmenname<!-- es -->|empresa<!-- fr-FR -->|societe|société<!-- it-IT -->|ragione.?sociale<!-- ja-JP -->|会社<!-- ru -->|название.?компании<!-- zh-CN -->|单位|公司</string>
+
+    
+    <string name="autofill_address_line_1_re">address.?line|address1|addr1|street<!-- de-DE -->|strasse|straße|hausnummer|housenumber<!-- en-GB -->|house.?name<!-- es -->|direccion|dirección<!-- fr-FR -->|adresse<!-- it-IT -->|indirizzo<!-- ja-JP -->|住所1<!-- pt-BR, pt-PT -->|morada|endereço<!-- ru -->|Адрес<!-- zh-CN -->|地址</string>
+
+    
+    <string name="autofill_address_line_1_label_re">address<!-- fr-FR -->|adresse<!-- it-IT -->|indirizzo<!-- ja-JP -->|住所<!-- zh-CN -->|地址</string>
+
+    
+    <string name="autofill_address_line_2_re">address.?line2|address2|addr2|street|suite|unit<!-- de-DE -->|adresszusatz|ergänzende.?angaben<!-- es -->|direccion2|colonia|adicional<!-- fr-FR -->|addresssuppl|complementnom|appartement<!-- it-IT -->|indirizzo2<!-- ja-JP -->|住所2</string>
+
+    
+    <string name="autofill_address_line_3_re">address.?line3|address3|addr3|street|line3<!-- es -->|municipio<!-- fr-FR -->|batiment|residence<!-- it-IT -->|indirizzo3</string>
+
+    
+    <string name="autofill_country_re">country|location<!-- ja-JP -->|国<!-- zh-CN -->|国家</string>
+
+    
+    <string name="autofill_zip_code_re">zip|postal|post code|pcode|^1z$<!-- de-DE -->|postleitzahl<!-- es -->|cp<!-- fr-FR -->|cdp<!-- it-IT -->|cap<!-- ja-JP -->|郵便番号<!-- pt-BR, pt-PT -->|codigo|codpos|cep<!-- ru -->|Почтовый.?Индекс<!--zh-CN -->|邮政编码|邮编<!-- zh-TW -->|郵遞區號</string>
+
+    
+    <string name="autofill_zip_4_re">zip|^-$|post2<!-- pt-BR, pt-PT -->|codpos2</string>
+
+    
+    <string name="autofill_city_re">city|town<!-- de-DE -->|ort|stadt<!-- en-AU -->|suburb<!-- es -->|ciudad|provincia|localidad|poblacion<!-- fr-FR -->|ville|commune<!-- it-IT -->|localita<!-- ja-JP -->|市区町村<!-- pt-BR, pt-PT -->|cidade<!-- ru -->|Город<!-- zh-CN -->|市<!-- zh-TW -->|分區</string>
+
+    
+    <string name="autofill_state_re">state|county|region|province<!-- de-DE -->|land<!-- en-UK -->|county|principality<!-- ja-JP -->|都道府県<!-- pt-BR, pt-PT -->|estado|provincia<!-- ru -->|область<!-- zh-CN -->|省<!-- zh-TW -->|地區</string>
+
+    
+    <string name="autofill_address_type_same_as_re">same as</string>
+
+    
+    <string name="autofill_address_type_use_my_re">use my</string>
+
+    
+    <string name="autofill_billing_designator_re">bill</string>
+
+    
+    <string name="autofill_shipping_designator_re">ship</string>
+
+    
+    <string name="autofill_email_re">e.?mail<!-- ja-JP -->|メールアドレス<!-- ru -->|Электронной.?Почты<!-- zh-CN -->|邮件|邮箱<!-- zh-TW -->|電郵地址</string>
+
+    
+    <string name="autofill_username_re">user.?name|user.?id<!-- de-DE -->|vollständiger.?name<!-- zh-CN -->|用户名</string>
+
+    
+    <string name="autofill_name_re">^name|full.?name|your.?name|customer.?name|firstandlastname<!-- es -->|nombre.*y.*apellidos<!-- fr-FR -->|^nom<!-- ja-JP -->|お名前|氏名<!-- pt-BR, pt-PT -->|^nome<!-- zh-CN -->|姓名</string>
+
+    
+    <string name="autofill_name_specific_re">^name<!-- fr-FR -->|^nom<!-- pt-BR, pt-PT -->|^nome</string>
+
+    
+
+    <string name="autofill_first_name_re">irst.*name|initials|fname|first$<!-- de-DE -->|vorname<!-- es -->|nombre<!-- fr-FR -->|forename|prénom|prenom<!-- ja-JP -->|名<!-- pt-BR, pt-PT -->|nome<!-- ru -->|Имя</string>
+
+    
+    <string name="autofill_middle_initial_re">middle.*initial|m\\.i\\.|mi$</string>
+
+    
+    <string name="autofill_middle_name_re">middle.*name|mname|middle$<!-- es -->|apellido.?materno|lastlastname</string>
+
+    
+    <string name="autofill_last_name_re">last.*name|lname|surname|last$<!-- de-DE -->|nachname<!-- es -->|apellidos<!-- fr-FR -->|famille|^nom<!-- it-IT -->|cognome<!-- ja-JP -->|姓<!-- pt-BR, pt-PT -->|morada|apelidos|surename|sobrenome<!-- ru -->|Фамилия</string>
+
+    
+    <string name="autofill_phone_re">phone<!-- de-DE -->|telefonnummer<!-- es -->|telefono|teléfono<!-- fr-FR -->|telfixe<!-- ja-JP -->|電話<!-- pt-BR, pt-PT -->|telefone|telemovel<!-- ru -->|телефон<!-- zh-CN -->|电话</string>
+
+    
+    <string name="autofill_area_code_re">area.*code|acode|area</string>
+
+    
+    <string name="autofill_phone_prefix_re">prefix<!-- fr-FR -->|preselection<!-- pt-BR, pt-PT -->|ddd</string>
+
+    
+    <string name="autofill_phone_suffix_re">suffix</string>
+
+    
+    <string name="autofill_phone_extension_re">ext<!-- pt-BR, pt-PT -->|ramal</string>
+
+    
+    <string name="autofill_name_on_card_re">card.?holder|name.?on.?card|ccname|owner<!-- de-DE -->|karteninhaber<!-- es -->|nombre.*tarjeta<!-- fr-FR -->|nom.*carte<!-- it-IT -->|nome.*cart<!-- ja-JP -->|名前<!-- ru -->|Имя.*карты<!-- zh-CN -->|信用卡开户名|开户名|持卡人姓名<!-- zh-TW -->|持卡人姓名</string>
+
+    
+    <string name="autofill_name_on_card_contextual_re">name</string>
+
+    
+    <string name="autofill_card_cvc_re">verification|card identification|cvn|security code|cvv code|cvc</string>
+
+    
+    <string name="autofill_card_number_re">number|card.?#|card.?no|ccnum<!-- de-DE -->|nummer<!-- es -->|credito|numero|número<!-- fr-FR -->|numéro<!-- ja-JP -->|カード番号<!-- ru -->|Номер.*карты<!-- zh-CN -->|信用卡号|信用卡号码<!-- zh-TW -->|信用卡卡號</string>
+
+    
+    <string name="autofill_expiration_month_re">expir|exp.*month|exp.*date|ccmonth<!-- de-DE -->|gueltig|gültig|monat<!-- es -->|fecha<!-- fr-FR -->|date.*exp<!-- it-IT -->|scadenza<!-- ja-JP -->|有効期限<!-- pt-BR, pt-PT -->|validade<!-- ru -->|Срок действия карты<!-- zh-CN -->|月</string>
+
+    
+    <string name="autofill_expiration_date_re">exp|^/|year<!-- de-DE -->|ablaufdatum|gueltig|gültig|yahr<!-- es -->|fecha<!-- it-IT -->|scadenza<!-- ja-JP -->|有効期限<!-- pt-BR, pt-PT -->|validade<!-- ru -->|Срок действия карты<!-- zh-CN -->|年|有效期</string>
+
+    
+    <string name="autofill_card_ignored_re">^card</string>
+
+    
+    <string name="autofill_fax_re">fax<!-- fr-FR -->|télécopie|telecopie<!-- ja-JP -->|ファックス<!-- ru -->|факс<!-- zh-CN -->|传真<!-- zh-TW -->|傳真</string>
+
+    
+    <string name="autofill_country_code_re">country.*code|ccode|_cc</string>
+
+    
+    <string name="autofill_area_code_notext_re">^\\($</string>
+
+    
+    <string name="autofill_phone_prefix_separator_re">^-$|^\\)$</string>
+
+    
+    <string name="autofill_phone_suffix_separator_re">^-$</string>
+
+    
+    <string name="autofill_province">صوبہ</string>
+
+    
+    <string name="autofill_postal_code">ڈاک کا کوڈ</string>
+
+    
+    <string name="autofill_state">ریاست</string>
+
+    
+    <string name="autofill_zip_code">ZIP کوڈ</string>
+
+    
+    <string name="autofill_county">کاؤنٹی</string>
+
+    
+    <string name="autofill_island">جزیرہ</string>
+
+    
+    <string name="autofill_district">ضلع</string>
+
+    
+    <string name="autofill_department">محکمہ</string>
+
+    
+    <string name="autofill_prefecture">کمشنری</string>
+
+    
+    <string name="autofill_parish">کلیسائی حلقہ</string>
+
+    
+    <string name="autofill_area">شعبہ</string>
+
+    
+    <string name="autofill_emirate">امارات</string>
+
+    
+    <string name="permlab_readHistoryBookmarks">اپنی ویب بک مارکس اور سرگزشت پڑھیں</string>
+    
+    <string name="permdesc_readHistoryBookmarks">اطلاق کو ان سبھی URLs کی جو براؤزر نے ملاحظہ کیا ہے اور براؤزر کے سبھی بک مارکس کی سرگزشت پڑھنے دیتا ہے۔ نوٹ: یہ اجازت براؤزنگ کی لیاقتوں والے تیسرے فریق کے برا‎ؤزر یا دیگر اطلاقات کے ذریعہ استعمال میں نہیں لائی جاسکتی ہے۔ </string>
+    
+
+    <string name="permlab_writeHistoryBookmarks">ویب بک مارکس اور سرگزشت لکھیں</string>
+    
+    <string name="permdesc_writeHistoryBookmarks" product="tablet">اطلاق کو آپ کے ٹیبلیٹ پر اسٹوریج کردہ براؤزر کی سرگزشت یا بک مارکس میں ترمیم کرنے دیتا ہے۔ یہ اطلاق کو براؤزر کا ڈیٹا مٹانے یا اس میں ترمیم کرنے دے سکتا ہے۔ نوٹ: یہ اجازت براؤزنگ کی لیاقتوں والے تیسرے فریق کے براؤزریا دیگر اطلاقات کے ذریعہ استعمال میں نہیں لائی جاسکتی ہے۔</string>
+    
+    <string name="permdesc_writeHistoryBookmarks" product="default">اطلاق کو آپ کے فون پر اسٹوریج کردہ براؤزر کی سرگزشت یا بک مارکس میں ترمیم کرنے دیتا ہے۔ یہ اطلاق کو براؤزر کا ڈیٹا مٹانے یا اس میں ترمیم کرنے دے سکتا ہے۔ نوٹ: یہ اجازت براؤزنگ کی لیاقتوں والے تیسرے فریق کے براؤزر یا دیگر اطلاقات کے ذریعہ استعمال میں نہیں لائی جاسکتی ہے۔</string>
+
+    
+    <string name="permlab_setAlarm">ایک الارم متعین کریں</string>
+    
+    <string name="permdesc_setAlarm">اطلاق کو الارم گھڑی کے ایک نصب شدہ اطلاق میں الارم متعین کرنے دیتا ہے۔ الارم گھڑی کے کچھ اطلاقات نے یہ خصوصیت نافذ نہیں کی ہوسکتی ہے۔</string>
+
+    
+    <string name="permlab_addVoicemail">صوتی میل شامل کریں</string>
+    
+    <string name="permdesc_addVoicemail">اطلاق کو آپ کے صوتی میل کے ان باکس میں پیغامات شامل کرنے دیتا ہے۔</string>
+
+    
+    <string name="permlab_writeGeolocationPermissions">براؤزر جغرافیائی محل وقوع اجازتوں میں ترمیم کرنا</string>
+    
+    <string name="permdesc_writeGeolocationPermissions">اطلاق کو براؤزر کے طبعی مقام کی اجازتوں میں ترمیم کرنے دیتا ہے۔ بدنیت اطلاقات مقام کی معلومات مصالحت آمیز ویب سائٹوں کو بھیجنے کیلئے اسے استعمال کرسکتے ہیں۔</string>
+
+    
+    <string name="permlab_packageVerificationAgent">پیکیجوں کی توثیق کریں</string>
+    
+    <string name="permdesc_packageVerificationAgent">اطلاق کو پیکیج کے قابل تنصیب ہونے کی توثیق کرنے دیتا ہے۔</string>
+
+    
+    <string name="permlab_bindPackageVerifier">پیکیج کے توثیق کار کا پابند بنائیں</string>
+    
+    <string name="permdesc_bindPackageVerifier">حامل کو پیکیج کے توثیق کاروں کی درخواستیں کرنے دیتا ہے۔ معمول کے اطلاقات کیلئے کبھی درکار نہیں ہونا چاہیے۔</string>
+
+    
+    <string name="permlab_serialPort">ترتیب وار پورٹس تک رسائی حاصل کریں</string>
+    
+    <string name="permdesc_serialPort">حامل کو SerialManager API کا استعمال کرکے سلسلہ وار پورٹس تک رسائی حاصل کرنے دیتا ہے۔</string>
+
+    
+    <string name="permlab_accessContentProvidersExternally">خارجی لحاظ سے مواد فراہم کنندگان تک رسائی حاصل کریں</string>
+    
+    <string name="permdesc_accessContentProvidersExternally">حامل کو خول سے مواد کے فراہم کنندہ تک رسائی حاصل کرنے دیتا ہے۔ معمول کے اطلاقات کیلئے کبھی درکار نہیں ہونا چاہیے۔</string>
+    
+    <string name="permlab_updateLock">آلہ کے خودکار اپ ڈیٹس کی حوصلہ شکنی کریں</string>
+    
+    <string name="permdesc_updateLock">حامل کو اس بارے میں سسٹم کو معلومات پیش کرنے دیتا ہے کہ آلہ کو اپ گریڈ کرنے کے واسطے باہم غیر متعامل ری بوٹ کیلئے اچھا وقت کب ہوگا۔</string>
+
+    
+    <string name="save_password_message">کیا آپ چاہتے ہیں کہ براؤزر اس پاس ورڈ کو یاد رکھے؟</string>
+    
+    <string name="save_password_notnow">ابھی نہیں</string>
+    
+    <string name="save_password_remember">یاد رکھيں</string>
+    
+    <string name="save_password_never">کبھی نہيں</string>
+
+    
+    <string name="open_permission_deny">آپ کو یہ صفحہ کھولنے کی اجازت نہیں ہے۔</string>
+
+    
+    <string name="text_copied">ٹیکسٹ کلپ بورڈ پر نقل ہوگیا۔</string>
+
+    
+    <string name="more_item_label">مزید</string>
+    
+    <string name="prepend_shortcut_label">مینو+</string>
+    
+    <string name="menu_space_shortcut_label">جگہ</string>
+    
+    <string name="menu_enter_shortcut_label">درج کرنا</string>
+    
+    <string name="menu_delete_shortcut_label">رابطہ مٹائيں</string>
+
+    <skip/>
+
+    
+    <string name="search_go">تلاش کریں</string>
+    
+    <string name="searchview_description_search">تلاش کریں</string>
+    
+    <string name="searchview_description_query">استفسار تلاش کریں</string>
+    
+    <string name="searchview_description_clear">استفسار صاف کریں</string>
+    
+    <string name="searchview_description_submit">استفسار جمع کروائیں</string>
+    
+    <string name="searchview_description_voice">وائس کی تلاش</string>
+
+    
+    <string name="enable_explore_by_touch_warning_title">چھو کرتلاش کریں کو فعال بنائیں</string>
+    
+    <string name="enable_explore_by_touch_warning_message" product="tablet"><xliff:g id="accessibility_service_name">%1$s</xliff:g> چھو کرتلاش کریں کو فعال بنانا چاہتا ہے؟ چھو کرتلاش کریں کے چالو ہونے پر، اپنی انگلی کے نیچے موجود ہر چیز کی تفصیل سن یا دیکھ سکتے ہیں یا ٹیبلیٹ کے ساتھ تعامل کرنے کیلئے وضع انجام دے سکتے ہیں۔</string>
+    
+    <string name="enable_explore_by_touch_warning_message" product="default"><xliff:g id="accessibility_service_name">%1$s</xliff:g> چھو کرتلاش کریں کو فعال بنانا چاہتا ہے؟ چھو کرتلاش کریں کے چالو ہونے پر، اپنی انگلی کے نیچے موجود ہر چیز کی تفصیل سن یا دیکھ سکتے ہیں یا فون کے ساتھ تعامل کرنے کیلئے وضع انجام دے سکتے ہیں۔</string>
+
+    
+    <string name="oneMonthDurationPast">1 مہینہ پہلے</string>
+    
+    <string name="beforeOneMonthDurationPast">گذشتہ 1 مہینہ پہلے</string>
+
+    
+    <plurals name="num_seconds_ago">
+        <item quantity="one">1 سیکنڈ پہلے</item>
+        <item quantity="other"><xliff:g id="کاؤنٹ">%d</xliff:g> سیکنڈ پہلے</item>
+    </plurals>
+
+    
+    <plurals name="num_minutes_ago">
+        <item quantity="one">1 منٹ پہلے</item>
+        <item quantity="other"><xliff:g id="کاؤنٹ">%d</xliff:g> منٹ پہلے</item>
+    </plurals>
+
+    
+    <plurals name="num_hours_ago">
+        <item quantity="one">1 گھنٹے پہلے</item>
+        <item quantity="other"><xliff:g id="کاؤنٹ">%d</xliff:g> گھنٹے پہلے</item>
+    </plurals>
+
+    
+    <plurals name="last_num_days">
+        <item quantity="other">Last <xliff:g id="کاؤنٹ">%d</xliff:g> دن</item>
+    </plurals>
+
+    
+    <string name="last_month">گذشتہ مہینے</string>
+
+    
+    <string name="older">پرانے</string>
+
+    
+    <plurals name="num_days_ago">
+        <item quantity="one">گذشتہ روز</item>
+        <item quantity="other"><xliff:g id="کاؤنٹ">%d</xliff:g> دن پہلے</item>
+    </plurals>
+
+    
+    <plurals name="in_num_seconds">
+        <item quantity="one">1 سیکنڈ میں</item>
+        <item quantity="other">میں <xliff:g id="اکاؤنٹ">%d</xliff:g> سیکنڈ</item>
+    </plurals>
+
+    
+    <plurals name="in_num_minutes">
+        <item quantity="one">1 منٹ میں</item>
+        <item quantity="other">میں <xliff:g id="کاؤنٹ">%d</xliff:g> منٹ</item>
+    </plurals>
+
+    
+    <plurals name="in_num_hours">
+        <item quantity="one">1 گھنٹہ میں</item>
+        <item quantity="other">میں <xliff:g id="کاؤنٹ">%d</xliff:g> گھنٹے</item>
+    </plurals>
+
+    
+    <plurals name="in_num_days">
+        <item quantity="one">کل</item>
+        <item quantity="other">میں <xliff:g id="کاؤنٹ">%d</xliff:g> دن</item>
+    </plurals>
+
+    
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="one">1 سیکنڈ پہلے</item>
+        <item quantity="other"><xliff:g id="کاؤنٹ">%d</xliff:g> سیکنڈ  پہلے</item>
+    </plurals>
+
+    
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="one">1 منٹ پہلے</item>
+        <item quantity="other"><xliff:g id="کاؤنٹ">%d</xliff:g> منٹ پہلے</item>
+    </plurals>
+
+    
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="one">1 گھنٹے پہلے</item>
+        <item quantity="other"><xliff:g id="کاؤنٹ">%d</xliff:g> گھنٹے پہلے</item>
+    </plurals>
+
+    
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="one">گذشتہ روز</item>
+        <item quantity="other"><xliff:g id="کاؤنٹ">%d</xliff:g> دن پہلے</item>
+    </plurals>
+
+    
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="one">1 سیکنڈ میں</item>
+        <item quantity="other">میں <xliff:g id="کاؤنٹ">%d</xliff:g> سیکنڈ</item>
+    </plurals>
+
+    
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="one">1 منٹ میں</item>
+        <item quantity="other">میں <xliff:g id="کاؤنٹ">%d</xliff:g> منٹ</item>
+    </plurals>
+
+    
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="one">1 گھنٹہ میں</item>
+        <item quantity="other">میں <xliff:g id="کاؤنٹ">%d</xliff:g> گھنٹے</item>
+    </plurals>
+
+    
+    <plurals name="abbrev_in_num_days">
+        <item quantity="one">کل</item>
+        <item quantity="other">میں <xliff:g id="کاؤنٹ">%d</xliff:g> دن</item>
+    </plurals>
+
+    
+    <string name="preposition_for_date">پر <xliff:g id="تاریخ" مثال="May29">%s</xliff:g></string>
+    
+    <string name="preposition_for_time">پر <xliff:g id="وقت" مثال="2:33am">%s</xliff:g></string>
+    
+    <string name="preposition_for_year">میں <xliff:g id="سال" مثال="2003">%s</xliff:g></string>
+
+    
+    <string name="day">دن</string>
+    
+    <string name="days">دن</string>
+    
+    <string name="hour">گھنٹہ</string>
+    
+    <string name="hours">گھنٹے</string>
+    
+    <string name="minute">منٹ</string>
+    
+    <string name="minutes">منٹس</string>
+    
+    <string name="second">سیکنڈ</string>
+    
+    <string name="seconds">سیکنڈ</string>
+    
+    <string name="week">ہفتہ</string>
+    
+    <string name="weeks">ہفتے</string>
+    
+    <string name="year">سال</string>
+    
+    <string name="years">سال</string>
+
+
+    
+    <string name="VideoView_error_title">ویڈیو کی دشواری</string>
+    
+    <string name="VideoView_error_text_invalid_progressive_playback">یہ ویڈیو اس آلہ پر سلسلہ بند کرنے کیلئے درست نہیں ہے۔</string>
+    
+    <string name="VideoView_error_text_unknown">یہ ویڈیو نہیں چل سکتا ہے۔</string>
+    
+    <string name="VideoView_error_button">ٹھیک ہے</string>
+
+
+
+
+    
+    <string name="relative_time">"<xliff:g id="date" مثال="4گھٹنےago">%1$s</xliff:g>, <xliff:g id="وقت" مثال="11:00am">%2$s</xliff:g>"</string>
+
+
+    
+    <string name="noon">"دوپہر"</string>
+    
+    <string name="Noon">"دوپہر"</string>
+    
+    <string name="midnight">"نصف شب"</string>
+    
+    <string name="Midnight">"نصف شب"</string>
+
+
+
+
+
+
+
+
+
+
+
+    
+    <string name="elapsed_time_short_format_mm_ss"><xliff:g id="منٹ" مثال="1">%1$02d</xliff:g>:<xliff:g id="سیکنڈ" مثال="23">%2$02d</xliff:g></string>
+
+    
+    <string name="elapsed_time_short_format_h_mm_ss"><xliff:g id="گھنٹے" مثال="1">%1$d</xliff:g>:<xliff:g id="منٹ" مثال="43">%2$02d</xliff:g>:<xliff:g id="سیکنڈ" مثال="33">%3$02d</xliff:g></string>
+
+    
+    <string name="selectAll">تمام منتخب کریں</string>
+
+    
+    <string name="cut">کٹ کرنا</string>
+
+    
+    <string name="copy">کاپی کرنا</string>
+
+    
+    <string name="paste">پیسٹ کرنا</string>
+
+    
+    <string name="replace">\u2026 کو تبدیل کریں</string>
+
+    
+    <string name="delete">رابطہ مٹائيں</string>
+
+    
+    <string name="copyUrl">URL کاپی کرنا</string>
+
+    
+    <string name="selectTextMode">ٹیکسٹ منتخب کریں</string>
+
+    
+    <string name="textSelectionCABTitle">متن کا انتخاب</string>
+
+    
+    <string name="addToDictionary">لغت میں شامل کریں</string>
+
+    
+    <string name="deleteText">رابطہ مٹائيں</string>
+
+    
+    <string name="inputMethod">اندراج کا طریقہ</string>
+
+    
+    <string name="editTextMenuTitle">ٹیکسٹ ایڈیٹ کرنا</string>
+
+    
+    <string name="low_internal_storage_view_title">اسٹوریج کی جگہ ختم ہو رہی ہے</string>
+    
+    <string name="low_internal_storage_view_text">سسٹم کے کچھ فنکشنز کام نہیں کرسکتے ہیں</string>
+
+    
+    <string name="ok">ٹھیک ہے</string>
+    
+    <string name="cancel">منسوخ کریں</string>
+    
+    <string name="yes">ٹھیک ہے</string>
+    
+    <string name="no">منسوخ کریں</string>
+    
+    <string name="dialog_alert_title">توجہ</string>
+
+    
+    <string name="loading">لوڈ کررہا ہے/u2026</string>
+
+    
+    <string name="capital_on">آن</string>
+    
+    <string name="capital_off">بند</string>
+
+    
+    <string name="whichApplication">مکمل ایکشن استعمال کرنا</string>
+    
+    <string name="alwaysUse">اس ایکشن کے لئے بنیادی طور پر استعمال کریں۔</string>
+    
+    <string name="clearDefaultHintMsg">سسٹم کی ترتیبات &gt; اطلاقات &gt; ڈاؤن لوڈ کردہ میں ڈیفالٹ کو صاف کریں۔</string>
+    
+    <string name="chooseActivity">ایک اقدام چنیں</string>
+    
+    <string name="chooseUsbActivity">USB آلہ کیلئے ایک اطلاق چنیں</string>
+    
+    <string name="noApplications">کوئی اطلاقات یہ اقدام انجام نہیں دے سکتے ہیں۔</string>
+    
+    <string name="aerr_title"/>
+    
+    <string name="aerr_application">ایپلی کیشن <xliff:g id="ایپلی کیشن">%1$s</xliff:g> (عمل <xliff:g id="عمل">%2$s</xliff:g>) غیر متوقع طور پر بند ہوگیا ہے۔ برائے مہربانی بعد میں دوبارہ کوشش کریں۔</string>
+    
+    <string name="aerr_process">عمل <xliff:g id="عمل">%1$s</xliff:g> غیر متوقع طور پر بند ہوگیا ہے۔ برائے مہربانی دوبارہ کوشش کریں۔</string>
+    
+    <string name="anr_title"/>
+    
+    <string name="anr_activity_application"><xliff:g id="application">%2$s</xliff:g> سے جواب نہیں مل رہا ہے۔\n\nکیا آپ اسے بند کرنا چاہتے ہیں؟</string>
+    
+    <string name="anr_activity_process">سرگرمی <xliff:g id="activity">%1$s</xliff:g> کام نہیں کررہا ہے۔ \n\nکیا آپ اسے بند کرنا چاہتے ہیں؟</string>
+    
+    <string name="anr_application_process"><xliff:g id="application">%1$s</xliff:g> سے جواب نہیں مل رہا ہے۔ کیا آپ اسے بند کرنا چاہتے ہیں؟</string>
+    
+    <string name="anr_process">کارروائی <xliff:g id="process">%1$s</xliff:g> سے جواب نہیں مل رہا ہے۔\n\nکیا آپ اسے بند کرنا چاہتے ہیں؟</string>
+    
+    <string name="force_close">ٹھیک ہے</string>
+    
+    <string name="report">رپورٹ</string>
+    
+    <string name="wait">انتظار کرنا</string>
+    
+    <string name="webpage_unresponsive">یہ صفحہ غیر مؤثر ہوگیا ہے۔\n\nکیا آپ اسے بند کرنا چاہتے ہیں؟</string>
+    
+    <string name="launch_warning_title">اطلاق کا رخ بدلا گیا</string>
+    
+    <string name="launch_warning_replace"><xliff:g id="app_name">%1$s</xliff:g> اب چل رہا ہے۔</string>
+    
+    <string name="launch_warning_original"><xliff:g id="app_name">%1$s</xliff:g> حقیقیت میں لانچ ہوگیا تھا۔</string>
+    
+    <string name="screen_compat_mode_scale">پیمانہ</string>
+    
+    <string name="screen_compat_mode_show">ہمیشہ دکھائيں</string>
+    
+    <string name="screen_compat_mode_hint">سسٹم کی ترتیبات &gt; اطلاقات &gt; ڈاؤن لوڈ کردہ میں اسے دوبارہ فعال بنائیں۔</string>
+
+    
+    <string name="smv_application">اطلاق <xliff:g id="application">%1$s</xliff:g> (process <xliff:g id="process">%2$s</xliff:g>) نے خود کے نافذ کردہ StrictMode پالیسی کی خلاف ورزی کی ہے۔</string>
+    
+    <string name="smv_process">عمل <xliff:g id="عمل">%1$s</xliff:g> نے اپنی ذاتی تعمیل شدہ StrictMode پالیسی کی خلاف ورزی کی ہے۔</string>
+
+    
+    <string name="android_upgrading_title">Android اپ گریڈ ہو رہا ہے\u2026</string>
+
+    
+    <string name="android_upgrading_apk">اطلاق <xliff:g id="number" example="123">%1$d</xliff:g> از <xliff:g id="number" example="123">%2$d</xliff:g> کی کارکردگی بڑھا رہا ہے۔</string>
+
+    
+    <string name="android_upgrading_starting_apps">اطلاقات شروع ہو رہے ہیں۔</string>
+
+    
+    <string name="android_upgrading_complete">بوٹ پورا ہو رہا ہے۔</string>
+
+    
+    <string name="heavy_weight_notification"><xliff:g id="app">%1$s</xliff:g> چل رہا ہے</string>
+
+    
+    <string name="heavy_weight_notification_detail">اطلاق میں سوئچ کرنے کیلئے چھوئیں</string>
+
+    
+    <string name="heavy_weight_switcher_title">اطلاقات سوئچ کریں؟</string>
+
+    
+    <string name="heavy_weight_switcher_text">دوسرا اطلاق پہلے سے ہی چل رہا ہے اور ایک نیا شروع کرنے سے قبل آپ کو اسے بند کرنا لازمی ہے۔</string>
+
+    <string name="old_app_action">واپس جائیں <xliff:g id="old_app">%1$s</xliff:g></string>
+    <string name="old_app_description">نیا اطلاق شروع نہ کریں۔</string>
+
+    <string name="new_app_action">شروع کریں <xliff:g id="old_app">%1$s</xliff:g></string>
+    <string name="new_app_description">پرانا اطلاق بغیر محفوظ کیے ہوئے روکیں۔</string>
+
+    
+    <string name="sendText">متن کیلئے ایک اقدام چنیں</string>
+
+    
+    <string name="volume_ringtone">گھنٹی کا والیوم</string>
+    
+    <string name="volume_music">میڈیا والیوم</string>
+    
+    <string name="volume_music_hint_playing_through_bluetooth">Bluetooth کیذریعہ چلانا</string>
+    
+    <string name="volume_music_hint_silent_ringtone_selected">خاموش رنگ ٹون متعین ہوگیا</string>
+    
+    <string name="volume_call">کال میں والیوم</string>
+    
+    <string name="volume_bluetooth_call">Bluetooth کال کے دوران والیوم</string>
+    
+    <string name="volume_alarm">الارم والیوم</string>
+    
+    <string name="volume_notification">اطلاعی والیوم</string>
+    
+    <string name="volume_unknown">والیوم</string>
+
+    
+    <string name="volume_icon_description_bluetooth">Bluetooth کا حجم</string>
+    
+    <string name="volume_icon_description_ringer">رنگ ٹون کا حجم</string>
+    
+    <string name="volume_icon_description_incall">کال کا حجم</string>
+    
+    <string name="volume_icon_description_media">میڈیا والیوم</string>
+    
+    <string name="volume_icon_description_notification">اطلاعی والیوم</string>
+
+     <skip/>
+    
+    <string name="ringtone_default">بنیادی رنگ ٹون</string>
+    
+    <string name="ringtone_default_with_actual">بنیادی رنگ ٹون (<xliff:g id="actual_ringtone">%1$s</xliff:g>)</string>
+    
+    <string name="ringtone_silent">خاموش</string>
+    
+    <string name="ringtone_picker_title">رنگ ٹونز</string>
+    
+    <string name="ringtone_unknown">نامعلوم رنگ ٹون</string>
+
+    
+    <plurals name="wifi_available">
+        <item quantity="one">Wi-Fi نیٹ ورک دستیاب</item>
+        <item quantity="other">Wi-Fi نیٹ ورک دستیاب</item>
+    </plurals>
+    
+    <plurals name="wifi_available_detailed">
+        <item quantity="one">دستیاب Wi-Fi نیٹ ورک کھولنا</item>
+        <item quantity="other">دستیاب Wi-Fi نیٹ ورک کھولنا</item>
+    </plurals>
+
+    
+    <string name="wifi_available_sign_in">Wi-Fi نیٹ ورک میں سائن ان کریں</string>
+
+    
+    <string name="network_available_sign_in">نیٹ ورک میں سائن ان کریں</string>
+
+    
+    <string name="network_available_sign_in_detailed">قابل انتقال ہاٹ اسپاٹ  <xliff:g id="network_ssid">%1$s</xliff:g> فعال ہے </string>
+
+     
+     <string name="wifi_watchdog_network_disabled">Wi-Fi سے مربوط نہیں ہوسکا</string>
+     
+    <string name="wifi_watchdog_network_disabled_detailed">\u0020میں کمزور انٹرنیٹ کنکشن ہے۔</string>
+
+    
+    <string name="wifi_tether_configure_ssid_default" translatable="false">AndroidAP</string>
+
+    <string name="wifi_p2p_dialog_title">Wi-Fi بالواسطہ</string>
+    <string name="wifi_p2p_turnon_message">Wi-Fi ڈائرکٹ شروع کریں۔ یہ Wi-Fi کلائنٹ/ہاٹ اسپاٹ کو بند کردے گا۔</string>
+    <string name="wifi_p2p_failed_message">Wi-Fi ڈائرکٹ شروع نہیں ہوسکا۔</string>
+    <string name="wifi_p2p_enabled_notification_title">براہ راست وائی فائی آن ہے</string>
+    <string name="wifi_p2p_enabled_notification_message">سیٹنگز کے لیے چھوئیں</string>
+
+    <string name="accept">قبول کریں</string>
+    <string name="decline">منع کریں</string>
+    <string name="wifi_p2p_invitation_sent_title">دعوت نامہ بھیج دیا گیا</string>
+    <string name="wifi_p2p_invitation_to_connect_title">مربوط ہونے کی دعوت</string>
+
+    <string name="wifi_p2p_from_message">منجانب:</string>
+    <string name="wifi_p2p_to_message">بنام:</string>
+    <string name="wifi_p2p_enter_pin_message">مطلوبہ PIN ٹائپ کریں:</string>
+    <string name="wifi_p2p_show_pin_message">PIN:</string>
+
+    <string name="wifi_p2p_frequency_conflict_message">فون عارضی طور پر Wi-Fi سے منقطع ہوجائے گا جبکہ یہ <xliff:g id="device_name">%1$s</xliff:g> سے مربوط رہے گا</string>
+
+    
+    <string name="select_character">حرف درج کریں</string>
+
+     <skip/>
+    
+    <string name="sms_control_title">SMS پیغامات بھیجنا</string>
+    
+    <string name="sms_control_message"><b><xliff:g id="app_name">%1$s</xliff:g></b> بڑی تعداد میں SMS پیغامات بھیج رہا ہے۔ کیا آپ اس اطلاق کو پیغام بھیجتے رہنے دینا چاہتے ہیں؟</string>
+    
+    <string name="sms_control_yes">اجازت دیں</string>
+    
+    <string name="sms_control_no">مسترد</string>
+
+     <skip/>
+    
+    <string name="sms_short_code_confirm_message"><b><xliff:g id="dest_address">%2$s</xliff:g></b> ایک پیغام <b><xliff:g id="app_name">%1$s</xliff:g></b> کو بھیجنا چاہے گا۔</string>
+    
+    <string name="sms_short_code_details">یہ <font fgcolor="#ffffb060">الزامات کا سبب بن سکتا ہے</font> آپ کے موبائل اکاؤنٹ پر۔ </string>
+    
+    <string name="sms_premium_short_code_details"><font fgcolor="#ffffb060">اس کی وجہ سے آپ کے موبائل اکاؤنٹ پر چارج لگے گا۔</font></string>
+    
+    <string name="sms_short_code_confirm_allow">بھیجیں</string>
+    
+    <string name="sms_short_code_confirm_deny">منسوخ کریں</string>
+    
+    <string name="sms_short_code_remember_choice">میری پسند یاد رکھیں</string>
+    
+    <string name="sms_short_code_remember_undo_instruction">آپ اسے بعد میں ترتیبات میں تبدیل کرسکتے ہیں\u00A0&gt;\u00A0Apps"</string>
+
+    
+    <string name="sms_short_code_confirm_always_allow">ہمیشہ اجازت دیں</string>
+    
+    <string name="sms_short_code_confirm_never_allow">کبھی اجازت نہ دیں</string>
+
+     <skip/>
+    
+    <string name="sim_removed_title">SIM کارڈ نکال دیا گیا</string>
+    
+    <string name="sim_removed_message">موبائل نیٹ ورک اس وقت تک دستیاب نہیں رہے گا جب تک آپ ایک درست SIM کارڈ ڈال کر دوبارہ چالو نہ کریں۔</string>
+    
+    <string name="sim_done_button">ہوگیا</string>
+    
+    <string name="sim_added_title">SIM کارڈ شامل کردیا گیا</string>
+    
+    <string name="sim_added_message">موبائل نیٹ ورک تک رسائی کیلئے اپنا آلہ دوبارہ چالو کریں۔</string>
+    
+    <string name="sim_restart_button">دوبارہ شروع کریں</string>
+
+    
+
+    
+    <string name="time_picker_dialog_title">وقت سیٹ کریں</string>
+    
+    <string name="date_picker_dialog_title">تاریخ مرتب کریں</string>
+    
+    <string name="date_time_set">سیٹ کریں</string>
+    
+    <string name="date_time_done">ہوگیا</string>
+
+    
+    
+    <string name="perms_new_perm_prefix"><font size="12" fgcolor="#ff33b5e5">نیا: </font></string>
+    
+    <string name="perms_description_app"><xliff:g id="app_name">%1$s</xliff:g> کے ذریعہ فراہم کردہ۔</string>
+    
+    <string name="no_permissions">اجازتوں کی کوئی ضرورت نہیں</string>
+    
+    <string name="perm_costs_money">اس سے آپ پر رقم کی لاگت آسکتی ہے</string>
+
+    
+    
+    <string name="usb_storage_activity_title">USB اجتماعی ذخیرہ</string>
+
+    
+    <string name="usb_storage_title">USB متصل ہے</string>
+    
+    <string name="usb_storage_message" product="nosdcard">آپ نے اپنا کمپیوٹر USB کی معرفت مربوط کیا ہے۔ اگر آپ اپنے کمپیوٹر اور اپنے Android کے USB اسٹوریج کے بیچ فائلیں کاپی کرنا چاہتے ہیں تو، نیچے کا بٹن چھوئیں۔</string>
+    
+    <string name="usb_storage_message" product="default">آپ نے اپنا کمپیوٹر USB کی معرفت مربوط کیا ہے۔ اگر آپ اپنے کمپیوٹر اور اپنے Android کے SD کارڈ کے بیچ فائلیں کاپی کرنا چاہتے ہیں تو، نیچے کا بٹن چھوئیں۔</string>
+    
+    <string name="usb_storage_button_mount">USB اسٹوریج چالو کریں</string>
+    
+    <string name="usb_storage_error_message" product="nosdcard">USB ماس اسٹوریج کیلئے آپ کا USB اسٹوریج استعمال کرنے میں ایک دشواری ہے۔</string>
+    
+    <string name="usb_storage_error_message" product="default">USB ماس اسٹوریج کیلئے آپ کا SD کارڈ استعمال کرنے میں ایک دشواری ہے۔</string>
+    
+    <string name="usb_storage_notification_title">USB متصل ہے</string>
+    
+    <string name="usb_storage_notification_message">اپنے کمپیوٹر میں/سے فائلیں کاپی کرنے کیلئے چھوئیں۔</string>
+
+    
+    <string name="usb_storage_stop_notification_title">USB اسٹوریج بند کریں</string>
+    
+    <string name="usb_storage_stop_notification_message">USB اسٹوریج بند کرنے کیلئے چھوئیں۔</string>
+
+    
+    
+    
+    <string name="usb_storage_stop_title">USB ذخیرہ زیر استعمال</string>
+    
+    <string name="usb_storage_stop_message" product="nosdcard">USB اسٹوریج بند کرنے سے قبل، اپنے کمپیوٹر سے اپنے Android کا USB اسٹوریج ہٹائیں (\"eject\")۔</string>
+    
+    <string name="usb_storage_stop_message" product="default">USB اسٹوریج بند کرنے سے قبل، اپنے کمپیوٹر سے اپنے Android کا SD کارڈ ہٹائیں (\"eject\")۔</string>
+    
+    <string name="usb_storage_stop_button_mount">USB اسٹوریج بند کریں</string>
+    
+    <string name="usb_storage_stop_error_message">USB اسٹوریج بند کرنے میں ایک دشواری تھی۔ جانچ کرلیں کہ آپ نے USB میزبان ہٹا دیا ہے، پھر دوبارہ کوشش کریں۔</string>
+
+    
+    <string name="dlg_confirm_kill_storage_users_title">USB اسٹوریج چالو کریں</string>
+    
+    <string name="dlg_confirm_kill_storage_users_text">اگر آپ USB اسٹوریج چالو کریں تو، آپ کے زیر استعمال کچھ اطلاقات رک سکتے ہیں اور جب تک آپ USB اسٹوریج بند نہ کریں تب تک دستیاب نہیں ہوسکتے ہیں۔</string>
+    
+    <string name="dlg_error_title">USB آپریشن ناکام</string>
+    
+    <string name="dlg_ok">ٹھیک ہے</string>
+
+    
+    <string name="usb_mtp_notification_title">بطور میڈیا آلہ مربوط ہے</string>
+    
+    <string name="usb_ptp_notification_title">بطور کیمرہ متصل</string>
+    
+    <string name="usb_cd_installer_notification_title">ایک تنصیب کار کے بطور مربوط ہوا</string>
+    
+    <string name="usb_accessory_notification_title">ایک USB لازمہ سے مربوط ہوا</string>
+    
+    <string name="usb_notification_message">USB کے دیگر اختیارات کیلئے چھوئیں۔</string>
+
+    
+    
+    
+    <string name="extmedia_format_title" product="nosdcard">USB اسٹوریج فارمیٹ کریں؟</string>
+    
+    <string name="extmedia_format_title" product="default">SD کارڈ فارمیٹ کریں؟</string>
+    
+    <string name="extmedia_format_message" product="nosdcard">آپ کے USB اسٹوریج میں اسٹوریج کردہ سبھی فائلیں مٹا دی جائیں گی۔ اس اقدام کی بازیابی نہیں ہوسکتی ہے!</string>
+    
+    <string name="extmedia_format_message" product="default">آپ کے کارڈ کا سبھی ڈیٹا ضائع ہوجائے گا۔</string>
+    
+    <string name="extmedia_format_button_format">فارمیٹ</string>
+
+    
+    <string name="adb_active_notification_title">USB ڈی بگنگ مربوط ہوگیا</string>
+    
+    <string name="adb_active_notification_message">USB ڈی بگنگ غیر فعال کرنے کیلئے چھوئیں۔</string>
+
+    
+    
+    
+    
+    
+    <string name="locale_replacement">""</string>
+
+    
+    <string name="select_input_method">اندراج کا طریقہ چنیں</string>
+    
+    <string name="configure_input_methods">اندراج کے طریقے تشکیل دیں</string>
+    
+    <string name="use_physical_keyboard">حقیقی کی بورڈ</string>
+    
+    <string name="hardware">ہارڈ ویئر</string>
+
+    
+    <string name="select_keyboard_layout_notification_title">کی بورڈ کا خاکہ منتخب کریں</string>
+    
+    <string name="select_keyboard_layout_notification_message">کی بورڈ کا خاکہ منتخب کرنے کیلئے چھوئیں۔</string>
+
+    <string name="fast_scroll_alphabet">\u0020ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="fast_scroll_numeric_alphabet">\u00200123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+
+    <string name="candidates_style"><u>امیدوار</u></string>
+
+    
+    
+    <string name="ext_media_checking_notification_title" product="nosdcard">USB ذخیرہ تیار کررہا ہے</string>
+    
+    <string name="ext_media_checking_notification_title" product="default">SD کارڈ تیار کررہا ہے</string>
+    <string name="ext_media_checking_notification_message">غلطیاں تلاش کررہا ہے۔</string>
+
+    
+    <string name="ext_media_nofs_notification_title" product="nosdcard">سادہ USB ذخیرہ</string>
+    
+    <string name="ext_media_nofs_notification_title" product="default">سادہ SD کارڈ</string>
+    
+    <string name="ext_media_nofs_notification_message" product="nosdcard">USB اسٹوریج خالی ہے یا اس میں غیر تعاون یافتہ فائل سسٹم ہے۔</string>
+    <string name="ext_media_nofs_notification_message" product="default">SD کارڈ خالی ہے یا اس میں غیر تعاون یافتہ فائل سسٹم ہے۔</string>
+
+    
+    <string name="ext_media_unmountable_notification_title" product="nosdcard">ضررشدہ USB ذخیرہ</string>
+    
+    <string name="ext_media_unmountable_notification_title" product="default">ضررشدہ SD کارڈ</string>
+    
+    <string name="ext_media_unmountable_notification_message" product="nosdcard">USB اسٹوریج خراب ہوگیا ہے۔ اسے دوبارہ فارمیٹ کرنے کی کوشش کریں۔</string>
+    <string name="ext_media_unmountable_notification_message" product="default">SD کارڈ خراب ہے۔ اسے دوبارہ فارمیٹ کرنے کی کوشش کریں۔</string>
+
+    
+    <string name="ext_media_badremoval_notification_title" product="nosdcard">USB اسٹوریج غیر متوقع طور پر نکل گیا</string>
+    
+    <string name="ext_media_badremoval_notification_title" product="default">SD کارڈ غیرمتوقع طور پر ہٹایا گیا</string>
+    
+    <string name="ext_media_badremoval_notification_message" product="nosdcard">USB اسٹوریج کو نکالنے سے پہلے اسے ہٹائیں تاکہ ڈیٹا ضائع نہ ہو۔</string>
+    <string name="ext_media_badremoval_notification_message" product="default">ڈیٹا ضائع ہونے سے بچنے کے لئے SD کارڈ نکال لیں</string>
+
+    
+    <string name="ext_media_safe_unmount_notification_title" product="nosdcard">USB نکالنا محفوظ ہے</string>
+    
+    <string name="ext_media_safe_unmount_notification_title" product="default">SD کارڈ کا خارج کرنا محفوظ ہے</string>
+    
+    <string name="ext_media_safe_unmount_notification_message" product="nosdcard">آپ USB اسٹوریج بحفاظت نکال سکتے ہیں۔</string>
+    <string name="ext_media_safe_unmount_notification_message" product="default">آپ حفاظت کے ساتھ SD کارڈ خارج کرسکتے ہیں۔</string>
+
+    
+    <string name="ext_media_nomedia_notification_title" product="nosdcard">نکالا ہوا USB اسٹوریج</string>
+    
+    <string name="ext_media_nomedia_notification_title" product="default">خارج شدہ SD کارڈ</string>
+    
+    <string name="ext_media_nomedia_notification_message" product="nosdcard">USB اسٹوریج نکال دیا گیا۔ Insert new media.</string>
+    <string name="ext_media_nomedia_notification_message" product="default">SD کارڈ خارج ہوچکا ہے۔ نیا والا داخل کریں۔</string>
+
+    
+    <string name="activity_list_empty">کوئی مماثل سرگرمیاں نہیں ملیں۔</string>
+
+    
+    
+    <string name="permlab_pkgUsageStats">جزو استعمال شماریات کی تجدید کرنا</string>
+    
+    <string name="permdesc_pkgUsageStats">اطلاق کو جمع کردہ پرزے کے استعمال کے اعداد و شمار میں ترمیم کرنے دیتا ہے۔ معمول کے اطلاقات کے ذریعہ استعمال کیلئے نہیں ہے۔</string>
+
+    
+    
+    <string name="permlab_copyProtectedData">مواد کاپی کریں</string>
+    
+    <string name="permdesc_copyProtectedData">اطلاق کو مواد کاپی کرنے کیلئے ڈیفالٹ کنٹینر سروس کالعدم کرنے دیتا ہے۔ معمول کے اطلاقات کے ذریعہ استعمال کیلئے نہیں ہے۔</string>
+
+    
+    <string name="permlab_route_media_output">میڈیا آؤٹ پٹ کا روٹ طے کریں</string>
+    
+    <string name="permdesc_route_media_output">اطلاق کو میڈیا آؤٹ پٹ کا روٹ دوسرے خارجی آلات کی طرف طے کرنے دیتا ہے۔</string>
+
+    
+    <string name="tutorial_double_tap_to_zoom_message_short">زوم کنٹرول کیلئے دو بار چھوئیں</string>
+
+
+    
+    <string name="gadget_host_error_inflating">ویجٹ شامل نہیں کرسکا۔</string>
+
+    
+    <string name="ime_action_go">جانا</string>
+
+    
+    <string name="ime_action_search">تلاش کریں</string>
+
+    
+    <string name="ime_action_send">بھیجیں</string>
+
+    
+    <string name="ime_action_next">اگلا</string>
+
+    
+    <string name="ime_action_done">ہوگیا</string>
+
+    
+    <string name="ime_action_previous">پچھلا</string>
+
+    
+    <string name="ime_action_default">نفاذ کرنا</string>
+
+    
+    <skip/>
+
+
+    
+    <string name="dial_number_using">ڈائل نمبر\nusing <xliff:g id="نمبر" مثال="555">%s</xliff:g></string>
+
+    
+    <string name="create_contact_using">رابطہ تخلیق کریں\nusing <xliff:g id="نمبر" مثال="555">%s</xliff:g></string>
+
+    
+    
+    
+    <string-array translatable="false" name="carrier_properties">
+    </string-array>
+
+    <string name="grant_credentials_permission_message_header">درج ذیل ایک یا مزید اطلاقات ابھی اور مستقبل میں، آپ کے اکاؤنٹ تک رسائی کی اجازت طلب کرتے ہیں۔</string>
+    <string name="grant_credentials_permission_message_footer">کیا آپ اس درخواست کی اجازت دینا چاہتے ہیں؟</string>
+    <string name="grant_permissions_header_text">رسائی کی درخواست</string>
+    <string name="allow">اجازت دیں</string>
+    <string name="deny">مسترد</string>
+    <string name="permission_request_notification_title">اجازت درخواست شدہ</string>
+    <string name="permission_request_notification_with_subtitle">اکاؤنٹ <xliff:g id="account" example="foo@gmail.com">%s</xliff:g> کیلئے اجازت طلب کی گئی۔</string>
+
+    
+    <string name="input_method_binding_label">اندراج کا طریقہ</string>
+    
+    <string name="sync_binding_label">سنک ترتیبات</string>
+    
+    <string name="accessibility_binding_label">رسائی کی قابلیت</string>
+    
+    <string name="wallpaper_binding_label">وال پیپر</string>
+    
+    <string name="chooser_wallpaper">وال پیپر تبدیل کرنا</string>
+
+    
+    <string name="alternate_eri_file">/data/eri.xml</string>
+
+    
+    <string name="vpn_title">VPN چالو ہوگیا</string>
+    
+    <string name="vpn_title_long">VPN <xliff:g id="app" example="FooVPNclient">%s</xliff:g> کے ذریعہ چالو کیا گیا ہے</string>
+    
+    <string name="vpn_text">نیٹ ورک کا نظم کرنے کیلئے چھوئیں۔</string>
+    
+    <string name="vpn_text_long"><xliff:g id="session" example="office">%s</xliff:g> سے مربوط ہوگیا۔ نیٹ ورک کا نظم کرنے کیلئے چھوئیں۔</string>
+
+    
+    <string name="vpn_lockdown_connecting">ہمیشہ چالو VPN مربوط ہو رہا ہے\u2026</string>
+    
+    <string name="vpn_lockdown_connected">ہمیشہ چالو VPN مربوط ہوگیا</string>
+    
+    <string name="vpn_lockdown_error">ہمیشہ چالو VPN کی خامی</string>
+    
+    <string name="vpn_lockdown_reset">کنکشن دوبارہ ترتیب دینے کیلئے چھوئیں</string>
+
+    
+    
+    <string name="upload_file">فائل منتخب کرنا</string>
+    
+    <string name="no_file_chosen">کوئی فائل نہیں چنی گئی ہے</string>
+    
+    <string name="reset">دوبارہ سیٹ</string>
+    
+    <string name="submit">جمع کرنا</string>
+
+    
+    
+    <string name="car_mode_disable_notification_title">کار وضع فعال</string>
+    <string name="car_mode_disable_notification_message">کار وضع سے باہر آنے کیلئے چھوئیں۔</string>
+
+    
+    
+    <string name="tethered_notification_title">محدود یا ہاٹ سپاٹ فعال </string>
+    <string name="tethered_notification_message">سیٹ اپ کرنے کے لئے چھوئيں۔</string>
+
+    
+    <string name="back_button_label">پچھلا</string>
+    <string name="next_button_label">آگے چلیں</string>
+
+    
+    <string name="skip_button_label">چھوڑيں</string>
+
+    
+    
+    <string name="throttle_warning_notification_title">اعلی موبائل ڈیٹا استعمال</string>
+    <string name="throttle_warning_notification_message">موبائل ڈیٹا کے استعمال کے بارے میں جاننے کیلئے جھوئیں۔</string>
+
+    
+    
+    <string name="throttled_notification_title">موبائل ڈیٹا اپنی حد سے آگے نکل چکا ہے</string>
+    <string name="throttled_notification_message">موبائل ڈیٹا کے استعمال کے بارے میں جاننے کیلئے جھوئیں۔</string>
+
+    
+    <string name="no_matches">کوئی مماثلتیں نہیں ہیں</string>
+
+    
+    <string name="find_on_page">صفحے پر تلاش کریں</string>
+
+    
+    <plurals name="matches_found">
+        
+        <item quantity="one">1 مطابقت</item>
+        
+        <item quantity="other"><xliff:g id="index" example="2">%d</xliff:g> از <xliff:g id="total" example="137">%d</xliff:g></item>
+    </plurals>
+
+    
+    <string name="action_mode_done">ہوگیا</string>
+
+    
+    
+    <string name="progress_unmounting" product="nosdcard">USB اسٹوریج ہٹا رہا ہے\u2026</string>
+    
+    <string name="progress_unmounting" product="default">SD کارڈ اتار رہا ہے\u2026</string>
+    
+    <string name="progress_erasing" product="nosdcard">USB اسٹوریج ہٹا رہا ہے\u2026</string>
+    
+    <string name="progress_erasing" product="default">SD کارڈ ہٹا رہا ہے\u2026</string>
+    
+    <string name="format_error" product="nosdcard">USB ذخیرہ حذف کرنے میں ناکام۔</string>
+    
+    <string name="format_error" product="default">SD کارڈ حذف کرنے میں ناکام۔</string>
+    
+    <string name="media_bad_removal">قطع اتصال سے پہلے SD کارڈ خارج ہوگیا تھا۔</string>
+    
+    <string name="media_checking" product="nosdcard">USB ذخیرہ کی ابھی جانچ ہورہی ہے۔</string>
+    
+    <string name="media_checking" product="default">SD کارڈ کی ابھی جانچ ہوری ہے۔</string>
+    
+    <string name="media_removed">SD کارڈ خارج کیا جاچکا ہے۔</string>
+    
+    <string name="media_shared" product="nosdcard">USB ذخیرہ ابھی کمپیوٹر میں استعمال ہورہا ہے۔</string>
+    
+    <string name="media_shared" product="default">SD کارڈ ابھی کمپیوٹر میں استعمال ہورہا ہے۔</string>
+    
+    <string name="media_unknown_state">خارجی میڈیا نامعلوم اسٹیٹ میں ہے۔</string>
+
+    
+    
+    <string name="share">تقسیم کریں</string>
+    
+    <string name="find">تلاش کریں</string>
+    
+    <string name="websearch">ویب تلاش</string>
+    
+    <string name="find_next">اگلا تلاش کریں</string>
+    
+    <string name="find_previous">پچھلا تلاش کریں</string>
+
+    
+    <string name="gpsNotifTicker"><xliff:g id="name">%s</xliff:g> سے مقام کی درخواست</string>
+    
+    <string name="gpsNotifTitle">مقام کی درخواست</string>
+    
+    <string name="gpsNotifMessage"><xliff:g id="name">%1$s</xliff:g> (<xliff:g id="service" example="SUPL-service">%2$s</xliff:g>) کے ذریعہ درخواست کردہ</string>
+    
+    <string name="gpsVerifYes">"ہاں"</string>
+    
+    <string name="gpsVerifNo">نہيں</string>
+
+    
+    <string name="sync_too_many_deletes">تنسیخ کی حد سے تجاوز کرگیا</string>
+    
+    <string name="sync_too_many_deletes_desc">اس میں <xliff:g id="number_of_deleted_items">%1$d</xliff:g> حذف کردہ آئٹمز برائے <xliff:g id="type_of_sync">%2$s</xliff:g>، اکاؤنٹ <xliff:g id="account_name">%3$s</xliff:g> ہیں۔ آپ کیا کرنا چاہتے ہیں؟</string>
+    
+    <string name="sync_really_delete">آئٹمز حذف کریں</string>
+    
+    <string name="sync_undo_deletes">تنسخیں واپس لائیں</string>
+    
+    <string name="sync_do_nothing">ابھی کچھ نہ کریں</string>
+
+    
+    <string name="choose_account_label">ایک اکاؤنٹ چنیں</string>
+
+    <string name="add_account_label">"ایک اکا‎‎ؤنٹ شامل کریں"</string>
+
+    
+    <string name="add_account_button_label">اکاؤنٹ شامل کریں</string>
+
+    
+    
+    <string name="number_picker_increment_button">اضافہ</string>
+    
+    <string name="number_picker_decrement_button">گراوٹ</string>
+    
+    <string name="number_picker_increment_scroll_mode"><xliff:g id="value" example="3">%s</xliff:g> چھوئیں اور پکڑے رہیں۔</string>
+    
+    <string name="number_picker_increment_scroll_action">بڑھانے کیلئے اوپر سلائڈ کریں اور گھٹانے کیلئے نیچے سلائڈ کریں۔</string>
+
+    
+    
+    <string name="time_picker_increment_minute_button">منٹ بڑھائیں</string>
+    
+    <string name="time_picker_decrement_minute_button">منٹ گھٹائیں</string>
+    
+    <string name="time_picker_increment_hour_button">گھنٹہ بڑھائیں</string>
+    
+    <string name="time_picker_decrement_hour_button">گھنٹہ گھٹائیں</string>
+    
+    <string name="time_picker_increment_set_pm_button">رات طے کریں</string>
+    
+    <string name="time_picker_decrement_set_am_button">دن طے کریں</string>
+
+    
+    
+    <string name="date_picker_increment_month_button">مہینہ بڑھائیں</string>
+    
+    <string name="date_picker_decrement_month_button">مہینہ گھٹائیں</string>
+    
+    <string name="date_picker_increment_day_button">دن بڑھائیں</string>
+    
+    <string name="date_picker_decrement_day_button">دن گھٹائیں</string>
+    
+    <string name="date_picker_increment_year_button">سال بڑھائیں</string>
+    
+    <string name="date_picker_decrement_year_button">سال گھٹائیں</string>
+
+    
+    
+    <string name="keyboardview_keycode_alt">ALT</string>
+    
+    <string name="keyboardview_keycode_cancel">منسوخ کریں</string>
+    
+    <string name="keyboardview_keycode_delete">مٹائيں</string>
+    
+    <string name="keyboardview_keycode_done">ہوگیا</string>
+    
+    <string name="keyboardview_keycode_mode_change">وضع کی تبدیلی</string>
+    
+    <string name="keyboardview_keycode_shift">"شفٹ"</string>
+    
+    <string name="keyboardview_keycode_enter">درج کریں</string>
+
+    
+    
+    <string name="activitychooserview_choose_application">ایک اطلاق چنیں</string>
+
+    
+    
+    <string name="shareactionprovider_share_with">کے ساتھ اشتراک کریں</string>
+    
+    <string name="shareactionprovider_share_with_application"><xliff:g id="application_name" example="Bluetooth">%s</xliff:g> کے ساتھ اشتراک کیا گیا</string>
+
+    
+
+    
+    <string name="content_description_sliding_handle">"سلائڈنگ دستہ۔ چھوئیں اور پکڑے رہیں۔"</string>
+
+    
+    <string name="description_direction_up"><xliff:g id="target_description" example="Unlock">%s</xliff:g> کیلئے اوپر سلائڈ کریں۔</string>
+    
+    <string name="description_direction_down"><xliff:g id="target_description" example="Unlock">%s</xliff:g> کیلئے نیچے سلائڈ کریں۔</string>
+    
+    <string name="description_direction_left">"<xliff:g id="target_description" example="Unlock">%s</xliff:g> کیلئے بائیں سلائڈ کریں۔</string>
+    
+    <string name="description_direction_right"><xliff:g id="target_description" example="Unlock">%s</xliff:g> کیلئے دائیں سلائڈ کریں۔</string>
+
+    
+    <string name="description_target_unlock">غیرمقفل کریں</string>
+    
+    <string name="description_target_camera">کیمرہ</string>
+    
+    <string name="description_target_silent">خاموش</string>
+    
+    <string name="description_target_soundon">آواز چالو کریں</string>
+    
+    <string name="description_target_search">تلاش کریں</string>
+
+    
+    <string name="description_target_unlock_tablet">غیر مقفل کرنے کیلئے گھسیں</string>
+
+    
+    <string name="keyboard_headset_required_to_hear_password">پاس ورڈ کی بولی ہوئی کلیدیں سننے کیلئے ہیڈ سیٹ کا پلگ لگائیں۔</string>
+    
+    <string name="keyboard_password_character_no_headset">نقطہ۔</string>
+
+    
+    <string name="action_bar_home_description">ہوم نیویگیٹ کریں</string>
+    
+    <string name="action_bar_up_description">اوپر نیویگیٹ کریں</string>
+    
+    <string name="action_menu_overflow_description">مزید اختیارات</string>
+
+    
+    <string name="storage_internal">اندرونی ذخیرہ</string>
+
+    
+    <string name="storage_sd_card">SD کارڈ</string>
+
+    
+    <string name="storage_usb">USB اسٹوریج</string>
+
+    
+    <string name="extract_edit_menu_button">رابطہ ترمیم کریں</string>
+
+    
+    <string name="data_usage_warning_title">ڈیٹا کے استعمال سے متعلق انتباہ</string>
+    
+    <string name="data_usage_warning_body">استعمال اور ترتیبات دیکھنے کیلئے چھوئیں۔</string>
+
+    
+    <string name="data_usage_3g_limit_title">2G-3G ڈیٹا نااہل ہے</string>
+    
+    <string name="data_usage_4g_limit_title">4G ڈیٹا نا اہل ہے</string>
+    
+    <string name="data_usage_mobile_limit_title">موبائل ڈیٹا نااہل ہے</string>
+    
+    <string name="data_usage_wifi_limit_title">وائی فائی ڈیٹا نااہل ہے</string>
+    
+    <string name="data_usage_limit_body">فعال بنانے کیلئے چھوئیں۔</string>
+
+    
+    <string name="data_usage_3g_limit_snoozed_title">2G-3G ڈیٹا کا استعمال مقررہ حد سے بڑھ چکا ہے</string>
+    
+    <string name="data_usage_4g_limit_snoozed_title">4G ڈیٹا کا استعمال مقررہ حد سے بڑھ چکا ہے</string>
+    
+    <string name="data_usage_mobile_limit_snoozed_title">موبائل ڈیٹا کا استعمال مقررہ حد سے بڑھ چکا ہے</string>
+    
+    <string name="data_usage_wifi_limit_snoozed_title">وائی فائی ڈیٹا کا استعمال مقررہ حد سے بڑھ چکا ہے</string>
+    
+    <string name="data_usage_limit_snoozed_body"><xliff:g id="size" example="3.8GB">%s</xliff:g> متعینہ حد سے زائد۔</string>
+
+    
+    <string name="data_usage_restricted_title">بیک گراؤنڈ ڈیٹا ممنوع ہے</string>
+    
+    <string name="data_usage_restricted_body">پابندی ہٹانے کیلئے چھوئیں۔</string>
+
+    
+    
+    <string name="ssl_certificate">حفاظتی سند</string>
+    
+    <string name="ssl_certificate_is_valid">یہ سند درست ہے۔</string>
+    
+    <string name="issued_to">جاری شدہ بنام:</string>
+    
+    <string name="common_name">عمومی نام:</string>
+    
+    <string name="org_name">تنظیم:</string>
+    
+    <string name="org_unit">تنظیمی اکائی:</string>
+    
+    <string name="issued_by">بطرف:</string>
+    
+    <string name="validity_period">جواز:</string>
+    
+    <string name="issued_on">جاری شدہ بہ:</string>
+    
+    <string name="expires_on">اختتام تاریخ بہ:</string>
+    
+    <string name="serial_number">نمبر شمار:</string>
+    
+    <string name="fingerprints">انگلی کے نشانات:</string>
+    
+    <string name="sha256_fingerprint">SHA-256 انگلی کا نشان:</string>
+    
+    <string name="sha1_fingerprint">SHA-1 انگلی کا نشان:</string>
+
+    
+    <string name="activity_chooser_view_see_all">تمام دیکھیں</string>
+    
+    <string name="activity_chooser_view_dialog_title_default">سرگرمی منتخب کریں</string>
+
+    
+    <string name="share_action_provider_share_with">کے ساتھ اشتراک کریں</string>
+
+    
+
+    
+    <string name="status_bar_device_locked">آلہ مقفل ہوگیا۔</string>
+
+    
+    <string name="list_delimeter">", "</string>
+
+    
+    <string name="sending">فائل \u2026بھیجی جارہی ہے</string>
+
+    
+    <string name="launchBrowserDefault">براؤزر لانچ کریں؟</string>
+
+    
+    <string name="SetupCallDefault">کال قبول کریں؟</string>
+
+    
+    <string name="activity_resolver_use_always">ہمیشہ</string>
+
+    
+    <string name="activity_resolver_use_once">صرف ایک بار</string>
+
+    
+    <string name="default_audio_route_name" product="tablet">ٹیبلیٹ</string>
+
+    
+    <string name="default_audio_route_name" product="default">فون</string>
+
+    
+    <string name="default_audio_route_name_headphones">ہیڈ فونز</string>
+
+    
+    <string name="default_audio_route_name_dock_speakers">ڈاک اسپیکرز</string>
+
+    
+    <string name="default_media_route_name_hdmi">HDMI</string>
+
+    
+    <string name="default_audio_route_category_name">فیڈ بیک</string>
+
+    
+    <string name="bluetooth_a2dp_audio_route_name">Bluetooth آڈیو</string>
+
+    
+    <string name="media_route_chooser_grouping_done">ہوگیا</string>
+
+    
+    <string name="media_route_button_content_description">میڈیا آؤٹ پٹ</string>
+
+    
+    <string name="media_route_status_scanning">اسکین کررہا ہے...</string>
+
+    
+    <string name="media_route_status_connecting">متصل ہورہا ہے۔۔۔</string>
+
+    
+    <string name="media_route_status_available">دستیاب</string>
+
+    
+    <string name="media_route_status_not_available">دستیاب نہيں</string>
+
+    
+
+    
+    <string name="display_manager_built_in_display_name">بنی بنائی اسکرین</string>
+
+    
+    <string name="display_manager_hdmi_display_name">HDMI اسکرین</string>
+
+    
+    <string name="display_manager_overlay_display_name">#<xliff:g id="id">%1$d</xliff:g> اوپر چڑھائیں</string>
+
+    
+    <string name="display_manager_overlay_display_title"><xliff:g id="name">%1$s</xliff:g>: <xliff:g id="width">%2$d</xliff:g>x<xliff:g id="height">%3$d</xliff:g>, <xliff:g id="dpi">%4$d</xliff:g> dpi</string>
+
+    
+    <string name="wifi_display_notification_title">وائرلیس ڈسپلے مربوط ہے</string>
+    
+    <string name="wifi_display_notification_message">یہ اسکرین ایک دوسرا آلہ دکھا رہی ہے</string>
+    
+    <string name="wifi_display_notification_disconnect">منقطع کریں</string>
+
+    
+    
+    <string name="kg_emergency_call_label">ہنگامی کال</string>
+    
+    <string name="kg_forgot_pattern_button_text">طرز بھول گئے</string>
+    
+    <string name="kg_wrong_pattern">غلط طرز</string>
+    
+    <string name="kg_wrong_password">غلط پاس ورڈ</string>
+    
+    <string name="kg_wrong_pin">غلط پن</string>
+    
+    <string name="kg_too_many_failed_attempts_countdown">  <xliff:g id="number">%d</xliff:g> سیکنڈ کے بعد دوبارہ کوشش کریں۔ </string>
+    
+    <string name="kg_pattern_instructions">اپنا طرز بنائیں</string>
+    
+    <string name="kg_sim_pin_instructions">SIM کا پن درج کریں</string>
+    
+    <string name="kg_pin_instructions">پن درج کریں</string>
+    
+    <string name="kg_password_instructions">پاس ورڈ درج کریں</string>
+    
+    <string name="kg_puk_enter_puk_hint">SIM اب غیر فعال ہوگیا ہے۔ جاری رکھنے کیلئے PUK کوڈ درج کریں۔ تفصیلات کیلئے کریئر سے رابطہ کریں۔</string>
+    
+    <string name="kg_puk_enter_pin_hint">مطلوبہ پن کوڈ درج کریں</string>
+    
+    <string name="kg_enter_confirm_pin_hint">مطلوبہ پن کوڈ کی تصدیق کریں</string>
+    
+    <string name="kg_sim_unlock_progress_dialog_message">SIM کارڈ \u2026 غیر مقفل کررہا ہے</string>
+    
+    <string name="kg_password_wrong_pin_code">غلط PIN کوڈ۔</string>
+    
+    <string name="kg_invalid_sim_pin_hint">ایسی PIN ٹائپ کریں جو 4 سے 8 نمبر پر مشتمل ہو۔</string>
+    
+    <string name="kg_invalid_sim_puk_hint">PUK کوڈ 8 عدد یا زیادہ کا ہونا چاہیے۔</string>
+    
+    <string name="kg_invalid_puk">صحیح PUK کوڈ دوبارہ درج کریں۔ بار بار کی کوششیں SIM کو مستقل طورپر غیر فعال کردیں گی۔</string>
+      
+    <string name="kg_invalid_confirm_pin_hint" product="default">پن کوڈ مماثل نہیں ہے</string>
+    
+    <string name="kg_login_too_many_attempts">کافی سارے طرز کی آزمائشیں</string>
+    
+    <string name="kg_login_instructions">غیر مقفل کرنے کیلئے، اپنے Google اکاؤنٹ کے ساتھ سائن ان کریں۔</string>
+    
+    <string name="kg_login_username_hint">صارف کا نام (ای میل)</string>
+    
+    <string name="kg_login_password_hint">پاس ورڈ</string>
+    
+    <string name="kg_login_submit_button">سائن ان</string>
+    
+    <string name="kg_login_invalid_input">غلط صارف نام یا پاس ورڈ۔</string>
+    
+    <string name="kg_login_account_recovery_hint">اپنا صارف نام یا پاس ورڈ بھول گئے؟\n <b>google.com/accounts/recovery</b> دیکھیں۔</string>
+    
+    <string name="kg_login_checking_password">اکاؤنٹ کی جانچ ہو رہی ہے\u2026</string>
+    
+    <string name="kg_too_many_failed_pin_attempts_dialog_message">آپ نے اپنا PIN <xliff:g id="number">%d</xliff:g> بار غلط طریقے سے ٹائپ کیا ہے۔ \n\nدوبارہ <xliff:g id="number">%d</xliff:g> سیکنڈ میں کوشش کریں۔</string>
+    
+    <string name="kg_too_many_failed_password_attempts_dialog_message">آپ نے اپنا پاس ورڈ <xliff:g id="number">%d</xliff:g> بار غلط طریقے سے ٹائپ کیا ہے۔ \n\nدوبارہ <xliff:g id="number">%d</xliff:g> سیکنڈ میں کوشش کریں۔</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message">آپ نے غیر مقفل کرنے کا اپنا طرز <xliff:g id="number">%d</xliff:g> بار غلط طریقے سے کوشش کی ہے۔ \n\nدوبارہ <xliff:g id="number">%d</xliff:g> سیکنڈ میں کوشش کریں۔</string>
+    
+    <string name="kg_failed_attempts_almost_at_wipe" product="tablet">آپ نے ٹیبلیٹ غیر مقفل کرنے کیلئے<xliff:g id="number">%d</xliff:g> بار غلط طریقے سے کوشش کی ہے۔ <xliff:g id="number">%d</xliff:g> مزید ناکام کوششوں کے بعد، ٹیبلیٹ فیکٹری ڈیفالٹ پر دوبارہ متعین ہوجائے گا اور صارف کا سبھی ڈیٹا ضائع ہوجائے گا۔</string>
+    
+    <string name="kg_failed_attempts_almost_at_wipe" product="default">آپ نے فون غیر مقفل کرنے کیلئے<xliff:g id="number">%d</xliff:g> بار غلط طریقے سے کوشش کی ہے۔ <xliff:g id="number">%d</xliff:g> مزید ناکام کوششوں کے بعد، فون فیکٹری ڈیفالٹ پر دوبارہ متعین ہوجائے گا اور صارف کا سبھی ڈیٹا ضائع ہوجائے گا۔</string>
+    
+    <string name="kg_failed_attempts_now_wiping" product="tablet">آپ نے ٹیبلیٹ غیر مقفل کرنے کیلئے<xliff:g id="number">%d</xliff:g> بار غلط طریقے سے کوشش کی ہے۔ ٹیبلٹ اب فیکٹری ڈیفالٹ پر دوبارہ متعین ہوجائے گا۔</string>
+    
+    <string name="kg_failed_attempts_now_wiping" product="default">آپ نے فون غیر مقفل کرنے کیلئے<xliff:g id="number">%d</xliff:g> بار غلط طریقے سے کوشش کی ہے۔ فون اب فیکٹری ڈیفالٹ پر دوبارہ متعین ہوجائے گا۔</string>
+    
+    <string name="kg_failed_attempts_almost_at_login" product="tablet">آپ نے غیر مقفل کرنے کا اپنا طرز <xliff:g id="number">%d</xliff:g> بار غلط طریقے سے بنایا ہے۔ مزید <xliff:g id="number">%d</xliff:g> ناکام کوششوں کے بعد، آپ سے ایک ای میل اکاؤنٹ استعمال کرکے اپنا ٹیبلیٹ غیر مقفل کرنے کو کہا جائے گا۔\n\n دوبارہ <xliff:g id="number">%d</xliff:g> سیکنڈ میں کوشش کریں۔</string>
+    
+    <string name="kg_failed_attempts_almost_at_login" product="default">آپ نے غیر مقفل کرنے کا اپنا طرز <xliff:g id="number">%d</xliff:g> بار غلط طریقے سے بنایا ہے۔ مزید <xliff:g id="number">%d</xliff:g> ناکام کوششوں کے بعد، آپ سے ایک ای میل اکاؤنٹ استعمال کرکے اپنا فون غیر مقفل کرنے کو کہا جائے گا۔\n\n دوبارہ <xliff:g id="number">%d</xliff:g> سیکنڈ میں کوشش کریں۔</string>
+    
+    <string name="kg_text_message_separator" product="default">" \u2014 "</string>
+    
+    <string name="kg_reordering_delete_drop_target_text">ہٹائيں</string>
+
+    
+    <string name="safe_media_volume_warning" product="default">"والیوم محفوظ سطح سے بڑھائیں؟\nلمبے عرصے تک تیز والیوم پر سننے سے آپ کی سماعت خراب ہوسکتی ہے۔"</string>
+
+    
+    <string name="continue_to_enable_accessibility">رسائی کی حالت فعال کرنے کیلئے دو انگلیوں سے دبائے رکھیں۔</string>
+    
+    <string name="accessibility_enabled">رسائی کی حالت فعال کردی گئی۔</string>
+    
+    <string name="enable_accessibility_canceled">رسائی کی حالت منسوخ کردی گئی۔</string>
+    
+    <string name="user_switched">حالیہ صارف <xliff:g id="name" example="Bob">%1$s</xliff:g>۔</string>
+    
+    <string name="owner_name" msgid="3879126011135546571">مالک</string>
+    
+    <string name="storage_phone">فون اسٹوریج</string>
+    
+    <string name="storage_external_usb">خارجی ‏USB‏ اسٹوریج</string>
+
+    <string name="zz_keyguard_accessibility_voice_unlock">آواز کو غیرمقفل کرنا۔</string>
+</resources>

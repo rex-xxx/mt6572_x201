@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- M: [SystemUI] Support Application Guide. -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/switch_default_sim" >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="184dip"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/ApplicationGuideTitleText"
+            android:id="@+id/applicationGuideTitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/application_guide_title" />
+
+        <TextView
+            style="@style/ApplicationGuideText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:text="@string/application_guide_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/appGuideBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="24dp"
+        android:layout_marginRight="24dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="@string/OK"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/app_guide_button_bg" />
+
+</FrameLayout>
