@@ -1,0 +1,27 @@
+#This files aim to provide the alias facilities
+animation -webkit-animation
+animation-delay -webkit-animation-delay
+animation-direction -webkit-animation-direction
+animation-duration -webkit-animation-duration
+animation-fill-mode -webkit-animation-fill-mode
+animation-iteration-count -webkit-animation-iteration-count
+animation-name -webkit-animation-name
+animation-play-state -webkit-animation-play-state
+animation-timing-function -webkit-animation-timing-function
+transform -webkit-transform
+transform-origin -webkit-transform-origin
+transform-origin-x -webkit-transform-origin-x
+transform-origin-y -webkit-transform-origin-y
+transform-origin-z -webkit-transform-origin-z
+transform-style -webkit-transform-style
+transition -webkit-transition
+transition-delay -webkit-transition-delay
+transition-duration -webkit-transition-duration
+transition-property -webkit-transition-property
+transition-timing-function -webkit-transition-timing-function
+backface-visibility -webkit-backface-visibility
+perspective -webkit-perspective
+perspective-origin -webkit-perspective-origin
+perspective-origin-x -webkit-perspective-origin-x
+perspective-origin-y -webkit-perspective-origin-y
+overflow-scrolling -webkit-overflow-scrolling

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="hello">Hello World, NfcDemo!</string>
+    <string name="app_name">NfcDemo</string>
+    <!-- Reader -->
+    <string name="reader">Reader Tests</string>
+    <string name="type">Type</string>
+    <string name="command">Command</string>
+    <string name="result">Result</string>
+    <string name="empty"> </string>
+    <!-- Type -->
+    <string name="reader_type_felica">Felica (type3)</string>
+    <string name="reader_type_14443a">14443A</string>
+    <string name="reader_type_type1">Topaz (type1)</string>
+    <string name="reader_type_15693">15693</string>
+    <string name="reader_type_p2p_i">P2P-Initiator</string>
+    <string name="reader_type_p2p_t">P2P-Target</string>
+    <!-- command -->
+    <string name="polling_loop">Polling Loop</string>
+    <string name="single_polling">Single Polling</string>
+    <!-- button-->
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+
+    <string name="times">Loops</string>
+    <string name="default_times">1</string>
+
+    <!-- Card Mode-->
+	<string name="card_mode">Card Mode Tests</string>
+    <string name="card_mode_type_A">Type A</string>
+    <string name="card_mode_type_B">Type B</string>
+    <string name="card_mode_type_AB">Type A + Type B</string>
+
+    <!-- P2P Test -->
+    <string name="p2p">P2P Tests</string>
+    <string name="role">P2P Role</string>
+    <string name="role_initiator">Initiator</string>
+    <string name="role_target">Target</string>
+    <string name="data_length">Data Length</string>
+    <string name="data_length_2">2 Bytes</string>
+    <string name="data_length_32">32 Bytes</string>
+    <string name="data_length_64">64 Bytes</string>
+    <string name="data_length_128">128 Bytes</string>
+    <string name="data_length_190">190 Bytes</string>
+    
+    <!-- firmware info -->
+    <string name="firmware_info">Firmware Info.</string>
+    <string name="polling_info">Polling Info.</string>
+
+    <!-- Field Detect-->
+    <string name="field_detect">Field Detect Info.</string>
+    <string name="period">Period</string>
+    <string name="period_format">CountDownTimer(Min.)</string>
+    <string name="countdown_default">1</string>
+
+	<!-- NFC Tests-->
+	<string name="nfc_tests">NFC Tests</string>
+	<string name="initiator_loops_default">50</string>
+    
+</resources>

@@ -1,0 +1,6 @@
+CONSOLE MESSAGE: line 10: Uncaught ReferenceError: description is not defined
+layer at (0,0) size 320x483
+  RenderView at (0,0) size 320x483
+layer at (0,0) size 320x8
+  RenderBlock {HTML} at (0,0) size 320x8
+    RenderBody {BODY} at (8,8) size 304x0

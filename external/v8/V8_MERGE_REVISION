@@ -1,0 +1,6 @@
+Version 3.15.5
+
+Checked out from 
+svn checkout http://v8.googlecode.com/svn/trunk@r13044 ~/v8_13044
+
+Also reverted the change for es5_readonly

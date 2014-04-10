@@ -1,0 +1,12 @@
+layer at (0,0) size 320x483
+  RenderView at (0,0) size 320x483
+layer at (0,0) size 320x483
+  RenderBlock {HTML} at (0,0) size 320x483
+    RenderBody {BODY} at (8,25) size 304x433
+layer at (33,25) size 254x100
+  RenderBlock {DIV} at (25,0) size 254x100 [color=#FFFFFF] [bgcolor=#800000]
+    RenderBlock {DIV} at (50,50) size 154x400 [bgcolor=#808080]
+      RenderText {#text} at (0,0) size 143x57
+        text run at (0,0) width 143: "This content should"
+        text run at (0,19) width 126: "be masked with a"
+        text run at (0,38) width 71: "soft glow."

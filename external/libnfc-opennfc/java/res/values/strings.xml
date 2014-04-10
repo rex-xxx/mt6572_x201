@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2011 Inside Secure, All Rights Reserved. Licensed under 
+	the Apache License, Version 2.0 (the "License"); you may not use this file 
+	except in compliance with the License. You may obtain a copy of the License 
+	at http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable 
+	law or agreed to in writing, software distributed under the License is distributed 
+	on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either 
+	express or implied. See the License for the specific language governing permissions 
+	and limitations under the License. -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="app_name">OpenNFCExt Service</string>
+	<string name="perm_desc_nfc_controller">Allows the application to control the NFC controller</string>
+	<string name="perm_desc_secure_element">Allows the application to have access to Secure Elements connected 
+	    to the NFC controller</string>
+	<string name="perm_desc_firmware_update">Allows the application to update the NFC controller firmware</string>
+	<string name="perm_desc_cardEmulation">Allows the application to enable card emulation</string>
+	<string name="perm_desc_virtualTag">Allows the application to enable virtual tag</string>
+	<string name="perm_desc_routing_table">Allows the application to have access to the NFC controller routing table</string>
+</resources>

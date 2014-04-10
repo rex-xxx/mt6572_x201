@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    
+<!--  -->
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textSize="20dp"
+	    android:textColor="#FF00FF"
+	    android:text="@string/empty"/>
+
+    <LinearLayout 
+        android:orientation="vertical"
+        android:padding="2dp"
+        android:background="@drawable/corners_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@drawable/corners_bg_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">   
+        
+	    <Button android:id="@+id/reader" 
+	            android:layout_width="match_parent" 
+	            android:layout_height="wrap_content" 
+	            android:text="@string/reader" 
+	            android:textSize="20dip"/>
+
+        <TextView
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:textSize="20dp"
+        		android:textColor="#FF00FF"
+        		android:text="@string/empty"/>
+        
+	    <Button android:id="@+id/card_mode" 
+	            android:layout_width="match_parent" 
+	            android:layout_height="wrap_content" 
+	            android:text="@string/card_mode" 
+	            android:textSize="20dip"/>   
+
+        <TextView
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:textSize="20dp"
+        		android:textColor="#FF00FF"
+        		android:text="@string/empty"/>
+
+	    <Button android:id="@+id/p2p" 
+	            android:layout_width="match_parent" 
+	            android:layout_height="wrap_content" 
+	            android:text="@string/p2p" 
+	            android:textSize="20dip"/>  
+
+    </LinearLayout>     
+    </LinearLayout>             
+
+
+</LinearLayout>
+
+
+

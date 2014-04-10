@@ -1,0 +1,24 @@
+layer at (0,0) size 320x1238
+  RenderView at (0,0) size 320x483
+layer at (0,0) size 320x1238
+  RenderBlock {HTML} at (0,0) size 320x1238
+    RenderBody {BODY} at (8,8) size 304x1222
+      RenderBlock {P} at (0,0) size 304x114
+        RenderText {#text} at (0,0) size 301x114
+          text run at (0,0) width 242: "The purpose of this test case is to"
+          text run at (0,19) width 290: "illustrate the legacy behavior of -webkit-"
+          text run at (0,38) width 254: "border-image. The specified border"
+          text run at (0,57) width 294: "widths actually end up becoming the real"
+          text run at (0,76) width 301: "border widths. The border-image property"
+          text run at (0,95) width 249: "in the specification doesn't do this."
+      RenderBlock (anonymous) at (0,130) size 304x1092
+        RenderBlock {DIV} at (10,10) size 252x252 [border: (42px none #000000) (60px none #000000) (42px none #000000)]
+        RenderText {#text} at (0,0) size 0x0
+        RenderBlock {DIV} at (10,282) size 252x252 [border: (42px none #000000) (60px none #000000) (42px none #000000)]
+        RenderText {#text} at (272,529) size 4x19
+          text run at (272,529) width 4: " "
+        RenderBR {BR} at (0,0) size 0x0
+        RenderBlock {DIV} at (10,558) size 252x252 [border: (42px none #000000) (60px none #000000) (42px none #000000)]
+        RenderText {#text} at (0,0) size 0x0
+        RenderBlock {DIV} at (10,830) size 252x252 [border: (42px none #000000) (60px none #000000) (42px none #000000)]
+        RenderText {#text} at (0,0) size 0x0

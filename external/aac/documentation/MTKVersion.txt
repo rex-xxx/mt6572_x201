@@ -1,0 +1,16 @@
+20120809 - V2.4.4.2
+========================================================================
+1.Modify aacDecoder_GetLibInfo() for potential memory overwriteen probelm.
+
+2.Enhance error recovery for 01._«¢ÂÄ¶®µX(¤p¤k«Äª©)_44100_C5.1.aac (ADTS) @ frame 73
+
+  The consumed bit length is smaller than frame lenth, but decode ok
+  
+  For better error recovery, do not return error .
+
+20121108 - V2.4.4.3
+========================================================================
+1.add aacDecoder_Reset() for OMX flush audio 
+2.Sync android latest code for AACDEC_FLUSH handling, change coefficient clear timing
+  FDKmemclear(pAacDecoderChannelInfo->pSpectralCoefficient)
+3.LD-AAC support

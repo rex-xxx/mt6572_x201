@@ -1,0 +1,26 @@
+=========================================================================
+==  NOTICE file for use with the Apache License, Version 2.0,          ==
+==  for the distribution of the Open NFC software stack.               ==
+=========================================================================
+
+ Open NFC(TM)
+ Copyright (c) 2007-2011 Inside Secure, All Rights Reserved.
+
+ Picopass, Open NFC, the Open NFC logo, Wave-Me, the Wave-Me logo, Microread and
+ Securead are trademarks or registered trademarks of Inside Secure.
+
+ Other brand, product and company names mentioned herein may be trademarks,
+ registered trademarks or trade names of their respective owners.
+
+ The code covered by this NOTICE file is the implementation of the Open NFC
+ Hardware Abstraction Layer for the Microread chips and the Securead chips.
+
+ Inside Secure S.A. has intellectual property rights relating to technology
+ embodied in the code delivered with this NOTICE file. In particular,
+ and without limitation, these intellectual property rights may include one
+ or more U.S. patents or pending patent applications in the U.S.
+ and in other countries. Inside Secure S.A. does not grant you any license
+ to use, reproduce or distribute any products covered by these intellectual
+ property rights except for the usage, reproduction or distribution of
+ the complete code delivered with this NOTICE file in accordance
+ with Apache License version 2.0.
