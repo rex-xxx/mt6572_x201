@@ -590,8 +590,9 @@ endif
 check-modem:
 ifeq ($(filter generic banyan_addon banyan_addon_x86,$(PROJECT)),)
 ifneq ($(MTK_PLATFORM),MT8320)
--include $(MTK_DEPENDENCY_OUTPUT)/./check-modem.dep
-check-modem: $(MTK_DEPENDENCY_OUTPUT)/check-modem.dep
+# Uncomment the next two lines if check modem dependency is required
+# -include $(MTK_DEPENDENCY_OUTPUT)/./check-modem.dep
+# check-modem: $(MTK_DEPENDENCY_OUTPUT)/check-modem.dep
 endif
 endif
 $(MTK_DEPENDENCY_OUTPUT)/check-modem.dep: PRIVATE_CHK_MD_TOOL := mediatek/build/tools/checkMD.pl
