@@ -90,7 +90,7 @@ if ( ! -e $md2_secro )
 }
 print " md2_secro = $md2_secro\n";
 
-# Comment out the line below to avoid SECRO dependency failure
+# Results in dependency check failure for secro.img during check-modem process
 # open(SECRO_FH, ">$secro_ini") or die "open file error $secro_ini\n";
 
 print SECRO_FH "SECRO_CFG = $secro_cfg\n";
@@ -132,9 +132,10 @@ if (${secro_ac} eq "yes")
 	PrintDependency($secro_ini);
 	PrintDependency("$sml_dir/SML_ENCODE_KEY.ini");
 	PrintDependency($secro_tool);
-# Comment out below line to avoid SECRO dependency error
+# Results in dependency check failure for secro.img during check-modem process
 #	system("./$secro_tool $secro_ini $sml_dir/SML_ENCODE_KEY.ini $secro_out") == 0 or die "SECRO POST Tool return error\n";
-# Following lines added to avoid dependency check
+
+# Adds fake or copied secro.img to the directory to bypass dependency check
 	print SECRO_FH "Create fake secro.img or copy existing to fulfill dependencies: cp mediatek/config/mt6572/secro.img out/target/$prj/secro.img\n";
-	system("cp mediatek/config/mt6572/secro.img out/target/$prj/secro.img") ==  or die "Failed to create/copy secro.img\n";
+	system("cp mediatek/config/mt6572/secro.img out/target/$prj/secro.img") == 0 or die "Failed to create/copy secro.img\n";
 }
