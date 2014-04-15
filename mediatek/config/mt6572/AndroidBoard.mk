@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES += $(LOCAL_PATH)/mtk-kpd.kl:system/usr/keylayout/mtk-kpd.kl \
                       $(LOCAL_PATH)/init.protect.rc:root/init.protect.rc \
                       $(LOCAL_PATH)/ACCDET.kl:system/usr/keylayout/ACCDET.kl \
                       $(LOCAL_PATH)/partition_permission.sh:system/etc/partition_permission.sh \
+	 	      $(LOCAL_PATH)/boot_logo:system/media/images/boot_logo \
                       $(LOCAL_PATH)/fstab:root/fstab
 
 ifeq ($(MTK_KERNEL_POWER_OFF_CHARGING),yes)
