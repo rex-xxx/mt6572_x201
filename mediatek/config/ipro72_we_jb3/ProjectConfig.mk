@@ -1329,8 +1329,8 @@ WIFI_WEP_KEY_ID_SET=no
 #  no, hide WPS pin form ap item.
 WIFI_WPS_PIN_FROM_AP=no
 
-# Define which modem will be used.
-CUSTOM_MODEM=ipro72_we_jb3_hspa
+# Define which modem will be used. Comment out to avoid build error
+# CUSTOM_MODEM=ipro72_we_jb3_hspa
 
 # Set the option to Yes to force to send SCRI message during the screen is on if the network doesn't support R8 Fast Dormancy.
 MTK_FD_FORCE_REL_SUPPORT=yes
